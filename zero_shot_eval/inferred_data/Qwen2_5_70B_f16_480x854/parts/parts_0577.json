@@ -1,0 +1,17 @@
+{
+    "question": "What part of the paint bucket is removed?",
+    "options": [
+        "The base of the paint bucket is removed.",
+        "The handle of the paint bucket is removed.",
+        "The spout of the paint bucket is removed.",
+        "The cover of the paint bucket is removed.",
+        "The rim of the paint bucket is removed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the paint bucket is removed? Choose **only one** option from the following list.\nOptions:\n(A) The base of the paint bucket is removed.\n(B) The handle of the paint bucket is removed.\n(C) The spout of the paint bucket is removed.\n(D) The cover of the paint bucket is removed.\n(E) The rim of the paint bucket is removed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The cover of the paint bucket is removed."
+    },
+    "correct_idx": [
+        3
+    ]
+}

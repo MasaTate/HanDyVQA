@@ -1,0 +1,17 @@
+{
+    "question": "What part of the loquat is washed?",
+    "options": [
+        "Only the stem of the loquat is washed.",
+        "The inner seed of the loquat is washed.",
+        "The entire outer part of the Loquat is washed. ",
+        "Just the bottom tip of the loquat is washed.",
+        "The leaves surrounding the loquat are washed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the loquat is washed? Choose **only one** option from the following list.\nOptions:\n(A) Only the stem of the loquat is washed.\n(B) The inner seed of the loquat is washed.\n(C) The entire outer part of the Loquat is washed. \n(D) Just the bottom tip of the loquat is washed.\n(E) The leaves surrounding the loquat are washed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The entire outer part of the Loquat is washed."
+    },
+    "correct_idx": [
+        2
+    ]
+}

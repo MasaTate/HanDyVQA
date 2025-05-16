@@ -1,0 +1,17 @@
+{
+    "question": "What part of the laptop is cleaned?",
+    "options": [
+        "The screen bezel of the laptop is cleaned.",
+        "The keyboard area of the laptop is cleaned.",
+        "The trackpad surface of the laptop is cleaned.",
+        "The left side port of the laptop is cleaned.",
+        "The back panel of the laptop is cleaned."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the laptop is cleaned? Choose **only one** option from the following list.\nOptions:\n(A) The screen bezel of the laptop is cleaned.\n(B) The keyboard area of the laptop is cleaned.\n(C) The trackpad surface of the laptop is cleaned.\n(D) The left side port of the laptop is cleaned.\n(E) The back panel of the laptop is cleaned.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The back panel of the laptop is cleaned."
+    },
+    "correct_idx": [
+        4
+    ]
+}

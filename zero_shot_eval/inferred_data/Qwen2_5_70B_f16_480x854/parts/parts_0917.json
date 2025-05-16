@@ -1,0 +1,17 @@
+{
+    "question": "What part of the engine is placed with the spanner?",
+    "options": [
+        "The camshaft of the engine is placed with the spanner.",
+        "The oil filter of the engine is placed with the spanner.",
+        "The drive belt of the engine is placed with the spanner.",
+        "The spark plugs of the engine are placed with the spanner.",
+        "The fuel injectors of the engine are placed with the spanner."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the engine is placed with the spanner? Choose **only one** option from the following list.\nOptions:\n(A) The camshaft of the engine is placed with the spanner.\n(B) The oil filter of the engine is placed with the spanner.\n(C) The drive belt of the engine is placed with the spanner.\n(D) The spark plugs of the engine are placed with the spanner.\n(E) The fuel injectors of the engine are placed with the spanner.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The spark plugs of the engine are placed with the spanner."
+    },
+    "correct_idx": [
+        2
+    ]
+}

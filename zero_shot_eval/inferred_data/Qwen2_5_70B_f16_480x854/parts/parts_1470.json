@@ -1,0 +1,17 @@
+{
+    "question": "What part of the tap is closed?",
+    "options": [
+        "The faucet spout is closed.",
+        "The base of the tap is closed.",
+        "The upper valve of the tap is closed.",
+        "The tap handle is closed.",
+        "The tap's directional lever is closed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the tap is closed? Choose **only one** option from the following list.\nOptions:\n(A) The faucet spout is closed.\n(B) The base of the tap is closed.\n(C) The upper valve of the tap is closed.\n(D) The tap handle is closed.\n(E) The tap's directional lever is closed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The tap handle is closed."
+    },
+    "correct_idx": [
+        3
+    ]
+}

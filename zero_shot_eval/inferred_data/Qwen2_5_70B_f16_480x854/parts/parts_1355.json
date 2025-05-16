@@ -1,0 +1,17 @@
+{
+    "question": "What part of the screwing machine is placed on the machine?",
+    "options": [
+        "The trigger of the screwing machine is placed on the machine.",
+        "The body casing of the screwing machine is placed on the machine.",
+        "The battery compartment of the screwing machine is placed on the machine.",
+        "The drill bits of the screwing machine is placed on the machine.",
+        "The body of the screwing machine is placed on the machine."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the screwing machine is placed on the machine? Choose **only one** option from the following list.\nOptions:\n(A) The trigger of the screwing machine is placed on the machine.\n(B) The body casing of the screwing machine is placed on the machine.\n(C) The battery compartment of the screwing machine is placed on the machine.\n(D) The drill bits of the screwing machine is placed on the machine.\n(E) The body of the screwing machine is placed on the machine.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The body of the screwing machine is placed on the machine."
+    },
+    "correct_idx": [
+        3
+    ]
+}

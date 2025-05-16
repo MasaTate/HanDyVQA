@@ -1,0 +1,17 @@
+{
+    "question": "What part of the brick mold box is wiped?",
+    "options": [
+        "The bottom edge of the brick mold box is wiped.",
+        "The outside surface of the brick mold box is wiped.",
+        "The inside of the brick mold box is wiped.",
+        "The corners of the brick mold box are wiped.",
+        "The lid of the brick mold box is wiped."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the brick mold box is wiped? Choose **only one** option from the following list.\nOptions:\n(A) The bottom edge of the brick mold box is wiped.\n(B) The outside surface of the brick mold box is wiped.\n(C) The inside of the brick mold box is wiped.\n(D) The corners of the brick mold box are wiped.\n(E) The lid of the brick mold box is wiped.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The inside of the brick mold box is wiped."
+    },
+    "correct_idx": [
+        2
+    ]
+}

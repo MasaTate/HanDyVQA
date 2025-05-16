@@ -1,0 +1,17 @@
+{
+    "question": "What part of the wallpaper is unfolded?",
+    "options": [
+        "The rolled part of the wallpaper is unfolded.",
+        "The adhesive strip of the wallpaper is unfolded.",
+        "The top edge of the wallpaper is unfolded.",
+        "The corner section of the wallpaper is unfolded.",
+        "The lower fringe of the wallpaper is unfolded."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the wallpaper is unfolded? Choose **only one** option from the following list.\nOptions:\n(A) The rolled part of the wallpaper is unfolded.\n(B) The adhesive strip of the wallpaper is unfolded.\n(C) The top edge of the wallpaper is unfolded.\n(D) The corner section of the wallpaper is unfolded.\n(E) The lower fringe of the wallpaper is unfolded.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The top edge of the wallpaper is unfolded."
+    },
+    "correct_idx": [
+        0
+    ]
+}

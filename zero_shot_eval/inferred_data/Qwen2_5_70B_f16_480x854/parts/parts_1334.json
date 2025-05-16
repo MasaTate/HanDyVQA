@@ -1,0 +1,17 @@
+{
+    "question": "What part of the vacuum cleaner is unreelled?",
+    "options": [
+        "The hose of the vacuum cleaner is unreelled.",
+        "The brush of the vacuum cleaner is unreelled.",
+        "The handle of the vacuum cleaner is unreelled.",
+        "The cord of the vacuum cleaner is unreelled.",
+        "The plug of the vacuum cleaner is unreelled."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the vacuum cleaner is unreelled? Choose **only one** option from the following list.\nOptions:\n(A) The hose of the vacuum cleaner is unreelled.\n(B) The brush of the vacuum cleaner is unreelled.\n(C) The handle of the vacuum cleaner is unreelled.\n(D) The cord of the vacuum cleaner is unreelled.\n(E) The plug of the vacuum cleaner is unreelled.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The cord of the vacuum cleaner is unreeled."
+    },
+    "correct_idx": [
+        4
+    ]
+}

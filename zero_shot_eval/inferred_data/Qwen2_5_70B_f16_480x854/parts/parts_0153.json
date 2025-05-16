@@ -1,0 +1,17 @@
+{
+    "question": "What part of the drum is tuned?",
+    "options": [
+        "The top edge of the drum shell is tuned.",
+        "The inner lining of the drum is tuned.",
+        "The rim of the drumhead is tuned.",
+        "The floor tom of the drum is tuned.",
+        "The bass pedal of the drum is tuned."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the drum is tuned? Choose **only one** option from the following list.\nOptions:\n(A) The top edge of the drum shell is tuned.\n(B) The inner lining of the drum is tuned.\n(C) The rim of the drumhead is tuned.\n(D) The floor tom of the drum is tuned.\n(E) The bass pedal of the drum is tuned.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The rim of the drumhead is tuned."
+    },
+    "correct_idx": [
+        3
+    ]
+}

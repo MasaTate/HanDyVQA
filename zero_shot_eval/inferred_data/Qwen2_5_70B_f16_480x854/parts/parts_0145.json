@@ -1,0 +1,17 @@
+{
+    "question": "What part of the woolen thread is pulled?",
+    "options": [
+        "The working yarn of the woolen thread is pulled.",
+        "The twisted end of the woolen thread is pulled.",
+        "The decorative fringe of the woolen thread is pulled.",
+        "The knot in the woolen thread is pulled.",
+        "The unspooled section of the woolen thread is pulled."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the woolen thread is pulled? Choose **only one** option from the following list.\nOptions:\n(A) The working yarn of the woolen thread is pulled.\n(B) The twisted end of the woolen thread is pulled.\n(C) The decorative fringe of the woolen thread is pulled.\n(D) The knot in the woolen thread is pulled.\n(E) The unspooled section of the woolen thread is pulled.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The unspooled section of the woolen thread is pulled."
+    },
+    "correct_idx": [
+        0
+    ]
+}

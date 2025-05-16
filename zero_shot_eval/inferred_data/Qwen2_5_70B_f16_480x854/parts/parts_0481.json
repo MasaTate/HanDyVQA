@@ -1,0 +1,17 @@
+{
+    "question": "What part of the banana tree is hit?",
+    "options": [
+        "The tip of the banana tree leaf is hit.",
+        "The base near the trunk of the banana tree leaf is hit.",
+        "The right edge of the banana tree leaf is hit.",
+        "The middle section of the banana tree leaf is hit.",
+        "The left edge of the banana tree leaf is hit."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the banana tree is hit? Choose **only one** option from the following list.\nOptions:\n(A) The tip of the banana tree leaf is hit.\n(B) The base near the trunk of the banana tree leaf is hit.\n(C) The right edge of the banana tree leaf is hit.\n(D) The middle section of the banana tree leaf is hit.\n(E) The left edge of the banana tree leaf is hit.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The middle section of the banana tree leaf is hit."
+    },
+    "correct_idx": [
+        3
+    ]
+}

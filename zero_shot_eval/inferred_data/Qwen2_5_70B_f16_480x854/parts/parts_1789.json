@@ -1,0 +1,17 @@
+{
+    "question": "What part of the shoe is sewn?",
+    "options": [
+        "The tongue section of the shoe is sewn.",
+        "The laces area of the shoe is sewn.",
+        "The sole part of the shoe is sewn.",
+        "The heel cap of the shoe is sewn.",
+        "The arch support of the shoe is sewn."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the shoe is sewn? Choose **only one** option from the following list.\nOptions:\n(A) The tongue section of the shoe is sewn.\n(B) The laces area of the shoe is sewn.\n(C) The sole part of the shoe is sewn.\n(D) The heel cap of the shoe is sewn.\n(E) The arch support of the shoe is sewn.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The sole part of the shoe is sewn."
+    },
+    "correct_idx": [
+        2
+    ]
+}

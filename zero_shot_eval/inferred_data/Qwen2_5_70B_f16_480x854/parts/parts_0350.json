@@ -1,0 +1,17 @@
+{
+    "question": "What part of the tire is touched?",
+    "options": [
+        "The tread area of the tire is touched.",
+        "The valve stem area of the tire is touched.",
+        "The rim part of the tire touched.",
+        "The hubcap surrounding the tire is touched.",
+        "The cover of the tire is touched. "
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the tire is touched? Choose **only one** option from the following list.\nOptions:\n(A) The tread area of the tire is touched.\n(B) The valve stem area of the tire is touched.\n(C) The rim part of the tire touched.\n(D) The hubcap surrounding the tire is touched.\n(E) The cover of the tire is touched. \n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The tread area of the tire is touched."
+    },
+    "correct_idx": [
+        2
+    ]
+}

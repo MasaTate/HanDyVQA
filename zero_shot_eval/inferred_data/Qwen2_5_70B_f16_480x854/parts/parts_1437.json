@@ -1,0 +1,17 @@
+{
+    "question": "What part of the squid on the pan is stirred?",
+    "options": [
+        "The entire squid on the pan is stirred.",
+        "Only the tentacles of the squid on the pan are stirred.",
+        "Just the head of the squid on the pan is stirred.",
+        "Just the right side of the squid on the pan is stirred.",
+        "Only the left side of the squid on the pan is stirred."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the squid on the pan is stirred? Choose **only one** option from the following list.\nOptions:\n(A) The entire squid on the pan is stirred.\n(B) Only the tentacles of the squid on the pan are stirred.\n(C) Just the head of the squid on the pan is stirred.\n(D) Just the right side of the squid on the pan is stirred.\n(E) Only the left side of the squid on the pan is stirred.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The entire squid on the pan is stirred."
+    },
+    "correct_idx": [
+        0
+    ]
+}

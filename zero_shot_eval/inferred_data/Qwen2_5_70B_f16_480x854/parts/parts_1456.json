@@ -1,0 +1,17 @@
+{
+    "question": "What part of the engine is cleaned?",
+    "options": [
+        "The side covers of the engine are being cleaned.",
+        "The underside of the engine is being cleaned.",
+        "The front grille of the engine is being cleaned.",
+        "The top of the engine block is being cleaned.",
+        "The exhaust manifold of the engine is being cleaned."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the engine is cleaned? Choose **only one** option from the following list.\nOptions:\n(A) The side covers of the engine are being cleaned.\n(B) The underside of the engine is being cleaned.\n(C) The front grille of the engine is being cleaned.\n(D) The top of the engine block is being cleaned.\n(E) The exhaust manifold of the engine is being cleaned.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The top of the engine block is being cleaned."
+    },
+    "correct_idx": [
+        1
+    ]
+}

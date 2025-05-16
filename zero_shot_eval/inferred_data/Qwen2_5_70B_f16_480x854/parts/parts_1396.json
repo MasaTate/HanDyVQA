@@ -1,0 +1,17 @@
+{
+    "question": "What part of the motorcycle is loosened?",
+    "options": [
+        "The exhaust pipe of the motorcycle is loosened.",
+        "The headlight bracket of the motorcycle is loosened.",
+        "The nail of the motorcycle is loosened.",
+        "The threaded nut of the motorcycle is loosened.",
+        "The pedal part of the motorcycle is loosened."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the motorcycle is loosened? Choose **only one** option from the following list.\nOptions:\n(A) The exhaust pipe of the motorcycle is loosened.\n(B) The headlight bracket of the motorcycle is loosened.\n(C) The nail of the motorcycle is loosened.\n(D) The threaded nut of the motorcycle is loosened.\n(E) The pedal part of the motorcycle is loosened.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The threaded nut of the motorcycle is loosened."
+    },
+    "correct_idx": [
+        3
+    ]
+}

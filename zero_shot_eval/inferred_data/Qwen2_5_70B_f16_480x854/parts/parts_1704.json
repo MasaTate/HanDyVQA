@@ -1,0 +1,17 @@
+{
+    "question": "What part of the cake is sliced?",
+    "options": [
+        "The middle section of the cake is sliced.",
+        "The left edge of the cake is sliced.",
+        "The top layer of the cake is sliced.",
+        "The bottom crust of the cake is sliced.",
+        "The right part of the cake is sliced."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the cake is sliced? Choose **only one** option from the following list.\nOptions:\n(A) The middle section of the cake is sliced.\n(B) The left edge of the cake is sliced.\n(C) The top layer of the cake is sliced.\n(D) The bottom crust of the cake is sliced.\n(E) The right part of the cake is sliced.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The right part of the cake is sliced."
+    },
+    "correct_idx": [
+        4
+    ]
+}

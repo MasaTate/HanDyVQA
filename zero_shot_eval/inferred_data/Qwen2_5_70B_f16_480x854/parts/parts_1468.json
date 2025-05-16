@@ -1,0 +1,17 @@
+{
+    "question": "What part of the fabric is pierced?",
+    "options": [
+        "The lower edge of the fabric is pierced.",
+        "The upper part of the fabric is pierced.",
+        "The center section of the fabric is pierced.",
+        "The outer border of the fabric is pierced.",
+        "The seam of the fabric is pierced."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the fabric is pierced? Choose **only one** option from the following list.\nOptions:\n(A) The lower edge of the fabric is pierced.\n(B) The upper part of the fabric is pierced.\n(C) The center section of the fabric is pierced.\n(D) The outer border of the fabric is pierced.\n(E) The seam of the fabric is pierced.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The upper part of the fabric is pierced."
+    },
+    "correct_idx": [
+        1
+    ]
+}

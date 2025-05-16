@@ -1,0 +1,17 @@
+{
+    "question": "What part of the wool is wrapped?",
+    "options": [
+        "The bottom edge of the wool is wrapped.",
+        "The center section of the wool is wrapped.",
+        "The upper part of the wool is wrapped.",
+        "The left side of the wool is wrapped.",
+        "The tip of the wool is wrapped."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the wool is wrapped? Choose **only one** option from the following list.\nOptions:\n(A) The bottom edge of the wool is wrapped.\n(B) The center section of the wool is wrapped.\n(C) The upper part of the wool is wrapped.\n(D) The left side of the wool is wrapped.\n(E) The tip of the wool is wrapped.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The tip of the wool is wrapped."
+    },
+    "correct_idx": [
+        2
+    ]
+}

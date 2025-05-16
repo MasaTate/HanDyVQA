@@ -1,0 +1,17 @@
+{
+    "question": "What part of the onion is picked up?",
+    "options": [
+        "The outer skin of the onion is picked up.",
+        "The center of the onion layers is picked up.",
+        "The green shoots of the onion plant are picked up.",
+        "The root tip of the onion bulb is picked up.",
+        "The top part of the onion stem is picked up."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the onion is picked up? Choose **only one** option from the following list.\nOptions:\n(A) The outer skin of the onion is picked up.\n(B) The center of the onion layers is picked up.\n(C) The green shoots of the onion plant are picked up.\n(D) The root tip of the onion bulb is picked up.\n(E) The top part of the onion stem is picked up.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The root tip of the onion bulb is picked up."
+    },
+    "correct_idx": [
+        3
+    ]
+}

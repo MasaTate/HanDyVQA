@@ -1,0 +1,17 @@
+{
+    "question": "What part of the flask is taken?",
+    "options": [
+        "The base and the spout of the flask is taken.",
+        "The neck and the bottom rim of the flask is taken.",
+        "The body and the lid of the flask is taken.",
+        "The top edge and the handle of the flask is taken.",
+        "The bottom cap and the side panel of the flask is taken."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the flask is taken? Choose **only one** option from the following list.\nOptions:\n(A) The base and the spout of the flask is taken.\n(B) The neck and the bottom rim of the flask is taken.\n(C) The body and the lid of the flask is taken.\n(D) The top edge and the handle of the flask is taken.\n(E) The bottom cap and the side panel of the flask is taken.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The body and the lid of the flask is taken."
+    },
+    "correct_idx": [
+        2
+    ]
+}

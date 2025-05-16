@@ -1,0 +1,17 @@
+{
+    "question": "What part of the car lifter machine is pressed?",
+    "options": [
+        "The hydraulic compartment of the car lifter machine is pressed.",
+        "The base plate of the car lifter machine is pressed.",
+        "The control box of the car lifter machine is pressed.",
+        "The safety lever of the car lifter machine is pressed.",
+        "The power switch of the car lifter machine is pressed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the car lifter machine is pressed? Choose **only one** option from the following list.\nOptions:\n(A) The hydraulic compartment of the car lifter machine is pressed.\n(B) The base plate of the car lifter machine is pressed.\n(C) The control box of the car lifter machine is pressed.\n(D) The safety lever of the car lifter machine is pressed.\n(E) The power switch of the car lifter machine is pressed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The control box of the car lifter machine is pressed."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the bench saw is pressed?",
+    "options": [
+        "The switch button of the bench saw is pressed.",
+        "The blade guard of the bench saw is pressed.",
+        "The adjustment knob of the bench saw is pressed.",
+        "The base plate of the bench saw is pressed.",
+        "The shaft of the bench saw is pressed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the bench saw is pressed? Choose **only one** option from the following list.\nOptions:\n(A) The switch button of the bench saw is pressed.\n(B) The blade guard of the bench saw is pressed.\n(C) The adjustment knob of the bench saw is pressed.\n(D) The base plate of the bench saw is pressed.\n(E) The shaft of the bench saw is pressed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The switch button of the bench saw is pressed."
+    },
+    "correct_idx": [
+        0
+    ]
+}

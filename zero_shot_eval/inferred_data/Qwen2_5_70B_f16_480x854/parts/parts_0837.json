@@ -1,0 +1,17 @@
+{
+    "question": "What part of the pot is opened?",
+    "options": [
+        "The handle of the pot is opened.",
+        "The base of the pot is opened.",
+        "The rim of the pot is opened.",
+        "The lid of the pot is opened.",
+        "The side of the pot is opened."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the pot is opened? Choose **only one** option from the following list.\nOptions:\n(A) The handle of the pot is opened.\n(B) The base of the pot is opened.\n(C) The rim of the pot is opened.\n(D) The lid of the pot is opened.\n(E) The side of the pot is opened.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The lid of the pot is opened."
+    },
+    "correct_idx": [
+        3
+    ]
+}

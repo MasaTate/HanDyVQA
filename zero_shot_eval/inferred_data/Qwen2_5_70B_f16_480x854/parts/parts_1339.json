@@ -1,0 +1,17 @@
+{
+    "question": "What part of the piece of wood is drawn?",
+    "options": [
+        "The right side of the piece of wood is drawn.",
+        "The left edge of the piece of wood is drawn.",
+        "The top end of the piece of wood is drawn.",
+        "The bottom surface of the piece of wood is drawn.",
+        "The corner of the piece of wood is drawn."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the piece of wood is drawn? Choose **only one** option from the following list.\nOptions:\n(A) The right side of the piece of wood is drawn.\n(B) The left edge of the piece of wood is drawn.\n(C) The top end of the piece of wood is drawn.\n(D) The bottom surface of the piece of wood is drawn.\n(E) The corner of the piece of wood is drawn.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The corner of the piece of wood is drawn."
+    },
+    "correct_idx": [
+        0
+    ]
+}

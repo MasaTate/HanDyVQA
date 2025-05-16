@@ -1,0 +1,17 @@
+{
+    "question": "What part of the phone is scrolled?",
+    "options": [
+        "The top edge near the camera is scrolled.",
+        "The middle section of the screen are scrolled both vertically and horizontally.",
+        "The corners of the screen are scrolled both ways.",
+        "The bottom bezel area is scrolled up and down.",
+        "The left side of the phone is scrolled diagonally."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the phone is scrolled? Choose **only one** option from the following list.\nOptions:\n(A) The top edge near the camera is scrolled.\n(B) The middle section of the screen are scrolled both vertically and horizontally.\n(C) The corners of the screen are scrolled both ways.\n(D) The bottom bezel area is scrolled up and down.\n(E) The left side of the phone is scrolled diagonally.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The middle section of the screen are scrolled both vertically and horizontally."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the paper is cleaned?",
+    "options": [
+        "The edges of the paper are cleaned.",
+        "The corners of the paper are cleaned.",
+        "The back side of the paper is cleaned.",
+        "The surface of the papaer is cleaned.",
+        "The crease of the paper is cleaned."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the paper is cleaned? Choose **only one** option from the following list.\nOptions:\n(A) The edges of the paper are cleaned.\n(B) The corners of the paper are cleaned.\n(C) The back side of the paper is cleaned.\n(D) The surface of the papaer is cleaned.\n(E) The crease of the paper is cleaned.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The surface of the paper is cleaned."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the trowel is used to spread the clay?",
+    "options": [
+        "The tip of the trowel is used to spread the clay.",
+        "The back end of the trowel is used to spread the clay.",
+        "The center of the trowel is used to spread the clay.",
+        "The left edge of the trowel is used to spread the clay.",
+        "The handle of the trowel is used to spread the clay."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the trowel is used to spread the clay? Choose **only one** option from the following list.\nOptions:\n(A) The tip of the trowel is used to spread the clay.\n(B) The back end of the trowel is used to spread the clay.\n(C) The center of the trowel is used to spread the clay.\n(D) The left edge of the trowel is used to spread the clay.\n(E) The handle of the trowel is used to spread the clay.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The center of the trowel is used to spread the clay."
+    },
+    "correct_idx": [
+        3
+    ]
+}

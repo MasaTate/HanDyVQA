@@ -1,0 +1,17 @@
+{
+    "question": "What part of the light is switched off?",
+    "options": [
+        "The garden light is switched off.",
+        "The hallway light is switched off.",
+        "The spotlight in the living room is switched off.",
+        "The light of the next room is swiched off.",
+        "The the bathroom light is switched off.."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the light is switched off? Choose **only one** option from the following list.\nOptions:\n(A) The garden light is switched off.\n(B) The hallway light is switched off.\n(C) The spotlight in the living room is switched off.\n(D) The light of the next room is swiched off.\n(E) The the bathroom light is switched off..\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The hallway light is switched off."
+    },
+    "correct_idx": [
+        4
+    ]
+}

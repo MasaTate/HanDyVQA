@@ -1,0 +1,17 @@
+{
+    "question": "What part of the cupboard is closed?",
+    "options": [
+        "The bottom drawer of the cupboard is closed.",
+        "The side panels of the cupboard are closed.",
+        "The handle of the cupboard is closed.",
+        "The left and right doors of the cupboard are closed.",
+        "Only the left door of the cupboard is closed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the cupboard is closed? Choose **only one** option from the following list.\nOptions:\n(A) The bottom drawer of the cupboard is closed.\n(B) The side panels of the cupboard are closed.\n(C) The handle of the cupboard is closed.\n(D) The left and right doors of the cupboard are closed.\n(E) Only the left door of the cupboard is closed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) Only the left door of the cupboard is closed."
+    },
+    "correct_idx": [
+        3
+    ]
+}

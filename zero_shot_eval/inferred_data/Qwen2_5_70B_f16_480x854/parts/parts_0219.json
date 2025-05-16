@@ -1,0 +1,17 @@
+{
+    "question": "What part of the wall is being slotted with concrete?",
+    "options": [
+        "The top of the wall is being slotted with concrete.",
+        "The bottom edge of the wall is being slotted with concrete.",
+        "The center section of the wall is being slotted with concrete.",
+        "The side of the wall is being slotted with concrete.",
+        "The outer surface of the wall is being slotted with concrete."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the wall is being slotted with concrete? Choose **only one** option from the following list.\nOptions:\n(A) The top of the wall is being slotted with concrete.\n(B) The bottom edge of the wall is being slotted with concrete.\n(C) The center section of the wall is being slotted with concrete.\n(D) The side of the wall is being slotted with concrete.\n(E) The outer surface of the wall is being slotted with concrete.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The top of the wall is being slotted with concrete."
+    },
+    "correct_idx": [
+        3
+    ]
+}

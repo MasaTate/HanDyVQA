@@ -1,0 +1,17 @@
+{
+    "question": "What part of the water bottle is closed?",
+    "options": [
+        "The base of the water bottle was closed.",
+        "The side opening of the water bottle was closed.",
+        "The bottom cap of the water bottle was closed.",
+        "The middle section of the water bottle was closed.",
+        "The top lid of the water bottle was closed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the water bottle is closed? Choose **only one** option from the following list.\nOptions:\n(A) The base of the water bottle was closed.\n(B) The side opening of the water bottle was closed.\n(C) The bottom cap of the water bottle was closed.\n(D) The middle section of the water bottle was closed.\n(E) The top lid of the water bottle was closed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The top lid of the water bottle was closed."
+    },
+    "correct_idx": [
+        4
+    ]
+}

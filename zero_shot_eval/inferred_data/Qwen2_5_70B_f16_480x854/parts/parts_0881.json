@@ -1,0 +1,17 @@
+{
+    "question": "What part of the scrapbook is adjusted?",
+    "options": [
+        "The cover on the front of the scrapbook is adjusted.",
+        "The edges of the scrapbook are adjusted.",
+        "The spine of the scrapbook is adjusted.",
+        "The tabs on the side of the scrapbook are adjusted.",
+        "The pages in the middle of the scrapbook are adjusted."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the scrapbook is adjusted? Choose **only one** option from the following list.\nOptions:\n(A) The cover on the front of the scrapbook is adjusted.\n(B) The edges of the scrapbook are adjusted.\n(C) The spine of the scrapbook is adjusted.\n(D) The tabs on the side of the scrapbook are adjusted.\n(E) The pages in the middle of the scrapbook are adjusted.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The pages in the middle of the scrapbook are adjusted."
+    },
+    "correct_idx": [
+        4
+    ]
+}

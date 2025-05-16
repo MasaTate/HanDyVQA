@@ -1,0 +1,17 @@
+{
+    "question": "What part of the tape is pulled out?",
+    "options": [
+        "The grip tape of the tape is pulled out.",
+        "The roll of tape at the core is pulled out.",
+        "The blade tape of the tape is pulled out.",
+        "The end cap of the tape is pulled out.",
+        "The latch of the tape is pulled out."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the tape is pulled out? Choose **only one** option from the following list.\nOptions:\n(A) The grip tape of the tape is pulled out.\n(B) The roll of tape at the core is pulled out.\n(C) The blade tape of the tape is pulled out.\n(D) The end cap of the tape is pulled out.\n(E) The latch of the tape is pulled out.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The blade tape of the tape is pulled out."
+    },
+    "correct_idx": [
+        2
+    ]
+}

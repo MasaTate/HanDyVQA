@@ -1,0 +1,17 @@
+{
+    "question": "What part of the spray bottle is unscrewed?",
+    "options": [
+        "The bottom base of the spray bottle is unscrewed.",
+        "The trigger mechanism of the spray bottle is unscrewed.",
+        "The cap on the side of the spray bottle is unscrewed.",
+        "The nozzle attachment of the spray bottle is unscrewed.",
+        "The handle grip of the spray bottle is unscrewed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the spray bottle is unscrewed? Choose **only one** option from the following list.\nOptions:\n(A) The bottom base of the spray bottle is unscrewed.\n(B) The trigger mechanism of the spray bottle is unscrewed.\n(C) The cap on the side of the spray bottle is unscrewed.\n(D) The nozzle attachment of the spray bottle is unscrewed.\n(E) The handle grip of the spray bottle is unscrewed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The nozzle attachment of the spray bottle is unscrewed."
+    },
+    "correct_idx": [
+        3
+    ]
+}

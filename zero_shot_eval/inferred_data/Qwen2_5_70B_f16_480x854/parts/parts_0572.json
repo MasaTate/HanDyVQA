@@ -1,0 +1,17 @@
+{
+    "question": "What part of the tree is removed?",
+    "options": [
+        "The branches of the tree are removed.",
+        "The roots of the tree are removed.",
+        "The leaves of the tree are removed.",
+        "The bark of the tree is removed.",
+        "The stem of the tree is removed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the tree is removed? Choose **only one** option from the following list.\nOptions:\n(A) The branches of the tree are removed.\n(B) The roots of the tree are removed.\n(C) The leaves of the tree are removed.\n(D) The bark of the tree is removed.\n(E) The stem of the tree is removed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The branches of the tree are removed."
+    },
+    "correct_idx": [
+        4
+    ]
+}

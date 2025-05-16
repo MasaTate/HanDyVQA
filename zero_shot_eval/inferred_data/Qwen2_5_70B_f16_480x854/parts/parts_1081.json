@@ -1,0 +1,17 @@
+{
+    "question": "What part of the table is rubbed?",
+    "options": [
+        "The edge of the table is rubbed.",
+        "The underside of the table is rubbed.",
+        "The middle section of the table is rubbed.",
+        "The corner of the table is rubbed.",
+        "The legs of the table are rubbed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the table is rubbed? Choose **only one** option from the following list.\nOptions:\n(A) The edge of the table is rubbed.\n(B) The underside of the table is rubbed.\n(C) The middle section of the table is rubbed.\n(D) The corner of the table is rubbed.\n(E) The legs of the table are rubbed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The edge of the table is rubbed."
+    },
+    "correct_idx": [
+        0
+    ]
+}

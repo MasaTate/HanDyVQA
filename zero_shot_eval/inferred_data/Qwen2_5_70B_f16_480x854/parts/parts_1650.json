@@ -1,0 +1,17 @@
+{
+    "question": "What part of the laptop is wiped?",
+    "options": [
+        "The screen bezel around the laptop is wiped.",
+        "The area above the keyboard is wiped.",
+        "The bottom casing of the laptop is wiped.",
+        "The side ports of the laptop are wiped.",
+        "The both sides of the touchpad are wiped."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the laptop is wiped? Choose **only one** option from the following list.\nOptions:\n(A) The screen bezel around the laptop is wiped.\n(B) The area above the keyboard is wiped.\n(C) The bottom casing of the laptop is wiped.\n(D) The side ports of the laptop are wiped.\n(E) The both sides of the touchpad are wiped.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The both sides of the touchpad are wiped."
+    },
+    "correct_idx": [
+        4
+    ]
+}

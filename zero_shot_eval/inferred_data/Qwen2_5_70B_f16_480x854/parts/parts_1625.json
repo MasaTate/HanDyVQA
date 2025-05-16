@@ -1,0 +1,17 @@
+{
+    "question": "What part of the bike is the screwdriver inserted into?",
+    "options": [
+        "The screwdriver is inserted into the front wheel of the bike.",
+        "The screwdriver is inserted into the handlebars of the bike.",
+        "The screwdriver is inserted into the side of the seat of the bike.",
+        "The screwdriver is inserted into the chain of the bike.",
+        "The screwdriver is inserted into the bottom bracket of the bike."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the bike is the screwdriver inserted into? Choose **only one** option from the following list.\nOptions:\n(A) The screwdriver is inserted into the front wheel of the bike.\n(B) The screwdriver is inserted into the handlebars of the bike.\n(C) The screwdriver is inserted into the side of the seat of the bike.\n(D) The screwdriver is inserted into the chain of the bike.\n(E) The screwdriver is inserted into the bottom bracket of the bike.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The screwdriver is inserted into the side of the seat of the bike."
+    },
+    "correct_idx": [
+        2
+    ]
+}

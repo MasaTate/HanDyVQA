@@ -1,0 +1,17 @@
+{
+    "question": "What part of the speaker is adjusted?",
+    "options": [
+        "The power button or the connectivity port of the speaker adjusted.",
+        "The grille or the casing of the speaker adjusted.",
+        "The volume control or the equalizer of the speaker adjusted.",
+        "The bass boost switch or the treble dial of the speaker adjusted.",
+        "The backing panel or the rubber feet of the speaker adjusted."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the speaker is adjusted? Choose **only one** option from the following list.\nOptions:\n(A) The power button or the connectivity port of the speaker adjusted.\n(B) The grille or the casing of the speaker adjusted.\n(C) The volume control or the equalizer of the speaker adjusted.\n(D) The bass boost switch or the treble dial of the speaker adjusted.\n(E) The backing panel or the rubber feet of the speaker adjusted.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The volume control or the equalizer of the speaker adjusted."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the wood is pulled?",
+    "options": [
+        "The top edge of the wood door is being pulled.",
+        "The lower corner of the wood door is being pulled.",
+        "The door knob part of the wood door is being pulled.",
+        "The center panel of the wood door is being pulled.",
+        "The side hinge of the wood door is being pulled."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the wood is pulled? Choose **only one** option from the following list.\nOptions:\n(A) The top edge of the wood door is being pulled.\n(B) The lower corner of the wood door is being pulled.\n(C) The door knob part of the wood door is being pulled.\n(D) The center panel of the wood door is being pulled.\n(E) The side hinge of the wood door is being pulled.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The lower corner of the wood door is being pulled."
+    },
+    "correct_idx": [
+        2
+    ]
+}

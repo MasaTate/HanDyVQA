@@ -1,0 +1,17 @@
+{
+    "question": "What part of the laptop is picked?",
+    "options": [
+        "The keyboard section of the laptop is picked.",
+        "The screen bezel of the laptop is picked.",
+        "The sdd part of the laptop picked.",
+        "The motherboard of the laptop is picked.",
+        "The CPU of the laptop is picked."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the laptop is picked? Choose **only one** option from the following list.\nOptions:\n(A) The keyboard section of the laptop is picked.\n(B) The screen bezel of the laptop is picked.\n(C) The sdd part of the laptop picked.\n(D) The motherboard of the laptop is picked.\n(E) The CPU of the laptop is picked.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The sdd part of the laptop picked."
+    },
+    "correct_idx": [
+        2
+    ]
+}

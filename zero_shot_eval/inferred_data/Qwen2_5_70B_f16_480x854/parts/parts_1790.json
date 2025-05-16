@@ -1,0 +1,17 @@
+{
+    "question": "What part of the car is pulled?",
+    "options": [
+        "The rear bumper part of the car is pulled.",
+        "The side mirror part of the car is pulled.",
+        "The handle part of the car is pulled.",
+        "The window switch part of the car is pulled.",
+        "The gear lever part of the car is pulled."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the car is pulled? Choose **only one** option from the following list.\nOptions:\n(A) The rear bumper part of the car is pulled.\n(B) The side mirror part of the car is pulled.\n(C) The handle part of the car is pulled.\n(D) The window switch part of the car is pulled.\n(E) The gear lever part of the car is pulled.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The gear lever part of the car is pulled."
+    },
+    "correct_idx": [
+        4
+    ]
+}

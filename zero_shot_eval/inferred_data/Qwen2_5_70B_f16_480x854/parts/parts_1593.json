@@ -1,0 +1,17 @@
+{
+    "question": "What part of the lawn mower is unscrewed?",
+    "options": [
+        "The side panel of the lawn mower was being unscrewed.",
+        "The lower deck of the lawn mower was being unscrewed.",
+        "The front wheel assembly of the lawn mower was being unscrewed.",
+        "The exhaust cover of the lawn mower was being unscrewed.",
+        "The device above the front wheel of the lawn mower was being unscrewed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the lawn mower is unscrewed? Choose **only one** option from the following list.\nOptions:\n(A) The side panel of the lawn mower was being unscrewed.\n(B) The lower deck of the lawn mower was being unscrewed.\n(C) The front wheel assembly of the lawn mower was being unscrewed.\n(D) The exhaust cover of the lawn mower was being unscrewed.\n(E) The device above the front wheel of the lawn mower was being unscrewed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The exhaust cover of the lawn mower was being unscrewed."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the plumbing fixture is opened?",
+    "options": [
+        "The base component of the plumbing fixture is opened.",
+        "The handle part of the plumbing fixture is opened.",
+        "The faucet rim of the plumbing fixture is opened.",
+        "The spout section of the plumbing fixture is opened.",
+        "The cover plate of the plumbing fixture is opened."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the plumbing fixture is opened? Choose **only one** option from the following list.\nOptions:\n(A) The base component of the plumbing fixture is opened.\n(B) The handle part of the plumbing fixture is opened.\n(C) The faucet rim of the plumbing fixture is opened.\n(D) The spout section of the plumbing fixture is opened.\n(E) The cover plate of the plumbing fixture is opened.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The handle part of the plumbing fixture is opened."
+    },
+    "correct_idx": [
+        1
+    ]
+}

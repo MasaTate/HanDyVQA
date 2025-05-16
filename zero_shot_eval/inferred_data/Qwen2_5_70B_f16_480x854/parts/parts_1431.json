@@ -1,0 +1,17 @@
+{
+    "question": "What part of the barbed wire is the twig pulled from?",
+    "options": [
+        "The twig is pulled from the top of the barbed wire spool.",
+        "The twig is pulled from the intersection of wire and the wood.",
+        "The twig is pulled from the point where the wire bends.",
+        "The twig is pulled from the edge of the barbed wire fence.",
+        "The twig is pulled from the base of the wire post."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the barbed wire is the twig pulled from? Choose **only one** option from the following list.\nOptions:\n(A) The twig is pulled from the top of the barbed wire spool.\n(B) The twig is pulled from the intersection of wire and the wood.\n(C) The twig is pulled from the point where the wire bends.\n(D) The twig is pulled from the edge of the barbed wire fence.\n(E) The twig is pulled from the base of the wire post.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The twig is pulled from the intersection of wire and the wood."
+    },
+    "correct_idx": [
+        1
+    ]
+}

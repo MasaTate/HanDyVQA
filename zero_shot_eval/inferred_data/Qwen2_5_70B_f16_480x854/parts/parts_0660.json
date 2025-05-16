@@ -1,0 +1,17 @@
+{
+    "question": "What part of the motorcycle is fitted?",
+    "options": [
+        "The front fender of the motorcycle is fitted.",
+        "The side mirror of the motorcycle is fitted.",
+        "The exhaust pipe of the motorcycle is fitted.",
+        "The under seat cover of the motorcycle is fitted.",
+        "The dashboard panel of the motorcycle is fitted."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the motorcycle is fitted? Choose **only one** option from the following list.\nOptions:\n(A) The front fender of the motorcycle is fitted.\n(B) The side mirror of the motorcycle is fitted.\n(C) The exhaust pipe of the motorcycle is fitted.\n(D) The under seat cover of the motorcycle is fitted.\n(E) The dashboard panel of the motorcycle is fitted.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The under seat cover of the motorcycle is fitted."
+    },
+    "correct_idx": [
+        3
+    ]
+}

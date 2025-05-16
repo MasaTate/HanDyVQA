@@ -1,0 +1,17 @@
+{
+    "question": "What part of the fabric is the needle removed from?",
+    "options": [
+        "The left edge of the fabric is where the needle is removed from.",
+        "The center of the fabric is where the needle is removed from.",
+        "The back side of the fabric is where the needle is removed from.",
+        "The center right surface of the fabric is where the needle is removed from.",
+        "The corner of the fabric is where the needle is removed from."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the fabric is the needle removed from? Choose **only one** option from the following list.\nOptions:\n(A) The left edge of the fabric is where the needle is removed from.\n(B) The center of the fabric is where the needle is removed from.\n(C) The back side of the fabric is where the needle is removed from.\n(D) The center right surface of the fabric is where the needle is removed from.\n(E) The corner of the fabric is where the needle is removed from.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The center right surface of the fabric is where the needle is removed from."
+    },
+    "correct_idx": [
+        3
+    ]
+}

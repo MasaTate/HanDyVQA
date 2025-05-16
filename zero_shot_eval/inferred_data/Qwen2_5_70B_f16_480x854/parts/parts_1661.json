@@ -1,0 +1,17 @@
+{
+    "question": "What part of the scissors is the thread removed from?",
+    "options": [
+        "The thread is removed from the pivot point of the scissor.",
+        "The thread is removed from the smaller blade of the scissor.",
+        "The thread is removed from the bigger handle of the scissor.",
+        "The thread is removed from the tip of the scissor blade.",
+        "The thread is removed from the smaller handle of the scissor."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the scissors is the thread removed from? Choose **only one** option from the following list.\nOptions:\n(A) The thread is removed from the pivot point of the scissor.\n(B) The thread is removed from the smaller blade of the scissor.\n(C) The thread is removed from the bigger handle of the scissor.\n(D) The thread is removed from the tip of the scissor blade.\n(E) The thread is removed from the smaller handle of the scissor.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The thread is removed from the pivot point of the scissor."
+    },
+    "correct_idx": [
+        2
+    ]
+}

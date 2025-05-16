@@ -1,0 +1,17 @@
+{
+    "question": "What part of the bottle is opened?",
+    "options": [
+        "The snap-on lid of the bottle is opened.",
+        "The bottom rim of the bottle is opened.",
+        "The label area of the bottle is opened.",
+        "The side seam of the bottle is opened.",
+        "The screw cap of the bottle is opened."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the bottle is opened? Choose **only one** option from the following list.\nOptions:\n(A) The snap-on lid of the bottle is opened.\n(B) The bottom rim of the bottle is opened.\n(C) The label area of the bottle is opened.\n(D) The side seam of the bottle is opened.\n(E) The screw cap of the bottle is opened.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The screw cap of the bottle is opened."
+    },
+    "correct_idx": [
+        0
+    ]
+}

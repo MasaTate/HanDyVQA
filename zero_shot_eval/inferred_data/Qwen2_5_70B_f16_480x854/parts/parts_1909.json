@@ -1,0 +1,17 @@
+{
+    "question": "What part of the tire is hit?",
+    "options": [
+        "The tread pattern of the tire is hit.",
+        "The inner rim of the tire is hit.",
+        "The lug hole of the tire is hit.",
+        "The valve stem of the tire is hit.",
+        "The rubber part of the tire is hit."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the tire is hit? Choose **only one** option from the following list.\nOptions:\n(A) The tread pattern of the tire is hit.\n(B) The inner rim of the tire is hit.\n(C) The lug hole of the tire is hit.\n(D) The valve stem of the tire is hit.\n(E) The rubber part of the tire is hit.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The lug hole of the tire is hit."
+    },
+    "correct_idx": [
+        2
+    ]
+}

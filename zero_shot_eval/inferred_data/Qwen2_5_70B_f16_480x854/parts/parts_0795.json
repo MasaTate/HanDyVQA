@@ -1,0 +1,17 @@
+{
+    "question": "What part of the paint container is being used?",
+    "options": [
+        "The lid of the paint container is being used.",
+        "The bottom seam of the paint container is being used.",
+        "The handle on the side of the paint container is being used.",
+        "The label on the front of the paint container is being used.",
+        "The paint inside the container is being used."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the paint container is being used? Choose **only one** option from the following list.\nOptions:\n(A) The lid of the paint container is being used.\n(B) The bottom seam of the paint container is being used.\n(C) The handle on the side of the paint container is being used.\n(D) The label on the front of the paint container is being used.\n(E) The paint inside the container is being used.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The paint inside the container is being used."
+    },
+    "correct_idx": [
+        4
+    ]
+}

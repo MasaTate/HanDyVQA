@@ -1,0 +1,17 @@
+{
+    "question": "What part of the cordless driver is twisted?",
+    "options": [
+        "The grip of the cordless driver is twisted.",
+        "The chuck of the cordless driver is twisted.",
+        "The battery compartment of the cordless driver is twisted.",
+        "The trigger mechanism of the cordless driver is twisted.",
+        "The light indicator of the cordless driver is twisted."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the cordless driver is twisted? Choose **only one** option from the following list.\nOptions:\n(A) The grip of the cordless driver is twisted.\n(B) The chuck of the cordless driver is twisted.\n(C) The battery compartment of the cordless driver is twisted.\n(D) The trigger mechanism of the cordless driver is twisted.\n(E) The light indicator of the cordless driver is twisted.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The chuck of the cordless driver is twisted."
+    },
+    "correct_idx": [
+        1
+    ]
+}

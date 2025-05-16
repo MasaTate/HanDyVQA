@@ -1,0 +1,17 @@
+{
+    "question": "What part of the cellotape is cut?",
+    "options": [
+        "The middle of the cellotape roll was cut.",
+        "The end of the cellotape roll.",
+        "The center of the cellotape spool.",
+        "The edge of the cellotape dispenser.",
+        "The surface area of the cellotape sheet."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the cellotape is cut? Choose **only one** option from the following list.\nOptions:\n(A) The middle of the cellotape roll was cut.\n(B) The end of the cellotape roll.\n(C) The center of the cellotape spool.\n(D) The edge of the cellotape dispenser.\n(E) The surface area of the cellotape sheet.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The end of the cellotape roll."
+    },
+    "correct_idx": [
+        0
+    ]
+}

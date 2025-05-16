@@ -1,0 +1,17 @@
+{
+    "question": "What part of the lawnmower is the paper cut from?",
+    "options": [
+        "The paper is cut from the tag on handlebar of lawnmower.",
+        "The paper is cut from the blade cover of the lawnmower.",
+        "The paper is cut from the front wheel of the lawnmower.",
+        "The paper is cut from the engine casing of the lawnmower.",
+        "The paper is cut from the grass catcher bag of the lawnmower."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the lawnmower is the paper cut from? Choose **only one** option from the following list.\nOptions:\n(A) The paper is cut from the tag on handlebar of lawnmower.\n(B) The paper is cut from the blade cover of the lawnmower.\n(C) The paper is cut from the front wheel of the lawnmower.\n(D) The paper is cut from the engine casing of the lawnmower.\n(E) The paper is cut from the grass catcher bag of the lawnmower.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The paper is cut from the tag on handlebar of lawnmower."
+    },
+    "correct_idx": [
+        0
+    ]
+}

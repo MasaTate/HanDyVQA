@@ -1,0 +1,17 @@
+{
+    "question": "What part of the cloths is cut?",
+    "options": [
+        "The top left corner of the cloth is being cut.",
+        "The center back of the cloth is being cut.",
+        "The bottom left seam of the cloth is being cut.",
+        "The top edge of the cloth near the collar is being cut.",
+        "The bottom right side of the cloth is being cut."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the cloths is cut? Choose **only one** option from the following list.\nOptions:\n(A) The top left corner of the cloth is being cut.\n(B) The center back of the cloth is being cut.\n(C) The bottom left seam of the cloth is being cut.\n(D) The top edge of the cloth near the collar is being cut.\n(E) The bottom right side of the cloth is being cut.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The bottom right side of the cloth is being cut."
+    },
+    "correct_idx": [
+        4
+    ]
+}

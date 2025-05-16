@@ -1,0 +1,17 @@
+{
+    "question": "What part of the frame is pulled?",
+    "options": [
+        "The edge of the frame is pulled.",
+        "The backing board of the frame is pulled.",
+        "The picture from the frame is pulled.",
+        "The corners of the frame are pulled.",
+        "The glass cover of the frame is pulled."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the frame is pulled? Choose **only one** option from the following list.\nOptions:\n(A) The edge of the frame is pulled.\n(B) The backing board of the frame is pulled.\n(C) The picture from the frame is pulled.\n(D) The corners of the frame are pulled.\n(E) The glass cover of the frame is pulled.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The backing board of the frame is pulled."
+    },
+    "correct_idx": [
+        2
+    ]
+}

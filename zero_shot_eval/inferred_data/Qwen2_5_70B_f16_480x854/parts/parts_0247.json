@@ -1,0 +1,17 @@
+{
+    "question": "What part of the scooter is put down?",
+    "options": [
+        "The handlebar of the scooter is being put down.",
+        "The front wheel of the scooter is being put down.",
+        "The grip pad of the scooter is being put down.",
+        "The brake lever of the scooter is being put down.",
+        "The seat of the scooter is being put down."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the scooter is put down? Choose **only one** option from the following list.\nOptions:\n(A) The handlebar of the scooter is being put down.\n(B) The front wheel of the scooter is being put down.\n(C) The grip pad of the scooter is being put down.\n(D) The brake lever of the scooter is being put down.\n(E) The seat of the scooter is being put down.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The seat of the scooter is being put down."
+    },
+    "correct_idx": [
+        4
+    ]
+}

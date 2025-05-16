@@ -1,0 +1,17 @@
+{
+    "question": "What part of the desktop is fixed?",
+    "options": [
+        "The monitor of the desktop is fixed.",
+        "The keyboard of the desktop is fixed.",
+        "The speakers of the desktop are fixed.",
+        "The mouse of the desktop is fixed.",
+        "The base of the desktop is fixed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the desktop is fixed? Choose **only one** option from the following list.\nOptions:\n(A) The monitor of the desktop is fixed.\n(B) The keyboard of the desktop is fixed.\n(C) The speakers of the desktop are fixed.\n(D) The mouse of the desktop is fixed.\n(E) The base of the desktop is fixed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The base of the desktop is fixed."
+    },
+    "correct_idx": [
+        0
+    ]
+}

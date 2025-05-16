@@ -1,0 +1,17 @@
+{
+    "question": "What part of the needle is the thread inserted into?",
+    "options": [
+        "The thread is inserted into the needle shaft of the needle.",
+        "The thread is inserted into the needle eye of the needle.",
+        "The thread is inserted into the needle tip of the needle.",
+        "The thread is inserted into the needle groove of the needle.",
+        "The thread is inserted into the needle base of the needle."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the needle is the thread inserted into? Choose **only one** option from the following list.\nOptions:\n(A) The thread is inserted into the needle shaft of the needle.\n(B) The thread is inserted into the needle eye of the needle.\n(C) The thread is inserted into the needle tip of the needle.\n(D) The thread is inserted into the needle groove of the needle.\n(E) The thread is inserted into the needle base of the needle.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The thread is inserted into the needle eye of the needle."
+    },
+    "correct_idx": [
+        1
+    ]
+}

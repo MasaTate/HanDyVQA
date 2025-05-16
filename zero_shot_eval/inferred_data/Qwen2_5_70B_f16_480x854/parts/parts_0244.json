@@ -1,0 +1,17 @@
+{
+    "question": "What part of the backpack is touched?",
+    "options": [
+        "The side pocket of the backpack is touched.",
+        "The top flap of the backpack is touched.",
+        "The bottom strap of the backpack is touched.",
+        "The middle part zipper of the backpack is touched.",
+        "The front panel of the backpack is touched."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the backpack is touched? Choose **only one** option from the following list.\nOptions:\n(A) The side pocket of the backpack is touched.\n(B) The top flap of the backpack is touched.\n(C) The bottom strap of the backpack is touched.\n(D) The middle part zipper of the backpack is touched.\n(E) The front panel of the backpack is touched.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The top flap of the backpack is touched."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the knife rack is used?",
+    "options": [
+        "The top edge of the knife rack is used.",
+        "The front corner of the knife rack is used.",
+        "The bottom shelf of the knife rack is used.",
+        "The side panel of the knife rack is used.",
+        "The middle part of the knife rack is used."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the knife rack is used? Choose **only one** option from the following list.\nOptions:\n(A) The top edge of the knife rack is used.\n(B) The front corner of the knife rack is used.\n(C) The bottom shelf of the knife rack is used.\n(D) The side panel of the knife rack is used.\n(E) The middle part of the knife rack is used.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The middle part of the knife rack is used."
+    },
+    "correct_idx": [
+        4
+    ]
+}

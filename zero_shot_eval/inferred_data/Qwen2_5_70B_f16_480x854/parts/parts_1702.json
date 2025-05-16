@@ -1,0 +1,17 @@
+{
+    "question": "What part of the drawing book is torn?",
+    "options": [
+        "The cover of the drawing book is torn.",
+        "The spine of the drawing book is torn.",
+        "The corner of the drawing book is torn.",
+        "The back illustration of the drawing book is torn.",
+        "The blank page of the drawing book is torn."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the drawing book is torn? Choose **only one** option from the following list.\nOptions:\n(A) The cover of the drawing book is torn.\n(B) The spine of the drawing book is torn.\n(C) The corner of the drawing book is torn.\n(D) The back illustration of the drawing book is torn.\n(E) The blank page of the drawing book is torn.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The blank page of the drawing book is torn."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the pipe is marked?",
+    "options": [
+        "The inner core of the pipe is being marked.",
+        "The junction point of the pipe is being marked.",
+        "The base section of the pipe is being marked.",
+        "The middle section of the pipe is being marked.",
+        "The outer edge of the pipe is being marked."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the pipe is marked? Choose **only one** option from the following list.\nOptions:\n(A) The inner core of the pipe is being marked.\n(B) The junction point of the pipe is being marked.\n(C) The base section of the pipe is being marked.\n(D) The middle section of the pipe is being marked.\n(E) The outer edge of the pipe is being marked.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The outer edge of the pipe is being marked."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the 3D printing machine is the wire pulled from?",
+    "options": [
+        "The compartment of the 3D printing machine is the wire pulled from.",
+        "The top part of the 3D printing machine is the wire pulled from.",
+        "The base of the 3D printing machine is the wire pulled from.",
+        "The inner back part of the 3D printing machine is the wire pulled from.",
+        "The outer part of the 3D printing machine is the wire pulled from."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the 3D printing machine is the wire pulled from? Choose **only one** option from the following list.\nOptions:\n(A) The compartment of the 3D printing machine is the wire pulled from.\n(B) The top part of the 3D printing machine is the wire pulled from.\n(C) The base of the 3D printing machine is the wire pulled from.\n(D) The inner back part of the 3D printing machine is the wire pulled from.\n(E) The outer part of the 3D printing machine is the wire pulled from.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The inner back part of the 3D printing machine is the wire pulled from."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the bag of chips is taken from?",
+    "options": [
+        "The surface of the bag is where the chips are being taken from.",
+        "The bottom edge of the bag is where the chips are being taken from.",
+        "The inner part of the bag is where the chips is being taken from.",
+        "The side flap of the bag is where the chips are being taken from.",
+        "The fold near the top of the bag is where the chips are being taken from."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the bag of chips is taken from? Choose **only one** option from the following list.\nOptions:\n(A) The surface of the bag is where the chips are being taken from.\n(B) The bottom edge of the bag is where the chips are being taken from.\n(C) The inner part of the bag is where the chips is being taken from.\n(D) The side flap of the bag is where the chips are being taken from.\n(E) The fold near the top of the bag is where the chips are being taken from.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The inner part of the bag is where the chips is being taken from."
+    },
+    "correct_idx": [
+        2
+    ]
+}

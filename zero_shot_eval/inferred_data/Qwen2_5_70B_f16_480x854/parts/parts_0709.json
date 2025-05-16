@@ -1,0 +1,17 @@
+{
+    "question": "What part of the combi drill is adjusted?",
+    "options": [
+        "The trigger of the combi drill is adjusted.",
+        "The chuck of the combi drill is adjusted.",
+        "The battery compartment of the combi drill is adjusted.",
+        "The grip handle of the combi drill is adjusted.",
+        "The safety lock of the combi drill is adjusted."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the combi drill is adjusted? Choose **only one** option from the following list.\nOptions:\n(A) The trigger of the combi drill is adjusted.\n(B) The chuck of the combi drill is adjusted.\n(C) The battery compartment of the combi drill is adjusted.\n(D) The grip handle of the combi drill is adjusted.\n(E) The safety lock of the combi drill is adjusted.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The trigger of the combi drill is adjusted."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the dragon lizard is cleaned?",
+    "options": [
+        "The tail of the dragon lizard is cleaned.",
+        "The underside of the dragon lizard is cleaned.",
+        "The back scales of the dragon lizard are cleaned.",
+        "The eyes of the dragon lizard are cleaned.",
+        "The claws of the dragon lizard is cleaned."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the dragon lizard is cleaned? Choose **only one** option from the following list.\nOptions:\n(A) The tail of the dragon lizard is cleaned.\n(B) The underside of the dragon lizard is cleaned.\n(C) The back scales of the dragon lizard are cleaned.\n(D) The eyes of the dragon lizard are cleaned.\n(E) The claws of the dragon lizard is cleaned.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The claws of the dragon lizard is cleaned."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the pepper is removed?",
+    "options": [
+        "The outer skin of the bell pepper is removed.",
+        "The stem at the top of the bell pepper is removed.",
+        "The bottom flat section of the bell pepper is removed.",
+        "The seed at the inner of the bell pepper is removed.",
+        "The fleshy ribs inside the bell pepper are removed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the pepper is removed? Choose **only one** option from the following list.\nOptions:\n(A) The outer skin of the bell pepper is removed.\n(B) The stem at the top of the bell pepper is removed.\n(C) The bottom flat section of the bell pepper is removed.\n(D) The seed at the inner of the bell pepper is removed.\n(E) The fleshy ribs inside the bell pepper are removed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The stem at the top of the bell pepper is removed."
+    },
+    "correct_idx": [
+        3
+    ]
+}

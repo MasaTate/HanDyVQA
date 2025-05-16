@@ -1,0 +1,17 @@
+{
+    "question": "What part of the broccoli is moved?",
+    "options": [
+        "The stem of the broccoli is moved.",
+        "The leaf of the broccoli is moved.",
+        "The middle part of the broccoli is moved.",
+        "The upper part of the leaf of the broccoli is moved.",
+        "The top part of the leaf of the broccoli is moved."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the broccoli is moved? Choose **only one** option from the following list.\nOptions:\n(A) The stem of the broccoli is moved.\n(B) The leaf of the broccoli is moved.\n(C) The middle part of the broccoli is moved.\n(D) The upper part of the leaf of the broccoli is moved.\n(E) The top part of the leaf of the broccoli is moved.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The stem of the broccoli is moved."
+    },
+    "correct_idx": [
+        0
+    ]
+}

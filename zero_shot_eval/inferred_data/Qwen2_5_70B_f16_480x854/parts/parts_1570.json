@@ -1,0 +1,17 @@
+{
+    "question": "What part of the coconut tree is cut?",
+    "options": [
+        "The top leaves of the coconut tree were cut.",
+        "The trunk of the coconut tree was cut.",
+        "The roots of the coconut tree were cut.",
+        "The spathe of the coconut tree were cut.",
+        "The coconuts of the coconut tree were cut."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the coconut tree is cut? Choose **only one** option from the following list.\nOptions:\n(A) The top leaves of the coconut tree were cut.\n(B) The trunk of the coconut tree was cut.\n(C) The roots of the coconut tree were cut.\n(D) The spathe of the coconut tree were cut.\n(E) The coconuts of the coconut tree were cut.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The trunk of the coconut tree was cut."
+    },
+    "correct_idx": [
+        3
+    ]
+}

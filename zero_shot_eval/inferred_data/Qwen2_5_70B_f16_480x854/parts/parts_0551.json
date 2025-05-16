@@ -1,0 +1,17 @@
+{
+    "question": "What part of the cooker is turned on?",
+    "options": [
+        "The lid of the cooker is turned on.",
+        "The knob of the cooker is turned on.",
+        "The base of the cooker is turned on.",
+        "The handle of the cooker is turned on.",
+        "The side panel of the cooker is turned on."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the cooker is turned on? Choose **only one** option from the following list.\nOptions:\n(A) The lid of the cooker is turned on.\n(B) The knob of the cooker is turned on.\n(C) The base of the cooker is turned on.\n(D) The handle of the cooker is turned on.\n(E) The side panel of the cooker is turned on.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The knob of the cooker is turned on."
+    },
+    "correct_idx": [
+        1
+    ]
+}

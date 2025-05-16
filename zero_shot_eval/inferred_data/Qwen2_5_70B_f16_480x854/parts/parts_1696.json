@@ -1,0 +1,17 @@
+{
+    "question": "What part of the bicycle is tightened?",
+    "options": [
+        "The pedals of the bicycle are tightened.",
+        "The shifter of the bicycle is tightened.",
+        "The handlebars of the bicycle are tightened.",
+        "The frame of the bicycle is tightened.",
+        "The seat post of the bicycle is tightened."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the bicycle is tightened? Choose **only one** option from the following list.\nOptions:\n(A) The pedals of the bicycle are tightened.\n(B) The shifter of the bicycle is tightened.\n(C) The handlebars of the bicycle are tightened.\n(D) The frame of the bicycle is tightened.\n(E) The seat post of the bicycle is tightened.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The handlebars of the bicycle are tightened."
+    },
+    "correct_idx": [
+        1
+    ]
+}

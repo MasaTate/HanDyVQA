@@ -1,0 +1,17 @@
+{
+    "question": "What part of the cards is tucked?",
+    "options": [
+        "The middle part of the cards is tuked.",
+        "The corner of the cards is tucked.",
+        "The edge of the cards is tucked.",
+        "The back side of the cards is tucked.",
+        "The front surface of the cards is tucked."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the cards is tucked? Choose **only one** option from the following list.\nOptions:\n(A) The middle part of the cards is tuked.\n(B) The corner of the cards is tucked.\n(C) The edge of the cards is tucked.\n(D) The back side of the cards is tucked.\n(E) The front surface of the cards is tucked.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The corner of the cards is tucked."
+    },
+    "correct_idx": [
+        0
+    ]
+}

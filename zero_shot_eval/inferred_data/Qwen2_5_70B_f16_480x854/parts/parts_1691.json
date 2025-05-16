@@ -1,0 +1,17 @@
+{
+    "question": "What part of the forklift is pressed?",
+    "options": [
+        "The control panel of the forklift is pressed.",
+        "The seatbelt of the forklift is pressed.",
+        "The horn button of the forklift is pressed.",
+        "The steering wheel of the forklift is pressed.",
+        "The indicator lever of the forklift is pressed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the forklift is pressed? Choose **only one** option from the following list.\nOptions:\n(A) The control panel of the forklift is pressed.\n(B) The seatbelt of the forklift is pressed.\n(C) The horn button of the forklift is pressed.\n(D) The steering wheel of the forklift is pressed.\n(E) The indicator lever of the forklift is pressed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The control panel of the forklift is pressed."
+    },
+    "correct_idx": [
+        1
+    ]
+}

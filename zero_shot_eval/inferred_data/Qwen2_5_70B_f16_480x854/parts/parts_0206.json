@@ -1,0 +1,17 @@
+{
+    "question": "What part of the frying pan is opened?",
+    "options": [
+        "The bottom surface of the frying pan is opened.",
+        "The handle of the frying pan is opened.",
+        "The lid of the frying pan is opened.",
+        "The side rim of the frying pan is opened.",
+        "The interior area of the frying pan is opened."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the frying pan is opened? Choose **only one** option from the following list.\nOptions:\n(A) The bottom surface of the frying pan is opened.\n(B) The handle of the frying pan is opened.\n(C) The lid of the frying pan is opened.\n(D) The side rim of the frying pan is opened.\n(E) The interior area of the frying pan is opened.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The lid of the frying pan is opened."
+    },
+    "correct_idx": [
+        2
+    ]
+}

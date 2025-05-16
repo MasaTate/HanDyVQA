@@ -1,0 +1,17 @@
+{
+    "question": "What part of the phone is pressed?",
+    "options": [
+        "The top right corner of the screen of the phone is pressed.",
+        "The center area of the back cover of the phone is pressed.",
+        "The middle section of the volume button of the phone is pressed.",
+        "The bottom left side of the keypad of the phone is pressed. ",
+        "The outer edge of the camera lens of the phone is pressed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the phone is pressed? Choose **only one** option from the following list.\nOptions:\n(A) The top right corner of the screen of the phone is pressed.\n(B) The center area of the back cover of the phone is pressed.\n(C) The middle section of the volume button of the phone is pressed.\n(D) The bottom left side of the keypad of the phone is pressed. \n(E) The outer edge of the camera lens of the phone is pressed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The bottom left side of the keypad of the phone is pressed."
+    },
+    "correct_idx": [
+        3
+    ]
+}

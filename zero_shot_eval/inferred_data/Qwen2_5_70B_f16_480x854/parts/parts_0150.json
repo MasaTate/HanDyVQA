@@ -1,0 +1,17 @@
+{
+    "question": "What part of the cupboard is opened?",
+    "options": [
+        "The top panel of the cupboard is open.",
+        "The left door of the cupboard is opened.",
+        "The bottom shelf of the cupboard is open.",
+        "The right side of the cupboard is open.",
+        "The back wall of the cupboard is open."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the cupboard is opened? Choose **only one** option from the following list.\nOptions:\n(A) The top panel of the cupboard is open.\n(B) The left door of the cupboard is opened.\n(C) The bottom shelf of the cupboard is open.\n(D) The right side of the cupboard is open.\n(E) The back wall of the cupboard is open.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The left door of the cupboard is opened."
+    },
+    "correct_idx": [
+        1
+    ]
+}

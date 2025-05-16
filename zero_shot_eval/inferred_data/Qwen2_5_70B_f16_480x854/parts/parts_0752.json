@@ -1,0 +1,17 @@
+{
+    "question": "What part of the tray is adjusted?",
+    "options": [
+        "The lower-end part of the tray is adjusted.",
+        "The upper part of the tray is adjusted.",
+        "The middle part of the tray is adjusted.",
+        "The upper right part of the tray is adjusted.",
+        "The bottom part of the tray is adjusted."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the tray is adjusted? Choose **only one** option from the following list.\nOptions:\n(A) The lower-end part of the tray is adjusted.\n(B) The upper part of the tray is adjusted.\n(C) The middle part of the tray is adjusted.\n(D) The upper right part of the tray is adjusted.\n(E) The bottom part of the tray is adjusted.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The bottom part of the tray is adjusted."
+    },
+    "correct_idx": [
+        0
+    ]
+}

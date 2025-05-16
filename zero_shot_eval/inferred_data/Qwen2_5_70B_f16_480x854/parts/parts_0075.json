@@ -1,0 +1,17 @@
+{
+    "question": "What part of the belt sandpaper machine is the sandpaper placed on?",
+    "options": [
+        "The motor section of the belt sandpaper machine is where the sandpaper is placed.",
+        "The wheel attachment of the belt sandpaper machine is the sandpaper placed on.",
+        "The control panel of the belt sandpaper machine is where the sandpaper is placed.",
+        "The belt part of the belt sandpaper machine is the sandpaper placed on.",
+        "The base of the belt sandpaper machine is the sandpaper placed on."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the belt sandpaper machine is the sandpaper placed on? Choose **only one** option from the following list.\nOptions:\n(A) The motor section of the belt sandpaper machine is where the sandpaper is placed.\n(B) The wheel attachment of the belt sandpaper machine is the sandpaper placed on.\n(C) The control panel of the belt sandpaper machine is where the sandpaper is placed.\n(D) The belt part of the belt sandpaper machine is the sandpaper placed on.\n(E) The base of the belt sandpaper machine is the sandpaper placed on.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The belt part of the belt sandpaper machine is the sandpaper placed on."
+    },
+    "correct_idx": [
+        3
+    ]
+}

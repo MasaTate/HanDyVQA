@@ -1,0 +1,17 @@
+{
+    "question": "What part of the balcony rail is touched?",
+    "options": [
+        "The top rail of the balcony rail is touched.",
+        "The middle support of the balcony rail is touched.",
+        "The lower cap of the balcony rail is touched.",
+        "The end post of the balcony rail is touched.",
+        "The vertical slats of the balcony rail are touched."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the balcony rail is touched? Choose **only one** option from the following list.\nOptions:\n(A) The top rail of the balcony rail is touched.\n(B) The middle support of the balcony rail is touched.\n(C) The lower cap of the balcony rail is touched.\n(D) The end post of the balcony rail is touched.\n(E) The vertical slats of the balcony rail are touched.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The end post of the balcony rail is touched."
+    },
+    "correct_idx": [
+        0
+    ]
+}

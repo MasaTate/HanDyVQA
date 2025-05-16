@@ -1,0 +1,17 @@
+{
+    "question": "What part of the needle is threaded?",
+    "options": [
+        "The point of the needle is threaded.",
+        "The shaft of the needle is threaded.",
+        "The tip of the needle is threaded.",
+        "The barbed end of the needle is threaded.",
+        "The eye of the needle is threaded."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the needle is threaded? Choose **only one** option from the following list.\nOptions:\n(A) The point of the needle is threaded.\n(B) The shaft of the needle is threaded.\n(C) The tip of the needle is threaded.\n(D) The barbed end of the needle is threaded.\n(E) The eye of the needle is threaded.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The eye of the needle is threaded."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the motorbike is being removed?",
+    "options": [
+        "The gear lever of the motorbike is being removed.",
+        "The rearview mirror of the motorbike is being removed.",
+        "The seat cushion of the motorbike is being removed.",
+        "The cap of the motorbike is being removed.",
+        "The front fender of the motorbike is being removed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the motorbike is being removed? Choose **only one** option from the following list.\nOptions:\n(A) The gear lever of the motorbike is being removed.\n(B) The rearview mirror of the motorbike is being removed.\n(C) The seat cushion of the motorbike is being removed.\n(D) The cap of the motorbike is being removed.\n(E) The front fender of the motorbike is being removed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The front fender of the motorbike is being removed."
+    },
+    "correct_idx": [
+        3
+    ]
+}

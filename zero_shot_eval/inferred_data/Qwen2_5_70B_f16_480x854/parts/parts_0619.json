@@ -1,0 +1,17 @@
+{
+    "question": "What part of the spanner is covered?",
+    "options": [
+        "The upper part of the spanner is covered.",
+        "The bottom part of the spanner is covered.",
+        "The middle part of the spanner is covered.",
+        "The upper right side of the spanner is covered.",
+        "The middle left side of the spanner is covered."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the spanner is covered? Choose **only one** option from the following list.\nOptions:\n(A) The upper part of the spanner is covered.\n(B) The bottom part of the spanner is covered.\n(C) The middle part of the spanner is covered.\n(D) The upper right side of the spanner is covered.\n(E) The middle left side of the spanner is covered.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The upper part of the spanner is covered."
+    },
+    "correct_idx": [
+        1
+    ]
+}

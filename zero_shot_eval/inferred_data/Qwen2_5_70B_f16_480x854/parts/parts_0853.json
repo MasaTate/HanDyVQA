@@ -1,0 +1,17 @@
+{
+    "question": "What part of the wood plank is removed?",
+    "options": [
+        "The ending edge of the wood plank is removed.",
+        "The bottom surface of the wood plank is removed.",
+        "The left corner of the wood plank is removed.",
+        "The top layer of the wood plank is removed.",
+        "The green clip of the wood plank is removed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the wood plank is removed? Choose **only one** option from the following list.\nOptions:\n(A) The ending edge of the wood plank is removed.\n(B) The bottom surface of the wood plank is removed.\n(C) The left corner of the wood plank is removed.\n(D) The top layer of the wood plank is removed.\n(E) The green clip of the wood plank is removed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The top layer of the wood plank is removed."
+    },
+    "correct_idx": [
+        4
+    ]
+}

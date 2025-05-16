@@ -1,0 +1,17 @@
+{
+    "question": "What part of the frying pan is the food picked up from?",
+    "options": [
+        "The food is picked up from the side rim of the frying pan.",
+        "The food is picked up from the handle of the frying pan.",
+        "The food is picked up from the top edge of the frying pan's wall.",
+        "The food is picked up from the center of the pan.",
+        "The food is picked up from the edge of the flat bottom surface."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the frying pan is the food picked up from? Choose **only one** option from the following list.\nOptions:\n(A) The food is picked up from the side rim of the frying pan.\n(B) The food is picked up from the handle of the frying pan.\n(C) The food is picked up from the top edge of the frying pan's wall.\n(D) The food is picked up from the center of the pan.\n(E) The food is picked up from the edge of the flat bottom surface.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The food is picked up from the edge of the flat bottom surface."
+    },
+    "correct_idx": [
+        4
+    ]
+}

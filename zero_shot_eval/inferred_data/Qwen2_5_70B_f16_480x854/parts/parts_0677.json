@@ -1,0 +1,17 @@
+{
+    "question": "What part of the backpack blower is pulled?",
+    "options": [
+        "The handle of the backpack blower is pulled.",
+        "The exhaust of the backpack blower is pulled.",
+        "The front strap of the backpack blower is pulled.",
+        "The starter of the backpack blower is pulled.",
+        "The nozzle of the backpack blower is pulled."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the backpack blower is pulled? Choose **only one** option from the following list.\nOptions:\n(A) The handle of the backpack blower is pulled.\n(B) The exhaust of the backpack blower is pulled.\n(C) The front strap of the backpack blower is pulled.\n(D) The starter of the backpack blower is pulled.\n(E) The nozzle of the backpack blower is pulled.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The starter of the backpack blower is pulled."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the container is mopped?",
+    "options": [
+        "The handle of the container is mopped.",
+        "The base of the container is mopped.",
+        "The edge of the spout of the container is mopped.",
+        "The bottom of the container is mopped.",
+        "The face of the lid of the container is mopped."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the container is mopped? Choose **only one** option from the following list.\nOptions:\n(A) The handle of the container is mopped.\n(B) The base of the container is mopped.\n(C) The edge of the spout of the container is mopped.\n(D) The bottom of the container is mopped.\n(E) The face of the lid of the container is mopped.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The edge of the spout of the container is mopped."
+    },
+    "correct_idx": [
+        4
+    ]
+}

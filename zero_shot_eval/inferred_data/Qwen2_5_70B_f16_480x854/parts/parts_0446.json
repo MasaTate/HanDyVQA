@@ -1,0 +1,17 @@
+{
+    "question": "What part of the phone is touched?",
+    "options": [
+        "The back cover of the phone is being touched.",
+        "The side buttons of the phone are being touched.",
+        "The camera lens on the phone is being touched.",
+        "The screen of the phone is being touched.",
+        "The charging port of the phone is being touched."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the phone is touched? Choose **only one** option from the following list.\nOptions:\n(A) The back cover of the phone is being touched.\n(B) The side buttons of the phone are being touched.\n(C) The camera lens on the phone is being touched.\n(D) The screen of the phone is being touched.\n(E) The charging port of the phone is being touched.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The screen of the phone is being touched."
+    },
+    "correct_idx": [
+        3
+    ]
+}

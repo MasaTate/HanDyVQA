@@ -1,0 +1,17 @@
+{
+    "question": "What part of the kitchen sink is cleaned?",
+    "options": [
+        "The base part of the kitchen sink is cleaned.",
+        "The faucet area of the kitchen sink is cleaned.",
+        "The edges of the kitchen sink are cleaned.",
+        "The drain hole of the kitchen sink is cleaned.",
+        "The underside of the kitchen sink is cleaned."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the kitchen sink is cleaned? Choose **only one** option from the following list.\nOptions:\n(A) The base part of the kitchen sink is cleaned.\n(B) The faucet area of the kitchen sink is cleaned.\n(C) The edges of the kitchen sink are cleaned.\n(D) The drain hole of the kitchen sink is cleaned.\n(E) The underside of the kitchen sink is cleaned.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The drain hole of the kitchen sink is cleaned."
+    },
+    "correct_idx": [
+        0
+    ]
+}

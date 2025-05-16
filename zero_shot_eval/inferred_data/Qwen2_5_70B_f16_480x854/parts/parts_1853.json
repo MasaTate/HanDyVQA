@@ -1,0 +1,17 @@
+{
+    "question": "What part of the fabric is removed?",
+    "options": [
+        "The outer layer of the fabric is removed.",
+        "The excess thread of the fabric is removed .",
+        "The corners of the fabric are removed.",
+        "The patterned section of the fabric is removed.",
+        "The middle fold of the fabric is removed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the fabric is removed? Choose **only one** option from the following list.\nOptions:\n(A) The outer layer of the fabric is removed.\n(B) The excess thread of the fabric is removed .\n(C) The corners of the fabric are removed.\n(D) The patterned section of the fabric is removed.\n(E) The middle fold of the fabric is removed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The excess thread of the fabric is removed."
+    },
+    "correct_idx": [
+        1
+    ]
+}

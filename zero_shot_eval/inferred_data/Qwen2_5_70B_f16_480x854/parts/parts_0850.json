@@ -1,0 +1,17 @@
+{
+    "question": "What part of the extension box is unplugged?",
+    "options": [
+        "The socket part of the extension box is unplugged.",
+        "The lid of the extension box is unplugged.",
+        "The handle section of the extension box is unplugged.",
+        "The base of the extension box is unplugged.",
+        "The power indicator of the extension box is unplugged."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the extension box is unplugged? Choose **only one** option from the following list.\nOptions:\n(A) The socket part of the extension box is unplugged.\n(B) The lid of the extension box is unplugged.\n(C) The handle section of the extension box is unplugged.\n(D) The base of the extension box is unplugged.\n(E) The power indicator of the extension box is unplugged.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The socket part of the extension box is unplugged."
+    },
+    "correct_idx": [
+        0
+    ]
+}

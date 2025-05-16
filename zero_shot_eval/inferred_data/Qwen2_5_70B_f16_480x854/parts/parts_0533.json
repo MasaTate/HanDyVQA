@@ -1,0 +1,17 @@
+{
+    "question": "What part of the pot is held by the spoon?",
+    "options": [
+        "The base of the pot is held by the spoon.",
+        "The rim of the pot is held by the spoon.",
+        "The side of the pot is held by the spoon.",
+        "The handle of the pot is held by the spoon.",
+        "The outer of the pot is held by the spoon."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the pot is held by the spoon? Choose **only one** option from the following list.\nOptions:\n(A) The base of the pot is held by the spoon.\n(B) The rim of the pot is held by the spoon.\n(C) The side of the pot is held by the spoon.\n(D) The handle of the pot is held by the spoon.\n(E) The outer of the pot is held by the spoon.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The side of the pot is held by the spoon."
+    },
+    "correct_idx": [
+        1
+    ]
+}

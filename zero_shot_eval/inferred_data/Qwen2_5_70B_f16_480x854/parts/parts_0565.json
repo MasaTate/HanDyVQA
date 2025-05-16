@@ -1,0 +1,17 @@
+{
+    "question": "What part of the fabric is cut?",
+    "options": [
+        "The edge of the fabric is cut.",
+        "The corner of the fabric is cut.",
+        "The thread of the fabric is cut.",
+        "The weave of the fabric is cut.",
+        "The surface of the fabric is cut."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the fabric is cut? Choose **only one** option from the following list.\nOptions:\n(A) The edge of the fabric is cut.\n(B) The corner of the fabric is cut.\n(C) The thread of the fabric is cut.\n(D) The weave of the fabric is cut.\n(E) The surface of the fabric is cut.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The thread of the fabric is cut."
+    },
+    "correct_idx": [
+        2
+    ]
+}

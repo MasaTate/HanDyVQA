@@ -1,0 +1,17 @@
+{
+    "question": "What part of the cardboard craft is marked?",
+    "options": [
+        "The bottom left edge of the cardboard craft is marked.",
+        "The center of the cardboard craft is marked.",
+        "The upper right corner of the cardboard craft is marked.",
+        "The lower right section of the cardboard craft is marked.",
+        "The top edge of the cardboard craft is marked."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the cardboard craft is marked? Choose **only one** option from the following list.\nOptions:\n(A) The bottom left edge of the cardboard craft is marked.\n(B) The center of the cardboard craft is marked.\n(C) The upper right corner of the cardboard craft is marked.\n(D) The lower right section of the cardboard craft is marked.\n(E) The top edge of the cardboard craft is marked.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The top edge of the cardboard craft is marked."
+    },
+    "correct_idx": [
+        2
+    ]
+}

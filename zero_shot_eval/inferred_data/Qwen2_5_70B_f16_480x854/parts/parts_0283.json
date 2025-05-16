@@ -1,0 +1,17 @@
+{
+    "question": "What part of the lawn mower is the screw inserted into?",
+    "options": [
+        "The front panel of the lawn mower is the screw inserted into.",
+        "The top cover of the lawn mower is the screw inserted into.",
+        "The side part of the lawn mower is the screw inserted into.",
+        "The rear handle of the lawn mower is the screw inserted into.",
+        "The bottom deck of the lawn mower is the screw inserted into."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the lawn mower is the screw inserted into? Choose **only one** option from the following list.\nOptions:\n(A) The front panel of the lawn mower is the screw inserted into.\n(B) The top cover of the lawn mower is the screw inserted into.\n(C) The side part of the lawn mower is the screw inserted into.\n(D) The rear handle of the lawn mower is the screw inserted into.\n(E) The bottom deck of the lawn mower is the screw inserted into.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The bottom deck of the lawn mower is the screw inserted into."
+    },
+    "correct_idx": [
+        2
+    ]
+}

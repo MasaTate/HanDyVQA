@@ -1,0 +1,17 @@
+{
+    "question": "What part of the ring gear is screwed?",
+    "options": [
+        "The outer edge of the ring gear is screwed.",
+        "The center of the ring gear is screwed.",
+        "The inner side of the ring gear is screwed.",
+        "The top surface of the ring gear is screwed.",
+        "The carrier part of the ring gear is screwed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the ring gear is screwed? Choose **only one** option from the following list.\nOptions:\n(A) The outer edge of the ring gear is screwed.\n(B) The center of the ring gear is screwed.\n(C) The inner side of the ring gear is screwed.\n(D) The top surface of the ring gear is screwed.\n(E) The carrier part of the ring gear is screwed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The center of the ring gear is screwed."
+    },
+    "correct_idx": [
+        4
+    ]
+}

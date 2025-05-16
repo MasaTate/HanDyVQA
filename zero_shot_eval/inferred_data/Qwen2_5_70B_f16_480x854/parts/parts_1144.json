@@ -1,0 +1,17 @@
+{
+    "question": "What part of the layer is inserted?",
+    "options": [
+        "The top layer portion was inserted.",
+        "The outermost layer section was inserted.",
+        "The middle layer part was inserted.",
+        "The bottom layer end was inserted.",
+        "The layer corner was inserted."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the layer is inserted? Choose **only one** option from the following list.\nOptions:\n(A) The top layer portion was inserted.\n(B) The outermost layer section was inserted.\n(C) The middle layer part was inserted.\n(D) The bottom layer end was inserted.\n(E) The layer corner was inserted.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The layer corner was inserted."
+    },
+    "correct_idx": [
+        2
+    ]
+}

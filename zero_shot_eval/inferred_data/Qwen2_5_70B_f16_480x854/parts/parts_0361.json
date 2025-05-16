@@ -1,0 +1,17 @@
+{
+    "question": "What part of the jar is used?",
+    "options": [
+        "The outer rim of the jar is used.",
+        "The lid of the jar is used.",
+        "The base of the jar is used.",
+        "The handle on the jar is used.",
+        "The inner part of the jar is used."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the jar is used? Choose **only one** option from the following list.\nOptions:\n(A) The outer rim of the jar is used.\n(B) The lid of the jar is used.\n(C) The base of the jar is used.\n(D) The handle on the jar is used.\n(E) The inner part of the jar is used.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The inner part of the jar is used."
+    },
+    "correct_idx": [
+        4
+    ]
+}

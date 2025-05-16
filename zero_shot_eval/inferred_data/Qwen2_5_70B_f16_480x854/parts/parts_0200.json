@@ -1,0 +1,17 @@
+{
+    "question": "What part of the carburetor is the hose placed?",
+    "options": [
+        "The upper section of the carburetor is where the hose is placed.",
+        "The left side part of the carburetor is where the hose placed.",
+        "The right end of the carburetor is where the hose is connected.",
+        "The lower base area of the carburetor is where the hose goes.",
+        "The front part of the carburetor is where the hose is attached."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the carburetor is the hose placed? Choose **only one** option from the following list.\nOptions:\n(A) The upper section of the carburetor is where the hose is placed.\n(B) The left side part of the carburetor is where the hose placed.\n(C) The right end of the carburetor is where the hose is connected.\n(D) The lower base area of the carburetor is where the hose goes.\n(E) The front part of the carburetor is where the hose is attached.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The lower base area of the carburetor is where the hose goes."
+    },
+    "correct_idx": [
+        1
+    ]
+}

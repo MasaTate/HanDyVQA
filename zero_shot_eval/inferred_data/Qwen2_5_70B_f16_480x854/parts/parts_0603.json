@@ -1,0 +1,17 @@
+{
+    "question": "What part of the wood is poked?",
+    "options": [
+        "The inner hole of the wood is poked.",
+        "The outer surface of the wood is poked.",
+        "The very edge of the wood is poked.",
+        "The top layer of the wood is poked.",
+        "The bark of the wood is poked."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the wood is poked? Choose **only one** option from the following list.\nOptions:\n(A) The inner hole of the wood is poked.\n(B) The outer surface of the wood is poked.\n(C) The very edge of the wood is poked.\n(D) The top layer of the wood is poked.\n(E) The bark of the wood is poked.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The inner hole of the wood is poked."
+    },
+    "correct_idx": [
+        0
+    ]
+}

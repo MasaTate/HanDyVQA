@@ -1,0 +1,17 @@
+{
+    "question": "What part of the jeans is touched?",
+    "options": [
+        "The hem of the jeans is being touched.",
+        "The pocket area of the jeans is being touched.",
+        "The knee section of the jeans is being touched.",
+        "The thigh region of the jeans is being touched.",
+        "The waistband of the jeans is being touched."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the jeans is touched? Choose **only one** option from the following list.\nOptions:\n(A) The hem of the jeans is being touched.\n(B) The pocket area of the jeans is being touched.\n(C) The knee section of the jeans is being touched.\n(D) The thigh region of the jeans is being touched.\n(E) The waistband of the jeans is being touched.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The waistband of the jeans is being touched."
+    },
+    "correct_idx": [
+        4
+    ]
+}

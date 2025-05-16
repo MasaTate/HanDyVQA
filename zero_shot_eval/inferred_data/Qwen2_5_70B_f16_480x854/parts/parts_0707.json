@@ -1,0 +1,17 @@
+{
+    "question": "What part of the wooden plank is rubbed?",
+    "options": [
+        "The corner edge of the wooden plank is rubbed.",
+        "The flat surface at the center of the wooden plank is rubbed.",
+        "The opposite end of the wooden plank is rubbed.",
+        "The underside of the wooden plank is rubbed.",
+        "The middle section along the length of the wooden plank is rubbed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the wooden plank is rubbed? Choose **only one** option from the following list.\nOptions:\n(A) The corner edge of the wooden plank is rubbed.\n(B) The flat surface at the center of the wooden plank is rubbed.\n(C) The opposite end of the wooden plank is rubbed.\n(D) The underside of the wooden plank is rubbed.\n(E) The middle section along the length of the wooden plank is rubbed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The opposite end of the wooden plank is rubbed."
+    },
+    "correct_idx": [
+        0
+    ]
+}

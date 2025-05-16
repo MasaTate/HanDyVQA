@@ -1,0 +1,17 @@
+{
+    "question": "What part of the box is pressed?",
+    "options": [
+        "The smooth surface on the top of the box is pressed.",
+        "The flaps on the side of the box are pressed.",
+        "The bottom panel of the box is pressed down.",
+        "The crumbled paper inside the box is pressed.",
+        "The edges of the box's lid are being pressed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the box is pressed? Choose **only one** option from the following list.\nOptions:\n(A) The smooth surface on the top of the box is pressed.\n(B) The flaps on the side of the box are pressed.\n(C) The bottom panel of the box is pressed down.\n(D) The crumbled paper inside the box is pressed.\n(E) The edges of the box's lid are being pressed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The crumbled paper inside the box is pressed."
+    },
+    "correct_idx": [
+        3
+    ]
+}

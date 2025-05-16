@@ -1,0 +1,17 @@
+{
+    "question": "What part of the cloth is held?",
+    "options": [
+        "The bottom of the cloth is held.",
+        "The right side of the cloth is held.",
+        "The left side of the cloth is held.",
+        "The center of the cloth is held.",
+        "The top of the cloth is held."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the cloth is held? Choose **only one** option from the following list.\nOptions:\n(A) The bottom of the cloth is held.\n(B) The right side of the cloth is held.\n(C) The left side of the cloth is held.\n(D) The center of the cloth is held.\n(E) The top of the cloth is held.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The center of the cloth is held."
+    },
+    "correct_idx": [
+        4
+    ]
+}

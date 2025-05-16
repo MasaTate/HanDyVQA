@@ -1,0 +1,17 @@
+{
+    "question": "What part of the tire is removed?",
+    "options": [
+        "The sidewall of the tire is removed.",
+        "The tread of the tire is removed.",
+        "The tire cap is removed.",
+        "The inner tube of the tire is removed.",
+        "The rim of the tire is removed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the tire is removed? Choose **only one** option from the following list.\nOptions:\n(A) The sidewall of the tire is removed.\n(B) The tread of the tire is removed.\n(C) The tire cap is removed.\n(D) The inner tube of the tire is removed.\n(E) The rim of the tire is removed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The inner tube of the tire is removed."
+    },
+    "correct_idx": [
+        2
+    ]
+}

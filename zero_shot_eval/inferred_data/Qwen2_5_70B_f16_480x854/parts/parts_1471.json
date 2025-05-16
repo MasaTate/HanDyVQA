@@ -1,0 +1,17 @@
+{
+    "question": "What part of the hand case is touched?",
+    "options": [
+        "The outer rim of the hand case is touched.",
+        "The interior part of the hand case is touched.",
+        "The top edge of the hand case is touched.",
+        "The base of the hand case is touched.",
+        "The exterior surface of the hand case is touched."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the hand case is touched? Choose **only one** option from the following list.\nOptions:\n(A) The outer rim of the hand case is touched.\n(B) The interior part of the hand case is touched.\n(C) The top edge of the hand case is touched.\n(D) The base of the hand case is touched.\n(E) The exterior surface of the hand case is touched.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The interior part of the hand case is touched."
+    },
+    "correct_idx": [
+        1
+    ]
+}

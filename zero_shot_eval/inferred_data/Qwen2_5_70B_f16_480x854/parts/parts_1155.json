@@ -1,0 +1,17 @@
+{
+    "question": "What part of the long pipe is pulled?",
+    "options": [
+        "The main section of the pipe is pulled.",
+        "The top of the pipe is being pulled.",
+        "The connector at the end of the pipe is pulled.",
+        "The base of the pipe is being pulled.",
+        "The mini hose from the pipe is pulled."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the long pipe is pulled? Choose **only one** option from the following list.\nOptions:\n(A) The main section of the pipe is pulled.\n(B) The top of the pipe is being pulled.\n(C) The connector at the end of the pipe is pulled.\n(D) The base of the pipe is being pulled.\n(E) The mini hose from the pipe is pulled.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The mini hose from the pipe is pulled."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the rice cooker is pressed?",
+    "options": [
+        "The button part of the rice cooker is pressed.",
+        "The side panel of the cooler.",
+        "The top lid of the cooler.",
+        "The front latch of the cooler.",
+        "The drainage plug of the cooler."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the rice cooker is pressed? Choose **only one** option from the following list.\nOptions:\n(A) The button part of the rice cooker is pressed.\n(B) The side panel of the cooler.\n(C) The top lid of the cooler.\n(D) The front latch of the cooler.\n(E) The drainage plug of the cooler.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The button part of the rice cooker is pressed."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the sewing machine is the cloth removed from?",
+    "options": [
+        "The cloth is removed from the side compartment of the sewing machine.",
+        "The cloth is removed from the top of the sewing machine.",
+        "The cloth is removed from the area behind the spool holder of the sewing machine.",
+        "The cloth is removed from the area under the presser foot of the sewing machine.",
+        "The cloth is removed from the front panel of the sewing machine."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the sewing machine is the cloth removed from? Choose **only one** option from the following list.\nOptions:\n(A) The cloth is removed from the side compartment of the sewing machine.\n(B) The cloth is removed from the top of the sewing machine.\n(C) The cloth is removed from the area behind the spool holder of the sewing machine.\n(D) The cloth is removed from the area under the presser foot of the sewing machine.\n(E) The cloth is removed from the front panel of the sewing machine.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The cloth is removed from the area under the presser foot of the sewing machine."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the desktop CD drive is fixed?",
+    "options": [
+        "The tray of the desktop CD drive is being fixed.",
+        "The eject button of the desktop CD drive is being fixed.",
+        "The power indicator light of the desktop CD drive is being fixed.",
+        "The cover lid of the desktop CD drive is being fixed.",
+        "The ventilation grill of the desktop CD drive is being fixed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the desktop CD drive is fixed? Choose **only one** option from the following list.\nOptions:\n(A) The tray of the desktop CD drive is being fixed.\n(B) The eject button of the desktop CD drive is being fixed.\n(C) The power indicator light of the desktop CD drive is being fixed.\n(D) The cover lid of the desktop CD drive is being fixed.\n(E) The ventilation grill of the desktop CD drive is being fixed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The tray of the desktop CD drive is being fixed."
+    },
+    "correct_idx": [
+        3
+    ]
+}

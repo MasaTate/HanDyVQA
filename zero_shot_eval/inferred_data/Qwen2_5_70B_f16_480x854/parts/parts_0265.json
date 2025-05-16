@@ -1,0 +1,17 @@
+{
+    "question": "What part of the toolbox is used?",
+    "options": [
+        "The wrench with a curved handle from the toolbox is being used.",
+        "The plastic hammer inside the toolbox is being used.",
+        "The measuring tape that is coiled in the toolbox is being used.",
+        "The small paintbrush located in the toolbox is being used.",
+        "The flat screw driver from the toolbox is being used."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the toolbox is used? Choose **only one** option from the following list.\nOptions:\n(A) The wrench with a curved handle from the toolbox is being used.\n(B) The plastic hammer inside the toolbox is being used.\n(C) The measuring tape that is coiled in the toolbox is being used.\n(D) The small paintbrush located in the toolbox is being used.\n(E) The flat screw driver from the toolbox is being used.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The flat screw driver from the toolbox is being used."
+    },
+    "correct_idx": [
+        4
+    ]
+}

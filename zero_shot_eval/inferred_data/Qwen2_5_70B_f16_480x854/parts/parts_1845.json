@@ -1,0 +1,17 @@
+{
+    "question": "What part of the egg is touched by the chopsticks?",
+    "options": [
+        "The top surface of the egg is touched by the chopsticks.",
+        "The bottom edge of the egg is touched by the chopsticks.",
+        "The side curve of the egg is touched by the chopsticks.",
+        "The middle section of the egg is touched by the chopsticks.",
+        "The pointed end of the egg is touched by the chopsticks."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the egg is touched by the chopsticks? Choose **only one** option from the following list.\nOptions:\n(A) The top surface of the egg is touched by the chopsticks.\n(B) The bottom edge of the egg is touched by the chopsticks.\n(C) The side curve of the egg is touched by the chopsticks.\n(D) The middle section of the egg is touched by the chopsticks.\n(E) The pointed end of the egg is touched by the chopsticks.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The side curve of the egg is touched by the chopsticks."
+    },
+    "correct_idx": [
+        1
+    ]
+}

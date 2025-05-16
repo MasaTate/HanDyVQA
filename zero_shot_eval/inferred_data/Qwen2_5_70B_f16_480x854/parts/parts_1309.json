@@ -1,0 +1,17 @@
+{
+    "question": "What part of the tap is moved?",
+    "options": [
+        "The base and the rim of the tap are moved.",
+        "The cap and the grip of the tap are moved.",
+        "The base of the tap is moved.",
+        "The neck and the lever of the tap are moved.",
+        "Only the handle of the tap is moved."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the tap is moved? Choose **only one** option from the following list.\nOptions:\n(A) The base and the rim of the tap are moved.\n(B) The cap and the grip of the tap are moved.\n(C) The base of the tap is moved.\n(D) The neck and the lever of the tap are moved.\n(E) Only the handle of the tap is moved.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) Only the handle of the tap is moved."
+    },
+    "correct_idx": [
+        3
+    ]
+}

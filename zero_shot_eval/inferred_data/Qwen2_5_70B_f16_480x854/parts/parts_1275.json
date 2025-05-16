@@ -1,0 +1,17 @@
+{
+    "question": "What part of the riding lawn mower is being cleaned?",
+    "options": [
+        "The top surface of the riding lawn mower is being cleaned.",
+        "The rear tire of the riding lawn mower is being cleaned.",
+        "The seat cushion of the riding lawn mower is being cleaned.",
+        "The underside of the riding lawn mower is being cleaned.",
+        "The front grille of the riding lawn mower is being cleaned."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the riding lawn mower is being cleaned? Choose **only one** option from the following list.\nOptions:\n(A) The top surface of the riding lawn mower is being cleaned.\n(B) The rear tire of the riding lawn mower is being cleaned.\n(C) The seat cushion of the riding lawn mower is being cleaned.\n(D) The underside of the riding lawn mower is being cleaned.\n(E) The front grille of the riding lawn mower is being cleaned.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The underside of the riding lawn mower is being cleaned."
+    },
+    "correct_idx": [
+        3
+    ]
+}

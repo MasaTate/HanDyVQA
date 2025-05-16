@@ -1,0 +1,17 @@
+{
+    "question": "What part of the book is removed?",
+    "options": [
+        "The spine of the book is removed.",
+        "The dust jacket of the book is removed.",
+        "The back flap of the book is removed.",
+        "The bookmarks from within the book are removed.",
+        "The middle page of the book is removed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the book is removed? Choose **only one** option from the following list.\nOptions:\n(A) The spine of the book is removed.\n(B) The dust jacket of the book is removed.\n(C) The back flap of the book is removed.\n(D) The bookmarks from within the book are removed.\n(E) The middle page of the book is removed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The dust jacket of the book is removed."
+    },
+    "correct_idx": [
+        1
+    ]
+}

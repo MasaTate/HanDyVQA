@@ -1,0 +1,17 @@
+{
+    "question": "What part of the lawn mower is tightened?",
+    "options": [
+        "The front blade guard of the lawn mower is tightened.",
+        "The side wheel attachment of the lawn mower is tightened.",
+        "The yellow cap of the lawnmower is tightened.",
+        "The top exhaust cover of the lawn mower is tightened.",
+        "The bottom fuel tank is tightened on the lawn mower."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the lawn mower is tightened? Choose **only one** option from the following list.\nOptions:\n(A) The front blade guard of the lawn mower is tightened.\n(B) The side wheel attachment of the lawn mower is tightened.\n(C) The yellow cap of the lawnmower is tightened.\n(D) The top exhaust cover of the lawn mower is tightened.\n(E) The bottom fuel tank is tightened on the lawn mower.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The yellow cap of the lawnmower is tightened."
+    },
+    "correct_idx": [
+        2
+    ]
+}

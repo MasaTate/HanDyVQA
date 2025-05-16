@@ -1,0 +1,17 @@
+{
+    "question": "What part of the wire is plugged?",
+    "options": [
+        "The end of the wire that is coiled up.",
+        "The male plug of the wire that is plugged.",
+        "The middle section of the wire that is wrapped.",
+        "The section of the wire near the insulation.",
+        "The area where the wire bends sharply."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the wire is plugged? Choose **only one** option from the following list.\nOptions:\n(A) The end of the wire that is coiled up.\n(B) The male plug of the wire that is plugged.\n(C) The middle section of the wire that is wrapped.\n(D) The section of the wire near the insulation.\n(E) The area where the wire bends sharply.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The male plug of the wire that is plugged."
+    },
+    "correct_idx": [
+        1
+    ]
+}

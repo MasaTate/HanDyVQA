@@ -1,0 +1,17 @@
+{
+    "question": "What part of the bicycle is adjusted?",
+    "options": [
+        "The wheel of the bicycle is adjusted.",
+        "The seat post of the bicycle is adjusted.",
+        "The frame of the bicycle is adjusted.",
+        "The pedals of the bicycle are adjusted.",
+        "The hub of the wheel of the bicycle is adjusted."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the bicycle is adjusted? Choose **only one** option from the following list.\nOptions:\n(A) The wheel of the bicycle is adjusted.\n(B) The seat post of the bicycle is adjusted.\n(C) The frame of the bicycle is adjusted.\n(D) The pedals of the bicycle are adjusted.\n(E) The hub of the wheel of the bicycle is adjusted.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The wheel of the bicycle is adjusted."
+    },
+    "correct_idx": [
+        0
+    ]
+}

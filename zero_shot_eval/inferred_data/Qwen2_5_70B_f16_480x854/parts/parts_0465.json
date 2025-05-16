@@ -1,0 +1,17 @@
+{
+    "question": "What part of the car is cleaned?",
+    "options": [
+        "The hood of the car is being cleaned.",
+        "The wiper of the car is being cleaned.",
+        "The side mirror of the car is being cleaned.",
+        "The roof of the car is being cleaned.",
+        "The windshield of the car is being cleaned."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the car is cleaned? Choose **only one** option from the following list.\nOptions:\n(A) The hood of the car is being cleaned.\n(B) The wiper of the car is being cleaned.\n(C) The side mirror of the car is being cleaned.\n(D) The roof of the car is being cleaned.\n(E) The windshield of the car is being cleaned.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The side mirror of the car is being cleaned."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the bass drum is contacted?",
+    "options": [
+        "The center of the bass drum is contacted.",
+        "The top edge of the bass drum is contacted.",
+        "The right side of the bass drum is contacted.",
+        "The left side of the bass drum is contacted.",
+        "The back surface of the bass drum is contacted."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the bass drum is contacted? Choose **only one** option from the following list.\nOptions:\n(A) The center of the bass drum is contacted.\n(B) The top edge of the bass drum is contacted.\n(C) The right side of the bass drum is contacted.\n(D) The left side of the bass drum is contacted.\n(E) The back surface of the bass drum is contacted.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The center of the bass drum is contacted."
+    },
+    "correct_idx": [
+        3
+    ]
+}

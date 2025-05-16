@@ -1,0 +1,17 @@
+{
+    "question": "What part of the resistance band is adjusted?",
+    "options": [
+        "The middle section of the resistance band is adjusted.",
+        "The ends of the resistance band are adjusted.",
+        "The handle of the resistance band is adjusted.",
+        "The core of the resistance band is adjusted.",
+        "The clip of the resistance band is adjusted."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the resistance band is adjusted? Choose **only one** option from the following list.\nOptions:\n(A) The middle section of the resistance band is adjusted.\n(B) The ends of the resistance band are adjusted.\n(C) The handle of the resistance band is adjusted.\n(D) The core of the resistance band is adjusted.\n(E) The clip of the resistance band is adjusted.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The ends of the resistance band are adjusted."
+    },
+    "correct_idx": [
+        2
+    ]
+}

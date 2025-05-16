@@ -1,0 +1,17 @@
+{
+    "question": "What part of the motorcycle is placed with the wire?",
+    "options": [
+        "The steering wheel of the motorcycle is placed with the wire.",
+        "The seat cushion of the motorcycle is placed with the wire.",
+        "The electrical part of the motorcycle is placed with the wire.",
+        "The fuel tank of the motorcycle is placed with the wire.",
+        "The rearview mirror of the motorcycle is placed with the wire."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the motorcycle is placed with the wire? Choose **only one** option from the following list.\nOptions:\n(A) The steering wheel of the motorcycle is placed with the wire.\n(B) The seat cushion of the motorcycle is placed with the wire.\n(C) The electrical part of the motorcycle is placed with the wire.\n(D) The fuel tank of the motorcycle is placed with the wire.\n(E) The rearview mirror of the motorcycle is placed with the wire.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The electrical part of the motorcycle is placed with the wire."
+    },
+    "correct_idx": [
+        2
+    ]
+}

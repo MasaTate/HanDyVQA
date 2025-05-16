@@ -1,0 +1,17 @@
+{
+    "question": "What part of the electric socket is opened?",
+    "options": [
+        "The base of the electric socket is being opened.",
+        "The cover of the electric socket is being opened.",
+        "The side panel of the electric socket is being opened.",
+        "The interior compartment of the electric socket is being opened.",
+        "The outlet rim of the electric socket is being opened."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the electric socket is opened? Choose **only one** option from the following list.\nOptions:\n(A) The base of the electric socket is being opened.\n(B) The cover of the electric socket is being opened.\n(C) The side panel of the electric socket is being opened.\n(D) The interior compartment of the electric socket is being opened.\n(E) The outlet rim of the electric socket is being opened.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The cover of the electric socket is being opened."
+    },
+    "correct_idx": [
+        1
+    ]
+}

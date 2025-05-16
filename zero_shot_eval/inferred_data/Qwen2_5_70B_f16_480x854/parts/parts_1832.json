@@ -1,0 +1,17 @@
+{
+    "question": "What part of the trowel is scrubbed?",
+    "options": [
+        "The edges part of the trowel is scrubbed.",
+        "The flat surface of the trowel is scrubbed.",
+        "The curved tip of the trowel is scrubbed.",
+        "The handle part of the trowel is scrubbed.",
+        "The bottom of the trowel blade is scrubbed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the trowel is scrubbed? Choose **only one** option from the following list.\nOptions:\n(A) The edges part of the trowel is scrubbed.\n(B) The flat surface of the trowel is scrubbed.\n(C) The curved tip of the trowel is scrubbed.\n(D) The handle part of the trowel is scrubbed.\n(E) The bottom of the trowel blade is scrubbed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The flat surface of the trowel is scrubbed."
+    },
+    "correct_idx": [
+        0
+    ]
+}

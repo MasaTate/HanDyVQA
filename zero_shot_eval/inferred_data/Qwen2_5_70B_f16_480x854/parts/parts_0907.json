@@ -1,0 +1,17 @@
+{
+    "question": "What part of the socket board is picked?",
+    "options": [
+        "The circuit indicator of the socket board is picked.",
+        "The surface area of the socket board is picked.",
+        "The wire of the socket board is picked.",
+        "The base of the socket board is picked.",
+        "The prong connection of the socket board is picked."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the socket board is picked? Choose **only one** option from the following list.\nOptions:\n(A) The circuit indicator of the socket board is picked.\n(B) The surface area of the socket board is picked.\n(C) The wire of the socket board is picked.\n(D) The base of the socket board is picked.\n(E) The prong connection of the socket board is picked.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The wire of the socket board is picked."
+    },
+    "correct_idx": [
+        2
+    ]
+}

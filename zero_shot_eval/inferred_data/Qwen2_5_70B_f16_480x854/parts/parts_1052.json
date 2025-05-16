@@ -1,0 +1,17 @@
+{
+    "question": "What part of the cloth is removed?",
+    "options": [
+        "The fiber from the upper edge of the cloth is removed.",
+        "The border stitching at the side of the cloth is removed.",
+        "The yarn from the lower part of the cloth is removed.",
+        "The lining from the center section of the cloth is removed.",
+        "The hem along the top of the cloth is removed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the cloth is removed? Choose **only one** option from the following list.\nOptions:\n(A) The fiber from the upper edge of the cloth is removed.\n(B) The border stitching at the side of the cloth is removed.\n(C) The yarn from the lower part of the cloth is removed.\n(D) The lining from the center section of the cloth is removed.\n(E) The hem along the top of the cloth is removed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The yarn from the lower part of the cloth is removed."
+    },
+    "correct_idx": [
+        2
+    ]
+}

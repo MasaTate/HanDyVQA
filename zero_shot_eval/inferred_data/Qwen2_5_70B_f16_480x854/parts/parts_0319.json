@@ -1,0 +1,17 @@
+{
+    "question": "What part of the toaster is opened?",
+    "options": [
+        "The lower compartment of the toaster is opened.",
+        "The upper part of the toaster is opened.",
+        "The side panel of the toaster is opened.",
+        "The back section of the toaster is opened.",
+        "The front door of the toaster is opened."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the toaster is opened? Choose **only one** option from the following list.\nOptions:\n(A) The lower compartment of the toaster is opened.\n(B) The upper part of the toaster is opened.\n(C) The side panel of the toaster is opened.\n(D) The back section of the toaster is opened.\n(E) The front door of the toaster is opened.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The upper part of the toaster is opened."
+    },
+    "correct_idx": [
+        1
+    ]
+}

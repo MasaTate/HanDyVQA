@@ -1,0 +1,17 @@
+{
+    "question": "What part of the tap is turned?",
+    "options": [
+        "The spout of the tap is being turned.",
+        "The base of the tap is being turned.",
+        "The handle of the tap is being turned.",
+        "The side lever of the tap is being turned.",
+        "The water outlet of the tap is being turned."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the tap is turned? Choose **only one** option from the following list.\nOptions:\n(A) The spout of the tap is being turned.\n(B) The base of the tap is being turned.\n(C) The handle of the tap is being turned.\n(D) The side lever of the tap is being turned.\n(E) The water outlet of the tap is being turned.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The handle of the tap is being turned."
+    },
+    "correct_idx": [
+        2
+    ]
+}

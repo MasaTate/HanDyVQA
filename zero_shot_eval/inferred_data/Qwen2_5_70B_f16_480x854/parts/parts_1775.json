@@ -1,0 +1,17 @@
+{
+    "question": "What part of the drawing is powdered?",
+    "options": [
+        "The outline of the drawing is powdered.",
+        "The colored part of the drawing is powdered.",
+        "The background area of the drawing is powdered.",
+        "The blank sections of the drawing are powdered.",
+        "The head part of the drawing are powdered."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the drawing is powdered? Choose **only one** option from the following list.\nOptions:\n(A) The outline of the drawing is powdered.\n(B) The colored part of the drawing is powdered.\n(C) The background area of the drawing is powdered.\n(D) The blank sections of the drawing are powdered.\n(E) The head part of the drawing are powdered.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The colored part of the drawing is powdered."
+    },
+    "correct_idx": [
+        1
+    ]
+}

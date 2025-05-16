@@ -1,0 +1,17 @@
+{
+    "question": "What part of the scooter is picked?",
+    "options": [
+        "The wire of the scooter is picked.",
+        "The side merror of the scooter is picked.",
+        "The tire of the scooter is picked.",
+        "The signal light of the scooter is picked.",
+        "The handle bar of the scooter is picked."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the scooter is picked? Choose **only one** option from the following list.\nOptions:\n(A) The wire of the scooter is picked.\n(B) The side merror of the scooter is picked.\n(C) The tire of the scooter is picked.\n(D) The signal light of the scooter is picked.\n(E) The handle bar of the scooter is picked.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The wire of the scooter is picked."
+    },
+    "correct_idx": [
+        0
+    ]
+}

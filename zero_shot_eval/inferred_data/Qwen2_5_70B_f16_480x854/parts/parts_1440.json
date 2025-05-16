@@ -1,0 +1,17 @@
+{
+    "question": "What part of the book is the ribbon put through?",
+    "options": [
+        "The ribbon is put through the top right hole on the spine of the book.",
+        "The ribbon is put through the bottom left corner of the cover of the book.",
+        "The ribbon is threaded through the middle section of the pages inside the book.",
+        "The ribbon is placed around the edge of the back cover of the book.",
+        "The ribbon is inserted into the top left space on the front page of the book."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the book is the ribbon put through? Choose **only one** option from the following list.\nOptions:\n(A) The ribbon is put through the top right hole on the spine of the book.\n(B) The ribbon is put through the bottom left corner of the cover of the book.\n(C) The ribbon is threaded through the middle section of the pages inside the book.\n(D) The ribbon is placed around the edge of the back cover of the book.\n(E) The ribbon is inserted into the top left space on the front page of the book.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The ribbon is put through the top right hole on the spine of the book."
+    },
+    "correct_idx": [
+        0
+    ]
+}

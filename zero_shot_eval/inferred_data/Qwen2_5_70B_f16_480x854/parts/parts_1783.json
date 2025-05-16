@@ -1,0 +1,17 @@
+{
+    "question": "What part of the box is closed?",
+    "options": [
+        "The lid of the box is closed.",
+        "The side panel of the box is closed.",
+        "The bottom of the box is closed.",
+        "The compartment of the box is closed.",
+        "The front flap of the box is closed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the box is closed? Choose **only one** option from the following list.\nOptions:\n(A) The lid of the box is closed.\n(B) The side panel of the box is closed.\n(C) The bottom of the box is closed.\n(D) The compartment of the box is closed.\n(E) The front flap of the box is closed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The bottom of the box is closed."
+    },
+    "correct_idx": [
+        3
+    ]
+}

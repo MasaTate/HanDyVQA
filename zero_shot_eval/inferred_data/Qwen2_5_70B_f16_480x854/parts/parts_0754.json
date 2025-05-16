@@ -1,0 +1,17 @@
+{
+    "question": "What part of the bag is held?",
+    "options": [
+        "The bottom seam of the bag is held.",
+        "The center of the bag's side is held.",
+        "The middle section of the bag is held.",
+        "The corner tip of the bag is held.",
+        "The flap of the bag is held."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the bag is held? Choose **only one** option from the following list.\nOptions:\n(A) The bottom seam of the bag is held.\n(B) The center of the bag's side is held.\n(C) The middle section of the bag is held.\n(D) The corner tip of the bag is held.\n(E) The flap of the bag is held.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The flap of the bag is held."
+    },
+    "correct_idx": [
+        3
+    ]
+}

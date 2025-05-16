@@ -1,0 +1,17 @@
+{
+    "question": "What part of the device is fixed?",
+    "options": [
+        "The screen of the device is fixed.",
+        "The battery of the device is fixed.",
+        "The top casing of the device is fixed.",
+        "The charging port of the device is fixed.",
+        "The antenna of the device is fixed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the device is fixed? Choose **only one** option from the following list.\nOptions:\n(A) The screen of the device is fixed.\n(B) The battery of the device is fixed.\n(C) The top casing of the device is fixed.\n(D) The charging port of the device is fixed.\n(E) The antenna of the device is fixed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The battery of the device is fixed."
+    },
+    "correct_idx": [
+        1
+    ]
+}

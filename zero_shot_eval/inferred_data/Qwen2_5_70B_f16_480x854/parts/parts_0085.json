@@ -1,0 +1,17 @@
+{
+    "question": "What part of the machine is handled?",
+    "options": [
+        "The lever of the machine is handled.",
+        "The bolt of the machine is handled.",
+        "The panel of the machine is handled.",
+        "The casing of the machine is handled.",
+        "The rolling part of the machine is handled."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the machine is handled? Choose **only one** option from the following list.\nOptions:\n(A) The lever of the machine is handled.\n(B) The bolt of the machine is handled.\n(C) The panel of the machine is handled.\n(D) The casing of the machine is handled.\n(E) The rolling part of the machine is handled.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The bolt of the machine is handled."
+    },
+    "correct_idx": [
+        1
+    ]
+}

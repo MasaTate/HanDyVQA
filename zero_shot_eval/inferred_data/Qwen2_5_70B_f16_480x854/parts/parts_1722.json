@@ -1,0 +1,17 @@
+{
+    "question": "What part of the laptop is tilted?",
+    "options": [
+        "The cooling fan of the laptop is tilted.",
+        "The touchpad of the laptop is tilted.",
+        "The battery compartment of the laptop is tilted.",
+        "The mother board of the laptop is tilted.",
+        "The mouse of the laptop is tilted."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the laptop is tilted? Choose **only one** option from the following list.\nOptions:\n(A) The cooling fan of the laptop is tilted.\n(B) The touchpad of the laptop is tilted.\n(C) The battery compartment of the laptop is tilted.\n(D) The mother board of the laptop is tilted.\n(E) The mouse of the laptop is tilted.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The mother board of the laptop is tilted."
+    },
+    "correct_idx": [
+        0
+    ]
+}

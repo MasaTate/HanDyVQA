@@ -1,0 +1,17 @@
+{
+    "question": "What part of the machine is moved?",
+    "options": [
+        "The casing of the machine is moved.",
+        "The filter of the machine is moved.",
+        "The plug of the machine is moved.",
+        "The wheel of the machine is moved.",
+        "The cap of the machine is moved."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the machine is moved? Choose **only one** option from the following list.\nOptions:\n(A) The casing of the machine is moved.\n(B) The filter of the machine is moved.\n(C) The plug of the machine is moved.\n(D) The wheel of the machine is moved.\n(E) The cap of the machine is moved.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The cap of the machine is moved."
+    },
+    "correct_idx": [
+        2
+    ]
+}

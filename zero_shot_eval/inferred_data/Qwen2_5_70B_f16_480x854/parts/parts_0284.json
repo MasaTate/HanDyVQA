@@ -1,0 +1,17 @@
+{
+    "question": "What part of the service toolbox is closed?",
+    "options": [
+        "The upper left corner of the service toolbox is closed.",
+        "The bottom section of the service toolbox is closed.",
+        "The far left edge of the service toolbox is closed.",
+        "The inner lid of the service toolbox is closed.",
+        "The middle right part of the service toolbox is closed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the service toolbox is closed? Choose **only one** option from the following list.\nOptions:\n(A) The upper left corner of the service toolbox is closed.\n(B) The bottom section of the service toolbox is closed.\n(C) The far left edge of the service toolbox is closed.\n(D) The inner lid of the service toolbox is closed.\n(E) The middle right part of the service toolbox is closed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The bottom section of the service toolbox is closed."
+    },
+    "correct_idx": [
+        4
+    ]
+}

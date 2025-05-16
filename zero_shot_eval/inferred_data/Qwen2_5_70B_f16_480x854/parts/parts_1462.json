@@ -1,0 +1,17 @@
+{
+    "question": "What part of the camera is adjusted?",
+    "options": [
+        "The strap of the camera is adjusted.",
+        "The lens cover of the camera is adjusted.",
+        "The viewfinder of the camera is adjusted.",
+        "The flash attachment of the camera is adjusted.",
+        "The glasses where camera is attached is adjusted."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the camera is adjusted? Choose **only one** option from the following list.\nOptions:\n(A) The strap of the camera is adjusted.\n(B) The lens cover of the camera is adjusted.\n(C) The viewfinder of the camera is adjusted.\n(D) The flash attachment of the camera is adjusted.\n(E) The glasses where camera is attached is adjusted.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The glasses where camera is attached is adjusted."
+    },
+    "correct_idx": [
+        0
+    ]
+}

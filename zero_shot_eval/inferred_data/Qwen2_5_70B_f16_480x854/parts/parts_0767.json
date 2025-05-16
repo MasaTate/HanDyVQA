@@ -1,0 +1,17 @@
+{
+    "question": "What part of the oven is set?",
+    "options": [
+        "The door handle of the oven is set.",
+        "The oven light switch is set.",
+        "The rack adjustment lever of the oven is set.",
+        "The control button of the oven is set.",
+        "The temperature gauge of the oven is set."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the oven is set? Choose **only one** option from the following list.\nOptions:\n(A) The door handle of the oven is set.\n(B) The oven light switch is set.\n(C) The rack adjustment lever of the oven is set.\n(D) The control button of the oven is set.\n(E) The temperature gauge of the oven is set.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The control button of the oven is set."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the board is measured?",
+    "options": [
+        "The bottom edge of the board is measured.",
+        "The side groove of the board is measured.",
+        "The corner tip of the board is measured.",
+        "The right edge of the board is measured.",
+        "The top surface of the board is measured."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the board is measured? Choose **only one** option from the following list.\nOptions:\n(A) The bottom edge of the board is measured.\n(B) The side groove of the board is measured.\n(C) The corner tip of the board is measured.\n(D) The right edge of the board is measured.\n(E) The top surface of the board is measured.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The right edge of the board is measured."
+    },
+    "correct_idx": [
+        4
+    ]
+}

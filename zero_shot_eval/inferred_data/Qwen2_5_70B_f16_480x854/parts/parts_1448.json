@@ -1,0 +1,17 @@
+{
+    "question": "What part of the tile carton is torn?",
+    "options": [
+        "The cardboard base of the tile carton is torn.",
+        "The edge seam of the tile carton is torn.",
+        "The plastic film of the tile carton is torn.",
+        "The top lid of the tile carton is torn.",
+        "The edge of the tile carton is torn."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the tile carton is torn? Choose **only one** option from the following list.\nOptions:\n(A) The cardboard base of the tile carton is torn.\n(B) The edge seam of the tile carton is torn.\n(C) The plastic film of the tile carton is torn.\n(D) The top lid of the tile carton is torn.\n(E) The edge of the tile carton is torn.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The edge of the tile carton is torn."
+    },
+    "correct_idx": [
+        2
+    ]
+}

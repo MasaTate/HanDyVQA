@@ -1,0 +1,17 @@
+{
+    "question": "What part of the bacon is removed?",
+    "options": [
+        "The edge of the bacon is removed.",
+        "The slice of the bacon is removed.",
+        "The fat layer of the bacon is removed.",
+        "The skin of the bacon is removed.",
+        "The center portion of the bacon is removed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the bacon is removed? Choose **only one** option from the following list.\nOptions:\n(A) The edge of the bacon is removed.\n(B) The slice of the bacon is removed.\n(C) The fat layer of the bacon is removed.\n(D) The skin of the bacon is removed.\n(E) The center portion of the bacon is removed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The edge of the bacon is removed."
+    },
+    "correct_idx": [
+        1
+    ]
+}

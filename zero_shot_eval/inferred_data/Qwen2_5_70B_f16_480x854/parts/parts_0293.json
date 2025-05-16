@@ -1,0 +1,17 @@
+{
+    "question": "What part of the egg is hit?",
+    "options": [
+        "The top end of the egg is hit.",
+        "The middle part of the egg is hit.",
+        "The bottom of the egg is hit.",
+        "The inner part of the egg shell is hit.",
+        "The back side of the egg shell is hit."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the egg is hit? Choose **only one** option from the following list.\nOptions:\n(A) The top end of the egg is hit.\n(B) The middle part of the egg is hit.\n(C) The bottom of the egg is hit.\n(D) The inner part of the egg shell is hit.\n(E) The back side of the egg shell is hit.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The top end of the egg is hit."
+    },
+    "correct_idx": [
+        1
+    ]
+}

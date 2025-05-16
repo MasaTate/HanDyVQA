@@ -1,0 +1,17 @@
+{
+    "question": "What part of the black tube is closed?",
+    "options": [
+        "The bottom of the black tube is closed.",
+        "The lid of the black tube is closed.",
+        "The side opening of the black tube is closed.",
+        "The hinge of the black tube is closed.",
+        "The neck of the black tube is closed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the black tube is closed? Choose **only one** option from the following list.\nOptions:\n(A) The bottom of the black tube is closed.\n(B) The lid of the black tube is closed.\n(C) The side opening of the black tube is closed.\n(D) The hinge of the black tube is closed.\n(E) The neck of the black tube is closed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The lid of the black tube is closed."
+    },
+    "correct_idx": [
+        1
+    ]
+}

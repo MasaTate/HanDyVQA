@@ -1,0 +1,17 @@
+{
+    "question": "What part of the cordless drill machine is tightened?",
+    "options": [
+        "The grip of the cordless drill machine is tightened.",
+        "The trigger area of the cordless drill machine is tightened.",
+        "The chuck of the cordless drill machine is tightened.",
+        "The battery compartment of the cordless drill machine is tightened.",
+        "The drill bit of the drill machine is tightened."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the cordless drill machine is tightened? Choose **only one** option from the following list.\nOptions:\n(A) The grip of the cordless drill machine is tightened.\n(B) The trigger area of the cordless drill machine is tightened.\n(C) The chuck of the cordless drill machine is tightened.\n(D) The battery compartment of the cordless drill machine is tightened.\n(E) The drill bit of the drill machine is tightened.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The chuck of the cordless drill machine is tightened."
+    },
+    "correct_idx": [
+        2
+    ]
+}

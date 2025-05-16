@@ -1,0 +1,17 @@
+{
+    "question": "What part of the gas burner is pressed?",
+    "options": [
+        "The safety valve of the gas burner was pressed.",
+        "The ignition switch of the gas burner was pressed.",
+        "The gas nozzle of the gas burner was pressed.",
+        "The control panel of the gas burner was pressed.",
+        "The flame adjustment dial of the gas burner was pressed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the gas burner is pressed? Choose **only one** option from the following list.\nOptions:\n(A) The safety valve of the gas burner was pressed.\n(B) The ignition switch of the gas burner was pressed.\n(C) The gas nozzle of the gas burner was pressed.\n(D) The control panel of the gas burner was pressed.\n(E) The flame adjustment dial of the gas burner was pressed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The control panel of the gas burner was pressed."
+    },
+    "correct_idx": [
+        3
+    ]
+}

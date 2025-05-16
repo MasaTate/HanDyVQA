@@ -1,0 +1,17 @@
+{
+    "question": "What part of the compartment is used?",
+    "options": [
+        "The base of the side panel compartment is used.",
+        "The handle of the rear box compartment is used.",
+        "The wall of the top compartment is used.",
+        "The seat compartment is used.",
+        "The lid of the front box compartment is used."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the compartment is used? Choose **only one** option from the following list.\nOptions:\n(A) The base of the side panel compartment is used.\n(B) The handle of the rear box compartment is used.\n(C) The wall of the top compartment is used.\n(D) The seat compartment is used.\n(E) The lid of the front box compartment is used.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The seat compartment is used."
+    },
+    "correct_idx": [
+        4
+    ]
+}

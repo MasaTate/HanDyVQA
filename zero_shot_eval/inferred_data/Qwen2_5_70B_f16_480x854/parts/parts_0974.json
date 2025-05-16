@@ -1,0 +1,17 @@
+{
+    "question": "What part of the bicycle is greased?",
+    "options": [
+        "The pedal cap of the bicycle is greased.",
+        "The wheel rim of the bicycle is greased.",
+        "The handlebar grip of the bicycle is greased.",
+        "The seat post clamp of the bicycle is greased.",
+        "The frame connector of the bicycle is greased."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the bicycle is greased? Choose **only one** option from the following list.\nOptions:\n(A) The pedal cap of the bicycle is greased.\n(B) The wheel rim of the bicycle is greased.\n(C) The handlebar grip of the bicycle is greased.\n(D) The seat post clamp of the bicycle is greased.\n(E) The frame connector of the bicycle is greased.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The pedal cap of the bicycle is greased."
+    },
+    "correct_idx": [
+        4
+    ]
+}

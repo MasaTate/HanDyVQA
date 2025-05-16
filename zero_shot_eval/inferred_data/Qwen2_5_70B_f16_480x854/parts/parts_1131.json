@@ -1,0 +1,17 @@
+{
+    "question": "What part of the bicycle is held?",
+    "options": [
+        "The front wheel of the bicycle is held.",
+        "The pedals of the bicycle are held.",
+        "The seat post of the bicycle is held.",
+        "The handlebars of the bicycle are held.",
+        "The top tube of the bicycle is held."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the bicycle is held? Choose **only one** option from the following list.\nOptions:\n(A) The front wheel of the bicycle is held.\n(B) The pedals of the bicycle are held.\n(C) The seat post of the bicycle is held.\n(D) The handlebars of the bicycle are held.\n(E) The top tube of the bicycle is held.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The top tube of the bicycle is held."
+    },
+    "correct_idx": [
+        4
+    ]
+}

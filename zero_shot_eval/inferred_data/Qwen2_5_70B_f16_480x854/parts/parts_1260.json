@@ -1,0 +1,17 @@
+{
+    "question": "What part of the dishwasher is pressed?",
+    "options": [
+        "The knob on the right side of the dishwasher is pressed.",
+        "The button left to the display of the dishwasher is pressed.",
+        "The panel above the display of the dishwasher is pressed.",
+        "The handle of the dishwasher door is pressed.",
+        "The green button of the dishwasher is pressed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the dishwasher is pressed? Choose **only one** option from the following list.\nOptions:\n(A) The knob on the right side of the dishwasher is pressed.\n(B) The button left to the display of the dishwasher is pressed.\n(C) The panel above the display of the dishwasher is pressed.\n(D) The handle of the dishwasher door is pressed.\n(E) The green button of the dishwasher is pressed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The button left to the display of the dishwasher is pressed."
+    },
+    "correct_idx": [
+        1
+    ]
+}

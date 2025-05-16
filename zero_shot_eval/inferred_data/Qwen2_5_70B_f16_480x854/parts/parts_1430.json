@@ -1,0 +1,17 @@
+{
+    "question": "What part of the paintbrush is scrubbed?",
+    "options": [
+        "The middle part of the bristle of the paintbrush is scrubbed.",
+        "The base of the handle of the paintbrush is scrubbed.",
+        "The tip of the bristle of the paintbrush is scrubbed.",
+        "The edge of the ferrule of the paintbrush is scrubbed.",
+        "The end of the paintbrush handle is scrubbed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the paintbrush is scrubbed? Choose **only one** option from the following list.\nOptions:\n(A) The middle part of the bristle of the paintbrush is scrubbed.\n(B) The base of the handle of the paintbrush is scrubbed.\n(C) The tip of the bristle of the paintbrush is scrubbed.\n(D) The edge of the ferrule of the paintbrush is scrubbed.\n(E) The end of the paintbrush handle is scrubbed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The middle part of the bristle of the paintbrush is scrubbed."
+    },
+    "correct_idx": [
+        0
+    ]
+}

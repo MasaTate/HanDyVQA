@@ -1,0 +1,17 @@
+{
+    "question": "What part of the engine is gripped?",
+    "options": [
+        "The base plate of the engine is gripped.",
+        "The timing belt section of the engine is gripped.",
+        "The exhaust manifold of the engine is gripped.",
+        "The head cover of the engine is gripped.",
+        "The oil pan of the engine is gripped."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the engine is gripped? Choose **only one** option from the following list.\nOptions:\n(A) The base plate of the engine is gripped.\n(B) The timing belt section of the engine is gripped.\n(C) The exhaust manifold of the engine is gripped.\n(D) The head cover of the engine is gripped.\n(E) The oil pan of the engine is gripped.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The base plate of the engine is gripped."
+    },
+    "correct_idx": [
+        3
+    ]
+}

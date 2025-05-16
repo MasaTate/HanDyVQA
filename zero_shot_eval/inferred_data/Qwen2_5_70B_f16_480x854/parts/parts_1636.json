@@ -1,0 +1,17 @@
+{
+    "question": "What part of the coconut is cut?",
+    "options": [
+        "The shell of the coconut was cut.",
+        "The inner meat of the coconut was cut.",
+        "The exocarp of the coconut was cut.",
+        "The base of the coconut was cut.",
+        "The husk of the coconut was cut."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the coconut is cut? Choose **only one** option from the following list.\nOptions:\n(A) The shell of the coconut was cut.\n(B) The inner meat of the coconut was cut.\n(C) The exocarp of the coconut was cut.\n(D) The base of the coconut was cut.\n(E) The husk of the coconut was cut.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The husk of the coconut was cut."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the cloth is pulled?",
+    "options": [
+        "The collar of the cloth is pulled.",
+        "The hemline at the bottom of the cloth is pulled.",
+        "The right and left sleeves of the cloth is pulled.",
+        "The back panel of the cloth is pulled.",
+        "The neckline of the cloth is pulled."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the cloth is pulled? Choose **only one** option from the following list.\nOptions:\n(A) The collar of the cloth is pulled.\n(B) The hemline at the bottom of the cloth is pulled.\n(C) The right and left sleeves of the cloth is pulled.\n(D) The back panel of the cloth is pulled.\n(E) The neckline of the cloth is pulled.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The right and left sleeves of the cloth is pulled."
+    },
+    "correct_idx": [
+        2
+    ]
+}

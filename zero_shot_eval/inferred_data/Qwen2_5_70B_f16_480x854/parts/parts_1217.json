@@ -1,0 +1,17 @@
+{
+    "question": "What part of the spool is removed?",
+    "options": [
+        "The threads in the spool is being removed.",
+        "The center cap of the spool is being twisted off.",
+        "The outer casing of the spool is taken out.",
+        "The label on the spool is being peeled away.",
+        "The bottom base of the spool is being unscrewed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the spool is removed? Choose **only one** option from the following list.\nOptions:\n(A) The threads in the spool is being removed.\n(B) The center cap of the spool is being twisted off.\n(C) The outer casing of the spool is taken out.\n(D) The label on the spool is being peeled away.\n(E) The bottom base of the spool is being unscrewed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The center cap of the spool is being twisted off."
+    },
+    "correct_idx": [
+        0
+    ]
+}

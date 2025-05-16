@@ -1,0 +1,17 @@
+{
+    "question": "What part of the butter is opened?",
+    "options": [
+        "The upper part of the butter is opened.",
+        "The lower edge of the butter is opened.",
+        "The corner section of the butter is opened.",
+        "The middle section of the butter is opened.",
+        "The side flap of the butter is opened."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the butter is opened? Choose **only one** option from the following list.\nOptions:\n(A) The upper part of the butter is opened.\n(B) The lower edge of the butter is opened.\n(C) The corner section of the butter is opened.\n(D) The middle section of the butter is opened.\n(E) The side flap of the butter is opened.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The side flap of the butter is opened."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the dishwasher is closed?",
+    "options": [
+        "The top vent of the dishwasher is secured shut.",
+        "The front control panel of the dishwasher is firmly shut.",
+        "The side door of the dishwasher is tightly closed.",
+        "The bottom compartment of the dishwasher is sealed off.",
+        "The rack of the dishwasher is closed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the dishwasher is closed? Choose **only one** option from the following list.\nOptions:\n(A) The top vent of the dishwasher is secured shut.\n(B) The front control panel of the dishwasher is firmly shut.\n(C) The side door of the dishwasher is tightly closed.\n(D) The bottom compartment of the dishwasher is sealed off.\n(E) The rack of the dishwasher is closed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The rack of the dishwasher is closed."
+    },
+    "correct_idx": [
+        4
+    ]
+}

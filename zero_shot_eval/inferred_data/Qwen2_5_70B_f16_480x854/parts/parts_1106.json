@@ -1,0 +1,17 @@
+{
+    "question": "What part of the craft box is checked?",
+    "options": [
+        "The bottom left side of the craft box is checked.",
+        "The center of the craft box is checked.",
+        "The exterior surface of the craft box is checked.",
+        "The front panel of the craft box is checked.",
+        "The upper right corner of the craft box is checked."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the craft box is checked? Choose **only one** option from the following list.\nOptions:\n(A) The bottom left side of the craft box is checked.\n(B) The center of the craft box is checked.\n(C) The exterior surface of the craft box is checked.\n(D) The front panel of the craft box is checked.\n(E) The upper right corner of the craft box is checked.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The center of the craft box is checked."
+    },
+    "correct_idx": [
+        4
+    ]
+}

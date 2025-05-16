@@ -1,0 +1,17 @@
+{
+    "question": "What part of the cloth is spread?",
+    "options": [
+        "The corner of the cloth near the edge is spread.",
+        "The section of the cloth hanging off the table is spread.",
+        "The seam line along the bottom of the cloth is spread.",
+        "The folded brown cloth in the middle is spread.",
+        "The green cloth at the left hand is spread."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the cloth is spread? Choose **only one** option from the following list.\nOptions:\n(A) The corner of the cloth near the edge is spread.\n(B) The section of the cloth hanging off the table is spread.\n(C) The seam line along the bottom of the cloth is spread.\n(D) The folded brown cloth in the middle is spread.\n(E) The green cloth at the left hand is spread.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The folded brown cloth in the middle is spread."
+    },
+    "correct_idx": [
+        3
+    ]
+}

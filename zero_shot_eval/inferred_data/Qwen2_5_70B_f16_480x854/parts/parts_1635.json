@@ -1,0 +1,17 @@
+{
+    "question": "What part of the motorcycle is picked?",
+    "options": [
+        "The handlebar of the motorcycle was picked.",
+        "The seat of the motorcycle was picked.",
+        "The fuel tank of the motorcycle was picked.",
+        "The rearview mirror of the motorcycle was picked.",
+        "The footrest of the motorcycle was picked."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the motorcycle is picked? Choose **only one** option from the following list.\nOptions:\n(A) The handlebar of the motorcycle was picked.\n(B) The seat of the motorcycle was picked.\n(C) The fuel tank of the motorcycle was picked.\n(D) The rearview mirror of the motorcycle was picked.\n(E) The footrest of the motorcycle was picked.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The rearview mirror of the motorcycle was picked."
+    },
+    "correct_idx": [
+        4
+    ]
+}

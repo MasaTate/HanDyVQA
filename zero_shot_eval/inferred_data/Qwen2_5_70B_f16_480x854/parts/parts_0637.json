@@ -1,0 +1,17 @@
+{
+    "question": "What part of the green pepper is placed?",
+    "options": [
+        "The sliced part of the green pepper is placed.",
+        "The uncut top of the green pepper is placed.",
+        "The stem of the green pepper is placed.",
+        "The whole green pepper is placed.",
+        "The bottom of the green pepper is placed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the green pepper is placed? Choose **only one** option from the following list.\nOptions:\n(A) The sliced part of the green pepper is placed.\n(B) The uncut top of the green pepper is placed.\n(C) The stem of the green pepper is placed.\n(D) The whole green pepper is placed.\n(E) The bottom of the green pepper is placed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The sliced part of the green pepper is placed."
+    },
+    "correct_idx": [
+        0
+    ]
+}

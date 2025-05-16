@@ -1,0 +1,17 @@
+{
+    "question": "What part of the mango is cut?",
+    "options": [
+        "The stem of the mango is cut.",
+        "The right part of seed of the mango is cut.",
+        "The skin of the mango is cut.",
+        "The top of the mango is cut.",
+        "The flesh of the mango is cut."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the mango is cut? Choose **only one** option from the following list.\nOptions:\n(A) The stem of the mango is cut.\n(B) The right part of seed of the mango is cut.\n(C) The skin of the mango is cut.\n(D) The top of the mango is cut.\n(E) The flesh of the mango is cut.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The flesh of the mango is cut."
+    },
+    "correct_idx": [
+        1
+    ]
+}

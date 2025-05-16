@@ -1,0 +1,17 @@
+{
+    "question": "What part of the drill is being interacted with?",
+    "options": [
+        "The base plate of the drill is being interacted with.",
+        "The trigger button of the drill is being interacted with.",
+        "The motor casing of the drill is being interacted with.",
+        "The drill bit of the drill is being interacted with.",
+        "The spinning part of the drill is being interacted with."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the drill is being interacted with? Choose **only one** option from the following list.\nOptions:\n(A) The base plate of the drill is being interacted with.\n(B) The trigger button of the drill is being interacted with.\n(C) The motor casing of the drill is being interacted with.\n(D) The drill bit of the drill is being interacted with.\n(E) The spinning part of the drill is being interacted with.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The drill bit of the drill is being interacted with."
+    },
+    "correct_idx": [
+        3
+    ]
+}

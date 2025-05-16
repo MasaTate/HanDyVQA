@@ -1,0 +1,17 @@
+{
+    "question": "What part of the bag is zipped?",
+    "options": [
+        "The flap at the top of the bag is zipped.",
+        "The handle on the side of the bag is zipped.",
+        "The bottom seam of the bag is zipped.",
+        "The zipper at the side of the bag is zipped.",
+        "The zipper at the top of the bag is zipped."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the bag is zipped? Choose **only one** option from the following list.\nOptions:\n(A) The flap at the top of the bag is zipped.\n(B) The handle on the side of the bag is zipped.\n(C) The bottom seam of the bag is zipped.\n(D) The zipper at the side of the bag is zipped.\n(E) The zipper at the top of the bag is zipped.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The zipper at the top of the bag is zipped."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the bowl is the sauce poured over?",
+    "options": [
+        "The sauce is poured into the bottom center of the bowl.",
+        "The sauce is poured over the right side of the bowl.",
+        "The sauce is poured around the rim of the bowl.",
+        "The sauce is poured over the left front part of the bowl.",
+        "The sauce is poured over the back part of the bowl."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the bowl is the sauce poured over? Choose **only one** option from the following list.\nOptions:\n(A) The sauce is poured into the bottom center of the bowl.\n(B) The sauce is poured over the right side of the bowl.\n(C) The sauce is poured around the rim of the bowl.\n(D) The sauce is poured over the left front part of the bowl.\n(E) The sauce is poured over the back part of the bowl.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The sauce is poured over the right side of the bowl."
+    },
+    "correct_idx": [
+        3
+    ]
+}

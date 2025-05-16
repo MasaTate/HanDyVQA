@@ -1,0 +1,17 @@
+{
+    "question": "What part of the green bean is cut?",
+    "options": [
+        "The middle part of the green bean is being cut.",
+        "The tip of the green bean is being cut.",
+        "The end of the green bean is being cut.",
+        "The base of the green bean is being cut.",
+        "The outer skin of the green bean is being cut."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the green bean is cut? Choose **only one** option from the following list.\nOptions:\n(A) The middle part of the green bean is being cut.\n(B) The tip of the green bean is being cut.\n(C) The end of the green bean is being cut.\n(D) The base of the green bean is being cut.\n(E) The outer skin of the green bean is being cut.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The end of the green bean is being cut."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the kitchen faucet is turned off?",
+    "options": [
+        "The sprayer attachment of the kitchen faucet is turned off.",
+        "The handle of the kitchen faucet is turned off",
+        "The base of the kitchen faucet is turned off",
+        "The filter cartridge of the kitchen faucet is turned off",
+        "The spout of the kitchen faucet is turned off."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the kitchen faucet is turned off? Choose **only one** option from the following list.\nOptions:\n(A) The sprayer attachment of the kitchen faucet is turned off.\n(B) The handle of the kitchen faucet is turned off\n(C) The base of the kitchen faucet is turned off\n(D) The filter cartridge of the kitchen faucet is turned off\n(E) The spout of the kitchen faucet is turned off.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The handle of the kitchen faucet is turned off"
+    },
+    "correct_idx": [
+        1
+    ]
+}

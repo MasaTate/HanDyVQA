@@ -1,0 +1,17 @@
+{
+    "question": "What part of the sandal is touched?",
+    "options": [
+        "The toe part of the sandal is touched.",
+        "The heel strap of the sandal is touched.",
+        "The middle arch of the sandal is touched.",
+        "The side panel of the sandal is touched.",
+        "The bottom sole of the sandal is touched."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the sandal is touched? Choose **only one** option from the following list.\nOptions:\n(A) The toe part of the sandal is touched.\n(B) The heel strap of the sandal is touched.\n(C) The middle arch of the sandal is touched.\n(D) The side panel of the sandal is touched.\n(E) The bottom sole of the sandal is touched.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The bottom sole of the sandal is touched."
+    },
+    "correct_idx": [
+        0
+    ]
+}

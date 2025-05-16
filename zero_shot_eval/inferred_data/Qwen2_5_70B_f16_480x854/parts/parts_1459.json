@@ -1,0 +1,17 @@
+{
+    "question": "What part of the wall is drilled?",
+    "options": [
+        "The surface of the wall where a line is marked is drilled.",
+        "The base of the wall where it meets the floor is drilled.",
+        "The edge of the wall near the ceiling is drilled.",
+        "The corner of the wall where it meets another wall is drilled.",
+        "The surface of the wall above the pipe is drilled."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the wall is drilled? Choose **only one** option from the following list.\nOptions:\n(A) The surface of the wall where a line is marked is drilled.\n(B) The base of the wall where it meets the floor is drilled.\n(C) The edge of the wall near the ceiling is drilled.\n(D) The corner of the wall where it meets another wall is drilled.\n(E) The surface of the wall above the pipe is drilled.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The surface of the wall where a line is marked is drilled."
+    },
+    "correct_idx": [
+        0
+    ]
+}

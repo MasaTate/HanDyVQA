@@ -1,0 +1,17 @@
+{
+    "question": "What part of the cloth is sewn?",
+    "options": [
+        "The center of the cloth is sewn together.",
+        "The corner of the cloth is stitched.",
+        "The underside of the cloth is attached.",
+        "The loose threads along the top of the cloth are sewn.",
+        "The folded part on the edge of the cloth is sewn."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the cloth is sewn? Choose **only one** option from the following list.\nOptions:\n(A) The center of the cloth is sewn together.\n(B) The corner of the cloth is stitched.\n(C) The underside of the cloth is attached.\n(D) The loose threads along the top of the cloth are sewn.\n(E) The folded part on the edge of the cloth is sewn.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The folded part on the edge of the cloth is sewn."
+    },
+    "correct_idx": [
+        4
+    ]
+}

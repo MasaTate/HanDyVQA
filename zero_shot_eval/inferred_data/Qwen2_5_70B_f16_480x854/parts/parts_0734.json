@@ -1,0 +1,17 @@
+{
+    "question": "What part of the vacuum cleaner is operated?",
+    "options": [
+        "The dustbin lid of the vacuum cleaner is operated.",
+        "The filter cover of the vacuum cleaner is operated.",
+        "The power switch button of the vacuum cleaner is operated.",
+        "The hose attachment of the vacuum cleaner is operated.",
+        "The base plate of the vacuum cleaner is operated."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the vacuum cleaner is operated? Choose **only one** option from the following list.\nOptions:\n(A) The dustbin lid of the vacuum cleaner is operated.\n(B) The filter cover of the vacuum cleaner is operated.\n(C) The power switch button of the vacuum cleaner is operated.\n(D) The hose attachment of the vacuum cleaner is operated.\n(E) The base plate of the vacuum cleaner is operated.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The hose attachment of the vacuum cleaner is operated."
+    },
+    "correct_idx": [
+        2
+    ]
+}

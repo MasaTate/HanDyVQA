@@ -1,0 +1,17 @@
+{
+    "question": "What part of the cardboard is fitted?",
+    "options": [
+        "The hole on the cardboard is fitted.\r\n\r\n\r\n\r\n\r\n\r\n\r\n",
+        "The edge of the cardboard is fitted.",
+        "The corner of the cardboard is fitted.",
+        "The top surface of the cardboard is fitted.",
+        "The crease along the cardboard is fitted."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the cardboard is fitted? Choose **only one** option from the following list.\nOptions:\n(A) The hole on the cardboard is fitted.\r\n\r\n\r\n\r\n\r\n\r\n\r\n\n(B) The edge of the cardboard is fitted.\n(C) The corner of the cardboard is fitted.\n(D) The top surface of the cardboard is fitted.\n(E) The crease along the cardboard is fitted.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The edge of the cardboard is fitted."
+    },
+    "correct_idx": [
+        0
+    ]
+}

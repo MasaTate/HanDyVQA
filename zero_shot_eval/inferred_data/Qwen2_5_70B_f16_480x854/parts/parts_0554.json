@@ -1,0 +1,17 @@
+{
+    "question": "What part of the polythene bag is lifted?",
+    "options": [
+        "The lower corner of the polythene bag is lifted.",
+        "The side flap of the polythene bag is lifted.",
+        "The middle section of the polythene bag is lifted.",
+        "The upper part of the polythene bag is lifted.",
+        "The bottom seam of the polythene bag is lifted."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the polythene bag is lifted? Choose **only one** option from the following list.\nOptions:\n(A) The lower corner of the polythene bag is lifted.\n(B) The side flap of the polythene bag is lifted.\n(C) The middle section of the polythene bag is lifted.\n(D) The upper part of the polythene bag is lifted.\n(E) The bottom seam of the polythene bag is lifted.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The upper part of the polythene bag is lifted."
+    },
+    "correct_idx": [
+        3
+    ]
+}

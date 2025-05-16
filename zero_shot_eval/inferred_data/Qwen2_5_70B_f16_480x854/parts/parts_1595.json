@@ -1,0 +1,17 @@
+{
+    "question": "What part of the workbench vise is adjusted?",
+    "options": [
+        "The handle of the workbench vise is adjusted.",
+        "The screw top of the workbench vise is adjusted.",
+        "The base of the workbench vise is adjusted.",
+        "The clamp pad of the workbench vise is adjusted.",
+        "The swivel joint of the workbench vise is adjusted."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the workbench vise is adjusted? Choose **only one** option from the following list.\nOptions:\n(A) The handle of the workbench vise is adjusted.\n(B) The screw top of the workbench vise is adjusted.\n(C) The base of the workbench vise is adjusted.\n(D) The clamp pad of the workbench vise is adjusted.\n(E) The swivel joint of the workbench vise is adjusted.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The handle of the workbench vise is adjusted."
+    },
+    "correct_idx": [
+        0
+    ]
+}

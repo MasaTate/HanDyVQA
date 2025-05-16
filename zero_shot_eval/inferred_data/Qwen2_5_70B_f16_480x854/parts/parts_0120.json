@@ -1,0 +1,17 @@
+{
+    "question": "What part of the tent is pulled?",
+    "options": [
+        "The fabric at the bottom of the tent is pulled.",
+        "The stakes that hold the tent are pulled.",
+        "The top canopy part of the tent is pulled.",
+        "The net part of the tent is pulled.",
+        "The non-transparent entrance flap of the tent is pulled."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the tent is pulled? Choose **only one** option from the following list.\nOptions:\n(A) The fabric at the bottom of the tent is pulled.\n(B) The stakes that hold the tent are pulled.\n(C) The top canopy part of the tent is pulled.\n(D) The net part of the tent is pulled.\n(E) The non-transparent entrance flap of the tent is pulled.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The non-transparent entrance flap of the tent is pulled."
+    },
+    "correct_idx": [
+        3
+    ]
+}

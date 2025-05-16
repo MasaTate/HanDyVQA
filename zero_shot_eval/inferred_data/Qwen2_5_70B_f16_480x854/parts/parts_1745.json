@@ -1,0 +1,17 @@
+{
+    "question": "What part of the laptop is touched?",
+    "options": [
+        "The screen of the laptop is touched.",
+        "The battery compartment of the laptop is touched.",
+        "The cooling fan grille of the laptop is touched.",
+        "The fuse of the laptop is touched.",
+        "The hard drive of the laptop is touched."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the laptop is touched? Choose **only one** option from the following list.\nOptions:\n(A) The screen of the laptop is touched.\n(B) The battery compartment of the laptop is touched.\n(C) The cooling fan grille of the laptop is touched.\n(D) The fuse of the laptop is touched.\n(E) The hard drive of the laptop is touched.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The hard drive of the laptop is touched."
+    },
+    "correct_idx": [
+        3
+    ]
+}

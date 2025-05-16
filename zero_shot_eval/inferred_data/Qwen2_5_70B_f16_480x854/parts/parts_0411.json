@@ -1,0 +1,17 @@
+{
+    "question": "What part of the snow blower is screwed?",
+    "options": [
+        "The base of the snow blower handle is being screwed.",
+        "The chute of the snow blower is being screwed.",
+        "The exhaust pipe of the snow blower is being screwed.",
+        "The cover of the snow blower engine is being screwed.",
+        "The support bracket of the snow blower is being screwed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the snow blower is screwed? Choose **only one** option from the following list.\nOptions:\n(A) The base of the snow blower handle is being screwed.\n(B) The chute of the snow blower is being screwed.\n(C) The exhaust pipe of the snow blower is being screwed.\n(D) The cover of the snow blower engine is being screwed.\n(E) The support bracket of the snow blower is being screwed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The cover of the snow blower engine is being screwed."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the mower engine is touched?",
+    "options": [
+        "The fuel tank of the mower engine is touched.",
+        "The air filter of the mower engine is touched.",
+        "The spark plug cover of the mower engine is touched.",
+        "The throttle cable of the mower engine is touched.",
+        "The cub cadet of the mower engine is touched."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the mower engine is touched? Choose **only one** option from the following list.\nOptions:\n(A) The fuel tank of the mower engine is touched.\n(B) The air filter of the mower engine is touched.\n(C) The spark plug cover of the mower engine is touched.\n(D) The throttle cable of the mower engine is touched.\n(E) The cub cadet of the mower engine is touched.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The fuel tank of the mower engine is touched."
+    },
+    "correct_idx": [
+        4
+    ]
+}

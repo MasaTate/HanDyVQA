@@ -1,0 +1,17 @@
+{
+    "question": "What part of the jigsaw puzzle is touched?",
+    "options": [
+        "The edges of the jigsaw puzzle are touched.",
+        "The picture on the jigsaw puzzle is touched.",
+        "The pieces of the jigsaw puzzle are touched.",
+        "The box containing the jigsaw puzzle is touched.",
+        "The corners of the jigsaw puzzle are touched."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the jigsaw puzzle is touched? Choose **only one** option from the following list.\nOptions:\n(A) The edges of the jigsaw puzzle are touched.\n(B) The picture on the jigsaw puzzle is touched.\n(C) The pieces of the jigsaw puzzle are touched.\n(D) The box containing the jigsaw puzzle is touched.\n(E) The corners of the jigsaw puzzle are touched.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The pieces of the jigsaw puzzle are touched."
+    },
+    "correct_idx": [
+        2
+    ]
+}

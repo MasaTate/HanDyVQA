@@ -1,0 +1,17 @@
+{
+    "question": "What part of the bottle is opened?",
+    "options": [
+        "The neck of the bottle is opened.",
+        "The cap of the bottle is opened.",
+        "The base of the bottle is opened.",
+        "The body of the bottle is opened.",
+        "The label of the bottle is opened."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the bottle is opened? Choose **only one** option from the following list.\nOptions:\n(A) The neck of the bottle is opened.\n(B) The cap of the bottle is opened.\n(C) The base of the bottle is opened.\n(D) The body of the bottle is opened.\n(E) The label of the bottle is opened.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The cap of the bottle is opened."
+    },
+    "correct_idx": [
+        1
+    ]
+}

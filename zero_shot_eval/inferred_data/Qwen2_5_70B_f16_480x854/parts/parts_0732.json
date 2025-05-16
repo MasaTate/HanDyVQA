@@ -1,0 +1,17 @@
+{
+    "question": "What part of the color palette is used?",
+    "options": [
+        "The shade of blue from the color palette is used.",
+        "The color yellow of the color palette is used.",
+        "The center section of the color palette is used.",
+        "The outline of the color palette is used.",
+        "The dark green area of the color palette is used."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the color palette is used? Choose **only one** option from the following list.\nOptions:\n(A) The shade of blue from the color palette is used.\n(B) The color yellow of the color palette is used.\n(C) The center section of the color palette is used.\n(D) The outline of the color palette is used.\n(E) The dark green area of the color palette is used.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The color yellow of the color palette is used."
+    },
+    "correct_idx": [
+        1
+    ]
+}

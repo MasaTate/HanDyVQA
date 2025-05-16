@@ -1,0 +1,17 @@
+{
+    "question": "What part of the phone is adjusted?",
+    "options": [
+        "The touchscreen on the side of the phone is adjusted.",
+        "The battery compartment on the back of the phone is adjusted.",
+        "The camera lens on the bottom edge of the phone is adjusted.",
+        "The phone jack on the upper part of the phone is adjusted.",
+        "The volume slider on the front of the phone is adjusted."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the phone is adjusted? Choose **only one** option from the following list.\nOptions:\n(A) The touchscreen on the side of the phone is adjusted.\n(B) The battery compartment on the back of the phone is adjusted.\n(C) The camera lens on the bottom edge of the phone is adjusted.\n(D) The phone jack on the upper part of the phone is adjusted.\n(E) The volume slider on the front of the phone is adjusted.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The phone jack on the upper part of the phone is adjusted."
+    },
+    "correct_idx": [
+        3
+    ]
+}

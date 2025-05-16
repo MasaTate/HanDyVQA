@@ -1,0 +1,17 @@
+{
+    "question": "What part of the woman is held?",
+    "options": [
+        "The sleeve of the woman is held.",
+        "The hem of the woman's dress is held.",
+        "The collar of the woman is held.",
+        "The hair of the woman is held.",
+        "The wrist of the woman is held."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the woman is held? Choose **only one** option from the following list.\nOptions:\n(A) The sleeve of the woman is held.\n(B) The hem of the woman's dress is held.\n(C) The collar of the woman is held.\n(D) The hair of the woman is held.\n(E) The wrist of the woman is held.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The hair of the woman is held."
+    },
+    "correct_idx": [
+        3
+    ]
+}

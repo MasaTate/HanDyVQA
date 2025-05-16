@@ -1,0 +1,17 @@
+{
+    "question": "What part of the rice grinder is closed?",
+    "options": [
+        "The base of the rice grinder is closed.",
+        "The lid of the rice grinder is closed.",
+        "The side compartment of the rice grinder is closed.",
+        "The handle of the rice grinder is closed.",
+        "The bottom tray of the rice grinder is closed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the rice grinder is closed? Choose **only one** option from the following list.\nOptions:\n(A) The base of the rice grinder is closed.\n(B) The lid of the rice grinder is closed.\n(C) The side compartment of the rice grinder is closed.\n(D) The handle of the rice grinder is closed.\n(E) The bottom tray of the rice grinder is closed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The lid of the rice grinder is closed."
+    },
+    "correct_idx": [
+        1
+    ]
+}

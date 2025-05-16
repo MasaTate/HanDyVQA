@@ -1,0 +1,17 @@
+{
+    "question": "What part of the avocado is chopped?",
+    "options": [
+        "The skin of the avocado is chopped.",
+        "The pit of the avocado is chopped.",
+        "The stem end of the avocado is chopped.",
+        "The meat of the avocado is chopped.",
+        "The seed covering of the avocado is chopped."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the avocado is chopped? Choose **only one** option from the following list.\nOptions:\n(A) The skin of the avocado is chopped.\n(B) The pit of the avocado is chopped.\n(C) The stem end of the avocado is chopped.\n(D) The meat of the avocado is chopped.\n(E) The seed covering of the avocado is chopped.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The meat of the avocado is chopped."
+    },
+    "correct_idx": [
+        3
+    ]
+}

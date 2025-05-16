@@ -1,0 +1,17 @@
+{
+    "question": "What part of the plank is marked?",
+    "options": [
+        "The end of the plank is marked.",
+        "The middle of the plank is marked.",
+        "The underside of the plank is marked.",
+        "The corner of the plank is marked.",
+        "The surface near the edge of the plank is marked."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the plank is marked? Choose **only one** option from the following list.\nOptions:\n(A) The end of the plank is marked.\n(B) The middle of the plank is marked.\n(C) The underside of the plank is marked.\n(D) The corner of the plank is marked.\n(E) The surface near the edge of the plank is marked.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The surface near the edge of the plank is marked."
+    },
+    "correct_idx": [
+        1
+    ]
+}

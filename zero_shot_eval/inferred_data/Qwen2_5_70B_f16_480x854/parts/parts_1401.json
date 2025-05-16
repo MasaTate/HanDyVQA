@@ -1,0 +1,17 @@
+{
+    "question": "What part of the hollow block is touched?",
+    "options": [
+        "The edge of the hollow block is touched.",
+        "The underside of the hollow block is touched.",
+        "The corner of the hollow block is touched.",
+        "The inside rim of the hollow block is touched.",
+        "The top surface of the hollow block is touched."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the hollow block is touched? Choose **only one** option from the following list.\nOptions:\n(A) The edge of the hollow block is touched.\n(B) The underside of the hollow block is touched.\n(C) The corner of the hollow block is touched.\n(D) The inside rim of the hollow block is touched.\n(E) The top surface of the hollow block is touched.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The inside rim of the hollow block is touched."
+    },
+    "correct_idx": [
+        0
+    ]
+}

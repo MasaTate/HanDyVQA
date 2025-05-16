@@ -1,0 +1,17 @@
+{
+    "question": "What part of the egg is being hit?",
+    "options": [
+        "The top rim of the egg's yolk is being hit.",
+        "The middle section of the shell of the egg is being hit.",
+        "The outer membrane layer of the egg is being impacted.",
+        "The inner lining of the egg white is being tapped.",
+        "The tip of the egg is being hit."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the egg is being hit? Choose **only one** option from the following list.\nOptions:\n(A) The top rim of the egg's yolk is being hit.\n(B) The middle section of the shell of the egg is being hit.\n(C) The outer membrane layer of the egg is being impacted.\n(D) The inner lining of the egg white is being tapped.\n(E) The tip of the egg is being hit.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The tip of the egg is being hit."
+    },
+    "correct_idx": [
+        1
+    ]
+}

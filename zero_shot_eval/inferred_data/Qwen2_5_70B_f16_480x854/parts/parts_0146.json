@@ -1,0 +1,17 @@
+{
+    "question": "What part of the wheel is touched to stop?",
+    "options": [
+        "The rim of the wheel is touched to stop.",
+        "The spokes of the wheel are touched to stop.",
+        "The hub of the wheel is touched to stop.",
+        "The rubber on the wheel is touched to stop.",
+        "The inner lining of the wheel is touched to stop."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the wheel is touched to stop? Choose **only one** option from the following list.\nOptions:\n(A) The rim of the wheel is touched to stop.\n(B) The spokes of the wheel are touched to stop.\n(C) The hub of the wheel is touched to stop.\n(D) The rubber on the wheel is touched to stop.\n(E) The inner lining of the wheel is touched to stop.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The spokes of the wheel are touched to stop."
+    },
+    "correct_idx": [
+        3
+    ]
+}

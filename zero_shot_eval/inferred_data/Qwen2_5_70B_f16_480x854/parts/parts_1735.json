@@ -1,0 +1,17 @@
+{
+    "question": "What part of the petunia is picked?",
+    "options": [
+        "The stem of the petunia is picked.",
+        "The flower of the petunia is picked.",
+        "The leaves of the petunia are picked.",
+        "The roots of the petunia are picked.",
+        "The bud of the petunia is picked."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the petunia is picked? Choose **only one** option from the following list.\nOptions:\n(A) The stem of the petunia is picked.\n(B) The flower of the petunia is picked.\n(C) The leaves of the petunia are picked.\n(D) The roots of the petunia are picked.\n(E) The bud of the petunia is picked.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The flower of the petunia is picked."
+    },
+    "correct_idx": [
+        1
+    ]
+}

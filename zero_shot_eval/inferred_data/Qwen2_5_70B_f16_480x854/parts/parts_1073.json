@@ -1,0 +1,17 @@
+{
+    "question": "What part of the engine body is fitted into the vise?",
+    "options": [
+        "The alternator is being fitted into vise.",
+        "The fuel tank is being fitted into the vise.",
+        "The exhaust manifold is being fitted into the vise.",
+        "The timing belt cover is being fitted into the vise.",
+        "The wire is being fitted into the vise."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the engine body is fitted into the vise? Choose **only one** option from the following list.\nOptions:\n(A) The alternator is being fitted into vise.\n(B) The fuel tank is being fitted into the vise.\n(C) The exhaust manifold is being fitted into the vise.\n(D) The timing belt cover is being fitted into the vise.\n(E) The wire is being fitted into the vise.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The alternator is being fitted into vise."
+    },
+    "correct_idx": [
+        0
+    ]
+}

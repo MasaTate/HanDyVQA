@@ -1,0 +1,17 @@
+{
+    "question": "What part of the airtight bag is unzipped?",
+    "options": [
+        "The top seam of the airtight bag is being unzipped.",
+        " The slider zip closure of the airtight bag is being unzipped.",
+        "The bottom flap of the airtight bag is being unzipped.",
+        "The side corner of the airtight bag is being unzipped.",
+        "The inner pocket of the airtight bag is being unzipped."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the airtight bag is unzipped? Choose **only one** option from the following list.\nOptions:\n(A) The top seam of the airtight bag is being unzipped.\n(B)  The slider zip closure of the airtight bag is being unzipped.\n(C) The bottom flap of the airtight bag is being unzipped.\n(D) The side corner of the airtight bag is being unzipped.\n(E) The inner pocket of the airtight bag is being unzipped.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The slider zip closure of the airtight bag is being unzipped."
+    },
+    "correct_idx": [
+        1
+    ]
+}

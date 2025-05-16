@@ -1,0 +1,17 @@
+{
+    "question": "What part of the device is pressed?",
+    "options": [
+        "The top surface of the device is pressed.",
+        "The side panel of the device is pressed.",
+        "The base of the device is pressed.",
+        "The screen of the device is pressed.",
+        "The button of the device is pressed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the device is pressed? Choose **only one** option from the following list.\nOptions:\n(A) The top surface of the device is pressed.\n(B) The side panel of the device is pressed.\n(C) The base of the device is pressed.\n(D) The screen of the device is pressed.\n(E) The button of the device is pressed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The button of the device is pressed."
+    },
+    "correct_idx": [
+        4
+    ]
+}

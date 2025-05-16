@@ -1,0 +1,17 @@
+{
+    "question": "What part of the cymbal is played?",
+    "options": [
+        "The underside of the cymbal is being played.",
+        "The ride cymbal is being played.",
+        "The crash cymbals are being played.",
+        "The high hat cymbal is beaten.",
+        "No cymbal is played."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the cymbal is played? Choose **only one** option from the following list.\nOptions:\n(A) The underside of the cymbal is being played.\n(B) The ride cymbal is being played.\n(C) The crash cymbals are being played.\n(D) The high hat cymbal is beaten.\n(E) No cymbal is played.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The crash cymbals are being played."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the knife case is pushed?",
+    "options": [
+        "The handle section of the knife case is pushed.",
+        "The tip of the knife case is pushed.",
+        "The guard area of the knife case is pushed.",
+        "The blade part of the knife case is pushed.",
+        "The seam line of the knife case is pushed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the knife case is pushed? Choose **only one** option from the following list.\nOptions:\n(A) The handle section of the knife case is pushed.\n(B) The tip of the knife case is pushed.\n(C) The guard area of the knife case is pushed.\n(D) The blade part of the knife case is pushed.\n(E) The seam line of the knife case is pushed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The blade part of the knife case is pushed."
+    },
+    "correct_idx": [
+        3
+    ]
+}

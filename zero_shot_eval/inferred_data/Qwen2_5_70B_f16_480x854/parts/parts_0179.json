@@ -1,0 +1,17 @@
+{
+    "question": "What part of the bottle is closed?",
+    "options": [
+        "The base of the bottle is sealed.",
+        "The middle section of the bottle is capped.",
+        "The side of the bottle near the label is shut.",
+        "The bottom rim of the bottle is covered.",
+        "The upper part of the bottle is closed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the bottle is closed? Choose **only one** option from the following list.\nOptions:\n(A) The base of the bottle is sealed.\n(B) The middle section of the bottle is capped.\n(C) The side of the bottle near the label is shut.\n(D) The bottom rim of the bottle is covered.\n(E) The upper part of the bottle is closed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The upper part of the bottle is closed."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the cooker is operated?",
+    "options": [
+        "The timer dial of the cooker is being operated.",
+        "The safety latch on the cooker is being operated.",
+        "The ignition of the cooker is being operated.",
+        "The temperature gauge of the cooker is being operated.",
+        "The steam release valve of the cooker is being operated."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the cooker is operated? Choose **only one** option from the following list.\nOptions:\n(A) The timer dial of the cooker is being operated.\n(B) The safety latch on the cooker is being operated.\n(C) The ignition of the cooker is being operated.\n(D) The temperature gauge of the cooker is being operated.\n(E) The steam release valve of the cooker is being operated.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The ignition of the cooker is being operated."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the bicycle is the axle being put into?",
+    "options": [
+        "The wheel rim of the bicycle is the axle being put into.",
+        "The handlebar clamp of the bicycle is the axle being put into.",
+        "The bottom bracket casing of the bicycle is the axle being put into.",
+        "The pedal housing of the bicycle is the axle being put into.",
+        "The skewer socket of the bicycle is the axle being put into."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the bicycle is the axle being put into? Choose **only one** option from the following list.\nOptions:\n(A) The wheel rim of the bicycle is the axle being put into.\n(B) The handlebar clamp of the bicycle is the axle being put into.\n(C) The bottom bracket casing of the bicycle is the axle being put into.\n(D) The pedal housing of the bicycle is the axle being put into.\n(E) The skewer socket of the bicycle is the axle being put into.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The skewer socket of the bicycle is the axle being put into."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the pouch is an object put into?",
+    "options": [
+        "The object is placed in the front flap of the pouch.",
+        "The object is inserted into the main compartment of the pouch.",
+        "The object is stored in the back pocket of the pouch.",
+        "The object is put into the side pocket of the pouch.",
+        "The object is dropped into the zipper section of the pouch."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the pouch is an object put into? Choose **only one** option from the following list.\nOptions:\n(A) The object is placed in the front flap of the pouch.\n(B) The object is inserted into the main compartment of the pouch.\n(C) The object is stored in the back pocket of the pouch.\n(D) The object is put into the side pocket of the pouch.\n(E) The object is dropped into the zipper section of the pouch.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The object is inserted into the main compartment of the pouch."
+    },
+    "correct_idx": [
+        3
+    ]
+}

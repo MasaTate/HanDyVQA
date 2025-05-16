@@ -1,0 +1,17 @@
+{
+    "question": "What part of the sponge is being soaped?",
+    "options": [
+        "The top edge of the sponge is being soaped.",
+        "The corners of the sponge are being soaped.",
+        "The bottom part of the sponge is being soaped.",
+        "The side surface of the sponge is being soaped.",
+        "The right edge section of the sponge is being soaped."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the sponge is being soaped? Choose **only one** option from the following list.\nOptions:\n(A) The top edge of the sponge is being soaped.\n(B) The corners of the sponge are being soaped.\n(C) The bottom part of the sponge is being soaped.\n(D) The side surface of the sponge is being soaped.\n(E) The right edge section of the sponge is being soaped.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The right edge section of the sponge is being soaped."
+    },
+    "correct_idx": [
+        2
+    ]
+}

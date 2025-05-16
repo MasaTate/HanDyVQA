@@ -1,0 +1,17 @@
+{
+    "question": "What part of the pile is picked?",
+    "options": [
+        "The bottom of the pile is picked.",
+        "The top of the pile is picked.",
+        "The middle section of the pile is picked.",
+        "The edge of the pile is picked.",
+        "The inside of the pile is picked."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the pile is picked? Choose **only one** option from the following list.\nOptions:\n(A) The bottom of the pile is picked.\n(B) The top of the pile is picked.\n(C) The middle section of the pile is picked.\n(D) The edge of the pile is picked.\n(E) The inside of the pile is picked.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The top of the pile is picked."
+    },
+    "correct_idx": [
+        1
+    ]
+}

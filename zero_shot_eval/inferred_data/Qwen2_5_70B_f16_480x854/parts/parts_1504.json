@@ -1,0 +1,17 @@
+{
+    "question": "What part of the bamboo is split?",
+    "options": [
+        "The bottom section of the bamboo is split.",
+        "The top edge of the bamboo is split.",
+        "The middle joint of the bamboo is split.",
+        "The outer layer of the bamboo is split.",
+        "The base tip of the bamboo is split."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the bamboo is split? Choose **only one** option from the following list.\nOptions:\n(A) The bottom section of the bamboo is split.\n(B) The top edge of the bamboo is split.\n(C) The middle joint of the bamboo is split.\n(D) The outer layer of the bamboo is split.\n(E) The base tip of the bamboo is split.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The outer layer of the bamboo is split."
+    },
+    "correct_idx": [
+        1
+    ]
+}

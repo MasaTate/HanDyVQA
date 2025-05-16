@@ -1,0 +1,17 @@
+{
+    "question": "What part of the onion is removed?",
+    "options": [
+        "The roots of the onion are removed.",
+        "The skin of the onion is removed.",
+        "The core of the onion is removed.",
+        "The leaves of the onion are removed.",
+        "The bulb of the onion is removed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the onion is removed? Choose **only one** option from the following list.\nOptions:\n(A) The roots of the onion are removed.\n(B) The skin of the onion is removed.\n(C) The core of the onion is removed.\n(D) The leaves of the onion are removed.\n(E) The bulb of the onion is removed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The skin of the onion is removed."
+    },
+    "correct_idx": [
+        1
+    ]
+}

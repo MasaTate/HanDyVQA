@@ -1,0 +1,17 @@
+{
+    "question": "What part of the bicycle is touching the spanner?",
+    "options": [
+        "The outer rim of the bicycle wheel is touching the spanner.",
+        "The frame bracket of the bicycle is touching the spanner.",
+        "The end of the pedal is touching the spanner.",
+        "The shaft of the pedal is touching the spanner.",
+        "The connection between the pedal and the crank of the bicycle is touching the spanner."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the bicycle is touching the spanner? Choose **only one** option from the following list.\nOptions:\n(A) The outer rim of the bicycle wheel is touching the spanner.\n(B) The frame bracket of the bicycle is touching the spanner.\n(C) The end of the pedal is touching the spanner.\n(D) The shaft of the pedal is touching the spanner.\n(E) The connection between the pedal and the crank of the bicycle is touching the spanner.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The connection between the pedal and the crank of the bicycle is touching the spanner."
+    },
+    "correct_idx": [
+        4
+    ]
+}

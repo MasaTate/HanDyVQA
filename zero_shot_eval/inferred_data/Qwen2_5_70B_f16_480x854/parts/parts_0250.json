@@ -1,0 +1,17 @@
+{
+    "question": "What part of the tunic shirt is folded?",
+    "options": [
+        "The left shoulder sleeve part of the tunic shirt is folded.",
+        "The bottom hem of the tunic shirt is folded.",
+        "The collar area of the tunic shirt is folded.",
+        "The right side seam of the tunic shirt is folded.",
+        "The back panel of the tunic shirt is folded."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the tunic shirt is folded? Choose **only one** option from the following list.\nOptions:\n(A) The left shoulder sleeve part of the tunic shirt is folded.\n(B) The bottom hem of the tunic shirt is folded.\n(C) The collar area of the tunic shirt is folded.\n(D) The right side seam of the tunic shirt is folded.\n(E) The back panel of the tunic shirt is folded.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The left shoulder sleeve part of the tunic shirt is folded."
+    },
+    "correct_idx": [
+        0
+    ]
+}

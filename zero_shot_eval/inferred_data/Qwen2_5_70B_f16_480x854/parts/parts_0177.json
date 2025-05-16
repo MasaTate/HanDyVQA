@@ -1,0 +1,17 @@
+{
+    "question": "What part of the switch is screwed?",
+    "options": [
+        "The corner part of the switch is screwed.",
+        "The outer casing of the switch is screwed.",
+        "The top of the switch cover is screwed.",
+        "The base of the switch knob is screwed.",
+        "The side panel of the switch is screwed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the switch is screwed? Choose **only one** option from the following list.\nOptions:\n(A) The corner part of the switch is screwed.\n(B) The outer casing of the switch is screwed.\n(C) The top of the switch cover is screwed.\n(D) The base of the switch knob is screwed.\n(E) The side panel of the switch is screwed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The outer casing of the switch is screwed."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the wall is pulled?",
+    "options": [
+        "The person pulled the center section of the wall.",
+        "The person pulled the lower edge of the wall.",
+        "The person pulled the corner part of the wall.",
+        "The person pulled the top portion of the wall.",
+        "The person pulled the middle strip along the wall."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the wall is pulled? Choose **only one** option from the following list.\nOptions:\n(A) The person pulled the center section of the wall.\n(B) The person pulled the lower edge of the wall.\n(C) The person pulled the corner part of the wall.\n(D) The person pulled the top portion of the wall.\n(E) The person pulled the middle strip along the wall.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person pulled the corner part of the wall."
+    },
+    "correct_idx": [
+        2
+    ]
+}

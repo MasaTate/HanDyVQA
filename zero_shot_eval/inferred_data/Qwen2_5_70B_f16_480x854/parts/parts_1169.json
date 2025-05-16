@@ -1,0 +1,17 @@
+{
+    "question": "What part of the dishwasher is closed?",
+    "options": [
+        "The top cover of the dishwasher was closed.",
+        "The side panel of the dishwasher was closed.",
+        "The control panel of the dishwasher was closed.",
+        "The dishwasher drawer was closed.",
+        "The filter cover of the dishwasher was closed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the dishwasher is closed? Choose **only one** option from the following list.\nOptions:\n(A) The top cover of the dishwasher was closed.\n(B) The side panel of the dishwasher was closed.\n(C) The control panel of the dishwasher was closed.\n(D) The dishwasher drawer was closed.\n(E) The filter cover of the dishwasher was closed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The dishwasher drawer was closed."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the plate is the thread picked up from?",
+    "options": [
+        "The thread was picked up from the center of the plate.",
+        "The thread was picked up from underneath the plate.",
+        "The thread was picked up from the top surface of the plate.",
+        "The thread was picked up from the rim of the plate.",
+        "The thread was picked up from the edge of the plate."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the plate is the thread picked up from? Choose **only one** option from the following list.\nOptions:\n(A) The thread was picked up from the center of the plate.\n(B) The thread was picked up from underneath the plate.\n(C) The thread was picked up from the top surface of the plate.\n(D) The thread was picked up from the rim of the plate.\n(E) The thread was picked up from the edge of the plate.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The thread was picked up from the top surface of the plate."
+    },
+    "correct_idx": [
+        4
+    ]
+}

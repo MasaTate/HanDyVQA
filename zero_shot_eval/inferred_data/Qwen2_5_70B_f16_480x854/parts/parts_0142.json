@@ -1,0 +1,17 @@
+{
+    "question": "What part of the drilling machine is the nail attached to?",
+    "options": [
+        "The chuck of the drilling machine is the nail attached to.",
+        "The base of the drilling machine is where the nail is attached.",
+        "The side panel of the drilling machine holds the nail in place.",
+        "The handle of the drilling machine is where the nail is fixed.",
+        "The motor casing of the drilling machine is where the nail connects."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the drilling machine is the nail attached to? Choose **only one** option from the following list.\nOptions:\n(A) The chuck of the drilling machine is the nail attached to.\n(B) The base of the drilling machine is where the nail is attached.\n(C) The side panel of the drilling machine holds the nail in place.\n(D) The handle of the drilling machine is where the nail is fixed.\n(E) The motor casing of the drilling machine is where the nail connects.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The chuck of the drilling machine is the nail attached to."
+    },
+    "correct_idx": [
+        0
+    ]
+}

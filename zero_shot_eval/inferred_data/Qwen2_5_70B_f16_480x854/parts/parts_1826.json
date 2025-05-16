@@ -1,0 +1,17 @@
+{
+    "question": "What part of the sander is adjusted?",
+    "options": [
+        "The sanding plate of the sander is adjusted.",
+        "The power switch of the sander is adjusted.",
+        "The dust bag attachment of the sander is adjusted.",
+        "The grip handle of the sander is adjusted.",
+        "The cable wire of the sander is adjusted."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the sander is adjusted? Choose **only one** option from the following list.\nOptions:\n(A) The sanding plate of the sander is adjusted.\n(B) The power switch of the sander is adjusted.\n(C) The dust bag attachment of the sander is adjusted.\n(D) The grip handle of the sander is adjusted.\n(E) The cable wire of the sander is adjusted.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The cable wire of the sander is adjusted."
+    },
+    "correct_idx": [
+        4
+    ]
+}

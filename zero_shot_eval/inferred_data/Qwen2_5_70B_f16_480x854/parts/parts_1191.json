@@ -1,0 +1,17 @@
+{
+    "question": "What part of the table is removed?",
+    "options": [
+        "The leg of the table is removed.",
+        "The nut of the rail is removed.",
+        "The center of the tabletop is removed.",
+        "The screw from the table's base is removed.",
+        "The corner support of the table is removed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the table is removed? Choose **only one** option from the following list.\nOptions:\n(A) The leg of the table is removed.\n(B) The nut of the rail is removed.\n(C) The center of the tabletop is removed.\n(D) The screw from the table's base is removed.\n(E) The corner support of the table is removed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The center of the tabletop is removed."
+    },
+    "correct_idx": [
+        1
+    ]
+}

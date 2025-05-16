@@ -1,0 +1,17 @@
+{
+    "question": "What part of the shelf is pulled?",
+    "options": [
+        "The middle bottom part of the shelf is pulled.",
+        "The upper corner section of the shelf is pulled.",
+        "The outer edge of the shelf is pulled.",
+        "The inner top part of the shelf is pulled.",
+        "The side bracket of the shelf is pulled."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the shelf is pulled? Choose **only one** option from the following list.\nOptions:\n(A) The middle bottom part of the shelf is pulled.\n(B) The upper corner section of the shelf is pulled.\n(C) The outer edge of the shelf is pulled.\n(D) The inner top part of the shelf is pulled.\n(E) The side bracket of the shelf is pulled.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The side bracket of the shelf is pulled."
+    },
+    "correct_idx": [
+        0
+    ]
+}

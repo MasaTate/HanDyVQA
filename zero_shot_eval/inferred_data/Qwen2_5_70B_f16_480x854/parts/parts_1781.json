@@ -1,0 +1,17 @@
+{
+    "question": "What part of the sack is the rope inserted into?",
+    "options": [
+        "The rope is inserted at the bottom corner of the sack.",
+        "The rope is inserted at the upper top of the sack.",
+        "The rope is inserted through the middle section of the sack.",
+        "The rope is inserted at the side seam of the sack.",
+        "The rope is inserted at the fold of the sack."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the sack is the rope inserted into? Choose **only one** option from the following list.\nOptions:\n(A) The rope is inserted at the bottom corner of the sack.\n(B) The rope is inserted at the upper top of the sack.\n(C) The rope is inserted through the middle section of the sack.\n(D) The rope is inserted at the side seam of the sack.\n(E) The rope is inserted at the fold of the sack.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The rope is inserted at the bottom corner of the sack."
+    },
+    "correct_idx": [
+        1
+    ]
+}

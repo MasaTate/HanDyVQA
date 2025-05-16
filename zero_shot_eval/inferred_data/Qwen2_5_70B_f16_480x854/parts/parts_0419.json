@@ -1,0 +1,17 @@
+{
+    "question": "What part of the skirt is inserted?",
+    "options": [
+        "The bottom hem of the skirt is inserted.",
+        "The waistband of the skirt is inserted.",
+        "The side seam of the skirt is inserted.",
+        "The top edge of the skirt is inserted.",
+        "The midsection of the skirt is inserted."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the skirt is inserted? Choose **only one** option from the following list.\nOptions:\n(A) The bottom hem of the skirt is inserted.\n(B) The waistband of the skirt is inserted.\n(C) The side seam of the skirt is inserted.\n(D) The top edge of the skirt is inserted.\n(E) The midsection of the skirt is inserted.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The top edge of the skirt is inserted."
+    },
+    "correct_idx": [
+        3
+    ]
+}

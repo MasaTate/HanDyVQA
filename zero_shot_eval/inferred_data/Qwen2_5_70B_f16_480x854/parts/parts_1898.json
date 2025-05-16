@@ -1,0 +1,17 @@
+{
+    "question": "What part of the motherboard is removed?",
+    "options": [
+        "The CPU socket is removed.",
+        "The power connector is removed.",
+        "The ssd of the motherboard is removed.",
+        "The chipset fan is removed.",
+        "The cable of the motherboard is removed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the motherboard is removed? Choose **only one** option from the following list.\nOptions:\n(A) The CPU socket is removed.\n(B) The power connector is removed.\n(C) The ssd of the motherboard is removed.\n(D) The chipset fan is removed.\n(E) The cable of the motherboard is removed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The chipset fan is removed."
+    },
+    "correct_idx": [
+        2
+    ]
+}

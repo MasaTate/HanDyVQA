@@ -1,0 +1,17 @@
+{
+    "question": "What part of the burner is covered?",
+    "options": [
+        "The ignition switch of the burner is covered.",
+        "The airhole of the burner is covered.",
+        "The flame adjustment knob of the burner is covered.",
+        "The gas line connector of the burner is covered.",
+        "The base of the burner is covered."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the burner is covered? Choose **only one** option from the following list.\nOptions:\n(A) The ignition switch of the burner is covered.\n(B) The airhole of the burner is covered.\n(C) The flame adjustment knob of the burner is covered.\n(D) The gas line connector of the burner is covered.\n(E) The base of the burner is covered.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The ignition switch of the burner is covered."
+    },
+    "correct_idx": [
+        1
+    ]
+}

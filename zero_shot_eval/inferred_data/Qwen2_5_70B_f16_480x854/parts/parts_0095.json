@@ -1,0 +1,17 @@
+{
+    "question": "What part of the object is hammered?",
+    "options": [
+        "The top flat surface of the object is hammered.",
+        "The white circular part of the object is hammered.",
+        "The metallic rim of the object is hammered.",
+        "The side of the tube is hammered.",
+        "The inside of the brown tube is hammered."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the object is hammered? Choose **only one** option from the following list.\nOptions:\n(A) The top flat surface of the object is hammered.\n(B) The white circular part of the object is hammered.\n(C) The metallic rim of the object is hammered.\n(D) The side of the tube is hammered.\n(E) The inside of the brown tube is hammered.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The metallic rim of the object is hammered."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the disk drive holder is screwed?",
+    "options": [
+        "The bottom left corner of the disk drive holder is screwed.",
+        "The center back panel of the disk drive holder is screwed.",
+        "The upper right side of the disk drive holder is screwed.",
+        "The lower right side of the disk drive holder is screwed.",
+        "The front edge of the disk drive holder is screwed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the disk drive holder is screwed? Choose **only one** option from the following list.\nOptions:\n(A) The bottom left corner of the disk drive holder is screwed.\n(B) The center back panel of the disk drive holder is screwed.\n(C) The upper right side of the disk drive holder is screwed.\n(D) The lower right side of the disk drive holder is screwed.\n(E) The front edge of the disk drive holder is screwed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The upper right side of the disk drive holder is screwed."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the pencil is picked?",
+    "options": [
+        "The eraser end of the pencil is being picked.",
+        "The tip of the pencil is being picked.",
+        "The lower body of the pencil is being picked.",
+        "The middle section of the pencil is being picked.",
+        "The upper shaft of the pencil is being picked."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the pencil is picked? Choose **only one** option from the following list.\nOptions:\n(A) The eraser end of the pencil is being picked.\n(B) The tip of the pencil is being picked.\n(C) The lower body of the pencil is being picked.\n(D) The middle section of the pencil is being picked.\n(E) The upper shaft of the pencil is being picked.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The upper shaft of the pencil is being picked."
+    },
+    "correct_idx": [
+        2
+    ]
+}

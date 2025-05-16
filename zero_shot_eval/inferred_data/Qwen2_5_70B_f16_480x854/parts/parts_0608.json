@@ -1,0 +1,17 @@
+{
+    "question": "What part of the pen is held?",
+    "options": [
+        "The top and the bottom of the pen is held.",
+        "The middle section of the pen is being held.",
+        "The clip and the nib of the pen are being held.",
+        "The bottom of the ink reservoir is held.",
+        "The cap and the barrel of the pen are being held."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the pen is held? Choose **only one** option from the following list.\nOptions:\n(A) The top and the bottom of the pen is held.\n(B) The middle section of the pen is being held.\n(C) The clip and the nib of the pen are being held.\n(D) The bottom of the ink reservoir is held.\n(E) The cap and the barrel of the pen are being held.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The cap and the barrel of the pen are being held."
+    },
+    "correct_idx": [
+        0
+    ]
+}

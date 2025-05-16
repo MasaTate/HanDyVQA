@@ -1,0 +1,17 @@
+{
+    "question": "What part of the vice grip is adjusted?",
+    "options": [
+        "The auxiliary lever of the vice grip is adjusted.",
+        "The locking mechanism at the base of the vice grip is adjusted.",
+        "The rubber grip on the side of the vice grip is adjusted.",
+        "The T  handle clamping screw of the vice grip is adjusted.",
+        "The ratchet setting on the top of the vice grip is adjusted."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the vice grip is adjusted? Choose **only one** option from the following list.\nOptions:\n(A) The auxiliary lever of the vice grip is adjusted.\n(B) The locking mechanism at the base of the vice grip is adjusted.\n(C) The rubber grip on the side of the vice grip is adjusted.\n(D) The T  handle clamping screw of the vice grip is adjusted.\n(E) The ratchet setting on the top of the vice grip is adjusted.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The T handle clamping screw of the vice grip is adjusted."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the fabric is the needle put through?",
+    "options": [
+        "The needle is put through the border thread of the fabric.",
+        "The needle is put thorugh the sticker part of the fabric.",
+        "The needle is put through the backing layer of the fabric.",
+        "The needle is put thorugh the corner of the fabric.",
+        "The needle is put thorugh the center of the fabric."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the fabric is the needle put through? Choose **only one** option from the following list.\nOptions:\n(A) The needle is put through the border thread of the fabric.\n(B) The needle is put thorugh the sticker part of the fabric.\n(C) The needle is put through the backing layer of the fabric.\n(D) The needle is put thorugh the corner of the fabric.\n(E) The needle is put thorugh the center of the fabric.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The needle is put thorugh the center of the fabric."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the refrigerator is closed?",
+    "options": [
+        "The exterior door of the refrigerator is closed.",
+        "The cooling vent of the refrigerator is closed.",
+        "The shelf beneath the refrigerator is closed.",
+        "The upper freezer drawer of the refrigerator is closed.",
+        "The bottom compartment of the refrigerator is closed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the refrigerator is closed? Choose **only one** option from the following list.\nOptions:\n(A) The exterior door of the refrigerator is closed.\n(B) The cooling vent of the refrigerator is closed.\n(C) The shelf beneath the refrigerator is closed.\n(D) The upper freezer drawer of the refrigerator is closed.\n(E) The bottom compartment of the refrigerator is closed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The upper freezer drawer of the refrigerator is closed."
+    },
+    "correct_idx": [
+        4
+    ]
+}

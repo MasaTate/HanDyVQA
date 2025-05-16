@@ -1,0 +1,17 @@
+{
+    "question": "What part of the grass collector is dropped?",
+    "options": [
+        "The funnel of the grass collector is dropped.",
+        "The base of the grass collector is dropped.",
+        "The handle of the grass collector is dropped.",
+        "The lid of the grass collector is dropped.",
+        "The side panel of the grass collector is dropped."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the grass collector is dropped? Choose **only one** option from the following list.\nOptions:\n(A) The funnel of the grass collector is dropped.\n(B) The base of the grass collector is dropped.\n(C) The handle of the grass collector is dropped.\n(D) The lid of the grass collector is dropped.\n(E) The side panel of the grass collector is dropped.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The base of the grass collector is dropped."
+    },
+    "correct_idx": [
+        0
+    ]
+}

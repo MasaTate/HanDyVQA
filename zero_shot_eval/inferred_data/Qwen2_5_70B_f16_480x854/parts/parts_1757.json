@@ -1,0 +1,17 @@
+{
+    "question": "What part of the cardboard is cut?",
+    "options": [
+        "The bottom corner of the cardboard is cut.",
+        "The side of the cardboard is cut.",
+        "The upper edge of the cardboard is cut.",
+        "The inner folds of the cardboard are cut.",
+        "The center section of the cardboard is cut."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the cardboard is cut? Choose **only one** option from the following list.\nOptions:\n(A) The bottom corner of the cardboard is cut.\n(B) The side of the cardboard is cut.\n(C) The upper edge of the cardboard is cut.\n(D) The inner folds of the cardboard are cut.\n(E) The center section of the cardboard is cut.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The upper edge of the cardboard is cut."
+    },
+    "correct_idx": [
+        2
+    ]
+}

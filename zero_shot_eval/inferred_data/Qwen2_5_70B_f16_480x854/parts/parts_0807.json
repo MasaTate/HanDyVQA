@@ -1,0 +1,17 @@
+{
+    "question": "What part of the object is the screw inserted into?",
+    "options": [
+        "The front of the drawer face is where the screw is inserted into.",
+        "The bottom of the drawer handle is where the screw is inserted into.",
+        "The inside of the drawer box is where the screw is inserted into.",
+        "The back of the drawer panel is where the screw is inserted into.",
+        "The outside of the drawer rim is where the screw is inserted into."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the object is the screw inserted into? Choose **only one** option from the following list.\nOptions:\n(A) The front of the drawer face is where the screw is inserted into.\n(B) The bottom of the drawer handle is where the screw is inserted into.\n(C) The inside of the drawer box is where the screw is inserted into.\n(D) The back of the drawer panel is where the screw is inserted into.\n(E) The outside of the drawer rim is where the screw is inserted into.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The back of the drawer panel is where the screw is inserted into."
+    },
+    "correct_idx": [
+        2
+    ]
+}

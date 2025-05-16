@@ -1,0 +1,17 @@
+{
+    "question": "What part of the cloth is cleaned?",
+    "options": [
+        "The edge of the cloth near the seam is cleaned.",
+        "The top-left corner of the cloth is cleaned.",
+        "The bottom-right corner of the cloth is cleaned.",
+        "The area around the tag on the cloth is cleaned.",
+        "The middle-bottom of the cloth is cleaned."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the cloth is cleaned? Choose **only one** option from the following list.\nOptions:\n(A) The edge of the cloth near the seam is cleaned.\n(B) The top-left corner of the cloth is cleaned.\n(C) The bottom-right corner of the cloth is cleaned.\n(D) The area around the tag on the cloth is cleaned.\n(E) The middle-bottom of the cloth is cleaned.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The middle-bottom of the cloth is cleaned."
+    },
+    "correct_idx": [
+        4
+    ]
+}

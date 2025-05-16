@@ -1,0 +1,17 @@
+{
+    "question": "What part of the drawing book is erased?",
+    "options": [
+        "The spine of the drawing book is erased.",
+        "The bottom corner of the book is erased.",
+        "The margin of the book is erased.",
+        "The outer cover of the drawing book is erased.",
+        "The upper part of the book is erased."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the drawing book is erased? Choose **only one** option from the following list.\nOptions:\n(A) The spine of the drawing book is erased.\n(B) The bottom corner of the book is erased.\n(C) The margin of the book is erased.\n(D) The outer cover of the drawing book is erased.\n(E) The upper part of the book is erased.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The margin of the book is erased."
+    },
+    "correct_idx": [
+        4
+    ]
+}

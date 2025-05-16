@@ -1,0 +1,17 @@
+{
+    "question": "What part of the paintbrush is removed?",
+    "options": [
+        "The metal ferrule of the paint brush is removed.",
+        "The plastic cover of the paint brush is removed.",
+        "The bristle head of the paint brush is removed.",
+        "The wooden handle of the paint brush is removed.",
+        "The paint from the tip of the paintbrush is removed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the paintbrush is removed? Choose **only one** option from the following list.\nOptions:\n(A) The metal ferrule of the paint brush is removed.\n(B) The plastic cover of the paint brush is removed.\n(C) The bristle head of the paint brush is removed.\n(D) The wooden handle of the paint brush is removed.\n(E) The paint from the tip of the paintbrush is removed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The plastic cover of the paint brush is removed."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the socket wrench is touched?",
+    "options": [
+        "The drive square area of the socket wrench is touched.",
+        "The adjustable handle of the socket wrench is touched.",
+        "The grip area of the socket wrench is touched.",
+        "The ratcheting mechanism of the socket wrench is touched.",
+        "The fastening jaw of the socket wrench is touched."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the socket wrench is touched? Choose **only one** option from the following list.\nOptions:\n(A) The drive square area of the socket wrench is touched.\n(B) The adjustable handle of the socket wrench is touched.\n(C) The grip area of the socket wrench is touched.\n(D) The ratcheting mechanism of the socket wrench is touched.\n(E) The fastening jaw of the socket wrench is touched.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The grip area of the socket wrench is touched."
+    },
+    "correct_idx": [
+        0
+    ]
+}

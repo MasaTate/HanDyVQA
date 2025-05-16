@@ -1,0 +1,17 @@
+{
+    "question": "What part of the kettle is closed?",
+    "options": [
+        "The spout of the kettle was being closed.",
+        "The base of the kettle was being closed.",
+        "The handle of the kettle was being closed.",
+        "The lid of the kettle was being closed.",
+        "The interior of the kettle was being closed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the kettle is closed? Choose **only one** option from the following list.\nOptions:\n(A) The spout of the kettle was being closed.\n(B) The base of the kettle was being closed.\n(C) The handle of the kettle was being closed.\n(D) The lid of the kettle was being closed.\n(E) The interior of the kettle was being closed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The lid of the kettle was being closed."
+    },
+    "correct_idx": [
+        3
+    ]
+}

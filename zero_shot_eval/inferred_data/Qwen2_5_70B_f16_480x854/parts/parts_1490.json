@@ -1,0 +1,17 @@
+{
+    "question": "What part of the palette is scooped?",
+    "options": [
+        "The bottom right corner of the palette is scooped.",
+        "The top edge of the palette is scooped.",
+        "The center of the palette is scooped.",
+        "The lower right side of the palette is scooped.",
+        "The middle left of the palette is scooped."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the palette is scooped? Choose **only one** option from the following list.\nOptions:\n(A) The bottom right corner of the palette is scooped.\n(B) The top edge of the palette is scooped.\n(C) The center of the palette is scooped.\n(D) The lower right side of the palette is scooped.\n(E) The middle left of the palette is scooped.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The lower right side of the palette is scooped."
+    },
+    "correct_idx": [
+        4
+    ]
+}

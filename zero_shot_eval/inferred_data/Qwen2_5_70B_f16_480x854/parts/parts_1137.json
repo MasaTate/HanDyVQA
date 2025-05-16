@@ -1,0 +1,17 @@
+{
+    "question": "What part of the doll is cotton wool put into?",
+    "options": [
+        "The head of the doll is stuffed with cotton wool.",
+        "The arms of the doll are packed with cotton wool.",
+        "The body part of the doll is filled with cotton wool.",
+        "The legs of the doll contain cotton wool inside.",
+        "The dress of the doll is lined with cotton wool."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the doll is cotton wool put into? Choose **only one** option from the following list.\nOptions:\n(A) The head of the doll is stuffed with cotton wool.\n(B) The arms of the doll are packed with cotton wool.\n(C) The body part of the doll is filled with cotton wool.\n(D) The legs of the doll contain cotton wool inside.\n(E) The dress of the doll is lined with cotton wool.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The legs of the doll contain cotton wool inside."
+    },
+    "correct_idx": [
+        2
+    ]
+}

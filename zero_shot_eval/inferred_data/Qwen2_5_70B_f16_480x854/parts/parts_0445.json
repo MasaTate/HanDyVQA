@@ -1,0 +1,17 @@
+{
+    "question": "What part of the lawnmower is unscrewed?",
+    "options": [
+        "The top right corner of the lawnmower is being unscrewed.",
+        "The bottom center left of the lawnmower is being unscrewed.",
+        "The front panel of the lawnmower is being unscrewed.",
+        "The rear side of the lawnmower is being unscrewed.",
+        "The handle attachment of the lawnmower is being unscrewed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the lawnmower is unscrewed? Choose **only one** option from the following list.\nOptions:\n(A) The top right corner of the lawnmower is being unscrewed.\n(B) The bottom center left of the lawnmower is being unscrewed.\n(C) The front panel of the lawnmower is being unscrewed.\n(D) The rear side of the lawnmower is being unscrewed.\n(E) The handle attachment of the lawnmower is being unscrewed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The bottom center left of the lawnmower is being unscrewed."
+    },
+    "correct_idx": [
+        1
+    ]
+}

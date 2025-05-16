@@ -1,0 +1,17 @@
+{
+    "question": "What part of the mask is attached with the black sheet?",
+    "options": [
+        "The black sheet is attached to the eye section of the mask.",
+        "The black sheet is attached to the head part of the mask.",
+        "The black sheet is connected to the chin area of the mask.",
+        "The black sheet is fastened to the side panel of the mask.",
+        "The black sheet is secured at the forehead region of the mask."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the mask is attached with the black sheet? Choose **only one** option from the following list.\nOptions:\n(A) The black sheet is attached to the eye section of the mask.\n(B) The black sheet is attached to the head part of the mask.\n(C) The black sheet is connected to the chin area of the mask.\n(D) The black sheet is fastened to the side panel of the mask.\n(E) The black sheet is secured at the forehead region of the mask.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The black sheet is attached to the head part of the mask."
+    },
+    "correct_idx": [
+        1
+    ]
+}

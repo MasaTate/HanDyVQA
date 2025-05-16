@@ -1,0 +1,17 @@
+{
+    "question": "What part of the fridge is pulled?",
+    "options": [
+        "The top shelf of the fridge is pulled.",
+        "The side compartment of the fridge is pulled.",
+        "The cooling panel of the fridge is pulled.",
+        "The inner drawer of the fridge is pulled.",
+        "The compartment on the door of the fridge is pulled."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the fridge is pulled? Choose **only one** option from the following list.\nOptions:\n(A) The top shelf of the fridge is pulled.\n(B) The side compartment of the fridge is pulled.\n(C) The cooling panel of the fridge is pulled.\n(D) The inner drawer of the fridge is pulled.\n(E) The compartment on the door of the fridge is pulled.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The compartment on the door of the fridge is pulled."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the lid is held?",
+    "options": [
+        "The center of the lid is held.",
+        "The edge of the lid's surface is held.",
+        "The underside of the lid is held.",
+        "The rim of the lid is held.",
+        "The top of the lid is held."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the lid is held? Choose **only one** option from the following list.\nOptions:\n(A) The center of the lid is held.\n(B) The edge of the lid's surface is held.\n(C) The underside of the lid is held.\n(D) The rim of the lid is held.\n(E) The top of the lid is held.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The rim of the lid is held."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the metal is tightened?",
+    "options": [
+        "The rim of the metal is tightened.",
+        "The bolt of the metal is tightened.",
+        "The surface of the metal is tightened.",
+        "The edge of the metal is tightened.",
+        "The thread of the metal is tightened."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the metal is tightened? Choose **only one** option from the following list.\nOptions:\n(A) The rim of the metal is tightened.\n(B) The bolt of the metal is tightened.\n(C) The surface of the metal is tightened.\n(D) The edge of the metal is tightened.\n(E) The thread of the metal is tightened.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The bolt of the metal is tightened."
+    },
+    "correct_idx": [
+        1
+    ]
+}

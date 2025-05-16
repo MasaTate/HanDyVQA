@@ -1,0 +1,17 @@
+{
+    "question": "What part of the chip pack is cut?",
+    "options": [
+        "The corner flap of the chip pack was cut.",
+        "The bottom edge of the chip pack was cut.",
+        "The top fold of the chip pack was cut.",
+        "The lid of the chip pack was cut.",
+        "The tape on the chip pack was cut."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the chip pack is cut? Choose **only one** option from the following list.\nOptions:\n(A) The corner flap of the chip pack was cut.\n(B) The bottom edge of the chip pack was cut.\n(C) The top fold of the chip pack was cut.\n(D) The lid of the chip pack was cut.\n(E) The tape on the chip pack was cut.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The corner flap of the chip pack was cut."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the motherboard is loosed?",
+    "options": [
+        "The top corner bolt of the motherboard is loosed.",
+        "The side panel latch of the motherboard is loosed.",
+        "The middle chip connector of the motherboard is loosed.",
+        "The back part screw of the motherboard is loosed.",
+        "The front edge pin of the motherboard is loosed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the motherboard is loosed? Choose **only one** option from the following list.\nOptions:\n(A) The top corner bolt of the motherboard is loosed.\n(B) The side panel latch of the motherboard is loosed.\n(C) The middle chip connector of the motherboard is loosed.\n(D) The back part screw of the motherboard is loosed.\n(E) The front edge pin of the motherboard is loosed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The back part screw of the motherboard is loosed."
+    },
+    "correct_idx": [
+        3
+    ]
+}

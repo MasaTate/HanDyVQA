@@ -1,0 +1,17 @@
+{
+    "question": "What part of the kitchen sink is moved?",
+    "options": [
+        "The spout of the faucet of the kitchen sink is moved.",
+        "The basin of the kitchen sink is moved.",
+        "The drain cover of the kitchen sink is moved.",
+        "The washing liquid bottle at the kitchen sink is moved.",
+        "The lever of the faucet of the kitchen sink is moved."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the kitchen sink is moved? Choose **only one** option from the following list.\nOptions:\n(A) The spout of the faucet of the kitchen sink is moved.\n(B) The basin of the kitchen sink is moved.\n(C) The drain cover of the kitchen sink is moved.\n(D) The washing liquid bottle at the kitchen sink is moved.\n(E) The lever of the faucet of the kitchen sink is moved.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The lever of the faucet of the kitchen sink is moved."
+    },
+    "correct_idx": [
+        4
+    ]
+}

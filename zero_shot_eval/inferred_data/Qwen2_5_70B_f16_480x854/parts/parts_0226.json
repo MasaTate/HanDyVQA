@@ -1,0 +1,17 @@
+{
+    "question": "What part of the nailer is detached?",
+    "options": [
+        "The compressor attachment at the bottom part of the nailer is detached.",
+        "The trigger mechanism on the side of the nailer is detached.",
+        "The safety guard located near the top of the nailer is detached.",
+        "The magazine cover on the front part of the nailer is detached.",
+        "The air hose connector at the back of the nailer is detached."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the nailer is detached? Choose **only one** option from the following list.\nOptions:\n(A) The compressor attachment at the bottom part of the nailer is detached.\n(B) The trigger mechanism on the side of the nailer is detached.\n(C) The safety guard located near the top of the nailer is detached.\n(D) The magazine cover on the front part of the nailer is detached.\n(E) The air hose connector at the back of the nailer is detached.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The air hose connector at the back of the nailer is detached."
+    },
+    "correct_idx": [
+        0
+    ]
+}

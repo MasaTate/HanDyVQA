@@ -1,0 +1,17 @@
+{
+    "question": "What part of the jar is removed?",
+    "options": [
+        "The base of the jar is taken away.",
+        "The cap of the jar is removed.",
+        "The inner seal of the jar is detached.",
+        "The side of the jar is cut open.",
+        "The bottom of the jar is taken off."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the jar is removed? Choose **only one** option from the following list.\nOptions:\n(A) The base of the jar is taken away.\n(B) The cap of the jar is removed.\n(C) The inner seal of the jar is detached.\n(D) The side of the jar is cut open.\n(E) The bottom of the jar is taken off.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The cap of the jar is removed."
+    },
+    "correct_idx": [
+        1
+    ]
+}

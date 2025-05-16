@@ -1,0 +1,17 @@
+{
+    "question": "What part of the sandpaper is the wood inserted into?",
+    "options": [
+        "The wood is inserted into the top edge of the sandpaper.",
+        "The wood is inserted into the middle section of the sandpaper.",
+        "The wood is inserted into the bottom part of the sandpaper.",
+        "The wood is inserted near the corners of the sandpaper.",
+        "The wood is inserted at the spine of the sandpaper."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the sandpaper is the wood inserted into? Choose **only one** option from the following list.\nOptions:\n(A) The wood is inserted into the top edge of the sandpaper.\n(B) The wood is inserted into the middle section of the sandpaper.\n(C) The wood is inserted into the bottom part of the sandpaper.\n(D) The wood is inserted near the corners of the sandpaper.\n(E) The wood is inserted at the spine of the sandpaper.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The wood is inserted at the spine of the sandpaper."
+    },
+    "correct_idx": [
+        2
+    ]
+}

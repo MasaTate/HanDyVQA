@@ -1,0 +1,17 @@
+{
+    "question": "What part of the cotton is removed?",
+    "options": [
+        "The tag that was sewn into the cotton is removed.",
+        "The piece of fabric that covers the cotton is removed.",
+        "The insulation that surrounds the cotton is removed.",
+        "The string that attached to the cotton is removed.",
+        "The chunk of the cotton is removed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the cotton is removed? Choose **only one** option from the following list.\nOptions:\n(A) The tag that was sewn into the cotton is removed.\n(B) The piece of fabric that covers the cotton is removed.\n(C) The insulation that surrounds the cotton is removed.\n(D) The string that attached to the cotton is removed.\n(E) The chunk of the cotton is removed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The chunk of the cotton is removed."
+    },
+    "correct_idx": [
+        3
+    ]
+}

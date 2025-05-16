@@ -1,0 +1,17 @@
+{
+    "question": "What part of the lawn mower is screwed?",
+    "options": [
+        "The front left corner of the lawn mower is screwed.",
+        "The side panel near the cutting blade is screwed.",
+        "The bottom edge of the mower deck is screwed.",
+        "The hole in the back right part of the lawn mower is screwed.",
+        "The handle support near the engine is screwed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the lawn mower is screwed? Choose **only one** option from the following list.\nOptions:\n(A) The front left corner of the lawn mower is screwed.\n(B) The side panel near the cutting blade is screwed.\n(C) The bottom edge of the mower deck is screwed.\n(D) The hole in the back right part of the lawn mower is screwed.\n(E) The handle support near the engine is screwed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The handle support near the engine is screwed."
+    },
+    "correct_idx": [
+        3
+    ]
+}

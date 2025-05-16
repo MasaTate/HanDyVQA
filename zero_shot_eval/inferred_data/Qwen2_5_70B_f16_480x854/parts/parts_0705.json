@@ -1,0 +1,17 @@
+{
+    "question": "What part of the laundry machine is pulled out?",
+    "options": [
+        "The detergent drawer of the laundry machine is pulled.",
+        "The filter of the laundry machine is pulled.",
+        "The front panel of the laundry machine is pulled.",
+        "The lint trap of the laundry machine is pulled.",
+        "The control dial of the laundry machine is pulled."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the laundry machine is pulled out? Choose **only one** option from the following list.\nOptions:\n(A) The detergent drawer of the laundry machine is pulled.\n(B) The filter of the laundry machine is pulled.\n(C) The front panel of the laundry machine is pulled.\n(D) The lint trap of the laundry machine is pulled.\n(E) The control dial of the laundry machine is pulled.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The detergent drawer of the laundry machine is pulled."
+    },
+    "correct_idx": [
+        1
+    ]
+}

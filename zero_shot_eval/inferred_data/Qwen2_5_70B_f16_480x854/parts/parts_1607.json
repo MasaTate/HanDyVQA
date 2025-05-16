@@ -1,0 +1,17 @@
+{
+    "question": "What part of the electric kettle is touched to open?",
+    "options": [
+        "The side handle of the electric kettle is touched to open.",
+        "The spout tip of the electric kettle is touched to open.",
+        "The outer rim of the kettle body is touched to open.",
+        "The center blue part of the lid of the electric kettle is touched to open.",
+        "The white part of the lid of the electric kettle is touched to open."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the electric kettle is touched to open? Choose **only one** option from the following list.\nOptions:\n(A) The side handle of the electric kettle is touched to open.\n(B) The spout tip of the electric kettle is touched to open.\n(C) The outer rim of the kettle body is touched to open.\n(D) The center blue part of the lid of the electric kettle is touched to open.\n(E) The white part of the lid of the electric kettle is touched to open.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The center blue part of the lid of the electric kettle is touched to open."
+    },
+    "correct_idx": [
+        3
+    ]
+}

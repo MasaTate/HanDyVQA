@@ -1,0 +1,17 @@
+{
+    "question": "What part of the fridge is closed?",
+    "options": [
+        "The bottom shelf of the fridge is closed.",
+        "The side panel of the fridge is closed.",
+        "The top compartment of the fridge is closed.",
+        "The door of the fridge is closed.",
+        "The back of the fridge is closed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the fridge is closed? Choose **only one** option from the following list.\nOptions:\n(A) The bottom shelf of the fridge is closed.\n(B) The side panel of the fridge is closed.\n(C) The top compartment of the fridge is closed.\n(D) The door of the fridge is closed.\n(E) The back of the fridge is closed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The door of the fridge is closed."
+    },
+    "correct_idx": [
+        3
+    ]
+}

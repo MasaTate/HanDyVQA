@@ -1,0 +1,17 @@
+{
+    "question": "What part of the smartwatch is used?",
+    "options": [
+        "The charging port of the smartwatch is used.",
+        "The face of the smartwatch is used.",
+        "The side buttons of the smartwatch are used.",
+        "The casing of the smartwatch is used.",
+        "The strap of the smartwatch is used."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the smartwatch is used? Choose **only one** option from the following list.\nOptions:\n(A) The charging port of the smartwatch is used.\n(B) The face of the smartwatch is used.\n(C) The side buttons of the smartwatch are used.\n(D) The casing of the smartwatch is used.\n(E) The strap of the smartwatch is used.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The side buttons of the smartwatch are used."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the steamer is removed?",
+    "options": [
+        "The steamer plate of the steamer is removed.",
+        "The lid of the steamer is removed.",
+        "The water reservoir of the steamer is removed.",
+        "The heat element of the steamer is removed.",
+        "The steam vent of the steamer is removed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the steamer is removed? Choose **only one** option from the following list.\nOptions:\n(A) The steamer plate of the steamer is removed.\n(B) The lid of the steamer is removed.\n(C) The water reservoir of the steamer is removed.\n(D) The heat element of the steamer is removed.\n(E) The steam vent of the steamer is removed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The steamer plate of the steamer is removed."
+    },
+    "correct_idx": [
+        0
+    ]
+}

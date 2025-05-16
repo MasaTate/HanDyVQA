@@ -1,0 +1,17 @@
+{
+    "question": "What part of the cloth is traced?",
+    "options": [
+        "The middle section the cloth is traced.",
+        "The edge of the cloth is traced.",
+        "The corner of the cloth is traced.",
+        "The hem of the cloth is traced.",
+        "The outer border of the cloth is traced."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the cloth is traced? Choose **only one** option from the following list.\nOptions:\n(A) The middle section the cloth is traced.\n(B) The edge of the cloth is traced.\n(C) The corner of the cloth is traced.\n(D) The hem of the cloth is traced.\n(E) The outer border of the cloth is traced.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The middle section the cloth is traced."
+    },
+    "correct_idx": [
+        0
+    ]
+}

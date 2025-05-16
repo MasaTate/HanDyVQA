@@ -1,0 +1,17 @@
+{
+    "question": "What part of the onion is peeled?",
+    "options": [
+        "The inner layers of the onion are peeled.",
+        "The root end of the onion is peeled.",
+        "The top of the onion is peeled away.",
+        "The outer skin of the onion is peeled.",
+        "The fleshy part of the onion is peeled."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the onion is peeled? Choose **only one** option from the following list.\nOptions:\n(A) The inner layers of the onion are peeled.\n(B) The root end of the onion is peeled.\n(C) The top of the onion is peeled away.\n(D) The outer skin of the onion is peeled.\n(E) The fleshy part of the onion is peeled.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The outer skin of the onion is peeled."
+    },
+    "correct_idx": [
+        3
+    ]
+}

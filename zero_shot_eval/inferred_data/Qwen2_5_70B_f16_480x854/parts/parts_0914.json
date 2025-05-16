@@ -1,0 +1,17 @@
+{
+    "question": "What part of the mobile phone is scrolled?",
+    "options": [
+        "The back cover of the mobile phone is scrolled.",
+        "The bottom edge of the mobile phone is scrolled.",
+        "The camera lens of the mobile phone is scrolled.",
+        "The screen of the mobile phone is scrolled.",
+        "The volume button of the mobile phone is scrolled."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the mobile phone is scrolled? Choose **only one** option from the following list.\nOptions:\n(A) The back cover of the mobile phone is scrolled.\n(B) The bottom edge of the mobile phone is scrolled.\n(C) The camera lens of the mobile phone is scrolled.\n(D) The screen of the mobile phone is scrolled.\n(E) The volume button of the mobile phone is scrolled.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The screen of the mobile phone is scrolled."
+    },
+    "correct_idx": [
+        3
+    ]
+}

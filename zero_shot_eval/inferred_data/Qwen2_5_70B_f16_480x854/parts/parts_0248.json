@@ -1,0 +1,17 @@
+{
+    "question": "What part of the table is opened?",
+    "options": [
+        "The side panel of the table is opened.",
+        "The top drawer of the table is opened.",
+        "The bottom shelf of the table is opened.",
+        "The back leg of the table is opened.",
+        "The front face of the table is opened."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the table is opened? Choose **only one** option from the following list.\nOptions:\n(A) The side panel of the table is opened.\n(B) The top drawer of the table is opened.\n(C) The bottom shelf of the table is opened.\n(D) The back leg of the table is opened.\n(E) The front face of the table is opened.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The top drawer of the table is opened."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the wooden rail is painted?",
+    "options": [
+        "The underside of the wooden rail is painted.",
+        "The intersection of the vertical and horizontal wooden rail is painted.",
+        "The ends of the wooden rail are painted.",
+        "The surface of the wooden rail touching the ground is painted.",
+        "The outer edge of the wooden rail is painted."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the wooden rail is painted? Choose **only one** option from the following list.\nOptions:\n(A) The underside of the wooden rail is painted.\n(B) The intersection of the vertical and horizontal wooden rail is painted.\n(C) The ends of the wooden rail are painted.\n(D) The surface of the wooden rail touching the ground is painted.\n(E) The outer edge of the wooden rail is painted.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The intersection of the vertical and horizontal wooden rail is painted."
+    },
+    "correct_idx": [
+        1
+    ]
+}

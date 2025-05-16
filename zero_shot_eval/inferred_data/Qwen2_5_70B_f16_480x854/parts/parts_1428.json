@@ -1,0 +1,17 @@
+{
+    "question": "What part of the plant is examined?",
+    "options": [
+        "The leaf of the plant is examined.",
+        "The root of the plant is examined.",
+        "The flower of the plant is examined.",
+        "The soil around the plant is examined.",
+        "The flower of the plant is examined."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the plant is examined? Choose **only one** option from the following list.\nOptions:\n(A) The leaf of the plant is examined.\n(B) The root of the plant is examined.\n(C) The flower of the plant is examined.\n(D) The soil around the plant is examined.\n(E) The flower of the plant is examined.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The leaf of the plant is examined."
+    },
+    "correct_idx": [
+        0
+    ]
+}

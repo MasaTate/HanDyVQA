@@ -1,0 +1,17 @@
+{
+    "question": "What part of the bicycle is turned?",
+    "options": [
+        "The handlebars of the bicycle are being turned.",
+        "The rear wheel of the bicycle is being turned.",
+        "The seat of the bicycle is being turned.",
+        "The pedal of the bicycle is being turned.",
+        "The frame of the bicycle is being turned."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the bicycle is turned? Choose **only one** option from the following list.\nOptions:\n(A) The handlebars of the bicycle are being turned.\n(B) The rear wheel of the bicycle is being turned.\n(C) The seat of the bicycle is being turned.\n(D) The pedal of the bicycle is being turned.\n(E) The frame of the bicycle is being turned.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The pedal of the bicycle is being turned."
+    },
+    "correct_idx": [
+        3
+    ]
+}

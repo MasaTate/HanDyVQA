@@ -1,0 +1,17 @@
+{
+    "question": "What part of the knife is the piece of onion removed from?",
+    "options": [
+        "The onion is removed from the handle section of the knife.",
+        "The onion is removed from the tip part of the knife.",
+        "The onion is removed from the spine area of the knife.",
+        "The onion is removed from the base of the knife blade.",
+        "The onion is removed from the belly of the knife blade."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the knife is the piece of onion removed from? Choose **only one** option from the following list.\nOptions:\n(A) The onion is removed from the handle section of the knife.\n(B) The onion is removed from the tip part of the knife.\n(C) The onion is removed from the spine area of the knife.\n(D) The onion is removed from the base of the knife blade.\n(E) The onion is removed from the belly of the knife blade.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The onion is removed from the belly of the knife blade."
+    },
+    "correct_idx": [
+        1
+    ]
+}

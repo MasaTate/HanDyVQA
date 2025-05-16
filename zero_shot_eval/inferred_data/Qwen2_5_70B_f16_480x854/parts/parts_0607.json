@@ -1,0 +1,17 @@
+{
+    "question": "What part of the plant is grabbed?",
+    "options": [
+        "The  fruit of the plant is grabbed.",
+        "The leaves of the plant are grabbed.",
+        "The roots of the plant are grabbed.",
+        "The stem of the plant is grabbed.",
+        "The flower of the plant is grabbed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the plant is grabbed? Choose **only one** option from the following list.\nOptions:\n(A) The  fruit of the plant is grabbed.\n(B) The leaves of the plant are grabbed.\n(C) The roots of the plant are grabbed.\n(D) The stem of the plant is grabbed.\n(E) The flower of the plant is grabbed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The fruit of the plant is grabbed."
+    },
+    "correct_idx": [
+        0
+    ]
+}

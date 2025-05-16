@@ -1,0 +1,17 @@
+{
+    "question": "What part of the workbench is opened?",
+    "options": [
+        "The cabinet door of the workbench is opened.",
+        "The side panel of the workbench is opened.",
+        "The tool compartment of the workbench is opened.",
+        "The top drawer of the work bench is opened.",
+        "The top surface of the workbench is opened."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the workbench is opened? Choose **only one** option from the following list.\nOptions:\n(A) The cabinet door of the workbench is opened.\n(B) The side panel of the workbench is opened.\n(C) The tool compartment of the workbench is opened.\n(D) The top drawer of the work bench is opened.\n(E) The top surface of the workbench is opened.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The top drawer of the work bench is opened."
+    },
+    "correct_idx": [
+        3
+    ]
+}

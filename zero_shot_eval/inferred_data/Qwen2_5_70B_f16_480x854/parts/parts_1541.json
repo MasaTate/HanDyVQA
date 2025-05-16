@@ -1,0 +1,17 @@
+{
+    "question": "What part of the fabric is pulled?",
+    "options": [
+        "The exceeding thread under the fabric is pulled.",
+        "The edge seam running along the fabric is pulled.",
+        "The tag attached to the fabric is pulled.",
+        "The center fold of the fabric is pulled.",
+        "The stitching along the border of the fabric is pulled."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the fabric is pulled? Choose **only one** option from the following list.\nOptions:\n(A) The exceeding thread under the fabric is pulled.\n(B) The edge seam running along the fabric is pulled.\n(C) The tag attached to the fabric is pulled.\n(D) The center fold of the fabric is pulled.\n(E) The stitching along the border of the fabric is pulled.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The exceeding thread under the fabric is pulled."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the fridge is operated?",
+    "options": [
+        "The door handle of the fridge is operated.",
+        "The front surface of the fridge is operated.",
+        "The knob of the fridge is operated.",
+        "The drawer of the fridge is operated.",
+        "The button of the fridge is operated."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the fridge is operated? Choose **only one** option from the following list.\nOptions:\n(A) The door handle of the fridge is operated.\n(B) The front surface of the fridge is operated.\n(C) The knob of the fridge is operated.\n(D) The drawer of the fridge is operated.\n(E) The button of the fridge is operated.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The button of the fridge is operated."
+    },
+    "correct_idx": [
+        4
+    ]
+}

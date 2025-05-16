@@ -1,0 +1,17 @@
+{
+    "question": "What part of the chainsaw is adjusted?",
+    "options": [
+        "The blade guard of the chainsaw is adjusted.",
+        "The fuel cap of the chainsaw is adjusted.",
+        "The trigger mechanism of the chainsaw is adjusted.",
+        "The exhaust port of the chainsaw is adjusted.",
+        "The lanyard of the chainsaw is adjusted."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the chainsaw is adjusted? Choose **only one** option from the following list.\nOptions:\n(A) The blade guard of the chainsaw is adjusted.\n(B) The fuel cap of the chainsaw is adjusted.\n(C) The trigger mechanism of the chainsaw is adjusted.\n(D) The exhaust port of the chainsaw is adjusted.\n(E) The lanyard of the chainsaw is adjusted.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The lanyard of the chainsaw is adjusted."
+    },
+    "correct_idx": [
+        4
+    ]
+}

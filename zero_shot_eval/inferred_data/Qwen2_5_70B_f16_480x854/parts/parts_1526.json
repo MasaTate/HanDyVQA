@@ -1,0 +1,17 @@
+{
+    "question": "What part of the yarn pack is drawn?",
+    "options": [
+        "The bottom section of the yarn pack is drawn.",
+        "The side panel of the yarn pack is drawn.",
+        "The upper part of the yarn pack is drawn.",
+        "The center of the yarn pack is drawn.",
+        "The corner edge of the yarn pack is drawn."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the yarn pack is drawn? Choose **only one** option from the following list.\nOptions:\n(A) The bottom section of the yarn pack is drawn.\n(B) The side panel of the yarn pack is drawn.\n(C) The upper part of the yarn pack is drawn.\n(D) The center of the yarn pack is drawn.\n(E) The corner edge of the yarn pack is drawn.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The center of the yarn pack is drawn."
+    },
+    "correct_idx": [
+        2
+    ]
+}

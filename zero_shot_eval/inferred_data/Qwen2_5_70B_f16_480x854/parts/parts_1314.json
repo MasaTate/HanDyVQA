@@ -1,0 +1,17 @@
+{
+    "question": "What part of the wall is concrete spread on?",
+    "options": [
+        "The concrete is applied to the ceiling of the wall.",
+        "The concrete is layered over the right side of the wall.",
+        "The concrete is pushed into the cracks of the wall.",
+        "The concrete is spread on the middle section of the wall.",
+        "The concrete is spread on the left part of the wall."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the wall is concrete spread on? Choose **only one** option from the following list.\nOptions:\n(A) The concrete is applied to the ceiling of the wall.\n(B) The concrete is layered over the right side of the wall.\n(C) The concrete is pushed into the cracks of the wall.\n(D) The concrete is spread on the middle section of the wall.\n(E) The concrete is spread on the left part of the wall.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The concrete is pushed into the cracks of the wall."
+    },
+    "correct_idx": [
+        4
+    ]
+}

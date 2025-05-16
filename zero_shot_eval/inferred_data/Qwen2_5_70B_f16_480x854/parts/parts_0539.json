@@ -1,0 +1,17 @@
+{
+    "question": "What part of the wood is wiped?",
+    "options": [
+        "The edge of the wood is wiped.",
+        "The middle surface of the wood is wiped.",
+        "The bottom corner of the wood is wiped.",
+        "The top side of the wood is wiped.",
+        "The outer rim of the wood is wiped."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the wood is wiped? Choose **only one** option from the following list.\nOptions:\n(A) The edge of the wood is wiped.\n(B) The middle surface of the wood is wiped.\n(C) The bottom corner of the wood is wiped.\n(D) The top side of the wood is wiped.\n(E) The outer rim of the wood is wiped.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The edge of the wood is wiped."
+    },
+    "correct_idx": [
+        1
+    ]
+}

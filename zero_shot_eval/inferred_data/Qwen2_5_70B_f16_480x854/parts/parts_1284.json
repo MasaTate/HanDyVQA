@@ -1,0 +1,17 @@
+{
+    "question": "What part of the wood is being peeled off?",
+    "options": [
+        "The bark on the side of the wood is being peeled off.",
+        "The grain pattern along the length of the wood is being peeled off.",
+        "The core section inside the wood is being peeled off.",
+        "The splinter on the edge of the wood is being peeled off.",
+        "The sticker on the end of the wood is being peeled off."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the wood is being peeled off? Choose **only one** option from the following list.\nOptions:\n(A) The bark on the side of the wood is being peeled off.\n(B) The grain pattern along the length of the wood is being peeled off.\n(C) The core section inside the wood is being peeled off.\n(D) The splinter on the edge of the wood is being peeled off.\n(E) The sticker on the end of the wood is being peeled off.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The sticker on the end of the wood is being peeled off."
+    },
+    "correct_idx": [
+        4
+    ]
+}

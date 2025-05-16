@@ -1,0 +1,17 @@
+{
+    "question": "What part of the panel is placed?",
+    "options": [
+        "The lower corner of the panel is placed.",
+        "The side edge of the panel is placed.",
+        "The center area of the panel is placed.",
+        "The back surface of the panel is placed.",
+        "The upper part of the panel is placed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the panel is placed? Choose **only one** option from the following list.\nOptions:\n(A) The lower corner of the panel is placed.\n(B) The side edge of the panel is placed.\n(C) The center area of the panel is placed.\n(D) The back surface of the panel is placed.\n(E) The upper part of the panel is placed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The upper part of the panel is placed."
+    },
+    "correct_idx": [
+        4
+    ]
+}

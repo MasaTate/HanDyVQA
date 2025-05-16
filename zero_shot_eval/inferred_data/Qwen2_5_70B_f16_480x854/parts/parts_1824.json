@@ -1,0 +1,17 @@
+{
+    "question": "What part of the bicycle is removed?",
+    "options": [
+        "The crankset bolt of the bicycle is removed.",
+        "The gear lever of the bicycle is removed.",
+        "The front wheel axle of the bicycle is removed.",
+        "The handlebar grip of the bicycle is removed.",
+        "The seat post clamp of the bicycle is removed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the bicycle is removed? Choose **only one** option from the following list.\nOptions:\n(A) The crankset bolt of the bicycle is removed.\n(B) The gear lever of the bicycle is removed.\n(C) The front wheel axle of the bicycle is removed.\n(D) The handlebar grip of the bicycle is removed.\n(E) The seat post clamp of the bicycle is removed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The crankset bolt of the bicycle is removed."
+    },
+    "correct_idx": [
+        0
+    ]
+}

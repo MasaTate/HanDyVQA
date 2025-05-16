@@ -1,0 +1,17 @@
+{
+    "question": "What part of the work bench cabinet is opened?",
+    "options": [
+        "The top shelf of the work bench cabinet is opened.",
+        "The middle drawer of the work bench cabinet is opened.",
+        "The side door of the work bench cabinet is opened.",
+        "The bottom compartment of the work bench cabinet is opened.",
+        "The bottom drawer of the work bench is opened."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the work bench cabinet is opened? Choose **only one** option from the following list.\nOptions:\n(A) The top shelf of the work bench cabinet is opened.\n(B) The middle drawer of the work bench cabinet is opened.\n(C) The side door of the work bench cabinet is opened.\n(D) The bottom compartment of the work bench cabinet is opened.\n(E) The bottom drawer of the work bench is opened.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The bottom drawer of the work bench is opened."
+    },
+    "correct_idx": [
+        1
+    ]
+}

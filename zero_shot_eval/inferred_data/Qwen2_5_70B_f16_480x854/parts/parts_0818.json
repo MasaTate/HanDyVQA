@@ -1,0 +1,17 @@
+{
+    "question": "What part of the object is unscrewed?",
+    "options": [
+        "The spokes of the object are unscrewed from the wheelbase.",
+        "The handle of the object is unscrewed from the shaft.",
+        "The rim of the object is unscrewed from the body.",
+        "The wheel of the object is unscrewed from the hub.",
+        "The core of the object is unscrewed from the outer casing."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the object is unscrewed? Choose **only one** option from the following list.\nOptions:\n(A) The spokes of the object are unscrewed from the wheelbase.\n(B) The handle of the object is unscrewed from the shaft.\n(C) The rim of the object is unscrewed from the body.\n(D) The wheel of the object is unscrewed from the hub.\n(E) The core of the object is unscrewed from the outer casing.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The rim of the object is unscrewed from the body."
+    },
+    "correct_idx": [
+        3
+    ]
+}

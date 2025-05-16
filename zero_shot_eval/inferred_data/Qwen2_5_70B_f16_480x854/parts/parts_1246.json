@@ -1,0 +1,17 @@
+{
+    "question": "What part of the clay is rubbed?",
+    "options": [
+        "The bottom edge of the clay is being rubbed.",
+        "The side surface of the clay is being rubbed.",
+        "The back side of the clay is being rubbed.",
+        "The top face of the clay is being rubbed.",
+        "The rim of the clay is being rubbed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the clay is rubbed? Choose **only one** option from the following list.\nOptions:\n(A) The bottom edge of the clay is being rubbed.\n(B) The side surface of the clay is being rubbed.\n(C) The back side of the clay is being rubbed.\n(D) The top face of the clay is being rubbed.\n(E) The rim of the clay is being rubbed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The top face of the clay is being rubbed."
+    },
+    "correct_idx": [
+        3
+    ]
+}

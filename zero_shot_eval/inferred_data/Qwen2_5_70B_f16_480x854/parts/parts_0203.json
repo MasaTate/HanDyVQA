@@ -1,0 +1,17 @@
+{
+    "question": "What part of the bicycle is lubricated?",
+    "options": [
+        "The outer rim of the bicycle is lubricated.",
+        "The pedals of the bicycle are lubricated.",
+        "The front wheel hub of the bicycle is lubricated.",
+        "The inner part frame of the bicycle is lubricated.",
+        "The seat post of the bicycle is lubricated."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the bicycle is lubricated? Choose **only one** option from the following list.\nOptions:\n(A) The outer rim of the bicycle is lubricated.\n(B) The pedals of the bicycle are lubricated.\n(C) The front wheel hub of the bicycle is lubricated.\n(D) The inner part frame of the bicycle is lubricated.\n(E) The seat post of the bicycle is lubricated.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The pedals of the bicycle are lubricated."
+    },
+    "correct_idx": [
+        3
+    ]
+}

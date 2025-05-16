@@ -1,0 +1,17 @@
+{
+    "question": "What part of the mobile phone is operated?",
+    "options": [
+        "The camera settings of the mobile phone are operated.",
+        "The battery indicator of the mobile phone is operated.",
+        "The volume control of the mobile phone is operated.",
+        "The ringtone selection of the mobile phone is operated.",
+        "The map application of the mobile phone is operated."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the mobile phone is operated? Choose **only one** option from the following list.\nOptions:\n(A) The camera settings of the mobile phone are operated.\n(B) The battery indicator of the mobile phone is operated.\n(C) The volume control of the mobile phone is operated.\n(D) The ringtone selection of the mobile phone is operated.\n(E) The map application of the mobile phone is operated.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The map application of the mobile phone is operated."
+    },
+    "correct_idx": [
+        4
+    ]
+}

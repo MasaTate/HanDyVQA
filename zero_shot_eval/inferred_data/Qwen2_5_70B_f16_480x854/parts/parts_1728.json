@@ -1,0 +1,17 @@
+{
+    "question": "What part of the Jenga block is pushed?",
+    "options": [
+        "The lower left corner of the Jenga block is pushed.",
+        "The bottom right edge of the Jenga block is pushed.",
+        "The side panel of the Jenga block is pushed.",
+        "The topmost layer of the Jenga block is pushed.",
+        "The upper middle part of the Jenga block is pushed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the Jenga block is pushed? Choose **only one** option from the following list.\nOptions:\n(A) The lower left corner of the Jenga block is pushed.\n(B) The bottom right edge of the Jenga block is pushed.\n(C) The side panel of the Jenga block is pushed.\n(D) The topmost layer of the Jenga block is pushed.\n(E) The upper middle part of the Jenga block is pushed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The side panel of the Jenga block is pushed."
+    },
+    "correct_idx": [
+        4
+    ]
+}

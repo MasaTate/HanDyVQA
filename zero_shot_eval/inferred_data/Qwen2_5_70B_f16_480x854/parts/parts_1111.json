@@ -1,0 +1,17 @@
+{
+    "question": "What part of the pot is shaped?",
+    "options": [
+        "The lip or rim part of the pot is shaped.",
+        "The base of the pot is shaped.",
+        "The handle attachment area of the pot is shaped.",
+        "The interior bottom curve of the pot is shaped.",
+        "The outside surface near the center of the pot is shaped."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the pot is shaped? Choose **only one** option from the following list.\nOptions:\n(A) The lip or rim part of the pot is shaped.\n(B) The base of the pot is shaped.\n(C) The handle attachment area of the pot is shaped.\n(D) The interior bottom curve of the pot is shaped.\n(E) The outside surface near the center of the pot is shaped.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The interior bottom curve of the pot is shaped."
+    },
+    "correct_idx": [
+        0
+    ]
+}

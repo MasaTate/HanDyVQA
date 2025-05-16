@@ -1,0 +1,17 @@
+{
+    "question": "What part of the bobbin is pulled?",
+    "options": [
+        "The thread of the bobbin is pulled.",
+        "The circular edge of the bobbin is pulled.",
+        "The top cover of the bobbin is pulled.",
+        "The base support of the bobbin is pulled.",
+        "The fastening clip of the bobbin is pulled."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the bobbin is pulled? Choose **only one** option from the following list.\nOptions:\n(A) The thread of the bobbin is pulled.\n(B) The circular edge of the bobbin is pulled.\n(C) The top cover of the bobbin is pulled.\n(D) The base support of the bobbin is pulled.\n(E) The fastening clip of the bobbin is pulled.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The thread of the bobbin is pulled."
+    },
+    "correct_idx": [
+        0
+    ]
+}

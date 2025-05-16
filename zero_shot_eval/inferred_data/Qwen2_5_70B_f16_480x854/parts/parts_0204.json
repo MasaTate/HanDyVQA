@@ -1,0 +1,17 @@
+{
+    "question": "What part of the hand drill is fixed?",
+    "options": [
+        "The rotating handle at the back of the drill is fixed.",
+        "The adjustable collar near the center of the drill is fixed.",
+        "The battery compartment underneath the drill is fixed.",
+        "The socket wrench at the tip of the drill is fixed.",
+        "The grip section on the side of the drill is fixed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the hand drill is fixed? Choose **only one** option from the following list.\nOptions:\n(A) The rotating handle at the back of the drill is fixed.\n(B) The adjustable collar near the center of the drill is fixed.\n(C) The battery compartment underneath the drill is fixed.\n(D) The socket wrench at the tip of the drill is fixed.\n(E) The grip section on the side of the drill is fixed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The socket wrench at the tip of the drill is fixed."
+    },
+    "correct_idx": [
+        3
+    ]
+}

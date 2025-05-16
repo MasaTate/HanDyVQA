@@ -1,0 +1,17 @@
+{
+    "question": "What part of the tank is removed?",
+    "options": [
+        "The nozzle attached to the tank is removed.",
+        "The valve mechanism at the base of the tank is removed.",
+        "The inspection cover on the side of the tank is removed.",
+        "The pump handle from the tank is removed.",
+        "The black hose of the tank is removed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the tank is removed? Choose **only one** option from the following list.\nOptions:\n(A) The nozzle attached to the tank is removed.\n(B) The valve mechanism at the base of the tank is removed.\n(C) The inspection cover on the side of the tank is removed.\n(D) The pump handle from the tank is removed.\n(E) The black hose of the tank is removed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The nozzle attached to the tank is removed."
+    },
+    "correct_idx": [
+        3
+    ]
+}

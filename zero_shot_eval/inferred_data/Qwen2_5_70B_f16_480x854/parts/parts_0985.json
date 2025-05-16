@@ -1,0 +1,17 @@
+{
+    "question": "What part of the extension box is plugged?",
+    "options": [
+        "The outlet of the extension box that is furthest from the power source is plugged.",
+        "The socket of the extension box which is closest to the wire is plugged.",
+        "The side of the extension box where the power switch is located is plugged.",
+        "The top port of the extension box where the USB outlet is is plugged.",
+        "The bottom of the extension box where the power indicator light is is plugged."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the extension box is plugged? Choose **only one** option from the following list.\nOptions:\n(A) The outlet of the extension box that is furthest from the power source is plugged.\n(B) The socket of the extension box which is closest to the wire is plugged.\n(C) The side of the extension box where the power switch is located is plugged.\n(D) The top port of the extension box where the USB outlet is is plugged.\n(E) The bottom of the extension box where the power indicator light is is plugged.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The socket of the extension box which is closest to the wire is plugged."
+    },
+    "correct_idx": [
+        1
+    ]
+}

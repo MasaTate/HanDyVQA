@@ -1,0 +1,17 @@
+{
+    "question": "What part of the branch is cut?",
+    "options": [
+        "The base of the branch where it connects to the trunk is being cut.",
+        "The thickest part of the branch is being cut off.",
+        "The twigs of the branch is being cut.",
+        "The leaves at the end of the branch are what is cut.",
+        "The center of the branch is the part that is being trimmed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the branch is cut? Choose **only one** option from the following list.\nOptions:\n(A) The base of the branch where it connects to the trunk is being cut.\n(B) The thickest part of the branch is being cut off.\n(C) The twigs of the branch is being cut.\n(D) The leaves at the end of the branch are what is cut.\n(E) The center of the branch is the part that is being trimmed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The twigs of the branch is being cut."
+    },
+    "correct_idx": [
+        2
+    ]
+}

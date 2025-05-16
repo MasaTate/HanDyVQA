@@ -1,0 +1,17 @@
+{
+    "question": "What part of the banana is picked?",
+    "options": [
+        "The peel of the banana is picked.",
+        "The sliced pieces of banana is picked.",
+        "The stem of the banana is picked.",
+        "The bruised areas of the banana are picked.",
+        "The whole banana is picked."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the banana is picked? Choose **only one** option from the following list.\nOptions:\n(A) The peel of the banana is picked.\n(B) The sliced pieces of banana is picked.\n(C) The stem of the banana is picked.\n(D) The bruised areas of the banana are picked.\n(E) The whole banana is picked.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The sliced pieces of banana is picked."
+    },
+    "correct_idx": [
+        1
+    ]
+}

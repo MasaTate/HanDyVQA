@@ -1,0 +1,17 @@
+{
+    "question": "What part of the chainsaw is pulled?",
+    "options": [
+        "The blade guard of the chainsaw is being pulled.",
+        "The exhaust pipe of the chainsaw is being pulled.",
+        "The lanyard of the chainsaw is being pulled.",
+        "The handle grip of the chainsaw is being pulled.",
+        "The trigger of the chainsaw is being pulled."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the chainsaw is pulled? Choose **only one** option from the following list.\nOptions:\n(A) The blade guard of the chainsaw is being pulled.\n(B) The exhaust pipe of the chainsaw is being pulled.\n(C) The lanyard of the chainsaw is being pulled.\n(D) The handle grip of the chainsaw is being pulled.\n(E) The trigger of the chainsaw is being pulled.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The lanyard of the chainsaw is being pulled."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the lawn tractor is dropped?",
+    "options": [
+        "The front wheel assembly of the lawn tractor is dropped.",
+        "The seat cushion of the lawn tractor is dropped.",
+        "The engine compartment lid of the lawn tractor is dropped.",
+        "The back part cover of the lawn tractor is dropped.",
+        "The left side panel of the lawn tractor is dropped."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the lawn tractor is dropped? Choose **only one** option from the following list.\nOptions:\n(A) The front wheel assembly of the lawn tractor is dropped.\n(B) The seat cushion of the lawn tractor is dropped.\n(C) The engine compartment lid of the lawn tractor is dropped.\n(D) The back part cover of the lawn tractor is dropped.\n(E) The left side panel of the lawn tractor is dropped.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The back part cover of the lawn tractor is dropped."
+    },
+    "correct_idx": [
+        3
+    ]
+}

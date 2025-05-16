@@ -1,0 +1,17 @@
+{
+    "question": "What part of the cutted branch is held to drop it?",
+    "options": [
+        "The tip of the cutted branch is held to drop it.",
+        "The leaf nodes of the cutted branch are held to drop it.",
+        "The trunk of the cutted branch is held to drop it?",
+        "The bark of the cutted branch is held to drop it.",
+        "The twig of the cutted branch is held to drop it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the cutted branch is held to drop it? Choose **only one** option from the following list.\nOptions:\n(A) The tip of the cutted branch is held to drop it.\n(B) The leaf nodes of the cutted branch are held to drop it.\n(C) The trunk of the cutted branch is held to drop it?\n(D) The bark of the cutted branch is held to drop it.\n(E) The twig of the cutted branch is held to drop it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The trunk of the cutted branch is held to drop it."
+    },
+    "correct_idx": [
+        2
+    ]
+}

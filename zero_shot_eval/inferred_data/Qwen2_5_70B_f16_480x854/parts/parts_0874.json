@@ -1,0 +1,17 @@
+{
+    "question": "What part of the blouse is pulled?",
+    "options": [
+        "The collar area of the blouse is pulled.",
+        "The sleeve section of the blouse is pulled.",
+        "The hemline of the blouse is pulled.",
+        "The shoulder part of the blouse is pulled.",
+        "The back seam of the blouse is pulled."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the blouse is pulled? Choose **only one** option from the following list.\nOptions:\n(A) The collar area of the blouse is pulled.\n(B) The sleeve section of the blouse is pulled.\n(C) The hemline of the blouse is pulled.\n(D) The shoulder part of the blouse is pulled.\n(E) The back seam of the blouse is pulled.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The sleeve section of the blouse is pulled."
+    },
+    "correct_idx": [
+        3
+    ]
+}

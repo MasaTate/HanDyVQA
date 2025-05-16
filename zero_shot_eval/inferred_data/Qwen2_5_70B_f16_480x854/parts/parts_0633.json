@@ -1,0 +1,17 @@
+{
+    "question": "What part of the oil gauge is cleaned?",
+    "options": [
+        "The dipstick part of the oil gauge is cleaned.",
+        "The top cover of the oil gauge is cleaned.",
+        "The side panel of the oil gauge is cleaned.",
+        "The calibration dial of the oil gauge is cleaned.",
+        "The connector joint of the oil gauge is cleaned."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the oil gauge is cleaned? Choose **only one** option from the following list.\nOptions:\n(A) The dipstick part of the oil gauge is cleaned.\n(B) The top cover of the oil gauge is cleaned.\n(C) The side panel of the oil gauge is cleaned.\n(D) The calibration dial of the oil gauge is cleaned.\n(E) The connector joint of the oil gauge is cleaned.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The dipstick part of the oil gauge is cleaned."
+    },
+    "correct_idx": [
+        0
+    ]
+}

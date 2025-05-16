@@ -1,0 +1,17 @@
+{
+    "question": "What part of the Jenga tower is removed?",
+    "options": [
+        "The topmost piece of the Jenga tower is removed.",
+        "The piece from the middle section of the Jenga tower is taken out.",
+        "The piece from the uppermost layer of Jenga blocks is extracted.",
+        "The piece from the left side of Jenga is removed.",
+        "The bottom block of the jenga blocks is removed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the Jenga tower is removed? Choose **only one** option from the following list.\nOptions:\n(A) The topmost piece of the Jenga tower is removed.\n(B) The piece from the middle section of the Jenga tower is taken out.\n(C) The piece from the uppermost layer of Jenga blocks is extracted.\n(D) The piece from the left side of Jenga is removed.\n(E) The bottom block of the jenga blocks is removed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The piece from the middle section of the Jenga tower is taken out."
+    },
+    "correct_idx": [
+        4
+    ]
+}

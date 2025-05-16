@@ -1,0 +1,17 @@
+{
+    "question": "What part of the aluminum foil is flipped up?",
+    "options": [
+        "The top edge of the aluminum foil is flipped up.",
+        "The middle section of the aluminum foil is flipped up.",
+        "The lower part of aluminum foil is flipped up.",
+        "The outer layer of the aluminum foil is flipped up.",
+        "The top layer of the aluminum foil is flipped up."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the aluminum foil is flipped up? Choose **only one** option from the following list.\nOptions:\n(A) The top edge of the aluminum foil is flipped up.\n(B) The middle section of the aluminum foil is flipped up.\n(C) The lower part of aluminum foil is flipped up.\n(D) The outer layer of the aluminum foil is flipped up.\n(E) The top layer of the aluminum foil is flipped up.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The top layer of the aluminum foil is flipped up."
+    },
+    "correct_idx": [
+        2
+    ]
+}

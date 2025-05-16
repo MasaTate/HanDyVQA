@@ -1,0 +1,17 @@
+{
+    "question": "What part of the latch is peeled?",
+    "options": [
+        "The metal hinge of the latch is peeled.",
+        "The locking mechanism of the latch is peeled.",
+        "The decorative handle on the latch is peeled.",
+        "The tape covering of the latched is peeled.",
+        "The surface of the latch plate is peeled."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the latch is peeled? Choose **only one** option from the following list.\nOptions:\n(A) The metal hinge of the latch is peeled.\n(B) The locking mechanism of the latch is peeled.\n(C) The decorative handle on the latch is peeled.\n(D) The tape covering of the latched is peeled.\n(E) The surface of the latch plate is peeled.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The tape covering of the latched is peeled."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the computer is touched?",
+    "options": [
+        "The interior components of the computer's fan is touched.",
+        "The outer casing of the computer's power supply is touched.",
+        "The back panel of the computer's motherboard is touched.",
+        "The front cover of the computer's optical drive is touched.",
+        "The top section of the computer's cooling system is touched."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the computer is touched? Choose **only one** option from the following list.\nOptions:\n(A) The interior components of the computer's fan is touched.\n(B) The outer casing of the computer's power supply is touched.\n(C) The back panel of the computer's motherboard is touched.\n(D) The front cover of the computer's optical drive is touched.\n(E) The top section of the computer's cooling system is touched.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The outer casing of the computer's power supply is touched."
+    },
+    "correct_idx": [
+        0
+    ]
+}

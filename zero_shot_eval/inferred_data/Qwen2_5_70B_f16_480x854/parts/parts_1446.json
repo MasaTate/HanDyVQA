@@ -1,0 +1,17 @@
+{
+    "question": "What part of the knife is wiped?",
+    "options": [
+        "The tip of the knife is wiped.",
+        "The spine of the knife is wiped.",
+        "The handle of the knife is wiped.",
+        "The edge of the knife is wiped.",
+        "The side belly of the knife is wiped."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the knife is wiped? Choose **only one** option from the following list.\nOptions:\n(A) The tip of the knife is wiped.\n(B) The spine of the knife is wiped.\n(C) The handle of the knife is wiped.\n(D) The edge of the knife is wiped.\n(E) The side belly of the knife is wiped.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The edge of the knife is wiped."
+    },
+    "correct_idx": [
+        4
+    ]
+}

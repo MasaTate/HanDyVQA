@@ -1,0 +1,17 @@
+{
+    "question": "What part of the machine is picked?",
+    "options": [
+        "The lever of the machine is picked.",
+        "The casing of the machine is picked.",
+        "The dial of the machine is picked.",
+        "The gear of the machine is picked.",
+        "The bolt of the machine is picked."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the machine is picked? Choose **only one** option from the following list.\nOptions:\n(A) The lever of the machine is picked.\n(B) The casing of the machine is picked.\n(C) The dial of the machine is picked.\n(D) The gear of the machine is picked.\n(E) The bolt of the machine is picked.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The bolt of the machine is picked."
+    },
+    "correct_idx": [
+        4
+    ]
+}

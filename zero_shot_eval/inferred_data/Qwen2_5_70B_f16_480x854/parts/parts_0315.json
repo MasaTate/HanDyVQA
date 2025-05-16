@@ -1,0 +1,17 @@
+{
+    "question": "What part of the piece of wood is rubbed?",
+    "options": [
+        "The end tip of the wood is rubbed.",
+        "The outer edge of the wood is rubbed.",
+        "The middle part of the wood is rubbed.",
+        "The base section of the wood is rubbed.",
+        "The back surface of the wood is rubbed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the piece of wood is rubbed? Choose **only one** option from the following list.\nOptions:\n(A) The end tip of the wood is rubbed.\n(B) The outer edge of the wood is rubbed.\n(C) The middle part of the wood is rubbed.\n(D) The base section of the wood is rubbed.\n(E) The back surface of the wood is rubbed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The middle part of the wood is rubbed."
+    },
+    "correct_idx": [
+        2
+    ]
+}

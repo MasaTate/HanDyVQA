@@ -1,0 +1,17 @@
+{
+    "question": "What part of the machine is touched by the left hand?",
+    "options": [
+        "The back red panel of the machine is touched by the left hand.",
+        "The top green lever of the machine is touched by the left hand.",
+        "The front yellow switch of the machine is touched by the left hand.",
+        "The bottom black screen of the machine is touched by the left hand.",
+        "The right silver tool is touched by the left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the machine is touched by the left hand? Choose **only one** option from the following list.\nOptions:\n(A) The back red panel of the machine is touched by the left hand.\n(B) The top green lever of the machine is touched by the left hand.\n(C) The front yellow switch of the machine is touched by the left hand.\n(D) The bottom black screen of the machine is touched by the left hand.\n(E) The right silver tool is touched by the left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The back red panel of the machine is touched by the left hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

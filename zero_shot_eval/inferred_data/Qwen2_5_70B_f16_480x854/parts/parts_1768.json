@@ -1,0 +1,17 @@
+{
+    "question": "What part of the spice container is closed?",
+    "options": [
+        "The lid of the spice container is closed.",
+        "The opening of the spice container is closed.",
+        "The base of the spice container is closed.",
+        "The side of the spice container is closed.",
+        "The bottom edge of the spice container is closed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the spice container is closed? Choose **only one** option from the following list.\nOptions:\n(A) The lid of the spice container is closed.\n(B) The opening of the spice container is closed.\n(C) The base of the spice container is closed.\n(D) The side of the spice container is closed.\n(E) The bottom edge of the spice container is closed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The lid of the spice container is closed."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the drum set is beaten?",
+    "options": [
+        "The tom-tom, floor tom, and bass drum are beaten.",
+        "The ride cymbal, splash cymbal, and kick pedal are beaten.",
+        "The crash cymbal, snare drum, hi hat are beaten.",
+        "The drum throne, rack tom, and china cymbal are beaten.",
+        "The bell, rim, and stick holder are beaten."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the drum set is beaten? Choose **only one** option from the following list.\nOptions:\n(A) The tom-tom, floor tom, and bass drum are beaten.\n(B) The ride cymbal, splash cymbal, and kick pedal are beaten.\n(C) The crash cymbal, snare drum, hi hat are beaten.\n(D) The drum throne, rack tom, and china cymbal are beaten.\n(E) The bell, rim, and stick holder are beaten.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The crash cymbal, snare drum, hi hat are beaten."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the tap is adjusted?",
+    "options": [
+        "The base of the tap is adjusted to the left side.",
+        "The handle of the tap is adjusted to the center position.",
+        "The body of the tap is adjusted up and down.",
+        "The spout of the tap is adjusted to the right side.",
+        "The rim of the tap is adjusted to the back."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the tap is adjusted? Choose **only one** option from the following list.\nOptions:\n(A) The base of the tap is adjusted to the left side.\n(B) The handle of the tap is adjusted to the center position.\n(C) The body of the tap is adjusted up and down.\n(D) The spout of the tap is adjusted to the right side.\n(E) The rim of the tap is adjusted to the back.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The handle of the tap is adjusted to the center position."
+    },
+    "correct_idx": [
+        3
+    ]
+}

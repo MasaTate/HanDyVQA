@@ -1,0 +1,17 @@
+{
+    "question": "What part of the car lift is placed with the device?",
+    "options": [
+        "The device is placed in the middle part of the car lift.",
+        "The device is placed in the bottom part of the car lift.",
+        "The device is placed in the lawnmower.",
+        "The device is placed in the front side of the lawnmower.",
+        "The device is placed in the upper part of the car lift."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the car lift is placed with the device? Choose **only one** option from the following list.\nOptions:\n(A) The device is placed in the middle part of the car lift.\n(B) The device is placed in the bottom part of the car lift.\n(C) The device is placed in the lawnmower.\n(D) The device is placed in the front side of the lawnmower.\n(E) The device is placed in the upper part of the car lift.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The device is placed in the upper part of the car lift."
+    },
+    "correct_idx": [
+        4
+    ]
+}

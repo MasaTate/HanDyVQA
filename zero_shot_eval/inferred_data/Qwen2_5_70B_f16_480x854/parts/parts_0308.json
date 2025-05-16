@@ -1,0 +1,17 @@
+{
+    "question": "What part of the bolt is screwed?",
+    "options": [
+        "The tip of the bolt is screwed.",
+        "The base of the bolt is screwed.",
+        "The flat surface of the bolt is screwed.",
+        "The head of the bolt is screwed.",
+        "The thread of the bolt is screwed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the bolt is screwed? Choose **only one** option from the following list.\nOptions:\n(A) The tip of the bolt is screwed.\n(B) The base of the bolt is screwed.\n(C) The flat surface of the bolt is screwed.\n(D) The head of the bolt is screwed.\n(E) The thread of the bolt is screwed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The thread of the bolt is screwed."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the puzzle tile is used?",
+    "options": [
+        "The corner edge of the puzzle tile is used.",
+        "The flat surface of the puzzle tile is used.",
+        "The raised pattern on the puzzle tile is used.",
+        "The broken piece of the puzzle tile is used.",
+        "The smooth border of the puzzle tile is used."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the puzzle tile is used? Choose **only one** option from the following list.\nOptions:\n(A) The corner edge of the puzzle tile is used.\n(B) The flat surface of the puzzle tile is used.\n(C) The raised pattern on the puzzle tile is used.\n(D) The broken piece of the puzzle tile is used.\n(E) The smooth border of the puzzle tile is used.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The smooth border of the puzzle tile is used."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the wallpaper is held?",
+    "options": [
+        "The center area of the wallpaper is held.",
+        "The upper corner of the wallpaper is held.",
+        "The inner section of the wallpaper is held.",
+        "The edge part of the wallpaper is held.",
+        "The lower border of the wallpaper is held."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the wallpaper is held? Choose **only one** option from the following list.\nOptions:\n(A) The center area of the wallpaper is held.\n(B) The upper corner of the wallpaper is held.\n(C) The inner section of the wallpaper is held.\n(D) The edge part of the wallpaper is held.\n(E) The lower border of the wallpaper is held.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The edge part of the wallpaper is held."
+    },
+    "correct_idx": [
+        3
+    ]
+}

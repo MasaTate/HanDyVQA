@@ -1,0 +1,17 @@
+{
+    "question": "What part of the potato is peeled?",
+    "options": [
+        "The eyes of the potato are peeled.",
+        "The stem of the potato is peeled.",
+        "The inside of the potato is peeled.",
+        "The skin of the potato is peeled.",
+        "The finger holding the potato is peeled."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the potato is peeled? Choose **only one** option from the following list.\nOptions:\n(A) The eyes of the potato are peeled.\n(B) The stem of the potato is peeled.\n(C) The inside of the potato is peeled.\n(D) The skin of the potato is peeled.\n(E) The finger holding the potato is peeled.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The skin of the potato is peeled."
+    },
+    "correct_idx": [
+        3
+    ]
+}

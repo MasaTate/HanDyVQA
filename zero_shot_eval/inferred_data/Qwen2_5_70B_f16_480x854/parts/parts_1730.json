@@ -1,0 +1,17 @@
+{
+    "question": "What part of the axe is touched by the left hand?",
+    "options": [
+        "The handle of the axe near the top is touched by the left hand.",
+        "The back of the axe head is touched by the left hand.",
+        "The decorative engraving on the axe is touched by the left hand.",
+        "The very tip of the axe handle is touched by the left hand.",
+        "The blade of the axe is touched by the left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the axe is touched by the left hand? Choose **only one** option from the following list.\nOptions:\n(A) The handle of the axe near the top is touched by the left hand.\n(B) The back of the axe head is touched by the left hand.\n(C) The decorative engraving on the axe is touched by the left hand.\n(D) The very tip of the axe handle is touched by the left hand.\n(E) The blade of the axe is touched by the left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The back of the axe head is touched by the left hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

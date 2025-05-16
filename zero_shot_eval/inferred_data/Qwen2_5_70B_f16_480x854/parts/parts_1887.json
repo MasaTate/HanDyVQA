@@ -1,0 +1,17 @@
+{
+    "question": "What part of the bucket is covered?",
+    "options": [
+        "The handle of the bucket is covered.",
+        "The top part of the bucket is covered.",
+        "The bottom edge of the bucket is covered.",
+        "The interior of the bucket is covered.",
+        "The side wall of the bucket is covered."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the bucket is covered? Choose **only one** option from the following list.\nOptions:\n(A) The handle of the bucket is covered.\n(B) The top part of the bucket is covered.\n(C) The bottom edge of the bucket is covered.\n(D) The interior of the bucket is covered.\n(E) The side wall of the bucket is covered.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The interior of the bucket is covered."
+    },
+    "correct_idx": [
+        1
+    ]
+}

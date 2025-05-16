@@ -1,0 +1,17 @@
+{
+    "question": "What part of the pencil is sharpened?",
+    "options": [
+        "The eraser end of the pencil is sharpened.",
+        "The middle section of the pencil is sharpened.",
+        "The base of the pencil is sharpened.",
+        "The lead of the pencil is sharpened.",
+        "The wood near the clip of the pencil is sharpened."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the pencil is sharpened? Choose **only one** option from the following list.\nOptions:\n(A) The eraser end of the pencil is sharpened.\n(B) The middle section of the pencil is sharpened.\n(C) The base of the pencil is sharpened.\n(D) The lead of the pencil is sharpened.\n(E) The wood near the clip of the pencil is sharpened.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The lead of the pencil is sharpened."
+    },
+    "correct_idx": [
+        3
+    ]
+}

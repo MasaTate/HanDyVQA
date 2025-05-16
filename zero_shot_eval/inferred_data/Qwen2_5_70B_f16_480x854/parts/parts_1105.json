@@ -1,0 +1,17 @@
+{
+    "question": "What part of the plate of meat is removed?",
+    "options": [
+        "The paper liner underneath the meat plate is removed.",
+        "The plastic wrap of the meat plate is removed.",
+        "The cardboard base of the meat plate is removed.",
+        "The glass lid over the meat plate is removed.",
+        "The meat is removed from the meat plate."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the plate of meat is removed? Choose **only one** option from the following list.\nOptions:\n(A) The paper liner underneath the meat plate is removed.\n(B) The plastic wrap of the meat plate is removed.\n(C) The cardboard base of the meat plate is removed.\n(D) The glass lid over the meat plate is removed.\n(E) The meat is removed from the meat plate.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The plastic wrap of the meat plate is removed."
+    },
+    "correct_idx": [
+        1
+    ]
+}

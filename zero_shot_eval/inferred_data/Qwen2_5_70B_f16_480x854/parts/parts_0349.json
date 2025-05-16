@@ -1,0 +1,17 @@
+{
+    "question": "What part of the car is manipulated?",
+    "options": [
+        "The shift lever and steering wheel of the car is manipulated.",
+        "The side mirror of the car is manipulated.",
+        "The control panel of the car is manipulated.",
+        "The door handle of the car is manipulated.",
+        "The trunk of the car is manipulated."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the car is manipulated? Choose **only one** option from the following list.\nOptions:\n(A) The shift lever and steering wheel of the car is manipulated.\n(B) The side mirror of the car is manipulated.\n(C) The control panel of the car is manipulated.\n(D) The door handle of the car is manipulated.\n(E) The trunk of the car is manipulated.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The shift lever and steering wheel of the car is manipulated."
+    },
+    "correct_idx": [
+        0
+    ]
+}

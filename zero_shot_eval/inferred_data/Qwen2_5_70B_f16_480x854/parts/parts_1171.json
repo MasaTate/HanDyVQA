@@ -1,0 +1,17 @@
+{
+    "question": "What part of the fabric is adjusted?",
+    "options": [
+        "The twisted part of the fabric was adjusted.",
+        "The edge of the fabric was adjusted.",
+        "The hem of the fabric was adjusted.",
+        "The stitched seam of the fabric was adjusted.",
+        "The corner of the fabric was adjusted."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the fabric is adjusted? Choose **only one** option from the following list.\nOptions:\n(A) The twisted part of the fabric was adjusted.\n(B) The edge of the fabric was adjusted.\n(C) The hem of the fabric was adjusted.\n(D) The stitched seam of the fabric was adjusted.\n(E) The corner of the fabric was adjusted.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The twisted part of the fabric was adjusted."
+    },
+    "correct_idx": [
+        0
+    ]
+}

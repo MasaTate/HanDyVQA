@@ -1,0 +1,17 @@
+{
+    "question": "What part of the puzzle is inserted?",
+    "options": [
+        "The bottom corner piece of the jigsaw puzzle is inserted.",
+        "The center piece of the jigsaw puzzle is inserted.",
+        "The right wing section of the jigsaw puzzle is inserted.",
+        "The left edge section of the jigsaw puzzle is inserted.",
+        "The top edge section of the jigsaw puzzle is inserted."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the puzzle is inserted? Choose **only one** option from the following list.\nOptions:\n(A) The bottom corner piece of the jigsaw puzzle is inserted.\n(B) The center piece of the jigsaw puzzle is inserted.\n(C) The right wing section of the jigsaw puzzle is inserted.\n(D) The left edge section of the jigsaw puzzle is inserted.\n(E) The top edge section of the jigsaw puzzle is inserted.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The left edge section of the jigsaw puzzle is inserted."
+    },
+    "correct_idx": [
+        3
+    ]
+}

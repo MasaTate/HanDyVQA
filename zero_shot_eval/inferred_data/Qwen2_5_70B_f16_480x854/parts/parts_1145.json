@@ -1,0 +1,17 @@
+{
+    "question": "What part of the steamer is brushed?",
+    "options": [
+        "The top edge of the lid of the steamer is brushed.",
+        "The middle part of base of the steamer is brushed.",
+        "The side panel of the steamer is brushed.",
+        "The bottom rim of the steamer is brushed.",
+        "The bottom part of the upper container of the steamer is brushed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the steamer is brushed? Choose **only one** option from the following list.\nOptions:\n(A) The top edge of the lid of the steamer is brushed.\n(B) The middle part of base of the steamer is brushed.\n(C) The side panel of the steamer is brushed.\n(D) The bottom rim of the steamer is brushed.\n(E) The bottom part of the upper container of the steamer is brushed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The bottom part of the upper container of the steamer is brushed."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the mushroom is cut off?",
+    "options": [
+        "The top part of the mushroom is cut off.",
+        "The middle section of the mushroom is cut off.",
+        "The cap of the mushroom is cut off.",
+        "The bottom part of the mushroom is cut off.",
+        "The side edges of the mushroom is cut off."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the mushroom is cut off? Choose **only one** option from the following list.\nOptions:\n(A) The top part of the mushroom is cut off.\n(B) The middle section of the mushroom is cut off.\n(C) The cap of the mushroom is cut off.\n(D) The bottom part of the mushroom is cut off.\n(E) The side edges of the mushroom is cut off.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The bottom part of the mushroom is cut off."
+    },
+    "correct_idx": [
+        3
+    ]
+}

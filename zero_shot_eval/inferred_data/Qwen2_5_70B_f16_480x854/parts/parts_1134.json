@@ -1,0 +1,17 @@
+{
+    "question": "What part of the blender is attached?",
+    "options": [
+        "The side of the blender pitcher is attached.",
+        "The handle of the blender lid is attached.",
+        "The power cable of the blender is attached.",
+        "The lid of the blender container is attached.",
+        "The label of the blender is attached."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the blender is attached? Choose **only one** option from the following list.\nOptions:\n(A) The side of the blender pitcher is attached.\n(B) The handle of the blender lid is attached.\n(C) The power cable of the blender is attached.\n(D) The lid of the blender container is attached.\n(E) The label of the blender is attached.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The lid of the blender container is attached."
+    },
+    "correct_idx": [
+        3
+    ]
+}

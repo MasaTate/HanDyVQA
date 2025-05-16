@@ -1,0 +1,17 @@
+{
+    "question": "What part of the desktop is tightened?",
+    "options": [
+        "The latch on the side of the desktop is tightened.",
+        "The hinge at the front edge of the desktop is tightened.",
+        "The knob underneath the desktop surface is tightened.",
+        "The screw of the back of the desktop is tightened.",
+        "The bracket on the underside of the desktop is tightened."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the desktop is tightened? Choose **only one** option from the following list.\nOptions:\n(A) The latch on the side of the desktop is tightened.\n(B) The hinge at the front edge of the desktop is tightened.\n(C) The knob underneath the desktop surface is tightened.\n(D) The screw of the back of the desktop is tightened.\n(E) The bracket on the underside of the desktop is tightened.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The screw of the back of the desktop is tightened."
+    },
+    "correct_idx": [
+        3
+    ]
+}

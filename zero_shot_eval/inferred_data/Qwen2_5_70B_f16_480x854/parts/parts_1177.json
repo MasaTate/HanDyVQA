@@ -1,0 +1,17 @@
+{
+    "question": "What part of the fabric is picked?",
+    "options": [
+        "The stitching of the fabric was picked.",
+        "The yarn of the fabric was picked.",
+        "The seam of the fabric was picked.",
+        "The border of the fabric was picked.",
+        "The dye of the fabric was picked."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the fabric is picked? Choose **only one** option from the following list.\nOptions:\n(A) The stitching of the fabric was picked.\n(B) The yarn of the fabric was picked.\n(C) The seam of the fabric was picked.\n(D) The border of the fabric was picked.\n(E) The dye of the fabric was picked.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The yarn of the fabric was picked."
+    },
+    "correct_idx": [
+        1
+    ]
+}

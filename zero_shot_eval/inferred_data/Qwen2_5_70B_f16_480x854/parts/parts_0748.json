@@ -1,0 +1,17 @@
+{
+    "question": "What part of the object is tightened?",
+    "options": [
+        "The adjustment screw of the object is tightened.",
+        "The brake pads of the objects is tightened.",
+        "The grip of the object is tightened.",
+        "The support frame of the object is tightened.",
+        "The top casing of the object is tightened."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the object is tightened? Choose **only one** option from the following list.\nOptions:\n(A) The adjustment screw of the object is tightened.\n(B) The brake pads of the objects is tightened.\n(C) The grip of the object is tightened.\n(D) The support frame of the object is tightened.\n(E) The top casing of the object is tightened.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The brake pads of the objects is tightened."
+    },
+    "correct_idx": [
+        1
+    ]
+}

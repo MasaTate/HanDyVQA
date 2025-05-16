@@ -1,0 +1,17 @@
+{
+    "question": "What part of the trash bin is covered?",
+    "options": [
+        "The side of the trash bin was covered by a flap.",
+        "The bottom of the trash bin was covered with a cover.",
+        "The top of the trash bin was covered by a lid.",
+        "The front of the trash bin was covered by a panel.",
+        "The back of the trash bin was covered with a sheet."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the trash bin is covered? Choose **only one** option from the following list.\nOptions:\n(A) The side of the trash bin was covered by a flap.\n(B) The bottom of the trash bin was covered with a cover.\n(C) The top of the trash bin was covered by a lid.\n(D) The front of the trash bin was covered by a panel.\n(E) The back of the trash bin was covered with a sheet.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The top of the trash bin was covered by a lid."
+    },
+    "correct_idx": [
+        2
+    ]
+}

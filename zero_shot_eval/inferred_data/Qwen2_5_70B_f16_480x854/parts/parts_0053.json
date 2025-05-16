@@ -1,0 +1,17 @@
+{
+    "question": "What part of the cloth is cut?",
+    "options": [
+        "Near the midpoint of the opposite edge of the cloth.",
+        "About one finger length from the corner of the cloth.",
+        "At the very center of the cloth's surface.",
+        "Just a few inches away from the fold of the cloth.",
+        "Close to the stitching along the hem of the cloth."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the cloth is cut? Choose **only one** option from the following list.\nOptions:\n(A) Near the midpoint of the opposite edge of the cloth.\n(B) About one finger length from the corner of the cloth.\n(C) At the very center of the cloth's surface.\n(D) Just a few inches away from the fold of the cloth.\n(E) Close to the stitching along the hem of the cloth.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) About one finger length from the corner of the cloth."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the potato is chopped?",
+    "options": [
+        "The skin of the potato is chopped.",
+        "The center core of the potato is chopped.",
+        "The eyes of the potato are chopped.",
+        "The potato is chopped at the ends.",
+        "The small pieces of the potato are chopped."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the potato is chopped? Choose **only one** option from the following list.\nOptions:\n(A) The skin of the potato is chopped.\n(B) The center core of the potato is chopped.\n(C) The eyes of the potato are chopped.\n(D) The potato is chopped at the ends.\n(E) The small pieces of the potato are chopped.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The potato is chopped at the ends."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the cloth is sewn?",
+    "options": [
+        "The collar section of the cloth is being sewn.",
+        "The bottom hem of the cloth is being sewn.",
+        "The front pocket area of the cloth is being sewn.",
+        "The sleeves part of the cloth is being sewn.",
+        "The waistband section of the cloth is being sewn."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the cloth is sewn? Choose **only one** option from the following list.\nOptions:\n(A) The collar section of the cloth is being sewn.\n(B) The bottom hem of the cloth is being sewn.\n(C) The front pocket area of the cloth is being sewn.\n(D) The sleeves part of the cloth is being sewn.\n(E) The waistband section of the cloth is being sewn.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The bottom hem of the cloth is being sewn."
+    },
+    "correct_idx": [
+        3
+    ]
+}

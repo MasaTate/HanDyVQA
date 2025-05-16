@@ -1,0 +1,17 @@
+{
+    "question": "What part of the carton is closed?",
+    "options": [
+        "The bottom section of the carton is closed.",
+        "The side flap of the carton is closed.",
+        "The front edge of the carton is closed.",
+        "The outer rim of the carton is closed.",
+        "The top portion of the carton is closed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the carton is closed? Choose **only one** option from the following list.\nOptions:\n(A) The bottom section of the carton is closed.\n(B) The side flap of the carton is closed.\n(C) The front edge of the carton is closed.\n(D) The outer rim of the carton is closed.\n(E) The top portion of the carton is closed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The bottom section of the carton is closed."
+    },
+    "correct_idx": [
+        4
+    ]
+}

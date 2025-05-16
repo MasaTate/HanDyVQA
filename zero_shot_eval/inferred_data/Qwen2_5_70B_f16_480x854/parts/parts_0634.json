@@ -1,0 +1,17 @@
+{
+    "question": "What part of the box of yeast is held?",
+    "options": [
+        "The top and bottom edges of the box of yeast are held.",
+        "The front and back panel of the box of yeast is held.",
+        "The left and right side of the box of yeast is held.",
+        "The corners of the box of yeast are being held.",
+        "The bottom corner of the box of yeast is held."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the box of yeast is held? Choose **only one** option from the following list.\nOptions:\n(A) The top and bottom edges of the box of yeast are held.\n(B) The front and back panel of the box of yeast is held.\n(C) The left and right side of the box of yeast is held.\n(D) The corners of the box of yeast are being held.\n(E) The bottom corner of the box of yeast is held.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The left and right side of the box of yeast is held."
+    },
+    "correct_idx": [
+        2
+    ]
+}

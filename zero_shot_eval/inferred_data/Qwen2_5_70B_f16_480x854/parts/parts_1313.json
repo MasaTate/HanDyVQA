@@ -1,0 +1,17 @@
+{
+    "question": "What part of the avocado is cut?",
+    "options": [
+        "The inner seed of the avocado is cut.",
+        "The stem end of the avocado is cut.",
+        "The outer surface of the avocado is cut.",
+        "The bottom of the avocado is cut.",
+        "The pit section of the avocado is cut."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the avocado is cut? Choose **only one** option from the following list.\nOptions:\n(A) The inner seed of the avocado is cut.\n(B) The stem end of the avocado is cut.\n(C) The outer surface of the avocado is cut.\n(D) The bottom of the avocado is cut.\n(E) The pit section of the avocado is cut.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The stem end of the avocado is cut."
+    },
+    "correct_idx": [
+        2
+    ]
+}

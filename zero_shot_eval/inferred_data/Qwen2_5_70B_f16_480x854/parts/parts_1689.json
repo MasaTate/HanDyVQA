@@ -1,0 +1,17 @@
+{
+    "question": "What part of the assembly is lowered?",
+    "options": [
+        "The metal frame at the back of the assembly is lowered.",
+        "The rubber feet underneath the assembly are lowered.",
+        "The wood planks on both sides of the assembly are lowered.",
+        "The wood planks at the top and the bottom of the aseembly are lowered.",
+        "The flat surface of the aseembly are lowered."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the assembly is lowered? Choose **only one** option from the following list.\nOptions:\n(A) The metal frame at the back of the assembly is lowered.\n(B) The rubber feet underneath the assembly are lowered.\n(C) The wood planks on both sides of the assembly are lowered.\n(D) The wood planks at the top and the bottom of the aseembly are lowered.\n(E) The flat surface of the aseembly are lowered.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The wood planks at the top and the bottom of the assembly are lowered."
+    },
+    "correct_idx": [
+        2
+    ]
+}

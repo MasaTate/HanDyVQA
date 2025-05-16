@@ -1,0 +1,17 @@
+{
+    "question": "What part of the tree is cut?",
+    "options": [
+        "The trunk of the tree is cut.",
+        "The roots of the tree are cut.",
+        "The leaves of the tree are cut.",
+        "The bark of the tree is cut.",
+        "The branch of the tree is cut."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the tree is cut? Choose **only one** option from the following list.\nOptions:\n(A) The trunk of the tree is cut.\n(B) The roots of the tree are cut.\n(C) The leaves of the tree are cut.\n(D) The bark of the tree is cut.\n(E) The branch of the tree is cut.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The branch of the tree is cut."
+    },
+    "correct_idx": [
+        4
+    ]
+}

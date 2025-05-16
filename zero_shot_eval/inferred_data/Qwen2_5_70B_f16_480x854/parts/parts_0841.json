@@ -1,0 +1,17 @@
+{
+    "question": "What part of the drawer is opened?",
+    "options": [
+        "The bottom part of the drawer is opened.",
+        "The top part of the drawer is opened.",
+        "The side panel of the drawer is opened.",
+        "The front edge of the drawer is opened.",
+        "The interior section of the drawer is opened."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the drawer is opened? Choose **only one** option from the following list.\nOptions:\n(A) The bottom part of the drawer is opened.\n(B) The top part of the drawer is opened.\n(C) The side panel of the drawer is opened.\n(D) The front edge of the drawer is opened.\n(E) The interior section of the drawer is opened.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The interior section of the drawer is opened."
+    },
+    "correct_idx": [
+        1
+    ]
+}

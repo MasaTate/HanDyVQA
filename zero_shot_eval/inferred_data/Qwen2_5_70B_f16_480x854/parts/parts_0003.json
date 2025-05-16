@@ -1,0 +1,17 @@
+{
+    "question": "What part of bowl is being washed?",
+    "options": [
+        "The rim of the bowl is being washed.",
+        "The base of the bowl is being washed.",
+        "The inside of the bowl is being washed.",
+        "The exterior of the bowl is being washed.",
+        "The edge of the bowl is being washed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of bowl is being washed? Choose **only one** option from the following list.\nOptions:\n(A) The rim of the bowl is being washed.\n(B) The base of the bowl is being washed.\n(C) The inside of the bowl is being washed.\n(D) The exterior of the bowl is being washed.\n(E) The edge of the bowl is being washed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The inside of the bowl is being washed."
+    },
+    "correct_idx": [
+        2
+    ]
+}

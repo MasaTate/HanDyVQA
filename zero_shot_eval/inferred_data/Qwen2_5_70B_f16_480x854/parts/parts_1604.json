@@ -1,0 +1,17 @@
+{
+    "question": "What part of the bag of dog food is cut?",
+    "options": [
+        "The zipper of the dog food bag was cut.",
+        "The upper part of the bag of the dog food was cut.",
+        "The bottom corner of the dog food bag was cut.",
+        "The handle of the dog food bag was cut.",
+        "The top corner of the bag of the dog food was cut."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the bag of dog food is cut? Choose **only one** option from the following list.\nOptions:\n(A) The zipper of the dog food bag was cut.\n(B) The upper part of the bag of the dog food was cut.\n(C) The bottom corner of the dog food bag was cut.\n(D) The handle of the dog food bag was cut.\n(E) The top corner of the bag of the dog food was cut.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The top corner of the bag of the dog food was cut."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the rope is held?",
+    "options": [
+        "The middle section of the rope is being held.",
+        "The twisted area of the rope is held tightly.",
+        "The first loop of the rope is being grasped.",
+        "The end part of the rope is held.",
+        "The frayed segment of the rope is what is held."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the rope is held? Choose **only one** option from the following list.\nOptions:\n(A) The middle section of the rope is being held.\n(B) The twisted area of the rope is held tightly.\n(C) The first loop of the rope is being grasped.\n(D) The end part of the rope is held.\n(E) The frayed segment of the rope is what is held.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The end part of the rope is held."
+    },
+    "correct_idx": [
+        3
+    ]
+}

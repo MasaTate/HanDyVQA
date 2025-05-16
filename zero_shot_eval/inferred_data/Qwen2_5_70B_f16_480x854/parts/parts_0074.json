@@ -1,0 +1,17 @@
+{
+    "question": "What part of the cutting board is the mango slice moved to?",
+    "options": [
+        "The mango slice is moved to the right top corner of the cutting board.",
+        "The mango slice is moved to the left bottom corner of the cutting board.",
+        "The mango slice is moved to the center of the cutting board.",
+        "The mango slice is moved to the bottom edge of the cutting board.",
+        "The mango slice is moved to the upper left side of the cutting board."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the cutting board is the mango slice moved to? Choose **only one** option from the following list.\nOptions:\n(A) The mango slice is moved to the right top corner of the cutting board.\n(B) The mango slice is moved to the left bottom corner of the cutting board.\n(C) The mango slice is moved to the center of the cutting board.\n(D) The mango slice is moved to the bottom edge of the cutting board.\n(E) The mango slice is moved to the upper left side of the cutting board.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The mango slice is moved to the center of the cutting board."
+    },
+    "correct_idx": [
+        0
+    ]
+}

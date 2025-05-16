@@ -1,0 +1,17 @@
+{
+    "question": "What part of the cloth is the needle inserted into?",
+    "options": [
+        "The needle is inserted into the edge of the cloth.",
+        "The needle is inserted into the corner of the cloth.",
+        "The needle is inserted into the hem of the cloth.",
+        "The needle is inserted into the middle part of the cloth.",
+        "The needle is inserted into the surface layer of the cloth near the sticker."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the cloth is the needle inserted into? Choose **only one** option from the following list.\nOptions:\n(A) The needle is inserted into the edge of the cloth.\n(B) The needle is inserted into the corner of the cloth.\n(C) The needle is inserted into the hem of the cloth.\n(D) The needle is inserted into the middle part of the cloth.\n(E) The needle is inserted into the surface layer of the cloth near the sticker.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The needle is inserted into the surface layer of the cloth near the sticker."
+    },
+    "correct_idx": [
+        3
+    ]
+}

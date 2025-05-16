@@ -1,0 +1,17 @@
+{
+    "question": "What part of the can is moved?",
+    "options": [
+        "The base of the spray can is moved.",
+        "The handle of the spray can is moved.",
+        "The nozzle of the spray can is moved.",
+        "The lid of the spray can is moved.",
+        "The rim of the spray can is moved."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the can is moved? Choose **only one** option from the following list.\nOptions:\n(A) The base of the spray can is moved.\n(B) The handle of the spray can is moved.\n(C) The nozzle of the spray can is moved.\n(D) The lid of the spray can is moved.\n(E) The rim of the spray can is moved.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The lid of the spray can is moved."
+    },
+    "correct_idx": [
+        2
+    ]
+}

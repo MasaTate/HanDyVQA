@@ -1,0 +1,17 @@
+{
+    "question": "What part of the stove is the stick placed?",
+    "options": [
+        "The burner area of the stove is where the stick is placed.",
+        "The airflow section of the stove is the stick placed.",
+        "The control knobs of the stove is where the stick is placed.",
+        "The cooking surface of the stove is the stick placed.",
+        "The igniter section of the stove is where the stick is placed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the stove is the stick placed? Choose **only one** option from the following list.\nOptions:\n(A) The burner area of the stove is where the stick is placed.\n(B) The airflow section of the stove is the stick placed.\n(C) The control knobs of the stove is where the stick is placed.\n(D) The cooking surface of the stove is the stick placed.\n(E) The igniter section of the stove is where the stick is placed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The airflow section of the stove is the stick placed."
+    },
+    "correct_idx": [
+        1
+    ]
+}

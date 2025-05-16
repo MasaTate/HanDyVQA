@@ -1,0 +1,17 @@
+{
+    "question": "What part of the dashboard is pressed?",
+    "options": [
+        "The button of the dashboard is pressed.",
+        "The left corner of the dashboard is pressed.",
+        "The screen on the dashboard is pressed.",
+        "The dial of the dashboard is pressed.",
+        "The edge of the dashboard is pressed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the dashboard is pressed? Choose **only one** option from the following list.\nOptions:\n(A) The button of the dashboard is pressed.\n(B) The left corner of the dashboard is pressed.\n(C) The screen on the dashboard is pressed.\n(D) The dial of the dashboard is pressed.\n(E) The edge of the dashboard is pressed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The dial of the dashboard is pressed."
+    },
+    "correct_idx": [
+        0
+    ]
+}

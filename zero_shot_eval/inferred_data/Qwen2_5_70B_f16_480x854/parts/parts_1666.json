@@ -1,0 +1,17 @@
+{
+    "question": "What part of the shelf is pulled?",
+    "options": [
+        "The left side panel of the shelf is pulled.",
+        "The top right corner of the shelf is pulled.",
+        "The base support of the shelf is pulled.",
+        "The blue center drawer of the shelve is pulled.",
+        "The front edge of the shelf is pulled."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the shelf is pulled? Choose **only one** option from the following list.\nOptions:\n(A) The left side panel of the shelf is pulled.\n(B) The top right corner of the shelf is pulled.\n(C) The base support of the shelf is pulled.\n(D) The blue center drawer of the shelve is pulled.\n(E) The front edge of the shelf is pulled.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The blue center drawer of the shelve is pulled."
+    },
+    "correct_idx": [
+        3
+    ]
+}

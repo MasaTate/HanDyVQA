@@ -1,0 +1,17 @@
+{
+    "question": "What part of the device is pressed?",
+    "options": [
+        "The edge of the range hood control panel device is pressed.",
+        "The inside of the range hood control panel device is pressed.",
+        "The bottun of range hood control panel device is pressed.",
+        "The side panel of the range hood control panel device is pressed.",
+        "The lever of range hood control panel device is pressed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the device is pressed? Choose **only one** option from the following list.\nOptions:\n(A) The edge of the range hood control panel device is pressed.\n(B) The inside of the range hood control panel device is pressed.\n(C) The bottun of range hood control panel device is pressed.\n(D) The side panel of the range hood control panel device is pressed.\n(E) The lever of range hood control panel device is pressed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The bottun of range hood control panel device is pressed."
+    },
+    "correct_idx": [
+        2
+    ]
+}

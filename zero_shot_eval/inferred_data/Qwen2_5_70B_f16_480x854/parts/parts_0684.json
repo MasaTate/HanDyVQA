@@ -1,0 +1,17 @@
+{
+    "question": "What part of the tape is pulled out?",
+    "options": [
+        "The end cap of the tape dispenser is pulled out.",
+        "The center of the tape roll is pulled out.",
+        "The side edge of the tape is pulled out.",
+        "The top flap of the tape is pulled out.",
+        "The hook and tape rol of the tape is pulled out."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the tape is pulled out? Choose **only one** option from the following list.\nOptions:\n(A) The end cap of the tape dispenser is pulled out.\n(B) The center of the tape roll is pulled out.\n(C) The side edge of the tape is pulled out.\n(D) The top flap of the tape is pulled out.\n(E) The hook and tape rol of the tape is pulled out.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The hook and tape roll of the tape is pulled out."
+    },
+    "correct_idx": [
+        4
+    ]
+}

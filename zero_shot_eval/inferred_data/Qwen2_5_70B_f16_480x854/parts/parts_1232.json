@@ -1,0 +1,17 @@
+{
+    "question": "What part of the climbing belt is hooked?",
+    "options": [
+        "The adjustment loop of the climbing belt is being hooked.",
+        "The padding section of the climbing belt is being hooked.",
+        "The stitching at the back of the climbing belt is being hooked.",
+        "The side strap of the climbing belt is being hooked.",
+        "The buckle of the climbing belt is being hooked. "
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the climbing belt is hooked? Choose **only one** option from the following list.\nOptions:\n(A) The adjustment loop of the climbing belt is being hooked.\n(B) The padding section of the climbing belt is being hooked.\n(C) The stitching at the back of the climbing belt is being hooked.\n(D) The side strap of the climbing belt is being hooked.\n(E) The buckle of the climbing belt is being hooked. \n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The buckle of the climbing belt is being hooked."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the tissue paper is folded?",
+    "options": [
+        "The near the edge of the tissue is folded.",
+        "The center of the tissue is folded.",
+        "The handle of the skewer is turned.",
+        "The side of the tissue is folded.",
+        "The end of the tissue is folded."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the tissue paper is folded? Choose **only one** option from the following list.\nOptions:\n(A) The near the edge of the tissue is folded.\n(B) The center of the tissue is folded.\n(C) The handle of the skewer is turned.\n(D) The side of the tissue is folded.\n(E) The end of the tissue is folded.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The end of the tissue is folded."
+    },
+    "correct_idx": [
+        1
+    ]
+}

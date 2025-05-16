@@ -1,0 +1,17 @@
+{
+    "question": "What part of the phone is operated?",
+    "options": [
+        "The screen display of the phone is operated.",
+        "The charging port of the phone is operated.",
+        "The back cover of the phone is operated.",
+        "The camera lens on the phone is operated.",
+        "The volume buttons on the phone are operated."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the phone is operated? Choose **only one** option from the following list.\nOptions:\n(A) The screen display of the phone is operated.\n(B) The charging port of the phone is operated.\n(C) The back cover of the phone is operated.\n(D) The camera lens on the phone is operated.\n(E) The volume buttons on the phone are operated.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The screen display of the phone is operated."
+    },
+    "correct_idx": [
+        0
+    ]
+}

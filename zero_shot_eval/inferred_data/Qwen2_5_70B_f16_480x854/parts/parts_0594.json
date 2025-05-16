@@ -1,0 +1,17 @@
+{
+    "question": "What part of the cloth is folded?",
+    "options": [
+        "The top left corner of the cloth is twisted.",
+        "The middle right part of the cloth is molded.",
+        "The bottom edge of the cloth is creased.",
+        "The center of the cloth is crumpled.",
+        "The outer rim of the cloth is pleated."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the cloth is folded? Choose **only one** option from the following list.\nOptions:\n(A) The top left corner of the cloth is twisted.\n(B) The middle right part of the cloth is molded.\n(C) The bottom edge of the cloth is creased.\n(D) The center of the cloth is crumpled.\n(E) The outer rim of the cloth is pleated.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The bottom edge of the cloth is creased."
+    },
+    "correct_idx": [
+        1
+    ]
+}

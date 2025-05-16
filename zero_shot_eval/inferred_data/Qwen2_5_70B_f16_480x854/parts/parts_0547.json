@@ -1,0 +1,17 @@
+{
+    "question": "What part of the ruler is adjusted?",
+    "options": [
+        "The end tip of the ruler is adjusted.",
+        "The middle part of the ruler is adjusted.",
+        "The edge section of the ruler is adjusted.",
+        "The base area of the ruler is adjusted.",
+        "The top edge of the ruler is adjusted."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the ruler is adjusted? Choose **only one** option from the following list.\nOptions:\n(A) The end tip of the ruler is adjusted.\n(B) The middle part of the ruler is adjusted.\n(C) The edge section of the ruler is adjusted.\n(D) The base area of the ruler is adjusted.\n(E) The top edge of the ruler is adjusted.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The base area of the ruler is adjusted."
+    },
+    "correct_idx": [
+        1
+    ]
+}

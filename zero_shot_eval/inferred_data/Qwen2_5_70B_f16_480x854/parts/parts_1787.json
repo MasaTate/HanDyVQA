@@ -1,0 +1,17 @@
+{
+    "question": "What part of the plant is picked?",
+    "options": [
+        "The leaves of the plant are picked.",
+        "The flowers of the plant are picked.",
+        "The stems of the plant are picked.",
+        "The soil of the plant is picked.",
+        "The roots of the plant is picked."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the plant is picked? Choose **only one** option from the following list.\nOptions:\n(A) The leaves of the plant are picked.\n(B) The flowers of the plant are picked.\n(C) The stems of the plant are picked.\n(D) The soil of the plant is picked.\n(E) The roots of the plant is picked.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The roots of the plant is picked."
+    },
+    "correct_idx": [
+        4
+    ]
+}

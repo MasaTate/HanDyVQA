@@ -1,0 +1,17 @@
+{
+    "question": "What part of the trash bin is held to open?",
+    "options": [
+        "The side latch on the bottom of the trash bin is held to open.",
+        "The front edge of the base of the trash bin is held to open.",
+        "The rim of the trash bin itself is held to open.",
+        "The center handle of the lid of the trash bin is held to open.",
+        "The corner tab near the back of the trash bin is held to open."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the trash bin is held to open? Choose **only one** option from the following list.\nOptions:\n(A) The side latch on the bottom of the trash bin is held to open.\n(B) The front edge of the base of the trash bin is held to open.\n(C) The rim of the trash bin itself is held to open.\n(D) The center handle of the lid of the trash bin is held to open.\n(E) The corner tab near the back of the trash bin is held to open.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The center handle of the lid of the trash bin is held to open."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the paintbrush is pressed?",
+    "options": [
+        "The handle tip of the paintbrush is pressed.",
+        "The metal ferrule connecting to the bristles is pressed.",
+        "The brush bristles of the paintbrush is pressed.",
+        "The paint reservoir at the base of the paintbrush is pressed.",
+        "The grip area of the paintbrush is pressed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the paintbrush is pressed? Choose **only one** option from the following list.\nOptions:\n(A) The handle tip of the paintbrush is pressed.\n(B) The metal ferrule connecting to the bristles is pressed.\n(C) The brush bristles of the paintbrush is pressed.\n(D) The paint reservoir at the base of the paintbrush is pressed.\n(E) The grip area of the paintbrush is pressed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The brush bristles of the paintbrush is pressed."
+    },
+    "correct_idx": [
+        2
+    ]
+}

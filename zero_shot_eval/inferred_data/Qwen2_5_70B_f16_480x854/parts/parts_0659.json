@@ -1,0 +1,17 @@
+{
+    "question": "What part of the mower is touched?",
+    "options": [
+        "The rear wheel of the mower is touched.",
+        "The engine cover of the mower is touched.",
+        "The handle grip of the mower is touched.",
+        "The front blade attachment of the mower is touched.",
+        "The body part of the mower is touched."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the mower is touched? Choose **only one** option from the following list.\nOptions:\n(A) The rear wheel of the mower is touched.\n(B) The engine cover of the mower is touched.\n(C) The handle grip of the mower is touched.\n(D) The front blade attachment of the mower is touched.\n(E) The body part of the mower is touched.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The engine cover of the mower is touched."
+    },
+    "correct_idx": [
+        4
+    ]
+}

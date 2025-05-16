@@ -1,0 +1,17 @@
+{
+    "question": "What part of the engine is removed?",
+    "options": [
+        "The casing of the engine is removed.",
+        "The piston of the engine is removed.",
+        "The bolt of the engine is removed.",
+        "The transmission of the engine is removed.",
+        "The fuel line of the engine is removed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the engine is removed? Choose **only one** option from the following list.\nOptions:\n(A) The casing of the engine is removed.\n(B) The piston of the engine is removed.\n(C) The bolt of the engine is removed.\n(D) The transmission of the engine is removed.\n(E) The fuel line of the engine is removed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The bolt of the engine is removed."
+    },
+    "correct_idx": [
+        2
+    ]
+}

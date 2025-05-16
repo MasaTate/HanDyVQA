@@ -1,0 +1,17 @@
+{
+    "question": "What part of the structure is taken away?",
+    "options": [
+        "The underbelly of the structure is taken away.",
+        "The corner pillar of the structure is taken away.",
+        "The outer shell of the structure is taken away.",
+        "The topmost roof section of the structure is taken away.",
+        "The side railing of the structure is taken away."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the structure is taken away? Choose **only one** option from the following list.\nOptions:\n(A) The underbelly of the structure is taken away.\n(B) The corner pillar of the structure is taken away.\n(C) The outer shell of the structure is taken away.\n(D) The topmost roof section of the structure is taken away.\n(E) The side railing of the structure is taken away.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The outer shell of the structure is taken away."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the cabbage is dropped?",
+    "options": [
+        "The outermost leaves of the cabbage are dropped.",
+        "The stem connecting the leaves is dropped.",
+        "The top of the cabbage head is dropped.",
+        "The bottommost layer of the cabbage is dropped.",
+        "The core part of the cabbage is dropped."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the cabbage is dropped? Choose **only one** option from the following list.\nOptions:\n(A) The outermost leaves of the cabbage are dropped.\n(B) The stem connecting the leaves is dropped.\n(C) The top of the cabbage head is dropped.\n(D) The bottommost layer of the cabbage is dropped.\n(E) The core part of the cabbage is dropped.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The outermost leaves of the cabbage are dropped."
+    },
+    "correct_idx": [
+        4
+    ]
+}

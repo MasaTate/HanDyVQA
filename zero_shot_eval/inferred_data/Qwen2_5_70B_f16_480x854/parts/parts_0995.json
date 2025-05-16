@@ -1,0 +1,17 @@
+{
+    "question": "What part of the mat weaving machine is removed?",
+    "options": [
+        "The roller lock of mat weaving is being removed.",
+        "The tension knob of mat weaving is being removed.",
+        "The fabric guide of mat weaving is being removed.",
+        "The feed tray of mat weaving is being removed.",
+        "The threading spool of mat weaving is being removed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the mat weaving machine is removed? Choose **only one** option from the following list.\nOptions:\n(A) The roller lock of mat weaving is being removed.\n(B) The tension knob of mat weaving is being removed.\n(C) The fabric guide of mat weaving is being removed.\n(D) The feed tray of mat weaving is being removed.\n(E) The threading spool of mat weaving is being removed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The roller lock of mat weaving is being removed."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the iron rod is detached?",
+    "options": [
+        "The handle of the iron rod is detached.",
+        "The base of the iron rod is detached.",
+        "The screw of the iron rod is detached.",
+        "The center section of the iron rod is detached.",
+        "The grip of the iron rod is detached."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the iron rod is detached? Choose **only one** option from the following list.\nOptions:\n(A) The handle of the iron rod is detached.\n(B) The base of the iron rod is detached.\n(C) The screw of the iron rod is detached.\n(D) The center section of the iron rod is detached.\n(E) The grip of the iron rod is detached.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The screw of the iron rod is detached."
+    },
+    "correct_idx": [
+        2
+    ]
+}

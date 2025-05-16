@@ -1,0 +1,17 @@
+{
+    "question": "What part of the paintbrush is dipped?",
+    "options": [
+        "The handle of the paintbrush is dipped.",
+        "The tip of the paintbrush is dipped.",
+        "The middle section of the paintbrush is dipped.",
+        "The bristles near the base of the paintbrush are dipped.",
+        "The end of the paintbrush handle is dipped."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the paintbrush is dipped? Choose **only one** option from the following list.\nOptions:\n(A) The handle of the paintbrush is dipped.\n(B) The tip of the paintbrush is dipped.\n(C) The middle section of the paintbrush is dipped.\n(D) The bristles near the base of the paintbrush are dipped.\n(E) The end of the paintbrush handle is dipped.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The tip of the paintbrush is dipped."
+    },
+    "correct_idx": [
+        1
+    ]
+}

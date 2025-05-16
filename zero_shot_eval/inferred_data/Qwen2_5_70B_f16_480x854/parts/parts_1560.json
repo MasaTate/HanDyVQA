@@ -1,0 +1,17 @@
+{
+    "question": "What part of the skirt is touched?",
+    "options": [
+        "The hem of the skirt near the waistband.",
+        "The lining of the skirt close to the zipper.",
+        "The back pleat of the skirt near the tag.",
+        "The fabric ruffle at the top of the skirt.",
+        "The waistband of the skirt was touched."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the skirt is touched? Choose **only one** option from the following list.\nOptions:\n(A) The hem of the skirt near the waistband.\n(B) The lining of the skirt close to the zipper.\n(C) The back pleat of the skirt near the tag.\n(D) The fabric ruffle at the top of the skirt.\n(E) The waistband of the skirt was touched.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The lining of the skirt close to the zipper."
+    },
+    "correct_idx": [
+        4
+    ]
+}

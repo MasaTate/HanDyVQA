@@ -1,0 +1,17 @@
+{
+    "question": "What part of the phone is tapped?",
+    "options": [
+        "The screen of the phone is tapped.",
+        "The back of the phone is tapped.",
+        "The charging port of the phone is tapped.",
+        "The camera lens of the phone is tapped.",
+        "The side buttons of the phone are tapped."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the phone is tapped? Choose **only one** option from the following list.\nOptions:\n(A) The screen of the phone is tapped.\n(B) The back of the phone is tapped.\n(C) The charging port of the phone is tapped.\n(D) The camera lens of the phone is tapped.\n(E) The side buttons of the phone are tapped.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The screen of the phone is tapped."
+    },
+    "correct_idx": [
+        0
+    ]
+}

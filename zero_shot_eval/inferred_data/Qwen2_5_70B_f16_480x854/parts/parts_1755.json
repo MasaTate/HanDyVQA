@@ -1,0 +1,17 @@
+{
+    "question": "What part of the saucepan is removed?",
+    "options": [
+        "The cover of saucepan is removed.",
+        "The base of the saucepan is removed.",
+        "The handle of the saucepan is removed.",
+        "The inner lining of the saucepan is removed.",
+        "The content in the saucepan is removed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the saucepan is removed? Choose **only one** option from the following list.\nOptions:\n(A) The cover of saucepan is removed.\n(B) The base of the saucepan is removed.\n(C) The handle of the saucepan is removed.\n(D) The inner lining of the saucepan is removed.\n(E) The content in the saucepan is removed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The cover of saucepan is removed."
+    },
+    "correct_idx": [
+        0
+    ]
+}

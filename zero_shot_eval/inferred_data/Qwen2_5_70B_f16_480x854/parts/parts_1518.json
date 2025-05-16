@@ -1,0 +1,17 @@
+{
+    "question": "What part of the gallon is covered?",
+    "options": [
+        "The opening of the gallon is covered.",
+        "The lower part of the gallon is covered.",
+        "The handle of the gallon is covered.",
+        "The middle section of the gallon is covered.",
+        "The entire gallon is covered."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the gallon is covered? Choose **only one** option from the following list.\nOptions:\n(A) The opening of the gallon is covered.\n(B) The lower part of the gallon is covered.\n(C) The handle of the gallon is covered.\n(D) The middle section of the gallon is covered.\n(E) The entire gallon is covered.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The opening of the gallon is covered."
+    },
+    "correct_idx": [
+        0
+    ]
+}

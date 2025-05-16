@@ -1,0 +1,17 @@
+{
+    "question": "What part of the bag is the soil taken from?",
+    "options": [
+        "The soil is taken from the bottom left corner of the bag.",
+        "The soil is taken from the side pocket of the bag.",
+        "The soil is taken from the front flap of the bag.",
+        "The soil is taken from the lower right edge of the bag.",
+        "The soil is taken from the upper center part of the bag."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the bag is the soil taken from? Choose **only one** option from the following list.\nOptions:\n(A) The soil is taken from the bottom left corner of the bag.\n(B) The soil is taken from the side pocket of the bag.\n(C) The soil is taken from the front flap of the bag.\n(D) The soil is taken from the lower right edge of the bag.\n(E) The soil is taken from the upper center part of the bag.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The soil is taken from the upper center part of the bag."
+    },
+    "correct_idx": [
+        4
+    ]
+}

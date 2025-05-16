@@ -1,0 +1,17 @@
+{
+    "question": "What part of the plate is wiped?",
+    "options": [
+        "The edge of the plate is wiped.",
+        "The bottom rim of the plate is wiped.",
+        "The front face of the plate is wiped.",
+        "The inner surface of the plate is wiped.",
+        "The backside of the plate is wiped."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the plate is wiped? Choose **only one** option from the following list.\nOptions:\n(A) The edge of the plate is wiped.\n(B) The bottom rim of the plate is wiped.\n(C) The front face of the plate is wiped.\n(D) The inner surface of the plate is wiped.\n(E) The backside of the plate is wiped.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The inner surface of the plate is wiped."
+    },
+    "correct_idx": [
+        2
+    ]
+}

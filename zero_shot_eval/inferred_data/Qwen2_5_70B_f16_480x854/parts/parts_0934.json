@@ -1,0 +1,17 @@
+{
+    "question": "What part of the object is touched?",
+    "options": [
+        "The base of the object is touched.",
+        "The interior of the object is touched.",
+        "The top edge of the object is touched.",
+        "The rim of the object is touched.\r\n",
+        "The handle of the object is touched."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the object is touched? Choose **only one** option from the following list.\nOptions:\n(A) The base of the object is touched.\n(B) The interior of the object is touched.\n(C) The top edge of the object is touched.\n(D) The rim of the object is touched.\r\n\n(E) The handle of the object is touched.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The rim of the object is touched."
+    },
+    "correct_idx": [
+        3
+    ]
+}

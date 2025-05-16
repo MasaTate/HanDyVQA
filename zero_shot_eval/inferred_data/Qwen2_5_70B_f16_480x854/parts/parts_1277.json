@@ -1,0 +1,17 @@
+{
+    "question": "What part of the riding lawn mower is turned off?",
+    "options": [
+        "The control lever of the riding lawn mower is turned off.",
+        "The throttle button of the riding lawn mower is turned off.",
+        "The switch knob of the riding lawn mower is turned off.",
+        "The safety latch of the riding lawn mower is turned off.",
+        "The gear shift of the riding lawn mower is turned off."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the riding lawn mower is turned off? Choose **only one** option from the following list.\nOptions:\n(A) The control lever of the riding lawn mower is turned off.\n(B) The throttle button of the riding lawn mower is turned off.\n(C) The switch knob of the riding lawn mower is turned off.\n(D) The safety latch of the riding lawn mower is turned off.\n(E) The gear shift of the riding lawn mower is turned off.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The safety latch of the riding lawn mower is turned off."
+    },
+    "correct_idx": [
+        2
+    ]
+}

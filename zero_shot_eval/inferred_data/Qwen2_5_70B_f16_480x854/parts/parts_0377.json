@@ -1,0 +1,17 @@
+{
+    "question": "What part of the container is turned?",
+    "options": [
+        "The bottom edge of the container is turned.",
+        "The lid section of the container is turned.",
+        "The rim part of the container is turned.",
+        "The middle section of the container is turned.",
+        "The base area of the container is turned."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the container is turned? Choose **only one** option from the following list.\nOptions:\n(A) The bottom edge of the container is turned.\n(B) The lid section of the container is turned.\n(C) The rim part of the container is turned.\n(D) The middle section of the container is turned.\n(E) The base area of the container is turned.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The rim part of the container is turned."
+    },
+    "correct_idx": [
+        2
+    ]
+}

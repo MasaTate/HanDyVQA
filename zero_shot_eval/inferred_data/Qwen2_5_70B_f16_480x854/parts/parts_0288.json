@@ -1,0 +1,17 @@
+{
+    "question": "What part of the oven is the sachet placed on?",
+    "options": [
+        "The side panel of the oven is where the sachet is placed on.",
+        "The bottom vent of the oven is where the sachet is placed on.",
+        "The top of the oven is where the sachet placed on.",
+        "The oven door handle is where the sachet is placed on.",
+        "The inside shelf of the oven is where the sachet is placed on."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the oven is the sachet placed on? Choose **only one** option from the following list.\nOptions:\n(A) The side panel of the oven is where the sachet is placed on.\n(B) The bottom vent of the oven is where the sachet is placed on.\n(C) The top of the oven is where the sachet placed on.\n(D) The oven door handle is where the sachet is placed on.\n(E) The inside shelf of the oven is where the sachet is placed on.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The top of the oven is where the sachet placed on."
+    },
+    "correct_idx": [
+        2
+    ]
+}

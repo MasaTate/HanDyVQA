@@ -1,0 +1,17 @@
+{
+    "question": "What part of the bucket is carried?",
+    "options": [
+        "The underside of the bucket rim is carried.",
+        "The side of the bucket body is carried.",
+        "The top edge of the bucket is carried.",
+        "The bucket handle is carried.",
+        "The base of the bucket is carried."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the bucket is carried? Choose **only one** option from the following list.\nOptions:\n(A) The underside of the bucket rim is carried.\n(B) The side of the bucket body is carried.\n(C) The top edge of the bucket is carried.\n(D) The bucket handle is carried.\n(E) The base of the bucket is carried.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The top edge of the bucket is carried."
+    },
+    "correct_idx": [
+        3
+    ]
+}

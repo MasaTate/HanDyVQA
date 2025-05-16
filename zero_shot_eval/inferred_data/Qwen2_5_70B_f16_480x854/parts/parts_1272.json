@@ -1,0 +1,17 @@
+{
+    "question": "What part of the craft paper is the ring put on?",
+    "options": [
+        "The ring is placed on the top left corner of the craft paper.",
+        "The ring is attached to the center of the craft paper.",
+        "The ring is affixed to the bottom left edge of the craft paper.",
+        "The ring is secured at the top right area of the craft paper.",
+        "The ring is put on the bottom right of the craft paper."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the craft paper is the ring put on? Choose **only one** option from the following list.\nOptions:\n(A) The ring is placed on the top left corner of the craft paper.\n(B) The ring is attached to the center of the craft paper.\n(C) The ring is affixed to the bottom left edge of the craft paper.\n(D) The ring is secured at the top right area of the craft paper.\n(E) The ring is put on the bottom right of the craft paper.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The ring is secured at the top right area of the craft paper."
+    },
+    "correct_idx": [
+        4
+    ]
+}

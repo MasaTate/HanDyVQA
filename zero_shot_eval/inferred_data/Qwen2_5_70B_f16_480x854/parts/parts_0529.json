@@ -1,0 +1,17 @@
+{
+    "question": "What part of the gas cooker is pressed?",
+    "options": [
+        "The metal frame of the gas cooker is pressed.",
+        "The back panel of the gas cooker is pressed.",
+        "The burner grille of the gas cooker is pressed.",
+        "The control dial knob of the gas cooker is pressed.",
+        "The base platform of the gas cooker is pressed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the gas cooker is pressed? Choose **only one** option from the following list.\nOptions:\n(A) The metal frame of the gas cooker is pressed.\n(B) The back panel of the gas cooker is pressed.\n(C) The burner grille of the gas cooker is pressed.\n(D) The control dial knob of the gas cooker is pressed.\n(E) The base platform of the gas cooker is pressed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The control dial knob of the gas cooker is pressed."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the laptop is scrolled?",
+    "options": [
+        "The keyboard of the laptop is scrolled.",
+        "The side panel of the laptop is scrolled.",
+        "The USB port of the laptop is scrolled.",
+        "The touchpad of the laptop is scrolled.",
+        "The screen of the phone is scrolled."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the laptop is scrolled? Choose **only one** option from the following list.\nOptions:\n(A) The keyboard of the laptop is scrolled.\n(B) The side panel of the laptop is scrolled.\n(C) The USB port of the laptop is scrolled.\n(D) The touchpad of the laptop is scrolled.\n(E) The screen of the phone is scrolled.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The touchpad of the laptop is scrolled."
+    },
+    "correct_idx": [
+        3
+    ]
+}

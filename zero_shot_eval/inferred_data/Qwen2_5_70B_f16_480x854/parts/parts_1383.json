@@ -1,0 +1,17 @@
+{
+    "question": "What part of the device is pressed?",
+    "options": [
+        "The buttons of the lights are pressed.",
+        "The back panel of the device is pressed.",
+        "The edges of the device are pressed.",
+        "The buttons of the fan are pressed.",
+        "The buttons of the hob are pressed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the device is pressed? Choose **only one** option from the following list.\nOptions:\n(A) The buttons of the lights are pressed.\n(B) The back panel of the device is pressed.\n(C) The edges of the device are pressed.\n(D) The buttons of the fan are pressed.\n(E) The buttons of the hob are pressed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The buttons of the hob are pressed."
+    },
+    "correct_idx": [
+        0
+    ]
+}

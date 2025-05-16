@@ -1,0 +1,17 @@
+{
+    "question": "What part of the bowl are the paint brushes picked up from?",
+    "options": [
+        "The brushes are picked up from the rim of the bowl.",
+        "The brushes is picked up from the bottom part inside the container.",
+        "The brushes are picked up from the top edge of the container.",
+        "The brushes are picked up from the sidewalls of the bowl.",
+        "The brushes are picked up from the outer surface of the container."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the bowl are the paint brushes picked up from? Choose **only one** option from the following list.\nOptions:\n(A) The brushes are picked up from the rim of the bowl.\n(B) The brushes is picked up from the bottom part inside the container.\n(C) The brushes are picked up from the top edge of the container.\n(D) The brushes are picked up from the sidewalls of the bowl.\n(E) The brushes are picked up from the outer surface of the container.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The brushes is picked up from the bottom part inside the container."
+    },
+    "correct_idx": [
+        1
+    ]
+}

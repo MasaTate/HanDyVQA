@@ -1,0 +1,17 @@
+{
+    "question": "What part of the polaroid frame is touched?",
+    "options": [
+        "The corners of the polaroid frame are touched.",
+        "The sides of the polaroid frame are touched.",
+        "The middle section of the polaroid frame is touched.",
+        "The back part of the polaroid frame is touched.",
+        "The top and the bottom edges of the polaroid is touched."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the polaroid frame is touched? Choose **only one** option from the following list.\nOptions:\n(A) The corners of the polaroid frame are touched.\n(B) The sides of the polaroid frame are touched.\n(C) The middle section of the polaroid frame is touched.\n(D) The back part of the polaroid frame is touched.\n(E) The top and the bottom edges of the polaroid is touched.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The top and the bottom edges of the polaroid is touched."
+    },
+    "correct_idx": [
+        4
+    ]
+}

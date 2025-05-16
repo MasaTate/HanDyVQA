@@ -1,0 +1,17 @@
+{
+    "question": "What part of the sink is cleaned?",
+    "options": [
+        "The bottom part of the sink is cleaned.",
+        "The upper right part of the sink is cleaned.",
+        "The upper left part of the sink is cleaned.",
+        "The middle left part of the sink is cleaned.",
+        "The middle part of the sink is cleaned."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the sink is cleaned? Choose **only one** option from the following list.\nOptions:\n(A) The bottom part of the sink is cleaned.\n(B) The upper right part of the sink is cleaned.\n(C) The upper left part of the sink is cleaned.\n(D) The middle left part of the sink is cleaned.\n(E) The middle part of the sink is cleaned.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The bottom part of the sink is cleaned."
+    },
+    "correct_idx": [
+        2
+    ]
+}

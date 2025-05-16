@@ -1,0 +1,17 @@
+{
+    "question": "What part of the bottle of engine oil is opened?",
+    "options": [
+        "The cap of the bottle of engine oil is opened.",
+        "The label on the bottle of engine oil is opened.",
+        "The side of the bottle of engine oil is opened.",
+        "The bottom of the bottle of engine oil is opened.",
+        "The spout of the bottle of engine oil is opened."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the bottle of engine oil is opened? Choose **only one** option from the following list.\nOptions:\n(A) The cap of the bottle of engine oil is opened.\n(B) The label on the bottle of engine oil is opened.\n(C) The side of the bottle of engine oil is opened.\n(D) The bottom of the bottle of engine oil is opened.\n(E) The spout of the bottle of engine oil is opened.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The cap of the bottle of engine oil is opened."
+    },
+    "correct_idx": [
+        0
+    ]
+}

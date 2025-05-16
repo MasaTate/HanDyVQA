@@ -1,0 +1,17 @@
+{
+    "question": "What part of the table is hit?",
+    "options": [
+        "The tabletop surface is hit.",
+        "The underside of the table is hit.",
+        "The legs of the table are hit.",
+        "The table frame is hit.",
+        "The corners of the table are hit."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the table is hit? Choose **only one** option from the following list.\nOptions:\n(A) The tabletop surface is hit.\n(B) The underside of the table is hit.\n(C) The legs of the table are hit.\n(D) The table frame is hit.\n(E) The corners of the table are hit.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The underside of the table is hit."
+    },
+    "correct_idx": [
+        3
+    ]
+}

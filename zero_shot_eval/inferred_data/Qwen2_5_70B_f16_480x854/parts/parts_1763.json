@@ -1,0 +1,17 @@
+{
+    "question": "What part of the drill press is the plank removed from?",
+    "options": [
+        "The metal part of the drill press is removed.",
+        "The handle of the drill press is removed.",
+        "The plastic casing of the drill press is removed.",
+        "The base of the drill press is removed.",
+        "The control panel of the drill press is removed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the drill press is the plank removed from? Choose **only one** option from the following list.\nOptions:\n(A) The metal part of the drill press is removed.\n(B) The handle of the drill press is removed.\n(C) The plastic casing of the drill press is removed.\n(D) The base of the drill press is removed.\n(E) The control panel of the drill press is removed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The base of the drill press is removed."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the sack is held?",
+    "options": [
+        "The upper part portion of the sack is held.",
+        "The bottom seam of the sack is held.",
+        "The middle section of the sack is held.",
+        "The side flap of the sack is held.",
+        "The corner edge of the sack is held."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the sack is held? Choose **only one** option from the following list.\nOptions:\n(A) The upper part portion of the sack is held.\n(B) The bottom seam of the sack is held.\n(C) The middle section of the sack is held.\n(D) The side flap of the sack is held.\n(E) The corner edge of the sack is held.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The corner edge of the sack is held."
+    },
+    "correct_idx": [
+        0
+    ]
+}

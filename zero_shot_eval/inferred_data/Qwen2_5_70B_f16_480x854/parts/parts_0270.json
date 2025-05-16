@@ -1,0 +1,17 @@
+{
+    "question": "What part of the mask is adjusted?",
+    "options": [
+        "The top center portion of the mask is adjusted.",
+        "The left cheek panel of the mask is adjusted.",
+        "The right side strap of the mask is adjusted.",
+        "The bottom edge of the mask is adjusted.",
+        "The nose bridge area of the mask is adjusted."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the mask is adjusted? Choose **only one** option from the following list.\nOptions:\n(A) The top center portion of the mask is adjusted.\n(B) The left cheek panel of the mask is adjusted.\n(C) The right side strap of the mask is adjusted.\n(D) The bottom edge of the mask is adjusted.\n(E) The nose bridge area of the mask is adjusted.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The right side strap of the mask is adjusted."
+    },
+    "correct_idx": [
+        2
+    ]
+}

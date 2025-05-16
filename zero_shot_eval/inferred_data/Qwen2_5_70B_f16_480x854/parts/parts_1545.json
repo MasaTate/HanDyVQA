@@ -1,0 +1,17 @@
+{
+    "question": "What part of the cardboard tube is glued?",
+    "options": [
+        "The top edge of the cardboard tube is glued.",
+        "The base rim of the cardboard tube is glued.",
+        "The bottom seam of the cardboard tube is glued.",
+        "The surface part of the cardboard tube is glued.",
+        "The glue is applied on the thread coiled around the cardboard tube."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the cardboard tube is glued? Choose **only one** option from the following list.\nOptions:\n(A) The top edge of the cardboard tube is glued.\n(B) The base rim of the cardboard tube is glued.\n(C) The bottom seam of the cardboard tube is glued.\n(D) The surface part of the cardboard tube is glued.\n(E) The glue is applied on the thread coiled around the cardboard tube.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The glue is applied on the thread coiled around the cardboard tube."
+    },
+    "correct_idx": [
+        3
+    ]
+}

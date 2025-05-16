@@ -1,0 +1,17 @@
+{
+    "question": "What part of the tomato is cut?",
+    "options": [
+        "The leaves of the tomato are cut.",
+        "The center part of the tomato is cut.",
+        "The stem area of the tomato is cut.",
+        "The base of the tomato is cut.",
+        "The skin of the tomato is cut."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the tomato is cut? Choose **only one** option from the following list.\nOptions:\n(A) The leaves of the tomato are cut.\n(B) The center part of the tomato is cut.\n(C) The stem area of the tomato is cut.\n(D) The base of the tomato is cut.\n(E) The skin of the tomato is cut.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The stem area of the tomato is cut."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the wheel is wiped?",
+    "options": [
+        "The edge of the wheel rim is wiped.",
+        "The center hub of the wheel is wiped.",
+        "The part of the wheel where tire would be attached is wiped.",
+        "The spokes connecting the wheel are wiped.",
+        "The surface area of the wheel's inner lining is wiped."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the wheel is wiped? Choose **only one** option from the following list.\nOptions:\n(A) The edge of the wheel rim is wiped.\n(B) The center hub of the wheel is wiped.\n(C) The part of the wheel where tire would be attached is wiped.\n(D) The spokes connecting the wheel are wiped.\n(E) The surface area of the wheel's inner lining is wiped.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The part of the wheel where tire would be attached is wiped."
+    },
+    "correct_idx": [
+        2
+    ]
+}

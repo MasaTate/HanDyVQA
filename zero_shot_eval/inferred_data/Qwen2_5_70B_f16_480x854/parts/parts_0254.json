@@ -1,0 +1,17 @@
+{
+    "question": "What part of the serviette is cut?",
+    "options": [
+        "The edges of the serviette are being cut.",
+        "The corner of the serviette is being cut.",
+        "The middle section of the serviette is being cut.",
+        "The top half of the serviette is being cut.",
+        "The cut line part of the serviette is being cut."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the serviette is cut? Choose **only one** option from the following list.\nOptions:\n(A) The edges of the serviette are being cut.\n(B) The corner of the serviette is being cut.\n(C) The middle section of the serviette is being cut.\n(D) The top half of the serviette is being cut.\n(E) The cut line part of the serviette is being cut.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The cut line part of the serviette is being cut."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the planks is held?",
+    "options": [
+        "The top left corner of the planks is being held.",
+        "The right bottom part edge of the planks is being held.",
+        "The center section of the planks is being held.",
+        "The left upper side of the planks is being held.",
+        "The bottom center area of the planks is being held."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the planks is held? Choose **only one** option from the following list.\nOptions:\n(A) The top left corner of the planks is being held.\n(B) The right bottom part edge of the planks is being held.\n(C) The center section of the planks is being held.\n(D) The left upper side of the planks is being held.\n(E) The bottom center area of the planks is being held.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The left upper side of the planks is being held."
+    },
+    "correct_idx": [
+        1
+    ]
+}

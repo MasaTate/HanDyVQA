@@ -1,0 +1,17 @@
+{
+    "question": "What part of the machine is removed?",
+    "options": [
+        "The hydraulic pressure gauge of the machine is removed.",
+        "The main power switch of the machine is removed.",
+        "The airline throttle control of the machine is removed.",
+        "The safety guard panel of the machine is removed.",
+        "The engine coolant reservoir of the machine is removed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the machine is removed? Choose **only one** option from the following list.\nOptions:\n(A) The hydraulic pressure gauge of the machine is removed.\n(B) The main power switch of the machine is removed.\n(C) The airline throttle control of the machine is removed.\n(D) The safety guard panel of the machine is removed.\n(E) The engine coolant reservoir of the machine is removed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The engine coolant reservoir of the machine is removed."
+    },
+    "correct_idx": [
+        2
+    ]
+}

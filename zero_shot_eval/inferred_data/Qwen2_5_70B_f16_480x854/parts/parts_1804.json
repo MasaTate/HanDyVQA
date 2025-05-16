@@ -1,0 +1,17 @@
+{
+    "question": "What part of the spatula is rinsed?",
+    "options": [
+        "The handle of the spatula is rinsed.",
+        "The edge of the spatula is rinsed.",
+        "The tip of the spatula is rinsed.",
+        "The flipper of the spatula is rinsed.",
+        "The black part of the spatula is rinsed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the spatula is rinsed? Choose **only one** option from the following list.\nOptions:\n(A) The handle of the spatula is rinsed.\n(B) The edge of the spatula is rinsed.\n(C) The tip of the spatula is rinsed.\n(D) The flipper of the spatula is rinsed.\n(E) The black part of the spatula is rinsed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The handle of the spatula is rinsed."
+    },
+    "correct_idx": [
+        3
+    ]
+}

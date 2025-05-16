@@ -1,0 +1,17 @@
+{
+    "question": "What part of the wrapper is cut?",
+    "options": [
+        "The side seam of the wrapper is being cut.",
+        "The whole top edge of the wrapper is being cut.",
+        "A small notch is being cut into the wrapper's corner.",
+        "The middle section of the wrapper is being cut.",
+        "The top corner of the wrapper is being cut."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the wrapper is cut? Choose **only one** option from the following list.\nOptions:\n(A) The side seam of the wrapper is being cut.\n(B) The whole top edge of the wrapper is being cut.\n(C) A small notch is being cut into the wrapper's corner.\n(D) The middle section of the wrapper is being cut.\n(E) The top corner of the wrapper is being cut.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The top corner of the wrapper is being cut."
+    },
+    "correct_idx": [
+        1
+    ]
+}

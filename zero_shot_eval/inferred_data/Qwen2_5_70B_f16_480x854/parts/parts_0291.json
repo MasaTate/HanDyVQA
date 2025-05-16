@@ -1,0 +1,17 @@
+{
+    "question": "What part of the grinder machine is the cable removed from?",
+    "options": [
+        "The upper section of the grinder machine is where the cable is removed from.",
+        "The bottom part of the grinder machine is the cable removed from.",
+        "The side panel of the grinder machine is the location the cable is detached from.",
+        "The front end of the grinder machine is where the cable is pulled out from.",
+        "The back attachment of the grinder machine is the spot the cable is disconnected from."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the grinder machine is the cable removed from? Choose **only one** option from the following list.\nOptions:\n(A) The upper section of the grinder machine is where the cable is removed from.\n(B) The bottom part of the grinder machine is the cable removed from.\n(C) The side panel of the grinder machine is the location the cable is detached from.\n(D) The front end of the grinder machine is where the cable is pulled out from.\n(E) The back attachment of the grinder machine is the spot the cable is disconnected from.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The back attachment of the grinder machine is the spot the cable is disconnected from."
+    },
+    "correct_idx": [
+        1
+    ]
+}

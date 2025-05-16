@@ -1,0 +1,17 @@
+{
+    "question": "What part of the hose is removed?",
+    "options": [
+        "The middle section of the hose is being removed.",
+        "The nozzle of the hose is being removed.",
+        "The base of the hose is being removed.",
+        "The connector of the hose is being removed.",
+        "The cover of the hose is being removed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the hose is removed? Choose **only one** option from the following list.\nOptions:\n(A) The middle section of the hose is being removed.\n(B) The nozzle of the hose is being removed.\n(C) The base of the hose is being removed.\n(D) The connector of the hose is being removed.\n(E) The cover of the hose is being removed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The nozzle of the hose is being removed."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the drum set is beaten?",
+    "options": [
+        "The resonance ring and the snare rim were beaten.",
+        "The tom-tom shells and the floor tom legs were beaten.",
+        "The kick drum pedal and the hi-hat clutch were beaten.",
+        "The drum throne and the cymbal stand were beaten.",
+        "The batter head and the crash cymbal was beaten."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the drum set is beaten? Choose **only one** option from the following list.\nOptions:\n(A) The resonance ring and the snare rim were beaten.\n(B) The tom-tom shells and the floor tom legs were beaten.\n(C) The kick drum pedal and the hi-hat clutch were beaten.\n(D) The drum throne and the cymbal stand were beaten.\n(E) The batter head and the crash cymbal was beaten.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The batter head and the crash cymbal was beaten."
+    },
+    "correct_idx": [
+        4
+    ]
+}

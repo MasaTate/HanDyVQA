@@ -1,0 +1,17 @@
+{
+    "question": "What part of the bottle is closed?",
+    "options": [
+        "The middle of the bottle neck is sealed.",
+        "The mouth of the bottle was being closed.",
+        "The top rim of the bottle is secured.",
+        "The base of the bottle is locked tight.",
+        "The shoulder of the bottle is fastened."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the bottle is closed? Choose **only one** option from the following list.\nOptions:\n(A) The middle of the bottle neck is sealed.\n(B) The mouth of the bottle was being closed.\n(C) The top rim of the bottle is secured.\n(D) The base of the bottle is locked tight.\n(E) The shoulder of the bottle is fastened.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The top rim of the bottle is secured."
+    },
+    "correct_idx": [
+        1
+    ]
+}

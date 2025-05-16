@@ -1,0 +1,17 @@
+{
+    "question": "What part of the plier is removed?",
+    "options": [
+        "The grip on the handle of the plier is removed.",
+        "The spring mechanism inside the plier is removed.",
+        "The tip of the plier jaws is removed.",
+        "The rubber coating on the plier is removed.",
+        "The pin from the plier is removed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the plier is removed? Choose **only one** option from the following list.\nOptions:\n(A) The grip on the handle of the plier is removed.\n(B) The spring mechanism inside the plier is removed.\n(C) The tip of the plier jaws is removed.\n(D) The rubber coating on the plier is removed.\n(E) The pin from the plier is removed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The pin from the plier is removed."
+    },
+    "correct_idx": [
+        4
+    ]
+}

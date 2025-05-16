@@ -1,0 +1,17 @@
+{
+    "question": "What part of the tablet is touched by the right hand?",
+    "options": [
+        "The back cover of the tablet is touched by the right hand.",
+        "The charging port area of the tablet is touched by the right hand.",
+        "The edges of the tablet are touched by the right hand.",
+        "The screen of the tablet is touched by the right hand.",
+        "The power swich of the tablet is touched by the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the tablet is touched by the right hand? Choose **only one** option from the following list.\nOptions:\n(A) The back cover of the tablet is touched by the right hand.\n(B) The charging port area of the tablet is touched by the right hand.\n(C) The edges of the tablet are touched by the right hand.\n(D) The screen of the tablet is touched by the right hand.\n(E) The power swich of the tablet is touched by the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The screen of the tablet is touched by the right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

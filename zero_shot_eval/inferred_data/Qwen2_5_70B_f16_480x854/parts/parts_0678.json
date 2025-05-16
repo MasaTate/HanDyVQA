@@ -1,0 +1,17 @@
+{
+    "question": "What part of the engine is greased?",
+    "options": [
+        "The spark plug of the engine is greased.",
+        "The cylinder head of the engine is greased.",
+        "The bearing of the engine is greased.",
+        "The fuel injector of the engine is greased.",
+        "The oil pan of the engine is greased."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the engine is greased? Choose **only one** option from the following list.\nOptions:\n(A) The spark plug of the engine is greased.\n(B) The cylinder head of the engine is greased.\n(C) The bearing of the engine is greased.\n(D) The fuel injector of the engine is greased.\n(E) The oil pan of the engine is greased.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The bearing of the engine is greased."
+    },
+    "correct_idx": [
+        2
+    ]
+}

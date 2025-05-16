@@ -1,0 +1,17 @@
+{
+    "question": "What part of the washing machine is closed?",
+    "options": [
+        "The front panel of the washing machine is closed.",
+        "The detergent compartment of the washing machine is closed.",
+        "The lid part of the washing machine is closed.",
+        "The back door of the washing machine is closed.",
+        "The control knob area of the washing machine is closed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the washing machine is closed? Choose **only one** option from the following list.\nOptions:\n(A) The front panel of the washing machine is closed.\n(B) The detergent compartment of the washing machine is closed.\n(C) The lid part of the washing machine is closed.\n(D) The back door of the washing machine is closed.\n(E) The control knob area of the washing machine is closed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The lid part of the washing machine is closed."
+    },
+    "correct_idx": [
+        2
+    ]
+}

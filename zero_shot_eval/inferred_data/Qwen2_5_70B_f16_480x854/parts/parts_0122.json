@@ -1,0 +1,17 @@
+{
+    "question": "What part of the pot is covered?",
+    "options": [
+        "The handle area of the pot is covered.",
+        "The rim part of the pot is covered.",
+        "The base part of the pot is covered.",
+        "The interior surface of the pot is covered.",
+        "The bottom edge of the pot is covered."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the pot is covered? Choose **only one** option from the following list.\nOptions:\n(A) The handle area of the pot is covered.\n(B) The rim part of the pot is covered.\n(C) The base part of the pot is covered.\n(D) The interior surface of the pot is covered.\n(E) The bottom edge of the pot is covered.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The rim part of the pot is covered."
+    },
+    "correct_idx": [
+        1
+    ]
+}

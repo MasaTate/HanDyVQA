@@ -1,0 +1,17 @@
+{
+    "question": "What part of the roll is pulled?",
+    "options": [
+        "The end of the roll is pulled.",
+        "The thread of the roll is pulled.",
+        "The label on the roll is pulled.",
+        "The core of the roll is pulled.",
+        "The middle section of the roll is pulled."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the roll is pulled? Choose **only one** option from the following list.\nOptions:\n(A) The end of the roll is pulled.\n(B) The thread of the roll is pulled.\n(C) The label on the roll is pulled.\n(D) The core of the roll is pulled.\n(E) The middle section of the roll is pulled.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The thread of the roll is pulled."
+    },
+    "correct_idx": [
+        1
+    ]
+}

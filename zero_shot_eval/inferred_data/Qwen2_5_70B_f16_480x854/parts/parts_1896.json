@@ -1,0 +1,17 @@
+{
+    "question": "What part of the game board is the ball placed on?",
+    "options": [
+        "The small ball is placed on the bottom left part of the board game.",
+        "The ball is positioned near the center top of the game board.",
+        "The small ball is located at the top right corner of the board game.",
+        "The ball is set down on the edge between the left and right sides of the game board.",
+        "The small ball is placed at the midpoint of the bottom edge of the board game."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the game board is the ball placed on? Choose **only one** option from the following list.\nOptions:\n(A) The small ball is placed on the bottom left part of the board game.\n(B) The ball is positioned near the center top of the game board.\n(C) The small ball is located at the top right corner of the board game.\n(D) The ball is set down on the edge between the left and right sides of the game board.\n(E) The small ball is placed at the midpoint of the bottom edge of the board game.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The small ball is placed on the bottom left part of the board game."
+    },
+    "correct_idx": [
+        0
+    ]
+}

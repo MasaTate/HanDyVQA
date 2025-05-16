@@ -1,0 +1,17 @@
+{
+    "question": "What part of the shrub is removed?",
+    "options": [
+        "The roots of the shrub are removed.",
+        "The lower leaf cluster of the shrub is removed.",
+        "The middle trunk section of the shrub is removed.",
+        "The outer flower petals of the shrub are removed.",
+        "The top stem branch of the shrub is removed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the shrub is removed? Choose **only one** option from the following list.\nOptions:\n(A) The roots of the shrub are removed.\n(B) The lower leaf cluster of the shrub is removed.\n(C) The middle trunk section of the shrub is removed.\n(D) The outer flower petals of the shrub are removed.\n(E) The top stem branch of the shrub is removed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The top stem branch of the shrub is removed."
+    },
+    "correct_idx": [
+        4
+    ]
+}

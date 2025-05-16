@@ -1,0 +1,17 @@
+{
+    "question": "What part of the lid is held?",
+    "options": [
+        "The top handle of the lid is covered.",
+        "The bottom edge of the lid is grasped tightly.",
+        "The side rim of the lid is being supported.",
+        "The front tip of the lid is being squeezed.",
+        "The inner edge of the lid is being touched."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the lid is held? Choose **only one** option from the following list.\nOptions:\n(A) The top handle of the lid is covered.\n(B) The bottom edge of the lid is grasped tightly.\n(C) The side rim of the lid is being supported.\n(D) The front tip of the lid is being squeezed.\n(E) The inner edge of the lid is being touched.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The top handle of the lid is covered."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the dough is cut?",
+    "options": [
+        "The outer edges of the dough are cut.",
+        "The corners of the dough are cut.",
+        "The middle part of the dough is cut.",
+        "The bottom layer of the dough is cut.",
+        "The top surface of the dough is cut."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the dough is cut? Choose **only one** option from the following list.\nOptions:\n(A) The outer edges of the dough are cut.\n(B) The corners of the dough are cut.\n(C) The middle part of the dough is cut.\n(D) The bottom layer of the dough is cut.\n(E) The top surface of the dough is cut.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The middle part of the dough is cut."
+    },
+    "correct_idx": [
+        2
+    ]
+}

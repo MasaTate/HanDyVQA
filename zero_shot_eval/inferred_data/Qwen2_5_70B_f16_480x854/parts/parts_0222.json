@@ -1,0 +1,17 @@
+{
+    "question": "What part of the wristband is adjusted?",
+    "options": [
+        "The center of the wristband is adjusted.",
+        "The edge of the wristband is adjusted.",
+        "The clasp of the wristband is adjusted.",
+        "The back of the wristband is adjusted.",
+        "The inside of the wristband is adjusted."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the wristband is adjusted? Choose **only one** option from the following list.\nOptions:\n(A) The center of the wristband is adjusted.\n(B) The edge of the wristband is adjusted.\n(C) The clasp of the wristband is adjusted.\n(D) The back of the wristband is adjusted.\n(E) The inside of the wristband is adjusted.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The inside of the wristband is adjusted."
+    },
+    "correct_idx": [
+        1
+    ]
+}

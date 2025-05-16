@@ -1,0 +1,17 @@
+{
+    "question": "What part of the tray is detached?",
+    "options": [
+        "The heavy red section that is usually fixed to the tray has come loose.",
+        "The large white handle that supports the tray is not connected anymore.",
+        "The small green corner piece that is part of the tray is completely removed.",
+        "The thin yellow object that is attached to the tray is detached.",
+        "The red object that is attached to the tray is detached."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the tray is detached? Choose **only one** option from the following list.\nOptions:\n(A) The heavy red section that is usually fixed to the tray has come loose.\n(B) The large white handle that supports the tray is not connected anymore.\n(C) The small green corner piece that is part of the tray is completely removed.\n(D) The thin yellow object that is attached to the tray is detached.\n(E) The red object that is attached to the tray is detached.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The red object that is attached to the tray is detached."
+    },
+    "correct_idx": [
+        3
+    ]
+}

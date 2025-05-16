@@ -1,0 +1,17 @@
+{
+    "question": "What part of the CPU is plugged?",
+    "options": [
+        "The auxiliary cable of the CPU is plugged.",
+        "The main processor of the CPU is plugged.",
+        "The cooling fan of the CPU is plugged.",
+        "The graphics card slot of the CPU is plugged.",
+        "The other big CPU is plugged."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the CPU is plugged? Choose **only one** option from the following list.\nOptions:\n(A) The auxiliary cable of the CPU is plugged.\n(B) The main processor of the CPU is plugged.\n(C) The cooling fan of the CPU is plugged.\n(D) The graphics card slot of the CPU is plugged.\n(E) The other big CPU is plugged.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The auxiliary cable of the CPU is plugged."
+    },
+    "correct_idx": [
+        0
+    ]
+}

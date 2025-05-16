@@ -1,0 +1,17 @@
+{
+    "question": "What part of the vegetable is plucked?",
+    "options": [
+        "The roots of the vegetable are plucked.",
+        "The stem of the vegetable is plucked.",
+        "The leaves of the vegetable is plucked.",
+        "The flowers of the vegetable are plucked.",
+        "The seeds of the vegetable are plucked."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the vegetable is plucked? Choose **only one** option from the following list.\nOptions:\n(A) The roots of the vegetable are plucked.\n(B) The stem of the vegetable is plucked.\n(C) The leaves of the vegetable is plucked.\n(D) The flowers of the vegetable are plucked.\n(E) The seeds of the vegetable are plucked.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The leaves of the vegetable is plucked."
+    },
+    "correct_idx": [
+        2
+    ]
+}

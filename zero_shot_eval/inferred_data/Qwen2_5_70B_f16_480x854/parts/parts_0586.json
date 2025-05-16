@@ -1,0 +1,17 @@
+{
+    "question": "What part of the tool is adjusted?",
+    "options": [
+        "The top edge of the tool is adjusted.",
+        "The handle grip of the tool is adjusted.",
+        "The bottom part of the tool is adjusted.",
+        "The inner chamber of the tool is adjusted.",
+        "The left side of the tool is adjusted."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the tool is adjusted? Choose **only one** option from the following list.\nOptions:\n(A) The top edge of the tool is adjusted.\n(B) The handle grip of the tool is adjusted.\n(C) The bottom part of the tool is adjusted.\n(D) The inner chamber of the tool is adjusted.\n(E) The left side of the tool is adjusted.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The inner chamber of the tool is adjusted."
+    },
+    "correct_idx": [
+        4
+    ]
+}

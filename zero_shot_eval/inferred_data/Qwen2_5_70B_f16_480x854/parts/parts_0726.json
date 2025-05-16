@@ -1,0 +1,17 @@
+{
+    "question": "What part of the knitted pattern is the hook pulled from?",
+    "options": [
+        "The knitted pattern of the hook pulled from the middle.",
+        "The knitted pattern of the hook is pulled from the bottom part.",
+        "The knitted pattern of the hook is pulled from the upper part.",
+        "The knitted pattern of the hook is pulled from the end part.",
+        "The knitted pattern of the hook is pulled from the upper left part."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the knitted pattern is the hook pulled from? Choose **only one** option from the following list.\nOptions:\n(A) The knitted pattern of the hook pulled from the middle.\n(B) The knitted pattern of the hook is pulled from the bottom part.\n(C) The knitted pattern of the hook is pulled from the upper part.\n(D) The knitted pattern of the hook is pulled from the end part.\n(E) The knitted pattern of the hook is pulled from the upper left part.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The knitted pattern of the hook is pulled from the end part."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the knife is involved?",
+    "options": [
+        "The blade of the knife is involved.",
+        "The handle of the knife is involved.",
+        "The tip of the knife is involved.",
+        "The spine of the knife is involved.",
+        "The bolster of the knife is involved."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the knife is involved? Choose **only one** option from the following list.\nOptions:\n(A) The blade of the knife is involved.\n(B) The handle of the knife is involved.\n(C) The tip of the knife is involved.\n(D) The spine of the knife is involved.\n(E) The bolster of the knife is involved.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The blade of the knife is involved."
+    },
+    "correct_idx": [
+        0
+    ]
+}

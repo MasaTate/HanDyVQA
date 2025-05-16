@@ -1,0 +1,17 @@
+{
+    "question": "What part of the tire fender is touched?",
+    "options": [
+        "The bottom section of the fender is touched.",
+        "The rear section of the fender is touched.",
+        "The edge of the fender is touched.",
+        "The top middle of the fender is touched.",
+        "The inside of the fender is touched."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the tire fender is touched? Choose **only one** option from the following list.\nOptions:\n(A) The bottom section of the fender is touched.\n(B) The rear section of the fender is touched.\n(C) The edge of the fender is touched.\n(D) The top middle of the fender is touched.\n(E) The inside of the fender is touched.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The edge of the fender is touched."
+    },
+    "correct_idx": [
+        2
+    ]
+}

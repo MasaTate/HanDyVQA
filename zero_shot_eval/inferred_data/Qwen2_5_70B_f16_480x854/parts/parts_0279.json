@@ -1,0 +1,17 @@
+{
+    "question": "What part of the car is closed?",
+    "options": [
+        "The front bumper of the car is being closed.",
+        "The trunk door of the car is being closed.",
+        "The rearview mirror of the car is being closed.",
+        "The side window of the car is being closed.",
+        "The hood of the car is being closed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the car is closed? Choose **only one** option from the following list.\nOptions:\n(A) The front bumper of the car is being closed.\n(B) The trunk door of the car is being closed.\n(C) The rearview mirror of the car is being closed.\n(D) The side window of the car is being closed.\n(E) The hood of the car is being closed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The trunk door of the car is being closed."
+    },
+    "correct_idx": [
+        1
+    ]
+}

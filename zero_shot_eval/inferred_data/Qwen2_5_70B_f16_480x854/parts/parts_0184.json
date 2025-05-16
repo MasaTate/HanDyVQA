@@ -1,0 +1,17 @@
+{
+    "question": "What part of the clay is wet?",
+    "options": [
+        "The rim of the clay is wet.",
+        "The center of the clay block is wet.",
+        "The edge of the clay is wet.",
+        "The bottom of the clay slab is wet.",
+        "The side of the clay vase is wet."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the clay is wet? Choose **only one** option from the following list.\nOptions:\n(A) The rim of the clay is wet.\n(B) The center of the clay block is wet.\n(C) The edge of the clay is wet.\n(D) The bottom of the clay slab is wet.\n(E) The side of the clay vase is wet.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The edge of the clay is wet."
+    },
+    "correct_idx": [
+        0
+    ]
+}

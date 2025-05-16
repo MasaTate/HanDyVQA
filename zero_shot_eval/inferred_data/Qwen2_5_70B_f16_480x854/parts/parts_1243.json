@@ -1,0 +1,17 @@
+{
+    "question": "What part of the food packaging is removed?",
+    "options": [
+        "The fold of the food packaging is removed.",
+        "The backing of the food packaging is removed.",
+        "The bottom seal of the food packaging is removed.",
+        "The plastic film of the food packaging is removed.",
+        "The sticker of the food packaging is removed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the food packaging is removed? Choose **only one** option from the following list.\nOptions:\n(A) The fold of the food packaging is removed.\n(B) The backing of the food packaging is removed.\n(C) The bottom seal of the food packaging is removed.\n(D) The plastic film of the food packaging is removed.\n(E) The sticker of the food packaging is removed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The sticker of the food packaging is removed."
+    },
+    "correct_idx": [
+        4
+    ]
+}

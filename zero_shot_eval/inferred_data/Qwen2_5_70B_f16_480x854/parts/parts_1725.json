@@ -1,0 +1,17 @@
+{
+    "question": "What part of the engine oil bottle is dropped?",
+    "options": [
+        "The base of the engine oil bottle is dropped.",
+        "The side of the engine oil bottle is dropped.",
+        "The cap of the engine oil  bottle is dropped.",
+        "The label of the engine oil bottle is dropped.",
+        "The neck of the engine oil bottle is dropped."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the engine oil bottle is dropped? Choose **only one** option from the following list.\nOptions:\n(A) The base of the engine oil bottle is dropped.\n(B) The side of the engine oil bottle is dropped.\n(C) The cap of the engine oil  bottle is dropped.\n(D) The label of the engine oil bottle is dropped.\n(E) The neck of the engine oil bottle is dropped.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The cap of the engine oil bottle is dropped."
+    },
+    "correct_idx": [
+        2
+    ]
+}

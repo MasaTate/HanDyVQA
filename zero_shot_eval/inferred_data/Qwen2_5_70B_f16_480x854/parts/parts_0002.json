@@ -1,0 +1,17 @@
+{
+    "question": "What part of the drawing pen is touched?",
+    "options": [
+        "The grip area along the side of the drawing pen is touched.",
+        "The cover placed on top of the drawing pen is touched.",
+        "The tip of the drawing pen that dispenses ink is touched.",
+        "The clip attached to the body of the drawing pen is touched.",
+        "The end of the drawing pen where the ink resides is touched."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the drawing pen is touched? Choose **only one** option from the following list.\nOptions:\n(A) The grip area along the side of the drawing pen is touched.\n(B) The cover placed on top of the drawing pen is touched.\n(C) The tip of the drawing pen that dispenses ink is touched.\n(D) The clip attached to the body of the drawing pen is touched.\n(E) The end of the drawing pen where the ink resides is touched.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The cover placed on top of the drawing pen is touched."
+    },
+    "correct_idx": [
+        1
+    ]
+}

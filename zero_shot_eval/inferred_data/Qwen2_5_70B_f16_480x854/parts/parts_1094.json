@@ -1,0 +1,17 @@
+{
+    "question": "What part of the palm frond is cut?",
+    "options": [
+        "The bottom of the palm frond is cut.",
+        "The tip of the palm frond is cut.",
+        "The edges of the palm frond are cut.",
+        "The top leaf of the palm frond is cut.",
+        "The end of the palm frond is cut."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the palm frond is cut? Choose **only one** option from the following list.\nOptions:\n(A) The bottom of the palm frond is cut.\n(B) The tip of the palm frond is cut.\n(C) The edges of the palm frond are cut.\n(D) The top leaf of the palm frond is cut.\n(E) The end of the palm frond is cut.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The end of the palm frond is cut."
+    },
+    "correct_idx": [
+        0
+    ]
+}

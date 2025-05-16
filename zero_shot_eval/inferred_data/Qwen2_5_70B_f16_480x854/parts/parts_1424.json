@@ -1,0 +1,17 @@
+{
+    "question": "What part of the blender is picked?",
+    "options": [
+        "The motor body of the blender is picked.",
+        "The blending jar of the blender is picked.",
+        "The control panel of the blender is picked.",
+        "The power cord of the blender is picked.",
+        "The flat lid of the blender is picked."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the blender is picked? Choose **only one** option from the following list.\nOptions:\n(A) The motor body of the blender is picked.\n(B) The blending jar of the blender is picked.\n(C) The control panel of the blender is picked.\n(D) The power cord of the blender is picked.\n(E) The flat lid of the blender is picked.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The motor body of the blender is picked."
+    },
+    "correct_idx": [
+        0
+    ]
+}

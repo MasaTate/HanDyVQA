@@ -1,0 +1,17 @@
+{
+    "question": "What part of the tent is grabbed?",
+    "options": [
+        "The corner of the tent fabric is grabbed.",
+        "The peg of the tent is grabbed.",
+        "The top of the tent pole is grabbed.",
+        "The flysheet of the tent is grabbed.",
+        "The stake loop on the side of the tent is grabbed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the tent is grabbed? Choose **only one** option from the following list.\nOptions:\n(A) The corner of the tent fabric is grabbed.\n(B) The peg of the tent is grabbed.\n(C) The top of the tent pole is grabbed.\n(D) The flysheet of the tent is grabbed.\n(E) The stake loop on the side of the tent is grabbed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The corner of the tent fabric is grabbed."
+    },
+    "correct_idx": [
+        1
+    ]
+}

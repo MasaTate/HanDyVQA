@@ -1,0 +1,17 @@
+{
+    "question": "What part of the tap is moved?",
+    "options": [
+        "The base of the tap is rotated.",
+        "The switch of the tap is pressed.",
+        "The spout part of the tap is adjusted.",
+        "The lever next to the tap is adjusted.",
+        "The handle at the bottom of the tap is pulled."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the tap is moved? Choose **only one** option from the following list.\nOptions:\n(A) The base of the tap is rotated.\n(B) The switch of the tap is pressed.\n(C) The spout part of the tap is adjusted.\n(D) The lever next to the tap is adjusted.\n(E) The handle at the bottom of the tap is pulled.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The switch of the tap is pressed."
+    },
+    "correct_idx": [
+        2
+    ]
+}

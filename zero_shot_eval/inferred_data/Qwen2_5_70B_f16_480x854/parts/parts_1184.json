@@ -1,0 +1,17 @@
+{
+    "question": "What part of the cloth is pinned?",
+    "options": [
+        "The bottom left corner of the cloth is pinned.",
+        "The top middle part of the cloth is pinned.",
+        "The right edge of the cloth is pinned.",
+        "The center bottom section of the cloth is pinned.",
+        "The top left edge of the cloth is pinned."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the cloth is pinned? Choose **only one** option from the following list.\nOptions:\n(A) The bottom left corner of the cloth is pinned.\n(B) The top middle part of the cloth is pinned.\n(C) The right edge of the cloth is pinned.\n(D) The center bottom section of the cloth is pinned.\n(E) The top left edge of the cloth is pinned.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The top left edge of the cloth is pinned."
+    },
+    "correct_idx": [
+        1
+    ]
+}

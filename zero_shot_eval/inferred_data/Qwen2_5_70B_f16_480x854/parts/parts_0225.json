@@ -1,0 +1,17 @@
+{
+    "question": "What part of the vegetable is cut?",
+    "options": [
+        "The topmost part of the vegetable is cut.",
+        "The very end of the vegetable is cut.",
+        "The middle part of the vegetable is cut.",
+        "The outside layer of the vegetable is cut.",
+        "The root section of the vegetable is cut."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the vegetable is cut? Choose **only one** option from the following list.\nOptions:\n(A) The topmost part of the vegetable is cut.\n(B) The very end of the vegetable is cut.\n(C) The middle part of the vegetable is cut.\n(D) The outside layer of the vegetable is cut.\n(E) The root section of the vegetable is cut.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The very end of the vegetable is cut."
+    },
+    "correct_idx": [
+        2
+    ]
+}

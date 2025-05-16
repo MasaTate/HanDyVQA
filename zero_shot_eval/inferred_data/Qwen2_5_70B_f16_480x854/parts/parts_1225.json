@@ -1,0 +1,17 @@
+{
+    "question": "What part of the laptop is disconnected?",
+    "options": [
+        "The charger of the loptop is disconnected.",
+        "The keyboard of the laptop is disconnected.",
+        "The screen of the laptop is disconnected.",
+        "The mouse pad of the laptop is disconnected.",
+        "The battery of the laptop is disconnected."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the laptop is disconnected? Choose **only one** option from the following list.\nOptions:\n(A) The charger of the loptop is disconnected.\n(B) The keyboard of the laptop is disconnected.\n(C) The screen of the laptop is disconnected.\n(D) The mouse pad of the laptop is disconnected.\n(E) The battery of the laptop is disconnected.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The charger of the laptop is disconnected."
+    },
+    "correct_idx": [
+        0
+    ]
+}

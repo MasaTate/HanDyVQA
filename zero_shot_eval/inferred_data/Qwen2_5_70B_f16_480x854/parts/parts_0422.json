@@ -1,0 +1,17 @@
+{
+    "question": "What part of the monitor is unscrewed?",
+    "options": [
+        "The side panel of the monitor is unscrewed.",
+        "The front bezel of the monitor is unscrewed.",
+        "The hard drive of the monitor is unscrewed. ",
+        "The bottom foot of the monitor is unscrewed.",
+        "The power button area of the monitor is unscrewed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the monitor is unscrewed? Choose **only one** option from the following list.\nOptions:\n(A) The side panel of the monitor is unscrewed.\n(B) The front bezel of the monitor is unscrewed.\n(C) The hard drive of the monitor is unscrewed. \n(D) The bottom foot of the monitor is unscrewed.\n(E) The power button area of the monitor is unscrewed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The side panel of the monitor is unscrewed."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the micro pipette is dipped?",
+    "options": [
+        "The rubber grip of the micro pipette is dipped.",
+        "The middle section of the micro pipette is dipped.",
+        "The calibration markings on the micro pipette are dipped.",
+        "The plastic tip of the micro pipette is dipped.",
+        "The whole micro pipette is dipped."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the micro pipette is dipped? Choose **only one** option from the following list.\nOptions:\n(A) The rubber grip of the micro pipette is dipped.\n(B) The middle section of the micro pipette is dipped.\n(C) The calibration markings on the micro pipette are dipped.\n(D) The plastic tip of the micro pipette is dipped.\n(E) The whole micro pipette is dipped.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The plastic tip of the micro pipette is dipped."
+    },
+    "correct_idx": [
+        3
+    ]
+}

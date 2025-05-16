@@ -1,0 +1,17 @@
+{
+    "question": "What part of the chainsaw is taken off?",
+    "options": [
+        "The front grip handle of the chainsaw is removed.",
+        "The exhaust shield of the chainsaw is lifted up.",
+        "The blade cover of the chainsaw is taken off.",
+        "The safety guard at the back of the chainsaw is detached.",
+        "The motor casing of the chainsaw is unscrewed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the chainsaw is taken off? Choose **only one** option from the following list.\nOptions:\n(A) The front grip handle of the chainsaw is removed.\n(B) The exhaust shield of the chainsaw is lifted up.\n(C) The blade cover of the chainsaw is taken off.\n(D) The safety guard at the back of the chainsaw is detached.\n(E) The motor casing of the chainsaw is unscrewed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The blade cover of the chainsaw is taken off."
+    },
+    "correct_idx": [
+        2
+    ]
+}

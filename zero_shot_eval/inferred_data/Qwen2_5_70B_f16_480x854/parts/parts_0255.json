@@ -1,0 +1,17 @@
+{
+    "question": "What part of the jerrycan is closed?",
+    "options": [
+        "The cap of the jerrycan is closed.",
+        "The side of the jerrycan is closed.",
+        "The bottom of the jerrycan is closed.",
+        "The spout of the jerrycan is closed.",
+        "The handle of the jerrycan is closed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the jerrycan is closed? Choose **only one** option from the following list.\nOptions:\n(A) The cap of the jerrycan is closed.\n(B) The side of the jerrycan is closed.\n(C) The bottom of the jerrycan is closed.\n(D) The spout of the jerrycan is closed.\n(E) The handle of the jerrycan is closed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The spout of the jerrycan is closed."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the carton is being hit on the table with her right hand?",
+    "options": [
+        "The top flap of the carton is being hit on the table with her right hand.",
+        "The bottom part of the carton is being hit on the table with her right hand.",
+        "The side panel of the carton is being hit on the table with her right hand.",
+        "The corner edge of the carton is being hit on the table with her right hand.",
+        "The handle of the carton is being hit on the table with her right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the carton is being hit on the table with her right hand? Choose **only one** option from the following list.\nOptions:\n(A) The top flap of the carton is being hit on the table with her right hand.\n(B) The bottom part of the carton is being hit on the table with her right hand.\n(C) The side panel of the carton is being hit on the table with her right hand.\n(D) The corner edge of the carton is being hit on the table with her right hand.\n(E) The handle of the carton is being hit on the table with her right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The corner edge of the carton is being hit on the table with her right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

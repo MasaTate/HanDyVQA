@@ -1,0 +1,17 @@
+{
+    "question": "What part of the metal rod is poked?",
+    "options": [
+        "The surface of the metal rod is poked.",
+        "The side of the metal rod is poked.",
+        "The top of the metal rod is poked.",
+        "The bottom of the metal rod is poked.",
+        "The hole of the metal rod is poked."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the metal rod is poked? Choose **only one** option from the following list.\nOptions:\n(A) The surface of the metal rod is poked.\n(B) The side of the metal rod is poked.\n(C) The top of the metal rod is poked.\n(D) The bottom of the metal rod is poked.\n(E) The hole of the metal rod is poked.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The hole of the metal rod is poked."
+    },
+    "correct_idx": [
+        4
+    ]
+}

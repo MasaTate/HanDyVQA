@@ -1,0 +1,17 @@
+{
+    "question": "What part of the trunking box is the wire inserted into?",
+    "options": [
+        "The side panel of the trunking box is where the wire inserted into.",
+        "The trunking compartment of the trunking box is where the wire inserted into.",
+        "The top lid of the trunking box is where the wire inserted into.",
+        "The bottom shelf of the trunking box is where the wire inserted into.",
+        "The rear edge of the trunking box is where the wire inserted into."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the trunking box is the wire inserted into? Choose **only one** option from the following list.\nOptions:\n(A) The side panel of the trunking box is where the wire inserted into.\n(B) The trunking compartment of the trunking box is where the wire inserted into.\n(C) The top lid of the trunking box is where the wire inserted into.\n(D) The bottom shelf of the trunking box is where the wire inserted into.\n(E) The rear edge of the trunking box is where the wire inserted into.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The trunking compartment of the trunking box is where the wire inserted into."
+    },
+    "correct_idx": [
+        1
+    ]
+}

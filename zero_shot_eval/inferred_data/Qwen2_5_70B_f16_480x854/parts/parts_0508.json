@@ -1,0 +1,17 @@
+{
+    "question": "What part of the tool is bent?",
+    "options": [
+        "The inner middle section of the tool is bent.",
+        "The outer edge of the tool is bent.",
+        "The bottom end of the tool is bent.",
+        "The upper tip of the tool is bent.",
+        "The side handle of the tool is bent."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the tool is bent? Choose **only one** option from the following list.\nOptions:\n(A) The inner middle section of the tool is bent.\n(B) The outer edge of the tool is bent.\n(C) The bottom end of the tool is bent.\n(D) The upper tip of the tool is bent.\n(E) The side handle of the tool is bent.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The inner middle section of the tool is bent."
+    },
+    "correct_idx": [
+        0
+    ]
+}

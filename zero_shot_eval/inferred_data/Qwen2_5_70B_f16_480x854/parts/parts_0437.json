@@ -1,0 +1,17 @@
+{
+    "question": "What part of the door is locked?",
+    "options": [
+        "The doorknob of the door is being locked.",
+        "The digital door lock of the door is being locked.",
+        "The bottom hinge of the door is being locked.",
+        "The door frame near the latch is being locked.",
+        "The sliding bolt mechanism of the door is being locked."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the door is locked? Choose **only one** option from the following list.\nOptions:\n(A) The doorknob of the door is being locked.\n(B) The digital door lock of the door is being locked.\n(C) The bottom hinge of the door is being locked.\n(D) The door frame near the latch is being locked.\n(E) The sliding bolt mechanism of the door is being locked.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The doorknob of the door is being locked."
+    },
+    "correct_idx": [
+        1
+    ]
+}

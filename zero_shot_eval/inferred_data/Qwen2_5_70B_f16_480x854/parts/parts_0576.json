@@ -1,0 +1,17 @@
+{
+    "question": "What part of the craft is painted?",
+    "options": [
+        "The upper surface of the craft is painted.",
+        "The front edge of the craft is painted.",
+        "The inside walls of the craft are painted.",
+        "The rear section of the craft is painted.",
+        "The underside part of the craft is painted."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the craft is painted? Choose **only one** option from the following list.\nOptions:\n(A) The upper surface of the craft is painted.\n(B) The front edge of the craft is painted.\n(C) The inside walls of the craft are painted.\n(D) The rear section of the craft is painted.\n(E) The underside part of the craft is painted.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The underside part of the craft is painted."
+    },
+    "correct_idx": [
+        4
+    ]
+}

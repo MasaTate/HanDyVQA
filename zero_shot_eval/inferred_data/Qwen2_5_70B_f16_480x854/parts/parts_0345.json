@@ -1,0 +1,17 @@
+{
+    "question": "What part of the sack bag is opened?",
+    "options": [
+        "The lower corner of the sack bag is opened.",
+        "The side seam of the sack bag is opened.",
+        "The bottom flap of the sack bag is opened.",
+        "The upper part of the sack bag is opened.",
+        "The front pocket of the sack bag is opened."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the sack bag is opened? Choose **only one** option from the following list.\nOptions:\n(A) The lower corner of the sack bag is opened.\n(B) The side seam of the sack bag is opened.\n(C) The bottom flap of the sack bag is opened.\n(D) The upper part of the sack bag is opened.\n(E) The front pocket of the sack bag is opened.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The lower corner of the sack bag is opened."
+    },
+    "correct_idx": [
+        3
+    ]
+}

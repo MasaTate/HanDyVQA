@@ -1,0 +1,17 @@
+{
+    "question": "What part of the bicycle is moved?",
+    "options": [
+        "The handlebar section of the bicycle is moved.",
+        "The rear wheel component of the bicycle is moved.",
+        "The front fork area of the bicycle is moved.",
+        "The seat post section of the bicycle is moved.",
+        "The pedal part of the bicycle is moved."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the bicycle is moved? Choose **only one** option from the following list.\nOptions:\n(A) The handlebar section of the bicycle is moved.\n(B) The rear wheel component of the bicycle is moved.\n(C) The front fork area of the bicycle is moved.\n(D) The seat post section of the bicycle is moved.\n(E) The pedal part of the bicycle is moved.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The pedal part of the bicycle is moved."
+    },
+    "correct_idx": [
+        4
+    ]
+}

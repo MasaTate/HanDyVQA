@@ -1,0 +1,17 @@
+{
+    "question": "What part of the shirt is pulled?",
+    "options": [
+        "The collar of the shirt is pulled.",
+        "The hem of the shirt is pulled.",
+        "The sleeve of the shirt is pulled.",
+        "The back of the shirt is pulled.",
+        "The pocket of the shirt is pulled."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the shirt is pulled? Choose **only one** option from the following list.\nOptions:\n(A) The collar of the shirt is pulled.\n(B) The hem of the shirt is pulled.\n(C) The sleeve of the shirt is pulled.\n(D) The back of the shirt is pulled.\n(E) The pocket of the shirt is pulled.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The collar of the shirt is pulled."
+    },
+    "correct_idx": [
+        2
+    ]
+}

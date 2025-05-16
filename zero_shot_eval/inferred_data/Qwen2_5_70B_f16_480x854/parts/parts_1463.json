@@ -1,0 +1,17 @@
+{
+    "question": "What part of the wheel is tightened?",
+    "options": [
+        "The outer rim of the wheel is tightened.",
+        "The spokes connecting the wheel to the hub are tightened.",
+        "The tread surface of the wheel is tightened.",
+        "The valve stem of the wheel is tightened.",
+        "The center bolt of the wheel is tightened."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the wheel is tightened? Choose **only one** option from the following list.\nOptions:\n(A) The outer rim of the wheel is tightened.\n(B) The spokes connecting the wheel to the hub are tightened.\n(C) The tread surface of the wheel is tightened.\n(D) The valve stem of the wheel is tightened.\n(E) The center bolt of the wheel is tightened.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The center bolt of the wheel is tightened."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the lawn mower is closed?",
+    "options": [
+        "The top panel of the lawn mower is closed.",
+        "The  side cover of the lawn mower is closed.",
+        "The front grille of the lawn mower is closed.",
+        "The rear flap of the lawn mower is closed.",
+        "The bottom compartment of the lawn mower is closed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the lawn mower is closed? Choose **only one** option from the following list.\nOptions:\n(A) The top panel of the lawn mower is closed.\n(B) The  side cover of the lawn mower is closed.\n(C) The front grille of the lawn mower is closed.\n(D) The rear flap of the lawn mower is closed.\n(E) The bottom compartment of the lawn mower is closed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The side cover of the lawn mower is closed."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the carton box is pressed?",
+    "options": [
+        "The side of the carton box is being pressed.",
+        "The top flap of the carton box is pressed down.",
+        "The bottom part of the carton box was being pressed.",
+        "The corner of the carton box is what is being pressed.",
+        "The lid of the carton box is being applied pressure."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the carton box is pressed? Choose **only one** option from the following list.\nOptions:\n(A) The side of the carton box is being pressed.\n(B) The top flap of the carton box is pressed down.\n(C) The bottom part of the carton box was being pressed.\n(D) The corner of the carton box is what is being pressed.\n(E) The lid of the carton box is being applied pressure.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The top flap of the carton box is pressed down."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the device is touched?",
+    "options": [
+        "The bottom edge of the device is touched.",
+        "The top part of the screen of the device is touched.",
+        "The side buttons of the device are touched.",
+        "The back panel of the device is touched.",
+        "The front camera lens of the device is touched."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the device is touched? Choose **only one** option from the following list.\nOptions:\n(A) The bottom edge of the device is touched.\n(B) The top part of the screen of the device is touched.\n(C) The side buttons of the device are touched.\n(D) The back panel of the device is touched.\n(E) The front camera lens of the device is touched.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The top part of the screen of the device is touched."
+    },
+    "correct_idx": [
+        1
+    ]
+}

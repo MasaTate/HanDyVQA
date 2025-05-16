@@ -1,0 +1,17 @@
+{
+    "question": "What part of the loom is adjusted?",
+    "options": [
+        "The base of the loom is adjusted.",
+        "The top edge of the loom is adjusted.",
+        "The footrest of the loom is adjusted.",
+        "The bottom of the loom is adjusted.",
+        "The middle part of the loom is adjusted."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the loom is adjusted? Choose **only one** option from the following list.\nOptions:\n(A) The base of the loom is adjusted.\n(B) The top edge of the loom is adjusted.\n(C) The footrest of the loom is adjusted.\n(D) The bottom of the loom is adjusted.\n(E) The middle part of the loom is adjusted.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The middle part of the loom is adjusted."
+    },
+    "correct_idx": [
+        4
+    ]
+}

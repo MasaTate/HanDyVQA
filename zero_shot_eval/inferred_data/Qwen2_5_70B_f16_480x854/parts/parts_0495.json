@@ -1,0 +1,17 @@
+{
+    "question": "What part of the object is moved?",
+    "options": [
+        "The air intake valve of the object is moved.",
+        "The emergency brake lever of the object is moved.",
+        "The fuel gauge knob of the object is moved.",
+        "The gear shifter pedal of the object is moved.",
+        "The passenger side door handle of the object is moved."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the object is moved? Choose **only one** option from the following list.\nOptions:\n(A) The air intake valve of the object is moved.\n(B) The emergency brake lever of the object is moved.\n(C) The fuel gauge knob of the object is moved.\n(D) The gear shifter pedal of the object is moved.\n(E) The passenger side door handle of the object is moved.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The gear shifter pedal of the object is moved."
+    },
+    "correct_idx": [
+        3
+    ]
+}

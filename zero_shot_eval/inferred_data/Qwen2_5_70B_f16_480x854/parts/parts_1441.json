@@ -1,0 +1,17 @@
+{
+    "question": "What part of the air fryer is the food dropped?",
+    "options": [
+        "The food is dropped into the air vent of the air fryer.",
+        "The food is dropped onto the lid of the air fryer.",
+        "The food is dropped on the base of the air fryer unit.",
+        "The food is dropped inside the container of the air fryer.",
+        "The food is dropped on the rim of the container basket of the air fryer."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the air fryer is the food dropped? Choose **only one** option from the following list.\nOptions:\n(A) The food is dropped into the air vent of the air fryer.\n(B) The food is dropped onto the lid of the air fryer.\n(C) The food is dropped on the base of the air fryer unit.\n(D) The food is dropped inside the container of the air fryer.\n(E) The food is dropped on the rim of the container basket of the air fryer.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The food is dropped inside the container of the air fryer."
+    },
+    "correct_idx": [
+        4
+    ]
+}

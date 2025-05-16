@@ -1,0 +1,17 @@
+{
+    "question": "What part of the leaves is removed?",
+    "options": [
+        "The stem of the leaves is removed.",
+        "The tip of the leaves is removed.",
+        "The edge of the leaves is removed.",
+        "The center vein of the leaves is removed.",
+        "The base of the leaves is removed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the leaves is removed? Choose **only one** option from the following list.\nOptions:\n(A) The stem of the leaves is removed.\n(B) The tip of the leaves is removed.\n(C) The edge of the leaves is removed.\n(D) The center vein of the leaves is removed.\n(E) The base of the leaves is removed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The stem of the leaves is removed."
+    },
+    "correct_idx": [
+        0
+    ]
+}

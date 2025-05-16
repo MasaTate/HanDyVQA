@@ -1,0 +1,17 @@
+{
+    "question": "What part of the oven is closed?",
+    "options": [
+        "The top panel of the oven is closed.",
+        "The door of the oven is closed.",
+        "The bottom rack of the oven is closed.",
+        "The side vent of the oven is closed.",
+        "The control knob of the oven is closed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the oven is closed? Choose **only one** option from the following list.\nOptions:\n(A) The top panel of the oven is closed.\n(B) The door of the oven is closed.\n(C) The bottom rack of the oven is closed.\n(D) The side vent of the oven is closed.\n(E) The control knob of the oven is closed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The door of the oven is closed."
+    },
+    "correct_idx": [
+        1
+    ]
+}

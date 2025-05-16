@@ -1,0 +1,17 @@
+{
+    "question": "What part of the brush is dropped?",
+    "options": [
+        "The single bristle from the brush is dropped.",
+        "The handle of the brush is dropped.",
+        "The ferrule of the brush is dropped.",
+        "The whole paint brush is dropped.",
+        "The tip of the brush is dropped."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the brush is dropped? Choose **only one** option from the following list.\nOptions:\n(A) The single bristle from the brush is dropped.\n(B) The handle of the brush is dropped.\n(C) The ferrule of the brush is dropped.\n(D) The whole paint brush is dropped.\n(E) The tip of the brush is dropped.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The whole paint brush is dropped."
+    },
+    "correct_idx": [
+        3
+    ]
+}

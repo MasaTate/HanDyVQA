@@ -1,0 +1,17 @@
+{
+    "question": "What part of the bicycle is tightened?",
+    "options": [
+        "The pedal strap of the bicycle is being tightened.",
+        "The front wheel axle of the bicycle is being tightened.",
+        "The brake cable of the bicycle is being tightened.",
+        "The chain guard of the bicycle is being tightened.",
+        "The cap of the rear wheel of the bicycle is being tightened."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the bicycle is tightened? Choose **only one** option from the following list.\nOptions:\n(A) The pedal strap of the bicycle is being tightened.\n(B) The front wheel axle of the bicycle is being tightened.\n(C) The brake cable of the bicycle is being tightened.\n(D) The chain guard of the bicycle is being tightened.\n(E) The cap of the rear wheel of the bicycle is being tightened.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The cap of the rear wheel of the bicycle is being tightened."
+    },
+    "correct_idx": [
+        2
+    ]
+}

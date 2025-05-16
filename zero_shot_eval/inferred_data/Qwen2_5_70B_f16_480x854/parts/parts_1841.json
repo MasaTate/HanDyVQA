@@ -1,0 +1,17 @@
+{
+    "question": "What part of the mortar is removed?",
+    "options": [
+        "The base of the mortar is removed.",
+        "The rock from the mortar is removed.",
+        "The lid from the mortar is removed.",
+        "The bottom section of the mortar is removed.",
+        "Half portion of the mortar is removed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the mortar is removed? Choose **only one** option from the following list.\nOptions:\n(A) The base of the mortar is removed.\n(B) The rock from the mortar is removed.\n(C) The lid from the mortar is removed.\n(D) The bottom section of the mortar is removed.\n(E) Half portion of the mortar is removed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) Half portion of the mortar is removed."
+    },
+    "correct_idx": [
+        1
+    ]
+}

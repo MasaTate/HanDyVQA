@@ -1,0 +1,17 @@
+{
+    "question": "What part of the tablet is touched?",
+    "options": [
+        "The back cover and the buttons on the side of the tablet were being touched.",
+        "The edges and the camera lens of the tablet were being touched.",
+        "The charging port and the headphone jack of the tablet were being touched.",
+        "The screen and the casing of the tablet were being touched.",
+        "The top bezel and the volume control of the tablet were being touched."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the tablet is touched? Choose **only one** option from the following list.\nOptions:\n(A) The back cover and the buttons on the side of the tablet were being touched.\n(B) The edges and the camera lens of the tablet were being touched.\n(C) The charging port and the headphone jack of the tablet were being touched.\n(D) The screen and the casing of the tablet were being touched.\n(E) The top bezel and the volume control of the tablet were being touched.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The screen and the casing of the tablet were being touched."
+    },
+    "correct_idx": [
+        3
+    ]
+}

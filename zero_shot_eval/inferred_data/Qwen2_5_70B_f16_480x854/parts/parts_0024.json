@@ -1,0 +1,17 @@
+{
+    "question": "What part of the hem machine is touched?",
+    "options": [
+        "The front display panel of the hem machine is touched.",
+        "The base of the hem machine is touched.",
+        "The right part of the hem machine is touched.",
+        "The needle compartment of the hem machine is touched.",
+        "The side cover of the hem machine is touched."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the hem machine is touched? Choose **only one** option from the following list.\nOptions:\n(A) The front display panel of the hem machine is touched.\n(B) The base of the hem machine is touched.\n(C) The right part of the hem machine is touched.\n(D) The needle compartment of the hem machine is touched.\n(E) The side cover of the hem machine is touched.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The right part of the hem machine is touched."
+    },
+    "correct_idx": [
+        2
+    ]
+}

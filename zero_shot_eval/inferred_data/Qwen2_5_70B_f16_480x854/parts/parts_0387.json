@@ -1,0 +1,17 @@
+{
+    "question": "What part of the handrail is welded?",
+    "options": [
+        "The top part of the handrail is welded.",
+        "The base of the handrail is welded.",
+        "The mid-section of the handrail is welded.",
+        "The elbow part of the handrail is welded.",
+        "The outer edge of the handrail is welded."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the handrail is welded? Choose **only one** option from the following list.\nOptions:\n(A) The top part of the handrail is welded.\n(B) The base of the handrail is welded.\n(C) The mid-section of the handrail is welded.\n(D) The elbow part of the handrail is welded.\n(E) The outer edge of the handrail is welded.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The elbow part of the handrail is welded."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the throttle control is pushed?",
+    "options": [
+        "The grip section of the throttle control is pushed.",
+        "The adjustment knob of the throttle control is pushed.",
+        "The starter button of the throttle control is pushed.",
+        "The throttle lever near the base is pushed.",
+        "The indicator panel of the throttle control is pushed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the throttle control is pushed? Choose **only one** option from the following list.\nOptions:\n(A) The grip section of the throttle control is pushed.\n(B) The adjustment knob of the throttle control is pushed.\n(C) The starter button of the throttle control is pushed.\n(D) The throttle lever near the base is pushed.\n(E) The indicator panel of the throttle control is pushed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The throttle lever near the base is pushed."
+    },
+    "correct_idx": [
+        2
+    ]
+}

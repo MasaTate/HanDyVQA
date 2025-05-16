@@ -1,0 +1,17 @@
+{
+    "question": "What part of the slab of wood is marked?",
+    "options": [
+        "The edge of the slab of wood is marked.",
+        "The top corner of the slab of wood is marked.",
+        "The middle section of the slab of wood is marked.",
+        "The bottom edge of the slab of wood is marked.",
+        "The outer rim of the slab of wood is marked."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the slab of wood is marked? Choose **only one** option from the following list.\nOptions:\n(A) The edge of the slab of wood is marked.\n(B) The top corner of the slab of wood is marked.\n(C) The middle section of the slab of wood is marked.\n(D) The bottom edge of the slab of wood is marked.\n(E) The outer rim of the slab of wood is marked.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The edge of the slab of wood is marked."
+    },
+    "correct_idx": [
+        2
+    ]
+}

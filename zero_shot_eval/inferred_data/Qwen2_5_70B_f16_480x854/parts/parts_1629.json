@@ -1,0 +1,17 @@
+{
+    "question": "What part of the grill is the first squid placed on?",
+    "options": [
+        "The first squid is placed on the left part of the grill.",
+        "The first squid is placed on the bottom rim of the grill.",
+        "The first squid is placed in the center of the grill lid.",
+        "The first squid is placed on the right edge of the grill.",
+        "The first squid is placed above the grill handle."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the grill is the first squid placed on? Choose **only one** option from the following list.\nOptions:\n(A) The first squid is placed on the left part of the grill.\n(B) The first squid is placed on the bottom rim of the grill.\n(C) The first squid is placed in the center of the grill lid.\n(D) The first squid is placed on the right edge of the grill.\n(E) The first squid is placed above the grill handle.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The first squid is placed in the center of the grill lid."
+    },
+    "correct_idx": [
+        0
+    ]
+}

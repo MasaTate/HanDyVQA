@@ -1,0 +1,17 @@
+{
+    "question": "What part of the bench vice is the bolt removed from?",
+    "options": [
+        "The bolt is removed from the center of the base of the bench vice.",
+        "The bolt is removed from the right end of the jaw of the bench vice.",
+        "The bolt is removed from the back side of the handle of the bench vice.",
+        "The bolt is removed from the top of the clamp of the bench vice.",
+        "The bolt is removed from the front plate of the spindle of the bench vice."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the bench vice is the bolt removed from? Choose **only one** option from the following list.\nOptions:\n(A) The bolt is removed from the center of the base of the bench vice.\n(B) The bolt is removed from the right end of the jaw of the bench vice.\n(C) The bolt is removed from the back side of the handle of the bench vice.\n(D) The bolt is removed from the top of the clamp of the bench vice.\n(E) The bolt is removed from the front plate of the spindle of the bench vice.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The bolt is removed from the front plate of the spindle of the bench vice."
+    },
+    "correct_idx": [
+        1
+    ]
+}

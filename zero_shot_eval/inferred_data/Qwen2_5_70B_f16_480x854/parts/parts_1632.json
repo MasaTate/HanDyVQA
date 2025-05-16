@@ -1,0 +1,17 @@
+{
+    "question": "What part of the aluminum rod is hit?",
+    "options": [
+        "The bottom tip of the aluminum rod was hit.",
+        "The middle section of the aluminum rod was hit.",
+        "The side edge of the aluminum rod was hit.",
+        "The top end of the aluminum rod was hit.",
+        "The joint connection of the aluminum rod was hit."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the aluminum rod is hit? Choose **only one** option from the following list.\nOptions:\n(A) The bottom tip of the aluminum rod was hit.\n(B) The middle section of the aluminum rod was hit.\n(C) The side edge of the aluminum rod was hit.\n(D) The top end of the aluminum rod was hit.\n(E) The joint connection of the aluminum rod was hit.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The joint connection of the aluminum rod was hit."
+    },
+    "correct_idx": [
+        3
+    ]
+}

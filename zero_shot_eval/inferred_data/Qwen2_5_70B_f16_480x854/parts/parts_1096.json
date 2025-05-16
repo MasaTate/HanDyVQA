@@ -1,0 +1,17 @@
+{
+    "question": "What part of the guitar is strummed?",
+    "options": [
+        "The body of the guitar is strummed.",
+        "The neck of the guitar is strummed.",
+        "The guitar string is strummed.",
+        "The headstock of the guitar is strummed.",
+        "The bridge of the guitar is strummed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the guitar is strummed? Choose **only one** option from the following list.\nOptions:\n(A) The body of the guitar is strummed.\n(B) The neck of the guitar is strummed.\n(C) The guitar string is strummed.\n(D) The headstock of the guitar is strummed.\n(E) The bridge of the guitar is strummed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The guitar string is strummed."
+    },
+    "correct_idx": [
+        2
+    ]
+}

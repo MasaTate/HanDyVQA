@@ -1,0 +1,17 @@
+{
+    "question": "What part of the plastic bowl container is picked by the left hand?",
+    "options": [
+        "The lid of the plastic bowl container is picked by the left hand.",
+        "The interior of the plastic bowl container is picked by the left hand.",
+        "The label of the plastic bowl container is picked by the left hand. ",
+        "Both the body and the lid of the plastic bowl container is picked by the left hand. ",
+        "The body of the plastic bowl container is picked by the left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the plastic bowl container is picked by the left hand? Choose **only one** option from the following list.\nOptions:\n(A) The lid of the plastic bowl container is picked by the left hand.\n(B) The interior of the plastic bowl container is picked by the left hand.\n(C) The label of the plastic bowl container is picked by the left hand. \n(D) Both the body and the lid of the plastic bowl container is picked by the left hand. \n(E) The body of the plastic bowl container is picked by the left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The lid of the plastic bowl container is picked by the left hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

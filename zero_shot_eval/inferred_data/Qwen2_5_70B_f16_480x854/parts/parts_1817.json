@@ -1,0 +1,17 @@
+{
+    "question": "What part of the wire fence is pulled?",
+    "options": [
+        "The top edge of the wire fence is being tugged.",
+        "The post at the end of the wire fence is being pulled.",
+        "The twig at the middle of the wire fence is moved.",
+        "The corner section of the wire fence is lifted.",
+        "The bottom of the wire fence is yanked."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the wire fence is pulled? Choose **only one** option from the following list.\nOptions:\n(A) The top edge of the wire fence is being tugged.\n(B) The post at the end of the wire fence is being pulled.\n(C) The twig at the middle of the wire fence is moved.\n(D) The corner section of the wire fence is lifted.\n(E) The bottom of the wire fence is yanked.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The twig at the middle of the wire fence is moved."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the wool is pulled?",
+    "options": [
+        "The wool fibers are being pulled.",
+        "The end of the wool ball is being pulled.",
+        "The wool yarn is being pulled.",
+        "The center of the wool bundle is being pulled.",
+        "The loose strands of the wool are being pulled."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the wool is pulled? Choose **only one** option from the following list.\nOptions:\n(A) The wool fibers are being pulled.\n(B) The end of the wool ball is being pulled.\n(C) The wool yarn is being pulled.\n(D) The center of the wool bundle is being pulled.\n(E) The loose strands of the wool are being pulled.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The wool yarn is being pulled."
+    },
+    "correct_idx": [
+        2
+    ]
+}

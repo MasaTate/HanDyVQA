@@ -1,0 +1,17 @@
+{
+    "question": "What part of the motorbike is touched by hands?",
+    "options": [
+        "The rear fender and the footpegs of the motorbike are touched by hands.",
+        "The front wheel and the exhaust pipe of the motorbike are touched by hands.",
+        "The base part of the side mirror and the handlebar of the motorbike is touched by hands.",
+        "The gas tank and the rearview camera of the motorbike are touched by hands.",
+        "The seat cushion and the tire rim of the motorbike are touched by hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the motorbike is touched by hands? Choose **only one** option from the following list.\nOptions:\n(A) The rear fender and the footpegs of the motorbike are touched by hands.\n(B) The front wheel and the exhaust pipe of the motorbike are touched by hands.\n(C) The base part of the side mirror and the handlebar of the motorbike is touched by hands.\n(D) The gas tank and the rearview camera of the motorbike are touched by hands.\n(E) The seat cushion and the tire rim of the motorbike are touched by hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The base part of the side mirror and the handlebar of the motorbike is touched by hands."
+    },
+    "correct_idx": [
+        2
+    ]
+}

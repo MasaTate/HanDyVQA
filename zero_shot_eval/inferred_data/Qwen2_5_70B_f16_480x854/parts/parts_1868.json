@@ -1,0 +1,17 @@
+{
+    "question": "What part of the waste bin is held to open?",
+    "options": [
+        "The center of the base of the waste bin is pushed to open.",
+        "The side of the container near the bottom is grasped to open.",
+        "The edge of the lid of the waste bin is touched to open.",
+        "The top rim around the waste bin is lifted to open.",
+        "The handle on the side of the waste bin is pulled to open."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the waste bin is held to open? Choose **only one** option from the following list.\nOptions:\n(A) The center of the base of the waste bin is pushed to open.\n(B) The side of the container near the bottom is grasped to open.\n(C) The edge of the lid of the waste bin is touched to open.\n(D) The top rim around the waste bin is lifted to open.\n(E) The handle on the side of the waste bin is pulled to open.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The edge of the lid of the waste bin is touched to open."
+    },
+    "correct_idx": [
+        2
+    ]
+}

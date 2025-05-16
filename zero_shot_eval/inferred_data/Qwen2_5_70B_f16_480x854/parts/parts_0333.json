@@ -1,0 +1,17 @@
+{
+    "question": "What part of the gas cooker is turned?",
+    "options": [
+        "The burner plate of the gas cooker is twisted.",
+        "The control panel of the gas cooker is pushed down.",
+        "The fuel valve of the gas cooker is pulled outward.",
+        "The metal part of the gas cooker is rotated counterclockwise. ",
+        "The stove knob of the gas cooker is turned off."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the gas cooker is turned? Choose **only one** option from the following list.\nOptions:\n(A) The burner plate of the gas cooker is twisted.\n(B) The control panel of the gas cooker is pushed down.\n(C) The fuel valve of the gas cooker is pulled outward.\n(D) The metal part of the gas cooker is rotated counterclockwise. \n(E) The stove knob of the gas cooker is turned off.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The stove knob of the gas cooker is turned off."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the tweezer is being held?",
+    "options": [
+        "The tip of the tweezer is being held.",
+        "The lower grip section of the tweezer is being held.",
+        "The top edge of the tweezer is being held.",
+        "The end of the tweezer is being held.",
+        "The middle part of the tweezer is being held."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the tweezer is being held? Choose **only one** option from the following list.\nOptions:\n(A) The tip of the tweezer is being held.\n(B) The lower grip section of the tweezer is being held.\n(C) The top edge of the tweezer is being held.\n(D) The end of the tweezer is being held.\n(E) The middle part of the tweezer is being held.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The lower grip section of the tweezer is being held."
+    },
+    "correct_idx": [
+        4
+    ]
+}

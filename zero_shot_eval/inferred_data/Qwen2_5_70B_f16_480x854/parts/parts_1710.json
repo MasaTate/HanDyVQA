@@ -1,0 +1,17 @@
+{
+    "question": "What part of the plank of wood is chiseled?",
+    "options": [
+        "The hole at the middle of the plank of wood is chiseled.",
+        "The edge along the side of the plank of wood is chiseled.",
+        "The corner at the end of the plank of wood is chiseled.",
+        "The underside of the plank of wood is chiseled.",
+        "The surface at the top of the plank of wood is chiseled."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the plank of wood is chiseled? Choose **only one** option from the following list.\nOptions:\n(A) The hole at the middle of the plank of wood is chiseled.\n(B) The edge along the side of the plank of wood is chiseled.\n(C) The corner at the end of the plank of wood is chiseled.\n(D) The underside of the plank of wood is chiseled.\n(E) The surface at the top of the plank of wood is chiseled.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The corner at the end of the plank of wood is chiseled."
+    },
+    "correct_idx": [
+        0
+    ]
+}

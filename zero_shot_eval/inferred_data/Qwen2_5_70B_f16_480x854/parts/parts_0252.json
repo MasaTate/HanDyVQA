@@ -1,0 +1,17 @@
+{
+    "question": "What part of the tissue paper is sprayed?",
+    "options": [
+        "The bottom right corner of the tissue is sprayed.",
+        "The center of the tissue paper is sprayed.",
+        "The outer edge of the tissue roll is sprayed.",
+        "The upper left part of the tissue is sprayed.",
+        "The lower side of the tissue sheet is sprayed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the tissue paper is sprayed? Choose **only one** option from the following list.\nOptions:\n(A) The bottom right corner of the tissue is sprayed.\n(B) The center of the tissue paper is sprayed.\n(C) The outer edge of the tissue roll is sprayed.\n(D) The upper left part of the tissue is sprayed.\n(E) The lower side of the tissue sheet is sprayed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The center of the tissue paper is sprayed."
+    },
+    "correct_idx": [
+        3
+    ]
+}

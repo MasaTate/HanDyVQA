@@ -1,0 +1,17 @@
+{
+    "question": "What part of the spool is fixed?",
+    "options": [
+        "The arbor hole of the spool is fixed.",
+        "The upper part of the spool is fixed.",
+        "The middle part of the spool is fixed.",
+        "The range diameter of the spool is fixed.",
+        "The bottom part of the spool is fixed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the spool is fixed? Choose **only one** option from the following list.\nOptions:\n(A) The arbor hole of the spool is fixed.\n(B) The upper part of the spool is fixed.\n(C) The middle part of the spool is fixed.\n(D) The range diameter of the spool is fixed.\n(E) The bottom part of the spool is fixed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The arbor hole of the spool is fixed."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the device is turned?",
+    "options": [
+        "The power switch of the device is being turned.",
+        "The tuning knob of the device is being turned.",
+        "The navigation screen of the device is being turned.",
+        "The volume dial of the device is being turned.",
+        "The top button of the device is being turned."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the device is turned? Choose **only one** option from the following list.\nOptions:\n(A) The power switch of the device is being turned.\n(B) The tuning knob of the device is being turned.\n(C) The navigation screen of the device is being turned.\n(D) The volume dial of the device is being turned.\n(E) The top button of the device is being turned.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The volume dial of the device is being turned."
+    },
+    "correct_idx": [
+        3
+    ]
+}

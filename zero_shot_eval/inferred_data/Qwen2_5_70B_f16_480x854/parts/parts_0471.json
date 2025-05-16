@@ -1,0 +1,17 @@
+{
+    "question": "What part of the washer is cleaned?",
+    "options": [
+        "The back panel of the washer is being cleaned.",
+        "The right part of the washer is being cleaned.",
+        "The top section of the washer is being cleaned.",
+        "The bottom drawer of the washer is being cleaned.",
+        "The front door of the washer is being cleaned."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the washer is cleaned? Choose **only one** option from the following list.\nOptions:\n(A) The back panel of the washer is being cleaned.\n(B) The right part of the washer is being cleaned.\n(C) The top section of the washer is being cleaned.\n(D) The bottom drawer of the washer is being cleaned.\n(E) The front door of the washer is being cleaned.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The top section of the washer is being cleaned."
+    },
+    "correct_idx": [
+        1
+    ]
+}

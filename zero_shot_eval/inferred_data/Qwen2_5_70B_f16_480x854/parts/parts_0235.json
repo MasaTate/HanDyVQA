@@ -1,0 +1,17 @@
+{
+    "question": "What part of the cutter is the fold placed on?",
+    "options": [
+        "The lower-left of the cutter is where the fold placed on.",
+        "The top-right of the cutter is where the fold is placed on.",
+        "The center of the cutter is where the fold is placed on.",
+        "The upper side of the cutter is where the fold is placed on.",
+        "The back edge of the cutter is where the fold is placed on."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the cutter is the fold placed on? Choose **only one** option from the following list.\nOptions:\n(A) The lower-left of the cutter is where the fold placed on.\n(B) The top-right of the cutter is where the fold is placed on.\n(C) The center of the cutter is where the fold is placed on.\n(D) The upper side of the cutter is where the fold is placed on.\n(E) The back edge of the cutter is where the fold is placed on.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The center of the cutter is where the fold is placed on."
+    },
+    "correct_idx": [
+        0
+    ]
+}

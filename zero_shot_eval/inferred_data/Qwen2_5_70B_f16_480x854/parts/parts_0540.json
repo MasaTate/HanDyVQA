@@ -1,0 +1,17 @@
+{
+    "question": "What part of the lawn mower engine is taken out?",
+    "options": [
+        "The spark plug of the lawn mower engine is taken out.",
+        "The bolt of the lawn mower engine is taken out.",
+        "The fuel line of the lawn mower engine is taken out.",
+        "The carburetor of the lawn mower engine is taken out.",
+        "The air filter of the lawn mower engine is taken out."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the lawn mower engine is taken out? Choose **only one** option from the following list.\nOptions:\n(A) The spark plug of the lawn mower engine is taken out.\n(B) The bolt of the lawn mower engine is taken out.\n(C) The fuel line of the lawn mower engine is taken out.\n(D) The carburetor of the lawn mower engine is taken out.\n(E) The air filter of the lawn mower engine is taken out.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The bolt of the lawn mower engine is taken out."
+    },
+    "correct_idx": [
+        1
+    ]
+}

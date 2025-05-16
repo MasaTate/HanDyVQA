@@ -1,0 +1,17 @@
+{
+    "question": "What part of the frying pan is used?",
+    "options": [
+        "The edge of the frying pan is used.",
+        "The handle of the frying pan is used.",
+        "The base of the frying pan is used.",
+        "The top rim of the frying pan is used.",
+        "The outside surface of the frying pan lid is used."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the frying pan is used? Choose **only one** option from the following list.\nOptions:\n(A) The edge of the frying pan is used.\n(B) The handle of the frying pan is used.\n(C) The base of the frying pan is used.\n(D) The top rim of the frying pan is used.\n(E) The outside surface of the frying pan lid is used.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The base of the frying pan is used."
+    },
+    "correct_idx": [
+        2
+    ]
+}

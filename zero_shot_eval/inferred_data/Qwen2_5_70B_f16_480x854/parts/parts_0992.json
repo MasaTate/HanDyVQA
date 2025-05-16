@@ -1,0 +1,17 @@
+{
+    "question": "What part of the pot is filled with the liquid?",
+    "options": [
+        "The rim of the pot is filled with the liquid.",
+        "The side handles of the pot are filled with the liquid.",
+        "The lid of the pot is filled with the liquid.",
+        "The spout of the pot is filled with the liquid.",
+        "The base part of the pot is filled with the liquid."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the pot is filled with the liquid? Choose **only one** option from the following list.\nOptions:\n(A) The rim of the pot is filled with the liquid.\n(B) The side handles of the pot are filled with the liquid.\n(C) The lid of the pot is filled with the liquid.\n(D) The spout of the pot is filled with the liquid.\n(E) The base part of the pot is filled with the liquid.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The base part of the pot is filled with the liquid."
+    },
+    "correct_idx": [
+        4
+    ]
+}

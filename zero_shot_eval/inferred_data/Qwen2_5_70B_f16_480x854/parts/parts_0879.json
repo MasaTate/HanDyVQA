@@ -1,0 +1,17 @@
+{
+    "question": "What part of the motorcycle is hit?",
+    "options": [
+        "The front wheel of the motorcycle is hit.",
+        "The floorboard of the motorcycle is hit.",
+        "The engine casing of the motorcycle is hit.",
+        "The seat cushion of the motorcycle is hit.",
+        "The handlebar grip of the motorcycle is hit."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the motorcycle is hit? Choose **only one** option from the following list.\nOptions:\n(A) The front wheel of the motorcycle is hit.\n(B) The floorboard of the motorcycle is hit.\n(C) The engine casing of the motorcycle is hit.\n(D) The seat cushion of the motorcycle is hit.\n(E) The handlebar grip of the motorcycle is hit.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The floorboard of the motorcycle is hit."
+    },
+    "correct_idx": [
+        1
+    ]
+}

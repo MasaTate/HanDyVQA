@@ -1,0 +1,17 @@
+{
+    "question": "What part of the gas cooker is reduced?",
+    "options": [
+        "The gas cooker burner is being reduced.",
+        "The gas cooker lid is being reduced.",
+        "The gas cooker knob is being reduced.",
+        "The gas cooker base is being reduced.",
+        "The gas cooker handle is being reduced."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the gas cooker is reduced? Choose **only one** option from the following list.\nOptions:\n(A) The gas cooker burner is being reduced.\n(B) The gas cooker lid is being reduced.\n(C) The gas cooker knob is being reduced.\n(D) The gas cooker base is being reduced.\n(E) The gas cooker handle is being reduced.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The gas cooker knob is being reduced."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the thread is pulled?",
+    "options": [
+        "The tip of the thread is pulled.",
+        "The middle section of the thread is pulled.",
+        "The knot of the thread is pulled.",
+        "The loop in the thread is pulled.",
+        "The left section of the spool of thread is pulled."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the thread is pulled? Choose **only one** option from the following list.\nOptions:\n(A) The tip of the thread is pulled.\n(B) The middle section of the thread is pulled.\n(C) The knot of the thread is pulled.\n(D) The loop in the thread is pulled.\n(E) The left section of the spool of thread is pulled.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The tip of the thread is pulled."
+    },
+    "correct_idx": [
+        0
+    ]
+}

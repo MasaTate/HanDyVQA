@@ -1,0 +1,17 @@
+{
+    "question": "What part of the muslin is cut?",
+    "options": [
+        "The midpoint of the muslin fabric is cut.",
+        "The edge of the muslin pattern is cut.",
+        "The bottom part of the muslin thread is cut.",
+        "The top section of the muslin seam is cut.",
+        "The center area of the muslin strip is cut."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the muslin is cut? Choose **only one** option from the following list.\nOptions:\n(A) The midpoint of the muslin fabric is cut.\n(B) The edge of the muslin pattern is cut.\n(C) The bottom part of the muslin thread is cut.\n(D) The top section of the muslin seam is cut.\n(E) The center area of the muslin strip is cut.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The bottom part of the muslin thread is cut."
+    },
+    "correct_idx": [
+        2
+    ]
+}

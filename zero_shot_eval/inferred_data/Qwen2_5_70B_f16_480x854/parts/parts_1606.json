@@ -1,0 +1,17 @@
+{
+    "question": "What part of the clamp is being tightened?",
+    "options": [
+        "The lever of the clamp is being tightened.",
+        "The base of the clamp is being tightened.",
+        "The rubber grip on the clamp is being tightened.",
+        "The bottom jaw of the clamp is being tightened.",
+        "The wood where the clamp is attached is being tightened."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the clamp is being tightened? Choose **only one** option from the following list.\nOptions:\n(A) The lever of the clamp is being tightened.\n(B) The base of the clamp is being tightened.\n(C) The rubber grip on the clamp is being tightened.\n(D) The bottom jaw of the clamp is being tightened.\n(E) The wood where the clamp is attached is being tightened.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The lever of the clamp is being tightened."
+    },
+    "correct_idx": [
+        0
+    ]
+}

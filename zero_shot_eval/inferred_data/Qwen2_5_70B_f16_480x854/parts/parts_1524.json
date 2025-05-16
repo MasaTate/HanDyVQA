@@ -1,0 +1,17 @@
+{
+    "question": "What part of the branch is adjusted?",
+    "options": [
+        "The trunk of the branch is adjusted.",
+        "The twigs of the branch is adjusted.",
+        "The leaves of the branch are adjusted.",
+        "The roots of the branch are adjusted.",
+        "The bark of the branch is adjusted."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the branch is adjusted? Choose **only one** option from the following list.\nOptions:\n(A) The trunk of the branch is adjusted.\n(B) The twigs of the branch is adjusted.\n(C) The leaves of the branch are adjusted.\n(D) The roots of the branch are adjusted.\n(E) The bark of the branch is adjusted.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The twigs of the branch is adjusted."
+    },
+    "correct_idx": [
+        1
+    ]
+}

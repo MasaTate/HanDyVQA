@@ -1,0 +1,17 @@
+{
+    "question": "What part of the lawn mower is used?",
+    "options": [
+        "The handle grip of the lawn mower is used.",
+        "The dipstick of the lawn mower is used.",
+        "The air filter compartment of the lawn mower is used.",
+        "The grass catcher attachment of the lawn mower is used.",
+        "The engine casing cover of the lawn mower is used."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the lawn mower is used? Choose **only one** option from the following list.\nOptions:\n(A) The handle grip of the lawn mower is used.\n(B) The dipstick of the lawn mower is used.\n(C) The air filter compartment of the lawn mower is used.\n(D) The grass catcher attachment of the lawn mower is used.\n(E) The engine casing cover of the lawn mower is used.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The engine casing cover of the lawn mower is used."
+    },
+    "correct_idx": [
+        1
+    ]
+}

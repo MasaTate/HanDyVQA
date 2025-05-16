@@ -1,0 +1,17 @@
+{
+    "question": "What part of the tube is rubbed?",
+    "options": [
+        "The tube opening is rubbed.",
+        "The side of the tube is rubbed.",
+        "The cap of the tube is rubbed.",
+        "The bottom of the tube is rubbed.",
+        "The connector of the tube is rubbed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the tube is rubbed? Choose **only one** option from the following list.\nOptions:\n(A) The tube opening is rubbed.\n(B) The side of the tube is rubbed.\n(C) The cap of the tube is rubbed.\n(D) The bottom of the tube is rubbed.\n(E) The connector of the tube is rubbed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The cap of the tube is rubbed."
+    },
+    "correct_idx": [
+        0
+    ]
+}

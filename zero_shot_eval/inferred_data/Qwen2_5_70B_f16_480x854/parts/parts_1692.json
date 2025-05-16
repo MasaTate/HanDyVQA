@@ -1,0 +1,17 @@
+{
+    "question": "What part of the wood is drilled?",
+    "options": [
+        "The lower edge of the thin wood is drilled.",
+        "The middle section of the narrow wood is drilled.",
+        "The end part of the thick wood is drilled.",
+        "The middle edge of the wood is drilled.",
+        "The bent part of the wood is drilled."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the wood is drilled? Choose **only one** option from the following list.\nOptions:\n(A) The lower edge of the thin wood is drilled.\n(B) The middle section of the narrow wood is drilled.\n(C) The end part of the thick wood is drilled.\n(D) The middle edge of the wood is drilled.\n(E) The bent part of the wood is drilled.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The middle section of the narrow wood is drilled."
+    },
+    "correct_idx": [
+        2
+    ]
+}

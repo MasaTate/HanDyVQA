@@ -1,0 +1,17 @@
+{
+    "question": "What part of the lawnmower is the left hand placed?",
+    "options": [
+        "The left hand is situated on the front wheel of the lawnmower.",
+        "The left hand is positioned near the engine cover of the lawnmower.",
+        "The left hand is resting on the grass catcher bag of the lawnmower.",
+        "The left hand is gripping the throttle control of the lawnmower.",
+        "The left hand is placed on the black handle of the lawnmower."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the lawnmower is the left hand placed? Choose **only one** option from the following list.\nOptions:\n(A) The left hand is situated on the front wheel of the lawnmower.\n(B) The left hand is positioned near the engine cover of the lawnmower.\n(C) The left hand is resting on the grass catcher bag of the lawnmower.\n(D) The left hand is gripping the throttle control of the lawnmower.\n(E) The left hand is placed on the black handle of the lawnmower.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The left hand is placed on the black handle of the lawnmower."
+    },
+    "correct_idx": [
+        4
+    ]
+}

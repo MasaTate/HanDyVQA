@@ -1,0 +1,17 @@
+{
+    "question": "What part of the switch is held?",
+    "options": [
+        "The top of the switch near the indicator light is being held.",
+        "The base of the switch where it connects to the wall is being held.",
+        "The side of the switch that faces away from the wall is being held.",
+        "The wire behind the switch is being held.",
+        "The front panel of the switch is being held."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the switch is held? Choose **only one** option from the following list.\nOptions:\n(A) The top of the switch near the indicator light is being held.\n(B) The base of the switch where it connects to the wall is being held.\n(C) The side of the switch that faces away from the wall is being held.\n(D) The wire behind the switch is being held.\n(E) The front panel of the switch is being held.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The base of the switch where it connects to the wall is being held."
+    },
+    "correct_idx": [
+        3
+    ]
+}

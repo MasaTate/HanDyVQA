@@ -1,0 +1,17 @@
+{
+    "question": "What part of the steering rod is removed?",
+    "options": [
+        "The grip section of the steering rod is removed.",
+        "The handle of the steering rod is removed.",
+        "The bearing of the steering rod is removed.",
+        "The shaft of the steering rod is removed.",
+        "The joint of the steering rod is removed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the steering rod is removed? Choose **only one** option from the following list.\nOptions:\n(A) The grip section of the steering rod is removed.\n(B) The handle of the steering rod is removed.\n(C) The bearing of the steering rod is removed.\n(D) The shaft of the steering rod is removed.\n(E) The joint of the steering rod is removed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The joint of the steering rod is removed."
+    },
+    "correct_idx": [
+        2
+    ]
+}

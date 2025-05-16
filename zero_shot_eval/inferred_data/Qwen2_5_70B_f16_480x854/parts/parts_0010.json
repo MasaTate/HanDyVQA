@@ -1,0 +1,17 @@
+{
+    "question": "What part of the page is turned?",
+    "options": [
+        "The bottom corner of the page is turned.",
+        "The center section of the page is turned.",
+        "The left part of the page is turned.",
+        "The right edge of the page is turned.",
+        "The top margin of the page is turned."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the page is turned? Choose **only one** option from the following list.\nOptions:\n(A) The bottom corner of the page is turned.\n(B) The center section of the page is turned.\n(C) The left part of the page is turned.\n(D) The right edge of the page is turned.\n(E) The top margin of the page is turned.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The right edge of the page is turned."
+    },
+    "correct_idx": [
+        2
+    ]
+}

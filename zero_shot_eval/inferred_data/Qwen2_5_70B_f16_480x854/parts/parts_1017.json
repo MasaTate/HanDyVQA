@@ -1,0 +1,17 @@
+{
+    "question": "What part of the grill is moved?",
+    "options": [
+        "The grill net of the grill is removed.",
+        "The side panel of the grill is being adjusted.",
+        "The temperature dial on the grill is turned.",
+        "The smoke box of the grill is lifted.",
+        "The drip tray of the grill is pulled out."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the grill is moved? Choose **only one** option from the following list.\nOptions:\n(A) The grill net of the grill is removed.\n(B) The side panel of the grill is being adjusted.\n(C) The temperature dial on the grill is turned.\n(D) The smoke box of the grill is lifted.\n(E) The drip tray of the grill is pulled out.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The grill net of the grill is removed."
+    },
+    "correct_idx": [
+        0
+    ]
+}

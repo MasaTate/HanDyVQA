@@ -1,0 +1,17 @@
+{
+    "question": "What part of the tree is plucked?",
+    "options": [
+        "The fruit of the tree is plucked.",
+        "The trunk of the tree is plucked.",
+        "The leaves at the top of the tree are plucked.",
+        "The bark of the tree is plucked.",
+        "The branches of the tree are plucked."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the tree is plucked? Choose **only one** option from the following list.\nOptions:\n(A) The fruit of the tree is plucked.\n(B) The trunk of the tree is plucked.\n(C) The leaves at the top of the tree are plucked.\n(D) The bark of the tree is plucked.\n(E) The branches of the tree are plucked.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The leaves at the top of the tree are plucked."
+    },
+    "correct_idx": [
+        0
+    ]
+}

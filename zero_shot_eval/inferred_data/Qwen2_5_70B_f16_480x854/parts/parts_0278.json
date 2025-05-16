@@ -1,0 +1,17 @@
+{
+    "question": "What part of the wall is painted?",
+    "options": [
+        "The corner section of the wall is painted.",
+        "The green color part of the wall is painted.",
+        "The top edge of the wall is painted.",
+        "The framework around the wall is painted.",
+        "The lower section of the wall is painted."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the wall is painted? Choose **only one** option from the following list.\nOptions:\n(A) The corner section of the wall is painted.\n(B) The green color part of the wall is painted.\n(C) The top edge of the wall is painted.\n(D) The framework around the wall is painted.\n(E) The lower section of the wall is painted.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The green color part of the wall is painted."
+    },
+    "correct_idx": [
+        1
+    ]
+}

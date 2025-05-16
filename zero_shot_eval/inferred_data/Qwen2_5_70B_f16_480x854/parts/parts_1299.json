@@ -1,0 +1,17 @@
+{
+    "question": "What part of the paint brush is dipped?",
+    "options": [
+        "The middle section of the paint brush is soaked.",
+        "The base of the paint brush is submerged.",
+        "The tip of the paint brush is dipped.",
+        "The ferrule of the paint brush is covered in paint.",
+        "The entire paint brush is dipped."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the paint brush is dipped? Choose **only one** option from the following list.\nOptions:\n(A) The middle section of the paint brush is soaked.\n(B) The base of the paint brush is submerged.\n(C) The tip of the paint brush is dipped.\n(D) The ferrule of the paint brush is covered in paint.\n(E) The entire paint brush is dipped.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The tip of the paint brush is dipped."
+    },
+    "correct_idx": [
+        2
+    ]
+}

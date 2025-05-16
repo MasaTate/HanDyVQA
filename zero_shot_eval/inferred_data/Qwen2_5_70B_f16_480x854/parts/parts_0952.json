@@ -1,0 +1,17 @@
+{
+    "question": "What part of the paint brush is held?",
+    "options": [
+        "The handle tip of the paint brush is held.",
+        "The middle of the paint brush is held.",
+        "The brush tip of the paint brush is held.",
+        "The joint of the paint brush is held.",
+        "The metal part of the paint brush is held."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the paint brush is held? Choose **only one** option from the following list.\nOptions:\n(A) The handle tip of the paint brush is held.\n(B) The middle of the paint brush is held.\n(C) The brush tip of the paint brush is held.\n(D) The joint of the paint brush is held.\n(E) The metal part of the paint brush is held.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The joint of the paint brush is held."
+    },
+    "correct_idx": [
+        1
+    ]
+}

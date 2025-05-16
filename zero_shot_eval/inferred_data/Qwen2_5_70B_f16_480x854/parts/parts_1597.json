@@ -1,0 +1,17 @@
+{
+    "question": "What part of the spice container is opened?",
+    "options": [
+        "The bottom of the spice container was opened.",
+        "The side of the spice container was opened.",
+        "The base of the spice container was opened.",
+        "The lid's rim of the spice container was opened.",
+        "The lid of the spice container was opened."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the spice container is opened? Choose **only one** option from the following list.\nOptions:\n(A) The bottom of the spice container was opened.\n(B) The side of the spice container was opened.\n(C) The base of the spice container was opened.\n(D) The lid's rim of the spice container was opened.\n(E) The lid of the spice container was opened.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The lid of the spice container was opened."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the constructed steel sheets is joined?",
+    "options": [
+        "The upper part of the constructed steel sheets is joined.",
+        "The middle part of the constructed steel sheets is joined.",
+        "The bottom part of the constructed steel sheets is joined.",
+        "The upper right part of the constructed steel sheet is joined.",
+        "The middle left part of the constructed steel sheet is joined."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the constructed steel sheets is joined? Choose **only one** option from the following list.\nOptions:\n(A) The upper part of the constructed steel sheets is joined.\n(B) The middle part of the constructed steel sheets is joined.\n(C) The bottom part of the constructed steel sheets is joined.\n(D) The upper right part of the constructed steel sheet is joined.\n(E) The middle left part of the constructed steel sheet is joined.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The bottom part of the constructed steel sheets is joined."
+    },
+    "correct_idx": [
+        2
+    ]
+}

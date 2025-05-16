@@ -1,0 +1,17 @@
+{
+    "question": "What part of the laptop is tapped?",
+    "options": [
+        "The keyboard of the laptop is tapped.",
+        "The screen of the laptop is tapped.",
+        "The bottom of the laptop is tapped.",
+        "The trackpad of the laptop is tapped.",
+        "The side of the laptop is tapped."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the laptop is tapped? Choose **only one** option from the following list.\nOptions:\n(A) The keyboard of the laptop is tapped.\n(B) The screen of the laptop is tapped.\n(C) The bottom of the laptop is tapped.\n(D) The trackpad of the laptop is tapped.\n(E) The side of the laptop is tapped.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The screen of the laptop is tapped."
+    },
+    "correct_idx": [
+        1
+    ]
+}

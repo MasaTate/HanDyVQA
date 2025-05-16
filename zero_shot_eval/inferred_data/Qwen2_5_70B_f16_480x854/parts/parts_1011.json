@@ -1,0 +1,17 @@
+{
+    "question": "What part of the drawer is the pan placed?",
+    "options": [
+        "The pan is placed in the back corner of the drawer.",
+        "The pan is placed at the left part of the drawer.",
+        "The pan is placed on the top edge of the drawer.",
+        "The pan is placed near the center of the drawer.",
+        "The pan is placed in the right side of the drawer."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the drawer is the pan placed? Choose **only one** option from the following list.\nOptions:\n(A) The pan is placed in the back corner of the drawer.\n(B) The pan is placed at the left part of the drawer.\n(C) The pan is placed on the top edge of the drawer.\n(D) The pan is placed near the center of the drawer.\n(E) The pan is placed in the right side of the drawer.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The pan is placed in the back corner of the drawer."
+    },
+    "correct_idx": [
+        1
+    ]
+}

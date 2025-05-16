@@ -1,0 +1,17 @@
+{
+    "question": "What part of the thread is cut?",
+    "options": [
+        "The middle section of the thread is cut.",
+        "The outer edge of the thread is cut.",
+        "The beginning portion of the thread is cut.",
+        "The end tip of the thread is cut.",
+        "The upper layer of the thread is cut."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the thread is cut? Choose **only one** option from the following list.\nOptions:\n(A) The middle section of the thread is cut.\n(B) The outer edge of the thread is cut.\n(C) The beginning portion of the thread is cut.\n(D) The end tip of the thread is cut.\n(E) The upper layer of the thread is cut.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The end tip of the thread is cut."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the blender jar is picked up?",
+    "options": [
+        "The outer rim and the base of the jar are picked up.",
+        "The handle and the bottom edge of the jar are picked up.",
+        "The spout and the bottom side of the jar are picked up.",
+        "The inside and the lid of the jar are picked up.",
+        "The lid and the ingredients in the jar are picked up."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the blender jar is picked up? Choose **only one** option from the following list.\nOptions:\n(A) The outer rim and the base of the jar are picked up.\n(B) The handle and the bottom edge of the jar are picked up.\n(C) The spout and the bottom side of the jar are picked up.\n(D) The inside and the lid of the jar are picked up.\n(E) The lid and the ingredients in the jar are picked up.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The lid and the ingredients in the jar are picked up."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the coffee maker is adjusted?",
+    "options": [
+        "The water reservoir of the coffee maker is adjusted.",
+        "The paper filter of the coffee maker is adjusted.",
+        "The power switch of the coffee maker is adjusted.",
+        "The coffee grounds container of the coffee maker is adjusted.",
+        "The drip tray of the coffee maker is adjusted."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the coffee maker is adjusted? Choose **only one** option from the following list.\nOptions:\n(A) The water reservoir of the coffee maker is adjusted.\n(B) The paper filter of the coffee maker is adjusted.\n(C) The power switch of the coffee maker is adjusted.\n(D) The coffee grounds container of the coffee maker is adjusted.\n(E) The drip tray of the coffee maker is adjusted.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The paper filter of the coffee maker is adjusted."
+    },
+    "correct_idx": [
+        1
+    ]
+}

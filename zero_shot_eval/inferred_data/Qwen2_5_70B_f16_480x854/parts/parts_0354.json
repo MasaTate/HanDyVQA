@@ -1,0 +1,17 @@
+{
+    "question": "What part of the metal pipe is scratched?",
+    "options": [
+        "The bottom side of the metal pipe is scratched.",
+        "The middle of the metal pipe is scratched.",
+        "The curved edge of the metal pipe is scratched.",
+        "The top of the metal pipe is scratched.",
+        "The base of the metal pipe is scratched."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the metal pipe is scratched? Choose **only one** option from the following list.\nOptions:\n(A) The bottom side of the metal pipe is scratched.\n(B) The middle of the metal pipe is scratched.\n(C) The curved edge of the metal pipe is scratched.\n(D) The top of the metal pipe is scratched.\n(E) The base of the metal pipe is scratched.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The top of the metal pipe is scratched."
+    },
+    "correct_idx": [
+        3
+    ]
+}

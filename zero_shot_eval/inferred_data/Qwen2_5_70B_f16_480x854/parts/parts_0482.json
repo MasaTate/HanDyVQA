@@ -1,0 +1,17 @@
+{
+    "question": "What part of the container is held?",
+    "options": [
+        "The lid of the container is being held.",
+        "The base of the container is being held.",
+        "The spout of the container is being held.",
+        "The rim of the container is being held.",
+        "The body of the container is being held."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the container is held? Choose **only one** option from the following list.\nOptions:\n(A) The lid of the container is being held.\n(B) The base of the container is being held.\n(C) The spout of the container is being held.\n(D) The rim of the container is being held.\n(E) The body of the container is being held.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The lid of the container is being held."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the paint set is rubbed?",
+    "options": [
+        "The left corner of the paint set is rubbed.",
+        "The right edge of the paint set is rubbed.",
+        "The top surface of the paint set is rubbed.",
+        "The bottom side of the paint set is rubbed.",
+        "The middle section of the paint set is rubbed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the paint set is rubbed? Choose **only one** option from the following list.\nOptions:\n(A) The left corner of the paint set is rubbed.\n(B) The right edge of the paint set is rubbed.\n(C) The top surface of the paint set is rubbed.\n(D) The bottom side of the paint set is rubbed.\n(E) The middle section of the paint set is rubbed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The middle section of the paint set is rubbed."
+    },
+    "correct_idx": [
+        0
+    ]
+}

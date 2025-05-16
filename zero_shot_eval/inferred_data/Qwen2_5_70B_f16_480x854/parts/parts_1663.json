@@ -1,0 +1,17 @@
+{
+    "question": "What part of the carrot is peeled?",
+    "options": [
+        "The tip end of the carrot is peeled.",
+        "The top green leaves of the carrot are peeled.",
+        "The side skin of the carrot is peeled.",
+        "The core center of the carrot is peeled.",
+        "The bottom root portion of the carrot is peeled."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the carrot is peeled? Choose **only one** option from the following list.\nOptions:\n(A) The tip end of the carrot is peeled.\n(B) The top green leaves of the carrot are peeled.\n(C) The side skin of the carrot is peeled.\n(D) The core center of the carrot is peeled.\n(E) The bottom root portion of the carrot is peeled.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The side skin of the carrot is peeled."
+    },
+    "correct_idx": [
+        2
+    ]
+}

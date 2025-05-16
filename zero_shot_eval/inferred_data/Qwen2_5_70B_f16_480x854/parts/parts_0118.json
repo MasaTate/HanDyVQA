@@ -1,0 +1,17 @@
+{
+    "question": "What part of the water reservoir is secured?",
+    "options": [
+        "The spout area of the water reservoir is secured.",
+        "The side wall of the water reservoir is secured.",
+        "The lid part of the water reservoir is secured.",
+        "The base section of the water reservoir is secured.",
+        "The inner chamber of the water reservoir is secured."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the water reservoir is secured? Choose **only one** option from the following list.\nOptions:\n(A) The spout area of the water reservoir is secured.\n(B) The side wall of the water reservoir is secured.\n(C) The lid part of the water reservoir is secured.\n(D) The base section of the water reservoir is secured.\n(E) The inner chamber of the water reservoir is secured.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The lid part of the water reservoir is secured."
+    },
+    "correct_idx": [
+        2
+    ]
+}

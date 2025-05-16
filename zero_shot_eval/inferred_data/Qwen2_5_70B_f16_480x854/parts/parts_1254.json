@@ -1,0 +1,17 @@
+{
+    "question": "What part of the lawn mower is lowered?",
+    "options": [
+        "The engine compartment of the lawn mower is lowered.",
+        "The seat section of the lawn mower is lowered.",
+        "The front wheel assembly of the lawn mower is lowered.",
+        "The handle grip area of the lawn mower is lowered.",
+        "The rear discharge chute of the lawn mower is lowered."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the lawn mower is lowered? Choose **only one** option from the following list.\nOptions:\n(A) The engine compartment of the lawn mower is lowered.\n(B) The seat section of the lawn mower is lowered.\n(C) The front wheel assembly of the lawn mower is lowered.\n(D) The handle grip area of the lawn mower is lowered.\n(E) The rear discharge chute of the lawn mower is lowered.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The engine compartment of the lawn mower is lowered."
+    },
+    "correct_idx": [
+        1
+    ]
+}

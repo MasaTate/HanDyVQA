@@ -1,0 +1,17 @@
+{
+    "question": "What part of the rice cooker is picked?",
+    "options": [
+        "The chord of the rice cooker is picked.",
+        "The lid of the rice cooker is picked.",
+        "The steam vent of the rice cooker is picked.",
+        "The bottom panel of the rice cooker is picked.",
+        "The handle of the rice cooker is picked."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the rice cooker is picked? Choose **only one** option from the following list.\nOptions:\n(A) The chord of the rice cooker is picked.\n(B) The lid of the rice cooker is picked.\n(C) The steam vent of the rice cooker is picked.\n(D) The bottom panel of the rice cooker is picked.\n(E) The handle of the rice cooker is picked.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The chord of the rice cooker is picked."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the blender is hit?",
+    "options": [
+        "The side of the container inside the blender is hit.",
+        "The top lid of the blender is hit.",
+        "The base of the motor beneath the blender is hit.",
+        "The bottom of the blender's container is hit.",
+        "The gear part of the blender's container is hit."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the blender is hit? Choose **only one** option from the following list.\nOptions:\n(A) The side of the container inside the blender is hit.\n(B) The top lid of the blender is hit.\n(C) The base of the motor beneath the blender is hit.\n(D) The bottom of the blender's container is hit.\n(E) The gear part of the blender's container is hit.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The bottom of the blender's container is hit."
+    },
+    "correct_idx": [
+        0
+    ]
+}

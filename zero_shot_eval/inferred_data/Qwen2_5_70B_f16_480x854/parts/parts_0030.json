@@ -1,0 +1,17 @@
+{
+    "question": "What part of the pacman frog is fed?",
+    "options": [
+        "The tail of the syringe is putted in the mouth.",
+        "The Flued path of the syringe is putted in the mouth.",
+        "The legs of the syringe is putted in the mouth.",
+        "The back of the syringe is putted in the mouth.",
+        "The sides of the syringe is putted in the mouth."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the pacman frog is fed? Choose **only one** option from the following list.\nOptions:\n(A) The tail of the syringe is putted in the mouth.\n(B) The Flued path of the syringe is putted in the mouth.\n(C) The legs of the syringe is putted in the mouth.\n(D) The back of the syringe is putted in the mouth.\n(E) The sides of the syringe is putted in the mouth.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The Flued path of the syringe is putted in the mouth."
+    },
+    "correct_idx": [
+        1
+    ]
+}

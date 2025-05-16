@@ -1,0 +1,17 @@
+{
+    "question": "What part of the brick is wet?",
+    "options": [
+        "The bottom edge of the brick is wet.",
+        "The interior section of the brick is wet.",
+        "The corners of the brick are wet.",
+        "The surface of the brick is wet.",
+        "The top end of the brick is wet."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the brick is wet? Choose **only one** option from the following list.\nOptions:\n(A) The bottom edge of the brick is wet.\n(B) The interior section of the brick is wet.\n(C) The corners of the brick are wet.\n(D) The surface of the brick is wet.\n(E) The top end of the brick is wet.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The surface of the brick is wet."
+    },
+    "correct_idx": [
+        3
+    ]
+}

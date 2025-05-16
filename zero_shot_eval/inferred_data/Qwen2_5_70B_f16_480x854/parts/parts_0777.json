@@ -1,0 +1,17 @@
+{
+    "question": "What part of the sticker is having glue removed?",
+    "options": [
+        "The back edge of the sticker is having glue removed.",
+        "The front part of the sticker is having glue removed.",
+        "The corner of the sticker is having glue removed.",
+        "The side of the sticker opposite the glue is having glue removed.",
+        "The bottom layer of the sticker is having glue removed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the sticker is having glue removed? Choose **only one** option from the following list.\nOptions:\n(A) The back edge of the sticker is having glue removed.\n(B) The front part of the sticker is having glue removed.\n(C) The corner of the sticker is having glue removed.\n(D) The side of the sticker opposite the glue is having glue removed.\n(E) The bottom layer of the sticker is having glue removed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The corner of the sticker is having glue removed."
+    },
+    "correct_idx": [
+        1
+    ]
+}

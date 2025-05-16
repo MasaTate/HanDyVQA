@@ -1,0 +1,17 @@
+{
+    "question": "What part of the knife is the onion removed from?",
+    "options": [
+        "The onion removed from the tip of the knife.",
+        "The onion removed from the handle of the knife.",
+        "The onion removed from the base of the knife blade.",
+        "The onion removed from the both sides of the knife.",
+        "The onion removed from the spine of the knife."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the knife is the onion removed from? Choose **only one** option from the following list.\nOptions:\n(A) The onion removed from the tip of the knife.\n(B) The onion removed from the handle of the knife.\n(C) The onion removed from the base of the knife blade.\n(D) The onion removed from the both sides of the knife.\n(E) The onion removed from the spine of the knife.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The onion removed from the base of the knife blade."
+    },
+    "correct_idx": [
+        3
+    ]
+}

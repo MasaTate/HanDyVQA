@@ -1,0 +1,17 @@
+{
+    "question": "What part of the object is loosened?",
+    "options": [
+        "The bolt of the object is loosened.",
+        "The washer of the object is loosened.",
+        "The nut of the object is loosened.",
+        "The screw at the top of the object is loosened.",
+        "The grip of the object is loosened."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the object is loosened? Choose **only one** option from the following list.\nOptions:\n(A) The bolt of the object is loosened.\n(B) The washer of the object is loosened.\n(C) The nut of the object is loosened.\n(D) The screw at the top of the object is loosened.\n(E) The grip of the object is loosened.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The nut of the object is loosened."
+    },
+    "correct_idx": [
+        2
+    ]
+}

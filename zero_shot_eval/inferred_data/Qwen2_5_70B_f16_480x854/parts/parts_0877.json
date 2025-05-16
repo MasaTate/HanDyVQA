@@ -1,0 +1,17 @@
+{
+    "question": "What part of the knife is picked up?",
+    "options": [
+        "The spine of the knife is picked up.",
+        "The bolster of the knife is picked up.",
+        "The tip of the knife is picked up.",
+        "The blade edge of the knife is picked up.",
+        "The handle of the knife is picked up."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the knife is picked up? Choose **only one** option from the following list.\nOptions:\n(A) The spine of the knife is picked up.\n(B) The bolster of the knife is picked up.\n(C) The tip of the knife is picked up.\n(D) The blade edge of the knife is picked up.\n(E) The handle of the knife is picked up.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The handle of the knife is picked up."
+    },
+    "correct_idx": [
+        4
+    ]
+}

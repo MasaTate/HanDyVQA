@@ -1,0 +1,17 @@
+{
+    "question": "What part of the junction box is held?",
+    "options": [
+        "The wire on the junction box is held.",
+        "The latch of the junction box is being held.",
+        "The side panel of the junction box is held.",
+        "The cover of the junction box is being held.",
+        "The bottom edge of the junction box is held."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the junction box is held? Choose **only one** option from the following list.\nOptions:\n(A) The wire on the junction box is held.\n(B) The latch of the junction box is being held.\n(C) The side panel of the junction box is held.\n(D) The cover of the junction box is being held.\n(E) The bottom edge of the junction box is held.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The wire on the junction box is held."
+    },
+    "correct_idx": [
+        0
+    ]
+}

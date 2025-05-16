@@ -1,0 +1,17 @@
+{
+    "question": "What part of the bucket is the clay picked from?",
+    "options": [
+        "The clay is picked from the base of the bucket.",
+        "The clay is picked from the interior wall of the bucket.",
+        "The clay is picked from the rim of the bucket.",
+        "The clay is picked from the lid of the bucket.",
+        "The clay is picked from bottom of the bucket."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the bucket is the clay picked from? Choose **only one** option from the following list.\nOptions:\n(A) The clay is picked from the base of the bucket.\n(B) The clay is picked from the interior wall of the bucket.\n(C) The clay is picked from the rim of the bucket.\n(D) The clay is picked from the lid of the bucket.\n(E) The clay is picked from bottom of the bucket.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The clay is picked from the interior wall of the bucket."
+    },
+    "correct_idx": [
+        2
+    ]
+}

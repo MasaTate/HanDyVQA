@@ -1,0 +1,17 @@
+{
+    "question": "What part of the oven is pulled?",
+    "options": [
+        "The upper control panel of the oven is pulled.",
+        "The oven door handle is pulled.",
+        "The side access panel of the oven is pulled.",
+        "The top baking tray of the oven is pulled.",
+        "The bottom ventilation grate of the oven is pulled."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the oven is pulled? Choose **only one** option from the following list.\nOptions:\n(A) The upper control panel of the oven is pulled.\n(B) The oven door handle is pulled.\n(C) The side access panel of the oven is pulled.\n(D) The top baking tray of the oven is pulled.\n(E) The bottom ventilation grate of the oven is pulled.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The side access panel of the oven is pulled."
+    },
+    "correct_idx": [
+        4
+    ]
+}

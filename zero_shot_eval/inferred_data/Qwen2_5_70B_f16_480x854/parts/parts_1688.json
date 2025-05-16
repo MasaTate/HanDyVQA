@@ -1,0 +1,17 @@
+{
+    "question": "What part of the curtain is pushed?",
+    "options": [
+        "The center portion of the curtain is pushed.",
+        "The right edge of the curtain is pushed.",
+        "The very top of the curtain is pushed.",
+        "The left part of the curtain is pushed.",
+        "The bottom hem of the curtain is pushed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the curtain is pushed? Choose **only one** option from the following list.\nOptions:\n(A) The center portion of the curtain is pushed.\n(B) The right edge of the curtain is pushed.\n(C) The very top of the curtain is pushed.\n(D) The left part of the curtain is pushed.\n(E) The bottom hem of the curtain is pushed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The left part of the curtain is pushed."
+    },
+    "correct_idx": [
+        3
+    ]
+}

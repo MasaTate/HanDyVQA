@@ -1,0 +1,17 @@
+{
+    "question": "What part of the gasoline container is inserted?",
+    "options": [
+        "The spout of the gasoline container is inserted.",
+        "The handle of the gasoline container is inserted.",
+        "The base of the gasoline container is inserted.",
+        "The cover of the gasoline container is inserted.",
+        "The side of the gasoline container is inserted."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the gasoline container is inserted? Choose **only one** option from the following list.\nOptions:\n(A) The spout of the gasoline container is inserted.\n(B) The handle of the gasoline container is inserted.\n(C) The base of the gasoline container is inserted.\n(D) The cover of the gasoline container is inserted.\n(E) The side of the gasoline container is inserted.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The spout of the gasoline container is inserted."
+    },
+    "correct_idx": [
+        3
+    ]
+}

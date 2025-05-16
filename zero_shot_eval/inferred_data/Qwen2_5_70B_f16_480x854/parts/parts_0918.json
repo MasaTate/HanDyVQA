@@ -1,0 +1,17 @@
+{
+    "question": "What part of the earmuff is touched?",
+    "options": [
+        "The ear cup is the part of the earmuff that is touched.",
+        "The top strap is the part of the earmuff that is touched.",
+        "The adjustment knob is the part of the earmuff that is touched.",
+        "The padding on the inside is the part of the earmuff that is touched.",
+        "The side clip is the part of the earmuff that is touched."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the earmuff is touched? Choose **only one** option from the following list.\nOptions:\n(A) The ear cup is the part of the earmuff that is touched.\n(B) The top strap is the part of the earmuff that is touched.\n(C) The adjustment knob is the part of the earmuff that is touched.\n(D) The padding on the inside is the part of the earmuff that is touched.\n(E) The side clip is the part of the earmuff that is touched.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The top strap is the part of the earmuff that is touched."
+    },
+    "correct_idx": [
+        0
+    ]
+}

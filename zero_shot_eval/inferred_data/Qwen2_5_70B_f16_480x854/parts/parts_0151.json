@@ -1,0 +1,17 @@
+{
+    "question": "What part of the tube is opened?",
+    "options": [
+        "The bottom side of the tube is opened.",
+        "The middle section of the tube is opened.",
+        "The inner cap of the tube is opened.",
+        "The side seam of the tube is opened.",
+        "The lid part of the tube is opened."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the tube is opened? Choose **only one** option from the following list.\nOptions:\n(A) The bottom side of the tube is opened.\n(B) The middle section of the tube is opened.\n(C) The inner cap of the tube is opened.\n(D) The side seam of the tube is opened.\n(E) The lid part of the tube is opened.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The lid part of the tube is opened."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the quad bike is tightened?",
+    "options": [
+        "The lower part of the quad bike is tightened.",
+        "The upper section of the quad bike.",
+        "The rear axle of the quad bike.",
+        "The front suspension of the quad bike.",
+        "The side panel of the quad bike."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the quad bike is tightened? Choose **only one** option from the following list.\nOptions:\n(A) The lower part of the quad bike is tightened.\n(B) The upper section of the quad bike.\n(C) The rear axle of the quad bike.\n(D) The front suspension of the quad bike.\n(E) The side panel of the quad bike.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The lower part of the quad bike is tightened."
+    },
+    "correct_idx": [
+        0
+    ]
+}

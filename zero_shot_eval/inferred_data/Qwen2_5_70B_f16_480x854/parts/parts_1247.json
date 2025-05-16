@@ -1,0 +1,17 @@
+{
+    "question": "What part of the medical fridge is opened?",
+    "options": [
+        "The ventilation panel on the top of the medical fridge is opened.",
+        "The door and glass door of the medical fridge are opened.",
+        "The side compartment of the medical fridge is opened.",
+        "The bottom drawer of the medical fridge is opened.",
+        "The control panel on the front of the medical fridge is opened."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the medical fridge is opened? Choose **only one** option from the following list.\nOptions:\n(A) The ventilation panel on the top of the medical fridge is opened.\n(B) The door and glass door of the medical fridge are opened.\n(C) The side compartment of the medical fridge is opened.\n(D) The bottom drawer of the medical fridge is opened.\n(E) The control panel on the front of the medical fridge is opened.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The door and glass door of the medical fridge are opened."
+    },
+    "correct_idx": [
+        1
+    ]
+}

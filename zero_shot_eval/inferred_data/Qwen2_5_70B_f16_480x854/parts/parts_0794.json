@@ -1,0 +1,17 @@
+{
+    "question": "What part of the vent cover is fastened?",
+    "options": [
+        "The clips of the vent cover are secured.",
+        "The screws of the vent cover are fastened.",
+        "The edge of the vent cover is bolted down.",
+        "The back panel of the vent cover is locked in place.",
+        "The grille of the vent cover is attached firmly."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the vent cover is fastened? Choose **only one** option from the following list.\nOptions:\n(A) The clips of the vent cover are secured.\n(B) The screws of the vent cover are fastened.\n(C) The edge of the vent cover is bolted down.\n(D) The back panel of the vent cover is locked in place.\n(E) The grille of the vent cover is attached firmly.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The clips of the vent cover are secured."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the wood is wiped?",
+    "options": [
+        "The left edge of the wood is being wiped.",
+        "The right surface of the wood is being wiped.",
+        "The bottom corner of the wood is being wiped.",
+        "The inner grain of the wood is being wiped.",
+        "The bottom edge of the wood is being wiped."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the wood is wiped? Choose **only one** option from the following list.\nOptions:\n(A) The left edge of the wood is being wiped.\n(B) The right surface of the wood is being wiped.\n(C) The bottom corner of the wood is being wiped.\n(D) The inner grain of the wood is being wiped.\n(E) The bottom edge of the wood is being wiped.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The right surface of the wood is being wiped."
+    },
+    "correct_idx": [
+        1
+    ]
+}

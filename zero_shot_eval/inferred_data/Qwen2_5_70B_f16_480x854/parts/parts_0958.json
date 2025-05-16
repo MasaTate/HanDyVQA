@@ -1,0 +1,17 @@
+{
+    "question": "What part of the book is opened?",
+    "options": [
+        "The spine of the book is opened.",
+        "The cover of the book is opened.",
+        "The back page of the book is opened.",
+        "The middle page of the book is opened.",
+        "The bookmark section of the book is opened."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the book is opened? Choose **only one** option from the following list.\nOptions:\n(A) The spine of the book is opened.\n(B) The cover of the book is opened.\n(C) The back page of the book is opened.\n(D) The middle page of the book is opened.\n(E) The bookmark section of the book is opened.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The middle page of the book is opened."
+    },
+    "correct_idx": [
+        3
+    ]
+}

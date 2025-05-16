@@ -1,0 +1,17 @@
+{
+    "question": "What part of the spring onion is cut?",
+    "options": [
+        "The root end of the spring onion is cut.",
+        "The green top of the spring onion is cut.",
+        "The middle section of the spring onion is cut.",
+        "The outer layer of the spring onion is cut.",
+        "The bulb end of the spring onion is cut."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the spring onion is cut? Choose **only one** option from the following list.\nOptions:\n(A) The root end of the spring onion is cut.\n(B) The green top of the spring onion is cut.\n(C) The middle section of the spring onion is cut.\n(D) The outer layer of the spring onion is cut.\n(E) The bulb end of the spring onion is cut.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The root end of the spring onion is cut."
+    },
+    "correct_idx": [
+        0
+    ]
+}

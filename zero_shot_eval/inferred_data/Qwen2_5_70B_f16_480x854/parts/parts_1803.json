@@ -1,0 +1,17 @@
+{
+    "question": "What part of the elastic strap is cut?",
+    "options": [
+        "The middle part of the elastic strap is cut.",
+        "The end section of the elastic strap is cut.",
+        "The looped section of the elastic strap is cut.",
+        "The edge of the elastic strap is cut.",
+        "The upper part of the elastic strap is cut."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the elastic strap is cut? Choose **only one** option from the following list.\nOptions:\n(A) The middle part of the elastic strap is cut.\n(B) The end section of the elastic strap is cut.\n(C) The looped section of the elastic strap is cut.\n(D) The edge of the elastic strap is cut.\n(E) The upper part of the elastic strap is cut.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The end section of the elastic strap is cut."
+    },
+    "correct_idx": [
+        0
+    ]
+}

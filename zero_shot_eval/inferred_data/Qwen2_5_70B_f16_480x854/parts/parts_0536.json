@@ -1,0 +1,17 @@
+{
+    "question": "What part of the hand is cleaned?",
+    "options": [
+        "The back of the hand is cleaned.",
+        "The fingers of the hand are cleaned.",
+        "The wrist area of the hand is cleaned.",
+        "The knuckles of the hand are cleaned.",
+        "The left palm of the hand is cleaned."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the hand is cleaned? Choose **only one** option from the following list.\nOptions:\n(A) The back of the hand is cleaned.\n(B) The fingers of the hand are cleaned.\n(C) The wrist area of the hand is cleaned.\n(D) The knuckles of the hand are cleaned.\n(E) The left palm of the hand is cleaned.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The left palm of the hand is cleaned."
+    },
+    "correct_idx": [
+        4
+    ]
+}

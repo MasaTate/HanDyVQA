@@ -1,0 +1,17 @@
+{
+    "question": "What part of the scooter motorcycle is detached?",
+    "options": [
+        "The front fork part of the motorcycle scooter is being detached.",
+        "The rear wheel assembly of the motorcycle scooter is being detached.",
+        "The handlebars section of the motorcycle scooter is being detached.",
+        "The seat cushion of the motorcycle scooter is being detached.",
+        "The engine cover of the motorcycle scooter is being detached."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the scooter motorcycle is detached? Choose **only one** option from the following list.\nOptions:\n(A) The front fork part of the motorcycle scooter is being detached.\n(B) The rear wheel assembly of the motorcycle scooter is being detached.\n(C) The handlebars section of the motorcycle scooter is being detached.\n(D) The seat cushion of the motorcycle scooter is being detached.\n(E) The engine cover of the motorcycle scooter is being detached.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The engine cover of the motorcycle scooter is being detached."
+    },
+    "correct_idx": [
+        0
+    ]
+}

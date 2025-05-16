@@ -1,0 +1,17 @@
+{
+    "question": "What part of the paper is cleaned by the index finger?",
+    "options": [
+        "The right side of the paper is cleaned by the index finger.",
+        "The top corner of the paper is cleaned by the index finger.",
+        "The center of the paper is cleaned by the index finger.",
+        "The bottom edge of the paper is cleaned by the index finger.",
+        "The left margin of the paper is cleaned by the index finger."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the paper is cleaned by the index finger? Choose **only one** option from the following list.\nOptions:\n(A) The right side of the paper is cleaned by the index finger.\n(B) The top corner of the paper is cleaned by the index finger.\n(C) The center of the paper is cleaned by the index finger.\n(D) The bottom edge of the paper is cleaned by the index finger.\n(E) The left margin of the paper is cleaned by the index finger.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The top corner of the paper is cleaned by the index finger."
+    },
+    "correct_idx": [
+        0
+    ]
+}

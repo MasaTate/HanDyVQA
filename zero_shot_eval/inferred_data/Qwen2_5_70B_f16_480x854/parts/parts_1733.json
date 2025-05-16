@@ -1,0 +1,17 @@
+{
+    "question": "What part of the carburetor is touched?",
+    "options": [
+        "The throttle plate of the carburetor is touched.",
+        "The inlet manifold of the carburetor is touched.",
+        "The casing of the carburetor is touched.",
+        "The fuel jet of the carburetor is touched.",
+        "The white part of the caburetor is touched."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the carburetor is touched? Choose **only one** option from the following list.\nOptions:\n(A) The throttle plate of the carburetor is touched.\n(B) The inlet manifold of the carburetor is touched.\n(C) The casing of the carburetor is touched.\n(D) The fuel jet of the carburetor is touched.\n(E) The white part of the caburetor is touched.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The casing of the carburetor is touched."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the laptop is the screwdriver inserted into?",
+    "options": [
+        "The left side of the laptop's touchpad is where the screwdriver is inserted.",
+        "The keyboard of laptop is inserted of screwdriver. ",
+        "The back panel of the laptop is the area where the screwdriver enters.",
+        "The right edge of the laptop screen is where the screwdriver is being inserted.",
+        "The bottom part of the screen of the laptop is where the screwdriver is being inserted. "
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the laptop is the screwdriver inserted into? Choose **only one** option from the following list.\nOptions:\n(A) The left side of the laptop's touchpad is where the screwdriver is inserted.\n(B) The keyboard of laptop is inserted of screwdriver. \n(C) The back panel of the laptop is the area where the screwdriver enters.\n(D) The right edge of the laptop screen is where the screwdriver is being inserted.\n(E) The bottom part of the screen of the laptop is where the screwdriver is being inserted. \n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The keyboard of laptop is inserted of screwdriver."
+    },
+    "correct_idx": [
+        1
+    ]
+}

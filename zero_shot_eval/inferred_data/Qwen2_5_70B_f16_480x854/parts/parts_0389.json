@@ -1,0 +1,17 @@
+{
+    "question": "What part of the dough is adjusted?",
+    "options": [
+        "The dough is adjusted in the mid part only.",
+        "The dough is adjusted in the left side only.",
+        "The dough is adjusted from the right to the left side of the dough.",
+        "The dough is adjusted in the right side only.",
+        "The dough is adjusted from the left to the right side of the dough"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the dough is adjusted? Choose **only one** option from the following list.\nOptions:\n(A) The dough is adjusted in the mid part only.\n(B) The dough is adjusted in the left side only.\n(C) The dough is adjusted from the right to the left side of the dough.\n(D) The dough is adjusted in the right side only.\n(E) The dough is adjusted from the left to the right side of the dough\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The dough is adjusted from the left to the right side of the dough"
+    },
+    "correct_idx": [
+        2
+    ]
+}

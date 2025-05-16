@@ -1,0 +1,17 @@
+{
+    "question": "What part of the pot is removed?",
+    "options": [
+        "The lid is the part of the pot that is removed.",
+        "The handle is the part of the pot that is removed.",
+        "The bottom of the pot is the part that is removed.",
+        "The spout is the part of the pot that is removed.",
+        "The rim is the part of the pot that is removed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the pot is removed? Choose **only one** option from the following list.\nOptions:\n(A) The lid is the part of the pot that is removed.\n(B) The handle is the part of the pot that is removed.\n(C) The bottom of the pot is the part that is removed.\n(D) The spout is the part of the pot that is removed.\n(E) The rim is the part of the pot that is removed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The lid is the part of the pot that is removed."
+    },
+    "correct_idx": [
+        0
+    ]
+}

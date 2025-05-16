@@ -1,0 +1,17 @@
+{
+    "question": "What part of the bicycle is the bolt inserted into?",
+    "options": [
+        "The bolt is inserted into the gear shifter of the bicycle.",
+        "The bolt is inserted into the brake caliper of the bicycle.",
+        "The bolt is inserted into the tire of the bicycle.",
+        "The bolt is inserted into the side tube of the bicycle.",
+        "The bolt is inserted into the head tube of the bicycle."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the bicycle is the bolt inserted into? Choose **only one** option from the following list.\nOptions:\n(A) The bolt is inserted into the gear shifter of the bicycle.\n(B) The bolt is inserted into the brake caliper of the bicycle.\n(C) The bolt is inserted into the tire of the bicycle.\n(D) The bolt is inserted into the side tube of the bicycle.\n(E) The bolt is inserted into the head tube of the bicycle.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The bolt is inserted into the head tube of the bicycle."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the dog straps is adjusted?",
+    "options": [
+        "The clasp at the back of the straps is adjusted.",
+        "The buckle on the collar is adjusted.",
+        "The loop of the dog strap in her hand is adjusted.",
+        "The handle on the top of the straps is adjusted.",
+        "The end of the leash is adjusted."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the dog straps is adjusted? Choose **only one** option from the following list.\nOptions:\n(A) The clasp at the back of the straps is adjusted.\n(B) The buckle on the collar is adjusted.\n(C) The loop of the dog strap in her hand is adjusted.\n(D) The handle on the top of the straps is adjusted.\n(E) The end of the leash is adjusted.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The loop of the dog strap in her hand is adjusted."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the wood frame is removed?",
+    "options": [
+        "The thin wood between the slats of the wood frame is being removed.",
+        "The thick wood at the corners of the wood frame is being removed.",
+        "The decorative trim along the outer edge of the wood frame is being removed.",
+        "The central support beam of the wood frame is being removed.",
+        "The large panel at the back of the wood frame is being removed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the wood frame is removed? Choose **only one** option from the following list.\nOptions:\n(A) The thin wood between the slats of the wood frame is being removed.\n(B) The thick wood at the corners of the wood frame is being removed.\n(C) The decorative trim along the outer edge of the wood frame is being removed.\n(D) The central support beam of the wood frame is being removed.\n(E) The large panel at the back of the wood frame is being removed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The thin wood between the slats of the wood frame is being removed."
+    },
+    "correct_idx": [
+        0
+    ]
+}

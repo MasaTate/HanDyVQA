@@ -1,0 +1,17 @@
+{
+    "question": "What part of the oil tank is picked?",
+    "options": [
+        "The side of the oil tank near the gauge is picked.",
+        "The valve at the rear of the oil tank is picked.",
+        "The rim of the oil tank opening is picked.",
+        "The washer and the oil tank cap is picked.",
+        "The cap of the oil tank is picked."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the oil tank is picked? Choose **only one** option from the following list.\nOptions:\n(A) The side of the oil tank near the gauge is picked.\n(B) The valve at the rear of the oil tank is picked.\n(C) The rim of the oil tank opening is picked.\n(D) The washer and the oil tank cap is picked.\n(E) The cap of the oil tank is picked.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The cap of the oil tank is picked."
+    },
+    "correct_idx": [
+        3
+    ]
+}

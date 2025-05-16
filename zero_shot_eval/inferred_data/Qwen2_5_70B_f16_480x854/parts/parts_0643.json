@@ -1,0 +1,17 @@
+{
+    "question": "What part of the ashtray is the cigarette placed?",
+    "options": [
+        "The bottom part of the ashtray of the cigarette is placed.",
+        "The upper left part of the ashtray of the cigarette is placed.",
+        "The upper right part of the ashtray of the cigarette is placed.",
+        "The middle part of the ashtray of the cigarette is placed.",
+        "The bottom left part of the ashtray of the cigarette is placed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the ashtray is the cigarette placed? Choose **only one** option from the following list.\nOptions:\n(A) The bottom part of the ashtray of the cigarette is placed.\n(B) The upper left part of the ashtray of the cigarette is placed.\n(C) The upper right part of the ashtray of the cigarette is placed.\n(D) The middle part of the ashtray of the cigarette is placed.\n(E) The bottom left part of the ashtray of the cigarette is placed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The middle part of the ashtray of the cigarette is placed."
+    },
+    "correct_idx": [
+        2
+    ]
+}

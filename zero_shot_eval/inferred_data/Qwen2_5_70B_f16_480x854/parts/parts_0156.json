@@ -1,0 +1,17 @@
+{
+    "question": "What part of the drawing book is flipped?",
+    "options": [
+        "The cover of the book is flipped.",
+        "The colored pages of the book is flipped.",
+        "The spine of the book is flipped.",
+        "The back of the book is flipped.",
+        "The blank pages of the book are flipped."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the drawing book is flipped? Choose **only one** option from the following list.\nOptions:\n(A) The cover of the book is flipped.\n(B) The colored pages of the book is flipped.\n(C) The spine of the book is flipped.\n(D) The back of the book is flipped.\n(E) The blank pages of the book are flipped.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The blank pages of the book are flipped."
+    },
+    "correct_idx": [
+        4
+    ]
+}

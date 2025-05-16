@@ -1,0 +1,17 @@
+{
+    "question": "What part of the sewing machine is pulled?",
+    "options": [
+        "The thread of the sewing machine is pulled.",
+        "The foot pedal of the sewing machine is pulled.",
+        "The needle of the sewing machine is pulled.",
+        "The spool holder of the sewing machine is pulled.",
+        "The bobbin compartment of the sewing machine is pulled."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the sewing machine is pulled? Choose **only one** option from the following list.\nOptions:\n(A) The thread of the sewing machine is pulled.\n(B) The foot pedal of the sewing machine is pulled.\n(C) The needle of the sewing machine is pulled.\n(D) The spool holder of the sewing machine is pulled.\n(E) The bobbin compartment of the sewing machine is pulled.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The bobbin compartment of the sewing machine is pulled."
+    },
+    "correct_idx": [
+        0
+    ]
+}

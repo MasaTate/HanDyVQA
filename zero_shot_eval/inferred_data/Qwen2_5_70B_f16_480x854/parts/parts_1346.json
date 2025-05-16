@@ -1,0 +1,17 @@
+{
+    "question": "What part of the adapter is inserted?",
+    "options": [
+        "The base of the adapter is inserted.",
+        "The outer rim of the adapter is inserted.",
+        "The pin of the adapter is inserted.",
+        "The grip of the adapter is inserted.",
+        "The connector of the adapter is inserted."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the adapter is inserted? Choose **only one** option from the following list.\nOptions:\n(A) The base of the adapter is inserted.\n(B) The outer rim of the adapter is inserted.\n(C) The pin of the adapter is inserted.\n(D) The grip of the adapter is inserted.\n(E) The connector of the adapter is inserted.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The connector of the adapter is inserted."
+    },
+    "correct_idx": [
+        2
+    ]
+}

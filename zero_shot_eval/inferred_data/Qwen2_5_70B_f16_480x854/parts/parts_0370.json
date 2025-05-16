@@ -1,0 +1,17 @@
+{
+    "question": "What part of the glue gun is the glue stick inserted into?",
+    "options": [
+        "The front tip of the glue gun is where the glue stick is inserted.",
+        "The middle section of the glue gun is where the glue stick goes.",
+        "The nozzle area of the glue gun is where the glue stick is inserted into.",
+        "The back part of the glue gun is inserted to.",
+        "The base of the glue gun is where the glue stick is put."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the glue gun is the glue stick inserted into? Choose **only one** option from the following list.\nOptions:\n(A) The front tip of the glue gun is where the glue stick is inserted.\n(B) The middle section of the glue gun is where the glue stick goes.\n(C) The nozzle area of the glue gun is where the glue stick is inserted into.\n(D) The back part of the glue gun is inserted to.\n(E) The base of the glue gun is where the glue stick is put.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The back part of the glue gun is inserted to."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the screw gun is the screw placed on?",
+    "options": [
+        "The tip of the screw gun is where the screw placed on.",
+        "The grip area of the screw gun is where the screw is placed on.",
+        "The side compartment of the screw gun is where the screw is placed on.",
+        "The back end of the screw gun is where the screw is placed on.",
+        "The safety guard of the screw gun is where the screw is placed on."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the screw gun is the screw placed on? Choose **only one** option from the following list.\nOptions:\n(A) The tip of the screw gun is where the screw placed on.\n(B) The grip area of the screw gun is where the screw is placed on.\n(C) The side compartment of the screw gun is where the screw is placed on.\n(D) The back end of the screw gun is where the screw is placed on.\n(E) The safety guard of the screw gun is where the screw is placed on.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The tip of the screw gun is where the screw placed on."
+    },
+    "correct_idx": [
+        0
+    ]
+}

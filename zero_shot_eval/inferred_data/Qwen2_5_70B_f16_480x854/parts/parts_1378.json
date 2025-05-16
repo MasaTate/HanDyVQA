@@ -1,0 +1,17 @@
+{
+    "question": "What part of the machine is plugged?",
+    "options": [
+        "The power cord of the machine is plugged into the socket.",
+        "The control panel of the machine is plugged into the wall outlet.",
+        "The cooling fan of the machine is plugged into the power source.",
+        "The main switch of the machine is plugged into the extension cord.",
+        "The power cord is plugged into the machine."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the machine is plugged? Choose **only one** option from the following list.\nOptions:\n(A) The power cord of the machine is plugged into the socket.\n(B) The control panel of the machine is plugged into the wall outlet.\n(C) The cooling fan of the machine is plugged into the power source.\n(D) The main switch of the machine is plugged into the extension cord.\n(E) The power cord is plugged into the machine.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The power cord of the machine is plugged into the socket."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the sewing machine is pressed?",
+    "options": [
+        "The tension dial of the sewing machine is pressed.",
+        "The foot pedal of the sewing machine is pressed.",
+        "The needle clamp of the sewing machine is pressed.",
+        "The reverse lever of the sewing machine is pressed.",
+        "The feed dog adjustment of the sewing machine is pressed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the sewing machine is pressed? Choose **only one** option from the following list.\nOptions:\n(A) The tension dial of the sewing machine is pressed.\n(B) The foot pedal of the sewing machine is pressed.\n(C) The needle clamp of the sewing machine is pressed.\n(D) The reverse lever of the sewing machine is pressed.\n(E) The feed dog adjustment of the sewing machine is pressed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The reverse lever of the sewing machine is pressed."
+    },
+    "correct_idx": [
+        3
+    ]
+}

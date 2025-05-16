@@ -1,0 +1,17 @@
+{
+    "question": "What part of the yarn is pulled?",
+    "options": [
+        "The end part of the yarn is pulled.",
+        "The upper part of the yarn is pulled.",
+        "The middle part of the yarn is pulled.",
+        "The upper right part of the yarn is pulled.",
+        "The left part of the yarn is pulled."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the yarn is pulled? Choose **only one** option from the following list.\nOptions:\n(A) The end part of the yarn is pulled.\n(B) The upper part of the yarn is pulled.\n(C) The middle part of the yarn is pulled.\n(D) The upper right part of the yarn is pulled.\n(E) The left part of the yarn is pulled.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The end part of the yarn is pulled."
+    },
+    "correct_idx": [
+        0
+    ]
+}

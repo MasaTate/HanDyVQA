@@ -1,0 +1,17 @@
+{
+    "question": "What part of the drawer is used to open it?",
+    "options": [
+        "The bottom wooden panel of the drawer is used to open it.",
+        "The top silver bar of the drawer is used to open it.",
+        "The metal hinge on the bottom of the drawer is used to open it.",
+        "The front label of the drawer is used to open it.",
+        "The round handle of the drawer is used to open it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the drawer is used to open it? Choose **only one** option from the following list.\nOptions:\n(A) The bottom wooden panel of the drawer is used to open it.\n(B) The top silver bar of the drawer is used to open it.\n(C) The metal hinge on the bottom of the drawer is used to open it.\n(D) The front label of the drawer is used to open it.\n(E) The round handle of the drawer is used to open it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The round handle of the drawer is used to open it."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the thread is taken?",
+    "options": [
+        "The tip or end of the thread is taken.",
+        "The middle section of the thread is taken.",
+        "The looped section of the thread is taken.",
+        "The knot at the end of the thread is taken.",
+        "The twisted part of the thread is taken."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the thread is taken? Choose **only one** option from the following list.\nOptions:\n(A) The tip or end of the thread is taken.\n(B) The middle section of the thread is taken.\n(C) The looped section of the thread is taken.\n(D) The knot at the end of the thread is taken.\n(E) The twisted part of the thread is taken.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The tip or end of the thread is taken."
+    },
+    "correct_idx": [
+        0
+    ]
+}

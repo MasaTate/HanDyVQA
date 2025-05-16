@@ -1,0 +1,17 @@
+{
+    "question": "What part of the tray is emptied?",
+    "options": [
+        "The center of the tray is completely empty.",
+        "The bottom left of the tray is emptied.",
+        "The upper edge of the tray has nothing on it.",
+        "The back side of the tray is cleared out.",
+        "The corners of the tray are filled but the sides are empty."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the tray is emptied? Choose **only one** option from the following list.\nOptions:\n(A) The center of the tray is completely empty.\n(B) The bottom left of the tray is emptied.\n(C) The upper edge of the tray has nothing on it.\n(D) The back side of the tray is cleared out.\n(E) The corners of the tray are filled but the sides are empty.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The bottom left of the tray is emptied."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the stick is cut?",
+    "options": [
+        "The top section of the stick is cut.",
+        "The middle segment of the stick is cut.",
+        "The bottom part of the stick is cut.",
+        "The end tip of the stick is cut.",
+        "The sides of the stick are cut."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the stick is cut? Choose **only one** option from the following list.\nOptions:\n(A) The top section of the stick is cut.\n(B) The middle segment of the stick is cut.\n(C) The bottom part of the stick is cut.\n(D) The end tip of the stick is cut.\n(E) The sides of the stick are cut.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The end tip of the stick is cut."
+    },
+    "correct_idx": [
+        2
+    ]
+}

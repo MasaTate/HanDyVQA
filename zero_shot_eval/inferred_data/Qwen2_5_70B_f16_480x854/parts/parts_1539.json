@@ -1,0 +1,17 @@
+{
+    "question": "What part of the flowers is detached?",
+    "options": [
+        "The outer petals of the flower are detached.",
+        "The banana blossoms part of the flower is detached.",
+        "The stem of the flower is detached.",
+        "The leafy greens at the base of the flower are detached.",
+        "The middle section of the flower buds is detached."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the flowers is detached? Choose **only one** option from the following list.\nOptions:\n(A) The outer petals of the flower are detached.\n(B) The banana blossoms part of the flower is detached.\n(C) The stem of the flower is detached.\n(D) The leafy greens at the base of the flower are detached.\n(E) The middle section of the flower buds is detached.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The banana blossoms part of the flower is detached."
+    },
+    "correct_idx": [
+        1
+    ]
+}

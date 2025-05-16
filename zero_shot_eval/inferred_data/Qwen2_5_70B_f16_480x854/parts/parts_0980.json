@@ -1,0 +1,17 @@
+{
+    "question": "What part of the microwave is opened?",
+    "options": [
+        "The door of the microwave is opened.",
+        "The top panel of the microwave is opened.",
+        "The side compartment of the microwave is opened.",
+        "The control knob of the microwave is opened.",
+        "The bottom tray of the microwave is opened."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the microwave is opened? Choose **only one** option from the following list.\nOptions:\n(A) The door of the microwave is opened.\n(B) The top panel of the microwave is opened.\n(C) The side compartment of the microwave is opened.\n(D) The control knob of the microwave is opened.\n(E) The bottom tray of the microwave is opened.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The door of the microwave is opened."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What part of the paint brush is cleaned?",
+    "options": [
+        "The ferrule of the paint brush is being cleaned.",
+        "The grip of the paint brush is being cleaned.",
+        "The handle end of the paint brush is being cleaned.",
+        "The entire paint brush is being cleaned.",
+        "The toe of of the paint brush is being cleaned."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the paint brush is cleaned? Choose **only one** option from the following list.\nOptions:\n(A) The ferrule of the paint brush is being cleaned.\n(B) The grip of the paint brush is being cleaned.\n(C) The handle end of the paint brush is being cleaned.\n(D) The entire paint brush is being cleaned.\n(E) The toe of of the paint brush is being cleaned.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The toe of the paint brush is being cleaned."
+    },
+    "correct_idx": [
+        4
+    ]
+}

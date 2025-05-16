@@ -1,0 +1,17 @@
+{
+    "question": "What part of the table saw is switched off?",
+    "options": [
+        "The power switch on the left  of the table saw is switched off.",
+        "The blade adjustment lever on the right of the table saw is switched off.",
+        "The safety guard at the front of the table saw is switched off.",
+        "The fence release lever at the back of the table saw is switched off.",
+        "The dust collection port on the underside of the table saw is switched off."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the table saw is switched off? Choose **only one** option from the following list.\nOptions:\n(A) The power switch on the left  of the table saw is switched off.\n(B) The blade adjustment lever on the right of the table saw is switched off.\n(C) The safety guard at the front of the table saw is switched off.\n(D) The fence release lever at the back of the table saw is switched off.\n(E) The dust collection port on the underside of the table saw is switched off.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The power switch on the left of the table saw is switched off."
+    },
+    "correct_idx": [
+        0
+    ]
+}

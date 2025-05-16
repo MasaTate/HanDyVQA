@@ -1,0 +1,17 @@
+{
+    "question": "What part of the wheel assembly is picked up?",
+    "options": [
+        "The outer rim of the wheel assembly is picked up.",
+        "The lug hole nut is picked up.",
+        "The tire tread of the wheel assembly is picked up.",
+        "The brake rotor from the wheel assembly is picked up.",
+        "The inner hub section of the wheel assembly is picked up."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What part of the wheel assembly is picked up? Choose **only one** option from the following list.\nOptions:\n(A) The outer rim of the wheel assembly is picked up.\n(B) The lug hole nut is picked up.\n(C) The tire tread of the wheel assembly is picked up.\n(D) The brake rotor from the wheel assembly is picked up.\n(E) The inner hub section of the wheel assembly is picked up.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The lug hole nut is picked up."
+    },
+    "correct_idx": [
+        1
+    ]
+}
