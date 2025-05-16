@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the wall   change?",
+    "options": [
+        "Some clay was spread on the wall.",
+        "A small amount of paint was spread on the wall.",
+        "Some clay was taken off the wall.",
+        "The wall was cleaned with a cloth.",
+        "Some clay was spread on another part of the wall."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the wall   change? Choose **only one** option from the following list.\nOptions:\n(A) Some clay was spread on the wall.\n(B) A small amount of paint was spread on the wall.\n(C) Some clay was taken off the wall.\n(D) The wall was cleaned with a cloth.\n(E) Some clay was spread on another part of the wall.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) Some clay was taken off the wall."
+    },
+    "correct_idx": [
+        0
+    ]
+}

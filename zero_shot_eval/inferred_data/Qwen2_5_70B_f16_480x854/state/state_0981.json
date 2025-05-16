@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the cement on the wall change?",
+    "options": [
+        "The cement on the wall with the small hole was smoothed without scattering.",
+        "The cement on the wall with the small hole was left rough with scattering around the edges.",
+        "The cement on the wall with the small hole was partially smoothed with noticeable lumps remaining.",
+        "The cement on the wall with the small hole had a portion chipped away unintentionally.",
+        "The cement on the wall with the small hole was smoothed slightly with an irregular texture left behind."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the cement on the wall change? Choose **only one** option from the following list.\nOptions:\n(A) The cement on the wall with the small hole was smoothed without scattering.\n(B) The cement on the wall with the small hole was left rough with scattering around the edges.\n(C) The cement on the wall with the small hole was partially smoothed with noticeable lumps remaining.\n(D) The cement on the wall with the small hole had a portion chipped away unintentionally.\n(E) The cement on the wall with the small hole was smoothed slightly with an irregular texture left behind.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The cement on the wall with the small hole was smoothed without scattering."
+    },
+    "correct_idx": [
+        0
+    ]
+}

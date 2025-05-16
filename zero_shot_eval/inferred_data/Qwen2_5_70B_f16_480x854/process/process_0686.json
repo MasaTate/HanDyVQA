@@ -1,0 +1,17 @@
+{
+    "question": "How does the person press the soil with right hand?",
+    "options": [
+        "The person pushes down on the soil steadily, using an open palm from above.",
+        "The person compresses the soil gently by using the back of their hand to flatten it out.",
+        "The person taps the soil gently with their fingertips to smooth it.",
+        "The person gently grips the soil and twists their wrist to compact it.",
+        "The person presses the soil firmly with the fingertips of their right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person press the soil with right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person pushes down on the soil steadily, using an open palm from above.\n(B) The person compresses the soil gently by using the back of their hand to flatten it out.\n(C) The person taps the soil gently with their fingertips to smooth it.\n(D) The person gently grips the soil and twists their wrist to compact it.\n(E) The person presses the soil firmly with the fingertips of their right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person presses the soil firmly with the fingertips of their right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

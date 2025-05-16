@@ -1,0 +1,17 @@
+{
+    "question": "How does the person cover her right hand?",
+    "options": [
+        "The person loosely covers her right hand by placing her left hand over it, covering it partially.",
+        "The person securely covers his/her right hand by placing his/her left hand over his/her right hand, covering it fully and wrapping it tightly.",
+        "The person hovers her left hand above her right hand without fully enclosing it.",
+        "The person holds her right hand with her left hand nearby but not covering it.",
+        "The person covers her right hand by placing her left hand beneath it, not fully blocking it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person cover her right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person loosely covers her right hand by placing her left hand over it, covering it partially.\n(B) The person securely covers his/her right hand by placing his/her left hand over his/her right hand, covering it fully and wrapping it tightly.\n(C) The person hovers her left hand above her right hand without fully enclosing it.\n(D) The person holds her right hand with her left hand nearby but not covering it.\n(E) The person covers her right hand by placing her left hand beneath it, not fully blocking it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person securely covers his/her right hand by placing his/her left hand over his/her right hand, covering it fully and wrapping it tightly."
+    },
+    "correct_idx": [
+        1
+    ]
+}

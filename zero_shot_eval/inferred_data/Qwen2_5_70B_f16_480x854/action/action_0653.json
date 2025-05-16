@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person places the sponge in her right hand on the drying rack next to the sink.",
+        "The person squeezes water from the sponge held in her right hand over the sink.",
+        "The person wipes the countertop with the sponge in her right hand while holding the sink edge with her left hand.",
+        "The person throws the sponge in her right hand into the sink rack.",
+        "The person picks up the sponge from the sink rack with her right hand and brings it closer to her face."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person places the sponge in her right hand on the drying rack next to the sink.\n(B) The person squeezes water from the sponge held in her right hand over the sink.\n(C) The person wipes the countertop with the sponge in her right hand while holding the sink edge with her left hand.\n(D) The person throws the sponge in her right hand into the sink rack.\n(E) The person picks up the sponge from the sink rack with her right hand and brings it closer to her face.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person squeezes water from the sponge held in her right hand over the sink."
+    },
+    "correct_idx": [
+        3
+    ]
+}

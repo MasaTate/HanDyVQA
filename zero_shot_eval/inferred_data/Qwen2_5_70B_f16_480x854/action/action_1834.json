@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is knitting with a blue yarn, using needles in their right hand while managing the tension on the yarn with their left hand.",
+        "The person is crocheting with a black yarn, using a crochet hook in their right hand while carefully guiding and maintaining tension on the yarn with both hands.",
+        "The person is tying a knot with a black thread, holding the thread in their right hand while keeping it taut with both hands.",
+        "The person is weaving with a green yarn, handling a loom with their right hand while working the yarn with their left hand.",
+        "The person is sewing with red fabric, operating a sewing machine with their right hand while directing the fabric with their left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is knitting with a blue yarn, using needles in their right hand while managing the tension on the yarn with their left hand.\n(B) The person is crocheting with a black yarn, using a crochet hook in their right hand while carefully guiding and maintaining tension on the yarn with both hands.\n(C) The person is tying a knot with a black thread, holding the thread in their right hand while keeping it taut with both hands.\n(D) The person is weaving with a green yarn, handling a loom with their right hand while working the yarn with their left hand.\n(E) The person is sewing with red fabric, operating a sewing machine with their right hand while directing the fabric with their left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person is crocheting with a black yarn, using a crochet hook in their right hand while carefully guiding and maintaining tension on the yarn with both hands."
+    },
+    "correct_idx": [
+        1
+    ]
+}

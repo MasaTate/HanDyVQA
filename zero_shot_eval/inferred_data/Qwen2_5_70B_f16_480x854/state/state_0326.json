@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a poster paper change?",
+    "options": [
+        "The poster paper was divided into smaller pieces and arranged on the floor.",
+        "The poster paper was tightly rolled up and stored.",
+        "The poster paper was folded in half and set beside the lamp on the desk.",
+        "The poster paper was placed down on the table and measured with a measuring tape.",
+        "The poster paper was laid on a desk and its side's length was measured with a tape measure."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a poster paper change? Choose **only one** option from the following list.\nOptions:\n(A) The poster paper was divided into smaller pieces and arranged on the floor.\n(B) The poster paper was tightly rolled up and stored.\n(C) The poster paper was folded in half and set beside the lamp on the desk.\n(D) The poster paper was placed down on the table and measured with a measuring tape.\n(E) The poster paper was laid on a desk and its side's length was measured with a tape measure.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The poster paper was laid on a desk and its side's length was measured with a tape measure."
+    },
+    "correct_idx": [
+        3
+    ]
+}

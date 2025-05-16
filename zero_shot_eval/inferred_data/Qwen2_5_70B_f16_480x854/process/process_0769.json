@@ -1,0 +1,17 @@
+{
+    "question": "How does the person close the tap?",
+    "options": [
+        "The person slowly closes the tap by rotating it clockwise with their left hand.",
+        "The person pushes the tap closed using the palm of their hand.",
+        "The person uses their thumb and middle finger to gently squeeze the tap shut.",
+        "The person quickly closes the tap by pressing it downward with their right index finger.",
+        "The person taps the tap gently with their knuckles to close it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person close the tap? Choose **only one** option from the following list.\nOptions:\n(A) The person slowly closes the tap by rotating it clockwise with their left hand.\n(B) The person pushes the tap closed using the palm of their hand.\n(C) The person uses their thumb and middle finger to gently squeeze the tap shut.\n(D) The person quickly closes the tap by pressing it downward with their right index finger.\n(E) The person taps the tap gently with their knuckles to close it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person quickly closes the tap by pressing it downward with their right index finger."
+    },
+    "correct_idx": [
+        3
+    ]
+}

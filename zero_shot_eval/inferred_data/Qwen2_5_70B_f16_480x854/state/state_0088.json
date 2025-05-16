@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the second dough with flour from the plate change?",
+    "options": [
+        "The second dough with flour from the plate was moved but not pressed, remaining the same shape.",
+        "The second dough with flour from the plate was moved and folded, increasing in thickness.",
+        "The second dough with flour from the plate was moved and pressed, becoming flatter.",
+        "The second dough with flour from the plate was pressed but not moved, maintaining its original location.",
+        "The second dough with flour from the plate was stretched, altering its shape without flattening."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the second dough with flour from the plate change? Choose **only one** option from the following list.\nOptions:\n(A) The second dough with flour from the plate was moved but not pressed, remaining the same shape.\n(B) The second dough with flour from the plate was moved and folded, increasing in thickness.\n(C) The second dough with flour from the plate was moved and pressed, becoming flatter.\n(D) The second dough with flour from the plate was pressed but not moved, maintaining its original location.\n(E) The second dough with flour from the plate was stretched, altering its shape without flattening.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The second dough with flour from the plate was moved and pressed, becoming flatter."
+    },
+    "correct_idx": [
+        2
+    ]
+}

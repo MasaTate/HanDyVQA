@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is knitting with blue yarn, using knitting needles in their right hand while holding the yarn securely with both hands. Additionally, the left hand guides the yarn to form the next loop before proceeding with the current stitch.",
+        "The person is crocheting with black yarn, using a crochet hook in their right hand while carefully guiding and maintaining tension on the yarn with both hands. In addition, the left hand adjusts the working yarn by slightly loosening it before the next stitch is made.",
+        "The person is weaving with red thread, using a loom in their right hand while holding both hands steady to direct the thread. Furthermore, the left hand adjusts the tension of the threads before completing the next pass.",
+        "The person is sewing with white thread, using a needle in their right hand while positioning the fabric with both hands. Moreover, the left hand draws the fabric closer to take the next stitch before continuing the sewing.",
+        "The person is making macram\u00e9 with green cord, using their right hand to manage the cords while securely holding them with both hands. Additionally, the left hand measures the cord lengths before making the next cut."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is knitting with blue yarn, using knitting needles in their right hand while holding the yarn securely with both hands. Additionally, the left hand guides the yarn to form the next loop before proceeding with the current stitch.\n(B) The person is crocheting with black yarn, using a crochet hook in their right hand while carefully guiding and maintaining tension on the yarn with both hands. In addition, the left hand adjusts the working yarn by slightly loosening it before the next stitch is made.\n(C) The person is weaving with red thread, using a loom in their right hand while holding both hands steady to direct the thread. Furthermore, the left hand adjusts the tension of the threads before completing the next pass.\n(D) The person is sewing with white thread, using a needle in their right hand while positioning the fabric with both hands. Moreover, the left hand draws the fabric closer to take the next stitch before continuing the sewing.\n(E) The person is making macram\u00e9 with green cord, using their right hand to manage the cords while securely holding them with both hands. Additionally, the left hand measures the cord lengths before making the next cut.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person is crocheting with black yarn, using a crochet hook in their right hand while carefully guiding and maintaining tension on the yarn with both hands. In addition, the left hand adjusts the working yarn by slightly loosening it before the next stitch is made."
+    },
+    "correct_idx": [
+        1
+    ]
+}

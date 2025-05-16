@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a computer cord change?",
+    "options": [
+        "The cord was unplugged, resulting in a change in connection as it was withdrawn from the socket.",
+        "The cord was twisted, leading to a change in its shape as it became coiled.",
+        "The cord was sliced, causing an alteration in its structure as it was cut into two parts.",
+        "The cord was shortened, which changed its length as a section was removed.",
+        "The cord was plugged in, causing a change in connection as it was inserted into the socket."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a computer cord change? Choose **only one** option from the following list.\nOptions:\n(A) The cord was unplugged, resulting in a change in connection as it was withdrawn from the socket.\n(B) The cord was twisted, leading to a change in its shape as it became coiled.\n(C) The cord was sliced, causing an alteration in its structure as it was cut into two parts.\n(D) The cord was shortened, which changed its length as a section was removed.\n(E) The cord was plugged in, causing a change in connection as it was inserted into the socket.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The cord was unplugged, resulting in a change in connection as it was withdrawn from the socket."
+    },
+    "correct_idx": [
+        4
+    ]
+}

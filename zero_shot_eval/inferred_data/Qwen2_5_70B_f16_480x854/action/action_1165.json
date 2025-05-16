@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person turns the door knob while pulling the door and carries an object in one hand while holding the door with the other hand.",
+        "The person holds the door knob while pushing the door and holds an object using both hands.",
+        "The person pushes the door slightly open with one hand while supporting it with the other hand.",
+        "The person grips the door frame while drawing the door toward him and holds an item in his hand.",
+        "The person pulls the door open with one hand while holding something in the other hand and leaning slightly."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person turns the door knob while pulling the door and carries an object in one hand while holding the door with the other hand.\n(B) The person holds the door knob while pushing the door and holds an object using both hands.\n(C) The person pushes the door slightly open with one hand while supporting it with the other hand.\n(D) The person grips the door frame while drawing the door toward him and holds an item in his hand.\n(E) The person pulls the door open with one hand while holding something in the other hand and leaning slightly.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person pulls the door open with one hand while holding something in the other hand and leaning slightly."
+    },
+    "correct_idx": [
+        1
+    ]
+}

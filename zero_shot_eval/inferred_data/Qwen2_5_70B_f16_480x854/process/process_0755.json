@@ -1,0 +1,17 @@
+{
+    "question": "How does the person collect a water jug from the man?",
+    "options": [
+        "The person carefully grabs the first water jug from the man with both hands while using his foot to gently pull the second water jug closer.",
+        "The person slowly takes the first water jug from the man with one hand while leaning forward to gently pick up the second water jug.",
+        "The person firmly pulls the first water jug from the man using both hands, while reaching for the second water jug that tips over slightly.",
+        "The person quickly gets the first water jug from the man using one of his hands while reaching the second water jug with his other hand carefully.",
+        "The person gently offers the first water jug to the man with one hand while using his shoulder to nudge the second water jug closer."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person collect a water jug from the man? Choose **only one** option from the following list.\nOptions:\n(A) The person carefully grabs the first water jug from the man with both hands while using his foot to gently pull the second water jug closer.\n(B) The person slowly takes the first water jug from the man with one hand while leaning forward to gently pick up the second water jug.\n(C) The person firmly pulls the first water jug from the man using both hands, while reaching for the second water jug that tips over slightly.\n(D) The person quickly gets the first water jug from the man using one of his hands while reaching the second water jug with his other hand carefully.\n(E) The person gently offers the first water jug to the man with one hand while using his shoulder to nudge the second water jug closer.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person quickly gets the first water jug from the man using one of his hands while reaching the second water jug with his other hand carefully."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person play a piano?",
+    "options": [
+        "The person used one hand to press the piano keys, applying a firm touch and creating sounds that varied in strength.",
+        "The person placed their palms on the keys, using an energetic motion that resulted in more unique sounds rather than a traditional melody.",
+        "The person placed their fingers on the keys but moved them in an unstructured way, creating a variety of tones.",
+        "The person covered the keys with their hands and pressed them in an unplanned manner, creating sounds with an unpredictable rhythm or melody.",
+        "The person played the piano by gracefully placing the fingers of both hands on the keys, moving them with fluid precision as they pressed each note, their fingertips gliding smoothly to create a harmonious melody."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person play a piano? Choose **only one** option from the following list.\nOptions:\n(A) The person used one hand to press the piano keys, applying a firm touch and creating sounds that varied in strength.\n(B) The person placed their palms on the keys, using an energetic motion that resulted in more unique sounds rather than a traditional melody.\n(C) The person placed their fingers on the keys but moved them in an unstructured way, creating a variety of tones.\n(D) The person covered the keys with their hands and pressed them in an unplanned manner, creating sounds with an unpredictable rhythm or melody.\n(E) The person played the piano by gracefully placing the fingers of both hands on the keys, moving them with fluid precision as they pressed each note, their fingertips gliding smoothly to create a harmonious melody.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person played the piano by gracefully placing the fingers of both hands on the keys, moving them with fluid precision as they pressed each note, their fingertips gliding smoothly to create a harmonious melody."
+    },
+    "correct_idx": [
+        4
+    ]
+}

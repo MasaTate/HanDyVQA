@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the screw change?",
+    "options": [
+        "The screw was placed in a drawer but was later taken out and dropped onto the floor.",
+        "The screw was initially on the table but was discarded into the trash can.",
+        "The screw was resting on the table but was rolled onto the ground.",
+        "The screw was lying flat on the table but was stored in a toolbox.",
+        "The screw was just lying on the table but was picked up and twisted to a plate to fasten something."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the screw change? Choose **only one** option from the following list.\nOptions:\n(A) The screw was placed in a drawer but was later taken out and dropped onto the floor.\n(B) The screw was initially on the table but was discarded into the trash can.\n(C) The screw was resting on the table but was rolled onto the ground.\n(D) The screw was lying flat on the table but was stored in a toolbox.\n(E) The screw was just lying on the table but was picked up and twisted to a plate to fasten something.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The screw was just lying on the table but was picked up and twisted to a plate to fasten something."
+    },
+    "correct_idx": [
+        4
+    ]
+}

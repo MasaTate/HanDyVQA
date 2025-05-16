@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "screw driver",
+        "flashlight",
+        "wires",
+        "rag",
+        "carton box",
+        "long nose plier"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) screw driver\n(B) flashlight\n(C) wires\n(D) rag\n(E) carton box\n(F) long nose plier\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(F) long nose plier\n(D) rag"
+    },
+    "correct_idx": [
+        3,
+        5
+    ]
+}

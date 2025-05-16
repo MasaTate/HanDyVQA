@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is pulling the plastic wrap from the roll with one hand while holding it with the other hand.",
+        "The person is wrapping a sandwich in plastic wrap using both hands to fit it over the food.",
+        "The person is cutting the plastic wrap with scissors in one hand while steadying the roll with the other hand.",
+        "The person is placing the plastic wrap onto a bowl using both hands to smooth it over.",
+        "The person is unrolling the plastic wrap with both hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is pulling the plastic wrap from the roll with one hand while holding it with the other hand.\n(B) The person is wrapping a sandwich in plastic wrap using both hands to fit it over the food.\n(C) The person is cutting the plastic wrap with scissors in one hand while steadying the roll with the other hand.\n(D) The person is placing the plastic wrap onto a bowl using both hands to smooth it over.\n(E) The person is unrolling the plastic wrap with both hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person is pulling the plastic wrap from the roll with one hand while holding it with the other hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

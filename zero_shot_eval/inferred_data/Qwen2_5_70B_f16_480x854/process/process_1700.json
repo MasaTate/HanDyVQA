@@ -1,0 +1,17 @@
+{
+    "question": "How does the person cut the twig?",
+    "options": [
+        "The person uses a small knife in her right hand to cut through the twig while holding it with her left hand.",
+        "The person cuts the twig using a pruning shear in her right hand and pulls the twig while holding it with her left hand.",
+        "The person breaks the twig by applying pressure with both hands, not using a cutting tool.",
+        "The person uses a pruning shear in her left hand and supports the twig with her right hand.",
+        "The person cuts the twig with garden loppers, using both hands for leverage rather than pulling the twig."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person cut the twig? Choose **only one** option from the following list.\nOptions:\n(A) The person uses a small knife in her right hand to cut through the twig while holding it with her left hand.\n(B) The person cuts the twig using a pruning shear in her right hand and pulls the twig while holding it with her left hand.\n(C) The person breaks the twig by applying pressure with both hands, not using a cutting tool.\n(D) The person uses a pruning shear in her left hand and supports the twig with her right hand.\n(E) The person cuts the twig with garden loppers, using both hands for leverage rather than pulling the twig.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person cuts the twig using a pruning shear in her right hand and pulls the twig while holding it with her left hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person take yoghurt?",
+    "options": [
+        "The person takes the yoghurt by holding a fork in their right hand, dipping it into the yoghurt, trying to scoop a portion.",
+        "The person takes the yoghurt by holding a spoon in their right hand, dipping it into the yoghurt, scooping a portion, and lifting it out steadily.",
+        "The person takes the yoghurt by using both hands to steadily tilt the container until some pours out.",
+        "The person takes the yoghurt by gripping the container with their left hand and carefully tilting it to pour the yoghurt into their mouth.",
+        "The person takes the yoghurt by grasping it gently between the thumb and index finger of their right hand before flicking it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person take yoghurt? Choose **only one** option from the following list.\nOptions:\n(A) The person takes the yoghurt by holding a fork in their right hand, dipping it into the yoghurt, trying to scoop a portion.\n(B) The person takes the yoghurt by holding a spoon in their right hand, dipping it into the yoghurt, scooping a portion, and lifting it out steadily.\n(C) The person takes the yoghurt by using both hands to steadily tilt the container until some pours out.\n(D) The person takes the yoghurt by gripping the container with their left hand and carefully tilting it to pour the yoghurt into their mouth.\n(E) The person takes the yoghurt by grasping it gently between the thumb and index finger of their right hand before flicking it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person takes the yoghurt by holding a spoon in their right hand, dipping it into the yoghurt, scooping a portion, and lifting it out steadily."
+    },
+    "correct_idx": [
+        1
+    ]
+}

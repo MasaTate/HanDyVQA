@@ -1,0 +1,17 @@
+{
+    "question": "How does the person taste the   food?",
+    "options": [
+        "The person holds a fork in their left hand and lifts a portion of the food towards their mouth.",
+        "The person uses their fingers of the right hand to pick up a piece of food and brings it directly to their mouth.",
+        "The person uses a spoon with his right hand to pick up a bit of the food in the pot and lift it up to bring it to their mouth.",
+        "The person uses a knife held in their right hand to cut the food into smaller pieces before bringing it to their mouth.",
+        "The person scoops the food with a ladle in their left hand and brings it up as if to taste it but pours it onto a plate."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person taste the   food? Choose **only one** option from the following list.\nOptions:\n(A) The person holds a fork in their left hand and lifts a portion of the food towards their mouth.\n(B) The person uses their fingers of the right hand to pick up a piece of food and brings it directly to their mouth.\n(C) The person uses a spoon with his right hand to pick up a bit of the food in the pot and lift it up to bring it to their mouth.\n(D) The person uses a knife held in their right hand to cut the food into smaller pieces before bringing it to their mouth.\n(E) The person scoops the food with a ladle in their left hand and brings it up as if to taste it but pours it onto a plate.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person uses a spoon with his right hand to pick up a bit of the food in the pot and lift it up to bring it to their mouth."
+    },
+    "correct_idx": [
+        2
+    ]
+}

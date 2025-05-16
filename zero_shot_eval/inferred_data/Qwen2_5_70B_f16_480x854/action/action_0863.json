@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is spreading a sticky cream on parchment paper using a spatula in her right hand. She then dips the spatula into the bowl and reaches for the parchment paper with her left hand.",
+        "The person is applying sticky cream onto a baking sheet with a brush in her right hand. She then lifts the brush from the bowl and places her right hand under the table while holding the baking sheet with her left hand.",
+        "The person is pouring sticky cream from a jar onto a plate using a spoon in her right hand. She then sets the spoon down on the table and picks up the plate with both hands to distribute the cream.",
+        "The person is placing sticky cream on a sheet of foil using a knife in her right hand. After scooping some cream from the bowl, she steadies the foil with her left hand.",
+        "The person is applying a sticky cream to cellophane using a ladle in her right hand. She then places the ladle back in the bowl, pushes it under the table with her right hand, and picks up the cellophane with both hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is spreading a sticky cream on parchment paper using a spatula in her right hand. She then dips the spatula into the bowl and reaches for the parchment paper with her left hand.\n(B) The person is applying sticky cream onto a baking sheet with a brush in her right hand. She then lifts the brush from the bowl and places her right hand under the table while holding the baking sheet with her left hand.\n(C) The person is pouring sticky cream from a jar onto a plate using a spoon in her right hand. She then sets the spoon down on the table and picks up the plate with both hands to distribute the cream.\n(D) The person is placing sticky cream on a sheet of foil using a knife in her right hand. After scooping some cream from the bowl, she steadies the foil with her left hand.\n(E) The person is applying a sticky cream to cellophane using a ladle in her right hand. She then places the ladle back in the bowl, pushes it under the table with her right hand, and picks up the cellophane with both hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person is spreading a sticky cream on parchment paper using a spatula in her right hand. She then dips the spatula into the bowl and reaches for the parchment paper with her left hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

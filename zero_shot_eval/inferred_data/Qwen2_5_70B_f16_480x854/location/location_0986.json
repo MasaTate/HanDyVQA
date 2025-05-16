@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the paper?",
+    "options": [
+        "The person places the paper on the nearby shelf.",
+        "The person places the paper on the floor beside the workbench.",
+        "The person places the paper on the desk across the room.",
+        "The person places the paper on the chair next to the workbench.",
+        "\u00a0The person places the paper on the workbench."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the paper? Choose **only one** option from the following list.\nOptions:\n(A) The person places the paper on the nearby shelf.\n(B) The person places the paper on the floor beside the workbench.\n(C) The person places the paper on the desk across the room.\n(D) The person places the paper on the chair next to the workbench.\n(E) \u00a0The person places the paper on the workbench.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person places the paper on the workbench."
+    },
+    "correct_idx": [
+        4
+    ]
+}

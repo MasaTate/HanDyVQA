@@ -1,0 +1,17 @@
+{
+    "question": "How does the person drive a nail?",
+    "options": [
+        "The person drives a nail using a hammer by swinging it overhead with both hands gripping the handle firmly.",
+        "The person pushes the nail into the wood using their palm to apply gentle pressure on the top of the nail.",
+        "The person twists the nail into the surface using a screwdriver held in their left hand, turning it slightly each time.",
+        "The person drops the nail onto the surface from their palm, allowing it to settle into place with minimal tools.",
+        "The person drives a nail with a drill by pressing the trigger with their right index finger."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person drive a nail? Choose **only one** option from the following list.\nOptions:\n(A) The person drives a nail using a hammer by swinging it overhead with both hands gripping the handle firmly.\n(B) The person pushes the nail into the wood using their palm to apply gentle pressure on the top of the nail.\n(C) The person twists the nail into the surface using a screwdriver held in their left hand, turning it slightly each time.\n(D) The person drops the nail onto the surface from their palm, allowing it to settle into place with minimal tools.\n(E) The person drives a nail with a drill by pressing the trigger with their right index finger.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person drives a nail with a drill by pressing the trigger with their right index finger."
+    },
+    "correct_idx": [
+        4
+    ]
+}

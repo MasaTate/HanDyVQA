@@ -1,0 +1,17 @@
+{
+    "question": "How does the person hold the test tube?",
+    "options": [
+        "The person grabs the test tube with both hands gently, lifting it smoothly from the table with care.",
+        "The person uses their thumb and forefinger to hold the test tube, lifting it steadily and attentively from the countertop.",
+        "The person balances the test tube in one hand while reaching for another object, maintaining its position carefully.",
+        "The person holds the test tube lightly with their fingertips, keeping it steady while observing the surrounding area.",
+        "The person holds the test tube securely with the fingers of their left hand, after carefully taking it from the blue tray with a steady and deliberate motion."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person hold the test tube? Choose **only one** option from the following list.\nOptions:\n(A) The person grabs the test tube with both hands gently, lifting it smoothly from the table with care.\n(B) The person uses their thumb and forefinger to hold the test tube, lifting it steadily and attentively from the countertop.\n(C) The person balances the test tube in one hand while reaching for another object, maintaining its position carefully.\n(D) The person holds the test tube lightly with their fingertips, keeping it steady while observing the surrounding area.\n(E) The person holds the test tube securely with the fingers of their left hand, after carefully taking it from the blue tray with a steady and deliberate motion.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person holds the test tube securely with the fingers of their left hand, after carefully taking it from the blue tray with a steady and deliberate motion."
+    },
+    "correct_idx": [
+        4
+    ]
+}

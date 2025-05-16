@@ -1,0 +1,17 @@
+{
+    "question": "How does the person spread a manual?",
+    "options": [
+        "The person spreads the manual by straightening one end and flattening it with the palm of the left hand.",
+        "The person flips open the manual using the thumb and index finger and presses it down with the right hand.",
+        "The person unfolds the manual by gripping the top edge with both thumbs and smooths the pages flat with a gentle motion of the left hand.",
+        "The person opens the manual by pulling apart the pages with both hands and uses the right hand to gently smooth it down.",
+        "The person spreads the manual by holding both corners and flattening it with the back of the left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person spread a manual? Choose **only one** option from the following list.\nOptions:\n(A) The person spreads the manual by straightening one end and flattening it with the palm of the left hand.\n(B) The person flips open the manual using the thumb and index finger and presses it down with the right hand.\n(C) The person unfolds the manual by gripping the top edge with both thumbs and smooths the pages flat with a gentle motion of the left hand.\n(D) The person opens the manual by pulling apart the pages with both hands and uses the right hand to gently smooth it down.\n(E) The person spreads the manual by holding both corners and flattening it with the back of the left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person spreads the manual by straightening one end and flattening it with the palm of the left hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move thread rolls?",
+    "options": [
+        "The person moved the thread rolls outside of the container.",
+        "The person moved the thread rolls on top of the container.",
+        "The person moves the thread rolls around inside the container.",
+        "The person moved the thread rolls next to the container.",
+        "The person moved the thread rolls behind the container."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move thread rolls? Choose **only one** option from the following list.\nOptions:\n(A) The person moved the thread rolls outside of the container.\n(B) The person moved the thread rolls on top of the container.\n(C) The person moves the thread rolls around inside the container.\n(D) The person moved the thread rolls next to the container.\n(E) The person moved the thread rolls behind the container.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person moves the thread rolls around inside the container."
+    },
+    "correct_idx": [
+        2
+    ]
+}

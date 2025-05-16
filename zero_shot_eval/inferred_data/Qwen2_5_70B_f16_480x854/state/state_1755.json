@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the book change?",
+    "options": [
+        "The book changed as illustrations were added to its pages.",
+        "The book changed as text was applied to its cover.",
+        "The book changed as stickers were affixed around its spine.",
+        "The book changed as a new title was imprinted on its front.",
+        "The book changed as clothes were drawn on it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the book change? Choose **only one** option from the following list.\nOptions:\n(A) The book changed as illustrations were added to its pages.\n(B) The book changed as text was applied to its cover.\n(C) The book changed as stickers were affixed around its spine.\n(D) The book changed as a new title was imprinted on its front.\n(E) The book changed as clothes were drawn on it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The book changed as illustrations were added to its pages."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the shopping bag change?",
+    "options": [
+        "The shopping bag was opened, revealing yellow flowers inside.",
+        "The shopping bag was closed securely, keeping the items hidden from view.",
+        "The shopping bag was crumpled into a ball, losing its original shape completely.",
+        "The shopping bag was opened, a single yellow flower was removed and placed on the desk, with its stem and flower separated.",
+        "The shopping bag was opened, and some yellow flowers ended up scattered on the chair and the floor."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the shopping bag change? Choose **only one** option from the following list.\nOptions:\n(A) The shopping bag was opened, revealing yellow flowers inside.\n(B) The shopping bag was closed securely, keeping the items hidden from view.\n(C) The shopping bag was crumpled into a ball, losing its original shape completely.\n(D) The shopping bag was opened, a single yellow flower was removed and placed on the desk, with its stem and flower separated.\n(E) The shopping bag was opened, and some yellow flowers ended up scattered on the chair and the floor.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The shopping bag was opened, revealing yellow flowers inside."
+    },
+    "correct_idx": [
+        0
+    ]
+}

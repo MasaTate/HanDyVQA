@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person uses both hands to hold the plastic bag open while placing items inside.",
+        "The person uses one hand to hold the plastic bag while using the other hand to peel a label off it.",
+        "The person uses both hands to pull the plastic bag apart as if separating it into two sections.",
+        "The person uses one hand to shake the plastic bag while the other hand reaches for something else on the table.",
+        "The person uses both hands to grab the plastic bag and crumple it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person uses both hands to hold the plastic bag open while placing items inside.\n(B) The person uses one hand to hold the plastic bag while using the other hand to peel a label off it.\n(C) The person uses both hands to pull the plastic bag apart as if separating it into two sections.\n(D) The person uses one hand to shake the plastic bag while the other hand reaches for something else on the table.\n(E) The person uses both hands to grab the plastic bag and crumple it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person uses both hands to grab the plastic bag and crumple it."
+    },
+    "correct_idx": [
+        4
+    ]
+}

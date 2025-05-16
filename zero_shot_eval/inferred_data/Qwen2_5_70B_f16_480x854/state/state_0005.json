@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the salt in the bowl change?",
+    "options": [
+        "The salt in the bowl was scooped and poured into a measuring spoon.",
+        "The salt in the bowl was stirred until it dissolved completely.",
+        "The salt in the bowl was transferred to a small container for storage.",
+        "The salt in the bowl was mixed with spices before use.",
+        "The salt was pinched and sprinkled into the pot."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the salt in the bowl change? Choose **only one** option from the following list.\nOptions:\n(A) The salt in the bowl was scooped and poured into a measuring spoon.\n(B) The salt in the bowl was stirred until it dissolved completely.\n(C) The salt in the bowl was transferred to a small container for storage.\n(D) The salt in the bowl was mixed with spices before use.\n(E) The salt was pinched and sprinkled into the pot.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The salt was pinched and sprinkled into the pot."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person wipe plastic knife?",
+    "options": [
+        "The person moves the knife across the surface using her left hand, with the right hand holding it lightly.",
+        "The person swipes sideways with her left hand while holding the knife casually between her fingers.",
+        "The person pushes the knife forward using her right hand, applying gentle pressure against the blade.",
+        "The person wipes the knife from down to up using her left hand while the right hand is tightly gripping the handle of the knife.",
+        "The person rotates the knife gently using her right hand while the left hand is not involved."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person wipe plastic knife? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the knife across the surface using her left hand, with the right hand holding it lightly.\n(B) The person swipes sideways with her left hand while holding the knife casually between her fingers.\n(C) The person pushes the knife forward using her right hand, applying gentle pressure against the blade.\n(D) The person wipes the knife from down to up using her left hand while the right hand is tightly gripping the handle of the knife.\n(E) The person rotates the knife gently using her right hand while the left hand is not involved.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person swipes sideways with her left hand while holding the knife casually between her fingers."
+    },
+    "correct_idx": [
+        3
+    ]
+}

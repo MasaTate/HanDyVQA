@@ -1,0 +1,17 @@
+{
+    "question": "How does the person smoothen the fabric with her left hand?",
+    "options": [
+        "The person used the left hand to press the fabric in a downward motion, applying steady pressure.",
+        "The person moved the fabric with a back and forth circular motion using her left hand.",
+        "The person used the left hand to swipe the fabric in a leftward motion.",
+        "The person brushed the fabric lightly with her left hand, aiming to smoothen the wrinkles.",
+        "The person stretched the fabric slightly with her left hand before smoothing it out."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person smoothen the fabric with her left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person used the left hand to press the fabric in a downward motion, applying steady pressure.\n(B) The person moved the fabric with a back and forth circular motion using her left hand.\n(C) The person used the left hand to swipe the fabric in a leftward motion.\n(D) The person brushed the fabric lightly with her left hand, aiming to smoothen the wrinkles.\n(E) The person stretched the fabric slightly with her left hand before smoothing it out.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person brushed the fabric lightly with her left hand, aiming to smoothen the wrinkles."
+    },
+    "correct_idx": [
+        2
+    ]
+}

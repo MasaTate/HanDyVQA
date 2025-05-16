@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person transfers chicken from the table to a plate with the knife in his right hand.",
+        "The person chops chicken on the cutting board with the knife in his right hand while holding the bowl with his left hand.",
+        "The person transfers chicken from the cutting board to a bowl with the knife in his right hand.",
+        "The person places chicken on the cutting board with the knife in his right hand while holding the bowl with his left hand.",
+        "The person slices chicken on the cutting board with the knife in his right hand while holding a fork with his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person transfers chicken from the table to a plate with the knife in his right hand.\n(B) The person chops chicken on the cutting board with the knife in his right hand while holding the bowl with his left hand.\n(C) The person transfers chicken from the cutting board to a bowl with the knife in his right hand.\n(D) The person places chicken on the cutting board with the knife in his right hand while holding the bowl with his left hand.\n(E) The person slices chicken on the cutting board with the knife in his right hand while holding a fork with his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person transfers chicken from the cutting board to a bowl with the knife in his right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

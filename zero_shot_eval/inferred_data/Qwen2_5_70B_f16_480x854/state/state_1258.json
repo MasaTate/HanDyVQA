@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the wall change?",
+    "options": [
+        "The wall was painted with a vibrant color, altering its appearance completely.",
+        "The wall was covered with a layer of wallpaper, providing texture and pattern to its surface.",
+        "The wall was damaged and then patched, resulting in an uneven and rough finish.",
+        "The wall was adorned with shelves and decorations, creating a more dynamic and cluttered look.",
+        "The wall was scrubbed clean and then smoothed, leaving a fresh, even surface."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the wall change? Choose **only one** option from the following list.\nOptions:\n(A) The wall was painted with a vibrant color, altering its appearance completely.\n(B) The wall was covered with a layer of wallpaper, providing texture and pattern to its surface.\n(C) The wall was damaged and then patched, resulting in an uneven and rough finish.\n(D) The wall was adorned with shelves and decorations, creating a more dynamic and cluttered look.\n(E) The wall was scrubbed clean and then smoothed, leaving a fresh, even surface.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The wall was scrubbed clean and then smoothed, leaving a fresh, even surface."
+    },
+    "correct_idx": [
+        4
+    ]
+}

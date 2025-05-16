@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the paint plaster change?",
+    "options": [
+        "The paint plaster was moved side to side and then rotated to apply the brush part on the ceiling.",
+        "The paint plaster was moved up and down and then rotated to apply the brush part on the wall.",
+        "The paint plaster was moved up and down and then rotated to apply the corner of the brush part on the wall.",
+        "The paint plaster was moved in a circular motion and then rotated to dab the brush part on the wall.",
+        "The paint plaster was moved up and down and then rotated to apply the brush part on the edge of the wall."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the paint plaster change? Choose **only one** option from the following list.\nOptions:\n(A) The paint plaster was moved side to side and then rotated to apply the brush part on the ceiling.\n(B) The paint plaster was moved up and down and then rotated to apply the brush part on the wall.\n(C) The paint plaster was moved up and down and then rotated to apply the corner of the brush part on the wall.\n(D) The paint plaster was moved in a circular motion and then rotated to dab the brush part on the wall.\n(E) The paint plaster was moved up and down and then rotated to apply the brush part on the edge of the wall.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The paint plaster was moved up and down and then rotated to apply the brush part on the edge of the wall."
+    },
+    "correct_idx": [
+        1
+    ]
+}

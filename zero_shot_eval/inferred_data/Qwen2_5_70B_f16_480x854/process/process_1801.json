@@ -1,0 +1,17 @@
+{
+    "question": "How does the person spin the rotor?",
+    "options": [
+        "The person pulls the rotor gently before twisting it clockwise.",
+        "The person screws the rotor, then spins it counterclockwise with the left hand and holds it to stop.",
+        "The person pushes down on the rotor slightly while turning it counterclockwise.",
+        "The person flips the rotor and smoothly gives it a quick spin without using screws.",
+        "The person holds the rotor slightly and shakes it from side to side rather than spinning it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person spin the rotor? Choose **only one** option from the following list.\nOptions:\n(A) The person pulls the rotor gently before twisting it clockwise.\n(B) The person screws the rotor, then spins it counterclockwise with the left hand and holds it to stop.\n(C) The person pushes down on the rotor slightly while turning it counterclockwise.\n(D) The person flips the rotor and smoothly gives it a quick spin without using screws.\n(E) The person holds the rotor slightly and shakes it from side to side rather than spinning it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person screws the rotor, then spins it counterclockwise with the left hand and holds it to stop."
+    },
+    "correct_idx": [
+        1
+    ]
+}

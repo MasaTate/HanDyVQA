@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the leaf?",
+    "options": [
+        "The person dropped the leaf on the path.",
+        "The person dropped the leaf on the grass.",
+        "The person dropped the leaf on the bench.",
+        "The person dropped the leaf on the driveway.",
+        "The person dropped the leaf on the ground."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the leaf? Choose **only one** option from the following list.\nOptions:\n(A) The person dropped the leaf on the path.\n(B) The person dropped the leaf on the grass.\n(C) The person dropped the leaf on the bench.\n(D) The person dropped the leaf on the driveway.\n(E) The person dropped the leaf on the ground.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person dropped the leaf on the ground."
+    },
+    "correct_idx": [
+        4
+    ]
+}

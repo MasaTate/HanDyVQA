@@ -1,0 +1,17 @@
+{
+    "question": "How does the person unscrew a bolt?",
+    "options": [
+        "The person twists the bolt gently by using just their fingers, applying light pressure to turn it clockwise.",
+        "The person attempts to unscrew the bolt by tapping it with a hammer held in their left hand, making measured strikes to loosen it.",
+        "The person holds the bolt securely with both hands and tries to pull it straight out rather than rotating it.",
+        "The person places a screwdriver against the bolt and applies firm pressure with their palm to try to unscrew it.",
+        "The person grips the bolt firmly with pliers held in their right hand, then rotates the pliers counterclockwise with a steady motion to gradually loosen and unscrew the bolt."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person unscrew a bolt? Choose **only one** option from the following list.\nOptions:\n(A) The person twists the bolt gently by using just their fingers, applying light pressure to turn it clockwise.\n(B) The person attempts to unscrew the bolt by tapping it with a hammer held in their left hand, making measured strikes to loosen it.\n(C) The person holds the bolt securely with both hands and tries to pull it straight out rather than rotating it.\n(D) The person places a screwdriver against the bolt and applies firm pressure with their palm to try to unscrew it.\n(E) The person grips the bolt firmly with pliers held in their right hand, then rotates the pliers counterclockwise with a steady motion to gradually loosen and unscrew the bolt.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person grips the bolt firmly with pliers held in their right hand, then rotates the pliers counterclockwise with a steady motion to gradually loosen and unscrew the bolt."
+    },
+    "correct_idx": [
+        4
+    ]
+}

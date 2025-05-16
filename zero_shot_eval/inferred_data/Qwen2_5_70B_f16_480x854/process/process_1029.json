@@ -1,0 +1,17 @@
+{
+    "question": "How does the person crochet the yarn?",
+    "options": [
+        "The person holds the yarn in their palm with both hands while threading the needle through the yarn.",
+        "The person wraps the yarn around the knitting needle with the right hand and gently pulls it back using the left hand.",
+        "The person guides the yarn along the table with the left hand and smoothly places the knitting needle into it from above with the right hand.",
+        "The person holds the yarn closely with the left hand and slightly inserts the knitting needle through with a minimal rotation using the right hand.",
+        "The person holds the yarn in the left hand and puts the knitting needle in the yarn and then, rotates the needle under and inside the yarn using the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person crochet the yarn? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the yarn in their palm with both hands while threading the needle through the yarn.\n(B) The person wraps the yarn around the knitting needle with the right hand and gently pulls it back using the left hand.\n(C) The person guides the yarn along the table with the left hand and smoothly places the knitting needle into it from above with the right hand.\n(D) The person holds the yarn closely with the left hand and slightly inserts the knitting needle through with a minimal rotation using the right hand.\n(E) The person holds the yarn in the left hand and puts the knitting needle in the yarn and then, rotates the needle under and inside the yarn using the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person holds the yarn in the left hand and puts the knitting needle in the yarn and then, rotates the needle under and inside the yarn using the right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

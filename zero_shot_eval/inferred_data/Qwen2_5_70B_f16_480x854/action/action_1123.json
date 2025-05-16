@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person swirls the paintbrush in a bowl of water using his right hand.",
+        "The person mixes colors on a palette using the paintbrush in his right hand.",
+        "The person cleans the paintbrush with a cloth using his right hand.",
+        "The person dips the paintbrush into a paint set using his right hand.",
+        "The person paints on a canvas with the paintbrush in his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person swirls the paintbrush in a bowl of water using his right hand.\n(B) The person mixes colors on a palette using the paintbrush in his right hand.\n(C) The person cleans the paintbrush with a cloth using his right hand.\n(D) The person dips the paintbrush into a paint set using his right hand.\n(E) The person paints on a canvas with the paintbrush in his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person dips the paintbrush into a paint set using his right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

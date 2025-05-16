@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the plastics?",
+    "options": [
+        "The person dropped the plastics at the top shelf.",
+        "The person dropped the plastics at the bottom shelf.",
+        "The person dropped the plastics at the left shelf.",
+        "The person dropped the plastics at middle shelf.",
+        "The person dropped the plastics at the right shelf."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the plastics? Choose **only one** option from the following list.\nOptions:\n(A) The person dropped the plastics at the top shelf.\n(B) The person dropped the plastics at the bottom shelf.\n(C) The person dropped the plastics at the left shelf.\n(D) The person dropped the plastics at middle shelf.\n(E) The person dropped the plastics at the right shelf.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person dropped the plastics at the top shelf."
+    },
+    "correct_idx": [
+        3
+    ]
+}

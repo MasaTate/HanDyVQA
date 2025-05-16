@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a bolt change?",
+    "options": [
+        "The bolt was rotated and attached to the wheel of the tire by hand.",
+        "The bolt was rotated and detached from the wheel of the tire by hand.",
+        "The bolt was rotated halfway and loosened from the wheel of the tire by hand.",
+        "The bolt was rotated and placed near the wheel of the tire without being fully attached.",
+        "The bolt was rotated twice but was not fully attached to the wheel of the tire by hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a bolt change? Choose **only one** option from the following list.\nOptions:\n(A) The bolt was rotated and attached to the wheel of the tire by hand.\n(B) The bolt was rotated and detached from the wheel of the tire by hand.\n(C) The bolt was rotated halfway and loosened from the wheel of the tire by hand.\n(D) The bolt was rotated and placed near the wheel of the tire without being fully attached.\n(E) The bolt was rotated twice but was not fully attached to the wheel of the tire by hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The bolt was rotated and attached to the wheel of the tire by hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

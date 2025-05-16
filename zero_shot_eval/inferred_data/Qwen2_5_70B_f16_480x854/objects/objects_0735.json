@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "ladder",
+        "scraper",
+        "spackling paste",
+        "container",
+        "vent cover",
+        "wall"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) ladder\n(B) scraper\n(C) spackling paste\n(D) container\n(E) vent cover\n(F) wall\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(B) scraper\n(C) spackling paste\n(D) container"
+    },
+    "correct_idx": [
+        1,
+        3
+    ]
+}

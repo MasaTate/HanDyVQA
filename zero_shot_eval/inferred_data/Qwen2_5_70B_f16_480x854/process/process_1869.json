@@ -1,0 +1,17 @@
+{
+    "question": "How does the person carry the bucket of paint from the floor?",
+    "options": [
+        "The person takes the handle and lifts the bucket of white paint from the floor with the left hand.",
+        "The person uses both hands to lift the bucket of paint from the floor by gripping it firmly.",
+        "The person tilts the bucket and lifts it from the floor using the palm of their hand.",
+        "The person pulls the bucket of paint across the floor using the handle with their right hand.",
+        "The person picks up the bucket with their fingertips, carefully balancing it as they stand up."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person carry the bucket of paint from the floor? Choose **only one** option from the following list.\nOptions:\n(A) The person takes the handle and lifts the bucket of white paint from the floor with the left hand.\n(B) The person uses both hands to lift the bucket of paint from the floor by gripping it firmly.\n(C) The person tilts the bucket and lifts it from the floor using the palm of their hand.\n(D) The person pulls the bucket of paint across the floor using the handle with their right hand.\n(E) The person picks up the bucket with their fingertips, carefully balancing it as they stand up.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person takes the handle and lifts the bucket of white paint from the floor with the left hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

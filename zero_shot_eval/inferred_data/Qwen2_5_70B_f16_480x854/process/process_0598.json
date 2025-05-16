@@ -1,0 +1,17 @@
+{
+    "question": "How does the person trace the drawing?",
+    "options": [
+        "The person scribbled over the drawing with a pencil in their right hand, moving the pencil in various directions without focusing on the lines or details of the image.",
+        "The person traced the drawing on paper while holding a marker in their dominant hand, applying pressure to create a bold outline that altered the original image's appearance.",
+        "The person traced the drawing on paper by carefully holding a pen in their left hand, guiding it along the lines with steady and precise movements to replicate the contours and details of the image.",
+        "The person used their finger to rub across the drawing on the paper with their left hand, moving over the lines to blur the contours and lessen the details.",
+        "The person placed the drawing flat on the table and used both hands to press on a sheet of tracing paper, adjusting the pressure to create an imprecise outline."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person trace the drawing? Choose **only one** option from the following list.\nOptions:\n(A) The person scribbled over the drawing with a pencil in their right hand, moving the pencil in various directions without focusing on the lines or details of the image.\n(B) The person traced the drawing on paper while holding a marker in their dominant hand, applying pressure to create a bold outline that altered the original image's appearance.\n(C) The person traced the drawing on paper by carefully holding a pen in their left hand, guiding it along the lines with steady and precise movements to replicate the contours and details of the image.\n(D) The person used their finger to rub across the drawing on the paper with their left hand, moving over the lines to blur the contours and lessen the details.\n(E) The person placed the drawing flat on the table and used both hands to press on a sheet of tracing paper, adjusting the pressure to create an imprecise outline.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person traced the drawing on paper by carefully holding a pen in their left hand, guiding it along the lines with steady and precise movements to replicate the contours and details of the image."
+    },
+    "correct_idx": [
+        2
+    ]
+}

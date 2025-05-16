@@ -1,0 +1,17 @@
+{
+    "question": "How does the person season the beef?",
+    "options": [
+        "The person grabs the bottle of seasoning and pours it smoothly over the beef without shaking it, using both hands.",
+        "The person seasons the beef by holding the bottle of seasoning and shakes it to pour the seasoning on the beef using the left hand.",
+        "The person tilts the bottle of seasoning slightly and drizzles it on the beef with only the right hand.",
+        "The person places the bottle of seasoning down and gently sprinkles the seasoning using their fingers over the beef.",
+        "The person turns the bottle of seasoning upside down to gently spread the seasoning onto the beef using the left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person season the beef? Choose **only one** option from the following list.\nOptions:\n(A) The person grabs the bottle of seasoning and pours it smoothly over the beef without shaking it, using both hands.\n(B) The person seasons the beef by holding the bottle of seasoning and shakes it to pour the seasoning on the beef using the left hand.\n(C) The person tilts the bottle of seasoning slightly and drizzles it on the beef with only the right hand.\n(D) The person places the bottle of seasoning down and gently sprinkles the seasoning using their fingers over the beef.\n(E) The person turns the bottle of seasoning upside down to gently spread the seasoning onto the beef using the left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person seasons the beef by holding the bottle of seasoning and shakes it to pour the seasoning on the beef using the left hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

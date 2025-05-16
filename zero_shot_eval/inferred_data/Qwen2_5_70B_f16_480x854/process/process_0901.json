@@ -1,0 +1,17 @@
+{
+    "question": "How does the person itch his left hand?",
+    "options": [
+        "The person uses his right hand to pat the left hand softly, pressing gently without any scratching motion.",
+        "The person rubs the left hand along the edge of a nearby table, applying a slight pressure while avoiding scratching with the fingers.",
+        "The person lightly brushes the left hand with the palm of the right hand in gentle circles, avoiding contact with the fingernails.",
+        "The person reaches the left hand with his right hand and starts to scratch and scrub the left hand using the right fingernails by moving it back and forth repeatedly.",
+        "The person flicks the wrist of his left hand while subtly adjusting the position of the right hand, creating a light motion instead of scratching."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person itch his left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person uses his right hand to pat the left hand softly, pressing gently without any scratching motion.\n(B) The person rubs the left hand along the edge of a nearby table, applying a slight pressure while avoiding scratching with the fingers.\n(C) The person lightly brushes the left hand with the palm of the right hand in gentle circles, avoiding contact with the fingernails.\n(D) The person reaches the left hand with his right hand and starts to scratch and scrub the left hand using the right fingernails by moving it back and forth repeatedly.\n(E) The person flicks the wrist of his left hand while subtly adjusting the position of the right hand, creating a light motion instead of scratching.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person reaches the left hand with his right hand and starts to scratch and scrub the left hand using the right fingernails by moving it back and forth repeatedly."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person check the nut?",
+    "options": [
+        "The person raises the nut by flicking his wrist in his right hand to enhance the view.",
+        "The person rolls the nut in the palm of his hand while observing it from afar.",
+        "The person pinches the nut between his thumb and forefinger in the left hand and examines it closely.",
+        "The person tightly grips the nut in his fist and gazes at it without bringing it closer.",
+        "The person picks up the nut with both hands and shakes it lightly to hear if it makes a noise."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person check the nut? Choose **only one** option from the following list.\nOptions:\n(A) The person raises the nut by flicking his wrist in his right hand to enhance the view.\n(B) The person rolls the nut in the palm of his hand while observing it from afar.\n(C) The person pinches the nut between his thumb and forefinger in the left hand and examines it closely.\n(D) The person tightly grips the nut in his fist and gazes at it without bringing it closer.\n(E) The person picks up the nut with both hands and shakes it lightly to hear if it makes a noise.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person pinches the nut between his thumb and forefinger in the left hand and examines it closely."
+    },
+    "correct_idx": [
+        2
+    ]
+}

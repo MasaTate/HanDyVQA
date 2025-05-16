@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move a piece of paper?",
+    "options": [
+        "The person moved the piece of paper to their left side.",
+        "The person moved the piece of paper to the center of the table.",
+        "The person moved the piece of paper to the far end of the desk.",
+        "The person moved the piece of paper to the front edge of the table.",
+        "The person moved the piece of paper to their right side."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move a piece of paper? Choose **only one** option from the following list.\nOptions:\n(A) The person moved the piece of paper to their left side.\n(B) The person moved the piece of paper to the center of the table.\n(C) The person moved the piece of paper to the far end of the desk.\n(D) The person moved the piece of paper to the front edge of the table.\n(E) The person moved the piece of paper to their right side.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person moved the piece of paper to the center of the table."
+    },
+    "correct_idx": [
+        4
+    ]
+}

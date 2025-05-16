@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the stove change?",
+    "options": [
+        "The stove changed after the person adjusted the control.",
+        "The stove changed when the person turned off the burner.",
+        "The stove changed as the person replaced the knobs.",
+        "The stove changed after the person cleaned the surface.",
+        "The stove changed when the person connected it to a gas line."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the stove change? Choose **only one** option from the following list.\nOptions:\n(A) The stove changed after the person adjusted the control.\n(B) The stove changed when the person turned off the burner.\n(C) The stove changed as the person replaced the knobs.\n(D) The stove changed after the person cleaned the surface.\n(E) The stove changed when the person connected it to a gas line.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The stove changed after the person adjusted the control."
+    },
+    "correct_idx": [
+        0
+    ]
+}

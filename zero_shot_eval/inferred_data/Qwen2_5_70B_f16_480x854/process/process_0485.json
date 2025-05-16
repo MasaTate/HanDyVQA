@@ -1,0 +1,17 @@
+{
+    "question": "How does the person support herself?",
+    "options": [
+        "The person supports herself by gripping the wooden rail with her left hand.",
+        "The person steadies herself by resting her forearm on the handrail.",
+        "The person uses her right hand to gently hold onto the metal railing for balance.",
+        "The person supports herself by placing both hands smoothly on the surface of the table.",
+        "The person balances by using her left hand to press slightly against the wall."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person support herself? Choose **only one** option from the following list.\nOptions:\n(A) The person supports herself by gripping the wooden rail with her left hand.\n(B) The person steadies herself by resting her forearm on the handrail.\n(C) The person uses her right hand to gently hold onto the metal railing for balance.\n(D) The person supports herself by placing both hands smoothly on the surface of the table.\n(E) The person balances by using her left hand to press slightly against the wall.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person supports herself by gripping the wooden rail with her left hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

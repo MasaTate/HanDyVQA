@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the cloth change?",
+    "options": [
+        "The cloth, which was being held in the right hand, was placed on the floor with the thread still dangling from the needle while in the process of being embroidered, and then pulled back towards the left side of the room with both hands.",
+        "The cloth, previously grasped in the left hand, was crumpled into a ball and placed across the table with the needle still threaded, before being flattened out with the palm of the right hand.",
+        "The cloth, which had been held in the left hand, was placed on the desk with the thread still attached to the needle in the middle of being painted, and then moved slightly to the right side of the desk with the right hand.",
+        "The cloth, held tightly in both hands, was removed from the table with the thread remaining fastened to the needle while being dyed, and then moved to the left side of the room.",
+        "The cloth, once held in the right hand, was separated into two pieces while still attached to the needle during the sewing process, and then placed onto the chair at the side."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the cloth change? Choose **only one** option from the following list.\nOptions:\n(A) The cloth, which was being held in the right hand, was placed on the floor with the thread still dangling from the needle while in the process of being embroidered, and then pulled back towards the left side of the room with both hands.\n(B) The cloth, previously grasped in the left hand, was crumpled into a ball and placed across the table with the needle still threaded, before being flattened out with the palm of the right hand.\n(C) The cloth, which had been held in the left hand, was placed on the desk with the thread still attached to the needle in the middle of being painted, and then moved slightly to the right side of the desk with the right hand.\n(D) The cloth, held tightly in both hands, was removed from the table with the thread remaining fastened to the needle while being dyed, and then moved to the left side of the room.\n(E) The cloth, once held in the right hand, was separated into two pieces while still attached to the needle during the sewing process, and then placed onto the chair at the side.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The cloth, which had been held in the left hand, was placed on the desk with the thread still attached to the needle in the middle of being painted, and then moved slightly to the right side of the desk with the right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

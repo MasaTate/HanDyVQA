@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the ring?",
+    "options": [
+        "The person places the ring onto the glass surface they are using.",
+        "The person place the ring into the metal their holding.",
+        "The person places the ring beside the metal they are holding.",
+        "The person places the ring inside the drawer they just opened.",
+        "The person places the ring on top of the desk next to their notebook."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the ring? Choose **only one** option from the following list.\nOptions:\n(A) The person places the ring onto the glass surface they are using.\n(B) The person place the ring into the metal their holding.\n(C) The person places the ring beside the metal they are holding.\n(D) The person places the ring inside the drawer they just opened.\n(E) The person places the ring on top of the desk next to their notebook.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person place the ring into the metal their holding."
+    },
+    "correct_idx": [
+        1
+    ]
+}

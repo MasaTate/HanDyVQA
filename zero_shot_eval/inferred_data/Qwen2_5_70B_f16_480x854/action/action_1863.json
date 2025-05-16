@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person takes her right hand out of the loaf bread package bag.",
+        "The person places her right hand on the counter next to the loaf bread package bag.",
+        "The person removes a slice of bread from the loaf bread package bag using her right hand.",
+        "The person closes the loaf bread package bag with her right hand.",
+        "The person puts her right hand in the loaf bread package bag."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person takes her right hand out of the loaf bread package bag.\n(B) The person places her right hand on the counter next to the loaf bread package bag.\n(C) The person removes a slice of bread from the loaf bread package bag using her right hand.\n(D) The person closes the loaf bread package bag with her right hand.\n(E) The person puts her right hand in the loaf bread package bag.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person puts her right hand in the loaf bread package bag."
+    },
+    "correct_idx": [
+        4
+    ]
+}

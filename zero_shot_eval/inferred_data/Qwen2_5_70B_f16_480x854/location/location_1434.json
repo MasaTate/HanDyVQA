@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the pots?",
+    "options": [
+        "The person puts the pots inside the top row of the cabinet.",
+        "The person puts the pots on the left side of the kitchen countertop.",
+        "The person puts the pots inside the bottom row of the cabinet.",
+        "The person puts the pots on the floor next to the cabinet.",
+        "The person puts the pots in the middle shelf of the pantry."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the pots? Choose **only one** option from the following list.\nOptions:\n(A) The person puts the pots inside the top row of the cabinet.\n(B) The person puts the pots on the left side of the kitchen countertop.\n(C) The person puts the pots inside the bottom row of the cabinet.\n(D) The person puts the pots on the floor next to the cabinet.\n(E) The person puts the pots in the middle shelf of the pantry.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person puts the pots inside the bottom row of the cabinet."
+    },
+    "correct_idx": [
+        2
+    ]
+}

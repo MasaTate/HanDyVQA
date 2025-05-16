@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is pouring the sauce from the bottle into the frying pan with a ladle using her left hand and holding the bottle with her right hand.",
+        "The person is stirring the sauce in the frying pan with a whisk using her left hand while holding the whisk with her right hand.",
+        "The person is transferring the sauce from the bowl to the frying pan with a spatula using her left hand while holding the bowl with her right hand.",
+        "The person is drizzling the sauce onto the frying pan from a container with her left hand while holding the container with her right hand.",
+        "The person is scooping the sauce from the tin into the frying pan with a spoon using her left hand and holding the tin with her right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is pouring the sauce from the bottle into the frying pan with a ladle using her left hand and holding the bottle with her right hand.\n(B) The person is stirring the sauce in the frying pan with a whisk using her left hand while holding the whisk with her right hand.\n(C) The person is transferring the sauce from the bowl to the frying pan with a spatula using her left hand while holding the bowl with her right hand.\n(D) The person is drizzling the sauce onto the frying pan from a container with her left hand while holding the container with her right hand.\n(E) The person is scooping the sauce from the tin into the frying pan with a spoon using her left hand and holding the tin with her right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person is scooping the sauce from the tin into the frying pan with a spoon using her left hand and holding the tin with her right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

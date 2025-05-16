@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the baluster wall plate?",
+    "options": [
+        "The person moves up the baluster wall plate from the metal pole.",
+        "The person moves down the baluster wall plate from the wooden post.",
+        "The person moves aside the baluster wall plate from the stone column.",
+        "The person moves over the baluster wall plate from the glass barrier.",
+        "The person moves back the baluster wall plate from the concrete beam."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the baluster wall plate? Choose **only one** option from the following list.\nOptions:\n(A) The person moves up the baluster wall plate from the metal pole.\n(B) The person moves down the baluster wall plate from the wooden post.\n(C) The person moves aside the baluster wall plate from the stone column.\n(D) The person moves over the baluster wall plate from the glass barrier.\n(E) The person moves back the baluster wall plate from the concrete beam.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person moves aside the baluster wall plate from the stone column."
+    },
+    "correct_idx": [
+        0
+    ]
+}

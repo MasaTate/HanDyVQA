@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a stone change?",
+    "options": [
+        "The stone was revealed and exposed when the soil was dug by hand.",
+        "The stone was polished and made smooth when rubbed against another surface.",
+        "The stone was covered with bright colors to enhance its appearance.",
+        "The stone was shattered into smaller pieces after it was dropped onto a hard surface.",
+        "The stone was embedded and surrounded by cement to form a decorative feature."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a stone change? Choose **only one** option from the following list.\nOptions:\n(A) The stone was revealed and exposed when the soil was dug by hand.\n(B) The stone was polished and made smooth when rubbed against another surface.\n(C) The stone was covered with bright colors to enhance its appearance.\n(D) The stone was shattered into smaller pieces after it was dropped onto a hard surface.\n(E) The stone was embedded and surrounded by cement to form a decorative feature.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The stone was revealed and exposed when the soil was dug by hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

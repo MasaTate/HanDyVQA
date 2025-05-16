@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the nut change?",
+    "options": [
+        "The nut was dropped, causing a change in position as it fell to the ground.",
+        "The nut was held, causing a change in position as it was gripped.",
+        "The nut was rolled along a surface, causing a change in position as it moved forward.",
+        "The nut was placed into a bowl, causing a change in position as it settled among other nuts.",
+        "The nut was tossed into the air, causing a change in position as it soared upward."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the nut change? Choose **only one** option from the following list.\nOptions:\n(A) The nut was dropped, causing a change in position as it fell to the ground.\n(B) The nut was held, causing a change in position as it was gripped.\n(C) The nut was rolled along a surface, causing a change in position as it moved forward.\n(D) The nut was placed into a bowl, causing a change in position as it settled among other nuts.\n(E) The nut was tossed into the air, causing a change in position as it soared upward.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The nut was held, causing a change in position as it was gripped."
+    },
+    "correct_idx": [
+        1
+    ]
+}

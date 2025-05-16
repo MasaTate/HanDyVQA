@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person turns the pages of a magazine using both hands, then sets it down on the table in front of them and picks up a notebook with their right hand.",
+        "The person examines the pages of a book using only their right hand, then pushes it aside and takes a pencil from the table with their left hand.",
+        "The person closes a book with both hands, then puts it on the shelf and picks up a tablet with their right hand.",
+        "The person flips the pages of a book using both hands, then places it on top of the other book on the left and grabs another book on the right.",
+        "The person organizes a stack of papers with one hand, then reaches for a book on the ground with the other hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person turns the pages of a magazine using both hands, then sets it down on the table in front of them and picks up a notebook with their right hand.\n(B) The person examines the pages of a book using only their right hand, then pushes it aside and takes a pencil from the table with their left hand.\n(C) The person closes a book with both hands, then puts it on the shelf and picks up a tablet with their right hand.\n(D) The person flips the pages of a book using both hands, then places it on top of the other book on the left and grabs another book on the right.\n(E) The person organizes a stack of papers with one hand, then reaches for a book on the ground with the other hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person flips the pages of a book using both hands, then places it on top of the other book on the left and grabs another book on the right."
+    },
+    "correct_idx": [
+        3
+    ]
+}

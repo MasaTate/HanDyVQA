@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the pack of oatmeal?",
+    "options": [
+        "The person placed the pack of oatmeal on the upper right shelf.",
+        "The person dropped the pack of oatmeal on the middle shelf to the left.",
+        "The person set the pack of oatmeal on the right bottom shelf.",
+        "The person placed the pack of oatmeal on the lower left shelf.",
+        "The person put the pack of oatmeal on the lower right shelf."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the pack of oatmeal? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the pack of oatmeal on the upper right shelf.\n(B) The person dropped the pack of oatmeal on the middle shelf to the left.\n(C) The person set the pack of oatmeal on the right bottom shelf.\n(D) The person placed the pack of oatmeal on the lower left shelf.\n(E) The person put the pack of oatmeal on the lower right shelf.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person placed the pack of oatmeal on the lower left shelf."
+    },
+    "correct_idx": [
+        3
+    ]
+}

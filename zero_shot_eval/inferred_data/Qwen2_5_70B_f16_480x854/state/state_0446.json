@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the hay change?",
+    "options": [
+        "The hay was touched and spread out but remained largely undisturbed.",
+        "The hay was moved to the side and then left untouched.",
+        "The hay was slightly compressed but was not moved from its spot.",
+        "The hay was touched and slightly moved but didn't change in other way.",
+        "The hay was shifted to the right and left undisturbed afterward."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the hay change? Choose **only one** option from the following list.\nOptions:\n(A) The hay was touched and spread out but remained largely undisturbed.\n(B) The hay was moved to the side and then left untouched.\n(C) The hay was slightly compressed but was not moved from its spot.\n(D) The hay was touched and slightly moved but didn't change in other way.\n(E) The hay was shifted to the right and left undisturbed afterward.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The hay was touched and spread out but remained largely undisturbed."
+    },
+    "correct_idx": [
+        3
+    ]
+}

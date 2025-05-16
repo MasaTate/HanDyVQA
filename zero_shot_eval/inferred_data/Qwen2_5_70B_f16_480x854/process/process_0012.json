@@ -1,0 +1,17 @@
+{
+    "question": "How does the person water the soil?",
+    "options": [
+        "The person waters the soil by holding the hose with running water and quickly moving it forward to another patch of soil.",
+        "The person tilts the watering can over slowly while keeping the spout near the soil surface.",
+        "The person pours water gently from a bucket into the soil with both hands positioned on the sides of the bucket.",
+        "The person squeezes the spray nozzle of the garden hose and aims it upward before releasing the water.",
+        "The person moves the hose along the ground while maintaining a firm grip with one hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person water the soil? Choose **only one** option from the following list.\nOptions:\n(A) The person waters the soil by holding the hose with running water and quickly moving it forward to another patch of soil.\n(B) The person tilts the watering can over slowly while keeping the spout near the soil surface.\n(C) The person pours water gently from a bucket into the soil with both hands positioned on the sides of the bucket.\n(D) The person squeezes the spray nozzle of the garden hose and aims it upward before releasing the water.\n(E) The person moves the hose along the ground while maintaining a firm grip with one hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person moves the hose along the ground while maintaining a firm grip with one hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

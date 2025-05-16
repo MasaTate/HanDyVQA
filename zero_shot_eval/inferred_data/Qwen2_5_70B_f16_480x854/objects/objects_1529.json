@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "scissors",
+        "yarn",
+        "glue gun",
+        "cylinder",
+        "outlet",
+        "door"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) scissors\n(B) yarn\n(C) glue gun\n(D) cylinder\n(E) outlet\n(F) door\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(C) The hands use a glue gun to apply adhesive.\n(D) The hands manipulate a cylinder, likely as part of the crafting process."
+    },
+    "correct_idx": [
+        2,
+        3
+    ]
+}

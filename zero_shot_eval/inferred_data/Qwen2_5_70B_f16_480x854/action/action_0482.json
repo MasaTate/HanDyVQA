@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person holds two leaves in her left hand while her right hand holds a small stick.",
+        "The person holds a single leaf in her left hand while her right hand grasps a larger branch.",
+        "The person is gently crumpling up two leaves in her right hand while her left hand places a small flower on the ground.",
+        "The person is picking up a flower with her left hand while her right hand holds a handful of soil.",
+        "The person is gently dangling a small stick in her left hand while her right hand clutches a piece of fruit."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person holds two leaves in her left hand while her right hand holds a small stick.\n(B) The person holds a single leaf in her left hand while her right hand grasps a larger branch.\n(C) The person is gently crumpling up two leaves in her right hand while her left hand places a small flower on the ground.\n(D) The person is picking up a flower with her left hand while her right hand holds a handful of soil.\n(E) The person is gently dangling a small stick in her left hand while her right hand clutches a piece of fruit.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person holds two leaves in her left hand while her right hand holds a small stick."
+    },
+    "correct_idx": [
+        0
+    ]
+}

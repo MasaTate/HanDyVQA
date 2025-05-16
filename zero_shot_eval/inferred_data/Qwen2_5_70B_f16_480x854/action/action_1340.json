@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person scrapes the wooden stand with the screwdriver in his right hand.",
+        "The person tightens the screws on the wooden stand using the screwdriver in his right hand.",
+        "The person removes paint from the wooden stand with a chisel in his right hand.",
+        "The person polishes the wooden stand with a cloth in his right hand while holding a bottle of polish in his left hand.",
+        "The person assembles the wooden stand using a hammer in his right hand while holding a wooden piece with his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person scrapes the wooden stand with the screwdriver in his right hand.\n(B) The person tightens the screws on the wooden stand using the screwdriver in his right hand.\n(C) The person removes paint from the wooden stand with a chisel in his right hand.\n(D) The person polishes the wooden stand with a cloth in his right hand while holding a bottle of polish in his left hand.\n(E) The person assembles the wooden stand using a hammer in his right hand while holding a wooden piece with his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person tightens the screws on the wooden stand using the screwdriver in his right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

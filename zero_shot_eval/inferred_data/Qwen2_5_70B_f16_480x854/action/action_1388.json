@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person rinses the chopsticks under running water while holding the sponge in her left hand.",
+        "The person scrubs the chopsticks with a brush in her right hand while holding a bowl in her left hand.",
+        "The person cleans the chopsticks with a cloth in her left hand while holding them vertically with her right hand.",
+        "The person wipes the chopsticks dry with a towel in her right hand while holding a plate with her left hand.",
+        "The person washes the chopsticks with the sponge in her left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person rinses the chopsticks under running water while holding the sponge in her left hand.\n(B) The person scrubs the chopsticks with a brush in her right hand while holding a bowl in her left hand.\n(C) The person cleans the chopsticks with a cloth in her left hand while holding them vertically with her right hand.\n(D) The person wipes the chopsticks dry with a towel in her right hand while holding a plate with her left hand.\n(E) The person washes the chopsticks with the sponge in her left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person rinses the chopsticks under running water while holding the sponge in her left hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

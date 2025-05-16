@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person presses the dough with the left hand then uses a rolling pin with both hands to flatten it.",
+        "The person rolls out the dough with both hands using a rolling pin while holding a pastry brush in his right hand.",
+        "The person shapes the dough into a ball with his left hand and then uses a fork in his right hand to poke holes into it.",
+        "The person kneads the dough with both hands, holding a spatula in his right hand to scrape the surface.",
+        "The person flips the dough onto the counter with his left hand while spreading flour with his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person presses the dough with the left hand then uses a rolling pin with both hands to flatten it.\n(B) The person rolls out the dough with both hands using a rolling pin while holding a pastry brush in his right hand.\n(C) The person shapes the dough into a ball with his left hand and then uses a fork in his right hand to poke holes into it.\n(D) The person kneads the dough with both hands, holding a spatula in his right hand to scrape the surface.\n(E) The person flips the dough onto the counter with his left hand while spreading flour with his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person presses the dough with the left hand then uses a rolling pin with both hands to flatten it."
+    },
+    "correct_idx": [
+        0
+    ]
+}

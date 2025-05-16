@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person adjusts the wire grid on the grill with his left hand while gripping a spatula with his right hand.",
+        "The person shifts the wire grid on the grill with his left hand while holding the grill tongs with his right hand.",
+        "The person is rearranging the wire grid on the grill using his left hand while holding a burger patty with his right hand.",
+        "The person moves the wire grid on the grill with his left hand while holding a fork with his right hand.",
+        "The person is cleaning the grill with a brush in his right hand while stabilizing the wire grid with his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person adjusts the wire grid on the grill with his left hand while gripping a spatula with his right hand.\n(B) The person shifts the wire grid on the grill with his left hand while holding the grill tongs with his right hand.\n(C) The person is rearranging the wire grid on the grill using his left hand while holding a burger patty with his right hand.\n(D) The person moves the wire grid on the grill with his left hand while holding a fork with his right hand.\n(E) The person is cleaning the grill with a brush in his right hand while stabilizing the wire grid with his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person shifts the wire grid on the grill with his left hand while holding the grill tongs with his right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

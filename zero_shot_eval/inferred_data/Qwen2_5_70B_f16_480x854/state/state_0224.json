@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the saucer change?",
+    "options": [
+        "The saucer was moved from the countertop to the table.",
+        "The saucer was relocated from the cabinet to the countertop.",
+        "The saucer was transferred from the top of the organizer to the sink.",
+        "The saucer was placed from the dining table into the dishwasher.",
+        "The saucer was shifted from the sink to the kitchen floor."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the saucer change? Choose **only one** option from the following list.\nOptions:\n(A) The saucer was moved from the countertop to the table.\n(B) The saucer was relocated from the cabinet to the countertop.\n(C) The saucer was transferred from the top of the organizer to the sink.\n(D) The saucer was placed from the dining table into the dishwasher.\n(E) The saucer was shifted from the sink to the kitchen floor.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The saucer was relocated from the cabinet to the countertop."
+    },
+    "correct_idx": [
+        2
+    ]
+}

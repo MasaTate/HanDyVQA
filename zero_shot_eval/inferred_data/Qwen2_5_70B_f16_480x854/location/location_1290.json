@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the screws?",
+    "options": [
+        "The person moves the screws inside the drawer of the desk.",
+        "The person moves the screws beside the lamp on the table.",
+        "The person moves the screws underneath the chair by the wall.",
+        "The person moves the screws on top of the footrest.",
+        "The person moves the screws near the edge of the workbench."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the screws? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the screws inside the drawer of the desk.\n(B) The person moves the screws beside the lamp on the table.\n(C) The person moves the screws underneath the chair by the wall.\n(D) The person moves the screws on top of the footrest.\n(E) The person moves the screws near the edge of the workbench.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person moves the screws on top of the footrest."
+    },
+    "correct_idx": [
+        3
+    ]
+}

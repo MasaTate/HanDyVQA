@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the assembled cardboard pieces change?",
+    "options": [
+        "The cardboard piece was laid on top of another cardboard and taken again.",
+        "The cardboard piece was stacked on top of several other cardboard pieces and then taken away.",
+        "The cardboard piece was placed on the table beside another cardboard piece and then moved.",
+        "The cardboard piece was positioned under another cardboard piece and then removed.",
+        "The cardboard piece was turned upside down while resting on another cardboard piece and then removed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the assembled cardboard pieces change? Choose **only one** option from the following list.\nOptions:\n(A) The cardboard piece was laid on top of another cardboard and taken again.\n(B) The cardboard piece was stacked on top of several other cardboard pieces and then taken away.\n(C) The cardboard piece was placed on the table beside another cardboard piece and then moved.\n(D) The cardboard piece was positioned under another cardboard piece and then removed.\n(E) The cardboard piece was turned upside down while resting on another cardboard piece and then removed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The cardboard piece was stacked on top of several other cardboard pieces and then taken away."
+    },
+    "correct_idx": [
+        0
+    ]
+}

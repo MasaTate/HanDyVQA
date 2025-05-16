@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pick the plate?",
+    "options": [
+        "The person holds the plate with one hand and places it on the counter.",
+        "The person picks up the plate with one hand and gently places it in the sink.",
+        "The person grabs the plate by lifting it and then rotates it upside down and places it in the sink using the right hand.",
+        "The person moves the plate across the table with the palm of the hand and places it down.",
+        "The person lifts the plate by the edge with two fingers and then places it in the sink."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pick the plate? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the plate with one hand and places it on the counter.\n(B) The person picks up the plate with one hand and gently places it in the sink.\n(C) The person grabs the plate by lifting it and then rotates it upside down and places it in the sink using the right hand.\n(D) The person moves the plate across the table with the palm of the hand and places it down.\n(E) The person lifts the plate by the edge with two fingers and then places it in the sink.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person grabs the plate by lifting it and then rotates it upside down and places it in the sink using the right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the cutleries?",
+    "options": [
+        "The person drops the cutleries onto the countertop beside the sink.",
+        "The person drops the cutleries into a pot on the stove.",
+        "The person drops the cutleries onto the kitchen floor near the sink.",
+        "The person drops the cutleries inside the drawer under the countertop.",
+        "The person drops the cutleries into the bowl in the sink."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the cutleries? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the cutleries onto the countertop beside the sink.\n(B) The person drops the cutleries into a pot on the stove.\n(C) The person drops the cutleries onto the kitchen floor near the sink.\n(D) The person drops the cutleries inside the drawer under the countertop.\n(E) The person drops the cutleries into the bowl in the sink.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person drops the cutleries onto the countertop beside the sink."
+    },
+    "correct_idx": [
+        4
+    ]
+}

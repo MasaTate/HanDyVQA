@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is painting the cardboard craft tube using a brush in her right hand while holding the tube steady with her left hand.",
+        "The person is cutting the cardboard craft tube into pieces with scissors in her right hand while balancing the tube with her left hand.",
+        "The person applies glue to the cardboard craft tube with the glue gun in her right hand.",
+        "The person is sticking stickers onto the cardboard craft tube with tape in her right hand while keeping the tube in place with her left hand.",
+        "The person is wrapping the cardboard craft tube in colorful paper with her right hand while holding the tube upright with her left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is painting the cardboard craft tube using a brush in her right hand while holding the tube steady with her left hand.\n(B) The person is cutting the cardboard craft tube into pieces with scissors in her right hand while balancing the tube with her left hand.\n(C) The person applies glue to the cardboard craft tube with the glue gun in her right hand.\n(D) The person is sticking stickers onto the cardboard craft tube with tape in her right hand while keeping the tube in place with her left hand.\n(E) The person is wrapping the cardboard craft tube in colorful paper with her right hand while holding the tube upright with her left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person applies glue to the cardboard craft tube with the glue gun in her right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

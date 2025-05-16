@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a part of the tent change?",
+    "options": [
+        "The zipper of the tent was moved from the top to the bottom, causing the flap to close.",
+        "The zipper of the tent was moved back and forth, causing the flap to remain partially open.",
+        "The zipper of the tent was moved from the bottom to the top, causing the flap to open.",
+        "The zipper of the tent was moved halfway, causing the bottom half of the flap to stay shut.",
+        "The zipper of the tent was moved slightly upwards, causing a small opening at the bottom of the flap."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a part of the tent change? Choose **only one** option from the following list.\nOptions:\n(A) The zipper of the tent was moved from the top to the bottom, causing the flap to close.\n(B) The zipper of the tent was moved back and forth, causing the flap to remain partially open.\n(C) The zipper of the tent was moved from the bottom to the top, causing the flap to open.\n(D) The zipper of the tent was moved halfway, causing the bottom half of the flap to stay shut.\n(E) The zipper of the tent was moved slightly upwards, causing a small opening at the bottom of the flap.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The zipper of the tent was moved from the bottom to the top, causing the flap to open."
+    },
+    "correct_idx": [
+        2
+    ]
+}

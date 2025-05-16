@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put a drywall screw?",
+    "options": [
+        "The person put the drywall screw in the hole of the ceiling.",
+        "The person put the drywall screw in the corner of the wall.",
+        "The person put the drywall screw in the hole of the floor.",
+        "The person put the drywall screw in the gap of the window frame.",
+        "The person put the drywall screw in the opening of the door."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put a drywall screw? Choose **only one** option from the following list.\nOptions:\n(A) The person put the drywall screw in the hole of the ceiling.\n(B) The person put the drywall screw in the corner of the wall.\n(C) The person put the drywall screw in the hole of the floor.\n(D) The person put the drywall screw in the gap of the window frame.\n(E) The person put the drywall screw in the opening of the door.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person put the drywall screw in the hole of the ceiling."
+    },
+    "correct_idx": [
+        0
+    ]
+}

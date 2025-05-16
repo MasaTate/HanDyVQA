@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the branch change?",
+    "options": [
+        "The state of the branch was bent slightly and pushed upwards, remaining unpulled.",
+        "The state of the branch was twisted with a full rotation and then left in place.",
+        "The state of the branch was cut and pulled down with little or no rotation.",
+        "The state of the branch was not cut but moved sideways with a gentle twist.",
+        "The state of the branch was bent downwards, remaining attached without cutting."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the branch change? Choose **only one** option from the following list.\nOptions:\n(A) The state of the branch was bent slightly and pushed upwards, remaining unpulled.\n(B) The state of the branch was twisted with a full rotation and then left in place.\n(C) The state of the branch was cut and pulled down with little or no rotation.\n(D) The state of the branch was not cut but moved sideways with a gentle twist.\n(E) The state of the branch was bent downwards, remaining attached without cutting.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The state of the branch was cut and pulled down with little or no rotation."
+    },
+    "correct_idx": [
+        2
+    ]
+}

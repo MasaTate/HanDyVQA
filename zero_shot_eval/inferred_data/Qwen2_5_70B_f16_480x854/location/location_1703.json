@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move his right hand?",
+    "options": [
+        "The person moved his right hand to hold the book steady.",
+        "The person moved his right hand to push the table away.",
+        "The person moved his right hand to flip the pages.",
+        "The person moved his right hand to point at the ceiling.",
+        "The person moved his right hand to adjust his glasses."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move his right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person moved his right hand to hold the book steady.\n(B) The person moved his right hand to push the table away.\n(C) The person moved his right hand to flip the pages.\n(D) The person moved his right hand to point at the ceiling.\n(E) The person moved his right hand to adjust his glasses.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person moved his right hand to hold the book steady."
+    },
+    "correct_idx": [
+        2
+    ]
+}

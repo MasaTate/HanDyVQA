@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the second stone change?",
+    "options": [
+        "The second stone changed when it was placed on the ground and then kicked away.",
+        "The second stone changed when it was rolled down the hill after being pushed.",
+        "The second stone changed when it was buried in the sand and covered completely.",
+        "The second stone changed when it was picked up and thrown.",
+        "The second stone changed when it was dropped into water and caused a splash."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the second stone change? Choose **only one** option from the following list.\nOptions:\n(A) The second stone changed when it was placed on the ground and then kicked away.\n(B) The second stone changed when it was rolled down the hill after being pushed.\n(C) The second stone changed when it was buried in the sand and covered completely.\n(D) The second stone changed when it was picked up and thrown.\n(E) The second stone changed when it was dropped into water and caused a splash.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The second stone changed when it was picked up and thrown."
+    },
+    "correct_idx": [
+        3
+    ]
+}

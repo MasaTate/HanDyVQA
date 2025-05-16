@@ -1,0 +1,17 @@
+{
+    "question": "How does the person gather the tomatoes?",
+    "options": [
+        "The person collects the tomatoes from the edges of the chopping board by gently pushing them with her right hand and using her left hand to assist.",
+        "The person picks up the tomatoes from a bowl using her right hand and places them onto the counter with a casual motion.",
+        "The person gathers the tomatoes by carefully pinching them individually with her fingers and placing them into a bag, without moving them on the board.",
+        "The person slides the tomatoes into a bowl with a spatula held in her right hand while maintaining her left hand in place.",
+        "The person gathers the tomatoes on the chopping board by compressing and moving the hands to the center of the board using her left hand and the knife in her right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person gather the tomatoes? Choose **only one** option from the following list.\nOptions:\n(A) The person collects the tomatoes from the edges of the chopping board by gently pushing them with her right hand and using her left hand to assist.\n(B) The person picks up the tomatoes from a bowl using her right hand and places them onto the counter with a casual motion.\n(C) The person gathers the tomatoes by carefully pinching them individually with her fingers and placing them into a bag, without moving them on the board.\n(D) The person slides the tomatoes into a bowl with a spatula held in her right hand while maintaining her left hand in place.\n(E) The person gathers the tomatoes on the chopping board by compressing and moving the hands to the center of the board using her left hand and the knife in her right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person gathers the tomatoes on the chopping board by compressing and moving the hands to the center of the board using her left hand and the knife in her right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the chisel change?",
+    "options": [
+        "The chisel was heated, causing its material properties to become altered.",
+        "The chisel was coated with a layer of rust, affecting its appearance and condition.",
+        "The chisel was sharpened, resulting in a refined edge for precise operation.",
+        "The chisel was dropped, leading to a change in its blade that impacts function.",
+        "The chisel made contact with the wood, chipping away small fragments from its surface."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the chisel change? Choose **only one** option from the following list.\nOptions:\n(A) The chisel was heated, causing its material properties to become altered.\n(B) The chisel was coated with a layer of rust, affecting its appearance and condition.\n(C) The chisel was sharpened, resulting in a refined edge for precise operation.\n(D) The chisel was dropped, leading to a change in its blade that impacts function.\n(E) The chisel made contact with the wood, chipping away small fragments from its surface.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The chisel made contact with the wood, chipping away small fragments from its surface."
+    },
+    "correct_idx": [
+        4
+    ]
+}

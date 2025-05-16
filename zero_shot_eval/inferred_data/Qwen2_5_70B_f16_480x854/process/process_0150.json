@@ -1,0 +1,17 @@
+{
+    "question": "How does the person connect the wire?",
+    "options": [
+        "The person connects the wire by gripping one end with the left hand while carefully wrapping the other end around it closely, bringing them together gently.",
+        "The person connects the wire by holding one end on a surface and pressing the other end lightly over it, applying just enough pressure to connect.",
+        "The person connects the wire by holding one end and placing the other hand into a container to bring the wires near each other, aligning them smoothly.",
+        "The person connects the wire by holding both ends with just one hand, gently bringing them slightly closer together.",
+        "The person connects the wire by holding both ends with his hands and aligning them in a cross shape, pressing them lightly together without twisting or securing them."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person connect the wire? Choose **only one** option from the following list.\nOptions:\n(A) The person connects the wire by gripping one end with the left hand while carefully wrapping the other end around it closely, bringing them together gently.\n(B) The person connects the wire by holding one end on a surface and pressing the other end lightly over it, applying just enough pressure to connect.\n(C) The person connects the wire by holding one end and placing the other hand into a container to bring the wires near each other, aligning them smoothly.\n(D) The person connects the wire by holding both ends with just one hand, gently bringing them slightly closer together.\n(E) The person connects the wire by holding both ends with his hands and aligning them in a cross shape, pressing them lightly together without twisting or securing them.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person connects the wire by gripping one end with the left hand while carefully wrapping the other end around it closely, bringing them together gently."
+    },
+    "correct_idx": [
+        4
+    ]
+}

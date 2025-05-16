@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the piece of plank change?",
+    "options": [
+        "The plank remained stationary when a clamp was used.",
+        "The plank was lifted off the surface when a clamp was used.",
+        "The plank was bent at an angle when a clamp was used.",
+        "The plank was partially lifted from the table when a clamp was used.",
+        "The plank was moved across the workbench when a clamp was used."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the piece of plank change? Choose **only one** option from the following list.\nOptions:\n(A) The plank remained stationary when a clamp was used.\n(B) The plank was lifted off the surface when a clamp was used.\n(C) The plank was bent at an angle when a clamp was used.\n(D) The plank was partially lifted from the table when a clamp was used.\n(E) The plank was moved across the workbench when a clamp was used.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The plank was partially lifted from the table when a clamp was used."
+    },
+    "correct_idx": [
+        0
+    ]
+}

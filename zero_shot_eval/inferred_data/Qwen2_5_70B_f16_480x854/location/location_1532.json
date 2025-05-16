@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the metal?",
+    "options": [
+        "The person put the metal at his left back portion of body.",
+        "The person put the metal at his right front portion of body.",
+        "The person put the metal at his left front portion of body.",
+        "The person put the metal at his right back portion of body.",
+        "The person put the metal at the center front portion of body."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the metal? Choose **only one** option from the following list.\nOptions:\n(A) The person put the metal at his left back portion of body.\n(B) The person put the metal at his right front portion of body.\n(C) The person put the metal at his left front portion of body.\n(D) The person put the metal at his right back portion of body.\n(E) The person put the metal at the center front portion of body.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person put the metal at his left back portion of body."
+    },
+    "correct_idx": [
+        0
+    ]
+}

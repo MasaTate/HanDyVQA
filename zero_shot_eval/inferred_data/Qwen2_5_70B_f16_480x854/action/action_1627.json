@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person transferred the chopped spinach into the right bowl using the left hand.",
+        "The person is stirring the chopped spinach in the bowl using the right hand while holding a spatula in the left hand.",
+        "The person is cutting the spinach on the cutting board with the knife in the right hand while placing it into a different bowl with the left hand.",
+        "The person is mixing the chopped spinach with dressing in the bowl using both hands.",
+        "The person placed the chopped spinach in the left bowl using the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person transferred the chopped spinach into the right bowl using the left hand.\n(B) The person is stirring the chopped spinach in the bowl using the right hand while holding a spatula in the left hand.\n(C) The person is cutting the spinach on the cutting board with the knife in the right hand while placing it into a different bowl with the left hand.\n(D) The person is mixing the chopped spinach with dressing in the bowl using both hands.\n(E) The person placed the chopped spinach in the left bowl using the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person placed the chopped spinach in the left bowl using the right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

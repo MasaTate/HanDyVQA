@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person lifts a jerrycan with both hands as if preparing to carry it.",
+        "The person pours water from a jerrycan held in his right hand into a potted plant on the table.",
+        "The person pushes away the jerrycan, taps it with the right hand and starts digging the soil in the pot using a tool that he holds in his right hand, while the left hand holds the pot.",
+        "The person slides a jerrycan across the floor using his right hand while stabilizing it with his left hand.",
+        "The person places a jerrycan on top of another one on the shelf with his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person lifts a jerrycan with both hands as if preparing to carry it.\n(B) The person pours water from a jerrycan held in his right hand into a potted plant on the table.\n(C) The person pushes away the jerrycan, taps it with the right hand and starts digging the soil in the pot using a tool that he holds in his right hand, while the left hand holds the pot.\n(D) The person slides a jerrycan across the floor using his right hand while stabilizing it with his left hand.\n(E) The person places a jerrycan on top of another one on the shelf with his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person pushes away the jerrycan, taps it with the right hand and starts digging the soil in the pot using a tool that he holds in his right hand, while the left hand holds the pot."
+    },
+    "correct_idx": [
+        2
+    ]
+}

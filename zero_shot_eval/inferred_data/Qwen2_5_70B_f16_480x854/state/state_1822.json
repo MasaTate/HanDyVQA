@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the scrapper change?",
+    "options": [
+        "The scraper, changing in appearance and texture from smooth to rough, was sanded down.",
+        "The scraper, changing in appearance and texture from dirty to clean, was washed.",
+        "The scraper, changing in appearance and texture from dull to shiny, was polished.",
+        "The scraper, changing in appearance and texture from flexible to rigid, was frozen.",
+        "The scraper, changing in appearance and texture from clean to dirty, was used to scrape off paint."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the scrapper change? Choose **only one** option from the following list.\nOptions:\n(A) The scraper, changing in appearance and texture from smooth to rough, was sanded down.\n(B) The scraper, changing in appearance and texture from dirty to clean, was washed.\n(C) The scraper, changing in appearance and texture from dull to shiny, was polished.\n(D) The scraper, changing in appearance and texture from flexible to rigid, was frozen.\n(E) The scraper, changing in appearance and texture from clean to dirty, was used to scrape off paint.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The scraper, changing in appearance and texture from smooth to rough, was sanded down."
+    },
+    "correct_idx": [
+        1
+    ]
+}

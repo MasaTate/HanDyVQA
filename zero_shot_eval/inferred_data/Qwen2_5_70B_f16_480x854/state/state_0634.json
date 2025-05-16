@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of cabbage change?",
+    "options": [
+        "The shredded cabbage was picked up with a spoon and placed in a bowl.",
+        "The diced cabbage was picked up with a fork and placed in a container.",
+        "The sliced cabbage was picked up with hands and placed on a platter.",
+        "The grated cabbage was picked up with tongs and placed on a cutting board.",
+        "The chopped cabbage was picked up with chopsticks and placed on the plate."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of cabbage change? Choose **only one** option from the following list.\nOptions:\n(A) The shredded cabbage was picked up with a spoon and placed in a bowl.\n(B) The diced cabbage was picked up with a fork and placed in a container.\n(C) The sliced cabbage was picked up with hands and placed on a platter.\n(D) The grated cabbage was picked up with tongs and placed on a cutting board.\n(E) The chopped cabbage was picked up with chopsticks and placed on the plate.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The chopped cabbage was picked up with chopsticks and placed on the plate."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person hold the bag?",
+    "options": [
+        "The person grips the bag's handle with his left hand, fingers wrapping around it while the thumb presses against the side for support.",
+        "The person holds the bag with both hands, fingers wrapped around the fabric without pressing too hard.",
+        "The person balances the bag on one shoulder, using the right hand to smooth the strap while the left hand stays at his side.",
+        "The person supports the bag from the bottom with both hands, slightly lifting it as the thumb rests underneath.",
+        "The person carries the bag in one hand with the handle slightly hanging down, using the fingertips to hold it gently."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person hold the bag? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the bag's handle with his left hand, fingers wrapping around it while the thumb presses against the side for support.\n(B) The person holds the bag with both hands, fingers wrapped around the fabric without pressing too hard.\n(C) The person balances the bag on one shoulder, using the right hand to smooth the strap while the left hand stays at his side.\n(D) The person supports the bag from the bottom with both hands, slightly lifting it as the thumb rests underneath.\n(E) The person carries the bag in one hand with the handle slightly hanging down, using the fingertips to hold it gently.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person holds the bag with both hands, fingers wrapped around the fabric without pressing too hard."
+    },
+    "correct_idx": [
+        0
+    ]
+}

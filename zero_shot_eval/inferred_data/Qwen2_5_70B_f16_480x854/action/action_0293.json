@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is dribbling a soccer ball with both hands; they are attempting to pass the ball using their right and left hands.",
+        "The person is playing basketball using both hands; they are trying to make a basket with their right and left hands.",
+        "The person shoots a basketball with one hand; they are aiming for the hoop using only their right hand.",
+        "The person practices tennis with a racket in both hands; they are swinging the racket to hit the ball with their left hand.",
+        "The person is playing volleyball using one hand; they are serving the ball over the net with just their right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is dribbling a soccer ball with both hands; they are attempting to pass the ball using their right and left hands.\n(B) The person is playing basketball using both hands; they are trying to make a basket with their right and left hands.\n(C) The person shoots a basketball with one hand; they are aiming for the hoop using only their right hand.\n(D) The person practices tennis with a racket in both hands; they are swinging the racket to hit the ball with their left hand.\n(E) The person is playing volleyball using one hand; they are serving the ball over the net with just their right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person is playing basketball using both hands; they are trying to make a basket with their right and left hands."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of some glue change?",
+    "options": [
+        "The glue was squeezed from the container and applied to the material.",
+        "The glue was poured from the container and applied to the surface.",
+        "The glue was smeared from the jar and applied across the fabric.",
+        "The glue was extracted from the tube and applied to the paper.",
+        "The glue was pumped from the bottle and applied to the wood."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of some glue change? Choose **only one** option from the following list.\nOptions:\n(A) The glue was squeezed from the container and applied to the material.\n(B) The glue was poured from the container and applied to the surface.\n(C) The glue was smeared from the jar and applied across the fabric.\n(D) The glue was extracted from the tube and applied to the paper.\n(E) The glue was pumped from the bottle and applied to the wood.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The glue was squeezed from the container and applied to the material."
+    },
+    "correct_idx": [
+        0
+    ]
+}

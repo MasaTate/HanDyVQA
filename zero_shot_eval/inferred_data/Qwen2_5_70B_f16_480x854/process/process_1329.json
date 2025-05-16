@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pull the stick?",
+    "options": [
+        "The person pulls the stick upward by dragging the stick with the left hand and then transfers it to the right hand.",
+        "The person pulls the stick upward with both hands while keeping their arms close to their body.",
+        "The person grips the stick gently with both hands and guides it away from their body.",
+        "The person lifts the stick smoothly by starting with their right hand, gently adjusting their wrist.",
+        "The person pulls the stick sideways using one hand and then transitions to the other hand for support."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pull the stick? Choose **only one** option from the following list.\nOptions:\n(A) The person pulls the stick upward by dragging the stick with the left hand and then transfers it to the right hand.\n(B) The person pulls the stick upward with both hands while keeping their arms close to their body.\n(C) The person grips the stick gently with both hands and guides it away from their body.\n(D) The person lifts the stick smoothly by starting with their right hand, gently adjusting their wrist.\n(E) The person pulls the stick sideways using one hand and then transitions to the other hand for support.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person pulls the stick upward by dragging the stick with the left hand and then transfers it to the right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

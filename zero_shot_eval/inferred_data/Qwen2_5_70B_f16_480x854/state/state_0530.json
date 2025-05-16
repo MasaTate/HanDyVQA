@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a solid sand change?",
+    "options": [
+        "The chunk of the solid sand was compacted into a denser block.",
+        "The chunk of the solid sand was split into smaller chunks.",
+        "The chunk of the solid sand was softened while retaining its shape.",
+        "The chunk of the solid sand was hollowed from the center.",
+        "The chunk of the solid sand was crushed into sand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a solid sand change? Choose **only one** option from the following list.\nOptions:\n(A) The chunk of the solid sand was compacted into a denser block.\n(B) The chunk of the solid sand was split into smaller chunks.\n(C) The chunk of the solid sand was softened while retaining its shape.\n(D) The chunk of the solid sand was hollowed from the center.\n(E) The chunk of the solid sand was crushed into sand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The chunk of the solid sand was crushed into sand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person apply the glue?",
+    "options": [
+        "The person twists the cap off the glue using both hands, then gently pours the glue onto the black rubber with support from the left hand.",
+        "The person flicks off the cap with the wrist, placing the glue bottle beside the black rubber, and uses the left hand to spread glue onto the surface.",
+        "The person applies the glue at the back of the leather bag by spreading it from side to side, going to the bottom.",
+        "The person unscrews the glue cap using the thumb and forefinger of the left hand, holds the glue upside down, and carefully shakes it to apply it onto the black rubber.",
+        "The person uses their palm to push the cap off the glue and tips the bottle over to smoothly apply glue on the black rubber with the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person apply the glue? Choose **only one** option from the following list.\nOptions:\n(A) The person twists the cap off the glue using both hands, then gently pours the glue onto the black rubber with support from the left hand.\n(B) The person flicks off the cap with the wrist, placing the glue bottle beside the black rubber, and uses the left hand to spread glue onto the surface.\n(C) The person applies the glue at the back of the leather bag by spreading it from side to side, going to the bottom.\n(D) The person unscrews the glue cap using the thumb and forefinger of the left hand, holds the glue upside down, and carefully shakes it to apply it onto the black rubber.\n(E) The person uses their palm to push the cap off the glue and tips the bottle over to smoothly apply glue on the black rubber with the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person applies the glue at the back of the leather bag by spreading it from side to side, going to the bottom."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person transfer the egg?",
+    "options": [
+        "The person shifts the egg from the left to the right hand after gently cracking it from the side of the stove.",
+        "The person transfers the egg from one hand to the other while providing gentle support.",
+        "The person uses both hands to move the egg and then places it down on the counter.",
+        "The person holds the egg in one hand and passes it smoothly to the other.",
+        "The person guides the egg from the palm of the left hand to the right hand with ease."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person transfer the egg? Choose **only one** option from the following list.\nOptions:\n(A) The person shifts the egg from the left to the right hand after gently cracking it from the side of the stove.\n(B) The person transfers the egg from one hand to the other while providing gentle support.\n(C) The person uses both hands to move the egg and then places it down on the counter.\n(D) The person holds the egg in one hand and passes it smoothly to the other.\n(E) The person guides the egg from the palm of the left hand to the right hand with ease.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person holds the egg in one hand and passes it smoothly to the other."
+    },
+    "correct_idx": [
+        0
+    ]
+}

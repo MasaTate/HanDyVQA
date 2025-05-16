@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "leaf. ",
+        "grapes",
+        "shoe. ",
+        "cutter",
+        "tray basket. ",
+        "grapes tree. "
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) leaf. \n(B) grapes\n(C) shoe. \n(D) cutter\n(E) tray basket. \n(F) grapes tree. \n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(B) grapes  \n(D) cutter  \n(E) tray basket  \n\nExplanation:  \n- (B) The hands are seen picking grapes from the vine.  \n- (D) The hands use a cutter tool to harvest the grapes.  \n- (E) The hands place the harvested grapes into a tray basket.  "
+    },
+    "correct_idx": [
+        1,
+        3
+    ]
+}

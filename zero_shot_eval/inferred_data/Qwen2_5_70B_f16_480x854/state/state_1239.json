@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the sweatshirt change?",
+    "options": [
+        "The sweatshirt was taken from the drawer, slightly deformed.",
+        "The sweatshirt was put on the hanger rack, slightly deformed.",
+        "The sweatshirt was taken from the hanger rack, slightly deformed.",
+        "The sweatshirt was taken from the hanger rack and left unfolded.",
+        "The sweatshirt was laid on the bed, slightly deformed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the sweatshirt change? Choose **only one** option from the following list.\nOptions:\n(A) The sweatshirt was taken from the drawer, slightly deformed.\n(B) The sweatshirt was put on the hanger rack, slightly deformed.\n(C) The sweatshirt was taken from the hanger rack, slightly deformed.\n(D) The sweatshirt was taken from the hanger rack and left unfolded.\n(E) The sweatshirt was laid on the bed, slightly deformed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The sweatshirt was taken from the hanger rack, slightly deformed."
+    },
+    "correct_idx": [
+        2
+    ]
+}

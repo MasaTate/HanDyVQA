@@ -1,0 +1,17 @@
+{
+    "question": "How does the person shake his right hand?",
+    "options": [
+        "The person shakes his right hand by holding it straight and moving it gently up and down with minimal wrist movement.",
+        "The person shakes his right hand by extending all his fingers smoothly and rotating the wrist to create a circular motion.",
+        "The person shakes his right hand by flicking the wrist quickly while maintaining a gentle fist with curled fingers.",
+        "The person shakes his right hand by bending the elbow slightly and moving the whole arm side to side while engaging the wrist.",
+        "The person shakes his right hand by slightly twisting it to the right, then raising his ring and pinky fingers while moving the wrist to create a shaking motion."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person shake his right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person shakes his right hand by holding it straight and moving it gently up and down with minimal wrist movement.\n(B) The person shakes his right hand by extending all his fingers smoothly and rotating the wrist to create a circular motion.\n(C) The person shakes his right hand by flicking the wrist quickly while maintaining a gentle fist with curled fingers.\n(D) The person shakes his right hand by bending the elbow slightly and moving the whole arm side to side while engaging the wrist.\n(E) The person shakes his right hand by slightly twisting it to the right, then raising his ring and pinky fingers while moving the wrist to create a shaking motion.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person shakes his right hand by flicking the wrist quickly while maintaining a gentle fist with curled fingers."
+    },
+    "correct_idx": [
+        4
+    ]
+}

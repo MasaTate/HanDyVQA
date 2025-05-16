@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "pvc pipe",
+        "level bar",
+        "empty bucket",
+        "mortar mix sack",
+        "pliers",
+        "tie wire"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) pvc pipe\n(B) level bar\n(C) empty bucket\n(D) mortar mix sack\n(E) pliers\n(F) tie wire\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(F) tie wire  \n(D) mortar mix sack  \n\nThe person in the video uses their hands to handle a tie wire, which they cut with pliers, and then picks up a mortar mix sack. The other options do not appear to be directly interacted with by the hands in the given sequence."
+    },
+    "correct_idx": [
+        4,
+        5
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the rope change?",
+    "options": [
+        "The rope was pulled tight along the ground, altering its length and tension.",
+        "The rope was coiled and placed on the floor, changing its shape but not its position.",
+        "The rope was draped over a chair, modifying its shape while keeping its position partially elevated.",
+        "The rope was thrown and changed its position and shape.",
+        "The rope was spread out and then pulled back, slightly altering its position but not its shape."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the rope change? Choose **only one** option from the following list.\nOptions:\n(A) The rope was pulled tight along the ground, altering its length and tension.\n(B) The rope was coiled and placed on the floor, changing its shape but not its position.\n(C) The rope was draped over a chair, modifying its shape while keeping its position partially elevated.\n(D) The rope was thrown and changed its position and shape.\n(E) The rope was spread out and then pulled back, slightly altering its position but not its shape.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The rope was thrown and changed its position and shape."
+    },
+    "correct_idx": [
+        3
+    ]
+}

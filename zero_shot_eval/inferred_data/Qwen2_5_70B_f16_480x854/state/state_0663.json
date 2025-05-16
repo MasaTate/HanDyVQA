@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the drilling machine change?",
+    "options": [
+        "The drilling machine tilted to the side, causing the nail to become misaligned with the drill bit.",
+        "The drilling machine descended downward, forcing the nail deeper into the surface.",
+        "The drilling machine rotated counterclockwise, loosening the nail from its position.",
+        "The drilling machine shifted upward, exposing the nail beneath it.",
+        "The drilling machine moved backward, pulling the nail out of the surface."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the drilling machine change? Choose **only one** option from the following list.\nOptions:\n(A) The drilling machine tilted to the side, causing the nail to become misaligned with the drill bit.\n(B) The drilling machine descended downward, forcing the nail deeper into the surface.\n(C) The drilling machine rotated counterclockwise, loosening the nail from its position.\n(D) The drilling machine shifted upward, exposing the nail beneath it.\n(E) The drilling machine moved backward, pulling the nail out of the surface.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The drilling machine shifted upward, exposing the nail beneath it."
+    },
+    "correct_idx": [
+        3
+    ]
+}

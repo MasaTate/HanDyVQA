@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the container?",
+    "options": [
+        "The person placed the container on the countertop.",
+        "The person placed the container on the kitchen island.",
+        "The person placed the container on the dining table.",
+        "The person placed the container on the floor next to the cabinet.",
+        "The person placed the container on the shelf above the sink."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the container? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the container on the countertop.\n(B) The person placed the container on the kitchen island.\n(C) The person placed the container on the dining table.\n(D) The person placed the container on the floor next to the cabinet.\n(E) The person placed the container on the shelf above the sink.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person placed the container on the countertop."
+    },
+    "correct_idx": [
+        0
+    ]
+}

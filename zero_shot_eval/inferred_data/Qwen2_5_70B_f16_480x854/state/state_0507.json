@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the brush change?",
+    "options": [
+        "The brush was dipped into the water and contained water on its bristles which was applied to the pottery.",
+        "The brush was dipped into the paint and contained some paint on its bristles which was applied to a piece of canvas.",
+        "The brush was dipped into a different shade of paint and contained that paint on its bristles which was applied to the pottery.",
+        "The brush was dipped into the paint and was cleaned off, leaving its bristles with no paint to apply.",
+        "The brush was dipped into the paint and contained some paint on its bristles which was applied to the pottery."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the brush change? Choose **only one** option from the following list.\nOptions:\n(A) The brush was dipped into the water and contained water on its bristles which was applied to the pottery.\n(B) The brush was dipped into the paint and contained some paint on its bristles which was applied to a piece of canvas.\n(C) The brush was dipped into a different shade of paint and contained that paint on its bristles which was applied to the pottery.\n(D) The brush was dipped into the paint and was cleaned off, leaving its bristles with no paint to apply.\n(E) The brush was dipped into the paint and contained some paint on its bristles which was applied to the pottery.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The brush was dipped into the paint and contained some paint on its bristles which was applied to the pottery."
+    },
+    "correct_idx": [
+        4
+    ]
+}

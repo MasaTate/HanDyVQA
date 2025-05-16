@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pour the water onto the brush?",
+    "options": [
+        "The person pours water onto the brush, holding it steady with their right hand while tilting a container of water with their left, allowing a controlled stream to flow onto the bristles.",
+        "The person grips the brush with their right hand and tilts a small jug of water with their left hand, letting the water gently trickle onto the bristles.",
+        "The person pours it carefully onto the brush to ensure an even flow, holding the container of water with both hands.",
+        "The person steadies the brush in their right hand while using the fingers of their left hand to gently squeeze water from a bottle onto the bristles.",
+        "The person tips a glass of water with their left hand, allowing the stream to flow smoothly over the brush, using their right hand to hold the brush at an angle."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pour the water onto the brush? Choose **only one** option from the following list.\nOptions:\n(A) The person pours water onto the brush, holding it steady with their right hand while tilting a container of water with their left, allowing a controlled stream to flow onto the bristles.\n(B) The person grips the brush with their right hand and tilts a small jug of water with their left hand, letting the water gently trickle onto the bristles.\n(C) The person pours it carefully onto the brush to ensure an even flow, holding the container of water with both hands.\n(D) The person steadies the brush in their right hand while using the fingers of their left hand to gently squeeze water from a bottle onto the bristles.\n(E) The person tips a glass of water with their left hand, allowing the stream to flow smoothly over the brush, using their right hand to hold the brush at an angle.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person pours water onto the brush, holding it steady with their right hand while tilting a container of water with their left, allowing a controlled stream to flow onto the bristles."
+    },
+    "correct_idx": [
+        0
+    ]
+}

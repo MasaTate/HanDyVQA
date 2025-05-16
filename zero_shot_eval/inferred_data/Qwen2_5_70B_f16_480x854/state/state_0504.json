@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a paintbrush change?",
+    "options": [
+        "The paintbrush is picked up and taken out of its paper wrapping with minimal rotation.",
+        "The paintbrush is picked up but left inside its plastic with little movement.",
+        "The paintbrush is picked up and taken out of its plastic without much rotation.",
+        "The paintbrush is picked up and taken out of its plastic with a slight twist.",
+        "The paintbrush is picked up and removed from its cloth covering without any turn."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a paintbrush change? Choose **only one** option from the following list.\nOptions:\n(A) The paintbrush is picked up and taken out of its paper wrapping with minimal rotation.\n(B) The paintbrush is picked up but left inside its plastic with little movement.\n(C) The paintbrush is picked up and taken out of its plastic without much rotation.\n(D) The paintbrush is picked up and taken out of its plastic with a slight twist.\n(E) The paintbrush is picked up and removed from its cloth covering without any turn.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The paintbrush is picked up and taken out of its plastic without much rotation."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the seed change?",
+    "options": [
+        "The seed moved inside the bottle but dropped to the bottom instead of coming out.",
+        "The seed moved inside the bottle and was about to come out of the bottle.",
+        "The seed moved inside the bottle and got stuck at the neck of the bottle.",
+        "The seed moved inside the bottle but stayed lodged in the middle.",
+        "The seed moved inside the bottle and touched the cap before falling back in."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the seed change? Choose **only one** option from the following list.\nOptions:\n(A) The seed moved inside the bottle but dropped to the bottom instead of coming out.\n(B) The seed moved inside the bottle and was about to come out of the bottle.\n(C) The seed moved inside the bottle and got stuck at the neck of the bottle.\n(D) The seed moved inside the bottle but stayed lodged in the middle.\n(E) The seed moved inside the bottle and touched the cap before falling back in.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The seed moved inside the bottle and was about to come out of the bottle."
+    },
+    "correct_idx": [
+        1
+    ]
+}

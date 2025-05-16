@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is trimming a branch using scissors with both hands.",
+        "The person is pulling a branch down using their hands while standing on a ladder.",
+        "The person cuts a branch using a chainsaw with both hands.",
+        "The person is sawing a branch with a handsaw using both hands.",
+        "The person is painting a branch with a brush using both hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is trimming a branch using scissors with both hands.\n(B) The person is pulling a branch down using their hands while standing on a ladder.\n(C) The person cuts a branch using a chainsaw with both hands.\n(D) The person is sawing a branch with a handsaw using both hands.\n(E) The person is painting a branch with a brush using both hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person cuts a branch using a chainsaw with both hands."
+    },
+    "correct_idx": [
+        2
+    ]
+}

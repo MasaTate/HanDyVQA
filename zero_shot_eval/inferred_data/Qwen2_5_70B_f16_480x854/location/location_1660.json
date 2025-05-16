@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the towel?",
+    "options": [
+        "The person puts the towel in the left hand.",
+        "The person places the towel on the right shoulder.",
+        "The person puts the towel in the right hand.",
+        "The person rests the towel on the left knee.",
+        "The person lays the towel on the right armrest of the chair."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the towel? Choose **only one** option from the following list.\nOptions:\n(A) The person puts the towel in the left hand.\n(B) The person places the towel on the right shoulder.\n(C) The person puts the towel in the right hand.\n(D) The person rests the towel on the left knee.\n(E) The person lays the towel on the right armrest of the chair.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person puts the towel in the right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

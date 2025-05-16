@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the plate change?",
+    "options": [
+        "The plate was put in the microwave, the plastic wrap that had covered it was removed, and it was taken out of the microwave.",
+        "The plate was placed on top of the food and heated in the microwave.",
+        "The plate was removed after it had been warmed up and placed back on the counter.",
+        "The food on the plate was transferred to another plate.",
+        "The plate was placed in the microwave, the lid that had been placed over it was removed, and it was taken out of the microwave."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the plate change? Choose **only one** option from the following list.\nOptions:\n(A) The plate was put in the microwave, the plastic wrap that had covered it was removed, and it was taken out of the microwave.\n(B) The plate was placed on top of the food and heated in the microwave.\n(C) The plate was removed after it had been warmed up and placed back on the counter.\n(D) The food on the plate was transferred to another plate.\n(E) The plate was placed in the microwave, the lid that had been placed over it was removed, and it was taken out of the microwave.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The plate was placed in the microwave, the lid that had been placed over it was removed, and it was taken out of the microwave."
+    },
+    "correct_idx": [
+        4
+    ]
+}

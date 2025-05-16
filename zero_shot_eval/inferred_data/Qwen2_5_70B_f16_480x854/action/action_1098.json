@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person picks up the marker with her right hand to draw on the paper while her left hand holds the paper steady.",
+        "The person grabs the glue bottle with her right hand to apply glue on the paper while her left hand holds the paper.",
+        "The person reaches for the ruler with her right hand to measure the yarn while her left hand holds the yarn.",
+        "The person puts the pencil down and gets the scissors with her right hand to cut the yarn while the left hand holds the yarn.",
+        "The person raises the pencil with her right hand to write on the paper while her left hand holds the paper."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person picks up the marker with her right hand to draw on the paper while her left hand holds the paper steady.\n(B) The person grabs the glue bottle with her right hand to apply glue on the paper while her left hand holds the paper.\n(C) The person reaches for the ruler with her right hand to measure the yarn while her left hand holds the yarn.\n(D) The person puts the pencil down and gets the scissors with her right hand to cut the yarn while the left hand holds the yarn.\n(E) The person raises the pencil with her right hand to write on the paper while her left hand holds the paper.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person puts the pencil down and gets the scissors with her right hand to cut the yarn while the left hand holds the yarn."
+    },
+    "correct_idx": [
+        3
+    ]
+}

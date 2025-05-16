@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pass the stem?",
+    "options": [
+        "The person hands over the stem after plucking the leaves with both hands and puts it down with the right hand in the stack of stems.",
+        "The person uses one hand to grasp the stem and places it into the stack without removing the leaves.",
+        "The person picks off the leaves with their left hand but places the stem in the stack using the left hand instead of the right.",
+        "The person removes leaves with both hands and drops the stem gently into the stack.",
+        "The person cuts the leaves off with scissors before placing the stem in the stack using the left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pass the stem? Choose **only one** option from the following list.\nOptions:\n(A) The person hands over the stem after plucking the leaves with both hands and puts it down with the right hand in the stack of stems.\n(B) The person uses one hand to grasp the stem and places it into the stack without removing the leaves.\n(C) The person picks off the leaves with their left hand but places the stem in the stack using the left hand instead of the right.\n(D) The person removes leaves with both hands and drops the stem gently into the stack.\n(E) The person cuts the leaves off with scissors before placing the stem in the stack using the left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person removes leaves with both hands and drops the stem gently into the stack."
+    },
+    "correct_idx": [
+        0
+    ]
+}

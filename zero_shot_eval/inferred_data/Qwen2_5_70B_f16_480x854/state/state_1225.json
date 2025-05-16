@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the compass case on the work table change?",
+    "options": [
+        "The compass case on the work table was changed after the person returned the compass to it and covered it with the lid.",
+        "The compass case on the work table was changed when the person removed the compass and left the case open.",
+        "The compass case on the work table was changed when the person took out the compass and placed a different item inside it.",
+        "The compass case on the work table was changed when it was repainted by the person while the compass was taken out.",
+        "The compass case on the work table was changed when it was cleaned after the person lifted it off the table without returning the compass."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the compass case on the work table change? Choose **only one** option from the following list.\nOptions:\n(A) The compass case on the work table was changed after the person returned the compass to it and covered it with the lid.\n(B) The compass case on the work table was changed when the person removed the compass and left the case open.\n(C) The compass case on the work table was changed when the person took out the compass and placed a different item inside it.\n(D) The compass case on the work table was changed when it was repainted by the person while the compass was taken out.\n(E) The compass case on the work table was changed when it was cleaned after the person lifted it off the table without returning the compass.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The compass case on the work table was changed after the person returned the compass to it and covered it with the lid."
+    },
+    "correct_idx": [
+        0
+    ]
+}

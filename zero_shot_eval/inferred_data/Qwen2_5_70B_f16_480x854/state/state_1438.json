@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the lighter change?",
+    "options": [
+        "The lighter was taken from the shelf, and then its cap was removed to reveal the fuel compartment.",
+        "The lighter was placed on the counter, and then its top was pressed down to open the ignition.",
+        "The lighter was picked up from the drawer, and then its trigger was pulled to start a flame.",
+        "The lighter was set down on the ground, and then its button was pushed to create a spark.",
+        "The lighter was lifted from the table, and then its wheel was flicked on and released a fire."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the lighter change? Choose **only one** option from the following list.\nOptions:\n(A) The lighter was taken from the shelf, and then its cap was removed to reveal the fuel compartment.\n(B) The lighter was placed on the counter, and then its top was pressed down to open the ignition.\n(C) The lighter was picked up from the drawer, and then its trigger was pulled to start a flame.\n(D) The lighter was set down on the ground, and then its button was pushed to create a spark.\n(E) The lighter was lifted from the table, and then its wheel was flicked on and released a fire.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The lighter was lifted from the table, and then its wheel was flicked on and released a fire."
+    },
+    "correct_idx": [
+        4
+    ]
+}

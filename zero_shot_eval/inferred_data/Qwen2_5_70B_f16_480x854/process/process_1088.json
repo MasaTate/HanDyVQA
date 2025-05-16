@@ -1,0 +1,17 @@
+{
+    "question": "How does the person tighten the exhaust pipe?",
+    "options": [
+        "The person attempts to tighten the exhaust pipe with both hands, pulling it upwards with some effort.",
+        "The person secures the exhaust pipe by pushing it down gently with the right hand, moving in a counterclockwise direction.",
+        "The person tightens the exhaust pipe by using his left hand, tightening it in a clockwise rotation.",
+        "The person holds the exhaust pipe with the right hand and moves it slightly without turning.",
+        "The person grips the exhaust pipe smoothly with the left hand, slightly adjusting its position sideways."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person tighten the exhaust pipe? Choose **only one** option from the following list.\nOptions:\n(A) The person attempts to tighten the exhaust pipe with both hands, pulling it upwards with some effort.\n(B) The person secures the exhaust pipe by pushing it down gently with the right hand, moving in a counterclockwise direction.\n(C) The person tightens the exhaust pipe by using his left hand, tightening it in a clockwise rotation.\n(D) The person holds the exhaust pipe with the right hand and moves it slightly without turning.\n(E) The person grips the exhaust pipe smoothly with the left hand, slightly adjusting its position sideways.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person tightens the exhaust pipe by using his left hand, tightening it in a clockwise rotation."
+    },
+    "correct_idx": [
+        2
+    ]
+}

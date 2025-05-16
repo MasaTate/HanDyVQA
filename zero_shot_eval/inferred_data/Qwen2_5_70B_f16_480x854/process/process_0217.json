@@ -1,0 +1,17 @@
+{
+    "question": "How does the person wave her right hand?",
+    "options": [
+        "The person extends her right arm partially, palm facing upwards, and moves her hand in a quick pattern, creating a brisk and lively wave.",
+        "The person keeps her right hand at shoulder level, fingers slightly spread, and moves it swiftly from side to side, resulting in a dynamic wave.",
+        "The person raises her right hand to chest level, palm facing downwards. She moves her wrist sidewards in a soft, fluid pattern, creating a gentle wave with slow, controlled motion.",
+        "The person lifts her right hand above her head, palm facing outwards, and moves it in a smooth arc, producing an enthusiastic and energetic wave.",
+        "The person raises her right hand to her side, fingers relaxed, and moves her wrist gracefully, resulting in a crisp and neat wave."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person wave her right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person extends her right arm partially, palm facing upwards, and moves her hand in a quick pattern, creating a brisk and lively wave.\n(B) The person keeps her right hand at shoulder level, fingers slightly spread, and moves it swiftly from side to side, resulting in a dynamic wave.\n(C) The person raises her right hand to chest level, palm facing downwards. She moves her wrist sidewards in a soft, fluid pattern, creating a gentle wave with slow, controlled motion.\n(D) The person lifts her right hand above her head, palm facing outwards, and moves it in a smooth arc, producing an enthusiastic and energetic wave.\n(E) The person raises her right hand to her side, fingers relaxed, and moves her wrist gracefully, resulting in a crisp and neat wave.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person keeps her right hand at shoulder level, fingers slightly spread, and moves it swiftly from side to side, resulting in a dynamic wave."
+    },
+    "correct_idx": [
+        2
+    ]
+}

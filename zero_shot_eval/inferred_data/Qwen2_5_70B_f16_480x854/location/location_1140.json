@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put her left hand?",
+    "options": [
+        "The person placed her left hand on top of the cover of the storage container.",
+        "The person placed her left hand inside the storage container.",
+        "The person placed her left hand beside the storage container on the floor.",
+        "The person placed her left hand under the cover of the storage container.",
+        "The person placed her left hand across the edge of the storage container."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put her left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person placed her left hand on top of the cover of the storage container.\n(B) The person placed her left hand inside the storage container.\n(C) The person placed her left hand beside the storage container on the floor.\n(D) The person placed her left hand under the cover of the storage container.\n(E) The person placed her left hand across the edge of the storage container.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person placed her left hand under the cover of the storage container."
+    },
+    "correct_idx": [
+        3
+    ]
+}

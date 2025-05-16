@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person styles the woman's hair using a hairbrush in her right hand while holding the hair back with her left hand.",
+        "The person trims the woman's hair with scissors in her right hand while securing the hair with her left hand.",
+        "The person braids the woman's hair with a hair tie in her right hand while using her left hand to section the hair.",
+        "The person curls the woman's hair with a curling iron in her right hand while holding the hair in place with her left hand.",
+        "The person clips the woman's hair in her left hand with the clip in her right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person styles the woman's hair using a hairbrush in her right hand while holding the hair back with her left hand.\n(B) The person trims the woman's hair with scissors in her right hand while securing the hair with her left hand.\n(C) The person braids the woman's hair with a hair tie in her right hand while using her left hand to section the hair.\n(D) The person curls the woman's hair with a curling iron in her right hand while holding the hair in place with her left hand.\n(E) The person clips the woman's hair in her left hand with the clip in her right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person clips the woman's hair in her left hand with the clip in her right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

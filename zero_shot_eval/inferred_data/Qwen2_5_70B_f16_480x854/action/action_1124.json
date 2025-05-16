@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person rubs his bare right hand on the molder, wipes it on his pants, and then takes a rag with his right hand to rub the surface of the molder.",
+        "The person presses his bare right hand against the molder, wipes it on the table, and then takes a cloth with his right hand to clean the surface of the molder.",
+        "The person scratches the molder with his bare right hand, wipes it on his shirt, and then picks up a sponge with his right hand to scrub the molder.",
+        "The person taps his bare right hand on the molder, brushes it on his shoes, and grabs a brush with his right hand to paint the surface of the molder.",
+        "The person waves his bare right hand over the molder, wipes it on a towel, and holds a spray bottle with his right hand to mist the molder's surface."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person rubs his bare right hand on the molder, wipes it on his pants, and then takes a rag with his right hand to rub the surface of the molder.\n(B) The person presses his bare right hand against the molder, wipes it on the table, and then takes a cloth with his right hand to clean the surface of the molder.\n(C) The person scratches the molder with his bare right hand, wipes it on his shirt, and then picks up a sponge with his right hand to scrub the molder.\n(D) The person taps his bare right hand on the molder, brushes it on his shoes, and grabs a brush with his right hand to paint the surface of the molder.\n(E) The person waves his bare right hand over the molder, wipes it on a towel, and holds a spray bottle with his right hand to mist the molder's surface.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person rubs his bare right hand on the molder, wipes it on his pants, and then takes a rag with his right hand to rub the surface of the molder."
+    },
+    "correct_idx": [
+        0
+    ]
+}

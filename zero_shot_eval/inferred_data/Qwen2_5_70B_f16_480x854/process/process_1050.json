@@ -1,0 +1,17 @@
+{
+    "question": "How does the person release the mouse?",
+    "options": [
+        "The person gradually lifts his right hand off the mouse, gently moving it away.",
+        "The person softly slides the mouse towards the edge, letting it glide smoothly off the table.",
+        "The person carefully lowers the mouse onto the table surface, with a quiet placement.",
+        "The person lightly nudges the mouse forward with his hand, allowing it to move away gracefully.",
+        "The person slowly releases his right hand from the mouse."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person release the mouse? Choose **only one** option from the following list.\nOptions:\n(A) The person gradually lifts his right hand off the mouse, gently moving it away.\n(B) The person softly slides the mouse towards the edge, letting it glide smoothly off the table.\n(C) The person carefully lowers the mouse onto the table surface, with a quiet placement.\n(D) The person lightly nudges the mouse forward with his hand, allowing it to move away gracefully.\n(E) The person slowly releases his right hand from the mouse.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person slowly releases his right hand from the mouse."
+    },
+    "correct_idx": [
+        4
+    ]
+}

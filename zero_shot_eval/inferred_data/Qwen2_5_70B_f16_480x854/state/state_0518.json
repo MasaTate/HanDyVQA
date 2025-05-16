@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a shield change?",
+    "options": [
+        "The shield on the lawn mower was rotated counter-clockwise.",
+        "The shield on the lawn mower was rotated clockwise.",
+        "The shield on the lawn mower was tilted forward but not rotated clockwise.",
+        "The shield on the lawn mower was adjusted to the left, not clockwise.",
+        "The shield on the lawn mower was moved down instead of rotated clockwise."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a shield change? Choose **only one** option from the following list.\nOptions:\n(A) The shield on the lawn mower was rotated counter-clockwise.\n(B) The shield on the lawn mower was rotated clockwise.\n(C) The shield on the lawn mower was tilted forward but not rotated clockwise.\n(D) The shield on the lawn mower was adjusted to the left, not clockwise.\n(E) The shield on the lawn mower was moved down instead of rotated clockwise.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The shield on the lawn mower was rotated clockwise."
+    },
+    "correct_idx": [
+        1
+    ]
+}

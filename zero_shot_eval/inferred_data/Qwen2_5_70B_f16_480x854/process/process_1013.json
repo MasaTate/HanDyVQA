@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pull the twigs?",
+    "options": [
+        "The person grasps the twigs with both hands and pulls them with some force.",
+        "The person holds and cuts the twig on the bottom part using a garden scissor to easily pull the twigs up using the left hand.",
+        "The person uses their right hand to twist and break the twigs off the tree, bypassing cutting.",
+        "The person steadies the twigs and pulls them firmly up with the right hand.",
+        "The person uses tools to loosen the twigs and then lifts them gently with both hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pull the twigs? Choose **only one** option from the following list.\nOptions:\n(A) The person grasps the twigs with both hands and pulls them with some force.\n(B) The person holds and cuts the twig on the bottom part using a garden scissor to easily pull the twigs up using the left hand.\n(C) The person uses their right hand to twist and break the twigs off the tree, bypassing cutting.\n(D) The person steadies the twigs and pulls them firmly up with the right hand.\n(E) The person uses tools to loosen the twigs and then lifts them gently with both hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person holds and cuts the twig on the bottom part using a garden scissor to easily pull the twigs up using the left hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

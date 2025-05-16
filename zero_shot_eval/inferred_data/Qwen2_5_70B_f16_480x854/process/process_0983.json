@@ -1,0 +1,17 @@
+{
+    "question": "How does the person unscrew the bolt?",
+    "options": [
+        "The person quickly twists the wrench while applying pressure to unscrew the bolt.",
+        "The person uses both hands to pull the wrench away from the bolt without twisting it.",
+        "The person slowly pushes the wrench down onto the bolt, avoiding any twisting motion.",
+        "The person holds the wrench gently without applying any pressure, letting it rest on the bolt.",
+        "The person rotates the bolt gently with their fingers rather than using a wrench to twist it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person unscrew the bolt? Choose **only one** option from the following list.\nOptions:\n(A) The person quickly twists the wrench while applying pressure to unscrew the bolt.\n(B) The person uses both hands to pull the wrench away from the bolt without twisting it.\n(C) The person slowly pushes the wrench down onto the bolt, avoiding any twisting motion.\n(D) The person holds the wrench gently without applying any pressure, letting it rest on the bolt.\n(E) The person rotates the bolt gently with their fingers rather than using a wrench to twist it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person quickly twists the wrench while applying pressure to unscrew the bolt."
+    },
+    "correct_idx": [
+        0
+    ]
+}

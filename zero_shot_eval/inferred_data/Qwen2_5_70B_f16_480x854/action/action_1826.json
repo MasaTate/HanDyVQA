@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is knitting with blue yarn, using knitting needles in their right hand while managing the yarn with their left hand to avoid tangles.",
+        "The person is weaving with colorful yarn, using a weaving tool in their right hand while holding the fabric steady with their left hand.",
+        "The person is crocheting with maroon yarn, using a crochet hook in their right hand. Meanwhile, the left hand pulls extra yarn from the working yarn to prevent tight stitches.",
+        "The person is embroidering with green thread, using an embroidery needle in their right hand while supporting the fabric with their left hand.",
+        "The person is sewing with black thread, using a needle in their right hand while keeping the fabric in place with their left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is knitting with blue yarn, using knitting needles in their right hand while managing the yarn with their left hand to avoid tangles.\n(B) The person is weaving with colorful yarn, using a weaving tool in their right hand while holding the fabric steady with their left hand.\n(C) The person is crocheting with maroon yarn, using a crochet hook in their right hand. Meanwhile, the left hand pulls extra yarn from the working yarn to prevent tight stitches.\n(D) The person is embroidering with green thread, using an embroidery needle in their right hand while supporting the fabric with their left hand.\n(E) The person is sewing with black thread, using a needle in their right hand while keeping the fabric in place with their left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person is crocheting with maroon yarn, using a crochet hook in their right hand. Meanwhile, the left hand pulls extra yarn from the working yarn to prevent tight stitches."
+    },
+    "correct_idx": [
+        2
+    ]
+}

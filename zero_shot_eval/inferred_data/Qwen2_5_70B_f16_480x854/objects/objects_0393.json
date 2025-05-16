@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "vacuum pump",
+        "bottle container",
+        "metal rod",
+        "plier",
+        "chopping board",
+        "paste"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) vacuum pump\n(B) bottle container\n(C) metal rod\n(D) plier\n(E) chopping board\n(F) paste\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(C) The hands are holding and manipulating a metal rod."
+    },
+    "correct_idx": [
+        2,
+        5
+    ]
+}

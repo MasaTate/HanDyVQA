@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the workshop bench change?",
+    "options": [
+        "The workshop bench shifted its position as it was dragged across the space to a new location.",
+        "The workshop bench was dismantled into separate components for storage and transport.",
+        "The workshop bench was painted in a new color to enhance its appearance and protection from wear.",
+        "The workshop bench was elevated by placing wooden blocks beneath its legs to increase its height.",
+        "The workshop bench was covered with a tarp to protect it from dust and debris."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the workshop bench change? Choose **only one** option from the following list.\nOptions:\n(A) The workshop bench shifted its position as it was dragged across the space to a new location.\n(B) The workshop bench was dismantled into separate components for storage and transport.\n(C) The workshop bench was painted in a new color to enhance its appearance and protection from wear.\n(D) The workshop bench was elevated by placing wooden blocks beneath its legs to increase its height.\n(E) The workshop bench was covered with a tarp to protect it from dust and debris.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The workshop bench shifted its position as it was dragged across the space to a new location."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pick the flowers?",
+    "options": [
+        "The person holds the flower by the stem with his right hand and pulls it towards him, making the petals scatter slightly.",
+        "The person tries to remove the flower from the bowl using both hands, which results in some mess around the edges.",
+        "The person pinches the flower with his thumb and index finger at the petal's base and attempts to lift it without using his other hand.",
+        "The person picks the first flower by holding the petals with his left hand fingertips and transfers it gently to his right hand. Then slides the remaining flower at the side of the bowl and catches it with his right hand.",
+        "The person picks up the flower with a less steady grip, pressing the petals more firmly, and transfers it into the bowl without careful handling."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pick the flowers? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the flower by the stem with his right hand and pulls it towards him, making the petals scatter slightly.\n(B) The person tries to remove the flower from the bowl using both hands, which results in some mess around the edges.\n(C) The person pinches the flower with his thumb and index finger at the petal's base and attempts to lift it without using his other hand.\n(D) The person picks the first flower by holding the petals with his left hand fingertips and transfers it gently to his right hand. Then slides the remaining flower at the side of the bowl and catches it with his right hand.\n(E) The person picks up the flower with a less steady grip, pressing the petals more firmly, and transfers it into the bowl without careful handling.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person picks the first flower by holding the petals with his left hand fingertips and transfers it gently to his right hand. Then slides the remaining flower at the side of the bowl and catches it with his right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

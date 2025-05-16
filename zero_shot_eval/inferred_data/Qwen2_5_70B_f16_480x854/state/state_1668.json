@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the leeks change?",
+    "options": [
+        "The leeks changed as they were sliced into thin strips.",
+        "The leeks changed as they were peeled to remove the outer layer.",
+        "The leeks changed as they were cut into small cubes.",
+        "The leeks changed as they were chopped with a knife.",
+        "The leeks changed as they were blended into a smooth paste."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the leeks change? Choose **only one** option from the following list.\nOptions:\n(A) The leeks changed as they were sliced into thin strips.\n(B) The leeks changed as they were peeled to remove the outer layer.\n(C) The leeks changed as they were cut into small cubes.\n(D) The leeks changed as they were chopped with a knife.\n(E) The leeks changed as they were blended into a smooth paste.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The leeks changed as they were chopped with a knife."
+    },
+    "correct_idx": [
+        3
+    ]
+}

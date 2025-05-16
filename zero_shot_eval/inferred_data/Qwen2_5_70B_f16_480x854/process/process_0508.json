@@ -1,0 +1,17 @@
+{
+    "question": "How does the person throw the foam?",
+    "options": [
+        "The person throws the foam by gripping it firmly in their right hand and launching it quickly toward the person in front, and with the force of the throw, the foam spins through the air, propelled in a swift and controlled motion.",
+        "The person tosses the foam with both hands, coordinating the throw more gently, resulting in a slower and less directed movement towards the recipient.",
+        "The person rolls the foam off their fingertips with a flick of the wrist using their left hand, which causes it to arch and wobble unpredictably through the air.",
+        "The person hurls the foam by holding it with a relaxed grip and swinging their arm sideways, leading it to veer off course with a fluttering, unstable flight.",
+        "The person uses both palms to push the foam forward, without spinning, sending it gently and in a straight line towards the receiver."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person throw the foam? Choose **only one** option from the following list.\nOptions:\n(A) The person throws the foam by gripping it firmly in their right hand and launching it quickly toward the person in front, and with the force of the throw, the foam spins through the air, propelled in a swift and controlled motion.\n(B) The person tosses the foam with both hands, coordinating the throw more gently, resulting in a slower and less directed movement towards the recipient.\n(C) The person rolls the foam off their fingertips with a flick of the wrist using their left hand, which causes it to arch and wobble unpredictably through the air.\n(D) The person hurls the foam by holding it with a relaxed grip and swinging their arm sideways, leading it to veer off course with a fluttering, unstable flight.\n(E) The person uses both palms to push the foam forward, without spinning, sending it gently and in a straight line towards the receiver.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person uses both palms to push the foam forward, without spinning, sending it gently and in a straight line towards the receiver."
+    },
+    "correct_idx": [
+        0
+    ]
+}

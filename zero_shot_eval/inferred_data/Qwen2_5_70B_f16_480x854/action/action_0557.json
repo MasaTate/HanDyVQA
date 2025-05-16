@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person stirs the soup in a frying pan with a spoon in his right hand while holding a spatula in his left hand.",
+        "The person wipes the frying pan with a cloth in his right hand while holding a small ball in his left hand.",
+        "The person taps on the side of a frying pan with a wooden spoon in his right hand while resting his left hand on the counter.",
+        "The person balances a frying pan with his right hand while adjusting the burner with his left hand.",
+        "The person stir-fries vegetables with a turning stick in his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person stirs the soup in a frying pan with a spoon in his right hand while holding a spatula in his left hand.\n(B) The person wipes the frying pan with a cloth in his right hand while holding a small ball in his left hand.\n(C) The person taps on the side of a frying pan with a wooden spoon in his right hand while resting his left hand on the counter.\n(D) The person balances a frying pan with his right hand while adjusting the burner with his left hand.\n(E) The person stir-fries vegetables with a turning stick in his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person stir-fries vegetables with a turning stick in his right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

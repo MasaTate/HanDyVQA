@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "grass",
+        "paint brush",
+        "plastic cellophane",
+        "dirt",
+        "wall",
+        "paint can"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) grass\n(B) paint brush\n(C) plastic cellophane\n(D) dirt\n(E) wall\n(F) paint can\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(B) paint brush  \n(F) paint can  \n\nThe hands in the video are seen using a paint brush to paint on the wall and interacting with paint cans placed on the ground. There is no indication that the hands are using grass, plastic cellophane, or dirt. The wall is being painted but is not an object used by the hands."
+    },
+    "correct_idx": [
+        1,
+        5
+    ]
+}

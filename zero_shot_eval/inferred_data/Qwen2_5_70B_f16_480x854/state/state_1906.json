@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a potato change?",
+    "options": [
+        "The potato was lifted and placed on the countertop in a smooth motion.",
+        "The potato was lifted and turned over in the sink before being set down.",
+        "The potato was lifted and carefully set in the sink with some hesitation.",
+        "The potato was lifted and dropped into the sink, causing a splash.",
+        "The potato was lifted and placed in the sink in a smooth motion."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a potato change? Choose **only one** option from the following list.\nOptions:\n(A) The potato was lifted and placed on the countertop in a smooth motion.\n(B) The potato was lifted and turned over in the sink before being set down.\n(C) The potato was lifted and carefully set in the sink with some hesitation.\n(D) The potato was lifted and dropped into the sink, causing a splash.\n(E) The potato was lifted and placed in the sink in a smooth motion.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The potato was lifted and placed in the sink in a smooth motion."
+    },
+    "correct_idx": [
+        4
+    ]
+}

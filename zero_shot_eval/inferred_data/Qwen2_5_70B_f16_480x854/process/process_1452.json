@@ -1,0 +1,17 @@
+{
+    "question": "How does the person rinse his left hand?",
+    "options": [
+        "The person rinsed his left hand by splashing water from a cup onto it while holding the cup with his right hand.",
+        "The person rinsed his left hand by pouring water from a bottle onto it with his right hand, keeping away from the faucet.",
+        "The person rinsed his left hand by turning on the faucet with his left hand and moving his left hand under the running water to rinse off any residue.",
+        "The person rinsed his left hand by using a wet cloth from his right hand, gently wiping it instead of using running water.",
+        "The person rinsed his left hand by dipping it into a bowl of water held in his lap, without turning on the faucet."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person rinse his left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person rinsed his left hand by splashing water from a cup onto it while holding the cup with his right hand.\n(B) The person rinsed his left hand by pouring water from a bottle onto it with his right hand, keeping away from the faucet.\n(C) The person rinsed his left hand by turning on the faucet with his left hand and moving his left hand under the running water to rinse off any residue.\n(D) The person rinsed his left hand by using a wet cloth from his right hand, gently wiping it instead of using running water.\n(E) The person rinsed his left hand by dipping it into a bowl of water held in his lap, without turning on the faucet.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person rinsed his left hand by pouring water from a bottle onto it with his right hand, keeping away from the faucet."
+    },
+    "correct_idx": [
+        2
+    ]
+}

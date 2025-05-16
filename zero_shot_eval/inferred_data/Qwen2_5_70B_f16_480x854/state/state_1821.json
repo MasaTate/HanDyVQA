@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the manure change?",
+    "options": [
+        "The manure changed by being piled into a heap.",
+        "The manure changed by being spread on the ground.",
+        "The manure changed by being turned into compost.",
+        "The manure changed by being packed into bags.",
+        "The manure changed by being mixed with hay."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the manure change? Choose **only one** option from the following list.\nOptions:\n(A) The manure changed by being piled into a heap.\n(B) The manure changed by being spread on the ground.\n(C) The manure changed by being turned into compost.\n(D) The manure changed by being packed into bags.\n(E) The manure changed by being mixed with hay.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The manure changed by being spread on the ground."
+    },
+    "correct_idx": [
+        1
+    ]
+}

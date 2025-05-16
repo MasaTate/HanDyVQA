@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the brush change?",
+    "options": [
+        "The brush changed its position from the table to the countertop.",
+        "The brush changed its position from the right hand to the floor.",
+        "The brush changed its position from the right hand back to the left hand.",
+        "The brush changed its position from inside a drawer to the sink.",
+        "The brush changed its position from the left hand to the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the brush change? Choose **only one** option from the following list.\nOptions:\n(A) The brush changed its position from the table to the countertop.\n(B) The brush changed its position from the right hand to the floor.\n(C) The brush changed its position from the right hand back to the left hand.\n(D) The brush changed its position from inside a drawer to the sink.\n(E) The brush changed its position from the left hand to the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The brush changed its position from the left hand to the right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

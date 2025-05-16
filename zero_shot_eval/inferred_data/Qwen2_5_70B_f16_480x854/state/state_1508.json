@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the lever clamp change?",
+    "options": [
+        "The lever clamp moved when the hand brake on the bicycle was pulled.",
+        "The lever clamp moved when the handlebar was turned.",
+        "The lever clamp moved when the shifter adjuster on the bicycle was pressed.",
+        "The lever clamp moved when the gear cable was tightened.",
+        "The lever clamp moved when the bicycle pedal was pushed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the lever clamp change? Choose **only one** option from the following list.\nOptions:\n(A) The lever clamp moved when the hand brake on the bicycle was pulled.\n(B) The lever clamp moved when the handlebar was turned.\n(C) The lever clamp moved when the shifter adjuster on the bicycle was pressed.\n(D) The lever clamp moved when the gear cable was tightened.\n(E) The lever clamp moved when the bicycle pedal was pushed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The lever clamp moved when the handlebar was turned."
+    },
+    "correct_idx": [
+        2
+    ]
+}

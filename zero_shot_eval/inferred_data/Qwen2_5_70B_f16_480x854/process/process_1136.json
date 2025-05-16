@@ -1,0 +1,17 @@
+{
+    "question": "How does the person grab the lever clamp of a bicycle?",
+    "options": [
+        "The person reached out with his right hand, gently positioning it to pull the lever clamp closer to himself.",
+        "The person tapped the lever clamp lightly with his fingers before smoothly clamping down on it with both hands.",
+        "The person first touched the bicycle's lever clamp with his left hand, and then added some pressure to grab it using both hands.",
+        "The person solely used the index and middle fingers on his left hand to clasp the lever clamp slightly.",
+        "The person initially hooked the lever clamp with his thumb from underneath before gradually grasping it with one hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person grab the lever clamp of a bicycle? Choose **only one** option from the following list.\nOptions:\n(A) The person reached out with his right hand, gently positioning it to pull the lever clamp closer to himself.\n(B) The person tapped the lever clamp lightly with his fingers before smoothly clamping down on it with both hands.\n(C) The person first touched the bicycle's lever clamp with his left hand, and then added some pressure to grab it using both hands.\n(D) The person solely used the index and middle fingers on his left hand to clasp the lever clamp slightly.\n(E) The person initially hooked the lever clamp with his thumb from underneath before gradually grasping it with one hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person first touched the bicycle's lever clamp with his left hand, and then added some pressure to grab it using both hands."
+    },
+    "correct_idx": [
+        2
+    ]
+}

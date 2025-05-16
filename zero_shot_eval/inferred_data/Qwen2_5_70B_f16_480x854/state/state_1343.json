@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a picture change?",
+    "options": [
+        "The picture, initially held close to the white canvas, was moved farther away and positioned to the left side of the canvas.",
+        "The picture, initially placed on the table, was lifted and positioned on the wall above the canvas.",
+        "The picture, which was previously displayed in the gallery, was taken down and positioned on a nearby chair.",
+        "The picture, originally oriented horizontally, was rotated to a vertical position and aligned with the center of the canvas.",
+        "The picture, once framed in glass, was removed from its frame and placed flat on the table beside the canvas."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a picture change? Choose **only one** option from the following list.\nOptions:\n(A) The picture, initially held close to the white canvas, was moved farther away and positioned to the left side of the canvas.\n(B) The picture, initially placed on the table, was lifted and positioned on the wall above the canvas.\n(C) The picture, which was previously displayed in the gallery, was taken down and positioned on a nearby chair.\n(D) The picture, originally oriented horizontally, was rotated to a vertical position and aligned with the center of the canvas.\n(E) The picture, once framed in glass, was removed from its frame and placed flat on the table beside the canvas.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The picture, initially held close to the white canvas, was moved farther away and positioned to the left side of the canvas."
+    },
+    "correct_idx": [
+        0
+    ]
+}

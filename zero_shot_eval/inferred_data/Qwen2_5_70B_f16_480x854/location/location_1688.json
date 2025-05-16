@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move a cellphone?",
+    "options": [
+        "The person moved a cellphone up the left of her lap.",
+        "The person moved a cellphone down the right of her lap. ",
+        "The person moved a cellphone down the center of her lap.",
+        "The person moved a cellphone to the right side of her thigh.",
+        "The person moved a cellphone over the middle of her jeans."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move a cellphone? Choose **only one** option from the following list.\nOptions:\n(A) The person moved a cellphone up the left of her lap.\n(B) The person moved a cellphone down the right of her lap. \n(C) The person moved a cellphone down the center of her lap.\n(D) The person moved a cellphone to the right side of her thigh.\n(E) The person moved a cellphone over the middle of her jeans.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person moved a cellphone to the right side of her thigh."
+    },
+    "correct_idx": [
+        1
+    ]
+}

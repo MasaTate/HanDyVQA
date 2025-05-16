@@ -1,0 +1,17 @@
+{
+    "question": "How does the person tear the sachet?",
+    "options": [
+        "The person pinches the sachet steadily with both hands at the top and pulls it apart smoothly, slightly spilling some of the contents.",
+        "The person grips the sachet with her left hand and uses her teeth to tear the edge, creating a slightly jagged opening.",
+        "The person places the sachet on the table, then carefully uses a pair of scissors to cut its corner, without holding the sachet during the process.",
+        "The person uses her right hand to gently twist and tear the sachet open without any tool, resulting in a slightly uneven rip.",
+        "She holds the sachet steady with her left hand, then carefully positions a knife in her right hand at the desired tear point and gently cuts through it to avoid spilling the contents."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person tear the sachet? Choose **only one** option from the following list.\nOptions:\n(A) The person pinches the sachet steadily with both hands at the top and pulls it apart smoothly, slightly spilling some of the contents.\n(B) The person grips the sachet with her left hand and uses her teeth to tear the edge, creating a slightly jagged opening.\n(C) The person places the sachet on the table, then carefully uses a pair of scissors to cut its corner, without holding the sachet during the process.\n(D) The person uses her right hand to gently twist and tear the sachet open without any tool, resulting in a slightly uneven rip.\n(E) She holds the sachet steady with her left hand, then carefully positions a knife in her right hand at the desired tear point and gently cuts through it to avoid spilling the contents.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) She holds the sachet steady with her left hand, then carefully positions a knife in her right hand at the desired tear point and gently cuts through it to avoid spilling the contents."
+    },
+    "correct_idx": [
+        4
+    ]
+}

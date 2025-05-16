@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of another cable terminal change?",
+    "options": [
+        "The cable terminal was replaced with a new one.",
+        "The cable terminal was cleaned thoroughly.",
+        "The cable terminal was installed in a different location.",
+        "The cable terminal was attached to the machine and checked.",
+        "The cable terminal was modified for better performance."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of another cable terminal change? Choose **only one** option from the following list.\nOptions:\n(A) The cable terminal was replaced with a new one.\n(B) The cable terminal was cleaned thoroughly.\n(C) The cable terminal was installed in a different location.\n(D) The cable terminal was attached to the machine and checked.\n(E) The cable terminal was modified for better performance.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The cable terminal was attached to the machine and checked."
+    },
+    "correct_idx": [
+        3
+    ]
+}

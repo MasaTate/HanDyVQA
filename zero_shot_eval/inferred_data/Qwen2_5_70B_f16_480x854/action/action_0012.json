@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person grips the knife with her left hand while her right hand turns off the kitchen faucet and wipes the blade with a towel.",
+        "The person holds the knife with her right hand while her left hand opens the kitchen faucet and under running water, wipes the blade of the knife.",
+        "The person uses her left hand to hold the knife while her right hand is cleaning the cutting board with a sponge.",
+        "The person is gripping the knife with her right hand while her left hand lifts a pot from the stove to wash it in the sink.",
+        "The person holds the knife with her right hand while her left hand turns off the kitchen faucet."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the knife with her left hand while her right hand turns off the kitchen faucet and wipes the blade with a towel.\n(B) The person holds the knife with her right hand while her left hand opens the kitchen faucet and under running water, wipes the blade of the knife.\n(C) The person uses her left hand to hold the knife while her right hand is cleaning the cutting board with a sponge.\n(D) The person is gripping the knife with her right hand while her left hand lifts a pot from the stove to wash it in the sink.\n(E) The person holds the knife with her right hand while her left hand turns off the kitchen faucet.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person holds the knife with her right hand while her left hand opens the kitchen faucet and under running water, wipes the blade of the knife."
+    },
+    "correct_idx": [
+        1
+    ]
+}

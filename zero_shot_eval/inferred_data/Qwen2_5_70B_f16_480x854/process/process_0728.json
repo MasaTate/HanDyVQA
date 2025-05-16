@@ -1,0 +1,17 @@
+{
+    "question": "How does the person shift the papaya on the table?",
+    "options": [
+        "The person slightly moved the papaya upward on the table using her left hand.",
+        "The person gently pushed the papaya forward on the table using her right hand.",
+        "The person carefully lifted the papaya slightly off the table with both hands before placing it back down.",
+        "The person softly rolled the papaya on the table with the fingertips of her right hand.",
+        "The person gently grasped the papaya and rotated it on the table before shifting it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person shift the papaya on the table? Choose **only one** option from the following list.\nOptions:\n(A) The person slightly moved the papaya upward on the table using her left hand.\n(B) The person gently pushed the papaya forward on the table using her right hand.\n(C) The person carefully lifted the papaya slightly off the table with both hands before placing it back down.\n(D) The person softly rolled the papaya on the table with the fingertips of her right hand.\n(E) The person gently grasped the papaya and rotated it on the table before shifting it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person slightly moved the papaya upward on the table using her left hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

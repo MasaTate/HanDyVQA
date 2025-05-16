@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the spoon with the sponge change?",
+    "options": [
+        "The spoon was held still while the sponge was rotated around it.",
+        "The spoon was moved without any rotation as the sponge was pressed against it.",
+        "The spoon was rotated slightly without movement and the sponge was rubbed against it.",
+        "The spoon was moved side to side while the sponge remained stationary on its surface.",
+        "The spoon was moved and rotated while being rubbed by the sponge."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the spoon with the sponge change? Choose **only one** option from the following list.\nOptions:\n(A) The spoon was held still while the sponge was rotated around it.\n(B) The spoon was moved without any rotation as the sponge was pressed against it.\n(C) The spoon was rotated slightly without movement and the sponge was rubbed against it.\n(D) The spoon was moved side to side while the sponge remained stationary on its surface.\n(E) The spoon was moved and rotated while being rubbed by the sponge.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The spoon was moved and rotated while being rubbed by the sponge."
+    },
+    "correct_idx": [
+        4
+    ]
+}

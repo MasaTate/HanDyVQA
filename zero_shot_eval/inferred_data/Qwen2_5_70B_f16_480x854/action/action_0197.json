@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person turns the pottery wheel with his left thumb while holding a carving tool.",
+        "The person is shaping the clay on the pottery wheel using his left hand while holding a sponge.",
+        "The person adjusts the pottery wheel with both hands while holding a piece of fabric.",
+        "The person spins the pottery wheel with his right index finger while holding a measuring tape.",
+        "The person spins to adjust the pottery wheel with his right pinky finger while holding a paintbrush."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person turns the pottery wheel with his left thumb while holding a carving tool.\n(B) The person is shaping the clay on the pottery wheel using his left hand while holding a sponge.\n(C) The person adjusts the pottery wheel with both hands while holding a piece of fabric.\n(D) The person spins the pottery wheel with his right index finger while holding a measuring tape.\n(E) The person spins to adjust the pottery wheel with his right pinky finger while holding a paintbrush.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person spins to adjust the pottery wheel with his right pinky finger while holding a paintbrush."
+    },
+    "correct_idx": [
+        4
+    ]
+}

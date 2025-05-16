@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "fork",
+        "smartphone",
+        "jumbo tissue roll paper",
+        "loaf bread",
+        "plastic bowl",
+        "outlet"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) fork\n(B) smartphone\n(C) jumbo tissue roll paper\n(D) loaf bread\n(E) plastic bowl\n(F) outlet\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(A) The hands use a fork to mix the ingredients in the plastic bowl.\n(E) The hands use a plastic bowl to hold the ingredients being mixed."
+    },
+    "correct_idx": [
+        0,
+        4
+    ]
+}

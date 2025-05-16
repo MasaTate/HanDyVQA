@@ -1,0 +1,17 @@
+{
+    "question": "How does the person clean the book?",
+    "options": [
+        "The person grabs a white cloth with his right hand and scrubs the book carefully in an upward and downward direction while the left hand holds the book open.",
+        "The person takes a damp sponge with his left hand and gently wipes the book in a circular motion while the right hand slightly lifts the book off the table.",
+        "The person uses a feather duster in his right hand to softly flick the dust off the book while the left hand holds the book steady on the surface.",
+        "The person holds the book with both hands and gently shakes it, attempting to ease any dirt away instead of cleaning it with a cloth.",
+        "The person picks up a damp towel with his left hand and presses it against the book, spreading moisture without wiping it clean."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person clean the book? Choose **only one** option from the following list.\nOptions:\n(A) The person grabs a white cloth with his right hand and scrubs the book carefully in an upward and downward direction while the left hand holds the book open.\n(B) The person takes a damp sponge with his left hand and gently wipes the book in a circular motion while the right hand slightly lifts the book off the table.\n(C) The person uses a feather duster in his right hand to softly flick the dust off the book while the left hand holds the book steady on the surface.\n(D) The person holds the book with both hands and gently shakes it, attempting to ease any dirt away instead of cleaning it with a cloth.\n(E) The person picks up a damp towel with his left hand and presses it against the book, spreading moisture without wiping it clean.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person grabs a white cloth with his right hand and scrubs the book carefully in an upward and downward direction while the left hand holds the book open."
+    },
+    "correct_idx": [
+        0
+    ]
+}

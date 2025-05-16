@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pick the perforated spoon from the bowl?",
+    "options": [
+        "The person reaches into the bowl with his left hand and carefully pulls the perforated spoon up by its edge, gently lifting it.",
+        "The person nudges the perforated spoon deeper into the bowl using his right hand, attempting to lift it with a gentle motion.",
+        "The person pinches the perforated spoon delicately with his fingertips, slightly lifting it with his thumb and index finger.",
+        "The person grabs the perforated spoon from the bowl by gripping the handle and moving his right hand up to pick the spoon.",
+        "The person tilts the bowl slightly and allows the spoon to slide out, while holding the bowl closely with both hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pick the perforated spoon from the bowl? Choose **only one** option from the following list.\nOptions:\n(A) The person reaches into the bowl with his left hand and carefully pulls the perforated spoon up by its edge, gently lifting it.\n(B) The person nudges the perforated spoon deeper into the bowl using his right hand, attempting to lift it with a gentle motion.\n(C) The person pinches the perforated spoon delicately with his fingertips, slightly lifting it with his thumb and index finger.\n(D) The person grabs the perforated spoon from the bowl by gripping the handle and moving his right hand up to pick the spoon.\n(E) The person tilts the bowl slightly and allows the spoon to slide out, while holding the bowl closely with both hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person grabs the perforated spoon from the bowl by gripping the handle and moving his right hand up to pick the spoon."
+    },
+    "correct_idx": [
+        3
+    ]
+}

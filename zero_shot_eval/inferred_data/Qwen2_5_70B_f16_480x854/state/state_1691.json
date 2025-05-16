@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the part of the lemon change?",
+    "options": [
+        "The part of the lemon was cut in half, one half was carried to the left.",
+        "The part of the lemon was cut into quarters, two pieces were moved to the right.",
+        "The part of the lemon was cut into three sections, one section was left in place.",
+        "The part of the lemon was sliced into thin pieces, half of them were shifted forward.",
+        "The part of the lemon was bisected, both halves were left in place."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the part of the lemon change? Choose **only one** option from the following list.\nOptions:\n(A) The part of the lemon was cut in half, one half was carried to the left.\n(B) The part of the lemon was cut into quarters, two pieces were moved to the right.\n(C) The part of the lemon was cut into three sections, one section was left in place.\n(D) The part of the lemon was sliced into thin pieces, half of them were shifted forward.\n(E) The part of the lemon was bisected, both halves were left in place.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The part of the lemon was cut in half, one half was carried to the left."
+    },
+    "correct_idx": [
+        0
+    ]
+}

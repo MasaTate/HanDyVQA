@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the wood change?",
+    "options": [
+        "The wood was dusted and was shaken from left to right repeatedly.",
+        "The wood was treated with a polish and was rubbed in circular motions.",
+        "The wood was soaked in water and was pressed down firmly.",
+        "The wood was carved into intricate shapes and was rotated around.",
+        "The wood was sanded down and was moved up and down quickly."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the wood change? Choose **only one** option from the following list.\nOptions:\n(A) The wood was dusted and was shaken from left to right repeatedly.\n(B) The wood was treated with a polish and was rubbed in circular motions.\n(C) The wood was soaked in water and was pressed down firmly.\n(D) The wood was carved into intricate shapes and was rotated around.\n(E) The wood was sanded down and was moved up and down quickly.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The wood was sanded down and was moved up and down quickly."
+    },
+    "correct_idx": [
+        0
+    ]
+}

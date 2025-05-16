@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the potatoes change?",
+    "options": [
+        "The potatoes were cut into six small pieces.",
+        "The potatoes were cut into four large pieces.",
+        "The potatoes were cut into eight thin slices.",
+        "The potatoes were mashed into a smooth consistency.",
+        "The potatoes were peeled but left whole."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the potatoes change? Choose **only one** option from the following list.\nOptions:\n(A) The potatoes were cut into six small pieces.\n(B) The potatoes were cut into four large pieces.\n(C) The potatoes were cut into eight thin slices.\n(D) The potatoes were mashed into a smooth consistency.\n(E) The potatoes were peeled but left whole.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The potatoes were cut into eight thin slices."
+    },
+    "correct_idx": [
+        0
+    ]
+}

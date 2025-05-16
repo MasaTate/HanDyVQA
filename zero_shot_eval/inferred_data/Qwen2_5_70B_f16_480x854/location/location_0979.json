@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the nut?",
+    "options": [
+        "The person moves the nut to the top side.",
+        "The person moves the nut to the bottom side.",
+        "The person moves the nut to the left side.",
+        "The person moves the nut to the right side.",
+        "The person moves the nut to the front side."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the nut? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the nut to the top side.\n(B) The person moves the nut to the bottom side.\n(C) The person moves the nut to the left side.\n(D) The person moves the nut to the right side.\n(E) The person moves the nut to the front side.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person moves the nut to the bottom side."
+    },
+    "correct_idx": [
+        0
+    ]
+}

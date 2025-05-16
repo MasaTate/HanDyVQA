@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person pushes the piece of wood away using both hands, then reaches out with his left hand to grab a tool from the shelf above the workbench.",
+        "The person lifts the piece of wood up with his left hand while stabilizing it with his right hand, then leans back to examine it.",
+        "The person rotates the piece of wood in front of him using both hands, then picks up a pencil with his right hand to make a measurement.",
+        "The person slides the piece of wood towards him using both hands, then dips his right hand beneath the workbench.",
+        "The person balances the piece of wood on his knee using both hands, then raises his left hand to adjust a light overhead."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person pushes the piece of wood away using both hands, then reaches out with his left hand to grab a tool from the shelf above the workbench.\n(B) The person lifts the piece of wood up with his left hand while stabilizing it with his right hand, then leans back to examine it.\n(C) The person rotates the piece of wood in front of him using both hands, then picks up a pencil with his right hand to make a measurement.\n(D) The person slides the piece of wood towards him using both hands, then dips his right hand beneath the workbench.\n(E) The person balances the piece of wood on his knee using both hands, then raises his left hand to adjust a light overhead.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person lifts the piece of wood up with his left hand while stabilizing it with his right hand, then leans back to examine it."
+    },
+    "correct_idx": [
+        3
+    ]
+}

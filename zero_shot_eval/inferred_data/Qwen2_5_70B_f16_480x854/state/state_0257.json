@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the cables change?",
+    "options": [
+        "The cables were caught between only one part of the machine.",
+        "The cables were arranged outside the machine compartments.",
+        "The cables were untangled and placed on top of the machine.",
+        "The cables were caught between two different parts of the machine.",
+        "The cables were wrapped around a part of the machine and secured."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the cables change? Choose **only one** option from the following list.\nOptions:\n(A) The cables were caught between only one part of the machine.\n(B) The cables were arranged outside the machine compartments.\n(C) The cables were untangled and placed on top of the machine.\n(D) The cables were caught between two different parts of the machine.\n(E) The cables were wrapped around a part of the machine and secured.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The cables were caught between two different parts of the machine."
+    },
+    "correct_idx": [
+        3
+    ]
+}

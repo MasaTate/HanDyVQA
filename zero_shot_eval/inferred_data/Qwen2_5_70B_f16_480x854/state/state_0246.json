@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the plate change?",
+    "options": [
+        "The plate was rinsed with running water but was not rubbed with the sponge.",
+        "The plate was soaked by the running water and then the rim was rubbed by the sponge.",
+        "The plate was dry cleaned by having only the rim rubbed with the sponge, without any water.",
+        "The plate was soaked in still water before the sponge was applied to the center.",
+        "The plate was rinsed under running water without any sponge contact."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the plate change? Choose **only one** option from the following list.\nOptions:\n(A) The plate was rinsed with running water but was not rubbed with the sponge.\n(B) The plate was soaked by the running water and then the rim was rubbed by the sponge.\n(C) The plate was dry cleaned by having only the rim rubbed with the sponge, without any water.\n(D) The plate was soaked in still water before the sponge was applied to the center.\n(E) The plate was rinsed under running water without any sponge contact.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The plate was soaked by the running water and then the rim was rubbed by the sponge."
+    },
+    "correct_idx": [
+        1
+    ]
+}

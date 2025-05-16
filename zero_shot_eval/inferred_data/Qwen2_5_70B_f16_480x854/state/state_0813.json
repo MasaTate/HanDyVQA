@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a rope change?",
+    "options": [
+        "The rope was touched and pulled, causing it to be lifted slightly off the ground.",
+        "The rope was touched and pushed into a pile, changing its shape but still remaining on the ground.",
+        "The rope was touched and shifted slightly but wasn't lifted up, remaining on the ground.",
+        "The rope was touched and straightened, dragging it into a new position along the ground.",
+        "The rope was touched and spread out, flattening it further against the ground."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a rope change? Choose **only one** option from the following list.\nOptions:\n(A) The rope was touched and pulled, causing it to be lifted slightly off the ground.\n(B) The rope was touched and pushed into a pile, changing its shape but still remaining on the ground.\n(C) The rope was touched and shifted slightly but wasn't lifted up, remaining on the ground.\n(D) The rope was touched and straightened, dragging it into a new position along the ground.\n(E) The rope was touched and spread out, flattening it further against the ground.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The rope was touched and shifted slightly but wasn't lifted up, remaining on the ground."
+    },
+    "correct_idx": [
+        2
+    ]
+}

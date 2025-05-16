@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a remote control change?",
+    "options": [
+        "The remote control was slightly moved to the right from its original position.",
+        "The remote control was lifted a bit from its spot and then placed back.",
+        "The remote control was turned upside down in its original position.",
+        "The remote control was moved forward slightly instead of to the left.",
+        "The remote control was slightly moved to the left from its original position."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a remote control change? Choose **only one** option from the following list.\nOptions:\n(A) The remote control was slightly moved to the right from its original position.\n(B) The remote control was lifted a bit from its spot and then placed back.\n(C) The remote control was turned upside down in its original position.\n(D) The remote control was moved forward slightly instead of to the left.\n(E) The remote control was slightly moved to the left from its original position.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The remote control was lifted a bit from its spot and then placed back."
+    },
+    "correct_idx": [
+        4
+    ]
+}

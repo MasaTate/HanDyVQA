@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the egg shell?",
+    "options": [
+        "The person placed the egg shells behind the bowls of flour and eggs.",
+        "The person stacked the egg shells and then placed them next to bowls of flour.",
+        "The person stacked the egg shells then put them on the counter beside the spice rack.",
+        "The person arranged the egg shells and set them in front of the bowls of flour and eggs.",
+        "The person piled the egg shells then set them underneath the bowls of flour and eggs."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the egg shell? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the egg shells behind the bowls of flour and eggs.\n(B) The person stacked the egg shells and then placed them next to bowls of flour.\n(C) The person stacked the egg shells then put them on the counter beside the spice rack.\n(D) The person arranged the egg shells and set them in front of the bowls of flour and eggs.\n(E) The person piled the egg shells then set them underneath the bowls of flour and eggs.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person stacked the egg shells then put them on the counter beside the spice rack."
+    },
+    "correct_idx": [
+        1
+    ]
+}

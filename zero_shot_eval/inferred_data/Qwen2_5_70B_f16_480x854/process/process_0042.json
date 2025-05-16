@@ -1,0 +1,17 @@
+{
+    "question": "How does the person mark the clay?",
+    "options": [
+        "The person holds the clay with both hands, using his fingers to press down, leaving an indented mark as he applies gentle pressure.",
+        "The person accidentally drops the carving tool onto the clay, resulting in an uneven imprint without much control.",
+        "The person grabs the clay with one hand and taps it with the palm of the other hand, creating a rough and uneven mark.",
+        "The person holds the carving tool in one hand and tries to make marks on the clay, resulting in a messy mark rather than a clear one.",
+        "The person holds the clay steady with his left hand, then uses a carving tool in his right hand to press and drag it smoothly across the surface, creating a precise mark."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person mark the clay? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the clay with both hands, using his fingers to press down, leaving an indented mark as he applies gentle pressure.\n(B) The person accidentally drops the carving tool onto the clay, resulting in an uneven imprint without much control.\n(C) The person grabs the clay with one hand and taps it with the palm of the other hand, creating a rough and uneven mark.\n(D) The person holds the carving tool in one hand and tries to make marks on the clay, resulting in a messy mark rather than a clear one.\n(E) The person holds the clay steady with his left hand, then uses a carving tool in his right hand to press and drag it smoothly across the surface, creating a precise mark.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person holds the clay steady with his left hand, then uses a carving tool in his right hand to press and drag it smoothly across the surface, creating a precise mark."
+    },
+    "correct_idx": [
+        4
+    ]
+}

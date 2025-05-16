@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the nail polish brush change?",
+    "options": [
+        "The nail polish brush was applied to the nail and left on the table instead of being placed in the bottle.",
+        "The nail polish brush was applied to the nail and placed back into the bottle.",
+        "The nail polish brush was returned to the bottle without being applied to the nail.",
+        "The nail polish brush was applied to the finger and then placed back into the bottle.",
+        "The nail polish brush was applied to the nail and then left on the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the nail polish brush change? Choose **only one** option from the following list.\nOptions:\n(A) The nail polish brush was applied to the nail and left on the table instead of being placed in the bottle.\n(B) The nail polish brush was applied to the nail and placed back into the bottle.\n(C) The nail polish brush was returned to the bottle without being applied to the nail.\n(D) The nail polish brush was applied to the finger and then placed back into the bottle.\n(E) The nail polish brush was applied to the nail and then left on the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The nail polish brush was returned to the bottle without being applied to the nail."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the crochet pin?",
+    "options": [
+        "The person drops the crochet pin in the box at the left side of his seat.",
+        "The person drops the crochet pin in the basket at the back of his chair.",
+        "The person drops the crochet pin in the pouch under the table next to his seat.",
+        "The person drops the crochet pin in the bag beside the armrest of his chair.",
+        "The person drops the crochet pin in the container at the right side of his seat."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the crochet pin? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the crochet pin in the box at the left side of his seat.\n(B) The person drops the crochet pin in the basket at the back of his chair.\n(C) The person drops the crochet pin in the pouch under the table next to his seat.\n(D) The person drops the crochet pin in the bag beside the armrest of his chair.\n(E) The person drops the crochet pin in the container at the right side of his seat.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person drops the crochet pin in the container at the right side of his seat."
+    },
+    "correct_idx": [
+        4
+    ]
+}

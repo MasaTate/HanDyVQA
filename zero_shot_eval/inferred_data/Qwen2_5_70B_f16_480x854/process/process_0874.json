@@ -1,0 +1,17 @@
+{
+    "question": "How does the person insert the dirt?",
+    "options": [
+        "The person uses his left hand's thumb and index finger to grab on the dirt and rubs the fingers together so the dirt falls into the plastic bag.",
+        "The person uses both hands to gently scoop up the dirt and place it into the plastic bag.",
+        "The person picks up the dirt using a small shovel and transfers it smoothly into the plastic bag.",
+        "The person takes a handful of dirt with an open grip and allows it to fall into the plastic bag.",
+        "The person carefully pours the dirt from a bucket into the plastic bag without holding it directly."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person insert the dirt? Choose **only one** option from the following list.\nOptions:\n(A) The person uses his left hand's thumb and index finger to grab on the dirt and rubs the fingers together so the dirt falls into the plastic bag.\n(B) The person uses both hands to gently scoop up the dirt and place it into the plastic bag.\n(C) The person picks up the dirt using a small shovel and transfers it smoothly into the plastic bag.\n(D) The person takes a handful of dirt with an open grip and allows it to fall into the plastic bag.\n(E) The person carefully pours the dirt from a bucket into the plastic bag without holding it directly.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person uses his left hand's thumb and index finger to grab on the dirt and rubs the fingers together so the dirt falls into the plastic bag."
+    },
+    "correct_idx": [
+        0
+    ]
+}

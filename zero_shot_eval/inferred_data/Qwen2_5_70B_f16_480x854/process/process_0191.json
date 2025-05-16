@@ -1,0 +1,17 @@
+{
+    "question": "How does the person break a part of the wood?",
+    "options": [
+        "The person breaks a part of the wood by striking a mallet in their right hand against a chisel held in their left hand.",
+        "The person firmly grasps the part of the wood and strikes it against another solid surface.",
+        "The person uses a hammer to strike the part of the wood while it's securely positioned on a stable surface.",
+        "The person applies force by squeezing the part of the wood between two robust tools until it splits.",
+        "The person swings the mallet at the part of the wood while holding it steady in the air with one hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person break a part of the wood? Choose **only one** option from the following list.\nOptions:\n(A) The person breaks a part of the wood by striking a mallet in their right hand against a chisel held in their left hand.\n(B) The person firmly grasps the part of the wood and strikes it against another solid surface.\n(C) The person uses a hammer to strike the part of the wood while it's securely positioned on a stable surface.\n(D) The person applies force by squeezing the part of the wood between two robust tools until it splits.\n(E) The person swings the mallet at the part of the wood while holding it steady in the air with one hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person breaks a part of the wood by striking a mallet in their right hand against a chisel held in their left hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

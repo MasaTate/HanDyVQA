@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the container?",
+    "options": [
+        "The person puts the container on the left front side of the table.",
+        "The person puts the container on the right back side of the table.",
+        "The person puts the container on the right front edge of the shelf.",
+        "The person puts the container on the right front side of the table.",
+        "The person puts the container on the center of the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the container? Choose **only one** option from the following list.\nOptions:\n(A) The person puts the container on the left front side of the table.\n(B) The person puts the container on the right back side of the table.\n(C) The person puts the container on the right front edge of the shelf.\n(D) The person puts the container on the right front side of the table.\n(E) The person puts the container on the center of the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person puts the container on the left front side of the table."
+    },
+    "correct_idx": [
+        3
+    ]
+}

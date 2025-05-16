@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the cloth change?",
+    "options": [
+        "The cloth was folded sharply and arranged neatly, changing its appearance.",
+        "The cloth was gathered together and tied with a ribbon, modifying its shape.",
+        "The cloth was pinned by a needle and slightly raised, altering its position.",
+        "The cloth was crumpled and bunched up, affecting its overall structure.",
+        "The cloth was rolled tightly into a cylinder, transforming its form."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the cloth change? Choose **only one** option from the following list.\nOptions:\n(A) The cloth was folded sharply and arranged neatly, changing its appearance.\n(B) The cloth was gathered together and tied with a ribbon, modifying its shape.\n(C) The cloth was pinned by a needle and slightly raised, altering its position.\n(D) The cloth was crumpled and bunched up, affecting its overall structure.\n(E) The cloth was rolled tightly into a cylinder, transforming its form.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The cloth was crumpled and bunched up, affecting its overall structure."
+    },
+    "correct_idx": [
+        2
+    ]
+}

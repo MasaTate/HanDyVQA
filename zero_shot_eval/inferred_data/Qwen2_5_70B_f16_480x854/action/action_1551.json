@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is pulling out utensils from the drawer with their hands and then setting the bowl on the counter.",
+        "The person is placing utensils into the drawer with their hands and then putting the bowl inside.",
+        "The person is grabbing utensils from the drawer with their hands and then taking out the bowl.",
+        "The person is sorting utensils on the table with their hands and then arranging the contents of the bowl.",
+        "The person is organizing the drawer with their hands and then picking up the bowl from the counter."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is pulling out utensils from the drawer with their hands and then setting the bowl on the counter.\n(B) The person is placing utensils into the drawer with their hands and then putting the bowl inside.\n(C) The person is grabbing utensils from the drawer with their hands and then taking out the bowl.\n(D) The person is sorting utensils on the table with their hands and then arranging the contents of the bowl.\n(E) The person is organizing the drawer with their hands and then picking up the bowl from the counter.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person is pulling out utensils from the drawer with their hands and then setting the bowl on the counter."
+    },
+    "correct_idx": [
+        2
+    ]
+}

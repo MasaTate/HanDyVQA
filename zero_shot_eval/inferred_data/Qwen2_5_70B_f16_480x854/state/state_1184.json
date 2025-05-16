@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the sponge change?",
+    "options": [
+        "The dishwashing liquid was poured onto the sponge, and it was soaked in water.",
+        "The dishwashing liquid was put on the sponge, and it was squeezed.",
+        "The sponge was dipped into the dishwashing liquid, and it was left to dry.",
+        "The dishwashing liquid was applied to the sponge, and it was torn in half.",
+        "The sponge was covered with dishwashing liquid, and it was placed in a bowl of hot water."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the sponge change? Choose **only one** option from the following list.\nOptions:\n(A) The dishwashing liquid was poured onto the sponge, and it was soaked in water.\n(B) The dishwashing liquid was put on the sponge, and it was squeezed.\n(C) The sponge was dipped into the dishwashing liquid, and it was left to dry.\n(D) The dishwashing liquid was applied to the sponge, and it was torn in half.\n(E) The sponge was covered with dishwashing liquid, and it was placed in a bowl of hot water.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The dishwashing liquid was poured onto the sponge, and it was soaked in water."
+    },
+    "correct_idx": [
+        1
+    ]
+}

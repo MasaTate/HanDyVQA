@@ -1,0 +1,17 @@
+{
+    "question": "How does the person throw the paper?",
+    "options": [
+        "The person grips the paper snugly and then releases it with a quick motion, allowing it to fly over his shoulder.",
+        "The person flicks his thumb slowly, releasing the paper with a gentle motion, throwing it toward the dirt.",
+        "The person holds the paper and gradually crumples it into a ball with both hands before tossing it into the air.",
+        "The person steps back lightly and then launches the paper forward with a smooth arm motion, aiming for the bushes.",
+        "The person holds the paper and gives it a circular motion before letting it drift off to the side."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person throw the paper? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the paper snugly and then releases it with a quick motion, allowing it to fly over his shoulder.\n(B) The person flicks his thumb slowly, releasing the paper with a gentle motion, throwing it toward the dirt.\n(C) The person holds the paper and gradually crumples it into a ball with both hands before tossing it into the air.\n(D) The person steps back lightly and then launches the paper forward with a smooth arm motion, aiming for the bushes.\n(E) The person holds the paper and gives it a circular motion before letting it drift off to the side.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person flicks his thumb slowly, releasing the paper with a gentle motion, throwing it toward the dirt."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person hammer the spanner?",
+    "options": [
+        "The person applied more force while striking the spanner with the hammer, focusing on precision.",
+        "The person offered a gentle tap to the spanner with the hammer, making a minimal impact.",
+        "The person gradually struck the spanner using the hammer.",
+        "The person held the spanner with one hand and slightly tapped it on its side with the hammer.",
+        "The person utilized the flat side of the hammer to smoothly slide the spanner across the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person hammer the spanner? Choose **only one** option from the following list.\nOptions:\n(A) The person applied more force while striking the spanner with the hammer, focusing on precision.\n(B) The person offered a gentle tap to the spanner with the hammer, making a minimal impact.\n(C) The person gradually struck the spanner using the hammer.\n(D) The person held the spanner with one hand and slightly tapped it on its side with the hammer.\n(E) The person utilized the flat side of the hammer to smoothly slide the spanner across the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person gradually struck the spanner using the hammer."
+    },
+    "correct_idx": [
+        2
+    ]
+}

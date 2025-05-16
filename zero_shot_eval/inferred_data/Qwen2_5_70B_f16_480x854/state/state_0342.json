@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the link-up cable change?",
+    "options": [
+        "The link-up cable was placed in a storage box after being coiled.",
+        "The link-up cable was divided into two separate pieces.",
+        "The link-up cable was tied into a knot and secured.",
+        "The link-up cable was connected to another device.",
+        "The link-up cable was unplugged from the connection point."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the link-up cable change? Choose **only one** option from the following list.\nOptions:\n(A) The link-up cable was placed in a storage box after being coiled.\n(B) The link-up cable was divided into two separate pieces.\n(C) The link-up cable was tied into a knot and secured.\n(D) The link-up cable was connected to another device.\n(E) The link-up cable was unplugged from the connection point.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The link-up cable was unplugged from the connection point."
+    },
+    "correct_idx": [
+        4
+    ]
+}

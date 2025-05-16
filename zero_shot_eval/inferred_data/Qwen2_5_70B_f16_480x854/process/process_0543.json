@@ -1,0 +1,17 @@
+{
+    "question": "How does the person remove his right hand?",
+    "options": [
+        "The person removes his right hand by quickly pulling it back while making sure his left hand holds the light cover less securely.",
+        "The person pulls his right hand away while adjusting his left hand to keep the light cover stable.",
+        "The person releases his right hand by moving it carefully, with his left hand ready to manage the light cover if needed.",
+        "The person withdraws his right hand swiftly while his left hand remains steady to hold the light cover slightly less smoothly.",
+        "The person removes his right hand by carefully releasing his grip while maintaining a steady hold on the light cover with his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person remove his right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person removes his right hand by quickly pulling it back while making sure his left hand holds the light cover less securely.\n(B) The person pulls his right hand away while adjusting his left hand to keep the light cover stable.\n(C) The person releases his right hand by moving it carefully, with his left hand ready to manage the light cover if needed.\n(D) The person withdraws his right hand swiftly while his left hand remains steady to hold the light cover slightly less smoothly.\n(E) The person removes his right hand by carefully releasing his grip while maintaining a steady hold on the light cover with his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person removes his right hand by carefully releasing his grip while maintaining a steady hold on the light cover with his left hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the tire iron on the ground?",
+    "options": [
+        "The person drops the tire iron on the ground near the right foot.",
+        "The person drops the tire iron on the ground near the left foot.",
+        "The person drops the tire iron on the ground in front of the right foot.",
+        "The person drops the tire iron on the ground to the side of the left foot.",
+        "The person drops the tire iron on the ground behind the left foot."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the tire iron on the ground? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the tire iron on the ground near the right foot.\n(B) The person drops the tire iron on the ground near the left foot.\n(C) The person drops the tire iron on the ground in front of the right foot.\n(D) The person drops the tire iron on the ground to the side of the left foot.\n(E) The person drops the tire iron on the ground behind the left foot.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person drops the tire iron on the ground near the right foot."
+    },
+    "correct_idx": [
+        1
+    ]
+}

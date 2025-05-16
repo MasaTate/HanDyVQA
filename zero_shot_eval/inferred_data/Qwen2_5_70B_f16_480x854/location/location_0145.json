@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the zucchini?",
+    "options": [
+        "The person put the zucchini in the main section of the refrigerator's crisper drawer.",
+        "The person put the zucchini to the side part of the refrigerator's crisper drawer. ",
+        "The person put the zucchini at the back of the refrigerator's crisper drawer.",
+        "The person put the zucchini in the vegetable basket on the kitchen counter.",
+        "The person put the zucchini on the top shelf of the refrigerator."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the zucchini? Choose **only one** option from the following list.\nOptions:\n(A) The person put the zucchini in the main section of the refrigerator's crisper drawer.\n(B) The person put the zucchini to the side part of the refrigerator's crisper drawer. \n(C) The person put the zucchini at the back of the refrigerator's crisper drawer.\n(D) The person put the zucchini in the vegetable basket on the kitchen counter.\n(E) The person put the zucchini on the top shelf of the refrigerator.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person put the zucchini to the side part of the refrigerator's crisper drawer."
+    },
+    "correct_idx": [
+        1
+    ]
+}

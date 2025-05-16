@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the holes change?",
+    "options": [
+        "The holes were filled in and then reopened, altering their size noticeably.",
+        "The holes were deepened while being measured, affecting them significantly.",
+        "The holes were covered and then exposed, changing their shape temporarily.",
+        "The holes were touched and stretched slightly while being counted.",
+        "The holes were painted and then scraped off, changing their visibility."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the holes change? Choose **only one** option from the following list.\nOptions:\n(A) The holes were filled in and then reopened, altering their size noticeably.\n(B) The holes were deepened while being measured, affecting them significantly.\n(C) The holes were covered and then exposed, changing their shape temporarily.\n(D) The holes were touched and stretched slightly while being counted.\n(E) The holes were painted and then scraped off, changing their visibility.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The holes were touched and stretched slightly while being counted."
+    },
+    "correct_idx": [
+        3
+    ]
+}

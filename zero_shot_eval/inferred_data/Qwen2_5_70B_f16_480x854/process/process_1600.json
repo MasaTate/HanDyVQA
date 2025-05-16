@@ -1,0 +1,17 @@
+{
+    "question": "How does the person touch the light switch?",
+    "options": [
+        "The person leans forward and uses their left hand to press the light switch slowly with the palm of their hand.",
+        "The person raises their arm and moves towards the light switch with an open hand, stopping just short of touching it.",
+        "The person tilts their head and attempts to flick the light switch with a finger from a distance rather than reaching fully.",
+        "The person reaches across with their right hand and tries to brush the light switch lightly instead of pressing it.",
+        "The person extends their right hand upward, using their fingers to press the light switch in a quick motion."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person touch the light switch? Choose **only one** option from the following list.\nOptions:\n(A) The person leans forward and uses their left hand to press the light switch slowly with the palm of their hand.\n(B) The person raises their arm and moves towards the light switch with an open hand, stopping just short of touching it.\n(C) The person tilts their head and attempts to flick the light switch with a finger from a distance rather than reaching fully.\n(D) The person reaches across with their right hand and tries to brush the light switch lightly instead of pressing it.\n(E) The person extends their right hand upward, using their fingers to press the light switch in a quick motion.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person extends their right hand upward, using their fingers to press the light switch in a quick motion."
+    },
+    "correct_idx": [
+        4
+    ]
+}

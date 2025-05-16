@@ -1,0 +1,17 @@
+{
+    "question": "How does the person flick his left hand?",
+    "options": [
+        "The person moved his left hand in a broad motion, spreading water around.",
+        "The person swiftly moved his left hand back while rotating it slightly to shake the water off.",
+        "The person flicked his left hand fast to remove any water on his hand.",
+        "The person turned his left wrist and moved his hand to send the water off his fingers.",
+        "The person lightly waved his left hand back and forth to allow the water to drip slowly."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person flick his left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person moved his left hand in a broad motion, spreading water around.\n(B) The person swiftly moved his left hand back while rotating it slightly to shake the water off.\n(C) The person flicked his left hand fast to remove any water on his hand.\n(D) The person turned his left wrist and moved his hand to send the water off his fingers.\n(E) The person lightly waved his left hand back and forth to allow the water to drip slowly.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person turned his left wrist and moved his hand to send the water off his fingers."
+    },
+    "correct_idx": [
+        2
+    ]
+}

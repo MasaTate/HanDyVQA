@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person removes the old bolts from the fan compartment of the lawn mower with his right hand.",
+        "The person tightens the pulley disc in the engine compartment of the lawn mower with his right hand.",
+        "The person adjusts the pulley mechanism in the generator section with his right hand.",
+        "The person adjusts the pulley disc in the fan compartment of the lawn mower with his right hand while his left hand grips the other part of the machine.",
+        "The person inspects the pulley disc in the engine compartment of the lawn mower using his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person removes the old bolts from the fan compartment of the lawn mower with his right hand.\n(B) The person tightens the pulley disc in the engine compartment of the lawn mower with his right hand.\n(C) The person adjusts the pulley mechanism in the generator section with his right hand.\n(D) The person adjusts the pulley disc in the fan compartment of the lawn mower with his right hand while his left hand grips the other part of the machine.\n(E) The person inspects the pulley disc in the engine compartment of the lawn mower using his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person adjusts the pulley disc in the fan compartment of the lawn mower with his right hand while his left hand grips the other part of the machine."
+    },
+    "correct_idx": [
+        3
+    ]
+}

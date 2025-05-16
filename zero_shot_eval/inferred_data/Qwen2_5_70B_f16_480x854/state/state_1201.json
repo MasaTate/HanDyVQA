@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the bowl change?",
+    "options": [
+        "The bowl was emptied of water, making its surface clean and dust-free.",
+        "The bowl was cracked under pressure, resulting in jagged edges and a loss of structural integrity.",
+        "The bowl was overturned, causing its contents to spill and leaving an uneven mess on the surface below.",
+        "The bowl was filled with water, and its contents became more evenly distributed due to shaking.",
+        "The bowl was stacked inside another bowl, changing its position and making it less accessible."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the bowl change? Choose **only one** option from the following list.\nOptions:\n(A) The bowl was emptied of water, making its surface clean and dust-free.\n(B) The bowl was cracked under pressure, resulting in jagged edges and a loss of structural integrity.\n(C) The bowl was overturned, causing its contents to spill and leaving an uneven mess on the surface below.\n(D) The bowl was filled with water, and its contents became more evenly distributed due to shaking.\n(E) The bowl was stacked inside another bowl, changing its position and making it less accessible.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The bowl was filled with water, and its contents became more evenly distributed due to shaking."
+    },
+    "correct_idx": [
+        3
+    ]
+}

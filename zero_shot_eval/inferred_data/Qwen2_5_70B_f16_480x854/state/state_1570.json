@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a hole change?",
+    "options": [
+        "The hole's shape became more oval when it was expanded.",
+        "The hole's depth was decreased when material was removed from the bottom.",
+        "The hole's size increased when it was redrilled.",
+        "The hole's edges were smoothed after being sanded.",
+        "The hole's surface became rougher due to chisel marks."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a hole change? Choose **only one** option from the following list.\nOptions:\n(A) The hole's shape became more oval when it was expanded.\n(B) The hole's depth was decreased when material was removed from the bottom.\n(C) The hole's size increased when it was redrilled.\n(D) The hole's edges were smoothed after being sanded.\n(E) The hole's surface became rougher due to chisel marks.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The hole's size increased when it was redrilled."
+    },
+    "correct_idx": [
+        2
+    ]
+}

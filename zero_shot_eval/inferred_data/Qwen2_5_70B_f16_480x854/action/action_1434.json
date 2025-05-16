@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person grabs the pot from the shelf with the left hand, then switches it to the right hand so he can use the left hand to hold a whisk.",
+        "The person picks up the skillet with the right hand, then moves it to the left hand to free up the right hand for stirring the mixing bowl.",
+        "The person lifts the frying pan with the right hand, then puts it back in the drawer while using the left hand to hold a large spatula.",
+        "The person uses the right hand to take the pan from the drawer, then transfers it to the left hand so he can use the right hand to move the sieve bowl.",
+        "The person takes the saucepan from the counter with the left hand, then changes it to the right hand to hold a measuring cup with the left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person grabs the pot from the shelf with the left hand, then switches it to the right hand so he can use the left hand to hold a whisk.\n(B) The person picks up the skillet with the right hand, then moves it to the left hand to free up the right hand for stirring the mixing bowl.\n(C) The person lifts the frying pan with the right hand, then puts it back in the drawer while using the left hand to hold a large spatula.\n(D) The person uses the right hand to take the pan from the drawer, then transfers it to the left hand so he can use the right hand to move the sieve bowl.\n(E) The person takes the saucepan from the counter with the left hand, then changes it to the right hand to hold a measuring cup with the left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person uses the right hand to take the pan from the drawer, then transfers it to the left hand so he can use the right hand to move the sieve bowl."
+    },
+    "correct_idx": [
+        3
+    ]
+}

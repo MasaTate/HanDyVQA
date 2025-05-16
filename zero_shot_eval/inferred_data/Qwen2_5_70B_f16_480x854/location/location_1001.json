@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move a dough on the table?",
+    "options": [
+        "The person moves a dough from the table to the first row of dough on the tray.",
+        "The person moves a dough from the table to the third row of dough on the tray.",
+        "The person moves a dough from the table to the edge of the tray.",
+        "The person moves a dough from the table to the second row of dough on the tray.",
+        "The person moves a dough from the table to the opposite corner of the tray."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move a dough on the table? Choose **only one** option from the following list.\nOptions:\n(A) The person moves a dough from the table to the first row of dough on the tray.\n(B) The person moves a dough from the table to the third row of dough on the tray.\n(C) The person moves a dough from the table to the edge of the tray.\n(D) The person moves a dough from the table to the second row of dough on the tray.\n(E) The person moves a dough from the table to the opposite corner of the tray.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person moves a dough from the table to the second row of dough on the tray."
+    },
+    "correct_idx": [
+        3
+    ]
+}

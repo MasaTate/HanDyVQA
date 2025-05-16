@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person puts on the glove and adjusts it carefully.",
+        "The person takes off the glove and folds it neatly.",
+        "The person removes the glove from his left hand and throws it with his right hand.",
+        "The person pulls the glove tightly over his hand while preparing to use it.",
+        "The person tosses the glove onto a nearby table after removing it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person puts on the glove and adjusts it carefully.\n(B) The person takes off the glove and folds it neatly.\n(C) The person removes the glove from his left hand and throws it with his right hand.\n(D) The person pulls the glove tightly over his hand while preparing to use it.\n(E) The person tosses the glove onto a nearby table after removing it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person removes the glove from his left hand and throws it with his right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

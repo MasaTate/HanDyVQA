@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move some tools?",
+    "options": [
+        "The person moves the tools to the left side of the ground.",
+        "The person moves the tools to the right side of the ground.",
+        "The person moves the tools to the center of the ground.",
+        "The person moves the tools to the right side of the table.",
+        "The person moves the tools to the corner of the ground."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move some tools? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the tools to the left side of the ground.\n(B) The person moves the tools to the right side of the ground.\n(C) The person moves the tools to the center of the ground.\n(D) The person moves the tools to the right side of the table.\n(E) The person moves the tools to the corner of the ground.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person moves the tools to the left side of the ground."
+    },
+    "correct_idx": [
+        1
+    ]
+}

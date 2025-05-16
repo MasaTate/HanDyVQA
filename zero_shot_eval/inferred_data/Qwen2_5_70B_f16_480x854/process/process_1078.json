@@ -1,0 +1,17 @@
+{
+    "question": "How does the person press toothpaste?",
+    "options": [
+        "The person pushes the toothpaste tube down using his palm, with minimal finger movement.",
+        "The person twists the cap off the toothpaste tube with his right hand before pressing it.",
+        "The person squeezes the toothpaste by compressing it on the fingers of his left hand.",
+        "The person holds the toothpaste tube in one hand and taps it with his other hand to dispense the paste.",
+        "The person uses both hands to gently shake the toothpaste tube to release the paste."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person press toothpaste? Choose **only one** option from the following list.\nOptions:\n(A) The person pushes the toothpaste tube down using his palm, with minimal finger movement.\n(B) The person twists the cap off the toothpaste tube with his right hand before pressing it.\n(C) The person squeezes the toothpaste by compressing it on the fingers of his left hand.\n(D) The person holds the toothpaste tube in one hand and taps it with his other hand to dispense the paste.\n(E) The person uses both hands to gently shake the toothpaste tube to release the paste.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person squeezes the toothpaste by compressing it on the fingers of his left hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

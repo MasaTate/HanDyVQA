@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the meat on the chopping board change?",
+    "options": [
+        "The meat on the chopping board was stacked in layers and cut into small pieces.",
+        "The meat on the chopping board was spread out evenly and cut into thin strips.",
+        "The meat on the chopping board was stacked in layers and sliced into thick chunks.",
+        "The meat on the chopping board was spread out and diced into cubes.",
+        "The meat on the chopping board was rearranged into a pile and cut diagonally into pieces."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the meat on the chopping board change? Choose **only one** option from the following list.\nOptions:\n(A) The meat on the chopping board was stacked in layers and cut into small pieces.\n(B) The meat on the chopping board was spread out evenly and cut into thin strips.\n(C) The meat on the chopping board was stacked in layers and sliced into thick chunks.\n(D) The meat on the chopping board was spread out and diced into cubes.\n(E) The meat on the chopping board was rearranged into a pile and cut diagonally into pieces.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The meat on the chopping board was stacked in layers and cut into small pieces."
+    },
+    "correct_idx": [
+        0
+    ]
+}

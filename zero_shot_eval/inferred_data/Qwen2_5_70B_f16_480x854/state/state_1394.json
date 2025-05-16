@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the nail change?",
+    "options": [
+        "The nail was taken out of a metal stick by rotating it anti-clockwise and was positioned sideways against a wood for it to be nailed.",
+        "The nail was extracted from the metal stick by pulling it straight out and was placed upright against a wooden surface for it to be nailed.",
+        "The nail was removed from the metal stick by pushing it downwards and was held vertically against a wall for it to be nailed.",
+        "The nail was lifted from the metal stick by prying it off and was laid flat on a table for it to be nailed.",
+        "The nail was dislodged from the metal stick by twisting it sideways and was held at an angle against a plank for it to be nailed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the nail change? Choose **only one** option from the following list.\nOptions:\n(A) The nail was taken out of a metal stick by rotating it anti-clockwise and was positioned sideways against a wood for it to be nailed.\n(B) The nail was extracted from the metal stick by pulling it straight out and was placed upright against a wooden surface for it to be nailed.\n(C) The nail was removed from the metal stick by pushing it downwards and was held vertically against a wall for it to be nailed.\n(D) The nail was lifted from the metal stick by prying it off and was laid flat on a table for it to be nailed.\n(E) The nail was dislodged from the metal stick by twisting it sideways and was held at an angle against a plank for it to be nailed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The nail was extracted from the metal stick by pulling it straight out and was placed upright against a wooden surface for it to be nailed."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person rests her left hand on the sofa while reclining comfortably.",
+        "The person stretches her right hand towards the nightstand while sitting up on the bed.",
+        "The person lowers her right hand onto the couch armrest while watching TV.",
+        "The person holds the book with her hands.",
+        "The person supports her left hand behind her head while lying back on the bed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person rests her left hand on the sofa while reclining comfortably.\n(B) The person stretches her right hand towards the nightstand while sitting up on the bed.\n(C) The person lowers her right hand onto the couch armrest while watching TV.\n(D) The person holds the book with her hands.\n(E) The person supports her left hand behind her head while lying back on the bed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person holds the book with her hands."
+    },
+    "correct_idx": [
+        3
+    ]
+}

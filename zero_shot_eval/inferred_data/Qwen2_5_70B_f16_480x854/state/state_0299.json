@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the hairdryer change?",
+    "options": [
+        "The hairdryer was shaken and then transferred from the right hand to the left hand.",
+        "The hairdryer was held steady and transferred from the left hand to the right hand.",
+        "The hairdryer was tapped and set down on the table.",
+        "The hairdryer was tilted and then transferred from the left hand to the right hand.",
+        "The hairdryer was waved and held in the same hand throughout."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the hairdryer change? Choose **only one** option from the following list.\nOptions:\n(A) The hairdryer was shaken and then transferred from the right hand to the left hand.\n(B) The hairdryer was held steady and transferred from the left hand to the right hand.\n(C) The hairdryer was tapped and set down on the table.\n(D) The hairdryer was tilted and then transferred from the left hand to the right hand.\n(E) The hairdryer was waved and held in the same hand throughout.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The hairdryer was shaken and then transferred from the right hand to the left hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

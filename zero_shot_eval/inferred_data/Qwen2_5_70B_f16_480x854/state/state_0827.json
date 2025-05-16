@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the polythene cover change?",
+    "options": [
+        "The polythene cover was pulled and stretched upwards, which makes the cover less smooth.",
+        "The polythene cover was pulled and crumpled, which makes the cover uneven.",
+        "The polythene cover was pulled and stretched downwards, which makes the cover smoother.",
+        "The polythene cover was stretched sideways, leading to tension around the edges.",
+        "The polythene cover was bunched up and released, resulting in wrinkles across the surface."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the polythene cover change? Choose **only one** option from the following list.\nOptions:\n(A) The polythene cover was pulled and stretched upwards, which makes the cover less smooth.\n(B) The polythene cover was pulled and crumpled, which makes the cover uneven.\n(C) The polythene cover was pulled and stretched downwards, which makes the cover smoother.\n(D) The polythene cover was stretched sideways, leading to tension around the edges.\n(E) The polythene cover was bunched up and released, resulting in wrinkles across the surface.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The polythene cover was pulled and stretched downwards, which makes the cover smoother."
+    },
+    "correct_idx": [
+        2
+    ]
+}

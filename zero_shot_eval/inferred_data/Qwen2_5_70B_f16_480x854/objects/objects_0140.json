@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "wood",
+        "power drill",
+        "paper",
+        "drill bit",
+        "steel tape",
+        "outlet"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) wood\n(B) power drill\n(C) paper\n(D) drill bit\n(E) steel tape\n(F) outlet\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(D) drill bit\n(A) wood"
+    },
+    "correct_idx": [
+        0,
+        3
+    ]
+}

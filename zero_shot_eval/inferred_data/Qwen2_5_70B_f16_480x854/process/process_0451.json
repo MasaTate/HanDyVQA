@@ -1,0 +1,17 @@
+{
+    "question": "How does the person tap the mower?",
+    "options": [
+        "The person lightly taps the mower with his palm by keeping his arm low and using a gentle downward motion.",
+        "The person taps the mower lightly with his right hand by extending his arm and using his fingers to make a quick, controlled motion.",
+        "The person taps the mower delicately with his fingertips while leaning over slightly, using minimal arm movement.",
+        "The person applies a gentle push to the mower with both hands, maintaining steady contact instead of tapping.",
+        "The person taps the mower gently with his elbow while moving his arm smoothly to the side."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person tap the mower? Choose **only one** option from the following list.\nOptions:\n(A) The person lightly taps the mower with his palm by keeping his arm low and using a gentle downward motion.\n(B) The person taps the mower lightly with his right hand by extending his arm and using his fingers to make a quick, controlled motion.\n(C) The person taps the mower delicately with his fingertips while leaning over slightly, using minimal arm movement.\n(D) The person applies a gentle push to the mower with both hands, maintaining steady contact instead of tapping.\n(E) The person taps the mower gently with his elbow while moving his arm smoothly to the side.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person taps the mower lightly with his right hand by extending his arm and using his fingers to make a quick, controlled motion."
+    },
+    "correct_idx": [
+        1
+    ]
+}

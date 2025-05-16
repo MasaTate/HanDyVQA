@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the frying pan lid?",
+    "options": [
+        "The person placed the frying pan lid on the side of the stove countertop.",
+        "The person placed the frying pan lid on the back of the stove countertop.",
+        "The person placed the frying pan lid on the front edge of the countertop.",
+        "The person placed the frying pan lid on the bottom shelf of the cabinet next to the stove.",
+        "The person placed the frying pan lid on the kitchen table beside the stove."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the frying pan lid? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the frying pan lid on the side of the stove countertop.\n(B) The person placed the frying pan lid on the back of the stove countertop.\n(C) The person placed the frying pan lid on the front edge of the countertop.\n(D) The person placed the frying pan lid on the bottom shelf of the cabinet next to the stove.\n(E) The person placed the frying pan lid on the kitchen table beside the stove.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person placed the frying pan lid on the side of the stove countertop."
+    },
+    "correct_idx": [
+        0
+    ]
+}

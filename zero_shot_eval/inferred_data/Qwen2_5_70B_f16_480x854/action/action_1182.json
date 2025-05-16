@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person holds the cup with the left hand and uses his right finger to operate his tablet.",
+        "The person grips the tablet with both hands and uses his left finger to scroll through the screen while holding a cup with the right hand.",
+        "The person balances the cup on the table and uses his right hand to swipe on the tablet's screen with his index finger.",
+        "The person is holding the tablet in his left hand and using his right finger to type on a keyboard while the cup sits beside him.",
+        "The person is lifting the cup with his right hand while tapping on the tablet with his left finger, positioned on a chair."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the cup with the left hand and uses his right finger to operate his tablet.\n(B) The person grips the tablet with both hands and uses his left finger to scroll through the screen while holding a cup with the right hand.\n(C) The person balances the cup on the table and uses his right hand to swipe on the tablet's screen with his index finger.\n(D) The person is holding the tablet in his left hand and using his right finger to type on a keyboard while the cup sits beside him.\n(E) The person is lifting the cup with his right hand while tapping on the tablet with his left finger, positioned on a chair.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person holds the cup with the left hand and uses his right finger to operate his tablet."
+    },
+    "correct_idx": [
+        0
+    ]
+}

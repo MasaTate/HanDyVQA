@@ -1,0 +1,17 @@
+{
+    "question": "How does the person inspect the mixing machine?",
+    "options": [
+        "The person pauses the mixing machine, gently hovers their left hand over it to swipe away loose debris.",
+        "The person stops the mixing machine, holds it steady with the right hand, and uses the fingers of the left hand to grab and remove the dirt from the mixing machine.",
+        "The person holds the mixing machine steady with both hands, gently shakes it to loosen any dirt before wiping it off.",
+        "The person holds the mixing machine steadily and tilts it slightly to let the dirt fall out.",
+        "The person gently steadies the mixing machine with the right hand while using the left hand to point to areas that need cleaning."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person inspect the mixing machine? Choose **only one** option from the following list.\nOptions:\n(A) The person pauses the mixing machine, gently hovers their left hand over it to swipe away loose debris.\n(B) The person stops the mixing machine, holds it steady with the right hand, and uses the fingers of the left hand to grab and remove the dirt from the mixing machine.\n(C) The person holds the mixing machine steady with both hands, gently shakes it to loosen any dirt before wiping it off.\n(D) The person holds the mixing machine steadily and tilts it slightly to let the dirt fall out.\n(E) The person gently steadies the mixing machine with the right hand while using the left hand to point to areas that need cleaning.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person stops the mixing machine, holds it steady with the right hand, and uses the fingers of the left hand to grab and remove the dirt from the mixing machine."
+    },
+    "correct_idx": [
+        1
+    ]
+}

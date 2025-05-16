@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move a left hand?",
+    "options": [
+        "The person moves the left hand to the wall.",
+        "The person moves the left hand to the floor.",
+        "The person moves the left hand to the ceiling.",
+        "The person moves the left hand to the desk.",
+        "The person moves the left hand to the door."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move a left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the left hand to the wall.\n(B) The person moves the left hand to the floor.\n(C) The person moves the left hand to the ceiling.\n(D) The person moves the left hand to the desk.\n(E) The person moves the left hand to the door.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person moves the left hand to the wall."
+    },
+    "correct_idx": [
+        0
+    ]
+}

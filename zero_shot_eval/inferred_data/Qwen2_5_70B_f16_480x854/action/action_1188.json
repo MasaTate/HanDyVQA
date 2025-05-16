@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person flips endives in the frying pan with a spatula in his right hand.",
+        "The person uses the chopsticks with his right hand to transfer endives to the frying pan.",
+        "The person chops endives on the cutting board using a knife in his right hand.",
+        "The person grills endives on the grill while holding a fork in his right hand.",
+        "The person pours sauce over endives in a bowl with a spoon in his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person flips endives in the frying pan with a spatula in his right hand.\n(B) The person uses the chopsticks with his right hand to transfer endives to the frying pan.\n(C) The person chops endives on the cutting board using a knife in his right hand.\n(D) The person grills endives on the grill while holding a fork in his right hand.\n(E) The person pours sauce over endives in a bowl with a spoon in his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person uses the chopsticks with his right hand to transfer endives to the frying pan."
+    },
+    "correct_idx": [
+        1
+    ]
+}

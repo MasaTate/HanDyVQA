@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person placed the excess onion leeks in the trash can with his left hand and then dropped the chopped leeks into a pan while turning on the stove with his right hand.",
+        "The person sliced the onion leeks on the cutting board with his right hand while holding the bowl with his left hand to catch the pieces.",
+        "The person put down the excess onion leeks using his left hand and then placed the chopped leeks in the strainer and washed them with running water.",
+        "The person stirred the chopped leeks in a pot with his right hand while holding a spoon with his left hand.",
+        "The person mixed the chopped leeks with a fork in his right hand while pouring other chopped vegetables into the bowl with his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the excess onion leeks in the trash can with his left hand and then dropped the chopped leeks into a pan while turning on the stove with his right hand.\n(B) The person sliced the onion leeks on the cutting board with his right hand while holding the bowl with his left hand to catch the pieces.\n(C) The person put down the excess onion leeks using his left hand and then placed the chopped leeks in the strainer and washed them with running water.\n(D) The person stirred the chopped leeks in a pot with his right hand while holding a spoon with his left hand.\n(E) The person mixed the chopped leeks with a fork in his right hand while pouring other chopped vegetables into the bowl with his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person put down the excess onion leeks using his left hand and then placed the chopped leeks in the strainer and washed them with running water."
+    },
+    "correct_idx": [
+        2
+    ]
+}

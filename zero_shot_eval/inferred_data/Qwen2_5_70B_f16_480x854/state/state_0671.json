@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a pottery wheel change?",
+    "options": [
+        "The pottery wheel was halted, resulting in the pot remaining stationary on its surface.",
+        "The pottery wheel was set into motion, causing the pot to spin on its surface.",
+        "The pottery wheel was inclined, causing the pot to wobble instead of spin.",
+        "The pottery wheel was layered with clay, adding a thick cover over its surface.",
+        "The pottery wheel was taken apart, removing the motor that drives its rotation."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a pottery wheel change? Choose **only one** option from the following list.\nOptions:\n(A) The pottery wheel was halted, resulting in the pot remaining stationary on its surface.\n(B) The pottery wheel was set into motion, causing the pot to spin on its surface.\n(C) The pottery wheel was inclined, causing the pot to wobble instead of spin.\n(D) The pottery wheel was layered with clay, adding a thick cover over its surface.\n(E) The pottery wheel was taken apart, removing the motor that drives its rotation.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The pottery wheel was set into motion, causing the pot to spin on its surface."
+    },
+    "correct_idx": [
+        1
+    ]
+}

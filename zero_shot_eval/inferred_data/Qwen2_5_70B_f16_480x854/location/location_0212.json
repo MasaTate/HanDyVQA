@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the nylon?",
+    "options": [
+        "The person dropped the nylon on the kitchen floor.",
+        "The person dropped the nylon on the dining table.",
+        "The person dropped the nylon on the window sill.",
+        "The person dropped the nylon on the shelf.",
+        "The person dropped the nylon on the countertop."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the nylon? Choose **only one** option from the following list.\nOptions:\n(A) The person dropped the nylon on the kitchen floor.\n(B) The person dropped the nylon on the dining table.\n(C) The person dropped the nylon on the window sill.\n(D) The person dropped the nylon on the shelf.\n(E) The person dropped the nylon on the countertop.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person dropped the nylon on the countertop."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "carrot",
+        "lettuce",
+        "chopping board",
+        "sink",
+        "towel",
+        "dish drying rack",
+        "bowl",
+        "faucet"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) carrot\n(B) lettuce\n(C) chopping board\n(D) sink\n(E) towel\n(F) dish drying rack\n(G) bowl\n(H) faucet\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(A) The hands are using a carrot, as seen when the person picks it up and places it on the chopping board.\n(B) The hands are using lettuce, as seen when the person washes it in the sink.\n(C) The hands are using a chopping board, as seen when the person places the carrot on it for cutting.\n(D) The hands are using the sink, as seen when the person washes the lettuce and rinses their hands.\n(G) The hands are using a bowl, as seen when the person holds the bowl containing the lettuce.\n\nAnswer format:\n(A) The hands are using a carrot.\n(B) The hands are using lettuce.\n(C) The hands are using a chopping board.\n(D) The hands are using the sink.\n(G) The hands are using a bowl."
+    },
+    "correct_idx": [
+        0,
+        1,
+        6,
+        7
+    ]
+}

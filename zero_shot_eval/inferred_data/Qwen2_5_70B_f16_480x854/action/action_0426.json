@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person placed the bricks using his right hand while the left hand is holding the other bricks.",
+        "The person arranged the bricks using his left hand while the right hand is balancing a stack of bricks.",
+        "The person is stacking the bricks with his right hand while using his left hand to stabilize the wall they are building.",
+        "The person is removing the bricks from a pile with his right hand while holding the already placed bricks with his left hand.",
+        "The person is painting the bricks with a brush in his right hand while his left hand is preparing the paint."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the bricks using his right hand while the left hand is holding the other bricks.\n(B) The person arranged the bricks using his left hand while the right hand is balancing a stack of bricks.\n(C) The person is stacking the bricks with his right hand while using his left hand to stabilize the wall they are building.\n(D) The person is removing the bricks from a pile with his right hand while holding the already placed bricks with his left hand.\n(E) The person is painting the bricks with a brush in his right hand while his left hand is preparing the paint.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person is stacking the bricks with his right hand while using his left hand to stabilize the wall they are building."
+    },
+    "correct_idx": [
+        0
+    ]
+}

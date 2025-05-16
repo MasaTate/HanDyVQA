@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is holding the pot with her left hand while her right hand is stirring the contents inside the pot, then using her right hand to pour the liquid from the pot into a bowl, and her left hand steadies the pot while she prepares to wash the bowl afterwards.",
+        "The person is holding the pot with her left hand and her right hand is wiping the outside of the pot with a cloth, while she tilts the pot to empty it and uses her right hand to adjust the burner, keeping her left hand steady on the pot.",
+        "The person is holding the pot with her left hand, using her right hand to clean the inside of the pot, then using her right hand again to turn off the faucet. Her left hand flips the pot to pour water out, and her right hand turns on the faucet and washes the bottom of the pot.",
+        "The person is holding the pot with her left hand and her right hand is measuring ingredients with a spoon inside the pot, then using her right hand to grab a lid to place on top of the pot while her left hand holds it in place.",
+        "The person is lifting the pot with her left hand while her right hand holds a spatula to mix the food inside the pot, then she uses her right hand to transfer the food onto a plate as her left hand steadies the pot."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is holding the pot with her left hand while her right hand is stirring the contents inside the pot, then using her right hand to pour the liquid from the pot into a bowl, and her left hand steadies the pot while she prepares to wash the bowl afterwards.\n(B) The person is holding the pot with her left hand and her right hand is wiping the outside of the pot with a cloth, while she tilts the pot to empty it and uses her right hand to adjust the burner, keeping her left hand steady on the pot.\n(C) The person is holding the pot with her left hand, using her right hand to clean the inside of the pot, then using her right hand again to turn off the faucet. Her left hand flips the pot to pour water out, and her right hand turns on the faucet and washes the bottom of the pot.\n(D) The person is holding the pot with her left hand and her right hand is measuring ingredients with a spoon inside the pot, then using her right hand to grab a lid to place on top of the pot while her left hand holds it in place.\n(E) The person is lifting the pot with her left hand while her right hand holds a spatula to mix the food inside the pot, then she uses her right hand to transfer the food onto a plate as her left hand steadies the pot.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person is holding the pot with her left hand, using her right hand to clean the inside of the pot, then using her right hand again to turn off the faucet. Her left hand flips the pot to pour water out, and her right hand turns on the faucet and washes the bottom of the pot."
+    },
+    "correct_idx": [
+        2
+    ]
+}

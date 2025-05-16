@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the yellow pan of food?",
+    "options": [
+        "The person is moving the yellow pan of food on the stove to the left side.",
+        "The person is moving the yellow pan of food on the stove to the right side.",
+        "The person is placing the yellow pan of food on the countertop in the back corner.",
+        "The person is moving the yellow pan of food on the stove to the front edge.",
+        "The person is moving the yellow pan of food on the stove to the center."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the yellow pan of food? Choose **only one** option from the following list.\nOptions:\n(A) The person is moving the yellow pan of food on the stove to the left side.\n(B) The person is moving the yellow pan of food on the stove to the right side.\n(C) The person is placing the yellow pan of food on the countertop in the back corner.\n(D) The person is moving the yellow pan of food on the stove to the front edge.\n(E) The person is moving the yellow pan of food on the stove to the center.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person is moving the yellow pan of food on the stove to the front edge."
+    },
+    "correct_idx": [
+        1
+    ]
+}

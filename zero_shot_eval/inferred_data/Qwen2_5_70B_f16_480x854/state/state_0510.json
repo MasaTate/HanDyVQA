@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the sieve bowl change?",
+    "options": [
+        "The sieve bowl was picked up, rotated upside down, shaken, and then rubbed by a sponge.",
+        "The sieve bowl was picked up, rotated sideways, shaken slightly, and tapped with a sponge.",
+        "The sieve bowl was picked up, turned halfway, shaken lightly, and brushed with a sponge.",
+        "The sieve bowl was picked up, flipped partially around, tapped lightly, and scrubbed with a sponge.",
+        "The sieve bowl was lifted, tilted to the side, moderately shaken, and wiped with a sponge."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the sieve bowl change? Choose **only one** option from the following list.\nOptions:\n(A) The sieve bowl was picked up, rotated upside down, shaken, and then rubbed by a sponge.\n(B) The sieve bowl was picked up, rotated sideways, shaken slightly, and tapped with a sponge.\n(C) The sieve bowl was picked up, turned halfway, shaken lightly, and brushed with a sponge.\n(D) The sieve bowl was picked up, flipped partially around, tapped lightly, and scrubbed with a sponge.\n(E) The sieve bowl was lifted, tilted to the side, moderately shaken, and wiped with a sponge.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The sieve bowl was picked up, turned halfway, shaken lightly, and brushed with a sponge."
+    },
+    "correct_idx": [
+        0
+    ]
+}

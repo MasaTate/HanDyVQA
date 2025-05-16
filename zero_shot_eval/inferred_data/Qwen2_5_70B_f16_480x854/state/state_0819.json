@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the oven change?",
+    "options": [
+        "The oven door was left ajar, allowing heat to escape, and remained in that position for several minutes.",
+        "The oven door was removed, allowing access to the heating elements inside.",
+        "The oven door was opened, exposing the interior, and then returned to its closed position.",
+        "The oven door was pressed shut tightly, preventing air from entering or escaping.",
+        "The oven door was altered with a new handle installed, improving its grip while remaining closed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the oven change? Choose **only one** option from the following list.\nOptions:\n(A) The oven door was left ajar, allowing heat to escape, and remained in that position for several minutes.\n(B) The oven door was removed, allowing access to the heating elements inside.\n(C) The oven door was opened, exposing the interior, and then returned to its closed position.\n(D) The oven door was pressed shut tightly, preventing air from entering or escaping.\n(E) The oven door was altered with a new handle installed, improving its grip while remaining closed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The oven door was opened, exposing the interior, and then returned to its closed position."
+    },
+    "correct_idx": [
+        2
+    ]
+}

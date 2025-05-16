@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is clearing the table; the person lifts the plate from the table with the left hand.",
+        "The person is setting the table; the person places the plate on the table with the left hand.",
+        "The person is preparing the table; the person moves the plate on the table with the left hand.",
+        "The person is arranging the table; the person holds the plate in the right hand while placing it on the table with the left hand.",
+        "The person is washing the table; the person wipes the plate with a sponge in the left hand while holding a detergent bottle in the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is clearing the table; the person lifts the plate from the table with the left hand.\n(B) The person is setting the table; the person places the plate on the table with the left hand.\n(C) The person is preparing the table; the person moves the plate on the table with the left hand.\n(D) The person is arranging the table; the person holds the plate in the right hand while placing it on the table with the left hand.\n(E) The person is washing the table; the person wipes the plate with a sponge in the left hand while holding a detergent bottle in the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person is clearing the table; the person lifts the plate from the table with the left hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

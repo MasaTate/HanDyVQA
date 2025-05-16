@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the flour container change?",
+    "options": [
+        "The flour container became half full when some of its contents were scooped out for baking.",
+        "The flour container was sealed shut when the lid was put back on after use.",
+        "The flour container was filled to the top when an additional bag of flour was added.",
+        "The flour container was knocked over, causing the flour to spill everywhere.",
+        "The flour container became empty when its contents were poured into the bowl."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the flour container change? Choose **only one** option from the following list.\nOptions:\n(A) The flour container became half full when some of its contents were scooped out for baking.\n(B) The flour container was sealed shut when the lid was put back on after use.\n(C) The flour container was filled to the top when an additional bag of flour was added.\n(D) The flour container was knocked over, causing the flour to spill everywhere.\n(E) The flour container became empty when its contents were poured into the bowl.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The flour container was sealed shut when the lid was put back on after use."
+    },
+    "correct_idx": [
+        4
+    ]
+}

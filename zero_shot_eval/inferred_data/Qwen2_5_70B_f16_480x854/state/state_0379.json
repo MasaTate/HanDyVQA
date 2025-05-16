@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the tape change?",
+    "options": [
+        "The tape was peeled off the wall and formed into a ball.",
+        "The tape was cut into smaller pieces and spread across the floor.",
+        "The tape was stuck to the wall along with the string of the banner.",
+        "The tape was unrolled and placed flat on the table.",
+        "The tape was removed from the wall and the decoration was taken down."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the tape change? Choose **only one** option from the following list.\nOptions:\n(A) The tape was peeled off the wall and formed into a ball.\n(B) The tape was cut into smaller pieces and spread across the floor.\n(C) The tape was stuck to the wall along with the string of the banner.\n(D) The tape was unrolled and placed flat on the table.\n(E) The tape was removed from the wall and the decoration was taken down.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The tape was stuck to the wall along with the string of the banner."
+    },
+    "correct_idx": [
+        2
+    ]
+}

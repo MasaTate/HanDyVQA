@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a piece of yarn change?",
+    "options": [
+        "The piece of yarn was looped around itself without being passed through any holes.",
+        "The piece of yarn was unwound and placed flat on the table.",
+        "The piece of yarn was put through the hole of itself several times.",
+        "The piece of yarn was cut into smaller segments without looping around.",
+        "The piece of yarn was coiled tightly without passing through any holes."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a piece of yarn change? Choose **only one** option from the following list.\nOptions:\n(A) The piece of yarn was looped around itself without being passed through any holes.\n(B) The piece of yarn was unwound and placed flat on the table.\n(C) The piece of yarn was put through the hole of itself several times.\n(D) The piece of yarn was cut into smaller segments without looping around.\n(E) The piece of yarn was coiled tightly without passing through any holes.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The piece of yarn was put through the hole of itself several times."
+    },
+    "correct_idx": [
+        2
+    ]
+}

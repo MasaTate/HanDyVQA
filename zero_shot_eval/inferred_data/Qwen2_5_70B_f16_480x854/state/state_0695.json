@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the plastic container change?",
+    "options": [
+        "The plastic container was turned upside down on the table.",
+        "The plastic container was placed inside a cardboard box.",
+        "The plastic container was filled with water and sealed tightly.",
+        "The plastic container was stacked on top of another container.",
+        "The plastic container was grabbed and then placed back to the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the plastic container change? Choose **only one** option from the following list.\nOptions:\n(A) The plastic container was turned upside down on the table.\n(B) The plastic container was placed inside a cardboard box.\n(C) The plastic container was filled with water and sealed tightly.\n(D) The plastic container was stacked on top of another container.\n(E) The plastic container was grabbed and then placed back to the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The plastic container was grabbed and then placed back to the table."
+    },
+    "correct_idx": [
+        4
+    ]
+}

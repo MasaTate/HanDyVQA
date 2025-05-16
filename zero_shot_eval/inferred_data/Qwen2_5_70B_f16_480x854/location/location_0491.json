@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the egg shell?",
+    "options": [
+        "The person drops the egg shell on a recycling bin next to the sink.",
+        "The person drops the egg shell on a plate sitting on the kitchen counter.",
+        "The person drops the egg shell in a container beside the refrigerator.",
+        "The person dropped the eggshell on a trash bin inside a kitchen cupboard.",
+        "The person drops the egg shell in a cardboard box underneath the kitchen table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the egg shell? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the egg shell on a recycling bin next to the sink.\n(B) The person drops the egg shell on a plate sitting on the kitchen counter.\n(C) The person drops the egg shell in a container beside the refrigerator.\n(D) The person dropped the eggshell on a trash bin inside a kitchen cupboard.\n(E) The person drops the egg shell in a cardboard box underneath the kitchen table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person dropped the eggshell on a trash bin inside a kitchen cupboard."
+    },
+    "correct_idx": [
+        3
+    ]
+}

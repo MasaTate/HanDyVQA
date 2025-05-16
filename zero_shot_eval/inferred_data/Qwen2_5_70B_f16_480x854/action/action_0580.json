@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person taps the opened machine with his right hand and lifts it with the left hand, then places the air spray down on the counter.",
+        "The person cleans the opened machine with his right hand and holds the air spray in his left hand before setting it on the shelf.",
+        "The person sprays the opened machine with his right hand and passes it to the left hand, then hangs the air spray with his left hand on the edge of the work table.",
+        "The person twists the nozzle of the air spray with his right hand while holding the machine steady with his left hand, then places both on the work table.",
+        "The person shakes the air spray in his right hand while holding the opened machine in his left hand, then sets the air spray onto the counter."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person taps the opened machine with his right hand and lifts it with the left hand, then places the air spray down on the counter.\n(B) The person cleans the opened machine with his right hand and holds the air spray in his left hand before setting it on the shelf.\n(C) The person sprays the opened machine with his right hand and passes it to the left hand, then hangs the air spray with his left hand on the edge of the work table.\n(D) The person twists the nozzle of the air spray with his right hand while holding the machine steady with his left hand, then places both on the work table.\n(E) The person shakes the air spray in his right hand while holding the opened machine in his left hand, then sets the air spray onto the counter.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person shakes the air spray in his right hand while holding the opened machine in his left hand, then sets the air spray onto the counter."
+    },
+    "correct_idx": [
+        2
+    ]
+}

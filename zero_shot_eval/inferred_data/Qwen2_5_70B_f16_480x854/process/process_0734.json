@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pass the the piece of wood?",
+    "options": [
+        "The person lightly tosses the piece of wood from his right hand to his left hand, letting it rotate slightly before attempting to catch it.",
+        "The person carefully slides the piece of wood from his right hand to his left hand, moving it across the surface without lifting it.",
+        "The person grips the piece of wood gently with both hands before attempting to separate it, ensuring it remains intact.",
+        "The person raises the piece of wood above his head with both hands before gently guiding it into his left hand.",
+        "The person quickly passes the piece of wood directly from his right hand to his left hand by slipping it out of his right hand and making sure it doesn't drop before releasing it while his left hand grips it properly."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pass the the piece of wood? Choose **only one** option from the following list.\nOptions:\n(A) The person lightly tosses the piece of wood from his right hand to his left hand, letting it rotate slightly before attempting to catch it.\n(B) The person carefully slides the piece of wood from his right hand to his left hand, moving it across the surface without lifting it.\n(C) The person grips the piece of wood gently with both hands before attempting to separate it, ensuring it remains intact.\n(D) The person raises the piece of wood above his head with both hands before gently guiding it into his left hand.\n(E) The person quickly passes the piece of wood directly from his right hand to his left hand by slipping it out of his right hand and making sure it doesn't drop before releasing it while his left hand grips it properly.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person quickly passes the piece of wood directly from his right hand to his left hand by slipping it out of his right hand and making sure it doesn't drop before releasing it while his left hand grips it properly."
+    },
+    "correct_idx": [
+        4
+    ]
+}

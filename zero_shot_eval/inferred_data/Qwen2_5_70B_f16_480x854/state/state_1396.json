@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the piano change?",
+    "options": [
+        "The piano keys were struck one by one in a slow, deliberate manner moving from the left side to the right side.",
+        "The piano keys were pressed and held down for several seconds to produce sustained notes.",
+        "The piano keys were pressed in quick succession to produce loud, crashing chords across the entire keyboard.",
+        "The piano keys were muted by covering them with a damp cloth, preventing any sound from being heard.",
+        "The piano keys were played rapidly by pressing them up and down in a continuous motion from the right side to the left side."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the piano change? Choose **only one** option from the following list.\nOptions:\n(A) The piano keys were struck one by one in a slow, deliberate manner moving from the left side to the right side.\n(B) The piano keys were pressed and held down for several seconds to produce sustained notes.\n(C) The piano keys were pressed in quick succession to produce loud, crashing chords across the entire keyboard.\n(D) The piano keys were muted by covering them with a damp cloth, preventing any sound from being heard.\n(E) The piano keys were played rapidly by pressing them up and down in a continuous motion from the right side to the left side.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The piano keys were played rapidly by pressing them up and down in a continuous motion from the right side to the left side."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "yellow chalk. ",
+        "green chalk",
+        "blue marker",
+        "eraser. ",
+        "whiteboard. ",
+        "container of chalk"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) yellow chalk. \n(B) green chalk\n(C) blue marker\n(D) eraser. \n(E) whiteboard. \n(F) container of chalk\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(B) green chalk\n(F) container of chalk"
+    },
+    "correct_idx": [
+        1,
+        5
+    ]
+}

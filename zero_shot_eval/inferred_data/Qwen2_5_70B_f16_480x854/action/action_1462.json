@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person uses her left hand to open the jar of cream, then pours some cream into a bowl with her right hand and stirs it using both hands.",
+        "The person is lifting the lid of a jar with her right hand while using her left hand to pour some cream out onto a plate.",
+        "The person uses her left hand to open the container of cream, then scoops some cream with her right hand and spreads it using both hands.",
+        "The person is spreading the cream onto a slice of bread with her right hand while holding the jar with her left hand.",
+        "The person uses both hands to close the container of cream after taking some out with a spoon in her right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person uses her left hand to open the jar of cream, then pours some cream into a bowl with her right hand and stirs it using both hands.\n(B) The person is lifting the lid of a jar with her right hand while using her left hand to pour some cream out onto a plate.\n(C) The person uses her left hand to open the container of cream, then scoops some cream with her right hand and spreads it using both hands.\n(D) The person is spreading the cream onto a slice of bread with her right hand while holding the jar with her left hand.\n(E) The person uses both hands to close the container of cream after taking some out with a spoon in her right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person uses her left hand to open the container of cream, then scoops some cream with her right hand and spreads it using both hands."
+    },
+    "correct_idx": [
+        2
+    ]
+}

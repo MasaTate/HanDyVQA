@@ -1,0 +1,17 @@
+{
+    "question": "How does the person clean the game console with the napkin?",
+    "options": [
+        "The person grips the napkin and cleans the game console by moving it back and forth in a straight line.",
+        "The person uses the napkin to dust off the game console by tapping it quickly with their fingers.",
+        "The person holds the napkin in his right hand and wipes the game console in counterclockwise circular motions to clean it.",
+        "The person lightly pats the game console using the napkin held between the thumb and forefinger of the left hand.",
+        "The person rolls the napkin and gently moves it across the surface of the game console to clean it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person clean the game console with the napkin? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the napkin and cleans the game console by moving it back and forth in a straight line.\n(B) The person uses the napkin to dust off the game console by tapping it quickly with their fingers.\n(C) The person holds the napkin in his right hand and wipes the game console in counterclockwise circular motions to clean it.\n(D) The person lightly pats the game console using the napkin held between the thumb and forefinger of the left hand.\n(E) The person rolls the napkin and gently moves it across the surface of the game console to clean it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person holds the napkin in his right hand and wipes the game console in counterclockwise circular motions to clean it."
+    },
+    "correct_idx": [
+        2
+    ]
+}

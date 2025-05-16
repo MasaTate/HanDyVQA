@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the beef?",
+    "options": [
+        "The person places the beef on their right hand.",
+        "The person place the beef on their left hand.",
+        "The person places the beef on the table in front of them.",
+        "The person places the beef on their right shoulder.",
+        "The person places the beef in their lap."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the beef? Choose **only one** option from the following list.\nOptions:\n(A) The person places the beef on their right hand.\n(B) The person place the beef on their left hand.\n(C) The person places the beef on the table in front of them.\n(D) The person places the beef on their right shoulder.\n(E) The person places the beef in their lap.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person place the beef on their left hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

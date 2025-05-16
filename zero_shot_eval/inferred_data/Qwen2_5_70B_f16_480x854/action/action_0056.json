@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person lifts his right hand and grips the handle of the treadmill.",
+        "The person lowers his right hand and rests it on the armrest of the chair.",
+        "The person raises both hands and holds onto the handlebars of the stationary bike.",
+        "The person extends his left hand and presses the buttons on the remote control.",
+        "The person raises his left hand and places it on the stationary bike handle."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person lifts his right hand and grips the handle of the treadmill.\n(B) The person lowers his right hand and rests it on the armrest of the chair.\n(C) The person raises both hands and holds onto the handlebars of the stationary bike.\n(D) The person extends his left hand and presses the buttons on the remote control.\n(E) The person raises his left hand and places it on the stationary bike handle.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person raises his left hand and places it on the stationary bike handle."
+    },
+    "correct_idx": [
+        4
+    ]
+}

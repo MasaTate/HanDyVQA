@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the mould?",
+    "options": [
+        "The person moves the mould by sliding it across the grass.",
+        "The person moves the mould by lifting it into the air.",
+        "The person moves the mould by rolling it over the sand.",
+        "The person moves the mould by dragging it along the pathway.",
+        "The person moves the mould by pushing it into the soil."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the mould? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the mould by sliding it across the grass.\n(B) The person moves the mould by lifting it into the air.\n(C) The person moves the mould by rolling it over the sand.\n(D) The person moves the mould by dragging it along the pathway.\n(E) The person moves the mould by pushing it into the soil.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person moves the mould by lifting it into the air."
+    },
+    "correct_idx": [
+        2
+    ]
+}

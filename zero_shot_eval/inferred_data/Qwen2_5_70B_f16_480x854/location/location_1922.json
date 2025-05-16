@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move charcoal?",
+    "options": [
+        "The person moved the charcoal to the back of the fire.",
+        "The person moved the charcoal at the center of the fire.",
+        "The person moved the charcoal to the edge of the fire.",
+        "The person moved the charcoal to the front of the fire.",
+        "The person moved the charcoal to the right side of the fire."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move charcoal? Choose **only one** option from the following list.\nOptions:\n(A) The person moved the charcoal to the back of the fire.\n(B) The person moved the charcoal at the center of the fire.\n(C) The person moved the charcoal to the edge of the fire.\n(D) The person moved the charcoal to the front of the fire.\n(E) The person moved the charcoal to the right side of the fire.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person moved the charcoal to the edge of the fire."
+    },
+    "correct_idx": [
+        1
+    ]
+}

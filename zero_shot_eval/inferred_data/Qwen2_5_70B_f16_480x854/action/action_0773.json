@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person places trash into a recycling bin with both hands.",
+        "The person sorts through trash on the floor with both hands.",
+        "The person carries a bag of trash to the dumpster with both hands.",
+        "The person picks up the plastic bag and throws it away in the bin with both hands.",
+        "The person collects litter from the ground with both hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person places trash into a recycling bin with both hands.\n(B) The person sorts through trash on the floor with both hands.\n(C) The person carries a bag of trash to the dumpster with both hands.\n(D) The person picks up the plastic bag and throws it away in the bin with both hands.\n(E) The person collects litter from the ground with both hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person picks up the plastic bag and throws it away in the bin with both hands."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "sack",
+        "bamboo shavings",
+        "ground",
+        "shorts",
+        "bamboo strip",
+        "bill hook"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) sack\n(B) bamboo shavings\n(C) ground\n(D) shorts\n(E) bamboo strip\n(F) bill hook\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(F) Bill hook\n(E) Bamboo strip"
+    },
+    "correct_idx": [
+        4,
+        5
+    ]
+}

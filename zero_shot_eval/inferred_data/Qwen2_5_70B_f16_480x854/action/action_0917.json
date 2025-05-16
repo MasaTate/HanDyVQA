@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person pours the liquid from the cup into a bowl and wipes it with a damp cloth.",
+        "The person fills the cup with water from the tap and places it on the counter, wiping it with a damp cloth.",
+        "The person is rinsing the cup under the faucet and wiping it with a damp cloth.",
+        "The person empties the cup into the sink and cleans it with a damp cloth.",
+        "The person tosses the cup into the trash and cleans their hands with a damp cloth."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person pours the liquid from the cup into a bowl and wipes it with a damp cloth.\n(B) The person fills the cup with water from the tap and places it on the counter, wiping it with a damp cloth.\n(C) The person is rinsing the cup under the faucet and wiping it with a damp cloth.\n(D) The person empties the cup into the sink and cleans it with a damp cloth.\n(E) The person tosses the cup into the trash and cleans their hands with a damp cloth.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person is rinsing the cup under the faucet and wiping it with a damp cloth."
+    },
+    "correct_idx": [
+        3
+    ]
+}

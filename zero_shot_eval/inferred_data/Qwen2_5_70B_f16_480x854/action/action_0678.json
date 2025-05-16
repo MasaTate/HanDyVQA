@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person plays a guitar and tunes the strings using his left hand.",
+        "The person plays a keyboard and adjusts the volume with his right hand.",
+        "The person plays piano and turns the page using his left hand.",
+        "The person practices drums and holds a stick in his left hand while tapping on a cymbal.",
+        "The person plays a flute and changes the sheet music with his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person plays a guitar and tunes the strings using his left hand.\n(B) The person plays a keyboard and adjusts the volume with his right hand.\n(C) The person plays piano and turns the page using his left hand.\n(D) The person practices drums and holds a stick in his left hand while tapping on a cymbal.\n(E) The person plays a flute and changes the sheet music with his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person plays piano and turns the page using his left hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the remote control?",
+    "options": [
+        "The person moves the remote control a little bit downward.",
+        "The person moves the remote control slightly to the left.",
+        "The person moves the remote control a little bit upward.",
+        "The person moves the remote control a little bit to the right.",
+        "The person moves the remote control a little bit backward."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the remote control? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the remote control a little bit downward.\n(B) The person moves the remote control slightly to the left.\n(C) The person moves the remote control a little bit upward.\n(D) The person moves the remote control a little bit to the right.\n(E) The person moves the remote control a little bit backward.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person moves the remote control slightly to the left."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person move the second card on the table?",
+    "options": [
+        "The person tossed the second card onto the table, giving it a gentle angle to glide smoothly across the surface.",
+        "The person used a soft underhand motion to place the second card on the table, allowing it to fall gently into place.",
+        "The person lightly pushed the second card along the table's surface, using the palm of his hand to guide it smoothly.",
+        "The person threw the second card onto the table by quickly flicking it with the fingertips of his right hand, using a sharp wrist motion and a precise angle to send it sliding across the surface.",
+        "The person gently swung the second card onto the table surface, employing a smooth motion to place it down."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person move the second card on the table? Choose **only one** option from the following list.\nOptions:\n(A) The person tossed the second card onto the table, giving it a gentle angle to glide smoothly across the surface.\n(B) The person used a soft underhand motion to place the second card on the table, allowing it to fall gently into place.\n(C) The person lightly pushed the second card along the table's surface, using the palm of his hand to guide it smoothly.\n(D) The person threw the second card onto the table by quickly flicking it with the fingertips of his right hand, using a sharp wrist motion and a precise angle to send it sliding across the surface.\n(E) The person gently swung the second card onto the table surface, employing a smooth motion to place it down.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person threw the second card onto the table by quickly flicking it with the fingertips of his right hand, using a sharp wrist motion and a precise angle to send it sliding across the surface."
+    },
+    "correct_idx": [
+        3
+    ]
+}

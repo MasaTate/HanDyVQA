@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the red marker change?",
+    "options": [
+        "The red marker was applied to the board, and the cap was attached, then it was put on the board.",
+        "The red marker was applied to the board, then the cap was removed and placed nearby.",
+        "The red marker's cap was attached, but the marker was not applied to the board, and it was set on the desk.",
+        "The red marker was applied to the board without attaching the cap and left in a holder.",
+        "The red marker was applied to the board and placed back in a drawer with the cap on."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the red marker change? Choose **only one** option from the following list.\nOptions:\n(A) The red marker was applied to the board, and the cap was attached, then it was put on the board.\n(B) The red marker was applied to the board, then the cap was removed and placed nearby.\n(C) The red marker's cap was attached, but the marker was not applied to the board, and it was set on the desk.\n(D) The red marker was applied to the board without attaching the cap and left in a holder.\n(E) The red marker was applied to the board and placed back in a drawer with the cap on.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The red marker was applied to the board, and the cap was attached, then it was put on the board."
+    },
+    "correct_idx": [
+        0
+    ]
+}

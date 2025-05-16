@@ -1,0 +1,17 @@
+{
+    "question": "How does the person raise a card with right hand?",
+    "options": [
+        "The person grips the card securely with his palm and lifts it upwards without significant finger movement.",
+        "The person raises a card with his right hand, shakes it, and flicks it onto the table.",
+        "The person uses his right hand to gently move the card forward across the table instead of raising it.",
+        "The person uses the back of his right hand to slide the card smoothly off the table onto a nearby surface.",
+        "The person waves his right hand closely over the card, making it flutter slightly instead of lifting it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person raise a card with right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the card securely with his palm and lifts it upwards without significant finger movement.\n(B) The person raises a card with his right hand, shakes it, and flicks it onto the table.\n(C) The person uses his right hand to gently move the card forward across the table instead of raising it.\n(D) The person uses the back of his right hand to slide the card smoothly off the table onto a nearby surface.\n(E) The person waves his right hand closely over the card, making it flutter slightly instead of lifting it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person grips the card securely with his palm and lifts it upwards without significant finger movement."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a second potato change?",
+    "options": [
+        "The second potato was peeled, removing its skin and exposing the white flesh inside.",
+        "The second potato was mashed into a smooth consistency, changing its form from whole to pureed.",
+        "The second potato was cooked in boiling water, softening it and altering its texture.",
+        "The second potato was sliced into thin rounds, transforming it from whole to a series of circular pieces.",
+        "The second potato was rinsed with water, removing dirt and leaving it clean."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a second potato change? Choose **only one** option from the following list.\nOptions:\n(A) The second potato was peeled, removing its skin and exposing the white flesh inside.\n(B) The second potato was mashed into a smooth consistency, changing its form from whole to pureed.\n(C) The second potato was cooked in boiling water, softening it and altering its texture.\n(D) The second potato was sliced into thin rounds, transforming it from whole to a series of circular pieces.\n(E) The second potato was rinsed with water, removing dirt and leaving it clean.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The second potato was rinsed with water, removing dirt and leaving it clean."
+    },
+    "correct_idx": [
+        4
+    ]
+}

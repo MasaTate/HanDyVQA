@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person rotates the pot on the turntable with her left hand while using a paintbrush in her right hand.",
+        "The person tilts the pot on the turntable with her left hand while applying pressure with a sponge in her right hand.",
+        "The person rotates the pot on the turntable with her left hand while using a wooden tool in her right hand.",
+        "The person lifts the pot off the turntable with her left hand while stirring its contents with a metal spoon in her right hand.",
+        "The person places the pot on the turntable with her left hand while smoothing the surface with a scraper in her right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person rotates the pot on the turntable with her left hand while using a paintbrush in her right hand.\n(B) The person tilts the pot on the turntable with her left hand while applying pressure with a sponge in her right hand.\n(C) The person rotates the pot on the turntable with her left hand while using a wooden tool in her right hand.\n(D) The person lifts the pot off the turntable with her left hand while stirring its contents with a metal spoon in her right hand.\n(E) The person places the pot on the turntable with her left hand while smoothing the surface with a scraper in her right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person rotates the pot on the turntable with her left hand while using a wooden tool in her right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

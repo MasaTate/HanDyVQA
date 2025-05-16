@@ -1,0 +1,17 @@
+{
+    "question": "How does the person lift the stone?",
+    "options": [
+        "The person lifts the stone by using the palm of the right hand and cradling it gently with a soft grip.",
+        "The person raises the stone by pushing it upwards with the back of the hand and a firm hold.",
+        "The person tilts the stone upwards by sliding it along the surface with a slight grip using the fingertips of the right hand.",
+        "The person lifts the stone by using the compression of the fingers and gripping it tightly with the left hand.",
+        "The person picks up the stone by moving their arm downwards and securing it with an open hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person lift the stone? Choose **only one** option from the following list.\nOptions:\n(A) The person lifts the stone by using the palm of the right hand and cradling it gently with a soft grip.\n(B) The person raises the stone by pushing it upwards with the back of the hand and a firm hold.\n(C) The person tilts the stone upwards by sliding it along the surface with a slight grip using the fingertips of the right hand.\n(D) The person lifts the stone by using the compression of the fingers and gripping it tightly with the left hand.\n(E) The person picks up the stone by moving their arm downwards and securing it with an open hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person lifts the stone by using the compression of the fingers and gripping it tightly with the left hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

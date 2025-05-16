@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "motorcycle bulb",
+        "exhaust muffler",
+        "tank cover",
+        "plastic cover",
+        "motorcycle pedal",
+        "floor"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) motorcycle bulb\n(B) exhaust muffler\n(C) tank cover\n(D) plastic cover\n(E) motorcycle pedal\n(F) floor\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(C) tank cover\n\nThe hands in the video are manipulating a green tank cover, which is part of the motorcycle's fuel tank assembly. The person is carefully handling and positioning this cover as part of the repair or maintenance process."
+    },
+    "correct_idx": [
+        0,
+        3
+    ]
+}

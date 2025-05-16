@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person tears a piece of aluminum foil with his hands.",
+        "The person folds a piece of the toilet paper with his hands.",
+        "The person slits a piece of the toilet paper with his hands.",
+        "The person crumples a piece of the toilet paper with his hands.",
+        "The person takes a piece of the napkin with his hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person tears a piece of aluminum foil with his hands.\n(B) The person folds a piece of the toilet paper with his hands.\n(C) The person slits a piece of the toilet paper with his hands.\n(D) The person crumples a piece of the toilet paper with his hands.\n(E) The person takes a piece of the napkin with his hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person crumples a piece of the toilet paper with his hands."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person closes the box with both hands and takes out three puncture patches using the right hand while holding the box with the left hand.",
+        "The person shakes the box with both hands to mix the puncture patches inside after taking one patch out with the left hand.",
+        "The person arranges the puncture patches on the table using both hands while holding the box under the left arm.",
+        "The person opens the box with both hands, picks two puncture patches using the left hand, and returns one patch to the box using the right hand.",
+        "The person lifts the box with the left hand while removing one puncture patch from the top with the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person closes the box with both hands and takes out three puncture patches using the right hand while holding the box with the left hand.\n(B) The person shakes the box with both hands to mix the puncture patches inside after taking one patch out with the left hand.\n(C) The person arranges the puncture patches on the table using both hands while holding the box under the left arm.\n(D) The person opens the box with both hands, picks two puncture patches using the left hand, and returns one patch to the box using the right hand.\n(E) The person lifts the box with the left hand while removing one puncture patch from the top with the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person opens the box with both hands, picks two puncture patches using the left hand, and returns one patch to the box using the right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person washes the painting brush in the solvent using her/his right hand while his/her left hand is gripping the edge of the canvas.",
+        "The person dips the painting brush into the paint pot using her/his right hand while his/her left hand is holding the paint palette.",
+        "The person cleans the painting brush with a cloth in her/his right hand while his/her left hand is supporting the easel.",
+        "The person rinses the painting brush in the water using her/his right hand while his/her left hand is steadily held on the table.",
+        "The person strokes the canvas with the painting brush in her/his right hand while his/her left hand is resting on the floor."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person washes the painting brush in the solvent using her/his right hand while his/her left hand is gripping the edge of the canvas.\n(B) The person dips the painting brush into the paint pot using her/his right hand while his/her left hand is holding the paint palette.\n(C) The person cleans the painting brush with a cloth in her/his right hand while his/her left hand is supporting the easel.\n(D) The person rinses the painting brush in the water using her/his right hand while his/her left hand is steadily held on the table.\n(E) The person strokes the canvas with the painting brush in her/his right hand while his/her left hand is resting on the floor.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person rinses the painting brush in the water using her/his right hand while his/her left hand is steadily held on the table."
+    },
+    "correct_idx": [
+        3
+    ]
+}

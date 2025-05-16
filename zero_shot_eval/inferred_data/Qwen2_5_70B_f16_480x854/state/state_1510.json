@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a seedling change?",
+    "options": [
+        "The seedling was removed from the soil and placed into a pot, changing its environment and support.",
+        "The seedling was picked up and slightly adjusted, altering its position and orientation.",
+        "The seedling was bent at its stem, impacting its structure and balance.",
+        "The seedling was watered, affecting its moisture levels and overall condition.",
+        "The seedling was exposed to direct sunlight, influencing its light exposure and growth direction."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a seedling change? Choose **only one** option from the following list.\nOptions:\n(A) The seedling was removed from the soil and placed into a pot, changing its environment and support.\n(B) The seedling was picked up and slightly adjusted, altering its position and orientation.\n(C) The seedling was bent at its stem, impacting its structure and balance.\n(D) The seedling was watered, affecting its moisture levels and overall condition.\n(E) The seedling was exposed to direct sunlight, influencing its light exposure and growth direction.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The seedling was picked up and slightly adjusted, altering its position and orientation."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the dough change?",
+    "options": [
+        "The dough was rolled out, stretched slightly to the right, and shaped.",
+        "The dough was arranged, stretched slightly to the left, and cut.",
+        "The dough was left untouched for a period and then folded in half.",
+        "The dough was pushed downward, pulled slightly backward, and pinched.",
+        "The dough was twisted slightly to the right before being flattened."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the dough change? Choose **only one** option from the following list.\nOptions:\n(A) The dough was rolled out, stretched slightly to the right, and shaped.\n(B) The dough was arranged, stretched slightly to the left, and cut.\n(C) The dough was left untouched for a period and then folded in half.\n(D) The dough was pushed downward, pulled slightly backward, and pinched.\n(E) The dough was twisted slightly to the right before being flattened.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The dough was rolled out, stretched slightly to the right, and shaped."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person collect the money?",
+    "options": [
+        "The person gathers the money by pinching it with her left hand and placing it in her pocket for support.",
+        "The person takes the money and sets it aside with her hands, neatly arranging it on the floor.",
+        "The person collects the money by grabbing it with her right hand, pulling it back, and placing it between her knees to hold.",
+        "The person stacks the money in her left hand, balancing it steadily while standing.",
+        "The person collects the money by using her right hand to gather it into a pile on the table for holding."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person collect the money? Choose **only one** option from the following list.\nOptions:\n(A) The person gathers the money by pinching it with her left hand and placing it in her pocket for support.\n(B) The person takes the money and sets it aside with her hands, neatly arranging it on the floor.\n(C) The person collects the money by grabbing it with her right hand, pulling it back, and placing it between her knees to hold.\n(D) The person stacks the money in her left hand, balancing it steadily while standing.\n(E) The person collects the money by using her right hand to gather it into a pile on the table for holding.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person collects the money by grabbing it with her right hand, pulling it back, and placing it between her knees to hold."
+    },
+    "correct_idx": [
+        2
+    ]
+}

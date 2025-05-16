@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the wooden frame change?",
+    "options": [
+        "The wooden frame was contacted with a nudge but remained in its original position.",
+        "The wooden frame was pressed and held, yet unchanged.",
+        "The wooden frame was tapped softly without moving from its spot.",
+        "The wooden frame was brushed lightly, resulting in no movement.",
+        "The wooden frame was touched without any movement or change."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the wooden frame change? Choose **only one** option from the following list.\nOptions:\n(A) The wooden frame was contacted with a nudge but remained in its original position.\n(B) The wooden frame was pressed and held, yet unchanged.\n(C) The wooden frame was tapped softly without moving from its spot.\n(D) The wooden frame was brushed lightly, resulting in no movement.\n(E) The wooden frame was touched without any movement or change.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The wooden frame was touched without any movement or change."
+    },
+    "correct_idx": [
+        4
+    ]
+}

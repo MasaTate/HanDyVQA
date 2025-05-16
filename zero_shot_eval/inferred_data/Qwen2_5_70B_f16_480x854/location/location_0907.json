@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the key holder?",
+    "options": [
+        "The person drops the key holder on the upper right side of the box.",
+        "The person drops the key holder on the bottom left side of the box.",
+        "The person drops the key holder on the center of the box.",
+        "The person drops the key holder on the most upper left side of the box.",
+        "The person drops the key holder on the bottom right side of the box."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the key holder? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the key holder on the upper right side of the box.\n(B) The person drops the key holder on the bottom left side of the box.\n(C) The person drops the key holder on the center of the box.\n(D) The person drops the key holder on the most upper left side of the box.\n(E) The person drops the key holder on the bottom right side of the box.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person drops the key holder on the upper right side of the box."
+    },
+    "correct_idx": [
+        3
+    ]
+}

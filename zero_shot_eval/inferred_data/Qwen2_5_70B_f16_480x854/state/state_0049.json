@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the picture change?",
+    "options": [
+        "The picture was partially unrolled and remained not completely flat.",
+        "The picture was rolled more tightly instead of being unrolled.",
+        "The picture was completely unrolled and became flat.",
+        "The picture was unrolled halfway and still retained a slight curve.",
+        "The picture was unrolled and then rolled in the opposite direction, resulting in a wavy state."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the picture change? Choose **only one** option from the following list.\nOptions:\n(A) The picture was partially unrolled and remained not completely flat.\n(B) The picture was rolled more tightly instead of being unrolled.\n(C) The picture was completely unrolled and became flat.\n(D) The picture was unrolled halfway and still retained a slight curve.\n(E) The picture was unrolled and then rolled in the opposite direction, resulting in a wavy state.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The picture was unrolled halfway and still retained a slight curve."
+    },
+    "correct_idx": [
+        2
+    ]
+}

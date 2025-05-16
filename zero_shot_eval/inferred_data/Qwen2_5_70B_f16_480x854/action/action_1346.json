@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person drops the key holder in the carton with his left hand.",
+        "The person places the key holder in the drawer with his right hand.",
+        "The person throws the key holder into the backpack with his left hand.",
+        "The person picks up the key holder from the table with his left hand.",
+        "The person sets the key holder on the counter with his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the key holder in the carton with his left hand.\n(B) The person places the key holder in the drawer with his right hand.\n(C) The person throws the key holder into the backpack with his left hand.\n(D) The person picks up the key holder from the table with his left hand.\n(E) The person sets the key holder on the counter with his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person drops the key holder in the carton with his left hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the mop stick against the wall?",
+    "options": [
+        "The person leans the mop stick on the left side of the wall next to stairs.",
+        "The person rests the mop stick against the right side of the wall opposite the stairs.",
+        "The person props the mop stick on the far end of the wall near the window.",
+        "The person places the mop stick flat on the floor in front of the wall next to the stairs.",
+        "The person positions the mop stick at the center of the wall away from the stairs."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the mop stick against the wall? Choose **only one** option from the following list.\nOptions:\n(A) The person leans the mop stick on the left side of the wall next to stairs.\n(B) The person rests the mop stick against the right side of the wall opposite the stairs.\n(C) The person props the mop stick on the far end of the wall near the window.\n(D) The person places the mop stick flat on the floor in front of the wall next to the stairs.\n(E) The person positions the mop stick at the center of the wall away from the stairs.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person leans the mop stick on the left side of the wall next to stairs."
+    },
+    "correct_idx": [
+        0
+    ]
+}

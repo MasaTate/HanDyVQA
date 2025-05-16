@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person scrolls through his phone with his thumb and adjusts the pipette on the workbench with his left hand.",
+        "The person types a message on his phone with his index finger while holding the pipette in his right hand above the workbench.",
+        "The person flips through his phone with his pinky finger and sets the pipette down on the floor using his right hand.",
+        "The person swipes the screen of his phone with his ring finger and examines the pipette on the workbench with both hands.",
+        "The person taps his phone with his middle finger and pushes the pipette on the workbench with his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person scrolls through his phone with his thumb and adjusts the pipette on the workbench with his left hand.\n(B) The person types a message on his phone with his index finger while holding the pipette in his right hand above the workbench.\n(C) The person flips through his phone with his pinky finger and sets the pipette down on the floor using his right hand.\n(D) The person swipes the screen of his phone with his ring finger and examines the pipette on the workbench with both hands.\n(E) The person taps his phone with his middle finger and pushes the pipette on the workbench with his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person scrolls through his phone with his thumb and adjusts the pipette on the workbench with his left hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

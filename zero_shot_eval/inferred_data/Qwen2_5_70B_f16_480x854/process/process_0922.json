@@ -1,0 +1,17 @@
+{
+    "question": "How does the person touch a quad bike?",
+    "options": [
+        "The person carefully reaches out with both hands to touch the quad bike gently.",
+        "The person lightly taps a quad bike with the left hand.",
+        "The person taps the quad bike with the right hand while the left hand remains by their side.",
+        "The person softly brushes fingers over the quad bike with a gentle stroke of the palm.",
+        "The person lightly rests a hand on the quad bike, without exerting any pressure."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person touch a quad bike? Choose **only one** option from the following list.\nOptions:\n(A) The person carefully reaches out with both hands to touch the quad bike gently.\n(B) The person lightly taps a quad bike with the left hand.\n(C) The person taps the quad bike with the right hand while the left hand remains by their side.\n(D) The person softly brushes fingers over the quad bike with a gentle stroke of the palm.\n(E) The person lightly rests a hand on the quad bike, without exerting any pressure.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person taps the quad bike with the right hand while the left hand remains by their side."
+    },
+    "correct_idx": [
+        1
+    ]
+}

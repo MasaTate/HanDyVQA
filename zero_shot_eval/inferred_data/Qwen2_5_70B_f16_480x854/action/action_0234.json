@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person pours juice from the bottle into a glass using the lid in the left hand while balancing the bottle with the right hand.",
+        "The person covers the bottle with the lid in the left hand while holding the bottle in the right hand.",
+        "The person removes the lid from the bottle with the left hand while gripping the bottle tightly in the right hand.",
+        "The person is shaking the bottle with the lid in the right hand while holding the container in the left hand.",
+        "The person is sealing the container with tape in the left hand while holding the bottle firmly in the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person pours juice from the bottle into a glass using the lid in the left hand while balancing the bottle with the right hand.\n(B) The person covers the bottle with the lid in the left hand while holding the bottle in the right hand.\n(C) The person removes the lid from the bottle with the left hand while gripping the bottle tightly in the right hand.\n(D) The person is shaking the bottle with the lid in the right hand while holding the container in the left hand.\n(E) The person is sealing the container with tape in the left hand while holding the bottle firmly in the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person removes the lid from the bottle with the left hand while gripping the bottle tightly in the right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

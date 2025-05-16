@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a stainless steel plate change?",
+    "options": [
+        "The stainless steel plate was lifted off and moved to the right.",
+        "The stainless steel plate was lifted off and moved to the left.",
+        "The stainless steel plate was lifted off and rotated before being placed back down.",
+        "The stainless steel plate was not lifted, but was pushed slightly to the left.",
+        "The stainless steel plate was lifted off and moved forward instead of sideways."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a stainless steel plate change? Choose **only one** option from the following list.\nOptions:\n(A) The stainless steel plate was lifted off and moved to the right.\n(B) The stainless steel plate was lifted off and moved to the left.\n(C) The stainless steel plate was lifted off and rotated before being placed back down.\n(D) The stainless steel plate was not lifted, but was pushed slightly to the left.\n(E) The stainless steel plate was lifted off and moved forward instead of sideways.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The stainless steel plate was lifted off and moved to the right."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person rest her right hand?",
+    "options": [
+        "The person places her right hand on the table beside the tea kettle.",
+        "The person holds her right hand just above the tea kettle.",
+        "The person gently rests her right hand on the handle of the tea kettle.",
+        "The person grips the tea kettle handle with her right hand firmly.",
+        "The person places her right hand near the edge of the counter."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person rest her right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person places her right hand on the table beside the tea kettle.\n(B) The person holds her right hand just above the tea kettle.\n(C) The person gently rests her right hand on the handle of the tea kettle.\n(D) The person grips the tea kettle handle with her right hand firmly.\n(E) The person places her right hand near the edge of the counter.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person gently rests her right hand on the handle of the tea kettle."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the vegetable in the pan change?",
+    "options": [
+        "The vegetable in the pan was being transferred to a plate.",
+        "The vegetable in the pan was being chopped into smaller pieces.",
+        "The vegetable in the pan was being cooked until it turned golden brown.",
+        "The vegetable in the pan was being stirred to mix it evenly.",
+        "The vegetable in the pan was being covered to steam it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the vegetable in the pan change? Choose **only one** option from the following list.\nOptions:\n(A) The vegetable in the pan was being transferred to a plate.\n(B) The vegetable in the pan was being chopped into smaller pieces.\n(C) The vegetable in the pan was being cooked until it turned golden brown.\n(D) The vegetable in the pan was being stirred to mix it evenly.\n(E) The vegetable in the pan was being covered to steam it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The vegetable in the pan was being stirred to mix it evenly."
+    },
+    "correct_idx": [
+        0
+    ]
+}

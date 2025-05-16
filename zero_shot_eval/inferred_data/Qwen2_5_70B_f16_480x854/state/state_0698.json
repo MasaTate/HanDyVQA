@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a cabinet tray change?",
+    "options": [
+        "The cabinet tray was inverted.",
+        "The cabinet tray was fully extracted.",
+        "The cabinet tray was angled forward.",
+        "The cabinet tray was rotated to the right.",
+        "The cabinet tray was shifted to the left."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a cabinet tray change? Choose **only one** option from the following list.\nOptions:\n(A) The cabinet tray was inverted.\n(B) The cabinet tray was fully extracted.\n(C) The cabinet tray was angled forward.\n(D) The cabinet tray was rotated to the right.\n(E) The cabinet tray was shifted to the left.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The cabinet tray was rotated to the right."
+    },
+    "correct_idx": [
+        3
+    ]
+}

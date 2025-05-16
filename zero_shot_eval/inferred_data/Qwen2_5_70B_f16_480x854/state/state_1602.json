@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the controls of the boom lift change?",
+    "options": [
+        "The boom lift controls were pressed slightly as they were held.",
+        "The boom lift controls were pulled slightly while they were held.",
+        "The boom lift controls were twisted slightly while they were held.",
+        "The boom lift controls were shaken slightly as they were held.",
+        "The boom lift controls were released slightly while they were held."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the controls of the boom lift change? Choose **only one** option from the following list.\nOptions:\n(A) The boom lift controls were pressed slightly as they were held.\n(B) The boom lift controls were pulled slightly while they were held.\n(C) The boom lift controls were twisted slightly while they were held.\n(D) The boom lift controls were shaken slightly as they were held.\n(E) The boom lift controls were released slightly while they were held.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The boom lift controls were twisted slightly while they were held."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person spread cement?",
+    "options": [
+        "The person grips the trowel at a slight angle and pushes down gently onto the cement, moving it forward with minimal sideways adjustment to spread it along the surface.",
+        "The person uses both hands to smoothly rotate the trowel in gentle circles, mixing the cement carefully while also spreading it on the surface.",
+        "The person holds the trowel vertically and slices through the cement, slightly moving it sideways with each slice to evenly spread the cement across the surface.",
+        "The person lightly taps the trowel on the cement, allowing small amounts to move aside to ensure the cement is spread across the surface.",
+        "The person stands the trowel upright and moves it back and forth, encouraging the cement to settle evenly as it spreads across the surface."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person spread cement? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the trowel at a slight angle and pushes down gently onto the cement, moving it forward with minimal sideways adjustment to spread it along the surface.\n(B) The person uses both hands to smoothly rotate the trowel in gentle circles, mixing the cement carefully while also spreading it on the surface.\n(C) The person holds the trowel vertically and slices through the cement, slightly moving it sideways with each slice to evenly spread the cement across the surface.\n(D) The person lightly taps the trowel on the cement, allowing small amounts to move aside to ensure the cement is spread across the surface.\n(E) The person stands the trowel upright and moves it back and forth, encouraging the cement to settle evenly as it spreads across the surface.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person holds the trowel vertically and slices through the cement, slightly moving it sideways with each slice to evenly spread the cement across the surface."
+    },
+    "correct_idx": [
+        2
+    ]
+}

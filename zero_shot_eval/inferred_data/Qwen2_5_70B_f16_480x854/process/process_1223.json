@@ -1,0 +1,17 @@
+{
+    "question": "How does the person spread the soil?",
+    "options": [
+        "The person scooped up the soil with both hands and gently tossed it upward while spreading it.",
+        "The person grabbed a large handful of soil with his left hand and allowed it to flow from his grip, spreading it slightly.",
+        "The person pushed the soil forward with the palm of his left hand while keeping the rest of the soil in his right hand comfortably.",
+        "The person picked up a shovel with his right hand and smoothly distributed the soil rather than piling it.",
+        "The person dipped his right hand, dragging the soil down, and used his right hand to spread the soil."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person spread the soil? Choose **only one** option from the following list.\nOptions:\n(A) The person scooped up the soil with both hands and gently tossed it upward while spreading it.\n(B) The person grabbed a large handful of soil with his left hand and allowed it to flow from his grip, spreading it slightly.\n(C) The person pushed the soil forward with the palm of his left hand while keeping the rest of the soil in his right hand comfortably.\n(D) The person picked up a shovel with his right hand and smoothly distributed the soil rather than piling it.\n(E) The person dipped his right hand, dragging the soil down, and used his right hand to spread the soil.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person dipped his right hand, dragging the soil down, and used his right hand to spread the soil."
+    },
+    "correct_idx": [
+        4
+    ]
+}

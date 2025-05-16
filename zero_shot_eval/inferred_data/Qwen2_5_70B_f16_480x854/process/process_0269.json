@@ -1,0 +1,17 @@
+{
+    "question": "How does the person point the phone flash light?",
+    "options": [
+        "The person holds the phone in his right hand, extends his arm straight ahead, and angles the phone slightly forward to illuminate the area ahead.",
+        "The person grips the phone with both hands and raises it high to shine the flashlight downwards.",
+        "The person uses his left hand to support the phone while holding it near his face and tilting it backward to cast light on the ceiling.",
+        "The person holds the phone in his left hand, extends his arm near his chest, and bends the phone slightly sideways to direct the flashlight in the desired direction.",
+        "The person steadies the phone in his right hand and moves it smoothly from side to side to create broad illumination."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person point the phone flash light? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the phone in his right hand, extends his arm straight ahead, and angles the phone slightly forward to illuminate the area ahead.\n(B) The person grips the phone with both hands and raises it high to shine the flashlight downwards.\n(C) The person uses his left hand to support the phone while holding it near his face and tilting it backward to cast light on the ceiling.\n(D) The person holds the phone in his left hand, extends his arm near his chest, and bends the phone slightly sideways to direct the flashlight in the desired direction.\n(E) The person steadies the phone in his right hand and moves it smoothly from side to side to create broad illumination.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person holds the phone in his left hand, extends his arm near his chest, and bends the phone slightly sideways to direct the flashlight in the desired direction."
+    },
+    "correct_idx": [
+        3
+    ]
+}

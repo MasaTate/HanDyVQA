@@ -1,0 +1,17 @@
+{
+    "question": "How does the person use a phone?",
+    "options": [
+        "The person taps the phone one time using the thumb in the right hand, swipes up the screen, and then lifts up the phone to look at the phone screen.",
+        "The person presses the phone lightly multiple times with his left thumb while holding it in his hand and then tilts the phone to the side to check for notifications before setting it down.",
+        "The person swipes smoothly across the phone's screen using his index finger while holding the phone in both hands, then places the phone gently onto the bed.",
+        "The person holds the phone with his right hand and uses his elbow to slightly touch the phone's screen before placing it face down on the coffee table after glancing at the display.",
+        "The person rotates the phone slightly in his hand and taps the back of the device gently with his palm before setting it onto the couch, glancing at the screen."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person use a phone? Choose **only one** option from the following list.\nOptions:\n(A) The person taps the phone one time using the thumb in the right hand, swipes up the screen, and then lifts up the phone to look at the phone screen.\n(B) The person presses the phone lightly multiple times with his left thumb while holding it in his hand and then tilts the phone to the side to check for notifications before setting it down.\n(C) The person swipes smoothly across the phone's screen using his index finger while holding the phone in both hands, then places the phone gently onto the bed.\n(D) The person holds the phone with his right hand and uses his elbow to slightly touch the phone's screen before placing it face down on the coffee table after glancing at the display.\n(E) The person rotates the phone slightly in his hand and taps the back of the device gently with his palm before setting it onto the couch, glancing at the screen.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person taps the phone one time using the thumb in the right hand, swipes up the screen, and then lifts up the phone to look at the phone screen."
+    },
+    "correct_idx": [
+        0
+    ]
+}

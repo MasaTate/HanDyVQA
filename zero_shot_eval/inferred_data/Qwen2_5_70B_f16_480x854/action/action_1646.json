@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person dipped the bristles in the water and wiped it on the paper using the right hand.",
+        "The person soaked the bristles in the paint and applied it on the canvas using the right hand.",
+        "The person rinsed the bristles in the water and flicked it onto the floor using the right hand.",
+        "The person spread the bristles on the table and dusted them off with the right hand.",
+        "The person dipped the bristles into the ink and traced it along the wall using the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person dipped the bristles in the water and wiped it on the paper using the right hand.\n(B) The person soaked the bristles in the paint and applied it on the canvas using the right hand.\n(C) The person rinsed the bristles in the water and flicked it onto the floor using the right hand.\n(D) The person spread the bristles on the table and dusted them off with the right hand.\n(E) The person dipped the bristles into the ink and traced it along the wall using the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person dipped the bristles in the water and wiped it on the paper using the right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

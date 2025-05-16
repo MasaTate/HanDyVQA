@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is winding the extension cord of the vacuum with their hands while moving the vacuum forward with their right hand.",
+        "The person is holding the extension wand of the vacuum in their right hand while seeking to clean the floor with their left hand.",
+        "The person is removing the filter from the vacuum with their right hand while pulling the chair with their left hand.",
+        "The person is adjusting the height of the vacuum with their right hand while holding it steady with their left hand as they move the chair.",
+        "The person is pulling the extension wand of the vacuum with their hands, tossing it, and then pulling the chair from behind them with their left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is winding the extension cord of the vacuum with their hands while moving the vacuum forward with their right hand.\n(B) The person is holding the extension wand of the vacuum in their right hand while seeking to clean the floor with their left hand.\n(C) The person is removing the filter from the vacuum with their right hand while pulling the chair with their left hand.\n(D) The person is adjusting the height of the vacuum with their right hand while holding it steady with their left hand as they move the chair.\n(E) The person is pulling the extension wand of the vacuum with their hands, tossing it, and then pulling the chair from behind them with their left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person is pulling the extension wand of the vacuum with their hands, tossing it, and then pulling the chair from behind them with their left hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

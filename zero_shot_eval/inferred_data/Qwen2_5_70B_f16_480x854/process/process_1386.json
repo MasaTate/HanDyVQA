@@ -1,0 +1,17 @@
+{
+    "question": "How does the person join a card?",
+    "options": [
+        "The person moves his hand downward and slides a card into the last slot using the left hand.",
+        "The person uses both hands to pull apart the cards, resulting in misalignment when attempting to stack them.",
+        "The person raises his hand above the table and lowers the card directly on top of the stack using the right hand.",
+        "The person holds the card with two fingers and attempts to fold it into the stack with his palm instead of inserting it.",
+        "The person lifts up his hand with a card and inserts the card in the middle part using the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person join a card? Choose **only one** option from the following list.\nOptions:\n(A) The person moves his hand downward and slides a card into the last slot using the left hand.\n(B) The person uses both hands to pull apart the cards, resulting in misalignment when attempting to stack them.\n(C) The person raises his hand above the table and lowers the card directly on top of the stack using the right hand.\n(D) The person holds the card with two fingers and attempts to fold it into the stack with his palm instead of inserting it.\n(E) The person lifts up his hand with a card and inserts the card in the middle part using the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person lifts up his hand with a card and inserts the card in the middle part using the right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "hands",
+        "branch",
+        "ground",
+        "pants",
+        "pruner",
+        "shoes"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) hands\n(B) branch\n(C) ground\n(D) pants\n(E) pruner\n(F) shoes\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(E) pruner  \n(B) branch  \n\nThe person in the video uses a pruner (E) to cut branches (B). The hands are seen holding the pruner and using it to trim branches from the plants."
+    },
+    "correct_idx": [
+        1,
+        4
+    ]
+}

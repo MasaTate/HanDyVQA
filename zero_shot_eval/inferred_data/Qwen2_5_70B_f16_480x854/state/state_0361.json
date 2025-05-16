@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the flour change?",
+    "options": [
+        "The flour was sprinkled and spread across the bottom of the mixing bowl.",
+        "The flour was poured and set aside on a separate dish.",
+        "The flour was dusted over the baking sheet just enough to cover it.",
+        "The flour was clumped together and pressed into a small mound on the table.",
+        "The flour was sprinkled and spread on the top of the flat surface."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the flour change? Choose **only one** option from the following list.\nOptions:\n(A) The flour was sprinkled and spread across the bottom of the mixing bowl.\n(B) The flour was poured and set aside on a separate dish.\n(C) The flour was dusted over the baking sheet just enough to cover it.\n(D) The flour was clumped together and pressed into a small mound on the table.\n(E) The flour was sprinkled and spread on the top of the flat surface.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The flour was sprinkled and spread on the top of the flat surface."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person flip the book?",
+    "options": [
+        "The person turns the book gently using both hands, lifting it from the table.",
+        "The person flips the book by moving it off the edge of the table with their palm.",
+        "The person opens the book and allows it to fall back onto the table without motion.",
+        "The person flips the cover and flicks the first page of the book quickly onto the floor with the right hand.",
+        "The person rotates the book in a smooth circular motion with their left hand while holding it at the center."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person flip the book? Choose **only one** option from the following list.\nOptions:\n(A) The person turns the book gently using both hands, lifting it from the table.\n(B) The person flips the book by moving it off the edge of the table with their palm.\n(C) The person opens the book and allows it to fall back onto the table without motion.\n(D) The person flips the cover and flicks the first page of the book quickly onto the floor with the right hand.\n(E) The person rotates the book in a smooth circular motion with their left hand while holding it at the center.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person opens the book and allows it to fall back onto the table without motion."
+    },
+    "correct_idx": [
+        3
+    ]
+}

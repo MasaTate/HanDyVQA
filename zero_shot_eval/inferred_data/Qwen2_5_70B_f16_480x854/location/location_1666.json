@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the beads?",
+    "options": [
+        "The person dropped the beads from her right hand to her left and then to her right again.",
+        "The person transferred the beads from her right hand to the left pocket and then back to her right hand.",
+        "The beads were moved from her right hand to the table before going to her left hand.",
+        "The person transferred the beads from her right hand to the floor before switching to her left hand.",
+        "The beads were passed from her right hand to her right shoulder and then to her left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the beads? Choose **only one** option from the following list.\nOptions:\n(A) The person dropped the beads from her right hand to her left and then to her right again.\n(B) The person transferred the beads from her right hand to the left pocket and then back to her right hand.\n(C) The beads were moved from her right hand to the table before going to her left hand.\n(D) The person transferred the beads from her right hand to the floor before switching to her left hand.\n(E) The beads were passed from her right hand to her right shoulder and then to her left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person dropped the beads from her right hand to her left and then to her right again."
+    },
+    "correct_idx": [
+        0
+    ]
+}

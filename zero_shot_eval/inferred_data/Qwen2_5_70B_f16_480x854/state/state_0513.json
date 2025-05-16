@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the gear change?",
+    "options": [
+        "The gear was pulled, shifted to the right, and pushed forward.",
+        "The gear was pulled, shifted to the left, and pushed backward.",
+        "The gear was pulled and shifted to the right, but not pushed forward.",
+        "The gear was pushed, shifted to the right, but then pulled backward.",
+        "The gear was pulled, shifted to the left, and pushed forward."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the gear change? Choose **only one** option from the following list.\nOptions:\n(A) The gear was pulled, shifted to the right, and pushed forward.\n(B) The gear was pulled, shifted to the left, and pushed backward.\n(C) The gear was pulled and shifted to the right, but not pushed forward.\n(D) The gear was pushed, shifted to the right, but then pulled backward.\n(E) The gear was pulled, shifted to the left, and pushed forward.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The gear was pulled, shifted to the right, and pushed forward."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person twists a ball of yarn on the armchair with the needle in her left hand while holding the crochet stick in her right hand.",
+        "The person rolls a ball of yarn on the floor with the tool in her left hand while holding the crochet stick in her right hand.",
+        "The person pulls a ball of yarn on the sofa with the craft in her right hand while holding the knitting needle in her left hand.",
+        "The person weaves a ball of yarn on the table with the crochet hook in her right hand while holding the yarn in her left hand.",
+        "The person tugs a ball of yarn on the couch with the craft in her left hand while holding the crochet stick in her right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person twists a ball of yarn on the armchair with the needle in her left hand while holding the crochet stick in her right hand.\n(B) The person rolls a ball of yarn on the floor with the tool in her left hand while holding the crochet stick in her right hand.\n(C) The person pulls a ball of yarn on the sofa with the craft in her right hand while holding the knitting needle in her left hand.\n(D) The person weaves a ball of yarn on the table with the crochet hook in her right hand while holding the yarn in her left hand.\n(E) The person tugs a ball of yarn on the couch with the craft in her left hand while holding the crochet stick in her right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person tugs a ball of yarn on the couch with the craft in her left hand while holding the crochet stick in her right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

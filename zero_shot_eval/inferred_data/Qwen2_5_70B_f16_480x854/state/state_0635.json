@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a nut change?",
+    "options": [
+        "The nut was picked up by hands from the bowl.",
+        "The nut was picked up by hands and placed back into the bowl.",
+        "The nut was picked up by hands and moved to a plate.",
+        "The nut was picked up by hands but then dropped back into the bowl.",
+        "The nut was picked up by hands and shifted to the edge of the bowl."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a nut change? Choose **only one** option from the following list.\nOptions:\n(A) The nut was picked up by hands from the bowl.\n(B) The nut was picked up by hands and placed back into the bowl.\n(C) The nut was picked up by hands and moved to a plate.\n(D) The nut was picked up by hands but then dropped back into the bowl.\n(E) The nut was picked up by hands and shifted to the edge of the bowl.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The nut was picked up by hands from the bowl."
+    },
+    "correct_idx": [
+        0
+    ]
+}

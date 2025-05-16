@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "eyeglass",
+        "door",
+        "paint brush",
+        "door knob",
+        "paint can",
+        "shoe"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) eyeglass\n(B) door\n(C) paint brush\n(D) door knob\n(E) paint can\n(F) shoe\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(D) door knob  \n(E) paint can  \n\nThe person in the video uses their hands to open the door using the door knob and holds a paint can while doing so."
+    },
+    "correct_idx": [
+        2,
+        3
+    ]
+}

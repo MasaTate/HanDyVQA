@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the axe change?",
+    "options": [
+        "The axe was placed on the ground with a minor rotation change.",
+        "The axe was handed to the next person without significant rotation change.",
+        "The axe was turned upside down before being handed to the next person.",
+        "The axe was rotated 180 degrees before being passed on.",
+        "The axe was tilted to its side while being transferred to the next person."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the axe change? Choose **only one** option from the following list.\nOptions:\n(A) The axe was placed on the ground with a minor rotation change.\n(B) The axe was handed to the next person without significant rotation change.\n(C) The axe was turned upside down before being handed to the next person.\n(D) The axe was rotated 180 degrees before being passed on.\n(E) The axe was tilted to its side while being transferred to the next person.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The axe was handed to the next person without significant rotation change."
+    },
+    "correct_idx": [
+        1
+    ]
+}

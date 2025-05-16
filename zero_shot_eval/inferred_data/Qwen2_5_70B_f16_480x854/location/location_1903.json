@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the tent pole?",
+    "options": [
+        "The person put the tent pole on the picnic table.",
+        "The person put the tent pole against the tree trunk.",
+        "The person put the tent pole in the backpack.",
+        "The person put the tent pole on the chair next to the tent.",
+        "The person put the tent pole on the ground."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the tent pole? Choose **only one** option from the following list.\nOptions:\n(A) The person put the tent pole on the picnic table.\n(B) The person put the tent pole against the tree trunk.\n(C) The person put the tent pole in the backpack.\n(D) The person put the tent pole on the chair next to the tent.\n(E) The person put the tent pole on the ground.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person put the tent pole on the ground."
+    },
+    "correct_idx": [
+        4
+    ]
+}

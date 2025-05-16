@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the lawn mower change?",
+    "options": [
+        "The lawn mower was parked and left running.",
+        "The lawn mower was moved to a different spot but remained on.",
+        "The lawn mower was stopped and turned off.",
+        "The lawn mower was paused briefly and then started again.",
+        "The lawn mower was turned off, yet the blade continued to move."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the lawn mower change? Choose **only one** option from the following list.\nOptions:\n(A) The lawn mower was parked and left running.\n(B) The lawn mower was moved to a different spot but remained on.\n(C) The lawn mower was stopped and turned off.\n(D) The lawn mower was paused briefly and then started again.\n(E) The lawn mower was turned off, yet the blade continued to move.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The lawn mower was stopped and turned off."
+    },
+    "correct_idx": [
+        2
+    ]
+}

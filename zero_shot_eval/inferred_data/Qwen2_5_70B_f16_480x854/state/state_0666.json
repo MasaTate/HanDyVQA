@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a nail change?",
+    "options": [
+        "The nail was hammered and bent into an angle.",
+        "The nail was removed and placed into a container.",
+        "The nail was heated and transformed into a liquid state.",
+        "The nail was placed and pressed into the hole.",
+        "The nail was painted and covered with colorful designs."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a nail change? Choose **only one** option from the following list.\nOptions:\n(A) The nail was hammered and bent into an angle.\n(B) The nail was removed and placed into a container.\n(C) The nail was heated and transformed into a liquid state.\n(D) The nail was placed and pressed into the hole.\n(E) The nail was painted and covered with colorful designs.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The nail was placed and pressed into the hole."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person gestures with the left hand while sprinkling water on the dry slab with the hose using his right hand.",
+        "The person waves with the right hand while adding salt to the dry slab using his left hand.",
+        "The person points with the right hand while cleaning the dry slab with a cloth in his left hand.",
+        "The person claps with both hands while distributing sand over the dry slab.",
+        "The person touches his chin with the right hand while mixing paint on the dry slab with his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person gestures with the left hand while sprinkling water on the dry slab with the hose using his right hand.\n(B) The person waves with the right hand while adding salt to the dry slab using his left hand.\n(C) The person points with the right hand while cleaning the dry slab with a cloth in his left hand.\n(D) The person claps with both hands while distributing sand over the dry slab.\n(E) The person touches his chin with the right hand while mixing paint on the dry slab with his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person gestures with the left hand while sprinkling water on the dry slab with the hose using his right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

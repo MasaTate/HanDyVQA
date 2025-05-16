@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the pattern on the sewing guide on the table change?",
+    "options": [
+        "The pattern on the sewing guide was highlighted partially but remained uninspected.",
+        "The pattern on the sewing guide was checked for inspection yet was left unhighlighted.",
+        "The pattern on the sewing guide was highlighted and manually traced for inspection.",
+        "The pattern on the sewing guide was highlighted; however, the inspection was incomplete.",
+        "The pattern on the sewing guide was highlighted for inspection but showed no change in condition."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the pattern on the sewing guide on the table change? Choose **only one** option from the following list.\nOptions:\n(A) The pattern on the sewing guide was highlighted partially but remained uninspected.\n(B) The pattern on the sewing guide was checked for inspection yet was left unhighlighted.\n(C) The pattern on the sewing guide was highlighted and manually traced for inspection.\n(D) The pattern on the sewing guide was highlighted; however, the inspection was incomplete.\n(E) The pattern on the sewing guide was highlighted for inspection but showed no change in condition.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The pattern on the sewing guide was checked for inspection yet was left unhighlighted."
+    },
+    "correct_idx": [
+        4
+    ]
+}

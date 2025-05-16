@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person grabs a bundle of markers with her right hand and uses her left hand to arrange the markers.",
+        "The person holds a stack of pencils with her right hand and uses her left hand to organize the pencils in a cup.",
+        "The person collects a set of crayons with her right hand while using her left hand to sort the crayons by color.",
+        "The person takes a bundle of paintbrushes with her right hand and uses her left hand to arrange the paintbrushes.",
+        "The person takes a bunch of sketch pens with her right hand and uses her left hand to display them on a desk."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person grabs a bundle of markers with her right hand and uses her left hand to arrange the markers.\n(B) The person holds a stack of pencils with her right hand and uses her left hand to organize the pencils in a cup.\n(C) The person collects a set of crayons with her right hand while using her left hand to sort the crayons by color.\n(D) The person takes a bundle of paintbrushes with her right hand and uses her left hand to arrange the paintbrushes.\n(E) The person takes a bunch of sketch pens with her right hand and uses her left hand to display them on a desk.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person takes a bundle of paintbrushes with her right hand and uses her left hand to arrange the paintbrushes."
+    },
+    "correct_idx": [
+        3
+    ]
+}

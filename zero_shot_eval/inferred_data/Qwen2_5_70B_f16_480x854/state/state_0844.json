@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the pen change?",
+    "options": [
+        "The pen was covered with its cap and placed onto the table instead of being put in the pocket.",
+        "The pen was left without its cap and placed onto the ground instead of being put in the pocket.",
+        "The pen was covered with its cap and placed onto the ground instead of being put in the pocket.",
+        "The pen was covered with its cap and slipped into a bag instead of being put in the pocket.",
+        "The pen was covered with its cap and placed onto a shelf instead of being put in the pocket."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the pen change? Choose **only one** option from the following list.\nOptions:\n(A) The pen was covered with its cap and placed onto the table instead of being put in the pocket.\n(B) The pen was left without its cap and placed onto the ground instead of being put in the pocket.\n(C) The pen was covered with its cap and placed onto the ground instead of being put in the pocket.\n(D) The pen was covered with its cap and slipped into a bag instead of being put in the pocket.\n(E) The pen was covered with its cap and placed onto a shelf instead of being put in the pocket.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The pen was covered with its cap and placed onto the ground instead of being put in the pocket."
+    },
+    "correct_idx": [
+        2
+    ]
+}

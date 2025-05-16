@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the wood change?",
+    "options": [
+        "The wood was placed under the wood driller, pressing lightly against the blade.",
+        "The wood was placed under the wood driller without any contact with the blade.",
+        "The wood was placed under the wood driller barely touching the blade.",
+        "The wood was moved away from the wood driller, not yet close to the blade.",
+        "The wood was adjusted slightly so that the driller's blade was above but not aligned with it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the wood change? Choose **only one** option from the following list.\nOptions:\n(A) The wood was placed under the wood driller, pressing lightly against the blade.\n(B) The wood was placed under the wood driller without any contact with the blade.\n(C) The wood was placed under the wood driller barely touching the blade.\n(D) The wood was moved away from the wood driller, not yet close to the blade.\n(E) The wood was adjusted slightly so that the driller's blade was above but not aligned with it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The wood was placed under the wood driller, pressing lightly against the blade."
+    },
+    "correct_idx": [
+        2
+    ]
+}

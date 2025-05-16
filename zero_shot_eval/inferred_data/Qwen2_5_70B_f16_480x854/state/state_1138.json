@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a pair of glasses from the motorcycle change?",
+    "options": [
+        "The pair of glasses was moved to rest on top of his head.",
+        "The pair of glasses was placed on a nearby table.",
+        "The pair of glasses was moved towards the right ear.",
+        "The pair of glasses was shifted lower to rest on the nose.",
+        "The pair of glasses was moved in front of his face."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a pair of glasses from the motorcycle change? Choose **only one** option from the following list.\nOptions:\n(A) The pair of glasses was moved to rest on top of his head.\n(B) The pair of glasses was placed on a nearby table.\n(C) The pair of glasses was moved towards the right ear.\n(D) The pair of glasses was shifted lower to rest on the nose.\n(E) The pair of glasses was moved in front of his face.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The pair of glasses was moved in front of his face."
+    },
+    "correct_idx": [
+        4
+    ]
+}

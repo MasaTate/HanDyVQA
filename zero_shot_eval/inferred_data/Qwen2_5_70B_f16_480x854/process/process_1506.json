@@ -1,0 +1,17 @@
+{
+    "question": "How does the person mix the butter?",
+    "options": [
+        "The person mixed the butter by using a fork in his left hand to scoop the butter from the container before gently blending it with the food.",
+        "The person mixed the butter by lifting a chunk from the block with both hands and placing it on the food with less precision.",
+        "The person mixed the butter by using a knife in his right hand, spreading it over the food while not fully combining the two.",
+        "The person mixed the butter by pouring melted butter from a bowl over the food as a way to incorporate it.",
+        "The person mixed the butter by first scooping it with a spoon in his right hand, then placing it on top of the food on the plate, and finally scooping both the butter and food together to mix them."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person mix the butter? Choose **only one** option from the following list.\nOptions:\n(A) The person mixed the butter by using a fork in his left hand to scoop the butter from the container before gently blending it with the food.\n(B) The person mixed the butter by lifting a chunk from the block with both hands and placing it on the food with less precision.\n(C) The person mixed the butter by using a knife in his right hand, spreading it over the food while not fully combining the two.\n(D) The person mixed the butter by pouring melted butter from a bowl over the food as a way to incorporate it.\n(E) The person mixed the butter by first scooping it with a spoon in his right hand, then placing it on top of the food on the plate, and finally scooping both the butter and food together to mix them.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person mixed the butter by first scooping it with a spoon in his right hand, then placing it on top of the food on the plate, and finally scooping both the butter and food together to mix them."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person trim the craft?",
+    "options": [
+        "The person slowly trims the outside part of the craft and then quickly rotates the craft to trim the inner part.",
+        "The person swiftly trims through the center of the craft while holding it steady with both hands, making minimal adjustments to its position.",
+        "The person carefully snips the corners of the craft using scissors, rotating the craft slightly to maintain the angle.",
+        "The person uses a craft knife to gently slice around the edges, focusing on trimming both the outer and inner parts.",
+        "The person slowly cuts the craft along a straight edge using a ruler, occasionally considering the shape and inner parts."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person trim the craft? Choose **only one** option from the following list.\nOptions:\n(A) The person slowly trims the outside part of the craft and then quickly rotates the craft to trim the inner part.\n(B) The person swiftly trims through the center of the craft while holding it steady with both hands, making minimal adjustments to its position.\n(C) The person carefully snips the corners of the craft using scissors, rotating the craft slightly to maintain the angle.\n(D) The person uses a craft knife to gently slice around the edges, focusing on trimming both the outer and inner parts.\n(E) The person slowly cuts the craft along a straight edge using a ruler, occasionally considering the shape and inner parts.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person carefully snips the corners of the craft using scissors, rotating the craft slightly to maintain the angle."
+    },
+    "correct_idx": [
+        0
+    ]
+}

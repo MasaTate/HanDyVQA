@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the book change?",
+    "options": [
+        "The book changed as it was flipped from its front to its back.",
+        "The book changed as it was moved from the left hand to the right hand.",
+        "The book changed as it was opened to display its pages.",
+        "The book changed as it was placed on top of another book in a stack.",
+        "The book changed as it was inverted to an upside-down position."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the book change? Choose **only one** option from the following list.\nOptions:\n(A) The book changed as it was flipped from its front to its back.\n(B) The book changed as it was moved from the left hand to the right hand.\n(C) The book changed as it was opened to display its pages.\n(D) The book changed as it was placed on top of another book in a stack.\n(E) The book changed as it was inverted to an upside-down position.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The book changed as it was moved from the left hand to the right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person grab a napkin?",
+    "options": [
+        "The person slowly grasps the napkin with her right hand by bending her elbow, leaning in, and pinching it gently between her fingertips.",
+        "The person reaches for the napkin with her left hand by twisting her wrist, lifting it slightly off the table, and holding it softly with her palm.",
+        "The person takes the napkin with both hands by stretching out her arms, folding the napkin gently, and holding it securely.",
+        "The person lifts the napkin with her right hand by keeping her arm straight, drawing it towards her, and holding it lightly in her hand.",
+        "The person quickly grabs the napkin with her right hand by extending her shoulder, reaching out, and grasping it firmly between her fingers and thumb."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person grab a napkin? Choose **only one** option from the following list.\nOptions:\n(A) The person slowly grasps the napkin with her right hand by bending her elbow, leaning in, and pinching it gently between her fingertips.\n(B) The person reaches for the napkin with her left hand by twisting her wrist, lifting it slightly off the table, and holding it softly with her palm.\n(C) The person takes the napkin with both hands by stretching out her arms, folding the napkin gently, and holding it securely.\n(D) The person lifts the napkin with her right hand by keeping her arm straight, drawing it towards her, and holding it lightly in her hand.\n(E) The person quickly grabs the napkin with her right hand by extending her shoulder, reaching out, and grasping it firmly between her fingers and thumb.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person quickly grabs the napkin with her right hand by extending her shoulder, reaching out, and grasping it firmly between her fingers and thumb."
+    },
+    "correct_idx": [
+        4
+    ]
+}

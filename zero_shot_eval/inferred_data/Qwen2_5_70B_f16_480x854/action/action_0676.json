@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person pulls the thread through the eye of the needle with her right hand while holding the needle steady with her left hand.",
+        "The person winds the thread onto a spool with her left hand while positioning the needle with her right hand.",
+        "The person stretches out the thread on the needle using both her hands.",
+        "The person threads the needle by grasping it in her right hand and holding the thread taut with her left hand.",
+        "The person cuts a piece of thread with scissors in her right hand while keeping the needle in her left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person pulls the thread through the eye of the needle with her right hand while holding the needle steady with her left hand.\n(B) The person winds the thread onto a spool with her left hand while positioning the needle with her right hand.\n(C) The person stretches out the thread on the needle using both her hands.\n(D) The person threads the needle by grasping it in her right hand and holding the thread taut with her left hand.\n(E) The person cuts a piece of thread with scissors in her right hand while keeping the needle in her left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person threads the needle by grasping it in her right hand and holding the thread taut with her left hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person type on the keyboard?",
+    "options": [
+        "The person types briskly with his right hand, pressing the keys more firmly.",
+        "The person moves his hands across the keyboard, making minimal contact with the keys.",
+        "The person keeps his fingertips above the keyboard, tapping the keys swiftly in succession.",
+        "The person slides his fingers over the keyboard, touching only a few keys.",
+        "The person types gently with his left hand, lightly touching the keys."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person type on the keyboard? Choose **only one** option from the following list.\nOptions:\n(A) The person types briskly with his right hand, pressing the keys more firmly.\n(B) The person moves his hands across the keyboard, making minimal contact with the keys.\n(C) The person keeps his fingertips above the keyboard, tapping the keys swiftly in succession.\n(D) The person slides his fingers over the keyboard, touching only a few keys.\n(E) The person types gently with his left hand, lightly touching the keys.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person types gently with his left hand, lightly touching the keys."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person tap the plank on the wall?",
+    "options": [
+        "The person strikes the plank softly against the wall with his left hand while using his right hand to grasp the handle of the tool gently and move it smoothly.",
+        "The person pushes the plank gently in the cement wall using his left hand and carefully taps the plank on the wall in a forward direction three times using the handle of the cement spoon that he holds gently in his right hand.",
+        "The person holds the plank steadily with both hands and presses it against the wall repeatedly with care and attention.",
+        "The person lightly nudges the plank against the wall with his right hand, while using his left hand to guide it slightly downwards before tapping it.",
+        "The person balances the plank near the edge of the wall using his left hand and taps it softly with the heel of his right hand to produce a gentle sound."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person tap the plank on the wall? Choose **only one** option from the following list.\nOptions:\n(A) The person strikes the plank softly against the wall with his left hand while using his right hand to grasp the handle of the tool gently and move it smoothly.\n(B) The person pushes the plank gently in the cement wall using his left hand and carefully taps the plank on the wall in a forward direction three times using the handle of the cement spoon that he holds gently in his right hand.\n(C) The person holds the plank steadily with both hands and presses it against the wall repeatedly with care and attention.\n(D) The person lightly nudges the plank against the wall with his right hand, while using his left hand to guide it slightly downwards before tapping it.\n(E) The person balances the plank near the edge of the wall using his left hand and taps it softly with the heel of his right hand to produce a gentle sound.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person pushes the plank gently in the cement wall using his left hand and carefully taps the plank on the wall in a forward direction three times using the handle of the cement spoon that he holds gently in his right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

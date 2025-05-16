@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person knits using a pair of knitting needles in the right hand while the left hand holds the yarn.",
+        "The person is sewing pieces together using a sewing needle in the right hand while the left hand steadies the fabric.",
+        "The person weaves a basket using a weaving tool in the right hand while the left hand arranges the reeds.",
+        "The person crochets using a crochet needle in the right hand while the left hand guides the needle through the yarn.",
+        "The person embroiders a design using an embroidery hoop in the right hand while the left hand holds the fabric."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person knits using a pair of knitting needles in the right hand while the left hand holds the yarn.\n(B) The person is sewing pieces together using a sewing needle in the right hand while the left hand steadies the fabric.\n(C) The person weaves a basket using a weaving tool in the right hand while the left hand arranges the reeds.\n(D) The person crochets using a crochet needle in the right hand while the left hand guides the needle through the yarn.\n(E) The person embroiders a design using an embroidery hoop in the right hand while the left hand holds the fabric.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person crochets using a crochet needle in the right hand while the left hand guides the needle through the yarn."
+    },
+    "correct_idx": [
+        3
+    ]
+}

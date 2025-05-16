@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the lid of pot change?",
+    "options": [
+        "The lid of the pot was soaped, causing a change in surface texture as it became coated with soap.",
+        "The lid of the pot was heated, resulting in a change in color as it turned a darker shade from exposure to high temperatures.",
+        "The lid of the pot was scratched, leading to a change in appearance as visible marks and grooves formed on its surface.",
+        "The lid of the pot was wiped clean, leading to a change in cleanliness as it became free of grease and stains.",
+        "The lid of the pot was covered with oil, causing a change in surface properties as it became slick and shiny."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the lid of pot change? Choose **only one** option from the following list.\nOptions:\n(A) The lid of the pot was soaped, causing a change in surface texture as it became coated with soap.\n(B) The lid of the pot was heated, resulting in a change in color as it turned a darker shade from exposure to high temperatures.\n(C) The lid of the pot was scratched, leading to a change in appearance as visible marks and grooves formed on its surface.\n(D) The lid of the pot was wiped clean, leading to a change in cleanliness as it became free of grease and stains.\n(E) The lid of the pot was covered with oil, causing a change in surface properties as it became slick and shiny.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The lid of the pot was soaped, causing a change in surface texture as it became coated with soap."
+    },
+    "correct_idx": [
+        0
+    ]
+}

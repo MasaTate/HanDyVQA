@@ -1,0 +1,17 @@
+{
+    "question": "How does the person feel the heat?",
+    "options": [
+        "The person feels the heat from the pan by bringing the palm of the left hand several inches above the surface of the pan, maintaining a secure distance.",
+        "The person tests the heat by using the back of the right hand, carefully gauging the warmth without getting too close.",
+        "The person feels the heat in the pan by hovering the right hand with the palm facing downwards a few inches above the pan, keeping a safe distance from the stove.",
+        "The person senses the heat by cautiously placing the fingers of the left hand near the edge of the pan while minding the warmth.",
+        "The person assesses the heat by gently holding the pan with one hand and lifting it slightly, ensuring the temperature is checked first."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person feel the heat? Choose **only one** option from the following list.\nOptions:\n(A) The person feels the heat from the pan by bringing the palm of the left hand several inches above the surface of the pan, maintaining a secure distance.\n(B) The person tests the heat by using the back of the right hand, carefully gauging the warmth without getting too close.\n(C) The person feels the heat in the pan by hovering the right hand with the palm facing downwards a few inches above the pan, keeping a safe distance from the stove.\n(D) The person senses the heat by cautiously placing the fingers of the left hand near the edge of the pan while minding the warmth.\n(E) The person assesses the heat by gently holding the pan with one hand and lifting it slightly, ensuring the temperature is checked first.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person feels the heat in the pan by hovering the right hand with the palm facing downwards a few inches above the pan, keeping a safe distance from the stove."
+    },
+    "correct_idx": [
+        2
+    ]
+}

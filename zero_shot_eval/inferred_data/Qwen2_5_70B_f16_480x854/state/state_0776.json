@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the card change?",
+    "options": [
+        "The card was lifted off the table and remained near the board.",
+        "The card was flipped on the table without reaching the board.",
+        "The card was pushed diagonally on the table and halted before the board.",
+        "The card was slid on the table and touched the board.",
+        "The card was rotated on the table and ended up oriented towards the board."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the card change? Choose **only one** option from the following list.\nOptions:\n(A) The card was lifted off the table and remained near the board.\n(B) The card was flipped on the table without reaching the board.\n(C) The card was pushed diagonally on the table and halted before the board.\n(D) The card was slid on the table and touched the board.\n(E) The card was rotated on the table and ended up oriented towards the board.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The card was slid on the table and touched the board."
+    },
+    "correct_idx": [
+        3
+    ]
+}

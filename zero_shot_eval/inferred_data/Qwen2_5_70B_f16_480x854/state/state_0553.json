@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a sock change?",
+    "options": [
+        "The sock was unraveled along its length to form a long piece of yarn.",
+        "The sock was sewn together along the edges.",
+        "The sock was dyed entirely in a different color across its surface.",
+        "The sock was folded in half neatly for storage.",
+        "The sock was stretched to fit over a larger foot."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a sock change? Choose **only one** option from the following list.\nOptions:\n(A) The sock was unraveled along its length to form a long piece of yarn.\n(B) The sock was sewn together along the edges.\n(C) The sock was dyed entirely in a different color across its surface.\n(D) The sock was folded in half neatly for storage.\n(E) The sock was stretched to fit over a larger foot.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The sock was sewn together along the edges."
+    },
+    "correct_idx": [
+        1
+    ]
+}

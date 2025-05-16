@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "helmet",
+        "firetruck toy",
+        "bicycle",
+        "liquid bottle soap",
+        "wooden chair",
+        "faucet"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) helmet\n(B) firetruck toy\n(C) bicycle\n(D) liquid bottle soap\n(E) wooden chair\n(F) faucet\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(F) The hands use the faucet to turn on the water for washing.\n(D) The hands use the liquid bottle soap to dispense soap for washing."
+    },
+    "correct_idx": [
+        3,
+        5
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person removes a pencil from his left pocket using his left hand and then wipes the grill with his left hand.",
+        "The person picks a pen in his right pocket using his right hand and then wipes the surface of the lawnmower with his right hand.",
+        "The person takes a marker from his backpack using his right hand and then wipes the settings on the lawnmower with his right hand.",
+        "The person grabs a brush from a drawer using his right hand and then wipes the surface of a table with his left hand.",
+        "The person pulls out a notepad from his shoulder bag using his right hand and then wipes the grass with his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person removes a pencil from his left pocket using his left hand and then wipes the grill with his left hand.\n(B) The person picks a pen in his right pocket using his right hand and then wipes the surface of the lawnmower with his right hand.\n(C) The person takes a marker from his backpack using his right hand and then wipes the settings on the lawnmower with his right hand.\n(D) The person grabs a brush from a drawer using his right hand and then wipes the surface of a table with his left hand.\n(E) The person pulls out a notepad from his shoulder bag using his right hand and then wipes the grass with his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person removes a pencil from his left pocket using his left hand and then wipes the grill with his left hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

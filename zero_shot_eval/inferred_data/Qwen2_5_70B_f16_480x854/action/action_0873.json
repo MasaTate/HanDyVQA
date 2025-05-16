@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person's right hand is holding a watering can pouring water into the garden while the left hand adjusts the garden hose.",
+        "The person's right hand is holding a hose spraying water into the garden and the left hand picks up the phone.",
+        "The person's right hand is gripping a spray bottle misting the plants in the garden and the left hand is holding a clipboard.",
+        "The person's right hand is using a garden shovel digging into the soil while the left hand is holding a gardening glove.",
+        "The person's right hand is clutching a rake clearing leaves in the garden while the left hand is scrolling through a tablet."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person's right hand is holding a watering can pouring water into the garden while the left hand adjusts the garden hose.\n(B) The person's right hand is holding a hose spraying water into the garden and the left hand picks up the phone.\n(C) The person's right hand is gripping a spray bottle misting the plants in the garden and the left hand is holding a clipboard.\n(D) The person's right hand is using a garden shovel digging into the soil while the left hand is holding a gardening glove.\n(E) The person's right hand is clutching a rake clearing leaves in the garden while the left hand is scrolling through a tablet.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person's right hand is holding a hose spraying water into the garden and the left hand picks up the phone."
+    },
+    "correct_idx": [
+        1
+    ]
+}

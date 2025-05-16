@@ -1,0 +1,17 @@
+{
+    "question": "How does the person raise his left hand?",
+    "options": [
+        "The person swings his left hand gently to the side, rotating the wrist slightly instead of lifting it upward.",
+        "The person raises his left hand, lifting it upward to reach their face.",
+        "The person extends his left hand smoothly forward to point at an object rather than raising it.",
+        "The person places his left hand closely on his hip and leans slightly to one side, avoiding any upward movement.",
+        "The person lifts his left hand closely up while looking calmly at the floor, not directing it towards his face."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person raise his left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person swings his left hand gently to the side, rotating the wrist slightly instead of lifting it upward.\n(B) The person raises his left hand, lifting it upward to reach their face.\n(C) The person extends his left hand smoothly forward to point at an object rather than raising it.\n(D) The person places his left hand closely on his hip and leans slightly to one side, avoiding any upward movement.\n(E) The person lifts his left hand closely up while looking calmly at the floor, not directing it towards his face.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person raises his left hand, lifting it upward to reach their face."
+    },
+    "correct_idx": [
+        1
+    ]
+}

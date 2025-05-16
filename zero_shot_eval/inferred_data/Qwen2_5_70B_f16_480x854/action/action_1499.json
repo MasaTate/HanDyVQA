@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is pulling open the kitchen drawer with their left hand and turning off the tap water with their right hand.",
+        "The person is shutting the refrigerator door with their right hand and washing dishes in the sink with their left hand.",
+        "The person is opening the kitchen cabinet with their right hand and adjusting the temperature of the oven with their left hand.",
+        "The person is closing the kitchen drawer with their right hand and turning on the tap water with their right hand.",
+        "The person is sliding the kitchen drawer open with their left hand and filling a bowl with water from the sink using their right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is pulling open the kitchen drawer with their left hand and turning off the tap water with their right hand.\n(B) The person is shutting the refrigerator door with their right hand and washing dishes in the sink with their left hand.\n(C) The person is opening the kitchen cabinet with their right hand and adjusting the temperature of the oven with their left hand.\n(D) The person is closing the kitchen drawer with their right hand and turning on the tap water with their right hand.\n(E) The person is sliding the kitchen drawer open with their left hand and filling a bowl with water from the sink using their right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person is closing the kitchen drawer with their right hand and turning on the tap water with their right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person wash the frying pan with the foam in his right hand?",
+    "options": [
+        "The person scrubs the frying pan with his right hand in a back-and-forth motion while keeping a firm hold of the foam.",
+        "The person washes the frying pan using his right hand in circular motion with the foam.",
+        "The person sprinkles water over the frying pan using his right hand, allowing the foam to pass through his fingers.",
+        "The person rubs the frying pan in a vertical direction with his right hand, spreading the foam in a straight line.",
+        "The person dips the frying pan into the soapy water using both hands to soak it fully instead of directly applying foam."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person wash the frying pan with the foam in his right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person scrubs the frying pan with his right hand in a back-and-forth motion while keeping a firm hold of the foam.\n(B) The person washes the frying pan using his right hand in circular motion with the foam.\n(C) The person sprinkles water over the frying pan using his right hand, allowing the foam to pass through his fingers.\n(D) The person rubs the frying pan in a vertical direction with his right hand, spreading the foam in a straight line.\n(E) The person dips the frying pan into the soapy water using both hands to soak it fully instead of directly applying foam.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person washes the frying pan using his right hand in circular motion with the foam."
+    },
+    "correct_idx": [
+        1
+    ]
+}

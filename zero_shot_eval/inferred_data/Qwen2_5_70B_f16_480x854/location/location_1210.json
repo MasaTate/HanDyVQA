@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the phone?",
+    "options": [
+        "The person put the phone in their left pocket.",
+        "The person placed the phone on the table next to them.",
+        "The person stored the phone in their backpack.",
+        "The person put the phone in their coat pocket.",
+        "The person put the phone in their right pocket."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the phone? Choose **only one** option from the following list.\nOptions:\n(A) The person put the phone in their left pocket.\n(B) The person placed the phone on the table next to them.\n(C) The person stored the phone in their backpack.\n(D) The person put the phone in their coat pocket.\n(E) The person put the phone in their right pocket.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person put the phone in their right pocket."
+    },
+    "correct_idx": [
+        4
+    ]
+}

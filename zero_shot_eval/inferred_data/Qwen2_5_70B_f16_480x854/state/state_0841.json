@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a board change?",
+    "options": [
+        "The board was tapped three times with a pencil.",
+        "The board was tapped seven times with a hammer.",
+        "The board was tapped four times with a ruler.",
+        "The board was tapped five times with a tape measure.",
+        "The board was tapped six times with a screwdriver."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a board change? Choose **only one** option from the following list.\nOptions:\n(A) The board was tapped three times with a pencil.\n(B) The board was tapped seven times with a hammer.\n(C) The board was tapped four times with a ruler.\n(D) The board was tapped five times with a tape measure.\n(E) The board was tapped six times with a screwdriver.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The board was tapped five times with a tape measure."
+    },
+    "correct_idx": [
+        3
+    ]
+}

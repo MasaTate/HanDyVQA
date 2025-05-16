@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the bag change?",
+    "options": [
+        "The bag was pulled forward with one hand while the other hand held it in place.",
+        "The bag was grabbed with both hands and placed onto the ground.",
+        "The bag was swung around in circles before being placed on the ground.",
+        "The bag was squeezed tightly with one hand before being placed into the basket.",
+        "The bag was lifted up by the right hand and placed inside the basket."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the bag change? Choose **only one** option from the following list.\nOptions:\n(A) The bag was pulled forward with one hand while the other hand held it in place.\n(B) The bag was grabbed with both hands and placed onto the ground.\n(C) The bag was swung around in circles before being placed on the ground.\n(D) The bag was squeezed tightly with one hand before being placed into the basket.\n(E) The bag was lifted up by the right hand and placed inside the basket.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The bag was lifted up by the right hand and placed inside the basket."
+    },
+    "correct_idx": [
+        4
+    ]
+}

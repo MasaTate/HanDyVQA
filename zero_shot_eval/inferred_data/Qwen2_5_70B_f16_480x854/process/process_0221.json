@@ -1,0 +1,17 @@
+{
+    "question": "How does the person scrub the wall?",
+    "options": [
+        "The person scrubs the wall by wiping it using an abrasive pad, moving it between his left and right hand.",
+        "The person uses an abrasive pad with his right hand to scrub the wall and does not switch hands.",
+        "The person wipes the wall with a cloth held between his fingers, focusing on wiping rather than scrubbing.",
+        "The person holds the sponge with both hands and pushes it against the wall, focusing more on pushing than scrubbing.",
+        "The person scrapes the wall using a brush held in his left hand while keeping his right hand free."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person scrub the wall? Choose **only one** option from the following list.\nOptions:\n(A) The person scrubs the wall by wiping it using an abrasive pad, moving it between his left and right hand.\n(B) The person uses an abrasive pad with his right hand to scrub the wall and does not switch hands.\n(C) The person wipes the wall with a cloth held between his fingers, focusing on wiping rather than scrubbing.\n(D) The person holds the sponge with both hands and pushes it against the wall, focusing more on pushing than scrubbing.\n(E) The person scrapes the wall using a brush held in his left hand while keeping his right hand free.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person scrubs the wall by wiping it using an abrasive pad, moving it between his left and right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

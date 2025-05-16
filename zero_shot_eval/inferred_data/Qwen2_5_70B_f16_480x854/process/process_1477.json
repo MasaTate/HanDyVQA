@@ -1,0 +1,17 @@
+{
+    "question": "How does the person smoothen the wall?",
+    "options": [
+        "The person smoothened the wall by holding the trowel with both hands, applying firm pressure, and making steady downward motions.",
+        "The person smoothened the wall by holding the trowel in his right hand, applying light pressure, and making long back-and-forth strokes to create a smooth surface.",
+        "The person used his left hand to hold the trowel, making swift, short strokes across the wall.",
+        "The person held the trowel gently in his right hand, allowing it to move with minimal pressure, resulting in a coarser texture.",
+        "The person applied moderate pressure with both hands on the trowel, which created texture rather than smoothing it out."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person smoothen the wall? Choose **only one** option from the following list.\nOptions:\n(A) The person smoothened the wall by holding the trowel with both hands, applying firm pressure, and making steady downward motions.\n(B) The person smoothened the wall by holding the trowel in his right hand, applying light pressure, and making long back-and-forth strokes to create a smooth surface.\n(C) The person used his left hand to hold the trowel, making swift, short strokes across the wall.\n(D) The person held the trowel gently in his right hand, allowing it to move with minimal pressure, resulting in a coarser texture.\n(E) The person applied moderate pressure with both hands on the trowel, which created texture rather than smoothing it out.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person smoothened the wall by holding the trowel in his right hand, applying light pressure, and making long back-and-forth strokes to create a smooth surface."
+    },
+    "correct_idx": [
+        1
+    ]
+}

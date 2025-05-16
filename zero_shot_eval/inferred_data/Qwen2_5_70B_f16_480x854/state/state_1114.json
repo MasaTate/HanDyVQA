@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the garlic change?",
+    "options": [
+        "The garlic was chopped and spread across the chopping board.",
+        "The garlic was finely minced and placed into a small dish.",
+        "The garlic was chopped, collected, and gathered in one place.",
+        "The garlic was sliced into thin pieces and left scattered.",
+        "The garlic was crushed into a paste and moved to the side."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the garlic change? Choose **only one** option from the following list.\nOptions:\n(A) The garlic was chopped and spread across the chopping board.\n(B) The garlic was finely minced and placed into a small dish.\n(C) The garlic was chopped, collected, and gathered in one place.\n(D) The garlic was sliced into thin pieces and left scattered.\n(E) The garlic was crushed into a paste and moved to the side.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The garlic was chopped, collected, and gathered in one place."
+    },
+    "correct_idx": [
+        2
+    ]
+}

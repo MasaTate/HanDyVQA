@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the top of the tire rim change?",
+    "options": [
+        "The top of the tire rim was struck with a hammer twice before being lifted up.",
+        "The top of the tire rim was lifted up without being struck with a hammer.",
+        "The top of the tire rim was struck with a hammer three times but not lifted up.",
+        "The top of the tire rim was struck with a hammer only once and then lifted up.",
+        "The top of the tire rim was struck with a hammer and then pushed down rather than lifted up."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the top of the tire rim change? Choose **only one** option from the following list.\nOptions:\n(A) The top of the tire rim was struck with a hammer twice before being lifted up.\n(B) The top of the tire rim was lifted up without being struck with a hammer.\n(C) The top of the tire rim was struck with a hammer three times but not lifted up.\n(D) The top of the tire rim was struck with a hammer only once and then lifted up.\n(E) The top of the tire rim was struck with a hammer and then pushed down rather than lifted up.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The top of the tire rim was struck with a hammer only once and then lifted up."
+    },
+    "correct_idx": [
+        3
+    ]
+}

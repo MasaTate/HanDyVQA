@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the food change?",
+    "options": [
+        "The food was chopped and diced on the cutting board.",
+        "The food was boiled and simmered in the pot.",
+        "The food was seasoned and arranged on a serving dish.",
+        "The food was baked and browned in the oven.",
+        "The food was mixed and stirred in the pan."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the food change? Choose **only one** option from the following list.\nOptions:\n(A) The food was chopped and diced on the cutting board.\n(B) The food was boiled and simmered in the pot.\n(C) The food was seasoned and arranged on a serving dish.\n(D) The food was baked and browned in the oven.\n(E) The food was mixed and stirred in the pan.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The food was mixed and stirred in the pan."
+    },
+    "correct_idx": [
+        4
+    ]
+}

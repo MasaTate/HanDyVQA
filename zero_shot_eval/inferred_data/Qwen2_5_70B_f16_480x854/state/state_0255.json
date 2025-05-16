@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the white frame change?",
+    "options": [
+        "The entire white frame was applied with paint, resulting in a visible change.",
+        "The edge of the white frame was applied with paint of a different shade, making it slightly darker.",
+        "The corner of the white frame was applied with paint, but had no drastic change.",
+        "The corner of the white frame was partially applied with paint, with some areas left untouched.",
+        "The back of the white frame was applied with paint, altering its unseen surfaces."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the white frame change? Choose **only one** option from the following list.\nOptions:\n(A) The entire white frame was applied with paint, resulting in a visible change.\n(B) The edge of the white frame was applied with paint of a different shade, making it slightly darker.\n(C) The corner of the white frame was applied with paint, but had no drastic change.\n(D) The corner of the white frame was partially applied with paint, with some areas left untouched.\n(E) The back of the white frame was applied with paint, altering its unseen surfaces.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The corner of the white frame was partially applied with paint, with some areas left untouched."
+    },
+    "correct_idx": [
+        2
+    ]
+}

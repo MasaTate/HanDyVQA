@@ -1,0 +1,17 @@
+{
+    "question": "How does the person insert the strand of embroidery floss?",
+    "options": [
+        "The person twists the end of the embroidery floss to make it firm, then uses her left hand to gently insert the floss through the needle's eye.",
+        "The person aligns the end of the embroidery floss smoothly, then uses her left hand to carefully slide the floss into the needle's eye.",
+        "The person moistens the end of the embroidery floss with saliva, then uses her left hand to guide and push the floss through the needle's eye.",
+        "The person bends the end of the embroidery floss slightly, then uses her left hand to smoothly direct the floss through the needle's eye.",
+        "The person moistens the end of the embroidery floss with water, then uses her left hand to gently guide the floss into the needle's eye."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person insert the strand of embroidery floss? Choose **only one** option from the following list.\nOptions:\n(A) The person twists the end of the embroidery floss to make it firm, then uses her left hand to gently insert the floss through the needle's eye.\n(B) The person aligns the end of the embroidery floss smoothly, then uses her left hand to carefully slide the floss into the needle's eye.\n(C) The person moistens the end of the embroidery floss with saliva, then uses her left hand to guide and push the floss through the needle's eye.\n(D) The person bends the end of the embroidery floss slightly, then uses her left hand to smoothly direct the floss through the needle's eye.\n(E) The person moistens the end of the embroidery floss with water, then uses her left hand to gently guide the floss into the needle's eye.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person moistens the end of the embroidery floss with saliva, then uses her left hand to guide and push the floss through the needle's eye."
+    },
+    "correct_idx": [
+        2
+    ]
+}

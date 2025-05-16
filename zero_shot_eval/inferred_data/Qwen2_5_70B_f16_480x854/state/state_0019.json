@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of cards change?",
+    "options": [
+        "The cards were placed on the table and spread out from left to right.",
+        "The cards were placed on the table and spread out from right to left.",
+        "The cards were placed on the table and stacked neatly.",
+        "The cards were placed on the table and fanned out from the center.",
+        "The cards were placed on the table and laid out in a circle."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of cards change? Choose **only one** option from the following list.\nOptions:\n(A) The cards were placed on the table and spread out from left to right.\n(B) The cards were placed on the table and spread out from right to left.\n(C) The cards were placed on the table and stacked neatly.\n(D) The cards were placed on the table and fanned out from the center.\n(E) The cards were placed on the table and laid out in a circle.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The cards were placed on the table and spread out from left to right."
+    },
+    "correct_idx": [
+        0
+    ]
+}

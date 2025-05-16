@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the needle change?",
+    "options": [
+        "The needle was heated, changing its temperature and interaction with different materials.",
+        "The needle was bent, affecting its shape and interaction with the fabric.",
+        "The needle was cleaned, improving its surface condition and interaction with the fabric.",
+        "The needle was used to stitch, altering its position and interaction with the fabric.",
+        "The needle was dropped, altering its position and reducing its accessibility."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the needle change? Choose **only one** option from the following list.\nOptions:\n(A) The needle was heated, changing its temperature and interaction with different materials.\n(B) The needle was bent, affecting its shape and interaction with the fabric.\n(C) The needle was cleaned, improving its surface condition and interaction with the fabric.\n(D) The needle was used to stitch, altering its position and interaction with the fabric.\n(E) The needle was dropped, altering its position and reducing its accessibility.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The needle was used to stitch, altering its position and interaction with the fabric."
+    },
+    "correct_idx": [
+        3
+    ]
+}

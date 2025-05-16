@@ -1,0 +1,21 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "hammer",
+        "screwdriver",
+        "spanner",
+        "pliers",
+        "tissue",
+        "workbench",
+        "drawer"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) hammer\n(B) screwdriver\n(C) spanner\n(D) pliers\n(E) tissue\n(F) workbench\n(G) drawer\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(E) tissue  \n(C) spanner  \n\nThe hands are seen using a tissue to clean a spanner. The spanner is picked up from the drawer, cleaned with the tissue, and then placed back into the drawer. The tissue is used for cleaning purposes while the spanner is the tool being handled and cleaned."
+    },
+    "correct_idx": [
+        2,
+        4,
+        6
+    ]
+}

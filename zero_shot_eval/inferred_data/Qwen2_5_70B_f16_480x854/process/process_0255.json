@@ -1,0 +1,17 @@
+{
+    "question": "How does the person place his hand?",
+    "options": [
+        "The person presses his left hand down firmly on the cloth, slightly crumpling it rather than smoothing it out.",
+        "The person places his left hand on the cloth, gently smoothing it out to make it flat.",
+        "The person quickly places his right hand on the cloth, making it somewhat uneven and wrinkled.",
+        "The person lowers his hand above the cloth and places it down with some force, causing it to bunch up a bit.",
+        "The person uses his palm to move his left hand across the cloth, leaving it slightly crinkled and not entirely flat."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person place his hand? Choose **only one** option from the following list.\nOptions:\n(A) The person presses his left hand down firmly on the cloth, slightly crumpling it rather than smoothing it out.\n(B) The person places his left hand on the cloth, gently smoothing it out to make it flat.\n(C) The person quickly places his right hand on the cloth, making it somewhat uneven and wrinkled.\n(D) The person lowers his hand above the cloth and places it down with some force, causing it to bunch up a bit.\n(E) The person uses his palm to move his left hand across the cloth, leaving it slightly crinkled and not entirely flat.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person places his left hand on the cloth, gently smoothing it out to make it flat."
+    },
+    "correct_idx": [
+        1
+    ]
+}

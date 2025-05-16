@@ -1,0 +1,17 @@
+{
+    "question": "How does the person cover the carton?",
+    "options": [
+        "The person holds the carton with both hands, gently lowering the lid from above.",
+        "The person places the lid slightly to the side of the carton using his left hand.",
+        "The person picks up the carton with his right hand and carefully tilts it, trying to place the lid on top.",
+        "The person holds the carton with his left hand, putting it on the lid with his right hand.",
+        "The person rolls the lid onto the carton, gently using the palms of both hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person cover the carton? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the carton with both hands, gently lowering the lid from above.\n(B) The person places the lid slightly to the side of the carton using his left hand.\n(C) The person picks up the carton with his right hand and carefully tilts it, trying to place the lid on top.\n(D) The person holds the carton with his left hand, putting it on the lid with his right hand.\n(E) The person rolls the lid onto the carton, gently using the palms of both hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person holds the carton with his left hand, putting it on the lid with his right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

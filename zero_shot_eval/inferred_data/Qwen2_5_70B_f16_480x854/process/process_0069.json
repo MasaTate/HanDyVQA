@@ -1,0 +1,17 @@
+{
+    "question": "How does the person examine the stem of the plant?",
+    "options": [
+        "The person grasps the stem of the plant gently with both hands while carefully lifting it slightly from the soil for a better look.",
+        "The person holds the stem of the plant with one hand and moves it slightly back and forth to observe any movement.",
+        "The person pinches the stem of the plant using their thumb and index finger and lifts it slightly for a better view.",
+        "The person examines the stem of the plant by holding it with their fingers and closely inspecting it.",
+        "The person tilts the entire plant gently by its base to examine the stem from a different angle."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person examine the stem of the plant? Choose **only one** option from the following list.\nOptions:\n(A) The person grasps the stem of the plant gently with both hands while carefully lifting it slightly from the soil for a better look.\n(B) The person holds the stem of the plant with one hand and moves it slightly back and forth to observe any movement.\n(C) The person pinches the stem of the plant using their thumb and index finger and lifts it slightly for a better view.\n(D) The person examines the stem of the plant by holding it with their fingers and closely inspecting it.\n(E) The person tilts the entire plant gently by its base to examine the stem from a different angle.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person examines the stem of the plant by holding it with their fingers and closely inspecting it."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person add the burnt wood?",
+    "options": [
+        "The person adds the burnt wood to the fire pit.",
+        "The person places the burnt wood on the barbecue grill.",
+        "The person put adds the burnt wood to the campfire.",
+        "The person tosses the burnt wood onto the ground beside the campfire.",
+        "The person incorporates the burnt wood into the stove."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person add the burnt wood? Choose **only one** option from the following list.\nOptions:\n(A) The person adds the burnt wood to the fire pit.\n(B) The person places the burnt wood on the barbecue grill.\n(C) The person put adds the burnt wood to the campfire.\n(D) The person tosses the burnt wood onto the ground beside the campfire.\n(E) The person incorporates the burnt wood into the stove.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person put adds the burnt wood to the campfire."
+    },
+    "correct_idx": [
+        2
+    ]
+}

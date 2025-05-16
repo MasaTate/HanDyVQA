@@ -1,0 +1,17 @@
+{
+    "question": "How does the person shake his right hand?",
+    "options": [
+        "The person shakes his right hand by quickly stretching his fingers after washing the ladle.",
+        "The person shakes his right hand by slightly bending his wrist, keeping the ladle secure in his grip.",
+        "The person shakes his right hand by gently rotating his wrist, still holding the ladle with all fingers.",
+        "The person shakes his right hand by softly flicking it sideways, maintaining his hold on the ladle.",
+        "The person shakes his right hand by gently moving it up and down, keeping the ladle placed in his palm."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person shake his right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person shakes his right hand by quickly stretching his fingers after washing the ladle.\n(B) The person shakes his right hand by slightly bending his wrist, keeping the ladle secure in his grip.\n(C) The person shakes his right hand by gently rotating his wrist, still holding the ladle with all fingers.\n(D) The person shakes his right hand by softly flicking it sideways, maintaining his hold on the ladle.\n(E) The person shakes his right hand by gently moving it up and down, keeping the ladle placed in his palm.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person shakes his right hand by slightly bending his wrist, keeping the ladle secure in his grip."
+    },
+    "correct_idx": [
+        0
+    ]
+}

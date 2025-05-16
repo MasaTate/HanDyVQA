@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move another spanner?",
+    "options": [
+        "The person moved another spanner to the toolbox on the right side of the workbench.",
+        "The person moved another spanner to the floor beside the drawer near the cabinet.",
+        "The person moved another spanner to the spanner organizer at the center of the drawer.",
+        "The person moved another spanner to the storage shelf at the back of the garage.",
+        "The person moved another spanner to the top of the workbench next to the hammer."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move another spanner? Choose **only one** option from the following list.\nOptions:\n(A) The person moved another spanner to the toolbox on the right side of the workbench.\n(B) The person moved another spanner to the floor beside the drawer near the cabinet.\n(C) The person moved another spanner to the spanner organizer at the center of the drawer.\n(D) The person moved another spanner to the storage shelf at the back of the garage.\n(E) The person moved another spanner to the top of the workbench next to the hammer.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person moved another spanner to the spanner organizer at the center of the drawer."
+    },
+    "correct_idx": [
+        2
+    ]
+}

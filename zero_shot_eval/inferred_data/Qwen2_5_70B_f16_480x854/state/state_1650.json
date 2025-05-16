@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the piano change?",
+    "options": [
+        "The piano keys were pressed and played many times.",
+        "The piano keys were covered with dust and left unused for a long time.",
+        "The piano lid was closed tightly and securely locked.",
+        "The piano strings were removed and replaced with new ones.",
+        "The piano was painted a bright color and polished thoroughly."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the piano change? Choose **only one** option from the following list.\nOptions:\n(A) The piano keys were pressed and played many times.\n(B) The piano keys were covered with dust and left unused for a long time.\n(C) The piano lid was closed tightly and securely locked.\n(D) The piano strings were removed and replaced with new ones.\n(E) The piano was painted a bright color and polished thoroughly.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The piano keys were pressed and played many times."
+    },
+    "correct_idx": [
+        0
+    ]
+}

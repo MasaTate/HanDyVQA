@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of sausage change?",
+    "options": [
+        "The middle of the sausage was sliced into a small piece.",
+        "The end of the sausage was sliced into multiple small pieces.",
+        "The end of the sausage was sliced into a large piece.",
+        "The entire sausage was sliced into a small piece.",
+        "The end of the sausage was sliced into a small piece."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of sausage change? Choose **only one** option from the following list.\nOptions:\n(A) The middle of the sausage was sliced into a small piece.\n(B) The end of the sausage was sliced into multiple small pieces.\n(C) The end of the sausage was sliced into a large piece.\n(D) The entire sausage was sliced into a small piece.\n(E) The end of the sausage was sliced into a small piece.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The end of the sausage was sliced into a small piece."
+    },
+    "correct_idx": [
+        4
+    ]
+}

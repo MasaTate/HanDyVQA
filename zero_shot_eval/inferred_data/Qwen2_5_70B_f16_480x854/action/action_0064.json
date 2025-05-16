@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person stirs the soup in the pot with his right hand, sets the whisk aside, then picks up a piece of cheese from the counter.",
+        "The person scoops food from the frying pan with his right hand, drops the spoon, then grabs a piece of bread from the plate.",
+        "The person pours the contents of the frying pan into a bowl using a ladle in his right hand, places the ladle down, then takes a slice of pie from the plate.",
+        "The person flips the pancakes in the frying pan with his right hand, lifts the spatula, then picks up a fork from the table.",
+        "The person drains the pasta in a colander with his right hand, puts the colander down, then grabs a napkin from the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person stirs the soup in the pot with his right hand, sets the whisk aside, then picks up a piece of cheese from the counter.\n(B) The person scoops food from the frying pan with his right hand, drops the spoon, then grabs a piece of bread from the plate.\n(C) The person pours the contents of the frying pan into a bowl using a ladle in his right hand, places the ladle down, then takes a slice of pie from the plate.\n(D) The person flips the pancakes in the frying pan with his right hand, lifts the spatula, then picks up a fork from the table.\n(E) The person drains the pasta in a colander with his right hand, puts the colander down, then grabs a napkin from the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person scoops food from the frying pan with his right hand, drops the spoon, then grabs a piece of bread from the plate."
+    },
+    "correct_idx": [
+        1
+    ]
+}

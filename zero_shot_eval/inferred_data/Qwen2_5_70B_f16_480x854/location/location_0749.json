@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the card?",
+    "options": [
+        "The person moves the card to the table, in front of the other cards and chips.",
+        "The person moves the card to the table, behind the other cards and chips.",
+        "The person moves the card to the table, above the other cards and chips.",
+        "The person moves the card to the table, below the other cards and chips.",
+        "The person moves the card to the table, beside the other cards and chips."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the card? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the card to the table, in front of the other cards and chips.\n(B) The person moves the card to the table, behind the other cards and chips.\n(C) The person moves the card to the table, above the other cards and chips.\n(D) The person moves the card to the table, below the other cards and chips.\n(E) The person moves the card to the table, beside the other cards and chips.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person moves the card to the table, in front of the other cards and chips."
+    },
+    "correct_idx": [
+        4
+    ]
+}

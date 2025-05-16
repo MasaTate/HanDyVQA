@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the phone change?",
+    "options": [
+        "The phone's screen was pressed, activating the emergency call feature.",
+        "The phone's screen was tapped, opening the settings menu.",
+        "The phone's screen was scrolled, revealing a list of notifications.",
+        "The phone's screen was swiped, transitioning between different shopping interface screens.",
+        "The phone's screen was held, bringing up the app options menu."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the phone change? Choose **only one** option from the following list.\nOptions:\n(A) The phone's screen was pressed, activating the emergency call feature.\n(B) The phone's screen was tapped, opening the settings menu.\n(C) The phone's screen was scrolled, revealing a list of notifications.\n(D) The phone's screen was swiped, transitioning between different shopping interface screens.\n(E) The phone's screen was held, bringing up the app options menu.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The phone's screen was swiped, transitioning between different shopping interface screens."
+    },
+    "correct_idx": [
+        3
+    ]
+}

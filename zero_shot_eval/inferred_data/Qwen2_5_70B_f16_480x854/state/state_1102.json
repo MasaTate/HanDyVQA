@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of some branches change?",
+    "options": [
+        "The branches were cut back to reduce their size and shape.",
+        "The branches were twisted to alter their appearance.",
+        "The branches were tied together to create a bundle.",
+        "The branches were painted to alter their color.",
+        "The branches were left to grow freely, increasing their length and density."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of some branches change? Choose **only one** option from the following list.\nOptions:\n(A) The branches were cut back to reduce their size and shape.\n(B) The branches were twisted to alter their appearance.\n(C) The branches were tied together to create a bundle.\n(D) The branches were painted to alter their color.\n(E) The branches were left to grow freely, increasing their length and density.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The branches were cut back to reduce their size and shape."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the frying pan change?",
+    "options": [
+        "The frying pan's temperature changed when it was heated on the stove.",
+        "The frying pan's position changed when it was removed from the stove and set on the countertop.",
+        "The frying pan's surface changed when it was coated with a layer of cooking oil.",
+        "The frying pan's appearance changed when it became covered in food residue.",
+        "The frying pan's condition changed when it was scratched during cleaning."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the frying pan change? Choose **only one** option from the following list.\nOptions:\n(A) The frying pan's temperature changed when it was heated on the stove.\n(B) The frying pan's position changed when it was removed from the stove and set on the countertop.\n(C) The frying pan's surface changed when it was coated with a layer of cooking oil.\n(D) The frying pan's appearance changed when it became covered in food residue.\n(E) The frying pan's condition changed when it was scratched during cleaning.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The frying pan's position changed when it was removed from the stove and set on the countertop."
+    },
+    "correct_idx": [
+        1
+    ]
+}

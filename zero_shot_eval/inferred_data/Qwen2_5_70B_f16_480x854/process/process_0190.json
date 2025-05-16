@@ -1,0 +1,17 @@
+{
+    "question": "How does the person wash the frying pan in the sink with the sponge in her right hand?",
+    "options": [
+        "The person holds the frying pan on its edge with her left hand while she uses the sponge in her right hand to wet the surface with circular motions, focusing mainly on spreading water over it.",
+        "The person holds the frying pan by the handle with her left hand and lets the sponge drip water onto the pan, moistening it without much scrubbing.",
+        "The person holds the frying pan steady with her left hand and uses the sponge in her right hand to scrub the surface of the pan in circular motions, applying pressure as needed to clean it.",
+        "The person flips the frying pan upside down with her left hand and gently moves the sponge across the bottom, not emphasizing much pressure.",
+        "The person steadies the frying pan in her left hand while she shakes the sponge with her right hand, lightly spreading soap and water across the pan."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person wash the frying pan in the sink with the sponge in her right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the frying pan on its edge with her left hand while she uses the sponge in her right hand to wet the surface with circular motions, focusing mainly on spreading water over it.\n(B) The person holds the frying pan by the handle with her left hand and lets the sponge drip water onto the pan, moistening it without much scrubbing.\n(C) The person holds the frying pan steady with her left hand and uses the sponge in her right hand to scrub the surface of the pan in circular motions, applying pressure as needed to clean it.\n(D) The person flips the frying pan upside down with her left hand and gently moves the sponge across the bottom, not emphasizing much pressure.\n(E) The person steadies the frying pan in her left hand while she shakes the sponge with her right hand, lightly spreading soap and water across the pan.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person holds the frying pan steady with her left hand and uses the sponge in her right hand to scrub the surface of the pan in circular motions, applying pressure as needed to clean it."
+    },
+    "correct_idx": [
+        2
+    ]
+}

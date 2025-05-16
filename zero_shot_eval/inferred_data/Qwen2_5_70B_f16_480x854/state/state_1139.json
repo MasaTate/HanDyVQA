@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the tire inflator change?",
+    "options": [
+        "The car inflator was positioned on a shelf, leaving it unused and inactive.",
+        "The car inflator was positioned and connected, causing the tire to inflate.",
+        "The car inflator was disassembled, with the components scattered across the workbench.",
+        "The car inflator was connected to an outlet, which caused it to overheat and shut down.",
+        "The car inflator was manually triggered, resulting in it rapidly deflating the tire instead."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the tire inflator change? Choose **only one** option from the following list.\nOptions:\n(A) The car inflator was positioned on a shelf, leaving it unused and inactive.\n(B) The car inflator was positioned and connected, causing the tire to inflate.\n(C) The car inflator was disassembled, with the components scattered across the workbench.\n(D) The car inflator was connected to an outlet, which caused it to overheat and shut down.\n(E) The car inflator was manually triggered, resulting in it rapidly deflating the tire instead.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The car inflator was positioned and connected, causing the tire to inflate."
+    },
+    "correct_idx": [
+        1
+    ]
+}

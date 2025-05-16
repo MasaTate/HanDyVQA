@@ -1,0 +1,17 @@
+{
+    "question": "How does the person throw the tube?",
+    "options": [
+        "The person tosses the tube to the right side of the table after using it with the left hand and grabs the machine.",
+        "The person flicks the tube slightly upwards with a movement of the wrist.",
+        "The person rolls the tube smoothly across the table towards the edge.",
+        "The person pitches the tube to the left side of the table after using it.",
+        "The person gently sets the tube down on the table after using it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person throw the tube? Choose **only one** option from the following list.\nOptions:\n(A) The person tosses the tube to the right side of the table after using it with the left hand and grabs the machine.\n(B) The person flicks the tube slightly upwards with a movement of the wrist.\n(C) The person rolls the tube smoothly across the table towards the edge.\n(D) The person pitches the tube to the left side of the table after using it.\n(E) The person gently sets the tube down on the table after using it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person tosses the tube to the right side of the table after using it with the left hand and grabs the machine."
+    },
+    "correct_idx": [
+        0
+    ]
+}

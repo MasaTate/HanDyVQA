@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a plate change?",
+    "options": [
+        "The plate was broken into several pieces when it fell off the counter.",
+        "The plate shifted in position as it was moved slightly on the table.",
+        "The plate was stacked on top of another plate, creating a tower of dishes.",
+        "The plate was covered with a layer of dust after being left untouched for a long time.",
+        "The plate was filled with food, changing its state from empty to full."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a plate change? Choose **only one** option from the following list.\nOptions:\n(A) The plate was broken into several pieces when it fell off the counter.\n(B) The plate shifted in position as it was moved slightly on the table.\n(C) The plate was stacked on top of another plate, creating a tower of dishes.\n(D) The plate was covered with a layer of dust after being left untouched for a long time.\n(E) The plate was filled with food, changing its state from empty to full.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The plate shifted in position as it was moved slightly on the table."
+    },
+    "correct_idx": [
+        1
+    ]
+}

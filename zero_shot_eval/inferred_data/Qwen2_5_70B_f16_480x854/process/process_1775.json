@@ -1,0 +1,17 @@
+{
+    "question": "How does the person paint the clay flower pot on the potter &#39;s wheel?",
+    "options": [
+        "The person dapples paint onto the flower pot using their hand.",
+        "The person carefully pours paint onto the flower pot from a container.",
+        "The person applies paint to the surface of the flower pot using their fingers.",
+        "The person rotates the flower pot in a paint tray to coat it evenly.",
+        "The person paints the flower pot with gentle strokes with a brush using the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person paint the clay flower pot on the potter &#39;s wheel? Choose **only one** option from the following list.\nOptions:\n(A) The person dapples paint onto the flower pot using their hand.\n(B) The person carefully pours paint onto the flower pot from a container.\n(C) The person applies paint to the surface of the flower pot using their fingers.\n(D) The person rotates the flower pot in a paint tray to coat it evenly.\n(E) The person paints the flower pot with gentle strokes with a brush using the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person paints the flower pot with gentle strokes with a brush using the right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

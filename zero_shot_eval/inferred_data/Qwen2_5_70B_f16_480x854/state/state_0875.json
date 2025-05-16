@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a blue pawn change?",
+    "options": [
+        "The blue pawn was lifted from the board and set down on a different square.",
+        "The blue pawn was pushed across the board until it reached the edge.",
+        "The blue pawn was flipped and positioned next to a red pawn.",
+        "The blue pawn was dragged from the right to the left and placed next to another blue pawn.",
+        "The blue pawn was rotated and then moved diagonally on the board."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a blue pawn change? Choose **only one** option from the following list.\nOptions:\n(A) The blue pawn was lifted from the board and set down on a different square.\n(B) The blue pawn was pushed across the board until it reached the edge.\n(C) The blue pawn was flipped and positioned next to a red pawn.\n(D) The blue pawn was dragged from the right to the left and placed next to another blue pawn.\n(E) The blue pawn was rotated and then moved diagonally on the board.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The blue pawn was lifted from the board and set down on a different square."
+    },
+    "correct_idx": [
+        3
+    ]
+}

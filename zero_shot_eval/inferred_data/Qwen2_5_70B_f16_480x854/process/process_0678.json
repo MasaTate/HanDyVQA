@@ -1,0 +1,17 @@
+{
+    "question": "How does the person transfer a bolt?",
+    "options": [
+        "The person picks up the bolt securely with both hands and gently tosses it across the table to complete the transfer.",
+        "The person places the bolt down on the table and gently slides it towards their right hand, smoothly completing the transfer.",
+        "The person holds the bolt securely with the fingers of their left hand, then moves their left hand toward their right hand, where the right hand grasps the bolt firmly, completing the transfer.",
+        "The person uses their left hand to gently release the bolt onto the floor, instead of transferring it to their right hand.",
+        "The person pinches the bolt softly between their thumb and index finger of the right hand and smoothly lifts it straight up, without immediately involving the left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person transfer a bolt? Choose **only one** option from the following list.\nOptions:\n(A) The person picks up the bolt securely with both hands and gently tosses it across the table to complete the transfer.\n(B) The person places the bolt down on the table and gently slides it towards their right hand, smoothly completing the transfer.\n(C) The person holds the bolt securely with the fingers of their left hand, then moves their left hand toward their right hand, where the right hand grasps the bolt firmly, completing the transfer.\n(D) The person uses their left hand to gently release the bolt onto the floor, instead of transferring it to their right hand.\n(E) The person pinches the bolt softly between their thumb and index finger of the right hand and smoothly lifts it straight up, without immediately involving the left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person holds the bolt securely with the fingers of their left hand, then moves their left hand toward their right hand, where the right hand grasps the bolt firmly, completing the transfer."
+    },
+    "correct_idx": [
+        2
+    ]
+}

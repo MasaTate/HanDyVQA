@@ -1,0 +1,17 @@
+{
+    "question": "How does the person rub her left hand?",
+    "options": [
+        "The person rubs her left hand on her right arm by moving it gently in circles.",
+        "The person rubs her left hand on her left leg by moving it side to side.",
+        "The person rubs her left hand against her left wrist with a firm press.",
+        "The person rubs her left hand on her left palm with a tapping motion.",
+        "The person rubs her left hand against the back of her chair by sliding it smoothly back and forth."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person rub her left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person rubs her left hand on her right arm by moving it gently in circles.\n(B) The person rubs her left hand on her left leg by moving it side to side.\n(C) The person rubs her left hand against her left wrist with a firm press.\n(D) The person rubs her left hand on her left palm with a tapping motion.\n(E) The person rubs her left hand against the back of her chair by sliding it smoothly back and forth.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person rubs her left hand against her left wrist with a firm press."
+    },
+    "correct_idx": [
+        1
+    ]
+}

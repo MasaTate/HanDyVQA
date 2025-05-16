@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person selects some sandpaper using his right hand while holding it with his left hand.",
+        "The person is choosing some paintbrushes with his right hand while holding a plastic palette in his left hand.",
+        "The person is picking up some sandpaper with his left hand while holding a wooden block in his right hand.",
+        "The person is smoothing a surface with sandpaper using both hands while placing his other hand on a can of paint.",
+        "The person is folding sandpaper in half using both hands while placing it on top of a workbench."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person selects some sandpaper using his right hand while holding it with his left hand.\n(B) The person is choosing some paintbrushes with his right hand while holding a plastic palette in his left hand.\n(C) The person is picking up some sandpaper with his left hand while holding a wooden block in his right hand.\n(D) The person is smoothing a surface with sandpaper using both hands while placing his other hand on a can of paint.\n(E) The person is folding sandpaper in half using both hands while placing it on top of a workbench.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person selects some sandpaper using his right hand while holding it with his left hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

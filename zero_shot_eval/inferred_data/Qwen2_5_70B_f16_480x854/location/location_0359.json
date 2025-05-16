@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the sauce plate?",
+    "options": [
+        "The person put the sauce plate next to the oven.",
+        "The person put the sauce plate in front of the refrigerator.",
+        "The person put the sauce plate under the countertop.",
+        "The person put the sauce plate beside the toaster.",
+        "The person put the sauce plate behind the sink."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the sauce plate? Choose **only one** option from the following list.\nOptions:\n(A) The person put the sauce plate next to the oven.\n(B) The person put the sauce plate in front of the refrigerator.\n(C) The person put the sauce plate under the countertop.\n(D) The person put the sauce plate beside the toaster.\n(E) The person put the sauce plate behind the sink.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person put the sauce plate behind the sink."
+    },
+    "correct_idx": [
+        4
+    ]
+}

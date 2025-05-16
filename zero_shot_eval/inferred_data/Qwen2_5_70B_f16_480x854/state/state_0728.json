@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a bag change?",
+    "options": [
+        "The bag was unzipped and its contents were scattered.",
+        "The bag was thrown onto the floor and remained open.",
+        "The bag was lifted and placed to the side.",
+        "The bag was folded in half and positioned on the table.",
+        "The bag was dropped and its straps were tangled."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a bag change? Choose **only one** option from the following list.\nOptions:\n(A) The bag was unzipped and its contents were scattered.\n(B) The bag was thrown onto the floor and remained open.\n(C) The bag was lifted and placed to the side.\n(D) The bag was folded in half and positioned on the table.\n(E) The bag was dropped and its straps were tangled.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The bag was lifted and placed to the side."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person holds the fuel hose with his left hand, passes it to his right, and uses a screwdriver to adjust a bolt.",
+        "The person grabs the fuel hose with his right hand, passes it to his left, and uses a wrench to tighten a nut using the right hand.",
+        "The person is holding the fuel hose in both hands while using a wrench to loosen a nut.",
+        "The person grabs another hose with his right hand, passes it to his left, and uses a wrench to adjust a pipe.",
+        "The person is adjusting the fuel hose with his left hand while using pliers to fix a screw with his right."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the fuel hose with his left hand, passes it to his right, and uses a screwdriver to adjust a bolt.\n(B) The person grabs the fuel hose with his right hand, passes it to his left, and uses a wrench to tighten a nut using the right hand.\n(C) The person is holding the fuel hose in both hands while using a wrench to loosen a nut.\n(D) The person grabs another hose with his right hand, passes it to his left, and uses a wrench to adjust a pipe.\n(E) The person is adjusting the fuel hose with his left hand while using pliers to fix a screw with his right.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person grabs the fuel hose with his right hand, passes it to his left, and uses a wrench to tighten a nut using the right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

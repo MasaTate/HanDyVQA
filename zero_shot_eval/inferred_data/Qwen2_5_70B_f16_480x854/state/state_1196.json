@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the first bolt change?",
+    "options": [
+        "The first bolt was loosened, causing it to become less secure in its position.",
+        "The first bolt was removed, leaving the section without any fastening.",
+        "The first bolt was rotated, causing it to become more secure in its position.",
+        "The first bolt was tightened excessively, causing it to bend and become unusable.",
+        "The first bolt was replaced with a longer bolt, changing the fastening entirely."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the first bolt change? Choose **only one** option from the following list.\nOptions:\n(A) The first bolt was loosened, causing it to become less secure in its position.\n(B) The first bolt was removed, leaving the section without any fastening.\n(C) The first bolt was rotated, causing it to become more secure in its position.\n(D) The first bolt was tightened excessively, causing it to bend and become unusable.\n(E) The first bolt was replaced with a longer bolt, changing the fastening entirely.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The first bolt was rotated, causing it to become more secure in its position."
+    },
+    "correct_idx": [
+        2
+    ]
+}

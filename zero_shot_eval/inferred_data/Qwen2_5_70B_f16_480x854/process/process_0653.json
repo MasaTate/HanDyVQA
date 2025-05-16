@@ -1,0 +1,17 @@
+{
+    "question": "How does the person open a refrigerator with her right hand?",
+    "options": [
+        "The person tries to open the refrigerator door with her right hand by using her fingertips, and the door moves slightly out of control.",
+        "The person presses against the refrigerator door with her right palm, making a noise as she attempts to open it by pushing instead of pulling.",
+        "The person lightly touches the refrigerator handle with her right hand before trying to slide the door open with her forearm.",
+        "The person opens a refrigerator with her right hand by gripping the refrigerator handle firmly and with a smooth, pulling motion, she draws the door outward, ensuring it opens completely.",
+        "The person pulls the refrigerator door with her right hand, using a quick motion but not holding the handle securely."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person open a refrigerator with her right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person tries to open the refrigerator door with her right hand by using her fingertips, and the door moves slightly out of control.\n(B) The person presses against the refrigerator door with her right palm, making a noise as she attempts to open it by pushing instead of pulling.\n(C) The person lightly touches the refrigerator handle with her right hand before trying to slide the door open with her forearm.\n(D) The person opens a refrigerator with her right hand by gripping the refrigerator handle firmly and with a smooth, pulling motion, she draws the door outward, ensuring it opens completely.\n(E) The person pulls the refrigerator door with her right hand, using a quick motion but not holding the handle securely.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person opens a refrigerator with her right hand by gripping the refrigerator handle firmly and with a smooth, pulling motion, she draws the door outward, ensuring it opens completely."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the lawn mower change?",
+    "options": [
+        "The lawn mower was adjusted, changing its cutting height.",
+        "The lawn mower was filled with gasoline, preparing it for use.",
+        "The lawn mower was folded, reducing its size for storage.",
+        "The lawn mower was cleaned, removing grass clippings from its deck.",
+        "The lawn mower was switched on, activating its motor."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the lawn mower change? Choose **only one** option from the following list.\nOptions:\n(A) The lawn mower was adjusted, changing its cutting height.\n(B) The lawn mower was filled with gasoline, preparing it for use.\n(C) The lawn mower was folded, reducing its size for storage.\n(D) The lawn mower was cleaned, removing grass clippings from its deck.\n(E) The lawn mower was switched on, activating its motor.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The lawn mower was switched on, activating its motor."
+    },
+    "correct_idx": [
+        4
+    ]
+}

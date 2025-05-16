@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move a blue pawn?",
+    "options": [
+        "The person moved the pawn with his right hand to the destination square on the left.",
+        "The person moved the pawn with his right hand to the home square on the right.",
+        "The person moved the pawn with his right hand to the starting square at the bottom.",
+        "The person moved the pawn with his right hand to the edge of the board near the corner.",
+        "The person moved the pawn with his left hand to the home square on the left."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move a blue pawn? Choose **only one** option from the following list.\nOptions:\n(A) The person moved the pawn with his right hand to the destination square on the left.\n(B) The person moved the pawn with his right hand to the home square on the right.\n(C) The person moved the pawn with his right hand to the starting square at the bottom.\n(D) The person moved the pawn with his right hand to the edge of the board near the corner.\n(E) The person moved the pawn with his left hand to the home square on the left.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person moved the pawn with his right hand to the home square on the right."
+    },
+    "correct_idx": [
+        1
+    ]
+}

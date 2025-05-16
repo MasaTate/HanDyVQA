@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the plant change?",
+    "options": [
+        "The plant was uprooted from the soil, placed in a new pot, and watered thoroughly.",
+        "The plant was trimmed back significantly, relocated, and provided with fertilizer.",
+        "The plant was pulled out by the roots, grabbed with scissors, and thrown away.",
+        "The plant was cut and removed.",
+        "The plant was cut at the roots with scissors and placed among other plants."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the plant change? Choose **only one** option from the following list.\nOptions:\n(A) The plant was uprooted from the soil, placed in a new pot, and watered thoroughly.\n(B) The plant was trimmed back significantly, relocated, and provided with fertilizer.\n(C) The plant was pulled out by the roots, grabbed with scissors, and thrown away.\n(D) The plant was cut and removed.\n(E) The plant was cut at the roots with scissors and placed among other plants.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The plant was cut and removed."
+    },
+    "correct_idx": [
+        2
+    ]
+}

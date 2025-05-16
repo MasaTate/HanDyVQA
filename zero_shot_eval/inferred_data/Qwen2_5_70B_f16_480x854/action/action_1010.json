@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person holds the scissors in their left hand while holding a blue piece of paper with their right hand.",
+        "The person is cutting the red paper using a craft knife in their right hand while holding the paper with their left hand.",
+        "The person is arranging the scissors on the table with their right hand while holding the red paper with their left hand.",
+        "The person is gluing the red paper with a glue stick in their right hand while holding the scissors with their left hand.",
+        "The person holds the scissors in the right hand while holding the red paper with the left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the scissors in their left hand while holding a blue piece of paper with their right hand.\n(B) The person is cutting the red paper using a craft knife in their right hand while holding the paper with their left hand.\n(C) The person is arranging the scissors on the table with their right hand while holding the red paper with their left hand.\n(D) The person is gluing the red paper with a glue stick in their right hand while holding the scissors with their left hand.\n(E) The person holds the scissors in the right hand while holding the red paper with the left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person holds the scissors in the right hand while holding the red paper with the left hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

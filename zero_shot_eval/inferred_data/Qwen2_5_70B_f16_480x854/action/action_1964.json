@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is slicing the ginger on a cutting board with a knife.",
+        "The person is peeling the ginger using a vegetable peeler in their right hand.",
+        "The person is grating the ginger on a grater.",
+        "The person is mixing the grated ginger in a bowl using a spoon in their left hand.",
+        "The person is pressing the ginger with a mortar and pestle using both hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is slicing the ginger on a cutting board with a knife.\n(B) The person is peeling the ginger using a vegetable peeler in their right hand.\n(C) The person is grating the ginger on a grater.\n(D) The person is mixing the grated ginger in a bowl using a spoon in their left hand.\n(E) The person is pressing the ginger with a mortar and pestle using both hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person is grating the ginger on a grater."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person simmers the sauce in the saucepan on the stove using a whisk in the right hand.",
+        "The person mixes the ingredients in the bowl on the counter with a spatula in the right hand while holding the bowl steady with the left hand.",
+        "The person serves food from the pot on the cooker using a ladle in the right hand while keeping the pot in place with the left hand.",
+        "The person pours soup from the pot on the cooker into a bowl with a scoop in the right hand while stabilizing the pot with the left hand.",
+        "The person puts a small amount of food into the left hand while the right hand stirs the food using a ladle."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person simmers the sauce in the saucepan on the stove using a whisk in the right hand.\n(B) The person mixes the ingredients in the bowl on the counter with a spatula in the right hand while holding the bowl steady with the left hand.\n(C) The person serves food from the pot on the cooker using a ladle in the right hand while keeping the pot in place with the left hand.\n(D) The person pours soup from the pot on the cooker into a bowl with a scoop in the right hand while stabilizing the pot with the left hand.\n(E) The person puts a small amount of food into the left hand while the right hand stirs the food using a ladle.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person puts a small amount of food into the left hand while the right hand stirs the food using a ladle."
+    },
+    "correct_idx": [
+        4
+    ]
+}

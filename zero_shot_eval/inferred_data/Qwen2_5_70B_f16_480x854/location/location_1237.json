@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put noodles?",
+    "options": [
+        "The person placed the noodles on the rightmost plate.",
+        "The person placed the noodles on the topmost shelf.",
+        "The person placed the noodles on the center of the table.",
+        "The person placed the noodles on the leftmost plate.",
+        "The person placed the noodles on the middle plate."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put noodles? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the noodles on the rightmost plate.\n(B) The person placed the noodles on the topmost shelf.\n(C) The person placed the noodles on the center of the table.\n(D) The person placed the noodles on the leftmost plate.\n(E) The person placed the noodles on the middle plate.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person placed the noodles on the leftmost plate."
+    },
+    "correct_idx": [
+        3
+    ]
+}

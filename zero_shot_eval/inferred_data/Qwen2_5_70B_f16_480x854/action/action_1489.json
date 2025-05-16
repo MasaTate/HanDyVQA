@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is blending the paint on the table, using his right hand to hold a palette knife and his left hand to steady the canvas.",
+        "The person is stirring the color in a bowl, using his right hand to hold a whisk and his left hand to grip the edge of the bowl.",
+        "The person is applying paint on the canvas, using his right hand to hold a roller and his left hand to support the canvas.",
+        "The person is pouring the paint onto the floor, using his right hand to lift a bucket while keeping his left hand on his hip.",
+        "The person is mixing the color on the plate, using his right hand to hold the spray and his left hand to hold the paintbrush."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is blending the paint on the table, using his right hand to hold a palette knife and his left hand to steady the canvas.\n(B) The person is stirring the color in a bowl, using his right hand to hold a whisk and his left hand to grip the edge of the bowl.\n(C) The person is applying paint on the canvas, using his right hand to hold a roller and his left hand to support the canvas.\n(D) The person is pouring the paint onto the floor, using his right hand to lift a bucket while keeping his left hand on his hip.\n(E) The person is mixing the color on the plate, using his right hand to hold the spray and his left hand to hold the paintbrush.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person is mixing the color on the plate, using his right hand to hold the spray and his left hand to hold the paintbrush."
+    },
+    "correct_idx": [
+        4
+    ]
+}

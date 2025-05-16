@@ -1,0 +1,17 @@
+{
+    "question": "How does the person swipe dirt?",
+    "options": [
+        "The person sweeps the dirt from left to right three times at the upper part with the right hand.",
+        "The person moves the dirt in circular motions at the middle part using both hands.",
+        "The person wipes the dirt from right to left two times at the lower part and one time at the upper part with the left hand.",
+        "The person brushes the dirt downward with a single motion from the upper part with the right hand.",
+        "The person pushes the dirt off the table's edge with the palm of the left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person swipe dirt? Choose **only one** option from the following list.\nOptions:\n(A) The person sweeps the dirt from left to right three times at the upper part with the right hand.\n(B) The person moves the dirt in circular motions at the middle part using both hands.\n(C) The person wipes the dirt from right to left two times at the lower part and one time at the upper part with the left hand.\n(D) The person brushes the dirt downward with a single motion from the upper part with the right hand.\n(E) The person pushes the dirt off the table's edge with the palm of the left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person brushes the dirt downward with a single motion from the upper part with the right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

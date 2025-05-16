@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the pan?",
+    "options": [
+        "The person placed the pan beside another pan on the countertop.",
+        "The person placed the pan underneath another one in the cupboard.",
+        "The person placed the pan next to another on the stove.",
+        "The person placed the pan in front of another one on the rack.",
+        "The person placed one pan on top of another. "
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the pan? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the pan beside another pan on the countertop.\n(B) The person placed the pan underneath another one in the cupboard.\n(C) The person placed the pan next to another on the stove.\n(D) The person placed the pan in front of another one on the rack.\n(E) The person placed one pan on top of another. \n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person placed the pan next to another on the stove."
+    },
+    "correct_idx": [
+        4
+    ]
+}

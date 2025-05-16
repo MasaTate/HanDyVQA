@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the brakes of the bicycle change?",
+    "options": [
+        "The bicycle brakes were pressed steadily, altering their alignment.",
+        "The bicycle brakes were applied inconsistently, changing their flexibility.",
+        "The bicycle brakes were activated abruptly, adjusting their grip strength.",
+        "The bicycle brakes were pressed repeatedly, affecting their tension.",
+        "The bicycle brakes were lightly engaged, modifying their friction level."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the brakes of the bicycle change? Choose **only one** option from the following list.\nOptions:\n(A) The bicycle brakes were pressed steadily, altering their alignment.\n(B) The bicycle brakes were applied inconsistently, changing their flexibility.\n(C) The bicycle brakes were activated abruptly, adjusting their grip strength.\n(D) The bicycle brakes were pressed repeatedly, affecting their tension.\n(E) The bicycle brakes were lightly engaged, modifying their friction level.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The bicycle brakes were pressed repeatedly, affecting their tension."
+    },
+    "correct_idx": [
+        3
+    ]
+}

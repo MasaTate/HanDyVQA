@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the can?",
+    "options": [
+        "The person grabbed the can and moved it to the right hand.",
+        "The person grabbed the can and moved it to the table next to the left hand.",
+        "The person grabbed the can and moved it to the left shoulder.",
+        "The person grabbed the can and moved it to the left hand.",
+        "The person grabbed the can and moved it to the center of the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the can? Choose **only one** option from the following list.\nOptions:\n(A) The person grabbed the can and moved it to the right hand.\n(B) The person grabbed the can and moved it to the table next to the left hand.\n(C) The person grabbed the can and moved it to the left shoulder.\n(D) The person grabbed the can and moved it to the left hand.\n(E) The person grabbed the can and moved it to the center of the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person grabbed the can and moved it to the left hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

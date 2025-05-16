@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person applies paint to the wood trim with a brush in their right hand.",
+        "The person lifts the wood trim off the ground using both hands.",
+        "The person separates the wood trim with a scraper tool in the right hand.",
+        "The person sands the edges of the wood trim with a power sander in their right hand.",
+        "The person measures the wood trim with a tape measure in their right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person applies paint to the wood trim with a brush in their right hand.\n(B) The person lifts the wood trim off the ground using both hands.\n(C) The person separates the wood trim with a scraper tool in the right hand.\n(D) The person sands the edges of the wood trim with a power sander in their right hand.\n(E) The person measures the wood trim with a tape measure in their right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person separates the wood trim with a scraper tool in the right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

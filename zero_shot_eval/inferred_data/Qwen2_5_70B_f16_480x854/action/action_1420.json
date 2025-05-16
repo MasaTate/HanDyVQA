@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is gripping a blue container using the left hand and sets it down on the shelf before shaking the blunt over a plate with the right hand.",
+        "The person is raising a yellow cup with the left hand and placing it down on the counter before rolling the blunt between the fingers with the right hand.",
+        "The person is carrying a yellow box using the left hand and putting it down on the floor before crushing the blunt in the palm with the right hand.",
+        "The person is holding a yellow container using the left hand and puts it down on the table before tapping the blunt over an ashtray with the right hand.",
+        "The person is lifting a clear container with the left hand and dropping it into a bag before twisting the blunt in the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is gripping a blue container using the left hand and sets it down on the shelf before shaking the blunt over a plate with the right hand.\n(B) The person is raising a yellow cup with the left hand and placing it down on the counter before rolling the blunt between the fingers with the right hand.\n(C) The person is carrying a yellow box using the left hand and putting it down on the floor before crushing the blunt in the palm with the right hand.\n(D) The person is holding a yellow container using the left hand and puts it down on the table before tapping the blunt over an ashtray with the right hand.\n(E) The person is lifting a clear container with the left hand and dropping it into a bag before twisting the blunt in the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person is holding a yellow container using the left hand and puts it down on the table before tapping the blunt over an ashtray with the right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

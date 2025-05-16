@@ -1,0 +1,17 @@
+{
+    "question": "How does the person bend his right hand fingers?",
+    "options": [
+        "The person softly closes his right hand into a fist, pressing all fingers closely together.",
+        "The person extends his right fingers outward while guiding them back with the left hand.",
+        "The person gently angles his right fingers, pressing them down with a flat palm.",
+        "The person bends his right finger gently by the thumb to press it down.",
+        "The person lifts his right fingers gradually and then lowers them smoothly with control."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person bend his right hand fingers? Choose **only one** option from the following list.\nOptions:\n(A) The person softly closes his right hand into a fist, pressing all fingers closely together.\n(B) The person extends his right fingers outward while guiding them back with the left hand.\n(C) The person gently angles his right fingers, pressing them down with a flat palm.\n(D) The person bends his right finger gently by the thumb to press it down.\n(E) The person lifts his right fingers gradually and then lowers them smoothly with control.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person softly closes his right hand into a fist, pressing all fingers closely together."
+    },
+    "correct_idx": [
+        3
+    ]
+}

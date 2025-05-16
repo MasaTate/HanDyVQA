@@ -1,0 +1,17 @@
+{
+    "question": "How does the person switch the resistance band?",
+    "options": [
+        "The person carefully moves the resistance band over and catches it smoothly with the right hand.",
+        "The person pulls the resistance band with hands moving in opposite directions, letting it glide smoothly between them.",
+        "The person holds the resistance band firmly, transferring it gently from the left hand to the right hand.",
+        "The person gently passes the resistance band by sliding it without dropping it from the left to the right hand.",
+        "The person lets the resistance band fall slightly from the left hand before smoothly picking it up with the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person switch the resistance band? Choose **only one** option from the following list.\nOptions:\n(A) The person carefully moves the resistance band over and catches it smoothly with the right hand.\n(B) The person pulls the resistance band with hands moving in opposite directions, letting it glide smoothly between them.\n(C) The person holds the resistance band firmly, transferring it gently from the left hand to the right hand.\n(D) The person gently passes the resistance band by sliding it without dropping it from the left to the right hand.\n(E) The person lets the resistance band fall slightly from the left hand before smoothly picking it up with the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person holds the resistance band firmly, transferring it gently from the left hand to the right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

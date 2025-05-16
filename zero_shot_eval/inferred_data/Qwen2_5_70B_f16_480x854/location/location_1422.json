@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the impact driver?",
+    "options": [
+        "The person moved the impact driver to their left hand.",
+        "The person moved the impact driver to their right hand.",
+        "The person moved the impact driver to their right pocket.",
+        "The person moved the impact driver to the table beside them.",
+        "The person moved the impact driver to the floor in front of them."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the impact driver? Choose **only one** option from the following list.\nOptions:\n(A) The person moved the impact driver to their left hand.\n(B) The person moved the impact driver to their right hand.\n(C) The person moved the impact driver to their right pocket.\n(D) The person moved the impact driver to the table beside them.\n(E) The person moved the impact driver to the floor in front of them.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person moved the impact driver to their right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

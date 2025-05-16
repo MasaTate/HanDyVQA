@@ -1,0 +1,17 @@
+{
+    "question": "How does the person raise the part of the board?",
+    "options": [
+        "The person lifts the part of the board with both hands, positioning it from the sides.",
+        "The person pushes the part of the board upward using their right hand.",
+        "The person tilts the board, allowing the part to rise gently, holding it slightly.",
+        "The person lifts part of the board with the left hand, then hangs it in the upper part of the hard disk drive with the right hand.",
+        "The person uses their right hand to guide the part of the board smoothly off the edge."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person raise the part of the board? Choose **only one** option from the following list.\nOptions:\n(A) The person lifts the part of the board with both hands, positioning it from the sides.\n(B) The person pushes the part of the board upward using their right hand.\n(C) The person tilts the board, allowing the part to rise gently, holding it slightly.\n(D) The person lifts part of the board with the left hand, then hangs it in the upper part of the hard disk drive with the right hand.\n(E) The person uses their right hand to guide the part of the board smoothly off the edge.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person lifts part of the board with the left hand, then hangs it in the upper part of the hard disk drive with the right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

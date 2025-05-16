@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the dumbbells change?",
+    "options": [
+        "The dumbbells were lowered and moved to the right.",
+        "The dumbbells were pushed forward and moved upward.",
+        "The dumbbells were lifted up and moved to the left.",
+        "The dumbbells were picked up and rotated to the opposite direction.",
+        "The dumbbells were lowered and nudged to the left."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the dumbbells change? Choose **only one** option from the following list.\nOptions:\n(A) The dumbbells were lowered and moved to the right.\n(B) The dumbbells were pushed forward and moved upward.\n(C) The dumbbells were lifted up and moved to the left.\n(D) The dumbbells were picked up and rotated to the opposite direction.\n(E) The dumbbells were lowered and nudged to the left.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The dumbbells were lowered and moved to the right."
+    },
+    "correct_idx": [
+        2
+    ]
+}

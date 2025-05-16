@@ -1,0 +1,17 @@
+{
+    "question": "How does the person flip pages of the book?",
+    "options": [
+        "The person slowly turns the pages of the book using the right hand while keeping the left hand resting on the cover.",
+        "The person gently slides the pages of the book back and forth with both hands without really turning them.",
+        "The person quickly flips the pages of the book using the left hand and then quickly turns it back to the left.",
+        "The person moves the pages of the book with both hands, which causes them to shuffle rather than flipping.",
+        "The person lifts the entire book and shakes it to change the pages rather than flipping them."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person flip pages of the book? Choose **only one** option from the following list.\nOptions:\n(A) The person slowly turns the pages of the book using the right hand while keeping the left hand resting on the cover.\n(B) The person gently slides the pages of the book back and forth with both hands without really turning them.\n(C) The person quickly flips the pages of the book using the left hand and then quickly turns it back to the left.\n(D) The person moves the pages of the book with both hands, which causes them to shuffle rather than flipping.\n(E) The person lifts the entire book and shakes it to change the pages rather than flipping them.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person quickly flips the pages of the book using the left hand and then quickly turns it back to the left."
+    },
+    "correct_idx": [
+        2
+    ]
+}

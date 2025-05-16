@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a bath tub change?",
+    "options": [
+        "The bathtub was drained of water, leading to a decrease in volume as it became empty.",
+        "The bathtub was painted a different color, altering its surface appearance and texture.",
+        "The bathtub was filled with water, causing a change in volume as it became full.",
+        "The bathtub was equipped with a showerhead, changing its functionality from purely soaking to multi-use.",
+        "The bathtub was adorned with decorative tiles, transforming its aesthetic appeal significantly."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a bath tub change? Choose **only one** option from the following list.\nOptions:\n(A) The bathtub was drained of water, leading to a decrease in volume as it became empty.\n(B) The bathtub was painted a different color, altering its surface appearance and texture.\n(C) The bathtub was filled with water, causing a change in volume as it became full.\n(D) The bathtub was equipped with a showerhead, changing its functionality from purely soaking to multi-use.\n(E) The bathtub was adorned with decorative tiles, transforming its aesthetic appeal significantly.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The bathtub was filled with water, causing a change in volume as it became full."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the garland flags change?",
+    "options": [
+        "The garland flags were attached and taped to the wall, swaying slightly.",
+        "The garland flags were attached and taped to the wall, fixed without any sway.",
+        "The garland flags were attached to the ceiling without being taped and hung loosely.",
+        "The garland flags were taped on the wall, positioned flat without movement.",
+        "The garland flags were attached to the wall with tape but tied together tightly to prevent swaying."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the garland flags change? Choose **only one** option from the following list.\nOptions:\n(A) The garland flags were attached and taped to the wall, swaying slightly.\n(B) The garland flags were attached and taped to the wall, fixed without any sway.\n(C) The garland flags were attached to the ceiling without being taped and hung loosely.\n(D) The garland flags were taped on the wall, positioned flat without movement.\n(E) The garland flags were attached to the wall with tape but tied together tightly to prevent swaying.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The garland flags were attached and taped to the wall, fixed without any sway."
+    },
+    "correct_idx": [
+        0
+    ]
+}

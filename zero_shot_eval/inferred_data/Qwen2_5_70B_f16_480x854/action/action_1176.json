@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person grips the brake lever with his left hand while holding a different part of the metal wire in his right hand.",
+        "The person pulls on the metal wire with his left hand while managing the steering with his right hand.",
+        "The person holds the metal wire in his right hand and uses his left hand to press the handlebar lever.",
+        "The person adjusts the seat using his left hand while keeping a firm grip on the handlebar with his right hand.",
+        "The person pushes against the handlebar using his left hand while balancing an object in his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the brake lever with his left hand while holding a different part of the metal wire in his right hand.\n(B) The person pulls on the metal wire with his left hand while managing the steering with his right hand.\n(C) The person holds the metal wire in his right hand and uses his left hand to press the handlebar lever.\n(D) The person adjusts the seat using his left hand while keeping a firm grip on the handlebar with his right hand.\n(E) The person pushes against the handlebar using his left hand while balancing an object in his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person holds the metal wire in his right hand and uses his left hand to press the handlebar lever."
+    },
+    "correct_idx": [
+        2
+    ]
+}

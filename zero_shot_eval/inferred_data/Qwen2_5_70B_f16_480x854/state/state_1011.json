@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the cloth change?",
+    "options": [
+        "The cloth was sewn, and the needle was seen skipping a section of it.",
+        "The cloth was sewn, and the needle was seen piercing the edge of it.",
+        "The cloth was sewn, and the needle was seen threading through the top layer of it.",
+        "The cloth was sewn, and the needle was seen piercing through it at uneven intervals.",
+        "The cloth was sewn, and the needle was seen piercing through it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the cloth change? Choose **only one** option from the following list.\nOptions:\n(A) The cloth was sewn, and the needle was seen skipping a section of it.\n(B) The cloth was sewn, and the needle was seen piercing the edge of it.\n(C) The cloth was sewn, and the needle was seen threading through the top layer of it.\n(D) The cloth was sewn, and the needle was seen piercing through it at uneven intervals.\n(E) The cloth was sewn, and the needle was seen piercing through it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The cloth was sewn, and the needle was seen piercing through it."
+    },
+    "correct_idx": [
+        4
+    ]
+}

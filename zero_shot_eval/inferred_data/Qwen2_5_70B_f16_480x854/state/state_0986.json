@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the sewing machine needle change?",
+    "options": [
+        "The sewing machine needle was adjusted along with the presser foot.",
+        "The sewing machine needle was replaced with a new needle.",
+        "The sewing machine needle was bent to correct its positioning.",
+        "The sewing machine needle was cleaned to remove residue.",
+        "The sewing machine needle was threaded with a different color thread."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the sewing machine needle change? Choose **only one** option from the following list.\nOptions:\n(A) The sewing machine needle was adjusted along with the presser foot.\n(B) The sewing machine needle was replaced with a new needle.\n(C) The sewing machine needle was bent to correct its positioning.\n(D) The sewing machine needle was cleaned to remove residue.\n(E) The sewing machine needle was threaded with a different color thread.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The sewing machine needle was adjusted along with the presser foot."
+    },
+    "correct_idx": [
+        0
+    ]
+}

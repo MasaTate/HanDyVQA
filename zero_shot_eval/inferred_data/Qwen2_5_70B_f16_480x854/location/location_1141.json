@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop another bottle of oil?",
+    "options": [
+        "The person dropped the oil bottle on the right side of the kitchen countertop.",
+        "The person dropped the oil bottle in the corner of the kitchen countertop.",
+        "The person dropped the oil bottle on the left edge of the kitchen countertop.",
+        "The person dropped the oil bottle at the back of the kitchen countertop.",
+        "The person dropped the oil bottle in the center of the kitchen countertop."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop another bottle of oil? Choose **only one** option from the following list.\nOptions:\n(A) The person dropped the oil bottle on the right side of the kitchen countertop.\n(B) The person dropped the oil bottle in the corner of the kitchen countertop.\n(C) The person dropped the oil bottle on the left edge of the kitchen countertop.\n(D) The person dropped the oil bottle at the back of the kitchen countertop.\n(E) The person dropped the oil bottle in the center of the kitchen countertop.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person dropped the oil bottle on the left edge of the kitchen countertop."
+    },
+    "correct_idx": [
+        4
+    ]
+}

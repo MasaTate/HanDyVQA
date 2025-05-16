@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the bottle?",
+    "options": [
+        "The person put the bottle on the kitchen counter.",
+        "The person put the bottle in the pantry next to the snacks.",
+        "The person put the bottle under the sink in the cabinet.",
+        "The person put the bottle inside the refrigerator.",
+        "The person put the bottle in the living room on the coffee table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the bottle? Choose **only one** option from the following list.\nOptions:\n(A) The person put the bottle on the kitchen counter.\n(B) The person put the bottle in the pantry next to the snacks.\n(C) The person put the bottle under the sink in the cabinet.\n(D) The person put the bottle inside the refrigerator.\n(E) The person put the bottle in the living room on the coffee table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person put the bottle inside the refrigerator."
+    },
+    "correct_idx": [
+        3
+    ]
+}

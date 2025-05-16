@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of dog rope change?",
+    "options": [
+        "The dog rope was held while the dogs walked, causing it to tighten and shift.",
+        "The dog rope was thrown into the air, resulting in it becoming tangled in the branches of a nearby tree.",
+        "The dog rope was laid flat on the ground, allowing it to become dusty and partially buried in the dirt.",
+        "The dog rope was soaked in water, leading to it expanding and losing its original shape.",
+        "The dog rope was coiled up and stored in a box, which caused it to lose its flexibility."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of dog rope change? Choose **only one** option from the following list.\nOptions:\n(A) The dog rope was held while the dogs walked, causing it to tighten and shift.\n(B) The dog rope was thrown into the air, resulting in it becoming tangled in the branches of a nearby tree.\n(C) The dog rope was laid flat on the ground, allowing it to become dusty and partially buried in the dirt.\n(D) The dog rope was soaked in water, leading to it expanding and losing its original shape.\n(E) The dog rope was coiled up and stored in a box, which caused it to lose its flexibility.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The dog rope was held while the dogs walked, causing it to tighten and shift."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the chainsaw change?",
+    "options": [
+        "The chainsaw was slowly rotated and transferred from being hung on the left shoulder to the right shoulder.",
+        "The chainsaw was slowly rotated and moved from being hung on the left waist to the right waist.",
+        "The chainsaw was slowly rotated and moved from being hung on the right waist to the left waist.",
+        "The chainsaw was slowly rotated and moved from being hung at the back to the left waist.",
+        "The chainsaw was slowly spun and shifted from being hung on the left waist to the back."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the chainsaw change? Choose **only one** option from the following list.\nOptions:\n(A) The chainsaw was slowly rotated and transferred from being hung on the left shoulder to the right shoulder.\n(B) The chainsaw was slowly rotated and moved from being hung on the left waist to the right waist.\n(C) The chainsaw was slowly rotated and moved from being hung on the right waist to the left waist.\n(D) The chainsaw was slowly rotated and moved from being hung at the back to the left waist.\n(E) The chainsaw was slowly spun and shifted from being hung on the left waist to the back.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The chainsaw was slowly rotated and moved from being hung on the left waist to the right waist."
+    },
+    "correct_idx": [
+        1
+    ]
+}

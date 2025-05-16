@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the brush?",
+    "options": [
+        "the person drops the brush into a blue container.",
+        "the person drops the brush into a green container.",
+        "the person drops the brush in a white container.",
+        "the person drops the brush in a black container.",
+        "the person drops the brush in a red container."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the brush? Choose **only one** option from the following list.\nOptions:\n(A) the person drops the brush into a blue container.\n(B) the person drops the brush into a green container.\n(C) the person drops the brush in a white container.\n(D) the person drops the brush in a black container.\n(E) the person drops the brush in a red container.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) the person drops the brush into a blue container."
+    },
+    "correct_idx": [
+        2
+    ]
+}

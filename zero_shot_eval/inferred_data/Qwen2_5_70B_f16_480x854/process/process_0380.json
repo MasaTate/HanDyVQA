@@ -1,0 +1,17 @@
+{
+    "question": "How does the person reposition a tool in the box?",
+    "options": [
+        "The person shifts a tool in the box by gently using their right hand to move it across the surface until it is repositioned.",
+        "The person grabs the tool securely with both hands and places it carefully into a nearby bin.",
+        "The person repositions a tool in the box by lifting its metal parts and moving it to another box with their left hand.",
+        "The person picks up the tool with their fingers and sets it down slightly without relocating it to another spot.",
+        "The person raises the tool above the box and slightly swings it around before setting it back inside."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person reposition a tool in the box? Choose **only one** option from the following list.\nOptions:\n(A) The person shifts a tool in the box by gently using their right hand to move it across the surface until it is repositioned.\n(B) The person grabs the tool securely with both hands and places it carefully into a nearby bin.\n(C) The person repositions a tool in the box by lifting its metal parts and moving it to another box with their left hand.\n(D) The person picks up the tool with their fingers and sets it down slightly without relocating it to another spot.\n(E) The person raises the tool above the box and slightly swings it around before setting it back inside.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person shifts a tool in the box by gently using their right hand to move it across the surface until it is repositioned."
+    },
+    "correct_idx": [
+        2
+    ]
+}

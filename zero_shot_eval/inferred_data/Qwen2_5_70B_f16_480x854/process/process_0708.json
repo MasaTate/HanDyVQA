@@ -1,0 +1,17 @@
+{
+    "question": "How does the person dip the brush?",
+    "options": [
+        "The person grips the brush with the palm of his right hand and pushes it deeply into the pail of paint.",
+        "The person balances the brush lightly on his palm and just touches the paint in the pail without fully immersing it.",
+        "The person uses his left hand to guide the brush into the paint while holding it with his fingers on the right hand.",
+        "The person lifts the brush with two fingers and rotates it gently in the pail instead of just dipping it.",
+        "The person holds the brush tightly using the fingertips of his right hand and dips it slightly into the pail of paint."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person dip the brush? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the brush with the palm of his right hand and pushes it deeply into the pail of paint.\n(B) The person balances the brush lightly on his palm and just touches the paint in the pail without fully immersing it.\n(C) The person uses his left hand to guide the brush into the paint while holding it with his fingers on the right hand.\n(D) The person lifts the brush with two fingers and rotates it gently in the pail instead of just dipping it.\n(E) The person holds the brush tightly using the fingertips of his right hand and dips it slightly into the pail of paint.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person holds the brush tightly using the fingertips of his right hand and dips it slightly into the pail of paint."
+    },
+    "correct_idx": [
+        4
+    ]
+}

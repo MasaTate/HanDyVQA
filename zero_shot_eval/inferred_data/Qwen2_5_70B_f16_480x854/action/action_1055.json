@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person lifted the plants with his left hand and tied the ropes with his right hand.",
+        "The person put down the plants with his left hand and grabbed the ropes with his right hand.",
+        "The person arranged the plants on a table using both hands while holding the ropes on his lap.",
+        "The person watered the plants with his left hand while holding the ropes in his right hand.",
+        "The person grabbed the plants with his right hand and placed the ropes on the ground with his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person lifted the plants with his left hand and tied the ropes with his right hand.\n(B) The person put down the plants with his left hand and grabbed the ropes with his right hand.\n(C) The person arranged the plants on a table using both hands while holding the ropes on his lap.\n(D) The person watered the plants with his left hand while holding the ropes in his right hand.\n(E) The person grabbed the plants with his right hand and placed the ropes on the ground with his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person put down the plants with his left hand and grabbed the ropes with his right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

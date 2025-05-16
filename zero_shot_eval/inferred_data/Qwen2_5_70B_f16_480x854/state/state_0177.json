@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the drawing book change?",
+    "options": [
+        "The drawing book was moved slightly to the left while the pencil remained still.",
+        "The drawing book had a contact with a pen, without any movement.",
+        "The drawing book had a contact with a pencil, and was slightly rotated.",
+        "The drawing book was lifted briefly while the pencil made contact.",
+        "The drawing book had a contact with a pencil, without any movement."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the drawing book change? Choose **only one** option from the following list.\nOptions:\n(A) The drawing book was moved slightly to the left while the pencil remained still.\n(B) The drawing book had a contact with a pen, without any movement.\n(C) The drawing book had a contact with a pencil, and was slightly rotated.\n(D) The drawing book was lifted briefly while the pencil made contact.\n(E) The drawing book had a contact with a pencil, without any movement.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The drawing book had a contact with a pencil, and was slightly rotated."
+    },
+    "correct_idx": [
+        4
+    ]
+}

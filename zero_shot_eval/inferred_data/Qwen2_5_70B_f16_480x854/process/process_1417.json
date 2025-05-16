@@ -1,0 +1,17 @@
+{
+    "question": "How does the person touch the cards?",
+    "options": [
+        "The person touches the cards with the right hand by moving the left hand to the center.",
+        "The person brushes the cards gently with the fingers of the left hand while placing the right hand beside them.",
+        "The person lifts the cards using both hands, holding them from the edges before setting them down again.",
+        "The person taps the cards slightly using their thumb while supporting them with the other fingers of the right hand.",
+        "The person picks up the cards with the right hand and flips them smoothly using the thumb and index finger of the left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person touch the cards? Choose **only one** option from the following list.\nOptions:\n(A) The person touches the cards with the right hand by moving the left hand to the center.\n(B) The person brushes the cards gently with the fingers of the left hand while placing the right hand beside them.\n(C) The person lifts the cards using both hands, holding them from the edges before setting them down again.\n(D) The person taps the cards slightly using their thumb while supporting them with the other fingers of the right hand.\n(E) The person picks up the cards with the right hand and flips them smoothly using the thumb and index finger of the left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person taps the cards slightly using their thumb while supporting them with the other fingers of the right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

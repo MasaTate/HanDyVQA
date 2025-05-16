@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the top of the brick mold change?",
+    "options": [
+        "The top of the brick mold was removed and set aside, changing its position.",
+        "The top of the brick mold was lifted and rotated, resulting in a new alignment.",
+        "The top of the brick mold was pushed aside and reattached, modifying its location.",
+        "The top of the brick mold was flattened and turned upside down, changing its shape.",
+        "The top of the brick mold was pressed down and then inverted, altering its orientation."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the top of the brick mold change? Choose **only one** option from the following list.\nOptions:\n(A) The top of the brick mold was removed and set aside, changing its position.\n(B) The top of the brick mold was lifted and rotated, resulting in a new alignment.\n(C) The top of the brick mold was pushed aside and reattached, modifying its location.\n(D) The top of the brick mold was flattened and turned upside down, changing its shape.\n(E) The top of the brick mold was pressed down and then inverted, altering its orientation.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The top of the brick mold was pressed down and then inverted, altering its orientation."
+    },
+    "correct_idx": [
+        4
+    ]
+}

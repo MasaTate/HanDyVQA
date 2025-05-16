@@ -1,0 +1,17 @@
+{
+    "question": "How does the person close the wall cabinet?",
+    "options": [
+        "The person closes the cabinet by gently pushing the door shut with both hands on either side.",
+        "The person guides the cabinet door back into place using the left hand.",
+        "The person swings the cabinet door shut by slightly moving the right arm from a distance.",
+        "The person closes the cabinet by pushing it with the right hand.",
+        "The person softly leans against the cabinet door to close it using body weight."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person close the wall cabinet? Choose **only one** option from the following list.\nOptions:\n(A) The person closes the cabinet by gently pushing the door shut with both hands on either side.\n(B) The person guides the cabinet door back into place using the left hand.\n(C) The person swings the cabinet door shut by slightly moving the right arm from a distance.\n(D) The person closes the cabinet by pushing it with the right hand.\n(E) The person softly leans against the cabinet door to close it using body weight.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person closes the cabinet by pushing it with the right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

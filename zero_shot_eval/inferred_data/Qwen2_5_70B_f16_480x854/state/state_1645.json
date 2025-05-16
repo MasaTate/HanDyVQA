@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the bike change?",
+    "options": [
+        "The bike was lubricated and poured with engine oil.",
+        "The bike was washed and polished with cleaning spray.",
+        "The bike was painted and adorned with colorful stickers.",
+        "The bike was dismantled and reassembled with new parts.",
+        "The bike was decorated with lights and a new seat cover."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the bike change? Choose **only one** option from the following list.\nOptions:\n(A) The bike was lubricated and poured with engine oil.\n(B) The bike was washed and polished with cleaning spray.\n(C) The bike was painted and adorned with colorful stickers.\n(D) The bike was dismantled and reassembled with new parts.\n(E) The bike was decorated with lights and a new seat cover.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The bike was lubricated and poured with engine oil."
+    },
+    "correct_idx": [
+        0
+    ]
+}

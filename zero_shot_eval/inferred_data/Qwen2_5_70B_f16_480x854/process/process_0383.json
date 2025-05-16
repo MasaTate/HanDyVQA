@@ -1,0 +1,17 @@
+{
+    "question": "How does the person rinse her right hand?",
+    "options": [
+        "The person gently places her right hand into the stream from the side, slightly moving her arm.",
+        "The person cups her right hand to gather water gently, then lets it drip off smoothly.",
+        "The person places her right hand above the sink and lets the running water flow over it gently.",
+        "The person holds her right hand under the water stream, moving it slightly in small circles.",
+        "The person quickly places his right hand under the running water and lets it rinse without additional movement."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person rinse her right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person gently places her right hand into the stream from the side, slightly moving her arm.\n(B) The person cups her right hand to gather water gently, then lets it drip off smoothly.\n(C) The person places her right hand above the sink and lets the running water flow over it gently.\n(D) The person holds her right hand under the water stream, moving it slightly in small circles.\n(E) The person quickly places his right hand under the running water and lets it rinse without additional movement.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person holds her right hand under the water stream, moving it slightly in small circles."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person dry the pot?",
+    "options": [
+        "The person shakes the pot gently to remove excess water before placing it on the drying rack.",
+        "The person waves the pot in the air, allowing the breeze to dry it off steadily.",
+        "The person uses a hair dryer to blow warm air onto the pot to dry it.",
+        "The person carefully places the pot upside down on the counter to let the water drip off.",
+        "The person wipes with the cloth to dry the pot."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person dry the pot? Choose **only one** option from the following list.\nOptions:\n(A) The person shakes the pot gently to remove excess water before placing it on the drying rack.\n(B) The person waves the pot in the air, allowing the breeze to dry it off steadily.\n(C) The person uses a hair dryer to blow warm air onto the pot to dry it.\n(D) The person carefully places the pot upside down on the counter to let the water drip off.\n(E) The person wipes with the cloth to dry the pot.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person wipes with the cloth to dry the pot."
+    },
+    "correct_idx": [
+        4
+    ]
+}

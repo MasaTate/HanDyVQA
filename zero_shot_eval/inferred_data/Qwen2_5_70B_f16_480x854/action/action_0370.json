@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is running while keeping both hands up in the air.",
+        "The person is standing while placing both hands on their hips.",
+        "The person is jogging while swinging both arms in front of their body.",
+        "The person is dancing while clapping both hands together.",
+        "The person is walking while moving both hands at the sides."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is running while keeping both hands up in the air.\n(B) The person is standing while placing both hands on their hips.\n(C) The person is jogging while swinging both arms in front of their body.\n(D) The person is dancing while clapping both hands together.\n(E) The person is walking while moving both hands at the sides.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person is walking while moving both hands at the sides."
+    },
+    "correct_idx": [
+        4
+    ]
+}

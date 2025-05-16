@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person pushes the button on the grasscutter with his right hand while stabilizing the machine with his left hand.",
+        "The person lifts the grasscutter handle with his right hand while gripping the base of the machine with his left hand.",
+        "The person adjusts the height of the grasscutter with his right hand while holding the front of the machine with his left hand.",
+        "The person turns on the grasscutter using the switch with his right hand while pulling the machine towards him with his left hand.",
+        "The person pulls the starter grip of the grasscutter with his right hand while holding the machine with his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person pushes the button on the grasscutter with his right hand while stabilizing the machine with his left hand.\n(B) The person lifts the grasscutter handle with his right hand while gripping the base of the machine with his left hand.\n(C) The person adjusts the height of the grasscutter with his right hand while holding the front of the machine with his left hand.\n(D) The person turns on the grasscutter using the switch with his right hand while pulling the machine towards him with his left hand.\n(E) The person pulls the starter grip of the grasscutter with his right hand while holding the machine with his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person pulls the starter grip of the grasscutter with his right hand while holding the machine with his left hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

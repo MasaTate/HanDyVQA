@@ -1,0 +1,17 @@
+{
+    "question": "How does the person peel a tree bark?",
+    "options": [
+        "The person tugs a strip upwards using the right hand to peel a tree bark.",
+        "The person pulls off a broad piece sideways using both hands to peel the tree bark.",
+        "The person removes the bark using a tool held in the right hand, barely involving their fingers.",
+        "The person rotates the bark away with a swift motion of the left hand to peel it off the tree.",
+        "The person gently pulls a strip downwards using the left hand to peel a tree."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person peel a tree bark? Choose **only one** option from the following list.\nOptions:\n(A) The person tugs a strip upwards using the right hand to peel a tree bark.\n(B) The person pulls off a broad piece sideways using both hands to peel the tree bark.\n(C) The person removes the bark using a tool held in the right hand, barely involving their fingers.\n(D) The person rotates the bark away with a swift motion of the left hand to peel it off the tree.\n(E) The person gently pulls a strip downwards using the left hand to peel a tree.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person gently pulls a strip downwards using the left hand to peel a tree."
+    },
+    "correct_idx": [
+        4
+    ]
+}

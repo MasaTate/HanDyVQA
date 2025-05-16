@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a water tube outlet on a   pipe change?",
+    "options": [
+        "The water tube outlet was turned but retained its original direction.",
+        "The water tube outlet was not turned but shifted slightly upward.",
+        "The water tube outlet was turned and changed its direction.",
+        "The water tube outlet was turned partially and then left in place.",
+        "The water tube outlet was twisted counterclockwise and kept the same direction."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a water tube outlet on a   pipe change? Choose **only one** option from the following list.\nOptions:\n(A) The water tube outlet was turned but retained its original direction.\n(B) The water tube outlet was not turned but shifted slightly upward.\n(C) The water tube outlet was turned and changed its direction.\n(D) The water tube outlet was turned partially and then left in place.\n(E) The water tube outlet was twisted counterclockwise and kept the same direction.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The water tube outlet was turned and changed its direction."
+    },
+    "correct_idx": [
+        2
+    ]
+}

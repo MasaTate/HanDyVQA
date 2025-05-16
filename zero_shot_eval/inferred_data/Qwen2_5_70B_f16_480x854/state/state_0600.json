@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the container of engine oil change?",
+    "options": [
+        "The container of the engine oil was poured onto the ground.",
+        "The container of the engine oil was placed on a shelf.",
+        "The container of the engine oil was sealed tightly with a lid.",
+        "The container of the engine oil was thrown into the pail.",
+        "The container of the engine oil was transferred to a different location."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the container of engine oil change? Choose **only one** option from the following list.\nOptions:\n(A) The container of the engine oil was poured onto the ground.\n(B) The container of the engine oil was placed on a shelf.\n(C) The container of the engine oil was sealed tightly with a lid.\n(D) The container of the engine oil was thrown into the pail.\n(E) The container of the engine oil was transferred to a different location.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The container of the engine oil was transferred to a different location."
+    },
+    "correct_idx": [
+        3
+    ]
+}

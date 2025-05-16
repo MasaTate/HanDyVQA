@@ -1,0 +1,17 @@
+{
+    "question": "How does the person transfer the needle?",
+    "options": [
+        "The person lightly tosses the needle toward the other hand, not using a firm grip.",
+        "The person struggles a bit with the needle, dropping it a couple of times before finally holding it with both hands.",
+        "The person uses her palm to nudge the needle across the table for a hand transfer.",
+        "The person transfers the needle by carefully holding it with her left hand before passing it to her right hand.",
+        "The person gently holds the needle in one hand and passes it toward the room instead of transferring it directly."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person transfer the needle? Choose **only one** option from the following list.\nOptions:\n(A) The person lightly tosses the needle toward the other hand, not using a firm grip.\n(B) The person struggles a bit with the needle, dropping it a couple of times before finally holding it with both hands.\n(C) The person uses her palm to nudge the needle across the table for a hand transfer.\n(D) The person transfers the needle by carefully holding it with her left hand before passing it to her right hand.\n(E) The person gently holds the needle in one hand and passes it toward the room instead of transferring it directly.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person transfers the needle by carefully holding it with her left hand before passing it to her right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

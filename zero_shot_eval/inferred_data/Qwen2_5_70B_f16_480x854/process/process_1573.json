@@ -1,0 +1,17 @@
+{
+    "question": "How does the person collect the sandpaper?",
+    "options": [
+        "The person moves the sandpaper with both hands from the corner, guiding it towards them effortlessly.",
+        "The person lifts the sandpaper from the table using their right hand, slightly creasing it as they raise it.",
+        "The person picks up the sandpaper with their left hand, then transfers it to the right hand by gently lifting and shifting it.",
+        "The person carefully folds the sandpaper in half and holds it snugly with their left hand, without transferring it.",
+        "The person uses their fingertips to pinch the edge of the sandpaper and smoothly slides it off the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person collect the sandpaper? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the sandpaper with both hands from the corner, guiding it towards them effortlessly.\n(B) The person lifts the sandpaper from the table using their right hand, slightly creasing it as they raise it.\n(C) The person picks up the sandpaper with their left hand, then transfers it to the right hand by gently lifting and shifting it.\n(D) The person carefully folds the sandpaper in half and holds it snugly with their left hand, without transferring it.\n(E) The person uses their fingertips to pinch the edge of the sandpaper and smoothly slides it off the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person picks up the sandpaper with their left hand, then transfers it to the right hand by gently lifting and shifting it."
+    },
+    "correct_idx": [
+        2
+    ]
+}

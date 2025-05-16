@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the sandpaper change?",
+    "options": [
+        "The sandpaper became damp and its texture changed as it was exposed to water.",
+        "The sandpaper crumbled and its texture changed as it was exposed to excessive heat.",
+        "The sandpaper was torn and its texture changed as it was pulled across the metal surface.",
+        "The sandpaper became worn and its texture changed as it was used to sand the wood.",
+        "The sandpaper became coated and its texture changed as it was used to apply a finish."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the sandpaper change? Choose **only one** option from the following list.\nOptions:\n(A) The sandpaper became damp and its texture changed as it was exposed to water.\n(B) The sandpaper crumbled and its texture changed as it was exposed to excessive heat.\n(C) The sandpaper was torn and its texture changed as it was pulled across the metal surface.\n(D) The sandpaper became worn and its texture changed as it was used to sand the wood.\n(E) The sandpaper became coated and its texture changed as it was used to apply a finish.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The sandpaper was torn and its texture changed as it was pulled across the metal surface."
+    },
+    "correct_idx": [
+        3
+    ]
+}

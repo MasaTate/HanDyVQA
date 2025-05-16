@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the brush change?",
+    "options": [
+        "The brush was transferred from the right hand to the left hand.",
+        "The brush was placed down on the table.",
+        "The brush was rotated clockwise while in the hand.",
+        "The brush was transferred from the left hand to the right hand.",
+        "The brush was lifted from the table and held in an upright position."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the brush change? Choose **only one** option from the following list.\nOptions:\n(A) The brush was transferred from the right hand to the left hand.\n(B) The brush was placed down on the table.\n(C) The brush was rotated clockwise while in the hand.\n(D) The brush was transferred from the left hand to the right hand.\n(E) The brush was lifted from the table and held in an upright position.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The brush was transferred from the left hand to the right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

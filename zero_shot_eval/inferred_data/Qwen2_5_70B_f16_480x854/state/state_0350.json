@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the bottle of engine oil change?",
+    "options": [
+        "The bottle of engine oil was moved to align the cap in the right hand and opened.",
+        "The bottle of engine oil was moved to align the cap in the left hand but not closed.",
+        "The bottle of engine oil was tilted sideways in the left hand but not closed.",
+        "The bottle of engine oil was moved and then the cap was aligned but left open.",
+        "The bottle of engine oil was moved to align the cap in the left hand and closed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the bottle of engine oil change? Choose **only one** option from the following list.\nOptions:\n(A) The bottle of engine oil was moved to align the cap in the right hand and opened.\n(B) The bottle of engine oil was moved to align the cap in the left hand but not closed.\n(C) The bottle of engine oil was tilted sideways in the left hand but not closed.\n(D) The bottle of engine oil was moved and then the cap was aligned but left open.\n(E) The bottle of engine oil was moved to align the cap in the left hand and closed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The bottle of engine oil was moved to align the cap in the left hand and closed."
+    },
+    "correct_idx": [
+        4
+    ]
+}

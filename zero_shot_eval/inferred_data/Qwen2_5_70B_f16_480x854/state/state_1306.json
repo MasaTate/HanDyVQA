@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the inside of the plate change?",
+    "options": [
+        "The inside of the plate was dry and covered with a layer of dust.",
+        "The inside of the plate was filled with water and left to soak.",
+        "The inside of the plate was wet and scrubbed with a sponge.",
+        "The inside of the plate was stained and left uncleaned for days.",
+        "The inside of the plate was filled with food scraps and wiped with a cloth."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the inside of the plate change? Choose **only one** option from the following list.\nOptions:\n(A) The inside of the plate was dry and covered with a layer of dust.\n(B) The inside of the plate was filled with water and left to soak.\n(C) The inside of the plate was wet and scrubbed with a sponge.\n(D) The inside of the plate was stained and left uncleaned for days.\n(E) The inside of the plate was filled with food scraps and wiped with a cloth.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The inside of the plate was wet and scrubbed with a sponge."
+    },
+    "correct_idx": [
+        2
+    ]
+}

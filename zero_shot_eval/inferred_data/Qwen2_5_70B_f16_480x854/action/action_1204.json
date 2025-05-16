@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person poured the scrambled eggs into a bowl using their right hand while holding a spoon in their left hand.",
+        "The person placed the scrambled eggs onto a plate using their right hand while holding a spatula in their left hand.",
+        "The person poured the scrambled eggs into the frying pan using their right hand while holding the chopsticks in their left hand.",
+        "The person whisked the scrambled eggs in a bowl using their right hand while holding the bowl with their left hand.",
+        "The person served the scrambled eggs onto bread using their right hand while holding a plate in their left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person poured the scrambled eggs into a bowl using their right hand while holding a spoon in their left hand.\n(B) The person placed the scrambled eggs onto a plate using their right hand while holding a spatula in their left hand.\n(C) The person poured the scrambled eggs into the frying pan using their right hand while holding the chopsticks in their left hand.\n(D) The person whisked the scrambled eggs in a bowl using their right hand while holding the bowl with their left hand.\n(E) The person served the scrambled eggs onto bread using their right hand while holding a plate in their left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person poured the scrambled eggs into the frying pan using their right hand while holding the chopsticks in their left hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

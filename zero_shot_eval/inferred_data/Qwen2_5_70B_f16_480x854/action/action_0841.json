@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person takes the bag of chips from the girl's left hand using their right hand.",
+        "The person retrieves the bag of popcorn from the table using their left hand while reaching for a drink with their right hand.",
+        "The person grabs the bag of chips from the boy's backpack using their left hand while holding a soda can in their right hand.",
+        "The person's left hand takes the bag of chips from the boy's right hand.",
+        "The person exchanges the bag of chips with the boy, offering him a chocolate bar with their right hand while taking the chips with their left."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person takes the bag of chips from the girl's left hand using their right hand.\n(B) The person retrieves the bag of popcorn from the table using their left hand while reaching for a drink with their right hand.\n(C) The person grabs the bag of chips from the boy's backpack using their left hand while holding a soda can in their right hand.\n(D) The person's left hand takes the bag of chips from the boy's right hand.\n(E) The person exchanges the bag of chips with the boy, offering him a chocolate bar with their right hand while taking the chips with their left.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person's left hand takes the bag of chips from the boy's right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

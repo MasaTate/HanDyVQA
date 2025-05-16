@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person adjusts the faucet handle using his/her right hand while holding the sink hose with his/her left hand.",
+        "The person coils the sink hose using his/her right hand while stabilizing it with his/her left hand.",
+        "The person washes vegetables under the sink using his/her right hand while manipulating the hose with his/her left hand.",
+        "The person pulls the sink hose using his/her right hand.",
+        "The person pushes the sink hose back into the cabinet with his/her right hand while gripping the faucet with his/her left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person adjusts the faucet handle using his/her right hand while holding the sink hose with his/her left hand.\n(B) The person coils the sink hose using his/her right hand while stabilizing it with his/her left hand.\n(C) The person washes vegetables under the sink using his/her right hand while manipulating the hose with his/her left hand.\n(D) The person pulls the sink hose using his/her right hand.\n(E) The person pushes the sink hose back into the cabinet with his/her right hand while gripping the faucet with his/her left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person pulls the sink hose using his/her right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

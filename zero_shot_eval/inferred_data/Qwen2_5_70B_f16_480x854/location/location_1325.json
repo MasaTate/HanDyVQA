@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put his gloved right hand?",
+    "options": [
+        "The person put his gloved right hand inside the pitcher filled with water.",
+        "The person put his gloved right hand beside the pitcher on the table.",
+        "The person put his gloved right hand behind the pitcher on the shelf.",
+        "The person put his gloved right hand above the pitcher on the counter.",
+        "The person put his gloved right hand underneath the pitcher on the floor."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put his gloved right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person put his gloved right hand inside the pitcher filled with water.\n(B) The person put his gloved right hand beside the pitcher on the table.\n(C) The person put his gloved right hand behind the pitcher on the shelf.\n(D) The person put his gloved right hand above the pitcher on the counter.\n(E) The person put his gloved right hand underneath the pitcher on the floor.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person put his gloved right hand inside the pitcher filled with water."
+    },
+    "correct_idx": [
+        0
+    ]
+}

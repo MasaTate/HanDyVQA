@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the chair?",
+    "options": [
+        "The person pushes the green chair in front of the black chair.",
+        "The person drags the green chair to the right side, behind the black chair.",
+        "The person slides the green chair to the right of the black chair.",
+        "The person lifts the green chair above the black chair.",
+        "The person carries the green chair to the left side of the black chair."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the chair? Choose **only one** option from the following list.\nOptions:\n(A) The person pushes the green chair in front of the black chair.\n(B) The person drags the green chair to the right side, behind the black chair.\n(C) The person slides the green chair to the right of the black chair.\n(D) The person lifts the green chair above the black chair.\n(E) The person carries the green chair to the left side of the black chair.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person carries the green chair to the left side of the black chair."
+    },
+    "correct_idx": [
+        1
+    ]
+}

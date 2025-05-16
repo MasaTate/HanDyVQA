@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of an open compartment of the tool cabinet outwards change?",
+    "options": [
+        "The open compartment's position shifted as it was pushed to close partially.",
+        "The open compartment's position remained the same as it was held in place without any movement.",
+        "The open compartment's position was adjusted as it was rotated to reveal additional tools inside.",
+        "The open compartment's position was altered as it was pulled to open further.",
+        "The open compartment's position changed as it was raised to access a higher shelf above."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of an open compartment of the tool cabinet outwards change? Choose **only one** option from the following list.\nOptions:\n(A) The open compartment's position shifted as it was pushed to close partially.\n(B) The open compartment's position remained the same as it was held in place without any movement.\n(C) The open compartment's position was adjusted as it was rotated to reveal additional tools inside.\n(D) The open compartment's position was altered as it was pulled to open further.\n(E) The open compartment's position changed as it was raised to access a higher shelf above.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The open compartment's position was altered as it was pulled to open further."
+    },
+    "correct_idx": [
+        3
+    ]
+}

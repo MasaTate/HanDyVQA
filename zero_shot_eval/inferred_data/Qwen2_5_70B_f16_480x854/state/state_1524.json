@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the keyboard of the desktop change?",
+    "options": [
+        "The keyboard keys were removed, leaving empty spaces where they used to be.",
+        "The keyboard keys were pressed, causing them to be temporarily depressed.",
+        "The keyboard surface was wiped, making it appear shiny and clean.",
+        "The keyboard was flipped upside down, allowing dust and debris to fall out.",
+        "The keyboard was disconnected from the computer, stopping its functionality altogether."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the keyboard of the desktop change? Choose **only one** option from the following list.\nOptions:\n(A) The keyboard keys were removed, leaving empty spaces where they used to be.\n(B) The keyboard keys were pressed, causing them to be temporarily depressed.\n(C) The keyboard surface was wiped, making it appear shiny and clean.\n(D) The keyboard was flipped upside down, allowing dust and debris to fall out.\n(E) The keyboard was disconnected from the computer, stopping its functionality altogether.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The keyboard keys were pressed, causing them to be temporarily depressed."
+    },
+    "correct_idx": [
+        1
+    ]
+}

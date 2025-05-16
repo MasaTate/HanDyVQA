@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the cloth?",
+    "options": [
+        "The person dropped the cloth onto the shelf beside the books.",
+        "The person dropped the cloth onto the floor near the pile of books.",
+        "The person dropped the cloth onto the pile of books.",
+        "The person dropped the cloth onto the table in front of the books.",
+        "The person dropped the cloth onto the chair next to the pile of books."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the cloth? Choose **only one** option from the following list.\nOptions:\n(A) The person dropped the cloth onto the shelf beside the books.\n(B) The person dropped the cloth onto the floor near the pile of books.\n(C) The person dropped the cloth onto the pile of books.\n(D) The person dropped the cloth onto the table in front of the books.\n(E) The person dropped the cloth onto the chair next to the pile of books.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person dropped the cloth onto the pile of books."
+    },
+    "correct_idx": [
+        2
+    ]
+}

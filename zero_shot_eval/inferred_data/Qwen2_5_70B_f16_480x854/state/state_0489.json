@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the carton change?",
+    "options": [
+        "The carton was lifted and returned to its original place.",
+        "The carton was tilted and then placed on its side.",
+        "The carton was lifted and moved a short distance from its original place.",
+        "The carton was lifted and then set down facing the opposite direction.",
+        "The carton was moved a short distance and not returned to its original place."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the carton change? Choose **only one** option from the following list.\nOptions:\n(A) The carton was lifted and returned to its original place.\n(B) The carton was tilted and then placed on its side.\n(C) The carton was lifted and moved a short distance from its original place.\n(D) The carton was lifted and then set down facing the opposite direction.\n(E) The carton was moved a short distance and not returned to its original place.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The carton was lifted and moved a short distance from its original place."
+    },
+    "correct_idx": [
+        0
+    ]
+}

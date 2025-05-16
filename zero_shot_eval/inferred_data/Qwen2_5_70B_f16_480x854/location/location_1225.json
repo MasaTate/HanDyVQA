@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place his left hand?",
+    "options": [
+        "The person places his left hand on the top edge of the countertop.",
+        "The person places his left hand on the left side of the countertop.",
+        "The person place his left hand on the bottom edge of the countertop.",
+        "The person places his left hand on the right corner of the countertop.",
+        "The person places his left hand in the center of the countertop."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place his left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person places his left hand on the top edge of the countertop.\n(B) The person places his left hand on the left side of the countertop.\n(C) The person place his left hand on the bottom edge of the countertop.\n(D) The person places his left hand on the right corner of the countertop.\n(E) The person places his left hand in the center of the countertop.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person place his left hand on the bottom edge of the countertop."
+    },
+    "correct_idx": [
+        2
+    ]
+}

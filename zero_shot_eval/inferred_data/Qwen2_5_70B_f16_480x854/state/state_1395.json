@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of pepper change?",
+    "options": [
+        "The pepper was removed from the container and was diced into tiny cubes.",
+        "The pepper was poured out of the container and was chopped into strips.",
+        "The pepper was emptied from the container and was julienned into long thin slices.",
+        "The pepper was taken from the container and was sliced diagonally in small pieces.",
+        "The pepper was taken out of the container and was ground into a fine powder."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of pepper change? Choose **only one** option from the following list.\nOptions:\n(A) The pepper was removed from the container and was diced into tiny cubes.\n(B) The pepper was poured out of the container and was chopped into strips.\n(C) The pepper was emptied from the container and was julienned into long thin slices.\n(D) The pepper was taken from the container and was sliced diagonally in small pieces.\n(E) The pepper was taken out of the container and was ground into a fine powder.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The pepper was taken from the container and was sliced diagonally in small pieces."
+    },
+    "correct_idx": [
+        3
+    ]
+}

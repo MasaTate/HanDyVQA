@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person opened the zip lock bag using both hands and then picked up some piece of food using the right hand.",
+        "The person sealed the zip lock bag using both hands.",
+        "The person filled a zip lock bag with snacks using both hands.",
+        "The person closed the zip lock bag with one hand while holding a container in the other.",
+        "The person inspected the contents of the zip lock bag using both hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person opened the zip lock bag using both hands and then picked up some piece of food using the right hand.\n(B) The person sealed the zip lock bag using both hands.\n(C) The person filled a zip lock bag with snacks using both hands.\n(D) The person closed the zip lock bag with one hand while holding a container in the other.\n(E) The person inspected the contents of the zip lock bag using both hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person opened the zip lock bag using both hands and then picked up some piece of food using the right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "remote controller",
+        "tv",
+        "needle",
+        "couch",
+        "chair",
+        "table",
+        "fabric",
+        "towel",
+        "yarn"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) remote controller\n(B) tv\n(C) needle\n(D) couch\n(E) chair\n(F) table\n(G) fabric\n(H) towel\n(I) yarn\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(A) remote controller\n(C) needle\n(G) fabric"
+    },
+    "correct_idx": [
+        0,
+        2,
+        6
+    ]
+}

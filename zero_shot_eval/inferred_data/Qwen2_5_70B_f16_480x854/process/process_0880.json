@@ -1,0 +1,17 @@
+{
+    "question": "How does the person tighten the bolt?",
+    "options": [
+        "The person uses a wrench to tighten the bolt by twisting it in a clockwise direction repeatedly.",
+        "The person uses their hands to try and grip the bolt tightly, applying pressure downward.",
+        "The person turns the bolt in a counterclockwise direction using a pliers, which accidentally loosens it.",
+        "The person attempts to hold the bolt with their fingers and pull it upward to adjust it instead of using a tool.",
+        "The person presses down on the bolt with the palm of their hand, applying direct pressure instead of twisting with a wrench."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person tighten the bolt? Choose **only one** option from the following list.\nOptions:\n(A) The person uses a wrench to tighten the bolt by twisting it in a clockwise direction repeatedly.\n(B) The person uses their hands to try and grip the bolt tightly, applying pressure downward.\n(C) The person turns the bolt in a counterclockwise direction using a pliers, which accidentally loosens it.\n(D) The person attempts to hold the bolt with their fingers and pull it upward to adjust it instead of using a tool.\n(E) The person presses down on the bolt with the palm of their hand, applying direct pressure instead of twisting with a wrench.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person uses a wrench to tighten the bolt by twisting it in a clockwise direction repeatedly."
+    },
+    "correct_idx": [
+        0
+    ]
+}

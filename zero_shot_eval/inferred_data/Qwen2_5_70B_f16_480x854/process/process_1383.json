@@ -1,0 +1,17 @@
+{
+    "question": "How does the person set the paper?",
+    "options": [
+        "The person casually places the paper onto the table, gently flicking it with the right hand.",
+        "The person nudges the paper forward with fingers of the left hand, letting it slide across the surface.",
+        "The person folds the paper carefully and places it aside using the dominant hand.",
+        "The person immediately sets the paper by organizing it and moving it to the right side using both hands.",
+        "The person lifts the paper slightly and lets it settle softly with the one hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person set the paper? Choose **only one** option from the following list.\nOptions:\n(A) The person casually places the paper onto the table, gently flicking it with the right hand.\n(B) The person nudges the paper forward with fingers of the left hand, letting it slide across the surface.\n(C) The person folds the paper carefully and places it aside using the dominant hand.\n(D) The person immediately sets the paper by organizing it and moving it to the right side using both hands.\n(E) The person lifts the paper slightly and lets it settle softly with the one hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person immediately sets the paper by organizing it and moving it to the right side using both hands."
+    },
+    "correct_idx": [
+        3
+    ]
+}

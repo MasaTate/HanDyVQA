@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is fastening the buttons on the shirt collar with her hands.",
+        "The person is rolling up the pant legs with her hands.",
+        "The person is adjusting the sleeves of the jacket with her hands.",
+        "The person is fixing the belt on her waist with her hands.",
+        "The person is smoothing down the hem of the dress with her hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is fastening the buttons on the shirt collar with her hands.\n(B) The person is rolling up the pant legs with her hands.\n(C) The person is adjusting the sleeves of the jacket with her hands.\n(D) The person is fixing the belt on her waist with her hands.\n(E) The person is smoothing down the hem of the dress with her hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person is adjusting the sleeves of the jacket with her hands."
+    },
+    "correct_idx": [
+        2
+    ]
+}

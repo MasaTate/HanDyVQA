@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person offers to hold his/her right hand to the woman.",
+        "The person extends his/her left hand to the woman while gesturing with his/her right hand.",
+        "The person is waving his/her right hand at the woman while his/her left hand remains in his/her pocket.",
+        "The person is placing his/her right hand on the woman's shoulder while his/her left hand holds a drink.",
+        "The person is reaching out with both hands to greet the woman."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person offers to hold his/her right hand to the woman.\n(B) The person extends his/her left hand to the woman while gesturing with his/her right hand.\n(C) The person is waving his/her right hand at the woman while his/her left hand remains in his/her pocket.\n(D) The person is placing his/her right hand on the woman's shoulder while his/her left hand holds a drink.\n(E) The person is reaching out with both hands to greet the woman.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person extends his/her left hand to the woman while gesturing with his/her right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

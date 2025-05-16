@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the grater change?",
+    "options": [
+        "The grater was shaken while applied with a carrot.",
+        "The grater was pressed down as a carrot was applied on it.",
+        "The grater was turned upside down while applied with a carrot.",
+        "The grater was tilted to the side while a carrot was applied.",
+        "The grater was tapped on the counter after being used with a carrot."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the grater change? Choose **only one** option from the following list.\nOptions:\n(A) The grater was shaken while applied with a carrot.\n(B) The grater was pressed down as a carrot was applied on it.\n(C) The grater was turned upside down while applied with a carrot.\n(D) The grater was tilted to the side while a carrot was applied.\n(E) The grater was tapped on the counter after being used with a carrot.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The grater was shaken while applied with a carrot."
+    },
+    "correct_idx": [
+        0
+    ]
+}

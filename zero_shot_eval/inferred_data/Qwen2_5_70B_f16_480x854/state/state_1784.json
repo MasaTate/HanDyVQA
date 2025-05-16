@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the screwdriver change?",
+    "options": [
+        "The screwdriver was moved to the right and used to tighten the screw.",
+        "The screwdriver was lifted upwards and used to loosen the screw.",
+        "The screwdriver was moved downwards and positioned to tighten another screw.",
+        "The screwdriver was moved to the left and used to tighten the screw.",
+        "The screwdriver was spun counter-clockwise but did not engage with any screw."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the screwdriver change? Choose **only one** option from the following list.\nOptions:\n(A) The screwdriver was moved to the right and used to tighten the screw.\n(B) The screwdriver was lifted upwards and used to loosen the screw.\n(C) The screwdriver was moved downwards and positioned to tighten another screw.\n(D) The screwdriver was moved to the left and used to tighten the screw.\n(E) The screwdriver was spun counter-clockwise but did not engage with any screw.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The screwdriver was moved to the right and used to tighten the screw."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pack the chopped tomatoes?",
+    "options": [
+        "The person pushes the chopped tomatoes with her left hand and then uses her right hand to scoop them into a bowl with a ladle.",
+        "The person holds the chopped tomatoes gently with both hands and transfers them into a container.",
+        "The person picks up the chopped tomatoes with her right hand and places them into the container with care, using both hands.",
+        "The person lifts the chopped tomatoes with a fork in her right hand and moves them into a container with her left hand.",
+        "The person packs the chopped tomatoes by using the knife in her right hand and fetching them with her left hand, then dropping them into a container."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pack the chopped tomatoes? Choose **only one** option from the following list.\nOptions:\n(A) The person pushes the chopped tomatoes with her left hand and then uses her right hand to scoop them into a bowl with a ladle.\n(B) The person holds the chopped tomatoes gently with both hands and transfers them into a container.\n(C) The person picks up the chopped tomatoes with her right hand and places them into the container with care, using both hands.\n(D) The person lifts the chopped tomatoes with a fork in her right hand and moves them into a container with her left hand.\n(E) The person packs the chopped tomatoes by using the knife in her right hand and fetching them with her left hand, then dropping them into a container.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person packs the chopped tomatoes by using the knife in her right hand and fetching them with her left hand, then dropping them into a container."
+    },
+    "correct_idx": [
+        4
+    ]
+}

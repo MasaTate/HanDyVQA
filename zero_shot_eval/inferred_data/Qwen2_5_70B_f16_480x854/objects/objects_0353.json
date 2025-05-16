@@ -1,0 +1,21 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "wheel cassette",
+        "shoes",
+        "bolt",
+        "tool box",
+        "bag",
+        "and wrench",
+        "plastic bottle"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) wheel cassette\n(B) shoes\n(C) bolt\n(D) tool box\n(E) bag\n(F) and wrench\n(G) plastic bottle\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(A) wheel cassette\n(C) bolt"
+    },
+    "correct_idx": [
+        0,
+        2,
+        5
+    ]
+}

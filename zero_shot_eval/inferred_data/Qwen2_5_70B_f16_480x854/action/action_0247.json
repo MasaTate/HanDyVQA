@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is using both hands to adjust the water pressure by turning the water valve handle.",
+        "The person is using one hand to grip the showerhead to direct the water flow while standing in the bathtub.",
+        "The person turns on the water using his right hand while his left hand presses the pump for hand washing soap.",
+        "The person is using a wrench in his right hand to tighten the drain plug while his left hand steadies the sink.",
+        "The person is pressing the soap dispenser button with his right thumb while his left hand holds the sink rim."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is using both hands to adjust the water pressure by turning the water valve handle.\n(B) The person is using one hand to grip the showerhead to direct the water flow while standing in the bathtub.\n(C) The person turns on the water using his right hand while his left hand presses the pump for hand washing soap.\n(D) The person is using a wrench in his right hand to tighten the drain plug while his left hand steadies the sink.\n(E) The person is pressing the soap dispenser button with his right thumb while his left hand holds the sink rim.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person turns on the water using his right hand while his left hand presses the pump for hand washing soap."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move a hand glove?",
+    "options": [
+        "The person moved the hand glove at the right corner of the sink.",
+        "The person moved the hand glove at the left corner of the sink.",
+        "The person moved the hand glove on the edge of the countertop.",
+        "The person moved the hand glove at the back corner of the drawer.",
+        "The person moved the hand glove next to the faucet of the sink."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move a hand glove? Choose **only one** option from the following list.\nOptions:\n(A) The person moved the hand glove at the right corner of the sink.\n(B) The person moved the hand glove at the left corner of the sink.\n(C) The person moved the hand glove on the edge of the countertop.\n(D) The person moved the hand glove at the back corner of the drawer.\n(E) The person moved the hand glove next to the faucet of the sink.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person moved the hand glove at the right corner of the sink."
+    },
+    "correct_idx": [
+        0
+    ]
+}

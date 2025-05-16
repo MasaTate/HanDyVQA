@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is cutting leaves of the vegetable with a knife in his right hand while holding the vegetable with his left hand.",
+        "The person is placing leaves of the vegetable on the table using both hands.",
+        "The person is cleaning leaves of the vegetable in the sink using both hands.",
+        "The person segregates the leaves of the vegetable using both hands.",
+        "The person is pulling leaves of the vegetable apart using both hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is cutting leaves of the vegetable with a knife in his right hand while holding the vegetable with his left hand.\n(B) The person is placing leaves of the vegetable on the table using both hands.\n(C) The person is cleaning leaves of the vegetable in the sink using both hands.\n(D) The person segregates the leaves of the vegetable using both hands.\n(E) The person is pulling leaves of the vegetable apart using both hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person is pulling leaves of the vegetable apart using both hands."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person spread the paste?",
+    "options": [
+        "The person uses her fingers to scoop the paste from the jar, then gently spreads it on the bread with her left hand.",
+        "The person grabs a knife with her right hand and carefully spreads an even layer of paste over the bread while controlling the amount used.",
+        "The person tilts the jar to guide the paste onto the bread, using both hands to keep the jar and bread steady.",
+        "The person picks up a piece of bread with her left hand and smoothly applies the paste from the bowl using her right hand.",
+        "The person scoops spread into a bowl using a spoon that she holds in her right hand and spreads the paste from left to right direction starting from the bottom part of the bread."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person spread the paste? Choose **only one** option from the following list.\nOptions:\n(A) The person uses her fingers to scoop the paste from the jar, then gently spreads it on the bread with her left hand.\n(B) The person grabs a knife with her right hand and carefully spreads an even layer of paste over the bread while controlling the amount used.\n(C) The person tilts the jar to guide the paste onto the bread, using both hands to keep the jar and bread steady.\n(D) The person picks up a piece of bread with her left hand and smoothly applies the paste from the bowl using her right hand.\n(E) The person scoops spread into a bowl using a spoon that she holds in her right hand and spreads the paste from left to right direction starting from the bottom part of the bread.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person scoops spread into a bowl using a spoon that she holds in her right hand and spreads the paste from left to right direction starting from the bottom part of the bread."
+    },
+    "correct_idx": [
+        4
+    ]
+}

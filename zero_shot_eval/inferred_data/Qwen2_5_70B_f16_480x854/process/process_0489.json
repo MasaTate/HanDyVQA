@@ -1,0 +1,17 @@
+{
+    "question": "How does the person poke the pottery with the needle tool?",
+    "options": [
+        "The person holds the needle tool with her left hand and positions it sideways, gently pressing it into the pottery to create wider indentations.",
+        "The person pokes the pottery with the needle tool with her right hand, positioning it above the pottery, then gently presses the tool's tip into its surface, applying controlled pressure to create precise pokes or marks.",
+        "The person uses both hands to hold the needle tool, carefully applying extra pressure, resulting in deeper impressions on the pottery's surface.",
+        "With a focused tap using her right hand, the person pokes the tool into the pottery, making uneven marks rather than uniform ones.",
+        "The person grips the needle tool in her right hand and strokes it over the pottery's surface, producing fine lines instead of distinct pokes."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person poke the pottery with the needle tool? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the needle tool with her left hand and positions it sideways, gently pressing it into the pottery to create wider indentations.\n(B) The person pokes the pottery with the needle tool with her right hand, positioning it above the pottery, then gently presses the tool's tip into its surface, applying controlled pressure to create precise pokes or marks.\n(C) The person uses both hands to hold the needle tool, carefully applying extra pressure, resulting in deeper impressions on the pottery's surface.\n(D) With a focused tap using her right hand, the person pokes the tool into the pottery, making uneven marks rather than uniform ones.\n(E) The person grips the needle tool in her right hand and strokes it over the pottery's surface, producing fine lines instead of distinct pokes.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person pokes the pottery with the needle tool with her right hand, positioning it above the pottery, then gently presses the tool's tip into its surface, applying controlled pressure to create precise pokes or marks."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person cover the plastic case?",
+    "options": [
+        "The person covers the plastic case by using both hands to gently slide the lid into place.",
+        "The person gently places the lid on top of the plastic case and applies light pressure with the palm of their left hand.",
+        "The person secures the plastic case by pressing down the edges with their left thumb and index finger.",
+        "The person aligns the cover over the plastic case and presses it down using the palm of their right hand.",
+        "The person covers the plastic case by applying pressure and pressing it down using his right thumb."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person cover the plastic case? Choose **only one** option from the following list.\nOptions:\n(A) The person covers the plastic case by using both hands to gently slide the lid into place.\n(B) The person gently places the lid on top of the plastic case and applies light pressure with the palm of their left hand.\n(C) The person secures the plastic case by pressing down the edges with their left thumb and index finger.\n(D) The person aligns the cover over the plastic case and presses it down using the palm of their right hand.\n(E) The person covers the plastic case by applying pressure and pressing it down using his right thumb.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person covers the plastic case by applying pressure and pressing it down using his right thumb."
+    },
+    "correct_idx": [
+        4
+    ]
+}

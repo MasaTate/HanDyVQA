@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pat the dog's head?",
+    "options": [
+        "The person quickly pats the dog's head with a swift, smacking motion using their left hand.",
+        "The person softly caresses the dog's head in slow, circular motions using their right hand.",
+        "The person exerts gentle pressure on the dog's head with both hands simultaneously.",
+        "The person glides their fingers softly along the dog's head with an open palm from above.",
+        "The person smoothly runs their hand over the dog's head, with a slight trailing motion of their fingers."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pat the dog's head? Choose **only one** option from the following list.\nOptions:\n(A) The person quickly pats the dog's head with a swift, smacking motion using their left hand.\n(B) The person softly caresses the dog's head in slow, circular motions using their right hand.\n(C) The person exerts gentle pressure on the dog's head with both hands simultaneously.\n(D) The person glides their fingers softly along the dog's head with an open palm from above.\n(E) The person smoothly runs their hand over the dog's head, with a slight trailing motion of their fingers.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person smoothly runs their hand over the dog's head, with a slight trailing motion of their fingers."
+    },
+    "correct_idx": [
+        0
+    ]
+}

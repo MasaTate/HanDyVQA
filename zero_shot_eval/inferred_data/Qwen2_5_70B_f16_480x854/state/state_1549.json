@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the die cutting machine change?",
+    "options": [
+        "The die-cutting machine was shifted from its original position to the front left, altering its placement.",
+        "The die-cutting machine was shifted from its original position to the back right, altering its placement.",
+        "The die-cutting machine was shifted from its original position to the front, but its original angle was maintained.",
+        "The die-cutting machine was rotated slightly but remained in its initial position.",
+        "The die-cutting machine was shifted to the left but not to the front, changing its placement."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the die cutting machine change? Choose **only one** option from the following list.\nOptions:\n(A) The die-cutting machine was shifted from its original position to the front left, altering its placement.\n(B) The die-cutting machine was shifted from its original position to the back right, altering its placement.\n(C) The die-cutting machine was shifted from its original position to the front, but its original angle was maintained.\n(D) The die-cutting machine was rotated slightly but remained in its initial position.\n(E) The die-cutting machine was shifted to the left but not to the front, changing its placement.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The die-cutting machine was shifted from its original position to the back right, altering its placement."
+    },
+    "correct_idx": [
+        0
+    ]
+}

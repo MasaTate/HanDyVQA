@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is placing buttons on the fabric with her right hand.",
+        "The person is sewing the fabric using a needle in her right hand while holding the thread with her left hand.",
+        "The person is arranging clips on the fabric with her right hand.",
+        "The person is weaving the fabric using her hands while holding a loom.",
+        "The person is placing a marking pin on the fabric with her right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is placing buttons on the fabric with her right hand.\n(B) The person is sewing the fabric using a needle in her right hand while holding the thread with her left hand.\n(C) The person is arranging clips on the fabric with her right hand.\n(D) The person is weaving the fabric using her hands while holding a loom.\n(E) The person is placing a marking pin on the fabric with her right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person is placing a marking pin on the fabric with her right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

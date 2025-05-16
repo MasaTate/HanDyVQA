@@ -1,0 +1,17 @@
+{
+    "question": "How does the person check his watch?",
+    "options": [
+        "The person uses his right hand to slide the sleeve back, exposing the left arm wearing the watch. Then slightly moving the arms upward so the time is easier to glance at and read. Then slide the sleeve back.",
+        "The person twists his torso to get a better view of the watch while using his left hand to adjust the right sleeve, inadvertently causing the watch to become obscured by the fabric.",
+        "The person pulls down firmly on his shirt, which results in the watch pressing against the wrist, making it challenging to read the time properly.",
+        "The person raises both arms above his head with clenched fists, unintentionally blocking the view of the watch while trying to check the time.",
+        "The person bends forward at the waist and uses his right hand to tug at the left sleeve, but rather than revealing the watch, he inadvertently covers it more."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person check his watch? Choose **only one** option from the following list.\nOptions:\n(A) The person uses his right hand to slide the sleeve back, exposing the left arm wearing the watch. Then slightly moving the arms upward so the time is easier to glance at and read. Then slide the sleeve back.\n(B) The person twists his torso to get a better view of the watch while using his left hand to adjust the right sleeve, inadvertently causing the watch to become obscured by the fabric.\n(C) The person pulls down firmly on his shirt, which results in the watch pressing against the wrist, making it challenging to read the time properly.\n(D) The person raises both arms above his head with clenched fists, unintentionally blocking the view of the watch while trying to check the time.\n(E) The person bends forward at the waist and uses his right hand to tug at the left sleeve, but rather than revealing the watch, he inadvertently covers it more.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person uses his right hand to slide the sleeve back, exposing the left arm wearing the watch. Then slightly moving the arms upward so the time is easier to glance at and read. Then slide the sleeve back."
+    },
+    "correct_idx": [
+        0
+    ]
+}

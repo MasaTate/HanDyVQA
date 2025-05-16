@@ -1,0 +1,17 @@
+{
+    "question": "How does the person smoothen the piece of cloth with left hand?",
+    "options": [
+        "The person places their left hand on the piece of cloth, spreads their fingers, and moves their hand in a slow, sweeping motion to smooth out any wrinkles.",
+        "The person grips the piece of cloth with the left hand and gently pulls it to the side to remove any wrinkles.",
+        "The person holds the piece of cloth in the left hand and moves it steadily to eliminate any creases.",
+        "The person pinches the piece of cloth with the left hand and gently drags it across a flat surface to flatten it out.",
+        "The person gathers the piece of cloth in the left hand before setting it smoothly onto a table to let it settle."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person smoothen the piece of cloth with left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person places their left hand on the piece of cloth, spreads their fingers, and moves their hand in a slow, sweeping motion to smooth out any wrinkles.\n(B) The person grips the piece of cloth with the left hand and gently pulls it to the side to remove any wrinkles.\n(C) The person holds the piece of cloth in the left hand and moves it steadily to eliminate any creases.\n(D) The person pinches the piece of cloth with the left hand and gently drags it across a flat surface to flatten it out.\n(E) The person gathers the piece of cloth in the left hand before setting it smoothly onto a table to let it settle.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person places their left hand on the piece of cloth, spreads their fingers, and moves their hand in a slow, sweeping motion to smooth out any wrinkles."
+    },
+    "correct_idx": [
+        0
+    ]
+}

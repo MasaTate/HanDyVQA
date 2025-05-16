@@ -1,0 +1,17 @@
+{
+    "question": "How does the person dust the wood surface?",
+    "options": [
+        "The person swipes across the wood surface with both hands to remove the dust.",
+        "The person uses his right hand to brush the dust off the wood surface with a gentle motion.",
+        "The person dusts the wood surface gently by moving his right hand to the left to wipe the dust from the wood surface.",
+        "The person brushes the dust away using a downward motion with his left hand while holding a cloth softly.",
+        "The person taps the wood surface with his fingertips to gently dislodge the dust particles."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person dust the wood surface? Choose **only one** option from the following list.\nOptions:\n(A) The person swipes across the wood surface with both hands to remove the dust.\n(B) The person uses his right hand to brush the dust off the wood surface with a gentle motion.\n(C) The person dusts the wood surface gently by moving his right hand to the left to wipe the dust from the wood surface.\n(D) The person brushes the dust away using a downward motion with his left hand while holding a cloth softly.\n(E) The person taps the wood surface with his fingertips to gently dislodge the dust particles.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person dusts the wood surface gently by moving his right hand to the left to wipe the dust from the wood surface."
+    },
+    "correct_idx": [
+        2
+    ]
+}

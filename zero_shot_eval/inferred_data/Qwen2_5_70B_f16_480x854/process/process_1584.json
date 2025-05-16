@@ -1,0 +1,17 @@
+{
+    "question": "How does the person rest her left hand?",
+    "options": [
+        "The person softly places her left hand, palm up, letting it hang off the edge of the wood rail.",
+        "The person gently lowers her left hand, palm down and rests it on top of the wood rail.",
+        "The person raises her left hand above and then allows it to rest on the side of the wood rail.",
+        "The person stretches her left arm out and positions her hand on the edge of the wood rail, fingers slightly bent.",
+        "The person calmly places her left hand, palm turned sideways, against the wood rail with minimal movement."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person rest her left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person softly places her left hand, palm up, letting it hang off the edge of the wood rail.\n(B) The person gently lowers her left hand, palm down and rests it on top of the wood rail.\n(C) The person raises her left hand above and then allows it to rest on the side of the wood rail.\n(D) The person stretches her left arm out and positions her hand on the edge of the wood rail, fingers slightly bent.\n(E) The person calmly places her left hand, palm turned sideways, against the wood rail with minimal movement.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person gently lowers her left hand, palm down and rests it on top of the wood rail."
+    },
+    "correct_idx": [
+        1
+    ]
+}

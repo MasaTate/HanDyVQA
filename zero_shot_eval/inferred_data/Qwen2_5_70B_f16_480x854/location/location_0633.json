@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move clothes?",
+    "options": [
+        "The person moves the clothes the clothes on the upper right side.",
+        "The person moves the clothes on the lower left side.",
+        "The person moves the clothes to the middle right area.",
+        "The person moves the clothes at the upper left corner.",
+        "The person moves the clothes in the bottom middle section."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move clothes? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the clothes the clothes on the upper right side.\n(B) The person moves the clothes on the lower left side.\n(C) The person moves the clothes to the middle right area.\n(D) The person moves the clothes at the upper left corner.\n(E) The person moves the clothes in the bottom middle section.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person moves the clothes to the middle right area."
+    },
+    "correct_idx": [
+        1
+    ]
+}

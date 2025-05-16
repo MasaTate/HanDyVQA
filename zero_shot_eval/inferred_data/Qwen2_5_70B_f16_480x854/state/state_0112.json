@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the tissue paper change?",
+    "options": [
+        "The tissue was folded and left on the countertop.",
+        "The tissue was crumpled and placed on the table.",
+        "The tissue was crumpled and dropped on the floor.",
+        "The tissue was crumpled and placed on the countertop.",
+        "The tissue was crumpled and positioned on the edge of the countertop."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the tissue paper change? Choose **only one** option from the following list.\nOptions:\n(A) The tissue was folded and left on the countertop.\n(B) The tissue was crumpled and placed on the table.\n(C) The tissue was crumpled and dropped on the floor.\n(D) The tissue was crumpled and placed on the countertop.\n(E) The tissue was crumpled and positioned on the edge of the countertop.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The tissue was crumpled and placed on the countertop."
+    },
+    "correct_idx": [
+        3
+    ]
+}

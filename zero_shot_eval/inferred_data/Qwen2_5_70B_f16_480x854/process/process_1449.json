@@ -1,0 +1,17 @@
+{
+    "question": "How does the person hit the nail?",
+    "options": [
+        "The person swings the hammer in an upward motion with both hands, not hitting the nail accurately.",
+        "The person taps the nail lightly with a wooden block, holding it gently between their fingers.",
+        "The person grips the hammer with their left hand, which leads to the hammer striking at an angle.",
+        "The person repeatedly swings the hammer in a controlled downward motion using their right hand while holding the nail steady with their left hand.",
+        "The person tries to hit the nail by flicking it with their index finger while holding the hammer in the other hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person hit the nail? Choose **only one** option from the following list.\nOptions:\n(A) The person swings the hammer in an upward motion with both hands, not hitting the nail accurately.\n(B) The person taps the nail lightly with a wooden block, holding it gently between their fingers.\n(C) The person grips the hammer with their left hand, which leads to the hammer striking at an angle.\n(D) The person repeatedly swings the hammer in a controlled downward motion using their right hand while holding the nail steady with their left hand.\n(E) The person tries to hit the nail by flicking it with their index finger while holding the hammer in the other hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person repeatedly swings the hammer in a controlled downward motion using their right hand while holding the nail steady with their left hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

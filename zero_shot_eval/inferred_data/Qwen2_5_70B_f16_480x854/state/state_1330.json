@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the clay pot change?",
+    "options": [
+        "The clay pot was tilted slightly without any dirt being removed from it.",
+        "The clay pot remained stationary while the dirt was being scooped out.",
+        "The clay pot was rotated without displacing the soil inside it.",
+        "The clay pot rotated in various directions after the dirt in the clay pot was removed.",
+        "The clay pot rotated in one direction while still half full of dirt."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the clay pot change? Choose **only one** option from the following list.\nOptions:\n(A) The clay pot was tilted slightly without any dirt being removed from it.\n(B) The clay pot remained stationary while the dirt was being scooped out.\n(C) The clay pot was rotated without displacing the soil inside it.\n(D) The clay pot rotated in various directions after the dirt in the clay pot was removed.\n(E) The clay pot rotated in one direction while still half full of dirt.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The clay pot rotated in various directions after the dirt in the clay pot was removed."
+    },
+    "correct_idx": [
+        3
+    ]
+}

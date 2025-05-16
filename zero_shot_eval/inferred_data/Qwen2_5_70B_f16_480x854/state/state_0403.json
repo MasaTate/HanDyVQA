@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the oil reservoir change?",
+    "options": [
+        "The cap of the oil reservoir was loosened and placed on a nearby table.",
+        "The cap of the oil reservoir was tightened and positioned on the edge of the reservoir.",
+        "The cap of the oil reservoir was loosened and set on the ground.",
+        "The cap of the oil reservoir was tightened on the reservoir but then briefly removed.",
+        "The cap of the oil reservoir was tightened and put on the ground."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the oil reservoir change? Choose **only one** option from the following list.\nOptions:\n(A) The cap of the oil reservoir was loosened and placed on a nearby table.\n(B) The cap of the oil reservoir was tightened and positioned on the edge of the reservoir.\n(C) The cap of the oil reservoir was loosened and set on the ground.\n(D) The cap of the oil reservoir was tightened on the reservoir but then briefly removed.\n(E) The cap of the oil reservoir was tightened and put on the ground.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The cap of the oil reservoir was loosened and set on the ground."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the chair change?",
+    "options": [
+        "The chair was repositioned and slightly rotated.",
+        "The chair was elevated and relocated to a different spot.",
+        "The chair was turned over and set on the table.",
+        "The chair was taken apart into its individual pieces.",
+        "The chair was wrapped with a blanket and moved against the wall."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the chair change? Choose **only one** option from the following list.\nOptions:\n(A) The chair was repositioned and slightly rotated.\n(B) The chair was elevated and relocated to a different spot.\n(C) The chair was turned over and set on the table.\n(D) The chair was taken apart into its individual pieces.\n(E) The chair was wrapped with a blanket and moved against the wall.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The chair was repositioned and slightly rotated."
+    },
+    "correct_idx": [
+        0
+    ]
+}

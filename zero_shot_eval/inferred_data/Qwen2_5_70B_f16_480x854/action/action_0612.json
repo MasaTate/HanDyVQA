@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person pours the contents of the test tube in her right hand into a glass beaker.",
+        "The person transfers the liquid from the test tube in her right hand into a graduated cylinder.",
+        "The person shakes the test tube in her right hand above a petri dish.",
+        "The person is drying the test tube in her right hand on the sheet of paper.",
+        "The person rinses the test tube held in her right hand under running water, holding it steady with her left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person pours the contents of the test tube in her right hand into a glass beaker.\n(B) The person transfers the liquid from the test tube in her right hand into a graduated cylinder.\n(C) The person shakes the test tube in her right hand above a petri dish.\n(D) The person is drying the test tube in her right hand on the sheet of paper.\n(E) The person rinses the test tube held in her right hand under running water, holding it steady with her left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person is drying the test tube in her right hand on the sheet of paper."
+    },
+    "correct_idx": [
+        3
+    ]
+}

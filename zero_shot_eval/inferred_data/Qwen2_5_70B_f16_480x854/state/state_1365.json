@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the screw change?",
+    "options": [
+        "The screw was unscrewed and placed in the right box.",
+        "The screw was pulled out and set on the table.",
+        "The screw was swiftly taken out and placed into the bin.",
+        "The screw was loosened, removed, and held for inspection.",
+        "The screw was removed in a quick motion and dropped in the left box."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the screw change? Choose **only one** option from the following list.\nOptions:\n(A) The screw was unscrewed and placed in the right box.\n(B) The screw was pulled out and set on the table.\n(C) The screw was swiftly taken out and placed into the bin.\n(D) The screw was loosened, removed, and held for inspection.\n(E) The screw was removed in a quick motion and dropped in the left box.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The screw was loosened, removed, and held for inspection."
+    },
+    "correct_idx": [
+        4
+    ]
+}

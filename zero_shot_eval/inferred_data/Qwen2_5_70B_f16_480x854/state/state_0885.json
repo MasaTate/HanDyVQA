@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the screw change?",
+    "options": [
+        "The screw was being twisted with the person's right hand instead of the screwdriver.",
+        "The screw was being loosened by the person's left hand instead of a screwdriver.",
+        "The screw was being turned with the person's thumb and forefinger instead of a tool.",
+        "The screw was being adjusted by the person's hand without being inserted into the hole.",
+        "The screw was being spun counter-clockwise by the person's fingers instead of a screwdriver."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the screw change? Choose **only one** option from the following list.\nOptions:\n(A) The screw was being twisted with the person's right hand instead of the screwdriver.\n(B) The screw was being loosened by the person's left hand instead of a screwdriver.\n(C) The screw was being turned with the person's thumb and forefinger instead of a tool.\n(D) The screw was being adjusted by the person's hand without being inserted into the hole.\n(E) The screw was being spun counter-clockwise by the person's fingers instead of a screwdriver.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The screw was being turned with the person's thumb and forefinger instead of a tool."
+    },
+    "correct_idx": [
+        0
+    ]
+}

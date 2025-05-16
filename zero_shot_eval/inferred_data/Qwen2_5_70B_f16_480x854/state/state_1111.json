@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the spanner change?",
+    "options": [
+        "The spanner was dropped off the workbench and rolled away.",
+        "The spanner was held and placed on the workbench.",
+        "The spanner was thrown and landed on the floor.",
+        "The spanner was rotated and tightened onto a bolt.",
+        "The spanner was picked up and put into a toolbox."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the spanner change? Choose **only one** option from the following list.\nOptions:\n(A) The spanner was dropped off the workbench and rolled away.\n(B) The spanner was held and placed on the workbench.\n(C) The spanner was thrown and landed on the floor.\n(D) The spanner was rotated and tightened onto a bolt.\n(E) The spanner was picked up and put into a toolbox.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The spanner was held and placed on the workbench."
+    },
+    "correct_idx": [
+        1
+    ]
+}

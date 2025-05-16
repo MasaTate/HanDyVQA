@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person grabs the drill with their left hand and passes it to their right hand.",
+        "The person lifts the saw from the workbench with their right hand.",
+        "The person places the drill back down on the table using their right hand while balancing it with their left hand.",
+        "The person holds the jackhammer with both hands while stabilizing the surface underneath with their legs.",
+        "The person grabs the drill bit from the toolbox with their right hand while holding the drill with their left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person grabs the drill with their left hand and passes it to their right hand.\n(B) The person lifts the saw from the workbench with their right hand.\n(C) The person places the drill back down on the table using their right hand while balancing it with their left hand.\n(D) The person holds the jackhammer with both hands while stabilizing the surface underneath with their legs.\n(E) The person grabs the drill bit from the toolbox with their right hand while holding the drill with their left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person places the drill back down on the table using their right hand while balancing it with their left hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

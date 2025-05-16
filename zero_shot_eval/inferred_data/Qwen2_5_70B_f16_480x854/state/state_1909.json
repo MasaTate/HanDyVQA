@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a bowl change?",
+    "options": [
+        "The bowl was moved slightly to the side with a full rotation.",
+        "The bowl was adjusted backward with no rotation.",
+        "The bowl was lifted upward and tilted slightly.",
+        "The bowl was set at an angle as it was moved to the back.",
+        "The bowl was moved to the front with little rotation."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a bowl change? Choose **only one** option from the following list.\nOptions:\n(A) The bowl was moved slightly to the side with a full rotation.\n(B) The bowl was adjusted backward with no rotation.\n(C) The bowl was lifted upward and tilted slightly.\n(D) The bowl was set at an angle as it was moved to the back.\n(E) The bowl was moved to the front with little rotation.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The bowl was lifted upward and tilted slightly."
+    },
+    "correct_idx": [
+        4
+    ]
+}

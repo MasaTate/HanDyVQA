@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the white paint change?",
+    "options": [
+        "The white paint was mixed with green paint.",
+        "The white paint was replaced with green paint.",
+        "The white paint was removed to reveal the surface underneath.",
+        "The white paint was layered with green paint.",
+        "The white paint was coated with a clear gloss finish."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the white paint change? Choose **only one** option from the following list.\nOptions:\n(A) The white paint was mixed with green paint.\n(B) The white paint was replaced with green paint.\n(C) The white paint was removed to reveal the surface underneath.\n(D) The white paint was layered with green paint.\n(E) The white paint was coated with a clear gloss finish.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The white paint was layered with green paint."
+    },
+    "correct_idx": [
+        3
+    ]
+}

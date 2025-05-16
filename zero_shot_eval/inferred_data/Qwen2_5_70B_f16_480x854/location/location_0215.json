@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop a dog leash on the ground?",
+    "options": [
+        "The person dropped the leash on the left side of the ground.",
+        "The person dropped the leash on the right side of the ground.",
+        "The person dropped the leash in front of the ground.",
+        "The person dropped the leash behind the ground.",
+        "The person dropped the leash to the center of the ground."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop a dog leash on the ground? Choose **only one** option from the following list.\nOptions:\n(A) The person dropped the leash on the left side of the ground.\n(B) The person dropped the leash on the right side of the ground.\n(C) The person dropped the leash in front of the ground.\n(D) The person dropped the leash behind the ground.\n(E) The person dropped the leash to the center of the ground.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person dropped the leash to the center of the ground."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person picks up the remote control with his right hand, adjusts the volume, and then sets it back on the couch.",
+        "The person picks up the laptop with his right hand, opens it up, and then closes it again.",
+        "The person picks up the book with his right hand, flips through the pages, and then returns it to the shelf.",
+        "The person picks up the phone with his right hand, checks the screen, and then places it back on the table.",
+        "The person picks up the mug with his right hand, takes a sip, and then puts it down on the counter."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person picks up the remote control with his right hand, adjusts the volume, and then sets it back on the couch.\n(B) The person picks up the laptop with his right hand, opens it up, and then closes it again.\n(C) The person picks up the book with his right hand, flips through the pages, and then returns it to the shelf.\n(D) The person picks up the phone with his right hand, checks the screen, and then places it back on the table.\n(E) The person picks up the mug with his right hand, takes a sip, and then puts it down on the counter.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person picks up the phone with his right hand, checks the screen, and then places it back on the table."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a screw change?",
+    "options": [
+        "The screw was rotated clockwise, gradually tightening into the hardware.",
+        "The screw was pulled directly out of the hardware without any rotation.",
+        "The screw was heated, causing it to expand and become difficult to remove from the hardware.",
+        "The screw was rotated counterclockwise, gradually loosening from the hardware.",
+        "The screw was covered in a layer of paint, making it difficult to see how it was attached to the hardware."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a screw change? Choose **only one** option from the following list.\nOptions:\n(A) The screw was rotated clockwise, gradually tightening into the hardware.\n(B) The screw was pulled directly out of the hardware without any rotation.\n(C) The screw was heated, causing it to expand and become difficult to remove from the hardware.\n(D) The screw was rotated counterclockwise, gradually loosening from the hardware.\n(E) The screw was covered in a layer of paint, making it difficult to see how it was attached to the hardware.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The screw was rotated counterclockwise, gradually loosening from the hardware."
+    },
+    "correct_idx": [
+        3
+    ]
+}

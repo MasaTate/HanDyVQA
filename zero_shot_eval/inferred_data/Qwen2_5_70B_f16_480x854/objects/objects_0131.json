@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "screwdriver",
+        "watch",
+        "cpu wire",
+        "screw",
+        "computer system unit",
+        "table"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) screwdriver\n(B) watch\n(C) cpu wire\n(D) screw\n(E) computer system unit\n(F) table\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(A) The person uses a screwdriver to remove screws from the computer system unit.\n(C) The person handles the CPU wires inside the computer system unit."
+    },
+    "correct_idx": [
+        0,
+        2
+    ]
+}

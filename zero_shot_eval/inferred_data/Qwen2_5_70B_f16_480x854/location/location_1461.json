@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the tree branch?",
+    "options": [
+        "The person drops the tree branch onto a pile of leaves nearby.",
+        "The person drops the tree branch on a rock to the left.",
+        "The person drops the tree branch on the grass just to the right.",
+        "The person drops the tree branch into a small ditch beside the path.",
+        "The person drops the tree branch straight to the ground."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the tree branch? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the tree branch onto a pile of leaves nearby.\n(B) The person drops the tree branch on a rock to the left.\n(C) The person drops the tree branch on the grass just to the right.\n(D) The person drops the tree branch into a small ditch beside the path.\n(E) The person drops the tree branch straight to the ground.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person drops the tree branch straight to the ground."
+    },
+    "correct_idx": [
+        4
+    ]
+}

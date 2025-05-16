@@ -1,0 +1,17 @@
+{
+    "question": "How does the person zip the backpack?",
+    "options": [
+        "The person zips the backpack by gripping the zipper pull with their left hand and then sliding it along the zipper track in an uneven motion from bottom to top.",
+        "The person zips the backpack using both hands, guiding the zipper pull upwards with quick, short motions.",
+        "The person zips the backpack by holding the backpack with the left hand and moving the zipper pull with their thumb in a hesitant movement from right to left.",
+        "The person closes the backpack by pinching the zipper pull between the thumb and finger of the left hand and sliding it with short, irregular pulls.",
+        "The person zips the backpack by grasping the zipper pull with their right hand and then sliding it along the zipper track in a smooth, steady motion from left to right."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person zip the backpack? Choose **only one** option from the following list.\nOptions:\n(A) The person zips the backpack by gripping the zipper pull with their left hand and then sliding it along the zipper track in an uneven motion from bottom to top.\n(B) The person zips the backpack using both hands, guiding the zipper pull upwards with quick, short motions.\n(C) The person zips the backpack by holding the backpack with the left hand and moving the zipper pull with their thumb in a hesitant movement from right to left.\n(D) The person closes the backpack by pinching the zipper pull between the thumb and finger of the left hand and sliding it with short, irregular pulls.\n(E) The person zips the backpack by grasping the zipper pull with their right hand and then sliding it along the zipper track in a smooth, steady motion from left to right.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person zips the backpack by grasping the zipper pull with their right hand and then sliding it along the zipper track in a smooth, steady motion from left to right."
+    },
+    "correct_idx": [
+        4
+    ]
+}

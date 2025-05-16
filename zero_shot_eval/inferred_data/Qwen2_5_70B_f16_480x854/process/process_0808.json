@@ -1,0 +1,17 @@
+{
+    "question": "How does the person hit the block?",
+    "options": [
+        "The person strikes the block firmly in a sideways motion using the handle of the shovel that he is gripping with both hands.",
+        "The person taps the block lightly in a circular motion with the rubber end of a mallet that he is holding with his left hand.",
+        "The person nudges the block gently in a diagonal direction using the tip of a screwdriver that he is grasping between his fingers on the right hand.",
+        "The person hits the block firmly in an upward and downward direction repeatedly using the handle of the cement spoon that he is holding with his right hand.",
+        "The person smacks the block solidly in a straight line with the palm of his hand while standing over it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person hit the block? Choose **only one** option from the following list.\nOptions:\n(A) The person strikes the block firmly in a sideways motion using the handle of the shovel that he is gripping with both hands.\n(B) The person taps the block lightly in a circular motion with the rubber end of a mallet that he is holding with his left hand.\n(C) The person nudges the block gently in a diagonal direction using the tip of a screwdriver that he is grasping between his fingers on the right hand.\n(D) The person hits the block firmly in an upward and downward direction repeatedly using the handle of the cement spoon that he is holding with his right hand.\n(E) The person smacks the block solidly in a straight line with the palm of his hand while standing over it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person hits the block firmly in an upward and downward direction repeatedly using the handle of the cement spoon that he is holding with his right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

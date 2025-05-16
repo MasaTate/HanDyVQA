@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the rice change?",
+    "options": [
+        "The rice was poured from the rice cooker, spread on a plate, and seasoned.",
+        "The rice was scooped from the rice cooker, placed in the pan, and mashed.",
+        "The rice was taken from the rice cooker, stirred in a bowl, and boiled.",
+        "The rice was ladled from the rice cooker, combined with vegetables, and fried.",
+        "The rice was dumped from the rice cooker, shaped into balls, and grilled."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the rice change? Choose **only one** option from the following list.\nOptions:\n(A) The rice was poured from the rice cooker, spread on a plate, and seasoned.\n(B) The rice was scooped from the rice cooker, placed in the pan, and mashed.\n(C) The rice was taken from the rice cooker, stirred in a bowl, and boiled.\n(D) The rice was ladled from the rice cooker, combined with vegetables, and fried.\n(E) The rice was dumped from the rice cooker, shaped into balls, and grilled.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The rice was scooped from the rice cooker, placed in the pan, and mashed."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop a white sock?",
+    "options": [
+        "The person dropped the white sock beside the other clothes.",
+        "The person dropped the white sock on top of the other clothes.",
+        "The person dropped the white sock under the pile of clothes.",
+        "The person dropped the white sock next to the laundry basket.",
+        "The person dropped the white sock on the floor near the clothes."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop a white sock? Choose **only one** option from the following list.\nOptions:\n(A) The person dropped the white sock beside the other clothes.\n(B) The person dropped the white sock on top of the other clothes.\n(C) The person dropped the white sock under the pile of clothes.\n(D) The person dropped the white sock next to the laundry basket.\n(E) The person dropped the white sock on the floor near the clothes.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person dropped the white sock beside the other clothes."
+    },
+    "correct_idx": [
+        1
+    ]
+}

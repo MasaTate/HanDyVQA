@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the left hand?",
+    "options": [
+        "The person moves her left hand across the table towards the open notebook.",
+        "The person moves her left hand beside the table near the scattered papers.",
+        "The person moves her left hand on the table in front of the laptop.",
+        "The person moves her left hand around the table behind the chair.",
+        "The person moves her left hand in the table over the crafted stickers."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person moves her left hand across the table towards the open notebook.\n(B) The person moves her left hand beside the table near the scattered papers.\n(C) The person moves her left hand on the table in front of the laptop.\n(D) The person moves her left hand around the table behind the chair.\n(E) The person moves her left hand in the table over the crafted stickers.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person moves her left hand in the table over the crafted stickers."
+    },
+    "correct_idx": [
+        4
+    ]
+}

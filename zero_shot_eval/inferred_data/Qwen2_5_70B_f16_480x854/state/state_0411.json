@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the yarn change?",
+    "options": [
+        "The yarn was pulled through the fabric and knotted at one end.",
+        "The yarn was pulled through the fabric and kept close to the cloth.",
+        "The yarn was looped through the fabric and left loosely above the cloth.",
+        "The yarn was threaded through the fabric and wrapped around it.",
+        "The yarn was passed through the fabric and secured at the edge."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the yarn change? Choose **only one** option from the following list.\nOptions:\n(A) The yarn was pulled through the fabric and knotted at one end.\n(B) The yarn was pulled through the fabric and kept close to the cloth.\n(C) The yarn was looped through the fabric and left loosely above the cloth.\n(D) The yarn was threaded through the fabric and wrapped around it.\n(E) The yarn was passed through the fabric and secured at the edge.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The yarn was pulled through the fabric and knotted at one end."
+    },
+    "correct_idx": [
+        1
+    ]
+}

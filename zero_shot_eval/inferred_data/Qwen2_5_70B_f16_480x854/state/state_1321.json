@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of cream change?",
+    "options": [
+        "The cream was poured from the carton into a measuring cup without removing the foil cover.",
+        "The cream was scooped out from under the foil cover with a spoon and transferred into the bowl.",
+        "The cream was whipped in the bowl until it became light and fluffy.",
+        "The cream was shaken in the carton until it turned into butter.",
+        "The cream was frozen in the bowl and transformed into a solid state."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of cream change? Choose **only one** option from the following list.\nOptions:\n(A) The cream was poured from the carton into a measuring cup without removing the foil cover.\n(B) The cream was scooped out from under the foil cover with a spoon and transferred into the bowl.\n(C) The cream was whipped in the bowl until it became light and fluffy.\n(D) The cream was shaken in the carton until it turned into butter.\n(E) The cream was frozen in the bowl and transformed into a solid state.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The cream was scooped out from under the foil cover with a spoon and transferred into the bowl."
+    },
+    "correct_idx": [
+        1
+    ]
+}

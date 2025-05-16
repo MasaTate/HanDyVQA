@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the metal rod change?",
+    "options": [
+        "The metal rod was being heated and cooled in succession by the person's right hand.",
+        "The metal rod was being twisted back and forth by the person's right hand.",
+        "The metal rod was being pushed and pulled in varying directions by the person's right hand.",
+        "The metal rod was being beaten up and down by the person's right hand.",
+        "The metal rod was being drilled through by the person's right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the metal rod change? Choose **only one** option from the following list.\nOptions:\n(A) The metal rod was being heated and cooled in succession by the person's right hand.\n(B) The metal rod was being twisted back and forth by the person's right hand.\n(C) The metal rod was being pushed and pulled in varying directions by the person's right hand.\n(D) The metal rod was being beaten up and down by the person's right hand.\n(E) The metal rod was being drilled through by the person's right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The metal rod was being pushed and pulled in varying directions by the person's right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

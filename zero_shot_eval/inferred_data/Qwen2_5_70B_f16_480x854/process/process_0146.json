@@ -1,0 +1,17 @@
+{
+    "question": "How does the person cover the bottle?",
+    "options": [
+        "The person covers the bottle by twisting the lid onto it with both hands, using her fingers to secure it.",
+        "The person covers the bottle by dropping the lid onto it, letting it rest on top naturally.",
+        "The person covers the bottle by setting the lid next to it and using the palm of her right hand to slide it into place.",
+        "The person covers the bottle by pressing the lid with her left thumb.",
+        "The person covers the bottle by using her right index finger to nudge the lid, trying to fit it onto the bottle quickly."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person cover the bottle? Choose **only one** option from the following list.\nOptions:\n(A) The person covers the bottle by twisting the lid onto it with both hands, using her fingers to secure it.\n(B) The person covers the bottle by dropping the lid onto it, letting it rest on top naturally.\n(C) The person covers the bottle by setting the lid next to it and using the palm of her right hand to slide it into place.\n(D) The person covers the bottle by pressing the lid with her left thumb.\n(E) The person covers the bottle by using her right index finger to nudge the lid, trying to fit it onto the bottle quickly.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person covers the bottle by twisting the lid onto it with both hands, using her fingers to secure it."
+    },
+    "correct_idx": [
+        3
+    ]
+}

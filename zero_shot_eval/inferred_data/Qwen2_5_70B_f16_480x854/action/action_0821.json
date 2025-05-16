@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person operates the foot pedal of the sewing machine using their right hand while positioning a piece of fabric with their left hand.",
+        "The person winds the thread on the sewing machine with their right hand while holding a spool of thread in their left hand.",
+        "The person adjusts the dial on the sewing machine with their right hand while using their left hand to hold a piece of fabric.",
+        "The person removes a finished garment from the sewing machine with their right hand while gently pushing the fabric with their left hand.",
+        "The person threads the needle on the sewing machine with their right hand while holding the fabric steady with their left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person operates the foot pedal of the sewing machine using their right hand while positioning a piece of fabric with their left hand.\n(B) The person winds the thread on the sewing machine with their right hand while holding a spool of thread in their left hand.\n(C) The person adjusts the dial on the sewing machine with their right hand while using their left hand to hold a piece of fabric.\n(D) The person removes a finished garment from the sewing machine with their right hand while gently pushing the fabric with their left hand.\n(E) The person threads the needle on the sewing machine with their right hand while holding the fabric steady with their left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person adjusts the dial on the sewing machine with their right hand while using their left hand to hold a piece of fabric."
+    },
+    "correct_idx": [
+        2
+    ]
+}

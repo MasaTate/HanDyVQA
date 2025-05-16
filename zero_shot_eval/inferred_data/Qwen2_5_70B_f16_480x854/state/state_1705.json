@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the meal change?",
+    "options": [
+        "The meal was rearranged and its consistency changed as it was mixed with the sauce.",
+        "The meal was moved and its temperature increased as it was transferred to the frying pan to heat up.",
+        "The meal was divided and its appearance altered as it was garnished with herbs.",
+        "The meal was covered and its aroma intensified as it was sealed with a lid to trap steam.",
+        "The meal was plated and its color changed as it was served alongside a salad."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the meal change? Choose **only one** option from the following list.\nOptions:\n(A) The meal was rearranged and its consistency changed as it was mixed with the sauce.\n(B) The meal was moved and its temperature increased as it was transferred to the frying pan to heat up.\n(C) The meal was divided and its appearance altered as it was garnished with herbs.\n(D) The meal was covered and its aroma intensified as it was sealed with a lid to trap steam.\n(E) The meal was plated and its color changed as it was served alongside a salad.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The meal was moved and its temperature increased as it was transferred to the frying pan to heat up."
+    },
+    "correct_idx": [
+        1
+    ]
+}

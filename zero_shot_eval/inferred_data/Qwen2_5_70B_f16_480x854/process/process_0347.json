@@ -1,0 +1,17 @@
+{
+    "question": "How does the person push the clothes?",
+    "options": [
+        "The person grips the clothes firmly with both hands and moves them forward with a steady push.",
+        "The person uses their fingertips to slide the clothes gently, nudging them forward gradually.",
+        "The person extends his right hand, holding the clothes with his palm and fingers, then moves them sideways and back with a steady push.",
+        "The person grabs one end of the clothes and lifts it slightly, changing their position softly.",
+        "The person pinches the clothes between two fingers and gently nudges them ahead with minimal effort."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person push the clothes? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the clothes firmly with both hands and moves them forward with a steady push.\n(B) The person uses their fingertips to slide the clothes gently, nudging them forward gradually.\n(C) The person extends his right hand, holding the clothes with his palm and fingers, then moves them sideways and back with a steady push.\n(D) The person grabs one end of the clothes and lifts it slightly, changing their position softly.\n(E) The person pinches the clothes between two fingers and gently nudges them ahead with minimal effort.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person extends his right hand, holding the clothes with his palm and fingers, then moves them sideways and back with a steady push."
+    },
+    "correct_idx": [
+        2
+    ]
+}

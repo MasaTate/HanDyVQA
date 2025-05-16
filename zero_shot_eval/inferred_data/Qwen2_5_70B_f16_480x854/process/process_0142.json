@@ -1,0 +1,17 @@
+{
+    "question": "How does the person remove a torch?",
+    "options": [
+        "The right hand grips the torch and pulls it out, with the left hand providing support and guidance.",
+        "The person pushes the torch upward with the right hand, using the left hand to guide it from below.",
+        "The individual twists the torch while securely holding it with both hands to remove it from its holder.",
+        "The person holds the torch with both hands and slides it sideways out of the holder smoothly.",
+        "The right hand pushes the torch upward while the left hand offers support from underneath as it comes out."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person remove a torch? Choose **only one** option from the following list.\nOptions:\n(A) The right hand grips the torch and pulls it out, with the left hand providing support and guidance.\n(B) The person pushes the torch upward with the right hand, using the left hand to guide it from below.\n(C) The individual twists the torch while securely holding it with both hands to remove it from its holder.\n(D) The person holds the torch with both hands and slides it sideways out of the holder smoothly.\n(E) The right hand pushes the torch upward while the left hand offers support from underneath as it comes out.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The right hand pushes the torch upward while the left hand offers support from underneath as it comes out."
+    },
+    "correct_idx": [
+        0
+    ]
+}

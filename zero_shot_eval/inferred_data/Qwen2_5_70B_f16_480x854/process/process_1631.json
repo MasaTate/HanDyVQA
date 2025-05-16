@@ -1,0 +1,17 @@
+{
+    "question": "How does the person clean the cooker?",
+    "options": [
+        "The person uses a cloth in the left hand and gently scrubs the surface of the cooker in a circular motion, addressing one spot for a longer duration to clean it.",
+        "The person holds a tissue in the right hand and wipes the surface of the cooker in a back and forth motion, moving across different areas with different patterns to clean it.",
+        "The person grabs a sponge with both hands and lightly presses it against the cooker, focusing on a specific corner to clean it.",
+        "The person takes a spray bottle in the right hand and sprays the cleaner onto the cooker, then wipes it off with the left hand using various motions.",
+        "The person holds a scrub brush in the right hand and gently moves it across the cooker, following the same path repeatedly to clean it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person clean the cooker? Choose **only one** option from the following list.\nOptions:\n(A) The person uses a cloth in the left hand and gently scrubs the surface of the cooker in a circular motion, addressing one spot for a longer duration to clean it.\n(B) The person holds a tissue in the right hand and wipes the surface of the cooker in a back and forth motion, moving across different areas with different patterns to clean it.\n(C) The person grabs a sponge with both hands and lightly presses it against the cooker, focusing on a specific corner to clean it.\n(D) The person takes a spray bottle in the right hand and sprays the cleaner onto the cooker, then wipes it off with the left hand using various motions.\n(E) The person holds a scrub brush in the right hand and gently moves it across the cooker, following the same path repeatedly to clean it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person holds a tissue in the right hand and wipes the surface of the cooker in a back and forth motion, moving across different areas with different patterns to clean it."
+    },
+    "correct_idx": [
+        1
+    ]
+}

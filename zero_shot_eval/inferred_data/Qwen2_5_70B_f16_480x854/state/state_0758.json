@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a portion of mortar change?",
+    "options": [
+        "The portion of mortar was shaped in the molder and placed onto a board.",
+        "The portion of mortar was pressed in the molder and raised upwards.",
+        "The portion of mortar was compacted in the molder and turned onto the table.",
+        "The portion of mortar was flattened in the molder and flipped onto the ground.",
+        "The portion of mortar was smoothed in the molder and pushed onto a tray."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a portion of mortar change? Choose **only one** option from the following list.\nOptions:\n(A) The portion of mortar was shaped in the molder and placed onto a board.\n(B) The portion of mortar was pressed in the molder and raised upwards.\n(C) The portion of mortar was compacted in the molder and turned onto the table.\n(D) The portion of mortar was flattened in the molder and flipped onto the ground.\n(E) The portion of mortar was smoothed in the molder and pushed onto a tray.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The portion of mortar was flattened in the molder and flipped onto the ground."
+    },
+    "correct_idx": [
+        3
+    ]
+}

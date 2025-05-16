@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of some cards change?",
+    "options": [
+        "The cards were shuffled to change their order.",
+        "The cards were lifted off the table to be checked.",
+        "The cards were stacked to form a tower.",
+        "The cards were spread on the table to display them.",
+        "The cards were turned to reveal their faces."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of some cards change? Choose **only one** option from the following list.\nOptions:\n(A) The cards were shuffled to change their order.\n(B) The cards were lifted off the table to be checked.\n(C) The cards were stacked to form a tower.\n(D) The cards were spread on the table to display them.\n(E) The cards were turned to reveal their faces.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The cards were lifted off the table to be checked."
+    },
+    "correct_idx": [
+        1
+    ]
+}

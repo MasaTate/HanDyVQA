@@ -1,0 +1,17 @@
+{
+    "question": "How does the person draw a line?",
+    "options": [
+        "She positions the ruler with her right hand, then uses her left hand to sketch a line beside it without tracing the ruler's edge.",
+        "She steadies the ruler with her left hand to align it, then uses her right hand to trace a straight line along its edge with a pencil.",
+        "She holds the ruler with both hands and traces a line with the pencil in her right hand while aligning it with the ruler.",
+        "She places the ruler at an angle, steadying it with her right hand while using her left hand to draw a line that deviates slightly from the edge.",
+        "She uses her left hand to hold the ruler in place and her right hand to draw a line that softly shifts away from the ruler's edge."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person draw a line? Choose **only one** option from the following list.\nOptions:\n(A) She positions the ruler with her right hand, then uses her left hand to sketch a line beside it without tracing the ruler's edge.\n(B) She steadies the ruler with her left hand to align it, then uses her right hand to trace a straight line along its edge with a pencil.\n(C) She holds the ruler with both hands and traces a line with the pencil in her right hand while aligning it with the ruler.\n(D) She places the ruler at an angle, steadying it with her right hand while using her left hand to draw a line that deviates slightly from the edge.\n(E) She uses her left hand to hold the ruler in place and her right hand to draw a line that softly shifts away from the ruler's edge.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) She steadies the ruler with her left hand to align it, then uses her right hand to trace a straight line along its edge with a pencil."
+    },
+    "correct_idx": [
+        1
+    ]
+}

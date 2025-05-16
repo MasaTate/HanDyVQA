@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person used the right hand to hold a bottle and shake it over the smaller bowl.",
+        "The person used the right hand to scoop ingredients from the bowl into the container.",
+        "The person used the left hand to cover the container with a lid while holding the bowl with the right hand.",
+        "The person used the left hand to grab the container and pour it over the bigger bowl.",
+        "The person used both hands to place the bowl inside the container."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person used the right hand to hold a bottle and shake it over the smaller bowl.\n(B) The person used the right hand to scoop ingredients from the bowl into the container.\n(C) The person used the left hand to cover the container with a lid while holding the bowl with the right hand.\n(D) The person used the left hand to grab the container and pour it over the bigger bowl.\n(E) The person used both hands to place the bowl inside the container.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person used the left hand to grab the container and pour it over the bigger bowl."
+    },
+    "correct_idx": [
+        3
+    ]
+}

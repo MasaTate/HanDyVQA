@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the foam?",
+    "options": [
+        "The person drops the foam on the counter next to the sink.",
+        "The person drops the foam in a basket beside the stove.",
+        "The person drops the foam in a rack over the sink.",
+        "The person drops the foam on the shelf above the sink.",
+        "The person drops the foam in a box under the sink."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the foam? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the foam on the counter next to the sink.\n(B) The person drops the foam in a basket beside the stove.\n(C) The person drops the foam in a rack over the sink.\n(D) The person drops the foam on the shelf above the sink.\n(E) The person drops the foam in a box under the sink.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person drops the foam on the counter next to the sink."
+    },
+    "correct_idx": [
+        2
+    ]
+}

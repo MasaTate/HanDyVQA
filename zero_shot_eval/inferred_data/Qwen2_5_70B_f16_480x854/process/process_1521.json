@@ -1,0 +1,17 @@
+{
+    "question": "How does the person file a part of the engine cover with his right hand?",
+    "options": [
+        "The person moved the file gently across the engine cover with his right hand while holding it firmly with both hands.",
+        "The person shifted the file in a steady manner with his right hand while loosening his grip on the engine cover.",
+        "The person scrubbed a part of the engine carefully with his right hand while holding the engine cover with his left hand.",
+        "The person applied pressure on the engine cover with his right hand, using his palm to smooth the surface rather than the file.",
+        "The person lifted the engine cover with both hands and cautiously used the file on the surface."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person file a part of the engine cover with his right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person moved the file gently across the engine cover with his right hand while holding it firmly with both hands.\n(B) The person shifted the file in a steady manner with his right hand while loosening his grip on the engine cover.\n(C) The person scrubbed a part of the engine carefully with his right hand while holding the engine cover with his left hand.\n(D) The person applied pressure on the engine cover with his right hand, using his palm to smooth the surface rather than the file.\n(E) The person lifted the engine cover with both hands and cautiously used the file on the surface.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person moved the file gently across the engine cover with his right hand while holding it firmly with both hands."
+    },
+    "correct_idx": [
+        2
+    ]
+}

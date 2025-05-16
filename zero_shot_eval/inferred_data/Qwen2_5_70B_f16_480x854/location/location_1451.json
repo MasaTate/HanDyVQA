@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the elastic strap?",
+    "options": [
+        "The person is about to put the elastic strap on the table to the right of the sewing machine.",
+        "The person is about to put the elastic strap on the table to the left of the sewing machine.",
+        "The person is about to put the elastic strap on the shelf above the sewing machine.",
+        "The person is about to put the elastic strap under the drawer beside the sewing machine.",
+        "The person is about to put the elastic strap on the floor next to the sewing machine."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the elastic strap? Choose **only one** option from the following list.\nOptions:\n(A) The person is about to put the elastic strap on the table to the right of the sewing machine.\n(B) The person is about to put the elastic strap on the table to the left of the sewing machine.\n(C) The person is about to put the elastic strap on the shelf above the sewing machine.\n(D) The person is about to put the elastic strap under the drawer beside the sewing machine.\n(E) The person is about to put the elastic strap on the floor next to the sewing machine.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person is about to put the elastic strap on the table to the left of the sewing machine."
+    },
+    "correct_idx": [
+        1
+    ]
+}

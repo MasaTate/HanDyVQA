@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "hammer, nails",
+        "paintbrush, canvas",
+        "sandpaper",
+        "glue, cardboard",
+        "wood",
+        "shoes"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) hammer, nails\n(B) paintbrush, canvas\n(C) sandpaper\n(D) glue, cardboard\n(E) wood\n(F) shoes\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(E) The hands are using wood as they are holding onto a wooden railing.\n\nAnswer format:\n(E) The hands are holding onto a wooden railing."
+    },
+    "correct_idx": [
+        2,
+        4
+    ]
+}

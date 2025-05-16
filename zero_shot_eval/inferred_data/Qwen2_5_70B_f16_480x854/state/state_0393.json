@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the vegetable mixture change?",
+    "options": [
+        "The vegetable mixture was boiled in a pot with water on the stove.",
+        "The vegetable mixture was roasted in the oven until crispy.",
+        "The vegetable mixture was stir-fried in a frying pan using a spatula.",
+        "The vegetable mixture was blended into a smooth puree using a blender.",
+        "The vegetable mixture was saut\u00e9ed in a skillet with olive oil."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the vegetable mixture change? Choose **only one** option from the following list.\nOptions:\n(A) The vegetable mixture was boiled in a pot with water on the stove.\n(B) The vegetable mixture was roasted in the oven until crispy.\n(C) The vegetable mixture was stir-fried in a frying pan using a spatula.\n(D) The vegetable mixture was blended into a smooth puree using a blender.\n(E) The vegetable mixture was saut\u00e9ed in a skillet with olive oil.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The vegetable mixture was stir-fried in a frying pan using a spatula."
+    },
+    "correct_idx": [
+        2
+    ]
+}

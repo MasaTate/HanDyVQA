@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a button on a gas cooker change?",
+    "options": [
+        "The button on the gas cooker was moved outwards as it was pressed.",
+        "The button on the gas cooker was returned to its off position as it was turned.",
+        "The button on the gas cooker was stuck in the pressed position after being turned.",
+        "The button on the gas cooker was rotated fully around as it was manipulated.",
+        "The button on the gas cooker was detached completely when it was turned."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a button on a gas cooker change? Choose **only one** option from the following list.\nOptions:\n(A) The button on the gas cooker was moved outwards as it was pressed.\n(B) The button on the gas cooker was returned to its off position as it was turned.\n(C) The button on the gas cooker was stuck in the pressed position after being turned.\n(D) The button on the gas cooker was rotated fully around as it was manipulated.\n(E) The button on the gas cooker was detached completely when it was turned.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The button on the gas cooker was returned to its off position as it was turned."
+    },
+    "correct_idx": [
+        1
+    ]
+}

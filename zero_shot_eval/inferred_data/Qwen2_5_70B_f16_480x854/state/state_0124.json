@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the thread from the cloth change?",
+    "options": [
+        "The thread was cut from the cloth and caught in the hand.",
+        "The thread was cut from the cloth and dropped on the table.",
+        "The thread was picked from the cloth and placed on a chair.",
+        "The thread was cut from the cloth and flicked to the floor.",
+        "The thread was removed from the cloth and laid on a nearby shelf."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the thread from the cloth change? Choose **only one** option from the following list.\nOptions:\n(A) The thread was cut from the cloth and caught in the hand.\n(B) The thread was cut from the cloth and dropped on the table.\n(C) The thread was picked from the cloth and placed on a chair.\n(D) The thread was cut from the cloth and flicked to the floor.\n(E) The thread was removed from the cloth and laid on a nearby shelf.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The thread was cut from the cloth and dropped on the table."
+    },
+    "correct_idx": [
+        1
+    ]
+}

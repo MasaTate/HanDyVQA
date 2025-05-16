@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the shirt change?",
+    "options": [
+        "The shirt turns frayed when pulled on too tightly.",
+        "The shirt got wet when it was being rubbed using water.",
+        "The shirt becomes wet and wrinkled.",
+        "The shirt is wrinkled from getting wet, so it is patted to straighten out.",
+        "The shirt is bleached from the detergent."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the shirt change? Choose **only one** option from the following list.\nOptions:\n(A) The shirt turns frayed when pulled on too tightly.\n(B) The shirt got wet when it was being rubbed using water.\n(C) The shirt becomes wet and wrinkled.\n(D) The shirt is wrinkled from getting wet, so it is patted to straighten out.\n(E) The shirt is bleached from the detergent.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The shirt got wet when it was being rubbed using water."
+    },
+    "correct_idx": [
+        1
+    ]
+}

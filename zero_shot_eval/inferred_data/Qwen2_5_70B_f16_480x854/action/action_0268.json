@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person trims the edges of the fabric with shears in his right hand while pressing the fabric down with his left hand to keep it steady.",
+        "The person ties a knot in the fabric using both hands, preparing to cut the thread later with the scissors in his right hand.",
+        "The person sews the fabric pieces together with a needle and thread in his right hand while holding the fabric taut with his left hand.",
+        "The person cuts the excess thread on the fabric using both hands while the right hand stops the scissors from falling.",
+        "The person marks measurements on the fabric with a chalk pencil in his right hand while keeping the fabric in place with his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person trims the edges of the fabric with shears in his right hand while pressing the fabric down with his left hand to keep it steady.\n(B) The person ties a knot in the fabric using both hands, preparing to cut the thread later with the scissors in his right hand.\n(C) The person sews the fabric pieces together with a needle and thread in his right hand while holding the fabric taut with his left hand.\n(D) The person cuts the excess thread on the fabric using both hands while the right hand stops the scissors from falling.\n(E) The person marks measurements on the fabric with a chalk pencil in his right hand while keeping the fabric in place with his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person cuts the excess thread on the fabric using both hands while the right hand stops the scissors from falling."
+    },
+    "correct_idx": [
+        3
+    ]
+}

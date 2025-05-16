@@ -1,0 +1,17 @@
+{
+    "question": "How does the person use the chemical liquid?",
+    "options": [
+        "The person poured the chemical liquid by firmly gripping the measuring cup with his left hand, slowly lifting it up toward the container\u2019s hole, and tilting it carefully to pour the liquid into the container.",
+        "The person tipped the measuring cup with both hands, carefully maintaining control as they poured the chemical liquid into the container.",
+        "The person held the measuring cup with one hand, gently tilting it to guide the chemical liquid into the container instead of onto the table.",
+        "The person grasped the measuring cup with both hands, steadily balancing it to ensure an even flow of the chemical liquid into the container.",
+        "The person held the measuring cup with their right hand while using their left hand to stabilize it, smoothly directing the chemical liquid into the container."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person use the chemical liquid? Choose **only one** option from the following list.\nOptions:\n(A) The person poured the chemical liquid by firmly gripping the measuring cup with his left hand, slowly lifting it up toward the container\u2019s hole, and tilting it carefully to pour the liquid into the container.\n(B) The person tipped the measuring cup with both hands, carefully maintaining control as they poured the chemical liquid into the container.\n(C) The person held the measuring cup with one hand, gently tilting it to guide the chemical liquid into the container instead of onto the table.\n(D) The person grasped the measuring cup with both hands, steadily balancing it to ensure an even flow of the chemical liquid into the container.\n(E) The person held the measuring cup with their right hand while using their left hand to stabilize it, smoothly directing the chemical liquid into the container.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person held the measuring cup with one hand, gently tilting it to guide the chemical liquid into the container instead of onto the table."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person slide the paint brush?",
+    "options": [
+        "The person grips the paintbrush and gently pushes it in one direction across the roller inside the container, with the bristles slightly bending.",
+        "The person takes the paintbrush with the right hand and slightly lifts it, letting some excess paint drip before positioning it along the roller.",
+        "The person holds the paintbrush with one hand and slides it slowly in one direction along the roller inside the container, allowing the bristles to scrape off the excess paint.",
+        "The person holds the paintbrush and lightly moves it around inside the container, aiming to remove the excess paint.",
+        "The person balances the paintbrush above the container and taps it softly, so some paint drips before it touches the roller."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person slide the paint brush? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the paintbrush and gently pushes it in one direction across the roller inside the container, with the bristles slightly bending.\n(B) The person takes the paintbrush with the right hand and slightly lifts it, letting some excess paint drip before positioning it along the roller.\n(C) The person holds the paintbrush with one hand and slides it slowly in one direction along the roller inside the container, allowing the bristles to scrape off the excess paint.\n(D) The person holds the paintbrush and lightly moves it around inside the container, aiming to remove the excess paint.\n(E) The person balances the paintbrush above the container and taps it softly, so some paint drips before it touches the roller.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person holds the paintbrush with one hand and slides it slowly in one direction along the roller inside the container, allowing the bristles to scrape off the excess paint."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the wood on the drilling machine change?",
+    "options": [
+        "The wood was about to be drilled through using the drilling machine, but not drilled yet.",
+        "The wood was drilled through completely with the drilling machine.",
+        "The wood was only grazed by the drilling machine, leaving a superficial mark.",
+        "The wood was repositioned on the drilling machine but not drilled.",
+        "The wood was started to be drilled with the drilling machine but stopped halfway."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the wood on the drilling machine change? Choose **only one** option from the following list.\nOptions:\n(A) The wood was about to be drilled through using the drilling machine, but not drilled yet.\n(B) The wood was drilled through completely with the drilling machine.\n(C) The wood was only grazed by the drilling machine, leaving a superficial mark.\n(D) The wood was repositioned on the drilling machine but not drilled.\n(E) The wood was started to be drilled with the drilling machine but stopped halfway.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The wood was about to be drilled through using the drilling machine, but not drilled yet."
+    },
+    "correct_idx": [
+        0
+    ]
+}

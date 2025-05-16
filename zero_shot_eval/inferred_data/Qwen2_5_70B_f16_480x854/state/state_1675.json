@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the butternuts change?",
+    "options": [
+        "The butternuts were shaken in a quick motion and then transferred to the other pot.",
+        "The butternuts were stirred and remained in the same pot.",
+        "The butternuts were shaken but not transferred to the other pot.",
+        "The butternuts were moved to the other pot without being shaken.",
+        "The butternuts were lifted and placed back into the original pot."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the butternuts change? Choose **only one** option from the following list.\nOptions:\n(A) The butternuts were shaken in a quick motion and then transferred to the other pot.\n(B) The butternuts were stirred and remained in the same pot.\n(C) The butternuts were shaken but not transferred to the other pot.\n(D) The butternuts were moved to the other pot without being shaken.\n(E) The butternuts were lifted and placed back into the original pot.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The butternuts were shaken in a quick motion and then transferred to the other pot."
+    },
+    "correct_idx": [
+        0
+    ]
+}

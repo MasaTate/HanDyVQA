@@ -1,0 +1,17 @@
+{
+    "question": "How does the person grab the rag?",
+    "options": [
+        "The person pinches the rag with his thumb and forefinger, using it to lightly shake off any dust before wiping.",
+        "The person clutches the rag with both hands, dragging it smoothly across the floor.",
+        "The person holds the rag by one corner with his left hand, letting it slightly brush as he wipes gently back and forth.",
+        "The person grips the rag with his right hand, applies pressure, and wipes it forward on the floor.",
+        "The person grasps the rag firmly with his right hand, placing it on the floor to begin wiping."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person grab the rag? Choose **only one** option from the following list.\nOptions:\n(A) The person pinches the rag with his thumb and forefinger, using it to lightly shake off any dust before wiping.\n(B) The person clutches the rag with both hands, dragging it smoothly across the floor.\n(C) The person holds the rag by one corner with his left hand, letting it slightly brush as he wipes gently back and forth.\n(D) The person grips the rag with his right hand, applies pressure, and wipes it forward on the floor.\n(E) The person grasps the rag firmly with his right hand, placing it on the floor to begin wiping.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person grasps the rag firmly with his right hand, placing it on the floor to begin wiping."
+    },
+    "correct_idx": [
+        3
+    ]
+}

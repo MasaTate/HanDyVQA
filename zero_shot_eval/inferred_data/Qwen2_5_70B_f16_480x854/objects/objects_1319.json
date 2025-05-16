@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "hammer",
+        "light",
+        "phone",
+        "wooden bar",
+        "head camera",
+        "rubber bracelet"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) hammer\n(B) light\n(C) phone\n(D) wooden bar\n(E) head camera\n(F) rubber bracelet\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(C) The person in the video is holding a phone in their hand, which they appear to be using to take a picture or record the scene.\n\nAnswer format:\n(C) The person is holding a phone in their hand."
+    },
+    "correct_idx": [
+        2,
+        3
+    ]
+}

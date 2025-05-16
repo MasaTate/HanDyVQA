@@ -1,0 +1,17 @@
+{
+    "question": "How does the person raise his left hand?",
+    "options": [
+        "The person raises his left hand by first bringing it up to touch his face gently, then after this brief motion, he continues to lift his hand higher and extends his arm, pointing upward with a steady and deliberate gesture.",
+        "The person lifts his left hand swiftly and directly upward in a smooth motion, keeping his arm close without making contact with his face.",
+        "The person raises his left hand by moving it slightly to the side, gently waving it back and forth before bringing it upward.",
+        "The person brings his left hand upward in a circular manner, smoothly moving it around his head before positioning it above his shoulder.",
+        "The person lifts his left hand by curling his fingers slightly before moving it towards his chest, rather than extending it upward."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person raise his left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person raises his left hand by first bringing it up to touch his face gently, then after this brief motion, he continues to lift his hand higher and extends his arm, pointing upward with a steady and deliberate gesture.\n(B) The person lifts his left hand swiftly and directly upward in a smooth motion, keeping his arm close without making contact with his face.\n(C) The person raises his left hand by moving it slightly to the side, gently waving it back and forth before bringing it upward.\n(D) The person brings his left hand upward in a circular manner, smoothly moving it around his head before positioning it above his shoulder.\n(E) The person lifts his left hand by curling his fingers slightly before moving it towards his chest, rather than extending it upward.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person lifts his left hand swiftly and directly upward in a smooth motion, keeping his arm close without making contact with his face."
+    },
+    "correct_idx": [
+        0
+    ]
+}

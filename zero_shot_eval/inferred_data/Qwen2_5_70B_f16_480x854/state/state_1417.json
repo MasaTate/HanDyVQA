@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the digital multimeter change?",
+    "options": [
+        "The digital multimeter wires were cut off from its body, and then the display was deactivated to conserve battery life.",
+        "The digital multimeter wires were untwisted from its body, and then the range selector was twisted clockwise to adjust the value.",
+        "The digital multimeter wires were coiled around its body, and then the buttons on the face were pressed without any specific purpose.",
+        "The digital multimeter was disassembled completely, and then the casing was disposed of after removing the internal components.",
+        "The digital multimeter wires were taped to the body, and then the battery compartment was opened but left empty."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the digital multimeter change? Choose **only one** option from the following list.\nOptions:\n(A) The digital multimeter wires were cut off from its body, and then the display was deactivated to conserve battery life.\n(B) The digital multimeter wires were untwisted from its body, and then the range selector was twisted clockwise to adjust the value.\n(C) The digital multimeter wires were coiled around its body, and then the buttons on the face were pressed without any specific purpose.\n(D) The digital multimeter was disassembled completely, and then the casing was disposed of after removing the internal components.\n(E) The digital multimeter wires were taped to the body, and then the battery compartment was opened but left empty.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The digital multimeter wires were untwisted from its body, and then the range selector was twisted clockwise to adjust the value."
+    },
+    "correct_idx": [
+        1
+    ]
+}

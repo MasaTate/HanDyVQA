@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the piece of brown paper change?",
+    "options": [
+        "The piece of brown paper was placed on the cutting mat that had been laid on the table, and then folded from left to right.",
+        "The piece of brown paper was placed on the cutting mat that had been laid on the table, and then folded from right to left.",
+        "The piece of brown paper was placed on the cutting mat that had been laid on the table, and then rolled from the bottom upwards.",
+        "The piece of brown paper was placed on the cutting mat that had been laid on the table, and then crumpled into a ball.",
+        "The piece of brown paper was placed on the cutting mat that had been laid on the table, and then folded diagonally."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the piece of brown paper change? Choose **only one** option from the following list.\nOptions:\n(A) The piece of brown paper was placed on the cutting mat that had been laid on the table, and then folded from left to right.\n(B) The piece of brown paper was placed on the cutting mat that had been laid on the table, and then folded from right to left.\n(C) The piece of brown paper was placed on the cutting mat that had been laid on the table, and then rolled from the bottom upwards.\n(D) The piece of brown paper was placed on the cutting mat that had been laid on the table, and then crumpled into a ball.\n(E) The piece of brown paper was placed on the cutting mat that had been laid on the table, and then folded diagonally.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The piece of brown paper was placed on the cutting mat that had been laid on the table, and then folded from right to left."
+    },
+    "correct_idx": [
+        0
+    ]
+}

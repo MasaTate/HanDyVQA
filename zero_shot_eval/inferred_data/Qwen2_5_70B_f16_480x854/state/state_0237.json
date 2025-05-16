@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the yarn change?",
+    "options": [
+        "The yarn was pushed to the right and coiled.",
+        "The yarn was pulled down and tangled.",
+        "The yarn was lifted upwards and bunched.",
+        "The yarn was pushed to the left and folded.",
+        "The yarn was pulled to the left and stretched."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the yarn change? Choose **only one** option from the following list.\nOptions:\n(A) The yarn was pushed to the right and coiled.\n(B) The yarn was pulled down and tangled.\n(C) The yarn was lifted upwards and bunched.\n(D) The yarn was pushed to the left and folded.\n(E) The yarn was pulled to the left and stretched.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The yarn was pulled to the left and stretched."
+    },
+    "correct_idx": [
+        4
+    ]
+}

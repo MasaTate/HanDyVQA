@@ -1,0 +1,17 @@
+{
+    "question": "How does the person grab a plant?",
+    "options": [
+        "The person used both hands to reach out and lift the plant.",
+        "The person grabbed the plant by reaching out with his right hand and pulling it gently towards him.",
+        "The person reached out and carefully took hold of the plant with just the left hand.",
+        "The person gently held the plant between the fingers of the right hand.",
+        "The person supported the plant with the palm of the left hand from underneath."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person grab a plant? Choose **only one** option from the following list.\nOptions:\n(A) The person used both hands to reach out and lift the plant.\n(B) The person grabbed the plant by reaching out with his right hand and pulling it gently towards him.\n(C) The person reached out and carefully took hold of the plant with just the left hand.\n(D) The person gently held the plant between the fingers of the right hand.\n(E) The person supported the plant with the palm of the left hand from underneath.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person gently held the plant between the fingers of the right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

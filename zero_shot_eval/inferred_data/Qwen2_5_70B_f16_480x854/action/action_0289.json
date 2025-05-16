@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person swirls the paintbrush in a palette using the person's right hand, while the person's left hand holds the canvas steady.",
+        "The person cleans the paintbrush in water using the person's left hand, while the person's right hand lifts the paint can.",
+        "The person shakes the paint can with the person's right hand while the person's left hand adjusts the easel.",
+        "The person dips the paintbrush onto the paint can using the person's bare right hand, while the person's bare left hand keeps the spinner in place.",
+        "The person taps the paintbrush on the edge of the paint can with the person's right hand, while the person's left hand grips the paint tube."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person swirls the paintbrush in a palette using the person's right hand, while the person's left hand holds the canvas steady.\n(B) The person cleans the paintbrush in water using the person's left hand, while the person's right hand lifts the paint can.\n(C) The person shakes the paint can with the person's right hand while the person's left hand adjusts the easel.\n(D) The person dips the paintbrush onto the paint can using the person's bare right hand, while the person's bare left hand keeps the spinner in place.\n(E) The person taps the paintbrush on the edge of the paint can with the person's right hand, while the person's left hand grips the paint tube.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person dips the paintbrush onto the paint can using the person's bare right hand, while the person's bare left hand keeps the spinner in place."
+    },
+    "correct_idx": [
+        3
+    ]
+}

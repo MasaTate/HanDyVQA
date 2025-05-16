@@ -1,0 +1,17 @@
+{
+    "question": "How does the person wipe his trousers?",
+    "options": [
+        "The person wipes his trousers in a downward movement using his right hand.",
+        "The person wipes his trousers in an upward movement using both hands.",
+        "The person cleans his trousers by rubbing one hand across the fabric in a gentle circular motion.",
+        "The person wipes his trousers by lightly patting with fingertips from the side using his left hand.",
+        "The person brushes off his trousers with a smooth swipe using his palm in a diagonal direction."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person wipe his trousers? Choose **only one** option from the following list.\nOptions:\n(A) The person wipes his trousers in a downward movement using his right hand.\n(B) The person wipes his trousers in an upward movement using both hands.\n(C) The person cleans his trousers by rubbing one hand across the fabric in a gentle circular motion.\n(D) The person wipes his trousers by lightly patting with fingertips from the side using his left hand.\n(E) The person brushes off his trousers with a smooth swipe using his palm in a diagonal direction.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person wipes his trousers in a downward movement using his right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

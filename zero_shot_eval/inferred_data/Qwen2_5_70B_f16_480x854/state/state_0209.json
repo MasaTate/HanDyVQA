@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the lawn mower change?",
+    "options": [
+        "The lawn mower was moved from a grassy area to a gravel path.",
+        "The lawn mower was moved from a concrete surface to a grassy surface.",
+        "The lawn mower was moved to a grassy area after finishing cutting all the grass and then started cutting again.",
+        "The lawn mower was moved along the sidewalk and then backed into the lawn area.",
+        "The lawn mower was moved side to side and then forward and backward."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the lawn mower change? Choose **only one** option from the following list.\nOptions:\n(A) The lawn mower was moved from a grassy area to a gravel path.\n(B) The lawn mower was moved from a concrete surface to a grassy surface.\n(C) The lawn mower was moved to a grassy area after finishing cutting all the grass and then started cutting again.\n(D) The lawn mower was moved along the sidewalk and then backed into the lawn area.\n(E) The lawn mower was moved side to side and then forward and backward.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The lawn mower was moved from a concrete surface to a grassy surface."
+    },
+    "correct_idx": [
+        1
+    ]
+}

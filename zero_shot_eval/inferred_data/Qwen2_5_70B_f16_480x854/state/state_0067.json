@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the surface of the wood change?",
+    "options": [
+        "The surface of the wood had intermittent contact with both hands in an alternating manner.",
+        "The surface of the wood had stable contact with the left hand and intermittent contact with the right hand.",
+        "The surface of the wood had stable contact with the right hand, while intermittent contact was made by the left hand.",
+        "The surface of the wood experienced stable contact from both hands.",
+        "The surface of the wood had intermittent contact with the left hand and stable contact with the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the surface of the wood change? Choose **only one** option from the following list.\nOptions:\n(A) The surface of the wood had intermittent contact with both hands in an alternating manner.\n(B) The surface of the wood had stable contact with the left hand and intermittent contact with the right hand.\n(C) The surface of the wood had stable contact with the right hand, while intermittent contact was made by the left hand.\n(D) The surface of the wood experienced stable contact from both hands.\n(E) The surface of the wood had intermittent contact with the left hand and stable contact with the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The surface of the wood had stable contact with the left hand and intermittent contact with the right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person polishes the wood with a cloth in his right hand while holding the wood piece with his left hand.",
+        "The person applies varnish to the wood using a brush in his right hand while steadying the wood with his left hand.",
+        "The person scrapes the wood surface with a chisel in his right hand while holding the wood down with his left hand.",
+        "The person sands the wood with the sandpaper in his right hand while holding the wood piece with his left hand.",
+        "The person cuts the wood into pieces using a saw in his right hand while supporting the wood with his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person polishes the wood with a cloth in his right hand while holding the wood piece with his left hand.\n(B) The person applies varnish to the wood using a brush in his right hand while steadying the wood with his left hand.\n(C) The person scrapes the wood surface with a chisel in his right hand while holding the wood down with his left hand.\n(D) The person sands the wood with the sandpaper in his right hand while holding the wood piece with his left hand.\n(E) The person cuts the wood into pieces using a saw in his right hand while supporting the wood with his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person polishes the wood with a cloth in his right hand while holding the wood piece with his left hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of paint on the artist palette change?",
+    "options": [
+        "The paint on the artist palette didn't change at all.",
+        "The paint on the artist palette was mixed with other colors.",
+        "The paint on the artist palette was scraped off.",
+        "The paint on the artist palette dried slightly.",
+        "The paint on the artist palette was dabbed with a brush, introducing a new texture."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of paint on the artist palette change? Choose **only one** option from the following list.\nOptions:\n(A) The paint on the artist palette didn't change at all.\n(B) The paint on the artist palette was mixed with other colors.\n(C) The paint on the artist palette was scraped off.\n(D) The paint on the artist palette dried slightly.\n(E) The paint on the artist palette was dabbed with a brush, introducing a new texture.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The paint on the artist palette didn't change at all."
+    },
+    "correct_idx": [
+        0
+    ]
+}

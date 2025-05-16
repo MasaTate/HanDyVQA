@@ -1,0 +1,17 @@
+{
+    "question": "How does the person drag the plastic tray?",
+    "options": [
+        "The person pulls the tray with both hands, raising it gently off the surface.",
+        "The person drags the tray by pulling it out using the right hand.",
+        "The person pushes the tray forward using the palm of the left hand.",
+        "The person holds the tray by its edges with the fingers of the right hand and slides it slightly sideways.",
+        "The person tilts the tray and smoothly slides it along the table with the forearm."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person drag the plastic tray? Choose **only one** option from the following list.\nOptions:\n(A) The person pulls the tray with both hands, raising it gently off the surface.\n(B) The person drags the tray by pulling it out using the right hand.\n(C) The person pushes the tray forward using the palm of the left hand.\n(D) The person holds the tray by its edges with the fingers of the right hand and slides it slightly sideways.\n(E) The person tilts the tray and smoothly slides it along the table with the forearm.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person drags the tray by pulling it out using the right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

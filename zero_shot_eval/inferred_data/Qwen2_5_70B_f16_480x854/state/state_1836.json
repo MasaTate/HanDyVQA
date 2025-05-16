@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the eraser on the piano change?",
+    "options": [
+        "The eraser was lifted off the piano and dropped onto the floor.",
+        "The eraser was tossed across the room and ended up on a nearby table.",
+        "The eraser was lifted and placed into a drawer next to the piano.",
+        "The eraser was picked up and placed above the piano.",
+        "The eraser was removed and positioned inside a backpack resting on the piano."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the eraser on the piano change? Choose **only one** option from the following list.\nOptions:\n(A) The eraser was lifted off the piano and dropped onto the floor.\n(B) The eraser was tossed across the room and ended up on a nearby table.\n(C) The eraser was lifted and placed into a drawer next to the piano.\n(D) The eraser was picked up and placed above the piano.\n(E) The eraser was removed and positioned inside a backpack resting on the piano.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The eraser was picked up and placed above the piano."
+    },
+    "correct_idx": [
+        3
+    ]
+}

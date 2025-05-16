@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the sink strainer change?",
+    "options": [
+        "The sink strainer was covered with grease and grime.",
+        "The sink strainer was filled with water after being submerged.",
+        "The sink strainer was removed and placed on the countertop.",
+        "The sink strainer was tapped with the food residue.",
+        "The sink strainer was clogged with hair and debris."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the sink strainer change? Choose **only one** option from the following list.\nOptions:\n(A) The sink strainer was covered with grease and grime.\n(B) The sink strainer was filled with water after being submerged.\n(C) The sink strainer was removed and placed on the countertop.\n(D) The sink strainer was tapped with the food residue.\n(E) The sink strainer was clogged with hair and debris.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The sink strainer was removed and placed on the countertop."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person palce his hands?",
+    "options": [
+        "The person places his hands at the bottom of the piano keys.",
+        "The person palces his hands on the top of the piano keys.",
+        "The person places his hands on the side of the piano.",
+        "The person places his hands in front of the piano bench.",
+        "The person places his hands on the back of the piano."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person palce his hands? Choose **only one** option from the following list.\nOptions:\n(A) The person places his hands at the bottom of the piano keys.\n(B) The person palces his hands on the top of the piano keys.\n(C) The person places his hands on the side of the piano.\n(D) The person places his hands in front of the piano bench.\n(E) The person places his hands on the back of the piano.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person places his hands at the bottom of the piano keys."
+    },
+    "correct_idx": [
+        1
+    ]
+}

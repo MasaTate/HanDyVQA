@@ -1,0 +1,17 @@
+{
+    "question": "How does the person open drawer from the green tool box?",
+    "options": [
+        "The person uses both hands to gently pull the drawer from the green tool box.",
+        "The person uses his left hand to pull the drawer from the green tool box.",
+        "The person uses his palm to smoothly slide the drawer open, then lifts it slightly from the green tool box.",
+        "The person uses his right hand to pull the drawer from the green tool box.",
+        "The person pulls the drawer with his left hand while keeping the tool box steady with his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person open drawer from the green tool box? Choose **only one** option from the following list.\nOptions:\n(A) The person uses both hands to gently pull the drawer from the green tool box.\n(B) The person uses his left hand to pull the drawer from the green tool box.\n(C) The person uses his palm to smoothly slide the drawer open, then lifts it slightly from the green tool box.\n(D) The person uses his right hand to pull the drawer from the green tool box.\n(E) The person pulls the drawer with his left hand while keeping the tool box steady with his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person uses his right hand to pull the drawer from the green tool box."
+    },
+    "correct_idx": [
+        3
+    ]
+}

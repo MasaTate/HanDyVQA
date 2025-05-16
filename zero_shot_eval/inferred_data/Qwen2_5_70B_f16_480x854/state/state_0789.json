@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the purse change?",
+    "options": [
+        "The purse was taken out of the box and opened slightly, showing only some of its contents.",
+        "The purse remained inside the box but was opened wide, exposing everything inside it.",
+        "The purse was taken out of the box but only opened halfway, partially revealing its contents.",
+        "The purse stayed in the box and was opened slightly, barely revealing anything inside.",
+        "The purse was taken out of the box and opened wide, revealing all its contents."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the purse change? Choose **only one** option from the following list.\nOptions:\n(A) The purse was taken out of the box and opened slightly, showing only some of its contents.\n(B) The purse remained inside the box but was opened wide, exposing everything inside it.\n(C) The purse was taken out of the box but only opened halfway, partially revealing its contents.\n(D) The purse stayed in the box and was opened slightly, barely revealing anything inside.\n(E) The purse was taken out of the box and opened wide, revealing all its contents.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The purse was taken out of the box and opened wide, revealing all its contents."
+    },
+    "correct_idx": [
+        4
+    ]
+}

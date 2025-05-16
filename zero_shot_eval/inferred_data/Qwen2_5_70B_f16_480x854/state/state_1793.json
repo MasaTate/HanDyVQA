@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of water change?",
+    "options": [
+        "The water was poured into the pot from the faucet and immediately dumped into the sink.",
+        "The water was poured into the pot and then transferred into a bowl.",
+        "The water was dripped into the pot from the faucet and left to sit.",
+        "The water was filled into a kettle from the faucet and then dumped into the sink.",
+        "The water was poured into the pot and then tipped out into a cup."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of water change? Choose **only one** option from the following list.\nOptions:\n(A) The water was poured into the pot from the faucet and immediately dumped into the sink.\n(B) The water was poured into the pot and then transferred into a bowl.\n(C) The water was dripped into the pot from the faucet and left to sit.\n(D) The water was filled into a kettle from the faucet and then dumped into the sink.\n(E) The water was poured into the pot and then tipped out into a cup.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The water was poured into the pot from the faucet and immediately dumped into the sink."
+    },
+    "correct_idx": [
+        0
+    ]
+}

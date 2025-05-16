@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the screw?",
+    "options": [
+        "The person placed the screw in the bottom right corner of the table.",
+        "The person placed the screw on the edge of the table near the shelf.",
+        "The person placed the screw at the top left corner of the table.",
+        "The person placed the screw in the center of the floor.",
+        "The person placed the screw in the middle of the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the screw? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the screw in the bottom right corner of the table.\n(B) The person placed the screw on the edge of the table near the shelf.\n(C) The person placed the screw at the top left corner of the table.\n(D) The person placed the screw in the center of the floor.\n(E) The person placed the screw in the middle of the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person placed the screw in the middle of the table."
+    },
+    "correct_idx": [
+        4
+    ]
+}

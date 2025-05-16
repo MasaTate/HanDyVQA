@@ -1,0 +1,17 @@
+{
+    "question": "How does the person attach a bolt?",
+    "options": [
+        "The person holds the bolt in both hands and guides it into the machine, attempting to secure it by aligning it properly.",
+        "The person uses the bolt in his right hand to attach it to a machine and then twists and turns it using his right hand to tighten the bolt.",
+        "The person uses his left hand to align the bolt into place while the right hand holds a tool nearby.",
+        "The person secures the bolt with one hand and positions it towards the machine instead of fastening it directly.",
+        "The person places the bolt on the machine and lightly presses it with his fingers to try and secure it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person attach a bolt? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the bolt in both hands and guides it into the machine, attempting to secure it by aligning it properly.\n(B) The person uses the bolt in his right hand to attach it to a machine and then twists and turns it using his right hand to tighten the bolt.\n(C) The person uses his left hand to align the bolt into place while the right hand holds a tool nearby.\n(D) The person secures the bolt with one hand and positions it towards the machine instead of fastening it directly.\n(E) The person places the bolt on the machine and lightly presses it with his fingers to try and secure it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person uses the bolt in his right hand to attach it to a machine and then twists and turns it using his right hand to tighten the bolt."
+    },
+    "correct_idx": [
+        1
+    ]
+}

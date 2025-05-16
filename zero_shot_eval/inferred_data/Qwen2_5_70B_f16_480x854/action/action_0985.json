@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person places the manifold on the shelf and grips the spray can with his right hand while holding a wrench in his left hand.",
+        "The person places the manifold on the table and adjusts the spray can with his right hand.",
+        "The person sets the manifold on the ground and uses the spray can in his right hand while stabilizing something with his left hand.",
+        "The person lifts the manifold off the table and uses the spray can with his right hand while holding a flashlight with his left hand.",
+        "The person removes the manifold from the table and adjusts the spray can with his left hand while holding a brush in his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person places the manifold on the shelf and grips the spray can with his right hand while holding a wrench in his left hand.\n(B) The person places the manifold on the table and adjusts the spray can with his right hand.\n(C) The person sets the manifold on the ground and uses the spray can in his right hand while stabilizing something with his left hand.\n(D) The person lifts the manifold off the table and uses the spray can with his right hand while holding a flashlight with his left hand.\n(E) The person removes the manifold from the table and adjusts the spray can with his left hand while holding a brush in his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person places the manifold on the shelf and grips the spray can with his right hand while holding a wrench in his left hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

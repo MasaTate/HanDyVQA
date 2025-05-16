@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the hard drive?",
+    "options": [
+        "The person put the hard drive on the top shelf of the storage cabinet.",
+        "The person put the hard drive inside the drawer of the desk.",
+        "The person put the hard drive next to the printer on the table.",
+        "The person put the hard drive on the hard drive case of the system unit.",
+        "The person put the hard drive on the side of the computer monitor."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the hard drive? Choose **only one** option from the following list.\nOptions:\n(A) The person put the hard drive on the top shelf of the storage cabinet.\n(B) The person put the hard drive inside the drawer of the desk.\n(C) The person put the hard drive next to the printer on the table.\n(D) The person put the hard drive on the hard drive case of the system unit.\n(E) The person put the hard drive on the side of the computer monitor.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person put the hard drive on the hard drive case of the system unit."
+    },
+    "correct_idx": [
+        3
+    ]
+}

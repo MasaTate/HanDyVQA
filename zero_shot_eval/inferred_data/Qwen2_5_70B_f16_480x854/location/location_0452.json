@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the small craft paper?",
+    "options": [
+        "The person puts the small craft paper on the shelf next to some scissors and a notebook.",
+        "The person places the small craft paper on the floor beside a box and some markers.",
+        "The person sets the small craft paper on the table across from a stack of envelopes and a pen.",
+        "The person lays the small craft paper on the workstation beside a laptop and some glue.",
+        "The person puts the small craft of paper on his desk near a cutter and a ruler."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the small craft paper? Choose **only one** option from the following list.\nOptions:\n(A) The person puts the small craft paper on the shelf next to some scissors and a notebook.\n(B) The person places the small craft paper on the floor beside a box and some markers.\n(C) The person sets the small craft paper on the table across from a stack of envelopes and a pen.\n(D) The person lays the small craft paper on the workstation beside a laptop and some glue.\n(E) The person puts the small craft of paper on his desk near a cutter and a ruler.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person puts the small craft of paper on his desk near a cutter and a ruler."
+    },
+    "correct_idx": [
+        4
+    ]
+}

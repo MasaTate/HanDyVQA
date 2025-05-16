@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person raises the needle holder on the sewing machine with her right hand.",
+        "The person adjusts the thread tension on the sewing machine using her right hand while holding the fabric with her left hand.",
+        "The person operates the foot pedal of the sewing machine with her right foot while using her left hand to guide the fabric.",
+        "The person removes the presser foot from the sewing machine with her right hand after finishing the stitching.",
+        "The person lowers the presser bar lifter on the sewing machine with her right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person raises the needle holder on the sewing machine with her right hand.\n(B) The person adjusts the thread tension on the sewing machine using her right hand while holding the fabric with her left hand.\n(C) The person operates the foot pedal of the sewing machine with her right foot while using her left hand to guide the fabric.\n(D) The person removes the presser foot from the sewing machine with her right hand after finishing the stitching.\n(E) The person lowers the presser bar lifter on the sewing machine with her right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person adjusts the thread tension on the sewing machine using her right hand while holding the fabric with her left hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

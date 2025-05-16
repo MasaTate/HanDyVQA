@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the woods?",
+    "options": [
+        "The person drops the crafted wood on the floor beside a toolbox and some sawdust.",
+        "The person drops the crafted wood on a shelf above a container of nails and other tools.",
+        "The person drops the crafted wood on a chair in front of a workbench covered in blueprints.",
+        "The person drops the crafted wood on a desk against the wall near a pile of books and a lamp.",
+        "The person drops the crafted wood on a table next to a ruler and other woodcrafts."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the woods? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the crafted wood on the floor beside a toolbox and some sawdust.\n(B) The person drops the crafted wood on a shelf above a container of nails and other tools.\n(C) The person drops the crafted wood on a chair in front of a workbench covered in blueprints.\n(D) The person drops the crafted wood on a desk against the wall near a pile of books and a lamp.\n(E) The person drops the crafted wood on a table next to a ruler and other woodcrafts.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person drops the crafted wood on a table next to a ruler and other woodcrafts."
+    },
+    "correct_idx": [
+        4
+    ]
+}

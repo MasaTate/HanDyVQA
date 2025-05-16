@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the pencil?",
+    "options": [
+        "The person placed the pencil beside the book on the table.",
+        "The person placed the pencil on top of the book.",
+        "The person placed the pencil under the book on the shelf.",
+        "The person placed the pencil on the floor next to the book.",
+        "The person placed the pencil in front of the book on the desk."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the pencil? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the pencil beside the book on the table.\n(B) The person placed the pencil on top of the book.\n(C) The person placed the pencil under the book on the shelf.\n(D) The person placed the pencil on the floor next to the book.\n(E) The person placed the pencil in front of the book on the desk.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person placed the pencil beside the book on the table."
+    },
+    "correct_idx": [
+        1
+    ]
+}

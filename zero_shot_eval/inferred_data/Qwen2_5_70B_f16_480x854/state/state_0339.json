@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the pot change?",
+    "options": [
+        "The pot was placed on the stove, covered, and moved back and forth.",
+        "The pot was set down, filled with water, and stirred.",
+        "The pot was carried to the table, emptied, and then rotated.",
+        "The pot was separated from the lid and the contents were boiled down.",
+        "The pot was lifted, opened, and turned in a circular motion."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the pot change? Choose **only one** option from the following list.\nOptions:\n(A) The pot was placed on the stove, covered, and moved back and forth.\n(B) The pot was set down, filled with water, and stirred.\n(C) The pot was carried to the table, emptied, and then rotated.\n(D) The pot was separated from the lid and the contents were boiled down.\n(E) The pot was lifted, opened, and turned in a circular motion.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The pot was lifted, opened, and turned in a circular motion."
+    },
+    "correct_idx": [
+        4
+    ]
+}

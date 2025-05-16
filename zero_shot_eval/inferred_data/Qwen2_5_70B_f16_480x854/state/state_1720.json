@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the faucet change?",
+    "options": [
+        "The faucet was turned on, and water began to flow while a towel rested on top.",
+        "The faucet was turned off, and water stopped while a sponge absorbed the water below.",
+        "The faucet was partially opened, and water trickled out while a bucket collected the dripping water.",
+        "The faucet was adjusted to a different position, causing water to spray out at an angle while a dish was placed underneath.",
+        "The faucet was repaired, and no water ran while a cloth was draped over the handle."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the faucet change? Choose **only one** option from the following list.\nOptions:\n(A) The faucet was turned on, and water began to flow while a towel rested on top.\n(B) The faucet was turned off, and water stopped while a sponge absorbed the water below.\n(C) The faucet was partially opened, and water trickled out while a bucket collected the dripping water.\n(D) The faucet was adjusted to a different position, causing water to spray out at an angle while a dish was placed underneath.\n(E) The faucet was repaired, and no water ran while a cloth was draped over the handle.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The faucet was turned on, and water began to flow while a towel rested on top."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person take the pattern?",
+    "options": [
+        "The person picks up the pieces of the patterns with one hand and places the remaining pattern on the table gently.",
+        "The person lifts the patterns off the table with a smooth motion, allowing them to settle closely on the surface.",
+        "The person slides the patterns slightly away from the edge of the table, using minimal contact with their fingers.",
+        "The person holds the patterns steady with one hand, making sure the remaining patterns are placed carefully on the table.",
+        "The person picks up the pieces of the patterns and then puts down the remaining pattern on the table using both hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person take the pattern? Choose **only one** option from the following list.\nOptions:\n(A) The person picks up the pieces of the patterns with one hand and places the remaining pattern on the table gently.\n(B) The person lifts the patterns off the table with a smooth motion, allowing them to settle closely on the surface.\n(C) The person slides the patterns slightly away from the edge of the table, using minimal contact with their fingers.\n(D) The person holds the patterns steady with one hand, making sure the remaining patterns are placed carefully on the table.\n(E) The person picks up the pieces of the patterns and then puts down the remaining pattern on the table using both hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person picks up the pieces of the patterns and then puts down the remaining pattern on the table using both hands."
+    },
+    "correct_idx": [
+        4
+    ]
+}

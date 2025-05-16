@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is playing fetch with the dog, holding a ball in his left hand while his right hand is extended to throw the ball.",
+        "The person is feeding the dog, holding a bowl of dog food with his left hand while his right hand reaches towards the dog.",
+        "The person is teaching the dog to sit, gesturing with his right hand while holding the leash in his left hand.",
+        "The person walks the dog, holding the leash with his left hand while his right hand is swinging.",
+        "The person is brushing the dog, holding the brush in his left hand while his right hand supports the dog's body."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is playing fetch with the dog, holding a ball in his left hand while his right hand is extended to throw the ball.\n(B) The person is feeding the dog, holding a bowl of dog food with his left hand while his right hand reaches towards the dog.\n(C) The person is teaching the dog to sit, gesturing with his right hand while holding the leash in his left hand.\n(D) The person walks the dog, holding the leash with his left hand while his right hand is swinging.\n(E) The person is brushing the dog, holding the brush in his left hand while his right hand supports the dog's body.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person walks the dog, holding the leash with his left hand while his right hand is swinging."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person release yarn?",
+    "options": [
+        "The person twists the roll of yarn gently with their fingers and then lets go gradually.",
+        "The person holds the yarn with both hands and eases it forward before letting it relax.",
+        "The person carefully unravels the yarn from the roll and allows it to settle to the floor.",
+        "The person holds the yarn and moves it away with a smooth wrist motion.",
+        "The person releases the yarn by pulling it from the roll with the left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person release yarn? Choose **only one** option from the following list.\nOptions:\n(A) The person twists the roll of yarn gently with their fingers and then lets go gradually.\n(B) The person holds the yarn with both hands and eases it forward before letting it relax.\n(C) The person carefully unravels the yarn from the roll and allows it to settle to the floor.\n(D) The person holds the yarn and moves it away with a smooth wrist motion.\n(E) The person releases the yarn by pulling it from the roll with the left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person releases the yarn by pulling it from the roll with the left hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the furniture design on the furniture change?",
+    "options": [
+        "The furniture design was struck with a mallet multiple times.",
+        "The furniture design was struck with a mallet once and then inspected.",
+        "The furniture design was struck with a mallet and then brushed over.",
+        "The furniture design was tapped with a mallet and repositioned before striking again.",
+        "The furniture design was touched with a mallet but not struck forcefully."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the furniture design on the furniture change? Choose **only one** option from the following list.\nOptions:\n(A) The furniture design was struck with a mallet multiple times.\n(B) The furniture design was struck with a mallet once and then inspected.\n(C) The furniture design was struck with a mallet and then brushed over.\n(D) The furniture design was tapped with a mallet and repositioned before striking again.\n(E) The furniture design was touched with a mallet but not struck forcefully.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The furniture design was tapped with a mallet and repositioned before striking again."
+    },
+    "correct_idx": [
+        0
+    ]
+}

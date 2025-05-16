@@ -1,0 +1,17 @@
+{
+    "question": "How does the person draw the grey yarn and a black yarn with her left hand?",
+    "options": [
+        "The person holds the grey and black yarn with her left hand and sets it aside gently.",
+        "The person uses her left hand to guide the grey and black yarn around her wrist carefully.",
+        "The person extends the grey and black yarn away from her body with her left hand slowly.",
+        "The person uses her left hand to move the grey and black yarn smoothly until it aligns.",
+        "The person draws the grey and black yarn by pulling it using the left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person draw the grey yarn and a black yarn with her left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the grey and black yarn with her left hand and sets it aside gently.\n(B) The person uses her left hand to guide the grey and black yarn around her wrist carefully.\n(C) The person extends the grey and black yarn away from her body with her left hand slowly.\n(D) The person uses her left hand to move the grey and black yarn smoothly until it aligns.\n(E) The person draws the grey and black yarn by pulling it using the left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person draws the grey and black yarn by pulling it using the left hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

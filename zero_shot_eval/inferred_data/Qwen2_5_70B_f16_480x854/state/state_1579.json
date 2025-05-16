@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a key on the keyboard change?",
+    "options": [
+        "The keys on the keyboard were pulled upward.",
+        "The keys on the keyboard were turned over.",
+        "The keys on the keyboard were taken out completely.",
+        "The keys on the keyboard were pressed.",
+        "The keys on the keyboard were relocated."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a key on the keyboard change? Choose **only one** option from the following list.\nOptions:\n(A) The keys on the keyboard were pulled upward.\n(B) The keys on the keyboard were turned over.\n(C) The keys on the keyboard were taken out completely.\n(D) The keys on the keyboard were pressed.\n(E) The keys on the keyboard were relocated.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The keys on the keyboard were pressed."
+    },
+    "correct_idx": [
+        3
+    ]
+}

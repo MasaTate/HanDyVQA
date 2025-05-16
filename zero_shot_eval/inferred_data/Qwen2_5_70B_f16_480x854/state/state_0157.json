@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the twig change?",
+    "options": [
+        "The twig was separated into several smaller pieces and scattered across the yard.",
+        "The twig was pulled out of the ground and positioned in a flower pot.",
+        "The twig was removed from the fence and thrown onto the ground.",
+        "The twig was soaked in water and left soggy on the ground.",
+        "The twig was twisted into a spiral shape and left hanging from a branch."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the twig change? Choose **only one** option from the following list.\nOptions:\n(A) The twig was separated into several smaller pieces and scattered across the yard.\n(B) The twig was pulled out of the ground and positioned in a flower pot.\n(C) The twig was removed from the fence and thrown onto the ground.\n(D) The twig was soaked in water and left soggy on the ground.\n(E) The twig was twisted into a spiral shape and left hanging from a branch.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The twig was removed from the fence and thrown onto the ground."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the yarn change?",
+    "options": [
+        "The yarn was pulled to the right and wrapped around the needle.",
+        "The yarn was pulled downward and intertwined with the existing stitches.",
+        "The yarn was pulled to the left and knitted in a quick motion.",
+        "The yarn was pulled upward and looped around.",
+        "The yarn was pulled to the left and draped over the needle."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the yarn change? Choose **only one** option from the following list.\nOptions:\n(A) The yarn was pulled to the right and wrapped around the needle.\n(B) The yarn was pulled downward and intertwined with the existing stitches.\n(C) The yarn was pulled to the left and knitted in a quick motion.\n(D) The yarn was pulled upward and looped around.\n(E) The yarn was pulled to the left and draped over the needle.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The yarn was pulled to the left and draped over the needle."
+    },
+    "correct_idx": [
+        2
+    ]
+}

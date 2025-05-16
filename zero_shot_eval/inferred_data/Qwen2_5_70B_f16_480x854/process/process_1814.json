@@ -1,0 +1,17 @@
+{
+    "question": "How does the person turn a key on the lawn mower?",
+    "options": [
+        "The person twisted the key clockwise to turn on the lawn mower using the right hand.",
+        "The person twisted the key counterclockwise to try starting the lawn mower.",
+        "The person removed the key from the ignition and then put it back into the lawn mower.",
+        "The person lightly tapped the key with their fingers rather than turning it.",
+        "The person pressed down on the key rather than turning it to ignite the lawn mower."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person turn a key on the lawn mower? Choose **only one** option from the following list.\nOptions:\n(A) The person twisted the key clockwise to turn on the lawn mower using the right hand.\n(B) The person twisted the key counterclockwise to try starting the lawn mower.\n(C) The person removed the key from the ignition and then put it back into the lawn mower.\n(D) The person lightly tapped the key with their fingers rather than turning it.\n(E) The person pressed down on the key rather than turning it to ignite the lawn mower.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person twisted the key clockwise to turn on the lawn mower using the right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

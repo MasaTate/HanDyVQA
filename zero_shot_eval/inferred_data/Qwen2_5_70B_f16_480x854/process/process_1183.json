@@ -1,0 +1,17 @@
+{
+    "question": "How does the person tuck a fourth piece of wood under the furniture?",
+    "options": [
+        "The person slid the fourth piece of wood under the furniture with one hand while gently pressing down with the other hand.",
+        "The person bent down and placed the fourth piece of wood under the furniture without lifting it, using a smooth motion with their arm.",
+        "The person reached under the furniture to tuck the fourth piece of wood without adjusting the furniture at all, using their fingertips.",
+        "The person tilted the furniture slightly to one side and carefully attempted to position the fourth piece of wood on top, instead of tucking it underneath.",
+        "The person lifted the furniture and tucks a fourth piece of wood under the furniture while leaning the furniture using both hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person tuck a fourth piece of wood under the furniture? Choose **only one** option from the following list.\nOptions:\n(A) The person slid the fourth piece of wood under the furniture with one hand while gently pressing down with the other hand.\n(B) The person bent down and placed the fourth piece of wood under the furniture without lifting it, using a smooth motion with their arm.\n(C) The person reached under the furniture to tuck the fourth piece of wood without adjusting the furniture at all, using their fingertips.\n(D) The person tilted the furniture slightly to one side and carefully attempted to position the fourth piece of wood on top, instead of tucking it underneath.\n(E) The person lifted the furniture and tucks a fourth piece of wood under the furniture while leaning the furniture using both hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person bent down and placed the fourth piece of wood under the furniture without lifting it, using a smooth motion with their arm."
+    },
+    "correct_idx": [
+        4
+    ]
+}

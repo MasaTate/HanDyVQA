@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person dries the knife by holding it with the right hand and wiping it with a towel in the left hand.",
+        "The person polishes the knife using a cloth held in the right hand while grasping the knife with the left hand.",
+        "The person sharpens the knife by holding it with the left hand and guiding the sharpener with the right hand.",
+        "The person washes the knife in the right hand with a sponge in her left hand.",
+        "The person places the knife in the sink with the left hand while turning on the faucet with the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person dries the knife by holding it with the right hand and wiping it with a towel in the left hand.\n(B) The person polishes the knife using a cloth held in the right hand while grasping the knife with the left hand.\n(C) The person sharpens the knife by holding it with the left hand and guiding the sharpener with the right hand.\n(D) The person washes the knife in the right hand with a sponge in her left hand.\n(E) The person places the knife in the sink with the left hand while turning on the faucet with the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person washes the knife in the right hand with a sponge in her left hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

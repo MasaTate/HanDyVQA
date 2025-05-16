@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person return the drilling machine?",
+    "options": [
+        "The person returns the drilling machine under the workbench.",
+        "The person returns the drilling machine next to the toolbox.",
+        "The person return the drilling machine on top of the drawers.",
+        "The person returns the drilling machine on the floor by the shelves.",
+        "The person returns the drilling machine on the chair beside the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person return the drilling machine? Choose **only one** option from the following list.\nOptions:\n(A) The person returns the drilling machine under the workbench.\n(B) The person returns the drilling machine next to the toolbox.\n(C) The person return the drilling machine on top of the drawers.\n(D) The person returns the drilling machine on the floor by the shelves.\n(E) The person returns the drilling machine on the chair beside the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person return the drilling machine on top of the drawers."
+    },
+    "correct_idx": [
+        2
+    ]
+}

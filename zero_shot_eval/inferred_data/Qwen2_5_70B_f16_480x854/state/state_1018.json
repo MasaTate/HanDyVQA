@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the water change?",
+    "options": [
+        "The water was poured out and then the tap was turned on again.",
+        "The water was poured out and the tap was not turned back on.",
+        "The water was poured into a different container and the tap was not reopened.",
+        "The water was collected in a cup before the tap was turned off.",
+        "The water was allowed to drip before the tap was closed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the water change? Choose **only one** option from the following list.\nOptions:\n(A) The water was poured out and then the tap was turned on again.\n(B) The water was poured out and the tap was not turned back on.\n(C) The water was poured into a different container and the tap was not reopened.\n(D) The water was collected in a cup before the tap was turned off.\n(E) The water was allowed to drip before the tap was closed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The water was poured out and then the tap was turned on again."
+    },
+    "correct_idx": [
+        0
+    ]
+}

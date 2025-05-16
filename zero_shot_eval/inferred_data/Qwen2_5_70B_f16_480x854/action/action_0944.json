@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person uses her right hand to pick up the dried papaya leaves from the ground while holding a rake in her left hand.",
+        "The person uses her right hand to move the dried papaya leaves on the ground while holding a broom in her left hand.",
+        "The person uses her right hand to gather the dried papaya leaves into a pile while holding a dustpan in her left hand.",
+        "The person uses her right hand to sweep the dried papaya leaves off the patio while holding a shovel in her left hand.",
+        "The person uses her right hand to toss the dried papaya leaves into a compost bin while holding a garden fork in her left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person uses her right hand to pick up the dried papaya leaves from the ground while holding a rake in her left hand.\n(B) The person uses her right hand to move the dried papaya leaves on the ground while holding a broom in her left hand.\n(C) The person uses her right hand to gather the dried papaya leaves into a pile while holding a dustpan in her left hand.\n(D) The person uses her right hand to sweep the dried papaya leaves off the patio while holding a shovel in her left hand.\n(E) The person uses her right hand to toss the dried papaya leaves into a compost bin while holding a garden fork in her left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person uses her right hand to move the dried papaya leaves on the ground while holding a broom in her left hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person dip his right hand?",
+    "options": [
+        "The person quickly places his right hand into the water inside the drum and shakes it.",
+        "The person gently lowers his right hand into the water inside the drum and keeps it there.",
+        "The person smoothly moves water with his right hand inside the drum while waving it.",
+        "The person dips his right hand into the water inside the drum and moves it in a circular motion.",
+        "The person gently scoops up water with his right hand from the drum and lifts it slightly."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person dip his right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person quickly places his right hand into the water inside the drum and shakes it.\n(B) The person gently lowers his right hand into the water inside the drum and keeps it there.\n(C) The person smoothly moves water with his right hand inside the drum while waving it.\n(D) The person dips his right hand into the water inside the drum and moves it in a circular motion.\n(E) The person gently scoops up water with his right hand from the drum and lifts it slightly.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person dips his right hand into the water inside the drum and moves it in a circular motion."
+    },
+    "correct_idx": [
+        3
+    ]
+}

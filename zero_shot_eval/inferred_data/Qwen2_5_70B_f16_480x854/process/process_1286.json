@@ -1,0 +1,17 @@
+{
+    "question": "How does the person spread the nylon?",
+    "options": [
+        "The person gently pulls the nylon with both hands to stretch it slightly outwards.",
+        "The person holds the nylon with his right hand and moves it gently to unfold it.",
+        "The person uses his fingers to adjust the nylon and move it to one side.",
+        "The person spreads the nylon by moving his left hand thumb on the nylon to the left.",
+        "The person slides the nylon with his palm, spreading it smoothly across the surface."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person spread the nylon? Choose **only one** option from the following list.\nOptions:\n(A) The person gently pulls the nylon with both hands to stretch it slightly outwards.\n(B) The person holds the nylon with his right hand and moves it gently to unfold it.\n(C) The person uses his fingers to adjust the nylon and move it to one side.\n(D) The person spreads the nylon by moving his left hand thumb on the nylon to the left.\n(E) The person slides the nylon with his palm, spreading it smoothly across the surface.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person slides the nylon with his palm, spreading it smoothly across the surface."
+    },
+    "correct_idx": [
+        3
+    ]
+}

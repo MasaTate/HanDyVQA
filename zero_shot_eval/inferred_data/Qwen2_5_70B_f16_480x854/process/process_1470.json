@@ -1,0 +1,17 @@
+{
+    "question": "How does the person scroll a phone?",
+    "options": [
+        "The person lightly touched the screen with her index finger of her left hand while gently moving the phone back and forth to navigate through the content.",
+        "The person scrolled the phone by swiping up and down on the screen with her right thumb and tapped it once with her left thumb.",
+        "The person calmly held the phone in his right hand and smoothly scrolled the screen using his fingertips rather than a thumb.",
+        "The person grasped the phone with both hands and slightly tilted it while softly pushing the screen with her palm to browse through the options.",
+        "The person scrolled the phone by gently tapping the screen a few times with her pinky finger while holding it with her left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person scroll a phone? Choose **only one** option from the following list.\nOptions:\n(A) The person lightly touched the screen with her index finger of her left hand while gently moving the phone back and forth to navigate through the content.\n(B) The person scrolled the phone by swiping up and down on the screen with her right thumb and tapped it once with her left thumb.\n(C) The person calmly held the phone in his right hand and smoothly scrolled the screen using his fingertips rather than a thumb.\n(D) The person grasped the phone with both hands and slightly tilted it while softly pushing the screen with her palm to browse through the options.\n(E) The person scrolled the phone by gently tapping the screen a few times with her pinky finger while holding it with her left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person scrolled the phone by swiping up and down on the screen with her right thumb and tapped it once with her left thumb."
+    },
+    "correct_idx": [
+        1
+    ]
+}

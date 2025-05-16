@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the top of the white board change?",
+    "options": [
+        "The top of the whiteboard became smudged and had markings on it after being written on with a dry-erase marker and then partially erased.",
+        "The top of the whiteboard turned sticky and was covered in paint after it was painted and left to dry without cleaning.",
+        "The top of the whiteboard became cluttered and was filled with sticky notes after being decorated with various colorful notes.",
+        "The top of the whiteboard was scratched and showed damage after being pressed on with a sharp object.",
+        "The top of the whiteboard became clean and was covered with glue as it was wiped and then glued with a glue gun."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the top of the white board change? Choose **only one** option from the following list.\nOptions:\n(A) The top of the whiteboard became smudged and had markings on it after being written on with a dry-erase marker and then partially erased.\n(B) The top of the whiteboard turned sticky and was covered in paint after it was painted and left to dry without cleaning.\n(C) The top of the whiteboard became cluttered and was filled with sticky notes after being decorated with various colorful notes.\n(D) The top of the whiteboard was scratched and showed damage after being pressed on with a sharp object.\n(E) The top of the whiteboard became clean and was covered with glue as it was wiped and then glued with a glue gun.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The top of the whiteboard became clean and was covered with glue as it was wiped and then glued with a glue gun."
+    },
+    "correct_idx": [
+        4
+    ]
+}

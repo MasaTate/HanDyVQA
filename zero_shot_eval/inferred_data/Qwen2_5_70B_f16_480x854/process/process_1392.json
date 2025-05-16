@@ -1,0 +1,17 @@
+{
+    "question": "How does the person sew the fabric?",
+    "options": [
+        "The person stitches the fabric by hand using a needle and thread, gently holding the fabric in their left hand.",
+        "The person uses a pair of scissors carefully to cut the fabric before sewing it together.",
+        "The person sews the fabric in precise motion by using a sewing machine.",
+        "The person uses adhesive to hold the fabric in place while carefully operating the sewing machine.",
+        "The person uses a stapler to attach the fabric pieces closely, avoiding sewing them together."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person sew the fabric? Choose **only one** option from the following list.\nOptions:\n(A) The person stitches the fabric by hand using a needle and thread, gently holding the fabric in their left hand.\n(B) The person uses a pair of scissors carefully to cut the fabric before sewing it together.\n(C) The person sews the fabric in precise motion by using a sewing machine.\n(D) The person uses adhesive to hold the fabric in place while carefully operating the sewing machine.\n(E) The person uses a stapler to attach the fabric pieces closely, avoiding sewing them together.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person sews the fabric in precise motion by using a sewing machine."
+    },
+    "correct_idx": [
+        2
+    ]
+}

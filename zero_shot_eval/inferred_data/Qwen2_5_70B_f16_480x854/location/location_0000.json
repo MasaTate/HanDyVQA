@@ -1,0 +1,17 @@
+{
+    "question": "Where is the person holding his right hand?",
+    "options": [
+        "The person holds his right hand on the clutch lever of the motorcycle.",
+        "The person holds his right hand on the gas tank of the motorcycle.",
+        "The person holds his right hand on the handlebars of the motorcycle.",
+        "The person holds his right hand on the throttle handle of the motorcycle.",
+        "The person holds his right hand on the seat of the motorcycle."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where is the person holding his right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person holds his right hand on the clutch lever of the motorcycle.\n(B) The person holds his right hand on the gas tank of the motorcycle.\n(C) The person holds his right hand on the handlebars of the motorcycle.\n(D) The person holds his right hand on the throttle handle of the motorcycle.\n(E) The person holds his right hand on the seat of the motorcycle.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person holds his right hand on the handlebars of the motorcycle."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the white paper change?",
+    "options": [
+        "The white paper was crumpled into a ball, obscuring its content.",
+        "The white paper was laid open, fully revealing its content.",
+        "The white paper was torn into strips, making it difficult to read.",
+        "The white paper was folded, creating creases that hid its content.",
+        "The white paper was turned over, showing its blank reverse side."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the white paper change? Choose **only one** option from the following list.\nOptions:\n(A) The white paper was crumpled into a ball, obscuring its content.\n(B) The white paper was laid open, fully revealing its content.\n(C) The white paper was torn into strips, making it difficult to read.\n(D) The white paper was folded, creating creases that hid its content.\n(E) The white paper was turned over, showing its blank reverse side.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The white paper was laid open, fully revealing its content."
+    },
+    "correct_idx": [
+        1
+    ]
+}

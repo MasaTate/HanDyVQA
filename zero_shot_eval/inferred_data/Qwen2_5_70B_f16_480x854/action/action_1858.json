@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person lifted three tomatoes and placed them into the basket with his right hand.",
+        "The person grabbed two potatoes and placed them in the sink with his right hand.",
+        "The person held one potato and mashed it in a bowl with his right hand.",
+        "The person picked up two potatoes from the chopping board and placed them in the bowl with the right hand.",
+        "The person took two potatoes and set them on the counter with his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person lifted three tomatoes and placed them into the basket with his right hand.\n(B) The person grabbed two potatoes and placed them in the sink with his right hand.\n(C) The person held one potato and mashed it in a bowl with his right hand.\n(D) The person picked up two potatoes from the chopping board and placed them in the bowl with the right hand.\n(E) The person took two potatoes and set them on the counter with his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person picked up two potatoes from the chopping board and placed them in the bowl with the right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person dip the hose?",
+    "options": [
+        "The person is placing the hose gently on the ground using both hands.",
+        "The person is rolling the hose up and setting it on a shelf using the left hand.",
+        "The person is dipping the hose forcefully to the ground using the right hand.",
+        "The person is tossing the hose across the yard with their right arm extended.",
+        "The person is holding the hose at the ends and moving it back and forth in the air."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person dip the hose? Choose **only one** option from the following list.\nOptions:\n(A) The person is placing the hose gently on the ground using both hands.\n(B) The person is rolling the hose up and setting it on a shelf using the left hand.\n(C) The person is dipping the hose forcefully to the ground using the right hand.\n(D) The person is tossing the hose across the yard with their right arm extended.\n(E) The person is holding the hose at the ends and moving it back and forth in the air.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person is dipping the hose forcefully to the ground using the right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put her left hand?",
+    "options": [
+        "The person put her left hand on the bottom portion of the cloth.",
+        "The person put her left hand on the side edge of the cloth.",
+        "The person put her left hand on the top portion of the cloth.",
+        "The person put her left hand on the center area of the cloth.",
+        "The person put her left hand on the right portion of the cloth."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put her left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person put her left hand on the bottom portion of the cloth.\n(B) The person put her left hand on the side edge of the cloth.\n(C) The person put her left hand on the top portion of the cloth.\n(D) The person put her left hand on the center area of the cloth.\n(E) The person put her left hand on the right portion of the cloth.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person put her left hand on the top portion of the cloth."
+    },
+    "correct_idx": [
+        2
+    ]
+}

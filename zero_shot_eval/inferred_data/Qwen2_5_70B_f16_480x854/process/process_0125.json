@@ -1,0 +1,17 @@
+{
+    "question": "How does the person cover the plant?",
+    "options": [
+        "The person holds the plant steady with their right hand while carefully moving soil towards it, taking care to ensure the soil is placed well.",
+        "The person gently supports the plant with both hands while cautiously adding soil from a bag, ensuring an even distribution around the plant.",
+        "The person holds the plant steady with their right hand while using their left hand to scoop the soil and move it towards the plant, gently spreading it around the base.",
+        "The person uses a shovel with their left hand to add soil around the plant, while holding the plant securely with their right hand.",
+        "The person steadily pats the soil into place around the plant with their palm, ensuring it is spread evenly."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person cover the plant? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the plant steady with their right hand while carefully moving soil towards it, taking care to ensure the soil is placed well.\n(B) The person gently supports the plant with both hands while cautiously adding soil from a bag, ensuring an even distribution around the plant.\n(C) The person holds the plant steady with their right hand while using their left hand to scoop the soil and move it towards the plant, gently spreading it around the base.\n(D) The person uses a shovel with their left hand to add soil around the plant, while holding the plant securely with their right hand.\n(E) The person steadily pats the soil into place around the plant with their palm, ensuring it is spread evenly.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person holds the plant steady with their right hand while using their left hand to scoop the soil and move it towards the plant, gently spreading it around the base."
+    },
+    "correct_idx": [
+        2
+    ]
+}

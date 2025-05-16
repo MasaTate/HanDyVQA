@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the books change?",
+    "options": [
+        "The books were moved and placed in the top section of the shelf.",
+        "The books were moved and placed in the second bottom section of the shelf.",
+        "The books were rearranged and placed on the floor beside the shelf.",
+        "The books were stacked and placed on the table next to the shelf.",
+        "The books were moved and placed in the bottom section of the shelf."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the books change? Choose **only one** option from the following list.\nOptions:\n(A) The books were moved and placed in the top section of the shelf.\n(B) The books were moved and placed in the second bottom section of the shelf.\n(C) The books were rearranged and placed on the floor beside the shelf.\n(D) The books were stacked and placed on the table next to the shelf.\n(E) The books were moved and placed in the bottom section of the shelf.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The books were moved and placed in the second bottom section of the shelf."
+    },
+    "correct_idx": [
+        1
+    ]
+}

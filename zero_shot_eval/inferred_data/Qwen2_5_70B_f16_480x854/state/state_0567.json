@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the bolt tightening machine change?",
+    "options": [
+        "The bolt-tightening machine was taken out from the toolbox but not attached to the bolt.",
+        "The bolt-tightening machine was attached to the bolt but remained in the toolbox.",
+        "The bolt-tightening machine was taken out from the toolbox and attached to the bolt.",
+        "The bolt-tightening machine was removed from the toolbox and placed next to the bolt.",
+        "The bolt-tightening machine was attached to a different bolt than initially intended."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the bolt tightening machine change? Choose **only one** option from the following list.\nOptions:\n(A) The bolt-tightening machine was taken out from the toolbox but not attached to the bolt.\n(B) The bolt-tightening machine was attached to the bolt but remained in the toolbox.\n(C) The bolt-tightening machine was taken out from the toolbox and attached to the bolt.\n(D) The bolt-tightening machine was removed from the toolbox and placed next to the bolt.\n(E) The bolt-tightening machine was attached to a different bolt than initially intended.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The bolt-tightening machine was taken out from the toolbox but not attached to the bolt."
+    },
+    "correct_idx": [
+        2
+    ]
+}

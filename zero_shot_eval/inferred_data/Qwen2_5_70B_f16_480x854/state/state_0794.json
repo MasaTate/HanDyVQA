@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of some pieces of metals change?",
+    "options": [
+        "The pieces of metals were tapped with the hammer instead.",
+        "The pieces of metals were hammered.",
+        "The pieces of metals were placed on a softer surface and hammered.",
+        "The pieces of metals were hammered with less force applied.",
+        "The pieces of metals were repositioned and then hammered."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of some pieces of metals change? Choose **only one** option from the following list.\nOptions:\n(A) The pieces of metals were tapped with the hammer instead.\n(B) The pieces of metals were hammered.\n(C) The pieces of metals were placed on a softer surface and hammered.\n(D) The pieces of metals were hammered with less force applied.\n(E) The pieces of metals were repositioned and then hammered.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The pieces of metals were hammered."
+    },
+    "correct_idx": [
+        1
+    ]
+}

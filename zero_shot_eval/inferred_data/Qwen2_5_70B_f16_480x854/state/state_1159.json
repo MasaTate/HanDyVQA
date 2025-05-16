@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of other magnet change?",
+    "options": [
+        "The other magnet had a magnet placed beneath it.",
+        "The other magnet was encircled by a ring of smaller magnets.",
+        "The other magnet had two magnets placed on either side of it.",
+        "The other magnet was positioned beside another identical magnet.",
+        "The other magnet had a magnet placed on top of it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of other magnet change? Choose **only one** option from the following list.\nOptions:\n(A) The other magnet had a magnet placed beneath it.\n(B) The other magnet was encircled by a ring of smaller magnets.\n(C) The other magnet had two magnets placed on either side of it.\n(D) The other magnet was positioned beside another identical magnet.\n(E) The other magnet had a magnet placed on top of it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The other magnet had a magnet placed on top of it."
+    },
+    "correct_idx": [
+        4
+    ]
+}

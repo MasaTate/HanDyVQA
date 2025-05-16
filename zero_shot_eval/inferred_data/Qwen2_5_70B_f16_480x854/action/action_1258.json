@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is separating the pieces of wood using both hands.",
+        "The person is arranging the pieces of cardboard using both hands.",
+        "The person is hammering the pieces of wood using both hands.",
+        "The person is painting the pieces of wood using both hands.",
+        "The person is joining the pieces of wood together using both hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is separating the pieces of wood using both hands.\n(B) The person is arranging the pieces of cardboard using both hands.\n(C) The person is hammering the pieces of wood using both hands.\n(D) The person is painting the pieces of wood using both hands.\n(E) The person is joining the pieces of wood together using both hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person is arranging the pieces of cardboard using both hands."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move a cup?",
+    "options": [
+        "The person moves the cup on the table near the window.",
+        "The person moves the cup on the table near the speakers.",
+        "The person moves the cup on the table across from the couch.",
+        "The person moves the cup on the table beside the plants.",
+        "The person moves the cup on the table in front of the television."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move a cup? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the cup on the table near the window.\n(B) The person moves the cup on the table near the speakers.\n(C) The person moves the cup on the table across from the couch.\n(D) The person moves the cup on the table beside the plants.\n(E) The person moves the cup on the table in front of the television.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person moves the cup on the table in front of the television."
+    },
+    "correct_idx": [
+        1
+    ]
+}

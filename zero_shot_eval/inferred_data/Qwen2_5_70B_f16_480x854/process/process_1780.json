@@ -1,0 +1,17 @@
+{
+    "question": "How does the person stretch his right hand?",
+    "options": [
+        "The person raises his right hand above his head while keeping the racket in his hand.",
+        "The person moves his right hand in a circular motion while not using the racket.",
+        "The person extends his right arm to the side with the racket held gently in his grip.",
+        "The person flexes his right wrist while holding the racket in front of him.",
+        "The person moves his right hand by swinging the racket at a tennis ball."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person stretch his right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person raises his right hand above his head while keeping the racket in his hand.\n(B) The person moves his right hand in a circular motion while not using the racket.\n(C) The person extends his right arm to the side with the racket held gently in his grip.\n(D) The person flexes his right wrist while holding the racket in front of him.\n(E) The person moves his right hand by swinging the racket at a tennis ball.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person moves his right hand by swinging the racket at a tennis ball."
+    },
+    "correct_idx": [
+        4
+    ]
+}

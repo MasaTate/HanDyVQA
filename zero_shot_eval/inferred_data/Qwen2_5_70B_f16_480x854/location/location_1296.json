@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop a cloth?",
+    "options": [
+        "The person drops the cloth onto the right edge of the laundry bin.",
+        "The person drops the cloth next to the front of the laundry bin.",
+        "The person drops the cloth onto the floor beside the laundry bin.",
+        "The person drops the cloth over the back rim of the laundry bin.",
+        "The person drops the cloth on to the left edge of the laundry bin."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop a cloth? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the cloth onto the right edge of the laundry bin.\n(B) The person drops the cloth next to the front of the laundry bin.\n(C) The person drops the cloth onto the floor beside the laundry bin.\n(D) The person drops the cloth over the back rim of the laundry bin.\n(E) The person drops the cloth on to the left edge of the laundry bin.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person drops the cloth onto the floor beside the laundry bin."
+    },
+    "correct_idx": [
+        4
+    ]
+}

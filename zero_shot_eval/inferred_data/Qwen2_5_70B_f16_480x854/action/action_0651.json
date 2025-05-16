@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person holds the baby with one hand while reaching for a toy with the other.",
+        "The person cradles the baby in one arm while gesturing with the other hand.",
+        "The person is playing with the baby using both hands while sitting down.",
+        "The person places the baby on a chair using both hands.",
+        "The person supports the baby with one hand while picking up a bottle with the other."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the baby with one hand while reaching for a toy with the other.\n(B) The person cradles the baby in one arm while gesturing with the other hand.\n(C) The person is playing with the baby using both hands while sitting down.\n(D) The person places the baby on a chair using both hands.\n(E) The person supports the baby with one hand while picking up a bottle with the other.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person places the baby on a chair using both hands."
+    },
+    "correct_idx": [
+        3
+    ]
+}

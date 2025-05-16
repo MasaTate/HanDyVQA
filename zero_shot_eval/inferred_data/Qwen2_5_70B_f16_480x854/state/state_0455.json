@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a knob on the drying machine change?",
+    "options": [
+        "The knob on the drying machine was turned completely to the right.",
+        "The knob on the drying machine was pulled out.",
+        "The knob on the drying machine was slightly turned back to the left.",
+        "The knob on the drying machine was rotated in a full circle.",
+        "The knob on the drying machine was pressed into the machine."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a knob on the drying machine change? Choose **only one** option from the following list.\nOptions:\n(A) The knob on the drying machine was turned completely to the right.\n(B) The knob on the drying machine was pulled out.\n(C) The knob on the drying machine was slightly turned back to the left.\n(D) The knob on the drying machine was rotated in a full circle.\n(E) The knob on the drying machine was pressed into the machine.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The knob on the drying machine was slightly turned back to the left."
+    },
+    "correct_idx": [
+        2
+    ]
+}

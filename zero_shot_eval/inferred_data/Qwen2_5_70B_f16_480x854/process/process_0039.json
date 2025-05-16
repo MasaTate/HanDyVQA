@@ -1,0 +1,17 @@
+{
+    "question": "How does the person stir the broccoli?",
+    "options": [
+        "The person holds a wooden spoon in both hands, swirling it around the pot to mix the broccoli unevenly.",
+        "The person uses a fork with his left hand, moving it through the broccoli instead of stirring in a circular motion.",
+        "The person holds a spatula in his right hand, moving it along the bottom of the pot instead of stirring the broccoli.",
+        "The person holds chopsticks in his right hand, moving them back and forth to stir the broccoli evenly in the pot.",
+        "The person gently taps the broccoli with a pair of tongs in his right hand, causing it to move slightly rather than stirring."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person stir the broccoli? Choose **only one** option from the following list.\nOptions:\n(A) The person holds a wooden spoon in both hands, swirling it around the pot to mix the broccoli unevenly.\n(B) The person uses a fork with his left hand, moving it through the broccoli instead of stirring in a circular motion.\n(C) The person holds a spatula in his right hand, moving it along the bottom of the pot instead of stirring the broccoli.\n(D) The person holds chopsticks in his right hand, moving them back and forth to stir the broccoli evenly in the pot.\n(E) The person gently taps the broccoli with a pair of tongs in his right hand, causing it to move slightly rather than stirring.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person holds chopsticks in his right hand, moving them back and forth to stir the broccoli evenly in the pot."
+    },
+    "correct_idx": [
+        3
+    ]
+}

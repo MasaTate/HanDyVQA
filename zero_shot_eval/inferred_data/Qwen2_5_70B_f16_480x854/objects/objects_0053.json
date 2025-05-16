@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "rebiter",
+        "red transparent plastic",
+        "screwdriver",
+        "fashlight",
+        "silicon tube",
+        "drawer"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) rebiter\n(B) red transparent plastic\n(C) screwdriver\n(D) fashlight\n(E) silicon tube\n(F) drawer\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(B) red transparent plastic  \n(F) drawer  \n\nThe hands are seen using a red transparent plastic object and interacting with a drawer in the video. The person picks up the red transparent plastic item, examines it, and then places it back into the drawer before closing it. There is no indication of the other listed items being used by the hands in this specific sequence."
+    },
+    "correct_idx": [
+        1,
+        5
+    ]
+}

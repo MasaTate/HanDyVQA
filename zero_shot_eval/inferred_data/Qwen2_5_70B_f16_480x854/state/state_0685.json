@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the bicycle tire change?",
+    "options": [
+        "The bicycle tire was disassembled into several parts including the frame and handlebars.",
+        "The bicycle tire spun multiple times after the pedal was pushed.",
+        "The bicycle tire was transformed by adding a new paint job and upgraded components.",
+        "The bicycle tire was taken apart to replace the tires and fix the brakes.",
+        "The bicycle tire was altered by converting it into a stationary bike for indoor use."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the bicycle tire change? Choose **only one** option from the following list.\nOptions:\n(A) The bicycle tire was disassembled into several parts including the frame and handlebars.\n(B) The bicycle tire spun multiple times after the pedal was pushed.\n(C) The bicycle tire was transformed by adding a new paint job and upgraded components.\n(D) The bicycle tire was taken apart to replace the tires and fix the brakes.\n(E) The bicycle tire was altered by converting it into a stationary bike for indoor use.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The bicycle tire was taken apart to replace the tires and fix the brakes."
+    },
+    "correct_idx": [
+        1
+    ]
+}

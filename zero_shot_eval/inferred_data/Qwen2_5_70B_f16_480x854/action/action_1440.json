@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is pointing at the monitor with his/her left hand.",
+        "The person is tapping the screen with his/her right hand while holding a pen with his/her left hand.",
+        "The person is adjusting the brightness of the monitor with his/her right hand while holding a cup of coffee with his/her left hand.",
+        "The person is cleaning the monitor with a cloth using his/her left hand while holding a mouse with his/her right hand.",
+        "The person is scrolling through a document on the monitor with his/her left hand while resting his/her right hand on the desk."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is pointing at the monitor with his/her left hand.\n(B) The person is tapping the screen with his/her right hand while holding a pen with his/her left hand.\n(C) The person is adjusting the brightness of the monitor with his/her right hand while holding a cup of coffee with his/her left hand.\n(D) The person is cleaning the monitor with a cloth using his/her left hand while holding a mouse with his/her right hand.\n(E) The person is scrolling through a document on the monitor with his/her left hand while resting his/her right hand on the desk.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person is pointing at the monitor with his/her left hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

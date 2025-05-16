@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the usb mouse change?",
+    "options": [
+        "The USB mouse became inactive as it was unplugged from the laptop and did not move.",
+        "The USB mouse was turned off after being removed from the laptop and was not in use.",
+        "The USB mouse became active as it was plugged into the laptop and moved slightly.",
+        "The USB mouse malfunctioned as it was plugged into a different device, making it unresponsive.",
+        "The USB mouse was covered with a cloth, which prevented its use while still connected to the laptop."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the usb mouse change? Choose **only one** option from the following list.\nOptions:\n(A) The USB mouse became inactive as it was unplugged from the laptop and did not move.\n(B) The USB mouse was turned off after being removed from the laptop and was not in use.\n(C) The USB mouse became active as it was plugged into the laptop and moved slightly.\n(D) The USB mouse malfunctioned as it was plugged into a different device, making it unresponsive.\n(E) The USB mouse was covered with a cloth, which prevented its use while still connected to the laptop.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The USB mouse became active as it was plugged into the laptop and moved slightly."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the kneading table change?",
+    "options": [
+        "The kneading table became sticky with dough and was covered with flour.",
+        "The kneading table accumulated bits of dough and was left untouched without cleaning.",
+        "The kneading table was smeared with butter and flour was spread over its surface.",
+        "The kneading table was dusted with cocoa powder and was left in a messy condition without cleaning.",
+        "The kneading table has some flour and was brushed clean with a dough scraper."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the kneading table change? Choose **only one** option from the following list.\nOptions:\n(A) The kneading table became sticky with dough and was covered with flour.\n(B) The kneading table accumulated bits of dough and was left untouched without cleaning.\n(C) The kneading table was smeared with butter and flour was spread over its surface.\n(D) The kneading table was dusted with cocoa powder and was left in a messy condition without cleaning.\n(E) The kneading table has some flour and was brushed clean with a dough scraper.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The kneading table has some flour and was brushed clean with a dough scraper."
+    },
+    "correct_idx": [
+        4
+    ]
+}

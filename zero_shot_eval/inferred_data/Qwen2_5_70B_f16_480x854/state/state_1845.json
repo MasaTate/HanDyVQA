@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the cooker change?",
+    "options": [
+        "The cooker was changing in temperature as it was heated on the stove.",
+        "The cooker was changing in movement as it was shaken.",
+        "The cooker was changing in appearance as it was painted a new color.",
+        "The cooker was changing in form as it was expanded with additional attachments.",
+        "The cooker was changing in sound as it was buzzing with a timer."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the cooker change? Choose **only one** option from the following list.\nOptions:\n(A) The cooker was changing in temperature as it was heated on the stove.\n(B) The cooker was changing in movement as it was shaken.\n(C) The cooker was changing in appearance as it was painted a new color.\n(D) The cooker was changing in form as it was expanded with additional attachments.\n(E) The cooker was changing in sound as it was buzzing with a timer.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The cooker was changing in movement as it was shaken."
+    },
+    "correct_idx": [
+        1
+    ]
+}

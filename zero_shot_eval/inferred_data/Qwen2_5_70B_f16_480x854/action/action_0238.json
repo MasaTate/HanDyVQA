@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person chops the watermelon into the bowl with the knife using the right hand while stabilizing the watermelon with the left hand.",
+        "The person dices the papaya on the counter using the knife in the right hand while balancing the papaya with the left hand.",
+        "The person slices the papaya into the bowl with the knife using the right hand while holding the papaya steady using the left hand.",
+        "The person mixes the papaya in the bowl with a spoon using the right hand while holding the papaya steady in the left hand.",
+        "The person cuts the papaya into slices on the cutting board with the knife using the right hand while gripping the papaya with the left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person chops the watermelon into the bowl with the knife using the right hand while stabilizing the watermelon with the left hand.\n(B) The person dices the papaya on the counter using the knife in the right hand while balancing the papaya with the left hand.\n(C) The person slices the papaya into the bowl with the knife using the right hand while holding the papaya steady using the left hand.\n(D) The person mixes the papaya in the bowl with a spoon using the right hand while holding the papaya steady in the left hand.\n(E) The person cuts the papaya into slices on the cutting board with the knife using the right hand while gripping the papaya with the left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person slices the papaya into the bowl with the knife using the right hand while holding the papaya steady using the left hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

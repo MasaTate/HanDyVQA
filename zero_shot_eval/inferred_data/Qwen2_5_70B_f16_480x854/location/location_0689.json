@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the mittens?",
+    "options": [
+        "The person put the mittens on the edge of the sink.",
+        "The person put the mittens on the center of the kitchen counter.",
+        "The person put the mittens on the floor beside the refrigerator.",
+        "The person put the mittens on the top shelf of the pantry.",
+        "The person put the mittens on the seat of a dining chair."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the mittens? Choose **only one** option from the following list.\nOptions:\n(A) The person put the mittens on the edge of the sink.\n(B) The person put the mittens on the center of the kitchen counter.\n(C) The person put the mittens on the floor beside the refrigerator.\n(D) The person put the mittens on the top shelf of the pantry.\n(E) The person put the mittens on the seat of a dining chair.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person put the mittens on the floor beside the refrigerator."
+    },
+    "correct_idx": [
+        0
+    ]
+}

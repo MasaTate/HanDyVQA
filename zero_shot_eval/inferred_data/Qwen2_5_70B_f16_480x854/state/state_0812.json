@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the plank change?",
+    "options": [
+        "The plank had a layer of varnish applied along the edges.",
+        "The plank had a layer of varnish applied around the center.",
+        "The plank had two layers of varnish applied around the center.",
+        "The plank had a layer of varnish removed from around the center.",
+        "The plank had a layer of varnish applied only to one end."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the plank change? Choose **only one** option from the following list.\nOptions:\n(A) The plank had a layer of varnish applied along the edges.\n(B) The plank had a layer of varnish applied around the center.\n(C) The plank had two layers of varnish applied around the center.\n(D) The plank had a layer of varnish removed from around the center.\n(E) The plank had a layer of varnish applied only to one end.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The plank had a layer of varnish applied around the center."
+    },
+    "correct_idx": [
+        1
+    ]
+}

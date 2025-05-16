@@ -1,0 +1,17 @@
+{
+    "question": "How does the person tap the dough with right hand?",
+    "options": [
+        "The person presses down on the dough using the full palm, gently applying pressure before lifting his hand away slowly.",
+        "The person touches the dough with a soft fist, softly pressing it before smoothly pulling back his hand.",
+        "The person taps the dough with an open palm, fingers spread wide, making light contact before lifting his hand.",
+        "The person lightly taps the dough using just his fingertips, gently touching the surface before pulling his hand back slightly.",
+        "The person gently presses the dough using the heel of his hand, softly holding it in place for a moment before lifting his hand up."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person tap the dough with right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person presses down on the dough using the full palm, gently applying pressure before lifting his hand away slowly.\n(B) The person touches the dough with a soft fist, softly pressing it before smoothly pulling back his hand.\n(C) The person taps the dough with an open palm, fingers spread wide, making light contact before lifting his hand.\n(D) The person lightly taps the dough using just his fingertips, gently touching the surface before pulling his hand back slightly.\n(E) The person gently presses the dough using the heel of his hand, softly holding it in place for a moment before lifting his hand up.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person taps the dough with an open palm, fingers spread wide, making light contact before lifting his hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

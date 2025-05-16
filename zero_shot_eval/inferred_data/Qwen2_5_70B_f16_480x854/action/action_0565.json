@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person tosses the tennis ball to the man with her right hand.",
+        "The person throws the tennis ball to the woman with her right hand.",
+        "The person rolls the tennis ball to the woman with her right hand.",
+        "The person catches the tennis ball from the ground with her right hand.",
+        "The person bounces the tennis ball on the ground with her right hand before tossing it to the woman."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person tosses the tennis ball to the man with her right hand.\n(B) The person throws the tennis ball to the woman with her right hand.\n(C) The person rolls the tennis ball to the woman with her right hand.\n(D) The person catches the tennis ball from the ground with her right hand.\n(E) The person bounces the tennis ball on the ground with her right hand before tossing it to the woman.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person throws the tennis ball to the woman with her right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

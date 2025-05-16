@@ -1,0 +1,17 @@
+{
+    "question": "How does the person collect the T-shirt on the hanger?",
+    "options": [
+        "The person grabs the T-shirt by the bottom with both hands and pulls it straight down, shaking it slightly.",
+        "The person uses the left hand to push the T-shirt gently off the hanger, allowing it to fall naturally.",
+        "The person picks up the T-shirt smoothly by the hanger with their left hand and lifts it up with minimal movement.",
+        "The person takes the T-shirt off the hanger using their right hand and holds it snugly with slight swaying.",
+        "The person uses their right hand to take the T-shirt with the hanger and shakes it back and forth swaying the T-shirt."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person collect the T-shirt on the hanger? Choose **only one** option from the following list.\nOptions:\n(A) The person grabs the T-shirt by the bottom with both hands and pulls it straight down, shaking it slightly.\n(B) The person uses the left hand to push the T-shirt gently off the hanger, allowing it to fall naturally.\n(C) The person picks up the T-shirt smoothly by the hanger with their left hand and lifts it up with minimal movement.\n(D) The person takes the T-shirt off the hanger using their right hand and holds it snugly with slight swaying.\n(E) The person uses their right hand to take the T-shirt with the hanger and shakes it back and forth swaying the T-shirt.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person picks up the T-shirt smoothly by the hanger with their left hand and lifts it up with minimal movement."
+    },
+    "correct_idx": [
+        4
+    ]
+}

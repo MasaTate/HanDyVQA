@@ -1,0 +1,22 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "drawer",
+        "frying pan",
+        "air fryer",
+        "stand fan",
+        "cloth",
+        "chopping board",
+        "knife",
+        "laptop"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) drawer\n(B) frying pan\n(C) air fryer\n(D) stand fan\n(E) cloth\n(F) chopping board\n(G) knife\n(H) laptop\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(A) The hands open and close the drawer.\n(H) The hands use the laptop's touchpad."
+    },
+    "correct_idx": [
+        0,
+        6,
+        7
+    ]
+}

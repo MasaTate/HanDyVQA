@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person carried the plastic bag with one hand and then reached into the bag of mulch with his left hand.",
+        "The person lifted the plastic bag with both hands and then inserted his right hand into the bag of mulch.",
+        "The person held the plastic bag with both hands and then poured some of its contents onto the ground using his right hand.",
+        "The person opened the plastic bag with one hand and then took out a handful of mulch with his left hand.",
+        "The person placed the plastic bag on the floor and then picked up a shovel with his right hand to scoop the mulch."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person carried the plastic bag with one hand and then reached into the bag of mulch with his left hand.\n(B) The person lifted the plastic bag with both hands and then inserted his right hand into the bag of mulch.\n(C) The person held the plastic bag with both hands and then poured some of its contents onto the ground using his right hand.\n(D) The person opened the plastic bag with one hand and then took out a handful of mulch with his left hand.\n(E) The person placed the plastic bag on the floor and then picked up a shovel with his right hand to scoop the mulch.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person lifted the plastic bag with both hands and then inserted his right hand into the bag of mulch."
+    },
+    "correct_idx": [
+        1
+    ]
+}

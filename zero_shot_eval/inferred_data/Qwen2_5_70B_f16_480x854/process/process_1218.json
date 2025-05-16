@@ -1,0 +1,17 @@
+{
+    "question": "How does the person cut the thread from the fabric?",
+    "options": [
+        "The person holds the fabric with her left hand and attempts to tear the thread instead of using scissors.",
+        "The person grabs the scissors with both hands and tries to cut the thread with minimal precision.",
+        "The person picks up the scissors and cuts the thread from the fabric using scissors in her right hand.",
+        "The person uses her right hand to pull the thread away from the fabric rather than using scissors to cut it.",
+        "The person places the scissors aside and attempts to remove the thread by biting it off the fabric."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person cut the thread from the fabric? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the fabric with her left hand and attempts to tear the thread instead of using scissors.\n(B) The person grabs the scissors with both hands and tries to cut the thread with minimal precision.\n(C) The person picks up the scissors and cuts the thread from the fabric using scissors in her right hand.\n(D) The person uses her right hand to pull the thread away from the fabric rather than using scissors to cut it.\n(E) The person places the scissors aside and attempts to remove the thread by biting it off the fabric.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person picks up the scissors and cuts the thread from the fabric using scissors in her right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the thread on the needle change?",
+    "options": [
+        "The thread on the needle was lifted sideways and was set aside instead of being pierced into the cloth.",
+        "The thread on the needle was lifted up and was about to be pierced into the cloth.",
+        "The thread on the needle was lifted up but was twisted around the needle before reaching the cloth.",
+        "The thread on the needle was lifted up and was looped back around it without moving towards the cloth.",
+        "The thread on the needle was lifted up and was stopped short just before touching the cloth."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the thread on the needle change? Choose **only one** option from the following list.\nOptions:\n(A) The thread on the needle was lifted sideways and was set aside instead of being pierced into the cloth.\n(B) The thread on the needle was lifted up and was about to be pierced into the cloth.\n(C) The thread on the needle was lifted up but was twisted around the needle before reaching the cloth.\n(D) The thread on the needle was lifted up and was looped back around it without moving towards the cloth.\n(E) The thread on the needle was lifted up and was stopped short just before touching the cloth.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The thread on the needle was lifted up and was about to be pierced into the cloth."
+    },
+    "correct_idx": [
+        1
+    ]
+}

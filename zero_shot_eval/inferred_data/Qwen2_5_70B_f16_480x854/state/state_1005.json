@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a piece of a cover paper change?",
+    "options": [
+        "The piece of cover paper was folded and then torn off.",
+        "The piece of cover paper was partially cut and not completely torn off.",
+        "The piece of cover paper was torn off without being cut first.",
+        "The piece of cover paper was cut but left in place and not torn off.",
+        "The piece of cover paper was cut, and what little remained was torn off."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a piece of a cover paper change? Choose **only one** option from the following list.\nOptions:\n(A) The piece of cover paper was folded and then torn off.\n(B) The piece of cover paper was partially cut and not completely torn off.\n(C) The piece of cover paper was torn off without being cut first.\n(D) The piece of cover paper was cut but left in place and not torn off.\n(E) The piece of cover paper was cut, and what little remained was torn off.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The piece of cover paper was cut, and what little remained was torn off."
+    },
+    "correct_idx": [
+        4
+    ]
+}

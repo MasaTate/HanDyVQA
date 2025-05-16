@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the pressure washer?",
+    "options": [
+        "The person drops the pressure washer in front of the sink to the left.",
+        "The person drops the pressure washer under its sink to the right.  ",
+        "The person drops the pressure washer beside the sink at the back.",
+        "The person drops the pressure washer on the floor next to the sink to the left.",
+        "The person drops the pressure washer behind the sink to the right."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the pressure washer? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the pressure washer in front of the sink to the left.\n(B) The person drops the pressure washer under its sink to the right.  \n(C) The person drops the pressure washer beside the sink at the back.\n(D) The person drops the pressure washer on the floor next to the sink to the left.\n(E) The person drops the pressure washer behind the sink to the right.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person drops the pressure washer on the floor next to the sink to the left."
+    },
+    "correct_idx": [
+        1
+    ]
+}

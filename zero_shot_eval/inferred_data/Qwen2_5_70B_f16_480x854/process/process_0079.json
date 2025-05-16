@@ -1,0 +1,17 @@
+{
+    "question": "How does the person scoop fertilizer?",
+    "options": [
+        "The person uses a large plastic cup to scoop the fertilizer, gently taking a portion from the plastic bag.",
+        "The person scoops the fertilizer using a flat wooden stick, carefully lifting a portion from the plastic bag.",
+        "The person grabs a handful of fertilizer directly from the ground and places it into the wheelbarrow.",
+        "The person uses a metal shovel to lift the fertilizer out of the bag, gathering a portion swiftly.",
+        "The person employs a small garden trowel to dig into the bag, retrieving a scoop with less precision."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person scoop fertilizer? Choose **only one** option from the following list.\nOptions:\n(A) The person uses a large plastic cup to scoop the fertilizer, gently taking a portion from the plastic bag.\n(B) The person scoops the fertilizer using a flat wooden stick, carefully lifting a portion from the plastic bag.\n(C) The person grabs a handful of fertilizer directly from the ground and places it into the wheelbarrow.\n(D) The person uses a metal shovel to lift the fertilizer out of the bag, gathering a portion swiftly.\n(E) The person employs a small garden trowel to dig into the bag, retrieving a scoop with less precision.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person scoops the fertilizer using a flat wooden stick, carefully lifting a portion from the plastic bag."
+    },
+    "correct_idx": [
+        1
+    ]
+}

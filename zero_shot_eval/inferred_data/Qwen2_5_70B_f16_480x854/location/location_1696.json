@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the block mold pan?",
+    "options": [
+        "The person moves the block mold pan outside the molder.",
+        "The person moves the block mold pan next to the molder.",
+        "The person moves the block mold pan below the molder.",
+        "The person moves the block mold pan on top of the molder.",
+        "The person moves the block mold pan inside the molder."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the block mold pan? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the block mold pan outside the molder.\n(B) The person moves the block mold pan next to the molder.\n(C) The person moves the block mold pan below the molder.\n(D) The person moves the block mold pan on top of the molder.\n(E) The person moves the block mold pan inside the molder.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person moves the block mold pan inside the molder."
+    },
+    "correct_idx": [
+        4
+    ]
+}

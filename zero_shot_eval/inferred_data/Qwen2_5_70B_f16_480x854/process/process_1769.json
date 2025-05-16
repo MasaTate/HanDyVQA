@@ -1,0 +1,17 @@
+{
+    "question": "How does the person lower her left hand?",
+    "options": [
+        "The person lowers her left hand with a sudden motion, brushing slightly against the side of the canvas.",
+        "The person lowers her left hand while looking away, gently touching the canvas with her wrist.",
+        "The person lowers her left hand cautiously yet inadvertently sweeps some debris onto the canvas.",
+        "The person lowers her left hand after carefully cleaning some debris on the canvas and avoiding hitting it.",
+        "The person lowers her left hand in a quick motion, softly nudging the canvas with her fingertips."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person lower her left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person lowers her left hand with a sudden motion, brushing slightly against the side of the canvas.\n(B) The person lowers her left hand while looking away, gently touching the canvas with her wrist.\n(C) The person lowers her left hand cautiously yet inadvertently sweeps some debris onto the canvas.\n(D) The person lowers her left hand after carefully cleaning some debris on the canvas and avoiding hitting it.\n(E) The person lowers her left hand in a quick motion, softly nudging the canvas with her fingertips.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person lowers her left hand with a sudden motion, brushing slightly against the side of the canvas."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the tweezer change?",
+    "options": [
+        "The tweezer was placed on the table, holding the object in its grip without any interaction.",
+        "The tweezer was opened wide, allowing the object to stay untouched on the surface.",
+        "The tweezer was inserted into the tube, carefully gripping and removing the object with precision.",
+        "The tweezer was lifted from the drawer, but it stayed closed and inactive in the air.",
+        "The tweezer was dropped into a box, leaving the object behind without interaction."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the tweezer change? Choose **only one** option from the following list.\nOptions:\n(A) The tweezer was placed on the table, holding the object in its grip without any interaction.\n(B) The tweezer was opened wide, allowing the object to stay untouched on the surface.\n(C) The tweezer was inserted into the tube, carefully gripping and removing the object with precision.\n(D) The tweezer was lifted from the drawer, but it stayed closed and inactive in the air.\n(E) The tweezer was dropped into a box, leaving the object behind without interaction.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The tweezer was inserted into the tube, carefully gripping and removing the object with precision."
+    },
+    "correct_idx": [
+        2
+    ]
+}

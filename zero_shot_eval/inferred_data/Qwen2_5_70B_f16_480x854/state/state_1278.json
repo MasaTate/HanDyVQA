@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the hedge trimmer change?",
+    "options": [
+        "The motor of the hedge trimmer was started by pulling the string four times.",
+        "The motor of the hedge trimmer was started by pressing a button instead.",
+        "The motor of the hedge trimmer was started by pulling the string three times.",
+        "The motor of the hedge trimmer was attempted to be started by pulling the string twice, but it did not start.",
+        "The motor of the hedge trimmer was stopped after the string was pulled."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the hedge trimmer change? Choose **only one** option from the following list.\nOptions:\n(A) The motor of the hedge trimmer was started by pulling the string four times.\n(B) The motor of the hedge trimmer was started by pressing a button instead.\n(C) The motor of the hedge trimmer was started by pulling the string three times.\n(D) The motor of the hedge trimmer was attempted to be started by pulling the string twice, but it did not start.\n(E) The motor of the hedge trimmer was stopped after the string was pulled.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The motor of the hedge trimmer was attempted to be started by pulling the string twice, but it did not start."
+    },
+    "correct_idx": [
+        2
+    ]
+}

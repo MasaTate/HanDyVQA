@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the ruler?",
+    "options": [
+        "The person moved the ruler and slid it onto the right side of the table, away from the paper.",
+        "The ruler was moved to the edge of the desk, closer to the laptop.",
+        "The person moved the ruler and slid it onto the left side of the table, away from the paper.",
+        "The person moved the ruler underneath the stack of books on the desk.",
+        "The person slid the ruler to the middle of the table, between the papers."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the ruler? Choose **only one** option from the following list.\nOptions:\n(A) The person moved the ruler and slid it onto the right side of the table, away from the paper.\n(B) The ruler was moved to the edge of the desk, closer to the laptop.\n(C) The person moved the ruler and slid it onto the left side of the table, away from the paper.\n(D) The person moved the ruler underneath the stack of books on the desk.\n(E) The person slid the ruler to the middle of the table, between the papers.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person moved the ruler and slid it onto the left side of the table, away from the paper."
+    },
+    "correct_idx": [
+        2
+    ]
+}

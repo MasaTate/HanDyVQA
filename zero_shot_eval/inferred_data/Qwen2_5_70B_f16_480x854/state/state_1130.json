@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a paint brush from the laptop change?",
+    "options": [
+        "The paintbrush from the laptop became clean when it was wiped on a dry and clean cloth.",
+        "The paintbrush from the laptop became wet after it was dipped into a container of paint.",
+        "The paintbrush from the laptop became damaged when it was left on the laptop and pressed down.",
+        "The paintbrush from the laptop became stiff after it was left uncapped for a long time.",
+        "The paintbrush from the laptop became frayed when it was used repeatedly without cleaning."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a paint brush from the laptop change? Choose **only one** option from the following list.\nOptions:\n(A) The paintbrush from the laptop became clean when it was wiped on a dry and clean cloth.\n(B) The paintbrush from the laptop became wet after it was dipped into a container of paint.\n(C) The paintbrush from the laptop became damaged when it was left on the laptop and pressed down.\n(D) The paintbrush from the laptop became stiff after it was left uncapped for a long time.\n(E) The paintbrush from the laptop became frayed when it was used repeatedly without cleaning.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The paintbrush from the laptop became clean when it was wiped on a dry and clean cloth."
+    },
+    "correct_idx": [
+        0
+    ]
+}

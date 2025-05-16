@@ -1,0 +1,17 @@
+{
+    "question": "How does the person drop the tray?",
+    "options": [
+        "The person holds the tray by the center and lightly tilts it to guide the contents onto the countertop.",
+        "The person grips the tray steadily with both hands and places it beside them.",
+        "The person hangs onto the tray with one hand and allows it to rest against the edge of the table.",
+        "The person balances the tray on their palm and carefully places it onto the air.",
+        "The person drops the tray by holding it on the edge part with the right hand, and then gently dropping it in the corner of the countertop."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person drop the tray? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the tray by the center and lightly tilts it to guide the contents onto the countertop.\n(B) The person grips the tray steadily with both hands and places it beside them.\n(C) The person hangs onto the tray with one hand and allows it to rest against the edge of the table.\n(D) The person balances the tray on their palm and carefully places it onto the air.\n(E) The person drops the tray by holding it on the edge part with the right hand, and then gently dropping it in the corner of the countertop.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person drops the tray by holding it on the edge part with the right hand, and then gently dropping it in the corner of the countertop."
+    },
+    "correct_idx": [
+        4
+    ]
+}

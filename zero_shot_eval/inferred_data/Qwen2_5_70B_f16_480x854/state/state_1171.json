@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a screw change?",
+    "options": [
+        "The screw inside the oven was turned clockwise, tightening and securing in place.",
+        "The screw inside the oven was turned counterclockwise, loosening and detaching from its position.",
+        "The screw inside the oven was removed completely, leaving a gap in its position.",
+        "The screw inside the oven was rusted and stuck, unable to turn in any direction.",
+        "The screw inside the oven was stripped, unable to catch or hold its position."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a screw change? Choose **only one** option from the following list.\nOptions:\n(A) The screw inside the oven was turned clockwise, tightening and securing in place.\n(B) The screw inside the oven was turned counterclockwise, loosening and detaching from its position.\n(C) The screw inside the oven was removed completely, leaving a gap in its position.\n(D) The screw inside the oven was rusted and stuck, unable to turn in any direction.\n(E) The screw inside the oven was stripped, unable to catch or hold its position.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The screw inside the oven was turned clockwise, tightening and securing in place."
+    },
+    "correct_idx": [
+        1
+    ]
+}

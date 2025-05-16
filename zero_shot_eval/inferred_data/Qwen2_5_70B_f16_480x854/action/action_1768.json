@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is setting the grocery bag on the kitchen counter with his right hand while holding it with his left hand.",
+        "The person is holding the plastic bag in his left hand while reaching for the door handle with his right hand.",
+        "The person grabbed the metal and put it inside the small plastic bag and then he opened the drawer to put the plastic with the metal inside.",
+        "The person is opening the plastic bag with his right hand while resting it on the table using his left hand.",
+        "The person is lifting the plastic bag from the floor with his right hand while using his left hand to steady himself against the wall."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is setting the grocery bag on the kitchen counter with his right hand while holding it with his left hand.\n(B) The person is holding the plastic bag in his left hand while reaching for the door handle with his right hand.\n(C) The person grabbed the metal and put it inside the small plastic bag and then he opened the drawer to put the plastic with the metal inside.\n(D) The person is opening the plastic bag with his right hand while resting it on the table using his left hand.\n(E) The person is lifting the plastic bag from the floor with his right hand while using his left hand to steady himself against the wall.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person grabbed the metal and put it inside the small plastic bag and then he opened the drawer to put the plastic with the metal inside."
+    },
+    "correct_idx": [
+        2
+    ]
+}

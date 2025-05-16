@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the boy change?",
+    "options": [
+        "The boy was jumped off the slide, resulting in a change in height as he was landed on the ground.",
+        "The boy was crawled around the slide, leading to a change in orientation as he was moved underneath it.",
+        "The boy was climbed up the slide, creating a change in elevation as he was ascended to the top.",
+        "The boy was sat on the slide, resulting in a change in posture as he was balanced himself.",
+        "The boy was slid through the slide, causing a change in position as he was moved downward."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the boy change? Choose **only one** option from the following list.\nOptions:\n(A) The boy was jumped off the slide, resulting in a change in height as he was landed on the ground.\n(B) The boy was crawled around the slide, leading to a change in orientation as he was moved underneath it.\n(C) The boy was climbed up the slide, creating a change in elevation as he was ascended to the top.\n(D) The boy was sat on the slide, resulting in a change in posture as he was balanced himself.\n(E) The boy was slid through the slide, causing a change in position as he was moved downward.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The boy was slid through the slide, causing a change in position as he was moved downward."
+    },
+    "correct_idx": [
+        4
+    ]
+}

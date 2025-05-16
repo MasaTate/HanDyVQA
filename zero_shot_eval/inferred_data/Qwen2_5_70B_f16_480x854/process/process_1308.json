@@ -1,0 +1,17 @@
+{
+    "question": "How does the person lock the door of the book shelf?",
+    "options": [
+        "The person locks the door of the bookshelf by using one hand to gently pull it toward them while the other hand steadies the top of the door.",
+        "The person locks the door of the bookshelf by using both hands to push it forward to close the door.",
+        "The person secures the door of the bookshelf by carefully turning the knob with one hand while the other hand supports the side of the door.",
+        "The person locks the door of the bookshelf by leaning slightly against it with their shoulder while trying to gently close it with one hand.",
+        "The person locks the door of the bookshelf by closing it smoothly with one hand while the other hand rests by their side."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person lock the door of the book shelf? Choose **only one** option from the following list.\nOptions:\n(A) The person locks the door of the bookshelf by using one hand to gently pull it toward them while the other hand steadies the top of the door.\n(B) The person locks the door of the bookshelf by using both hands to push it forward to close the door.\n(C) The person secures the door of the bookshelf by carefully turning the knob with one hand while the other hand supports the side of the door.\n(D) The person locks the door of the bookshelf by leaning slightly against it with their shoulder while trying to gently close it with one hand.\n(E) The person locks the door of the bookshelf by closing it smoothly with one hand while the other hand rests by their side.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person locks the door of the bookshelf by using both hands to push it forward to close the door."
+    },
+    "correct_idx": [
+        1
+    ]
+}

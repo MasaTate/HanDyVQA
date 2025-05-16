@@ -1,0 +1,17 @@
+{
+    "question": "How does the person check his left hand?",
+    "options": [
+        "The person examines his left hand by curling his fingers slightly.",
+        "The person checks his left hand by lifting and opening it.",
+        "The person inspects his left hand by directing his right index finger at it.",
+        "The person feels his left hand by gently rubbing his thumb over the palm.",
+        "The person looks at his left hand while holding it closely with his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person check his left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person examines his left hand by curling his fingers slightly.\n(B) The person checks his left hand by lifting and opening it.\n(C) The person inspects his left hand by directing his right index finger at it.\n(D) The person feels his left hand by gently rubbing his thumb over the palm.\n(E) The person looks at his left hand while holding it closely with his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person checks his left hand by lifting and opening it."
+    },
+    "correct_idx": [
+        1
+    ]
+}

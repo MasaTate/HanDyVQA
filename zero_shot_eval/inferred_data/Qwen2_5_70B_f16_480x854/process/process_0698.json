@@ -1,0 +1,17 @@
+{
+    "question": "How does the person lean his right hand?",
+    "options": [
+        "The person stretches his right arm out to the side, adjusting his posture slightly.",
+        "The person raises his right hand above his head while slowly shifting his weight to the left.",
+        "The person curls his right hand into a fist and gently brings it closer to his chest.",
+        "The person leans his right hand by pressing it down firmly on top of the stool.",
+        "The person extends his right hand forward and holds a steady stance."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person lean his right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person stretches his right arm out to the side, adjusting his posture slightly.\n(B) The person raises his right hand above his head while slowly shifting his weight to the left.\n(C) The person curls his right hand into a fist and gently brings it closer to his chest.\n(D) The person leans his right hand by pressing it down firmly on top of the stool.\n(E) The person extends his right hand forward and holds a steady stance.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person leans his right hand by pressing it down firmly on top of the stool."
+    },
+    "correct_idx": [
+        3
+    ]
+}

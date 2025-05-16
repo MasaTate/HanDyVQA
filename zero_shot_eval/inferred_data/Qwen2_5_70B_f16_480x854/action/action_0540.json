@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person trims a part of a wire in his left hand with the scissors in his right hand.",
+        "The person twists the end of a wire in his left hand using the pliers in his right hand.",
+        "The person scrapes off the top of a wire in his left hand with the knife in his right hand.",
+        "The person removes the outer layer of a wire in his left hand with a file in his right hand.",
+        "The person bends a wire in his left hand with the knife in his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person trims a part of a wire in his left hand with the scissors in his right hand.\n(B) The person twists the end of a wire in his left hand using the pliers in his right hand.\n(C) The person scrapes off the top of a wire in his left hand with the knife in his right hand.\n(D) The person removes the outer layer of a wire in his left hand with a file in his right hand.\n(E) The person bends a wire in his left hand with the knife in his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person twists the end of a wire in his left hand using the pliers in his right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

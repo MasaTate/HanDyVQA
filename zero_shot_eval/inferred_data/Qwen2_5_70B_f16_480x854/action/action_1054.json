@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person washes the cutting board with both hands and picks it up with her right hand.",
+        "The person dries the cutting board with her left hand and places it on the counter with her right hand.",
+        "The person scrubs the cutting board with her right hand and sets it aside with her left hand.",
+        "The person cleans the cutting board with a cloth in her left hand while holding a knife in her right hand.",
+        "The person examines the cutting board with her right hand while holding a sponge in her left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person washes the cutting board with both hands and picks it up with her right hand.\n(B) The person dries the cutting board with her left hand and places it on the counter with her right hand.\n(C) The person scrubs the cutting board with her right hand and sets it aside with her left hand.\n(D) The person cleans the cutting board with a cloth in her left hand while holding a knife in her right hand.\n(E) The person examines the cutting board with her right hand while holding a sponge in her left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person washes the cutting board with both hands and picks it up with her right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the hands change?",
+    "options": [
+        "The hand was engaged in various handshakes, interacting with the other person's hand, fingers, and movements.",
+        "The hand was involved in expressive gestures, creating a series of movements without contacting the other person's hand.",
+        "The hand remained resting on a table, not engaging with the other person's hand at all.",
+        "The hand was held in a fist and tapped rhythmically on the surface, avoiding any interaction with the other person's hand.",
+        "The hand was waved in the air, signaling to the other person without making any physical contact."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the hands change? Choose **only one** option from the following list.\nOptions:\n(A) The hand was engaged in various handshakes, interacting with the other person's hand, fingers, and movements.\n(B) The hand was involved in expressive gestures, creating a series of movements without contacting the other person's hand.\n(C) The hand remained resting on a table, not engaging with the other person's hand at all.\n(D) The hand was held in a fist and tapped rhythmically on the surface, avoiding any interaction with the other person's hand.\n(E) The hand was waved in the air, signaling to the other person without making any physical contact.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The hand was involved in expressive gestures, creating a series of movements without contacting the other person's hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

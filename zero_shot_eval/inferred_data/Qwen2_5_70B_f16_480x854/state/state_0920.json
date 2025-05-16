@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the waste bin change?",
+    "options": [
+        "The waste bin was slightly opened and closed immediately.",
+        "The waste bin was fully opened and left partially open.",
+        "The waste bin was opened more than halfway and then closed.",
+        "The waste bin was slightly opened and left open.",
+        "The waste bin was opened to a quarter of the way and then closed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the waste bin change? Choose **only one** option from the following list.\nOptions:\n(A) The waste bin was slightly opened and closed immediately.\n(B) The waste bin was fully opened and left partially open.\n(C) The waste bin was opened more than halfway and then closed.\n(D) The waste bin was slightly opened and left open.\n(E) The waste bin was opened to a quarter of the way and then closed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The waste bin was fully opened and left partially open."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person loosen a bolt?",
+    "options": [
+        "The person grips the screwdriver firmly with both hands and turns it energetically in a clockwise direction, applying considerable force in an attempt to loosen the bolt.",
+        "The person holds the screwdriver gently between their fingers and moves it side to side while pressing it snugly against the bolt.",
+        "The person places the screwdriver into the bolt but refrains from turning it, pulling it out repeatedly without initiating any significant movement.",
+        "The person holds the screwdriver upright and lightly taps it against the bolt, expecting to loosen it through slight impact instead of rotation.",
+        "The person grips the screwdriver firmly in the right hand, places its tip into the bolt\u2019s slot, and rotates it counterclockwise with controlled force to loosen the bolt."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person loosen a bolt? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the screwdriver firmly with both hands and turns it energetically in a clockwise direction, applying considerable force in an attempt to loosen the bolt.\n(B) The person holds the screwdriver gently between their fingers and moves it side to side while pressing it snugly against the bolt.\n(C) The person places the screwdriver into the bolt but refrains from turning it, pulling it out repeatedly without initiating any significant movement.\n(D) The person holds the screwdriver upright and lightly taps it against the bolt, expecting to loosen it through slight impact instead of rotation.\n(E) The person grips the screwdriver firmly in the right hand, places its tip into the bolt\u2019s slot, and rotates it counterclockwise with controlled force to loosen the bolt.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person grips the screwdriver firmly in the right hand, places its tip into the bolt\u2019s slot, and rotates it counterclockwise with controlled force to loosen the bolt."
+    },
+    "correct_idx": [
+        4
+    ]
+}

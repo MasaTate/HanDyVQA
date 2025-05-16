@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the bicycle hub change?",
+    "options": [
+        "The bicycle hub was removed and was placed on a workbench for inspection.",
+        "The bicycle hub was taken apart and its parts were organized for cleaning.",
+        "The bicycle hub, prepared for insertion and requiring relocation, was carried.",
+        "The bicycle hub was placed into a container for transportation to a different location.",
+        "The bicycle hub was painted and set aside to dry before reassembly."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the bicycle hub change? Choose **only one** option from the following list.\nOptions:\n(A) The bicycle hub was removed and was placed on a workbench for inspection.\n(B) The bicycle hub was taken apart and its parts were organized for cleaning.\n(C) The bicycle hub, prepared for insertion and requiring relocation, was carried.\n(D) The bicycle hub was placed into a container for transportation to a different location.\n(E) The bicycle hub was painted and set aside to dry before reassembly.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The bicycle hub, prepared for insertion and requiring relocation, was carried."
+    },
+    "correct_idx": [
+        2
+    ]
+}

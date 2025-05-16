@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person draws on the container with the marker in his gloved right hand.",
+        "The person applies a label to the container using the marker in his gloved left hand.",
+        "The person writes on the container with the marker in his gloved right hand.",
+        "The person removes markings from the container with the eraser in his gloved right hand.",
+        "The person adds stickers to the container with his gloved right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person draws on the container with the marker in his gloved right hand.\n(B) The person applies a label to the container using the marker in his gloved left hand.\n(C) The person writes on the container with the marker in his gloved right hand.\n(D) The person removes markings from the container with the eraser in his gloved right hand.\n(E) The person adds stickers to the container with his gloved right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person writes on the container with the marker in his gloved right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

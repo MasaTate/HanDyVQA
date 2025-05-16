@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a phone change?",
+    "options": [
+        "The phone's display changed to the video playback mode.",
+        "The phone's display changed to the music player mode.",
+        "The phone's display changed to the contact list mode.",
+        "The phone's display changed to the settings mode.",
+        "The phone's display changed to the camera mode."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a phone change? Choose **only one** option from the following list.\nOptions:\n(A) The phone's display changed to the video playback mode.\n(B) The phone's display changed to the music player mode.\n(C) The phone's display changed to the contact list mode.\n(D) The phone's display changed to the settings mode.\n(E) The phone's display changed to the camera mode.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The phone's display changed to the camera mode."
+    },
+    "correct_idx": [
+        4
+    ]
+}

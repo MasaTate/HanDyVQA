@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the scraper?",
+    "options": [
+        "The person dropped the scraper near the center of the floor.",
+        "The person dropped the scraper on the far left side of the floor.",
+        "The person dropped the scraper at the back right corner of the floor.",
+        "The person dropped the scraper towards the front left side of the floor.",
+        "The person dropped the scraper to the far right side of the floor."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the scraper? Choose **only one** option from the following list.\nOptions:\n(A) The person dropped the scraper near the center of the floor.\n(B) The person dropped the scraper on the far left side of the floor.\n(C) The person dropped the scraper at the back right corner of the floor.\n(D) The person dropped the scraper towards the front left side of the floor.\n(E) The person dropped the scraper to the far right side of the floor.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person dropped the scraper to the far right side of the floor."
+    },
+    "correct_idx": [
+        4
+    ]
+}

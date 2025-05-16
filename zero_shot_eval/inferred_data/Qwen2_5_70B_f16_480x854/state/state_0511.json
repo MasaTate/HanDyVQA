@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the truck change?",
+    "options": [
+        "The truck was started and moved forward slowly.",
+        "The truck was started and moved backward slowly.",
+        "The truck was started but remained stationary.",
+        "The truck was started and moved forward quickly.",
+        "The truck was started and moved in reverse slowly."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the truck change? Choose **only one** option from the following list.\nOptions:\n(A) The truck was started and moved forward slowly.\n(B) The truck was started and moved backward slowly.\n(C) The truck was started but remained stationary.\n(D) The truck was started and moved forward quickly.\n(E) The truck was started and moved in reverse slowly.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The truck was started but remained stationary."
+    },
+    "correct_idx": [
+        0
+    ]
+}

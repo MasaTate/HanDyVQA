@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the chocolate spread container change?",
+    "options": [
+        "The chocolate spread container was tilted sideways and then rotated slightly on the countertop.",
+        "The chocolate spread container was lifted up and then placed back slightly to the left of its original position.",
+        "The chocolate spread container was raised higher before being set down beside the countertop.",
+        "The chocolate spread container was lifted up, then moved down to the countertop.",
+        "The chocolate spread container was moved to the edge before being lowered back onto the countertop."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the chocolate spread container change? Choose **only one** option from the following list.\nOptions:\n(A) The chocolate spread container was tilted sideways and then rotated slightly on the countertop.\n(B) The chocolate spread container was lifted up and then placed back slightly to the left of its original position.\n(C) The chocolate spread container was raised higher before being set down beside the countertop.\n(D) The chocolate spread container was lifted up, then moved down to the countertop.\n(E) The chocolate spread container was moved to the edge before being lowered back onto the countertop.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The chocolate spread container was lifted up, then moved down to the countertop."
+    },
+    "correct_idx": [
+        3
+    ]
+}

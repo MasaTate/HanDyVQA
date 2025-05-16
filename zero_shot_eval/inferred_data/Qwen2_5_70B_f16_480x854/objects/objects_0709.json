@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "flour",
+        "gloves",
+        "baker's table",
+        "dough cutter",
+        "electric dough kneading mixer",
+        "baking trolley"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) flour\n(B) gloves\n(C) baker's table\n(D) dough cutter\n(E) electric dough kneading mixer\n(F) baking trolley\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(A) flour\n(C) baker's table\n(D) dough cutter"
+    },
+    "correct_idx": [
+        0,
+        3
+    ]
+}

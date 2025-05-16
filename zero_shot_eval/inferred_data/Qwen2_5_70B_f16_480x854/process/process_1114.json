@@ -1,0 +1,17 @@
+{
+    "question": "How does the person paint the board?",
+    "options": [
+        "The person dipped the paintbrush in the paint and then moved it side to side across the board using her left hand.",
+        "The person applied paint onto the board and then spread it with her fingers from her right hand.",
+        "The person placed the paintbrush on the board and moved it forward in a straight line using her thumb and forefinger of her right hand.",
+        "The person held the paintbrush upright and tapped it on the board with her middle finger from her left hand.",
+        "The person dipped the paintbrush first and then paints the board with a paintbrush with an up and down movement using her right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person paint the board? Choose **only one** option from the following list.\nOptions:\n(A) The person dipped the paintbrush in the paint and then moved it side to side across the board using her left hand.\n(B) The person applied paint onto the board and then spread it with her fingers from her right hand.\n(C) The person placed the paintbrush on the board and moved it forward in a straight line using her thumb and forefinger of her right hand.\n(D) The person held the paintbrush upright and tapped it on the board with her middle finger from her left hand.\n(E) The person dipped the paintbrush first and then paints the board with a paintbrush with an up and down movement using her right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person dipped the paintbrush first and then paints the board with a paintbrush with an up and down movement using her right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

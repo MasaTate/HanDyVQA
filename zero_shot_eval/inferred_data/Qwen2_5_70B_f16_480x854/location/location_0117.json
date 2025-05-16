@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the steel palette?",
+    "options": [
+        "The person moves the steel palette backward and placed it to the other side of the counter.",
+        "The person moves the steel palette sideways and places it to the corner of the table.",
+        "The person moves the steel palette forward and positions it in the middle of the table.",
+        "The person moves the steel palette sideways and sets it against the wall next to the table.",
+        "The person moves over the steel palette forward and placed to another side of table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the steel palette? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the steel palette backward and placed it to the other side of the counter.\n(B) The person moves the steel palette sideways and places it to the corner of the table.\n(C) The person moves the steel palette forward and positions it in the middle of the table.\n(D) The person moves the steel palette sideways and sets it against the wall next to the table.\n(E) The person moves over the steel palette forward and placed to another side of table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person moves the steel palette sideways and places it to the corner of the table."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person polishes the wooden shelf with a spray bottle in the left hand and a cloth in the right hand.",
+        "The person paints the wooden shelf with a can of paint in the left hand and a brush in the right hand.",
+        "The person cleans the wooden shelf with a sprayer in the left hand and a napkin in the right hand.",
+        "The person dusts the wooden shelf with a vacuum in the left hand and a dusting wand in the right hand.",
+        "The person organizes items on the wooden shelf using both hands while holding a box of supplies."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person polishes the wooden shelf with a spray bottle in the left hand and a cloth in the right hand.\n(B) The person paints the wooden shelf with a can of paint in the left hand and a brush in the right hand.\n(C) The person cleans the wooden shelf with a sprayer in the left hand and a napkin in the right hand.\n(D) The person dusts the wooden shelf with a vacuum in the left hand and a dusting wand in the right hand.\n(E) The person organizes items on the wooden shelf using both hands while holding a box of supplies.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person polishes the wooden shelf with a spray bottle in the left hand and a cloth in the right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

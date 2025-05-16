@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the nylon bag change?",
+    "options": [
+        "The nylon bag crumpled at the bottom, losing its shape.",
+        "The nylon bag twisted at the top, sealing its opening.",
+        "The nylon bag ripped along the side, creating a large hole.",
+        "The nylon bag expanded fully, allowing it to hold more items.",
+        "The nylon bag folded in half, making it easier to carry."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the nylon bag change? Choose **only one** option from the following list.\nOptions:\n(A) The nylon bag crumpled at the bottom, losing its shape.\n(B) The nylon bag twisted at the top, sealing its opening.\n(C) The nylon bag ripped along the side, creating a large hole.\n(D) The nylon bag expanded fully, allowing it to hold more items.\n(E) The nylon bag folded in half, making it easier to carry.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The nylon bag twisted at the top, sealing its opening."
+    },
+    "correct_idx": [
+        1
+    ]
+}

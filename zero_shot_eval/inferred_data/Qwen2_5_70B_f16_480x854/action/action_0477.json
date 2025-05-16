@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person cuts a portion of the plant root with his right hand while his left hand is holding the plant.",
+        "The person is peeling a section of the plant root with his right hand while his left hand is keeping the plant steady on the counter.",
+        "The person is chopping a piece of the plant root with his right hand while his left hand supports the cutting board underneath.",
+        "The person is slicing a segment of the plant root on the table using his right hand while his left hand moves the plant towards the edge.",
+        "The person is tearing a leaf from the plant with his right hand while his left hand holds the stem tightly."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person cuts a portion of the plant root with his right hand while his left hand is holding the plant.\n(B) The person is peeling a section of the plant root with his right hand while his left hand is keeping the plant steady on the counter.\n(C) The person is chopping a piece of the plant root with his right hand while his left hand supports the cutting board underneath.\n(D) The person is slicing a segment of the plant root on the table using his right hand while his left hand moves the plant towards the edge.\n(E) The person is tearing a leaf from the plant with his right hand while his left hand holds the stem tightly.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person cuts a portion of the plant root with his right hand while his left hand is holding the plant."
+    },
+    "correct_idx": [
+        0
+    ]
+}

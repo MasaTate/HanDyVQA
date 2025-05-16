@@ -1,0 +1,17 @@
+{
+    "question": "How does the person grab the gear lever with his left hand?",
+    "options": [
+        "The person uses his left hand to hold the gear lever and gently pushes it forward after adjusting the stereo controls.",
+        "The person grabs the gear lever with his left hand and softly pulls the gear lever after turning the stereo controls.",
+        "The person places his left hand on the gear lever and smoothly moves it after handling the stereo controls.",
+        "The person carefully grabs the gear lever with his left hand and adjusts it without changing the stereo controls.",
+        "The person clutches the gear lever calmly with his left hand and pulls it towards him after working with the stereo controls."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person grab the gear lever with his left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person uses his left hand to hold the gear lever and gently pushes it forward after adjusting the stereo controls.\n(B) The person grabs the gear lever with his left hand and softly pulls the gear lever after turning the stereo controls.\n(C) The person places his left hand on the gear lever and smoothly moves it after handling the stereo controls.\n(D) The person carefully grabs the gear lever with his left hand and adjusts it without changing the stereo controls.\n(E) The person clutches the gear lever calmly with his left hand and pulls it towards him after working with the stereo controls.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person places his left hand on the gear lever and smoothly moves it after handling the stereo controls."
+    },
+    "correct_idx": [
+        1
+    ]
+}

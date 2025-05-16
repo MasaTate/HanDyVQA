@@ -1,0 +1,17 @@
+{
+    "question": "How does the person shut the drawer?",
+    "options": [
+        "The person closes the drawer by pulling it gently with both hands.",
+        "The person shuts the drawer using her elbow to push it.",
+        "The person nudges the drawer closed by softly tapping it with her foot.",
+        "The person shuts the drawer by pushing it with her right hand.",
+        "The person uses a hand to push the drawer shut carefully."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person shut the drawer? Choose **only one** option from the following list.\nOptions:\n(A) The person closes the drawer by pulling it gently with both hands.\n(B) The person shuts the drawer using her elbow to push it.\n(C) The person nudges the drawer closed by softly tapping it with her foot.\n(D) The person shuts the drawer by pushing it with her right hand.\n(E) The person uses a hand to push the drawer shut carefully.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person uses a hand to push the drawer shut carefully."
+    },
+    "correct_idx": [
+        3
+    ]
+}

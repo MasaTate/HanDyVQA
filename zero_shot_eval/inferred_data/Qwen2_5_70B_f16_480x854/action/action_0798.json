@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person lifts the red chip from the player's board with his left hand.",
+        "The person moves the red chip on the player's board using both hands.",
+        "The person places the red chip on the player's board using his right hand.",
+        "The person examines the red chip on the player's board with his right hand.",
+        "The person touches the red chip on the player's board with his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person lifts the red chip from the player's board with his left hand.\n(B) The person moves the red chip on the player's board using both hands.\n(C) The person places the red chip on the player's board using his right hand.\n(D) The person examines the red chip on the player's board with his right hand.\n(E) The person touches the red chip on the player's board with his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person places the red chip on the player's board using his right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

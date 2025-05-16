@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the fabric change?",
+    "options": [
+        "The fabric was folded and wrinkled in the middle.",
+        "The fabric was flipped and stretched at the sides.",
+        "The fabric was flipped and scrunched at the edges.",
+        "The fabric was stretched at the sides and left flat.",
+        "The fabric was flipped and pinched along one side."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the fabric change? Choose **only one** option from the following list.\nOptions:\n(A) The fabric was folded and wrinkled in the middle.\n(B) The fabric was flipped and stretched at the sides.\n(C) The fabric was flipped and scrunched at the edges.\n(D) The fabric was stretched at the sides and left flat.\n(E) The fabric was flipped and pinched along one side.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The fabric was flipped and stretched at the sides."
+    },
+    "correct_idx": [
+        1
+    ]
+}

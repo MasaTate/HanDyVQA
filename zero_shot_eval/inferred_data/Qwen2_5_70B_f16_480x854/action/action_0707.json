@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person pours water into the brick mould box using his right hand while holding a cup in his left hand.",
+        "The person taps the sand down into the brick mould box with his right hand while holding a small shovel with his left hand.",
+        "The person spreads the sand evenly across the table with his right hand while pushing the mould box with his left hand.",
+        "The person scoops sand into the brick mould box with his right hand.",
+        "The person fills the brick mould box with gravel using his right hand while balancing a brick with his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person pours water into the brick mould box using his right hand while holding a cup in his left hand.\n(B) The person taps the sand down into the brick mould box with his right hand while holding a small shovel with his left hand.\n(C) The person spreads the sand evenly across the table with his right hand while pushing the mould box with his left hand.\n(D) The person scoops sand into the brick mould box with his right hand.\n(E) The person fills the brick mould box with gravel using his right hand while balancing a brick with his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person scoops sand into the brick mould box with his right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

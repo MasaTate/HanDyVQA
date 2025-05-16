@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person throws the clothes into the laundry basket.",
+        "The person folds the clothes neatly on the sofa.",
+        "The person hangs the clothes on the clothesline.",
+        "The person is sorting the clothes into different piles.",
+        "The person picks up the clothes and arranges them."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person throws the clothes into the laundry basket.\n(B) The person folds the clothes neatly on the sofa.\n(C) The person hangs the clothes on the clothesline.\n(D) The person is sorting the clothes into different piles.\n(E) The person picks up the clothes and arranges them.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person picks up the clothes and arranges them."
+    },
+    "correct_idx": [
+        4
+    ]
+}

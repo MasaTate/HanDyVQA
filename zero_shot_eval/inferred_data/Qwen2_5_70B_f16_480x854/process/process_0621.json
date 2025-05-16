@@ -1,0 +1,17 @@
+{
+    "question": "How does the person tap a card?",
+    "options": [
+        "The person taps a card on the table by extending the index finger of their left hand and pressing it gently against the card with a quick, controlled downward motion.",
+        "The person taps the card onto the table using the palm of their right hand with a controlled sweeping motion that lets the card move slightly across the surface.",
+        "The person flicks the card off the edge of the table using their thumb, directing it downward at an angle with a gentle motion.",
+        "The person uses both hands to bring the card together, creating a soft clap rather than a focused tap on the table.",
+        "The person points at the card with their middle finger and nudges it away, allowing it to glide across the surface rather than tapping."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person tap a card? Choose **only one** option from the following list.\nOptions:\n(A) The person taps a card on the table by extending the index finger of their left hand and pressing it gently against the card with a quick, controlled downward motion.\n(B) The person taps the card onto the table using the palm of their right hand with a controlled sweeping motion that lets the card move slightly across the surface.\n(C) The person flicks the card off the edge of the table using their thumb, directing it downward at an angle with a gentle motion.\n(D) The person uses both hands to bring the card together, creating a soft clap rather than a focused tap on the table.\n(E) The person points at the card with their middle finger and nudges it away, allowing it to glide across the surface rather than tapping.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person taps a card on the table by extending the index finger of their left hand and pressing it gently against the card with a quick, controlled downward motion."
+    },
+    "correct_idx": [
+        0
+    ]
+}

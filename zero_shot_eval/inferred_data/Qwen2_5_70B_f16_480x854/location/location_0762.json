@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the screwdriver?",
+    "options": [
+        "The person places the screwdriver inside the drawer box.",
+        "The person places the screwdriver on top of the drawer box.",
+        "The person places the screwdriver next to the drawer box.",
+        "The person places the screwdriver under the drawer box.",
+        "The person places the screwdriver behind the drawer box."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the screwdriver? Choose **only one** option from the following list.\nOptions:\n(A) The person places the screwdriver inside the drawer box.\n(B) The person places the screwdriver on top of the drawer box.\n(C) The person places the screwdriver next to the drawer box.\n(D) The person places the screwdriver under the drawer box.\n(E) The person places the screwdriver behind the drawer box.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person places the screwdriver inside the drawer box."
+    },
+    "correct_idx": [
+        0
+    ]
+}

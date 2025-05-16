@@ -1,0 +1,17 @@
+{
+    "question": "How does the person shift a   polythene sheet?",
+    "options": [
+        "The person carefully adjusted the polythene sheet using both hands at once.",
+        "The person repositioned the polythene sheet by lifting it slightly with the right hand.",
+        "The person adjusted the polythene sheet by pushing it with the left hand while brushing the wood with the right hand.",
+        "The person shifted the polythene sheet closer using the index finger of the right hand.",
+        "The person adjusted the polythene sheet by holding the corner with the fingertips of the left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person shift a   polythene sheet? Choose **only one** option from the following list.\nOptions:\n(A) The person carefully adjusted the polythene sheet using both hands at once.\n(B) The person repositioned the polythene sheet by lifting it slightly with the right hand.\n(C) The person adjusted the polythene sheet by pushing it with the left hand while brushing the wood with the right hand.\n(D) The person shifted the polythene sheet closer using the index finger of the right hand.\n(E) The person adjusted the polythene sheet by holding the corner with the fingertips of the left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person adjusted the polythene sheet by pushing it with the left hand while brushing the wood with the right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

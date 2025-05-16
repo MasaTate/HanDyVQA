@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is arranging the handmade small clay pot on the shelf and using their right hand to dip the sponge into the paint before applying it to the pot.",
+        "The person is placing the handmade small clay pot onto the table and using their right hand to squeeze the sponge for applying it to the pot.",
+        "The person is holding the handmade small clay pot in their left hand while using their right hand to pour water onto the pot.",
+        "The person is cleaning the handmade small clay pot on the counter while using their right hand to hold a brush for painting it.",
+        "The person is crafting a small clay pot on the wheel and using their right hand to smooth it while holding a tool in their left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is arranging the handmade small clay pot on the shelf and using their right hand to dip the sponge into the paint before applying it to the pot.\n(B) The person is placing the handmade small clay pot onto the table and using their right hand to squeeze the sponge for applying it to the pot.\n(C) The person is holding the handmade small clay pot in their left hand while using their right hand to pour water onto the pot.\n(D) The person is cleaning the handmade small clay pot on the counter while using their right hand to hold a brush for painting it.\n(E) The person is crafting a small clay pot on the wheel and using their right hand to smooth it while holding a tool in their left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person is arranging the handmade small clay pot on the shelf and using their right hand to dip the sponge into the paint before applying it to the pot."
+    },
+    "correct_idx": [
+        1
+    ]
+}

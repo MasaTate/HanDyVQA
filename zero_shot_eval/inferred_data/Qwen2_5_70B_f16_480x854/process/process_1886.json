@@ -1,0 +1,17 @@
+{
+    "question": "How does the person rinse the toothbrush?",
+    "options": [
+        "The person opens the faucet while still holding the toothbrush with the same hand and sets the toothbrush under the faucet then rinses it.",
+        "The person grabs the toothbrush with her right hand and places it under the faucet before turning it on.",
+        "The person picks up the toothbrush with both hands, tilting it gently to get water on it rather than rinsing it directly.",
+        "The person holds the toothbrush in her dominant hand and uses the other hand to turn on the faucet while rinsing it above the sink.",
+        "The person retrieves the toothbrush using her left hand and rinses it in a bowl of water instead of under the faucet."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person rinse the toothbrush? Choose **only one** option from the following list.\nOptions:\n(A) The person opens the faucet while still holding the toothbrush with the same hand and sets the toothbrush under the faucet then rinses it.\n(B) The person grabs the toothbrush with her right hand and places it under the faucet before turning it on.\n(C) The person picks up the toothbrush with both hands, tilting it gently to get water on it rather than rinsing it directly.\n(D) The person holds the toothbrush in her dominant hand and uses the other hand to turn on the faucet while rinsing it above the sink.\n(E) The person retrieves the toothbrush using her left hand and rinses it in a bowl of water instead of under the faucet.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person holds the toothbrush in her dominant hand and uses the other hand to turn on the faucet while rinsing it above the sink."
+    },
+    "correct_idx": [
+        0
+    ]
+}

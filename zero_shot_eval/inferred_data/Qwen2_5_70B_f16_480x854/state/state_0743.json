@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a stool change?",
+    "options": [
+        "The stool was rotated 45 degrees clockwise while remaining on the ground.",
+        "The stool was rotated 90 degrees clockwise while tilting slightly.",
+        "The stool was rotated 90 degrees counterclockwise while remaining on the ground.",
+        "The stool was rotated 180 degrees counterclockwise while lifted briefly.",
+        "The stool was rotated 90 degrees counterclockwise while then moving slightly forward."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a stool change? Choose **only one** option from the following list.\nOptions:\n(A) The stool was rotated 45 degrees clockwise while remaining on the ground.\n(B) The stool was rotated 90 degrees clockwise while tilting slightly.\n(C) The stool was rotated 90 degrees counterclockwise while remaining on the ground.\n(D) The stool was rotated 180 degrees counterclockwise while lifted briefly.\n(E) The stool was rotated 90 degrees counterclockwise while then moving slightly forward.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The stool was rotated 90 degrees counterclockwise while remaining on the ground."
+    },
+    "correct_idx": [
+        2
+    ]
+}

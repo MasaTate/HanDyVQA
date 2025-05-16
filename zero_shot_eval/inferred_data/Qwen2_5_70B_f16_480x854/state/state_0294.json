@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the game change?",
+    "options": [
+        "The game being played on the PC was scrolled and then changed to a different scene.",
+        "The game being played on the PC was scrolled and then paused unexpectedly.",
+        "The game being played on the PC was scrolled and then saved before a scene change.",
+        "The game being played on the PC was scrolled and then exited without a scene change.",
+        "The game being played on the PC was scrolled and the resolution was adjusted instead of a scene change."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the game change? Choose **only one** option from the following list.\nOptions:\n(A) The game being played on the PC was scrolled and then changed to a different scene.\n(B) The game being played on the PC was scrolled and then paused unexpectedly.\n(C) The game being played on the PC was scrolled and then saved before a scene change.\n(D) The game being played on the PC was scrolled and then exited without a scene change.\n(E) The game being played on the PC was scrolled and the resolution was adjusted instead of a scene change.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The game being played on the PC was scrolled and then changed to a different scene."
+    },
+    "correct_idx": [
+        0
+    ]
+}

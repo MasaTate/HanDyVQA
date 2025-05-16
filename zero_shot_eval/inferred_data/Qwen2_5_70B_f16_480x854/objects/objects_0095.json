@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "bowl",
+        "rolling pin",
+        "dough",
+        "flour",
+        "mobile phone",
+        "spoon"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) bowl\n(B) rolling pin\n(C) dough\n(D) flour\n(E) mobile phone\n(F) spoon\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(C) The hands are using the dough, shaping and flattening it on the table.\n(D) The hands are using flour, sprinkling it onto the dough and the table surface."
+    },
+    "correct_idx": [
+        2,
+        3
+    ]
+}

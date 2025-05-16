@@ -1,0 +1,17 @@
+{
+    "question": "How does the person unscrew the screw?",
+    "options": [
+        "The person presses the screwdriver down firmly on the screw but doesn't manage to turn it correctly.",
+        "The person tries to turn the screw using only their fingers instead of a screwdriver.",
+        "The person holds the screwdriver's handle securely and attempts to pull it out rather than turning it.",
+        "The person positions the screwdriver vertically over the screw and tries to lift it upwards.",
+        "The person uses the T-shaped screwdriver to remove the screw by rotating it in an anti-clockwise direction."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person unscrew the screw? Choose **only one** option from the following list.\nOptions:\n(A) The person presses the screwdriver down firmly on the screw but doesn't manage to turn it correctly.\n(B) The person tries to turn the screw using only their fingers instead of a screwdriver.\n(C) The person holds the screwdriver's handle securely and attempts to pull it out rather than turning it.\n(D) The person positions the screwdriver vertically over the screw and tries to lift it upwards.\n(E) The person uses the T-shaped screwdriver to remove the screw by rotating it in an anti-clockwise direction.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person uses the T-shaped screwdriver to remove the screw by rotating it in an anti-clockwise direction."
+    },
+    "correct_idx": [
+        4
+    ]
+}

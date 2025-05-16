@@ -1,0 +1,17 @@
+{
+    "question": "How does the person check the time?",
+    "options": [
+        "The person checks the time by tilting their head slightly to view the watch placed on the table.",
+        "The person checks the time by taking out a small pocket watch from their pocket.",
+        "The person checks the time by raising their right hand, noticing a bracelet on their wrist.",
+        "The person checks the time by glancing at someone else's left hand, where a watch is worn.",
+        "The person checks the time by lifting their left hand where the watch is on their wrist."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person check the time? Choose **only one** option from the following list.\nOptions:\n(A) The person checks the time by tilting their head slightly to view the watch placed on the table.\n(B) The person checks the time by taking out a small pocket watch from their pocket.\n(C) The person checks the time by raising their right hand, noticing a bracelet on their wrist.\n(D) The person checks the time by glancing at someone else's left hand, where a watch is worn.\n(E) The person checks the time by lifting their left hand where the watch is on their wrist.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person checks the time by lifting their left hand where the watch is on their wrist."
+    },
+    "correct_idx": [
+        4
+    ]
+}

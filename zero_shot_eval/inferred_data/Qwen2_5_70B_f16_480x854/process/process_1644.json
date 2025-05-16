@@ -1,0 +1,17 @@
+{
+    "question": "How does the person flatten the cut dough on the chopping board?",
+    "options": [
+        "The person used the fist of the left hand to press the dough while the right hand wasn't involved.",
+        "The person used the knuckles of the left hand to press the dough while lightly holding the rolling pin in the right hand.",
+        "The person used the palm of the left hand and pressed the cut dough to flatten it while holding a rolling pin in the right hand.",
+        "The person used the side of the left hand to press and flatten the dough while holding the rolling pin with the other hand.",
+        "The person used the back of the left hand to attempt to flatten the dough while the rolling pin was beside the board."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person flatten the cut dough on the chopping board? Choose **only one** option from the following list.\nOptions:\n(A) The person used the fist of the left hand to press the dough while the right hand wasn't involved.\n(B) The person used the knuckles of the left hand to press the dough while lightly holding the rolling pin in the right hand.\n(C) The person used the palm of the left hand and pressed the cut dough to flatten it while holding a rolling pin in the right hand.\n(D) The person used the side of the left hand to press and flatten the dough while holding the rolling pin with the other hand.\n(E) The person used the back of the left hand to attempt to flatten the dough while the rolling pin was beside the board.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person used the palm of the left hand and pressed the cut dough to flatten it while holding a rolling pin in the right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

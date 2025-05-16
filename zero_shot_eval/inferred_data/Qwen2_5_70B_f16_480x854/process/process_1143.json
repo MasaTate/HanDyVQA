@@ -1,0 +1,17 @@
+{
+    "question": "How does the person squeeze the piece of cake in her left hand with the chopsticks?",
+    "options": [
+        "The person swiftly took the chopsticks from the counter with her right hand, focusing on handling the utensils properly.",
+        "The person picked up the chopsticks using her left hand, while securely holding the cake with the other hand to stabilize it.",
+        "The person pinches the piece of cake with her left thumb and index finger then squeezes it with the chopsticks in her right hand.",
+        "The person used her right hand to move the chopsticks softly across the table before attempting to squeeze the piece of cake.",
+        "The person carefully swung the chopsticks to the side with her left hand, aiming to grasp them correctly to squeeze the cake."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person squeeze the piece of cake in her left hand with the chopsticks? Choose **only one** option from the following list.\nOptions:\n(A) The person swiftly took the chopsticks from the counter with her right hand, focusing on handling the utensils properly.\n(B) The person picked up the chopsticks using her left hand, while securely holding the cake with the other hand to stabilize it.\n(C) The person pinches the piece of cake with her left thumb and index finger then squeezes it with the chopsticks in her right hand.\n(D) The person used her right hand to move the chopsticks softly across the table before attempting to squeeze the piece of cake.\n(E) The person carefully swung the chopsticks to the side with her left hand, aiming to grasp them correctly to squeeze the cake.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person pinches the piece of cake with her left thumb and index finger then squeezes it with the chopsticks in her right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

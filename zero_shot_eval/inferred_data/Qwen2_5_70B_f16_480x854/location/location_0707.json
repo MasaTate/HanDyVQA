@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person set the lever?",
+    "options": [
+        "The person sets the lever backward towards them.",
+        "The person sets the lever forward away from them.",
+        "The person sets the lever to the left side of the machine.",
+        "The person sets the lever to the right side of the machine.",
+        "The person sets the lever diagonally upward away from them."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person set the lever? Choose **only one** option from the following list.\nOptions:\n(A) The person sets the lever backward towards them.\n(B) The person sets the lever forward away from them.\n(C) The person sets the lever to the left side of the machine.\n(D) The person sets the lever to the right side of the machine.\n(E) The person sets the lever diagonally upward away from them.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person sets the lever backward towards them."
+    },
+    "correct_idx": [
+        0
+    ]
+}

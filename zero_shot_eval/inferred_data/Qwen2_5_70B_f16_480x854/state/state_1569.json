@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the piece of carton change?",
+    "options": [
+        "The piece of carton changed when it was folded into a different shape.",
+        "The piece of carton changed when it was tossed into the sink.",
+        "The piece of carton changed when it was torn into several smaller pieces.",
+        "The piece of carton changed when it was immersed in water completely.",
+        "The piece of carton changed when it was compressed into a tight ball."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the piece of carton change? Choose **only one** option from the following list.\nOptions:\n(A) The piece of carton changed when it was folded into a different shape.\n(B) The piece of carton changed when it was tossed into the sink.\n(C) The piece of carton changed when it was torn into several smaller pieces.\n(D) The piece of carton changed when it was immersed in water completely.\n(E) The piece of carton changed when it was compressed into a tight ball.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The piece of carton changed when it was tossed into the sink."
+    },
+    "correct_idx": [
+        1
+    ]
+}

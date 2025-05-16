@@ -1,0 +1,17 @@
+{
+    "question": "How does the person shift the thread with her left hand?",
+    "options": [
+        "The person carefully drags the thread along the surface with her left hand while pinching the end with her thumb.",
+        "The person gently pushes the thread forward with her left hand while holding the cloth softly with her palm.",
+        "The person smoothly flicks the thread to the side with her left hand while resting the cloth on her wrist.",
+        "The person lets the thread glide through her fingers with her left hand while holding the cloth gently with her whole hand.",
+        "The person grasps with the fingers of her left hand and pulls and brings the thread to the back of the sewing machine while resting the cloth on the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person shift the thread with her left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person carefully drags the thread along the surface with her left hand while pinching the end with her thumb.\n(B) The person gently pushes the thread forward with her left hand while holding the cloth softly with her palm.\n(C) The person smoothly flicks the thread to the side with her left hand while resting the cloth on her wrist.\n(D) The person lets the thread glide through her fingers with her left hand while holding the cloth gently with her whole hand.\n(E) The person grasps with the fingers of her left hand and pulls and brings the thread to the back of the sewing machine while resting the cloth on the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person grasps with the fingers of her left hand and pulls and brings the thread to the back of the sewing machine while resting the cloth on the table."
+    },
+    "correct_idx": [
+        4
+    ]
+}

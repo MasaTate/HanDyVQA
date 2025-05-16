@@ -1,0 +1,17 @@
+{
+    "question": "How does the person cover the plastic tube?",
+    "options": [
+        "The person secures the plastic tube by gently pressing down on the lid with their right hand while holding the tube with the left hand.",
+        "The person seals the plastic tube by smoothly twisting the lid on with their right hand, using their left hand to support the tube.",
+        "The person caps the plastic tube by carefully pushing the lid on with both hands, applying gentle pressure from both sides.",
+        "The person attaches the lid to the plastic tube by carefully placing it onto the top with their right hand, while the left hand holds the tube.",
+        "The person covers the plastic tube by closing its lid with their left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person cover the plastic tube? Choose **only one** option from the following list.\nOptions:\n(A) The person secures the plastic tube by gently pressing down on the lid with their right hand while holding the tube with the left hand.\n(B) The person seals the plastic tube by smoothly twisting the lid on with their right hand, using their left hand to support the tube.\n(C) The person caps the plastic tube by carefully pushing the lid on with both hands, applying gentle pressure from both sides.\n(D) The person attaches the lid to the plastic tube by carefully placing it onto the top with their right hand, while the left hand holds the tube.\n(E) The person covers the plastic tube by closing its lid with their left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person seals the plastic tube by smoothly twisting the lid on with their right hand, using their left hand to support the tube."
+    },
+    "correct_idx": [
+        4
+    ]
+}

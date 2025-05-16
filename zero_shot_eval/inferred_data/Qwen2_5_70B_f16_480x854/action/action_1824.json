@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person lifts the flask from the counter with her right hand and twists the lid using the left hand.",
+        "The person picks up the flask from the sink with her left hand and rotates the lid using the right hand.",
+        "The person grabs the flask from the table with her left hand and unscrews the cap using the right hand.",
+        "The person takes the flask from the table with her left hand and pulls the lid using the right hand.",
+        "The person holds the flask in her right hand and shifts the lid with her left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person lifts the flask from the counter with her right hand and twists the lid using the left hand.\n(B) The person picks up the flask from the sink with her left hand and rotates the lid using the right hand.\n(C) The person grabs the flask from the table with her left hand and unscrews the cap using the right hand.\n(D) The person takes the flask from the table with her left hand and pulls the lid using the right hand.\n(E) The person holds the flask in her right hand and shifts the lid with her left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person grabs the flask from the table with her left hand and unscrews the cap using the right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

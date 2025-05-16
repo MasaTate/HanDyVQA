@@ -1,0 +1,17 @@
+{
+    "question": "How does the person turn a page on the book?",
+    "options": [
+        "The person slides the edge of the page with her thumb and index finger of her left hand to turn it over.",
+        "The person lifts the page slightly by pinching it between the middle and ring fingers of her right hand.",
+        "The person flips the page of the book with her right hand.",
+        "The person nudges the corner of the page using her right pinky finger to gradually flip it over.",
+        "The person uses the tips of her left fingers to gently brush against the page and turn it quietly."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person turn a page on the book? Choose **only one** option from the following list.\nOptions:\n(A) The person slides the edge of the page with her thumb and index finger of her left hand to turn it over.\n(B) The person lifts the page slightly by pinching it between the middle and ring fingers of her right hand.\n(C) The person flips the page of the book with her right hand.\n(D) The person nudges the corner of the page using her right pinky finger to gradually flip it over.\n(E) The person uses the tips of her left fingers to gently brush against the page and turn it quietly.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person flips the page of the book with her right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

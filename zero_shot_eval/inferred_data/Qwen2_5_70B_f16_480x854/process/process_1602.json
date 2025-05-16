@@ -1,0 +1,17 @@
+{
+    "question": "How does the person frisk the pen?",
+    "options": [
+        "The person examines the pen by gripping it in one hand and moving it lightly back and forth.",
+        "The person holds the pen with one hand and quickly moves their fingers over its surface to feel it.",
+        "The person inspects the pen by holding it between the thumb and forefinger and gently turning it around.",
+        "The person touches the pen by holding it with one hand and smoothly sliding their fingers over part of its surface.",
+        "The person checks the pen by holding it in one hand and gently pressing on its surface to assess its feel."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person frisk the pen? Choose **only one** option from the following list.\nOptions:\n(A) The person examines the pen by gripping it in one hand and moving it lightly back and forth.\n(B) The person holds the pen with one hand and quickly moves their fingers over its surface to feel it.\n(C) The person inspects the pen by holding it between the thumb and forefinger and gently turning it around.\n(D) The person touches the pen by holding it with one hand and smoothly sliding their fingers over part of its surface.\n(E) The person checks the pen by holding it in one hand and gently pressing on its surface to assess its feel.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person examines the pen by gripping it in one hand and moving it lightly back and forth."
+    },
+    "correct_idx": [
+        1
+    ]
+}

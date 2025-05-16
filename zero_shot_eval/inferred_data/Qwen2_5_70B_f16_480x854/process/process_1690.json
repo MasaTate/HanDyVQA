@@ -1,0 +1,17 @@
+{
+    "question": "How does the person crochet a strand of wool?",
+    "options": [
+        "The person uses a crochet hook with her left hand and yarn over while holding the lace yarn with her left hand.",
+        "The person twists the strand of wool around her finger while holding the crochet hook in her right hand.",
+        "The person holds the crochet hook in her right hand and draws the wool strand with her hand, using minimal assistance from the hook.",
+        "The person uses both hands to hold the yarn closely, creating knots primarily with her fingers.",
+        "The person uses a pair of tools to grip the wool, attempting to crochet with the hook held in her left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person crochet a strand of wool? Choose **only one** option from the following list.\nOptions:\n(A) The person uses a crochet hook with her left hand and yarn over while holding the lace yarn with her left hand.\n(B) The person twists the strand of wool around her finger while holding the crochet hook in her right hand.\n(C) The person holds the crochet hook in her right hand and draws the wool strand with her hand, using minimal assistance from the hook.\n(D) The person uses both hands to hold the yarn closely, creating knots primarily with her fingers.\n(E) The person uses a pair of tools to grip the wool, attempting to crochet with the hook held in her left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person twists the strand of wool around her finger while holding the crochet hook in her right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

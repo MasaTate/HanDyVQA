@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "Near the wall, the person points her right hand while looking at something.",
+        "Against the wall, the person raises her right hand in celebration.",
+        "Beside the wall, the person brushes her right hand along the surface.",
+        "Close to the wall, the person uses her right hand to reach for a light switch.",
+        "Near the wall, the person waves her right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) Near the wall, the person points her right hand while looking at something.\n(B) Against the wall, the person raises her right hand in celebration.\n(C) Beside the wall, the person brushes her right hand along the surface.\n(D) Close to the wall, the person uses her right hand to reach for a light switch.\n(E) Near the wall, the person waves her right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) Beside the wall, the person brushes her right hand along the surface."
+    },
+    "correct_idx": [
+        4
+    ]
+}

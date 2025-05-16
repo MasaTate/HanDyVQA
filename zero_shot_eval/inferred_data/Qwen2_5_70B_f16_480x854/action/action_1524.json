@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is wiping the top of the fridge and the floor with their left hand and grabbing the sprayer with their right hand.",
+        "The person is cleaning the countertop and the floor with their left hand while holding a sponge in their right hand.",
+        "The person is dusting the shelves and the floor with their left hand while using a cloth in their right hand.",
+        "The person is washing the dishes and the floor with their left hand while holding a dish soap bottle in their right hand.",
+        "The person is organizing the pantry and the floor with their left hand while holding a broom in their right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is wiping the top of the fridge and the floor with their left hand and grabbing the sprayer with their right hand.\n(B) The person is cleaning the countertop and the floor with their left hand while holding a sponge in their right hand.\n(C) The person is dusting the shelves and the floor with their left hand while using a cloth in their right hand.\n(D) The person is washing the dishes and the floor with their left hand while holding a dish soap bottle in their right hand.\n(E) The person is organizing the pantry and the floor with their left hand while holding a broom in their right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person is wiping the top of the fridge and the floor with their left hand and grabbing the sprayer with their right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

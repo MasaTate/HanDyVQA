@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is pulling the lower part of the stand outward with his right hand to extend the stand while his left hand holds the top of the stand.",
+        "The person is lifting the entire stand with both hands while his right hand grips the side of the stand and his left hand supports the base.",
+        "The person pushed the lower part of the stand inwards with his right hand to fold the stand while his left hand steadily holds the top of the stand.",
+        "The person is sliding the top part of the stand to the side with his right hand while his left hand presses down on the surface where the stand is placed.",
+        "The person is adjusting the height of the stand with both hands while his right hand rotates the knob and his left hand balances the stand from the bottom."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is pulling the lower part of the stand outward with his right hand to extend the stand while his left hand holds the top of the stand.\n(B) The person is lifting the entire stand with both hands while his right hand grips the side of the stand and his left hand supports the base.\n(C) The person pushed the lower part of the stand inwards with his right hand to fold the stand while his left hand steadily holds the top of the stand.\n(D) The person is sliding the top part of the stand to the side with his right hand while his left hand presses down on the surface where the stand is placed.\n(E) The person is adjusting the height of the stand with both hands while his right hand rotates the knob and his left hand balances the stand from the bottom.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person is lifting the entire stand with both hands while his right hand grips the side of the stand and his left hand supports the base."
+    },
+    "correct_idx": [
+        2
+    ]
+}

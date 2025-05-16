@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a slice of onion from the tissue paper change?",
+    "options": [
+        "The slice of onion was pushed aside, and the tissue paper stayed unchanged underneath.",
+        "The slice of onion was lifted before being returned, and the white tissue underneath was taken.",
+        "The slice of onion was lifted and held over the tissue, with the white tissue remaining untouched.",
+        "The slice of onion was lifted and then returned to its original spot, without changing the tissue paper below.",
+        "The slice of onion was shifted slightly to the edge, while the white tissue remained beneath it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a slice of onion from the tissue paper change? Choose **only one** option from the following list.\nOptions:\n(A) The slice of onion was pushed aside, and the tissue paper stayed unchanged underneath.\n(B) The slice of onion was lifted before being returned, and the white tissue underneath was taken.\n(C) The slice of onion was lifted and held over the tissue, with the white tissue remaining untouched.\n(D) The slice of onion was lifted and then returned to its original spot, without changing the tissue paper below.\n(E) The slice of onion was shifted slightly to the edge, while the white tissue remained beneath it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The slice of onion was lifted and then returned to its original spot, without changing the tissue paper below."
+    },
+    "correct_idx": [
+        1
+    ]
+}

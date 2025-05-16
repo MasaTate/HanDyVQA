@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person's right hand retrieves the mug from the cabinet.",
+        "The person's right hand holds a newspaper and the left hand is sliding the cabinet's glass.",
+        "The person is placing the glass back on the shelf using the left hand.",
+        "The person pushes the glass towards the back of the shelf with the right hand.",
+        "The person is taking the bottle off the counter with the left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person's right hand retrieves the mug from the cabinet.\n(B) The person's right hand holds a newspaper and the left hand is sliding the cabinet's glass.\n(C) The person is placing the glass back on the shelf using the left hand.\n(D) The person pushes the glass towards the back of the shelf with the right hand.\n(E) The person is taking the bottle off the counter with the left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person's right hand holds a newspaper and the left hand is sliding the cabinet's glass."
+    },
+    "correct_idx": [
+        1
+    ]
+}

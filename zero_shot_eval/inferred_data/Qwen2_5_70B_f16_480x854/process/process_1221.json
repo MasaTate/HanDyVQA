@@ -1,0 +1,17 @@
+{
+    "question": "How does the person straighten the elastic strap on the cloth?",
+    "options": [
+        "The person pulls the elastic strap with both hands to straighten it.",
+        "The person adjusts the elastic strap between their fingers to align it, focusing on a smooth movement.",
+        "The person draws the elastic strap with one hand gently while steadying the cloth with the other hand to keep it in place.",
+        "The person extends the elastic strap with one hand, maintaining a steady hold on the cloth with the other hand.",
+        "The person guides the elastic strap while balancing the tension on the cloth with both hands to avoid any bunching."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person straighten the elastic strap on the cloth? Choose **only one** option from the following list.\nOptions:\n(A) The person pulls the elastic strap with both hands to straighten it.\n(B) The person adjusts the elastic strap between their fingers to align it, focusing on a smooth movement.\n(C) The person draws the elastic strap with one hand gently while steadying the cloth with the other hand to keep it in place.\n(D) The person extends the elastic strap with one hand, maintaining a steady hold on the cloth with the other hand.\n(E) The person guides the elastic strap while balancing the tension on the cloth with both hands to avoid any bunching.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person adjusts the elastic strap between their fingers to align it, focusing on a smooth movement."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a pencil sharpener from the drawer change?",
+    "options": [
+        "The pencil sharpener was removed from the drawer and placed on the desk.",
+        "The pencil sharpener was taken out of the drawer and inspected closely.",
+        "The pencil sharpener was pulled out from the drawer and held in someone's hand.",
+        "The pencil sharpener was picked up from the drawer.",
+        "The pencil sharpener was lifted out of the drawer and transported to a different location."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a pencil sharpener from the drawer change? Choose **only one** option from the following list.\nOptions:\n(A) The pencil sharpener was removed from the drawer and placed on the desk.\n(B) The pencil sharpener was taken out of the drawer and inspected closely.\n(C) The pencil sharpener was pulled out from the drawer and held in someone's hand.\n(D) The pencil sharpener was picked up from the drawer.\n(E) The pencil sharpener was lifted out of the drawer and transported to a different location.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The pencil sharpener was picked up from the drawer."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "faucet",
+        "slipper",
+        "paper bag",
+        "plastic",
+        "chairs",
+        "sandals"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) faucet\n(B) slipper\n(C) paper bag\n(D) plastic\n(E) chairs\n(F) sandals\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(C) The hands are seen reaching into a cabinet and pulling out a paper bag. The paper bag is then used to dispose of something, likely a watermelon rind or other kitchen waste. The hands interact with the paper bag throughout this sequence.\n\n(D) The hands also handle a plastic object, which appears to be a container or lid, as they move items around in the cabinet and on the counter. The plastic object is manipulated alongside the paper bag."
+    },
+    "correct_idx": [
+        2,
+        3
+    ]
+}

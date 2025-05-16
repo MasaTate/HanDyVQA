@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the socket?",
+    "options": [
+        "The person places the socket in his right hand.",
+        "The person places the socket in her left hand.",
+        "The person places the socket on the table with his left hand.",
+        "The person places the socket in the pocket of his coat.",
+        "The person places the socket in his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the socket? Choose **only one** option from the following list.\nOptions:\n(A) The person places the socket in his right hand.\n(B) The person places the socket in her left hand.\n(C) The person places the socket on the table with his left hand.\n(D) The person places the socket in the pocket of his coat.\n(E) The person places the socket in his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person places the socket in his left hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

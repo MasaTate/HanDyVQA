@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place her left hand?",
+    "options": [
+        "The person places her left hand on a metal railing to balance while using the right hand for sanding.",
+        "The person places her left hand on the edge of the workbench to stabilize the right hand sanding.",
+        "The person places her left hand on the floor beside her to give more freedom to the right hand sanding.",
+        "The person places her left hand on a nearby toolbox to assist while sanding with the right hand.",
+        "The person places her left hand on a wooden beam to support the right hand sanding."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place her left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person places her left hand on a metal railing to balance while using the right hand for sanding.\n(B) The person places her left hand on the edge of the workbench to stabilize the right hand sanding.\n(C) The person places her left hand on the floor beside her to give more freedom to the right hand sanding.\n(D) The person places her left hand on a nearby toolbox to assist while sanding with the right hand.\n(E) The person places her left hand on a wooden beam to support the right hand sanding.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person places her left hand on a wooden beam to support the right hand sanding."
+    },
+    "correct_idx": [
+        4
+    ]
+}

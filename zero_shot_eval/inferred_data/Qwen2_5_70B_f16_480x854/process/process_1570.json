@@ -1,0 +1,17 @@
+{
+    "question": "How does the person clean the cooker?",
+    "options": [
+        "The person holds a dry sponge in their left hand, wiping the cooker with circular motions.",
+        "The person uses a spray cleaner and holds paper towels in both hands, wiping as they go.",
+        "The person picks up a scouring pad with their right hand and wipes the cooker from left to right.",
+        "The person holds a white damp cloth in their right hand, wiping the surface of the cooker from top to bottom.",
+        "The person holds a large brush in their left hand and gently sweeps the surface of the cooker back and forth."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person clean the cooker? Choose **only one** option from the following list.\nOptions:\n(A) The person holds a dry sponge in their left hand, wiping the cooker with circular motions.\n(B) The person uses a spray cleaner and holds paper towels in both hands, wiping as they go.\n(C) The person picks up a scouring pad with their right hand and wipes the cooker from left to right.\n(D) The person holds a white damp cloth in their right hand, wiping the surface of the cooker from top to bottom.\n(E) The person holds a large brush in their left hand and gently sweeps the surface of the cooker back and forth.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person holds a white damp cloth in their right hand, wiping the surface of the cooker from top to bottom."
+    },
+    "correct_idx": [
+        3
+    ]
+}

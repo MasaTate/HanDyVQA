@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the hose of the vacuum cleaner change?",
+    "options": [
+        "The hose of the vacuum cleaner was picked up and held.",
+        "The hose of the vacuum cleaner was extended and laid flat on the floor.",
+        "The hose of the vacuum cleaner was twisted into a coiled shape.",
+        "The hose of the vacuum cleaner was wound up and placed on a shelf.",
+        "The hose of the vacuum cleaner was detached and held in one hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the hose of the vacuum cleaner change? Choose **only one** option from the following list.\nOptions:\n(A) The hose of the vacuum cleaner was picked up and held.\n(B) The hose of the vacuum cleaner was extended and laid flat on the floor.\n(C) The hose of the vacuum cleaner was twisted into a coiled shape.\n(D) The hose of the vacuum cleaner was wound up and placed on a shelf.\n(E) The hose of the vacuum cleaner was detached and held in one hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The hose of the vacuum cleaner was picked up and held."
+    },
+    "correct_idx": [
+        0
+    ]
+}

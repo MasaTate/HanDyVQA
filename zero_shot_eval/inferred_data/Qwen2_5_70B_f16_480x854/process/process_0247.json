@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pump the pump?",
+    "options": [
+        "The person holds the pump nozzle in their hand while gripping the handle with both hands, pulling it back and forth in a steady manner to create pressure.",
+        "The person places the pump on the ground and presses the handle down with their foot, using a firm motion to activate the flow.",
+        "The person grasps the pump handle with both hands and rotates it in a smooth side-to-side motion to adjust the output.",
+        "The person secures the pump nozzle between their thighs, then grips the handle with their right hand and presses it down in a steady, repetitive motion to control the flow.",
+        "The person balances the pump on their knee and pulls the handle towards themselves with one hand, attempting to establish a pumping action."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pump the pump? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the pump nozzle in their hand while gripping the handle with both hands, pulling it back and forth in a steady manner to create pressure.\n(B) The person places the pump on the ground and presses the handle down with their foot, using a firm motion to activate the flow.\n(C) The person grasps the pump handle with both hands and rotates it in a smooth side-to-side motion to adjust the output.\n(D) The person secures the pump nozzle between their thighs, then grips the handle with their right hand and presses it down in a steady, repetitive motion to control the flow.\n(E) The person balances the pump on their knee and pulls the handle towards themselves with one hand, attempting to establish a pumping action.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person secures the pump nozzle between their thighs, then grips the handle with their right hand and presses it down in a steady, repetitive motion to control the flow."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of plate change?",
+    "options": [
+        "The plate was lifted up, moved over the sink, and dried with a towel.",
+        "The plate was lifted up and moved to the cupboard for storage.",
+        "The plate was lifted up, placed on the counter, and wiped with a sponge.",
+        "The plate was lifted up and set aside on the table to dry naturally.",
+        "The plate was lifted up and moved under the tap and rinsed in the sink."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of plate change? Choose **only one** option from the following list.\nOptions:\n(A) The plate was lifted up, moved over the sink, and dried with a towel.\n(B) The plate was lifted up and moved to the cupboard for storage.\n(C) The plate was lifted up, placed on the counter, and wiped with a sponge.\n(D) The plate was lifted up and set aside on the table to dry naturally.\n(E) The plate was lifted up and moved under the tap and rinsed in the sink.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The plate was lifted up and moved under the tap and rinsed in the sink."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person move a brush on the table?",
+    "options": [
+        "The person moved the brush across the table using the fingertips of his right hand, keeping it on the surface.",
+        "The person tossed the brush into the air and then caught it again before placing it back on the table.",
+        "The person pushed the brush forward with the palm of his hand, letting it slide to the edge of the table.",
+        "The person pushed the brush on the table by gripping it with his left hand, lifting it slightly, and shifting it to a new position before placing it back down.",
+        "The person picked up the brush using both hands and moved it around before setting it down on the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person move a brush on the table? Choose **only one** option from the following list.\nOptions:\n(A) The person moved the brush across the table using the fingertips of his right hand, keeping it on the surface.\n(B) The person tossed the brush into the air and then caught it again before placing it back on the table.\n(C) The person pushed the brush forward with the palm of his hand, letting it slide to the edge of the table.\n(D) The person pushed the brush on the table by gripping it with his left hand, lifting it slightly, and shifting it to a new position before placing it back down.\n(E) The person picked up the brush using both hands and moved it around before setting it down on the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person pushed the brush on the table by gripping it with his left hand, lifting it slightly, and shifting it to a new position before placing it back down."
+    },
+    "correct_idx": [
+        3
+    ]
+}

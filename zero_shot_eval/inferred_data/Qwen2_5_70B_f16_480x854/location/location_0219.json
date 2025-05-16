@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the soldering iron?",
+    "options": [
+        "The person moves the soldering iron near the circuit board.",
+        "The person moves the soldering iron away from the circuit board.",
+        "The person moves the soldering iron beside the toolbox.",
+        "The person moves the soldering iron under the workbench.",
+        "The person moves the soldering iron on top of the desk."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the soldering iron? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the soldering iron near the circuit board.\n(B) The person moves the soldering iron away from the circuit board.\n(C) The person moves the soldering iron beside the toolbox.\n(D) The person moves the soldering iron under the workbench.\n(E) The person moves the soldering iron on top of the desk.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person moves the soldering iron near the circuit board."
+    },
+    "correct_idx": [
+        0
+    ]
+}

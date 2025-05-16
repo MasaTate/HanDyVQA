@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the level change?",
+    "options": [
+        "The level was thrown across the room, bouncing off the walls before coming to a stop.",
+        "The level was tilted at an angle, causing it to slide off the desk and drop to the floor.",
+        "The level was rotated in circles, spinning before finally resting on its side.",
+        "The level was slid across the wooden surface, inching nearer to the corner.",
+        "The level was pushed, knocking over other objects on the table as it was shoved away."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the level change? Choose **only one** option from the following list.\nOptions:\n(A) The level was thrown across the room, bouncing off the walls before coming to a stop.\n(B) The level was tilted at an angle, causing it to slide off the desk and drop to the floor.\n(C) The level was rotated in circles, spinning before finally resting on its side.\n(D) The level was slid across the wooden surface, inching nearer to the corner.\n(E) The level was pushed, knocking over other objects on the table as it was shoved away.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The level was slid across the wooden surface, inching nearer to the corner."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pass the plastic paper?",
+    "options": [
+        "The person grabs the plastic paper with both hands and gently shifts it to another spot.",
+        "The person folds the plastic paper in half and places it down on the table carefully.",
+        "The person lifts the plastic paper using their left hand, then transfers it onto another side.",
+        "The person rolls the plastic paper into a tube and moves it forward with a gentle push from his hand.",
+        "The person lifts the plastic paper using their right hand, then transfers it onto another side."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pass the plastic paper? Choose **only one** option from the following list.\nOptions:\n(A) The person grabs the plastic paper with both hands and gently shifts it to another spot.\n(B) The person folds the plastic paper in half and places it down on the table carefully.\n(C) The person lifts the plastic paper using their left hand, then transfers it onto another side.\n(D) The person rolls the plastic paper into a tube and moves it forward with a gentle push from his hand.\n(E) The person lifts the plastic paper using their right hand, then transfers it onto another side.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person lifts the plastic paper using their left hand, then transfers it onto another side."
+    },
+    "correct_idx": [
+        2
+    ]
+}

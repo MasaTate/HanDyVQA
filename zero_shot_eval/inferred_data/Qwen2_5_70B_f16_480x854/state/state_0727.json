@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the ground change?",
+    "options": [
+        "The ground was swept with a broom, displacing debris and clearing its surface.",
+        "The ground was covered with dirt and mud, forming a layer that hid its original appearance.",
+        "The ground was dug up with a shovel, removing soil and creating a hole in the surface.",
+        "The ground was paved with concrete, altering its texture and making it hard and flat.",
+        "The ground was tilled with a hoe, aerating the soil and mixing organic matter into its structure."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the ground change? Choose **only one** option from the following list.\nOptions:\n(A) The ground was swept with a broom, displacing debris and clearing its surface.\n(B) The ground was covered with dirt and mud, forming a layer that hid its original appearance.\n(C) The ground was dug up with a shovel, removing soil and creating a hole in the surface.\n(D) The ground was paved with concrete, altering its texture and making it hard and flat.\n(E) The ground was tilled with a hoe, aerating the soil and mixing organic matter into its structure.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The ground was swept with a broom, displacing debris and clearing its surface."
+    },
+    "correct_idx": [
+        0
+    ]
+}

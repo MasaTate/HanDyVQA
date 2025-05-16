@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a brake chord change?",
+    "options": [
+        "The brake chord changed as the tension was released from it.",
+        "The brake chord changed as it was twisted into a loop.",
+        "The brake chord changed as the axle was removed from it.",
+        "The brake chord changed as a protective cover was added to it.",
+        "The brake chord changed as additional knots were tied in it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a brake chord change? Choose **only one** option from the following list.\nOptions:\n(A) The brake chord changed as the tension was released from it.\n(B) The brake chord changed as it was twisted into a loop.\n(C) The brake chord changed as the axle was removed from it.\n(D) The brake chord changed as a protective cover was added to it.\n(E) The brake chord changed as additional knots were tied in it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The brake chord changed as the axle was removed from it."
+    },
+    "correct_idx": [
+        2
+    ]
+}

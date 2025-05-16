@@ -1,0 +1,17 @@
+{
+    "question": "How does the person drop another can?",
+    "options": [
+        "The person places the can inside the kitchen shelf with a flick of the wrist using his left hand.",
+        "The person places the can on the counter gently with both hands before moving it to the kitchen shelf.",
+        "The person moves the can smoothly along the counter, allowing it to end up on the kitchen shelf.",
+        "The person holds the can at shoulder height and gently lowers it onto the kitchen counter instead of putting it in the shelf.",
+        "The person places the can inside the kitchen shelf using his right hand and puts another can on top of it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person drop another can? Choose **only one** option from the following list.\nOptions:\n(A) The person places the can inside the kitchen shelf with a flick of the wrist using his left hand.\n(B) The person places the can on the counter gently with both hands before moving it to the kitchen shelf.\n(C) The person moves the can smoothly along the counter, allowing it to end up on the kitchen shelf.\n(D) The person holds the can at shoulder height and gently lowers it onto the kitchen counter instead of putting it in the shelf.\n(E) The person places the can inside the kitchen shelf using his right hand and puts another can on top of it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person places the can inside the kitchen shelf using his right hand and puts another can on top of it."
+    },
+    "correct_idx": [
+        4
+    ]
+}

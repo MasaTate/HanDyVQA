@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person turns the pages of the magazine to the left with her right hand.",
+        "The person is bookmarking a page in the book using her right hand while holding the book open with her left hand.",
+        "The person is skimming through the pages of the journal to the right with her left hand while resting the journal on the table.",
+        "The person is tearing a page out of the notebook with her right hand while supporting the notebook with her left hand.",
+        "The person turns the page of the book using her left hand while holding a pen in her right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person turns the pages of the magazine to the left with her right hand.\n(B) The person is bookmarking a page in the book using her right hand while holding the book open with her left hand.\n(C) The person is skimming through the pages of the journal to the right with her left hand while resting the journal on the table.\n(D) The person is tearing a page out of the notebook with her right hand while supporting the notebook with her left hand.\n(E) The person turns the page of the book using her left hand while holding a pen in her right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person turns the page of the book using her left hand while holding a pen in her right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

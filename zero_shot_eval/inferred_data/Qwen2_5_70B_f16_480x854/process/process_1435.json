@@ -1,0 +1,17 @@
+{
+    "question": "How does the person unscrew a washer?",
+    "options": [
+        "The person removes the washer by gripping it in the left hand and twisting it in a clockwise manner.",
+        "The person holds the washer with the right hand and inadvertently rotates it clockwise.",
+        "The person unscrews the washer by compressing it with the right-hand fingers and twisting counterclockwise using the right hand.",
+        "The person attempts to unscrew the washer by gently pinching it between the thumb and index finger of the left hand.",
+        "The person uses a tool to unscrew the washer, turning it gently in a counterclockwise direction with the aid of pliers."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person unscrew a washer? Choose **only one** option from the following list.\nOptions:\n(A) The person removes the washer by gripping it in the left hand and twisting it in a clockwise manner.\n(B) The person holds the washer with the right hand and inadvertently rotates it clockwise.\n(C) The person unscrews the washer by compressing it with the right-hand fingers and twisting counterclockwise using the right hand.\n(D) The person attempts to unscrew the washer by gently pinching it between the thumb and index finger of the left hand.\n(E) The person uses a tool to unscrew the washer, turning it gently in a counterclockwise direction with the aid of pliers.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person unscrews the washer by compressing it with the right-hand fingers and twisting counterclockwise using the right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

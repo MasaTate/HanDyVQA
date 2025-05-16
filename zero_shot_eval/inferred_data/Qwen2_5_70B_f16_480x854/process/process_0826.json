@@ -1,0 +1,17 @@
+{
+    "question": "How does the person operate a laptop?",
+    "options": [
+        "The person opens the laptop and types on the keyboard using both thumbs, tapping the keys without pressing too hard.",
+        "The person operates the laptop by clicking the arrow key on the keyboard using the right hand's middle finger and then moves the mouse pointer by gently sliding the right hand's middle finger from left to right and then up and down using the touchpad.",
+        "The person operates the laptop by using the left hand to press the keys and moving the mouse pointer by sliding the fingers of the left hand over the touchpad.",
+        "The person operates the laptop by using the right hand to tap on the spacebar and then smoothly slides the hand over the touchpad.",
+        "The person operates the laptop by pressing the keys with the tips of all fingers from both hands and moving the mouse pointer using slight movements of the wrist."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person operate a laptop? Choose **only one** option from the following list.\nOptions:\n(A) The person opens the laptop and types on the keyboard using both thumbs, tapping the keys without pressing too hard.\n(B) The person operates the laptop by clicking the arrow key on the keyboard using the right hand's middle finger and then moves the mouse pointer by gently sliding the right hand's middle finger from left to right and then up and down using the touchpad.\n(C) The person operates the laptop by using the left hand to press the keys and moving the mouse pointer by sliding the fingers of the left hand over the touchpad.\n(D) The person operates the laptop by using the right hand to tap on the spacebar and then smoothly slides the hand over the touchpad.\n(E) The person operates the laptop by pressing the keys with the tips of all fingers from both hands and moving the mouse pointer using slight movements of the wrist.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person operates the laptop by clicking the arrow key on the keyboard using the right hand's middle finger and then moves the mouse pointer by gently sliding the right hand's middle finger from left to right and then up and down using the touchpad."
+    },
+    "correct_idx": [
+        1
+    ]
+}

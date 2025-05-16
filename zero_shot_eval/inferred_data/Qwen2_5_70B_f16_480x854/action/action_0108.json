@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person places the uprooted plants from the rectangular plant box onto the table with his right hand while holding a gardening tool in his left hand.",
+        "The person is picking up the uprooted plants from the rectangular plant box with both hands while getting ready to replant them.",
+        "The person is arranging the uprooted plants from the rectangular plant box into a basket using his left hand while holding a watering can in his right hand.",
+        "The person adds the uprooted plants from the rectangular plant box to the ones in his left hand.",
+        "The person collects the uprooted plants from the rectangular plant box into a container with his right hand while holding a shovel in his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person places the uprooted plants from the rectangular plant box onto the table with his right hand while holding a gardening tool in his left hand.\n(B) The person is picking up the uprooted plants from the rectangular plant box with both hands while getting ready to replant them.\n(C) The person is arranging the uprooted plants from the rectangular plant box into a basket using his left hand while holding a watering can in his right hand.\n(D) The person adds the uprooted plants from the rectangular plant box to the ones in his left hand.\n(E) The person collects the uprooted plants from the rectangular plant box into a container with his right hand while holding a shovel in his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person adds the uprooted plants from the rectangular plant box to the ones in his left hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

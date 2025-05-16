@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pack the pieces of wood?",
+    "options": [
+        "The person uses one hand to gather and organize the pieces of wood, forming a stack that is not perfectly aligned but mostly neat in the space.",
+        "The person packs the pieces of wood by using both hands to gather and organize them, gripping each piece securely to stack them neatly and ensure they are properly aligned within the designated space.",
+        "The person arranges the pieces of wood into the designated space with one hand, attempting to keep them organized and neatly stacked.",
+        "The person grabs multiple pieces at once with both hands, trying to align them carefully, although resulting in a somewhat uneven pile.",
+        "The person uses their left hand to arrange the pieces of wood into the space, focusing on organizing and securely stacking them together."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pack the pieces of wood? Choose **only one** option from the following list.\nOptions:\n(A) The person uses one hand to gather and organize the pieces of wood, forming a stack that is not perfectly aligned but mostly neat in the space.\n(B) The person packs the pieces of wood by using both hands to gather and organize them, gripping each piece securely to stack them neatly and ensure they are properly aligned within the designated space.\n(C) The person arranges the pieces of wood into the designated space with one hand, attempting to keep them organized and neatly stacked.\n(D) The person grabs multiple pieces at once with both hands, trying to align them carefully, although resulting in a somewhat uneven pile.\n(E) The person uses their left hand to arrange the pieces of wood into the space, focusing on organizing and securely stacking them together.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person packs the pieces of wood by using both hands to gather and organize them, gripping each piece securely to stack them neatly and ensure they are properly aligned within the designated space."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the chopping board change?",
+    "options": [
+        "The chopping board was taken and placed on the countertop without being flipped over.",
+        "The chopping board was taken and placed on the countertop, flipped upside down.",
+        "The chopping board was taken and turned on its side when placed on the countertop.",
+        "The chopping board was rotated 90 degrees before being set on the countertop.",
+        "The chopping board was lifted and placed on the countertop with its original side up."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the chopping board change? Choose **only one** option from the following list.\nOptions:\n(A) The chopping board was taken and placed on the countertop without being flipped over.\n(B) The chopping board was taken and placed on the countertop, flipped upside down.\n(C) The chopping board was taken and turned on its side when placed on the countertop.\n(D) The chopping board was rotated 90 degrees before being set on the countertop.\n(E) The chopping board was lifted and placed on the countertop with its original side up.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The chopping board was lifted and placed on the countertop with its original side up."
+    },
+    "correct_idx": [
+        1
+    ]
+}

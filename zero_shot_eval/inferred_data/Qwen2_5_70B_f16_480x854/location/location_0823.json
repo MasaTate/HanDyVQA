@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the book?",
+    "options": [
+        "The person placed the book on the table next to the couch.",
+        "The person placed the book on the floor near the door.",
+        "The person placed the book on the desk in front of the window.",
+        "The person placed the book on the bookshelf.",
+        "The person placed the book on the chair in the dining room."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the book? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the book on the table next to the couch.\n(B) The person placed the book on the floor near the door.\n(C) The person placed the book on the desk in front of the window.\n(D) The person placed the book on the bookshelf.\n(E) The person placed the book on the chair in the dining room.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person placed the book on the bookshelf."
+    },
+    "correct_idx": [
+        3
+    ]
+}

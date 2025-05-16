@@ -1,0 +1,17 @@
+{
+    "question": "How does the person walk the dog with the dog?",
+    "options": [
+        "The person walks the dog by holding the leash in her right hand to guide it in any direction.",
+        "The person leads the dog by holding the leash firmly with both hands.",
+        "The person walks alongside the dog while holding the leash comfortably in her left hand.",
+        "The person guides the dog by holding the leash in her right hand and directing it back and forth.",
+        "The person lets the leash hang over her shoulder, allowing the dog to run casually behind her."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person walk the dog with the dog? Choose **only one** option from the following list.\nOptions:\n(A) The person walks the dog by holding the leash in her right hand to guide it in any direction.\n(B) The person leads the dog by holding the leash firmly with both hands.\n(C) The person walks alongside the dog while holding the leash comfortably in her left hand.\n(D) The person guides the dog by holding the leash in her right hand and directing it back and forth.\n(E) The person lets the leash hang over her shoulder, allowing the dog to run casually behind her.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person walks the dog by holding the leash in her right hand to guide it in any direction."
+    },
+    "correct_idx": [
+        0
+    ]
+}

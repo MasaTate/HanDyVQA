@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person stirs some sauce in a pot using a whisk in her right hand.",
+        "The person flips a pancake in a frying pan using the spatula in her right hand.",
+        "The person scoops some food from the pot using the spatula in her right hand.",
+        "The person serves a portion of cake from the plate using a fork in her right hand.",
+        "The person mixes ingredients in a bowl using a spoon in her right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person stirs some sauce in a pot using a whisk in her right hand.\n(B) The person flips a pancake in a frying pan using the spatula in her right hand.\n(C) The person scoops some food from the pot using the spatula in her right hand.\n(D) The person serves a portion of cake from the plate using a fork in her right hand.\n(E) The person mixes ingredients in a bowl using a spoon in her right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person scoops some food from the pot using the spatula in her right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

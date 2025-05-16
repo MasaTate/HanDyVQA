@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the frying pan change?",
+    "options": [
+        "The frying pan was removed from the fire with a slow movement.",
+        "The frying pan was placed on the counter with a slow movement.",
+        "The frying pan was placed over the fire with a slow movement.",
+        "The frying pan was moved toward the fire but not placed over it.",
+        "The frying pan was placed over the fire with a quick movement."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the frying pan change? Choose **only one** option from the following list.\nOptions:\n(A) The frying pan was removed from the fire with a slow movement.\n(B) The frying pan was placed on the counter with a slow movement.\n(C) The frying pan was placed over the fire with a slow movement.\n(D) The frying pan was moved toward the fire but not placed over it.\n(E) The frying pan was placed over the fire with a quick movement.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The frying pan was placed over the fire with a quick movement."
+    },
+    "correct_idx": [
+        2
+    ]
+}

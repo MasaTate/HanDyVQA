@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the painting?",
+    "options": [
+        "The person placed the painting above the plastic organizer.",
+        "The person placed the painting beside the plastic organizer.",
+        "The person placed the painting on the floor in front of the plastic organizer.",
+        "The person placed the painting below the plastic organizer.",
+        "The person placed the painting against the wall near the plastic organizer."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the painting? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the painting above the plastic organizer.\n(B) The person placed the painting beside the plastic organizer.\n(C) The person placed the painting on the floor in front of the plastic organizer.\n(D) The person placed the painting below the plastic organizer.\n(E) The person placed the painting against the wall near the plastic organizer.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person placed the painting above the plastic organizer."
+    },
+    "correct_idx": [
+        0
+    ]
+}

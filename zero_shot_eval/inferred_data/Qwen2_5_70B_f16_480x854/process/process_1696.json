@@ -1,0 +1,17 @@
+{
+    "question": "How does the person play the piano?",
+    "options": [
+        "The person plays the piano using both hands while gently pressing the keys with his fingers.",
+        "The person plays the piano with his right fingers and pushes some key notes.",
+        "The person uses his left hand fingers to play a series of soft notes on the piano.",
+        "The person smoothly taps the piano keys with alternating fingers from both hands.",
+        "The person strikes the piano keys with the tips of his right-hand fingers."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person play the piano? Choose **only one** option from the following list.\nOptions:\n(A) The person plays the piano using both hands while gently pressing the keys with his fingers.\n(B) The person plays the piano with his right fingers and pushes some key notes.\n(C) The person uses his left hand fingers to play a series of soft notes on the piano.\n(D) The person smoothly taps the piano keys with alternating fingers from both hands.\n(E) The person strikes the piano keys with the tips of his right-hand fingers.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person strikes the piano keys with the tips of his right-hand fingers."
+    },
+    "correct_idx": [
+        1
+    ]
+}

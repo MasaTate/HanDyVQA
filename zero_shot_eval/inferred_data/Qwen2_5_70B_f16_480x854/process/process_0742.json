@@ -1,0 +1,17 @@
+{
+    "question": "How does the person take the brush?",
+    "options": [
+        "The person gently grabbed the brush with his right fingertips and dipped the brush repeatedly and gently inside the cup and then takes it out.",
+        "The person carefully held the brush with his hand and tapped it lightly before using it.",
+        "The person picked up the brush with one hand, holding it firmly before drawing it smoothly out of the cup.",
+        "The person reached in and used his thumb and finger to lift the brush easily from the cup while holding it softly.",
+        "The person lifted the brush out of the cup with a gentle scoop, ensuring no paint was spilled."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person take the brush? Choose **only one** option from the following list.\nOptions:\n(A) The person gently grabbed the brush with his right fingertips and dipped the brush repeatedly and gently inside the cup and then takes it out.\n(B) The person carefully held the brush with his hand and tapped it lightly before using it.\n(C) The person picked up the brush with one hand, holding it firmly before drawing it smoothly out of the cup.\n(D) The person reached in and used his thumb and finger to lift the brush easily from the cup while holding it softly.\n(E) The person lifted the brush out of the cup with a gentle scoop, ensuring no paint was spilled.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person picked up the brush with one hand, holding it firmly before drawing it smoothly out of the cup."
+    },
+    "correct_idx": [
+        0
+    ]
+}

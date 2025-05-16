@@ -1,0 +1,17 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "bucket",
+        "eyeglass",
+        "stair railing",
+        "floor",
+        "paint brush"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **only one** option from the following list.\nOptions:\n(A) bucket\n(B) eyeglass\n(C) stair railing\n(D) floor\n(E) paint brush\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) stair railing"
+    },
+    "correct_idx": [
+        2
+    ]
+}

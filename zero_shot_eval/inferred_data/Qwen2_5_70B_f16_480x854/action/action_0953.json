@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person crumples the tissue and places it aside with their left hand.",
+        "The person folds the tissue and sets it on the table with their left hand.",
+        "The person dabs their face with the tissue using their left hand.",
+        "The person wipes the tabletop with the tissue using their left hand.",
+        "The person tears the tissue using their right hand and then pulls it with their left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person crumples the tissue and places it aside with their left hand.\n(B) The person folds the tissue and sets it on the table with their left hand.\n(C) The person dabs their face with the tissue using their left hand.\n(D) The person wipes the tabletop with the tissue using their left hand.\n(E) The person tears the tissue using their right hand and then pulls it with their left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person tears the tissue using their right hand and then pulls it with their left hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

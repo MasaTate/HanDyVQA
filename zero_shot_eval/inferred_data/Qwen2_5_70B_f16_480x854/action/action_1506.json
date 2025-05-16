@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is rearranging the items in the toolbox with their hands, lifting it, and holding a sandwich with their right hand.",
+        "The person is cleaning the tools from the toolbox with their hands, shutting it, and picking up a bottle of soda with their right hand.",
+        "The person is sorting through the supplies in the toolbox with their hands, covering it, and reaching for a can of paint with their right hand.",
+        "The person is organizing the contents of the toolbox with their hands, closing it, and grabbing the cup of water with their right hand.",
+        "The person is inspecting the items inside the toolbox with their hands, leaving it open, and taking a notebook with their right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is rearranging the items in the toolbox with their hands, lifting it, and holding a sandwich with their right hand.\n(B) The person is cleaning the tools from the toolbox with their hands, shutting it, and picking up a bottle of soda with their right hand.\n(C) The person is sorting through the supplies in the toolbox with their hands, covering it, and reaching for a can of paint with their right hand.\n(D) The person is organizing the contents of the toolbox with their hands, closing it, and grabbing the cup of water with their right hand.\n(E) The person is inspecting the items inside the toolbox with their hands, leaving it open, and taking a notebook with their right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person is organizing the contents of the toolbox with their hands, closing it, and grabbing the cup of water with their right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

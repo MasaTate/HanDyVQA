@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the square ruler change?",
+    "options": [
+        "The square ruler was moved from the right side to the left side while being rotated.",
+        "The square ruler was moved from the left side to the right side without rotation.",
+        "The square ruler was rotated but moved only slightly from the right side.",
+        "The square ruler was moved to the center from the right side and rotated differently.",
+        "The square ruler was moved from the right side to the top without any rotation."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the square ruler change? Choose **only one** option from the following list.\nOptions:\n(A) The square ruler was moved from the right side to the left side while being rotated.\n(B) The square ruler was moved from the left side to the right side without rotation.\n(C) The square ruler was rotated but moved only slightly from the right side.\n(D) The square ruler was moved to the center from the right side and rotated differently.\n(E) The square ruler was moved from the right side to the top without any rotation.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The square ruler was moved from the right side to the left side while being rotated."
+    },
+    "correct_idx": [
+        0
+    ]
+}

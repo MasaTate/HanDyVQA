@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the green cloth change?",
+    "options": [
+        "The green cloth was pulled sideways from the table with minimal deformation.",
+        "The green cloth was pulled upwards from the table with some deformation.",
+        "The green cloth was pulled downwards from the table with slight deformation.",
+        "The green cloth was pushed upwards from the table, maintaining its shape.",
+        "The green cloth was tugged slightly to the left from the table, causing deformation."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the green cloth change? Choose **only one** option from the following list.\nOptions:\n(A) The green cloth was pulled sideways from the table with minimal deformation.\n(B) The green cloth was pulled upwards from the table with some deformation.\n(C) The green cloth was pulled downwards from the table with slight deformation.\n(D) The green cloth was pushed upwards from the table, maintaining its shape.\n(E) The green cloth was tugged slightly to the left from the table, causing deformation.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The green cloth was pulled upwards from the table with some deformation."
+    },
+    "correct_idx": [
+        1
+    ]
+}

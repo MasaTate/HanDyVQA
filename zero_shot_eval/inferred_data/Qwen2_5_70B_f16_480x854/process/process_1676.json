@@ -1,0 +1,17 @@
+{
+    "question": "How does the person flip the cardboard?",
+    "options": [
+        "The person twists the cardboard using her right hand while gripping it closely.",
+        "The person gently lifts the cardboard from one end with both hands and allows it to rotate slightly in the air.",
+        "The person twists the cardboard using her left hand with the guidance of her right hand to pinch the needle.",
+        "The person gently pushes the cardboard using her palm, smoothly sliding it across the table.",
+        "The person holds the cardboard steady with one hand and smoothly rotates it using her fingers on the edge."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person flip the cardboard? Choose **only one** option from the following list.\nOptions:\n(A) The person twists the cardboard using her right hand while gripping it closely.\n(B) The person gently lifts the cardboard from one end with both hands and allows it to rotate slightly in the air.\n(C) The person twists the cardboard using her left hand with the guidance of her right hand to pinch the needle.\n(D) The person gently pushes the cardboard using her palm, smoothly sliding it across the table.\n(E) The person holds the cardboard steady with one hand and smoothly rotates it using her fingers on the edge.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person gently lifts the cardboard from one end with both hands and allows it to rotate slightly in the air."
+    },
+    "correct_idx": [
+        2
+    ]
+}

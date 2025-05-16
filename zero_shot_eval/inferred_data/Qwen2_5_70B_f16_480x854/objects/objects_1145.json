@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "faucet",
+        "liquid hand wash",
+        "cabbage",
+        "frying pan",
+        "gas stove knob",
+        "strainer"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) faucet\n(B) liquid hand wash\n(C) cabbage\n(D) frying pan\n(E) gas stove knob\n(F) strainer\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(D) The hands use the frying pan to place it on the gas stove.\n(E) The hands turn the gas stove knob to ignite the flame."
+    },
+    "correct_idx": [
+        3,
+        4
+    ]
+}

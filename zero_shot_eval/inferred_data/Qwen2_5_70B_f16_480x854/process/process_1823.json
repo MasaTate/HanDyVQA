@@ -1,0 +1,17 @@
+{
+    "question": "How does the person cut the twigs?",
+    "options": [
+        "The person slices through the twigs with a sharp knife held in the right hand.",
+        "The person chops at the twigs using a heavy axe brought down from above.",
+        "The person pulls the twigs apart using both hands gripping them firmly.",
+        "The person grabs the twigs and cuts them with the pruner.",
+        "The person uses scissors to snip the twigs while holding them in the left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person cut the twigs? Choose **only one** option from the following list.\nOptions:\n(A) The person slices through the twigs with a sharp knife held in the right hand.\n(B) The person chops at the twigs using a heavy axe brought down from above.\n(C) The person pulls the twigs apart using both hands gripping them firmly.\n(D) The person grabs the twigs and cuts them with the pruner.\n(E) The person uses scissors to snip the twigs while holding them in the left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person grabs the twigs and cuts them with the pruner."
+    },
+    "correct_idx": [
+        3
+    ]
+}

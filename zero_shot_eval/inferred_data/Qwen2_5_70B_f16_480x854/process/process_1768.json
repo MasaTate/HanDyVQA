@@ -1,0 +1,17 @@
+{
+    "question": "How does the person cover the pot?",
+    "options": [
+        "The person places the lid onto the pot using the left hand after stirring the contents gently with a wooden spoon.",
+        "The person uses both hands to smoothly place the lid on the pot after mixing the food with a fork.",
+        "The person holds the lid and puts it on the pot after mixing the food with the right hand and chopsticks.",
+        "The person covers the pot by gently grabbing the lid with both hands and placing it on top after whisking the food using a whisk.",
+        "The person lowers the lid onto the pot using the left hand after flipping the food with a spatula."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person cover the pot? Choose **only one** option from the following list.\nOptions:\n(A) The person places the lid onto the pot using the left hand after stirring the contents gently with a wooden spoon.\n(B) The person uses both hands to smoothly place the lid on the pot after mixing the food with a fork.\n(C) The person holds the lid and puts it on the pot after mixing the food with the right hand and chopsticks.\n(D) The person covers the pot by gently grabbing the lid with both hands and placing it on top after whisking the food using a whisk.\n(E) The person lowers the lid onto the pot using the left hand after flipping the food with a spatula.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person holds the lid and puts it on the pot after mixing the food with the right hand and chopsticks."
+    },
+    "correct_idx": [
+        2
+    ]
+}

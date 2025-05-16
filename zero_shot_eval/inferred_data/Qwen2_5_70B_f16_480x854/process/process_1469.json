@@ -1,0 +1,17 @@
+{
+    "question": "How does the person rub the paint bucket?",
+    "options": [
+        "The person moved the paint bucket in a swirling motion using both hands, shifting it around one area at a time, while tilting the bucket slightly with his left hand.",
+        "The person rubbed the paint bucket using his right hand by moving back and forth on one surface before rubbing another area, while holding and securing the bucket with his left hand.",
+        "The person shook the paint bucket carefully with both hands, focusing on mixing the paint inside, while the bucket remained steady on the ground.",
+        "The person applied pressure to the paint bucket with his left hand, while his right hand held the handle smoothly, concentrating on securing it rather than rubbing the surface.",
+        "The person traced the edge of the paint bucket with his fingernail using his right hand while keeping the bucket steady with both hands, focusing on avoiding any rubbing motion."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person rub the paint bucket? Choose **only one** option from the following list.\nOptions:\n(A) The person moved the paint bucket in a swirling motion using both hands, shifting it around one area at a time, while tilting the bucket slightly with his left hand.\n(B) The person rubbed the paint bucket using his right hand by moving back and forth on one surface before rubbing another area, while holding and securing the bucket with his left hand.\n(C) The person shook the paint bucket carefully with both hands, focusing on mixing the paint inside, while the bucket remained steady on the ground.\n(D) The person applied pressure to the paint bucket with his left hand, while his right hand held the handle smoothly, concentrating on securing it rather than rubbing the surface.\n(E) The person traced the edge of the paint bucket with his fingernail using his right hand while keeping the bucket steady with both hands, focusing on avoiding any rubbing motion.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person rubbed the paint bucket using his right hand by moving back and forth on one surface before rubbing another area, while holding and securing the bucket with his left hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

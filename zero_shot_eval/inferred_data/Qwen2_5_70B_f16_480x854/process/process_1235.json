@@ -1,0 +1,17 @@
+{
+    "question": "How does the person flip the page of the book with her right hand?",
+    "options": [
+        "The person turns the page of the book by sliding it down with her right hand using her palm.",
+        "The person shifts the page of the book to the side using her right thumb and forefinger to hold the corner.",
+        "The person folds the edge of the page over using her right hand, keeping it in place.",
+        "The person flips the page of the book by lifting it up to the left side of the book using her right fingers.",
+        "The person pulls the page back with her right fingertips, bending it slightly at the spine of the book."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person flip the page of the book with her right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person turns the page of the book by sliding it down with her right hand using her palm.\n(B) The person shifts the page of the book to the side using her right thumb and forefinger to hold the corner.\n(C) The person folds the edge of the page over using her right hand, keeping it in place.\n(D) The person flips the page of the book by lifting it up to the left side of the book using her right fingers.\n(E) The person pulls the page back with her right fingertips, bending it slightly at the spine of the book.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person flips the page of the book by lifting it up to the left side of the book using her right fingers."
+    },
+    "correct_idx": [
+        3
+    ]
+}

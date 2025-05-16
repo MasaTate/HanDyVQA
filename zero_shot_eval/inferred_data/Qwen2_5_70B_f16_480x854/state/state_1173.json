@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the lawn dust bin change?",
+    "options": [
+        "The lawn dustbin was placed back on the lawn mower while being rotated approximately 90 degrees to the right.",
+        "The lawn dustbin was put back on the lawn mower while being rotated approximately 180 degrees to the left.",
+        "The lawn dustbin was returned to the lawn mower without any rotation.",
+        "The lawn dustbin was put back on the lawn mower while being rotated approximately 90 degrees to the left.",
+        "The lawn dustbin was put back on the lawn mower while being rotated approximately 45 degrees to the left."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the lawn dust bin change? Choose **only one** option from the following list.\nOptions:\n(A) The lawn dustbin was placed back on the lawn mower while being rotated approximately 90 degrees to the right.\n(B) The lawn dustbin was put back on the lawn mower while being rotated approximately 180 degrees to the left.\n(C) The lawn dustbin was returned to the lawn mower without any rotation.\n(D) The lawn dustbin was put back on the lawn mower while being rotated approximately 90 degrees to the left.\n(E) The lawn dustbin was put back on the lawn mower while being rotated approximately 45 degrees to the left.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The lawn dustbin was placed back on the lawn mower while being rotated approximately 90 degrees to the right."
+    },
+    "correct_idx": [
+        3
+    ]
+}

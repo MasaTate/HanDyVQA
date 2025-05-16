@@ -1,0 +1,17 @@
+{
+    "question": "How does the person lower a frying pan?",
+    "options": [
+        "The person tilts the frying pan to the side using both hands and uses a spatula to adjust the egg before carefully placing it down.",
+        "The person gently places the frying pan onto the countertop using the left hand and lets it settle softly.",
+        "The person lifts the frying pan up and shakes it using the right hand to flip the egg in the base of the frying pan and slowly puts it down.",
+        "The person holds the frying pan flat with both hands and guides it off the edge of the stove, observing its descent.",
+        "The person grips the handle of the frying pan with the left hand and moves it outward, adjusting the position of the egg before setting it down."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person lower a frying pan? Choose **only one** option from the following list.\nOptions:\n(A) The person tilts the frying pan to the side using both hands and uses a spatula to adjust the egg before carefully placing it down.\n(B) The person gently places the frying pan onto the countertop using the left hand and lets it settle softly.\n(C) The person lifts the frying pan up and shakes it using the right hand to flip the egg in the base of the frying pan and slowly puts it down.\n(D) The person holds the frying pan flat with both hands and guides it off the edge of the stove, observing its descent.\n(E) The person grips the handle of the frying pan with the left hand and moves it outward, adjusting the position of the egg before setting it down.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person tilts the frying pan to the side using both hands and uses a spatula to adjust the egg before carefully placing it down."
+    },
+    "correct_idx": [
+        2
+    ]
+}

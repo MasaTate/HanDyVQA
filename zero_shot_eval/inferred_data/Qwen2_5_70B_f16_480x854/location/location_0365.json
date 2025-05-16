@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the stone?",
+    "options": [
+        "The person put the stone on top of the water pipe.",
+        "The person put the stone next to the water pipe.",
+        "The person put the stone inside the water pipe.",
+        "The person put the stone under the water pipe.",
+        "The person put the stone behind the water pipe."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the stone? Choose **only one** option from the following list.\nOptions:\n(A) The person put the stone on top of the water pipe.\n(B) The person put the stone next to the water pipe.\n(C) The person put the stone inside the water pipe.\n(D) The person put the stone under the water pipe.\n(E) The person put the stone behind the water pipe.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person put the stone next to the water pipe."
+    },
+    "correct_idx": [
+        3
+    ]
+}

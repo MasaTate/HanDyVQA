@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person pours some coffee from the thermo-glass carafe into the mug with her right hand.",
+        "The person fills a glass with juice from a bottle using her right hand while holding the mug with her left hand.",
+        "The person stirs sugar into the coffee in the mug with her right hand while holding the carafe with her left hand.",
+        "The person cleans the coffee mug with a cloth in her right hand while pouring coffee from the carafe with her left hand.",
+        "The person holds a teapot in her right hand while pouring tea into the mug with her left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person pours some coffee from the thermo-glass carafe into the mug with her right hand.\n(B) The person fills a glass with juice from a bottle using her right hand while holding the mug with her left hand.\n(C) The person stirs sugar into the coffee in the mug with her right hand while holding the carafe with her left hand.\n(D) The person cleans the coffee mug with a cloth in her right hand while pouring coffee from the carafe with her left hand.\n(E) The person holds a teapot in her right hand while pouring tea into the mug with her left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person pours some coffee from the thermo-glass carafe into the mug with her right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

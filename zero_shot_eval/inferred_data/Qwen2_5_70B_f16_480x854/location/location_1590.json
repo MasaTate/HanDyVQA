@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the hand trowel?",
+    "options": [
+        "The person moves the hand trowel backward on the ground.",
+        "The person moves the hand trowel to the side on the ground.",
+        "The person moves the hand trowel to the left on the ground.",
+        "The person moves the hand trowel forward on the ground.",
+        "The person moves the hand trowel upward in the air."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the hand trowel? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the hand trowel backward on the ground.\n(B) The person moves the hand trowel to the side on the ground.\n(C) The person moves the hand trowel to the left on the ground.\n(D) The person moves the hand trowel forward on the ground.\n(E) The person moves the hand trowel upward in the air.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person moves the hand trowel forward on the ground."
+    },
+    "correct_idx": [
+        3
+    ]
+}

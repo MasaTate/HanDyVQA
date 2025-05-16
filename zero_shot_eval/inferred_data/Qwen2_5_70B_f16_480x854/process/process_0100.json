@@ -1,0 +1,17 @@
+{
+    "question": "How does the person stitch the cloth?",
+    "options": [
+        "The person stitches the cloth by guiding the fabric beneath the presser foot of a sewing machine as the needle moves.",
+        "The person stitches the cloth by carefully wrapping the thread around the needle and pulling it through the fabric.",
+        "The person stitches the cloth by using both hands to gently push the needle through the fabric without any thread.",
+        "The person stitches the cloth by holding the needle with a firm grip and pushing it through the material without attaching the thread.",
+        "The person stitches the cloth by threading a needle and inserting it through the fabric by hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person stitch the cloth? Choose **only one** option from the following list.\nOptions:\n(A) The person stitches the cloth by guiding the fabric beneath the presser foot of a sewing machine as the needle moves.\n(B) The person stitches the cloth by carefully wrapping the thread around the needle and pulling it through the fabric.\n(C) The person stitches the cloth by using both hands to gently push the needle through the fabric without any thread.\n(D) The person stitches the cloth by holding the needle with a firm grip and pushing it through the material without attaching the thread.\n(E) The person stitches the cloth by threading a needle and inserting it through the fabric by hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person stitches the cloth by threading a needle and inserting it through the fabric by hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

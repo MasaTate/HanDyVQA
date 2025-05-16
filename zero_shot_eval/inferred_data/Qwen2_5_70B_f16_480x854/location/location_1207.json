@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the glove?",
+    "options": [
+        "The person put the gloves on their left hand.",
+        "The person put the gloves on the table next to their right hand.",
+        "The person put the gloves at the bottom of the drawer.",
+        "The person put the gloves on their right hand.",
+        "The person put the gloves on their right foot."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the glove? Choose **only one** option from the following list.\nOptions:\n(A) The person put the gloves on their left hand.\n(B) The person put the gloves on the table next to their right hand.\n(C) The person put the gloves at the bottom of the drawer.\n(D) The person put the gloves on their right hand.\n(E) The person put the gloves on their right foot.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person put the gloves on their right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

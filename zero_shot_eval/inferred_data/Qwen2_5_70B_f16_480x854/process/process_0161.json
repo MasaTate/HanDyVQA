@@ -1,0 +1,17 @@
+{
+    "question": "How does the person insert the disc case?",
+    "options": [
+        "The person grips the disc case with both hands, aligns it with the cover, and carefully pushes it in to ensure a tight fit.",
+        "The person uses just one hand to insert the disc case into the cover, making slight adjustments to fit it properly.",
+        "The person lightly tosses the disc case towards the cover, making sure it lands in place with minimal adjustment.",
+        "The person holds the disc case with his left hand, aligns it with the cover, and gently slides it in, ensuring it fits securely.",
+        "The person holds the disc case gently with his right hand, places it near the cover, and slides it in to let it settle smoothly."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person insert the disc case? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the disc case with both hands, aligns it with the cover, and carefully pushes it in to ensure a tight fit.\n(B) The person uses just one hand to insert the disc case into the cover, making slight adjustments to fit it properly.\n(C) The person lightly tosses the disc case towards the cover, making sure it lands in place with minimal adjustment.\n(D) The person holds the disc case with his left hand, aligns it with the cover, and gently slides it in, ensuring it fits securely.\n(E) The person holds the disc case gently with his right hand, places it near the cover, and slides it in to let it settle smoothly.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person holds the disc case with his left hand, aligns it with the cover, and gently slides it in, ensuring it fits securely."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of all the beaded thread change?",
+    "options": [
+        "The beaded thread was first placed on the hand and then left on the table instead of being transferred to the plate.",
+        "The beaded thread was first placed on the hand and then transferred to the plate, without any other change.",
+        "The beaded thread was picked up by the hand and then moved to a different tray.",
+        "The beaded thread was held in the hand and then became slightly tangled before being placed on the plate.",
+        "The beaded thread was first placed on the hand and then mistakenly put in a box instead of on the plate."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of all the beaded thread change? Choose **only one** option from the following list.\nOptions:\n(A) The beaded thread was first placed on the hand and then left on the table instead of being transferred to the plate.\n(B) The beaded thread was first placed on the hand and then transferred to the plate, without any other change.\n(C) The beaded thread was picked up by the hand and then moved to a different tray.\n(D) The beaded thread was held in the hand and then became slightly tangled before being placed on the plate.\n(E) The beaded thread was first placed on the hand and then mistakenly put in a box instead of on the plate.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The beaded thread was held in the hand and then became slightly tangled before being placed on the plate."
+    },
+    "correct_idx": [
+        1
+    ]
+}

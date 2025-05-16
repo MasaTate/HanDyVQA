@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the dog change?",
+    "options": [
+        "The dog's pace transitioned from walking to sitting as it settled on the grass.",
+        "The dog's pace changed from jogging to sprinting as it pursued a squirrel.",
+        "The dog's pace shifted from running to walking as its movement slowed.",
+        "The dog's pace altered from walking to lying down as it became tired under the sun.",
+        "The dog's pace adjusted from standing to trotting as it started to explore its surroundings."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the dog change? Choose **only one** option from the following list.\nOptions:\n(A) The dog's pace transitioned from walking to sitting as it settled on the grass.\n(B) The dog's pace changed from jogging to sprinting as it pursued a squirrel.\n(C) The dog's pace shifted from running to walking as its movement slowed.\n(D) The dog's pace altered from walking to lying down as it became tired under the sun.\n(E) The dog's pace adjusted from standing to trotting as it started to explore its surroundings.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The dog's pace shifted from running to walking as its movement slowed."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person removes the spring from the blade adaptor with his right hand while his left hand steadies the other side of the adaptor.",
+        "The person adjusts the position of the blade adaptor with his right hand while his left hand holds the spring in place.",
+        "The person attaches the spring to the blade adaptor with his right hand while his left hand holds the other side of the adaptor.",
+        "The person installs the blade onto the adaptor with his right hand while holding the spring with his left hand.",
+        "The person tightens the screws on the adaptor with his right hand while his left hand holds the spring."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person removes the spring from the blade adaptor with his right hand while his left hand steadies the other side of the adaptor.\n(B) The person adjusts the position of the blade adaptor with his right hand while his left hand holds the spring in place.\n(C) The person attaches the spring to the blade adaptor with his right hand while his left hand holds the other side of the adaptor.\n(D) The person installs the blade onto the adaptor with his right hand while holding the spring with his left hand.\n(E) The person tightens the screws on the adaptor with his right hand while his left hand holds the spring.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person attaches the spring to the blade adaptor with his right hand while his left hand holds the other side of the adaptor."
+    },
+    "correct_idx": [
+        2
+    ]
+}

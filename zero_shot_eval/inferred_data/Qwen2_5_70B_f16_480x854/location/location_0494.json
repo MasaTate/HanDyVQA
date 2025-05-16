@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place his left hand?",
+    "options": [
+        "The person's left hand was placed on the metal cage.",
+        "The person's left hand was placed in a wooden box.",
+        "The person's left hand was placed in the glass table.",
+        "The person's left hand was placed in the floor beside the cage.",
+        "The person's left hand was placed in the cushion of the chair."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place his left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person's left hand was placed on the metal cage.\n(B) The person's left hand was placed in a wooden box.\n(C) The person's left hand was placed in the glass table.\n(D) The person's left hand was placed in the floor beside the cage.\n(E) The person's left hand was placed in the cushion of the chair.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person's left hand was placed on the metal cage."
+    },
+    "correct_idx": [
+        0
+    ]
+}

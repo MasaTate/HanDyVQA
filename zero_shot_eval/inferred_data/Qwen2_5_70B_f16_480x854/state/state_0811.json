@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the plate change?",
+    "options": [
+        "The plate was rinsed in water and scrubbed while being moved and tilted.",
+        "The plate was rinsed in water and scrubbed without being moved or tilted.",
+        "The plate was scrubbed while dry and remained still.",
+        "The plate was soaked in water but not scrubbed or moved.",
+        "The plate was only tilted and moved without scrubbing or water."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the plate change? Choose **only one** option from the following list.\nOptions:\n(A) The plate was rinsed in water and scrubbed while being moved and tilted.\n(B) The plate was rinsed in water and scrubbed without being moved or tilted.\n(C) The plate was scrubbed while dry and remained still.\n(D) The plate was soaked in water but not scrubbed or moved.\n(E) The plate was only tilted and moved without scrubbing or water.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The plate was rinsed in water and scrubbed while being moved and tilted."
+    },
+    "correct_idx": [
+        0
+    ]
+}

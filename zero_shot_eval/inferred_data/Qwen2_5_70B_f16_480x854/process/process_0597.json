@@ -1,0 +1,17 @@
+{
+    "question": "How does the person open the door of the store?",
+    "options": [
+        "The person gently pushes the door with his shoulder, trying to slide it open.",
+        "The person places both hands on the door, pulling it as he attempts to open it.",
+        "The person grabs the door knob with his left hand and slowly rotates it until it opens.",
+        "The person lightly taps the door with his foot, hoping someone inside will open it.",
+        "The person knocks on the door and waits for someone to open it for him without using the knob."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person open the door of the store? Choose **only one** option from the following list.\nOptions:\n(A) The person gently pushes the door with his shoulder, trying to slide it open.\n(B) The person places both hands on the door, pulling it as he attempts to open it.\n(C) The person grabs the door knob with his left hand and slowly rotates it until it opens.\n(D) The person lightly taps the door with his foot, hoping someone inside will open it.\n(E) The person knocks on the door and waits for someone to open it for him without using the knob.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person grabs the door knob with his left hand and slowly rotates it until it opens."
+    },
+    "correct_idx": [
+        2
+    ]
+}

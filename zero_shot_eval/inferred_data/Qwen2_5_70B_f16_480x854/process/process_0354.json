@@ -1,0 +1,17 @@
+{
+    "question": "How does the person grab a cut branch of the plant?",
+    "options": [
+        "The person picks up the cut branch using both hands and sets it on a nearby table.",
+        "The person holds the cut branch with one hand and lightly tosses it over their shoulder.",
+        "The person grabs a cut plant branch with their left hand and throws it to the ground.",
+        "The person grabs the cut branch with their right hand and moves it around playfully.",
+        "The person clutches the cut branch with one hand and lifts it above their head."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person grab a cut branch of the plant? Choose **only one** option from the following list.\nOptions:\n(A) The person picks up the cut branch using both hands and sets it on a nearby table.\n(B) The person holds the cut branch with one hand and lightly tosses it over their shoulder.\n(C) The person grabs a cut plant branch with their left hand and throws it to the ground.\n(D) The person grabs the cut branch with their right hand and moves it around playfully.\n(E) The person clutches the cut branch with one hand and lifts it above their head.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person grabs a cut plant branch with their left hand and throws it to the ground."
+    },
+    "correct_idx": [
+        2
+    ]
+}

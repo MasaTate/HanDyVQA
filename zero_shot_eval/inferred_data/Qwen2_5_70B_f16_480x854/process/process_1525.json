@@ -1,0 +1,17 @@
+{
+    "question": "How does the person bring a marker?",
+    "options": [
+        "The person held the marker from the middle with his right hand, moved it slightly closer, and then placed it gently instead.",
+        "The person grasped the marker by the cap with his right hand and put it down smoothly afterwards.",
+        "The person lightly pinched the marker with several fingers on his left hand, rotated it gently, then set it aside.",
+        "The person carefully lifted the marker with his right hand open, held it briefly, and then set it down again nearby.",
+        "The person picked up the marker near its edge using his right thumb, index, and middle finger, moved it closer to himself, and then swiftly put it back."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person bring a marker? Choose **only one** option from the following list.\nOptions:\n(A) The person held the marker from the middle with his right hand, moved it slightly closer, and then placed it gently instead.\n(B) The person grasped the marker by the cap with his right hand and put it down smoothly afterwards.\n(C) The person lightly pinched the marker with several fingers on his left hand, rotated it gently, then set it aside.\n(D) The person carefully lifted the marker with his right hand open, held it briefly, and then set it down again nearby.\n(E) The person picked up the marker near its edge using his right thumb, index, and middle finger, moved it closer to himself, and then swiftly put it back.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person picked up the marker near its edge using his right thumb, index, and middle finger, moved it closer to himself, and then swiftly put it back."
+    },
+    "correct_idx": [
+        4
+    ]
+}

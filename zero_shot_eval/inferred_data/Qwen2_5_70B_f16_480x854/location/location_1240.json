@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the mattock?",
+    "options": [
+        "The person drops the mattock on the top right edge of the wall.",
+        "The person drops the mattock on the bottom left edge of the wall.",
+        "The person drops the mattock on the center of the floor.",
+        "The person drops the mattock on the left side of the table.",
+        "The person drops the mattock on the middle of the wall."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the mattock? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the mattock on the top right edge of the wall.\n(B) The person drops the mattock on the bottom left edge of the wall.\n(C) The person drops the mattock on the center of the floor.\n(D) The person drops the mattock on the left side of the table.\n(E) The person drops the mattock on the middle of the wall.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person drops the mattock on the top right edge of the wall."
+    },
+    "correct_idx": [
+        0
+    ]
+}

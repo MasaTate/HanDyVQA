@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the spoon?",
+    "options": [
+        "The person puts the spoon on the right side of the scaffolding.",
+        "The person places the spoon at the bottom edge of the scaffolding.",
+        "The person sets the spoon on the top right corner of the scaffolding.",
+        "The person puts the spoon in the left side of the scaffolding.",
+        "The person places the spoon on the center of the scaffolding."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the spoon? Choose **only one** option from the following list.\nOptions:\n(A) The person puts the spoon on the right side of the scaffolding.\n(B) The person places the spoon at the bottom edge of the scaffolding.\n(C) The person sets the spoon on the top right corner of the scaffolding.\n(D) The person puts the spoon in the left side of the scaffolding.\n(E) The person places the spoon on the center of the scaffolding.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person places the spoon at the bottom edge of the scaffolding."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the bag of dog food change?",
+    "options": [
+        "The bag of dog food was shaken.",
+        "The bag of dog food was rotated.",
+        "The bag of dog food was nudged.",
+        "The bag of dog food was wiggled.",
+        "The bag of dog food was tapped."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the bag of dog food change? Choose **only one** option from the following list.\nOptions:\n(A) The bag of dog food was shaken.\n(B) The bag of dog food was rotated.\n(C) The bag of dog food was nudged.\n(D) The bag of dog food was wiggled.\n(E) The bag of dog food was tapped.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The bag of dog food was nudged."
+    },
+    "correct_idx": [
+        3
+    ]
+}

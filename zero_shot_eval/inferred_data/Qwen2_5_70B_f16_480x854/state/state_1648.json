@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the hammer on the wood change?",
+    "options": [
+        "The hammer was positioned and placed on the left side of the wood.",
+        "The hammer was positioned and placed just above the wood.",
+        "The hammer was positioned and placed on the upper edge of the wood.",
+        "The hammer was positioned and placed diagonally on the wood, near the top corner.",
+        "The hammer was positioned and placed on the right side of the wood."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the hammer on the wood change? Choose **only one** option from the following list.\nOptions:\n(A) The hammer was positioned and placed on the left side of the wood.\n(B) The hammer was positioned and placed just above the wood.\n(C) The hammer was positioned and placed on the upper edge of the wood.\n(D) The hammer was positioned and placed diagonally on the wood, near the top corner.\n(E) The hammer was positioned and placed on the right side of the wood.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The hammer was positioned and placed on the upper edge of the wood."
+    },
+    "correct_idx": [
+        4
+    ]
+}

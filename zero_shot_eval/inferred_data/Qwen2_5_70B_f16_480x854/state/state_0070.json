@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the cap of the fuel tank of the grass trimmer change?",
+    "options": [
+        "The cap of the fuel tank of the grass trimmer was closed tightly.",
+        "The cap of the fuel tank of the grass trimmer was slightly loosened.",
+        "The cap of the fuel tank of the grass trimmer was partially opened.",
+        "The cap of the fuel tank of the grass trimmer was closed in a loose manner.",
+        "The cap of the fuel tank of the grass trimmer was initially closed and subsequently reopened."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the cap of the fuel tank of the grass trimmer change? Choose **only one** option from the following list.\nOptions:\n(A) The cap of the fuel tank of the grass trimmer was closed tightly.\n(B) The cap of the fuel tank of the grass trimmer was slightly loosened.\n(C) The cap of the fuel tank of the grass trimmer was partially opened.\n(D) The cap of the fuel tank of the grass trimmer was closed in a loose manner.\n(E) The cap of the fuel tank of the grass trimmer was initially closed and subsequently reopened.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The cap of the fuel tank of the grass trimmer was closed tightly."
+    },
+    "correct_idx": [
+        0
+    ]
+}

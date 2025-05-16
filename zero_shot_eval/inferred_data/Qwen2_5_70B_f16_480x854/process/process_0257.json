@@ -1,0 +1,17 @@
+{
+    "question": "How does the person place the nail?",
+    "options": [
+        "The person grips the nail with his right thumb and index finger while balancing the hammer in his left, then carefully pushes it onto the surface without immediate alignment.",
+        "The person holds the nail between his left thumb and index finger, aligns it with the surface using the hammer in his right hand, and gently lowers it into place to steady it before hammering.",
+        "The person holds the nail from his right hand and tries to catch it above the surface, relying on the hammer for support.",
+        "The person holds the nail in his left hand and brings the hammer down from above, aiming to tap the nail gently without careful pre-alignment.",
+        "The person holds the nail with his fingers, pressing it smoothly against the surface while the hammer is handled slightly in his grip."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person place the nail? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the nail with his right thumb and index finger while balancing the hammer in his left, then carefully pushes it onto the surface without immediate alignment.\n(B) The person holds the nail between his left thumb and index finger, aligns it with the surface using the hammer in his right hand, and gently lowers it into place to steady it before hammering.\n(C) The person holds the nail from his right hand and tries to catch it above the surface, relying on the hammer for support.\n(D) The person holds the nail in his left hand and brings the hammer down from above, aiming to tap the nail gently without careful pre-alignment.\n(E) The person holds the nail with his fingers, pressing it smoothly against the surface while the hammer is handled slightly in his grip.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person holds the nail between his left thumb and index finger, aligns it with the surface using the hammer in his right hand, and gently lowers it into place to steady it before hammering."
+    },
+    "correct_idx": [
+        1
+    ]
+}

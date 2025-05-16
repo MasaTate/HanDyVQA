@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person uses the right hand to place the box in the fridge and the left hand to place another item inside.",
+        "The person used the left hand to take out the box from the fridge and the right hand to put a different item inside.",
+        "The person uses the right hand to push the box onto a shelf and the left hand to pull out a drink.",
+        "The person is using both hands to arrange items on the counter rather than interacting with the fridge.",
+        "The person is holding the box in the right hand while using the left hand to clean the fridge rather than placing anything inside."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person uses the right hand to place the box in the fridge and the left hand to place another item inside.\n(B) The person used the left hand to take out the box from the fridge and the right hand to put a different item inside.\n(C) The person uses the right hand to push the box onto a shelf and the left hand to pull out a drink.\n(D) The person is using both hands to arrange items on the counter rather than interacting with the fridge.\n(E) The person is holding the box in the right hand while using the left hand to clean the fridge rather than placing anything inside.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person uses the right hand to place the box in the fridge and the left hand to place another item inside."
+    },
+    "correct_idx": [
+        0
+    ]
+}

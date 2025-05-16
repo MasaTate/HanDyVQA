@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the doll?",
+    "options": [
+        "The person moves the doll slightly backward with the left hand.",
+        "The person moves the doll a bit to the right with the left hand.",
+        "The person moves the doll a little to the left with the left hand.",
+        "The person moves the doll a bit forward to the left with the left hand.",
+        "The person moves the doll straight up with the left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the doll? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the doll slightly backward with the left hand.\n(B) The person moves the doll a bit to the right with the left hand.\n(C) The person moves the doll a little to the left with the left hand.\n(D) The person moves the doll a bit forward to the left with the left hand.\n(E) The person moves the doll straight up with the left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person moves the doll slightly backward with the left hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

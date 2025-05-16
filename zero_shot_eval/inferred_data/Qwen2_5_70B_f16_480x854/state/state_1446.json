@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the wood change?",
+    "options": [
+        "The wood was covered in a layer of paint after it was finished.",
+        "The wood developed a smooth surface after it was sanded.",
+        "The wood was split into several smaller pieces after it was chopped.",
+        "The wood had a visible line after it was marked.",
+        "The wood became darker in color after it was stained."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the wood change? Choose **only one** option from the following list.\nOptions:\n(A) The wood was covered in a layer of paint after it was finished.\n(B) The wood developed a smooth surface after it was sanded.\n(C) The wood was split into several smaller pieces after it was chopped.\n(D) The wood had a visible line after it was marked.\n(E) The wood became darker in color after it was stained.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The wood had a visible line after it was marked."
+    },
+    "correct_idx": [
+        3
+    ]
+}

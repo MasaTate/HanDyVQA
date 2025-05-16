@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is threading a needle to align the fabric in the guide using her right hand while the left hand is holding the thread spool.",
+        "The person is stitching a patch onto the guide using a needle in her right hand while the left hand is holding the fabric.",
+        "The person is measuring the length of the guide with a ruler using her right hand while the left hand is holding a pencil.",
+        "The person is pulling a thread through the guide using a needle in her right hand while her left hand is holding a fabric swatch.",
+        "The person uses a needle to precisely count the holes in the guide using her right hand while the left hand is holding the cloth."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is threading a needle to align the fabric in the guide using her right hand while the left hand is holding the thread spool.\n(B) The person is stitching a patch onto the guide using a needle in her right hand while the left hand is holding the fabric.\n(C) The person is measuring the length of the guide with a ruler using her right hand while the left hand is holding a pencil.\n(D) The person is pulling a thread through the guide using a needle in her right hand while her left hand is holding a fabric swatch.\n(E) The person uses a needle to precisely count the holes in the guide using her right hand while the left hand is holding the cloth.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person is stitching a patch onto the guide using a needle in her right hand while the left hand is holding the fabric."
+    },
+    "correct_idx": [
+        4
+    ]
+}

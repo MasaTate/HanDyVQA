@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person rotates the tire of a lawn mower with his right hand before touching the bottom with his left hand.",
+        "The person rotates the wheel of a bicycle with his right hand while holding it steady with his left hand.",
+        "The person pushes a cart using the handle with his right hand, guiding it smoothly with his left hand.",
+        "The person tilts a basketball on his finger with his right hand, using his left hand to maintain balance.",
+        "The person spins a hula hoop using his right hand to control its motion while keeping his left hand on a nearby railing."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person rotates the tire of a lawn mower with his right hand before touching the bottom with his left hand.\n(B) The person rotates the wheel of a bicycle with his right hand while holding it steady with his left hand.\n(C) The person pushes a cart using the handle with his right hand, guiding it smoothly with his left hand.\n(D) The person tilts a basketball on his finger with his right hand, using his left hand to maintain balance.\n(E) The person spins a hula hoop using his right hand to control its motion while keeping his left hand on a nearby railing.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person rotates the tire of a lawn mower with his right hand before touching the bottom with his left hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

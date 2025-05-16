@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of some books change?",
+    "options": [
+        "The books shifted to the right, changing their angle on the bookshelf.",
+        "The books rotated to face the left, altering their position on the shelf.",
+        "The books moved backward, causing them to become partially hidden behind others.",
+        "The books were stacked on top of one another, increasing their height on the bookshelf.",
+        "The books were pulled forward, becoming more accessible at the front of the shelf."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of some books change? Choose **only one** option from the following list.\nOptions:\n(A) The books shifted to the right, changing their angle on the bookshelf.\n(B) The books rotated to face the left, altering their position on the shelf.\n(C) The books moved backward, causing them to become partially hidden behind others.\n(D) The books were stacked on top of one another, increasing their height on the bookshelf.\n(E) The books were pulled forward, becoming more accessible at the front of the shelf.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The books shifted to the right, changing their angle on the bookshelf."
+    },
+    "correct_idx": [
+        0
+    ]
+}

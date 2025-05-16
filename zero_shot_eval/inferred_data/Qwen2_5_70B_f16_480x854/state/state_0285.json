@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the pillow change?",
+    "options": [
+        "The pillow was moved slightly left, which also altered its shape a little bit.",
+        "The pillow was moved slightly forward, causing a minor shape change.",
+        "The pillow was moved slightly right, also changing the shape a little bit.",
+        "The pillow was moved slightly backward, resulting in a small shape change.",
+        "The pillow was turned 90 degrees, causing a slight change in its shape."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the pillow change? Choose **only one** option from the following list.\nOptions:\n(A) The pillow was moved slightly left, which also altered its shape a little bit.\n(B) The pillow was moved slightly forward, causing a minor shape change.\n(C) The pillow was moved slightly right, also changing the shape a little bit.\n(D) The pillow was moved slightly backward, resulting in a small shape change.\n(E) The pillow was turned 90 degrees, causing a slight change in its shape.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The pillow was moved slightly right, also changing the shape a little bit."
+    },
+    "correct_idx": [
+        2
+    ]
+}

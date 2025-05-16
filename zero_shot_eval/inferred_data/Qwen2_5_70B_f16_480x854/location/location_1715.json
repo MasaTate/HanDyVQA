@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the sand paper?",
+    "options": [
+        "The person drops the sandpaper on the upper section of the workbench.",
+        "The person drops the sandpaper at the lower part of the workbench.",
+        "The person drops the sandpaper next to the right side of the workbench.",
+        "The person drops the sandpaper in the middle section of the workbench.",
+        "The person drops the sandpaper at the far end of the workbench."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the sand paper? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the sandpaper on the upper section of the workbench.\n(B) The person drops the sandpaper at the lower part of the workbench.\n(C) The person drops the sandpaper next to the right side of the workbench.\n(D) The person drops the sandpaper in the middle section of the workbench.\n(E) The person drops the sandpaper at the far end of the workbench.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person drops the sandpaper on the upper section of the workbench."
+    },
+    "correct_idx": [
+        1
+    ]
+}

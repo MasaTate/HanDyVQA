@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the cooker regulator change?",
+    "options": [
+        "The cooker's regulator knob was rotated about 45 degrees to the right.",
+        "The cooker's regulator knob was rotated about 45 degrees to the left.",
+        "The cooker's regulator knob was rotated about 90 degrees to the right.",
+        "The cooker's regulator knob was rotated about 30 degrees to the right.",
+        "The cooker's regulator knob was rotated about 60 degrees to the left."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the cooker regulator change? Choose **only one** option from the following list.\nOptions:\n(A) The cooker's regulator knob was rotated about 45 degrees to the right.\n(B) The cooker's regulator knob was rotated about 45 degrees to the left.\n(C) The cooker's regulator knob was rotated about 90 degrees to the right.\n(D) The cooker's regulator knob was rotated about 30 degrees to the right.\n(E) The cooker's regulator knob was rotated about 60 degrees to the left.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The cooker's regulator knob was rotated about 45 degrees to the right."
+    },
+    "correct_idx": [
+        0
+    ]
+}

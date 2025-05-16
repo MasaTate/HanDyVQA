@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the metal rod change?",
+    "options": [
+        "The metal rod was dropped and rolled across the ground.",
+        "The metal rod was swung and passed on from one person to another.",
+        "The metal rod was bent and reshaped into a new form.",
+        "The metal rod was heated and transformed into liquid metal.",
+        "The metal rod was cut into two distinct pieces."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the metal rod change? Choose **only one** option from the following list.\nOptions:\n(A) The metal rod was dropped and rolled across the ground.\n(B) The metal rod was swung and passed on from one person to another.\n(C) The metal rod was bent and reshaped into a new form.\n(D) The metal rod was heated and transformed into liquid metal.\n(E) The metal rod was cut into two distinct pieces.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The metal rod was heated and transformed into liquid metal."
+    },
+    "correct_idx": [
+        1
+    ]
+}

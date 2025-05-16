@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person holds the knife with the left hand and slices carrots on a cutting board while gathering potato peels with the right hand into a bowl.",
+        "The person grips the knife in the right hand and chops vegetables on the table while discarding potato peels into the kitchen sink using the left hand.",
+        "The person is holding the knife with the right hand and placing potato peels in a bowl on the table with the left hand.",
+        "The person holds the knife with the right hand and throws potato peels in a plastic bag using the left hand.",
+        "The person wields the knife in the left hand and is dicing potato peels on a counter while holding an empty plastic bag with the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the knife with the left hand and slices carrots on a cutting board while gathering potato peels with the right hand into a bowl.\n(B) The person grips the knife in the right hand and chops vegetables on the table while discarding potato peels into the kitchen sink using the left hand.\n(C) The person is holding the knife with the right hand and placing potato peels in a bowl on the table with the left hand.\n(D) The person holds the knife with the right hand and throws potato peels in a plastic bag using the left hand.\n(E) The person wields the knife in the left hand and is dicing potato peels on a counter while holding an empty plastic bag with the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person grips the knife in the right hand and chops vegetables on the table while discarding potato peels into the kitchen sink using the left hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

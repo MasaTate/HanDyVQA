@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the plank?",
+    "options": [
+        "The person placed the plank on the ground in front of him.",
+        "The person placed the plank against the wall to his right.",
+        "The person placed the plank on the table directly in front of him.",
+        "The person placed the plank on top of the wood to his left.",
+        "The person placed the plank on the shelf above the wood."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the plank? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the plank on the ground in front of him.\n(B) The person placed the plank against the wall to his right.\n(C) The person placed the plank on the table directly in front of him.\n(D) The person placed the plank on top of the wood to his left.\n(E) The person placed the plank on the shelf above the wood.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person placed the plank on top of the wood to his left."
+    },
+    "correct_idx": [
+        3
+    ]
+}

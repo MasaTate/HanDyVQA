@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the head of celery?",
+    "options": [
+        "The person puts the head of celery on the counter and puts the others in the fridge.",
+        "The person puts the head of celery in the sink and puts the others in the celophane.",
+        "The person puts the head of celery in the bowl and puts the others in the pantry.",
+        "The person puts the head of celery in the trash can and puts the others in a crisper drawer.",
+        "The person puts the head of celery near the cutting board and puts the others in a plastic bag."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the head of celery? Choose **only one** option from the following list.\nOptions:\n(A) The person puts the head of celery on the counter and puts the others in the fridge.\n(B) The person puts the head of celery in the sink and puts the others in the celophane.\n(C) The person puts the head of celery in the bowl and puts the others in the pantry.\n(D) The person puts the head of celery in the trash can and puts the others in a crisper drawer.\n(E) The person puts the head of celery near the cutting board and puts the others in a plastic bag.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person puts the head of celery near the cutting board and puts the others in a plastic bag."
+    },
+    "correct_idx": [
+        1
+    ]
+}

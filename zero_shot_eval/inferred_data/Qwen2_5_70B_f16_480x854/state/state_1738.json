@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the remaining   slices of beef change?",
+    "options": [
+        "The remaining slices of beef changed when they were placed in a sealed container for freshness.",
+        "The remaining slices of beef changed when they were marinated in a bowl for flavor.",
+        "The remaining slices of beef changed when they were taken from the chopping board and placed on the plate.",
+        "The remaining slices of beef changed when they were wrapped in plastic for storage.",
+        "The remaining slices of beef changed when they were cooked in a pan."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the remaining   slices of beef change? Choose **only one** option from the following list.\nOptions:\n(A) The remaining slices of beef changed when they were placed in a sealed container for freshness.\n(B) The remaining slices of beef changed when they were marinated in a bowl for flavor.\n(C) The remaining slices of beef changed when they were taken from the chopping board and placed on the plate.\n(D) The remaining slices of beef changed when they were wrapped in plastic for storage.\n(E) The remaining slices of beef changed when they were cooked in a pan.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The remaining slices of beef changed when they were taken from the chopping board and placed on the plate."
+    },
+    "correct_idx": [
+        2
+    ]
+}

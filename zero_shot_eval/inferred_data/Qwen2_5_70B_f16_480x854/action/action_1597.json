@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person unscrews the cap from the bottle and then places it in front of them on the table.",
+        "The person lifts the bottle over their head and pours the contents into a glass located to their left.",
+        "The person closes the lid of the bottle and then puts it on the right side of the sink.",
+        "The person opens the bottle and is about to take a sip while holding it with both hands.",
+        "The person shakes the bottle with their right hand while stabilizing it with their left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person unscrews the cap from the bottle and then places it in front of them on the table.\n(B) The person lifts the bottle over their head and pours the contents into a glass located to their left.\n(C) The person closes the lid of the bottle and then puts it on the right side of the sink.\n(D) The person opens the bottle and is about to take a sip while holding it with both hands.\n(E) The person shakes the bottle with their right hand while stabilizing it with their left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person closes the lid of the bottle and then puts it on the right side of the sink."
+    },
+    "correct_idx": [
+        2
+    ]
+}

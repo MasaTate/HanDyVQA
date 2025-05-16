@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the pot change?",
+    "options": [
+        "The pot was covered with the lid but was slightly shifted to the left.",
+        "The pot was covered with the lid without being moved.",
+        "The pot was uncovered and then partially covered with the lid.",
+        "The pot was covered with the lid after being shifted slightly forward.",
+        "The pot was covered with a lid that was tilted, leaving a small gap."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the pot change? Choose **only one** option from the following list.\nOptions:\n(A) The pot was covered with the lid but was slightly shifted to the left.\n(B) The pot was covered with the lid without being moved.\n(C) The pot was uncovered and then partially covered with the lid.\n(D) The pot was covered with the lid after being shifted slightly forward.\n(E) The pot was covered with a lid that was tilted, leaving a small gap.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The pot was covered with the lid without being moved."
+    },
+    "correct_idx": [
+        1
+    ]
+}

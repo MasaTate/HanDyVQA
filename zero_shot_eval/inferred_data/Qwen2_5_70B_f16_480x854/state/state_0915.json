@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the dogs rope change?",
+    "options": [
+        "The dog's rope was moved over the person's shoulder to the back.",
+        "The dog's rope was taken from the person's bag and placed on the ground.",
+        "The dog's rope was passed from the person's left hand to the right hand.",
+        "The dog's rope was wound around the person's wrist for easier handling.",
+        "The dog's rope was fastened to a post for secure holding."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the dogs rope change? Choose **only one** option from the following list.\nOptions:\n(A) The dog's rope was moved over the person's shoulder to the back.\n(B) The dog's rope was taken from the person's bag and placed on the ground.\n(C) The dog's rope was passed from the person's left hand to the right hand.\n(D) The dog's rope was wound around the person's wrist for easier handling.\n(E) The dog's rope was fastened to a post for secure holding.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The dog's rope was passed from the person's left hand to the right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the paint change?",
+    "options": [
+        "The paint was poured into another container.",
+        "The paint was combined with water.",
+        "The paint was dipped with a brush, and the excess was wiped off on the rim of the can.",
+        "The paint was applied onto a canvas.",
+        "The paint was splattered onto the wall."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the paint change? Choose **only one** option from the following list.\nOptions:\n(A) The paint was poured into another container.\n(B) The paint was combined with water.\n(C) The paint was dipped with a brush, and the excess was wiped off on the rim of the can.\n(D) The paint was applied onto a canvas.\n(E) The paint was splattered onto the wall.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The paint was dipped with a brush, and the excess was wiped off on the rim of the can."
+    },
+    "correct_idx": [
+        2
+    ]
+}

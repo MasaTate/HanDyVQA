@@ -1,0 +1,17 @@
+{
+    "question": "How does the person engage the gear?",
+    "options": [
+        "The person engages the gear by pressing it down firmly with his left hand.",
+        "The person engages the gear by rotating it with both hands simultaneously.",
+        "The person engages the gear by pulling it hard using his right hand.",
+        "The person engages the gear by moving it sideways with his right hand.",
+        "The person engages the gear by touching it lightly with his fingertips on his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person engage the gear? Choose **only one** option from the following list.\nOptions:\n(A) The person engages the gear by pressing it down firmly with his left hand.\n(B) The person engages the gear by rotating it with both hands simultaneously.\n(C) The person engages the gear by pulling it hard using his right hand.\n(D) The person engages the gear by moving it sideways with his right hand.\n(E) The person engages the gear by touching it lightly with his fingertips on his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person engages the gear by moving it sideways with his right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

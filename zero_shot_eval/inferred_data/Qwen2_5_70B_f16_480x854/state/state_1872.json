@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the carburetor change?",
+    "options": [
+        "The carburetor was adjusted by pushing it in slightly more than it was pulled out with a stick.",
+        "The carburetor was adjusted by repeatedly pulling it out and in with a stick.",
+        "The carburetor was stuck and moved very little with a stick.",
+        "The stick was used to tap the carburetor, not to move it in and out.",
+        "The carburetor was moved in entirely but only partially pulled out using a stick."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the carburetor change? Choose **only one** option from the following list.\nOptions:\n(A) The carburetor was adjusted by pushing it in slightly more than it was pulled out with a stick.\n(B) The carburetor was adjusted by repeatedly pulling it out and in with a stick.\n(C) The carburetor was stuck and moved very little with a stick.\n(D) The stick was used to tap the carburetor, not to move it in and out.\n(E) The carburetor was moved in entirely but only partially pulled out using a stick.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The carburetor was adjusted by repeatedly pulling it out and in with a stick."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the bags change?",
+    "options": [
+        "The bags were placed on the lap, while the others were placed on the side.",
+        "The bags were stacked on top of each other, while the others were laid flat on the floor.",
+        "The bags were hung on the back of the chair, while the others were positioned on the table.",
+        "The bags were thrown across the room, while the others were positioned under the seat.",
+        "The bags were kept in a container, while the others were arranged around the room."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the bags change? Choose **only one** option from the following list.\nOptions:\n(A) The bags were placed on the lap, while the others were placed on the side.\n(B) The bags were stacked on top of each other, while the others were laid flat on the floor.\n(C) The bags were hung on the back of the chair, while the others were positioned on the table.\n(D) The bags were thrown across the room, while the others were positioned under the seat.\n(E) The bags were kept in a container, while the others were arranged around the room.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The bags were stacked on top of each other, while the others were laid flat on the floor."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person operate the remote control?",
+    "options": [
+        "The person holds the remote control in both hands and moves it gently up and down to operate it.",
+        "The person picks up the remote control and places it nearby, intending to use it without moving.",
+        "The person holds the remote control between their fingers and tries to operate it by tapping it softly on a surface.",
+        "The person grips the remote control firmly and presses multiple buttons simultaneously with their left hand.",
+        "The person grabs the remote and rotates it to the right side, pressing it with his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person operate the remote control? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the remote control in both hands and moves it gently up and down to operate it.\n(B) The person picks up the remote control and places it nearby, intending to use it without moving.\n(C) The person holds the remote control between their fingers and tries to operate it by tapping it softly on a surface.\n(D) The person grips the remote control firmly and presses multiple buttons simultaneously with their left hand.\n(E) The person grabs the remote and rotates it to the right side, pressing it with his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person grabs the remote and rotates it to the right side, pressing it with his right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

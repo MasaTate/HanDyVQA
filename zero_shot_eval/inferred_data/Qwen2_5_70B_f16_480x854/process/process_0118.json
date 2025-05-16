@@ -1,0 +1,17 @@
+{
+    "question": "How does the person open a cupboard with her right hand?",
+    "options": [
+        "The person uses her right hand to push the cupboard door inward slightly.",
+        "The person opens the cupboard with her right hand by pulling the door.",
+        "The person twists the handle of the cupboard with her right hand before gently opening it.",
+        "The person slips her right hand between the door and the cabinet to open it smoothly.",
+        "The person slides her right hand along the edge of the cupboard to glide the door sideways."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person open a cupboard with her right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person uses her right hand to push the cupboard door inward slightly.\n(B) The person opens the cupboard with her right hand by pulling the door.\n(C) The person twists the handle of the cupboard with her right hand before gently opening it.\n(D) The person slips her right hand between the door and the cabinet to open it smoothly.\n(E) The person slides her right hand along the edge of the cupboard to glide the door sideways.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person opens the cupboard with her right hand by pulling the door."
+    },
+    "correct_idx": [
+        1
+    ]
+}

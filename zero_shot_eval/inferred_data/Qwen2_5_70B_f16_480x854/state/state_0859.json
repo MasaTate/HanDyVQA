@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the sweater top on the hanger change?",
+    "options": [
+        "The sweater top was hung on the clothes rail.",
+        "The sweater top was placed inside a drawer.",
+        "The sweater top was folded on a shelf.",
+        "The sweater top was draped on a chair.",
+        "The sweater top was laid on a table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the sweater top on the hanger change? Choose **only one** option from the following list.\nOptions:\n(A) The sweater top was hung on the clothes rail.\n(B) The sweater top was placed inside a drawer.\n(C) The sweater top was folded on a shelf.\n(D) The sweater top was draped on a chair.\n(E) The sweater top was laid on a table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The sweater top was hung on the clothes rail."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person bring a nylon of carrot?",
+    "options": [
+        "The person picks up the nylon of carrots with both hands from the drawer and places it onto the counter.",
+        "The person reaches into the drawer with their left hand, holds the nylon of carrots, and takes it out using the right hand as well.",
+        "The person opens the drawer with their left hand, grasps the nylon of carrots with the fingertips of the right hand, and places it onto the table.",
+        "The person uses their right hand to guide the nylon of carrots from the drawer and collects it with the left hand.",
+        "The person grabs the nylon of carrots from the drawer with their right hand, lifts it, and then passes it to their left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person bring a nylon of carrot? Choose **only one** option from the following list.\nOptions:\n(A) The person picks up the nylon of carrots with both hands from the drawer and places it onto the counter.\n(B) The person reaches into the drawer with their left hand, holds the nylon of carrots, and takes it out using the right hand as well.\n(C) The person opens the drawer with their left hand, grasps the nylon of carrots with the fingertips of the right hand, and places it onto the table.\n(D) The person uses their right hand to guide the nylon of carrots from the drawer and collects it with the left hand.\n(E) The person grabs the nylon of carrots from the drawer with their right hand, lifts it, and then passes it to their left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person grabs the nylon of carrots from the drawer with their right hand, lifts it, and then passes it to their left hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

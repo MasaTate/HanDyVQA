@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the position of another bowl change?",
+    "options": [
+        "The bowl was rotated on the table, altering its position without being lifted.",
+        "The bowl was lifted, causing a change in position as it was raised.",
+        "The bowl was pushed across the surface, leading to a change in its location on the countertop.",
+        "The bowl was tilted to one side, resulting in a shift in its angle and position.",
+        "The bowl was set down with a forceful motion, causing it to slide in its new position."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the position of another bowl change? Choose **only one** option from the following list.\nOptions:\n(A) The bowl was rotated on the table, altering its position without being lifted.\n(B) The bowl was lifted, causing a change in position as it was raised.\n(C) The bowl was pushed across the surface, leading to a change in its location on the countertop.\n(D) The bowl was tilted to one side, resulting in a shift in its angle and position.\n(E) The bowl was set down with a forceful motion, causing it to slide in its new position.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The bowl was lifted, causing a change in position as it was raised."
+    },
+    "correct_idx": [
+        1
+    ]
+}

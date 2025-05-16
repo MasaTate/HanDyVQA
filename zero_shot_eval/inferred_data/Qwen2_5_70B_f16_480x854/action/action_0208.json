@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person mixes dry ingredients in the container with a whisk in his right hand while holding the container with his left hand.",
+        "The person pours liquid from a bottle into the container with a funnel in his right hand while holding the container steady with his left hand.",
+        "The person shakes the container with both hands while holding it securely near the middle.",
+        "The person taps the side of the container with a spoon in his right hand while resting the container on the table with his left hand.",
+        "The person stirs liquid in the container with a stick in his right hand while holding the container using his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person mixes dry ingredients in the container with a whisk in his right hand while holding the container with his left hand.\n(B) The person pours liquid from a bottle into the container with a funnel in his right hand while holding the container steady with his left hand.\n(C) The person shakes the container with both hands while holding it securely near the middle.\n(D) The person taps the side of the container with a spoon in his right hand while resting the container on the table with his left hand.\n(E) The person stirs liquid in the container with a stick in his right hand while holding the container using his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person stirs liquid in the container with a stick in his right hand while holding the container using his left hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

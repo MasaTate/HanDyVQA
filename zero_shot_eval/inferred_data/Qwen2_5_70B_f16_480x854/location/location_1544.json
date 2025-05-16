@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the lever?",
+    "options": [
+        "The person moves the lever on the left hand side of the handlebar.",
+        "The person moves the lever on the right hand side of the handlebar.",
+        "The person moves the lever at the center of the handlebar.",
+        "The person moves the lever just below the handlebar.",
+        "The person moves the lever behind the handlebar."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the lever? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the lever on the left hand side of the handlebar.\n(B) The person moves the lever on the right hand side of the handlebar.\n(C) The person moves the lever at the center of the handlebar.\n(D) The person moves the lever just below the handlebar.\n(E) The person moves the lever behind the handlebar.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person moves the lever on the left hand side of the handlebar."
+    },
+    "correct_idx": [
+        0
+    ]
+}

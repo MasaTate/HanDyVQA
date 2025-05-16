@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is knitting with both hands using the yarn and a pair of knitting needles.",
+        "The person is crocheting with both hands using the yarn and a single crochet hook.",
+        "The person is weaving with both hands using the thread and a loom.",
+        "The person is embroidering with both hands using the fabric and a needle and thread.",
+        "The person is tying knots with both hands using the rope and a hook."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is knitting with both hands using the yarn and a pair of knitting needles.\n(B) The person is crocheting with both hands using the yarn and a single crochet hook.\n(C) The person is weaving with both hands using the thread and a loom.\n(D) The person is embroidering with both hands using the fabric and a needle and thread.\n(E) The person is tying knots with both hands using the rope and a hook.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person is crocheting with both hands using the yarn and a single crochet hook."
+    },
+    "correct_idx": [
+        1
+    ]
+}

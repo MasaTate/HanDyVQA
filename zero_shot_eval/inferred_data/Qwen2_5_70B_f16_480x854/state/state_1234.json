@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the pipe of the tire pump machine change?",
+    "options": [
+        "Tire pump machine pipes were left stationary while other equipment was adjusted.",
+        "Tire pump machine pipes were moved with dangling pipes.",
+        "Tire pump machine pipes were moved with a slight bend in the pipes.",
+        "Tire pump machine pipes were lifted and kept partially coiled.",
+        "Tire pump machine pipes were moved without any contact with the ground."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the pipe of the tire pump machine change? Choose **only one** option from the following list.\nOptions:\n(A) Tire pump machine pipes were left stationary while other equipment was adjusted.\n(B) Tire pump machine pipes were moved with dangling pipes.\n(C) Tire pump machine pipes were moved with a slight bend in the pipes.\n(D) Tire pump machine pipes were lifted and kept partially coiled.\n(E) Tire pump machine pipes were moved without any contact with the ground.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) Tire pump machine pipes were lifted and kept partially coiled."
+    },
+    "correct_idx": [
+        1
+    ]
+}

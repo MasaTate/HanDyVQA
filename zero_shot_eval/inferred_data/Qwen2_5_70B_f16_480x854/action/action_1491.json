@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is holding the bowl with his left hand, placing the phone with his right hand, and holding the spoon with his right hand.",
+        "The person is balancing the bowl with his left hand, picking up the phone with his right hand, and gripping the spoon with his right hand.",
+        "The person is cradling the bowl with his left hand, setting down the phone with his right hand, and stirring the contents with his right hand.",
+        "The person is lifting the bowl with his left hand, dropping the phone onto the table with his right hand, and using the spoon with his right hand.",
+        "The person is carrying the bowl with his left hand, tossing the phone to the side with his right hand, and maneuvering the spoon with his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is holding the bowl with his left hand, placing the phone with his right hand, and holding the spoon with his right hand.\n(B) The person is balancing the bowl with his left hand, picking up the phone with his right hand, and gripping the spoon with his right hand.\n(C) The person is cradling the bowl with his left hand, setting down the phone with his right hand, and stirring the contents with his right hand.\n(D) The person is lifting the bowl with his left hand, dropping the phone onto the table with his right hand, and using the spoon with his right hand.\n(E) The person is carrying the bowl with his left hand, tossing the phone to the side with his right hand, and maneuvering the spoon with his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person is cradling the bowl with his left hand, setting down the phone with his right hand, and stirring the contents with his right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

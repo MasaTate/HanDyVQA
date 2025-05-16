@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the pot?",
+    "options": [
+        "The person moved the pot to the bottom right corner of the countertop.",
+        "The person moved the pot to the top left corner of the countertop.",
+        "The person moved the pot to the side edge of the countertop.",
+        "The person moved the pot to the middle corner of the countertop.",
+        "The person moved the pot to the far end of the countertop."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the pot? Choose **only one** option from the following list.\nOptions:\n(A) The person moved the pot to the bottom right corner of the countertop.\n(B) The person moved the pot to the top left corner of the countertop.\n(C) The person moved the pot to the side edge of the countertop.\n(D) The person moved the pot to the middle corner of the countertop.\n(E) The person moved the pot to the far end of the countertop.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person moved the pot to the side edge of the countertop."
+    },
+    "correct_idx": [
+        3
+    ]
+}

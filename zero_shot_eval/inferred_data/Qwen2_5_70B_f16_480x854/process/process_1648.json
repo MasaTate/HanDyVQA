@@ -1,0 +1,17 @@
+{
+    "question": "How does the person fit the drill bit?",
+    "options": [
+        "The person fits the drill bit using his left hand while holding the drill press with his right hand to secure it.",
+        "The person fits the drill bit using his right hand while gripping the drill press with his left hand for stability.",
+        "The person attaches the drill bit by positioning it into place with both hands while not gripping the drill press.",
+        "The person fits the drill bit with his left hand while letting the drill press rest on the table with his right hand.",
+        "The person secures the drill bit by twisting it into place using both hands, not holding the drill press for support."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person fit the drill bit? Choose **only one** option from the following list.\nOptions:\n(A) The person fits the drill bit using his left hand while holding the drill press with his right hand to secure it.\n(B) The person fits the drill bit using his right hand while gripping the drill press with his left hand for stability.\n(C) The person attaches the drill bit by positioning it into place with both hands while not gripping the drill press.\n(D) The person fits the drill bit with his left hand while letting the drill press rest on the table with his right hand.\n(E) The person secures the drill bit by twisting it into place using both hands, not holding the drill press for support.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person fits the drill bit using his left hand while holding the drill press with his right hand to secure it."
+    },
+    "correct_idx": [
+        0
+    ]
+}

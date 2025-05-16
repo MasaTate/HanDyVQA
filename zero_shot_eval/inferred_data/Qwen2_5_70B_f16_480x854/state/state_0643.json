@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a button change?",
+    "options": [
+        "The button popped upward and regained its original shape.",
+        "The button moved sideways and became slightly wedged.",
+        "The button was pressed down and remained locked in place.",
+        "The button rotated around its axis and became misaligned.",
+        "The button shifted downward and momentarily compressed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a button change? Choose **only one** option from the following list.\nOptions:\n(A) The button popped upward and regained its original shape.\n(B) The button moved sideways and became slightly wedged.\n(C) The button was pressed down and remained locked in place.\n(D) The button rotated around its axis and became misaligned.\n(E) The button shifted downward and momentarily compressed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The button shifted downward and momentarily compressed."
+    },
+    "correct_idx": [
+        4
+    ]
+}

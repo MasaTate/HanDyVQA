@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the brush change?",
+    "options": [
+        "The brush was soaked in the paint and pressed against the canvas to distribute the paint.",
+        "The brush was twisted in the paint and moved across the table to test the color.",
+        "The brush was loaded with paint and moved along the paper to create strokes.",
+        "The brush was dipped in the paint and wiped on the rolling pin to remove excess paint.",
+        "The brush was dipped in two colors of paint and blended on the palette prior to application."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the brush change? Choose **only one** option from the following list.\nOptions:\n(A) The brush was soaked in the paint and pressed against the canvas to distribute the paint.\n(B) The brush was twisted in the paint and moved across the table to test the color.\n(C) The brush was loaded with paint and moved along the paper to create strokes.\n(D) The brush was dipped in the paint and wiped on the rolling pin to remove excess paint.\n(E) The brush was dipped in two colors of paint and blended on the palette prior to application.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The brush was dipped in the paint and wiped on the rolling pin to remove excess paint."
+    },
+    "correct_idx": [
+        3
+    ]
+}

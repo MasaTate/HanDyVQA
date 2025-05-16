@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the glue stick change?",
+    "options": [
+        "The glue stick was taken out of the packaging.",
+        "The glue stick was inserted into the glue gun.",
+        "The glue stick was heated until it became liquid.",
+        "The glue stick was snapped into multiple pieces.",
+        "The glue stick was set on a shelf for storage."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the glue stick change? Choose **only one** option from the following list.\nOptions:\n(A) The glue stick was taken out of the packaging.\n(B) The glue stick was inserted into the glue gun.\n(C) The glue stick was heated until it became liquid.\n(D) The glue stick was snapped into multiple pieces.\n(E) The glue stick was set on a shelf for storage.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The glue stick was inserted into the glue gun."
+    },
+    "correct_idx": [
+        1
+    ]
+}

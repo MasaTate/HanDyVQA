@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person tightens the crank arm screw using the right index finger while the left hand steadies the bike in place.",
+        "The person removes dirt from the bike frame using the right thumb while the left hand balances the bike.",
+        "The person inspects the crank arm hole with the right hand while the left hand holds a tool nearby.",
+        "The person cleans the crank arm hole using the right pinky finger while the left hand holds the bike in place.",
+        "The person adjusts the pedals with the right hand while the left hand supports the bike against a surface."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person tightens the crank arm screw using the right index finger while the left hand steadies the bike in place.\n(B) The person removes dirt from the bike frame using the right thumb while the left hand balances the bike.\n(C) The person inspects the crank arm hole with the right hand while the left hand holds a tool nearby.\n(D) The person cleans the crank arm hole using the right pinky finger while the left hand holds the bike in place.\n(E) The person adjusts the pedals with the right hand while the left hand supports the bike against a surface.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person tightens the crank arm screw using the right index finger while the left hand steadies the bike in place."
+    },
+    "correct_idx": [
+        3
+    ]
+}

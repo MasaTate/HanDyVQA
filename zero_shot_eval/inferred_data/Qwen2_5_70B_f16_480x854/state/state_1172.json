@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a nylon change?",
+    "options": [
+        "The nylon was removed from the table and rolled into a tight bundle.",
+        "The nylon was pulled out of the bag and spread flat on the floor.",
+        "The nylon was cut from a larger piece and hung on a hook by the door.",
+        "The nylon was taken off the shelf and folded neatly before storage.",
+        "The nylon was taken out of the drawer box and placed on top of the drawer."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a nylon change? Choose **only one** option from the following list.\nOptions:\n(A) The nylon was removed from the table and rolled into a tight bundle.\n(B) The nylon was pulled out of the bag and spread flat on the floor.\n(C) The nylon was cut from a larger piece and hung on a hook by the door.\n(D) The nylon was taken off the shelf and folded neatly before storage.\n(E) The nylon was taken out of the drawer box and placed on top of the drawer.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The nylon was taken off the shelf and folded neatly before storage."
+    },
+    "correct_idx": [
+        4
+    ]
+}

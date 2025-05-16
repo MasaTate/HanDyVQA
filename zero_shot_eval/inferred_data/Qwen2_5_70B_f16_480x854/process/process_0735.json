@@ -1,0 +1,17 @@
+{
+    "question": "How does the person bring clothes?",
+    "options": [
+        "The person pulls the clothes out of the washing machine with her right hand while keeping her left hand stationary.",
+        "The person lifts the clothes out of the washing machine with her left hand, carefully maintaining balance.",
+        "The person removes the clothes from the washing machine with one hand and observes where they land.",
+        "The person reaches into the washing machine and gathers all the clothes with her arms rather than using her hands.",
+        "The person quickly brings the clothes out of the washing machine one by one using her left hand and passing them to her right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person bring clothes? Choose **only one** option from the following list.\nOptions:\n(A) The person pulls the clothes out of the washing machine with her right hand while keeping her left hand stationary.\n(B) The person lifts the clothes out of the washing machine with her left hand, carefully maintaining balance.\n(C) The person removes the clothes from the washing machine with one hand and observes where they land.\n(D) The person reaches into the washing machine and gathers all the clothes with her arms rather than using her hands.\n(E) The person quickly brings the clothes out of the washing machine one by one using her left hand and passing them to her right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person quickly brings the clothes out of the washing machine one by one using her left hand and passing them to her right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

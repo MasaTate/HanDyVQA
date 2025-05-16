@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the frisbee?",
+    "options": [
+        "The person moved the frisbee from his left to right hand.",
+        "The person moved the frisbee from his right hand to his pocket.",
+        "The person moved the frisbee from his left hand to the table.",
+        "The person moved the frisbee from his right to left hand.",
+        "The person moved the frisbee from his right hand to behind his back."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the frisbee? Choose **only one** option from the following list.\nOptions:\n(A) The person moved the frisbee from his left to right hand.\n(B) The person moved the frisbee from his right hand to his pocket.\n(C) The person moved the frisbee from his left hand to the table.\n(D) The person moved the frisbee from his right to left hand.\n(E) The person moved the frisbee from his right hand to behind his back.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person moved the frisbee from his right to left hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

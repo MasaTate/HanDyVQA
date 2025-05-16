@@ -1,0 +1,17 @@
+{
+    "question": "How does the person place his gloved left hand?",
+    "options": [
+        "The person swiftly places his gloved left hand into the toolbox, not focusing on the plastic.",
+        "The person awkwardly moves his gloved left hand into the toolbox, slightly shifting the plastic.",
+        "The person lightly guides his gloved left hand toward the toolbox, letting the plastic settle beside it.",
+        "The person steadily moves his gloved left hand forward, gently positioning the plastic into the toolbox.",
+        "The person slowly and carefully places his gloved left hand to carefully insert the plastic into the toolbox."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person place his gloved left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person swiftly places his gloved left hand into the toolbox, not focusing on the plastic.\n(B) The person awkwardly moves his gloved left hand into the toolbox, slightly shifting the plastic.\n(C) The person lightly guides his gloved left hand toward the toolbox, letting the plastic settle beside it.\n(D) The person steadily moves his gloved left hand forward, gently positioning the plastic into the toolbox.\n(E) The person slowly and carefully places his gloved left hand to carefully insert the plastic into the toolbox.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person slowly and carefully places his gloved left hand to carefully insert the plastic into the toolbox."
+    },
+    "correct_idx": [
+        4
+    ]
+}

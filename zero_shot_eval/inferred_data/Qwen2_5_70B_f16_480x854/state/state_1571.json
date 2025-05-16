@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the towel on the floor change?",
+    "options": [
+        "The towel on the floor became damp after being used to soak up liquid.",
+        "The towel on the floor became dirtier after being wiped on the floor.",
+        "The towel on the floor was folded neatly after being used to dry an object.",
+        "The towel on the floor became wrinkled after being stepped on multiple times.",
+        "The towel on the floor was removed completely after being picked up."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the towel on the floor change? Choose **only one** option from the following list.\nOptions:\n(A) The towel on the floor became damp after being used to soak up liquid.\n(B) The towel on the floor became dirtier after being wiped on the floor.\n(C) The towel on the floor was folded neatly after being used to dry an object.\n(D) The towel on the floor became wrinkled after being stepped on multiple times.\n(E) The towel on the floor was removed completely after being picked up.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The towel on the floor became dirtier after being wiped on the floor."
+    },
+    "correct_idx": [
+        1
+    ]
+}

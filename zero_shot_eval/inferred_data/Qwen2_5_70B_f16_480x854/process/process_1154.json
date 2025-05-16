@@ -1,0 +1,17 @@
+{
+    "question": "How does the person close the refrigerators?",
+    "options": [
+        "The person is pushing it slowly to close the refrigerator with his left hand.",
+        "The person is pulling the refrigerator door gently with both hands to close it.",
+        "The person carefully taps the refrigerator door shut using his right arm.",
+        "The person is gently leaning against the refrigerator and closing it with his shoulder.",
+        "The person is using the handle smoothly with his right hand to close the refrigerator."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person close the refrigerators? Choose **only one** option from the following list.\nOptions:\n(A) The person is pushing it slowly to close the refrigerator with his left hand.\n(B) The person is pulling the refrigerator door gently with both hands to close it.\n(C) The person carefully taps the refrigerator door shut using his right arm.\n(D) The person is gently leaning against the refrigerator and closing it with his shoulder.\n(E) The person is using the handle smoothly with his right hand to close the refrigerator.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person is pushing it slowly to close the refrigerator with his left hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

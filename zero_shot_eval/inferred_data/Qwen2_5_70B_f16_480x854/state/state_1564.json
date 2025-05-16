@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the soil around the tomato change?",
+    "options": [
+        "The soil around the tomato was disturbed and slightly displaced after being poked with a billhook.",
+        "The soil around the tomato was compacted and hardened after being pressed with a foot.",
+        "The soil around the tomato was scattered and loosened after being dug with a spade.",
+        "The soil around the tomato was smoothed and leveled after being raked with a garden tool.",
+        "The soil around the tomato was enriched and mixed with compost after being turned with a shovel."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the soil around the tomato change? Choose **only one** option from the following list.\nOptions:\n(A) The soil around the tomato was disturbed and slightly displaced after being poked with a billhook.\n(B) The soil around the tomato was compacted and hardened after being pressed with a foot.\n(C) The soil around the tomato was scattered and loosened after being dug with a spade.\n(D) The soil around the tomato was smoothed and leveled after being raked with a garden tool.\n(E) The soil around the tomato was enriched and mixed with compost after being turned with a shovel.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The soil around the tomato was disturbed and slightly displaced after being poked with a billhook."
+    },
+    "correct_idx": [
+        0
+    ]
+}

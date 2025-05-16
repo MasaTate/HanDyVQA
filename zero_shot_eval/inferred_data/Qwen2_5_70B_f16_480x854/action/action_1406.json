@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "Primarily, the person uses the right hand to pull the leaves while the left hand is holding a bag.",
+        "Primarily, the person uses the right hand to shake the leaves from a branch while the left hand remained idle.",
+        "Primarily, the person uses the right hand to plant the leaves in the soil while the left hand is grabbing a shovel.",
+        "Primarily, the person uses the right hand to check the leaves while the left hand remained idle.",
+        "Primarily, the person uses the right hand to brush the leaves off a table while the left hand remained idle."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) Primarily, the person uses the right hand to pull the leaves while the left hand is holding a bag.\n(B) Primarily, the person uses the right hand to shake the leaves from a branch while the left hand remained idle.\n(C) Primarily, the person uses the right hand to plant the leaves in the soil while the left hand is grabbing a shovel.\n(D) Primarily, the person uses the right hand to check the leaves while the left hand remained idle.\n(E) Primarily, the person uses the right hand to brush the leaves off a table while the left hand remained idle.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) Primarily, the person uses the right hand to pull the leaves while the left hand is holding a bag."
+    },
+    "correct_idx": [
+        3
+    ]
+}

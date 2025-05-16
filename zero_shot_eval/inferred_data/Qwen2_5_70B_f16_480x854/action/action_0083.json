@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person cuts the edge of the wood with the cutter using his right hand, then grabs the plank of wood with both hands.",
+        "The person trims the edge of the wood with scissors using his right hand, then holds the plank of wood with his left hand only.",
+        "The person is sanding the surface of the wood with sandpaper using his right hand, while lifting the plank of wood with his right hand.",
+        "The person carves the wood with a chisel in his right hand, then pushes the plank of wood away with his left hand.",
+        "The person is painting the wood with a brush using his right hand, then steadies the plank of wood with his knees."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person cuts the edge of the wood with the cutter using his right hand, then grabs the plank of wood with both hands.\n(B) The person trims the edge of the wood with scissors using his right hand, then holds the plank of wood with his left hand only.\n(C) The person is sanding the surface of the wood with sandpaper using his right hand, while lifting the plank of wood with his right hand.\n(D) The person carves the wood with a chisel in his right hand, then pushes the plank of wood away with his left hand.\n(E) The person is painting the wood with a brush using his right hand, then steadies the plank of wood with his knees.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person cuts the edge of the wood with the cutter using his right hand, then grabs the plank of wood with both hands."
+    },
+    "correct_idx": [
+        0
+    ]
+}

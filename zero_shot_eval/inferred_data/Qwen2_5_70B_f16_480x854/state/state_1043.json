@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the kettle change?",
+    "options": [
+        "The kettle was lifted and its spout was wiped.",
+        "The kettle was tilted and its bottom was wiped.",
+        "The kettle was lifted and its handle was wiped.",
+        "The kettle was repositioned and its side was wiped.",
+        "The kettle was lifted and its bottom was wiped."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the kettle change? Choose **only one** option from the following list.\nOptions:\n(A) The kettle was lifted and its spout was wiped.\n(B) The kettle was tilted and its bottom was wiped.\n(C) The kettle was lifted and its handle was wiped.\n(D) The kettle was repositioned and its side was wiped.\n(E) The kettle was lifted and its bottom was wiped.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The kettle was lifted and its bottom was wiped."
+    },
+    "correct_idx": [
+        4
+    ]
+}

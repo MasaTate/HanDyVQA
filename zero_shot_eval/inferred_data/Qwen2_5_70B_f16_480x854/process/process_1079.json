@@ -1,0 +1,17 @@
+{
+    "question": "How does the person place her left hand?",
+    "options": [
+        "The person is wiping her right hand and then slowly places her left hand on the ground to support her.",
+        "The person gradually raises her left hand overhead to stretch it out after wiping her right hand.",
+        "The person uses her left hand to gently push against a nearby wall instead of placing it on the ground.",
+        "The person holds her left hand out in front of her while maintaining balance on her right foot.",
+        "The person swings her left hand back and forth in the air before smoothly bringing it down to her side."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person place her left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person is wiping her right hand and then slowly places her left hand on the ground to support her.\n(B) The person gradually raises her left hand overhead to stretch it out after wiping her right hand.\n(C) The person uses her left hand to gently push against a nearby wall instead of placing it on the ground.\n(D) The person holds her left hand out in front of her while maintaining balance on her right foot.\n(E) The person swings her left hand back and forth in the air before smoothly bringing it down to her side.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person is wiping her right hand and then slowly places her left hand on the ground to support her."
+    },
+    "correct_idx": [
+        0
+    ]
+}

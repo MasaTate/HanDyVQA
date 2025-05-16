@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the lid of the container?",
+    "options": [
+        "The person moved the lid of the container in the same place. ",
+        "The person moved the lid of the container to the opposite side of the table.",
+        "The person moved the lid of the container onto the countertop next to the container.",
+        "The person moved the lid of the container across the room onto a shelf.",
+        "The person moved the lid of the container beside the container on the floor."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the lid of the container? Choose **only one** option from the following list.\nOptions:\n(A) The person moved the lid of the container in the same place. \n(B) The person moved the lid of the container to the opposite side of the table.\n(C) The person moved the lid of the container onto the countertop next to the container.\n(D) The person moved the lid of the container across the room onto a shelf.\n(E) The person moved the lid of the container beside the container on the floor.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person moved the lid of the container to the opposite side of the table."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person push the chair?",
+    "options": [
+        "The person grips the seat of the chair with both hands and uses a smooth motion to move it slightly backward.",
+        "The person leans against the side of the chair and employs her body weight to gently shift it across the floor.",
+        "The person places her left hand at the edge of the backrest, then applies a gentle pushing motion to move the chair slightly forward.",
+        "The person takes hold of the armrest and uses a gentle motion to slide the chair slightly backward.",
+        "The person balances on one leg and nudges the chair softly with her knee to reposition it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person push the chair? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the seat of the chair with both hands and uses a smooth motion to move it slightly backward.\n(B) The person leans against the side of the chair and employs her body weight to gently shift it across the floor.\n(C) The person places her left hand at the edge of the backrest, then applies a gentle pushing motion to move the chair slightly forward.\n(D) The person takes hold of the armrest and uses a gentle motion to slide the chair slightly backward.\n(E) The person balances on one leg and nudges the chair softly with her knee to reposition it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person takes hold of the armrest and uses a gentle motion to slide the chair slightly backward."
+    },
+    "correct_idx": [
+        2
+    ]
+}

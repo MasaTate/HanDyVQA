@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the sauce change?",
+    "options": [
+        "The sauce was scooped out of the container and moved to the right to be poured back into it.",
+        "The sauce was not scooped out of the container and remained in the corner.",
+        "The sauce was scooped out of the container and moved to the left to be poured.",
+        "The sauce was scooped but not moved out and stayed in the container.",
+        "The sauce was moved to the left but was not scooped out of the container."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the sauce change? Choose **only one** option from the following list.\nOptions:\n(A) The sauce was scooped out of the container and moved to the right to be poured back into it.\n(B) The sauce was not scooped out of the container and remained in the corner.\n(C) The sauce was scooped out of the container and moved to the left to be poured.\n(D) The sauce was scooped but not moved out and stayed in the container.\n(E) The sauce was moved to the left but was not scooped out of the container.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The sauce was scooped out of the container and moved to the left to be poured."
+    },
+    "correct_idx": [
+        2
+    ]
+}

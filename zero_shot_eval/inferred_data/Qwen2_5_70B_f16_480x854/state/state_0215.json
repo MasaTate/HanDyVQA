@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the thread change?",
+    "options": [
+        "The thread was woven on the fabric's surface.",
+        "The thread was laid loosely across the fabric.",
+        "The thread was sewn along the edge of the fabric.",
+        "The thread was tied at the fabric's starting point.",
+        "The thread was stitched into the fabric."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the thread change? Choose **only one** option from the following list.\nOptions:\n(A) The thread was woven on the fabric's surface.\n(B) The thread was laid loosely across the fabric.\n(C) The thread was sewn along the edge of the fabric.\n(D) The thread was tied at the fabric's starting point.\n(E) The thread was stitched into the fabric.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The thread was stitched into the fabric."
+    },
+    "correct_idx": [
+        4
+    ]
+}

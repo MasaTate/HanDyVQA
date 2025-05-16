@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the ruler?",
+    "options": [
+        "The person placed the ruler under the cardboard and then on the table beside the cutter mat.",
+        "The person placed the ruler next to the cardboard and then on a shelf above the cutter mat.",
+        "The person placed the ruler on the floor beside the cardboard and later on the bookshelf near the cutter mat.",
+        "The person placed the ruler on the left side of the cardboard and then underneath the cutter mat.",
+        "The person placed the ruler on top of the cardboard and then on top of the cutter mat."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the ruler? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the ruler under the cardboard and then on the table beside the cutter mat.\n(B) The person placed the ruler next to the cardboard and then on a shelf above the cutter mat.\n(C) The person placed the ruler on the floor beside the cardboard and later on the bookshelf near the cutter mat.\n(D) The person placed the ruler on the left side of the cardboard and then underneath the cutter mat.\n(E) The person placed the ruler on top of the cardboard and then on top of the cutter mat.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person placed the ruler under the cardboard and then on the table beside the cutter mat."
+    },
+    "correct_idx": [
+        4
+    ]
+}

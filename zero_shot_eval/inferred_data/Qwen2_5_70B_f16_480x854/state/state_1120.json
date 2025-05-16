@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the piece of wood change?",
+    "options": [
+        "The wood pieces were rotated solely in the counterclockwise direction.",
+        "The wood pieces were rotated solely in the clockwise direction.",
+        "The wood pieces were rotated slightly back and forth with incomplete turns.",
+        "The wood pieces were rotated back and forth, clockwise and counterclockwise.",
+        "The wood pieces were rotated once in one direction without reversing."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the piece of wood change? Choose **only one** option from the following list.\nOptions:\n(A) The wood pieces were rotated solely in the counterclockwise direction.\n(B) The wood pieces were rotated solely in the clockwise direction.\n(C) The wood pieces were rotated slightly back and forth with incomplete turns.\n(D) The wood pieces were rotated back and forth, clockwise and counterclockwise.\n(E) The wood pieces were rotated once in one direction without reversing.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The wood pieces were rotated back and forth, clockwise and counterclockwise."
+    },
+    "correct_idx": [
+        3
+    ]
+}

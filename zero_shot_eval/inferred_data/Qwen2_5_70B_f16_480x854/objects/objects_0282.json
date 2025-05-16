@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "pan",
+        "container",
+        "frying pan",
+        "cellophane",
+        "meat",
+        "sieve"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) pan\n(B) container\n(C) frying pan\n(D) cellophane\n(E) meat\n(F) sieve\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(E) The hands are handling meat in a container.\n(B) The hands are using a container to hold the meat.\n\nAnswer format:\n(E) The hands are handling meat in a container.\n(B) The hands are using a container to hold the meat."
+    },
+    "correct_idx": [
+        3,
+        4
+    ]
+}

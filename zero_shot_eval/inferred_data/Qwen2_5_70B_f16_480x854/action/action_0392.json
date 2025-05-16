@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is tightening the bolt and switching on the wood-cutting machine with his hands.",
+        "The person is unscrewing the lid and managing the metal-shaping device with his hands.",
+        "The person is adjusting the screw and operating the paint-spraying machine with his hands.",
+        "The person is fixing the screw and switching off the iron-filing machine with his hands.",
+        "The person is loosening the clamp and starting the fabric-slicing machine with his hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is tightening the bolt and switching on the wood-cutting machine with his hands.\n(B) The person is unscrewing the lid and managing the metal-shaping device with his hands.\n(C) The person is adjusting the screw and operating the paint-spraying machine with his hands.\n(D) The person is fixing the screw and switching off the iron-filing machine with his hands.\n(E) The person is loosening the clamp and starting the fabric-slicing machine with his hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person is fixing the screw and switching off the iron-filing machine with his hands."
+    },
+    "correct_idx": [
+        3
+    ]
+}

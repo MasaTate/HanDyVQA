@@ -1,0 +1,17 @@
+{
+    "question": "How does the person leave the hand?",
+    "options": [
+        "The person leaves the hand by moving the left hand towards the body.",
+        "The person leaves the hand by stretching the right hand outward.",
+        "The person leaves the hand by raising the left hand above shoulder level.",
+        "The person leaves the hand by sweeping both arms out in a broad motion.",
+        "The person leaves the hand by moving the left hand forward gently."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person leave the hand? Choose **only one** option from the following list.\nOptions:\n(A) The person leaves the hand by moving the left hand towards the body.\n(B) The person leaves the hand by stretching the right hand outward.\n(C) The person leaves the hand by raising the left hand above shoulder level.\n(D) The person leaves the hand by sweeping both arms out in a broad motion.\n(E) The person leaves the hand by moving the left hand forward gently.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person leaves the hand by moving the left hand towards the body."
+    },
+    "correct_idx": [
+        0
+    ]
+}

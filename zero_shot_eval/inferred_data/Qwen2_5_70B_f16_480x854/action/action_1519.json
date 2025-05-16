@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is pulling the drawer out with their left hand, picking up the hammer with their left hand, and then leaving the drawer open while holding a nail in their right hand.",
+        "The person is closing the drawer with their right hand, placing the screwdriver inside the drawer with their left hand, and then lifting the drawer with their right hand while holding a piece of paper.",
+        "The person is opening the drawer with their left hand, grabbing the pliers with their left hand, and then closing the drawer with their right hand while holding a pencil.",
+        "The person is taking the pliers out of the drawer with their right hand, sliding the drawer shut with their left hand, and then holding a ruler in their right hand.",
+        "The person is pushing the drawer closed with their left hand, taking the wrench out with their right hand, and then pulling the drawer open again with their right hand while holding a marker."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is pulling the drawer out with their left hand, picking up the hammer with their left hand, and then leaving the drawer open while holding a nail in their right hand.\n(B) The person is closing the drawer with their right hand, placing the screwdriver inside the drawer with their left hand, and then lifting the drawer with their right hand while holding a piece of paper.\n(C) The person is opening the drawer with their left hand, grabbing the pliers with their left hand, and then closing the drawer with their right hand while holding a pencil.\n(D) The person is taking the pliers out of the drawer with their right hand, sliding the drawer shut with their left hand, and then holding a ruler in their right hand.\n(E) The person is pushing the drawer closed with their left hand, taking the wrench out with their right hand, and then pulling the drawer open again with their right hand while holding a marker.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person is taking the pliers out of the drawer with their right hand, sliding the drawer shut with their left hand, and then holding a ruler in their right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

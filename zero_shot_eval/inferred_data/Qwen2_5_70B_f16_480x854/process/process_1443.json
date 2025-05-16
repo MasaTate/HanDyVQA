@@ -1,0 +1,17 @@
+{
+    "question": "How does the person turn the carton of manicotti?",
+    "options": [
+        "The person grips the carton of manicotti firmly with their right hand and turns it counterclockwise with a gentle wrist motion.",
+        "The person picks up the carton of manicotti from the surface with their right hand and rotates it clockwise by turning their wrist.",
+        "The person uses their right hand to slide the carton slightly and then rotates it counterclockwise with a soft touch from their fingers.",
+        "The person holds the carton of manicotti with both hands, angling it slightly while rotating it gently counterclockwise.",
+        "The person uses their index finger to smoothly turn the carton clockwise on the surface while keeping their hand steady."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person turn the carton of manicotti? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the carton of manicotti firmly with their right hand and turns it counterclockwise with a gentle wrist motion.\n(B) The person picks up the carton of manicotti from the surface with their right hand and rotates it clockwise by turning their wrist.\n(C) The person uses their right hand to slide the carton slightly and then rotates it counterclockwise with a soft touch from their fingers.\n(D) The person holds the carton of manicotti with both hands, angling it slightly while rotating it gently counterclockwise.\n(E) The person uses their index finger to smoothly turn the carton clockwise on the surface while keeping their hand steady.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person picks up the carton of manicotti from the surface with their right hand and rotates it clockwise by turning their wrist."
+    },
+    "correct_idx": [
+        1
+    ]
+}

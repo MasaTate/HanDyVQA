@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "screwdriver",
+        "light",
+        "wrench",
+        "yellow battery light",
+        "drill",
+        "motor footpeg"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) screwdriver\n(B) light\n(C) wrench\n(D) yellow battery light\n(E) drill\n(F) motor footpeg\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(C) Wrench\n(F) Motor footpeg"
+    },
+    "correct_idx": [
+        2,
+        5
+    ]
+}

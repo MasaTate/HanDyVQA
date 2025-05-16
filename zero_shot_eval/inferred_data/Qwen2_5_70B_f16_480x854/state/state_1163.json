@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the laptop change?",
+    "options": [
+        "The laptop was not moved and the trackpad was manipulated.",
+        "The laptop was slightly tilted forward while the trackpad remained untouched.",
+        "The laptop was not moved and the keyboard was interacted with instead.",
+        "The laptop lid was partially closed, leaving the trackpad untouched.",
+        "The laptop was not moved and the touch screen was manipulated."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the laptop change? Choose **only one** option from the following list.\nOptions:\n(A) The laptop was not moved and the trackpad was manipulated.\n(B) The laptop was slightly tilted forward while the trackpad remained untouched.\n(C) The laptop was not moved and the keyboard was interacted with instead.\n(D) The laptop lid was partially closed, leaving the trackpad untouched.\n(E) The laptop was not moved and the touch screen was manipulated.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The laptop was not moved and the trackpad was manipulated."
+    },
+    "correct_idx": [
+        0
+    ]
+}

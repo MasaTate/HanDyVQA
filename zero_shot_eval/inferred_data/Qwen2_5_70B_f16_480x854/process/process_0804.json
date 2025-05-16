@@ -1,0 +1,17 @@
+{
+    "question": "How does the person select a card from the cards?",
+    "options": [
+        "The person picks a card from the cards held in her right hand, using both hands to hold the card and pulling it out from the pile.",
+        "The person chooses a card from the cards stacked in her right hand by using her left hand to move gently across the top of the stack before selecting one.",
+        "The person reaches towards the cards held in her right hand, and while aiming to select a card, she softly touches the pile with her left hand.",
+        "The person selects a card from the cards held by her right hand. She gently holds the card using her left hand's thumb and index finger and slowly pulls it upwards away from the sets of cards.",
+        "The person takes a card from the cards in her right hand by moving the stack with her fingers before selecting one off the top."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person select a card from the cards? Choose **only one** option from the following list.\nOptions:\n(A) The person picks a card from the cards held in her right hand, using both hands to hold the card and pulling it out from the pile.\n(B) The person chooses a card from the cards stacked in her right hand by using her left hand to move gently across the top of the stack before selecting one.\n(C) The person reaches towards the cards held in her right hand, and while aiming to select a card, she softly touches the pile with her left hand.\n(D) The person selects a card from the cards held by her right hand. She gently holds the card using her left hand's thumb and index finger and slowly pulls it upwards away from the sets of cards.\n(E) The person takes a card from the cards in her right hand by moving the stack with her fingers before selecting one off the top.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person selects a card from the cards held by her right hand. She gently holds the card using her left hand's thumb and index finger and slowly pulls it upwards away from the sets of cards."
+    },
+    "correct_idx": [
+        3
+    ]
+}

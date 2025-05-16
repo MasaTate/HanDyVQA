@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put right hand?",
+    "options": [
+        "The person put their right hand on the sugar container.",
+        "The person put their right hand on the cutting board.",
+        "The person put their right hand on the bowl of eggs.",
+        "The person put their right hand on the flour mixture.",
+        "The person put their right hand on the butter stick."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person put their right hand on the sugar container.\n(B) The person put their right hand on the cutting board.\n(C) The person put their right hand on the bowl of eggs.\n(D) The person put their right hand on the flour mixture.\n(E) The person put their right hand on the butter stick.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person put their right hand on the flour mixture."
+    },
+    "correct_idx": [
+        3
+    ]
+}

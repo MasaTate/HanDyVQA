@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the baking rack?",
+    "options": [
+        "The person drops the baking rack next to the grill.",
+        "The person drops the baking rack on the floor beside the grill.",
+        "The person drops the baking rack on top of the grill.",
+        "The person drops the baking rack underneath the grill.",
+        "The person drops the baking rack on the countertop behind the grill."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the baking rack? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the baking rack next to the grill.\n(B) The person drops the baking rack on the floor beside the grill.\n(C) The person drops the baking rack on top of the grill.\n(D) The person drops the baking rack underneath the grill.\n(E) The person drops the baking rack on the countertop behind the grill.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person drops the baking rack on the floor beside the grill."
+    },
+    "correct_idx": [
+        2
+    ]
+}

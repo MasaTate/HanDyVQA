@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "cellphone",
+        "table",
+        "hair",
+        "blanket",
+        "flat iron",
+        "flashligt"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) cellphone\n(B) table\n(C) hair\n(D) blanket\n(E) flat iron\n(F) flashligt\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(D) The hands are using a blanket. The person in the video is adjusting and moving a blue blanket on a bed."
+    },
+    "correct_idx": [
+        3,
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person touch the motorcycle engine?",
+    "options": [
+        "The person pressed the motorcycle engine firmly with both hands, applying force to the engine.",
+        "The person lightly touched the motorcycle engine with just the tips of their fingers, barely making contact.",
+        "The person wrapped one hand around the motorcycle engine while holding it away from their body, not fully grasping it.",
+        "The person tapped the motorcycle engine with the palm of one hand, using a quick motion without applying much pressure.",
+        "The person placed both hands on either side of the motorcycle engine but instead of pressing it, they began to move their hands around."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person touch the motorcycle engine? Choose **only one** option from the following list.\nOptions:\n(A) The person pressed the motorcycle engine firmly with both hands, applying force to the engine.\n(B) The person lightly touched the motorcycle engine with just the tips of their fingers, barely making contact.\n(C) The person wrapped one hand around the motorcycle engine while holding it away from their body, not fully grasping it.\n(D) The person tapped the motorcycle engine with the palm of one hand, using a quick motion without applying much pressure.\n(E) The person placed both hands on either side of the motorcycle engine but instead of pressing it, they began to move their hands around.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person placed both hands on either side of the motorcycle engine but instead of pressing it, they began to move their hands around."
+    },
+    "correct_idx": [
+        0
+    ]
+}

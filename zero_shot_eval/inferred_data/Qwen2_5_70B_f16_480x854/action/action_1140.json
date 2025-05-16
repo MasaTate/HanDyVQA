@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person grabs a tissue roll using his left hand and cuts a portion using his right hand.",
+        "The person grabs a tissue box using his left hand and tears off a piece using his right hand.",
+        "The person pulls a napkin from a stack with his left hand and folds it using his right hand.",
+        "The person holds a paper towel roll with his right hand and uses his left hand to place it into a trash bin.",
+        "The person grabs a tissue box using his left hand and positions it on the table with his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person grabs a tissue roll using his left hand and cuts a portion using his right hand.\n(B) The person grabs a tissue box using his left hand and tears off a piece using his right hand.\n(C) The person pulls a napkin from a stack with his left hand and folds it using his right hand.\n(D) The person holds a paper towel roll with his right hand and uses his left hand to place it into a trash bin.\n(E) The person grabs a tissue box using his left hand and positions it on the table with his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person grabs a tissue roll using his left hand and cuts a portion using his right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a storage bag change?",
+    "options": [
+        "The storage bag was opened to place additional tools inside.",
+        "The storage bag was pushed after taking a tool from inside it.",
+        "The storage bag was tied shut to keep its contents secure.",
+        "The storage bag was unzipped to take out the tool and examine it.",
+        "The storage bag was emptied entirely before being folded."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a storage bag change? Choose **only one** option from the following list.\nOptions:\n(A) The storage bag was opened to place additional tools inside.\n(B) The storage bag was pushed after taking a tool from inside it.\n(C) The storage bag was tied shut to keep its contents secure.\n(D) The storage bag was unzipped to take out the tool and examine it.\n(E) The storage bag was emptied entirely before being folded.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The storage bag was pushed after taking a tool from inside it."
+    },
+    "correct_idx": [
+        1
+    ]
+}

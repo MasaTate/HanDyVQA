@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a ziploc change?",
+    "options": [
+        "The Ziploc was taken out from the drawer and sealed shut.",
+        "The Ziploc was removed from the counter and opened.",
+        "The Ziploc, already taken out from the drawer, was folded over.",
+        "The Ziploc was taken out from the drawer and opened.",
+        "The Ziploc was taken out from the drawer and placed back without being opened."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a ziploc change? Choose **only one** option from the following list.\nOptions:\n(A) The Ziploc was taken out from the drawer and sealed shut.\n(B) The Ziploc was removed from the counter and opened.\n(C) The Ziploc, already taken out from the drawer, was folded over.\n(D) The Ziploc was taken out from the drawer and opened.\n(E) The Ziploc was taken out from the drawer and placed back without being opened.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The Ziploc was taken out from the drawer and opened."
+    },
+    "correct_idx": [
+        3
+    ]
+}

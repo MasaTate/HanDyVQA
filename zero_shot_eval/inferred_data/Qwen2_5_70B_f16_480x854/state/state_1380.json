@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the paint change?",
+    "options": [
+        "The paint was poured from the bowl onto the palette and was mixed with white to achieve a lighter shade.",
+        "The paint was taken from the bowl, was applied to the canvas, and then was brushed in a circular motion.",
+        "The paint was stored in a spray can, sprayed onto the wall, and dried to a glossy finish.",
+        "The paint was scooped from the can, poured into a cup, and diluted with water for a thinner consistency.",
+        "The paint was dropped from the brush, splattered onto the floor, and scraped away with a spatula."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the paint change? Choose **only one** option from the following list.\nOptions:\n(A) The paint was poured from the bowl onto the palette and was mixed with white to achieve a lighter shade.\n(B) The paint was taken from the bowl, was applied to the canvas, and then was brushed in a circular motion.\n(C) The paint was stored in a spray can, sprayed onto the wall, and dried to a glossy finish.\n(D) The paint was scooped from the can, poured into a cup, and diluted with water for a thinner consistency.\n(E) The paint was dropped from the brush, splattered onto the floor, and scraped away with a spatula.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The paint was poured from the bowl onto the palette and was mixed with white to achieve a lighter shade."
+    },
+    "correct_idx": [
+        1
+    ]
+}

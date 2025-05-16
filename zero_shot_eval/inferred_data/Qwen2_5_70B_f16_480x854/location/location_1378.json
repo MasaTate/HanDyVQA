@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the second coconut?",
+    "options": [
+        "The person places the second coconut beside another coconut.",
+        "The person places the second coconut in front of another coconut.",
+        "The person places the second coconut on top of another coconut.",
+        "The person places the second coconut underneath another coconut.",
+        "The person places the second coconut behind another coconut."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the second coconut? Choose **only one** option from the following list.\nOptions:\n(A) The person places the second coconut beside another coconut.\n(B) The person places the second coconut in front of another coconut.\n(C) The person places the second coconut on top of another coconut.\n(D) The person places the second coconut underneath another coconut.\n(E) The person places the second coconut behind another coconut.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person places the second coconut beside another coconut."
+    },
+    "correct_idx": [
+        2
+    ]
+}

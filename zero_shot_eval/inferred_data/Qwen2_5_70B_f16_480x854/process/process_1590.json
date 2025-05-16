@@ -1,0 +1,17 @@
+{
+    "question": "How does the person fix the stand to the desktop with the screwdriver?",
+    "options": [
+        "The person attempts to secure the stand to the desktop with the screwdriver by gently guiding the screw downward.",
+        "The person uses the screwdriver to lift the stand slightly from the desktop without aiming to secure it.",
+        "The person attaches the stand to the desktop with the screwdriver by twisting the screw clockwise.",
+        "The person turns the screwdriver counterclockwise while trying to attach the stand to the desktop.",
+        "The person holds the stand closely and lightly taps the screwdriver near the screw rather than twisting it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person fix the stand to the desktop with the screwdriver? Choose **only one** option from the following list.\nOptions:\n(A) The person attempts to secure the stand to the desktop with the screwdriver by gently guiding the screw downward.\n(B) The person uses the screwdriver to lift the stand slightly from the desktop without aiming to secure it.\n(C) The person attaches the stand to the desktop with the screwdriver by twisting the screw clockwise.\n(D) The person turns the screwdriver counterclockwise while trying to attach the stand to the desktop.\n(E) The person holds the stand closely and lightly taps the screwdriver near the screw rather than twisting it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person attaches the stand to the desktop with the screwdriver by twisting the screw clockwise."
+    },
+    "correct_idx": [
+        2
+    ]
+}

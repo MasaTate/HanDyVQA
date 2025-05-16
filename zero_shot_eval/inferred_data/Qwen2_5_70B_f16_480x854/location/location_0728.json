@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person return the ingredients?",
+    "options": [
+        "The person returns the ingredients to the pantry shelf.",
+        "The person returns the ingredients to the refrigerator door.",
+        "The person returns the ingredients to the kitchen drawer.",
+        "The person returns the ingredients to the countertop next to the stove.",
+        "The person returns the ingredients to the cabinet above the sink."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person return the ingredients? Choose **only one** option from the following list.\nOptions:\n(A) The person returns the ingredients to the pantry shelf.\n(B) The person returns the ingredients to the refrigerator door.\n(C) The person returns the ingredients to the kitchen drawer.\n(D) The person returns the ingredients to the countertop next to the stove.\n(E) The person returns the ingredients to the cabinet above the sink.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person returns the ingredients to the pantry shelf."
+    },
+    "correct_idx": [
+        2
+    ]
+}

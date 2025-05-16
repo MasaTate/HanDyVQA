@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of sauce change?",
+    "options": [
+        "The sauce was poured onto two dough pieces and spilled onto another surface.",
+        "The sauce was poured onto four dough pieces.",
+        "The sauce was poured onto pizza crusts instead of dough pieces.",
+        "The sauce was poured onto only one dough piece.",
+        "The sauce was poured onto three dough pieces."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of sauce change? Choose **only one** option from the following list.\nOptions:\n(A) The sauce was poured onto two dough pieces and spilled onto another surface.\n(B) The sauce was poured onto four dough pieces.\n(C) The sauce was poured onto pizza crusts instead of dough pieces.\n(D) The sauce was poured onto only one dough piece.\n(E) The sauce was poured onto three dough pieces.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The sauce was poured onto three dough pieces."
+    },
+    "correct_idx": [
+        4
+    ]
+}

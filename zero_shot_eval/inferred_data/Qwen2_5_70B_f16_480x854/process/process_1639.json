@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pour the content of the container?",
+    "options": [
+        "The person holds the container with both hands and tilts it gently to pour the contents smoothly.",
+        "The person sets the container near the edge of the table and lets the contents slide out naturally.",
+        "The person grasps the container with their left hand and tilts it steadily so the contents flow out with control.",
+        "The person opens the container with one hand while the other hand steadies it to manage the contents flowing out.",
+        "The person grips the container with the right hand, tilts it forward at an angle, and carefully pours the contents into the left hand while controlling the flow."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pour the content of the container? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the container with both hands and tilts it gently to pour the contents smoothly.\n(B) The person sets the container near the edge of the table and lets the contents slide out naturally.\n(C) The person grasps the container with their left hand and tilts it steadily so the contents flow out with control.\n(D) The person opens the container with one hand while the other hand steadies it to manage the contents flowing out.\n(E) The person grips the container with the right hand, tilts it forward at an angle, and carefully pours the contents into the left hand while controlling the flow.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person grips the container with the right hand, tilts it forward at an angle, and carefully pours the contents into the left hand while controlling the flow."
+    },
+    "correct_idx": [
+        4
+    ]
+}

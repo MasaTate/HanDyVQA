@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the cable change?",
+    "options": [
+        "The cable was pulled and plugged into a new outlet, then left taut.",
+        "The cable was pushed further into the same outlet and secured tightly.",
+        "The cable was unplugged from the outlet and coiled neatly.",
+        "The cable was pulled but remained plugged in as it was straightened.",
+        "The cable was pulled and unplugged from the outlet, then loosened."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the cable change? Choose **only one** option from the following list.\nOptions:\n(A) The cable was pulled and plugged into a new outlet, then left taut.\n(B) The cable was pushed further into the same outlet and secured tightly.\n(C) The cable was unplugged from the outlet and coiled neatly.\n(D) The cable was pulled but remained plugged in as it was straightened.\n(E) The cable was pulled and unplugged from the outlet, then loosened.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The cable was pulled but remained plugged in as it was straightened."
+    },
+    "correct_idx": [
+        4
+    ]
+}

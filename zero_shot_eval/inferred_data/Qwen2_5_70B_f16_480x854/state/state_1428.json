@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the book change?",
+    "options": [
+        "The book was lifted straight up and placed onto the shelf.",
+        "The book was pushed forward and then tilted to the side on the table.",
+        "The book was moved sideways and slid upwards on the table.",
+        "The book was turned upside down and dropped onto the floor.",
+        "The book was rotated in a circle and then set down on a nearby chair."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the book change? Choose **only one** option from the following list.\nOptions:\n(A) The book was lifted straight up and placed onto the shelf.\n(B) The book was pushed forward and then tilted to the side on the table.\n(C) The book was moved sideways and slid upwards on the table.\n(D) The book was turned upside down and dropped onto the floor.\n(E) The book was rotated in a circle and then set down on a nearby chair.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The book was pushed forward and then tilted to the side on the table."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of another screw change?",
+    "options": [
+        "The screw was tightened clockwise, turning until it was secure.",
+        "The screw was turned counterclockwise but stayed in place without coming loose.",
+        "The screw was turned clockwise initially, then loosened counterclockwise slightly.",
+        "The screw was turned counterclockwise and left halfway loosened.",
+        "The screw was loosened counterclockwise, turning gradually until it came loose."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of another screw change? Choose **only one** option from the following list.\nOptions:\n(A) The screw was tightened clockwise, turning until it was secure.\n(B) The screw was turned counterclockwise but stayed in place without coming loose.\n(C) The screw was turned clockwise initially, then loosened counterclockwise slightly.\n(D) The screw was turned counterclockwise and left halfway loosened.\n(E) The screw was loosened counterclockwise, turning gradually until it came loose.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The screw was loosened counterclockwise, turning gradually until it came loose."
+    },
+    "correct_idx": [
+        4
+    ]
+}

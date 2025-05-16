@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a latch of the scrapbook change?",
+    "options": [
+        "The latch of the scrapbook was held for a few seconds before being let go.",
+        "The latch of the scrapbook was pulled down and then pushed back up.",
+        "The latch of the scrapbook was twisted and then straightened.",
+        "The latch of the scrapbook was grabbed for a moment and then released.",
+        "The latch of the scrapbook was pressed down briefly before being lifted."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a latch of the scrapbook change? Choose **only one** option from the following list.\nOptions:\n(A) The latch of the scrapbook was held for a few seconds before being let go.\n(B) The latch of the scrapbook was pulled down and then pushed back up.\n(C) The latch of the scrapbook was twisted and then straightened.\n(D) The latch of the scrapbook was grabbed for a moment and then released.\n(E) The latch of the scrapbook was pressed down briefly before being lifted.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The latch of the scrapbook was grabbed for a moment and then released."
+    },
+    "correct_idx": [
+        3
+    ]
+}

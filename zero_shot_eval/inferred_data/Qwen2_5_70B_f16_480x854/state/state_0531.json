@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the utility knife change?",
+    "options": [
+        "The utility knife was opened but then closed again.",
+        "The utility knife was turned upside down but then righted again.",
+        "The utility knife was slid across the table but then picked up again.",
+        "The utility knife was set aside but then returned to use.",
+        "The utility knife was placed down but then lifted again."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the utility knife change? Choose **only one** option from the following list.\nOptions:\n(A) The utility knife was opened but then closed again.\n(B) The utility knife was turned upside down but then righted again.\n(C) The utility knife was slid across the table but then picked up again.\n(D) The utility knife was set aside but then returned to use.\n(E) The utility knife was placed down but then lifted again.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The utility knife was placed down but then lifted again."
+    },
+    "correct_idx": [
+        4
+    ]
+}

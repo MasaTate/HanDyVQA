@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person switches the direction of the plank with both hands.",
+        "The person flips the board over with his right hand.",
+        "The person holds the plank firmly in his right hand while examining it closely.",
+        "The person rotates the plank vertically using his right hand.",
+        "The person balances the plank on his right palm."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person switches the direction of the plank with both hands.\n(B) The person flips the board over with his right hand.\n(C) The person holds the plank firmly in his right hand while examining it closely.\n(D) The person rotates the plank vertically using his right hand.\n(E) The person balances the plank on his right palm.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person switches the direction of the plank with both hands."
+    },
+    "correct_idx": [
+        0
+    ]
+}

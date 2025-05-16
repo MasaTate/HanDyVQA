@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person grasped the machete with the right hand, then used both hands to hold the climbing gear while moving up the mango tree.",
+        "The person wielded the knife with the right hand, then used both hands to secure the harness while climbing down from the palm tree.",
+        "The person uses the cutlass with the right hand, then uses both hands to hold the climbing spikes while moving down from the coconut tree.",
+        "The person grabbed the hoe with the right hand, then utilized both hands to grip the ladder while descending from the oak tree.",
+        "The person clutched the axe with the right hand, then employed both hands to hold the rope while moving up the banana tree."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person grasped the machete with the right hand, then used both hands to hold the climbing gear while moving up the mango tree.\n(B) The person wielded the knife with the right hand, then used both hands to secure the harness while climbing down from the palm tree.\n(C) The person uses the cutlass with the right hand, then uses both hands to hold the climbing spikes while moving down from the coconut tree.\n(D) The person grabbed the hoe with the right hand, then utilized both hands to grip the ladder while descending from the oak tree.\n(E) The person clutched the axe with the right hand, then employed both hands to hold the rope while moving up the banana tree.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person uses the cutlass with the right hand, then uses both hands to hold the climbing spikes while moving down from the coconut tree."
+    },
+    "correct_idx": [
+        2
+    ]
+}

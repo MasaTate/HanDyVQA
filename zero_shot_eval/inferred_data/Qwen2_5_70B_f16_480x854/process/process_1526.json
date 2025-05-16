@@ -1,0 +1,17 @@
+{
+    "question": "How does the person reposition the torch?",
+    "options": [
+        "The person held the torch firmly with both hands, moved it swiftly, and gently placed it onto the motorcycle's floorboard.",
+        "The person pinched the torch lightly between the fingers of his left hand, glided it over the surface, and let it rest at the side of the motorcycle.",
+        "The person gripped the torch with his right hand, lifted it slightly, and swiftly moved it to the left side of the motorcycle's floorboard before carefully placing it down.",
+        "The person grasped the torch securely in his right hand and guided it forward, resting it smoothly against the motorcycle's frame before setting it down.",
+        "The person lifted the torch cautiously with one hand, raised it just above his head, and set it down gently onto the motorcycle's floorboard."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person reposition the torch? Choose **only one** option from the following list.\nOptions:\n(A) The person held the torch firmly with both hands, moved it swiftly, and gently placed it onto the motorcycle's floorboard.\n(B) The person pinched the torch lightly between the fingers of his left hand, glided it over the surface, and let it rest at the side of the motorcycle.\n(C) The person gripped the torch with his right hand, lifted it slightly, and swiftly moved it to the left side of the motorcycle's floorboard before carefully placing it down.\n(D) The person grasped the torch securely in his right hand and guided it forward, resting it smoothly against the motorcycle's frame before setting it down.\n(E) The person lifted the torch cautiously with one hand, raised it just above his head, and set it down gently onto the motorcycle's floorboard.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person gripped the torch with his right hand, lifted it slightly, and swiftly moved it to the left side of the motorcycle's floorboard before carefully placing it down."
+    },
+    "correct_idx": [
+        2
+    ]
+}

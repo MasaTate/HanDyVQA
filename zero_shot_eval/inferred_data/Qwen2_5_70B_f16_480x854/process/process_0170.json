@@ -1,0 +1,17 @@
+{
+    "question": "How does the person arrange some potatoes?",
+    "options": [
+        "The person reaches out with her right hand and grabs both potatoes, then places them on the cutting board.",
+        "The person uses her right hand to nudge the potatoes carefully towards the edge of the table, letting them settle on the floor.",
+        "The person takes one potato with her right hand and places it into a nearby bowl somewhat casually.",
+        "The person holds one potato with both hands and moves it gently back and forth before setting it down on the counter.",
+        "The person picks up a potato with her right hand, then sets it back down onto the table without rearranging it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person arrange some potatoes? Choose **only one** option from the following list.\nOptions:\n(A) The person reaches out with her right hand and grabs both potatoes, then places them on the cutting board.\n(B) The person uses her right hand to nudge the potatoes carefully towards the edge of the table, letting them settle on the floor.\n(C) The person takes one potato with her right hand and places it into a nearby bowl somewhat casually.\n(D) The person holds one potato with both hands and moves it gently back and forth before setting it down on the counter.\n(E) The person picks up a potato with her right hand, then sets it back down onto the table without rearranging it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person reaches out with her right hand and grabs both potatoes, then places them on the cutting board."
+    },
+    "correct_idx": [
+        0
+    ]
+}

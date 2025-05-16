@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the content in the pot change?",
+    "options": [
+        "The content in the pot was stirred vigorously with a spoon.",
+        "The content in the pot was scooped out with a spoon.",
+        "The content in the pot was pushed toward one side using a spoon.",
+        "The content in the pot was flattened down with a spoon.",
+        "The content in the pot was gently mixed with a spoon."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the content in the pot change? Choose **only one** option from the following list.\nOptions:\n(A) The content in the pot was stirred vigorously with a spoon.\n(B) The content in the pot was scooped out with a spoon.\n(C) The content in the pot was pushed toward one side using a spoon.\n(D) The content in the pot was flattened down with a spoon.\n(E) The content in the pot was gently mixed with a spoon.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The content in the pot was gently mixed with a spoon."
+    },
+    "correct_idx": [
+        4
+    ]
+}

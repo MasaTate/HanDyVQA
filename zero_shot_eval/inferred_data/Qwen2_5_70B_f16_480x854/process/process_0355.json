@@ -1,0 +1,17 @@
+{
+    "question": "How does the person hang the shirt on the hanger?",
+    "options": [
+        "The person grabs the shirt by its hem, raises his arm with the hanger, and places it on the rack.",
+        "The person holds the shirt by its shoulders, raises his left hand while holding the hanger, and hooks it onto the rack.",
+        "The person clutches the shirt with both hands, lowers the hanger, and lets the shirt slide gently onto the rack.",
+        "The person lifts the shirt by one sleeve, reaches across with his right hand toward the hanger, and carefully balances it on the rack.",
+        "The person uses his right hand to hold the fabric in the middle of the shirt, holds the hanger in his left hand, and moves it smoothly before placing it near the rack."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person hang the shirt on the hanger? Choose **only one** option from the following list.\nOptions:\n(A) The person grabs the shirt by its hem, raises his arm with the hanger, and places it on the rack.\n(B) The person holds the shirt by its shoulders, raises his left hand while holding the hanger, and hooks it onto the rack.\n(C) The person clutches the shirt with both hands, lowers the hanger, and lets the shirt slide gently onto the rack.\n(D) The person lifts the shirt by one sleeve, reaches across with his right hand toward the hanger, and carefully balances it on the rack.\n(E) The person uses his right hand to hold the fabric in the middle of the shirt, holds the hanger in his left hand, and moves it smoothly before placing it near the rack.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person holds the shirt by its shoulders, raises his left hand while holding the hanger, and hooks it onto the rack."
+    },
+    "correct_idx": [
+        1
+    ]
+}

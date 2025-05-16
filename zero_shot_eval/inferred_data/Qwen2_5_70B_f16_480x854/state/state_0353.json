@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a wrapped beef from the refrigerator container change?",
+    "options": [
+        "The wrapped beef was taken out of the drawer in the refrigerator and placed on a shelf inside the fridge.",
+        "The wrapped beef was taken out of the drawer in the refrigerator, changing its position and rotation.",
+        "The wrapped beef was shifted to a different drawer in the refrigerator without altering its rotation.",
+        "The wrapped beef was removed from the drawer and briefly held before being placed back.",
+        "The wrapped beef was taken out of the drawer and moved to the refrigerator door compartment."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a wrapped beef from the refrigerator container change? Choose **only one** option from the following list.\nOptions:\n(A) The wrapped beef was taken out of the drawer in the refrigerator and placed on a shelf inside the fridge.\n(B) The wrapped beef was taken out of the drawer in the refrigerator, changing its position and rotation.\n(C) The wrapped beef was shifted to a different drawer in the refrigerator without altering its rotation.\n(D) The wrapped beef was removed from the drawer and briefly held before being placed back.\n(E) The wrapped beef was taken out of the drawer and moved to the refrigerator door compartment.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The wrapped beef was taken out of the drawer in the refrigerator, changing its position and rotation."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put a spraying can?",
+    "options": [
+        "The person placed the spray can on its right arm to carry.",
+        "The person placed the spray can on its left arm to carry.",
+        "The person balanced the spray can on their head to carry.",
+        "The person placed the spray can in its left pocket to carry.",
+        "The person put the spray can on its shoulder to carry."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put a spraying can? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the spray can on its right arm to carry.\n(B) The person placed the spray can on its left arm to carry.\n(C) The person balanced the spray can on their head to carry.\n(D) The person placed the spray can in its left pocket to carry.\n(E) The person put the spray can on its shoulder to carry.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person placed the spray can on its left arm to carry."
+    },
+    "correct_idx": [
+        1
+    ]
+}

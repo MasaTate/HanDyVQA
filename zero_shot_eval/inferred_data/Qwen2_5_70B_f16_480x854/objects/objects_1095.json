@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "wooden chopping board",
+        "vacuum",
+        "cellular phone",
+        "wood cutting machine",
+        "handrill",
+        "rubber feet"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) wooden chopping board\n(B) vacuum\n(C) cellular phone\n(D) wood cutting machine\n(E) handrill\n(F) rubber feet\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(E) handrill\n(A) wooden chopping board"
+    },
+    "correct_idx": [
+        4,
+        5
+    ]
+}

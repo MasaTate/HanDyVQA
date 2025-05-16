@@ -1,0 +1,17 @@
+{
+    "question": "How does the person push a container inside the drawer?",
+    "options": [
+        "The person slides the container inside the drawer with his right hand.",
+        "The person pushes the container inside the drawer gently with his right hand.",
+        "The person places the container into the drawer with a soft push.",
+        "The person moves the container into the drawer using their hand.",
+        "The person sets the container into the drawer smoothly with his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person push a container inside the drawer? Choose **only one** option from the following list.\nOptions:\n(A) The person slides the container inside the drawer with his right hand.\n(B) The person pushes the container inside the drawer gently with his right hand.\n(C) The person places the container into the drawer with a soft push.\n(D) The person moves the container into the drawer using their hand.\n(E) The person sets the container into the drawer smoothly with his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person pushes the container inside the drawer gently with his right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

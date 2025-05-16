@@ -1,0 +1,17 @@
+{
+    "question": "How does the person collect the spice container?",
+    "options": [
+        "The person picks up the spice container with both hands and smoothly lifts it straight up before setting it down.",
+        "The person transfers the spice container from his right hand to his left, then lowers his shoulders and carefully places it back onto the surface.",
+        "The person uses only his right hand to grasp the spice container gently and then places it onto the table.",
+        "The person picks up the spice container with his left hand and turns it over before gently setting it down.",
+        "The person holds the spice container in his left hand and sets it gently onto the shelf."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person collect the spice container? Choose **only one** option from the following list.\nOptions:\n(A) The person picks up the spice container with both hands and smoothly lifts it straight up before setting it down.\n(B) The person transfers the spice container from his right hand to his left, then lowers his shoulders and carefully places it back onto the surface.\n(C) The person uses only his right hand to grasp the spice container gently and then places it onto the table.\n(D) The person picks up the spice container with his left hand and turns it over before gently setting it down.\n(E) The person holds the spice container in his left hand and sets it gently onto the shelf.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person picks up the spice container with his left hand and turns it over before gently setting it down."
+    },
+    "correct_idx": [
+        1
+    ]
+}

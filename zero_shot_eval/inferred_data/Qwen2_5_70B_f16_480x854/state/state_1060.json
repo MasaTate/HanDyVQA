@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the bike side mirror change?",
+    "options": [
+        "The bike side mirror was tilted further down and remained in that position.",
+        "The bike side mirror was slightly tilted and then attempted to be returned to its proper place.",
+        "The bike side mirror was adjusted upward and stayed as it was.",
+        "The bike side mirror was moved slightly outward instead of being returned.",
+        "The bike side mirror was rotated clockwise and left askew."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the bike side mirror change? Choose **only one** option from the following list.\nOptions:\n(A) The bike side mirror was tilted further down and remained in that position.\n(B) The bike side mirror was slightly tilted and then attempted to be returned to its proper place.\n(C) The bike side mirror was adjusted upward and stayed as it was.\n(D) The bike side mirror was moved slightly outward instead of being returned.\n(E) The bike side mirror was rotated clockwise and left askew.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The bike side mirror was slightly tilted and then attempted to be returned to its proper place."
+    },
+    "correct_idx": [
+        1
+    ]
+}

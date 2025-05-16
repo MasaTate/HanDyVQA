@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person set the strainer on the counter and slid a piece of meat off the pack with his left hand.",
+        "The person placed the strainer beside the sink and moved a piece of meat on the pack with his left hand.",
+        "The person positioned the strainer in front of the sink and pushed a piece of meat onto a pack with his left hand.",
+        "The person removed the strainer from the sink and lifted a piece of meat from the pack with his left hand.",
+        "The person balanced the strainer on the sink and moved a piece of meat onto a pack with his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person set the strainer on the counter and slid a piece of meat off the pack with his left hand.\n(B) The person placed the strainer beside the sink and moved a piece of meat on the pack with his left hand.\n(C) The person positioned the strainer in front of the sink and pushed a piece of meat onto a pack with his left hand.\n(D) The person removed the strainer from the sink and lifted a piece of meat from the pack with his left hand.\n(E) The person balanced the strainer on the sink and moved a piece of meat onto a pack with his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person placed the strainer beside the sink and moved a piece of meat on the pack with his left hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

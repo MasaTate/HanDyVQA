@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the cat change?",
+    "options": [
+        "The cat\u2019s color and fur texture changed as it was groomed, becoming shinier and fluffier.",
+        "The cat\u2019s position and attention level changed as it noticed a toy, becoming more alert and playful.",
+        "The cat\u2019s facial expression and eye movements changed as it watched a bird outside, becoming more focused and curious.",
+        "The cat\u2019s body language and energy levels changed as it chased a laser pointer, becoming more active and excited.",
+        "The cat\u2019s posture and behavior changed as it was petted, becoming more relaxed and calm."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the cat change? Choose **only one** option from the following list.\nOptions:\n(A) The cat\u2019s color and fur texture changed as it was groomed, becoming shinier and fluffier.\n(B) The cat\u2019s position and attention level changed as it noticed a toy, becoming more alert and playful.\n(C) The cat\u2019s facial expression and eye movements changed as it watched a bird outside, becoming more focused and curious.\n(D) The cat\u2019s body language and energy levels changed as it chased a laser pointer, becoming more active and excited.\n(E) The cat\u2019s posture and behavior changed as it was petted, becoming more relaxed and calm.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The cat\u2019s posture and behavior changed as it was petted, becoming more relaxed and calm."
+    },
+    "correct_idx": [
+        4
+    ]
+}

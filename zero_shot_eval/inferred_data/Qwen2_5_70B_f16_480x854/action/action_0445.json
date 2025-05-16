@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person chops the green onions into small pieces using both hands on the cutting board.",
+        "The person washes the green onions under running water using both hands.",
+        "The person picks the rotten part of the green onions using both hands.",
+        "The person bundles the green onions together using both hands to prepare them for storage.",
+        "The person throws away the green onions using both hands after inspecting them."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person chops the green onions into small pieces using both hands on the cutting board.\n(B) The person washes the green onions under running water using both hands.\n(C) The person picks the rotten part of the green onions using both hands.\n(D) The person bundles the green onions together using both hands to prepare them for storage.\n(E) The person throws away the green onions using both hands after inspecting them.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person chops the green onions into small pieces using both hands on the cutting board."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the mirror of the motorbike change?",
+    "options": [
+        "The mirror of the motorbike had been adjusted slightly to the left.",
+        "The mirror of the motorbike had rotated partially downwards.",
+        "The mirror of the motorbike had become detached from its mount.",
+        "The mirror of the motorbike had tilted from its fixed position.",
+        "The mirror of the motorbike was positioned completely upwards."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the mirror of the motorbike change? Choose **only one** option from the following list.\nOptions:\n(A) The mirror of the motorbike had been adjusted slightly to the left.\n(B) The mirror of the motorbike had rotated partially downwards.\n(C) The mirror of the motorbike had become detached from its mount.\n(D) The mirror of the motorbike had tilted from its fixed position.\n(E) The mirror of the motorbike was positioned completely upwards.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The mirror of the motorbike had become detached from its mount."
+    },
+    "correct_idx": [
+        3
+    ]
+}

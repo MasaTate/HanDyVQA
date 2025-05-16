@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person grabs a spoon with left hand and wipes it with a cloth in right hand before placing it down.",
+        "The person picks up a fork with left hand and scrubs it with a sponge in right hand before putting it down.",
+        "The person holds a knife with left hand and scrapes it clean with a brush in right hand before setting it aside.",
+        "The person picks up a bowl with left hand and rinses it with water from a jug in right hand before drying it off.",
+        "The person takes a plate with left hand and dusts it with a paper towel in right hand before putting it away."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person grabs a spoon with left hand and wipes it with a cloth in right hand before placing it down.\n(B) The person picks up a fork with left hand and scrubs it with a sponge in right hand before putting it down.\n(C) The person holds a knife with left hand and scrapes it clean with a brush in right hand before setting it aside.\n(D) The person picks up a bowl with left hand and rinses it with water from a jug in right hand before drying it off.\n(E) The person takes a plate with left hand and dusts it with a paper towel in right hand before putting it away.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person picks up a fork with left hand and scrubs it with a sponge in right hand before putting it down."
+    },
+    "correct_idx": [
+        1
+    ]
+}

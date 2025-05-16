@@ -1,0 +1,17 @@
+{
+    "question": "How does the person stick the piece of cloth?",
+    "options": [
+        "The person grabs the cloth and uses a spray adhesive, applying it across the entire surface with minimal precision.",
+        "The person takes out a tube of glue and applies it directly to the surface underneath the cloth instead of to the cloth itself.",
+        "The person holds the cloth with both hands and presses it onto a sticky pad instead of using an adhesive like a glue gun.",
+        "The person sticks the piece of cloth using a glue gun, squeezing the trigger gently and applying a thin line of glue to the cloth itself.",
+        "The person pours liquid glue over the cloth to allow it to soak in, rather than applying a thin line."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person stick the piece of cloth? Choose **only one** option from the following list.\nOptions:\n(A) The person grabs the cloth and uses a spray adhesive, applying it across the entire surface with minimal precision.\n(B) The person takes out a tube of glue and applies it directly to the surface underneath the cloth instead of to the cloth itself.\n(C) The person holds the cloth with both hands and presses it onto a sticky pad instead of using an adhesive like a glue gun.\n(D) The person sticks the piece of cloth using a glue gun, squeezing the trigger gently and applying a thin line of glue to the cloth itself.\n(E) The person pours liquid glue over the cloth to allow it to soak in, rather than applying a thin line.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person sticks the piece of cloth using a glue gun, squeezing the trigger gently and applying a thin line of glue to the cloth itself."
+    },
+    "correct_idx": [
+        3
+    ]
+}

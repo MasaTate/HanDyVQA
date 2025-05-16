@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "steering wheel",
+        "charger",
+        "side mirror",
+        "shift lever",
+        "windshield",
+        "road"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) steering wheel\n(B) charger\n(C) side mirror\n(D) shift lever\n(E) windshield\n(F) road\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(A) steering wheel\n(D) shift lever"
+    },
+    "correct_idx": [
+        0,
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the bowl change?",
+    "options": [
+        "The bowl was taken from the countertop, turned upside down, and wiped with a damp cloth.",
+        "The bowl was lifted from the countertop, rotated, and then placed back without wiping.",
+        "The bowl was taken from the countertop, rotated, and wiped using a clean dry cloth.",
+        "The bowl was picked up from the countertop, turned slightly, and wiped using a paper towel.",
+        "The bowl was taken off the countertop, rotated halfway, and dusted off with a dry cloth."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the bowl change? Choose **only one** option from the following list.\nOptions:\n(A) The bowl was taken from the countertop, turned upside down, and wiped with a damp cloth.\n(B) The bowl was lifted from the countertop, rotated, and then placed back without wiping.\n(C) The bowl was taken from the countertop, rotated, and wiped using a clean dry cloth.\n(D) The bowl was picked up from the countertop, turned slightly, and wiped using a paper towel.\n(E) The bowl was taken off the countertop, rotated halfway, and dusted off with a dry cloth.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The bowl was taken from the countertop, rotated, and wiped using a clean dry cloth."
+    },
+    "correct_idx": [
+        2
+    ]
+}

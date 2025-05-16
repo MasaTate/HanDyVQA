@@ -1,0 +1,17 @@
+{
+    "question": "How does the person transfer the charger?",
+    "options": [
+        "The person gently passes the charger from the right hand to the left hand by holding the cord first and then the adapter, without dropping it.",
+        "The person carefully transfers the charger from the right hand to the left hand while ensuring a proper grip.",
+        "The person cautiously moves the charger from the right hand to the left hand, managing its balance smoothly.",
+        "The person steadily shifts the charger from the right hand to the left hand, allowing for a secure hold by the cord.",
+        "The person hands over the charger to the left hand from the right hand without losing control or grip."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person transfer the charger? Choose **only one** option from the following list.\nOptions:\n(A) The person gently passes the charger from the right hand to the left hand by holding the cord first and then the adapter, without dropping it.\n(B) The person carefully transfers the charger from the right hand to the left hand while ensuring a proper grip.\n(C) The person cautiously moves the charger from the right hand to the left hand, managing its balance smoothly.\n(D) The person steadily shifts the charger from the right hand to the left hand, allowing for a secure hold by the cord.\n(E) The person hands over the charger to the left hand from the right hand without losing control or grip.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person steadily shifts the charger from the right hand to the left hand, allowing for a secure hold by the cord."
+    },
+    "correct_idx": [
+        0
+    ]
+}

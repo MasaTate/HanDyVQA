@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the pile of brick change?",
+    "options": [
+        "The pile of bricks was moved and put on top of the other pile of bricks.",
+        "The pile of bricks was moved and placed beside the other pile of bricks.",
+        "The pile of bricks was shifted and scattered next to the other pile of bricks.",
+        "The bricks were taken from the pile and stacked apart from the other pile of bricks.",
+        "The bricks from the pile were removed and lined up along the other pile of bricks."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the pile of brick change? Choose **only one** option from the following list.\nOptions:\n(A) The pile of bricks was moved and put on top of the other pile of bricks.\n(B) The pile of bricks was moved and placed beside the other pile of bricks.\n(C) The pile of bricks was shifted and scattered next to the other pile of bricks.\n(D) The bricks were taken from the pile and stacked apart from the other pile of bricks.\n(E) The bricks from the pile were removed and lined up along the other pile of bricks.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The pile of bricks was moved and placed beside the other pile of bricks."
+    },
+    "correct_idx": [
+        0
+    ]
+}

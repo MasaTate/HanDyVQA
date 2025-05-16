@@ -1,0 +1,17 @@
+{
+    "question": "How does the person scoop salt?",
+    "options": [
+        "The person dips the spoon into the salt container, tilting it slightly to scoop a portion of salt. Then, with a controlled upward motion, she lifts the spoon, ensuring a small amount of salt is gathered.",
+        "The person dips the spoon deep into the salt container and lifts it slightly upward, gathering some salt.",
+        "The person moves the spoon around in the salt container without tilting, obtaining a thin layer of salt on the spoon.",
+        "The person presses the spoon softly down against the bottom of the salt container and lifts it smoothly, causing salt to be collected.",
+        "The person places the spoon into the salt container and lifts it straight up, resulting in no salt being gathered."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person scoop salt? Choose **only one** option from the following list.\nOptions:\n(A) The person dips the spoon into the salt container, tilting it slightly to scoop a portion of salt. Then, with a controlled upward motion, she lifts the spoon, ensuring a small amount of salt is gathered.\n(B) The person dips the spoon deep into the salt container and lifts it slightly upward, gathering some salt.\n(C) The person moves the spoon around in the salt container without tilting, obtaining a thin layer of salt on the spoon.\n(D) The person presses the spoon softly down against the bottom of the salt container and lifts it smoothly, causing salt to be collected.\n(E) The person places the spoon into the salt container and lifts it straight up, resulting in no salt being gathered.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person dips the spoon into the salt container, tilting it slightly to scoop a portion of salt. Then, with a controlled upward motion, she lifts the spoon, ensuring a small amount of salt is gathered."
+    },
+    "correct_idx": [
+        0
+    ]
+}

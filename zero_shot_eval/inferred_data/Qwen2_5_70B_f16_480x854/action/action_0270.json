@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person lifts the bag with both hands while shaking it to empty the contents onto the table using the right hand; the left hand keeps the bag steady as it shakes.",
+        "The person holds the bag in one hand while tearing it open using the other hand; the contents spill out onto the floor without guidance.",
+        "The person presses down on the bag with one hand while using a spoon in the other hand to scoop the contents into a bowl.",
+        "The person squeezes the bag using both hands while pouring the content on the ground using the right hand; the left hand guides the content being poured using a stick.",
+        "The person closes the bag tightly with both hands to prevent the contents from spilling out, without any pouring action taking place."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person lifts the bag with both hands while shaking it to empty the contents onto the table using the right hand; the left hand keeps the bag steady as it shakes.\n(B) The person holds the bag in one hand while tearing it open using the other hand; the contents spill out onto the floor without guidance.\n(C) The person presses down on the bag with one hand while using a spoon in the other hand to scoop the contents into a bowl.\n(D) The person squeezes the bag using both hands while pouring the content on the ground using the right hand; the left hand guides the content being poured using a stick.\n(E) The person closes the bag tightly with both hands to prevent the contents from spilling out, without any pouring action taking place.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person squeezes the bag using both hands while pouring the content on the ground using the right hand; the left hand guides the content being poured using a stick."
+    },
+    "correct_idx": [
+        3
+    ]
+}

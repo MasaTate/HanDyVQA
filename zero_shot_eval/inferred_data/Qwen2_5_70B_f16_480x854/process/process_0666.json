@@ -1,0 +1,17 @@
+{
+    "question": "How does the person dip the paintbrush?",
+    "options": [
+        "The person tilts the paintbrush slightly and slowly dips the bristles into the paint.",
+        "The person holds the paintbrush vertically and gently lowers the bristles into the paint.",
+        "The person holds the paintbrush horizontally and smoothly moves the bristles across the surface of the paint.",
+        "The person holds the paintbrush closely above the paint and eases the bristles gently downward.",
+        "The person places the paintbrush flat on the table and slowly rolls it into the paint."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person dip the paintbrush? Choose **only one** option from the following list.\nOptions:\n(A) The person tilts the paintbrush slightly and slowly dips the bristles into the paint.\n(B) The person holds the paintbrush vertically and gently lowers the bristles into the paint.\n(C) The person holds the paintbrush horizontally and smoothly moves the bristles across the surface of the paint.\n(D) The person holds the paintbrush closely above the paint and eases the bristles gently downward.\n(E) The person places the paintbrush flat on the table and slowly rolls it into the paint.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person holds the paintbrush closely above the paint and eases the bristles gently downward."
+    },
+    "correct_idx": [
+        1
+    ]
+}

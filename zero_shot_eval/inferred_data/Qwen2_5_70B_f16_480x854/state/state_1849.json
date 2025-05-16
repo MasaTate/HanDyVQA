@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the railing change?",
+    "options": [
+        "The railing was sanded, causing a change in texture as its surface became smoother.",
+        "The railing was painted, causing a change in surface as it became more vibrant.",
+        "The railing was replaced, resulting in a change in structure as it became entirely new.",
+        "The railing was weathered, resulting in a change in appearance as it developed a rustic patina.",
+        "The railing was reinforced, causing a change in stability as it became more secure."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the railing change? Choose **only one** option from the following list.\nOptions:\n(A) The railing was sanded, causing a change in texture as its surface became smoother.\n(B) The railing was painted, causing a change in surface as it became more vibrant.\n(C) The railing was replaced, resulting in a change in structure as it became entirely new.\n(D) The railing was weathered, resulting in a change in appearance as it developed a rustic patina.\n(E) The railing was reinforced, causing a change in stability as it became more secure.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The railing was sanded, causing a change in texture as its surface became smoother."
+    },
+    "correct_idx": [
+        0
+    ]
+}

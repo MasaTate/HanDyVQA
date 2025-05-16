@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the mesh bowl?",
+    "options": [
+        "The person put the mesh bowl on the top of the saucepan.",
+        "The person put the mesh bowl on the bottom of the saucepan.",
+        "The person put the mesh bowl on the side of the saucepan.",
+        "The person put the mesh bowl on the edge of the countertop next to the saucepan.",
+        "The person put the mesh bowl inside the saucepan."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the mesh bowl? Choose **only one** option from the following list.\nOptions:\n(A) The person put the mesh bowl on the top of the saucepan.\n(B) The person put the mesh bowl on the bottom of the saucepan.\n(C) The person put the mesh bowl on the side of the saucepan.\n(D) The person put the mesh bowl on the edge of the countertop next to the saucepan.\n(E) The person put the mesh bowl inside the saucepan.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person put the mesh bowl on the edge of the countertop next to the saucepan."
+    },
+    "correct_idx": [
+        0
+    ]
+}

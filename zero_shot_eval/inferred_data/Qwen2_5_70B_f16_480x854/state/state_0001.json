@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the book change?",
+    "options": [
+        "The book was opened just beyond a certain angle.",
+        "The book was opened to a certain angle.",
+        "The book was held closed without any opening.",
+        "The book was partially opened and then quickly closed.",
+        "The book was opened to an angle and then set flat."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the book change? Choose **only one** option from the following list.\nOptions:\n(A) The book was opened just beyond a certain angle.\n(B) The book was opened to a certain angle.\n(C) The book was held closed without any opening.\n(D) The book was partially opened and then quickly closed.\n(E) The book was opened to an angle and then set flat.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The book was held closed without any opening."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person transfer the bowl?",
+    "options": [
+        "The person carefully holds the bowl with both hands from the bottom, lifting it gently upward.",
+        "The person holds the bowl with the left hand at the rim and moves it outward, while the right hand gently guides it.",
+        "The person grips the upper part of the bowl with the right hand to move it left. The left hand takes the bowl from the bottom and moves it right, where the right hand grips the top again.",
+        "The person uses just the right hand to lift the bowl from the middle, tilting it as they move it to the left.",
+        "The person holds the bowl with both hands at the sides and rotates it gently instead of moving it horizontally."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person transfer the bowl? Choose **only one** option from the following list.\nOptions:\n(A) The person carefully holds the bowl with both hands from the bottom, lifting it gently upward.\n(B) The person holds the bowl with the left hand at the rim and moves it outward, while the right hand gently guides it.\n(C) The person grips the upper part of the bowl with the right hand to move it left. The left hand takes the bowl from the bottom and moves it right, where the right hand grips the top again.\n(D) The person uses just the right hand to lift the bowl from the middle, tilting it as they move it to the left.\n(E) The person holds the bowl with both hands at the sides and rotates it gently instead of moving it horizontally.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person uses just the right hand to lift the bowl from the middle, tilting it as they move it to the left."
+    },
+    "correct_idx": [
+        2
+    ]
+}

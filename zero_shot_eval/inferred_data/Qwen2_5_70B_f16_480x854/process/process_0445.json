@@ -1,0 +1,17 @@
+{
+    "question": "How does the person leave hand off the tool?",
+    "options": [
+        "The person loosens his hold on the tool with his left hand and extends it sideways with an open palm.",
+        "The person lets go of the tool gently with his right hand while moving it slightly towards himself.",
+        "The person releases the tool with a relaxed grip in his left hand, allowing it to drop smoothly down.",
+        "The person carefully rolls the tool off the fingertips of his right hand while gently raising his hand.",
+        "The person steadies the tool with both hands before smoothly guiding it off the edge of the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person leave hand off the tool? Choose **only one** option from the following list.\nOptions:\n(A) The person loosens his hold on the tool with his left hand and extends it sideways with an open palm.\n(B) The person lets go of the tool gently with his right hand while moving it slightly towards himself.\n(C) The person releases the tool with a relaxed grip in his left hand, allowing it to drop smoothly down.\n(D) The person carefully rolls the tool off the fingertips of his right hand while gently raising his hand.\n(E) The person steadies the tool with both hands before smoothly guiding it off the edge of the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person loosens his hold on the tool with his left hand and extends it sideways with an open palm."
+    },
+    "correct_idx": [
+        0
+    ]
+}

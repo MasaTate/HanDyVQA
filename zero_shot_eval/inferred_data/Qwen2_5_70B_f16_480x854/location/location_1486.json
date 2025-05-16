@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the right hand?",
+    "options": [
+        "The person placed his right hand on the bolt, nut, and onto the surface he was trying to secure.",
+        "The person placed his right hand on the screw, washer, and onto the wood he was trying to attach.",
+        "The person placed his right hand on the screw, bracket, and onto the metal sheet he was trying to fasten.",
+        "The person placed his right hand on the nail, plate, and onto the cardboard he was attempting to join.",
+        "The person placed his right hand on the screw, clip, and onto the table he was working on."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person placed his right hand on the bolt, nut, and onto the surface he was trying to secure.\n(B) The person placed his right hand on the screw, washer, and onto the wood he was trying to attach.\n(C) The person placed his right hand on the screw, bracket, and onto the metal sheet he was trying to fasten.\n(D) The person placed his right hand on the nail, plate, and onto the cardboard he was attempting to join.\n(E) The person placed his right hand on the screw, clip, and onto the table he was working on.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person placed his right hand on the screw, washer, and onto the wood he was trying to attach."
+    },
+    "correct_idx": [
+        1
+    ]
+}

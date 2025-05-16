@@ -1,0 +1,17 @@
+{
+    "question": "How does the person turn the crampon plate?",
+    "options": [
+        "The person twists the crampon plate smoothly with both hands, gently gripping the edges and applying slight pressure with little guidance on the middle part.",
+        "The person moves the crampon plate by sliding it along a surface with their right hand while slightly lifting the other end with the left hand.",
+        "The person rolls the crampon plate over using mainly the fingertips of the right hand, with minimal stabilization from the left hand.",
+        "The person taps the crampon plate lightly on the table with one hand while attempting to rotate it, which causes it to shift subtly instead of turning smoothly.",
+        "The person flips the crampon plate by attaching it to another one, then turns the one at the lower part while the left hand is guiding the middle part of the crampon plate."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person turn the crampon plate? Choose **only one** option from the following list.\nOptions:\n(A) The person twists the crampon plate smoothly with both hands, gently gripping the edges and applying slight pressure with little guidance on the middle part.\n(B) The person moves the crampon plate by sliding it along a surface with their right hand while slightly lifting the other end with the left hand.\n(C) The person rolls the crampon plate over using mainly the fingertips of the right hand, with minimal stabilization from the left hand.\n(D) The person taps the crampon plate lightly on the table with one hand while attempting to rotate it, which causes it to shift subtly instead of turning smoothly.\n(E) The person flips the crampon plate by attaching it to another one, then turns the one at the lower part while the left hand is guiding the middle part of the crampon plate.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person twists the crampon plate smoothly with both hands, gently gripping the edges and applying slight pressure with little guidance on the middle part."
+    },
+    "correct_idx": [
+        4
+    ]
+}

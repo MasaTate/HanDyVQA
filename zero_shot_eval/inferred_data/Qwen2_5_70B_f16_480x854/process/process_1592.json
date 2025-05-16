@@ -1,0 +1,17 @@
+{
+    "question": "How does the person cover the plate?",
+    "options": [
+        "The person uses their left hand to hold the lid, placing it over the plate and then carefully lowering it to cover the plate.",
+        "The person holds the lid using both hands, bringing it close to the plate and then setting it down gently.",
+        "The person uses their right hand to hold the edge of the lid, moving it toward the plate before placing it securely on top.",
+        "The person grasps the lid with their fingers and carefully places it on the plate, letting it rest smoothly.",
+        "The person reaches across the table with their right hand and positions the lid slightly off-center on the plate."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person cover the plate? Choose **only one** option from the following list.\nOptions:\n(A) The person uses their left hand to hold the lid, placing it over the plate and then carefully lowering it to cover the plate.\n(B) The person holds the lid using both hands, bringing it close to the plate and then setting it down gently.\n(C) The person uses their right hand to hold the edge of the lid, moving it toward the plate before placing it securely on top.\n(D) The person grasps the lid with their fingers and carefully places it on the plate, letting it rest smoothly.\n(E) The person reaches across the table with their right hand and positions the lid slightly off-center on the plate.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person uses their right hand to hold the edge of the lid, moving it toward the plate before placing it securely on top."
+    },
+    "correct_idx": [
+        0
+    ]
+}

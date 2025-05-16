@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is using both hands to open the bag and take off the shoes.",
+        "The person is using one hand to hold the bag while tying the shoelaces with the other hand.",
+        "The person is using both hands to fold the bag and adjust the shoes on the floor.",
+        "The person is using both hands to tighten the straps of the bag and pull off the shoes.",
+        "The person is using both hands to zip the bag and put on the shoes."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is using both hands to open the bag and take off the shoes.\n(B) The person is using one hand to hold the bag while tying the shoelaces with the other hand.\n(C) The person is using both hands to fold the bag and adjust the shoes on the floor.\n(D) The person is using both hands to tighten the straps of the bag and pull off the shoes.\n(E) The person is using both hands to zip the bag and put on the shoes.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person is using both hands to zip the bag and put on the shoes."
+    },
+    "correct_idx": [
+        4
+    ]
+}

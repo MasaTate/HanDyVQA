@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the blue spray on a stool?",
+    "options": [
+        "The person drops the blue spray bottle on the middle of the stool next to the motorcycle.",
+        "The person drops the blue spray bottle on the edge of the stool farthest from the motorcycle.",
+        "The person drops the blue spray bottle on the side of the stool closest to the wall.",
+        "The person drops the blue spray bottle on the top left corner of the stool next to the motorcycle.",
+        "The person drops the blue spray bottle on the bottom of the stool beneath the motorcycle."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the blue spray on a stool? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the blue spray bottle on the middle of the stool next to the motorcycle.\n(B) The person drops the blue spray bottle on the edge of the stool farthest from the motorcycle.\n(C) The person drops the blue spray bottle on the side of the stool closest to the wall.\n(D) The person drops the blue spray bottle on the top left corner of the stool next to the motorcycle.\n(E) The person drops the blue spray bottle on the bottom of the stool beneath the motorcycle.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person drops the blue spray bottle on the top left corner of the stool next to the motorcycle."
+    },
+    "correct_idx": [
+        0
+    ]
+}

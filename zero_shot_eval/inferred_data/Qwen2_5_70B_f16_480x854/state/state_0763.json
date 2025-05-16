@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the table change?",
+    "options": [
+        "The table was touched by the left hand but didn't become clearer because the scattered flour was spread further.",
+        "The table was touched by the left hand but didn't become clearer as the flour pattern was merely disturbed.",
+        "The table was touched by the left hand but didn't become clearer because the scattered flour was not wiped away.",
+        "The table was touched by the left hand but didn't become clearer since the flour was simply patted.",
+        "The table was touched by the left hand but didn't become clearer as only the edges of the flour pattern shifted."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the table change? Choose **only one** option from the following list.\nOptions:\n(A) The table was touched by the left hand but didn't become clearer because the scattered flour was spread further.\n(B) The table was touched by the left hand but didn't become clearer as the flour pattern was merely disturbed.\n(C) The table was touched by the left hand but didn't become clearer because the scattered flour was not wiped away.\n(D) The table was touched by the left hand but didn't become clearer since the flour was simply patted.\n(E) The table was touched by the left hand but didn't become clearer as only the edges of the flour pattern shifted.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The table was touched by the left hand but didn't become clearer because the scattered flour was not wiped away."
+    },
+    "correct_idx": [
+        2
+    ]
+}

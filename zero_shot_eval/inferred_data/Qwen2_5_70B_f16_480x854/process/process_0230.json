@@ -1,0 +1,17 @@
+{
+    "question": "How does the person insert the bolt?",
+    "options": [
+        "The person grips the bolt firmly with both hands and tries to insert it into the hole, without aligning it precisely.",
+        "The person holds the bolt in his right hand, carefully positions it over the threaded hole on the bike handle, and screws it in by rotating it clockwise.",
+        "The person balances the bolt on the edge of the hole and taps it with a hammer instead of using a rotating motion.",
+        "The person holds the bolt between his fingers and lets it drop into the hole instead of screwing it in.",
+        "The person holds the bolt in his left hand, carefully positions it over the threaded hole on the bike handle, and screws it in by rotating it counterclockwise."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person insert the bolt? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the bolt firmly with both hands and tries to insert it into the hole, without aligning it precisely.\n(B) The person holds the bolt in his right hand, carefully positions it over the threaded hole on the bike handle, and screws it in by rotating it clockwise.\n(C) The person balances the bolt on the edge of the hole and taps it with a hammer instead of using a rotating motion.\n(D) The person holds the bolt between his fingers and lets it drop into the hole instead of screwing it in.\n(E) The person holds the bolt in his left hand, carefully positions it over the threaded hole on the bike handle, and screws it in by rotating it counterclockwise.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person holds the bolt in his right hand, carefully positions it over the threaded hole on the bike handle, and screws it in by rotating it clockwise."
+    },
+    "correct_idx": [
+        1
+    ]
+}

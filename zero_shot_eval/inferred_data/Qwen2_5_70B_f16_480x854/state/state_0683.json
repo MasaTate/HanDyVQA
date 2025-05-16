@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a cup change?",
+    "options": [
+        "The cup was turned upside down and placed back on the surface.",
+        "The cup was filled with hot liquid and then placed on the table.",
+        "The cup was tipped over, spilling its contents onto the floor.",
+        "The cup was lifted off the surface and raised towards the mouth.",
+        "The cup was stacked inside another cup, forming a two-cup tower."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a cup change? Choose **only one** option from the following list.\nOptions:\n(A) The cup was turned upside down and placed back on the surface.\n(B) The cup was filled with hot liquid and then placed on the table.\n(C) The cup was tipped over, spilling its contents onto the floor.\n(D) The cup was lifted off the surface and raised towards the mouth.\n(E) The cup was stacked inside another cup, forming a two-cup tower.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The cup was lifted off the surface and raised towards the mouth."
+    },
+    "correct_idx": [
+        3
+    ]
+}

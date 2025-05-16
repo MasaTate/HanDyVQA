@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the second brake pad change?",
+    "options": [
+        "The second brake pad was lifted from the bench and placed into the brake caliper after being rotated.",
+        "The second brake pad was placed on his thigh but remained outside the brake caliper.",
+        "The second brake pad was gripped and positioned beside the brake caliper without being added.",
+        "The second brake pad was lifted from his thigh and added into the brake caliper.",
+        "The second brake pad was lifted from his thigh and placed on the table before being inserted into the brake caliper."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the second brake pad change? Choose **only one** option from the following list.\nOptions:\n(A) The second brake pad was lifted from the bench and placed into the brake caliper after being rotated.\n(B) The second brake pad was placed on his thigh but remained outside the brake caliper.\n(C) The second brake pad was gripped and positioned beside the brake caliper without being added.\n(D) The second brake pad was lifted from his thigh and added into the brake caliper.\n(E) The second brake pad was lifted from his thigh and placed on the table before being inserted into the brake caliper.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The second brake pad was lifted from his thigh and added into the brake caliper."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person wear the glove?",
+    "options": [
+        "The person puts on the glove by sliding his hand in quickly, focusing more on speed than aligning the fingers well.",
+        "The person carefully fits the glove over his hand, adjusting as needed rather than starting from the fingertips.",
+        "The person starts putting the glove on by adjusting the wrist area, which may lead to fingers being slightly out of place.",
+        "The person puts on the glove by sliding his hands, and fingers are aligned with the glove's finger compartments.",
+        "The person moves the glove around slightly before putting it on, resulting in the fingers being a bit misaligned."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person wear the glove? Choose **only one** option from the following list.\nOptions:\n(A) The person puts on the glove by sliding his hand in quickly, focusing more on speed than aligning the fingers well.\n(B) The person carefully fits the glove over his hand, adjusting as needed rather than starting from the fingertips.\n(C) The person starts putting the glove on by adjusting the wrist area, which may lead to fingers being slightly out of place.\n(D) The person puts on the glove by sliding his hands, and fingers are aligned with the glove's finger compartments.\n(E) The person moves the glove around slightly before putting it on, resulting in the fingers being a bit misaligned.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person carefully fits the glove over his hand, adjusting as needed rather than starting from the fingertips."
+    },
+    "correct_idx": [
+        3
+    ]
+}

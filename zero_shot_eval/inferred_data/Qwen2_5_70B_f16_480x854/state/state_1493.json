@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the pliers change?",
+    "options": [
+        "The pliers were turned upside down in the same hand, changing their orientation.",
+        "The pliers were opened while held in the right hand, affecting their grip.",
+        "The pliers were held on a surface, changing their stability.",
+        "The pliers were dropped from the left hand, altering their location.",
+        "The pliers were moved from the right hand to the left hand, altering their position."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the pliers change? Choose **only one** option from the following list.\nOptions:\n(A) The pliers were turned upside down in the same hand, changing their orientation.\n(B) The pliers were opened while held in the right hand, affecting their grip.\n(C) The pliers were held on a surface, changing their stability.\n(D) The pliers were dropped from the left hand, altering their location.\n(E) The pliers were moved from the right hand to the left hand, altering their position.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The pliers were moved from the right hand to the left hand, altering their position."
+    },
+    "correct_idx": [
+        4
+    ]
+}

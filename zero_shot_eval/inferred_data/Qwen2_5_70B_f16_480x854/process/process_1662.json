@@ -1,0 +1,17 @@
+{
+    "question": "How does the person place the spanner?",
+    "options": [
+        "The person placed the spanner on the ground using his left hand with minimal effort.",
+        "The person moved the spanner on the top of the lawn mower using his right hand while using another spanner.",
+        "The person carefully positioned the spanner on the edge of a shelf with his right hand.",
+        "The person set the spanner into a toolbox with both hands, letting it rest inside.",
+        "The person held the spanner in his hand and extended his arm to position it in the garage."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person place the spanner? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the spanner on the ground using his left hand with minimal effort.\n(B) The person moved the spanner on the top of the lawn mower using his right hand while using another spanner.\n(C) The person carefully positioned the spanner on the edge of a shelf with his right hand.\n(D) The person set the spanner into a toolbox with both hands, letting it rest inside.\n(E) The person held the spanner in his hand and extended his arm to position it in the garage.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person moved the spanner on the top of the lawn mower using his right hand while using another spanner."
+    },
+    "correct_idx": [
+        1
+    ]
+}

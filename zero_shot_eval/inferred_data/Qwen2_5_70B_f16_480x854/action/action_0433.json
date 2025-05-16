@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is holding the cover panel of the case with his left hand while holding the screwdriver with his right hand.",
+        "The person is lifting the case with his left hand while using a tool with his right hand to adjust the bolts.",
+        "The person is pushing the cover panel of the case with his left hand while holding a tool in his right hand.",
+        "The person is removing the screw from the case with his right hand while holding a tool in his left hand.",
+        "The person is balancing the case on his left hand while using a tool with his right hand to handle a cable."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is holding the cover panel of the case with his left hand while holding the screwdriver with his right hand.\n(B) The person is lifting the case with his left hand while using a tool with his right hand to adjust the bolts.\n(C) The person is pushing the cover panel of the case with his left hand while holding a tool in his right hand.\n(D) The person is removing the screw from the case with his right hand while holding a tool in his left hand.\n(E) The person is balancing the case on his left hand while using a tool with his right hand to handle a cable.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person is holding the cover panel of the case with his left hand while holding the screwdriver with his right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

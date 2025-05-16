@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person brushes off sugar from the countertop with his right hand.",
+        "The person pushes scattered baking powder across the surface with his right hand.",
+        "The person gathers dough from the table using his right hand.",
+        "The person swipes away the flour from the table with his right hand and then picks up the Tupperware.",
+        "The person spreads icing across the counter with his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person brushes off sugar from the countertop with his right hand.\n(B) The person pushes scattered baking powder across the surface with his right hand.\n(C) The person gathers dough from the table using his right hand.\n(D) The person swipes away the flour from the table with his right hand and then picks up the Tupperware.\n(E) The person spreads icing across the counter with his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person swipes away the flour from the table with his right hand and then picks up the Tupperware."
+    },
+    "correct_idx": [
+        3
+    ]
+}

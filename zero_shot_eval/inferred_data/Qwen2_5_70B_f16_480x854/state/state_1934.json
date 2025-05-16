@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the food change?",
+    "options": [
+        "The food was heated, and its ingredients became warm and slightly softened.",
+        "The food was baked, resulting in a firm outer crust while the inside remained moist.",
+        "The food was blended, transforming its texture into a smooth puree without any chunks.",
+        "The food was seasoned, enhancing its flavor profile but not altering its texture.",
+        "The food was stirred, and its ingredients became more evenly mixed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the food change? Choose **only one** option from the following list.\nOptions:\n(A) The food was heated, and its ingredients became warm and slightly softened.\n(B) The food was baked, resulting in a firm outer crust while the inside remained moist.\n(C) The food was blended, transforming its texture into a smooth puree without any chunks.\n(D) The food was seasoned, enhancing its flavor profile but not altering its texture.\n(E) The food was stirred, and its ingredients became more evenly mixed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The food was stirred, and its ingredients became more evenly mixed."
+    },
+    "correct_idx": [
+        4
+    ]
+}

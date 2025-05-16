@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the carton?",
+    "options": [
+        "The person hands the carton to the boy sitting across from him.",
+        "The person places the carton on the table in front of the girl.",
+        "The person passes the carton to the man standing behind him.",
+        "The person puts the carton on the shelf above the girl's seat.",
+        "The person gives the carton to the girl sitting next to him."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the carton? Choose **only one** option from the following list.\nOptions:\n(A) The person hands the carton to the boy sitting across from him.\n(B) The person places the carton on the table in front of the girl.\n(C) The person passes the carton to the man standing behind him.\n(D) The person puts the carton on the shelf above the girl's seat.\n(E) The person gives the carton to the girl sitting next to him.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person gives the carton to the girl sitting next to him."
+    },
+    "correct_idx": [
+        4
+    ]
+}

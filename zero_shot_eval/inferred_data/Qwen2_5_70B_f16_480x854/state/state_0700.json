@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the tissue paper change?",
+    "options": [
+        "The tissue paper was folded carefully and placed under the lid.",
+        "The tissue paper was torn into pieces and placed on the lid.",
+        "The tissue paper was crumpled using both hands and put on the lid.",
+        "The tissue paper was flattened using both hands and put beside the lid.",
+        "The tissue paper was rolled into a ball and placed above the lid."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the tissue paper change? Choose **only one** option from the following list.\nOptions:\n(A) The tissue paper was folded carefully and placed under the lid.\n(B) The tissue paper was torn into pieces and placed on the lid.\n(C) The tissue paper was crumpled using both hands and put on the lid.\n(D) The tissue paper was flattened using both hands and put beside the lid.\n(E) The tissue paper was rolled into a ball and placed above the lid.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The tissue paper was crumpled using both hands and put on the lid."
+    },
+    "correct_idx": [
+        2
+    ]
+}

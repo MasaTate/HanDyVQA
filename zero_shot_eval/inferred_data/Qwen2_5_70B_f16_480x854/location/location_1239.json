@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move a hose?",
+    "options": [
+        "The person moves the hose to the right side.",
+        "The person moves the hose to the back side.",
+        "The person moves the hose to the front side.",
+        "The person moves the hose to the bottom side.",
+        "The person move the hose to the left side."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move a hose? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the hose to the right side.\n(B) The person moves the hose to the back side.\n(C) The person moves the hose to the front side.\n(D) The person moves the hose to the bottom side.\n(E) The person move the hose to the left side.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person move the hose to the left side."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the glue gun change?",
+    "options": [
+        "The glue gun was set down, resulting in a change in position as it was placed on the table.",
+        "The glue gun was turned upside down, causing a change in position as it flipped over.",
+        "The glue gun was pushed forward, leading to a change in position as it was moved across the workspace.",
+        "The glue gun was slightly lifted, causing a change in position as it was raised slightly.",
+        "The glue gun was tilted to the side, which caused a change in position as it was angled."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the glue gun change? Choose **only one** option from the following list.\nOptions:\n(A) The glue gun was set down, resulting in a change in position as it was placed on the table.\n(B) The glue gun was turned upside down, causing a change in position as it flipped over.\n(C) The glue gun was pushed forward, leading to a change in position as it was moved across the workspace.\n(D) The glue gun was slightly lifted, causing a change in position as it was raised slightly.\n(E) The glue gun was tilted to the side, which caused a change in position as it was angled.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The glue gun was slightly lifted, causing a change in position as it was raised slightly."
+    },
+    "correct_idx": [
+        3
+    ]
+}

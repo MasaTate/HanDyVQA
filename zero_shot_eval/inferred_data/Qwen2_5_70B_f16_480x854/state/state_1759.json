@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the container change?",
+    "options": [
+        "The container was taken out of the cupboard and emptied of its contents.",
+        "The container was lifted off the table and turned upside down.",
+        "The container was moved to the counter and filled with grains.",
+        "The container was placed in the sink and filled with water.",
+        "The container was set on the floor and partially filled with ice."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the container change? Choose **only one** option from the following list.\nOptions:\n(A) The container was taken out of the cupboard and emptied of its contents.\n(B) The container was lifted off the table and turned upside down.\n(C) The container was moved to the counter and filled with grains.\n(D) The container was placed in the sink and filled with water.\n(E) The container was set on the floor and partially filled with ice.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The container was placed in the sink and filled with water."
+    },
+    "correct_idx": [
+        3
+    ]
+}

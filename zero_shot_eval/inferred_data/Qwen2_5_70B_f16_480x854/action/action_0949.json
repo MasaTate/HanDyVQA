@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person waves to someone with the right hand, moving up and down in a warm gesture. The fingers extend outward as if creating an inviting motion.",
+        "The person is saying goodbye to someone with both hands, raising them high in the air in a cheerful manner. The fingers spread slightly apart as if part of the farewell.",
+        "The person acknowledges someone with the left hand, making a brief side-to-side flick. The fingers curl loosely, creating a gentle fist as a sign of acknowledgement.",
+        "The person greets someone with both hands, pressing them together in a show of excitement. The fingers point outward as if to catch attention.",
+        "The person greets someone with the left hand, moving from left to right in a friendly wave. The fingers gently fold inward toward the palm as if signaling the end of the greeting."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person waves to someone with the right hand, moving up and down in a warm gesture. The fingers extend outward as if creating an inviting motion.\n(B) The person is saying goodbye to someone with both hands, raising them high in the air in a cheerful manner. The fingers spread slightly apart as if part of the farewell.\n(C) The person acknowledges someone with the left hand, making a brief side-to-side flick. The fingers curl loosely, creating a gentle fist as a sign of acknowledgement.\n(D) The person greets someone with both hands, pressing them together in a show of excitement. The fingers point outward as if to catch attention.\n(E) The person greets someone with the left hand, moving from left to right in a friendly wave. The fingers gently fold inward toward the palm as if signaling the end of the greeting.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person waves to someone with the right hand, moving up and down in a warm gesture. The fingers extend outward as if creating an inviting motion."
+    },
+    "correct_idx": [
+        4
+    ]
+}

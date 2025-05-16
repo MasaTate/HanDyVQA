@@ -1,0 +1,17 @@
+{
+    "question": "How does the person mark the wood?",
+    "options": [
+        "The person marks the wood in a downward direction using a pen with the left hand.",
+        "The person marks the wood with a pencil from left to right direction using the left hand.",
+        "The person marks the wood by gently tapping with a sharp object using the left hand.",
+        "The person marks the wood by tracing the surface with chalk held in the right hand.",
+        "The person marks the wood with a crayon from left to right direction using both hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person mark the wood? Choose **only one** option from the following list.\nOptions:\n(A) The person marks the wood in a downward direction using a pen with the left hand.\n(B) The person marks the wood with a pencil from left to right direction using the left hand.\n(C) The person marks the wood by gently tapping with a sharp object using the left hand.\n(D) The person marks the wood by tracing the surface with chalk held in the right hand.\n(E) The person marks the wood with a crayon from left to right direction using both hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person marks the wood with a pencil from left to right direction using the left hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

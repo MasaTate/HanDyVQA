@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the switch on the cooker change?",
+    "options": [
+        "The switch on the cooker was flipped upwards.",
+        "The switch on the cooker was pressed downwards.",
+        "The switch on the cooker was slid to the side.",
+        "The switch on the cooker was moved forward.",
+        "The switch on the cooker was rotated."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the switch on the cooker change? Choose **only one** option from the following list.\nOptions:\n(A) The switch on the cooker was flipped upwards.\n(B) The switch on the cooker was pressed downwards.\n(C) The switch on the cooker was slid to the side.\n(D) The switch on the cooker was moved forward.\n(E) The switch on the cooker was rotated.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The switch on the cooker was rotated."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the blue bucket change?",
+    "options": [
+        "The blue bucket was rinsed with water but was still gray.",
+        "The blue bucket was rinsed with water and turned from gray to blue.",
+        "The blue bucket was rinsed with water and turned from gray to a darker blue.",
+        "The blue bucket was rinsed with water but had streaks of gray remaining.",
+        "The blue bucket was rinsed with water and turned from gray to a light blue."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the blue bucket change? Choose **only one** option from the following list.\nOptions:\n(A) The blue bucket was rinsed with water but was still gray.\n(B) The blue bucket was rinsed with water and turned from gray to blue.\n(C) The blue bucket was rinsed with water and turned from gray to a darker blue.\n(D) The blue bucket was rinsed with water but had streaks of gray remaining.\n(E) The blue bucket was rinsed with water and turned from gray to a light blue.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The blue bucket was rinsed with water and turned from gray to a darker blue."
+    },
+    "correct_idx": [
+        1
+    ]
+}

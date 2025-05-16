@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person taps the egg in his/her right hand against the counter while the left hand is holding a whisk.",
+        "The person cracks the egg in his/her right hand against the bowl while the left hand is holding the bowl.",
+        "The person cracks the egg in his/her right hand into a pan while the left hand is holding an egg carton.",
+        "The person cracks the egg in his/her right hand onto the plate while using the left hand to steady the plate.",
+        "The person breaks the egg in his/her right hand over a frying pan while the left hand is holding a spatula."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person taps the egg in his/her right hand against the counter while the left hand is holding a whisk.\n(B) The person cracks the egg in his/her right hand against the bowl while the left hand is holding the bowl.\n(C) The person cracks the egg in his/her right hand into a pan while the left hand is holding an egg carton.\n(D) The person cracks the egg in his/her right hand onto the plate while using the left hand to steady the plate.\n(E) The person breaks the egg in his/her right hand over a frying pan while the left hand is holding a spatula.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person cracks the egg in his/her right hand against the bowl while the left hand is holding the bowl."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person smoothen the plywood edges of the plywood?",
+    "options": [
+        "The person holds the plywood with both hands for support while using a sanding block to smooth the edges in a steady back and forth motion.",
+        "The person holds the plywood with their left hand for support while using their right hand to smoothen the edges, sliding the knife downwards in a controlled motion.",
+        "The person places the plywood on a stable surface and uses gradual pressure to guide the knife along the edges carefully.",
+        "The person holds the plywood with their right hand while gently lifting the knife along the edges in a precise upward motion.",
+        "The person supports the plywood with their right hand while using their left hand to carefully move the knife across the edges with precision."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person smoothen the plywood edges of the plywood? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the plywood with both hands for support while using a sanding block to smooth the edges in a steady back and forth motion.\n(B) The person holds the plywood with their left hand for support while using their right hand to smoothen the edges, sliding the knife downwards in a controlled motion.\n(C) The person places the plywood on a stable surface and uses gradual pressure to guide the knife along the edges carefully.\n(D) The person holds the plywood with their right hand while gently lifting the knife along the edges in a precise upward motion.\n(E) The person supports the plywood with their right hand while using their left hand to carefully move the knife across the edges with precision.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person holds the plywood with both hands for support while using a sanding block to smooth the edges in a steady back and forth motion."
+    },
+    "correct_idx": [
+        1
+    ]
+}

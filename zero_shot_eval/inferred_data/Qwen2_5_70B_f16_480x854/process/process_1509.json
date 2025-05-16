@@ -1,0 +1,17 @@
+{
+    "question": "How does the person put the painting brush?",
+    "options": [
+        "The person moved the painting brush on the table by laying it down slowly using his right hand.",
+        "The person placed the painting brush on the table with a subtle motion from the left hand.",
+        "The person released the painting brush from the tip, allowing it to settle gently onto the surface.",
+        "The person guided the painting brush across the table with the palm of his hand, applying a gentle pressure.",
+        "The person rested the painting brush on the table's edge, using his fingertips from the right hand, before setting it down."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person put the painting brush? Choose **only one** option from the following list.\nOptions:\n(A) The person moved the painting brush on the table by laying it down slowly using his right hand.\n(B) The person placed the painting brush on the table with a subtle motion from the left hand.\n(C) The person released the painting brush from the tip, allowing it to settle gently onto the surface.\n(D) The person guided the painting brush across the table with the palm of his hand, applying a gentle pressure.\n(E) The person rested the painting brush on the table's edge, using his fingertips from the right hand, before setting it down.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person moved the painting brush on the table by laying it down slowly using his right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

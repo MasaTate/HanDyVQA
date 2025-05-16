@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the dress change?",
+    "options": [
+        "The dress was torn, resulting in frayed edges and separated fabric pieces.",
+        "The dress was sewn, and its fabric became joined with stitches.",
+        "The dress was dyed, changing its fabric color to a different shade.",
+        "The dress was cleaned, causing the fabric to become freshly laundered and pressed.",
+        "The dress was decorated, and embellishments were added to its surface."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the dress change? Choose **only one** option from the following list.\nOptions:\n(A) The dress was torn, resulting in frayed edges and separated fabric pieces.\n(B) The dress was sewn, and its fabric became joined with stitches.\n(C) The dress was dyed, changing its fabric color to a different shade.\n(D) The dress was cleaned, causing the fabric to become freshly laundered and pressed.\n(E) The dress was decorated, and embellishments were added to its surface.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The dress was sewn, and its fabric became joined with stitches."
+    },
+    "correct_idx": [
+        1
+    ]
+}

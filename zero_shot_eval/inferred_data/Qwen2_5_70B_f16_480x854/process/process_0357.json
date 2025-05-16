@@ -1,0 +1,17 @@
+{
+    "question": "How does the person dig the soil around the tomato?",
+    "options": [
+        "The person grips the metal tool firmly in his right hand, inserts its edge into the soil, and moves it back and forth to loosen the dirt.",
+        "The person pinches the metal tool lightly with his fingers, nudges it into the soil, and lifts it out while leaving the dirt mostly undisturbed.",
+        "The person holds the metal tool gently in both hands, presses it directly into the soil, and then removes it swiftly.",
+        "The person balances the metal tool on the edge of his left hand, tilts it slightly, and skim the surface of the soil rather than digging.",
+        "The person uses the metal tool securely with his right hand and places it vertically into the soil to press it deeper."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person dig the soil around the tomato? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the metal tool firmly in his right hand, inserts its edge into the soil, and moves it back and forth to loosen the dirt.\n(B) The person pinches the metal tool lightly with his fingers, nudges it into the soil, and lifts it out while leaving the dirt mostly undisturbed.\n(C) The person holds the metal tool gently in both hands, presses it directly into the soil, and then removes it swiftly.\n(D) The person balances the metal tool on the edge of his left hand, tilts it slightly, and skim the surface of the soil rather than digging.\n(E) The person uses the metal tool securely with his right hand and places it vertically into the soil to press it deeper.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person grips the metal tool firmly in his right hand, inserts its edge into the soil, and moves it back and forth to loosen the dirt."
+    },
+    "correct_idx": [
+        0
+    ]
+}

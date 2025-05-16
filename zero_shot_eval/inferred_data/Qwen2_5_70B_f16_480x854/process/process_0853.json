@@ -1,0 +1,17 @@
+{
+    "question": "How does the person clip the hair?",
+    "options": [
+        "The person clips the hair by closing the clip using her right hand and arranging it with her left hand.",
+        "The person secures the hair by using the clip with her left hand and gathering the hair back with her right hand.",
+        "The person adjusts the clip into place using her teeth, holding the hair back with her right hand.",
+        "The person holds the clip gently in her palm while both hands twist the hair around it.",
+        "The person steadies the clip on her fingers while trying to position it in the hair with her right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person clip the hair? Choose **only one** option from the following list.\nOptions:\n(A) The person clips the hair by closing the clip using her right hand and arranging it with her left hand.\n(B) The person secures the hair by using the clip with her left hand and gathering the hair back with her right hand.\n(C) The person adjusts the clip into place using her teeth, holding the hair back with her right hand.\n(D) The person holds the clip gently in her palm while both hands twist the hair around it.\n(E) The person steadies the clip on her fingers while trying to position it in the hair with her right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person clips the hair by closing the clip using her right hand and arranging it with her left hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

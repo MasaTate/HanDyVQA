@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a towel change?",
+    "options": [
+        "The towel changed position from the left to the right.",
+        "The towel changed from being rolled up to being laid flat.",
+        "The towel changed color from blue to red.",
+        "The towel changed texture from soft to rough.",
+        "The towel changed position from the right to the left."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a towel change? Choose **only one** option from the following list.\nOptions:\n(A) The towel changed position from the left to the right.\n(B) The towel changed from being rolled up to being laid flat.\n(C) The towel changed color from blue to red.\n(D) The towel changed texture from soft to rough.\n(E) The towel changed position from the right to the left.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The towel changed position from the right to the left."
+    },
+    "correct_idx": [
+        4
+    ]
+}

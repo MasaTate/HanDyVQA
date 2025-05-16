@@ -1,0 +1,17 @@
+{
+    "question": "How does the person sand the rail?",
+    "options": [
+        "The person sanded the rail by holding the sandpaper in one hand and gently rubbing it back and forth with the other.",
+        "The person sanded the rail by applying pressure evenly on a stationary piece of sandpaper while moving the rail over it.",
+        "The person sanded the rail by placing the sandpaper on a flat surface and carefully pressing the rail down onto it with up and down movements.",
+        "The person sanded the rail by scrubbing and swiping it back and forth with sandpaper.",
+        "The person sanded the rail by dragging the sandpaper along the top edge while occasionally lifting it off to check for smoothness."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person sand the rail? Choose **only one** option from the following list.\nOptions:\n(A) The person sanded the rail by holding the sandpaper in one hand and gently rubbing it back and forth with the other.\n(B) The person sanded the rail by applying pressure evenly on a stationary piece of sandpaper while moving the rail over it.\n(C) The person sanded the rail by placing the sandpaper on a flat surface and carefully pressing the rail down onto it with up and down movements.\n(D) The person sanded the rail by scrubbing and swiping it back and forth with sandpaper.\n(E) The person sanded the rail by dragging the sandpaper along the top edge while occasionally lifting it off to check for smoothness.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person sanded the rail by scrubbing and swiping it back and forth with sandpaper."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pick up a wooden stick from a shelf?",
+    "options": [
+        "The person grabs the wooden stick with his right hand, then flips the stick quickly with the help of his left hand.",
+        "The person reaches for the wooden stick with both hands, gently pulling it straight out of the shelf without any flipping motion.",
+        "The person uses the palm of his right hand to guide the wooden stick off the shelf, allowing it to slide down smoothly.",
+        "The person picks up the wooden stick using his left hand, holding it closely while lifting it upwards without any rotation.",
+        "The person nudges the wooden stick slightly with his fingers, letting it fall smoothly into his hand instead of lifting it directly."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pick up a wooden stick from a shelf? Choose **only one** option from the following list.\nOptions:\n(A) The person grabs the wooden stick with his right hand, then flips the stick quickly with the help of his left hand.\n(B) The person reaches for the wooden stick with both hands, gently pulling it straight out of the shelf without any flipping motion.\n(C) The person uses the palm of his right hand to guide the wooden stick off the shelf, allowing it to slide down smoothly.\n(D) The person picks up the wooden stick using his left hand, holding it closely while lifting it upwards without any rotation.\n(E) The person nudges the wooden stick slightly with his fingers, letting it fall smoothly into his hand instead of lifting it directly.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person reaches for the wooden stick with both hands, gently pulling it straight out of the shelf without any flipping motion."
+    },
+    "correct_idx": [
+        0
+    ]
+}

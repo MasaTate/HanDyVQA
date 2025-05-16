@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put trowel?",
+    "options": [
+        "The person put a trowel in his left hand.",
+        "The person put a trowel on his right hand.",
+        "The person put a trowel on the table beside him.",
+        "The person put a trowel in the pocket of his apron.",
+        "The person put a trowel between his fingers on his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put trowel? Choose **only one** option from the following list.\nOptions:\n(A) The person put a trowel in his left hand.\n(B) The person put a trowel on his right hand.\n(C) The person put a trowel on the table beside him.\n(D) The person put a trowel in the pocket of his apron.\n(E) The person put a trowel between his fingers on his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person put a trowel in his left hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person grab a package?",
+    "options": [
+        "The person stretches her right hand towards the package, then holds it with one hand while keeping the other hand by her side.",
+        "The person approaches the package with both hands but touches it briefly before pulling back.",
+        "The person uses her palms to slide the package towards her rather than grabbing it with her fingers.",
+        "The person reaches for the package with her left hand, then secures it with both hands by wrapping her fingers around it.",
+        "The person reaches out with one hand and gently pushes the package instead of properly grasping it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person grab a package? Choose **only one** option from the following list.\nOptions:\n(A) The person stretches her right hand towards the package, then holds it with one hand while keeping the other hand by her side.\n(B) The person approaches the package with both hands but touches it briefly before pulling back.\n(C) The person uses her palms to slide the package towards her rather than grabbing it with her fingers.\n(D) The person reaches for the package with her left hand, then secures it with both hands by wrapping her fingers around it.\n(E) The person reaches out with one hand and gently pushes the package instead of properly grasping it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person reaches for the package with her left hand, then secures it with both hands by wrapping her fingers around it."
+    },
+    "correct_idx": [
+        3
+    ]
+}

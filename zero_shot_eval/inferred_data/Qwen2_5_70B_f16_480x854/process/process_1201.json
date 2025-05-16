@@ -1,0 +1,17 @@
+{
+    "question": "How does the person disconnect a panel?",
+    "options": [
+        "The person disconnects a panel by gently pulling it using the right hands.",
+        "The person detaches the panel by softly pressing it with the left hand.",
+        "The person removes the panel by carefully rotating it with both hands.",
+        "The person pries the panel loose by softly holding it with the fingers of the right hand.",
+        "The person lifts the panel up using the fingers of the left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person disconnect a panel? Choose **only one** option from the following list.\nOptions:\n(A) The person disconnects a panel by gently pulling it using the right hands.\n(B) The person detaches the panel by softly pressing it with the left hand.\n(C) The person removes the panel by carefully rotating it with both hands.\n(D) The person pries the panel loose by softly holding it with the fingers of the right hand.\n(E) The person lifts the panel up using the fingers of the left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person removes the panel by carefully rotating it with both hands."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person rotate a knob with his left hand?",
+    "options": [
+        "The person grips the knob with his palm and gently pushes it downwards.",
+        "The person turns the knob using his right hand while the left hand remains still.",
+        "The person uses his left thumb and index finger to rotate the knob.",
+        "The person twists the knob with his left hand, using fingers other than the thumb or index finger.",
+        "The person slides his left hand smoothly along the surface of the knob without turning it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person rotate a knob with his left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the knob with his palm and gently pushes it downwards.\n(B) The person turns the knob using his right hand while the left hand remains still.\n(C) The person uses his left thumb and index finger to rotate the knob.\n(D) The person twists the knob with his left hand, using fingers other than the thumb or index finger.\n(E) The person slides his left hand smoothly along the surface of the knob without turning it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person uses his left thumb and index finger to rotate the knob."
+    },
+    "correct_idx": [
+        2
+    ]
+}

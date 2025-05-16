@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person pours water from the stainless steel bowl on the wet pair of sneakers and the wet black cloth with his right hand.",
+        "The person splashes a ceramic bowl of liquid onto the dry sneakers and a white towel with his right hand.",
+        "The person drips liquid from a plastic cup onto the soiled pair of shoes and the faded blue cloth with his right hand.",
+        "The person empties a glass jar of liquid over the muddy boots and a gray fabric with his right hand.",
+        "The person pours liquid from a metal container onto the clean sandals and a red rag with his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person pours water from the stainless steel bowl on the wet pair of sneakers and the wet black cloth with his right hand.\n(B) The person splashes a ceramic bowl of liquid onto the dry sneakers and a white towel with his right hand.\n(C) The person drips liquid from a plastic cup onto the soiled pair of shoes and the faded blue cloth with his right hand.\n(D) The person empties a glass jar of liquid over the muddy boots and a gray fabric with his right hand.\n(E) The person pours liquid from a metal container onto the clean sandals and a red rag with his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person pours water from the stainless steel bowl on the wet pair of sneakers and the wet black cloth with his right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

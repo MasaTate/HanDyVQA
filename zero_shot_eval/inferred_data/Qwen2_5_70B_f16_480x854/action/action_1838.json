@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person set the backpack down on the ground with his right hand and then he picked up a book with his left hand to read it.",
+        "The person positioned the bag on the counter with his right hand and then he moved the bag towards the edge using his left hand.",
+        "The person picked up the bag off the shelf with his right hand and then he held the bag in his left hand while adjusting his glasses.",
+        "The person grabbed the bag with his left hand and then he slid the bag across the table with his right hand to create space.",
+        "The person placed the bag in the basket with his right hand and then he lifted the basket to transfer it to the other side."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person set the backpack down on the ground with his right hand and then he picked up a book with his left hand to read it.\n(B) The person positioned the bag on the counter with his right hand and then he moved the bag towards the edge using his left hand.\n(C) The person picked up the bag off the shelf with his right hand and then he held the bag in his left hand while adjusting his glasses.\n(D) The person grabbed the bag with his left hand and then he slid the bag across the table with his right hand to create space.\n(E) The person placed the bag in the basket with his right hand and then he lifted the basket to transfer it to the other side.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person placed the bag in the basket with his right hand and then he lifted the basket to transfer it to the other side."
+    },
+    "correct_idx": [
+        4
+    ]
+}

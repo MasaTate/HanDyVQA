@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person scrubs the frying pan in the kitchen using a sponge in her right hand while rinsing it with water from her left hand.",
+        "The person is drying a frying pan at the kitchen table with a cloth in her right hand while holding the pan with her left hand.",
+        "The person washes the frying pan in the kitchen sink with the sponge in her right hand.",
+        "The person cleans the skillet in the kitchen sink using a pad in her right hand while holding the skillet with her left hand.",
+        "The person is stacking a frying pan on the drying rack in the kitchen using her right hand while steadying it with her left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person scrubs the frying pan in the kitchen using a sponge in her right hand while rinsing it with water from her left hand.\n(B) The person is drying a frying pan at the kitchen table with a cloth in her right hand while holding the pan with her left hand.\n(C) The person washes the frying pan in the kitchen sink with the sponge in her right hand.\n(D) The person cleans the skillet in the kitchen sink using a pad in her right hand while holding the skillet with her left hand.\n(E) The person is stacking a frying pan on the drying rack in the kitchen using her right hand while steadying it with her left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person cleans the skillet in the kitchen sink using a pad in her right hand while holding the skillet with her left hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

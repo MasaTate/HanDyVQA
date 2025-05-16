@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the books?",
+    "options": [
+        "The person moved the book to a place closer to the right on the shelf.",
+        "The person moved the book to a place just above on the same shelf.",
+        "The person moved the book to a place closer to the left on the shelf.",
+        "The person moved the book to a place below, one shelf down.",
+        "The person moved the book to the top shelf in the center."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the books? Choose **only one** option from the following list.\nOptions:\n(A) The person moved the book to a place closer to the right on the shelf.\n(B) The person moved the book to a place just above on the same shelf.\n(C) The person moved the book to a place closer to the left on the shelf.\n(D) The person moved the book to a place below, one shelf down.\n(E) The person moved the book to the top shelf in the center.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person moved the book to a place closer to the right on the shelf."
+    },
+    "correct_idx": [
+        2
+    ]
+}

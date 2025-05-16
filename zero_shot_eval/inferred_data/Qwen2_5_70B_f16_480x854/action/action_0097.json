@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person sprinkles sugar into the bowl with the spoon in her right hand while her left hand holds the container.",
+        "The person stirs the butter in a saucepan with the spoon in her right hand while her left hand holds the container.",
+        "The person spreads the butter on a slice of bread with the knife in her right hand while her left hand holds the slice.",
+        "The person measures flour into the bowl with the cup in her right hand while her left hand holds the container.",
+        "The person pours the butter into the sieve with the spoon in her right hand while her left hand holds the container."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person sprinkles sugar into the bowl with the spoon in her right hand while her left hand holds the container.\n(B) The person stirs the butter in a saucepan with the spoon in her right hand while her left hand holds the container.\n(C) The person spreads the butter on a slice of bread with the knife in her right hand while her left hand holds the slice.\n(D) The person measures flour into the bowl with the cup in her right hand while her left hand holds the container.\n(E) The person pours the butter into the sieve with the spoon in her right hand while her left hand holds the container.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person stirs the butter in a saucepan with the spoon in her right hand while her left hand holds the container."
+    },
+    "correct_idx": [
+        4
+    ]
+}

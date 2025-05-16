@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the phone pouch change?",
+    "options": [
+        "The phone pouch was unzipped partially and then set on a table.",
+        "The phone pouch was turned inside out and then placed into a pocket.",
+        "The phone pouch was fully closed and then gently shaken.",
+        "The phone pouch was taken off the phone and then laid flat on a surface.",
+        "The phone pouch was opened completely and then slowly folded back."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the phone pouch change? Choose **only one** option from the following list.\nOptions:\n(A) The phone pouch was unzipped partially and then set on a table.\n(B) The phone pouch was turned inside out and then placed into a pocket.\n(C) The phone pouch was fully closed and then gently shaken.\n(D) The phone pouch was taken off the phone and then laid flat on a surface.\n(E) The phone pouch was opened completely and then slowly folded back.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The phone pouch was unzipped partially and then set on a table."
+    },
+    "correct_idx": [
+        4
+    ]
+}

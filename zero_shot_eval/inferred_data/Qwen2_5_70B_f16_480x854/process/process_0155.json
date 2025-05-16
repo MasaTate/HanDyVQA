@@ -1,0 +1,17 @@
+{
+    "question": "How does the person adjust some mortar?",
+    "options": [
+        "The person scoops the mortar from the floor using a large trowel held in his left hand.",
+        "The person spreads the mortar around the bricks using his palm gently.",
+        "The person adjusts some mortar by removing the excess from the bricks with his left hand.",
+        "The person uses his fingers to adjust the mortar on the bricks carefully.",
+        "The person picks up the mortar using both hands and moves it carefully to a higher spot."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person adjust some mortar? Choose **only one** option from the following list.\nOptions:\n(A) The person scoops the mortar from the floor using a large trowel held in his left hand.\n(B) The person spreads the mortar around the bricks using his palm gently.\n(C) The person adjusts some mortar by removing the excess from the bricks with his left hand.\n(D) The person uses his fingers to adjust the mortar on the bricks carefully.\n(E) The person picks up the mortar using both hands and moves it carefully to a higher spot.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person uses his fingers to adjust the mortar on the bricks carefully."
+    },
+    "correct_idx": [
+        2
+    ]
+}

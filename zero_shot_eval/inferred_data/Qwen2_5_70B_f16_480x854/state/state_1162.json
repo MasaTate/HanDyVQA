@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the cord change?",
+    "options": [
+        "The cord was securely connected to the adapter, ensuring a stable power connection.",
+        "The cord was loosely wrapped around the adapter, allowing the potential for disconnection during use.",
+        "The cord was completely detached from the adapter, resulting in the loss of power connection.",
+        "The cord was frayed at the ends, compromising the ability to maintain a stable connection.",
+        "The cord was tangled around other objects, preventing contact with the adapter."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the cord change? Choose **only one** option from the following list.\nOptions:\n(A) The cord was securely connected to the adapter, ensuring a stable power connection.\n(B) The cord was loosely wrapped around the adapter, allowing the potential for disconnection during use.\n(C) The cord was completely detached from the adapter, resulting in the loss of power connection.\n(D) The cord was frayed at the ends, compromising the ability to maintain a stable connection.\n(E) The cord was tangled around other objects, preventing contact with the adapter.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The cord was securely connected to the adapter, ensuring a stable power connection."
+    },
+    "correct_idx": [
+        0
+    ]
+}

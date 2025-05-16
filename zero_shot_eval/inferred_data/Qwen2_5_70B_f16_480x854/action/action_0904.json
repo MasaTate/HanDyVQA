@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person lifts the bucket with his left hand and pours water from it using his right hand.",
+        "The person holds the bucket with his left hand while using his right hand to scoop sand from the bucket.",
+        "The person shifts the bucket away with his left hand while reaching for a brush with his right hand.",
+        "The person grabs the bucket with his left hand and dips his right hand inside the bucket.",
+        "The person shakes the bucket with his right hand and uses his left hand to grab a lid."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person lifts the bucket with his left hand and pours water from it using his right hand.\n(B) The person holds the bucket with his left hand while using his right hand to scoop sand from the bucket.\n(C) The person shifts the bucket away with his left hand while reaching for a brush with his right hand.\n(D) The person grabs the bucket with his left hand and dips his right hand inside the bucket.\n(E) The person shakes the bucket with his right hand and uses his left hand to grab a lid.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person grabs the bucket with his left hand and dips his right hand inside the bucket."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "dough",
+        "bucket",
+        "plastic jug",
+        "mixing machine",
+        "plastic container",
+        "mixing spatula"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) dough\n(B) bucket\n(C) plastic jug\n(D) mixing machine\n(E) plastic container\n(F) mixing spatula\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(A) The hands are using the dough, as they are seen kneading and manipulating it in the mixing bowl.\n(B) The hands are using the bucket, as they are seen transferring dough into and out of it.\n(F) The hands are using the mixing spatula, as they are seen using it to scrape the dough off the sides of the mixing bowl.\n\nAnswer format:\n(A) The hands are using the dough.\n(B) The hands are using the bucket.\n(F) The hands are using the mixing spatula."
+    },
+    "correct_idx": [
+        0,
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person roll a wire?",
+    "options": [
+        "The person twisted the wire clockwise with the left hand.",
+        "The person twisted the wire counterclockwise with the left hand.",
+        "The person unwound the wire pulling it straight with a gentle motion.",
+        "The person coiled the wire smoothly in a circular motion.",
+        "The person held one end of the wire steady while gently spinning it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person roll a wire? Choose **only one** option from the following list.\nOptions:\n(A) The person twisted the wire clockwise with the left hand.\n(B) The person twisted the wire counterclockwise with the left hand.\n(C) The person unwound the wire pulling it straight with a gentle motion.\n(D) The person coiled the wire smoothly in a circular motion.\n(E) The person held one end of the wire steady while gently spinning it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person twisted the wire counterclockwise with the left hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

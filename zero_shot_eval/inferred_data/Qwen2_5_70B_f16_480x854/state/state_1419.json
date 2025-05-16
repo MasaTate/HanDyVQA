@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the threaded needle change?",
+    "options": [
+        "The threaded needle was passed and the thread was removed.",
+        "The threaded needle was passed and the thread was knotted.",
+        "The threaded needle was passed and the thread was tightened.",
+        "The threaded needle was passed and the thread was fixed.",
+        "The threaded needle was passed and the thread was looped."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the threaded needle change? Choose **only one** option from the following list.\nOptions:\n(A) The threaded needle was passed and the thread was removed.\n(B) The threaded needle was passed and the thread was knotted.\n(C) The threaded needle was passed and the thread was tightened.\n(D) The threaded needle was passed and the thread was fixed.\n(E) The threaded needle was passed and the thread was looped.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The threaded needle was passed and the thread was tightened."
+    },
+    "correct_idx": [
+        3
+    ]
+}

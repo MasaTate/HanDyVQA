@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of some tokens change?",
+    "options": [
+        "The tokens were scattered across the table, and their positions were altered as they were moved with the right hand.",
+        "The tokens were flipped over, and their orientations were changed as they were turned with a single finger.",
+        "The tokens were grouped together, and their formation was restructured as they were gathered using both hands.",
+        "The tokens were stacked and their arrangement was altered as they were stacked using the left hand.",
+        "The tokens were registered into pairs, and their alignment was adjusted as they were organized using a finger."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of some tokens change? Choose **only one** option from the following list.\nOptions:\n(A) The tokens were scattered across the table, and their positions were altered as they were moved with the right hand.\n(B) The tokens were flipped over, and their orientations were changed as they were turned with a single finger.\n(C) The tokens were grouped together, and their formation was restructured as they were gathered using both hands.\n(D) The tokens were stacked and their arrangement was altered as they were stacked using the left hand.\n(E) The tokens were registered into pairs, and their alignment was adjusted as they were organized using a finger.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The tokens were scattered across the table, and their positions were altered as they were moved with the right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

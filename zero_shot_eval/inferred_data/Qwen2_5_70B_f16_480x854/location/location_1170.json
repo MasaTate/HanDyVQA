@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the brick?",
+    "options": [
+        "The person places the brick on the bottom left corner of the cemented bricks.",
+        "The person places the brick on the center left side of the cemented bricks.",
+        "The person place the brick on the top right corner of the cemented bricks.",
+        "The person places the brick on the top left corner of the cemented bricks.",
+        "The person places the brick on the bottom right corner of the cemented bricks."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the brick? Choose **only one** option from the following list.\nOptions:\n(A) The person places the brick on the bottom left corner of the cemented bricks.\n(B) The person places the brick on the center left side of the cemented bricks.\n(C) The person place the brick on the top right corner of the cemented bricks.\n(D) The person places the brick on the top left corner of the cemented bricks.\n(E) The person places the brick on the bottom right corner of the cemented bricks.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person places the brick on the top left corner of the cemented bricks."
+    },
+    "correct_idx": [
+        2
+    ]
+}

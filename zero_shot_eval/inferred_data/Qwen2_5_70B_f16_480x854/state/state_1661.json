@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a bag change?",
+    "options": [
+        "The bag was opened and its contents were rearranged, altering the organization of items inside.",
+        "The bag was slightly moved and its position changed when it was touched, shifting from one place to another.",
+        "The bag was filled with more items, increasing its weight and overall bulk.",
+        "The bag was partially unzipped, creating an opening while remaining mostly closed.",
+        "The bag was compressed into a smaller size, significantly reducing its volume."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a bag change? Choose **only one** option from the following list.\nOptions:\n(A) The bag was opened and its contents were rearranged, altering the organization of items inside.\n(B) The bag was slightly moved and its position changed when it was touched, shifting from one place to another.\n(C) The bag was filled with more items, increasing its weight and overall bulk.\n(D) The bag was partially unzipped, creating an opening while remaining mostly closed.\n(E) The bag was compressed into a smaller size, significantly reducing its volume.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The bag was slightly moved and its position changed when it was touched, shifting from one place to another."
+    },
+    "correct_idx": [
+        1
+    ]
+}

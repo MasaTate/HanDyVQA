@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person grips the chainsaw with both hands and then uses his left hand to push the branches away, before raising the chainsaw above his head.",
+        "The person is holding a lawn mower with both hands and uses his right hand to adjust the height while his left hand steadies the handle.",
+        "The person holds the chainsaw with both hands and then moves it sideways to trim the branches while using his right hand to guide the cut.",
+        "The person holds the chainsaw with both hands and then uses his right hand to lower the chainsaw and afterward, both hands grab the tree branches.",
+        "The person is gripping a hedge trimmer with both hands and then uses his left hand to pull down the branches while his right hand operates the trimmer."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the chainsaw with both hands and then uses his left hand to push the branches away, before raising the chainsaw above his head.\n(B) The person is holding a lawn mower with both hands and uses his right hand to adjust the height while his left hand steadies the handle.\n(C) The person holds the chainsaw with both hands and then moves it sideways to trim the branches while using his right hand to guide the cut.\n(D) The person holds the chainsaw with both hands and then uses his right hand to lower the chainsaw and afterward, both hands grab the tree branches.\n(E) The person is gripping a hedge trimmer with both hands and then uses his left hand to pull down the branches while his right hand operates the trimmer.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person holds the chainsaw with both hands and then uses his right hand to lower the chainsaw and afterward, both hands grab the tree branches."
+    },
+    "correct_idx": [
+        3
+    ]
+}

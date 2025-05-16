@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person lifts the plastic lid of the sauce container and sets it down.",
+        "The person twists open the plastic lid of the container and places it on the counter.",
+        "The person opens the plastic lid of the sauce container using her right hand and puts it aside.",
+        "The person removes the plastic covering of the sauce container and leaves it next to the food.",
+        "The person takes off the plastic cap of the container and holds it briefly."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person lifts the plastic lid of the sauce container and sets it down.\n(B) The person twists open the plastic lid of the container and places it on the counter.\n(C) The person opens the plastic lid of the sauce container using her right hand and puts it aside.\n(D) The person removes the plastic covering of the sauce container and leaves it next to the food.\n(E) The person takes off the plastic cap of the container and holds it briefly.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person opens the plastic lid of the sauce container using her right hand and puts it aside."
+    },
+    "correct_idx": [
+        2
+    ]
+}

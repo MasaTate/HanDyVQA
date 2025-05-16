@@ -1,0 +1,17 @@
+{
+    "question": "How does the person rinse the paint brush?",
+    "options": [
+        "The person swayed the paint brush back and forth gently in a bowl of water.",
+        "The person submerged the paint brush into the water, guiding it down smoothly.",
+        "The person flicked the paint brush in the water while holding it slightly firmly.",
+        "The person shook the paint brush above the glass, with water slightly splashing.",
+        "The person moved the paint brush in a circular motion with water in a glass."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person rinse the paint brush? Choose **only one** option from the following list.\nOptions:\n(A) The person swayed the paint brush back and forth gently in a bowl of water.\n(B) The person submerged the paint brush into the water, guiding it down smoothly.\n(C) The person flicked the paint brush in the water while holding it slightly firmly.\n(D) The person shook the paint brush above the glass, with water slightly splashing.\n(E) The person moved the paint brush in a circular motion with water in a glass.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person moved the paint brush in a circular motion with water in a glass."
+    },
+    "correct_idx": [
+        4
+    ]
+}

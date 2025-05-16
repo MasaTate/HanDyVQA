@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the laptop motherboard change?",
+    "options": [
+        "The laptop motherboard was touched by the tester.",
+        "The laptop motherboard was exposed to a varied configuration on the tester.",
+        "The laptop motherboard was examined with the tester in a limited capacity.",
+        "The laptop motherboard had contact with a tester.",
+        "The laptop motherboard was lightly contacted by the tester."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the laptop motherboard change? Choose **only one** option from the following list.\nOptions:\n(A) The laptop motherboard was touched by the tester.\n(B) The laptop motherboard was exposed to a varied configuration on the tester.\n(C) The laptop motherboard was examined with the tester in a limited capacity.\n(D) The laptop motherboard had contact with a tester.\n(E) The laptop motherboard was lightly contacted by the tester.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The laptop motherboard had contact with a tester."
+    },
+    "correct_idx": [
+        3
+    ]
+}

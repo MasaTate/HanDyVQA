@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the chopstick?",
+    "options": [
+        "The person put the chopstick to the left side at the bottom of the container.",
+        "The person put the chopstick at the center of the container.",
+        "The person put the chopstick to the right side at the bottom of the container.",
+        "The person put the chopstick to the right side at the top of the container.",
+        "The person put the chopstick to the left side at the top of the container."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the chopstick? Choose **only one** option from the following list.\nOptions:\n(A) The person put the chopstick to the left side at the bottom of the container.\n(B) The person put the chopstick at the center of the container.\n(C) The person put the chopstick to the right side at the bottom of the container.\n(D) The person put the chopstick to the right side at the top of the container.\n(E) The person put the chopstick to the left side at the top of the container.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person put the chopstick to the right side at the top of the container."
+    },
+    "correct_idx": [
+        3
+    ]
+}

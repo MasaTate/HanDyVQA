@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of an object on the table change?",
+    "options": [
+        "The hacksaw was repositioned on the table, and the metal object was covered with a cloth.",
+        "The hacksaw was placed on the table, and the metal object was brushed with a paintbrush.",
+        "The hacksaw was taken off the table, and the metal object was polished with a cloth.",
+        "The hacksaw was removed from the table, and the metal object was placed inside a box.",
+        "The hacksaw was laid flat on the table, and the metal object was scratched with a knife."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of an object on the table change? Choose **only one** option from the following list.\nOptions:\n(A) The hacksaw was repositioned on the table, and the metal object was covered with a cloth.\n(B) The hacksaw was placed on the table, and the metal object was brushed with a paintbrush.\n(C) The hacksaw was taken off the table, and the metal object was polished with a cloth.\n(D) The hacksaw was removed from the table, and the metal object was placed inside a box.\n(E) The hacksaw was laid flat on the table, and the metal object was scratched with a knife.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The hacksaw was taken off the table, and the metal object was polished with a cloth."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person shape styrofoam?",
+    "options": [
+        "The person tears pieces from the styrofoam using both hands, not focusing on any specific shaping tool.",
+        "The person cuts the styrofoam to shape it precisely using a nipper with the right hand while holding tightly the shaped styrofoam with the left hand.",
+        "The person presses down on the styrofoam with their palm to flatten it using the left hand while handling a chisel with the right hand.",
+        "The person shapes the styrofoam by squeezing it lightly between their fingers in the right hand with little support from the left hand.",
+        "The person holds the styrofoam in one hand and uses a large saw with the other hand to cut it with less precision."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person shape styrofoam? Choose **only one** option from the following list.\nOptions:\n(A) The person tears pieces from the styrofoam using both hands, not focusing on any specific shaping tool.\n(B) The person cuts the styrofoam to shape it precisely using a nipper with the right hand while holding tightly the shaped styrofoam with the left hand.\n(C) The person presses down on the styrofoam with their palm to flatten it using the left hand while handling a chisel with the right hand.\n(D) The person shapes the styrofoam by squeezing it lightly between their fingers in the right hand with little support from the left hand.\n(E) The person holds the styrofoam in one hand and uses a large saw with the other hand to cut it with less precision.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person cuts the styrofoam to shape it precisely using a nipper with the right hand while holding tightly the shaped styrofoam with the left hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

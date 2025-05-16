@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the drum set with the drumsticks change?",
+    "options": [
+        "The drum set was hit with the drumsticks once.",
+        "The drum set was tapped with the drumsticks twice.",
+        "The drum set was brushed with the drumsticks.",
+        "The drum set was rolled on with the drumsticks.",
+        "The drum set was struck at the edge repeatedly with the drumsticks."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the drum set with the drumsticks change? Choose **only one** option from the following list.\nOptions:\n(A) The drum set was hit with the drumsticks once.\n(B) The drum set was tapped with the drumsticks twice.\n(C) The drum set was brushed with the drumsticks.\n(D) The drum set was rolled on with the drumsticks.\n(E) The drum set was struck at the edge repeatedly with the drumsticks.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The drum set was struck at the edge repeatedly with the drumsticks."
+    },
+    "correct_idx": [
+        0
+    ]
+}

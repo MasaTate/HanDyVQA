@@ -1,0 +1,17 @@
+{
+    "question": "How does the person put a needle?",
+    "options": [
+        "The person forcefully pushed the needle through the fabric with a downward movement from his left hand.",
+        "The person let the needle rest on the fabric with minimal support, allowing it to settle unsteadily.",
+        "The person placed the needle gently on the edge of the fabric, just touching it with a fingertip from his right hand.",
+        "The person raised the needle above the fabric and attempted to insert it with a quick motion from his right hand.",
+        "The person carefully inserted the needle into the fabric with a twisting motion of his wrist from his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person put a needle? Choose **only one** option from the following list.\nOptions:\n(A) The person forcefully pushed the needle through the fabric with a downward movement from his left hand.\n(B) The person let the needle rest on the fabric with minimal support, allowing it to settle unsteadily.\n(C) The person placed the needle gently on the edge of the fabric, just touching it with a fingertip from his right hand.\n(D) The person raised the needle above the fabric and attempted to insert it with a quick motion from his right hand.\n(E) The person carefully inserted the needle into the fabric with a twisting motion of his wrist from his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person placed the needle gently on the edge of the fabric, just touching it with a fingertip from his right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the book change?",
+    "options": [
+        "The left part of the left book is lifted and the right book was placed on the left book.",
+        "The left part of the right book is lifted and the left book was put on the right book.",
+        "The right part of the right book is lifted and the left book was placed next to the right book.",
+        "The left part of the right book is partially lifted while the left book was placed beside it.",
+        "The right part of the right book is lifted, and the left book was placed under the right book."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the book change? Choose **only one** option from the following list.\nOptions:\n(A) The left part of the left book is lifted and the right book was placed on the left book.\n(B) The left part of the right book is lifted and the left book was put on the right book.\n(C) The right part of the right book is lifted and the left book was placed next to the right book.\n(D) The left part of the right book is partially lifted while the left book was placed beside it.\n(E) The right part of the right book is lifted, and the left book was placed under the right book.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The left part of the left book is lifted and the right book was placed on the left book."
+    },
+    "correct_idx": [
+        1
+    ]
+}

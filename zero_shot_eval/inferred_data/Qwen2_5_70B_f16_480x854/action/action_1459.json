@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person uses his right hand to grab the rolling pin, rolls the dough with his left hand, and then cleans the table with his right hand after moving the dough aside.",
+        "The person extends his right hand to pick up a bowl of flour, pours it into his left hand, and wipes the table with his right hand before putting the flour down.",
+        "The person uses his right hand to reach for the flattened dough, transfers it to his left hand, and clears the table with his right hand before placing the dough down.",
+        "The person uses his right hand to press down on the dough, lifts it with his left hand, and then pushes the rolling pin off the table with his right hand.",
+        "The person takes hold of the baking sheet with his right hand, places the dough onto it with his left hand, and then adjusts the position of the baking sheet using his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person uses his right hand to grab the rolling pin, rolls the dough with his left hand, and then cleans the table with his right hand after moving the dough aside.\n(B) The person extends his right hand to pick up a bowl of flour, pours it into his left hand, and wipes the table with his right hand before putting the flour down.\n(C) The person uses his right hand to reach for the flattened dough, transfers it to his left hand, and clears the table with his right hand before placing the dough down.\n(D) The person uses his right hand to press down on the dough, lifts it with his left hand, and then pushes the rolling pin off the table with his right hand.\n(E) The person takes hold of the baking sheet with his right hand, places the dough onto it with his left hand, and then adjusts the position of the baking sheet using his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person uses his right hand to reach for the flattened dough, transfers it to his left hand, and clears the table with his right hand before placing the dough down."
+    },
+    "correct_idx": [
+        2
+    ]
+}

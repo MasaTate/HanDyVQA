@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a wooden slab on the floor change?",
+    "options": [
+        "The wooden slab on the floor was pushed backward, and the others were stacked on top of it.",
+        "The wooden slab on the floor was lifted up, and the others were spaced further apart.",
+        "The wooden slab on the floor was rotated 90 degrees, and the others were aligned parallel to it.",
+        "The wooden slab on the floor was moved to the right side, and the others were flipped.",
+        "The wooden slab on the floor was removed entirely, and the others were rearranged in a circle."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a wooden slab on the floor change? Choose **only one** option from the following list.\nOptions:\n(A) The wooden slab on the floor was pushed backward, and the others were stacked on top of it.\n(B) The wooden slab on the floor was lifted up, and the others were spaced further apart.\n(C) The wooden slab on the floor was rotated 90 degrees, and the others were aligned parallel to it.\n(D) The wooden slab on the floor was moved to the right side, and the others were flipped.\n(E) The wooden slab on the floor was removed entirely, and the others were rearranged in a circle.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The wooden slab on the floor was pushed backward, and the others were stacked on top of it."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is taking the lid off with one hand and holding the bowl with the other hand.",
+        "The person is placing the lid aside while stirring the contents of the pan with one hand.",
+        "The person is holding the lid in one hand and lifting the pot with the other hand.",
+        "The person is removing the lid with the left hand and moves the pan upward with the right hand.",
+        "The person is using one hand to stabilize the pan while pouring its contents into a bowl."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is taking the lid off with one hand and holding the bowl with the other hand.\n(B) The person is placing the lid aside while stirring the contents of the pan with one hand.\n(C) The person is holding the lid in one hand and lifting the pot with the other hand.\n(D) The person is removing the lid with the left hand and moves the pan upward with the right hand.\n(E) The person is using one hand to stabilize the pan while pouring its contents into a bowl.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person is removing the lid with the left hand and moves the pan upward with the right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

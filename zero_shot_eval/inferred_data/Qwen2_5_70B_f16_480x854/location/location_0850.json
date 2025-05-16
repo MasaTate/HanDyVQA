@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the lid of the pack?",
+    "options": [
+        "The person drops the lid of the pack on the kitchen countertop.",
+        "The person drops the lid of the pack in the sink.",
+        "The person drops the lid of the pack on the table next to the drainer.",
+        "The person drops the lid of the pack at the dish drainer.",
+        "The person drops the lid of the pack beside the trash bin."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the lid of the pack? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the lid of the pack on the kitchen countertop.\n(B) The person drops the lid of the pack in the sink.\n(C) The person drops the lid of the pack on the table next to the drainer.\n(D) The person drops the lid of the pack at the dish drainer.\n(E) The person drops the lid of the pack beside the trash bin.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person drops the lid of the pack at the dish drainer."
+    },
+    "correct_idx": [
+        3
+    ]
+}

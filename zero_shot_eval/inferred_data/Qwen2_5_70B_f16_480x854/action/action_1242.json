@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person molds the clay in his left hand, using the brush in his right hand to add details.",
+        "The person is sculpting the clay with the brush in his right hand, keeping the piece steady on the table with his left hand.",
+        "The person is embellishing the clay work in his left hand with decorative elements using the brush in his right hand.",
+        "The person paints the clay work with the brush in his right hand while holding it with his left hand.",
+        "The person is etching fine details into the clay work with the brush in his right hand, while carefully selecting colors with his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person molds the clay in his left hand, using the brush in his right hand to add details.\n(B) The person is sculpting the clay with the brush in his right hand, keeping the piece steady on the table with his left hand.\n(C) The person is embellishing the clay work in his left hand with decorative elements using the brush in his right hand.\n(D) The person paints the clay work with the brush in his right hand while holding it with his left hand.\n(E) The person is etching fine details into the clay work with the brush in his right hand, while carefully selecting colors with his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person paints the clay work with the brush in his right hand while holding it with his left hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

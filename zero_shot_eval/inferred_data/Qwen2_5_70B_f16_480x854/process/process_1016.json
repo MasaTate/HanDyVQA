@@ -1,0 +1,17 @@
+{
+    "question": "How does the person operate the tablet?",
+    "options": [
+        "The person swipes across the screen of the tablet with their left index finger and then moves the tablet away with both hands.",
+        "The person presses the screen of the tablet gently with their thumb and then tilts the tablet slightly with one hand.",
+        "The person taps the screen of the tablet using their right middle finger and then pulls down the tablet using their right hand.",
+        "The person drags their palm over the screen of the tablet and then raises it gently using both hands.",
+        "The person uses their right ring finger to double-tap the screen of the tablet and then angles it sideways with the left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person operate the tablet? Choose **only one** option from the following list.\nOptions:\n(A) The person swipes across the screen of the tablet with their left index finger and then moves the tablet away with both hands.\n(B) The person presses the screen of the tablet gently with their thumb and then tilts the tablet slightly with one hand.\n(C) The person taps the screen of the tablet using their right middle finger and then pulls down the tablet using their right hand.\n(D) The person drags their palm over the screen of the tablet and then raises it gently using both hands.\n(E) The person uses their right ring finger to double-tap the screen of the tablet and then angles it sideways with the left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person taps the screen of the tablet using their right middle finger and then pulls down the tablet using their right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

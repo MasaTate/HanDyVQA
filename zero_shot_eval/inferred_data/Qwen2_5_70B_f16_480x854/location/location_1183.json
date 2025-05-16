@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place her left hand?",
+    "options": [
+        "The person placed her left hand on the right side of the wooden surface.",
+        "The person placed her left hand on top of the wooden surface.",
+        "The person placed her left hand beneath the wooden surface.",
+        "The person placed her left hand on the left side of the wooden surface.",
+        "The person placed her left hand on the metal surface next to the wooden surface."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place her left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person placed her left hand on the right side of the wooden surface.\n(B) The person placed her left hand on top of the wooden surface.\n(C) The person placed her left hand beneath the wooden surface.\n(D) The person placed her left hand on the left side of the wooden surface.\n(E) The person placed her left hand on the metal surface next to the wooden surface.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person placed her left hand on the metal surface next to the wooden surface."
+    },
+    "correct_idx": [
+        3
+    ]
+}

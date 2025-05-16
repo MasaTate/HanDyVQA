@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pierce the screw?",
+    "options": [
+        "The person lightly tapped the screw with a tool to make it penetrate the surface.",
+        "The person pierced the screw by inserting and rubbing the precision screw inside using the right hand.",
+        "The person gently pressed down on the screw with their palm, attempting to push it through by applying steady pressure.",
+        "The person held the screw at a slight angle and twisted it slowly, trying to drive it into the material.",
+        "The person carefully positioned the screw onto the surface, hoping it would embed itself smoothly."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pierce the screw? Choose **only one** option from the following list.\nOptions:\n(A) The person lightly tapped the screw with a tool to make it penetrate the surface.\n(B) The person pierced the screw by inserting and rubbing the precision screw inside using the right hand.\n(C) The person gently pressed down on the screw with their palm, attempting to push it through by applying steady pressure.\n(D) The person held the screw at a slight angle and twisted it slowly, trying to drive it into the material.\n(E) The person carefully positioned the screw onto the surface, hoping it would embed itself smoothly.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person pierced the screw by inserting and rubbing the precision screw inside using the right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

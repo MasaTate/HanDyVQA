@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put left hand?",
+    "options": [
+        "The person placed their left hand on the wood to support herself.",
+        "The person placed their left hand on the metal to stabilize herself.",
+        "The person placed their left hand on the ground to brace herself.",
+        "The person placed their left hand on the right side of the table for balance.",
+        "The person placed their left hand on the chair to steady herself."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person placed their left hand on the wood to support herself.\n(B) The person placed their left hand on the metal to stabilize herself.\n(C) The person placed their left hand on the ground to brace herself.\n(D) The person placed their left hand on the right side of the table for balance.\n(E) The person placed their left hand on the chair to steady herself.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person placed their left hand on the wood to support herself."
+    },
+    "correct_idx": [
+        0
+    ]
+}

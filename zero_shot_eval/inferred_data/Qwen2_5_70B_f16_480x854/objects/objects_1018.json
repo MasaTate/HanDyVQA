@@ -1,0 +1,21 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "dishwashing liquid",
+        "mug",
+        "sponge",
+        "table",
+        "chair",
+        "bowl",
+        "chopping board"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) dishwashing liquid\n(B) mug\n(C) sponge\n(D) table\n(E) chair\n(F) bowl\n(G) chopping board\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(A) dishwashing liquid  \n(C) sponge  \n\nThe hands are seen using a sponge to clean dishes and applying dishwashing liquid onto the sponge. The other items listed (mug, table, chair, bowl, and chopping board) are not directly manipulated by the hands in the given sequence."
+    },
+    "correct_idx": [
+        0,
+        2,
+        5
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the basket change?",
+    "options": [
+        "The basket was opened and the fruit was taken out of it.",
+        "The basket was closed after the book was put in it.",
+        "The basket was opened and a handful of napkins was placed inside.",
+        "The basket was partially opened and the lid was loosely placed on top.",
+        "The basket was opened and the glass was put in it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the basket change? Choose **only one** option from the following list.\nOptions:\n(A) The basket was opened and the fruit was taken out of it.\n(B) The basket was closed after the book was put in it.\n(C) The basket was opened and a handful of napkins was placed inside.\n(D) The basket was partially opened and the lid was loosely placed on top.\n(E) The basket was opened and the glass was put in it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The basket was opened and the glass was put in it."
+    },
+    "correct_idx": [
+        4
+    ]
+}

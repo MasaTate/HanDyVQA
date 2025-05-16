@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is polishing the bike with a soft cloth in their right hand.",
+        "The person is cleaning the bike with a piece of tissue paper in their right hand.",
+        "The person is adjusting the bike seat with a tool in their right hand.",
+        "The person is washing the bike with a sponge in their right hand while supporting a bucket with their left hand.",
+        "The person is oiling the bike chain with a spray can in their right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is polishing the bike with a soft cloth in their right hand.\n(B) The person is cleaning the bike with a piece of tissue paper in their right hand.\n(C) The person is adjusting the bike seat with a tool in their right hand.\n(D) The person is washing the bike with a sponge in their right hand while supporting a bucket with their left hand.\n(E) The person is oiling the bike chain with a spray can in their right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person is cleaning the bike with a piece of tissue paper in their right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

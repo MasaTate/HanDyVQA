@@ -1,0 +1,17 @@
+{
+    "question": "How does the person change the metal cover?",
+    "options": [
+        "The person grabs the metal cover with both hands and places it on the counter carefully.",
+        "The person slides the metal cover over the surface of the table and gently balances it on top of the pot.",
+        "The person pulls the metal cover from the pot with the right hand and holds it carefully in the air.",
+        "The person picks up and lifts the metal cover with the right hand, transfers it to the left hand, and rotates it to cover the pot.",
+        "The person picks up and lifts the metal cover with the left hand, transfers it to the right hand, and rotates it to cover the pot."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person change the metal cover? Choose **only one** option from the following list.\nOptions:\n(A) The person grabs the metal cover with both hands and places it on the counter carefully.\n(B) The person slides the metal cover over the surface of the table and gently balances it on top of the pot.\n(C) The person pulls the metal cover from the pot with the right hand and holds it carefully in the air.\n(D) The person picks up and lifts the metal cover with the right hand, transfers it to the left hand, and rotates it to cover the pot.\n(E) The person picks up and lifts the metal cover with the left hand, transfers it to the right hand, and rotates it to cover the pot.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person picks up and lifts the metal cover with the left hand, transfers it to the right hand, and rotates it to cover the pot."
+    },
+    "correct_idx": [
+        4
+    ]
+}

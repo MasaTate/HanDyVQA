@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of sesame powder change?",
+    "options": [
+        "The sesame powder was sprinkled around the edge of the bowl.",
+        "The sesame powder was poured into a cup rather than the bowl.",
+        "The sesame powder was poured into the center of the bowl.",
+        "The sesame powder was poured onto a plate near the bowl.",
+        "The sesame powder was held over the bowl without being poured in."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of sesame powder change? Choose **only one** option from the following list.\nOptions:\n(A) The sesame powder was sprinkled around the edge of the bowl.\n(B) The sesame powder was poured into a cup rather than the bowl.\n(C) The sesame powder was poured into the center of the bowl.\n(D) The sesame powder was poured onto a plate near the bowl.\n(E) The sesame powder was held over the bowl without being poured in.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The sesame powder was poured into the center of the bowl."
+    },
+    "correct_idx": [
+        2
+    ]
+}

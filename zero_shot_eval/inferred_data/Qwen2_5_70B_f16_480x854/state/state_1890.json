@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of dirt change?",
+    "options": [
+        "The dirt was wiped off by a cloth but dropped onto the floor.",
+        "The dirt was wiped off by a cloth and carried to the sink.",
+        "The dirt was smeared across the table with a cloth rather than being wiped off.",
+        "The dirt was wiped off by a cloth but left in a pile on the countertop.",
+        "The dirt was partially wiped off by a cloth, with some remaining on the surface."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of dirt change? Choose **only one** option from the following list.\nOptions:\n(A) The dirt was wiped off by a cloth but dropped onto the floor.\n(B) The dirt was wiped off by a cloth and carried to the sink.\n(C) The dirt was smeared across the table with a cloth rather than being wiped off.\n(D) The dirt was wiped off by a cloth but left in a pile on the countertop.\n(E) The dirt was partially wiped off by a cloth, with some remaining on the surface.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The dirt was wiped off by a cloth and carried to the sink."
+    },
+    "correct_idx": [
+        1
+    ]
+}

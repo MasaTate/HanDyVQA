@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person leave hand?",
+    "options": [
+        "The person leaves left hand on the dashboard.",
+        "The person leaves right hand on the passenger seat.",
+        "The person leaves left hand on the gear stick.",
+        "The person leaves right hand on the center console.",
+        "The person leaves right hand on the steering wheel."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person leave hand? Choose **only one** option from the following list.\nOptions:\n(A) The person leaves left hand on the dashboard.\n(B) The person leaves right hand on the passenger seat.\n(C) The person leaves left hand on the gear stick.\n(D) The person leaves right hand on the center console.\n(E) The person leaves right hand on the steering wheel.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person leaves left hand on the gear stick."
+    },
+    "correct_idx": [
+        4
+    ]
+}

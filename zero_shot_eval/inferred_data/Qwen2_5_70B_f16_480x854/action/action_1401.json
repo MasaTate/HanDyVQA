@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is guiding the compass with his left hand while using his right hand to stabilize the wood.",
+        "The person is using the compass with his right hand while using his left hand to hold the wood.",
+        "The person is balancing the compass with both hands while attempting to cut the wood.",
+        "The person is examining the compass with his right hand while holding the wood with both hands.",
+        "The person is placing the compass down with his left hand while using his right hand to move the wood aside."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is guiding the compass with his left hand while using his right hand to stabilize the wood.\n(B) The person is using the compass with his right hand while using his left hand to hold the wood.\n(C) The person is balancing the compass with both hands while attempting to cut the wood.\n(D) The person is examining the compass with his right hand while holding the wood with both hands.\n(E) The person is placing the compass down with his left hand while using his right hand to move the wood aside.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person is using the compass with his right hand while using his left hand to hold the wood."
+    },
+    "correct_idx": [
+        1
+    ]
+}

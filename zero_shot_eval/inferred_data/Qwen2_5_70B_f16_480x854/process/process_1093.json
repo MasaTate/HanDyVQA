@@ -1,0 +1,17 @@
+{
+    "question": "How does the person unscrew a nut?",
+    "options": [
+        "The person tries to unscrew the nut by holding it gently and moving it downward with the palm of their right hand.",
+        "The person uses both hands to try and pull the nut straight out without twisting.",
+        "The person unscrews a nut by gripping it tightly and twisting it counterclockwise with the left hand.",
+        "The person lightly taps the nut with a tool in their right hand rather than twisting it with a grip.",
+        "The person holds the nut with fingers spread apart and moves it back and forth instead of turning it counterclockwise."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person unscrew a nut? Choose **only one** option from the following list.\nOptions:\n(A) The person tries to unscrew the nut by holding it gently and moving it downward with the palm of their right hand.\n(B) The person uses both hands to try and pull the nut straight out without twisting.\n(C) The person unscrews a nut by gripping it tightly and twisting it counterclockwise with the left hand.\n(D) The person lightly taps the nut with a tool in their right hand rather than twisting it with a grip.\n(E) The person holds the nut with fingers spread apart and moves it back and forth instead of turning it counterclockwise.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person unscrews a nut by gripping it tightly and twisting it counterclockwise with the left hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is painting a wooden fence using a roller in his right hand while holding a bucket of paint with his left hand.",
+        "The person is staining a brick wall using a sponge in his right hand while supporting the paint can with his left hand.",
+        "The person is applying a coating to a metal gate using a spray can in his right hand while holding a brush with his left hand.",
+        "The person is brushing a canvas with oil paint using a palette knife in his right hand while leaning on the easel with his left hand.",
+        "The person is applying paint to a metal fence using a paintbrush in his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is painting a wooden fence using a roller in his right hand while holding a bucket of paint with his left hand.\n(B) The person is staining a brick wall using a sponge in his right hand while supporting the paint can with his left hand.\n(C) The person is applying a coating to a metal gate using a spray can in his right hand while holding a brush with his left hand.\n(D) The person is brushing a canvas with oil paint using a palette knife in his right hand while leaning on the easel with his left hand.\n(E) The person is applying paint to a metal fence using a paintbrush in his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person is applying paint to a metal fence using a paintbrush in his right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

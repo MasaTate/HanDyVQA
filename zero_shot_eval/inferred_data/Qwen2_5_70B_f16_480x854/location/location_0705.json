@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the piece of wood?",
+    "options": [
+        "The person moves the piece of wood to the bench from the side of another wood.",
+        "The person moves the piece of wood to the floor from the top of another wood.",
+        "The person moves the piece of wood to the shelf from the bottom of another wood.",
+        "The person moves the piece of wood to the ground from the center of another wood.",
+        "The person moves the piece of wood to the table from the back of another wood."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the piece of wood? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the piece of wood to the bench from the side of another wood.\n(B) The person moves the piece of wood to the floor from the top of another wood.\n(C) The person moves the piece of wood to the shelf from the bottom of another wood.\n(D) The person moves the piece of wood to the ground from the center of another wood.\n(E) The person moves the piece of wood to the table from the back of another wood.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person moves the piece of wood to the floor from the top of another wood."
+    },
+    "correct_idx": [
+        1
+    ]
+}

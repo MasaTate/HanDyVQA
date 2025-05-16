@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person lifts the can with his left hand and places it on the shelf above his head.",
+        "The person places the can on the countertop using his right hand while holding a glass with his left hand.",
+        "The person shakes the can with his right hand before opening it, while his left hand steadies it on the table.",
+        "The person transfers the can from his left hand to his right hand.",
+        "The person rolls the can across the table with his right hand while guiding it with his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person lifts the can with his left hand and places it on the shelf above his head.\n(B) The person places the can on the countertop using his right hand while holding a glass with his left hand.\n(C) The person shakes the can with his right hand before opening it, while his left hand steadies it on the table.\n(D) The person transfers the can from his left hand to his right hand.\n(E) The person rolls the can across the table with his right hand while guiding it with his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person transfers the can from his left hand to his right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

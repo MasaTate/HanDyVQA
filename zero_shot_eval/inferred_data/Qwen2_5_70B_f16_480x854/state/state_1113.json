@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the vegetable change?",
+    "options": [
+        "The vegetable was soaked in water once and then shaken.",
+        "The vegetable was soaked in water twice and shaken.",
+        "The vegetable was shaken but not soaked in water.",
+        "The vegetable was soaked in water once without being shaken.",
+        "The vegetable was soaked in water three times and vigorously shaken."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the vegetable change? Choose **only one** option from the following list.\nOptions:\n(A) The vegetable was soaked in water once and then shaken.\n(B) The vegetable was soaked in water twice and shaken.\n(C) The vegetable was shaken but not soaked in water.\n(D) The vegetable was soaked in water once without being shaken.\n(E) The vegetable was soaked in water three times and vigorously shaken.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The vegetable was soaked in water twice and shaken."
+    },
+    "correct_idx": [
+        1
+    ]
+}

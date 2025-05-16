@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the foam change?",
+    "options": [
+        "The foam started off dry and became soaked as it was submerged in the water within the bucket.",
+        "The foam began wet and became dry as it was exposed to air outside the bucket.",
+        "The foam was initially fluffy and became flattened as it was pressed down in the bucket.",
+        "The foam started off as a solid block and turned into small chunks when it was mixed in the water.",
+        "The foam was smooth at first and became rough after being agitated in the bucket."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the foam change? Choose **only one** option from the following list.\nOptions:\n(A) The foam started off dry and became soaked as it was submerged in the water within the bucket.\n(B) The foam began wet and became dry as it was exposed to air outside the bucket.\n(C) The foam was initially fluffy and became flattened as it was pressed down in the bucket.\n(D) The foam started off as a solid block and turned into small chunks when it was mixed in the water.\n(E) The foam was smooth at first and became rough after being agitated in the bucket.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The foam started off dry and became soaked as it was submerged in the water within the bucket."
+    },
+    "correct_idx": [
+        0
+    ]
+}

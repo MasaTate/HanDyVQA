@@ -1,0 +1,17 @@
+{
+    "question": "How does the person dip the brush?",
+    "options": [
+        "The person submerges the brush into the water with their right hand, carefully ensuring it is fully immersed before pulling it out gradually.",
+        "The person holds the brush over the water with two fingers in the right hand, lowering it with a controlled motion to immerse the bristles slightly.",
+        "The person dips the brush into the water by holding the handle with his left hand and gently lowering the bristles, then quickly shakes the brush to remove excess paint.",
+        "The person grasps the brush by the handle with the right hand and rotates it gently, allowing the water to interact with the bristles properly.",
+        "The person uses both hands to position the brush just above the water before lowering it in a controlled manner to manage the descent."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person dip the brush? Choose **only one** option from the following list.\nOptions:\n(A) The person submerges the brush into the water with their right hand, carefully ensuring it is fully immersed before pulling it out gradually.\n(B) The person holds the brush over the water with two fingers in the right hand, lowering it with a controlled motion to immerse the bristles slightly.\n(C) The person dips the brush into the water by holding the handle with his left hand and gently lowering the bristles, then quickly shakes the brush to remove excess paint.\n(D) The person grasps the brush by the handle with the right hand and rotates it gently, allowing the water to interact with the bristles properly.\n(E) The person uses both hands to position the brush just above the water before lowering it in a controlled manner to manage the descent.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person holds the brush over the water with two fingers in the right hand, lowering it with a controlled motion to immerse the bristles slightly."
+    },
+    "correct_idx": [
+        2
+    ]
+}

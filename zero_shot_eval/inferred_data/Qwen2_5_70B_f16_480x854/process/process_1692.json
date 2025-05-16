@@ -1,0 +1,17 @@
+{
+    "question": "How does the person examine the log of wood?",
+    "options": [
+        "The person examines the log of wood by pulling some grain in it with his left hand and holding an edger with his right.",
+        "The person examines the log of wood by tapping on it lightly with their left hand and tracing the grain smoothly with their right hand.",
+        "The person holds the log of wood with both hands while gently running a finger along the grain of the wood.",
+        "The person examines the log by placing it under a light and carefully running both hands over its surface.",
+        "The person taps the wood log gently with their right hand and uses the left hand to feel for slight texture changes."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person examine the log of wood? Choose **only one** option from the following list.\nOptions:\n(A) The person examines the log of wood by pulling some grain in it with his left hand and holding an edger with his right.\n(B) The person examines the log of wood by tapping on it lightly with their left hand and tracing the grain smoothly with their right hand.\n(C) The person holds the log of wood with both hands while gently running a finger along the grain of the wood.\n(D) The person examines the log by placing it under a light and carefully running both hands over its surface.\n(E) The person taps the wood log gently with their right hand and uses the left hand to feel for slight texture changes.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person examines the log of wood by pulling some grain in it with his left hand and holding an edger with his right."
+    },
+    "correct_idx": [
+        0
+    ]
+}

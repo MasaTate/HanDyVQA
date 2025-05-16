@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is shaping the clay with their left hand and holding a paintbrush with their right hand while decorating the pottery.",
+        "The person is holding the clay with their left hand and holding a carving knife tool with their right hand while carving the pottery.",
+        "The person is pressing the clay with their left hand and holding a hammer with their right hand while sculpting the pottery.",
+        "The person is rolling the clay with their left hand and holding a sponge with their right hand while smoothing the pottery.",
+        "The person is mixing the clay with their left hand and holding a ruler with their right hand while measuring the pottery."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is shaping the clay with their left hand and holding a paintbrush with their right hand while decorating the pottery.\n(B) The person is holding the clay with their left hand and holding a carving knife tool with their right hand while carving the pottery.\n(C) The person is pressing the clay with their left hand and holding a hammer with their right hand while sculpting the pottery.\n(D) The person is rolling the clay with their left hand and holding a sponge with their right hand while smoothing the pottery.\n(E) The person is mixing the clay with their left hand and holding a ruler with their right hand while measuring the pottery.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person is holding the clay with their left hand and holding a carving knife tool with their right hand while carving the pottery."
+    },
+    "correct_idx": [
+        1
+    ]
+}

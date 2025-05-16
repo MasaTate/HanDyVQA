@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person props his right hand against a kitchen counter.",
+        "The person touched his cellphone using the middle finger of his right hand while lifting the measuring cup with his left hand.",
+        "The person rests his right hand on the door of the fridge.",
+        "The person steadies his right hand on the edge of a table.",
+        "The person holds his right hand near the fridge while reaching for a snack."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person props his right hand against a kitchen counter.\n(B) The person touched his cellphone using the middle finger of his right hand while lifting the measuring cup with his left hand.\n(C) The person rests his right hand on the door of the fridge.\n(D) The person steadies his right hand on the edge of a table.\n(E) The person holds his right hand near the fridge while reaching for a snack.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person touched his cellphone using the middle finger of his right hand while lifting the measuring cup with his left hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

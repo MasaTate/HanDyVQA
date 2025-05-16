@@ -1,0 +1,17 @@
+{
+    "question": "How does the person weave a basket?",
+    "options": [
+        "The person weaves the basket by holding the basket tightly in the left hand, while the right hand grips the bamboo tightly and pulls it.",
+        "The person weaves the basket by holding it firmly in the right hand, while the left hand gently guides the bamboo through the weave.",
+        "The person secures the basket with their chest and uses the left hand to steadily thread the bamboo through.",
+        "The person holds the basket between their knees, using both hands to smoothly weave the bamboo into place.",
+        "The person uses the right hand to support the basket while the left hand threads the bamboo quickly through the pattern."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person weave a basket? Choose **only one** option from the following list.\nOptions:\n(A) The person weaves the basket by holding the basket tightly in the left hand, while the right hand grips the bamboo tightly and pulls it.\n(B) The person weaves the basket by holding it firmly in the right hand, while the left hand gently guides the bamboo through the weave.\n(C) The person secures the basket with their chest and uses the left hand to steadily thread the bamboo through.\n(D) The person holds the basket between their knees, using both hands to smoothly weave the bamboo into place.\n(E) The person uses the right hand to support the basket while the left hand threads the bamboo quickly through the pattern.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person holds the basket between their knees, using both hands to smoothly weave the bamboo into place."
+    },
+    "correct_idx": [
+        0
+    ]
+}

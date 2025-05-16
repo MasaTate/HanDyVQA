@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person uses her left hand to hold the seasoning powder while her right hand opens the lid of the seasoning and then sprinkles the seasoning into the pot.",
+        "The person uses her right hand to shake the bottle of oil while her left hand holds the lid of the bottle and then pours it into the pot.",
+        "The person holds a salt shaker in her right hand while her left hand lifts the pot to season the food inside.",
+        "The person twists the cap off a jar of spice with her right hand while her left hand rests on the countertop.",
+        "The person grips the seasoning container with both hands as she prepares to mix it into a bowl."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person uses her left hand to hold the seasoning powder while her right hand opens the lid of the seasoning and then sprinkles the seasoning into the pot.\n(B) The person uses her right hand to shake the bottle of oil while her left hand holds the lid of the bottle and then pours it into the pot.\n(C) The person holds a salt shaker in her right hand while her left hand lifts the pot to season the food inside.\n(D) The person twists the cap off a jar of spice with her right hand while her left hand rests on the countertop.\n(E) The person grips the seasoning container with both hands as she prepares to mix it into a bowl.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person uses her left hand to hold the seasoning powder while her right hand opens the lid of the seasoning and then sprinkles the seasoning into the pot."
+    },
+    "correct_idx": [
+        0
+    ]
+}

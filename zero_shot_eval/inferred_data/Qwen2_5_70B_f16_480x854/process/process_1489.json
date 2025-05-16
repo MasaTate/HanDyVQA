@@ -1,0 +1,17 @@
+{
+    "question": "How does the person close the bag?",
+    "options": [
+        "The person pulled the zipper tab with his right hand while holding the bag steady with his left hand, which made the zipper move unevenly along the track.",
+        "The person used both hands to grip the zipper tab, leading the zipper to move unevenly as the bag shook slightly.",
+        "The person applied gentle pressure to the zipper tab with his right hand while he kept his left hand steady on the bag, resulting in a slower closure.",
+        "The person zipped the bag by gripping the zipper tab with his left hand and pulling it smoothly along the track while holding the bag steady with his right hand.",
+        "The person guided the zipper closed with his right palm, while holding the bag firmly with his other hand, which made the zipper harder to move."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person close the bag? Choose **only one** option from the following list.\nOptions:\n(A) The person pulled the zipper tab with his right hand while holding the bag steady with his left hand, which made the zipper move unevenly along the track.\n(B) The person used both hands to grip the zipper tab, leading the zipper to move unevenly as the bag shook slightly.\n(C) The person applied gentle pressure to the zipper tab with his right hand while he kept his left hand steady on the bag, resulting in a slower closure.\n(D) The person zipped the bag by gripping the zipper tab with his left hand and pulling it smoothly along the track while holding the bag steady with his right hand.\n(E) The person guided the zipper closed with his right palm, while holding the bag firmly with his other hand, which made the zipper harder to move.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person applied gentle pressure to the zipper tab with his right hand while he kept his left hand steady on the bag, resulting in a slower closure."
+    },
+    "correct_idx": [
+        3
+    ]
+}

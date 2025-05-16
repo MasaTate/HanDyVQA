@@ -1,0 +1,17 @@
+{
+    "question": "How does the person spread cement mortar?",
+    "options": [
+        "The person pours the cement mortar onto the hollow blocks from a bucket, letting it flow naturally without using their hands.",
+        "The person uses a trowel held in both hands to place the cement mortar onto the hollow blocks rather than spreading it.",
+        "The person spreads the cement mortar on top of the hollow blocks using their right hand, pushing it slightly while smoothing it out for even distribution.",
+        "The person smears the cement mortar across the hollow blocks using a sponge held in their left hand, moving in circular motions.",
+        "The person draws the cement mortar with their fingertips from a pile next to the hollow blocks, applying minimal pressure to smooth it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person spread cement mortar? Choose **only one** option from the following list.\nOptions:\n(A) The person pours the cement mortar onto the hollow blocks from a bucket, letting it flow naturally without using their hands.\n(B) The person uses a trowel held in both hands to place the cement mortar onto the hollow blocks rather than spreading it.\n(C) The person spreads the cement mortar on top of the hollow blocks using their right hand, pushing it slightly while smoothing it out for even distribution.\n(D) The person smears the cement mortar across the hollow blocks using a sponge held in their left hand, moving in circular motions.\n(E) The person draws the cement mortar with their fingertips from a pile next to the hollow blocks, applying minimal pressure to smooth it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person spreads the cement mortar on top of the hollow blocks using their right hand, pushing it slightly while smoothing it out for even distribution."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place his right hand?",
+    "options": [
+        "The person places his right hand beside the frame of a vehicle.",
+        "The person places his right hand under the frame of a vehicle.",
+        "The person places his right hand over the frame of the lawnmower.",
+        "The person places his right hand on the hood of a vehicle.",
+        "The person places his right hand against the door of a vehicle."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place his right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person places his right hand beside the frame of a vehicle.\n(B) The person places his right hand under the frame of a vehicle.\n(C) The person places his right hand over the frame of the lawnmower.\n(D) The person places his right hand on the hood of a vehicle.\n(E) The person places his right hand against the door of a vehicle.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person places his right hand over the frame of the lawnmower."
+    },
+    "correct_idx": [
+        2
+    ]
+}

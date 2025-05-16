@@ -1,0 +1,21 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "tissue roll",
+        "plastic",
+        "kitchen knife",
+        "tea pot",
+        "food scraps",
+        "tap",
+        "thrash can"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) tissue roll\n(B) plastic\n(C) kitchen knife\n(D) tea pot\n(E) food scraps\n(F) tap\n(G) thrash can\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(B) plastic\n(E) food scraps\n(F) tap"
+    },
+    "correct_idx": [
+        1,
+        4,
+        5
+    ]
+}

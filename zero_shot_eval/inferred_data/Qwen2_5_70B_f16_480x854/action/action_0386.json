@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is stacking the jars and holding one with both hands.",
+        "The person takes the lid of the jar with his right hand and covers the jar with it using both hands.",
+        "The person is pouring the contents from one jar into another while holding the jar with both hands.",
+        "The person is labeling the jars and securing the labels with both hands.",
+        "The person is cleaning the jars and holding one in each hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is stacking the jars and holding one with both hands.\n(B) The person takes the lid of the jar with his right hand and covers the jar with it using both hands.\n(C) The person is pouring the contents from one jar into another while holding the jar with both hands.\n(D) The person is labeling the jars and securing the labels with both hands.\n(E) The person is cleaning the jars and holding one in each hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person takes the lid of the jar with his right hand and covers the jar with it using both hands."
+    },
+    "correct_idx": [
+        1
+    ]
+}

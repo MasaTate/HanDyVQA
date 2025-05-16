@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person tightens the bolt on the seat post using both hands.",
+        "The person removes the bolt from the frame using one hand while steadying the handlebar with the other.",
+        "The person is adjusting the brakes on the bicycle using both hands.",
+        "The person is applying grease to the bolt on the handlebar clamp using one hand while holding the bike steady with the other.",
+        "The person loosens the bolt on the handlebar clamp using both hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person tightens the bolt on the seat post using both hands.\n(B) The person removes the bolt from the frame using one hand while steadying the handlebar with the other.\n(C) The person is adjusting the brakes on the bicycle using both hands.\n(D) The person is applying grease to the bolt on the handlebar clamp using one hand while holding the bike steady with the other.\n(E) The person loosens the bolt on the handlebar clamp using both hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person loosens the bolt on the handlebar clamp using both hands."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the semi circular wood?",
+    "options": [
+        "The person places the semi-circular wood on the floor next to the other woodwork.",
+        "The person places the semi-circular wood in front of the other woodwork.",
+        "The person places the semi-circular wood underneath the other woodwork.",
+        "The person places the semi-circular wood against the wall beside the other woodwork.",
+        "The person places the semi-circular wood on top of the other woodwork."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the semi circular wood? Choose **only one** option from the following list.\nOptions:\n(A) The person places the semi-circular wood on the floor next to the other woodwork.\n(B) The person places the semi-circular wood in front of the other woodwork.\n(C) The person places the semi-circular wood underneath the other woodwork.\n(D) The person places the semi-circular wood against the wall beside the other woodwork.\n(E) The person places the semi-circular wood on top of the other woodwork.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person places the semi-circular wood on top of the other woodwork."
+    },
+    "correct_idx": [
+        4
+    ]
+}

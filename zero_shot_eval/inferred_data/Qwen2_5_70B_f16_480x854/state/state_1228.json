@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a bike skewer from the bicycle repair change?",
+    "options": [
+        "The bike skewer from the bicycle repair was bent into a U-shape.",
+        "The bike skewer from the bicycle repair was taken off and not put back.",
+        "The bike skewer from the bicycle repair was spun in both directions.",
+        "The bike skewer from the bicycle repair was tightened to hold the wheel in place.",
+        "The bike skewer from the bicycle repair was swapped with a new one."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a bike skewer from the bicycle repair change? Choose **only one** option from the following list.\nOptions:\n(A) The bike skewer from the bicycle repair was bent into a U-shape.\n(B) The bike skewer from the bicycle repair was taken off and not put back.\n(C) The bike skewer from the bicycle repair was spun in both directions.\n(D) The bike skewer from the bicycle repair was tightened to hold the wheel in place.\n(E) The bike skewer from the bicycle repair was swapped with a new one.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The bike skewer from the bicycle repair was spun in both directions."
+    },
+    "correct_idx": [
+        2
+    ]
+}

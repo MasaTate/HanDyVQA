@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "Using the right hand, the person holds the blue bowl while reaching for the clear cap of a blender with the left hand. Then, she uses both hands to turn the blender on.",
+        "Using the left hand, the person pushes the blue bowl while picking up the clear cap of the citrus juicer with the right hand and then she uses both hands to move the citrus juicer closer to herself.",
+        "With the left hand, the person lifts the blue bowl while placing the clear cap of a food processor in her right hand. Then, she uses both hands to secure the cap onto the food processor.",
+        "Using the right hand, the person pushes the blue bowl while grabbing the clear cap of the citrus juicer with the left hand. Then, she uses her right hand to adjust the position of the blue bowl.",
+        "With her right hand, the person moves the blue bowl aside while picking up the clear cap of a salad spinner with her left hand. Then, she uses her left hand to spin the salad."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) Using the right hand, the person holds the blue bowl while reaching for the clear cap of a blender with the left hand. Then, she uses both hands to turn the blender on.\n(B) Using the left hand, the person pushes the blue bowl while picking up the clear cap of the citrus juicer with the right hand and then she uses both hands to move the citrus juicer closer to herself.\n(C) With the left hand, the person lifts the blue bowl while placing the clear cap of a food processor in her right hand. Then, she uses both hands to secure the cap onto the food processor.\n(D) Using the right hand, the person pushes the blue bowl while grabbing the clear cap of the citrus juicer with the left hand. Then, she uses her right hand to adjust the position of the blue bowl.\n(E) With her right hand, the person moves the blue bowl aside while picking up the clear cap of a salad spinner with her left hand. Then, she uses her left hand to spin the salad.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) Using the left hand, the person pushes the blue bowl while picking up the clear cap of the citrus juicer with the right hand and then she uses both hands to move the citrus juicer closer to herself."
+    },
+    "correct_idx": [
+        1
+    ]
+}

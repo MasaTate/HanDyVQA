@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the sponge change?",
+    "options": [
+        "The sponge's shape was altered and became fragmented into several smaller pieces after being torn apart.",
+        "The sponge's shape was altered as it expanded and grew larger when it soaked up water.",
+        "The sponge's shape was altered and became flattened and spread out flat after being pressed down.",
+        "The sponge's shape was altered as it was squeezed.",
+        "The sponge's texture was altered to a rough surface as it dried out."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the sponge change? Choose **only one** option from the following list.\nOptions:\n(A) The sponge's shape was altered and became fragmented into several smaller pieces after being torn apart.\n(B) The sponge's shape was altered as it expanded and grew larger when it soaked up water.\n(C) The sponge's shape was altered and became flattened and spread out flat after being pressed down.\n(D) The sponge's shape was altered as it was squeezed.\n(E) The sponge's texture was altered to a rough surface as it dried out.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The sponge's shape was altered as it expanded and grew larger when it soaked up water."
+    },
+    "correct_idx": [
+        3
+    ]
+}

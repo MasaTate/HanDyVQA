@@ -1,0 +1,17 @@
+{
+    "question": "How does the person sharpen the secondary points of the crampon?",
+    "options": [
+        "The person steadies the crampon with both hands and gently scrapes the edges using a coarse surface.",
+        "The person places the crampon on the table and carefully taps the points with a tool to refine them.",
+        "The person grips the crampon in one hand and gently works it against a sharpening wheel.",
+        "The person meticulously sharpens the secondary points of the crampon by scrubbing it using a metal file.",
+        "The person picks up a file and smoothly slides it along the points, ensuring the crampon is held securely."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person sharpen the secondary points of the crampon? Choose **only one** option from the following list.\nOptions:\n(A) The person steadies the crampon with both hands and gently scrapes the edges using a coarse surface.\n(B) The person places the crampon on the table and carefully taps the points with a tool to refine them.\n(C) The person grips the crampon in one hand and gently works it against a sharpening wheel.\n(D) The person meticulously sharpens the secondary points of the crampon by scrubbing it using a metal file.\n(E) The person picks up a file and smoothly slides it along the points, ensuring the crampon is held securely.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person picks up a file and smoothly slides it along the points, ensuring the crampon is held securely."
+    },
+    "correct_idx": [
+        3
+    ]
+}

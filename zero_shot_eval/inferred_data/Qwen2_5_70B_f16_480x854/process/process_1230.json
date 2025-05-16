@@ -1,0 +1,17 @@
+{
+    "question": "How does the person peel the papaya?",
+    "options": [
+        "The person peels the papaya by pressing down with her hands to crack the skin rather than using a knife.",
+        "The person removes the skin of the papaya by scraping it gently with her fingernails rather than using a knife.",
+        "The person rolls the papaya on the table with one hand to loosen the skin slightly before peeling it.",
+        "The person peels the papaya by slicing it up and down using the knife in her right hand.",
+        "The person tries to peel the papaya by pulling at the skin with her teeth instead of using a knife."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person peel the papaya? Choose **only one** option from the following list.\nOptions:\n(A) The person peels the papaya by pressing down with her hands to crack the skin rather than using a knife.\n(B) The person removes the skin of the papaya by scraping it gently with her fingernails rather than using a knife.\n(C) The person rolls the papaya on the table with one hand to loosen the skin slightly before peeling it.\n(D) The person peels the papaya by slicing it up and down using the knife in her right hand.\n(E) The person tries to peel the papaya by pulling at the skin with her teeth instead of using a knife.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person peels the papaya by slicing it up and down using the knife in her right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

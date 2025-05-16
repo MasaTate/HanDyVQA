@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "soil",
+        "bowl",
+        "rope",
+        "hands",
+        "clothes",
+        "plants"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) soil\n(B) bowl\n(C) rope\n(D) hands\n(E) clothes\n(F) plants\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(B) bowl  \n(F) plants  \n\nThe hands in the video are using a bowl to hold plants as they plant them in the soil. The bowl is carried and occasionally set down as the person works. Additionally, the hands directly handle the plants, picking them up from the bowl and placing them into the soil."
+    },
+    "correct_idx": [
+        1,
+        5
+    ]
+}

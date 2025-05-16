@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is securing a bicycle helmet on the table with their right hand.",
+        "The person is grabbing a bicycle helmet off the shelf with their right hand while preparing for a ride.",
+        "The person is adjusting the bicycle helmet on their head with their right hand while holding the chin strap with their left hand.",
+        "The person is fitting a bicycle helmet on a mannequin with their right hand, ensuring it is properly aligned.",
+        "The person is pushing a bicycle's handle with their left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is securing a bicycle helmet on the table with their right hand.\n(B) The person is grabbing a bicycle helmet off the shelf with their right hand while preparing for a ride.\n(C) The person is adjusting the bicycle helmet on their head with their right hand while holding the chin strap with their left hand.\n(D) The person is fitting a bicycle helmet on a mannequin with their right hand, ensuring it is properly aligned.\n(E) The person is pushing a bicycle's handle with their left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person is pushing a bicycle's handle with their left hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

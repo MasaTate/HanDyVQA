@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person waters the plant while checking the soil moisture level.",
+        "The person repots the plant, adding new soil to the pot.",
+        "The person cuts the plant's stem with scissors using the right hand while the left hand holds the stem.",
+        "The person fertilizes the plant and removes dead leaves from the base.",
+        "The person prunes the plant and examines the roots for any damage."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person waters the plant while checking the soil moisture level.\n(B) The person repots the plant, adding new soil to the pot.\n(C) The person cuts the plant's stem with scissors using the right hand while the left hand holds the stem.\n(D) The person fertilizes the plant and removes dead leaves from the base.\n(E) The person prunes the plant and examines the roots for any damage.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person cuts the plant's stem with scissors using the right hand while the left hand holds the stem."
+    },
+    "correct_idx": [
+        2
+    ]
+}

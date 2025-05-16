@@ -1,0 +1,17 @@
+{
+    "question": "How does the person trace lines on the plywood?",
+    "options": [
+        "The person positions a ruler horizontally and traces a line from the first dot with a pencil held in the left hand.",
+        "The person rotates the plywood and traces a line around the dots using a pen in their dominant hand.",
+        "The person holds the pen gently and draws lines across the surface slightly referencing the dots.",
+        "The person points at the intersections before tracing a line on the top left part of the drawing using his left hand.",
+        "The person aligns a piece of tape closely with the dots and uses a pen to trace a line between them."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person trace lines on the plywood? Choose **only one** option from the following list.\nOptions:\n(A) The person positions a ruler horizontally and traces a line from the first dot with a pencil held in the left hand.\n(B) The person rotates the plywood and traces a line around the dots using a pen in their dominant hand.\n(C) The person holds the pen gently and draws lines across the surface slightly referencing the dots.\n(D) The person points at the intersections before tracing a line on the top left part of the drawing using his left hand.\n(E) The person aligns a piece of tape closely with the dots and uses a pen to trace a line between them.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person holds the pen gently and draws lines across the surface slightly referencing the dots."
+    },
+    "correct_idx": [
+        3
+    ]
+}

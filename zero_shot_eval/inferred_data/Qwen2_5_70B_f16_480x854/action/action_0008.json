@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person pours the ice into the bowl using the scoop in his right hand while holding the bowl steady with his left hand.",
+        "The person crushes the ice with a tool in his right hand while supporting the container with his left hand.",
+        "The person scoops the ice with the scoop in his right hand and transfers it inside the pitcher to his left hand holding it.",
+        "The person lifts the ice cube tray with both hands and tilts it to pour the ice into a container.",
+        "The person uses a spoon to stir the ice in a cup with his right hand while holding the cup steady with his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person pours the ice into the bowl using the scoop in his right hand while holding the bowl steady with his left hand.\n(B) The person crushes the ice with a tool in his right hand while supporting the container with his left hand.\n(C) The person scoops the ice with the scoop in his right hand and transfers it inside the pitcher to his left hand holding it.\n(D) The person lifts the ice cube tray with both hands and tilts it to pour the ice into a container.\n(E) The person uses a spoon to stir the ice in a cup with his right hand while holding the cup steady with his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person scoops the ice with the scoop in his right hand and transfers it inside the pitcher to his left hand holding it."
+    },
+    "correct_idx": [
+        2
+    ]
+}

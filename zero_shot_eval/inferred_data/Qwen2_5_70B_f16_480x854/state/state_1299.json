@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the potato change?",
+    "options": [
+        "The potato was placed in a pot of boiling water to be cooked until it became soft and ready for mashing into a puree.",
+        "The potato was dug up from the soil and then left out in the sun to dry over a couple of days.",
+        "The potato was chopped into small cubes and saut\u00e9ed in a hot pan with oil until it turned brown.",
+        "The potato was initially on the ground, then picked up and held to have its peel removed using a knife.",
+        "The potato was taken from a bag and stored in a cool, dark place for preservation before it was used."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the potato change? Choose **only one** option from the following list.\nOptions:\n(A) The potato was placed in a pot of boiling water to be cooked until it became soft and ready for mashing into a puree.\n(B) The potato was dug up from the soil and then left out in the sun to dry over a couple of days.\n(C) The potato was chopped into small cubes and saut\u00e9ed in a hot pan with oil until it turned brown.\n(D) The potato was initially on the ground, then picked up and held to have its peel removed using a knife.\n(E) The potato was taken from a bag and stored in a cool, dark place for preservation before it was used.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The potato was initially on the ground, then picked up and held to have its peel removed using a knife."
+    },
+    "correct_idx": [
+        3
+    ]
+}

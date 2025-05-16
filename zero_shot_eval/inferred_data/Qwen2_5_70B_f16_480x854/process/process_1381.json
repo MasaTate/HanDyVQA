@@ -1,0 +1,17 @@
+{
+    "question": "How does the person wash the chopping board with the sponge in his right hand?",
+    "options": [
+        "The person scrubs the chopping board with the sponge under the running water, applying consistent pressure with his right hand.",
+        "The person wipes the chopping board with the sponge, using circular motions while his right hand controls the pressure.",
+        "The person washes the chopping board with the sponge under the running water by moving his hand side to side.",
+        "The person rinses the sponge in water and gently presses it against the chopping board with a steady grip from his right hand.",
+        "The person dabs the sponge on the chopping board gently, smoothly moving his hand each time."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person wash the chopping board with the sponge in his right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person scrubs the chopping board with the sponge under the running water, applying consistent pressure with his right hand.\n(B) The person wipes the chopping board with the sponge, using circular motions while his right hand controls the pressure.\n(C) The person washes the chopping board with the sponge under the running water by moving his hand side to side.\n(D) The person rinses the sponge in water and gently presses it against the chopping board with a steady grip from his right hand.\n(E) The person dabs the sponge on the chopping board gently, smoothly moving his hand each time.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person washes the chopping board with the sponge under the running water by moving his hand side to side."
+    },
+    "correct_idx": [
+        2
+    ]
+}

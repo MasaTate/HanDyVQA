@@ -1,0 +1,17 @@
+{
+    "question": "How does the person examine the plant?",
+    "options": [
+        "The person picks up the plant with both hands, raising it slightly to look at the leaves more closely.",
+        "The person holds the stem with their right hand, gently squeezing it to assess it.",
+        "The person touches the leaves with their fingertips using their left hand while holding the pot steadily with their right hand.",
+        "The person grips the base of the plant with their left hand, slightly tugging to see if it is firmly rooted.",
+        "The person brushes their fingers over the soil to feel its moisture levels while slightly assessing the stem."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person examine the plant? Choose **only one** option from the following list.\nOptions:\n(A) The person picks up the plant with both hands, raising it slightly to look at the leaves more closely.\n(B) The person holds the stem with their right hand, gently squeezing it to assess it.\n(C) The person touches the leaves with their fingertips using their left hand while holding the pot steadily with their right hand.\n(D) The person grips the base of the plant with their left hand, slightly tugging to see if it is firmly rooted.\n(E) The person brushes their fingers over the soil to feel its moisture levels while slightly assessing the stem.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person picks up the plant with both hands, raising it slightly to look at the leaves more closely."
+    },
+    "correct_idx": [
+        1
+    ]
+}

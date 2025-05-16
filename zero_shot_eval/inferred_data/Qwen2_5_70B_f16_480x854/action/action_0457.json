@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person chops a piece of garlic using his/her left hand while holding a knife in his/her right hand.",
+        "The person mashes a clove of garlic using a mortar and pestle with both hands.",
+        "The person peels a piece of garlic using both hands.",
+        "The person minces a piece of garlic with a food processor, using his/her right hand while pushing the button with his/her left hand.",
+        "The person crushes garlic under a cutting board with his/her palm, using both hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person chops a piece of garlic using his/her left hand while holding a knife in his/her right hand.\n(B) The person mashes a clove of garlic using a mortar and pestle with both hands.\n(C) The person peels a piece of garlic using both hands.\n(D) The person minces a piece of garlic with a food processor, using his/her right hand while pushing the button with his/her left hand.\n(E) The person crushes garlic under a cutting board with his/her palm, using both hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person peels a piece of garlic using both hands."
+    },
+    "correct_idx": [
+        2
+    ]
+}

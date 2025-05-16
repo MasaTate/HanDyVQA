@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person holds the chainsaw in both hands while wearing a helmet and adjusting the ear muffs on his head.",
+        "The person lifts the chainsaw above his head with both hands while removing his gloves with his left hand.",
+        "The person places the chainsaw on a table with one hand while holding safety goggles in the other hand.",
+        "The person uses both hands to put the chainsaw down and remove the ear muffs from his head.",
+        "The person operates the chainsaw with two hands while simultaneously putting on a pair of sunglasses."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the chainsaw in both hands while wearing a helmet and adjusting the ear muffs on his head.\n(B) The person lifts the chainsaw above his head with both hands while removing his gloves with his left hand.\n(C) The person places the chainsaw on a table with one hand while holding safety goggles in the other hand.\n(D) The person uses both hands to put the chainsaw down and remove the ear muffs from his head.\n(E) The person operates the chainsaw with two hands while simultaneously putting on a pair of sunglasses.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person uses both hands to put the chainsaw down and remove the ear muffs from his head."
+    },
+    "correct_idx": [
+        3
+    ]
+}

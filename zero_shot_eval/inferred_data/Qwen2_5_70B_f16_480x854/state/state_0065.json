@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the wooden slab on the floor change?",
+    "options": [
+        "The wooden slab on the floor was stepped on, having contact with the left shoe.",
+        "The wooden slab on the floor was stepped on, having contact with the right shoe.",
+        "The wooden slab on the floor was lightly brushed against by the right shoe.",
+        "The wooden slab on the floor was stepped on, with contact occurring at the heel of the right shoe.",
+        "The wooden slab on the floor was stepped on by the right shoe in a glancing manner."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the wooden slab on the floor change? Choose **only one** option from the following list.\nOptions:\n(A) The wooden slab on the floor was stepped on, having contact with the left shoe.\n(B) The wooden slab on the floor was stepped on, having contact with the right shoe.\n(C) The wooden slab on the floor was lightly brushed against by the right shoe.\n(D) The wooden slab on the floor was stepped on, with contact occurring at the heel of the right shoe.\n(E) The wooden slab on the floor was stepped on by the right shoe in a glancing manner.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The wooden slab on the floor was stepped on, having contact with the right shoe."
+    },
+    "correct_idx": [
+        1
+    ]
+}

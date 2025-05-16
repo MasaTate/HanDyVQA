@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of dirt change?",
+    "options": [
+        "The dirt was removed as it was vacuumed.",
+        "The dirt was compacted into a dense clump as it was pressed down.",
+        "The dirt was combined with water to form a muddy consistency.",
+        "The dirt was spread across the surface as it was raked.",
+        "The dirt was stirred into the air, creating a cloud of dust."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of dirt change? Choose **only one** option from the following list.\nOptions:\n(A) The dirt was removed as it was vacuumed.\n(B) The dirt was compacted into a dense clump as it was pressed down.\n(C) The dirt was combined with water to form a muddy consistency.\n(D) The dirt was spread across the surface as it was raked.\n(E) The dirt was stirred into the air, creating a cloud of dust.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The dirt was removed as it was vacuumed."
+    },
+    "correct_idx": [
+        0
+    ]
+}

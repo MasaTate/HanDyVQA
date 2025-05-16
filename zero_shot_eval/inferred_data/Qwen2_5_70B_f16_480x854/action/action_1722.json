@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person places the chopsticks on the table using his right hand while shifting the bowl with his left hand.",
+        "The person grips the chopsticks in his right hand while picking up a piece of sushi with his left hand.",
+        "The person adjusts the chopsticks in his left hand to better hold the noodles while resting his right hand on the table.",
+        "The person passes the chopsticks to his friend using his right hand while holding the plate with his left hand.",
+        "The person gets the chopsticks using his right hand and transfers them to his left hand, then he moves the pan on the stove using his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person places the chopsticks on the table using his right hand while shifting the bowl with his left hand.\n(B) The person grips the chopsticks in his right hand while picking up a piece of sushi with his left hand.\n(C) The person adjusts the chopsticks in his left hand to better hold the noodles while resting his right hand on the table.\n(D) The person passes the chopsticks to his friend using his right hand while holding the plate with his left hand.\n(E) The person gets the chopsticks using his right hand and transfers them to his left hand, then he moves the pan on the stove using his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person gets the chopsticks using his right hand and transfers them to his left hand, then he moves the pan on the stove using his right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

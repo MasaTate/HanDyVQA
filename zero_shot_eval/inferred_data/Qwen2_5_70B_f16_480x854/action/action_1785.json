@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person stains a wooden fence using a roller held in his right hand.",
+        "The person refinishes a wooden railing using a spray can held in his right hand.",
+        "The person is applying a coat of varnish to a wooden railing with the paint brush in his left hand.",
+        "The person holds the can of paint with his left hand while dipping the brush into it and then he brushes it on the wood using his right hand.",
+        "The person is decorating a wooden railing with a sponge held in his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person stains a wooden fence using a roller held in his right hand.\n(B) The person refinishes a wooden railing using a spray can held in his right hand.\n(C) The person is applying a coat of varnish to a wooden railing with the paint brush in his left hand.\n(D) The person holds the can of paint with his left hand while dipping the brush into it and then he brushes it on the wood using his right hand.\n(E) The person is decorating a wooden railing with a sponge held in his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person holds the can of paint with his left hand while dipping the brush into it and then he brushes it on the wood using his right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person paint on paper?",
+    "options": [
+        "The person smoothly brushes the paintbrush on the paper in a diagonal motion, adding texture with her left hand.",
+        "The person lightly moves the paintbrush along the paper in a circular pattern, slightly blending the paint with her thumb on the right hand.",
+        "The person gently brushes the paintbrush on the paper in an upward and downward direction, creating a straight vertical dashed line with her right hand.",
+        "The person softly dabs the paintbrush on the edge of the paper, forming random dots using her fingers from the left hand.",
+        "The person smoothly applies the paintbrush to the paper, creating dynamic streaks with her backhand using the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person paint on paper? Choose **only one** option from the following list.\nOptions:\n(A) The person smoothly brushes the paintbrush on the paper in a diagonal motion, adding texture with her left hand.\n(B) The person lightly moves the paintbrush along the paper in a circular pattern, slightly blending the paint with her thumb on the right hand.\n(C) The person gently brushes the paintbrush on the paper in an upward and downward direction, creating a straight vertical dashed line with her right hand.\n(D) The person softly dabs the paintbrush on the edge of the paper, forming random dots using her fingers from the left hand.\n(E) The person smoothly applies the paintbrush to the paper, creating dynamic streaks with her backhand using the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person gently brushes the paintbrush on the paper in an upward and downward direction, creating a straight vertical dashed line with her right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the lawn mower change?",
+    "options": [
+        "The lawn mower rotated counter-clockwise at the same place.",
+        "The lawn mower was moved forward without any rotation.",
+        "The lawn mower tilted slightly but did not rotate.",
+        "The lawn mower rotated clockwise at the same place.",
+        "The lawn mower was lifted slightly and remained stationary."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the lawn mower change? Choose **only one** option from the following list.\nOptions:\n(A) The lawn mower rotated counter-clockwise at the same place.\n(B) The lawn mower was moved forward without any rotation.\n(C) The lawn mower tilted slightly but did not rotate.\n(D) The lawn mower rotated clockwise at the same place.\n(E) The lawn mower was lifted slightly and remained stationary.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The lawn mower rotated clockwise at the same place."
+    },
+    "correct_idx": [
+        3
+    ]
+}

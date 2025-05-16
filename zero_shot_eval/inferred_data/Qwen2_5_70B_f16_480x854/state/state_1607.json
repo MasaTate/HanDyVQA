@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the frame of the bicycle change?",
+    "options": [
+        "The bicycle frame contained the brake string as it was installed inside.",
+        "The bicycle frame housed the gears as they were set into place during assembly.",
+        "The bicycle frame held the seat post as it was fixed into position.",
+        "The bicycle frame integrated the handlebars as they were attached to the front fork.",
+        "The bicycle frame supported the wheels as they were mounted onto the axles."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the frame of the bicycle change? Choose **only one** option from the following list.\nOptions:\n(A) The bicycle frame contained the brake string as it was installed inside.\n(B) The bicycle frame housed the gears as they were set into place during assembly.\n(C) The bicycle frame held the seat post as it was fixed into position.\n(D) The bicycle frame integrated the handlebars as they were attached to the front fork.\n(E) The bicycle frame supported the wheels as they were mounted onto the axles.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The bicycle frame contained the brake string as it was installed inside."
+    },
+    "correct_idx": [
+        0
+    ]
+}

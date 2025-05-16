@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the lawnmower deck holder change?",
+    "options": [
+        "The lawnmower deck holder was slightly moved to the left and right while being touched by the hand.",
+        "The lawnmower deck holder was slightly twisted while being touched by the hand.",
+        "The lawnmower deck holder was slightly adjusted forward and backward while being touched by the hand.",
+        "The lawnmower deck holder was held in place for a moment then released by the hand.",
+        "The lawnmower deck holder was slightly moved up and down while being touched by the hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the lawnmower deck holder change? Choose **only one** option from the following list.\nOptions:\n(A) The lawnmower deck holder was slightly moved to the left and right while being touched by the hand.\n(B) The lawnmower deck holder was slightly twisted while being touched by the hand.\n(C) The lawnmower deck holder was slightly adjusted forward and backward while being touched by the hand.\n(D) The lawnmower deck holder was held in place for a moment then released by the hand.\n(E) The lawnmower deck holder was slightly moved up and down while being touched by the hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The lawnmower deck holder was held in place for a moment then released by the hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

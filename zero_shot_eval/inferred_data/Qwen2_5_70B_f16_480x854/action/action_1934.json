@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person sliced the potato and carries the stainless bowl to wash it.",
+        "The person chopped the potato and places it into a plastic container for storage.",
+        "The person peeled the potato and puts it into a stainless bowl to get it ready for cooking.",
+        "The person diced the potato and holds the frying pan in his right hand while balancing the bowl in his left hand.",
+        "The person mashes the potato and carries the ceramic dish to serve it at the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person sliced the potato and carries the stainless bowl to wash it.\n(B) The person chopped the potato and places it into a plastic container for storage.\n(C) The person peeled the potato and puts it into a stainless bowl to get it ready for cooking.\n(D) The person diced the potato and holds the frying pan in his right hand while balancing the bowl in his left hand.\n(E) The person mashes the potato and carries the ceramic dish to serve it at the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person sliced the potato and carries the stainless bowl to wash it."
+    },
+    "correct_idx": [
+        0
+    ]
+}

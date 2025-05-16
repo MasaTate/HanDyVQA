@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person takes out a cloth from under the table with his right hand.",
+        "The person retrieves a napkin from the table surface with his right hand while using his left hand to hold the table edge.",
+        "The person is pulling a dish towel from the table surface with his right hand while stabilizing himself with his left hand on the table.",
+        "The person is grabbing a handkerchief from the chair with his right hand while keeping his left hand on the table.",
+        "The person lifts a placemat from the floor using his right hand while balancing himself with his left hand on the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person takes out a cloth from under the table with his right hand.\n(B) The person retrieves a napkin from the table surface with his right hand while using his left hand to hold the table edge.\n(C) The person is pulling a dish towel from the table surface with his right hand while stabilizing himself with his left hand on the table.\n(D) The person is grabbing a handkerchief from the chair with his right hand while keeping his left hand on the table.\n(E) The person lifts a placemat from the floor using his right hand while balancing himself with his left hand on the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person is pulling a dish towel from the table surface with his right hand while stabilizing himself with his left hand on the table."
+    },
+    "correct_idx": [
+        0
+    ]
+}

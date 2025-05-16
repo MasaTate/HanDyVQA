@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the piece of wood change?",
+    "options": [
+        "The piece of wood was quickly pushed through the cutting machine with a ballpen supporting the middle.",
+        "The piece of wood was slowly pulled back from the cutting machine while the other end was supported with a ballpen.",
+        "The piece of wood was slowly pushed halfway into the cutting machine with a marker supporting the end.",
+        "The piece of wood was slowly lifted out from the cutting machine while a ballpen supported the far end.",
+        "The piece of wood was slowly pushed into the cutting machine and the end was supported with a ballpen."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the piece of wood change? Choose **only one** option from the following list.\nOptions:\n(A) The piece of wood was quickly pushed through the cutting machine with a ballpen supporting the middle.\n(B) The piece of wood was slowly pulled back from the cutting machine while the other end was supported with a ballpen.\n(C) The piece of wood was slowly pushed halfway into the cutting machine with a marker supporting the end.\n(D) The piece of wood was slowly lifted out from the cutting machine while a ballpen supported the far end.\n(E) The piece of wood was slowly pushed into the cutting machine and the end was supported with a ballpen.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The piece of wood was slowly pushed into the cutting machine and the end was supported with a ballpen."
+    },
+    "correct_idx": [
+        4
+    ]
+}

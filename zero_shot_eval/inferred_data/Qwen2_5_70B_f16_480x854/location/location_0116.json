@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move a colander?",
+    "options": [
+        "The person moves the colander to the right with the left hand then moves it back to its original position.",
+        "The person moves the colander to the left with the right hand then sets it on the counter.",
+        "The person moves the colander to the front with the left hand then places it on the stove.",
+        "The person moves the colander to the back with the right hand and positions it beside the sink.",
+        "The person moves the colander to the right with both hands and puts it on the shelf."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move a colander? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the colander to the right with the left hand then moves it back to its original position.\n(B) The person moves the colander to the left with the right hand then sets it on the counter.\n(C) The person moves the colander to the front with the left hand then places it on the stove.\n(D) The person moves the colander to the back with the right hand and positions it beside the sink.\n(E) The person moves the colander to the right with both hands and puts it on the shelf.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person moves the colander to the right with the left hand then moves it back to its original position."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the ground change?",
+    "options": [
+        "The ground was slightly raked before seeds were placed and covered again.",
+        "The ground was dug and once the plants were inserted then pulled out again.",
+        "The ground was loosened before pebbles were laid on top and then removed.",
+        "The ground was sifted before rocks were placed and then repositioned.",
+        "The ground was pressed before the saplings were positioned and then taken out."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the ground change? Choose **only one** option from the following list.\nOptions:\n(A) The ground was slightly raked before seeds were placed and covered again.\n(B) The ground was dug and once the plants were inserted then pulled out again.\n(C) The ground was loosened before pebbles were laid on top and then removed.\n(D) The ground was sifted before rocks were placed and then repositioned.\n(E) The ground was pressed before the saplings were positioned and then taken out.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The ground was dug and once the plants were inserted then pulled out again."
+    },
+    "correct_idx": [
+        1
+    ]
+}

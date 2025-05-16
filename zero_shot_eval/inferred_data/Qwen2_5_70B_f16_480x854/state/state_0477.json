@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a bag of flour change?",
+    "options": [
+        "The bag of flour was grabbed and became smoother while being moved.",
+        "The bag of flour was grasped and became more compact while being squeezed.",
+        "The bag of flour was seized and became slightly more wrinkled while being transferred.",
+        "The bag of flour was lifted and developed a small tear as it was shifted.",
+        "The bag of flour was held and loosened when it was placed on the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a bag of flour change? Choose **only one** option from the following list.\nOptions:\n(A) The bag of flour was grabbed and became smoother while being moved.\n(B) The bag of flour was grasped and became more compact while being squeezed.\n(C) The bag of flour was seized and became slightly more wrinkled while being transferred.\n(D) The bag of flour was lifted and developed a small tear as it was shifted.\n(E) The bag of flour was held and loosened when it was placed on the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The bag of flour was seized and became slightly more wrinkled while being transferred."
+    },
+    "correct_idx": [
+        0
+    ]
+}

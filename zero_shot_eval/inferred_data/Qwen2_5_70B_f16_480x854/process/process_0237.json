@@ -1,0 +1,17 @@
+{
+    "question": "How does the person attach the screw?",
+    "options": [
+        "The person grips the screw with his left hand, positioning it over the hole and then gently lets it go, trying to align it before twisting.",
+        "The person holds the screw with his right hand, positioning it carefully over the hole. With a slight downward pressure, he begins to twist the screw clockwise using his fingers, ensuring it starts threading into the surface.",
+        "The person holds the screw between the thumb and forefinger of both hands and uses a decisive turning motion to attempt threading it into the hole.",
+        "The person places the screw on the surface and uses gentle taps with a tool to encourage it to start threading into the hole.",
+        "The person positions the screw in his palm and carefully applies pressure, trying to guide it into alignment with the surface."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person attach the screw? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the screw with his left hand, positioning it over the hole and then gently lets it go, trying to align it before twisting.\n(B) The person holds the screw with his right hand, positioning it carefully over the hole. With a slight downward pressure, he begins to twist the screw clockwise using his fingers, ensuring it starts threading into the surface.\n(C) The person holds the screw between the thumb and forefinger of both hands and uses a decisive turning motion to attempt threading it into the hole.\n(D) The person places the screw on the surface and uses gentle taps with a tool to encourage it to start threading into the hole.\n(E) The person positions the screw in his palm and carefully applies pressure, trying to guide it into alignment with the surface.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person holds the screw with his right hand, positioning it carefully over the hole. With a slight downward pressure, he begins to twist the screw clockwise using his fingers, ensuring it starts threading into the surface."
+    },
+    "correct_idx": [
+        1
+    ]
+}

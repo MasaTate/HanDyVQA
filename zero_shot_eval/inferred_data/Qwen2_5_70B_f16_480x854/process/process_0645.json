@@ -1,0 +1,17 @@
+{
+    "question": "How does the person close the grill?",
+    "options": [
+        "The person uses both hands to lower the grill lid gently, keeping control until it is securely closed.",
+        "The person allows the grill lid to lower naturally, guiding it smoothly until it rests on the grill base.",
+        "The person attempts to slide the grill lid gently sideways before closing it completely.",
+        "The person closes the grill using the fingers of their right hand to grip the edge or handle of the grill lid and pushes it inward with a controlled motion until it is fully closed.",
+        "The person uses one hand to gradually ease the grill lid shut with a gentle push."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person close the grill? Choose **only one** option from the following list.\nOptions:\n(A) The person uses both hands to lower the grill lid gently, keeping control until it is securely closed.\n(B) The person allows the grill lid to lower naturally, guiding it smoothly until it rests on the grill base.\n(C) The person attempts to slide the grill lid gently sideways before closing it completely.\n(D) The person closes the grill using the fingers of their right hand to grip the edge or handle of the grill lid and pushes it inward with a controlled motion until it is fully closed.\n(E) The person uses one hand to gradually ease the grill lid shut with a gentle push.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person uses one hand to gradually ease the grill lid shut with a gentle push."
+    },
+    "correct_idx": [
+        3
+    ]
+}

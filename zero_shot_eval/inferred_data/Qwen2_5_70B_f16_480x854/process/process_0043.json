@@ -1,0 +1,17 @@
+{
+    "question": "How does the person spray the lubricant?",
+    "options": [
+        "The person holds the lubricant can gently in his left hand, tilts it slightly, and presses a side button to release the lubricant.",
+        "The person sets the lubricant can on the edge of the table and nudges it with his palm, allowing the lubricant to spill over the edge.",
+        "The person grips the lubricant can firmly in his right hand, shakes it, then positions the nozzle toward the target and presses the spray button with his index finger to release the lubricant.",
+        "The person takes the lubricant can with both hands and gently removes the cap instead of pressing the spray button to release the lubricant.",
+        "The person lightly places the lubricant can on the floor and taps it, causing the can to roll smoothly and release the lubricant as it moves."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person spray the lubricant? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the lubricant can gently in his left hand, tilts it slightly, and presses a side button to release the lubricant.\n(B) The person sets the lubricant can on the edge of the table and nudges it with his palm, allowing the lubricant to spill over the edge.\n(C) The person grips the lubricant can firmly in his right hand, shakes it, then positions the nozzle toward the target and presses the spray button with his index finger to release the lubricant.\n(D) The person takes the lubricant can with both hands and gently removes the cap instead of pressing the spray button to release the lubricant.\n(E) The person lightly places the lubricant can on the floor and taps it, causing the can to roll smoothly and release the lubricant as it moves.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person grips the lubricant can firmly in his right hand, shakes it, then positions the nozzle toward the target and presses the spray button with his index finger to release the lubricant."
+    },
+    "correct_idx": [
+        2
+    ]
+}

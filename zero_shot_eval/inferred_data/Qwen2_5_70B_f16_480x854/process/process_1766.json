@@ -1,0 +1,17 @@
+{
+    "question": "How does the person scoop sauce?",
+    "options": [
+        "The person used a deep ladle to collect the sauce, beginning with the beans first and then the oil, using both hands for guidance.",
+        "The person scooped the sauce using a flat wooden spatula, concentrating more on the oil than the beans, holding it in the left hand.",
+        "The person tilted a small saucepan to pour out the sauce, guiding it carefully with the left hand while balancing the pan with the right.",
+        "The person scooped the sauce with a hollow shell in the right hand and scooped the beans, and then the oil.",
+        "The person used a small metal spoon with the right hand, stirring lightly before scooping the oil first."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person scoop sauce? Choose **only one** option from the following list.\nOptions:\n(A) The person used a deep ladle to collect the sauce, beginning with the beans first and then the oil, using both hands for guidance.\n(B) The person scooped the sauce using a flat wooden spatula, concentrating more on the oil than the beans, holding it in the left hand.\n(C) The person tilted a small saucepan to pour out the sauce, guiding it carefully with the left hand while balancing the pan with the right.\n(D) The person scooped the sauce with a hollow shell in the right hand and scooped the beans, and then the oil.\n(E) The person used a small metal spoon with the right hand, stirring lightly before scooping the oil first.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person scooped the sauce with a hollow shell in the right hand and scooped the beans, and then the oil."
+    },
+    "correct_idx": [
+        3
+    ]
+}

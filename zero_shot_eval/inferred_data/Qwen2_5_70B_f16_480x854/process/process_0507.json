@@ -1,0 +1,17 @@
+{
+    "question": "How does the person place his left hand?",
+    "options": [
+        "The person places his left hand gently on the keyboard in front of him, resting it on the surface of the table with fingers naturally positioned over the keys, ready for typing or interaction.",
+        "The person places his left hand firmly on the keyboard, pressing several keys without clear intent, with his fingers positioned in a less controlled manner.",
+        "The person sets his left hand casually on the keyboard, allowing it to rest across several keys which may interfere with typing.",
+        "The person places his left hand near the side of the keyboard, lightly touching the surface but not positioned for efficient typing.",
+        "The person moves his left hand to the keyboard, landing it at a slightly awkward angle, which might limit his ability to reach all the keys smoothly."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person place his left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person places his left hand gently on the keyboard in front of him, resting it on the surface of the table with fingers naturally positioned over the keys, ready for typing or interaction.\n(B) The person places his left hand firmly on the keyboard, pressing several keys without clear intent, with his fingers positioned in a less controlled manner.\n(C) The person sets his left hand casually on the keyboard, allowing it to rest across several keys which may interfere with typing.\n(D) The person places his left hand near the side of the keyboard, lightly touching the surface but not positioned for efficient typing.\n(E) The person moves his left hand to the keyboard, landing it at a slightly awkward angle, which might limit his ability to reach all the keys smoothly.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person places his left hand gently on the keyboard in front of him, resting it on the surface of the table with fingers naturally positioned over the keys, ready for typing or interaction."
+    },
+    "correct_idx": [
+        0
+    ]
+}

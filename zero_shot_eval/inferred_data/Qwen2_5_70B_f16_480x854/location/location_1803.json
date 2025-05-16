@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the screws?",
+    "options": [
+        "The person places the screws from the bucket to his left hand.",
+        "The person places the screws from the bucket to the table beside him.",
+        "The person places the screws from the bucket to his left pocket.",
+        "The person places the screws from the bucket to the floor in front of him.",
+        "The person places the screws from the bucket to his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the screws? Choose **only one** option from the following list.\nOptions:\n(A) The person places the screws from the bucket to his left hand.\n(B) The person places the screws from the bucket to the table beside him.\n(C) The person places the screws from the bucket to his left pocket.\n(D) The person places the screws from the bucket to the floor in front of him.\n(E) The person places the screws from the bucket to his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person places the screws from the bucket to his right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

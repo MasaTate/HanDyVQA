@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is raising the scaffold with both hands while using a wall to steady it.",
+        "The person is lowering the scaffold with his left hand while securing it with a rope in his right hand.",
+        "The person is adjusting the scaffold with his right hand while holding an umbrella in his left hand to provide shade.",
+        "The person is carrying the scaffold with his left hand while stepping over a log to move through the area.",
+        "The person lifts the scaffold with his right hand while kicking a block of wood beneath to balance it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is raising the scaffold with both hands while using a wall to steady it.\n(B) The person is lowering the scaffold with his left hand while securing it with a rope in his right hand.\n(C) The person is adjusting the scaffold with his right hand while holding an umbrella in his left hand to provide shade.\n(D) The person is carrying the scaffold with his left hand while stepping over a log to move through the area.\n(E) The person lifts the scaffold with his right hand while kicking a block of wood beneath to balance it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person lifts the scaffold with his right hand while kicking a block of wood beneath to balance it."
+    },
+    "correct_idx": [
+        4
+    ]
+}

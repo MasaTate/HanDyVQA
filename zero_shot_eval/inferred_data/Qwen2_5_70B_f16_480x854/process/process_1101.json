@@ -1,0 +1,17 @@
+{
+    "question": "How does the person paint the third craft?",
+    "options": [
+        "The person paints the third craft by brushing it from the right side to the downside repeatedly using the right hand.",
+        "The person paints the third craft by brushing it from the bottom side to the top side repeatedly using the left hand.",
+        "The person paints the third craft by lightly dabbing paint with a sponge held in the right hand.",
+        "The person paints the third craft by applying short strokes diagonally upwards with a brush in the right hand.",
+        "The person paints the third craft by gently stippling dots across it with a fine brush in the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person paint the third craft? Choose **only one** option from the following list.\nOptions:\n(A) The person paints the third craft by brushing it from the right side to the downside repeatedly using the right hand.\n(B) The person paints the third craft by brushing it from the bottom side to the top side repeatedly using the left hand.\n(C) The person paints the third craft by lightly dabbing paint with a sponge held in the right hand.\n(D) The person paints the third craft by applying short strokes diagonally upwards with a brush in the right hand.\n(E) The person paints the third craft by gently stippling dots across it with a fine brush in the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person paints the third craft by gently stippling dots across it with a fine brush in the right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

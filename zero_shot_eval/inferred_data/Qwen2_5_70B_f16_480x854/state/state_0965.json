@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the stick change?",
+    "options": [
+        "The stick was smoothed with slight movement.",
+        "The stick was roughened with vigorous movement.",
+        "The stick was smoothed with a quick back-and-forth motion.",
+        "The stick was lifted and gently tapped without smoothing.",
+        "The stick was smoothed with a circular motion."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the stick change? Choose **only one** option from the following list.\nOptions:\n(A) The stick was smoothed with slight movement.\n(B) The stick was roughened with vigorous movement.\n(C) The stick was smoothed with a quick back-and-forth motion.\n(D) The stick was lifted and gently tapped without smoothing.\n(E) The stick was smoothed with a circular motion.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The stick was smoothed with a quick back-and-forth motion."
+    },
+    "correct_idx": [
+        0
+    ]
+}

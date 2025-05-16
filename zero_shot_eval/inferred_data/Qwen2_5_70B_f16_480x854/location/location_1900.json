@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the wood?",
+    "options": [
+        "The person moved the wood at the right side closer to the fire.",
+        "The person moved the wood at the left side next to the fire pit.",
+        "The person moved the wood at the back side behind the fire.",
+        "The person moved the wood at the left side away from the fire.",
+        "The person moved the wood at the front side in front of the fire."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the wood? Choose **only one** option from the following list.\nOptions:\n(A) The person moved the wood at the right side closer to the fire.\n(B) The person moved the wood at the left side next to the fire pit.\n(C) The person moved the wood at the back side behind the fire.\n(D) The person moved the wood at the left side away from the fire.\n(E) The person moved the wood at the front side in front of the fire.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person moved the wood at the right side closer to the fire."
+    },
+    "correct_idx": [
+        3
+    ]
+}

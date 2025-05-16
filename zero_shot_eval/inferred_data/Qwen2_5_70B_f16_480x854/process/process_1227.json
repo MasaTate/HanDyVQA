@@ -1,0 +1,17 @@
+{
+    "question": "How does the person hold the spare part with left hand?",
+    "options": [
+        "The person holds the spare part loosely with his left hand and moves it gently before placing it aside.",
+        "The person lightly grips the spare part between his thumb and index finger with his left hand, carefully balancing it.",
+        "The person handles the spare part with both hands and smoothly places it on the ground.",
+        "The person holds the spare part tightly with his left hand and slowly lowers it to the ground.",
+        "The person holds the spare part with his left hand and raises it slightly as if to position it more carefully before putting it down."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person hold the spare part with left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the spare part loosely with his left hand and moves it gently before placing it aside.\n(B) The person lightly grips the spare part between his thumb and index finger with his left hand, carefully balancing it.\n(C) The person handles the spare part with both hands and smoothly places it on the ground.\n(D) The person holds the spare part tightly with his left hand and slowly lowers it to the ground.\n(E) The person holds the spare part with his left hand and raises it slightly as if to position it more carefully before putting it down.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person holds the spare part tightly with his left hand and slowly lowers it to the ground."
+    },
+    "correct_idx": [
+        3
+    ]
+}

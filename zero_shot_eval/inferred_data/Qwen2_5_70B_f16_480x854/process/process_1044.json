@@ -1,0 +1,17 @@
+{
+    "question": "How does the person take the spray gun?",
+    "options": [
+        "The person first holds the spray gun in his right hand and then slightly moves the right hand to the left side before swapping it to his left hand.",
+        "The person grips the spray gun with both hands before gently lifting it upwards, allowing for some hand movement.",
+        "The person picks up the spray gun using his left hand with a focused grasp while resting his right hand nearby.",
+        "The person takes the spray gun by lifting it off the table carefully, using his right hand, leaving room for adjustment.",
+        "The person clasps the spray gun with his right hand and turns his body slightly, positioning the gun closer smoothly."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person take the spray gun? Choose **only one** option from the following list.\nOptions:\n(A) The person first holds the spray gun in his right hand and then slightly moves the right hand to the left side before swapping it to his left hand.\n(B) The person grips the spray gun with both hands before gently lifting it upwards, allowing for some hand movement.\n(C) The person picks up the spray gun using his left hand with a focused grasp while resting his right hand nearby.\n(D) The person takes the spray gun by lifting it off the table carefully, using his right hand, leaving room for adjustment.\n(E) The person clasps the spray gun with his right hand and turns his body slightly, positioning the gun closer smoothly.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person first holds the spray gun in his right hand and then slightly moves the right hand to the left side before swapping it to his left hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person flip the piece of wood with his left hand?",
+    "options": [
+        "The person picks up the piece of wood and tosses it gently over his shoulder with his left hand.",
+        "The person holds the piece of wood closely at both ends and spins it gently in the air using his left hand.",
+        "The person lifts the piece of wood and moves it to the right side using the left hand.",
+        "The person secures the piece of wood within his fingers and gently rotates it forward using his left hand.",
+        "The person picks up the piece of wood and then flips it to the left side using the left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person flip the piece of wood with his left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person picks up the piece of wood and tosses it gently over his shoulder with his left hand.\n(B) The person holds the piece of wood closely at both ends and spins it gently in the air using his left hand.\n(C) The person lifts the piece of wood and moves it to the right side using the left hand.\n(D) The person secures the piece of wood within his fingers and gently rotates it forward using his left hand.\n(E) The person picks up the piece of wood and then flips it to the left side using the left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person secures the piece of wood within his fingers and gently rotates it forward using his left hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

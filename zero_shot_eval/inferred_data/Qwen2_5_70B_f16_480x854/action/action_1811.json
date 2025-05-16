@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person adjusts the faucet using the left hand while rinsing the scissors in her right hand under the running water.",
+        "The person is washing the scissors on the sink with both hands, ensuring they are clean before drying them.",
+        "The person turns on the faucet using the left hand while rinsing the scissors in her right hand on the sink.",
+        "The person is turning off the faucet with the left hand while holding the scissors under the running water with her right hand.",
+        "The person operates the soap dispenser with her left hand while rinsing the scissors with her right hand on the sink."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person adjusts the faucet using the left hand while rinsing the scissors in her right hand under the running water.\n(B) The person is washing the scissors on the sink with both hands, ensuring they are clean before drying them.\n(C) The person turns on the faucet using the left hand while rinsing the scissors in her right hand on the sink.\n(D) The person is turning off the faucet with the left hand while holding the scissors under the running water with her right hand.\n(E) The person operates the soap dispenser with her left hand while rinsing the scissors with her right hand on the sink.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person turns on the faucet using the left hand while rinsing the scissors in her right hand on the sink."
+    },
+    "correct_idx": [
+        2
+    ]
+}

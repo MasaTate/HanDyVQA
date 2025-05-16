@@ -1,0 +1,17 @@
+{
+    "question": "How does the person transfer the leash?",
+    "options": [
+        "The person's left hand approaches to the right hand with the leash and quickly transfers the leash from her right hand to her left hand.",
+        "The person's right hand lets the leash slide gently out of her fingers and onto the ground.",
+        "The person's right hand reaches across her body and pulls the leash with a firm motion.",
+        "The person wraps the leash securely around her wrist with her palm facing down.",
+        "The person uses her left hand to hold the end of the leash and moves it to the side."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person transfer the leash? Choose **only one** option from the following list.\nOptions:\n(A) The person's left hand approaches to the right hand with the leash and quickly transfers the leash from her right hand to her left hand.\n(B) The person's right hand lets the leash slide gently out of her fingers and onto the ground.\n(C) The person's right hand reaches across her body and pulls the leash with a firm motion.\n(D) The person wraps the leash securely around her wrist with her palm facing down.\n(E) The person uses her left hand to hold the end of the leash and moves it to the side.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person's left hand approaches to the right hand with the leash and quickly transfers the leash from her right hand to her left hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

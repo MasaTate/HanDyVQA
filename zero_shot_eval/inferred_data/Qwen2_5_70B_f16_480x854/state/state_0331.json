@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the fabric change?",
+    "options": [
+        "The fabric was moved closer and folded over.",
+        "The fabric was pulled taut and stitched along the edge.",
+        "The fabric was stretched and pinned in place.",
+        "The fabric was bunched up and stitched together.",
+        "The fabric was moved farther and sewn."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the fabric change? Choose **only one** option from the following list.\nOptions:\n(A) The fabric was moved closer and folded over.\n(B) The fabric was pulled taut and stitched along the edge.\n(C) The fabric was stretched and pinned in place.\n(D) The fabric was bunched up and stitched together.\n(E) The fabric was moved farther and sewn.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The fabric was moved closer and folded over."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person grips a bottle of adhesive tape with his right hand and sets it onto the wooden table.",
+        "The person takes a box of medical plaster off the counter with his right hand and opens it to examine the contents.",
+        "The person picks up a roll of bandages with his right hand and moves it into a drawer with his left hand.",
+        "The person holds a packet of gauze with his right hand and places it into a wastebasket with his left hand.",
+        "The person holds a box of medical plaster with his right hand and places it back onto the glass storage shelf."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person grips a bottle of adhesive tape with his right hand and sets it onto the wooden table.\n(B) The person takes a box of medical plaster off the counter with his right hand and opens it to examine the contents.\n(C) The person picks up a roll of bandages with his right hand and moves it into a drawer with his left hand.\n(D) The person holds a packet of gauze with his right hand and places it into a wastebasket with his left hand.\n(E) The person holds a box of medical plaster with his right hand and places it back onto the glass storage shelf.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person holds a box of medical plaster with his right hand and places it back onto the glass storage shelf."
+    },
+    "correct_idx": [
+        4
+    ]
+}

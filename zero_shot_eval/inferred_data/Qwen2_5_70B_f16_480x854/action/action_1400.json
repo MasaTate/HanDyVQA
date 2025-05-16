@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person grabs the bottle with his left hand, then switches it to his right hand to carry it, before using his right hand to pour its contents.",
+        "The person lifts the box with his right hand, then moves it to his left hand to steady it, before using his right hand to close it.",
+        "The person picks up the jar with his left hand, then passes it to his right hand to examine it, before using his left hand to shake it.",
+        "The person holds the bag with his right hand, then transfers it to his left hand to search inside, before using his right hand to zip it closed.",
+        "The person reaches for the container with his left hand, then transfers it to his right hand to hold it, before using his left hand to open it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person grabs the bottle with his left hand, then switches it to his right hand to carry it, before using his right hand to pour its contents.\n(B) The person lifts the box with his right hand, then moves it to his left hand to steady it, before using his right hand to close it.\n(C) The person picks up the jar with his left hand, then passes it to his right hand to examine it, before using his left hand to shake it.\n(D) The person holds the bag with his right hand, then transfers it to his left hand to search inside, before using his right hand to zip it closed.\n(E) The person reaches for the container with his left hand, then transfers it to his right hand to hold it, before using his left hand to open it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person picks up the jar with his left hand, then passes it to his right hand to examine it, before using his left hand to shake it."
+    },
+    "correct_idx": [
+        4
+    ]
+}

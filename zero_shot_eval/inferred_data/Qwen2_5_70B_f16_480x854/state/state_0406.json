@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the tennis ball change?",
+    "options": [
+        "The tennis ball was thrown by the person with the dog over there and caught by the person over here.",
+        "The tennis ball was thrown and began to roll across the ground.",
+        "The tennis ball was bounced and began to rise into the air.",
+        "The tennis ball was kicked and was sent flying through the air.",
+        "The tennis ball was dropped and began to bounce repeatedly."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the tennis ball change? Choose **only one** option from the following list.\nOptions:\n(A) The tennis ball was thrown by the person with the dog over there and caught by the person over here.\n(B) The tennis ball was thrown and began to roll across the ground.\n(C) The tennis ball was bounced and began to rise into the air.\n(D) The tennis ball was kicked and was sent flying through the air.\n(E) The tennis ball was dropped and began to bounce repeatedly.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The tennis ball was thrown by the person with the dog over there and caught by the person over here."
+    },
+    "correct_idx": [
+        0
+    ]
+}

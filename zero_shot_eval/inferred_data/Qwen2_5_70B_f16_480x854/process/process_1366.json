@@ -1,0 +1,17 @@
+{
+    "question": "How does the person hang the syringe in a syringe holder?",
+    "options": [
+        "The person holds the syringe securely and places it into the syringe holder with little concern.",
+        "The person opens the holder slightly and inserts the syringe into it with both hands.",
+        "The person allows the syringe to glide along the table gently towards the holder.",
+        "The person picks up the syringe and lets it drop into the holder smoothly from a short height.",
+        "The person holds the syringe, taps its bottom with a tissue paper, and gently places it in the syringe holder."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person hang the syringe in a syringe holder? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the syringe securely and places it into the syringe holder with little concern.\n(B) The person opens the holder slightly and inserts the syringe into it with both hands.\n(C) The person allows the syringe to glide along the table gently towards the holder.\n(D) The person picks up the syringe and lets it drop into the holder smoothly from a short height.\n(E) The person holds the syringe, taps its bottom with a tissue paper, and gently places it in the syringe holder.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person holds the syringe, taps its bottom with a tissue paper, and gently places it in the syringe holder."
+    },
+    "correct_idx": [
+        4
+    ]
+}

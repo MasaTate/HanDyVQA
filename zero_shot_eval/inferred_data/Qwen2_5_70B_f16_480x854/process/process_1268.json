@@ -1,0 +1,17 @@
+{
+    "question": "How does the person switch the cup?",
+    "options": [
+        "The person grabs the cup using his left hand and moves his left hand to the center to switch the cup to the right hand.",
+        "The person lifts the cup with both hands and turns it gently to transfer it to the right hand.",
+        "The person nudges the cup gradually with his fingertips, letting it move towards the right hand.",
+        "The person holds the cup with his right hand, then extends his arm to the left to transfer it to the left hand.",
+        "The person tosses the cup from his left hand into the air, smoothly catching it with his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person switch the cup? Choose **only one** option from the following list.\nOptions:\n(A) The person grabs the cup using his left hand and moves his left hand to the center to switch the cup to the right hand.\n(B) The person lifts the cup with both hands and turns it gently to transfer it to the right hand.\n(C) The person nudges the cup gradually with his fingertips, letting it move towards the right hand.\n(D) The person holds the cup with his right hand, then extends his arm to the left to transfer it to the left hand.\n(E) The person tosses the cup from his left hand into the air, smoothly catching it with his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person grabs the cup using his left hand and moves his left hand to the center to switch the cup to the right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

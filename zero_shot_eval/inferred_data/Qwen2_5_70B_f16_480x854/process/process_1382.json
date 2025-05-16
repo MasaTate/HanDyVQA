@@ -1,0 +1,17 @@
+{
+    "question": "How does the person hang the eye glass?",
+    "options": [
+        "The person takes off the eyeglass slowly and places it on the desk.",
+        "The person takes off the eyeglass with care and hangs it on a hook.",
+        "The person takes off the eyeglass quickly and places it inside a case.",
+        "The person removes the eyeglass and rests it on top of the hat.",
+        "The person takes off the eyeglass quickly and hangs it on his shirt."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person hang the eye glass? Choose **only one** option from the following list.\nOptions:\n(A) The person takes off the eyeglass slowly and places it on the desk.\n(B) The person takes off the eyeglass with care and hangs it on a hook.\n(C) The person takes off the eyeglass quickly and places it inside a case.\n(D) The person removes the eyeglass and rests it on top of the hat.\n(E) The person takes off the eyeglass quickly and hangs it on his shirt.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person takes off the eyeglass quickly and hangs it on his shirt."
+    },
+    "correct_idx": [
+        4
+    ]
+}

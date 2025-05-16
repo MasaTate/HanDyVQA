@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a paper change?",
+    "options": [
+        "The paper was removed from the folder and laid on the desk.",
+        "The paper was extracted from the envelope and placed on the shelf.",
+        "The paper was taken out of the ziplock pouch and placed on the table.",
+        "The paper was pulled from the binder and set in a stack.",
+        "The paper was taken out of the notebook and placed on the chair."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a paper change? Choose **only one** option from the following list.\nOptions:\n(A) The paper was removed from the folder and laid on the desk.\n(B) The paper was extracted from the envelope and placed on the shelf.\n(C) The paper was taken out of the ziplock pouch and placed on the table.\n(D) The paper was pulled from the binder and set in a stack.\n(E) The paper was taken out of the notebook and placed on the chair.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The paper was taken out of the ziplock pouch and placed on the table."
+    },
+    "correct_idx": [
+        2
+    ]
+}

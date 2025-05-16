@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the piece of carton?",
+    "options": [
+        "The person drops the piece of carton on the floor beside the chair and a notebook.",
+        "The person drops the piece of carton on the shelf above a stapler and a roll of tape.",
+        "The person drops the piece of carton on the counter next to a cup and a pencil holder.",
+        "The person drops the piece of carton in the drawer alongside a ruler and some sticky notes.",
+        "The person drops the piece of carton in the table next to a pen and a pair of scissors."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the piece of carton? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the piece of carton on the floor beside the chair and a notebook.\n(B) The person drops the piece of carton on the shelf above a stapler and a roll of tape.\n(C) The person drops the piece of carton on the counter next to a cup and a pencil holder.\n(D) The person drops the piece of carton in the drawer alongside a ruler and some sticky notes.\n(E) The person drops the piece of carton in the table next to a pen and a pair of scissors.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person drops the piece of carton in the table next to a pen and a pair of scissors."
+    },
+    "correct_idx": [
+        4
+    ]
+}

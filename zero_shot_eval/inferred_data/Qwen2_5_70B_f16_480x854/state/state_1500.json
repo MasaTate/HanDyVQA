@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the brick change?",
+    "options": [
+        "The brick was chipped and stacked atop another, altering its appearance and height.",
+        "The brick was painted and displayed on a shelf, altering its color and location.",
+        "The brick was flipped and placed on the wall, altering its orientation and position.",
+        "The brick was embedded into the ground, altering its depth and alignment.",
+        "The brick was shattered into smaller fragments, altering its integrity and form."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the brick change? Choose **only one** option from the following list.\nOptions:\n(A) The brick was chipped and stacked atop another, altering its appearance and height.\n(B) The brick was painted and displayed on a shelf, altering its color and location.\n(C) The brick was flipped and placed on the wall, altering its orientation and position.\n(D) The brick was embedded into the ground, altering its depth and alignment.\n(E) The brick was shattered into smaller fragments, altering its integrity and form.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The brick was flipped and placed on the wall, altering its orientation and position."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the stack of strip wood change?",
+    "options": [
+        "The stack of strip wood was laid down one by one from right to left on the table.",
+        "The stack of strip wood was laid down one by one from left to right on the table.",
+        "The stack of strip wood was laid down individually across the table at an angle.",
+        "The stack of strip wood was laid down in pairs from left to right on the table.",
+        "The stack of strip wood was laid down one by one from left to right, extending past the edge of the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the stack of strip wood change? Choose **only one** option from the following list.\nOptions:\n(A) The stack of strip wood was laid down one by one from right to left on the table.\n(B) The stack of strip wood was laid down one by one from left to right on the table.\n(C) The stack of strip wood was laid down individually across the table at an angle.\n(D) The stack of strip wood was laid down in pairs from left to right on the table.\n(E) The stack of strip wood was laid down one by one from left to right, extending past the edge of the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The stack of strip wood was laid down one by one from right to left on the table."
+    },
+    "correct_idx": [
+        1
+    ]
+}

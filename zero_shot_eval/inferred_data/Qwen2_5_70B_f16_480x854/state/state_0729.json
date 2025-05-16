@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the phone change?",
+    "options": [
+        "The phone was pressed and the screen turned on.",
+        "The phone was shaken and the screen flickered briefly.",
+        "The phone was dropped and the screen developed a small crack.",
+        "The phone was tapped and the screen went dark temporarily.",
+        "The phone was held firmly and the screen showed a frozen image."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the phone change? Choose **only one** option from the following list.\nOptions:\n(A) The phone was pressed and the screen turned on.\n(B) The phone was shaken and the screen flickered briefly.\n(C) The phone was dropped and the screen developed a small crack.\n(D) The phone was tapped and the screen went dark temporarily.\n(E) The phone was held firmly and the screen showed a frozen image.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The phone was pressed and the screen turned on."
+    },
+    "correct_idx": [
+        0
+    ]
+}

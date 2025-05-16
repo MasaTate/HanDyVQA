@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place a book?",
+    "options": [
+        "The person places the book on the right side of a stack of books on a shelf.",
+        "The person places the book in the middle of a stack of books in a shelf.",
+        "The person puts the book at the bottom of a stack of books in the shelf.",
+        "The person sets the book at the left end of a stack of books on a shelf.",
+        "The person positions the book behind a stack of books in the shelf."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place a book? Choose **only one** option from the following list.\nOptions:\n(A) The person places the book on the right side of a stack of books on a shelf.\n(B) The person places the book in the middle of a stack of books in a shelf.\n(C) The person puts the book at the bottom of a stack of books in the shelf.\n(D) The person sets the book at the left end of a stack of books on a shelf.\n(E) The person positions the book behind a stack of books in the shelf.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person places the book on the right side of a stack of books on a shelf."
+    },
+    "correct_idx": [
+        1
+    ]
+}

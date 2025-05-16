@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the gas burner of the cooker change?",
+    "options": [
+        "The gas burner of the cooker was being lit with a lighter.",
+        "The gas burner of the cooker was turned off using the lighter flame.",
+        "The gas burner of the cooker was lit and then promptly turned off.",
+        "The gas burner of the cooker was being lit, but the flame was extinguished by a draft.",
+        "The gas burner of the cooker was sparked with a lighter but failed to catch fire."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the gas burner of the cooker change? Choose **only one** option from the following list.\nOptions:\n(A) The gas burner of the cooker was being lit with a lighter.\n(B) The gas burner of the cooker was turned off using the lighter flame.\n(C) The gas burner of the cooker was lit and then promptly turned off.\n(D) The gas burner of the cooker was being lit, but the flame was extinguished by a draft.\n(E) The gas burner of the cooker was sparked with a lighter but failed to catch fire.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The gas burner of the cooker was being lit with a lighter."
+    },
+    "correct_idx": [
+        0
+    ]
+}

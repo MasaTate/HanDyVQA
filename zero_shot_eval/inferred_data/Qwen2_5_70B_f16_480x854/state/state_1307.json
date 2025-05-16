@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the dough on the pastry board change?",
+    "options": [
+        "The dough on the pastry board was shaped into a smooth, round ball.",
+        "The dough on the pastry board was divided into several uneven pieces.",
+        "The dough on the pastry board was flattened with a rolling pin.",
+        "The dough on the pastry board was folded over itself multiple times.",
+        "The dough on the pastry board was stretched into a thin layer by hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the dough on the pastry board change? Choose **only one** option from the following list.\nOptions:\n(A) The dough on the pastry board was shaped into a smooth, round ball.\n(B) The dough on the pastry board was divided into several uneven pieces.\n(C) The dough on the pastry board was flattened with a rolling pin.\n(D) The dough on the pastry board was folded over itself multiple times.\n(E) The dough on the pastry board was stretched into a thin layer by hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The dough on the pastry board was flattened with a rolling pin."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a glove change?",
+    "options": [
+        "The gloves were taken off of both hands.",
+        "The gloves were worn on both hands.",
+        "The glove was worn on only the left hand.",
+        "The right glove was turned inside out before being put on the hand.",
+        "Both gloves were placed in a coat pocket."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a glove change? Choose **only one** option from the following list.\nOptions:\n(A) The gloves were taken off of both hands.\n(B) The gloves were worn on both hands.\n(C) The glove was worn on only the left hand.\n(D) The right glove was turned inside out before being put on the hand.\n(E) Both gloves were placed in a coat pocket.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The gloves were worn on both hands."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the nail cutter change?",
+    "options": [
+        "The nail cutter was pressed and then placed on the wooden table.",
+        "The nail cutter was opened and then left on the glass shelf.",
+        "The nail cutter was pressed and then held in mid-air.",
+        "The nail cutter was pressed and then placed on the glass shelf.",
+        "The nail cutter was closed and then stored in a drawer."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the nail cutter change? Choose **only one** option from the following list.\nOptions:\n(A) The nail cutter was pressed and then placed on the wooden table.\n(B) The nail cutter was opened and then left on the glass shelf.\n(C) The nail cutter was pressed and then held in mid-air.\n(D) The nail cutter was pressed and then placed on the glass shelf.\n(E) The nail cutter was closed and then stored in a drawer.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The nail cutter was pressed and then placed on the glass shelf."
+    },
+    "correct_idx": [
+        3
+    ]
+}

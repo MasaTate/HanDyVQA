@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a piece of poster tape change?",
+    "options": [
+        "The poster tape was fixed and pasted to the front of the poster.",
+        "The poster tape was adjusted and placed on the edge of the poster.",
+        "The poster tape was removed and reapplied to another area of the poster.",
+        "The poster tape was fixed and pasted to the back of the poster.",
+        "The poster tape was cut in half and adhered to the corner of the poster."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a piece of poster tape change? Choose **only one** option from the following list.\nOptions:\n(A) The poster tape was fixed and pasted to the front of the poster.\n(B) The poster tape was adjusted and placed on the edge of the poster.\n(C) The poster tape was removed and reapplied to another area of the poster.\n(D) The poster tape was fixed and pasted to the back of the poster.\n(E) The poster tape was cut in half and adhered to the corner of the poster.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The poster tape was cut in half and adhered to the corner of the poster."
+    },
+    "correct_idx": [
+        3
+    ]
+}

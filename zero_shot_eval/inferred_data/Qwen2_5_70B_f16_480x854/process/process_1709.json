@@ -1,0 +1,17 @@
+{
+    "question": "How does the person beat the chopping board?",
+    "options": [
+        "The person hits the chopping board by tapping the knife with her right hand.",
+        "The person taps the chopping board gently using the side of the knife held in her left hand.",
+        "The person taps the chopping board using the back end of the knife held with both hands.",
+        "The person taps the chopping board with a rolling pin in her right hand.",
+        "The person taps the chopping board gently using the flat side of a frying pan held in her right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person beat the chopping board? Choose **only one** option from the following list.\nOptions:\n(A) The person hits the chopping board by tapping the knife with her right hand.\n(B) The person taps the chopping board gently using the side of the knife held in her left hand.\n(C) The person taps the chopping board using the back end of the knife held with both hands.\n(D) The person taps the chopping board with a rolling pin in her right hand.\n(E) The person taps the chopping board gently using the flat side of a frying pan held in her right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person hits the chopping board by tapping the knife with her right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person bring a phone?",
+    "options": [
+        "The person grabs the phone from their back pocket with their right hand, holding it firmly by the edge of the phone.",
+        "The person picks up the phone from the table using their left hand, holding it carefully in the palm.",
+        "The person reaches for the phone with both hands, gently lifting it from the ground.",
+        "The person uses their index finger to nudge the phone off the counter, catching it in their hand.",
+        "The person retrieves the phone from their jacket pocket with their right hand, holding it gently by the center."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person bring a phone? Choose **only one** option from the following list.\nOptions:\n(A) The person grabs the phone from their back pocket with their right hand, holding it firmly by the edge of the phone.\n(B) The person picks up the phone from the table using their left hand, holding it carefully in the palm.\n(C) The person reaches for the phone with both hands, gently lifting it from the ground.\n(D) The person uses their index finger to nudge the phone off the counter, catching it in their hand.\n(E) The person retrieves the phone from their jacket pocket with their right hand, holding it gently by the center.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person grabs the phone from their back pocket with their right hand, holding it firmly by the edge of the phone."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the strip of wood change?",
+    "options": [
+        "The strip of wood was split in half, resulting in two separate pieces that altered its overall structure.",
+        "The strip of wood was coated with paint, leading to a change in its appearance and texture.",
+        "The strip of wood was removed, causing a change in position as it was taken away from its original place.",
+        "The strip of wood was bent into a curve, affecting its shape while remaining in the same location.",
+        "The strip of wood was sanded down, resulting in a smoother surface but maintaining its original dimensions."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the strip of wood change? Choose **only one** option from the following list.\nOptions:\n(A) The strip of wood was split in half, resulting in two separate pieces that altered its overall structure.\n(B) The strip of wood was coated with paint, leading to a change in its appearance and texture.\n(C) The strip of wood was removed, causing a change in position as it was taken away from its original place.\n(D) The strip of wood was bent into a curve, affecting its shape while remaining in the same location.\n(E) The strip of wood was sanded down, resulting in a smoother surface but maintaining its original dimensions.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The strip of wood was removed, causing a change in position as it was taken away from its original place."
+    },
+    "correct_idx": [
+        2
+    ]
+}

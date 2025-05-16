@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person switches the pencil from her/his right hand to her/his left hand to use her right hand to adjust the monitor.",
+        "The person places the paintbrush down on the table with her/his right hand while using her/his left hand to write on a notepad.",
+        "The person holds a palette in her/his right hand while using her/his left hand to rotate the laptop.",
+        "The person extends her/his left hand to pick up a brush while her/his right hand is turning the page of a sketchbook.",
+        "The person swaps the paintbrush from her/his right hand to her/his left hand to use her right hand to turn on her laptop."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person switches the pencil from her/his right hand to her/his left hand to use her right hand to adjust the monitor.\n(B) The person places the paintbrush down on the table with her/his right hand while using her/his left hand to write on a notepad.\n(C) The person holds a palette in her/his right hand while using her/his left hand to rotate the laptop.\n(D) The person extends her/his left hand to pick up a brush while her/his right hand is turning the page of a sketchbook.\n(E) The person swaps the paintbrush from her/his right hand to her/his left hand to use her right hand to turn on her laptop.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person swaps the paintbrush from her/his right hand to her/his left hand to use her right hand to turn on her laptop."
+    },
+    "correct_idx": [
+        4
+    ]
+}

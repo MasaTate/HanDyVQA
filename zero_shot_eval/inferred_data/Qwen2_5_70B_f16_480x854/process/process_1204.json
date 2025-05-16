@@ -1,0 +1,17 @@
+{
+    "question": "How does the person cut the leaves of the second plant?",
+    "options": [
+        "The person cuts the leaves of the second plant with scissors by pulling them using the right hand.",
+        "The person separates the leaves of the second plant by using both hands, gently pulling them apart.",
+        "The person trims the leaves of the second plant using a knife held in the left hand.",
+        "The person prunes the leaves of the second plant by gently twisting them with the right hand.",
+        "The person removes the leaves of the second plant by lightly shaking the plant with both hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person cut the leaves of the second plant? Choose **only one** option from the following list.\nOptions:\n(A) The person cuts the leaves of the second plant with scissors by pulling them using the right hand.\n(B) The person separates the leaves of the second plant by using both hands, gently pulling them apart.\n(C) The person trims the leaves of the second plant using a knife held in the left hand.\n(D) The person prunes the leaves of the second plant by gently twisting them with the right hand.\n(E) The person removes the leaves of the second plant by lightly shaking the plant with both hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person separates the leaves of the second plant by using both hands, gently pulling them apart."
+    },
+    "correct_idx": [
+        0
+    ]
+}

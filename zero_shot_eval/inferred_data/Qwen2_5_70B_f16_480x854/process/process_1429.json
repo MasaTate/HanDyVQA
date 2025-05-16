@@ -1,0 +1,17 @@
+{
+    "question": "How does the person wipe the onions on the blade of the knife?",
+    "options": [
+        "The person carefully wipes the onions from side to side on the blade of the knife with the right hand after chopping.",
+        "The person gently wipes the onion from up to down on the blade of the knife with the left hand after slicing.",
+        "The person softly pushes the onion off the blade of the knife using the palm of the left hand after dicing.",
+        "The person delicately scrapes the onion from the tip to the base of the knife blade with the index finger of the right hand before cutting.",
+        "The person swiftly flicks the onion away from the blade of the knife using the back of the hand after slicing."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person wipe the onions on the blade of the knife? Choose **only one** option from the following list.\nOptions:\n(A) The person carefully wipes the onions from side to side on the blade of the knife with the right hand after chopping.\n(B) The person gently wipes the onion from up to down on the blade of the knife with the left hand after slicing.\n(C) The person softly pushes the onion off the blade of the knife using the palm of the left hand after dicing.\n(D) The person delicately scrapes the onion from the tip to the base of the knife blade with the index finger of the right hand before cutting.\n(E) The person swiftly flicks the onion away from the blade of the knife using the back of the hand after slicing.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person gently wipes the onion from up to down on the blade of the knife with the left hand after slicing."
+    },
+    "correct_idx": [
+        1
+    ]
+}

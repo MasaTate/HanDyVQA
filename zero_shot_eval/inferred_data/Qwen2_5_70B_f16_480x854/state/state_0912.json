@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the piano change?",
+    "options": [
+        "The piano keys were pressed narrowly towards the right side.",
+        "The piano keys were pressed in a continuous sequence.",
+        "The piano keys were pressed only on the left side.",
+        "The piano keys were pressed in random order with pauses in between.",
+        "The piano keys were pressed widely across the left and right."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the piano change? Choose **only one** option from the following list.\nOptions:\n(A) The piano keys were pressed narrowly towards the right side.\n(B) The piano keys were pressed in a continuous sequence.\n(C) The piano keys were pressed only on the left side.\n(D) The piano keys were pressed in random order with pauses in between.\n(E) The piano keys were pressed widely across the left and right.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The piano keys were pressed widely across the left and right."
+    },
+    "correct_idx": [
+        4
+    ]
+}

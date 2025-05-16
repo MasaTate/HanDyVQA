@@ -1,0 +1,17 @@
+{
+    "question": "How does the person spread the piece of cloth?",
+    "options": [
+        "The person crumples the piece of cloth gently in one hand and places it onto the table carefully.",
+        "The person pulls the piece of cloth quickly, releasing it to unfold naturally in one hand.",
+        "The person flings the piece of cloth from one hand to the other, allowing it to descend with a sense of control.",
+        "The person spreads the piece of cloth slowly and gently and stretches it using both hands.",
+        "The person holds the piece of cloth softly in one hand and moves it steadily, maintaining a smooth arrangement."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person spread the piece of cloth? Choose **only one** option from the following list.\nOptions:\n(A) The person crumples the piece of cloth gently in one hand and places it onto the table carefully.\n(B) The person pulls the piece of cloth quickly, releasing it to unfold naturally in one hand.\n(C) The person flings the piece of cloth from one hand to the other, allowing it to descend with a sense of control.\n(D) The person spreads the piece of cloth slowly and gently and stretches it using both hands.\n(E) The person holds the piece of cloth softly in one hand and moves it steadily, maintaining a smooth arrangement.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person spreads the piece of cloth slowly and gently and stretches it using both hands."
+    },
+    "correct_idx": [
+        3
+    ]
+}

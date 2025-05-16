@@ -1,0 +1,17 @@
+{
+    "question": "How does the person grab a stack of bowls?",
+    "options": [
+        "The person moves the stack of bowls from the countertop with both hands, lifting it steadily and with care.",
+        "The person picks up the stack of bowls from the floor, using the right hand to gently hold the bottom while lifting.",
+        "The person reaches into the cabinet and slides the stack of bowls towards them, catching it with both hands.",
+        "The person grabs the stack of bowls from the cabinet by slowly pulling it from the inside of the cabinet using the left hand.",
+        "The person lifts the stack of bowls from the table, gripping it with the fingertips of the left hand while the right hand supports the sides."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person grab a stack of bowls? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the stack of bowls from the countertop with both hands, lifting it steadily and with care.\n(B) The person picks up the stack of bowls from the floor, using the right hand to gently hold the bottom while lifting.\n(C) The person reaches into the cabinet and slides the stack of bowls towards them, catching it with both hands.\n(D) The person grabs the stack of bowls from the cabinet by slowly pulling it from the inside of the cabinet using the left hand.\n(E) The person lifts the stack of bowls from the table, gripping it with the fingertips of the left hand while the right hand supports the sides.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person reaches into the cabinet and slides the stack of bowls towards them, catching it with both hands."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person dip the brush?",
+    "options": [
+        "The person dips the brush slowly into the paint using the right hand by dipping it up and down.",
+        "The person places the brush gently into the paint using the left hand with a flicking motion.",
+        "The person holds the brush by the bristles and carefully submerges it into the paint with the right hand.",
+        "The person tilts the brush slightly while guiding it sideways into the paint with the right hand.",
+        "The person lightly scrapes the brush against the edge of the paint container with the left hand before lifting it out."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person dip the brush? Choose **only one** option from the following list.\nOptions:\n(A) The person dips the brush slowly into the paint using the right hand by dipping it up and down.\n(B) The person places the brush gently into the paint using the left hand with a flicking motion.\n(C) The person holds the brush by the bristles and carefully submerges it into the paint with the right hand.\n(D) The person tilts the brush slightly while guiding it sideways into the paint with the right hand.\n(E) The person lightly scrapes the brush against the edge of the paint container with the left hand before lifting it out.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person tilts the brush slightly while guiding it sideways into the paint with the right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

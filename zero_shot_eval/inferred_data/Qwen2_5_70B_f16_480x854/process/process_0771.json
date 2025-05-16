@@ -1,0 +1,17 @@
+{
+    "question": "How does the person snap himself?",
+    "options": [
+        "The person raises the cellphone above his head with both hands and twists slightly before taking a spontaneous selfie.",
+        "The person holds the cellphone securely in his right hand while crouching slightly, then takes a selfie from a lower angle.",
+        "The person places the cellphone on a nearby surface, then reaches out slightly to snap a selfie.",
+        "The person holds the cellphone in his right hand at arm's length while lifting himself slightly off the ground to capture a selfie.",
+        "The person carefully poses while holding the cellphone in his left hand, then moves the cellphone slowly in front of him, held at chest level, before taking a selfie."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person snap himself? Choose **only one** option from the following list.\nOptions:\n(A) The person raises the cellphone above his head with both hands and twists slightly before taking a spontaneous selfie.\n(B) The person holds the cellphone securely in his right hand while crouching slightly, then takes a selfie from a lower angle.\n(C) The person places the cellphone on a nearby surface, then reaches out slightly to snap a selfie.\n(D) The person holds the cellphone in his right hand at arm's length while lifting himself slightly off the ground to capture a selfie.\n(E) The person carefully poses while holding the cellphone in his left hand, then moves the cellphone slowly in front of him, held at chest level, before taking a selfie.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person carefully poses while holding the cellphone in his left hand, then moves the cellphone slowly in front of him, held at chest level, before taking a selfie."
+    },
+    "correct_idx": [
+        4
+    ]
+}

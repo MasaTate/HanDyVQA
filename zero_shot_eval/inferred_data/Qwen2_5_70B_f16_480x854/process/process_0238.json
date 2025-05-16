@@ -1,0 +1,17 @@
+{
+    "question": "How does the person smoothen the cement mortar on the wall?",
+    "options": [
+        "The person grips the trowel with both hands and moves it along the wall, creating varied textures with the mortar.",
+        "The person uses the edge of the trowel to apply pressure at intervals, spreading the mortar in short, deliberate motions.",
+        "The person flicks the trowel with the left hand while holding the mortar with the right, distributing the mixture in uneven patterns.",
+        "The person holds the trowel in his right hand and presses it against the wall, spreading the mortar in long, smooth strokes for an even finish.",
+        "The person lightly leans the trowel against the wall, allowing the mortar to settle naturally as it dries."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person smoothen the cement mortar on the wall? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the trowel with both hands and moves it along the wall, creating varied textures with the mortar.\n(B) The person uses the edge of the trowel to apply pressure at intervals, spreading the mortar in short, deliberate motions.\n(C) The person flicks the trowel with the left hand while holding the mortar with the right, distributing the mixture in uneven patterns.\n(D) The person holds the trowel in his right hand and presses it against the wall, spreading the mortar in long, smooth strokes for an even finish.\n(E) The person lightly leans the trowel against the wall, allowing the mortar to settle naturally as it dries.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person holds the trowel in his right hand and presses it against the wall, spreading the mortar in long, smooth strokes for an even finish."
+    },
+    "correct_idx": [
+        3
+    ]
+}

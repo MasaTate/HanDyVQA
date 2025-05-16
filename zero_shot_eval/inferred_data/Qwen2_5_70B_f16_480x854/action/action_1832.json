@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person lifts the lid of the pot with the left hand and stirs the contents with the right hand.",
+        "The person sets the pot on the stove with the left hand and adjusts the flame with the right hand.",
+        "The person pours water into the pot with the left hand while tapping the switch with the right hand.",
+        "The person covers the pot with the left hand and presses the switch with the right hand.",
+        "The person removes the pot from the heat with the left hand and wipes the counter with the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person lifts the lid of the pot with the left hand and stirs the contents with the right hand.\n(B) The person sets the pot on the stove with the left hand and adjusts the flame with the right hand.\n(C) The person pours water into the pot with the left hand while tapping the switch with the right hand.\n(D) The person covers the pot with the left hand and presses the switch with the right hand.\n(E) The person removes the pot from the heat with the left hand and wipes the counter with the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person cover the pot with the left hand and presses the switch with the right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

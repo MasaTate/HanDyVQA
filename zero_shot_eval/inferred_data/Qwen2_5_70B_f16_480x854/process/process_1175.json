@@ -1,0 +1,17 @@
+{
+    "question": "How does the person straighten the poster on the wall?",
+    "options": [
+        "The person uses the left hand to stabilize the poster and slides it to straighten the poster on the wall.",
+        "The person holds the bottom edge of the poster with both hands and slightly adjusts it to align it on the wall.",
+        "The person gently presses the poster with one hand while guiding it downward with the other hand.",
+        "The person slightly adjusts the corners of the poster, causing it to tilt rather than straighten on the wall.",
+        "The person gently holds the poster with one hand and moves it slightly away from the wall, causing it to be less aligned."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person straighten the poster on the wall? Choose **only one** option from the following list.\nOptions:\n(A) The person uses the left hand to stabilize the poster and slides it to straighten the poster on the wall.\n(B) The person holds the bottom edge of the poster with both hands and slightly adjusts it to align it on the wall.\n(C) The person gently presses the poster with one hand while guiding it downward with the other hand.\n(D) The person slightly adjusts the corners of the poster, causing it to tilt rather than straighten on the wall.\n(E) The person gently holds the poster with one hand and moves it slightly away from the wall, causing it to be less aligned.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person holds the bottom edge of the poster with both hands and slightly adjusts it to align it on the wall."
+    },
+    "correct_idx": [
+        0
+    ]
+}

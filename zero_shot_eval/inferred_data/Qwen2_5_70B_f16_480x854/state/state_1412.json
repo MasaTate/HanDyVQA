@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the collar of the shirt   change?",
+    "options": [
+        "The collar was twisted into a spiral and then held in place with a pin.",
+        "The collar was rolled up into a tube and then held in place with a clip.",
+        "The collar was crumpled into a ball and then smoothed out by hands.",
+        "The collar was flattened and folded in half, and then straightened with an iron.",
+        "The collar was removed from the shirt entirely and then placed back loosely."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the collar of the shirt   change? Choose **only one** option from the following list.\nOptions:\n(A) The collar was twisted into a spiral and then held in place with a pin.\n(B) The collar was rolled up into a tube and then held in place with a clip.\n(C) The collar was crumpled into a ball and then smoothed out by hands.\n(D) The collar was flattened and folded in half, and then straightened with an iron.\n(E) The collar was removed from the shirt entirely and then placed back loosely.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The collar was flattened and folded in half, and then straightened with an iron."
+    },
+    "correct_idx": [
+        3
+    ]
+}

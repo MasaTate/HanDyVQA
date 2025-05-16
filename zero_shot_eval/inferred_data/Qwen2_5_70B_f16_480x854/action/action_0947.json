@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person dusts the shelf with a feather duster in her right hand while holding a cloth with her left hand.",
+        "The person mops the floor with a wet mop in her left hand while grasping a bucket with her right hand.",
+        "The person sweeps the mat on the floor with the broom in her left hand.",
+        "The person vacuums the carpet using a vacuum cleaner in her left hand while moving a chair with her right hand.",
+        "The person wipes the window using a sponge in her right hand while holding a spray bottle with her left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person dusts the shelf with a feather duster in her right hand while holding a cloth with her left hand.\n(B) The person mops the floor with a wet mop in her left hand while grasping a bucket with her right hand.\n(C) The person sweeps the mat on the floor with the broom in her left hand.\n(D) The person vacuums the carpet using a vacuum cleaner in her left hand while moving a chair with her right hand.\n(E) The person wipes the window using a sponge in her right hand while holding a spray bottle with her left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person sweeps the mat on the floor with the broom in her left hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

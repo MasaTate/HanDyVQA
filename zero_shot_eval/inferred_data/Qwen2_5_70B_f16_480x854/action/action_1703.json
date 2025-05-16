@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person drags the ball away from the dog's mouth with his right hand and gently touches the dog's collar with his left hand.",
+        "The person lifts the ball from the dog's mouth using his right hand while holding the dog's collar with his left hand.",
+        "The person throws the ball to the dog using his right hand while gesturing with his left hand to encourage the dog to fetch.",
+        "The person rolls the ball away from the dog using his right hand while his left hand rests on his knee.",
+        "The person pulls the ball out of the dog's mouth with his right hand while keeping the dog distracted with a treat in his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person drags the ball away from the dog's mouth with his right hand and gently touches the dog's collar with his left hand.\n(B) The person lifts the ball from the dog's mouth using his right hand while holding the dog's collar with his left hand.\n(C) The person throws the ball to the dog using his right hand while gesturing with his left hand to encourage the dog to fetch.\n(D) The person rolls the ball away from the dog using his right hand while his left hand rests on his knee.\n(E) The person pulls the ball out of the dog's mouth with his right hand while keeping the dog distracted with a treat in his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person lifts the ball from the dog's mouth using his right hand while holding the dog's collar with his left hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

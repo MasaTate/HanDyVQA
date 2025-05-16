@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of board game card change?",
+    "options": [
+        "The board game card was shuffled back into the deck.",
+        "The board game card was picked and placed face down on the table.",
+        "The board game card was picked and checked.",
+        "The board game card was dropped onto the floor.",
+        "The board game card was bent along the edges."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of board game card change? Choose **only one** option from the following list.\nOptions:\n(A) The board game card was shuffled back into the deck.\n(B) The board game card was picked and placed face down on the table.\n(C) The board game card was picked and checked.\n(D) The board game card was dropped onto the floor.\n(E) The board game card was bent along the edges.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The board game card was picked and checked."
+    },
+    "correct_idx": [
+        2
+    ]
+}

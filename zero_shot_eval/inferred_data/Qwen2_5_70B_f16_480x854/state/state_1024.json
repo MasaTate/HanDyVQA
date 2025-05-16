@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the dice change?",
+    "options": [
+        "The dice was shaken inside a small cup and then thrown onto the board.",
+        "The dice was held in place and then dropped onto the table.",
+        "The dice was rolled from the hand directly onto the board without a cup.",
+        "The dice was placed in the cup but not shaken, then tilted onto the board.",
+        "The dice was thrown into a box instead of being thrown onto the board."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the dice change? Choose **only one** option from the following list.\nOptions:\n(A) The dice was shaken inside a small cup and then thrown onto the board.\n(B) The dice was held in place and then dropped onto the table.\n(C) The dice was rolled from the hand directly onto the board without a cup.\n(D) The dice was placed in the cup but not shaken, then tilted onto the board.\n(E) The dice was thrown into a box instead of being thrown onto the board.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The dice was shaken inside a small cup and then thrown onto the board."
+    },
+    "correct_idx": [
+        0
+    ]
+}

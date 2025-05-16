@@ -1,0 +1,17 @@
+{
+    "question": "How does the person unroll the yarn?",
+    "options": [
+        "The person unrolls the yarn by using both hands to gently twist it around her right thumb.",
+        "The person pulls at the yarn with her right wrist, letting it slide through her fingers smoothly.",
+        "The person unrolls the yarn by pulling off her left index finger and twisting it to unroll.",
+        "The person unrolls the yarn by grasping it lightly in her palm and lifting it upwards slightly.",
+        "The person removes the yarn from the spool by pulling it forward with her left hand, allowing it to unwind gently."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person unroll the yarn? Choose **only one** option from the following list.\nOptions:\n(A) The person unrolls the yarn by using both hands to gently twist it around her right thumb.\n(B) The person pulls at the yarn with her right wrist, letting it slide through her fingers smoothly.\n(C) The person unrolls the yarn by pulling off her left index finger and twisting it to unroll.\n(D) The person unrolls the yarn by grasping it lightly in her palm and lifting it upwards slightly.\n(E) The person removes the yarn from the spool by pulling it forward with her left hand, allowing it to unwind gently.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person unrolls the yarn by pulling off her left index finger and twisting it to unroll."
+    },
+    "correct_idx": [
+        2
+    ]
+}

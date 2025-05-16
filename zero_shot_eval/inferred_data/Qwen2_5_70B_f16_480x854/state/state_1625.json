@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of tap change?",
+    "options": [
+        "The tap was twisted completely shut, preventing water from flowing.",
+        "The tap was partially opened, resulting in a slow trickle of water.",
+        "The tap was opened with the lever, allowing water to flow.",
+        "The tap was detached from the sink, causing water to spill out.",
+        "The tap was stuck in the open position, allowing water to continually pour out."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of tap change? Choose **only one** option from the following list.\nOptions:\n(A) The tap was twisted completely shut, preventing water from flowing.\n(B) The tap was partially opened, resulting in a slow trickle of water.\n(C) The tap was opened with the lever, allowing water to flow.\n(D) The tap was detached from the sink, causing water to spill out.\n(E) The tap was stuck in the open position, allowing water to continually pour out.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The tap was opened with the lever, allowing water to flow."
+    },
+    "correct_idx": [
+        2
+    ]
+}

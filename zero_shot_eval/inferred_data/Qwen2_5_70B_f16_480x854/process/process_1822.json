@@ -1,0 +1,17 @@
+{
+    "question": "How does the person loose a screw?",
+    "options": [
+        "The person uses a lug screw to loosen it with both hands and twist it counter clockwise.",
+        "The person attempts to twist the screw by using a pair of pliers to loosen it.",
+        "The person tries to push down on the screw with their finger and turn it gently.",
+        "The person attempts to pull the screw out slowly with their hand before loosening.",
+        "The person uses a flathead screwdriver to try and twist the screw gently."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person loose a screw? Choose **only one** option from the following list.\nOptions:\n(A) The person uses a lug screw to loosen it with both hands and twist it counter clockwise.\n(B) The person attempts to twist the screw by using a pair of pliers to loosen it.\n(C) The person tries to push down on the screw with their finger and turn it gently.\n(D) The person attempts to pull the screw out slowly with their hand before loosening.\n(E) The person uses a flathead screwdriver to try and twist the screw gently.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person uses a lug screw to loosen it with both hands and twist it counter clockwise."
+    },
+    "correct_idx": [
+        0
+    ]
+}

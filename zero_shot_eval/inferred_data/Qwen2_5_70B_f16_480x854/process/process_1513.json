@@ -1,0 +1,17 @@
+{
+    "question": "How does the person press the switch on the saw table?",
+    "options": [
+        "The person turned the switch of the saw table by holding a stick in his right hand and pushing it forward. After that, he slightly pressed the wood down to activate the switch.",
+        "The person nudged the switch of the saw table with his elbow while balancing a piece of wood in his left hand, pressing forward to turn it on.",
+        "The person leaned in and used a cloth to push the switch forward and gently pressed down the wood with his left elbow.",
+        "The person carefully used both thumbs to slide the switch forward while he supported the saw table with his right hand.",
+        "The person held the stick in his left hand and pushed the switch backward with more force, then leaned the wood slightly against the saw."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person press the switch on the saw table? Choose **only one** option from the following list.\nOptions:\n(A) The person turned the switch of the saw table by holding a stick in his right hand and pushing it forward. After that, he slightly pressed the wood down to activate the switch.\n(B) The person nudged the switch of the saw table with his elbow while balancing a piece of wood in his left hand, pressing forward to turn it on.\n(C) The person leaned in and used a cloth to push the switch forward and gently pressed down the wood with his left elbow.\n(D) The person carefully used both thumbs to slide the switch forward while he supported the saw table with his right hand.\n(E) The person held the stick in his left hand and pushed the switch backward with more force, then leaned the wood slightly against the saw.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person turned the switch of the saw table by holding a stick in his right hand and pushing it forward. After that, he slightly pressed the wood down to activate the switch."
+    },
+    "correct_idx": [
+        0
+    ]
+}

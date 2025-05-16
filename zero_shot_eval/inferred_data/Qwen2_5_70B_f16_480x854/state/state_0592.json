@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the mushroom change?",
+    "options": [
+        "The mushrooms were picked up whole and placed into the pot without being broken apart.",
+        "The mushrooms were squeezed and crushed before being placed into the pot.",
+        "The mushrooms were gently grasped, broken apart by hand, and placed into the pot.",
+        "The mushrooms were sliced with a knife before being dropped into the pot.",
+        "The mushrooms were picked up and gently torn but not immediately placed into the pot."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the mushroom change? Choose **only one** option from the following list.\nOptions:\n(A) The mushrooms were picked up whole and placed into the pot without being broken apart.\n(B) The mushrooms were squeezed and crushed before being placed into the pot.\n(C) The mushrooms were gently grasped, broken apart by hand, and placed into the pot.\n(D) The mushrooms were sliced with a knife before being dropped into the pot.\n(E) The mushrooms were picked up and gently torn but not immediately placed into the pot.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The mushrooms were gently grasped, broken apart by hand, and placed into the pot."
+    },
+    "correct_idx": [
+        2
+    ]
+}

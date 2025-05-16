@@ -1,0 +1,17 @@
+{
+    "question": "How does the person move her plate?",
+    "options": [
+        "The person uses her right hand to push the plate closer to the center of the table.",
+        "The person lifts the plate with both hands and positions it near the edge of the table.",
+        "The person uses her left hand to pull the plate from the table.",
+        "The person gently tips the plate and allows it to slide toward the table's edge.",
+        "The person reaches out and attempts to rotate the plate gently in place."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person move her plate? Choose **only one** option from the following list.\nOptions:\n(A) The person uses her right hand to push the plate closer to the center of the table.\n(B) The person lifts the plate with both hands and positions it near the edge of the table.\n(C) The person uses her left hand to pull the plate from the table.\n(D) The person gently tips the plate and allows it to slide toward the table's edge.\n(E) The person reaches out and attempts to rotate the plate gently in place.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person uses her right hand to push the plate closer to the center of the table."
+    },
+    "correct_idx": [
+        0
+    ]
+}

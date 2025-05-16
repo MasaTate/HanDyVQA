@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the brush change?",
+    "options": [
+        "The brush was applied on the paper, changing the shape of the bristle, then moved to the canvas.",
+        "The brush was dipped in the paint, changing the color of the bristle, then lifted from the palette.",
+        "The brush was pressed against the paper, altering the shape of the bristle, then placed back in the water.",
+        "The brush was used on the paper, spreading the bristles, then set down on the table.",
+        "The brush was applied on the paper, changing the shape of the bristle, then moved to the palette."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the brush change? Choose **only one** option from the following list.\nOptions:\n(A) The brush was applied on the paper, changing the shape of the bristle, then moved to the canvas.\n(B) The brush was dipped in the paint, changing the color of the bristle, then lifted from the palette.\n(C) The brush was pressed against the paper, altering the shape of the bristle, then placed back in the water.\n(D) The brush was used on the paper, spreading the bristles, then set down on the table.\n(E) The brush was applied on the paper, changing the shape of the bristle, then moved to the palette.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The brush was dipped in the paint, changing the color of the bristle, then lifted from the palette."
+    },
+    "correct_idx": [
+        4
+    ]
+}

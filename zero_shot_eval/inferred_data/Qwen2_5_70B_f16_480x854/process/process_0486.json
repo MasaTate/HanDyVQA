@@ -1,0 +1,17 @@
+{
+    "question": "How does the person dip her right hand?",
+    "options": [
+        "The person leans slightly forward toward the bathroom sink, extending her right arm downward, then dips her right hand into the sink to feel for the drain stopper.",
+        "The person dips her right hand with a smooth motion by bending her right elbow slightly, letting her fingertips gently touch the surface of the water in the basin.",
+        "The person dips her right hand in the kitchen sink by leaning slightly forward over the kitchen sink, extending her right arm downward, then carefully dips her right hand into the sink, trying to reach for the object she is trying to retrieve.",
+        "The person extends her right hand slightly forward, keeping her arm relaxed, and gently submerges her fingers into a bowl of water on the table.",
+        "The person leans slightly to the side of the sink, stretching her arm over the counter, and dips her right hand while maintaining balance to prevent slipping."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person dip her right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person leans slightly forward toward the bathroom sink, extending her right arm downward, then dips her right hand into the sink to feel for the drain stopper.\n(B) The person dips her right hand with a smooth motion by bending her right elbow slightly, letting her fingertips gently touch the surface of the water in the basin.\n(C) The person dips her right hand in the kitchen sink by leaning slightly forward over the kitchen sink, extending her right arm downward, then carefully dips her right hand into the sink, trying to reach for the object she is trying to retrieve.\n(D) The person extends her right hand slightly forward, keeping her arm relaxed, and gently submerges her fingers into a bowl of water on the table.\n(E) The person leans slightly to the side of the sink, stretching her arm over the counter, and dips her right hand while maintaining balance to prevent slipping.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person dips her right hand in the kitchen sink by leaning slightly forward over the kitchen sink, extending her right arm downward, then carefully dips her right hand into the sink, trying to reach for the object she is trying to retrieve."
+    },
+    "correct_idx": [
+        2
+    ]
+}

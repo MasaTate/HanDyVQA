@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person uses both hands to close the paper bag and places it on the floor with his right hand.",
+        "The person uses his right hand to twist the paper bag shut while holding it at his side with his left hand.",
+        "The person uses both hands to open the paper bag and lifts it from the table with his left hand.",
+        "The person uses both hands to shake the paper bag gently while holding it above the table with his left hand.",
+        "The person uses his left hand to take the paper bag off a shelf while supporting himself with his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person uses both hands to close the paper bag and places it on the floor with his right hand.\n(B) The person uses his right hand to twist the paper bag shut while holding it at his side with his left hand.\n(C) The person uses both hands to open the paper bag and lifts it from the table with his left hand.\n(D) The person uses both hands to shake the paper bag gently while holding it above the table with his left hand.\n(E) The person uses his left hand to take the paper bag off a shelf while supporting himself with his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person uses his right hand to twist the paper bag shut while holding it at his side with his left hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

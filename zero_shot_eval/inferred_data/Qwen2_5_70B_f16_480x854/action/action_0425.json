@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person lifts the bowl of batter with his/her right hand while his/her left hand holds a whisk.",
+        "The person stirs the batter with his/her left hand while his/her right hand holds a spoon.",
+        "The person sets down the bowl of batter with his/her right hand while his/her left hand holds a measuring cup.",
+        "The person pours the batter into a pan using his/her left hand while his/her right hand holds a spatula.",
+        "The person grabs the bowl of batter with his/her left hand while his/her right hand holds the scoop of the batter."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person lifts the bowl of batter with his/her right hand while his/her left hand holds a whisk.\n(B) The person stirs the batter with his/her left hand while his/her right hand holds a spoon.\n(C) The person sets down the bowl of batter with his/her right hand while his/her left hand holds a measuring cup.\n(D) The person pours the batter into a pan using his/her left hand while his/her right hand holds a spatula.\n(E) The person grabs the bowl of batter with his/her left hand while his/her right hand holds the scoop of the batter.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person grabs the bowl of batter with his/her left hand while his/her right hand holds the scoop of the batter."
+    },
+    "correct_idx": [
+        4
+    ]
+}

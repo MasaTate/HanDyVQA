@@ -1,0 +1,17 @@
+{
+    "question": "How does the person attach the fan cable?",
+    "options": [
+        "The person moves his right hand to the corner side and gently attaches the fan cable to plug it into the motherboard.",
+        "The person uses his left hand to guide the fan cable and carefully places it into the motherboard socket.",
+        "The person leans over and positions the fan cable onto the motherboard, ensuring it is secured with his hands.",
+        "The person is twisting his wrist slightly while attempting to connect the fan cable to the motherboard, using his palm to assist.",
+        "The person takes the fan cable with both hands and attempts to fit it into the motherboard in a deliberate manner."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person attach the fan cable? Choose **only one** option from the following list.\nOptions:\n(A) The person moves his right hand to the corner side and gently attaches the fan cable to plug it into the motherboard.\n(B) The person uses his left hand to guide the fan cable and carefully places it into the motherboard socket.\n(C) The person leans over and positions the fan cable onto the motherboard, ensuring it is secured with his hands.\n(D) The person is twisting his wrist slightly while attempting to connect the fan cable to the motherboard, using his palm to assist.\n(E) The person takes the fan cable with both hands and attempts to fit it into the motherboard in a deliberate manner.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person takes the fan cable with both hands and attempts to fit it into the motherboard in a deliberate manner."
+    },
+    "correct_idx": [
+        0
+    ]
+}

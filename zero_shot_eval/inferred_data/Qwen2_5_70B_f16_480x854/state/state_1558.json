@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the plug change?",
+    "options": [
+        "The plug was shifted from a connected state to a disconnected state when pulled out from the socket.",
+        "The plug was transformed from an intact state to a damaged state when dropped on a hard surface.",
+        "The plug was transitioned from an unplugged state to a connected state when inserted into the socket.",
+        "The plug was converted from a connected state to a partially inserted state when positioned halfway into the socket.",
+        "The plug was changed from a standard state to a modified state when equipped with an adapter."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the plug change? Choose **only one** option from the following list.\nOptions:\n(A) The plug was shifted from a connected state to a disconnected state when pulled out from the socket.\n(B) The plug was transformed from an intact state to a damaged state when dropped on a hard surface.\n(C) The plug was transitioned from an unplugged state to a connected state when inserted into the socket.\n(D) The plug was converted from a connected state to a partially inserted state when positioned halfway into the socket.\n(E) The plug was changed from a standard state to a modified state when equipped with an adapter.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The plug was transitioned from an unplugged state to a connected state when inserted into the socket."
+    },
+    "correct_idx": [
+        2
+    ]
+}

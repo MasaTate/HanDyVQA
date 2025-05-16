@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the pack change?",
+    "options": [
+        "The pack was settled down onto the sink after the meat was removed.",
+        "The pack was placed on the counter before the meat was removed.",
+        "The pack was lifted from the sink while it still contained the meat.",
+        "The pack was set on the table with the meat inside it.",
+        "The pack was settled down onto the sink before the meat was added."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the pack change? Choose **only one** option from the following list.\nOptions:\n(A) The pack was settled down onto the sink after the meat was removed.\n(B) The pack was placed on the counter before the meat was removed.\n(C) The pack was lifted from the sink while it still contained the meat.\n(D) The pack was set on the table with the meat inside it.\n(E) The pack was settled down onto the sink before the meat was added.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The pack was settled down onto the sink after the meat was removed."
+    },
+    "correct_idx": [
+        0
+    ]
+}

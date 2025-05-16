@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the plastic container on the sewing table change?",
+    "options": [
+        "The plastic container was pushed slightly to the left before being set back down.",
+        "The plastic container was held and then rotated slightly.",
+        "The plastic container was moved forward instead of being lifted.",
+        "The plastic container was held and then lifted up.",
+        "The plastic container was lifted partially and then placed back on the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the plastic container on the sewing table change? Choose **only one** option from the following list.\nOptions:\n(A) The plastic container was pushed slightly to the left before being set back down.\n(B) The plastic container was held and then rotated slightly.\n(C) The plastic container was moved forward instead of being lifted.\n(D) The plastic container was held and then lifted up.\n(E) The plastic container was lifted partially and then placed back on the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The plastic container was held and then lifted up."
+    },
+    "correct_idx": [
+        3
+    ]
+}

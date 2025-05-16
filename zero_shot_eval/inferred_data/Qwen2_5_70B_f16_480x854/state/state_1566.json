@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the grease gun change?",
+    "options": [
+        "The grease gun was moved to the right in a slower motion.",
+        "The grease gun was tilted upwards in a swift motion.",
+        "The grease gun was moved to the left in a gradual motion.",
+        "The grease gun was moved to the left in a quick motion.",
+        "The grease gun was rotated to the right with the same hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the grease gun change? Choose **only one** option from the following list.\nOptions:\n(A) The grease gun was moved to the right in a slower motion.\n(B) The grease gun was tilted upwards in a swift motion.\n(C) The grease gun was moved to the left in a gradual motion.\n(D) The grease gun was moved to the left in a quick motion.\n(E) The grease gun was rotated to the right with the same hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The grease gun was moved to the left in a quick motion."
+    },
+    "correct_idx": [
+        3
+    ]
+}

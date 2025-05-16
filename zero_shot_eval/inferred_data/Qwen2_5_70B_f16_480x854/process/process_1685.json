@@ -1,0 +1,17 @@
+{
+    "question": "How does the person take an object off the microwave?",
+    "options": [
+        "The person retrieves the object from the microwave with both hands, carefully lifting it up and placing it aside.",
+        "The person retrieves the object from the microwave guide by picking it up and putting it aside using his left hand after putting some food inside.",
+        "The person uses their right hand to gently lift the object from the microwave, maintaining a careful grip.",
+        "The person nudges the object out of the microwave using a gentle motion of their palm.",
+        "The person picks up the object using their fingertips from the microwave while leaning slightly forward."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person take an object off the microwave? Choose **only one** option from the following list.\nOptions:\n(A) The person retrieves the object from the microwave with both hands, carefully lifting it up and placing it aside.\n(B) The person retrieves the object from the microwave guide by picking it up and putting it aside using his left hand after putting some food inside.\n(C) The person uses their right hand to gently lift the object from the microwave, maintaining a careful grip.\n(D) The person nudges the object out of the microwave using a gentle motion of their palm.\n(E) The person picks up the object using their fingertips from the microwave while leaning slightly forward.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person retrieves the object from the microwave with both hands, carefully lifting it up and placing it aside."
+    },
+    "correct_idx": [
+        1
+    ]
+}

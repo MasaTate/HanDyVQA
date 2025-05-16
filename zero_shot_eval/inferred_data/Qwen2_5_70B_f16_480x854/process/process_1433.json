@@ -1,0 +1,17 @@
+{
+    "question": "How does the person smoothen the cement?",
+    "options": [
+        "The person uses the trowel with both hands and gently moves it sideways against the surface.",
+        "The person holds the trowel in the left hand and gently moves it across the cement in a straight line.",
+        "The person smoothens the cement by using the trowel with the right hand and by gently moving down and up.",
+        "The person uses the trowel with the fingertips of the right hand while moving it back and forth in a calm manner.",
+        "The person grips the trowel in the right hand and moves the cement smoothly instead of applying pressure."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person smoothen the cement? Choose **only one** option from the following list.\nOptions:\n(A) The person uses the trowel with both hands and gently moves it sideways against the surface.\n(B) The person holds the trowel in the left hand and gently moves it across the cement in a straight line.\n(C) The person smoothens the cement by using the trowel with the right hand and by gently moving down and up.\n(D) The person uses the trowel with the fingertips of the right hand while moving it back and forth in a calm manner.\n(E) The person grips the trowel in the right hand and moves the cement smoothly instead of applying pressure.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person holds the trowel in the left hand and gently moves it across the cement in a straight line."
+    },
+    "correct_idx": [
+        2
+    ]
+}

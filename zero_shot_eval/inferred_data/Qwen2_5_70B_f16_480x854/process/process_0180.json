@@ -1,0 +1,17 @@
+{
+    "question": "How does the person clear some twigs?",
+    "options": [
+        "The person uses his right hand to hold the pruning shears, cutting through the twigs with a firm squeeze. After cutting, he uses his right hand to move the twigs aside and clear the area.",
+        "The person swings the pruning shears with both hands, trimming the twigs with broad strokes but without focusing on precise cuts. Afterward, he leaves the twigs scattered and does not clear the area thoroughly.",
+        "The person picks up the twigs by hand, pulling at them with his fingers rather than using the pruning shears to cut them. He then moves them aside casually, not focusing on clearing the area methodically.",
+        "The person holds the pruning shears in his left hand and tries to separate the twigs rather than cutting them. After they fall, he does not focus on clearing the area, leaving it as is.",
+        "The person grips the pruning shears with both hands, attempting to remove the twigs by pulling instead of cutting them. Once done, he moves them aside without paying much attention to the area."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person clear some twigs? Choose **only one** option from the following list.\nOptions:\n(A) The person uses his right hand to hold the pruning shears, cutting through the twigs with a firm squeeze. After cutting, he uses his right hand to move the twigs aside and clear the area.\n(B) The person swings the pruning shears with both hands, trimming the twigs with broad strokes but without focusing on precise cuts. Afterward, he leaves the twigs scattered and does not clear the area thoroughly.\n(C) The person picks up the twigs by hand, pulling at them with his fingers rather than using the pruning shears to cut them. He then moves them aside casually, not focusing on clearing the area methodically.\n(D) The person holds the pruning shears in his left hand and tries to separate the twigs rather than cutting them. After they fall, he does not focus on clearing the area, leaving it as is.\n(E) The person grips the pruning shears with both hands, attempting to remove the twigs by pulling instead of cutting them. Once done, he moves them aside without paying much attention to the area.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person uses his right hand to hold the pruning shears, cutting through the twigs with a firm squeeze. After cutting, he uses his right hand to move the twigs aside and clear the area."
+    },
+    "correct_idx": [
+        0
+    ]
+}

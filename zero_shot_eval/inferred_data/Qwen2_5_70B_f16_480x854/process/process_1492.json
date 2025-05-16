@@ -1,0 +1,17 @@
+{
+    "question": "How does the person move the measuring stick?",
+    "options": [
+        "The person grasps the measuring stick with both hands and lowers it carefully toward the ground.",
+        "The person used his right hand to place the measuring stick into the tunnel.",
+        "The person guides the measuring stick into the tunnel with his left hand, while adjusting it slightly.",
+        "The person steadies the measuring stick above the tunnel with one hand, ensuring its alignment.",
+        "The person reaches with his right arm and gently positions the measuring stick into the tunnel from a short distance."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person move the measuring stick? Choose **only one** option from the following list.\nOptions:\n(A) The person grasps the measuring stick with both hands and lowers it carefully toward the ground.\n(B) The person used his right hand to place the measuring stick into the tunnel.\n(C) The person guides the measuring stick into the tunnel with his left hand, while adjusting it slightly.\n(D) The person steadies the measuring stick above the tunnel with one hand, ensuring its alignment.\n(E) The person reaches with his right arm and gently positions the measuring stick into the tunnel from a short distance.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person used his right hand to place the measuring stick into the tunnel."
+    },
+    "correct_idx": [
+        1
+    ]
+}

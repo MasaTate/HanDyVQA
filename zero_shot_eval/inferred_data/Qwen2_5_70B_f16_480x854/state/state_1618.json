@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the engine of the riding lawn mower change?",
+    "options": [
+        "The engine became exposed as its cover was removed.",
+        "The engine became overheated as it was running for too long.",
+        "The engine became covered as its cover was put on.",
+        "The engine became clean as dirt and debris were wiped away.",
+        "The engine became disconnected as the wires were unplugged."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the engine of the riding lawn mower change? Choose **only one** option from the following list.\nOptions:\n(A) The engine became exposed as its cover was removed.\n(B) The engine became overheated as it was running for too long.\n(C) The engine became covered as its cover was put on.\n(D) The engine became clean as dirt and debris were wiped away.\n(E) The engine became disconnected as the wires were unplugged.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The engine became covered as its cover was put on."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person raises their right hand above their head.",
+        "The person gestures with their left hand as they speak.",
+        "The person is swaying both hands while walking.",
+        "The person lowers their right hand by their side.",
+        "The person waves their left hand in a greeting."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person raises their right hand above their head.\n(B) The person gestures with their left hand as they speak.\n(C) The person is swaying both hands while walking.\n(D) The person lowers their right hand by their side.\n(E) The person waves their left hand in a greeting.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person is swaying both hands while walking."
+    },
+    "correct_idx": [
+        2
+    ]
+}

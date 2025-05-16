@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person pulls back the tape measure with his right hand.",
+        "The person rolls up the tape measure with his right hand.",
+        "The person holds the tape measure in his right hand while pointing at a wall with his left hand.",
+        "The person stretches out the tape measure with his right hand.",
+        "The person extends the tape measure with both hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person pulls back the tape measure with his right hand.\n(B) The person rolls up the tape measure with his right hand.\n(C) The person holds the tape measure in his right hand while pointing at a wall with his left hand.\n(D) The person stretches out the tape measure with his right hand.\n(E) The person extends the tape measure with both hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person extends the tape measure with both hands."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person places the mushroom on the cutting board using both hands to chop it into smaller pieces.",
+        "The person removes the mushroom from the frying pan using a spatula in his right hand while holding the pan steady with his left hand.",
+        "The person is seasoning the mushroom in a bowl with his right hand while keeping the bowl steady with his left hand.",
+        "The person transfers the mushroom from the frying pan onto a plate using his right hand.",
+        "The person picks up the mushroom using both hands and places it into the frying pan to cook it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person places the mushroom on the cutting board using both hands to chop it into smaller pieces.\n(B) The person removes the mushroom from the frying pan using a spatula in his right hand while holding the pan steady with his left hand.\n(C) The person is seasoning the mushroom in a bowl with his right hand while keeping the bowl steady with his left hand.\n(D) The person transfers the mushroom from the frying pan onto a plate using his right hand.\n(E) The person picks up the mushroom using both hands and places it into the frying pan to cook it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person picks up the mushroom using both hands and places it into the frying pan to cook it."
+    },
+    "correct_idx": [
+        4
+    ]
+}

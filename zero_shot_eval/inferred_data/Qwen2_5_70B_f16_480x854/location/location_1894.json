@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put his left hand?",
+    "options": [
+        "The person put his left hand on the edge of the wall.",
+        "The person put his left hand against the side of the wall.",
+        "The person put his left hand at the hole of the wall.",
+        "The person put his left hand at the corner of the wall.",
+        "The person put his left hand near the bottom of the wall."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put his left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person put his left hand on the edge of the wall.\n(B) The person put his left hand against the side of the wall.\n(C) The person put his left hand at the hole of the wall.\n(D) The person put his left hand at the corner of the wall.\n(E) The person put his left hand near the bottom of the wall.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person put his left hand at the hole of the wall."
+    },
+    "correct_idx": [
+        2
+    ]
+}

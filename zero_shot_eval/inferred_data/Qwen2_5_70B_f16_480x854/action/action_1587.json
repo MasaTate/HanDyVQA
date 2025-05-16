@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is marking the tape with a pencil and then lifting it with their right hand.",
+        "The person is mixing paint with a spatula in their right hand while holding the paint jar with their left hand.",
+        "The person is stirring paint in a bowl using a paintbrush in their right hand while balancing the jar on the table with their left hand.",
+        "The person is pouring yellow paint from the jar with their right hand while holding a canvas steady with their left hand.",
+        "The person is cleaning a paintbrush in water with their right hand while placing the paint jar on a shelf with their left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is marking the tape with a pencil and then lifting it with their right hand.\n(B) The person is mixing paint with a spatula in their right hand while holding the paint jar with their left hand.\n(C) The person is stirring paint in a bowl using a paintbrush in their right hand while balancing the jar on the table with their left hand.\n(D) The person is pouring yellow paint from the jar with their right hand while holding a canvas steady with their left hand.\n(E) The person is cleaning a paintbrush in water with their right hand while placing the paint jar on a shelf with their left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person is stirring paint in a bowl using a paintbrush in their right hand while balancing the jar on the table with their left hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

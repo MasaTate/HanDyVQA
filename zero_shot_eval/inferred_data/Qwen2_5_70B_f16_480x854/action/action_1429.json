@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person holds the kettle with the right hand and closes the lid with the left hand.",
+        "The person is lifting the kettle with the left hand and pouring water out with the right hand.",
+        "The person is grabbing the kettle with both hands while preparing to place it on the stove.",
+        "The person is holding the kettle with the left hand while opening the lid with the right hand.",
+        "The person is setting the kettle down on the counter using both hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the kettle with the right hand and closes the lid with the left hand.\n(B) The person is lifting the kettle with the left hand and pouring water out with the right hand.\n(C) The person is grabbing the kettle with both hands while preparing to place it on the stove.\n(D) The person is holding the kettle with the left hand while opening the lid with the right hand.\n(E) The person is setting the kettle down on the counter using both hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person is grabbing the kettle with both hands while preparing to place it on the stove."
+    },
+    "correct_idx": [
+        0
+    ]
+}

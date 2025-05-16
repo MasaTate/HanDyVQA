@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is gripping the paintbrush with their right hand and holding a cardboard box with their left hand.",
+        "The person is applying paint with the paintbrush in their right hand while holding a palette with their left hand.",
+        "The person is mixing colors with the paintbrush in their right hand while holding a sheet of paper with their left hand.",
+        "The person is cleaning the paintbrush with their right hand while holding a container of water with their left hand.",
+        "The person is holding the paintbrush with their right hand and holding a plastic object with their left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is gripping the paintbrush with their right hand and holding a cardboard box with their left hand.\n(B) The person is applying paint with the paintbrush in their right hand while holding a palette with their left hand.\n(C) The person is mixing colors with the paintbrush in their right hand while holding a sheet of paper with their left hand.\n(D) The person is cleaning the paintbrush with their right hand while holding a container of water with their left hand.\n(E) The person is holding the paintbrush with their right hand and holding a plastic object with their left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person is holding the paintbrush with their right hand and holding a plastic object with their left hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the towel paper change?",
+    "options": [
+        "The paper towel was moved up and down to wipe the table cover and then discarded in the trash bin.",
+        "The paper towel was moved right and left to wipe a different surface before being placed back on the table.",
+        "The paper towel was folded and used to dab the table instead of being handed to another person.",
+        "The paper towel was moved right and left to wipe the table cover and before being handed to another person.",
+        "The paper towel was used in circular motions on the table cover before being handed to the same person again."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the towel paper change? Choose **only one** option from the following list.\nOptions:\n(A) The paper towel was moved up and down to wipe the table cover and then discarded in the trash bin.\n(B) The paper towel was moved right and left to wipe a different surface before being placed back on the table.\n(C) The paper towel was folded and used to dab the table instead of being handed to another person.\n(D) The paper towel was moved right and left to wipe the table cover and before being handed to another person.\n(E) The paper towel was used in circular motions on the table cover before being handed to the same person again.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The paper towel was moved right and left to wipe the table cover and before being handed to another person."
+    },
+    "correct_idx": [
+        3
+    ]
+}

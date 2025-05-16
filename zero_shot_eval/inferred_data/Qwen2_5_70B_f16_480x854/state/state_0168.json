@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the wire change?",
+    "options": [
+        "The wire was rotated slightly but was not clipped by the crimping tool.",
+        "The wire was moved and clipped by the crimping tool.",
+        "The wire was bent into shape but was left unclipped by the crimping tool.",
+        "The wire was only partially inserted and then was clipped by the crimping tool.",
+        "The wire was adjusted in its position and squeezed by the crimping tool but was not clipped."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the wire change? Choose **only one** option from the following list.\nOptions:\n(A) The wire was rotated slightly but was not clipped by the crimping tool.\n(B) The wire was moved and clipped by the crimping tool.\n(C) The wire was bent into shape but was left unclipped by the crimping tool.\n(D) The wire was only partially inserted and then was clipped by the crimping tool.\n(E) The wire was adjusted in its position and squeezed by the crimping tool but was not clipped.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The wire was moved and clipped by the crimping tool."
+    },
+    "correct_idx": [
+        1
+    ]
+}

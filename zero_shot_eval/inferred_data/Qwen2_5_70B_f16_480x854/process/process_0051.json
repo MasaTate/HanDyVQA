@@ -1,0 +1,17 @@
+{
+    "question": "How does the person scratch his right elbow?",
+    "options": [
+        "The person extends his right arm to the side, then gently uses his right hand to move across his elbow quickly.",
+        "The person raises his right arm slightly above his head and smoothly uses his left hand to slide downwards over his elbow.",
+        "The person gently twists his right arm outward, then softly taps his elbow with his palm to ease the itch.",
+        "The person keeps his right arm straight while gently using his shoulder to press against his elbow.",
+        "The person first bends his right arm, bringing his hand toward his shoulder to expose his elbow, then reaches across with his left hand and moves his fingers back and forth to scratch."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person scratch his right elbow? Choose **only one** option from the following list.\nOptions:\n(A) The person extends his right arm to the side, then gently uses his right hand to move across his elbow quickly.\n(B) The person raises his right arm slightly above his head and smoothly uses his left hand to slide downwards over his elbow.\n(C) The person gently twists his right arm outward, then softly taps his elbow with his palm to ease the itch.\n(D) The person keeps his right arm straight while gently using his shoulder to press against his elbow.\n(E) The person first bends his right arm, bringing his hand toward his shoulder to expose his elbow, then reaches across with his left hand and moves his fingers back and forth to scratch.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person first bends his right arm, bringing his hand toward his shoulder to expose his elbow, then reaches across with his left hand and moves his fingers back and forth to scratch."
+    },
+    "correct_idx": [
+        4
+    ]
+}

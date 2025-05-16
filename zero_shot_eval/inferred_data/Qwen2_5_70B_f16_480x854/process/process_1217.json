@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pour the sand?",
+    "options": [
+        "The person tilts the molder to the side and carefully shakes it with one hand, allowing the sand to spread evenly on the surface while using the other hand for support.",
+        "The person holds the molder with both hands and gently releases the sand, allowing it to fall slowly from the bottom in a controlled manner.",
+        "The person flips the molder upside down and pushes the molder with both hands, then picks up the sand to pour it on the left side using the right hand.",
+        "The person lifts the molder above the ground with one hand and releases it smoothly, letting the sand fall freely in a calm and controlled way.",
+        "The person grabs the molder with both hands and turns it slightly, directing the sand to pour gently onto the right side instead of the left."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pour the sand? Choose **only one** option from the following list.\nOptions:\n(A) The person tilts the molder to the side and carefully shakes it with one hand, allowing the sand to spread evenly on the surface while using the other hand for support.\n(B) The person holds the molder with both hands and gently releases the sand, allowing it to fall slowly from the bottom in a controlled manner.\n(C) The person flips the molder upside down and pushes the molder with both hands, then picks up the sand to pour it on the left side using the right hand.\n(D) The person lifts the molder above the ground with one hand and releases it smoothly, letting the sand fall freely in a calm and controlled way.\n(E) The person grabs the molder with both hands and turns it slightly, directing the sand to pour gently onto the right side instead of the left.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person flips the molder upside down and pushes the molder with both hands, then picks up the sand to pour it on the left side using the right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

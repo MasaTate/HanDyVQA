@@ -1,0 +1,17 @@
+{
+    "question": "How does the person flip a page of a book with his right hand?",
+    "options": [
+        "The person flips a page with his right hand by pressing the edge with his palm, turning it swiftly.",
+        "The person flips a page of a book with his right hand, using his fingertips to gently lift the edge.",
+        "The person flips a page of the book by placing his right hand fully on it, carefully drawing it back.",
+        "The person flips a page with a gentle motion of his right hand, using the back to guide it.",
+        "The person flips a page of the book with just his thumb, subtly guiding it along."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person flip a page of a book with his right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person flips a page with his right hand by pressing the edge with his palm, turning it swiftly.\n(B) The person flips a page of a book with his right hand, using his fingertips to gently lift the edge.\n(C) The person flips a page of the book by placing his right hand fully on it, carefully drawing it back.\n(D) The person flips a page with a gentle motion of his right hand, using the back to guide it.\n(E) The person flips a page of the book with just his thumb, subtly guiding it along.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person flips a page of a book with his right hand, using his fingertips to gently lift the edge."
+    },
+    "correct_idx": [
+        1
+    ]
+}

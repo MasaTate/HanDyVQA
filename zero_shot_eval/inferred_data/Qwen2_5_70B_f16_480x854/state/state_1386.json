@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a cordless screwdriver from the top of the cabinet change?",
+    "options": [
+        "The cordless screwdriver was picked up in a quick motion and the battery was detached.",
+        "The cordless screwdriver was picked up in a quick motion and the socket was replaced.",
+        "The cordless screwdriver was picked up in a slow motion and the socket was left unchanged.",
+        "The cordless screwdriver fell off the cabinet and was picked up without altering the socket.",
+        "The cordless screwdriver was picked up and the socket was tightened but not replaced."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a cordless screwdriver from the top of the cabinet change? Choose **only one** option from the following list.\nOptions:\n(A) The cordless screwdriver was picked up in a quick motion and the battery was detached.\n(B) The cordless screwdriver was picked up in a quick motion and the socket was replaced.\n(C) The cordless screwdriver was picked up in a slow motion and the socket was left unchanged.\n(D) The cordless screwdriver fell off the cabinet and was picked up without altering the socket.\n(E) The cordless screwdriver was picked up and the socket was tightened but not replaced.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The cordless screwdriver was picked up in a quick motion and the socket was replaced."
+    },
+    "correct_idx": [
+        1
+    ]
+}

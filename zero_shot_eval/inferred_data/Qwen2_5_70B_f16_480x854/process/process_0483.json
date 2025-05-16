@@ -1,0 +1,17 @@
+{
+    "question": "How does the person shade the drawing?",
+    "options": [
+        "The person shades the drawing by gripping the pencil in her left hand and applying firm pressure to create bold strokes, then moves the tool in a circular motion.",
+        "The person holds the pencil softly in her right hand, pressing slightly to produce subtle strokes, then moves it in a zigzag pattern over the area.",
+        "The person shades by clutching the pencil in her right hand, applying varied pressure to create uneven strokes, then moves the tool quickly from side to side.",
+        "With the pencil held in her right hand, the person uses varied pressure to create diverse strokes while moving the tool diagonally across the paper.",
+        "The person shades the drawing by holding the pencil in her right hand and applying gentle, controlled pressure to create strokes, and then moves the tool back and forth, layering the strokes."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person shade the drawing? Choose **only one** option from the following list.\nOptions:\n(A) The person shades the drawing by gripping the pencil in her left hand and applying firm pressure to create bold strokes, then moves the tool in a circular motion.\n(B) The person holds the pencil softly in her right hand, pressing slightly to produce subtle strokes, then moves it in a zigzag pattern over the area.\n(C) The person shades by clutching the pencil in her right hand, applying varied pressure to create uneven strokes, then moves the tool quickly from side to side.\n(D) With the pencil held in her right hand, the person uses varied pressure to create diverse strokes while moving the tool diagonally across the paper.\n(E) The person shades the drawing by holding the pencil in her right hand and applying gentle, controlled pressure to create strokes, and then moves the tool back and forth, layering the strokes.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person shades the drawing by holding the pencil in her right hand and applying gentle, controlled pressure to create strokes, and then moves the tool back and forth, layering the strokes."
+    },
+    "correct_idx": [
+        4
+    ]
+}

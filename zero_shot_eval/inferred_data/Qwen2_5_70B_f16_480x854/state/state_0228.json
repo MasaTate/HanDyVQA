@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the wood change?",
+    "options": [
+        "The wood was slid on the table and the edge began to be cut.",
+        "The wood was raised off the table before a new edge was cut.",
+        "The wood stayed in place on the table while another corner was cut.",
+        "The wood was slid in the opposite direction on the table before an edge was cut.",
+        "The wood was turned on the table before cutting began on a different edge."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the wood change? Choose **only one** option from the following list.\nOptions:\n(A) The wood was slid on the table and the edge began to be cut.\n(B) The wood was raised off the table before a new edge was cut.\n(C) The wood stayed in place on the table while another corner was cut.\n(D) The wood was slid in the opposite direction on the table before an edge was cut.\n(E) The wood was turned on the table before cutting began on a different edge.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The wood was slid on the table and the edge began to be cut."
+    },
+    "correct_idx": [
+        0
+    ]
+}

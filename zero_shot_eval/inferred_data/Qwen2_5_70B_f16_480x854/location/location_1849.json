@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the plastic bottle?",
+    "options": [
+        "The person shakes the plastic bottle from his left hand to his right hand.",
+        "The person shakes the plastic bottle from his right hand to his back pocket.",
+        "The person shakes the plastic bottle from his right hand to his left hand.",
+        "The person shakes the plastic bottle from his left hand to the table.",
+        "The person shakes the plastic bottle from his right hand to his backpack."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the plastic bottle? Choose **only one** option from the following list.\nOptions:\n(A) The person shakes the plastic bottle from his left hand to his right hand.\n(B) The person shakes the plastic bottle from his right hand to his back pocket.\n(C) The person shakes the plastic bottle from his right hand to his left hand.\n(D) The person shakes the plastic bottle from his left hand to the table.\n(E) The person shakes the plastic bottle from his right hand to his backpack.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person shakes the plastic bottle from his right hand to his left hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

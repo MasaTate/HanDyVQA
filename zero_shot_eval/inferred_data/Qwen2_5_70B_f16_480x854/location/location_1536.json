@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop gum?",
+    "options": [
+        "The person dropped the gum inside of the cylinder cardboard.",
+        "The person dropped the gum outside of the cylinder cardboard.",
+        "The person dropped the gum beside the cylinder cardboard.",
+        "The person dropped the gum on top of the cylinder cardboard.",
+        "The person dropped the gum at the bottom of the cylinder cardboard."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop gum? Choose **only one** option from the following list.\nOptions:\n(A) The person dropped the gum inside of the cylinder cardboard.\n(B) The person dropped the gum outside of the cylinder cardboard.\n(C) The person dropped the gum beside the cylinder cardboard.\n(D) The person dropped the gum on top of the cylinder cardboard.\n(E) The person dropped the gum at the bottom of the cylinder cardboard.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person dropped the gum inside of the cylinder cardboard."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the boiled egg?",
+    "options": [
+        "The person placed the egg beside the bread.",
+        "The person set the egg on the plate next to the bread.",
+        "The person laid the egg on top of the table near the bread.",
+        "The person spread the egg over the bread.",
+        "The person positioned the egg behind the bread on the counter."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the boiled egg? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the egg beside the bread.\n(B) The person set the egg on the plate next to the bread.\n(C) The person laid the egg on top of the table near the bread.\n(D) The person spread the egg over the bread.\n(E) The person positioned the egg behind the bread on the counter.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person spread the egg over the bread."
+    },
+    "correct_idx": [
+        3
+    ]
+}

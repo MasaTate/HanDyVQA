@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the spoon change?",
+    "options": [
+        "The spoon was rotated to the side, being tapped by the chopsticks inside the bowl.",
+        "The spoon was rotated upright, but outside the bowl, being tapped by the chopsticks.",
+        "The spoon was adjusted horizontally, being tapped by the chopsticks next to the bowl.",
+        "The spoon was rotated upright, being tapped by the chopsticks on the edge of the bowl.",
+        "The spoon was rotated upright, being gently tapped by the chopsticks inside the bowl."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the spoon change? Choose **only one** option from the following list.\nOptions:\n(A) The spoon was rotated to the side, being tapped by the chopsticks inside the bowl.\n(B) The spoon was rotated upright, but outside the bowl, being tapped by the chopsticks.\n(C) The spoon was adjusted horizontally, being tapped by the chopsticks next to the bowl.\n(D) The spoon was rotated upright, being tapped by the chopsticks on the edge of the bowl.\n(E) The spoon was rotated upright, being gently tapped by the chopsticks inside the bowl.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The spoon was rotated upright, being gently tapped by the chopsticks inside the bowl."
+    },
+    "correct_idx": [
+        4
+    ]
+}

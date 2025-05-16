@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the cloth change?",
+    "options": [
+        "The cloth was crumpled and bunched up.",
+        "The cloth was rolled into a compact shape.",
+        "The cloth was unfolded and spread out flat.",
+        "The cloth was laid over a chair.",
+        "The cloth was divided into several parts."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the cloth change? Choose **only one** option from the following list.\nOptions:\n(A) The cloth was crumpled and bunched up.\n(B) The cloth was rolled into a compact shape.\n(C) The cloth was unfolded and spread out flat.\n(D) The cloth was laid over a chair.\n(E) The cloth was divided into several parts.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The cloth was unfolded and spread out flat."
+    },
+    "correct_idx": [
+        2
+    ]
+}

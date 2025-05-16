@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the jenga wooden piece?",
+    "options": [
+        "The person puts the Jenga wooden piece beside the other Jenga pieces.",
+        "The person puts the Jenga wooden piece underneath the other Jenga pieces.",
+        "The person puts the Jenga wooden piece in front of the tower of Jenga pieces.",
+        "The person puts the Jenga wooden piece on top of the other Jenga pieces.",
+        "The person puts the Jenga wooden piece behind the stack of Jenga pieces."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the jenga wooden piece? Choose **only one** option from the following list.\nOptions:\n(A) The person puts the Jenga wooden piece beside the other Jenga pieces.\n(B) The person puts the Jenga wooden piece underneath the other Jenga pieces.\n(C) The person puts the Jenga wooden piece in front of the tower of Jenga pieces.\n(D) The person puts the Jenga wooden piece on top of the other Jenga pieces.\n(E) The person puts the Jenga wooden piece behind the stack of Jenga pieces.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person puts the Jenga wooden piece on top of the other Jenga pieces."
+    },
+    "correct_idx": [
+        3
+    ]
+}

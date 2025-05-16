@@ -1,0 +1,17 @@
+{
+    "question": "How does the person press a button on the mixer?",
+    "options": [
+        "The person lifts his left hand to the machine, presses a button, and uses his middle finger with pressure to press the button.",
+        "The person raises his left hand to the machine and uses his thumb to press the button smoothly.",
+        "The person moves his left hand toward the machine and presses the button gently with his index finger.",
+        "The person extends his left index finger toward the mixer and applies pressure on the button carefully.",
+        "The person lowers his left hand to the machine and uses his thumb to press the button with gentle force."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person press a button on the mixer? Choose **only one** option from the following list.\nOptions:\n(A) The person lifts his left hand to the machine, presses a button, and uses his middle finger with pressure to press the button.\n(B) The person raises his left hand to the machine and uses his thumb to press the button smoothly.\n(C) The person moves his left hand toward the machine and presses the button gently with his index finger.\n(D) The person extends his left index finger toward the mixer and applies pressure on the button carefully.\n(E) The person lowers his left hand to the machine and uses his thumb to press the button with gentle force.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person moves his left hand toward the machine and presses the button gently with his index finger."
+    },
+    "correct_idx": [
+        0
+    ]
+}

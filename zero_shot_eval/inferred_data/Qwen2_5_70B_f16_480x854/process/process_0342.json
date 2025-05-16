@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pour engine oil?",
+    "options": [
+        "The person tilts the container with their right hand, steadily controlling the flow as they pour engine oil into the funnel.",
+        "The person tilts the container too quickly, letting engine oil pour out uncontrollably onto the ground.",
+        "The person grips the container with their left hand while trying to pour with their right, leading to oil spilling over the sides.",
+        "The person leans in to pour the engine oil from the container directly, forgoing a funnel and overfilling the reservoir.",
+        "The person holds the container with both hands and gives it a shake to ensure all the contents go into the funnel."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pour engine oil? Choose **only one** option from the following list.\nOptions:\n(A) The person tilts the container with their right hand, steadily controlling the flow as they pour engine oil into the funnel.\n(B) The person tilts the container too quickly, letting engine oil pour out uncontrollably onto the ground.\n(C) The person grips the container with their left hand while trying to pour with their right, leading to oil spilling over the sides.\n(D) The person leans in to pour the engine oil from the container directly, forgoing a funnel and overfilling the reservoir.\n(E) The person holds the container with both hands and gives it a shake to ensure all the contents go into the funnel.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person tilts the container with their right hand, steadily controlling the flow as they pour engine oil into the funnel."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person check the right hand?",
+    "options": [
+        "The person inspects the right hand by lifting it gently in front of their face, using their right thumb to lightly touch the palm while observing it thoughtfully.",
+        "The person checks the right hand by turning it over, carefully examining it visually and running their left index finger along its surface to feel for any dirt or irregularities.",
+        "The person checks the right hand by moving it slightly to shake off any loose debris and then glancing at it carefully without immediate contact.",
+        "The person examines the right hand by laying it smoothly on a surface and softly tapping it with their left hand to notice any loose particles.",
+        "The person looks at the right hand by flexing the fingers gently a few times, paying close attention to any dirt during the movement."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person check the right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person inspects the right hand by lifting it gently in front of their face, using their right thumb to lightly touch the palm while observing it thoughtfully.\n(B) The person checks the right hand by turning it over, carefully examining it visually and running their left index finger along its surface to feel for any dirt or irregularities.\n(C) The person checks the right hand by moving it slightly to shake off any loose debris and then glancing at it carefully without immediate contact.\n(D) The person examines the right hand by laying it smoothly on a surface and softly tapping it with their left hand to notice any loose particles.\n(E) The person looks at the right hand by flexing the fingers gently a few times, paying close attention to any dirt during the movement.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person checks the right hand by turning it over, carefully examining it visually and running their left index finger along its surface to feel for any dirt or irregularities."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the iron cage on the pavement change?",
+    "options": [
+        "The iron cage was covered with rust and was removed by rubbing with sandpaper.",
+        "The iron cage was painted and was removed by scraping the paint off.",
+        "The iron cage was bent out of shape and was removed by applying heat to reshape the metal.",
+        "The iron cage was cleaned and was removed by taking apart the individual bars.",
+        "The iron cage was wrapped in plastic and was removed by cutting the wrapping off."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the iron cage on the pavement change? Choose **only one** option from the following list.\nOptions:\n(A) The iron cage was covered with rust and was removed by rubbing with sandpaper.\n(B) The iron cage was painted and was removed by scraping the paint off.\n(C) The iron cage was bent out of shape and was removed by applying heat to reshape the metal.\n(D) The iron cage was cleaned and was removed by taking apart the individual bars.\n(E) The iron cage was wrapped in plastic and was removed by cutting the wrapping off.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The iron cage was covered with rust and was removed by rubbing with sandpaper."
+    },
+    "correct_idx": [
+        0
+    ]
+}

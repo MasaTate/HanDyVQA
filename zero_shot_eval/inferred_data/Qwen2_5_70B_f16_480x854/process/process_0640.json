@@ -1,0 +1,17 @@
+{
+    "question": "How does the person dispose the piece of tissue?",
+    "options": [
+        "The person nonchalantly tosses the piece of tissue over their shoulder, then casually walks out of the room.",
+        "The person carefully folds the tissue with their right hand and leaves it on the edge of the table.",
+        "The person disposes the piece of tissue by crumpling the tissue firmly with both hands, walks to the plastic on top of the trash bin, uses their left hand to pull open the plastic with a smooth motion, and places the tissue inside with their right hand, pushing it gently to ensure it is securely disposed of.",
+        "The person gently throws the piece of tissue into the air, observing as it drifts down away from the trash bin.",
+        "The person slides the tissue across the table with one hand, making it fall to the floor."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person dispose the piece of tissue? Choose **only one** option from the following list.\nOptions:\n(A) The person nonchalantly tosses the piece of tissue over their shoulder, then casually walks out of the room.\n(B) The person carefully folds the tissue with their right hand and leaves it on the edge of the table.\n(C) The person disposes the piece of tissue by crumpling the tissue firmly with both hands, walks to the plastic on top of the trash bin, uses their left hand to pull open the plastic with a smooth motion, and places the tissue inside with their right hand, pushing it gently to ensure it is securely disposed of.\n(D) The person gently throws the piece of tissue into the air, observing as it drifts down away from the trash bin.\n(E) The person slides the tissue across the table with one hand, making it fall to the floor.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person disposes the piece of tissue by crumpling the tissue firmly with both hands, walks to the plastic on top of the trash bin, uses their left hand to pull open the plastic with a smooth motion, and places the tissue inside with their right hand, pushing it gently to ensure it is securely disposed of."
+    },
+    "correct_idx": [
+        2
+    ]
+}

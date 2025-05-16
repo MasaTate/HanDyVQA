@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is pouring soup from the pot on the gas stove into a bowl using a small cup.",
+        "The person is stirring the food in the pot on the gas stove using a small cup.",
+        "The person is serving food from the pot on the gas stove using a small cup.",
+        "The person is tasting the food from the pot on the gas stove using a small cup.",
+        "The person is scooping food from the pot on the gas stove using a small cup."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is pouring soup from the pot on the gas stove into a bowl using a small cup.\n(B) The person is stirring the food in the pot on the gas stove using a small cup.\n(C) The person is serving food from the pot on the gas stove using a small cup.\n(D) The person is tasting the food from the pot on the gas stove using a small cup.\n(E) The person is scooping food from the pot on the gas stove using a small cup.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person is stirring the food in the pot on the gas stove using a small cup."
+    },
+    "correct_idx": [
+        4
+    ]
+}

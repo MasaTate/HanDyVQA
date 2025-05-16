@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is pinching their fingers and lightly pressing the bamboo slip with their palm.",
+        "The person is gripping their hand and gently holding the bamboo slip with their fingers.",
+        "The person is tapping their nails and resting the bamboo slip against their forearm.",
+        "The person is squeezing their thumb and touching the bamboo slip with their hands.",
+        "The person is flexing their wrist and gliding their hand across the bamboo slip."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is pinching their fingers and lightly pressing the bamboo slip with their palm.\n(B) The person is gripping their hand and gently holding the bamboo slip with their fingers.\n(C) The person is tapping their nails and resting the bamboo slip against their forearm.\n(D) The person is squeezing their thumb and touching the bamboo slip with their hands.\n(E) The person is flexing their wrist and gliding their hand across the bamboo slip.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person is pinching their fingers and lightly pressing the bamboo slip with their palm."
+    },
+    "correct_idx": [
+        3
+    ]
+}

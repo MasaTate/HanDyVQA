@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the rag change?",
+    "options": [
+        "The rag shifted from wiping the right side to wiping the left side, continuing its cleaning motion.",
+        "The rag moved from the left side to the right side, reversing its cleaning motion.",
+        "The rag transitioned from being dry to being soaked in water, altering its cleaning effectiveness.",
+        "The rag was folded in half, changing its thickness and surface area for cleaning.",
+        "The rag shifted from being used for dusting to being used for scrubbing, changing its intended function."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the rag change? Choose **only one** option from the following list.\nOptions:\n(A) The rag shifted from wiping the right side to wiping the left side, continuing its cleaning motion.\n(B) The rag moved from the left side to the right side, reversing its cleaning motion.\n(C) The rag transitioned from being dry to being soaked in water, altering its cleaning effectiveness.\n(D) The rag was folded in half, changing its thickness and surface area for cleaning.\n(E) The rag shifted from being used for dusting to being used for scrubbing, changing its intended function.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The rag shifted from wiping the right side to wiping the left side, continuing its cleaning motion."
+    },
+    "correct_idx": [
+        0
+    ]
+}

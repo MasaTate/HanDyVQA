@@ -1,0 +1,17 @@
+{
+    "question": "How does the person carry a ladder on the floor?",
+    "options": [
+        "The person lifts the ladder with their right hand, tilts it slightly for balance, and walks a few steps while holding it securely before placing it on the ground.",
+        "The person carries the ladder over their shoulder with one hand, adjusting carefully for balance as they move it across the floor.",
+        "The person guides the ladder along the floor with both hands while bending slightly, managing it smoothly as they move.",
+        "The person holds the ladder with one hand in front of them, lifting it gently and carefully pivoting while keeping it balanced.",
+        "The person carries the ladder upright by holding it at the top with both hands, keeping the bottom steady as they move."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person carry a ladder on the floor? Choose **only one** option from the following list.\nOptions:\n(A) The person lifts the ladder with their right hand, tilts it slightly for balance, and walks a few steps while holding it securely before placing it on the ground.\n(B) The person carries the ladder over their shoulder with one hand, adjusting carefully for balance as they move it across the floor.\n(C) The person guides the ladder along the floor with both hands while bending slightly, managing it smoothly as they move.\n(D) The person holds the ladder with one hand in front of them, lifting it gently and carefully pivoting while keeping it balanced.\n(E) The person carries the ladder upright by holding it at the top with both hands, keeping the bottom steady as they move.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person lifts the ladder with their right hand, tilts it slightly for balance, and walks a few steps while holding it securely before placing it on the ground."
+    },
+    "correct_idx": [
+        0
+    ]
+}

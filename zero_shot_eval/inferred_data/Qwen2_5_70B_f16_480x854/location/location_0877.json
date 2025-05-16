@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the wooden brush?",
+    "options": [
+        "The person put the wooden brush on the edge of the sink.",
+        "The person put the wooden brush beside the red bucket.",
+        "The person put the wooden brush inside the blue bucket.",
+        "The person put the wooden brush on top of the table.",
+        "The person put the wooden brush behind the kitchen door."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the wooden brush? Choose **only one** option from the following list.\nOptions:\n(A) The person put the wooden brush on the edge of the sink.\n(B) The person put the wooden brush beside the red bucket.\n(C) The person put the wooden brush inside the blue bucket.\n(D) The person put the wooden brush on top of the table.\n(E) The person put the wooden brush behind the kitchen door.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person put the wooden brush inside the blue bucket."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the nylon?",
+    "options": [
+        "The person places the nylon inside the plastic bag.",
+        "The person places the nylon on top of the plastic bag.",
+        "The person places the nylon beside the plastic bag.",
+        "The person places the nylon underneath the plastic bag.",
+        "The person places the nylon near the edge of the plastic bag."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the nylon? Choose **only one** option from the following list.\nOptions:\n(A) The person places the nylon inside the plastic bag.\n(B) The person places the nylon on top of the plastic bag.\n(C) The person places the nylon beside the plastic bag.\n(D) The person places the nylon underneath the plastic bag.\n(E) The person places the nylon near the edge of the plastic bag.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person places the nylon inside the plastic bag."
+    },
+    "correct_idx": [
+        0
+    ]
+}

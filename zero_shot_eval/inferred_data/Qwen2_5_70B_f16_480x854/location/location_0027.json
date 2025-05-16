@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put stone?",
+    "options": [
+        "The person placed the stone beside the concrete.",
+        "The person placed the stone on top of the concrete.",
+        "The person put the stone beneath the concrete.",
+        "The person set the stone at the end of the concrete.",
+        "The person positioned the stone under the overhang near the concrete."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put stone? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the stone beside the concrete.\n(B) The person placed the stone on top of the concrete.\n(C) The person put the stone beneath the concrete.\n(D) The person set the stone at the end of the concrete.\n(E) The person positioned the stone under the overhang near the concrete.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person placed the stone on top of the concrete."
+    },
+    "correct_idx": [
+        1
+    ]
+}

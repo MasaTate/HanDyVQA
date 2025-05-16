@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is peeling the husk off the corn cob using both hands.",
+        "The person is stirring a pot of corn soup with both hands, carefully on the counter.",
+        "The person is removing corn kernels from the cob using both hands.",
+        "The person is slicing the corn cob in half with a knife in his right hand while holding it steady with his left hand.",
+        "The person is grilling the corn on a barbecue with tongs in his right hand while turning it with his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is peeling the husk off the corn cob using both hands.\n(B) The person is stirring a pot of corn soup with both hands, carefully on the counter.\n(C) The person is removing corn kernels from the cob using both hands.\n(D) The person is slicing the corn cob in half with a knife in his right hand while holding it steady with his left hand.\n(E) The person is grilling the corn on a barbecue with tongs in his right hand while turning it with his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person is removing corn kernels from the cob using both hands."
+    },
+    "correct_idx": [
+        2
+    ]
+}

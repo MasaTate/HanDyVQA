@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop a roll of tissue paper?",
+    "options": [
+        "The person drops a roll of tissue paper on the left side of the table.",
+        "The person drops a roll of tissue paper on the center of the table.",
+        "The person drops a roll of tissue paper on the right side of the table.",
+        "The person drops a roll of tissue paper on the floor beside the table.",
+        "The person drops a roll of tissue paper on the edge of the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop a roll of tissue paper? Choose **only one** option from the following list.\nOptions:\n(A) The person drops a roll of tissue paper on the left side of the table.\n(B) The person drops a roll of tissue paper on the center of the table.\n(C) The person drops a roll of tissue paper on the right side of the table.\n(D) The person drops a roll of tissue paper on the floor beside the table.\n(E) The person drops a roll of tissue paper on the edge of the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person drops a roll of tissue paper on the center of the table."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "plastic strainer",
+        "sponge",
+        "knife",
+        "chopticks",
+        "kitchen sink",
+        "bottle of soap"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) plastic strainer\n(B) sponge\n(C) knife\n(D) chopticks\n(E) kitchen sink\n(F) bottle of soap\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(B) Sponge  \n(E) Kitchen sink  \n\nThe hands in the video are using a sponge to clean dishes in the kitchen sink. The sponge is being rubbed against various items like bowls and utensils under running water from the faucet. The kitchen sink serves as the workspace where the cleaning activity takes place."
+    },
+    "correct_idx": [
+        1,
+        5
+    ]
+}

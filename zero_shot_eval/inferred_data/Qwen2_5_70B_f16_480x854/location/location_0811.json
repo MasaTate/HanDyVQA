@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the bowl of coffee?",
+    "options": [
+        "The person moved the bowl of coffee further away from the laptop.",
+        "The person moved the bowl of coffee closer to the laptop.",
+        "The person moved the bowl of coffee next to the book on the shelf.",
+        "The person moved the bowl of coffee behind the laptop on the desk.",
+        "The person moved the bowl of coffee onto the floor beside the chair."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the bowl of coffee? Choose **only one** option from the following list.\nOptions:\n(A) The person moved the bowl of coffee further away from the laptop.\n(B) The person moved the bowl of coffee closer to the laptop.\n(C) The person moved the bowl of coffee next to the book on the shelf.\n(D) The person moved the bowl of coffee behind the laptop on the desk.\n(E) The person moved the bowl of coffee onto the floor beside the chair.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person moved the bowl of coffee closer to the laptop."
+    },
+    "correct_idx": [
+        1
+    ]
+}

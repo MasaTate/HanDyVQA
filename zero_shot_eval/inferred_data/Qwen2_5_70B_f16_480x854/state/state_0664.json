@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of his phone change?",
+    "options": [
+        "The phone screen went blank as it entered sleep mode due to inactivity.",
+        "The phone screen showed a cracked surface after it was dropped on the floor.",
+        "The phone screen displayed newly drawn lines as contact was made with it.",
+        "The phone screen illuminated with colorful notifications as new messages were received.",
+        "The phone screen turned off when the battery level was too low."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of his phone change? Choose **only one** option from the following list.\nOptions:\n(A) The phone screen went blank as it entered sleep mode due to inactivity.\n(B) The phone screen showed a cracked surface after it was dropped on the floor.\n(C) The phone screen displayed newly drawn lines as contact was made with it.\n(D) The phone screen illuminated with colorful notifications as new messages were received.\n(E) The phone screen turned off when the battery level was too low.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The phone screen displayed newly drawn lines as contact was made with it."
+    },
+    "correct_idx": [
+        2
+    ]
+}

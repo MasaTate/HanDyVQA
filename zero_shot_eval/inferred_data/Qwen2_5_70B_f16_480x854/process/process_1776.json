@@ -1,0 +1,17 @@
+{
+    "question": "How does the person open a drawer?",
+    "options": [
+        "The person stands slightly bent and pulls the drawer open with one hand while maintaining balance.",
+        "The person leans down and uses both hands to pull the drawer outward.",
+        "The person stretches their arm forward and pulls the drawer from the side instead of the front.",
+        "The person slightly bends down and pulls the door with their right hand to open the cabinet.",
+        "The person uses their foot gently to nudge the drawer open while staying seated."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person open a drawer? Choose **only one** option from the following list.\nOptions:\n(A) The person stands slightly bent and pulls the drawer open with one hand while maintaining balance.\n(B) The person leans down and uses both hands to pull the drawer outward.\n(C) The person stretches their arm forward and pulls the drawer from the side instead of the front.\n(D) The person slightly bends down and pulls the door with their right hand to open the cabinet.\n(E) The person uses their foot gently to nudge the drawer open while staying seated.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person slightly bends down and pulls the door with their right hand to open the cabinet."
+    },
+    "correct_idx": [
+        3
+    ]
+}

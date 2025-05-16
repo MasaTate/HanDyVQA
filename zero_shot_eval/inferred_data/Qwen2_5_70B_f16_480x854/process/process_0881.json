@@ -1,0 +1,17 @@
+{
+    "question": "How does the person rub the paint brush?",
+    "options": [
+        "The person dips the brush into the glass and quickly wiggles it back and forth in the water, then wipes it on the top edge of the cup.",
+        "The person swirls the brush around in the glass, moving it in circles, then shakes off the excess water and sets it down.",
+        "The person pushes the brush against the bottom of the glass, pressing it down firmly, and lifts it out without wiping.",
+        "The person carefully twirls the brush in the air before returning it to the water, not wiping it afterward.",
+        "The person dips the brush into the paint and lightly taps it on the side of the container, skipping the wiggling motion."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person rub the paint brush? Choose **only one** option from the following list.\nOptions:\n(A) The person dips the brush into the glass and quickly wiggles it back and forth in the water, then wipes it on the top edge of the cup.\n(B) The person swirls the brush around in the glass, moving it in circles, then shakes off the excess water and sets it down.\n(C) The person pushes the brush against the bottom of the glass, pressing it down firmly, and lifts it out without wiping.\n(D) The person carefully twirls the brush in the air before returning it to the water, not wiping it afterward.\n(E) The person dips the brush into the paint and lightly taps it on the side of the container, skipping the wiggling motion.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person dips the brush into the glass and quickly wiggles it back and forth in the water, then wipes it on the top edge of the cup."
+    },
+    "correct_idx": [
+        0
+    ]
+}

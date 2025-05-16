@@ -1,0 +1,17 @@
+{
+    "question": "How does the person move a thread from the cloth?",
+    "options": [
+        "The person pulls on the thread with both hands, removing it from the cloth and placing it on the table.",
+        "The person grasps the thread with one hand and twists it carefully, guiding it onto her lap.",
+        "The person uses her left hand to hold the fabric gently, while her right hand extracts the thread smoothly without tearing it.",
+        "The person moves the thread carefully across the cloth, removing it completely before setting it on the table.",
+        "The person pinches the thread with the fingers of her right hand, gently pulls it from the cloth, and places it on the right side of the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person move a thread from the cloth? Choose **only one** option from the following list.\nOptions:\n(A) The person pulls on the thread with both hands, removing it from the cloth and placing it on the table.\n(B) The person grasps the thread with one hand and twists it carefully, guiding it onto her lap.\n(C) The person uses her left hand to hold the fabric gently, while her right hand extracts the thread smoothly without tearing it.\n(D) The person moves the thread carefully across the cloth, removing it completely before setting it on the table.\n(E) The person pinches the thread with the fingers of her right hand, gently pulls it from the cloth, and places it on the right side of the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person pinches the thread with the fingers of her right hand, gently pulls it from the cloth, and places it on the right side of the table."
+    },
+    "correct_idx": [
+        4
+    ]
+}

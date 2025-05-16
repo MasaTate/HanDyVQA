@@ -1,0 +1,21 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "glove. ",
+        "blue blanket",
+        "paint brush",
+        "paint can",
+        "tissue",
+        "spray",
+        "white cloth"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) glove. \n(B) blue blanket\n(C) paint brush\n(D) paint can\n(E) tissue\n(F) spray\n(G) white cloth\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(A) The hands are wearing gloves.\n(D) The hands pick up a paint can."
+    },
+    "correct_idx": [
+        2,
+        3,
+        5
+    ]
+}

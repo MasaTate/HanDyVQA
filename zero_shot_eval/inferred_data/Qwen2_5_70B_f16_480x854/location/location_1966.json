@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move wires?",
+    "options": [
+        "The person moved the wires slightly from below to upper part of the table. ",
+        "The person moved the wires from the lower part to the side of the table.",
+        "The person moved the wires from the back to the front edge of the table.",
+        "The person moved the wires from the side to the center of the table.",
+        "The person moved the wires slightly from above to the bottom part of the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move wires? Choose **only one** option from the following list.\nOptions:\n(A) The person moved the wires slightly from below to upper part of the table. \n(B) The person moved the wires from the lower part to the side of the table.\n(C) The person moved the wires from the back to the front edge of the table.\n(D) The person moved the wires from the side to the center of the table.\n(E) The person moved the wires slightly from above to the bottom part of the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person moved the wires from the lower part to the side of the table."
+    },
+    "correct_idx": [
+        0
+    ]
+}

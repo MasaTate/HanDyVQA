@@ -1,0 +1,17 @@
+{
+    "question": "How does the person plug the cable?",
+    "options": [
+        "The person plugs the cable in a precise motion by compressing it using both hands.",
+        "The person inserts the cable into the socket using one hand while gently twisting it.",
+        "The person guides the cable into the socket smoothly with both hands, aligning it carefully.",
+        "The person places the cable towards the socket and adjusts his grip before securing it.",
+        "The person pushes the cable into the socket using a steady movement of his thumb."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person plug the cable? Choose **only one** option from the following list.\nOptions:\n(A) The person plugs the cable in a precise motion by compressing it using both hands.\n(B) The person inserts the cable into the socket using one hand while gently twisting it.\n(C) The person guides the cable into the socket smoothly with both hands, aligning it carefully.\n(D) The person places the cable towards the socket and adjusts his grip before securing it.\n(E) The person pushes the cable into the socket using a steady movement of his thumb.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person guides the cable into the socket smoothly with both hands, aligning it carefully."
+    },
+    "correct_idx": [
+        0
+    ]
+}

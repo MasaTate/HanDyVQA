@@ -1,0 +1,17 @@
+{
+    "question": "How does the person flip the craft pad?",
+    "options": [
+        "The person grips the edge of the craft pad with her left-hand fingers, lifts it slightly, and flips it over with a quick wrist movement.",
+        "The person gently pushes the craft pad with both hands and nudges it over.",
+        "The person lightly pinches the craft pad between her thumb and index finger, tilts it a bit, and sets it down without flipping it.",
+        "The person rests the craft pad flat with one hand and uses the other to tap it, causing it to slide instead of flipping.",
+        "The person carefully grasps the craft pad with both hands, turns it to the side, and shifts it rather than flipping it over."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person flip the craft pad? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the edge of the craft pad with her left-hand fingers, lifts it slightly, and flips it over with a quick wrist movement.\n(B) The person gently pushes the craft pad with both hands and nudges it over.\n(C) The person lightly pinches the craft pad between her thumb and index finger, tilts it a bit, and sets it down without flipping it.\n(D) The person rests the craft pad flat with one hand and uses the other to tap it, causing it to slide instead of flipping.\n(E) The person carefully grasps the craft pad with both hands, turns it to the side, and shifts it rather than flipping it over.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person grips the edge of the craft pad with her left-hand fingers, lifts it slightly, and flips it over with a quick wrist movement."
+    },
+    "correct_idx": [
+        0
+    ]
+}

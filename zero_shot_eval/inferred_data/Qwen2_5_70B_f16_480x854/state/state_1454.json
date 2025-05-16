@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the leaf on the tree change?",
+    "options": [
+        "The leaf was detached and remained suspended in place.",
+        "The leaf was detached and fell to the ground.",
+        "The leaf was detached and was carried away by the wind.",
+        "The leaf was detached and landed in a pond.",
+        "The leaf was detached and was consumed by a fire."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the leaf on the tree change? Choose **only one** option from the following list.\nOptions:\n(A) The leaf was detached and remained suspended in place.\n(B) The leaf was detached and fell to the ground.\n(C) The leaf was detached and was carried away by the wind.\n(D) The leaf was detached and landed in a pond.\n(E) The leaf was detached and was consumed by a fire.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The leaf was detached and fell to the ground."
+    },
+    "correct_idx": [
+        0
+    ]
+}

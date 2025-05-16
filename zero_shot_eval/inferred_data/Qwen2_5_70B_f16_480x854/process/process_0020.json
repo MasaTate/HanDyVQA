@@ -1,0 +1,17 @@
+{
+    "question": "How does the person rotate the paper?",
+    "options": [
+        "The person turns the paper over in a clockwise motion with her right hand.",
+        "The person rotates the paper counterclockwise using her left hand.",
+        "The person inclines the paper slightly while holding it with both hands.",
+        "The person lifts one corner of the paper and turns it using her index finger.",
+        "The person rotates the paper clockwise using her left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person rotate the paper? Choose **only one** option from the following list.\nOptions:\n(A) The person turns the paper over in a clockwise motion with her right hand.\n(B) The person rotates the paper counterclockwise using her left hand.\n(C) The person inclines the paper slightly while holding it with both hands.\n(D) The person lifts one corner of the paper and turns it using her index finger.\n(E) The person rotates the paper clockwise using her left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person rotates the paper counterclockwise using her left hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

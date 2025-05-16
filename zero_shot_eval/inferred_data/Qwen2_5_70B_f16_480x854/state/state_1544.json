@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the second door frame change?",
+    "options": [
+        "The second door frame was loosely attached to the door while its position was adjusted.",
+        "The second door frame was attached to the door but left slightly misaligned with minimal adjustment.",
+        "The second door frame was attached to a different door without position adjustment.",
+        "The second door frame was carefully attached to the door while its position was carefully adjusted.",
+        "The second door frame was temporarily attached to the door without securing the position."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the second door frame change? Choose **only one** option from the following list.\nOptions:\n(A) The second door frame was loosely attached to the door while its position was adjusted.\n(B) The second door frame was attached to the door but left slightly misaligned with minimal adjustment.\n(C) The second door frame was attached to a different door without position adjustment.\n(D) The second door frame was carefully attached to the door while its position was carefully adjusted.\n(E) The second door frame was temporarily attached to the door without securing the position.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The second door frame was carefully attached to the door while its position was carefully adjusted."
+    },
+    "correct_idx": [
+        3
+    ]
+}

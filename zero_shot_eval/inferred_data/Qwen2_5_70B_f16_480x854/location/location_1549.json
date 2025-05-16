@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the textbook?",
+    "options": [
+        "The person moved the textbook slightly from the center to the left side of the center table.",
+        "The person moved the textbook slightly from the center to the right side of the center table.",
+        "The person moved the textbook slightly from the center to the back side of the center table.",
+        "The person moved the textbook slightly from the center to the front side of the center table.",
+        "The person moved the textbook slightly from the center to the right edge of the center table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the textbook? Choose **only one** option from the following list.\nOptions:\n(A) The person moved the textbook slightly from the center to the left side of the center table.\n(B) The person moved the textbook slightly from the center to the right side of the center table.\n(C) The person moved the textbook slightly from the center to the back side of the center table.\n(D) The person moved the textbook slightly from the center to the front side of the center table.\n(E) The person moved the textbook slightly from the center to the right edge of the center table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person moved the textbook slightly from the center to the right side of the center table."
+    },
+    "correct_idx": [
+        1
+    ]
+}

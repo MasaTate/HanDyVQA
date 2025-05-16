@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place leaves?",
+    "options": [
+        "The person places the leaves on the ground near the wall.",
+        "The person places the leaves on the ground near the fence.",
+        "The person places the leaves on the ground beside the tree.",
+        "The person places the leaves on the steps leading to the porch.",
+        "The person places the leaves on the ground beside the garden path."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place leaves? Choose **only one** option from the following list.\nOptions:\n(A) The person places the leaves on the ground near the wall.\n(B) The person places the leaves on the ground near the fence.\n(C) The person places the leaves on the ground beside the tree.\n(D) The person places the leaves on the steps leading to the porch.\n(E) The person places the leaves on the ground beside the garden path.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person places the leaves on the ground near the wall."
+    },
+    "correct_idx": [
+        0
+    ]
+}

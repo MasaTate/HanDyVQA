@@ -1,0 +1,17 @@
+{
+    "question": "How does the person put a cloth in?",
+    "options": [
+        "The person places the cloth into the bag with one hand, allowing it to settle naturally.",
+        "The person pushes the cloth into the bag using their right hand while holding the bag open.",
+        "The person folds the cloth neatly and places it into the bag with one hand, slightly controlling the opening.",
+        "The person places the cloth into the bag from a short distance, gently guiding its landing.",
+        "The person puts the cloth in the bag by adding some pressure to compress the cloths on the bag using both hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person put a cloth in? Choose **only one** option from the following list.\nOptions:\n(A) The person places the cloth into the bag with one hand, allowing it to settle naturally.\n(B) The person pushes the cloth into the bag using their right hand while holding the bag open.\n(C) The person folds the cloth neatly and places it into the bag with one hand, slightly controlling the opening.\n(D) The person places the cloth into the bag from a short distance, gently guiding its landing.\n(E) The person puts the cloth in the bag by adding some pressure to compress the cloths on the bag using both hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person puts the cloth in the bag by adding some pressure to compress the cloths on the bag using both hands."
+    },
+    "correct_idx": [
+        4
+    ]
+}

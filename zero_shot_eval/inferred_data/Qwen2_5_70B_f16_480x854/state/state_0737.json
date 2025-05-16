@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the cloth change?",
+    "options": [
+        "The cloth was rubbed by the left hand, being lifted off the ground.",
+        "The cloth was rubbed by the left hand, being pressed against a wall.",
+        "The cloth was pinched and twisted by the left hand, being pressed to the ground.",
+        "The cloth was rubbed by the left hand, being pressed to the ground.",
+        "The cloth was rubbed in a circular motion by the left hand, being on the ground."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the cloth change? Choose **only one** option from the following list.\nOptions:\n(A) The cloth was rubbed by the left hand, being lifted off the ground.\n(B) The cloth was rubbed by the left hand, being pressed against a wall.\n(C) The cloth was pinched and twisted by the left hand, being pressed to the ground.\n(D) The cloth was rubbed by the left hand, being pressed to the ground.\n(E) The cloth was rubbed in a circular motion by the left hand, being on the ground.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The cloth was pinched and twisted by the left hand, being pressed to the ground."
+    },
+    "correct_idx": [
+        3
+    ]
+}

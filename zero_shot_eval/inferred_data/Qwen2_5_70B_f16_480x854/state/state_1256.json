@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the mobile phone change?",
+    "options": [
+        "The mobile phone was swiped and the screen light was turned to full brightness.",
+        "The mobile phone was swiped and a different app was opened.",
+        "The mobile phone was swiped and the screen light was turned off.",
+        "The mobile phone was swiped and the screen was locked.",
+        "The mobile phone was swiped and the screen brightness was reduced."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the mobile phone change? Choose **only one** option from the following list.\nOptions:\n(A) The mobile phone was swiped and the screen light was turned to full brightness.\n(B) The mobile phone was swiped and a different app was opened.\n(C) The mobile phone was swiped and the screen light was turned off.\n(D) The mobile phone was swiped and the screen was locked.\n(E) The mobile phone was swiped and the screen brightness was reduced.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The mobile phone was swiped and the screen light was turned off."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a metal rod change?",
+    "options": [
+        "The metal rod was slightly kicked and moved forward, altering its position.",
+        "The metal rod was slightly kicked but remained in the same position without moving backward.",
+        "The metal rod was slightly kicked and moved backward, altering its position.",
+        "The metal rod was nudged lightly and rolled sideways instead of backward, altering its position.",
+        "The metal rod was tapped with less force and shifted diagonally rather than moving backward."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a metal rod change? Choose **only one** option from the following list.\nOptions:\n(A) The metal rod was slightly kicked and moved forward, altering its position.\n(B) The metal rod was slightly kicked but remained in the same position without moving backward.\n(C) The metal rod was slightly kicked and moved backward, altering its position.\n(D) The metal rod was nudged lightly and rolled sideways instead of backward, altering its position.\n(E) The metal rod was tapped with less force and shifted diagonally rather than moving backward.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The metal rod was slightly kicked and moved backward, altering its position."
+    },
+    "correct_idx": [
+        2
+    ]
+}

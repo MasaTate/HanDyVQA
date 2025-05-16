@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person cleaned the pan, using a sponge in one hand to scrub it while balancing it with the left hand.",
+        "The person dried the pan, using a towel in one hand to wipe it while holding it with the right hand.",
+        "The person cooked in the pan, using a spatula in one hand to flip the food while grasping the handle with the left hand.",
+        "The person organized the pan, using both hands to stack it on a shelf while holding a lid with the right hand.",
+        "The person washes the pan, using their right hand to scrape it while holding the pan with their left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person cleaned the pan, using a sponge in one hand to scrub it while balancing it with the left hand.\n(B) The person dried the pan, using a towel in one hand to wipe it while holding it with the right hand.\n(C) The person cooked in the pan, using a spatula in one hand to flip the food while grasping the handle with the left hand.\n(D) The person organized the pan, using both hands to stack it on a shelf while holding a lid with the right hand.\n(E) The person washes the pan, using their right hand to scrape it while holding the pan with their left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person cleaned the pan, using a sponge in one hand to scrub it while balancing it with the left hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

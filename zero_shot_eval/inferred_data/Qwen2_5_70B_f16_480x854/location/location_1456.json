@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move a domino tile?",
+    "options": [
+        "The person slid the domino tile slightly from its original position to the back.",
+        "The person slid the domino tile slightly from its original position to the front.",
+        "The person moved the domino tile a little to the right from its original position.",
+        "The person adjusted the domino tile diagonally from its original position to the right.",
+        "The person pushed the domino tile slightly to a higher position than its original."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move a domino tile? Choose **only one** option from the following list.\nOptions:\n(A) The person slid the domino tile slightly from its original position to the back.\n(B) The person slid the domino tile slightly from its original position to the front.\n(C) The person moved the domino tile a little to the right from its original position.\n(D) The person adjusted the domino tile diagonally from its original position to the right.\n(E) The person pushed the domino tile slightly to a higher position than its original.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person moved the domino tile a little to the right from its original position."
+    },
+    "correct_idx": [
+        1
+    ]
+}

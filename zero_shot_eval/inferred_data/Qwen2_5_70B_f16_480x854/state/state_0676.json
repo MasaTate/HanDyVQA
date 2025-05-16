@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of water change?",
+    "options": [
+        "The water from the metal container spilled, covering only the surface of the hand.",
+        "The water remained in the metal container, hardly making contact with the surface of the hand before being pulled away.",
+        "The water from the metal container dripped onto the ground, missing the surface of the hand entirely.",
+        "The water in the metal container splashed, covering only the ground without reaching the hand.",
+        "The water from the metal container flowed, spreading over the surface of the hand and the ground."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of water change? Choose **only one** option from the following list.\nOptions:\n(A) The water from the metal container spilled, covering only the surface of the hand.\n(B) The water remained in the metal container, hardly making contact with the surface of the hand before being pulled away.\n(C) The water from the metal container dripped onto the ground, missing the surface of the hand entirely.\n(D) The water in the metal container splashed, covering only the ground without reaching the hand.\n(E) The water from the metal container flowed, spreading over the surface of the hand and the ground.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The water from the metal container flowed, spreading over the surface of the hand and the ground."
+    },
+    "correct_idx": [
+        4
+    ]
+}

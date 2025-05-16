@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pack soil?",
+    "options": [
+        "The person shapes the soil by pulling it with his right hand, adjusting its position.",
+        "The person sprinkles the soil by moving his fingers in the right hand to spread it evenly.",
+        "The person handles the soil by grabbing it with both hands and softly shaking it around.",
+        "The person places the soil loosely by tossing it with his left hand, spreading it out.",
+        "The person packs the soil with his left hand, pushing it to the right and gently pressing it to level the surface."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pack soil? Choose **only one** option from the following list.\nOptions:\n(A) The person shapes the soil by pulling it with his right hand, adjusting its position.\n(B) The person sprinkles the soil by moving his fingers in the right hand to spread it evenly.\n(C) The person handles the soil by grabbing it with both hands and softly shaking it around.\n(D) The person places the soil loosely by tossing it with his left hand, spreading it out.\n(E) The person packs the soil with his left hand, pushing it to the right and gently pressing it to level the surface.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person packs the soil with his left hand, pushing it to the right and gently pressing it to level the surface."
+    },
+    "correct_idx": [
+        4
+    ]
+}

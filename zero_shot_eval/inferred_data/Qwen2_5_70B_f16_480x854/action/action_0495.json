@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person lifts a wooden block off the floor using her right hand while balancing another piece of wood between her left hand and her arm.",
+        "The person places a wooden piece on the floor using her right hand and then passes two pieces of wood from her left hand to her right hand while holding the remaining piece in her left hand.",
+        "The person stacks wooden pieces on a table with her right hand while balancing a piece of wood with her left hand.",
+        "The person arranges wooden pieces in a box using her right hand while holding an additional piece in her left hand.",
+        "The person glues wooden pieces together on a surface with her right hand while holding another tool in her left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person lifts a wooden block off the floor using her right hand while balancing another piece of wood between her left hand and her arm.\n(B) The person places a wooden piece on the floor using her right hand and then passes two pieces of wood from her left hand to her right hand while holding the remaining piece in her left hand.\n(C) The person stacks wooden pieces on a table with her right hand while balancing a piece of wood with her left hand.\n(D) The person arranges wooden pieces in a box using her right hand while holding an additional piece in her left hand.\n(E) The person glues wooden pieces together on a surface with her right hand while holding another tool in her left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person places a wooden piece on the floor using her right hand and then passes two pieces of wood from her left hand to her right hand while holding the remaining piece in her left hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

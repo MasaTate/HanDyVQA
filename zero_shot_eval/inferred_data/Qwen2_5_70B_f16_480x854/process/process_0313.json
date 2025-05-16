@@ -1,0 +1,17 @@
+{
+    "question": "How does the person peel a sticker on the book?",
+    "options": [
+        "He pulls the sticker off the book with his right hand, using firm movements that could risk tearing it.",
+        "He employs both hands to grip the edges of the sticker at once and removes it swiftly.",
+        "He peels the sticker from the book by gently pulling with his left hand, then his right, applying steady pressure to avoid tearing.",
+        "He nudges the sticker's corner with his fingernail using his right hand before pulling it confidently with his left.",
+        "He rotates the sticker slightly while pulling it along with his left hand, causing it to crumple instead of peeling neatly."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person peel a sticker on the book? Choose **only one** option from the following list.\nOptions:\n(A) He pulls the sticker off the book with his right hand, using firm movements that could risk tearing it.\n(B) He employs both hands to grip the edges of the sticker at once and removes it swiftly.\n(C) He peels the sticker from the book by gently pulling with his left hand, then his right, applying steady pressure to avoid tearing.\n(D) He nudges the sticker's corner with his fingernail using his right hand before pulling it confidently with his left.\n(E) He rotates the sticker slightly while pulling it along with his left hand, causing it to crumple instead of peeling neatly.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) He peels the sticker from the book by gently pulling with his left hand, then his right, applying steady pressure to avoid tearing."
+    },
+    "correct_idx": [
+        2
+    ]
+}

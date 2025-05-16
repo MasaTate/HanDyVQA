@@ -1,0 +1,17 @@
+{
+    "question": "How does the person open a drawer?",
+    "options": [
+        "The person pushes the drawer slightly away from themselves using the left hand.",
+        "The person opens the drawer by pulling and sliding it gently towards themselves using the right hand.",
+        "The person carefully lifts the drawer a bit while holding it with both hands.",
+        "The person attempts to open the drawer by gently pressing at the edge with their fingers of the right hand.",
+        "The person slowly rotates the handle of the drawer using the thumb and forefinger of the left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person open a drawer? Choose **only one** option from the following list.\nOptions:\n(A) The person pushes the drawer slightly away from themselves using the left hand.\n(B) The person opens the drawer by pulling and sliding it gently towards themselves using the right hand.\n(C) The person carefully lifts the drawer a bit while holding it with both hands.\n(D) The person attempts to open the drawer by gently pressing at the edge with their fingers of the right hand.\n(E) The person slowly rotates the handle of the drawer using the thumb and forefinger of the left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person opens the drawer by pulling and sliding it gently towards themselves using the right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

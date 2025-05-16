@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pack the cut pieces of cucumber?",
+    "options": [
+        "The person uses both hands to gather the cut pieces of cucumber, aligning them slightly before placing them carelessly on the plate.",
+        "The person grabs the cucumber pieces with his right hand, swiftly placing them into a bowl without much stacking or organizing.",
+        "The person picks up one piece of cucumber at a time with the index finger and thumb, placing each onto the plate, attempting little grouping.",
+        "The person uses his left hand to grab the bottom cucumber pieces, gently stacks them on top to align them, then secures the group and carefully places the packed pieces on the plate.",
+        "The person gathers all the cut cucumber pieces together with a smooth motion of the right hand, placing them on the plate with minimal stacking or careful arrangement."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pack the cut pieces of cucumber? Choose **only one** option from the following list.\nOptions:\n(A) The person uses both hands to gather the cut pieces of cucumber, aligning them slightly before placing them carelessly on the plate.\n(B) The person grabs the cucumber pieces with his right hand, swiftly placing them into a bowl without much stacking or organizing.\n(C) The person picks up one piece of cucumber at a time with the index finger and thumb, placing each onto the plate, attempting little grouping.\n(D) The person uses his left hand to grab the bottom cucumber pieces, gently stacks them on top to align them, then secures the group and carefully places the packed pieces on the plate.\n(E) The person gathers all the cut cucumber pieces together with a smooth motion of the right hand, placing them on the plate with minimal stacking or careful arrangement.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person uses his left hand to grab the bottom cucumber pieces, gently stacks them on top to align them, then secures the group and carefully places the packed pieces on the plate."
+    },
+    "correct_idx": [
+        3
+    ]
+}

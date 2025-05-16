@@ -1,0 +1,17 @@
+{
+    "question": "How does the person lift a lid from the sink?",
+    "options": [
+        "The person pushes the lid to the side using his palm before attempting to lift it off the sink.",
+        "The person grasps the lid with both hands and pulls it away from the sink gradually.",
+        "The person moves his right hand down and lifts up the lid quickly.",
+        "The person tilts the lid at an angle using his left hand and then tries to slide it off the sink.",
+        "The person uses his fingertips to grip the edges of the lid and then lifts it slowly upward."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person lift a lid from the sink? Choose **only one** option from the following list.\nOptions:\n(A) The person pushes the lid to the side using his palm before attempting to lift it off the sink.\n(B) The person grasps the lid with both hands and pulls it away from the sink gradually.\n(C) The person moves his right hand down and lifts up the lid quickly.\n(D) The person tilts the lid at an angle using his left hand and then tries to slide it off the sink.\n(E) The person uses his fingertips to grip the edges of the lid and then lifts it slowly upward.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person uses his fingertips to grip the edges of the lid and then lifts it slowly upward."
+    },
+    "correct_idx": [
+        2
+    ]
+}

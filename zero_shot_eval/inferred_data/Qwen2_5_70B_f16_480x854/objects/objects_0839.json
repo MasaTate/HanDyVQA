@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "sponge",
+        "plastic canister",
+        "pan",
+        "tumbler",
+        "plant",
+        "vegetable"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) sponge\n(B) plastic canister\n(C) pan\n(D) tumbler\n(E) plant\n(F) vegetable\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(B) plastic canister\n(F) vegetable\n\nThe hands are using a plastic canister to transfer chopped vegetables from a cutting board into a dish. The vegetables being handled include green onions or similar chopped greens. There is no indication of a sponge, pan, tumbler, or plant being used in this specific sequence."
+    },
+    "correct_idx": [
+        1,
+        5
+    ]
+}

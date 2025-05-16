@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of dried plants change?",
+    "options": [
+        "The dried plants were split into three and placed on top of the stack.",
+        "The dried plants were scattered around the stack without being split.",
+        "The dried plants were split into two and put into the stack.",
+        "The dried plants were split into two but placed beside the stack.",
+        "The dried plants were split into two and thrown away from the stack."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of dried plants change? Choose **only one** option from the following list.\nOptions:\n(A) The dried plants were split into three and placed on top of the stack.\n(B) The dried plants were scattered around the stack without being split.\n(C) The dried plants were split into two and put into the stack.\n(D) The dried plants were split into two but placed beside the stack.\n(E) The dried plants were split into two and thrown away from the stack.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The dried plants were split into two and put into the stack."
+    },
+    "correct_idx": [
+        2
+    ]
+}

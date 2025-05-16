@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the screw?",
+    "options": [
+        "The person put the screw into the bottom left of the axle.",
+        "The person put the screw into the top left of the axle.",
+        "The person put the screw into the middle right of the axle.",
+        "The person put the screw into the bottom right of the axle.",
+        "The person put the screw into the top right of the axle."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the screw? Choose **only one** option from the following list.\nOptions:\n(A) The person put the screw into the bottom left of the axle.\n(B) The person put the screw into the top left of the axle.\n(C) The person put the screw into the middle right of the axle.\n(D) The person put the screw into the bottom right of the axle.\n(E) The person put the screw into the top right of the axle.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person put the screw into the top right of the axle."
+    },
+    "correct_idx": [
+        4
+    ]
+}

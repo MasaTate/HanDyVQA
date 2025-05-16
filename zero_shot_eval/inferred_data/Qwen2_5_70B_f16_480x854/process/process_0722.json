@@ -1,0 +1,17 @@
+{
+    "question": "How does the person inspect the items in the green basket?",
+    "options": [
+        "The person examines the item list on his phone and reaches into the basket with both hands to take out an item.",
+        "The person looks carefully at the green basket and moves his hand over the top of the items without actually picking anything up.",
+        "The person holds the item list in his mouth and uses his left hand to search through the basket, trying to find an item.",
+        "The person glances at the basket as he places the item list to the side and then uses his right hand to quickly pick up an item.",
+        "The person checks the item list in the checklist he is holding and picks up an item from the green basket using his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person inspect the items in the green basket? Choose **only one** option from the following list.\nOptions:\n(A) The person examines the item list on his phone and reaches into the basket with both hands to take out an item.\n(B) The person looks carefully at the green basket and moves his hand over the top of the items without actually picking anything up.\n(C) The person holds the item list in his mouth and uses his left hand to search through the basket, trying to find an item.\n(D) The person glances at the basket as he places the item list to the side and then uses his right hand to quickly pick up an item.\n(E) The person checks the item list in the checklist he is holding and picks up an item from the green basket using his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person checks the item list in the checklist he is holding and picks up an item from the green basket using his right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

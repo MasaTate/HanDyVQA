@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "bracelet. ",
+        "stainless basin. ",
+        "dry coconut leaves. ",
+        "bucket. ",
+        "lighter",
+        "wood sticks"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) bracelet. \n(B) stainless basin. \n(C) dry coconut leaves. \n(D) bucket. \n(E) lighter\n(F) wood sticks\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(F) Wood sticks\n\nThe hands in the video are using wood sticks to stir grains in a pot. The wood sticks are being held and manipulated by the person's hands to mix the contents of the pot. \n\nThere is no visible use of a bracelet, stainless basin, dry coconut leaves, bucket, or lighter in the video. Therefore, the correct answer is:\n\n(F) Wood sticks"
+    },
+    "correct_idx": [
+        4,
+        5
+    ]
+}

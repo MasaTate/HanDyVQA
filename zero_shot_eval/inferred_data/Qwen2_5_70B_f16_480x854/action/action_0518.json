@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person opens the fridge door with her left hand and takes out a bottle of mustard with her right hand.",
+        "The person reaches for a jar of pickles in the fridge with her left hand while gently closing the fridge door with her right hand.",
+        "The person removes a bottle of ketchup from the counter with her right hand while closing the fridge drawer with her left hand.",
+        "The person takes out a container of mayonnaise from the fridge with her left hand while reaching towards a salad bowl with her right hand.",
+        "The person closes the drawer inside the fridge with her left hand and takes out a bottle of ketchup from the fridge with her right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person opens the fridge door with her left hand and takes out a bottle of mustard with her right hand.\n(B) The person reaches for a jar of pickles in the fridge with her left hand while gently closing the fridge door with her right hand.\n(C) The person removes a bottle of ketchup from the counter with her right hand while closing the fridge drawer with her left hand.\n(D) The person takes out a container of mayonnaise from the fridge with her left hand while reaching towards a salad bowl with her right hand.\n(E) The person closes the drawer inside the fridge with her left hand and takes out a bottle of ketchup from the fridge with her right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person closes the drawer inside the fridge with her left hand and takes out a bottle of ketchup from the fridge with her right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

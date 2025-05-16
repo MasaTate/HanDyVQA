@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the board change?",
+    "options": [
+        "The texture of the board was dramatically altered by the paint, making it visibly rougher.",
+        "The appearance of the board was significantly changed by the paint, adding a glossy sheen.",
+        "The texture of the board was smoothed out completely before painting.",
+        "The texture of the board could be slightly changed by the paint but there is no noticeable change.",
+        "The surface of the board was noticeably changed by the paint, turning it a completely different color."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the board change? Choose **only one** option from the following list.\nOptions:\n(A) The texture of the board was dramatically altered by the paint, making it visibly rougher.\n(B) The appearance of the board was significantly changed by the paint, adding a glossy sheen.\n(C) The texture of the board was smoothed out completely before painting.\n(D) The texture of the board could be slightly changed by the paint but there is no noticeable change.\n(E) The surface of the board was noticeably changed by the paint, turning it a completely different color.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The texture of the board could be slightly changed by the paint but there is no noticeable change."
+    },
+    "correct_idx": [
+        3
+    ]
+}

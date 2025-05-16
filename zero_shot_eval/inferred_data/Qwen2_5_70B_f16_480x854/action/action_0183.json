@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person grabs the metal piece from the floor with his right hand to examine it and then drops it again.",
+        "The person holds the metal piece in his left hand to inspect it and then places it into his pocket.",
+        "The person takes the metal piece off the shelf with his right hand to clean it and then sets it aside on the table.",
+        "The person pushes the metal piece across the table with his right hand to move it closer to himself and then picks it up.",
+        "The person picks up the metal piece on the table with his right hand to check it and then puts it back."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person grabs the metal piece from the floor with his right hand to examine it and then drops it again.\n(B) The person holds the metal piece in his left hand to inspect it and then places it into his pocket.\n(C) The person takes the metal piece off the shelf with his right hand to clean it and then sets it aside on the table.\n(D) The person pushes the metal piece across the table with his right hand to move it closer to himself and then picks it up.\n(E) The person picks up the metal piece on the table with his right hand to check it and then puts it back.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person picks up the metal piece on the table with his right hand to check it and then puts it back."
+    },
+    "correct_idx": [
+        4
+    ]
+}

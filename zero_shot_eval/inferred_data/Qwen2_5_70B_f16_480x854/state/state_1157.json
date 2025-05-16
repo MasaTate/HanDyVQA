@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a dog's head change?",
+    "options": [
+        "The dog's head was gently rubbed, relaxing as it enjoyed the attention.",
+        "The dog's head was patted, causing it to perk up in excitement from the interaction.",
+        "The dog's head was scratched, leading to playful wagging of its tail in response.",
+        "The dog's head was tapped, prompting it to tilt in curiosity towards the source of the touch.",
+        "The dog's head was held briefly by the owner, making it look around playfully for the source of affection."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a dog's head change? Choose **only one** option from the following list.\nOptions:\n(A) The dog's head was gently rubbed, relaxing as it enjoyed the attention.\n(B) The dog's head was patted, causing it to perk up in excitement from the interaction.\n(C) The dog's head was scratched, leading to playful wagging of its tail in response.\n(D) The dog's head was tapped, prompting it to tilt in curiosity towards the source of the touch.\n(E) The dog's head was held briefly by the owner, making it look around playfully for the source of affection.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The dog's head was tapped, prompting it to tilt in curiosity towards the source of the touch."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person sculpts a sandcastle with both of his hands and shapes the sand using his right hand.",
+        "The person gathers some sand with both of his hands and spreads the sand using his right hand.",
+        "The person collects some seashells with both of his hands and organizes them using his right hand.",
+        "The person builds a sand mound with both of his hands and smooths it using his right hand.",
+        "The person scoops up some sand with both of his hands and gently disperses it with his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person sculpts a sandcastle with both of his hands and shapes the sand using his right hand.\n(B) The person gathers some sand with both of his hands and spreads the sand using his right hand.\n(C) The person collects some seashells with both of his hands and organizes them using his right hand.\n(D) The person builds a sand mound with both of his hands and smooths it using his right hand.\n(E) The person scoops up some sand with both of his hands and gently disperses it with his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person gathers some sand with both of his hands and spreads the sand using his right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

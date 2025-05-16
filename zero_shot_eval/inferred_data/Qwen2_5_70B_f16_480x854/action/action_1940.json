@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person places the CPU cover onto the CPU with his right hand.",
+        "The person tightens the screws on the CPU cover using a screwdriver in his right hand while holding the CPU steady with his left hand.",
+        "The person cleans the CPU with a cloth in his left hand while removing the CPU cover with his right hand.",
+        "The person removes the CPU cover from the CPU with his left hand.",
+        "The person adjusts the CPU fan next to the CPU cover with his left hand while holding the CPU cover in his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person places the CPU cover onto the CPU with his right hand.\n(B) The person tightens the screws on the CPU cover using a screwdriver in his right hand while holding the CPU steady with his left hand.\n(C) The person cleans the CPU with a cloth in his left hand while removing the CPU cover with his right hand.\n(D) The person removes the CPU cover from the CPU with his left hand.\n(E) The person adjusts the CPU fan next to the CPU cover with his left hand while holding the CPU cover in his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person tightens the screws on the CPU cover using a screwdriver in his right hand while holding the CPU steady with his left hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

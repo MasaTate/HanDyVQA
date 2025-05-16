@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the tap change?",
+    "options": [
+        "The tap's state was altered when it was completely removed from the sink.",
+        "The tap's state was altered as it was turned off.",
+        "The tap's state was altered as it was turned on.",
+        "The tap's state was altered after it was reattached to the plumbing.",
+        "The tap's state was altered when it was painted a different color."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the tap change? Choose **only one** option from the following list.\nOptions:\n(A) The tap's state was altered when it was completely removed from the sink.\n(B) The tap's state was altered as it was turned off.\n(C) The tap's state was altered as it was turned on.\n(D) The tap's state was altered after it was reattached to the plumbing.\n(E) The tap's state was altered when it was painted a different color.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The tap's state was altered as it was turned on."
+    },
+    "correct_idx": [
+        2
+    ]
+}

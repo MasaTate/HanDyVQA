@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is twisting the wire into a loop using both hands.",
+        "The person is separately pulling the wires using both hands.",
+        "The person is tugging the wire with one hand while holding it steady with the other hand.",
+        "The person is pushing the wire on the table using both hands.",
+        "The person is wrapping the wire using his right hand while holding it with his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is twisting the wire into a loop using both hands.\n(B) The person is separately pulling the wires using both hands.\n(C) The person is tugging the wire with one hand while holding it steady with the other hand.\n(D) The person is pushing the wire on the table using both hands.\n(E) The person is wrapping the wire using his right hand while holding it with his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person is separately pulling the wires using both hands."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person make a twist on the bolt?",
+    "options": [
+        "The person holds the bolt with both hands and pulls it to manipulate it.",
+        "The person uses a wrench with one hand to twist the bolt while steadying it with the other hand.",
+        "The person grips the bolt with his right hand and rotates it clockwise using his fingers.",
+        "The person pinches the bolt between his thumb and index finger and bends it to handle it.",
+        "The person uses only his left hand to attempt to lift the bolt rather than rotating it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person make a twist on the bolt? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the bolt with both hands and pulls it to manipulate it.\n(B) The person uses a wrench with one hand to twist the bolt while steadying it with the other hand.\n(C) The person grips the bolt with his right hand and rotates it clockwise using his fingers.\n(D) The person pinches the bolt between his thumb and index finger and bends it to handle it.\n(E) The person uses only his left hand to attempt to lift the bolt rather than rotating it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person grips the bolt with his right hand and rotates it clockwise using his fingers."
+    },
+    "correct_idx": [
+        2
+    ]
+}

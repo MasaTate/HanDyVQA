@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the bottle change?",
+    "options": [
+        "The bottle was sealed with a cap and prepared for storage in the fridge.",
+        "The bottle was opened and filled with ice to cool the contents.",
+        "The bottle was shattered into pieces after dropping on the floor.",
+        "The bottle was adorned with colorful stickers and placed on a shelf for display.",
+        "The bottle was emptied and cleaned before being refilled with water."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the bottle change? Choose **only one** option from the following list.\nOptions:\n(A) The bottle was sealed with a cap and prepared for storage in the fridge.\n(B) The bottle was opened and filled with ice to cool the contents.\n(C) The bottle was shattered into pieces after dropping on the floor.\n(D) The bottle was adorned with colorful stickers and placed on a shelf for display.\n(E) The bottle was emptied and cleaned before being refilled with water.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The bottle was sealed with a cap and prepared for storage in the fridge."
+    },
+    "correct_idx": [
+        0
+    ]
+}

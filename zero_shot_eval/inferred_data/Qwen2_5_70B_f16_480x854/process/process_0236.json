@@ -1,0 +1,17 @@
+{
+    "question": "How does the person loosen a screw?",
+    "options": [
+        "The person grips the screwdriver firmly in his left hand and gently twists it to remove the screw from the door frame.",
+        "The person holds the screw with his fingertips and smoothly pulls it out of the cpu frame using the tool.",
+        "The person uses both hands to turn the screw counterclockwise while gently balancing it on the edge of the table.",
+        "The person applies gentle pressure on the screw using a hammer in place of a screwdriver to loosen it.",
+        "The person twisted the screwdriver to loosen the screw using his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person loosen a screw? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the screwdriver firmly in his left hand and gently twists it to remove the screw from the door frame.\n(B) The person holds the screw with his fingertips and smoothly pulls it out of the cpu frame using the tool.\n(C) The person uses both hands to turn the screw counterclockwise while gently balancing it on the edge of the table.\n(D) The person applies gentle pressure on the screw using a hammer in place of a screwdriver to loosen it.\n(E) The person twisted the screwdriver to loosen the screw using his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person twisted the screwdriver to loosen the screw using his right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

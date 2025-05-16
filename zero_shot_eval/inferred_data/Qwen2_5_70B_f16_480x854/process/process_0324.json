@@ -1,0 +1,17 @@
+{
+    "question": "How does the person use left hand?",
+    "options": [
+        "The person holds the electronic paint spray gun with their left hand and tilts it slightly upward to fill it with paint.",
+        "The person uses their left hand to grip the electronic paint spray gun while smoothly pulling the trigger with their index finger.",
+        "The person operates the electronic paint spray gun with their left hand by gripping the handle and moving it left and right to spray paint.",
+        "The person clutches the electronic paint spray gun with their left hand, positioning it upwards without moving it from side to side.",
+        "The person points the electronic paint spray gun with their left hand, keeping it steady as they adjust the settings."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person use left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the electronic paint spray gun with their left hand and tilts it slightly upward to fill it with paint.\n(B) The person uses their left hand to grip the electronic paint spray gun while smoothly pulling the trigger with their index finger.\n(C) The person operates the electronic paint spray gun with their left hand by gripping the handle and moving it left and right to spray paint.\n(D) The person clutches the electronic paint spray gun with their left hand, positioning it upwards without moving it from side to side.\n(E) The person points the electronic paint spray gun with their left hand, keeping it steady as they adjust the settings.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person operates the electronic paint spray gun with their left hand by gripping the handle and moving it left and right to spray paint."
+    },
+    "correct_idx": [
+        2
+    ]
+}

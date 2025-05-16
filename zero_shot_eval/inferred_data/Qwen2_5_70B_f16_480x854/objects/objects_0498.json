@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "bowl",
+        "cup",
+        "bucket",
+        "cloth",
+        "mop",
+        "tray"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) bowl\n(B) cup\n(C) bucket\n(D) cloth\n(E) mop\n(F) tray\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(D) cloth  \n(C) bucket  \n\nThe hands in the video are using a blue cloth to clean the floor and a green bucket is visible nearby, which is likely being used as part of the cleaning process. The other options do not appear to be relevant based on the video content."
+    },
+    "correct_idx": [
+        2,
+        3
+    ]
+}

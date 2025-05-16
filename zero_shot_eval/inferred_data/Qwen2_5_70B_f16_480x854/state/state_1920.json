@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a board change?",
+    "options": [
+        "The board was flipped, resulting in a change of orientation as it was turned upside down.",
+        "The board was tilted, leading to an adjustment in angle as it was inclined to one side.",
+        "The board was lifted, creating an elevation change as it was raised above the ground.",
+        "The board was rotated, causing a change in position as it was turned around its axis.",
+        "The board was dragged, causing a shift in location as it was moved across the surface."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a board change? Choose **only one** option from the following list.\nOptions:\n(A) The board was flipped, resulting in a change of orientation as it was turned upside down.\n(B) The board was tilted, leading to an adjustment in angle as it was inclined to one side.\n(C) The board was lifted, creating an elevation change as it was raised above the ground.\n(D) The board was rotated, causing a change in position as it was turned around its axis.\n(E) The board was dragged, causing a shift in location as it was moved across the surface.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The board was lifted, creating an elevation change as it was raised above the ground."
+    },
+    "correct_idx": [
+        3
+    ]
+}

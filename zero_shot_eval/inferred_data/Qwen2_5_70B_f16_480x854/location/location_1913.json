@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the basket?",
+    "options": [
+        "The person drops the basket on the floor between the product shelf and the wall.",
+        "The person drops the basket on the floor beside the front counter and the product shelf.",
+        "The person drops the basket on the ground next to the checkout area and the entrance.",
+        "The person drops the basket on the floor in front of the product shelf and the cash register.",
+        "The person drops the basket on the ground near the side window and the display case."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the basket? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the basket on the floor between the product shelf and the wall.\n(B) The person drops the basket on the floor beside the front counter and the product shelf.\n(C) The person drops the basket on the ground next to the checkout area and the entrance.\n(D) The person drops the basket on the floor in front of the product shelf and the cash register.\n(E) The person drops the basket on the ground near the side window and the display case.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person drops the basket on the floor between the product shelf and the wall."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the ball change?",
+    "options": [
+        "The ball was swung around and then thrown with great force.",
+        "The ball was swung around and placed on the ground.",
+        "The ball was rolled around in a circle and lightly tossed.",
+        "The ball was juggled briefly and then thrown.",
+        "The ball was spun in the air and landed without being thrown."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the ball change? Choose **only one** option from the following list.\nOptions:\n(A) The ball was swung around and then thrown with great force.\n(B) The ball was swung around and placed on the ground.\n(C) The ball was rolled around in a circle and lightly tossed.\n(D) The ball was juggled briefly and then thrown.\n(E) The ball was spun in the air and landed without being thrown.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The ball was rolled around in a circle and lightly tossed."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person used their right hand to lift a piece from the chess board, then gently pushed it forward on the board.",
+        "The person used the left hand to pick up a piece from the labyrinth board game, then carefully pushed it to the right of the board.",
+        "The person grasped a piece from the puzzle table with their left hand and then slowly placed it on a different spot.",
+        "The person held a piece from the checkers game with their right hand and then set it aside into a box on the table.",
+        "The person used their left hand to grab a piece from the Monopoly game, then gently tossed it into the air above the board."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person used their right hand to lift a piece from the chess board, then gently pushed it forward on the board.\n(B) The person used the left hand to pick up a piece from the labyrinth board game, then carefully pushed it to the right of the board.\n(C) The person grasped a piece from the puzzle table with their left hand and then slowly placed it on a different spot.\n(D) The person held a piece from the checkers game with their right hand and then set it aside into a box on the table.\n(E) The person used their left hand to grab a piece from the Monopoly game, then gently tossed it into the air above the board.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person used the left hand to pick up a piece from the labyrinth board game, then carefully pushed it to the right of the board."
+    },
+    "correct_idx": [
+        1
+    ]
+}

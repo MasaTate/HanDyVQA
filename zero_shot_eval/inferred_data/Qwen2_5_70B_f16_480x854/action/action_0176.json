@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is shuffling a deck of cards with both hands. Then handed a card to his/her friend at the right corner and placed the cards face up.",
+        "The person holds a deck of cards using both hands. Then passed a card to his/her friend at the left corner and placed the cards face down.",
+        "The person is organizing a set of cards with one hand. Then tossed a card to his/her friend at the left corner and laid the other cards on the table.",
+        "The person is holding a book with both hands. Then gave a page to his/her friend at the left corner and closed the book.",
+        "The person is displaying a deck of cards using both hands. Then passed a card to his/her friend across the table and stacked the remaining cards in a pile."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is shuffling a deck of cards with both hands. Then handed a card to his/her friend at the right corner and placed the cards face up.\n(B) The person holds a deck of cards using both hands. Then passed a card to his/her friend at the left corner and placed the cards face down.\n(C) The person is organizing a set of cards with one hand. Then tossed a card to his/her friend at the left corner and laid the other cards on the table.\n(D) The person is holding a book with both hands. Then gave a page to his/her friend at the left corner and closed the book.\n(E) The person is displaying a deck of cards using both hands. Then passed a card to his/her friend across the table and stacked the remaining cards in a pile.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person holds a deck of cards using both hands. Then passed a card to his/her friend at the left corner and placed the cards face down."
+    },
+    "correct_idx": [
+        1
+    ]
+}

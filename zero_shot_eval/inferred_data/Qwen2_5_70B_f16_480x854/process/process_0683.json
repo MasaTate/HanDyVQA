@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pat the book?",
+    "options": [
+        "The person gently taps the book with the palm of their right hand in a soft, downward motion and then, using the index finger of their right hand, they lightly touch or tap specific spots on the book with a precise and controlled movement.",
+        "The person softly strikes the book with the back of their hand in a gentle, horizontal motion and then, using the whole hand, they carefully press down on the cover of the book with measured force.",
+        "The person lightly slaps the book with the fingers of their left hand in an outward motion and then, with the thumb of their right hand, they gently push against the side of the book.",
+        "The person glides their hand across the book's surface with the fingertips of their left hand in a smooth, sideways motion and then, using the palm of their right hand, they softly rub back and forth over the cover.",
+        "The person lightly taps the book with their elbow in a quick, bouncing manner and then, using the knuckles of their right hand, they gently tap on the top of the book."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pat the book? Choose **only one** option from the following list.\nOptions:\n(A) The person gently taps the book with the palm of their right hand in a soft, downward motion and then, using the index finger of their right hand, they lightly touch or tap specific spots on the book with a precise and controlled movement.\n(B) The person softly strikes the book with the back of their hand in a gentle, horizontal motion and then, using the whole hand, they carefully press down on the cover of the book with measured force.\n(C) The person lightly slaps the book with the fingers of their left hand in an outward motion and then, with the thumb of their right hand, they gently push against the side of the book.\n(D) The person glides their hand across the book's surface with the fingertips of their left hand in a smooth, sideways motion and then, using the palm of their right hand, they softly rub back and forth over the cover.\n(E) The person lightly taps the book with their elbow in a quick, bouncing manner and then, using the knuckles of their right hand, they gently tap on the top of the book.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person gently taps the book with the palm of their right hand in a soft, downward motion and then, using the index finger of their right hand, they lightly touch or tap specific spots on the book with a precise and controlled movement."
+    },
+    "correct_idx": [
+        0
+    ]
+}

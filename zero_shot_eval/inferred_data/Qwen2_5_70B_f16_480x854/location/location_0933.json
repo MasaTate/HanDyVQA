@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place his left hand?",
+    "options": [
+        "The person places his left hand on the dirt beside the grass to pull it out.",
+        "The person places his left hand on the concrete path to pull it out.",
+        "The person places his left hand on the flower bed next to the grass to pull it out.",
+        "The person places his left hand on the grass to pull it out.",
+        "The person places his left hand on the wooden deck behind the grass to pull it out."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place his left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person places his left hand on the dirt beside the grass to pull it out.\n(B) The person places his left hand on the concrete path to pull it out.\n(C) The person places his left hand on the flower bed next to the grass to pull it out.\n(D) The person places his left hand on the grass to pull it out.\n(E) The person places his left hand on the wooden deck behind the grass to pull it out.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person places his left hand on the dirt beside the grass to pull it out."
+    },
+    "correct_idx": [
+        3
+    ]
+}

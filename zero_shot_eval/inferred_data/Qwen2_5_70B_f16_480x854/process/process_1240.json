@@ -1,0 +1,17 @@
+{
+    "question": "How does the person put the tube?",
+    "options": [
+        "The person places the tube on the countertop by slowly moving his left hand down.",
+        "The person sets the tube on the countertop using a flick of his wrist from the right hand.",
+        "The person lets the tube fall gently from his left hand onto the countertop.",
+        "The person pushes the tube from his right hand towards the edge of the countertop.",
+        "The person rolls the tube off his fingers onto the countertop with a swift motion of both hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person put the tube? Choose **only one** option from the following list.\nOptions:\n(A) The person places the tube on the countertop by slowly moving his left hand down.\n(B) The person sets the tube on the countertop using a flick of his wrist from the right hand.\n(C) The person lets the tube fall gently from his left hand onto the countertop.\n(D) The person pushes the tube from his right hand towards the edge of the countertop.\n(E) The person rolls the tube off his fingers onto the countertop with a swift motion of both hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person places the tube on the countertop by slowly moving his left hand down."
+    },
+    "correct_idx": [
+        0
+    ]
+}

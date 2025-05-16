@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a white bowl change?",
+    "options": [
+        "The white bowl was flipped upside down and placed on the table.",
+        "The white bowl was filled with water and set down on the table.",
+        "The white bowl was set aside and replaced with a larger bowl.",
+        "The white bowl was stacked inside another bowl to save space.",
+        "The white bowl was lifted and moved to the other side of the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a white bowl change? Choose **only one** option from the following list.\nOptions:\n(A) The white bowl was flipped upside down and placed on the table.\n(B) The white bowl was filled with water and set down on the table.\n(C) The white bowl was set aside and replaced with a larger bowl.\n(D) The white bowl was stacked inside another bowl to save space.\n(E) The white bowl was lifted and moved to the other side of the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The white bowl was lifted and moved to the other side of the table."
+    },
+    "correct_idx": [
+        4
+    ]
+}

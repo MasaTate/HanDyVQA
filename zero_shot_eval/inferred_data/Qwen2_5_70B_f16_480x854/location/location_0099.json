@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the stick?",
+    "options": [
+        "The person placed the stick into the edge of the coconut shell.",
+        "The person placed the stick into the center of the coconut shell.",
+        "The person placed the stick into the bottom of the coconut shell.",
+        "The person placed the stick onto the side of the coconut shell.",
+        "The person placed the stick on top of the coconut shell."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the stick? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the stick into the edge of the coconut shell.\n(B) The person placed the stick into the center of the coconut shell.\n(C) The person placed the stick into the bottom of the coconut shell.\n(D) The person placed the stick onto the side of the coconut shell.\n(E) The person placed the stick on top of the coconut shell.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person placed the stick into the edge of the coconut shell."
+    },
+    "correct_idx": [
+        1
+    ]
+}

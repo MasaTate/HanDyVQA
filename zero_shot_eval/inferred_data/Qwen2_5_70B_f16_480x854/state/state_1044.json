@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the gray craft change?",
+    "options": [
+        "The gray craft was lifted up, tilted 90 degrees to the side.",
+        "The gray craft was lifted up, tilted 45 degrees to the side.",
+        "The gray craft was lifted up, tilted 90 degrees forward.",
+        "The gray craft was lifted up, then tilted 180 degrees to the side.",
+        "The gray craft was lifted up and tilted 90 degrees in the opposite direction."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the gray craft change? Choose **only one** option from the following list.\nOptions:\n(A) The gray craft was lifted up, tilted 90 degrees to the side.\n(B) The gray craft was lifted up, tilted 45 degrees to the side.\n(C) The gray craft was lifted up, tilted 90 degrees forward.\n(D) The gray craft was lifted up, then tilted 180 degrees to the side.\n(E) The gray craft was lifted up and tilted 90 degrees in the opposite direction.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The gray craft was lifted up, tilted 90 degrees forward."
+    },
+    "correct_idx": [
+        0
+    ]
+}

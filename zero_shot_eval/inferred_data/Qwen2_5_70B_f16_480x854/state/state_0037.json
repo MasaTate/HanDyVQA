@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the drawer change?",
+    "options": [
+        "The drawer was partially moved to be open.",
+        "The drawer was pushed but was left slightly ajar.",
+        "The drawer was pushed but encountered an obstacle and remained open.",
+        "The drawer was pulled, causing it to stay in the same position.",
+        "The drawer was pushed to be closed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the drawer change? Choose **only one** option from the following list.\nOptions:\n(A) The drawer was partially moved to be open.\n(B) The drawer was pushed but was left slightly ajar.\n(C) The drawer was pushed but encountered an obstacle and remained open.\n(D) The drawer was pulled, causing it to stay in the same position.\n(E) The drawer was pushed to be closed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The drawer was pushed to be closed."
+    },
+    "correct_idx": [
+        4
+    ]
+}

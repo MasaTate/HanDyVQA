@@ -1,0 +1,17 @@
+{
+    "question": "How does the person cover the pepper container?",
+    "options": [
+        "The person places the lid on the pepper container using the left hand by gently pressing it down without twisting.",
+        "The person covers the pepper container with the lid using the right hand by twisting the lid clockwise.",
+        "The person positions the lid on the pepper container with the right hand by carefully sliding it across the top without any twisting motion.",
+        "The person caps the pepper container with the lid using both hands by smoothly lifting it straight up and placing it onto the container.",
+        "The person secures the lid on the pepper container using the left hand by holding it closely and turning it counterclockwise."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person cover the pepper container? Choose **only one** option from the following list.\nOptions:\n(A) The person places the lid on the pepper container using the left hand by gently pressing it down without twisting.\n(B) The person covers the pepper container with the lid using the right hand by twisting the lid clockwise.\n(C) The person positions the lid on the pepper container with the right hand by carefully sliding it across the top without any twisting motion.\n(D) The person caps the pepper container with the lid using both hands by smoothly lifting it straight up and placing it onto the container.\n(E) The person secures the lid on the pepper container using the left hand by holding it closely and turning it counterclockwise.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person covers the pepper container with the lid using the right hand by twisting the lid clockwise."
+    },
+    "correct_idx": [
+        1
+    ]
+}

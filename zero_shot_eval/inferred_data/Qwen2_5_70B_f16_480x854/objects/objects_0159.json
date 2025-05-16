@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "chopping board",
+        "cup",
+        "tap",
+        "frying pan",
+        "pot lid",
+        "coffee machine"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) chopping board\n(B) cup\n(C) tap\n(D) frying pan\n(E) pot lid\n(F) coffee machine\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(F) coffee machine"
+    },
+    "correct_idx": [
+        3,
+        4
+    ]
+}

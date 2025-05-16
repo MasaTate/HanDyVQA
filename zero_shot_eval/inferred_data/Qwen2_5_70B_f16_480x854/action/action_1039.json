@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person operates the crane with both hands on the controls.",
+        "The person maneuvers the forklift using both hands.",
+        "The person is driving the golf cart by steering with both hands.",
+        "The person assembles a model car, holding the instructions with one hand and the glue with the other.",
+        "The person adjusts the settings on the blender, using one hand to press buttons while holding a cup of ingredients with the other."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person operates the crane with both hands on the controls.\n(B) The person maneuvers the forklift using both hands.\n(C) The person is driving the golf cart by steering with both hands.\n(D) The person assembles a model car, holding the instructions with one hand and the glue with the other.\n(E) The person adjusts the settings on the blender, using one hand to press buttons while holding a cup of ingredients with the other.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person maneuvers the forklift using both hands."
+    },
+    "correct_idx": [
+        1
+    ]
+}

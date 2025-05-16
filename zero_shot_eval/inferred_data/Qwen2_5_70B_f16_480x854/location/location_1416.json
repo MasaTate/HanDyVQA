@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the first box?",
+    "options": [
+        "The first box was pushed to the side, while the next box that was touched was set beside it.",
+        "The first box was moved to the floor, while the next box that was touched was placed on the table.",
+        "The first box slid to the back of the table, while the next box that was touched was positioned in front of it.",
+        "The first box was shifted to the right, while the next box that was touched was leaned against it.",
+        "The first box remained in place, while the next box that was touched was lifted and placed on top of the first box."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the first box? Choose **only one** option from the following list.\nOptions:\n(A) The first box was pushed to the side, while the next box that was touched was set beside it.\n(B) The first box was moved to the floor, while the next box that was touched was placed on the table.\n(C) The first box slid to the back of the table, while the next box that was touched was positioned in front of it.\n(D) The first box was shifted to the right, while the next box that was touched was leaned against it.\n(E) The first box remained in place, while the next box that was touched was lifted and placed on top of the first box.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The first box was shifted to the right, while the next box that was touched was leaned against it."
+    },
+    "correct_idx": [
+        4
+    ]
+}

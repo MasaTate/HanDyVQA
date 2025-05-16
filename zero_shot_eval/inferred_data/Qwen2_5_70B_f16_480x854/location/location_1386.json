@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the soup bowl?",
+    "options": [
+        "The person placed the soup bowl on the counter next to the fridge.",
+        "The person placed the soup bowl in front of the microwave across the counter.",
+        "The person placed the soup bowl between the sink and the white plate.",
+        "The person placed the soup bowl on the table beside the fruit bowl.",
+        "The person placed the soup bowl at the back of the kitchen island."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the soup bowl? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the soup bowl on the counter next to the fridge.\n(B) The person placed the soup bowl in front of the microwave across the counter.\n(C) The person placed the soup bowl between the sink and the white plate.\n(D) The person placed the soup bowl on the table beside the fruit bowl.\n(E) The person placed the soup bowl at the back of the kitchen island.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person placed the soup bowl between the sink and the white plate."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a bamboo stick change?",
+    "options": [
+        "The bamboo stick had been completely peeled with a small knife.",
+        "The bamboo stick had been partially sliced with a small knife.",
+        "The bamboo stick had been partially peeled with a small knife starting from the opposite end.",
+        "The bamboo stick had been partially peeled with a small knife.",
+        "The bamboo stick had been cut into sections with a small knife."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a bamboo stick change? Choose **only one** option from the following list.\nOptions:\n(A) The bamboo stick had been completely peeled with a small knife.\n(B) The bamboo stick had been partially sliced with a small knife.\n(C) The bamboo stick had been partially peeled with a small knife starting from the opposite end.\n(D) The bamboo stick had been partially peeled with a small knife.\n(E) The bamboo stick had been cut into sections with a small knife.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The bamboo stick had been partially peeled with a small knife."
+    },
+    "correct_idx": [
+        3
+    ]
+}

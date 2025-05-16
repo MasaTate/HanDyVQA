@@ -1,0 +1,17 @@
+{
+    "question": "How does the person dip the chain wheel?",
+    "options": [
+        "The person uses both hands to lower the chain wheel into the bucket, while attempting to align the gear part properly.",
+        "The person holds the chain wheel with one hand and places it into the bucket from close range, gently dipping it.",
+        "The person grips the chain wheel securely with his right hand and positions it above the bucket before gently lowering it.",
+        "The person uses his thumb and forefinger to guide the chain wheel and gently slide it along the edge of the bucket.",
+        "The person dips the chain wheel using his left hand to make the gear part fit into the bucket."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person dip the chain wheel? Choose **only one** option from the following list.\nOptions:\n(A) The person uses both hands to lower the chain wheel into the bucket, while attempting to align the gear part properly.\n(B) The person holds the chain wheel with one hand and places it into the bucket from close range, gently dipping it.\n(C) The person grips the chain wheel securely with his right hand and positions it above the bucket before gently lowering it.\n(D) The person uses his thumb and forefinger to guide the chain wheel and gently slide it along the edge of the bucket.\n(E) The person dips the chain wheel using his left hand to make the gear part fit into the bucket.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person holds the chain wheel with one hand and places it into the bucket from close range, gently dipping it."
+    },
+    "correct_idx": [
+        4
+    ]
+}

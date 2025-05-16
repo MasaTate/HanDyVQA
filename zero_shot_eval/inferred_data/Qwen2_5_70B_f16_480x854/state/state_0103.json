@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of his left leg change?",
+    "options": [
+        "The left leg was raised, scratched, and put down again.",
+        "The left leg was raised, brushed lightly, and kept elevated.",
+        "The left leg was raised, softly tapped, and then rested on a stool.",
+        "The left leg was lifted, patted twice, and remained in the air.",
+        "The left leg was raised, rubbed briefly, and placed on the bed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of his left leg change? Choose **only one** option from the following list.\nOptions:\n(A) The left leg was raised, scratched, and put down again.\n(B) The left leg was raised, brushed lightly, and kept elevated.\n(C) The left leg was raised, softly tapped, and then rested on a stool.\n(D) The left leg was lifted, patted twice, and remained in the air.\n(E) The left leg was raised, rubbed briefly, and placed on the bed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The left leg was raised, scratched, and put down again."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "watch",
+        "cardboard",
+        "plastic bottle",
+        "foncrete ground",
+        "foot",
+        "vacuum cleaner"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) watch\n(B) cardboard\n(C) plastic bottle\n(D) foncrete ground\n(E) foot\n(F) vacuum cleaner\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(F) Vacuum cleaner\n\nThe hands in the video are using a vacuum cleaner to clean the car's interior. The person picks up the vacuum cleaner, connects it, and then uses the hose attachment to clean various parts inside the car."
+    },
+    "correct_idx": [
+        1,
+        5
+    ]
+}

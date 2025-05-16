@@ -1,0 +1,17 @@
+{
+    "question": "How does the person separate the leaves?",
+    "options": [
+        "The person carefully holds the leaves with their left hand and uses the fingers of their right hand to peel them apart one by one.",
+        "The person steadies the leaves with their left hand while delicately sliding their right fingers between them to separate them.",
+        "The person pulls the leaves apart one by one using the fingers of the right hand, while the left hand holds them.",
+        "The person grips the edges of two overlapping leaves and gently pulls them away from each other using both hands.",
+        "The person carefully pinches the stems of the leaves and tugs them apart with a smooth motion using both index fingers."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person separate the leaves? Choose **only one** option from the following list.\nOptions:\n(A) The person carefully holds the leaves with their left hand and uses the fingers of their right hand to peel them apart one by one.\n(B) The person steadies the leaves with their left hand while delicately sliding their right fingers between them to separate them.\n(C) The person pulls the leaves apart one by one using the fingers of the right hand, while the left hand holds them.\n(D) The person grips the edges of two overlapping leaves and gently pulls them away from each other using both hands.\n(E) The person carefully pinches the stems of the leaves and tugs them apart with a smooth motion using both index fingers.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person grips the edges of two overlapping leaves and gently pulls them away from each other using both hands."
+    },
+    "correct_idx": [
+        2
+    ]
+}

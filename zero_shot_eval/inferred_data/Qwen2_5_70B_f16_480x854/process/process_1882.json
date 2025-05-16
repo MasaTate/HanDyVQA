@@ -1,0 +1,17 @@
+{
+    "question": "How does the person rotate the frying pan?",
+    "options": [
+        "The person spins the frying pan clockwise while holding it steadily above the stove with both hands, then smoothly returns it to its original position.",
+        "The person tilts the frying pan backwards, holding the handle in the right hand, and gently turns it downwards, allowing some contents to fall.",
+        "The person lifts the frying pan with the left hand and moves it in a circular motion, maintaining grip on the handle.",
+        "The person spins the frying pan from side to side using the right hand to equally distribute the oil.",
+        "The person holds the frying pan by its base using the right hand and smoothly rotates it in a wide arc, allowing the contents to move around inside."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person rotate the frying pan? Choose **only one** option from the following list.\nOptions:\n(A) The person spins the frying pan clockwise while holding it steadily above the stove with both hands, then smoothly returns it to its original position.\n(B) The person tilts the frying pan backwards, holding the handle in the right hand, and gently turns it downwards, allowing some contents to fall.\n(C) The person lifts the frying pan with the left hand and moves it in a circular motion, maintaining grip on the handle.\n(D) The person spins the frying pan from side to side using the right hand to equally distribute the oil.\n(E) The person holds the frying pan by its base using the right hand and smoothly rotates it in a wide arc, allowing the contents to move around inside.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person spins the frying pan from side to side using the right hand to equally distribute the oil."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the plate change?",
+    "options": [
+        "The plate was painted with a glossy finish, changing its appearance.",
+        "The plate was heated in the oven, causing it to expand slightly.",
+        "The plate was secured with a screw, fixing its position.",
+        "The plate was stacked on top of another plate, altering its arrangement.",
+        "The plate was flipped upside down, altering its orientation."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the plate change? Choose **only one** option from the following list.\nOptions:\n(A) The plate was painted with a glossy finish, changing its appearance.\n(B) The plate was heated in the oven, causing it to expand slightly.\n(C) The plate was secured with a screw, fixing its position.\n(D) The plate was stacked on top of another plate, altering its arrangement.\n(E) The plate was flipped upside down, altering its orientation.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The plate was secured with a screw, fixing its position."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the cotton bud change?",
+    "options": [
+        "The cotton bud was used to clean the camera and was moved vertically a few times.",
+        "The cotton bud was used to clean the camera and was moved in a circular motion.",
+        "The cotton bud was used to clean the camera and was moved horizontally many times.",
+        "The cotton bud was used to clean the camera and was moved diagonally once.",
+        "The cotton bud was used to clean the camera and was moved horizontally a single time."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the cotton bud change? Choose **only one** option from the following list.\nOptions:\n(A) The cotton bud was used to clean the camera and was moved vertically a few times.\n(B) The cotton bud was used to clean the camera and was moved in a circular motion.\n(C) The cotton bud was used to clean the camera and was moved horizontally many times.\n(D) The cotton bud was used to clean the camera and was moved diagonally once.\n(E) The cotton bud was used to clean the camera and was moved horizontally a single time.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The cotton bud was used to clean the camera and was moved horizontally many times."
+    },
+    "correct_idx": [
+        2
+    ]
+}

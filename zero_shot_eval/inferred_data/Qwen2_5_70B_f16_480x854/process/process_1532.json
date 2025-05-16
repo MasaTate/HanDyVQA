@@ -1,0 +1,17 @@
+{
+    "question": "How does the person leave hand?",
+    "options": [
+        "The person held the rock securely before gently releasing it with a smooth motion.",
+        "The person kept their left hand firmly gripping the rock before gradually loosening their hand and letting go.",
+        "The person maintained a firm grip on the rock before releasing it carefully from their hand.",
+        "The person lightly grasped the rock, then rotated their wrist and set it down softly.",
+        "The person guided the rock away with the palm of their hand, easing it down before letting go."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person leave hand? Choose **only one** option from the following list.\nOptions:\n(A) The person held the rock securely before gently releasing it with a smooth motion.\n(B) The person kept their left hand firmly gripping the rock before gradually loosening their hand and letting go.\n(C) The person maintained a firm grip on the rock before releasing it carefully from their hand.\n(D) The person lightly grasped the rock, then rotated their wrist and set it down softly.\n(E) The person guided the rock away with the palm of their hand, easing it down before letting go.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person kept their left hand firmly gripping the rock before gradually loosening their hand and letting go."
+    },
+    "correct_idx": [
+        1
+    ]
+}

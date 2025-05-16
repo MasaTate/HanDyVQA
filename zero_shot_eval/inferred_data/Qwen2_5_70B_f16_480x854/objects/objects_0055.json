@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "trapal",
+        "needle",
+        "sack",
+        "yarn",
+        "slippers",
+        "stick broom"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) trapal\n(B) needle\n(C) sack\n(D) yarn\n(E) slippers\n(F) stick broom\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(D) yarn  \n(C) sack  \n\nThe hands in the video are using red yarn to sew or stitch on a sack. The yarn is being manipulated with the fingers, and the sack serves as the surface being worked on. There is no visible use of a needle, trapal, slippers, or a stick broom in the video."
+    },
+    "correct_idx": [
+        1,
+        3
+    ]
+}

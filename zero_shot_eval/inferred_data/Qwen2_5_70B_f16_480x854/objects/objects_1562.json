@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "bowl",
+        "pot",
+        "oil bottle",
+        "drawer",
+        "rice cooker",
+        "kitchen scissor"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) bowl\n(B) pot\n(C) oil bottle\n(D) drawer\n(E) rice cooker\n(F) kitchen scissor\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(A) The hands are using a bowl to hold sliced tomatoes and basil leaves.\n(C) The hands are using an oil bottle to pour oil over the sliced tomatoes and basil leaves in the bowls."
+    },
+    "correct_idx": [
+        2,
+        3
+    ]
+}

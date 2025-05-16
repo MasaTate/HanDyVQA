@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the power drill?",
+    "options": [
+        "The person puts the power drill on the shelf next to the pillar with the tool organizer.",
+        "The person sets the power drill on the floor beside the pillar by the storage box.",
+        "The person positions the power drill on the table directly in front of the pillar with the holder.",
+        "The person places the power drill on the counter behind the pillar with the hanging tools.",
+        "The person places the power drill on the pillar with the power drill holder."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the power drill? Choose **only one** option from the following list.\nOptions:\n(A) The person puts the power drill on the shelf next to the pillar with the tool organizer.\n(B) The person sets the power drill on the floor beside the pillar by the storage box.\n(C) The person positions the power drill on the table directly in front of the pillar with the holder.\n(D) The person places the power drill on the counter behind the pillar with the hanging tools.\n(E) The person places the power drill on the pillar with the power drill holder.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person places the power drill on the pillar with the power drill holder."
+    },
+    "correct_idx": [
+        4
+    ]
+}

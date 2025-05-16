@@ -1,0 +1,17 @@
+{
+    "question": "How does the person drag the beads?",
+    "options": [
+        "The person lifts the beads using a needle and lets them glide freely onto the thread.",
+        "The person holds a needle using the right hand and inserts the beads towards the thread and pulls it up, which is being held in the left hand.",
+        "The person guides the beads with the help of fingers, moving towards a smooth alignment.",
+        "The person gently pinches the beads and positions them along the thread's path.",
+        "The person carefully slides the beads along the thread using their fingertips."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person drag the beads? Choose **only one** option from the following list.\nOptions:\n(A) The person lifts the beads using a needle and lets them glide freely onto the thread.\n(B) The person holds a needle using the right hand and inserts the beads towards the thread and pulls it up, which is being held in the left hand.\n(C) The person guides the beads with the help of fingers, moving towards a smooth alignment.\n(D) The person gently pinches the beads and positions them along the thread's path.\n(E) The person carefully slides the beads along the thread using their fingertips.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person carefully slides the beads along the thread using their fingertips."
+    },
+    "correct_idx": [
+        1
+    ]
+}

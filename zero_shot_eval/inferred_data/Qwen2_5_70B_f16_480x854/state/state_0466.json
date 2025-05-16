@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a puzzle piece in the box change?",
+    "options": [
+        "The puzzle piece was flipped over to reveal its backside.",
+        "The puzzle piece was placed down again into the box.",
+        "The puzzle piece was picked up and examined.",
+        "The puzzle piece was removed and discarded from the box.",
+        "The puzzle piece was rearranged among other pieces in the box."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a puzzle piece in the box change? Choose **only one** option from the following list.\nOptions:\n(A) The puzzle piece was flipped over to reveal its backside.\n(B) The puzzle piece was placed down again into the box.\n(C) The puzzle piece was picked up and examined.\n(D) The puzzle piece was removed and discarded from the box.\n(E) The puzzle piece was rearranged among other pieces in the box.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The puzzle piece was picked up and examined."
+    },
+    "correct_idx": [
+        2
+    ]
+}

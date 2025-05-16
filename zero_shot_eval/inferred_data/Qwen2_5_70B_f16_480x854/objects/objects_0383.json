@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "plier",
+        "screwdriver",
+        "tire",
+        "cellphone",
+        "spray",
+        "cordless drill"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) plier\n(B) screwdriver\n(C) tire\n(D) cellphone\n(E) spray\n(F) cordless drill\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(B) screwdriver  \n(D) cellphone  \n\nThe person in the video uses their hands to pick up a screwdriver from the drawer and then places it back. Additionally, they handle a cellphone with their hands. There is no indication of using a plier, tire, spray, or cordless drill in the provided frames."
+    },
+    "correct_idx": [
+        1,
+        3
+    ]
+}

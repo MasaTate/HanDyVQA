@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the foam change?",
+    "options": [
+        "The foam was removed from the container and spread on the canvas.",
+        "The foam was scooped out and placed in the mixing bowl.",
+        "The foam was drizzled onto the clay surface for a decorative pattern.",
+        "The foam was pushed aside and left on the edge of the workbench.",
+        "The foam was taken and wiped on the clay on the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the foam change? Choose **only one** option from the following list.\nOptions:\n(A) The foam was removed from the container and spread on the canvas.\n(B) The foam was scooped out and placed in the mixing bowl.\n(C) The foam was drizzled onto the clay surface for a decorative pattern.\n(D) The foam was pushed aside and left on the edge of the workbench.\n(E) The foam was taken and wiped on the clay on the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The foam was taken and wiped on the clay on the table."
+    },
+    "correct_idx": [
+        4
+    ]
+}

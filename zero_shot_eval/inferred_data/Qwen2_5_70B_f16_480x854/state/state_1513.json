@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the watch change?",
+    "options": [
+        "The watch was slightly moved to the right, causing a minor shift in its position.",
+        "The watch was slightly tilted upwards, causing a minor change in its position.",
+        "The watch was slightly moved to the left, causing a minor shift in its position.",
+        "The watch was slightly rotated, causing a minor change in its orientation.",
+        "The watch was slightly pushed downwards, causing a minor shift in its position."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the watch change? Choose **only one** option from the following list.\nOptions:\n(A) The watch was slightly moved to the right, causing a minor shift in its position.\n(B) The watch was slightly tilted upwards, causing a minor change in its position.\n(C) The watch was slightly moved to the left, causing a minor shift in its position.\n(D) The watch was slightly rotated, causing a minor change in its orientation.\n(E) The watch was slightly pushed downwards, causing a minor shift in its position.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The watch was slightly moved to the left, causing a minor shift in its position."
+    },
+    "correct_idx": [
+        2
+    ]
+}

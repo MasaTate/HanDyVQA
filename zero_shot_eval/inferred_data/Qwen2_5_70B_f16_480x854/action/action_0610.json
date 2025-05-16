@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person grips a marker with her left hand.",
+        "The person balances a pencil with her left hand while resting it on a notebook.",
+        "The person pulls the thread with his left hand.",
+        "The person holds a brush with her left hand as she paints on a canvas.",
+        "The person uses a stylus with her left hand to draw on a tablet screen."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person grips a marker with her left hand.\n(B) The person balances a pencil with her left hand while resting it on a notebook.\n(C) The person pulls the thread with his left hand.\n(D) The person holds a brush with her left hand as she paints on a canvas.\n(E) The person uses a stylus with her left hand to draw on a tablet screen.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person pulls the thread with his left hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

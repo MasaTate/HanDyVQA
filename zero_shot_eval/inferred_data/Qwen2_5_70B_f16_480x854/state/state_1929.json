@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the cloth change?",
+    "options": [
+        "The cloth was stretched tightly and the wrinkles were pressed flat with a hot iron.",
+        "The cloth was pinned with a needle and the wrinkles were smoothed out.",
+        "The cloth was dampened with water and the wrinkles were smoothed out with a rolling pin.",
+        "The cloth was clamped at the edges and the wrinkles were straightened out with a comb.",
+        "The cloth was sprayed with starch and the wrinkles were smoothed out by hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the cloth change? Choose **only one** option from the following list.\nOptions:\n(A) The cloth was stretched tightly and the wrinkles were pressed flat with a hot iron.\n(B) The cloth was pinned with a needle and the wrinkles were smoothed out.\n(C) The cloth was dampened with water and the wrinkles were smoothed out with a rolling pin.\n(D) The cloth was clamped at the edges and the wrinkles were straightened out with a comb.\n(E) The cloth was sprayed with starch and the wrinkles were smoothed out by hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The cloth was pinned with a needle and the wrinkles were smoothed out."
+    },
+    "correct_idx": [
+        1
+    ]
+}

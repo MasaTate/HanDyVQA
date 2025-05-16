@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the mosquito net?",
+    "options": [
+        "The person places the mosquito net on the changing table.",
+        "The person places the mosquito net near the window.",
+        "The person places the mosquito net on the floor next to the crib.",
+        "The person places the mosquito net on the rocking chair.",
+        "The person places the mosquito net on the baby crib."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the mosquito net? Choose **only one** option from the following list.\nOptions:\n(A) The person places the mosquito net on the changing table.\n(B) The person places the mosquito net near the window.\n(C) The person places the mosquito net on the floor next to the crib.\n(D) The person places the mosquito net on the rocking chair.\n(E) The person places the mosquito net on the baby crib.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person places the mosquito net on the floor next to the crib."
+    },
+    "correct_idx": [
+        4
+    ]
+}

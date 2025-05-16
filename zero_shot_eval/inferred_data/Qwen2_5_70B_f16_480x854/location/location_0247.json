@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person return the dipstick tube?",
+    "options": [
+        "The person returned the dipstick tube in the engine compartment of the mower.",
+        "The person returned the dipstick tube in the carburetor of the mower.",
+        "The person returned the dipstick tube on top of the air filter of the mower.",
+        "The person returned the dipstick tube beside the spark plug of the mower.",
+        "The person returned the dipstick tube inside the fuel tank of the mower."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person return the dipstick tube? Choose **only one** option from the following list.\nOptions:\n(A) The person returned the dipstick tube in the engine compartment of the mower.\n(B) The person returned the dipstick tube in the carburetor of the mower.\n(C) The person returned the dipstick tube on top of the air filter of the mower.\n(D) The person returned the dipstick tube beside the spark plug of the mower.\n(E) The person returned the dipstick tube inside the fuel tank of the mower.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person returned the dipstick tube in the engine compartment of the mower."
+    },
+    "correct_idx": [
+        1
+    ]
+}

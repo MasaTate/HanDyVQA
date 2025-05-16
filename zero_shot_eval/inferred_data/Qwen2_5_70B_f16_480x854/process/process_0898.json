@@ -1,0 +1,17 @@
+{
+    "question": "How does the person push the tray of pastries?",
+    "options": [
+        "The person lifts the tray of pastries with one hand and gently nudges it a bit forward using his arm.",
+        "The person holds the tray by one edge with his fingertips and carefully tips it to transfer the pastries onto the rack.",
+        "The person picks up the tray of pastries by gripping the edges of the tray with both hands and gently slides it forward to the tray rack using his right hand.",
+        "The person grabs the tray by the center and turns it over slowly to place the pastries into a box.",
+        "The person uses his left hand to raise the tray and softly moves it forward with a gentle motion."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person push the tray of pastries? Choose **only one** option from the following list.\nOptions:\n(A) The person lifts the tray of pastries with one hand and gently nudges it a bit forward using his arm.\n(B) The person holds the tray by one edge with his fingertips and carefully tips it to transfer the pastries onto the rack.\n(C) The person picks up the tray of pastries by gripping the edges of the tray with both hands and gently slides it forward to the tray rack using his right hand.\n(D) The person grabs the tray by the center and turns it over slowly to place the pastries into a box.\n(E) The person uses his left hand to raise the tray and softly moves it forward with a gentle motion.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person picks up the tray of pastries by gripping the edges of the tray with both hands and gently slides it forward to the tray rack using his right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

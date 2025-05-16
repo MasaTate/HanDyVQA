@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the box change?",
+    "options": [
+        "The box was securely sealed with tape on all sides.",
+        "The box was opened to reveal its contents inside.",
+        "The box was knocked over, and its contents were spilled out.",
+        "The box was closed back with the cover.",
+        "The box was flattened for easier storage."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the box change? Choose **only one** option from the following list.\nOptions:\n(A) The box was securely sealed with tape on all sides.\n(B) The box was opened to reveal its contents inside.\n(C) The box was knocked over, and its contents were spilled out.\n(D) The box was closed back with the cover.\n(E) The box was flattened for easier storage.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The box was opened to reveal its contents inside."
+    },
+    "correct_idx": [
+        3
+    ]
+}

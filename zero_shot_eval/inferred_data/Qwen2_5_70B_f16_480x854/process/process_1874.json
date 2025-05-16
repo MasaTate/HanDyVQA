@@ -1,0 +1,17 @@
+{
+    "question": "How does the person exchange screwdriver?",
+    "options": [
+        "The person gently tosses the green screwdriver across the table towards their left hand while reaching for another tool with the right hand.",
+        "The person transfers the green screwdriver from the right hand to the left hand with another screwdriver, then picks up a tool from the stacked tires with the right hand.",
+        "The person releases the green screwdriver and watches it fall off the edge of the table, using both hands to reach for another tool.",
+        "The person fumbles slightly with the green screwdriver and drops it onto the floor, bending down with both hands to pick up a different tool.",
+        "The person holds the green screwdriver closely with both hands and raises it slightly above the table before finally placing it back on the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person exchange screwdriver? Choose **only one** option from the following list.\nOptions:\n(A) The person gently tosses the green screwdriver across the table towards their left hand while reaching for another tool with the right hand.\n(B) The person transfers the green screwdriver from the right hand to the left hand with another screwdriver, then picks up a tool from the stacked tires with the right hand.\n(C) The person releases the green screwdriver and watches it fall off the edge of the table, using both hands to reach for another tool.\n(D) The person fumbles slightly with the green screwdriver and drops it onto the floor, bending down with both hands to pick up a different tool.\n(E) The person holds the green screwdriver closely with both hands and raises it slightly above the table before finally placing it back on the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person transfers the green screwdriver from the right hand to the left hand with another screwdriver, then picks up a tool from the stacked tires with the right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

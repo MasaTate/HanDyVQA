@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the can of electronic contact?",
+    "options": [
+        "The person placed the electronic contact on the bottom of the shelve.",
+        "The person placed the electronic contact on the top of the shelve.",
+        "The person placed the electronic contact on the side of the desk.",
+        "The person placed the electronic contact on the middle shelf of the cabinet.",
+        "The person placed the electronic contact on the floor next to the shelf."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the can of electronic contact? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the electronic contact on the bottom of the shelve.\n(B) The person placed the electronic contact on the top of the shelve.\n(C) The person placed the electronic contact on the side of the desk.\n(D) The person placed the electronic contact on the middle shelf of the cabinet.\n(E) The person placed the electronic contact on the floor next to the shelf.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person placed the electronic contact on the bottom of the shelve."
+    },
+    "correct_idx": [
+        0
+    ]
+}

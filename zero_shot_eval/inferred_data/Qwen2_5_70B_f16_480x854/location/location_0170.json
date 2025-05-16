@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put chopsticks?",
+    "options": [
+        "The person put the chopsticks on top of the bowl.",
+        "The person put the chopsticks next to the bowl.",
+        "The person put the chopsticks below the bowl.",
+        "The person put the chopsticks on the side of the bowl.",
+        "The person put the chopsticks beneath the plate."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put chopsticks? Choose **only one** option from the following list.\nOptions:\n(A) The person put the chopsticks on top of the bowl.\n(B) The person put the chopsticks next to the bowl.\n(C) The person put the chopsticks below the bowl.\n(D) The person put the chopsticks on the side of the bowl.\n(E) The person put the chopsticks beneath the plate.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person put the chopsticks on top of the bowl."
+    },
+    "correct_idx": [
+        0
+    ]
+}

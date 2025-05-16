@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the vespa cdi change?",
+    "options": [
+        "The Vespa CDI was removed from the engine during the inspection and then left on the table.",
+        "The Vespa CDI was reattached to the engine following calibration and then stored in the toolbox.",
+        "The Vespa CDI was disconnected from the engine for cleaning and then placed back in its original position.",
+        "The Vespa CDI was aligned with the engine during measurement and then set aside.",
+        "The Vespa CDI was tested against the engine specifications and then put back in its packaging."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the vespa cdi change? Choose **only one** option from the following list.\nOptions:\n(A) The Vespa CDI was removed from the engine during the inspection and then left on the table.\n(B) The Vespa CDI was reattached to the engine following calibration and then stored in the toolbox.\n(C) The Vespa CDI was disconnected from the engine for cleaning and then placed back in its original position.\n(D) The Vespa CDI was aligned with the engine during measurement and then set aside.\n(E) The Vespa CDI was tested against the engine specifications and then put back in its packaging.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The Vespa CDI was removed from the engine during the inspection and then left on the table."
+    },
+    "correct_idx": [
+        3
+    ]
+}

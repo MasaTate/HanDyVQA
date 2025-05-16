@@ -1,0 +1,21 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "spindle gouge",
+        "table",
+        "pot",
+        "chair",
+        "generator",
+        "pottery wheel",
+        "tripod light"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) spindle gouge\n(B) table\n(C) pot\n(D) chair\n(E) generator\n(F) pottery wheel\n(G) tripod light\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(A) spindle gouge\n(C) pot\n(F) pottery wheel"
+    },
+    "correct_idx": [
+        0,
+        2,
+        5
+    ]
+}

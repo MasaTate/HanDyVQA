@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pass the tin?",
+    "options": [
+        "The person hands the tin across the table using the right hand with a gentle flick of the wrist.",
+        "The person guides the tin along the table with the palm of the right hand, pushing it slightly forward.",
+        "The person holds the tin with both hands and passes it gently while leaning forward.",
+        "The person rotates the tin in the right hand and gently transfers it to the left without moving closer.",
+        "The person passes the tin from the right hand by moving the right hand to the left side to pass the tin."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pass the tin? Choose **only one** option from the following list.\nOptions:\n(A) The person hands the tin across the table using the right hand with a gentle flick of the wrist.\n(B) The person guides the tin along the table with the palm of the right hand, pushing it slightly forward.\n(C) The person holds the tin with both hands and passes it gently while leaning forward.\n(D) The person rotates the tin in the right hand and gently transfers it to the left without moving closer.\n(E) The person passes the tin from the right hand by moving the right hand to the left side to pass the tin.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person passes the tin from the right hand by moving the right hand to the left side to pass the tin."
+    },
+    "correct_idx": [
+        4
+    ]
+}

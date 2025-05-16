@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the laptop mouse change?",
+    "options": [
+        "The laptop mouse was clicked, resulting in the selection of an item on the screen.",
+        "The laptop mouse was paused, leading to the cursor becoming static on the screen.",
+        "The laptop mouse was flipped over, revealing the battery compartment underneath.",
+        "The laptop mouse was moved, causing the cursor to shift on the screen.",
+        "The laptop mouse was unplugged, disconnecting it from the laptop."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the laptop mouse change? Choose **only one** option from the following list.\nOptions:\n(A) The laptop mouse was clicked, resulting in the selection of an item on the screen.\n(B) The laptop mouse was paused, leading to the cursor becoming static on the screen.\n(C) The laptop mouse was flipped over, revealing the battery compartment underneath.\n(D) The laptop mouse was moved, causing the cursor to shift on the screen.\n(E) The laptop mouse was unplugged, disconnecting it from the laptop.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The laptop mouse was moved, causing the cursor to shift on the screen."
+    },
+    "correct_idx": [
+        3
+    ]
+}

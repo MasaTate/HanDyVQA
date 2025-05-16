@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person rolled out the dough and arranged it on the countertop.",
+        "The person tossed the dough into the mixing bowl and mixed it with a spoon.",
+        "The person formed the dough into a ball and set it in a basket.",
+        "The person lifted the dough and placed it into a pot on the stove.",
+        "The person picked up the dough and assembled it on the tray."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person rolled out the dough and arranged it on the countertop.\n(B) The person tossed the dough into the mixing bowl and mixed it with a spoon.\n(C) The person formed the dough into a ball and set it in a basket.\n(D) The person lifted the dough and placed it into a pot on the stove.\n(E) The person picked up the dough and assembled it on the tray.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person picked up the dough and assembled it on the tray."
+    },
+    "correct_idx": [
+        4
+    ]
+}

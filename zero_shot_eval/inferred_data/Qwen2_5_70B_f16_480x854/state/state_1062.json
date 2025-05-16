@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the computer cpu change?",
+    "options": [
+        "The computer CPU decreased its temperature as it was touched, indicating a change in its thermal state.",
+        "The computer CPU remained at a constant temperature when it was touched, indicating no change in its thermal state.",
+        "The computer CPU increased its temperature as it was touched, indicating a change in its thermal state.",
+        "The computer CPU fluctuated in temperature as it was touched, indicating an unstable thermal state.",
+        "The computer CPU was detached from the motherboard, indicating a complete change in its thermal state."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the computer cpu change? Choose **only one** option from the following list.\nOptions:\n(A) The computer CPU decreased its temperature as it was touched, indicating a change in its thermal state.\n(B) The computer CPU remained at a constant temperature when it was touched, indicating no change in its thermal state.\n(C) The computer CPU increased its temperature as it was touched, indicating a change in its thermal state.\n(D) The computer CPU fluctuated in temperature as it was touched, indicating an unstable thermal state.\n(E) The computer CPU was detached from the motherboard, indicating a complete change in its thermal state.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The computer CPU remained at a constant temperature when it was touched, indicating no change in its thermal state."
+    },
+    "correct_idx": [
+        2
+    ]
+}

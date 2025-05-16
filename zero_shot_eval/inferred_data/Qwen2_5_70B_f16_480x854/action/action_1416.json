@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person grips the metal shelf with the right hand while twisting the faucet with the left hand to rinse it.",
+        "The person pulls the countertop with the left hand while reaching for the faucet with the right hand to wash it.",
+        "The person uses the left hand to hold the glass shelf while moving the faucet with the right hand to wash it.",
+        "The person stabilizes the glass shelf with the right hand while adjusting the tap with the left hand for cleaning.",
+        "The person balances the plastic shelf with the left hand while holding a sponge with the right hand to wash the faucet."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the metal shelf with the right hand while twisting the faucet with the left hand to rinse it.\n(B) The person pulls the countertop with the left hand while reaching for the faucet with the right hand to wash it.\n(C) The person uses the left hand to hold the glass shelf while moving the faucet with the right hand to wash it.\n(D) The person stabilizes the glass shelf with the right hand while adjusting the tap with the left hand for cleaning.\n(E) The person balances the plastic shelf with the left hand while holding a sponge with the right hand to wash the faucet.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person stabilizes the glass shelf with the right hand while adjusting the tap with the left hand for cleaning."
+    },
+    "correct_idx": [
+        2
+    ]
+}

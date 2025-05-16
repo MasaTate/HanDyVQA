@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pour the soil?",
+    "options": [
+        "The person poured the soil by holding the round pot with both hands and tilting it gently over the rectangular pot, allowing the soil to spill out without using a trowel.",
+        "The person used their left hand to scoop a handful of soil from the round pot and placed it into the rectangular pot, without using a trowel.",
+        "The person held the trowel with their left hand and scooped it into the rectangular pot while their right hand guided soil in from the round pot.",
+        "The person poured the soil by using their right hand to scoop it with a trowel from the round pot, while their left hand held the pot steady and then, carefully poured the soil into the rectangular pot, securing it with their left hand.",
+        "The person grasped the rectangular pot with both hands, turned it slightly, and let the soil flow out from the round pot."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pour the soil? Choose **only one** option from the following list.\nOptions:\n(A) The person poured the soil by holding the round pot with both hands and tilting it gently over the rectangular pot, allowing the soil to spill out without using a trowel.\n(B) The person used their left hand to scoop a handful of soil from the round pot and placed it into the rectangular pot, without using a trowel.\n(C) The person held the trowel with their left hand and scooped it into the rectangular pot while their right hand guided soil in from the round pot.\n(D) The person poured the soil by using their right hand to scoop it with a trowel from the round pot, while their left hand held the pot steady and then, carefully poured the soil into the rectangular pot, securing it with their left hand.\n(E) The person grasped the rectangular pot with both hands, turned it slightly, and let the soil flow out from the round pot.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person poured the soil by using their right hand to scoop it with a trowel from the round pot, while their left hand held the pot steady and then, carefully poured the soil into the rectangular pot, securing it with their left hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

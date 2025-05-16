@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the tractor change?",
+    "options": [
+        "The tractor was moved and the steering wheel of the tractor was rotated counterclockwise.",
+        "The tractor was moved and the steering wheel of the tractor was rotated clockwise.",
+        "The tractor was moved and the wheels were turned slightly left but the tractor remained in place.",
+        "The tractor was moved backwards and the steering wheel of the tractor was left centered.",
+        "The tractor was moved straight without any rotation of the steering wheel."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the tractor change? Choose **only one** option from the following list.\nOptions:\n(A) The tractor was moved and the steering wheel of the tractor was rotated counterclockwise.\n(B) The tractor was moved and the steering wheel of the tractor was rotated clockwise.\n(C) The tractor was moved and the wheels were turned slightly left but the tractor remained in place.\n(D) The tractor was moved backwards and the steering wheel of the tractor was left centered.\n(E) The tractor was moved straight without any rotation of the steering wheel.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The tractor was moved and the steering wheel of the tractor was rotated clockwise."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person crack the shell?",
+    "options": [
+        "The person cracked the shell by slightly pressing it with the right thumb.",
+        "The person tapped the shell gently against the edge of the counter using his hand.",
+        "The person cracked the shell by gently pushing it with the left thumb.",
+        "The person rotated the shell smoothly between his fingers while applying slight pressure.",
+        "The person let the shell fall closely to allow it to break upon impact."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person crack the shell? Choose **only one** option from the following list.\nOptions:\n(A) The person cracked the shell by slightly pressing it with the right thumb.\n(B) The person tapped the shell gently against the edge of the counter using his hand.\n(C) The person cracked the shell by gently pushing it with the left thumb.\n(D) The person rotated the shell smoothly between his fingers while applying slight pressure.\n(E) The person let the shell fall closely to allow it to break upon impact.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person cracked the shell by gently pushing it with the left thumb."
+    },
+    "correct_idx": [
+        2
+    ]
+}

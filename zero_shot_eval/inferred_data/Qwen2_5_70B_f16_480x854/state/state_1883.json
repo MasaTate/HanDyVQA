@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the bluetooth speaker change?",
+    "options": [
+        "The Bluetooth speaker was turned off and flipped, leading to a change in orientation as it was disconnected from the power source.",
+        "The Bluetooth speaker was submerged in water and then dried, resulting in a change in state as moisture was absorbed and then lost.",
+        "The Bluetooth speaker was picked up and dropped, causing it to bounce and resulting in a change in condition due to impact.",
+        "The Bluetooth speaker was tilted and pressed, causing a change in position as it shifted and in state as pressure was applied.",
+        "The Bluetooth speaker was placed on a different surface and rotated, leading to a change in angle as it was adjusted for better sound quality."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the bluetooth speaker change? Choose **only one** option from the following list.\nOptions:\n(A) The Bluetooth speaker was turned off and flipped, leading to a change in orientation as it was disconnected from the power source.\n(B) The Bluetooth speaker was submerged in water and then dried, resulting in a change in state as moisture was absorbed and then lost.\n(C) The Bluetooth speaker was picked up and dropped, causing it to bounce and resulting in a change in condition due to impact.\n(D) The Bluetooth speaker was tilted and pressed, causing a change in position as it shifted and in state as pressure was applied.\n(E) The Bluetooth speaker was placed on a different surface and rotated, leading to a change in angle as it was adjusted for better sound quality.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The Bluetooth speaker was turned off and flipped, leading to a change in orientation as it was disconnected from the power source."
+    },
+    "correct_idx": [
+        3
+    ]
+}

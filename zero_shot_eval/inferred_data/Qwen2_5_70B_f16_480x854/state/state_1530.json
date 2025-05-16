@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the glove change?",
+    "options": [
+        "The glove was put on, conforming to the shape of the hand.",
+        "The glove was taken off, returning to its original shape and size.",
+        "The glove was stretched out, altering its structure and becoming loose.",
+        "The glove was folded in half, modifying its structure and form.",
+        "The glove was soaked in water, altering its texture and making it soggy."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the glove change? Choose **only one** option from the following list.\nOptions:\n(A) The glove was put on, conforming to the shape of the hand.\n(B) The glove was taken off, returning to its original shape and size.\n(C) The glove was stretched out, altering its structure and becoming loose.\n(D) The glove was folded in half, modifying its structure and form.\n(E) The glove was soaked in water, altering its texture and making it soggy.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The glove was put on, conforming to the shape of the hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person lift pan?",
+    "options": [
+        "The person raises the pan using his right hand and twists it clockwise.",
+        "The person hoists the pan with his right hand, rotating it slightly.",
+        "The person raises the pan by his right hand, moving it in a circular motion.",
+        "The person lifts the pan using his right hand, turning it gently clockwise.",
+        "The person handles the pan by holding its side with his right hand and moving it around."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person lift pan? Choose **only one** option from the following list.\nOptions:\n(A) The person raises the pan using his right hand and twists it clockwise.\n(B) The person hoists the pan with his right hand, rotating it slightly.\n(C) The person raises the pan by his right hand, moving it in a circular motion.\n(D) The person lifts the pan using his right hand, turning it gently clockwise.\n(E) The person handles the pan by holding its side with his right hand and moving it around.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person hoists the pan with his right hand, rotating it slightly."
+    },
+    "correct_idx": [
+        0
+    ]
+}

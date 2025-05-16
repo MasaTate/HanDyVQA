@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person lifts a block with his right hand.",
+        "The person raises a box with his right hand.",
+        "The person pushes a block across the table with his right hand.",
+        "The individual holds a block with both hands and lifts it.",
+        "The person grabs a block with his right hand and places it on a shelf."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person lifts a block with his right hand.\n(B) The person raises a box with his right hand.\n(C) The person pushes a block across the table with his right hand.\n(D) The individual holds a block with both hands and lifts it.\n(E) The person grabs a block with his right hand and places it on a shelf.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person lifts a block with his right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

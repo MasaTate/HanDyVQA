@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the bottle with the sponge change?",
+    "options": [
+        "The bottle was filled with water, and the sponge absorbed some, causing the sponge to expand.",
+        "The bottle was cleaned and scrubbed with a sponge, forming bubbles on the mouth of the bottle.",
+        "The bottle was dropped, and the sponge was pressed against the side, creating a dent on the bottle's surface.",
+        "The bottle was shaken with the sponge inside, leading to the formation of foam throughout the liquid.",
+        "The bottle was emptied of its contents, while the sponge remained dry inside, altering the state of the bottle."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the bottle with the sponge change? Choose **only one** option from the following list.\nOptions:\n(A) The bottle was filled with water, and the sponge absorbed some, causing the sponge to expand.\n(B) The bottle was cleaned and scrubbed with a sponge, forming bubbles on the mouth of the bottle.\n(C) The bottle was dropped, and the sponge was pressed against the side, creating a dent on the bottle's surface.\n(D) The bottle was shaken with the sponge inside, leading to the formation of foam throughout the liquid.\n(E) The bottle was emptied of its contents, while the sponge remained dry inside, altering the state of the bottle.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The bottle was cleaned and scrubbed with a sponge, forming bubbles on the mouth of the bottle."
+    },
+    "correct_idx": [
+        1
+    ]
+}

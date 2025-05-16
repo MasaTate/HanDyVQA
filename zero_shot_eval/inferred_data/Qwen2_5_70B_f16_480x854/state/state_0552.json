@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the plate change?",
+    "options": [
+        "The plate was moved slightly but wiped after the bowl was placed on it.",
+        "The plate was shifted to the side without being wiped before the bowl was placed on it.",
+        "The plate was wiped thoroughly but not moved before the bowl was placed on it.",
+        "The plate was initially stationary and wiped while the bowl was held above it.",
+        "The plate was moved while being wiped before the bowl was put on it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the plate change? Choose **only one** option from the following list.\nOptions:\n(A) The plate was moved slightly but wiped after the bowl was placed on it.\n(B) The plate was shifted to the side without being wiped before the bowl was placed on it.\n(C) The plate was wiped thoroughly but not moved before the bowl was placed on it.\n(D) The plate was initially stationary and wiped while the bowl was held above it.\n(E) The plate was moved while being wiped before the bowl was put on it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The plate was shifted to the side without being wiped before the bowl was placed on it."
+    },
+    "correct_idx": [
+        4
+    ]
+}

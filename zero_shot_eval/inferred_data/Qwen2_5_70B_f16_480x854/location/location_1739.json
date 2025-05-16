@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the vent?",
+    "options": [
+        "The person put the vent in front of his body.",
+        "The person put the vent to the left of his body.",
+        "The person put the vent behind his body.",
+        "The person put the vent beside his right leg.",
+        "The person put the vent to the right side of his body."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the vent? Choose **only one** option from the following list.\nOptions:\n(A) The person put the vent in front of his body.\n(B) The person put the vent to the left of his body.\n(C) The person put the vent behind his body.\n(D) The person put the vent beside his right leg.\n(E) The person put the vent to the right side of his body.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person put the vent in front of his body."
+    },
+    "correct_idx": [
+        0
+    ]
+}

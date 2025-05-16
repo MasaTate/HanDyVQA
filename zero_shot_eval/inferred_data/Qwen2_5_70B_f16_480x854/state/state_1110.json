@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the bolt change?",
+    "options": [
+        "The bolt was tightened using a pair of pliers along with a socket wrench.",
+        "The bolt was loosened with a ratchet and then pulled out by hand.",
+        "The bolt was rotated manually and then secured with a regular screwdriver.",
+        "The bolt was attached to a piece of wood with the help of an electric drill.",
+        "The bolt was held by a hex wrench and secured using a lug nut gun."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the bolt change? Choose **only one** option from the following list.\nOptions:\n(A) The bolt was tightened using a pair of pliers along with a socket wrench.\n(B) The bolt was loosened with a ratchet and then pulled out by hand.\n(C) The bolt was rotated manually and then secured with a regular screwdriver.\n(D) The bolt was attached to a piece of wood with the help of an electric drill.\n(E) The bolt was held by a hex wrench and secured using a lug nut gun.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The bolt was loosened with a ratchet and then pulled out by hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

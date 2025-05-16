@@ -1,0 +1,21 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "sponge",
+        "pan",
+        "condiments",
+        "chopsticks",
+        "spatula",
+        "tap",
+        "knife"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) sponge\n(B) pan\n(C) condiments\n(D) chopsticks\n(E) spatula\n(F) tap\n(G) knife\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(B) pan\n(A) sponge"
+    },
+    "correct_idx": [
+        0,
+        1,
+        5
+    ]
+}

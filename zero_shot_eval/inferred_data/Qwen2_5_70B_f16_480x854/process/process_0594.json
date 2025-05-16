@@ -1,0 +1,17 @@
+{
+    "question": "How does the person wipe the wood?",
+    "options": [
+        "The person used their right hand to move across the wood in a circular pattern, applying firm pressure to ensure the dirt was removed.",
+        "The person moved a cloth with both hands along the wood in a back-and-forth manner, resulting in an uneven cleaning pattern.",
+        "The person lightly touched the wood with their fingers using their left hand, making minimal contact without fully wiping the surface.",
+        "The person wiped the wood by using their left hand to swipe firmly across the surface in a rightward direction, repeating the motion twice with smooth, steady movements for a thorough clean.",
+        "The person brushed the edge of a dry cloth over the wood, aiming to clean it by moving the fabric from side to side."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person wipe the wood? Choose **only one** option from the following list.\nOptions:\n(A) The person used their right hand to move across the wood in a circular pattern, applying firm pressure to ensure the dirt was removed.\n(B) The person moved a cloth with both hands along the wood in a back-and-forth manner, resulting in an uneven cleaning pattern.\n(C) The person lightly touched the wood with their fingers using their left hand, making minimal contact without fully wiping the surface.\n(D) The person wiped the wood by using their left hand to swipe firmly across the surface in a rightward direction, repeating the motion twice with smooth, steady movements for a thorough clean.\n(E) The person brushed the edge of a dry cloth over the wood, aiming to clean it by moving the fabric from side to side.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person lightly touched the wood with their fingers using their left hand, making minimal contact without fully wiping the surface."
+    },
+    "correct_idx": [
+        3
+    ]
+}

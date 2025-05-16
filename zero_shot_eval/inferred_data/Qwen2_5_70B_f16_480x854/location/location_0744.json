@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move a carrot chip on the kitchen slab?",
+    "options": [
+        "The person moves the carrot chip on the kitchen slab by placing it beside the bowl of salad.",
+        "The person moves the carrot chip on the kitchen slab by arranging it in front of the spice rack.",
+        "The person moves the carrot chip on the kitchen slab by setting it on the edge of the counter.",
+        "The person moves the carrot chip on the kitchen slab by cutting it on top of the chopping board.",
+        "The person moves the carrot chip on the kitchen slab by stacking it on the plate next to the toaster."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move a carrot chip on the kitchen slab? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the carrot chip on the kitchen slab by placing it beside the bowl of salad.\n(B) The person moves the carrot chip on the kitchen slab by arranging it in front of the spice rack.\n(C) The person moves the carrot chip on the kitchen slab by setting it on the edge of the counter.\n(D) The person moves the carrot chip on the kitchen slab by cutting it on top of the chopping board.\n(E) The person moves the carrot chip on the kitchen slab by stacking it on the plate next to the toaster.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person moves the carrot chip on the kitchen slab by cutting it on top of the chopping board."
+    },
+    "correct_idx": [
+        3
+    ]
+}

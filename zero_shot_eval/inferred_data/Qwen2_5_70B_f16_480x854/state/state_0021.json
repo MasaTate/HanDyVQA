@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a part of the sewing machine change?",
+    "options": [
+        "The balance of the sewing machine was pushed down.",
+        "The balance of the sewing machine was lifted up.",
+        "The balance of the sewing machine was tilted sideways.",
+        "The balance was slightly nudged but not lifted up.",
+        "The balance of the sewing machine remained in its original position."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a part of the sewing machine change? Choose **only one** option from the following list.\nOptions:\n(A) The balance of the sewing machine was pushed down.\n(B) The balance of the sewing machine was lifted up.\n(C) The balance of the sewing machine was tilted sideways.\n(D) The balance was slightly nudged but not lifted up.\n(E) The balance of the sewing machine remained in its original position.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The balance of the sewing machine remained in its original position."
+    },
+    "correct_idx": [
+        1
+    ]
+}

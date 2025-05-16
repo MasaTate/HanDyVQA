@@ -1,0 +1,17 @@
+{
+    "question": "How does the person brush the wood?",
+    "options": [
+        "The person brushed the wood by gripping the brush with both hands and pushing it forward in a continuous motion.",
+        "The person brushed the wood by holding it steady with one hand while moving the brush back and forth with the other hand.",
+        "The person brushed the wood by using one hand to hold the brush upright and making gentle circular motions on the surface.",
+        "The person brushed the wood by placing it flat on the table and smoothly dragging the brush across it with one hand.",
+        "The person brushed the wood by holding the brush with both hands and softly tapping it in place."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person brush the wood? Choose **only one** option from the following list.\nOptions:\n(A) The person brushed the wood by gripping the brush with both hands and pushing it forward in a continuous motion.\n(B) The person brushed the wood by holding it steady with one hand while moving the brush back and forth with the other hand.\n(C) The person brushed the wood by using one hand to hold the brush upright and making gentle circular motions on the surface.\n(D) The person brushed the wood by placing it flat on the table and smoothly dragging the brush across it with one hand.\n(E) The person brushed the wood by holding the brush with both hands and softly tapping it in place.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person brushed the wood by holding it steady with one hand while moving the brush back and forth with the other hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

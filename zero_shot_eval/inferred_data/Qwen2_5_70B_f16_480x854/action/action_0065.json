@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person uses a fork to scoop pieces from a sliced fruit while holding the fruit in her left hand.",
+        "The person scoops the inside of a sliced fruit with the spoon in her right hand.",
+        "The person is pouring juice from a bottle into a glass using her right hand while holding the fruit with her left hand.",
+        "The person is slicing a fruit with a knife in her right hand while keeping the fruit steady with her left hand.",
+        "The person is mixing fruit chunks in a bowl using her hands while holding a spoon in her right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person uses a fork to scoop pieces from a sliced fruit while holding the fruit in her left hand.\n(B) The person scoops the inside of a sliced fruit with the spoon in her right hand.\n(C) The person is pouring juice from a bottle into a glass using her right hand while holding the fruit with her left hand.\n(D) The person is slicing a fruit with a knife in her right hand while keeping the fruit steady with her left hand.\n(E) The person is mixing fruit chunks in a bowl using her hands while holding a spoon in her right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person scoops the inside of a sliced fruit with the spoon in her right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

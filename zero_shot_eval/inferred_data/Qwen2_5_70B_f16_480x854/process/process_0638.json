@@ -1,0 +1,17 @@
+{
+    "question": "How does the person light a burner of a gas stove with her hand?",
+    "options": [
+        "The person takes a lighter with her right hand, flicks it open, and carefully presses the button to create a flame before moving it toward the burner.",
+        "The person holds the matchbox steady in her left hand, strikes a matchstick with her right hand against the matchbox to ignite it, and carefully brings the lit matchstick toward the burner to light the gas flame.",
+        "The person uses her dominant hand to hold a matchstick horizontally and gently strikes it against a rough surface to spark it before moving it toward the burner.",
+        "The person picks up a candle with her left hand and gradually moves it closer to the burner to use the wick for lighting the gas flame.",
+        "The person holds a piece of paper in her right hand and lights it on fire carefully before bringing it closer to the burner."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person light a burner of a gas stove with her hand? Choose **only one** option from the following list.\nOptions:\n(A) The person takes a lighter with her right hand, flicks it open, and carefully presses the button to create a flame before moving it toward the burner.\n(B) The person holds the matchbox steady in her left hand, strikes a matchstick with her right hand against the matchbox to ignite it, and carefully brings the lit matchstick toward the burner to light the gas flame.\n(C) The person uses her dominant hand to hold a matchstick horizontally and gently strikes it against a rough surface to spark it before moving it toward the burner.\n(D) The person picks up a candle with her left hand and gradually moves it closer to the burner to use the wick for lighting the gas flame.\n(E) The person holds a piece of paper in her right hand and lights it on fire carefully before bringing it closer to the burner.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person uses her dominant hand to hold a matchstick horizontally and gently strikes it against a rough surface to spark it before moving it toward the burner."
+    },
+    "correct_idx": [
+        1
+    ]
+}

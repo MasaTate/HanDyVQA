@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the pack of drinks change?",
+    "options": [
+        "The pack of drinks was grabbed and moved to the left.",
+        "The pack of drinks was lifted and set back down in place.",
+        "The pack of drinks was grabbed and moved to the right.",
+        "The pack of drinks was grabbed and pushed forward.",
+        "The pack of drinks was turned in place."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the pack of drinks change? Choose **only one** option from the following list.\nOptions:\n(A) The pack of drinks was grabbed and moved to the left.\n(B) The pack of drinks was lifted and set back down in place.\n(C) The pack of drinks was grabbed and moved to the right.\n(D) The pack of drinks was grabbed and pushed forward.\n(E) The pack of drinks was turned in place.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The pack of drinks was grabbed and moved to the left."
+    },
+    "correct_idx": [
+        2
+    ]
+}

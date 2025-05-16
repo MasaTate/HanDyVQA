@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the comb change?",
+    "options": [
+        "The comb was broken in half, rendering it unusable and changing its functionality.",
+        "The comb was coated with a layer of varnish, altering its texture and appearance.",
+        "The comb was tangled in a mass of hair, which changed its shape and accessibility.",
+        "The comb was painted in bright colors, transforming its visual appeal but not its basic form.",
+        "The comb was cleaned and its surface was washed to remove dirt and debris."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the comb change? Choose **only one** option from the following list.\nOptions:\n(A) The comb was broken in half, rendering it unusable and changing its functionality.\n(B) The comb was coated with a layer of varnish, altering its texture and appearance.\n(C) The comb was tangled in a mass of hair, which changed its shape and accessibility.\n(D) The comb was painted in bright colors, transforming its visual appeal but not its basic form.\n(E) The comb was cleaned and its surface was washed to remove dirt and debris.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The comb was cleaned and its surface was washed to remove dirt and debris."
+    },
+    "correct_idx": [
+        4
+    ]
+}

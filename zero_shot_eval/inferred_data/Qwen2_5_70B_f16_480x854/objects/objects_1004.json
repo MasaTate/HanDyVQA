@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "stainer",
+        "bowl",
+        "vegetables",
+        "bottle of oil",
+        "cookbook",
+        "measuring spoon"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) stainer\n(B) bowl\n(C) vegetables\n(D) bottle of oil\n(E) cookbook\n(F) measuring spoon\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(D) bottle of oil  \n(F) measuring spoon  \n\nThe hands in the video use a bottle of oil to pour into a measuring spoon. The measuring spoon is then used to measure the oil before it is added to the dish being prepared."
+    },
+    "correct_idx": [
+        3,
+        5
+    ]
+}

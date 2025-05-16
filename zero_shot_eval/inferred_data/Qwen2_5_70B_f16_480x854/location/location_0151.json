@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the empty nylon?",
+    "options": [
+        "The person drops the empty nylon on the kitchen counter to the right.",
+        "The person drops the empty nylon on the dining table in the center.",
+        "The person drops the empty nylon on the floor next to the fridge.",
+        "The person drops the empty nylon on the kitchen stool beside the sink.",
+        "The person drops the empty nylon on the kitchen sink to the left."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the empty nylon? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the empty nylon on the kitchen counter to the right.\n(B) The person drops the empty nylon on the dining table in the center.\n(C) The person drops the empty nylon on the floor next to the fridge.\n(D) The person drops the empty nylon on the kitchen stool beside the sink.\n(E) The person drops the empty nylon on the kitchen sink to the left.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person drops the empty nylon on the kitchen sink to the left."
+    },
+    "correct_idx": [
+        4
+    ]
+}

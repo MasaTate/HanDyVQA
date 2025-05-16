@@ -1,0 +1,17 @@
+{
+    "question": "How does the person touch the phone?",
+    "options": [
+        "The person taps the phone firmly with the palm of their hand, creating a noticeable sound against the screen.",
+        "The person taps the phone gently with their left fingers, making a light, quick contact with the screen.",
+        "The person slides the phone smoothly across the table using their fingers, moving it away while maintaining a soft touch.",
+        "The person presses down slightly on the phone with their thumb, applying a steady touch different from a light tap.",
+        "The person holds the phone closely with both hands, making contact with dynamic interaction rather than a simple tap."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person touch the phone? Choose **only one** option from the following list.\nOptions:\n(A) The person taps the phone firmly with the palm of their hand, creating a noticeable sound against the screen.\n(B) The person taps the phone gently with their left fingers, making a light, quick contact with the screen.\n(C) The person slides the phone smoothly across the table using their fingers, moving it away while maintaining a soft touch.\n(D) The person presses down slightly on the phone with their thumb, applying a steady touch different from a light tap.\n(E) The person holds the phone closely with both hands, making contact with dynamic interaction rather than a simple tap.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person taps the phone gently with their left fingers, making a light, quick contact with the screen."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person pumps a pressure spray in a sink with his right hand while holding a metal piece in his left hand.",
+        "The person uses a pressure washer in the garden with his right hand while holding a hose in his left hand.",
+        "The person mixes a solution in a bowl with his right hand while holding a whisk in his left hand.",
+        "The person uses a spray bottle on a countertop with his right hand while grasping a sponge with his left hand.",
+        "The person pours liquid from a jug into a cup with his right hand while holding a metal piece in his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person pumps a pressure spray in a sink with his right hand while holding a metal piece in his left hand.\n(B) The person uses a pressure washer in the garden with his right hand while holding a hose in his left hand.\n(C) The person mixes a solution in a bowl with his right hand while holding a whisk in his left hand.\n(D) The person uses a spray bottle on a countertop with his right hand while grasping a sponge with his left hand.\n(E) The person pours liquid from a jug into a cup with his right hand while holding a metal piece in his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person pumps a pressure spray in a sink with his right hand while holding a metal piece in his left hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

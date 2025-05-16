@@ -1,0 +1,17 @@
+{
+    "question": "How does the person cut the chunks of the mango?",
+    "options": [
+        "The person grips the knife securely with both hands and gently brings it down onto the mango while keeping it steady.",
+        "The person holds the mango steady with his left hand and slides the knife from top to bottom with his right hand.",
+        "The person uses his left hand to hold the mango steady while slicing it with the knife in his right hand.",
+        "The person rotates the mango slightly in his left hand and makes a smooth motion with the knife in his right hand.",
+        "The person balances the mango on a flat surface and carefully tries to cut it while maintaining a steady position."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person cut the chunks of the mango? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the knife securely with both hands and gently brings it down onto the mango while keeping it steady.\n(B) The person holds the mango steady with his left hand and slides the knife from top to bottom with his right hand.\n(C) The person uses his left hand to hold the mango steady while slicing it with the knife in his right hand.\n(D) The person rotates the mango slightly in his left hand and makes a smooth motion with the knife in his right hand.\n(E) The person balances the mango on a flat surface and carefully tries to cut it while maintaining a steady position.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person uses his left hand to hold the mango steady while slicing it with the knife in his right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

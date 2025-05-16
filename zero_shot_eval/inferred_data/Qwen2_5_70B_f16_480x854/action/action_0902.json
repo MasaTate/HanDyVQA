@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person uses his right hand to search in the drawer for some parts of the faucet while his left hand supports the countertop.",
+        "The person uses his right hand to arrange tools in the toolbox while his left hand leans against the countertop.",
+        "The person uses his right hand to pull out a wrench from the cabinet while his left hand supports the edge of the sink.",
+        "The person uses his right hand to check in the sack for some parts of the sink while his left hand holds the counter edge.",
+        "The person uses his right hand to inspect the water pipe under the sink while his left hand holds the edge of the sink."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person uses his right hand to search in the drawer for some parts of the faucet while his left hand supports the countertop.\n(B) The person uses his right hand to arrange tools in the toolbox while his left hand leans against the countertop.\n(C) The person uses his right hand to pull out a wrench from the cabinet while his left hand supports the edge of the sink.\n(D) The person uses his right hand to check in the sack for some parts of the sink while his left hand holds the counter edge.\n(E) The person uses his right hand to inspect the water pipe under the sink while his left hand holds the edge of the sink.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person uses his right hand to check in the sack for some parts of the sink while his left hand holds the counter edge."
+    },
+    "correct_idx": [
+        3
+    ]
+}

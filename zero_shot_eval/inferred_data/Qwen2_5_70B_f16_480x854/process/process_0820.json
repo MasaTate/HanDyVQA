@@ -1,0 +1,17 @@
+{
+    "question": "How does the person stir the liquid?",
+    "options": [
+        "The person picks up a metal spoon and stirs the liquid slowly using the left hand in a circular motion.",
+        "The person grabs a plastic spoon and stirs the liquid quickly using the right hand in a forward and backward direction.",
+        "The person uses a fork to gently move the liquid with both hands in an up and down motion.",
+        "The person holds a wooden stick and swirls the liquid carefully using the right hand in a side-to-side direction.",
+        "The person takes a plastic spatula and mixes the liquid briskly with both hands in a figure-eight pattern."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person stir the liquid? Choose **only one** option from the following list.\nOptions:\n(A) The person picks up a metal spoon and stirs the liquid slowly using the left hand in a circular motion.\n(B) The person grabs a plastic spoon and stirs the liquid quickly using the right hand in a forward and backward direction.\n(C) The person uses a fork to gently move the liquid with both hands in an up and down motion.\n(D) The person holds a wooden stick and swirls the liquid carefully using the right hand in a side-to-side direction.\n(E) The person takes a plastic spatula and mixes the liquid briskly with both hands in a figure-eight pattern.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person holds a wooden stick and swirls the liquid carefully using the right hand in a side-to-side direction."
+    },
+    "correct_idx": [
+        1
+    ]
+}

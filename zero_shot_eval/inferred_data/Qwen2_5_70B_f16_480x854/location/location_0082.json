@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place his right hand?",
+    "options": [
+        "The person placed his right hand on the edge of the spatula.",
+        "The person placed his right hand on the top of the spatula.",
+        "The person placed his right hand on the bottom of the spatula.",
+        "The person placed his right hand on the middle of the spatula.",
+        "The person placed his right hand on the side of the spatula."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place his right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person placed his right hand on the edge of the spatula.\n(B) The person placed his right hand on the top of the spatula.\n(C) The person placed his right hand on the bottom of the spatula.\n(D) The person placed his right hand on the middle of the spatula.\n(E) The person placed his right hand on the side of the spatula.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person placed his right hand on the top of the spatula."
+    },
+    "correct_idx": [
+        3
+    ]
+}

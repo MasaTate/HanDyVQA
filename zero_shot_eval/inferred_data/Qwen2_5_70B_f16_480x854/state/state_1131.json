@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the phone change?",
+    "options": [
+        "The phone was tapped, changed to flashlight, and slightly moved to the right.",
+        "The phone was swiped, changed to camera, and slightly moved to the left.",
+        "The phone was pressed, changed to camera, and tilted forward slightly.",
+        "The phone was tapped, changed to video mode, and slightly moved to the left.",
+        "The phone was tapped, changed to camera, and slightly moved to the left."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the phone change? Choose **only one** option from the following list.\nOptions:\n(A) The phone was tapped, changed to flashlight, and slightly moved to the right.\n(B) The phone was swiped, changed to camera, and slightly moved to the left.\n(C) The phone was pressed, changed to camera, and tilted forward slightly.\n(D) The phone was tapped, changed to video mode, and slightly moved to the left.\n(E) The phone was tapped, changed to camera, and slightly moved to the left.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The phone was tapped, changed to camera, and slightly moved to the left."
+    },
+    "correct_idx": [
+        4
+    ]
+}

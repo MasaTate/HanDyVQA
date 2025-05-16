@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person scrubs the potato with a brush using both hands, moving the pot slightly to the left with her right hand while rinsing it under a faucet.",
+        "The person peels the potato with a knife in her right hand while holding the potato firmly in her left hand above a cutting board.",
+        "The person washes the potato with both hands using tap water, moving the handle of the pot to the right with the right hand.",
+        "The person chops a potato into pieces with a knife in her right hand while holding a bowl steady with her left hand to collect the pieces.",
+        "The person soaks the potato in a bowl of water using both hands while stirring the water gently with her right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person scrubs the potato with a brush using both hands, moving the pot slightly to the left with her right hand while rinsing it under a faucet.\n(B) The person peels the potato with a knife in her right hand while holding the potato firmly in her left hand above a cutting board.\n(C) The person washes the potato with both hands using tap water, moving the handle of the pot to the right with the right hand.\n(D) The person chops a potato into pieces with a knife in her right hand while holding a bowl steady with her left hand to collect the pieces.\n(E) The person soaks the potato in a bowl of water using both hands while stirring the water gently with her right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person washes the potato with both hands using tap water, moving the handle of the pot to the right with the right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

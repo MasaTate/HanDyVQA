@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the dough on the table change?",
+    "options": [
+        "The dough was stretched and left on the table.",
+        "The dough was kneaded into a round shape and remained upright.",
+        "The dough was rolled into a cylinder and left untouched.",
+        "The dough was flattened and flipped.",
+        "The dough was folded and not flattened again."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the dough on the table change? Choose **only one** option from the following list.\nOptions:\n(A) The dough was stretched and left on the table.\n(B) The dough was kneaded into a round shape and remained upright.\n(C) The dough was rolled into a cylinder and left untouched.\n(D) The dough was flattened and flipped.\n(E) The dough was folded and not flattened again.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The dough was flattened and flipped."
+    },
+    "correct_idx": [
+        3
+    ]
+}

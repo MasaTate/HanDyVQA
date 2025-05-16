@@ -1,0 +1,17 @@
+{
+    "question": "How does the person eat the scrambled eggs and beef?",
+    "options": [
+        "The person scoops up a portion using a fork held with care in their left hand and carefully brings it to their mouth for small, enjoyable bites.",
+        "The person uses a pair of chopsticks with a gentle grip in their right hand to pick up the eggs and beef, bringing them thoughtfully to their mouth.",
+        "The person eats the scrambled eggs and beef by firmly gripping the spoon in their right hand to scoop up portions. Then, with steady and deliberate movements, they lift it from the plate and guide it smoothly to their mouth for a satisfying bite.",
+        "The person tries to use a knife held in their left hand to cut and scoop the mixture, lifting it to their mouth with careful movements.",
+        "The person holds a spork in their right hand with their fingers slightly spread, bringing it to their mouth with a smooth, steady motion."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person eat the scrambled eggs and beef? Choose **only one** option from the following list.\nOptions:\n(A) The person scoops up a portion using a fork held with care in their left hand and carefully brings it to their mouth for small, enjoyable bites.\n(B) The person uses a pair of chopsticks with a gentle grip in their right hand to pick up the eggs and beef, bringing them thoughtfully to their mouth.\n(C) The person eats the scrambled eggs and beef by firmly gripping the spoon in their right hand to scoop up portions. Then, with steady and deliberate movements, they lift it from the plate and guide it smoothly to their mouth for a satisfying bite.\n(D) The person tries to use a knife held in their left hand to cut and scoop the mixture, lifting it to their mouth with careful movements.\n(E) The person holds a spork in their right hand with their fingers slightly spread, bringing it to their mouth with a smooth, steady motion.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person eats the scrambled eggs and beef by firmly gripping the spoon in their right hand to scoop up portions. Then, with steady and deliberate movements, they lift it from the plate and guide it smoothly to their mouth for a satisfying bite."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the welding helmet change?",
+    "options": [
+        "The welding helmet front was removed to improve visibility while working.",
+        "The welding helmet visor was darkened to protect the eyes from brighter light.",
+        "The welding helmet front was raised as it was opened.",
+        "The welding helmet strap was adjusted to fit more snugly around the user's head.",
+        "The welding helmet was replaced with a new model that offers enhanced protection features."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the welding helmet change? Choose **only one** option from the following list.\nOptions:\n(A) The welding helmet front was removed to improve visibility while working.\n(B) The welding helmet visor was darkened to protect the eyes from brighter light.\n(C) The welding helmet front was raised as it was opened.\n(D) The welding helmet strap was adjusted to fit more snugly around the user's head.\n(E) The welding helmet was replaced with a new model that offers enhanced protection features.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The welding helmet front was raised as it was opened."
+    },
+    "correct_idx": [
+        2
+    ]
+}

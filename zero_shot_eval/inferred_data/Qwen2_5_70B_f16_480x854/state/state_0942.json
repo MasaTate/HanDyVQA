@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the wrench change?",
+    "options": [
+        "The wrench was lifted up and rotated slightly clockwise.",
+        "The wrench was lifted up and rotated slightly counter-clockwise.",
+        "The wrench was lifted up and remained in its original orientation.",
+        "The wrench was lifted up and rotated slightly counter-clockwise.",
+        "The wrench was lifted up but was not rotated."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the wrench change? Choose **only one** option from the following list.\nOptions:\n(A) The wrench was lifted up and rotated slightly clockwise.\n(B) The wrench was lifted up and rotated slightly counter-clockwise.\n(C) The wrench was lifted up and remained in its original orientation.\n(D) The wrench was lifted up and rotated slightly counter-clockwise.\n(E) The wrench was lifted up but was not rotated.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The wrench was lifted up and rotated slightly clockwise."
+    },
+    "correct_idx": [
+        0
+    ]
+}

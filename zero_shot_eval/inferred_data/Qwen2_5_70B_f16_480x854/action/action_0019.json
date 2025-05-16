@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person adjusts the chair with both hands, takes a small piece of fabric with his right hand, places it back on the cushion, and then reaches for the stapler.",
+        "The person shifts the bookshelf with both hands, picks up a small book with his right hand, places it back on the shelf, and then picks up the remote control.",
+        "The person repositions the table with both hands, picks up a small piece of wood with his right hand, places it back on the table, and then picks up the tape measure.",
+        "The person rearranges the rug with both hands, picks up a small piece of cardboard with his right hand, places it on the floor, and then reaches for the glue bottle.",
+        "The person moves the desk with both hands, takes a small piece of paper with his right hand, puts it in the trash, and then takes a pen."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person adjusts the chair with both hands, takes a small piece of fabric with his right hand, places it back on the cushion, and then reaches for the stapler.\n(B) The person shifts the bookshelf with both hands, picks up a small book with his right hand, places it back on the shelf, and then picks up the remote control.\n(C) The person repositions the table with both hands, picks up a small piece of wood with his right hand, places it back on the table, and then picks up the tape measure.\n(D) The person rearranges the rug with both hands, picks up a small piece of cardboard with his right hand, places it on the floor, and then reaches for the glue bottle.\n(E) The person moves the desk with both hands, takes a small piece of paper with his right hand, puts it in the trash, and then takes a pen.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person repositions the table with both hands, picks up a small piece of wood with his right hand, places it back on the table, and then picks up the tape measure."
+    },
+    "correct_idx": [
+        2
+    ]
+}

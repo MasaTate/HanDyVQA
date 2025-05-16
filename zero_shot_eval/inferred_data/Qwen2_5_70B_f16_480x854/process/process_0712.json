@@ -1,0 +1,17 @@
+{
+    "question": "How does the person swipe her left hand?",
+    "options": [
+        "The person drags her fingertips slowly across the surface of the piece of cloth.",
+        "The person uses her fingers to press down gently on the piece of cloth.",
+        "The person shifts her left hand slightly to the side without touching the cloth.",
+        "The person quickly swipes the fingertips of her left hand over the piece of cloth upward.",
+        "The person waves her left hand gently in the air above the piece of cloth."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person swipe her left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person drags her fingertips slowly across the surface of the piece of cloth.\n(B) The person uses her fingers to press down gently on the piece of cloth.\n(C) The person shifts her left hand slightly to the side without touching the cloth.\n(D) The person quickly swipes the fingertips of her left hand over the piece of cloth upward.\n(E) The person waves her left hand gently in the air above the piece of cloth.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person quickly swipes the fingertips of her left hand over the piece of cloth upward."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the phone change?",
+    "options": [
+        "The phone battery was detached, resulting in the device becoming inactive.",
+        "The phone case was attached, leading to a modification in its appearance and protection.",
+        "The phone was impacted from a height, resulting in fractures appearing on the screen.",
+        "The phone was restored to factory settings, causing all saved data to be erased.",
+        "The phone screen was scrolled, causing a change in display as the content moved."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the phone change? Choose **only one** option from the following list.\nOptions:\n(A) The phone battery was detached, resulting in the device becoming inactive.\n(B) The phone case was attached, leading to a modification in its appearance and protection.\n(C) The phone was impacted from a height, resulting in fractures appearing on the screen.\n(D) The phone was restored to factory settings, causing all saved data to be erased.\n(E) The phone screen was scrolled, causing a change in display as the content moved.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The phone screen was scrolled, causing a change in display as the content moved."
+    },
+    "correct_idx": [
+        4
+    ]
+}

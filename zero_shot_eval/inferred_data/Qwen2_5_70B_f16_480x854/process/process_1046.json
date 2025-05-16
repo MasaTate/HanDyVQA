@@ -1,0 +1,17 @@
+{
+    "question": "How does the person toss a card on the table?",
+    "options": [
+        "The person flicks the card upwards into the air with a swift motion using her/his left hand.",
+        "The person releases the card from a height, letting it fall straight down onto the table without much control.",
+        "The person slides the cards across the table using her/his right hand.",
+        "The person holds the card firmly with both hands and moves it forward in a quick motion.",
+        "The person gently taps the card on the side with her/his finger, allowing it to slip off the edge of the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person toss a card on the table? Choose **only one** option from the following list.\nOptions:\n(A) The person flicks the card upwards into the air with a swift motion using her/his left hand.\n(B) The person releases the card from a height, letting it fall straight down onto the table without much control.\n(C) The person slides the cards across the table using her/his right hand.\n(D) The person holds the card firmly with both hands and moves it forward in a quick motion.\n(E) The person gently taps the card on the side with her/his finger, allowing it to slip off the edge of the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person slides the cards across the table using her/his right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

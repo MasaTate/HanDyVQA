@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the dough mixer safety guard change?",
+    "options": [
+        "The dough mixer safety guard was initially closed, lifted or opened by the person to check the dough, and then returned to its closed position afterward.",
+        "The dough mixer safety guard remained closed throughout the mixing process, without being opened by the person at any point.",
+        "The dough mixer safety guard was kept constantly open during the mixing process, allowing the person to access the dough easily.",
+        "The dough mixer safety guard was completely removed by the person while the mixer was operating for better visibility.",
+        "The dough mixer safety guard was adjusted to stay half-open, permitting some airflow while not being entirely closed or opened."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the dough mixer safety guard change? Choose **only one** option from the following list.\nOptions:\n(A) The dough mixer safety guard was initially closed, lifted or opened by the person to check the dough, and then returned to its closed position afterward.\n(B) The dough mixer safety guard remained closed throughout the mixing process, without being opened by the person at any point.\n(C) The dough mixer safety guard was kept constantly open during the mixing process, allowing the person to access the dough easily.\n(D) The dough mixer safety guard was completely removed by the person while the mixer was operating for better visibility.\n(E) The dough mixer safety guard was adjusted to stay half-open, permitting some airflow while not being entirely closed or opened.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The dough mixer safety guard was initially closed, lifted or opened by the person to check the dough, and then returned to its closed position afterward."
+    },
+    "correct_idx": [
+        0
+    ]
+}

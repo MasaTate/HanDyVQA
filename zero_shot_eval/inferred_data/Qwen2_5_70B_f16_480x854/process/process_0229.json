@@ -1,0 +1,17 @@
+{
+    "question": "How does the person switch the chopsticks?",
+    "options": [
+        "The person lifts the chopsticks with his left hand near the bottom, gently adjusting his grip as he slides his right hand underneath for a proper switch.",
+        "The person holds the chopsticks with both hands, adjusting his grip carefully and managing to pull them apart smoothly.",
+        "The person grabs the chopsticks with his left hand near the top, then brings in his right hand underneath, smoothly transferring the chopsticks to his right hand and adjusting his grip for use.",
+        "The person carefully places the chopsticks on the table with his right hand, then picks them up with his left hand, making a slightly awkward but effective switch.",
+        "The person grabs the chopsticks with his left hand, briefly holds them with both hands before transferring them to his right hand for use."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person switch the chopsticks? Choose **only one** option from the following list.\nOptions:\n(A) The person lifts the chopsticks with his left hand near the bottom, gently adjusting his grip as he slides his right hand underneath for a proper switch.\n(B) The person holds the chopsticks with both hands, adjusting his grip carefully and managing to pull them apart smoothly.\n(C) The person grabs the chopsticks with his left hand near the top, then brings in his right hand underneath, smoothly transferring the chopsticks to his right hand and adjusting his grip for use.\n(D) The person carefully places the chopsticks on the table with his right hand, then picks them up with his left hand, making a slightly awkward but effective switch.\n(E) The person grabs the chopsticks with his left hand, briefly holds them with both hands before transferring them to his right hand for use.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person grabs the chopsticks with his left hand near the top, then brings in his right hand underneath, smoothly transferring the chopsticks to his right hand and adjusting his grip for use."
+    },
+    "correct_idx": [
+        2
+    ]
+}

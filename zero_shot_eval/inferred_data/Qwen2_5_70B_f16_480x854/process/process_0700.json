@@ -1,0 +1,17 @@
+{
+    "question": "How does the person lift the basket?",
+    "options": [
+        "The person uses both hands to hold the basket from the sides and lifts it upward with their arms.",
+        "The person supports the basket with one hand underneath while using the other hand to gently guide it from the top.",
+        "The person brings the basket up with one hand in a quick, sweeping motion.",
+        "The person drapes their fingers around the handle and gently raises the basket at a slight angle.",
+        "The person lifts the basket slowly by pulling it upward using the left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person lift the basket? Choose **only one** option from the following list.\nOptions:\n(A) The person uses both hands to hold the basket from the sides and lifts it upward with their arms.\n(B) The person supports the basket with one hand underneath while using the other hand to gently guide it from the top.\n(C) The person brings the basket up with one hand in a quick, sweeping motion.\n(D) The person drapes their fingers around the handle and gently raises the basket at a slight angle.\n(E) The person lifts the basket slowly by pulling it upward using the left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person lifts the basket slowly by pulling it upward using the left hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the wooden rod?",
+    "options": [
+        "The person places the wooden rod against the wall.",
+        "The person places the wooden rod on the floor near the door.",
+        "The person places the wooden rod under the table next to the chair.",
+        "The person places the wooden rod on the shelf beside the window.",
+        "The person places the wooden rod leaning against the bookshelf."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the wooden rod? Choose **only one** option from the following list.\nOptions:\n(A) The person places the wooden rod against the wall.\n(B) The person places the wooden rod on the floor near the door.\n(C) The person places the wooden rod under the table next to the chair.\n(D) The person places the wooden rod on the shelf beside the window.\n(E) The person places the wooden rod leaning against the bookshelf.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person places the wooden rod against the wall."
+    },
+    "correct_idx": [
+        0
+    ]
+}

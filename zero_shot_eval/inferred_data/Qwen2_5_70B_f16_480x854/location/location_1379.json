@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the blade into the container?",
+    "options": [
+        "The person places the blade in the back part of the container.",
+        "The person places the blade in the left side of the container.",
+        "The person places the blade on the right edge of the container.",
+        "The person places the blade at the top of the container.",
+        "The person places the blade in the front part of the container.."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the blade into the container? Choose **only one** option from the following list.\nOptions:\n(A) The person places the blade in the back part of the container.\n(B) The person places the blade in the left side of the container.\n(C) The person places the blade on the right edge of the container.\n(D) The person places the blade at the top of the container.\n(E) The person places the blade in the front part of the container..\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person places the blade in the back part of the container."
+    },
+    "correct_idx": [
+        4
+    ]
+}

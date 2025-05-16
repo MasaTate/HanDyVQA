@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move a sachet of salt?",
+    "options": [
+        "The person moves the sachet of salt on the edge of the countertop next to the blender.",
+        "The person moves the sachet of salt in the center of the table in front of the stove.",
+        "The person moves the sachet of salt in the corner of the countertop behind the hose.",
+        "The person moves the sachet of salt on the shelf above the microwave.",
+        "The person moves the sachet of salt to the side of the countertop beside the toaster."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move a sachet of salt? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the sachet of salt on the edge of the countertop next to the blender.\n(B) The person moves the sachet of salt in the center of the table in front of the stove.\n(C) The person moves the sachet of salt in the corner of the countertop behind the hose.\n(D) The person moves the sachet of salt on the shelf above the microwave.\n(E) The person moves the sachet of salt to the side of the countertop beside the toaster.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person moves the sachet of salt in the center of the table in front of the stove."
+    },
+    "correct_idx": [
+        2
+    ]
+}

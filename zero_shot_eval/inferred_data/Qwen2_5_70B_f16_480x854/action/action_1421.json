@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person uses both hands to split the dried branch of the plant into two, then uses a pruning knife with the right hand while holding another branch with the left hand.",
+        "The person uses both hands to cut through the dried branch of the plant with a saw in the right hand while stabilizing the branch with the left hand.",
+        "The person grips the dried branch of the plant with both hands while using a pair of scissors in the right hand to trim the ends of the branch.",
+        "The person holds the dried branch of the plant in the left hand while using pruning shears in the right hand to clip off a section of it.",
+        "The person lifts the dried branch of the plant with the left hand while applying pressure with a hammer in the right hand to break the branch."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person uses both hands to split the dried branch of the plant into two, then uses a pruning knife with the right hand while holding another branch with the left hand.\n(B) The person uses both hands to cut through the dried branch of the plant with a saw in the right hand while stabilizing the branch with the left hand.\n(C) The person grips the dried branch of the plant with both hands while using a pair of scissors in the right hand to trim the ends of the branch.\n(D) The person holds the dried branch of the plant in the left hand while using pruning shears in the right hand to clip off a section of it.\n(E) The person lifts the dried branch of the plant with the left hand while applying pressure with a hammer in the right hand to break the branch.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person uses both hands to split the dried branch of the plant into two, then uses a pruning knife with the right hand while holding another branch with the left hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

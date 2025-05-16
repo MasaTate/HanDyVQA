@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the ladder change?",
+    "options": [
+        "The ladder was rotated and set upright on the floor, opening its legs.",
+        "The ladder was set upright but its legs were folded instead of opened.",
+        "The ladder was rotated and laid flat on the floor with its legs folded.",
+        "The ladder was rotated and set upright, but the legs were only partially opened.",
+        "The ladder was partially rotated and leaned against the wall with its legs not fully opened."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the ladder change? Choose **only one** option from the following list.\nOptions:\n(A) The ladder was rotated and set upright on the floor, opening its legs.\n(B) The ladder was set upright but its legs were folded instead of opened.\n(C) The ladder was rotated and laid flat on the floor with its legs folded.\n(D) The ladder was rotated and set upright, but the legs were only partially opened.\n(E) The ladder was partially rotated and leaned against the wall with its legs not fully opened.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The ladder was rotated and set upright on the floor, opening its legs."
+    },
+    "correct_idx": [
+        0
+    ]
+}

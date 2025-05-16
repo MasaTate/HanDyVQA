@@ -1,0 +1,17 @@
+{
+    "question": "How does the person stand the table coaster arc?",
+    "options": [
+        "The person grips the table coaster arc with both hands, tilts it slightly sideways, and places it down on the table, noticing it is a bit unsteady.",
+        "The person picks up the table coaster arc with the left hand, positions it on the table, where it lands but does not stand upright.",
+        "The person tries to balance the table coaster arc on the edge of the table using the fingertips of the right hand, expecting it to remain upright.",
+        "The person sets the table coaster arc down on the table, allowing it to slide gently to an angled position.",
+        "The person holds the table coaster arc with his right hand, positions it upright, and gently places it on the table, ensuring it stands steadily."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person stand the table coaster arc? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the table coaster arc with both hands, tilts it slightly sideways, and places it down on the table, noticing it is a bit unsteady.\n(B) The person picks up the table coaster arc with the left hand, positions it on the table, where it lands but does not stand upright.\n(C) The person tries to balance the table coaster arc on the edge of the table using the fingertips of the right hand, expecting it to remain upright.\n(D) The person sets the table coaster arc down on the table, allowing it to slide gently to an angled position.\n(E) The person holds the table coaster arc with his right hand, positions it upright, and gently places it on the table, ensuring it stands steadily.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person holds the table coaster arc with his right hand, positions it upright, and gently places it on the table, ensuring it stands steadily."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person checks the food sauce with her right hand while her left hand holds and shakes a seasoning bottle above the pot.",
+        "The person samples the food sauce with her right hand while stirring the pot with a whisk in her left hand.",
+        "The person pours the food sauce into a bowl with her right hand while using her left hand to mix the contents of the pot with a spatula.",
+        "The person tastes the food sauce with her left hand while her right hand holds and stirs the pot with a spoon.",
+        "The person slathers the food sauce onto a plate with her left hand while her right hand holds a ladle in the pot."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person checks the food sauce with her right hand while her left hand holds and shakes a seasoning bottle above the pot.\n(B) The person samples the food sauce with her right hand while stirring the pot with a whisk in her left hand.\n(C) The person pours the food sauce into a bowl with her right hand while using her left hand to mix the contents of the pot with a spatula.\n(D) The person tastes the food sauce with her left hand while her right hand holds and stirs the pot with a spoon.\n(E) The person slathers the food sauce onto a plate with her left hand while her right hand holds a ladle in the pot.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person checks the food sauce with her right hand while her left hand holds and shakes a seasoning bottle above the pot."
+    },
+    "correct_idx": [
+        3
+    ]
+}

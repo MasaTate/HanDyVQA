@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the chopsticks?",
+    "options": [
+        "The person drops the chopsticks onto the countertop beside the sink.",
+        "The person drops the chopsticks onto the table across from the stove.",
+        "The person drops the chopsticks onto the floor in front of the stove.",
+        "The person drops the chopsticks onto the tray that is beside the cutting board.",
+        "The person drops the chopsticks onto the cutting board next to the stove."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the chopsticks? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the chopsticks onto the countertop beside the sink.\n(B) The person drops the chopsticks onto the table across from the stove.\n(C) The person drops the chopsticks onto the floor in front of the stove.\n(D) The person drops the chopsticks onto the tray that is beside the cutting board.\n(E) The person drops the chopsticks onto the cutting board next to the stove.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person drops the chopsticks onto the cutting board next to the stove."
+    },
+    "correct_idx": [
+        4
+    ]
+}

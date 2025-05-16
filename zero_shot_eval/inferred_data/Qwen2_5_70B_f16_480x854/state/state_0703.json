@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the tank change?",
+    "options": [
+        "The tank was tilted to the side briefly before returning to its original position.",
+        "The tank was filled with water for a short time before being emptied again.",
+        "The tank was rotated in a circular motion for several seconds before stopping.",
+        "The tank was elevated for a few moments before descending back down.",
+        "The tank was moved forward slightly before being pulled back into place."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the tank change? Choose **only one** option from the following list.\nOptions:\n(A) The tank was tilted to the side briefly before returning to its original position.\n(B) The tank was filled with water for a short time before being emptied again.\n(C) The tank was rotated in a circular motion for several seconds before stopping.\n(D) The tank was elevated for a few moments before descending back down.\n(E) The tank was moved forward slightly before being pulled back into place.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The tank was elevated for a few moments before descending back down."
+    },
+    "correct_idx": [
+        3
+    ]
+}

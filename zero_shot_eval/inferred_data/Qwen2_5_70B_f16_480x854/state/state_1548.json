@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the bucket change?",
+    "options": [
+        "The bucket was lifted off the ground and slightly moved to the right, altering its position.",
+        "The bucket was pushed along the ground and slightly moved to the left, altering its position.",
+        "The bucket was tilted to the side while being lifted, slightly changing its position.",
+        "The bucket was lifted off the ground, rotated slightly, and put back down in the same spot.",
+        "The bucket was lifted off the ground and slightly moved to the left, altering its position."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the bucket change? Choose **only one** option from the following list.\nOptions:\n(A) The bucket was lifted off the ground and slightly moved to the right, altering its position.\n(B) The bucket was pushed along the ground and slightly moved to the left, altering its position.\n(C) The bucket was tilted to the side while being lifted, slightly changing its position.\n(D) The bucket was lifted off the ground, rotated slightly, and put back down in the same spot.\n(E) The bucket was lifted off the ground and slightly moved to the left, altering its position.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The bucket was lifted off the ground and slightly moved to the right, altering its position."
+    },
+    "correct_idx": [
+        4
+    ]
+}

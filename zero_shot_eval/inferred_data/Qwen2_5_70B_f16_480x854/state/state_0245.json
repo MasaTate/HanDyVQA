@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the bead into the thread change?",
+    "options": [
+        "The bead was threaded onto the string.",
+        "The bead was initially threaded onto the string but then slid off.",
+        "The bead was threaded onto a thicker part of the string's end.",
+        "The bead was placed next to the string but was not threaded.",
+        "The bead was threaded onto a different piece of string."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the bead into the thread change? Choose **only one** option from the following list.\nOptions:\n(A) The bead was threaded onto the string.\n(B) The bead was initially threaded onto the string but then slid off.\n(C) The bead was threaded onto a thicker part of the string's end.\n(D) The bead was placed next to the string but was not threaded.\n(E) The bead was threaded onto a different piece of string.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The bead was threaded onto the string."
+    },
+    "correct_idx": [
+        0
+    ]
+}

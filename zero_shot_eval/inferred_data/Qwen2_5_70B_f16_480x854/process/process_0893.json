@@ -1,0 +1,17 @@
+{
+    "question": "How does the person roll the knitting yarn?",
+    "options": [
+        "The person pushes the knitting yarn forward with the fingertips of the right hand while the left hand stabilizes it gently underneath.",
+        "The person uses a hook to grab, twist, rotate, and pull the knitting yarn with the right hand, supported by the left hand.",
+        "The person lifts the knitting yarn with the fingertips of both hands and sets it onto a flat surface without twisting it.",
+        "The person uses both hands to gently compress the knitting yarn before allowing it to slide smoothly off their fingers.",
+        "The person holds the knitting yarn between the fingers of the left hand and guides it across the table with the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person roll the knitting yarn? Choose **only one** option from the following list.\nOptions:\n(A) The person pushes the knitting yarn forward with the fingertips of the right hand while the left hand stabilizes it gently underneath.\n(B) The person uses a hook to grab, twist, rotate, and pull the knitting yarn with the right hand, supported by the left hand.\n(C) The person lifts the knitting yarn with the fingertips of both hands and sets it onto a flat surface without twisting it.\n(D) The person uses both hands to gently compress the knitting yarn before allowing it to slide smoothly off their fingers.\n(E) The person holds the knitting yarn between the fingers of the left hand and guides it across the table with the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person uses a hook to grab, twist, rotate, and pull the knitting yarn with the right hand, supported by the left hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

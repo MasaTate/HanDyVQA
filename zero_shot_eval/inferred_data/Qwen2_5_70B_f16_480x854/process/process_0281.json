@@ -1,0 +1,17 @@
+{
+    "question": "How does the person raise the pipe?",
+    "options": [
+        "The person pinches the pipe between her fingers and raises her arm quickly, making the pipe move unpredictably as she lifts it.",
+        "The person uses both hands to move the pipe downward, creating uncertainty about the intended action.",
+        "The person moves the pipe on the ground using one hand, pulling it closer rather than lifting it up.",
+        "The person rests the pipe on her shoulder and lifts her shoulders, leading to only a slight increase in height.",
+        "The person grips the pipe with her left hand, holding it securely, and lifts the pipe by raising her arm upwards in a steady and controlled motion to the desired height."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person raise the pipe? Choose **only one** option from the following list.\nOptions:\n(A) The person pinches the pipe between her fingers and raises her arm quickly, making the pipe move unpredictably as she lifts it.\n(B) The person uses both hands to move the pipe downward, creating uncertainty about the intended action.\n(C) The person moves the pipe on the ground using one hand, pulling it closer rather than lifting it up.\n(D) The person rests the pipe on her shoulder and lifts her shoulders, leading to only a slight increase in height.\n(E) The person grips the pipe with her left hand, holding it securely, and lifts the pipe by raising her arm upwards in a steady and controlled motion to the desired height.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person grips the pipe with her left hand, holding it securely, and lifts the pipe by raising her arm upwards in a steady and controlled motion to the desired height."
+    },
+    "correct_idx": [
+        4
+    ]
+}

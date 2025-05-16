@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person sprinkles the rice onto the plate with her right hand.",
+        "The person stirs the rice in the pot with her right hand.",
+        "The person scoops the rice out of the pot with her right hand.",
+        "The person pours the rice into the pot with her right hand.",
+        "The person shakes the bag of rice with her right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person sprinkles the rice onto the plate with her right hand.\n(B) The person stirs the rice in the pot with her right hand.\n(C) The person scoops the rice out of the pot with her right hand.\n(D) The person pours the rice into the pot with her right hand.\n(E) The person shakes the bag of rice with her right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person pours the rice into the pot with her right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

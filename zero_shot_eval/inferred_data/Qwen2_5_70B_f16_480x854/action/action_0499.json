@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person moves some books on the shelf towards the left with her left hand while holding a book in her right hand.",
+        "The person places some magazines on the shelf to the left with her left hand while holding a book in her right hand.",
+        "The person is pushing some books on the shelf to the left with her left hand while lifting a book in her right hand.",
+        "The person is arranging some books on the shelf to the left with her left hand while balancing a book in her right hand.",
+        "The person pulls a book from the shelf with her left hand while holding a different book in her right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person moves some books on the shelf towards the left with her left hand while holding a book in her right hand.\n(B) The person places some magazines on the shelf to the left with her left hand while holding a book in her right hand.\n(C) The person is pushing some books on the shelf to the left with her left hand while lifting a book in her right hand.\n(D) The person is arranging some books on the shelf to the left with her left hand while balancing a book in her right hand.\n(E) The person pulls a book from the shelf with her left hand while holding a different book in her right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person is pushing some books on the shelf to the left with her left hand while lifting a book in her right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

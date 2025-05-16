@@ -1,0 +1,17 @@
+{
+    "question": "How does the person place the knife?",
+    "options": [
+        "The person sets the knife down on the countertop, using a light flick of their wrist from their right hand with a gentle grip.",
+        "The person moves the knife across the countertop with their palm, guiding it smoothly with their right hand without gripping it.",
+        "The person places the knife by gripping it by the blade between their thumb and index finger of the right hand, then carefully positions the knife into the slot of the wood knife block holder on the kitchen sink countertop.",
+        "The person holds the knife by the handle with their fingers comfortably on their right hand and places it into the drawer with a casual motion.",
+        "The person grips the knife firmly with their whole hand and lowers it down confidently onto the countertop while not aiming for the knife block."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person place the knife? Choose **only one** option from the following list.\nOptions:\n(A) The person sets the knife down on the countertop, using a light flick of their wrist from their right hand with a gentle grip.\n(B) The person moves the knife across the countertop with their palm, guiding it smoothly with their right hand without gripping it.\n(C) The person places the knife by gripping it by the blade between their thumb and index finger of the right hand, then carefully positions the knife into the slot of the wood knife block holder on the kitchen sink countertop.\n(D) The person holds the knife by the handle with their fingers comfortably on their right hand and places it into the drawer with a casual motion.\n(E) The person grips the knife firmly with their whole hand and lowers it down confidently onto the countertop while not aiming for the knife block.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person places the knife by gripping it by the blade between their thumb and index finger of the right hand, then carefully positions the knife into the slot of the wood knife block holder on the kitchen sink countertop."
+    },
+    "correct_idx": [
+        2
+    ]
+}

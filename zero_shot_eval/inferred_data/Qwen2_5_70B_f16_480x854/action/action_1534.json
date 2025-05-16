@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is holding the lubricant bottle with one hand while pouring it into a container with the other hand.",
+        "The person is gripping the lubricant tube with both hands while squeezing it to dispense the contents.",
+        "The person is lifting the lubricant bottle with both hands.",
+        "The person is setting down the lubricant bottle onto the table using one hand while the other reaches for a rag.",
+        "The person is shaking the lubricant bottle with both hands to mix the contents before using it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is holding the lubricant bottle with one hand while pouring it into a container with the other hand.\n(B) The person is gripping the lubricant tube with both hands while squeezing it to dispense the contents.\n(C) The person is lifting the lubricant bottle with both hands.\n(D) The person is setting down the lubricant bottle onto the table using one hand while the other reaches for a rag.\n(E) The person is shaking the lubricant bottle with both hands to mix the contents before using it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person is shaking the lubricant bottle with both hands to mix the contents before using it."
+    },
+    "correct_idx": [
+        2
+    ]
+}

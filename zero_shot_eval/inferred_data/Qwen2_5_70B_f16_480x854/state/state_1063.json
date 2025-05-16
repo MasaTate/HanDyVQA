@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the soap container change?",
+    "options": [
+        "The soap container was flipped upside down, causing its contents to spill out.",
+        "The soap container was shaken, leading to the movement of its liquid inside.",
+        "The soap container was placed on its side, changing its orientation on the surface.",
+        "The soap container was sealed, altering the accessibility of its contents.",
+        "The soap container was elevated, resulting in a change in its position."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the soap container change? Choose **only one** option from the following list.\nOptions:\n(A) The soap container was flipped upside down, causing its contents to spill out.\n(B) The soap container was shaken, leading to the movement of its liquid inside.\n(C) The soap container was placed on its side, changing its orientation on the surface.\n(D) The soap container was sealed, altering the accessibility of its contents.\n(E) The soap container was elevated, resulting in a change in its position.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The soap container was elevated, resulting in a change in its position."
+    },
+    "correct_idx": [
+        4
+    ]
+}

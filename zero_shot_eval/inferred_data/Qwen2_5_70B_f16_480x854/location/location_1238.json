@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the thread?",
+    "options": [
+        "The person drops the thread at the left side of the table.",
+        "The person drop the thread at the right side of the table.",
+        "The person drops the thread at the center of the table.",
+        "The person drops the thread at the right corner of the table.",
+        "The person drops the thread at the back of the chair."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the thread? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the thread at the left side of the table.\n(B) The person drop the thread at the right side of the table.\n(C) The person drops the thread at the center of the table.\n(D) The person drops the thread at the right corner of the table.\n(E) The person drops the thread at the back of the chair.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person drop the thread at the right side of the table."
+    },
+    "correct_idx": [
+        1
+    ]
+}

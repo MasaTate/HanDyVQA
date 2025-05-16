@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The left hand is placing the shoes on a shelf while the right hand is near a box next to the shoes.",
+        "The left hand is holding the shoes and the right hand is touching the shoes.",
+        "The left hand is tying the shoelaces while the right hand is holding some socks.",
+        "The left hand is lifting the shoes off the floor while the right hand is gesturing at the shoes.",
+        "The left hand is holding a shoe cleaner and the right hand is cleaning the shoes."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The left hand is placing the shoes on a shelf while the right hand is near a box next to the shoes.\n(B) The left hand is holding the shoes and the right hand is touching the shoes.\n(C) The left hand is tying the shoelaces while the right hand is holding some socks.\n(D) The left hand is lifting the shoes off the floor while the right hand is gesturing at the shoes.\n(E) The left hand is holding a shoe cleaner and the right hand is cleaning the shoes.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The left hand is holding the shoes and the right hand is touching the shoes."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the lid of the bottle change?",
+    "options": [
+        "The bottle lid was opened and tilted to the left without pouring the liquid inside.",
+        "The bottle lid remained closed but was twisted slightly to the right.",
+        "The bottle lid was opened and tilted to the right to pour the liquid inside.",
+        "The bottle lid was opened and tilted vertically without any liquid being poured.",
+        "The bottle lid was opened and tilted to the right but no liquid was poured."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the lid of the bottle change? Choose **only one** option from the following list.\nOptions:\n(A) The bottle lid was opened and tilted to the left without pouring the liquid inside.\n(B) The bottle lid remained closed but was twisted slightly to the right.\n(C) The bottle lid was opened and tilted to the right to pour the liquid inside.\n(D) The bottle lid was opened and tilted vertically without any liquid being poured.\n(E) The bottle lid was opened and tilted to the right but no liquid was poured.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The bottle lid was opened and tilted to the right to pour the liquid inside."
+    },
+    "correct_idx": [
+        2
+    ]
+}

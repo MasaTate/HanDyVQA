@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of air pump change?",
+    "options": [
+        "The nozzle of the air pump was inserted into the tire valve but was being pushed further in.",
+        "The nozzle of the air pump was inserted shallowly into the bicycle frame but was twisted further.",
+        "The nozzle of the air pump was inserted deeply into the handle of the bicycle but was being pulled out again.",
+        "The nozzle of the air pump was inserted into the bicycle but was being secured more tightly.",
+        "The nozzle of the air pump was being adjusted for a tight fit into the bicycle handle but was experiencing a leak."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of air pump change? Choose **only one** option from the following list.\nOptions:\n(A) The nozzle of the air pump was inserted into the tire valve but was being pushed further in.\n(B) The nozzle of the air pump was inserted shallowly into the bicycle frame but was twisted further.\n(C) The nozzle of the air pump was inserted deeply into the handle of the bicycle but was being pulled out again.\n(D) The nozzle of the air pump was inserted into the bicycle but was being secured more tightly.\n(E) The nozzle of the air pump was being adjusted for a tight fit into the bicycle handle but was experiencing a leak.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The nozzle of the air pump was inserted into the bicycle but was being secured more tightly."
+    },
+    "correct_idx": [
+        2
+    ]
+}

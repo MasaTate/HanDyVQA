@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The individual balances the notepad in their left hand while turning the pen in their right hand.",
+        "The person focuses on the sketchbook in his left hand while twirling the marker in his right hand.",
+        "The person measures the wood by stretching the tape measure on it using both hands while his right hand is holding a pencil and he uses it to draw a line.",
+        "The person rests his left hand on the table while rotating the highlighter in his right hand.",
+        "The individual supports a blank sheet of paper with their left hand while spinning the crayon in their right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The individual balances the notepad in their left hand while turning the pen in their right hand.\n(B) The person focuses on the sketchbook in his left hand while twirling the marker in his right hand.\n(C) The person measures the wood by stretching the tape measure on it using both hands while his right hand is holding a pencil and he uses it to draw a line.\n(D) The person rests his left hand on the table while rotating the highlighter in his right hand.\n(E) The individual supports a blank sheet of paper with their left hand while spinning the crayon in their right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person measures the wood by stretching the tape measure on it using both hands while his right hand is holding a pencil and he uses it to draw a line."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the cup?",
+    "options": [
+        "The person places the cup beside the bookshelf.",
+        "The person places the cup on the desk next to the lamp.",
+        "The person places the cup on the table near the computer.",
+        "The person places the cup at the edge of the kitchen counter.",
+        "The person places the cup under the window on the sill."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the cup? Choose **only one** option from the following list.\nOptions:\n(A) The person places the cup beside the bookshelf.\n(B) The person places the cup on the desk next to the lamp.\n(C) The person places the cup on the table near the computer.\n(D) The person places the cup at the edge of the kitchen counter.\n(E) The person places the cup under the window on the sill.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person places the cup on the table near the computer."
+    },
+    "correct_idx": [
+        2
+    ]
+}

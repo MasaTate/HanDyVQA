@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a cable change?",
+    "options": [
+        "The cable inside the CPU was tightly wrapped around a component, restricting its movement.",
+        "The cable inside the CPU was twisted and tangled, making access to the port difficult.",
+        "The cable inside the CPU was cut into two pieces, severing the connection.",
+        "The cable inside the CPU was bent sharply at an angle, causing potential damage.",
+        "The cable inside the CPU was pulled and unplugged, detaching it carefully from its port."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a cable change? Choose **only one** option from the following list.\nOptions:\n(A) The cable inside the CPU was tightly wrapped around a component, restricting its movement.\n(B) The cable inside the CPU was twisted and tangled, making access to the port difficult.\n(C) The cable inside the CPU was cut into two pieces, severing the connection.\n(D) The cable inside the CPU was bent sharply at an angle, causing potential damage.\n(E) The cable inside the CPU was pulled and unplugged, detaching it carefully from its port.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The cable inside the CPU was pulled and unplugged, detaching it carefully from its port."
+    },
+    "correct_idx": [
+        4
+    ]
+}

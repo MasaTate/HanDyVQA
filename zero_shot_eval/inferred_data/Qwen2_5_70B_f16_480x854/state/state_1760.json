@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the glue gun change?",
+    "options": [
+        "The glue gun's state was altered by being placed on a shelf.",
+        "The glue gun's state was altered by being turned off.",
+        "The glue gun's state was altered by being cleaned.",
+        "The glue gun's state was altered by being used.",
+        "The glue gun's state was altered by being plugged into a different socket."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the glue gun change? Choose **only one** option from the following list.\nOptions:\n(A) The glue gun's state was altered by being placed on a shelf.\n(B) The glue gun's state was altered by being turned off.\n(C) The glue gun's state was altered by being cleaned.\n(D) The glue gun's state was altered by being used.\n(E) The glue gun's state was altered by being plugged into a different socket.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The glue gun's state was altered by being used."
+    },
+    "correct_idx": [
+        3
+    ]
+}

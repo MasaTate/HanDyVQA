@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the light change?",
+    "options": [
+        "The light was dimmed slightly.",
+        "The light was turned off.",
+        "The light was adjusted to a different brightness level.",
+        "The light was turned on.",
+        "The light was set to flash intermittently."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the light change? Choose **only one** option from the following list.\nOptions:\n(A) The light was dimmed slightly.\n(B) The light was turned off.\n(C) The light was adjusted to a different brightness level.\n(D) The light was turned on.\n(E) The light was set to flash intermittently.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The light was turned on."
+    },
+    "correct_idx": [
+        1
+    ]
+}

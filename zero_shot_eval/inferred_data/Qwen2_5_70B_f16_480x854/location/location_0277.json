@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the green bottle?",
+    "options": [
+        "The person dropped the green bottle at the lower edge of the stove.",
+        "The person dropped the green bottle at the center of the countertop.",
+        "The person dropped the green bottle at the upper portion of the stove.",
+        "The person dropped the green bottle at the right side of the kitchen sink.",
+        "The person dropped the green bottle at the back corner of the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the green bottle? Choose **only one** option from the following list.\nOptions:\n(A) The person dropped the green bottle at the lower edge of the stove.\n(B) The person dropped the green bottle at the center of the countertop.\n(C) The person dropped the green bottle at the upper portion of the stove.\n(D) The person dropped the green bottle at the right side of the kitchen sink.\n(E) The person dropped the green bottle at the back corner of the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person dropped the green bottle at the upper portion of the stove."
+    },
+    "correct_idx": [
+        2
+    ]
+}

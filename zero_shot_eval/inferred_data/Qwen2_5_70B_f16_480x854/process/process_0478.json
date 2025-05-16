@@ -1,0 +1,17 @@
+{
+    "question": "How does the person wet a tooth brush?",
+    "options": [
+        "The person wets a toothbrush by opening the faucet of the blue water container with their left hand while holding the toothbrush in their right hand, positioning it under the running water to wet its bristles before turning off the faucet.",
+        "The person wets a toothbrush by dipping it into a cup of water using their right hand, positioning it to wet the bristles without engaging a faucet.",
+        "The person uses their left hand to pour water from a bottle over the toothbrush held in their right hand, allowing the water to wet the bristles without using a faucet.",
+        "The person collects water with their left hand from a running stream and drips it over the bristles of the toothbrush held in the right hand to wet it.",
+        "The person fully submerges the toothbrush bristles in a bowl of water using their right hand, making sure the bristles are wet without using a faucet."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person wet a tooth brush? Choose **only one** option from the following list.\nOptions:\n(A) The person wets a toothbrush by opening the faucet of the blue water container with their left hand while holding the toothbrush in their right hand, positioning it under the running water to wet its bristles before turning off the faucet.\n(B) The person wets a toothbrush by dipping it into a cup of water using their right hand, positioning it to wet the bristles without engaging a faucet.\n(C) The person uses their left hand to pour water from a bottle over the toothbrush held in their right hand, allowing the water to wet the bristles without using a faucet.\n(D) The person collects water with their left hand from a running stream and drips it over the bristles of the toothbrush held in the right hand to wet it.\n(E) The person fully submerges the toothbrush bristles in a bowl of water using their right hand, making sure the bristles are wet without using a faucet.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person wets a toothbrush by opening the faucet of the blue water container with their left hand while holding the toothbrush in their right hand, positioning it under the running water to wet its bristles before turning off the faucet."
+    },
+    "correct_idx": [
+        0
+    ]
+}

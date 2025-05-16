@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the dinnerware?",
+    "options": [
+        "The person placed the dinnerware on the counter next to the sink and the knife block.",
+        "The person placed the dinnerware on the shelf above the microwave.",
+        "The person placed the dinnerware on the counter between the cutting board and the pan.",
+        "The person placed the dinnerware on the counter to the left of the toaster.",
+        "The person placed the dinnerware on the dining table beside the fruit bowl."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the dinnerware? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the dinnerware on the counter next to the sink and the knife block.\n(B) The person placed the dinnerware on the shelf above the microwave.\n(C) The person placed the dinnerware on the counter between the cutting board and the pan.\n(D) The person placed the dinnerware on the counter to the left of the toaster.\n(E) The person placed the dinnerware on the dining table beside the fruit bowl.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person placed the dinnerware on the counter between the cutting board and the pan."
+    },
+    "correct_idx": [
+        2
+    ]
+}

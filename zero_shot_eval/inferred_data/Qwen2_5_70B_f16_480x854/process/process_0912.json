@@ -1,0 +1,17 @@
+{
+    "question": "How does the person spread the cards?",
+    "options": [
+        "The person gently slides the card one by one from the right hand to the left hand, making a smear fan position.",
+        "The person slowly tosses the cards from the left hand to the right hand, resulting in a loose scatter in the air.",
+        "The person holds all the cards in their right hand and turns them over with a smooth wrist motion, showing the backs.",
+        "The person lifts the cards in the air from the left hand with minimal control, which causes them to land unevenly on the table.",
+        "The person arranges the cards one on top of the other in the left hand, avoiding a spread-out position."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person spread the cards? Choose **only one** option from the following list.\nOptions:\n(A) The person gently slides the card one by one from the right hand to the left hand, making a smear fan position.\n(B) The person slowly tosses the cards from the left hand to the right hand, resulting in a loose scatter in the air.\n(C) The person holds all the cards in their right hand and turns them over with a smooth wrist motion, showing the backs.\n(D) The person lifts the cards in the air from the left hand with minimal control, which causes them to land unevenly on the table.\n(E) The person arranges the cards one on top of the other in the left hand, avoiding a spread-out position.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person gently slides the card one by one from the right hand to the left hand, making a smear fan position."
+    },
+    "correct_idx": [
+        0
+    ]
+}

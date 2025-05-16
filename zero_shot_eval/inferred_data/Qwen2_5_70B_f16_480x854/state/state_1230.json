@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the paint roller change?",
+    "options": [
+        "The paint roller was rolled on the floor and then dipped in plastic with paint.",
+        "The paint roller was rolled on the ceiling and then dipped in cardboard with paint.",
+        "The paint roller was rolled on the ceiling and then dipped in a plastic basin with paint.",
+        "The paint roller was rolled on the wall and then dipped in plastic with paint.",
+        "The paint roller was rolled on the ceiling and then dipped in plastic with paint."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the paint roller change? Choose **only one** option from the following list.\nOptions:\n(A) The paint roller was rolled on the floor and then dipped in plastic with paint.\n(B) The paint roller was rolled on the ceiling and then dipped in cardboard with paint.\n(C) The paint roller was rolled on the ceiling and then dipped in a plastic basin with paint.\n(D) The paint roller was rolled on the wall and then dipped in plastic with paint.\n(E) The paint roller was rolled on the ceiling and then dipped in plastic with paint.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The paint roller was rolled on the ceiling and then dipped in plastic with paint."
+    },
+    "correct_idx": [
+        4
+    ]
+}

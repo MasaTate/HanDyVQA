@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the short bamboo?",
+    "options": [
+        "The person places the short bamboo on their right side.",
+        "The person places the short bamboo in front of them.",
+        "The person places the short bamboo behind them.",
+        "The person places the short bamboo to their far left.",
+        "The person places the short bamboo on their left side."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the short bamboo? Choose **only one** option from the following list.\nOptions:\n(A) The person places the short bamboo on their right side.\n(B) The person places the short bamboo in front of them.\n(C) The person places the short bamboo behind them.\n(D) The person places the short bamboo to their far left.\n(E) The person places the short bamboo on their left side.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person places the short bamboo on their right side."
+    },
+    "correct_idx": [
+        4
+    ]
+}

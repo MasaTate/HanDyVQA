@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is engaging the lever of the lawn mower using his right hand.",
+        "The person is turning off the grass trimmer with his left hand while holding a fuel can in his right hand.",
+        "The person is adjusting the height of the grass trimmer's blades using his right hand.",
+        "The person is starting the engine of the grass trimmer by pulling the starter cord with his right hand.",
+        "The person presses the accelerator of the grass trimmer using his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is engaging the lever of the lawn mower using his right hand.\n(B) The person is turning off the grass trimmer with his left hand while holding a fuel can in his right hand.\n(C) The person is adjusting the height of the grass trimmer's blades using his right hand.\n(D) The person is starting the engine of the grass trimmer by pulling the starter cord with his right hand.\n(E) The person presses the accelerator of the grass trimmer using his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person is turning off the grass trimmer with his left hand while holding a fuel can in his right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

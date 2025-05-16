@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the dirt change?",
+    "options": [
+        "The dirt was scattered, mixed with water, and then formed into a muddy paste.",
+        "The dirt was swept away, vacuumed up, and then disposed of in a trash bag.",
+        "The dirt was dug up, placed into a bucket, and then transported to another location.",
+        "The dirt was wiped, gathered together, and then scooped using a tissue.",
+        "The dirt was compressed, patted down, and then shaped into a small mound."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the dirt change? Choose **only one** option from the following list.\nOptions:\n(A) The dirt was scattered, mixed with water, and then formed into a muddy paste.\n(B) The dirt was swept away, vacuumed up, and then disposed of in a trash bag.\n(C) The dirt was dug up, placed into a bucket, and then transported to another location.\n(D) The dirt was wiped, gathered together, and then scooped using a tissue.\n(E) The dirt was compressed, patted down, and then shaped into a small mound.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The dirt was wiped, gathered together, and then scooped using a tissue."
+    },
+    "correct_idx": [
+        3
+    ]
+}

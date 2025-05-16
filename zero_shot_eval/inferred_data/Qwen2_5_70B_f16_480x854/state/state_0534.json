@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a firewood change?",
+    "options": [
+        "The firewood was stacked and then scattered on the ground.",
+        "The firewood was arranged and then burned in the fireplace.",
+        "The firewood was pushed under the basin.",
+        "The firewood was placed on a shelf and then knocked over.",
+        "The firewood was transported and then unloaded in the yard."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a firewood change? Choose **only one** option from the following list.\nOptions:\n(A) The firewood was stacked and then scattered on the ground.\n(B) The firewood was arranged and then burned in the fireplace.\n(C) The firewood was pushed under the basin.\n(D) The firewood was placed on a shelf and then knocked over.\n(E) The firewood was transported and then unloaded in the yard.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The firewood was pushed under the basin."
+    },
+    "correct_idx": [
+        2
+    ]
+}

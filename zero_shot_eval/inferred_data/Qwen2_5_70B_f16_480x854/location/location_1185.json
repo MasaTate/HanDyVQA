@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop a fork?",
+    "options": [
+        "The person drops the fork onto the countertop with the left hand.",
+        "The person drops the fork into the utensil drawer with the right hand.",
+        "The person drops the fork on the floor next to the table with the left hand.",
+        "The person drops the fork into the sink with the right hand.",
+        "The person drops the fork behind the kitchen cabinet with the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop a fork? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the fork onto the countertop with the left hand.\n(B) The person drops the fork into the utensil drawer with the right hand.\n(C) The person drops the fork on the floor next to the table with the left hand.\n(D) The person drops the fork into the sink with the right hand.\n(E) The person drops the fork behind the kitchen cabinet with the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person drops the fork into the sink with the right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

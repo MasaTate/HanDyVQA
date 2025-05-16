@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is attaching a drill bit held in his right hand to the power screwdriver in his left hand.",
+        "The person is removing the battery from the power drill held in his left hand while holding the power drill with his right hand.",
+        "The person is tightening the socket extension held in his right hand to the wrench in his left hand.",
+        "The person inserts the socket extension in his left hand into the power drill in his right hand.",
+        "The person is holding the power drill in his left hand while squeezing the trigger with his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is attaching a drill bit held in his right hand to the power screwdriver in his left hand.\n(B) The person is removing the battery from the power drill held in his left hand while holding the power drill with his right hand.\n(C) The person is tightening the socket extension held in his right hand to the wrench in his left hand.\n(D) The person inserts the socket extension in his left hand into the power drill in his right hand.\n(E) The person is holding the power drill in his left hand while squeezing the trigger with his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person inserts the socket extension in his left hand into the power drill in his right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

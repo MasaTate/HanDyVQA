@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person holds the measuring tape, presses the wall with his right hand and pulls the tape using his left hand.",
+        "The person grips the measuring tape, pushes against the floor with his right hand and extends the tape with his left hand.",
+        "The person holds the measuring tape, touches the table frame with his right hand and pulls the tape using his left hand.",
+        "The person manages the measuring tape, stabilizes a ladder with his right hand and releases the tape with his left hand.",
+        "The person adjusts the measuring tape, rests his right hand on a chair while pulling the tape with his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the measuring tape, presses the wall with his right hand and pulls the tape using his left hand.\n(B) The person grips the measuring tape, pushes against the floor with his right hand and extends the tape with his left hand.\n(C) The person holds the measuring tape, touches the table frame with his right hand and pulls the tape using his left hand.\n(D) The person manages the measuring tape, stabilizes a ladder with his right hand and releases the tape with his left hand.\n(E) The person adjusts the measuring tape, rests his right hand on a chair while pulling the tape with his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person holds the measuring tape, touches the table frame with his right hand and pulls the tape using his left hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

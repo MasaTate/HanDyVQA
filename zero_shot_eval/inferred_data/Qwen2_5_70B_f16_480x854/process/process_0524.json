@@ -1,0 +1,17 @@
+{
+    "question": "How does the person open the lid of a tin container on the kitchen counter?",
+    "options": [
+        "The person opens the lid of a tin container on the kitchen counter by using the fingers of their right hand to grip the edge firmly and lift it with a steady, precise motion.",
+        "The person pries the lid off the tin container using the fingers of their left hand, applying gentle pressure.",
+        "The person pulls the lid off the tin container with both hands, lifting it upwards with care.",
+        "The person slides their hand underneath the lid and carefully raises it off the tin container.",
+        "The person uses the flat of their hand to press the lid, gently moving it off the tin container."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person open the lid of a tin container on the kitchen counter? Choose **only one** option from the following list.\nOptions:\n(A) The person opens the lid of a tin container on the kitchen counter by using the fingers of their right hand to grip the edge firmly and lift it with a steady, precise motion.\n(B) The person pries the lid off the tin container using the fingers of their left hand, applying gentle pressure.\n(C) The person pulls the lid off the tin container with both hands, lifting it upwards with care.\n(D) The person slides their hand underneath the lid and carefully raises it off the tin container.\n(E) The person uses the flat of their hand to press the lid, gently moving it off the tin container.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person opens the lid of a tin container on the kitchen counter by using the fingers of their right hand to grip the edge firmly and lift it with a steady, precise motion."
+    },
+    "correct_idx": [
+        0
+    ]
+}

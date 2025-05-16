@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place a speedheater on the wall?",
+    "options": [
+        "The person places a speedheater on the wall towards the ceiling area.",
+        "The person places a speedheater on the wall to the wall surface.",
+        "The person places a speedheater on the wall beside the door frame.",
+        "The person places a speedheater on the wall near the floor corner.",
+        "The person places a speedheater on the wall above the window ledge."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place a speedheater on the wall? Choose **only one** option from the following list.\nOptions:\n(A) The person places a speedheater on the wall towards the ceiling area.\n(B) The person places a speedheater on the wall to the wall surface.\n(C) The person places a speedheater on the wall beside the door frame.\n(D) The person places a speedheater on the wall near the floor corner.\n(E) The person places a speedheater on the wall above the window ledge.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person places a speedheater on the wall near the floor corner."
+    },
+    "correct_idx": [
+        1
+    ]
+}

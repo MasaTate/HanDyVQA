@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person collects the glue sticks using his left hand while holding the plastic bag with his right hand.",
+        "The person gathers the glue sticks using his right hand while holding the plastic bag with his left hand.",
+        "The person is organizing the glue sticks on the table using both hands while keeping the plastic bag close by.",
+        "The person places the glue sticks into the plastic bag using his left hand while holding a pen in his right hand.",
+        "The person is pouring the glue out of the bag using his right hand while holding the glue sticks with his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person collects the glue sticks using his left hand while holding the plastic bag with his right hand.\n(B) The person gathers the glue sticks using his right hand while holding the plastic bag with his left hand.\n(C) The person is organizing the glue sticks on the table using both hands while keeping the plastic bag close by.\n(D) The person places the glue sticks into the plastic bag using his left hand while holding a pen in his right hand.\n(E) The person is pouring the glue out of the bag using his right hand while holding the glue sticks with his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person collects the glue sticks using his left hand while holding the plastic bag with his right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

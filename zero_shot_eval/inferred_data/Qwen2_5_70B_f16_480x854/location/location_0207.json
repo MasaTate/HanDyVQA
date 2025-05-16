@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the wire?",
+    "options": [
+        "The person moves the wire with the right hand and takes it from beside the ladder with the left hand and transfers it back to the right hand.",
+        "The person moves the wire with the left hand and takes it from under the ladder with the right hand and transfer it back to the left hand.",
+        "The person moves the wire with both hands and picks it up from behind the ladder before bringing it to the middle of the floor.",
+        "The person moves the wire with the left hand and retrieves it from above the ladder with the right hand before placing it down on the ground.",
+        "The person moves the wire using the right hand and lifts it from in front of the ladder with the left hand before setting it on the step."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the wire? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the wire with the right hand and takes it from beside the ladder with the left hand and transfers it back to the right hand.\n(B) The person moves the wire with the left hand and takes it from under the ladder with the right hand and transfer it back to the left hand.\n(C) The person moves the wire with both hands and picks it up from behind the ladder before bringing it to the middle of the floor.\n(D) The person moves the wire with the left hand and retrieves it from above the ladder with the right hand before placing it down on the ground.\n(E) The person moves the wire using the right hand and lifts it from in front of the ladder with the left hand before setting it on the step.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person moves the wire with the left hand and takes it from under the ladder with the right hand and transfer it back to the left hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

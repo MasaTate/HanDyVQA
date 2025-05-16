@@ -1,0 +1,17 @@
+{
+    "question": "How does the person flip the cards on the table?",
+    "options": [
+        "The person flips the card by placing their right hand over the top, gripping the edges with their fingers, and with a quick flick of the wrist, pushes it downward and releases it, causing it to land face down on the table.",
+        "The person rotates their hand slightly and bends their wrist gently, letting the card slide off their fingertips and spin smoothly in the air before it lands on the table.",
+        "The person uses their left hand to press the card from the side, slightly nudging it off the table with a smooth motion.",
+        "The person picks up the card with both hands and lowers it gently without any flicking motion, allowing it to rest quietly on the table.",
+        "The person holds the card vertically and tilts it slightly sideways, letting gravity guide it down as they relax their grip."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person flip the cards on the table? Choose **only one** option from the following list.\nOptions:\n(A) The person flips the card by placing their right hand over the top, gripping the edges with their fingers, and with a quick flick of the wrist, pushes it downward and releases it, causing it to land face down on the table.\n(B) The person rotates their hand slightly and bends their wrist gently, letting the card slide off their fingertips and spin smoothly in the air before it lands on the table.\n(C) The person uses their left hand to press the card from the side, slightly nudging it off the table with a smooth motion.\n(D) The person picks up the card with both hands and lowers it gently without any flicking motion, allowing it to rest quietly on the table.\n(E) The person holds the card vertically and tilts it slightly sideways, letting gravity guide it down as they relax their grip.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person flips the card by placing their right hand over the top, gripping the edges with their fingers, and with a quick flick of the wrist, pushes it downward and releases it, causing it to land face down on the table."
+    },
+    "correct_idx": [
+        0
+    ]
+}

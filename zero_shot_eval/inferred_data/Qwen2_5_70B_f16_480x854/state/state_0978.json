@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the potato change?",
+    "options": [
+        "The potato was cut into small pieces with little change in position.",
+        "The potato was sliced into thin strips with only a slight change in orientation.",
+        "The potato was divided into large chunks with a minor lateral shift.",
+        "The potato was chopped into cubes with minimal side movement.",
+        "The potato was cut into wedges with a slight forward adjustment."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the potato change? Choose **only one** option from the following list.\nOptions:\n(A) The potato was cut into small pieces with little change in position.\n(B) The potato was sliced into thin strips with only a slight change in orientation.\n(C) The potato was divided into large chunks with a minor lateral shift.\n(D) The potato was chopped into cubes with minimal side movement.\n(E) The potato was cut into wedges with a slight forward adjustment.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The potato was divided into large chunks with a minor lateral shift."
+    },
+    "correct_idx": [
+        0
+    ]
+}

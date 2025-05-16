@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person transfers the metal bar from their left hand to their right hand while balancing it carefully.",
+        "The person is polishing a metal bar and held it from the right hand to the left hand.",
+        "The person adjusts the metal bar from their right hand to their left hand while holding a toolbox.",
+        "The person lifts the metal bar with both hands to reposition it while releasing their hold with the left hand.",
+        "The person shifts the metal pipe from the right hand to the left hand while reaching down to pick up a wrench."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person transfers the metal bar from their left hand to their right hand while balancing it carefully.\n(B) The person is polishing a metal bar and held it from the right hand to the left hand.\n(C) The person adjusts the metal bar from their right hand to their left hand while holding a toolbox.\n(D) The person lifts the metal bar with both hands to reposition it while releasing their hold with the left hand.\n(E) The person shifts the metal pipe from the right hand to the left hand while reaching down to pick up a wrench.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person is polishing a metal bar and held it from the right hand to the left hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

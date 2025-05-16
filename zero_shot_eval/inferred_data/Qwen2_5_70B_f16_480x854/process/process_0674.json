@@ -1,0 +1,17 @@
+{
+    "question": "How does the person fold the left hand?",
+    "options": [
+        "The person folds their left hand by softly extending the fingers outward while the thumb remains slightly apart from the rest of the fingers.",
+        "The person folds their left hand by smoothly elongating the fingers and then bending slightly at the wrist to create a gentle angle.",
+        "The person folds their left hand by lightly holding each finger with the right hand, guiding them into a relaxed fist shape.",
+        "The person folds their left hand by raising the fingers upward and then adjusting the wrist to the side while keeping the fingers in a gentle position.",
+        "The person folds their left hand by gently curling their fingers inward toward the palm and then positions the thumb across the folded fingers to complete the motion."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person fold the left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person folds their left hand by softly extending the fingers outward while the thumb remains slightly apart from the rest of the fingers.\n(B) The person folds their left hand by smoothly elongating the fingers and then bending slightly at the wrist to create a gentle angle.\n(C) The person folds their left hand by lightly holding each finger with the right hand, guiding them into a relaxed fist shape.\n(D) The person folds their left hand by raising the fingers upward and then adjusting the wrist to the side while keeping the fingers in a gentle position.\n(E) The person folds their left hand by gently curling their fingers inward toward the palm and then positions the thumb across the folded fingers to complete the motion.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person folds their left hand by gently curling their fingers inward toward the palm and then positions the thumb across the folded fingers to complete the motion."
+    },
+    "correct_idx": [
+        4
+    ]
+}

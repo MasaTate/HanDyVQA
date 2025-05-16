@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the content of the bottle on the bicycle hub change?",
+    "options": [
+        "The content of the bottle was accessed by flipping it, inserting a finger, and then tilting it back onto the table.",
+        "The content of the bottle was accessed by flipping it, but it was placed back upright on the table without tilting back.",
+        "The content of the bottle was accessed by flipping it, inserting a finger, but it was left open on the table.",
+        "The content of the bottle was accessed by flipping it and slightly shaking it before being placed back.",
+        "The content of the bottle was accessed by flipping it and pouring a small amount, then returning it upright."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the content of the bottle on the bicycle hub change? Choose **only one** option from the following list.\nOptions:\n(A) The content of the bottle was accessed by flipping it, inserting a finger, and then tilting it back onto the table.\n(B) The content of the bottle was accessed by flipping it, but it was placed back upright on the table without tilting back.\n(C) The content of the bottle was accessed by flipping it, inserting a finger, but it was left open on the table.\n(D) The content of the bottle was accessed by flipping it and slightly shaking it before being placed back.\n(E) The content of the bottle was accessed by flipping it and pouring a small amount, then returning it upright.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The content of the bottle was accessed by flipping it, inserting a finger, and then tilting it back onto the table."
+    },
+    "correct_idx": [
+        0
+    ]
+}

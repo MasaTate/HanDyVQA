@@ -1,0 +1,17 @@
+{
+    "question": "How does the person divide the wire connector?",
+    "options": [
+        "The person separates the wire connector by pulling it apart with both hands.",
+        "The person divides the wire connector by twisting it using the right hand.",
+        "The person cuts the wire connector by using scissors held in the left hand.",
+        "The person opens the wire connector by pressing it against a table with one hand.",
+        "The person separates the wire connector by holding it with both hands and moving it until it disconnects."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person divide the wire connector? Choose **only one** option from the following list.\nOptions:\n(A) The person separates the wire connector by pulling it apart with both hands.\n(B) The person divides the wire connector by twisting it using the right hand.\n(C) The person cuts the wire connector by using scissors held in the left hand.\n(D) The person opens the wire connector by pressing it against a table with one hand.\n(E) The person separates the wire connector by holding it with both hands and moving it until it disconnects.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person separates the wire connector by holding it with both hands and moving it until it disconnects."
+    },
+    "correct_idx": [
+        1
+    ]
+}

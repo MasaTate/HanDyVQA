@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the grains change?",
+    "options": [
+        "The grains were mixed, then a handful was taken and placed into the left hand.",
+        "The grains were stirred, and a small amount was taken and placed onto the left hand.",
+        "The grains were agitated, then a few were gathered and placed in the left hand.",
+        "The grains were mixed, then a pinch of the grains was taken out and placed in the palm of the left hand.",
+        "The grains were swirled around, and a pinch was taken and discarded onto the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the grains change? Choose **only one** option from the following list.\nOptions:\n(A) The grains were mixed, then a handful was taken and placed into the left hand.\n(B) The grains were stirred, and a small amount was taken and placed onto the left hand.\n(C) The grains were agitated, then a few were gathered and placed in the left hand.\n(D) The grains were mixed, then a pinch of the grains was taken out and placed in the palm of the left hand.\n(E) The grains were swirled around, and a pinch was taken and discarded onto the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The grains were mixed, then a pinch of the grains was taken out and placed in the palm of the left hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

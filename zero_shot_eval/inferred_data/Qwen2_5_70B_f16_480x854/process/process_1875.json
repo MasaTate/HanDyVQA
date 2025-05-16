@@ -1,0 +1,17 @@
+{
+    "question": "How does the person fasten the screw?",
+    "options": [
+        "The person uses their middle finger to press down on the screw while gently twisting it with the left hand.",
+        "The person holds the screw securely and smoothly rotates it with both hands, keeping it stable.",
+        "The person holds the screw with the palm of the left hand and carefully pushes it down with the right hand.",
+        "The person tightens both of the screws with their index finger and thumb of each hand, carefully holding the screws.",
+        "The person balances the screw on the tip of the right index finger and tries to twist it with the left hand's pinky finger."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person fasten the screw? Choose **only one** option from the following list.\nOptions:\n(A) The person uses their middle finger to press down on the screw while gently twisting it with the left hand.\n(B) The person holds the screw securely and smoothly rotates it with both hands, keeping it stable.\n(C) The person holds the screw with the palm of the left hand and carefully pushes it down with the right hand.\n(D) The person tightens both of the screws with their index finger and thumb of each hand, carefully holding the screws.\n(E) The person balances the screw on the tip of the right index finger and tries to twist it with the left hand's pinky finger.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person tightens both of the screws with their index finger and thumb of each hand, carefully holding the screws."
+    },
+    "correct_idx": [
+        3
+    ]
+}

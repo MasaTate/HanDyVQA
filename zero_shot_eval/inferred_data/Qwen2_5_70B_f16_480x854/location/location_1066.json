@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the lunch box?",
+    "options": [
+        "The person drops the lunchbox on the back corner of the dining table.",
+        "The person drops the lunchbox on the front corner of the dining table.",
+        "The person places the lunchbox on the chair beside the dining table.",
+        "The person sets the lunchbox on the middle of the kitchen counter.",
+        "The person puts the lunchbox on the windowsill next to the dining table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the lunch box? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the lunchbox on the back corner of the dining table.\n(B) The person drops the lunchbox on the front corner of the dining table.\n(C) The person places the lunchbox on the chair beside the dining table.\n(D) The person sets the lunchbox on the middle of the kitchen counter.\n(E) The person puts the lunchbox on the windowsill next to the dining table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person drops the lunchbox on the back corner of the dining table."
+    },
+    "correct_idx": [
+        1
+    ]
+}

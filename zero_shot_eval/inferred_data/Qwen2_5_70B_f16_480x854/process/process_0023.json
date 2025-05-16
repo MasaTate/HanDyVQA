@@ -1,0 +1,17 @@
+{
+    "question": "How does the person lift a frying pan from the gas cooker?",
+    "options": [
+        "The person grips the frying pan by the edge with both hands, tilting it carefully before moving it to the countertop.",
+        "The person lifts the frying pan from the gas cooker with his right hand by firmly gripping the handle, raising it smoothly, and moving it to the sink for washing.",
+        "The person uses his left hand to guide the frying pan off the cooker while holding the handle with his fingertips.",
+        "The person picks up the frying pan with a downward-facing palm and gently lifts it upwards, being cautious of spilling any oil.",
+        "The person lifts the frying pan using his right hand and slightly allows it to sway before placing it back on the stove."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person lift a frying pan from the gas cooker? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the frying pan by the edge with both hands, tilting it carefully before moving it to the countertop.\n(B) The person lifts the frying pan from the gas cooker with his right hand by firmly gripping the handle, raising it smoothly, and moving it to the sink for washing.\n(C) The person uses his left hand to guide the frying pan off the cooker while holding the handle with his fingertips.\n(D) The person picks up the frying pan with a downward-facing palm and gently lifts it upwards, being cautious of spilling any oil.\n(E) The person lifts the frying pan using his right hand and slightly allows it to sway before placing it back on the stove.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person lifts the frying pan from the gas cooker with his right hand by firmly gripping the handle, raising it smoothly, and moving it to the sink for washing."
+    },
+    "correct_idx": [
+        1
+    ]
+}

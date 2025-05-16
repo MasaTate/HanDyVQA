@@ -1,0 +1,17 @@
+{
+    "question": "How does the person reposition a chair?",
+    "options": [
+        "The person lifts the chair slightly using both hands and carefully adjusts its position.",
+        "The person nudges the chair along the floor using their foot, maintaining minimal hand contact.",
+        "The person angles the chair gently and slides it across the carpet using their right hand.",
+        "The person holds the chair by the backrest with their right hand and smoothly rotates it in place.",
+        "The person drags the chair backwards using his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person reposition a chair? Choose **only one** option from the following list.\nOptions:\n(A) The person lifts the chair slightly using both hands and carefully adjusts its position.\n(B) The person nudges the chair along the floor using their foot, maintaining minimal hand contact.\n(C) The person angles the chair gently and slides it across the carpet using their right hand.\n(D) The person holds the chair by the backrest with their right hand and smoothly rotates it in place.\n(E) The person drags the chair backwards using his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person drags the chair backwards using his left hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

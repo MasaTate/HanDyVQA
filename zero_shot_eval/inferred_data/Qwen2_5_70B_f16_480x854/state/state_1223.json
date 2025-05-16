@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a stick change?",
+    "options": [
+        "The stick was taken and leaned against the blue plastic bucket.",
+        "The stick was picked up and placed in a small hole in the ground.",
+        "The stick was tossed into the nearby pond to float on the surface.",
+        "The stick was carved into a sharp point using a knife.",
+        "The stick was broken in half after being stepped on during a walk."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a stick change? Choose **only one** option from the following list.\nOptions:\n(A) The stick was taken and leaned against the blue plastic bucket.\n(B) The stick was picked up and placed in a small hole in the ground.\n(C) The stick was tossed into the nearby pond to float on the surface.\n(D) The stick was carved into a sharp point using a knife.\n(E) The stick was broken in half after being stepped on during a walk.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The stick was taken and leaned against the blue plastic bucket."
+    },
+    "correct_idx": [
+        0
+    ]
+}

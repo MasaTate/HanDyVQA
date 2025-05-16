@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the left arm change?",
+    "options": [
+        "The left arm was burned by the hot surface.",
+        "The left arm was scratched by the right hand.",
+        "The left arm was pulled by a strong force.",
+        "The left arm was twisted at an awkward angle.",
+        "The left arm was bent and the right arm was folded over it, with the arms crossed in front of the body."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the left arm change? Choose **only one** option from the following list.\nOptions:\n(A) The left arm was burned by the hot surface.\n(B) The left arm was scratched by the right hand.\n(C) The left arm was pulled by a strong force.\n(D) The left arm was twisted at an awkward angle.\n(E) The left arm was bent and the right arm was folded over it, with the arms crossed in front of the body.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The left arm was bent and the right arm was folded over it, with the arms crossed in front of the body."
+    },
+    "correct_idx": [
+        1
+    ]
+}

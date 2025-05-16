@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the pink bowl change?",
+    "options": [
+        "The pink bowl was rotated, leaving the vegetable still inside.",
+        "The pink bowl was moved to the back, nudging the vegetable aside.",
+        "The pink bowl was moved to the front so the vegetable was lifted up from the bowl.",
+        "The pink bowl was flipped, allowing the vegetable to fall out.",
+        "The pink bowl was slid to the right while the vegetable remained inside."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the pink bowl change? Choose **only one** option from the following list.\nOptions:\n(A) The pink bowl was rotated, leaving the vegetable still inside.\n(B) The pink bowl was moved to the back, nudging the vegetable aside.\n(C) The pink bowl was moved to the front so the vegetable was lifted up from the bowl.\n(D) The pink bowl was flipped, allowing the vegetable to fall out.\n(E) The pink bowl was slid to the right while the vegetable remained inside.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The pink bowl was moved to the front so the vegetable was lifted up from the bowl."
+    },
+    "correct_idx": [
+        2
+    ]
+}

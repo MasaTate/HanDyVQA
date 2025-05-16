@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person arranges the pieces of lettuce on the chopping board with both hands.",
+        "The person rinses the pieces of endive in the sink using both hands.",
+        "The person stacks the pieces of endive on the chopping board with both hands.",
+        "The person slices the pieces of endive on the counter with both hands.",
+        "The person lifts the pieces of endive in the air with both hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person arranges the pieces of lettuce on the chopping board with both hands.\n(B) The person rinses the pieces of endive in the sink using both hands.\n(C) The person stacks the pieces of endive on the chopping board with both hands.\n(D) The person slices the pieces of endive on the counter with both hands.\n(E) The person lifts the pieces of endive in the air with both hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person stacks the pieces of endive on the chopping board with both hands."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of filter change?",
+    "options": [
+        "The filter was filled with pasta, remaining upright and stable.",
+        "The filter was emptied of pasta, being tilted to the side.",
+        "The filter was emptied of pasta, being flipped almost upside down.",
+        "The filter was partially emptied of pasta, with a slight shake.",
+        "The filter was emptied of pasta, being rotated completely upside down."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of filter change? Choose **only one** option from the following list.\nOptions:\n(A) The filter was filled with pasta, remaining upright and stable.\n(B) The filter was emptied of pasta, being tilted to the side.\n(C) The filter was emptied of pasta, being flipped almost upside down.\n(D) The filter was partially emptied of pasta, with a slight shake.\n(E) The filter was emptied of pasta, being rotated completely upside down.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The filter was emptied of pasta, being flipped almost upside down."
+    },
+    "correct_idx": [
+        2
+    ]
+}

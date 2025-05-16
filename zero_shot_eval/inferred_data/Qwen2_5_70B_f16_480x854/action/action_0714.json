@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person holds a wrench on the table with his right hand.",
+        "The person picks up a screwdriver from the floor with his left hand.",
+        "The person grabs a screwdriver on the table with his right hand.",
+        "The person tightens a bolt on the table using a screwdriver in his right hand.",
+        "The person examines a screwdriver in his right hand while placing a bolt on the table with his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person holds a wrench on the table with his right hand.\n(B) The person picks up a screwdriver from the floor with his left hand.\n(C) The person grabs a screwdriver on the table with his right hand.\n(D) The person tightens a bolt on the table using a screwdriver in his right hand.\n(E) The person examines a screwdriver in his right hand while placing a bolt on the table with his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person grabs a screwdriver on the table with his right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

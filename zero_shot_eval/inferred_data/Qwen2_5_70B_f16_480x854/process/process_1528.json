@@ -1,0 +1,17 @@
+{
+    "question": "How does the person cover the bowl?",
+    "options": [
+        "The person carefully presses the cover onto the bowl with both hands, making sure it fits snugly.",
+        "The person tries to place the cover on the bowl but it slightly misses, causing it to tilt off the table.",
+        "The person gently places the cover of the bowl on top of it using his right hand.",
+        "The person lets the cover rest on the bowl from above, allowing it to settle naturally.",
+        "The person balances the cover on the edge of the bowl with his left hand, not fully securing it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person cover the bowl? Choose **only one** option from the following list.\nOptions:\n(A) The person carefully presses the cover onto the bowl with both hands, making sure it fits snugly.\n(B) The person tries to place the cover on the bowl but it slightly misses, causing it to tilt off the table.\n(C) The person gently places the cover of the bowl on top of it using his right hand.\n(D) The person lets the cover rest on the bowl from above, allowing it to settle naturally.\n(E) The person balances the cover on the edge of the bowl with his left hand, not fully securing it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person gently places the cover of the bowl on top of it using his right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person open the pot?",
+    "options": [
+        "The person opens the pot by lifting the lid with the left hand.",
+        "The person uses both hands to remove the lid from the pot.",
+        "The person pushes the lid with their right hand to open the pot.",
+        "The person pulls the lid off the pot with their right hand while the left hand holds the pot.",
+        "The person carefully lifts the lid off with their fingers to open it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person open the pot? Choose **only one** option from the following list.\nOptions:\n(A) The person opens the pot by lifting the lid with the left hand.\n(B) The person uses both hands to remove the lid from the pot.\n(C) The person pushes the lid with their right hand to open the pot.\n(D) The person pulls the lid off the pot with their right hand while the left hand holds the pot.\n(E) The person carefully lifts the lid off with their fingers to open it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person opens the pot by lifting the lid with the left hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

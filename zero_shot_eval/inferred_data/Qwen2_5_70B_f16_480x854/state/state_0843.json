@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the bottle of ketchup change?",
+    "options": [
+        "The bottle of ketchup was used and then closed.",
+        "The bottle of ketchup was opened and then shaken.",
+        "The bottle of ketchup was emptied and then cleaned.",
+        "The bottle of ketchup was filled with a different sauce and sealed.",
+        "The bottle of ketchup was knocked over and spread across the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the bottle of ketchup change? Choose **only one** option from the following list.\nOptions:\n(A) The bottle of ketchup was used and then closed.\n(B) The bottle of ketchup was opened and then shaken.\n(C) The bottle of ketchup was emptied and then cleaned.\n(D) The bottle of ketchup was filled with a different sauce and sealed.\n(E) The bottle of ketchup was knocked over and spread across the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The bottle of ketchup was used and then closed."
+    },
+    "correct_idx": [
+        0
+    ]
+}

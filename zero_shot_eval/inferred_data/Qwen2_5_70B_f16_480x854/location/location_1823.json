@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place his right hand?",
+    "options": [
+        "The person lays his right hand beside the table on the left side of the illustration and paint.",
+        "The person positions his right hand on the chair next to the table in the back of the illustration and paint.",
+        "The person places his right hand on the edge of the table at the right side of the illustration and paint.",
+        "The person holds his right hand above the table in the front of the illustration and paint.",
+        "The person rests his right hand on the table in the middle of the illustration and paint."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place his right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person lays his right hand beside the table on the left side of the illustration and paint.\n(B) The person positions his right hand on the chair next to the table in the back of the illustration and paint.\n(C) The person places his right hand on the edge of the table at the right side of the illustration and paint.\n(D) The person holds his right hand above the table in the front of the illustration and paint.\n(E) The person rests his right hand on the table in the middle of the illustration and paint.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person rests his right hand on the table in the middle of the illustration and paint."
+    },
+    "correct_idx": [
+        4
+    ]
+}

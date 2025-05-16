@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pack the grasses?",
+    "options": [
+        "The person uses both hands to scoop up the grasses, then brings them together in a bundle, not compressing them much with the fingers.",
+        "The person clasps the grasses using all fingers on the left hand, pulling them together gently without pressing them tightly.",
+        "The person employs only the index and middle fingers of the right hand to pin the grasses together, leaving them somewhat loosely packed.",
+        "The person gathers the grasses using the fingertips of both hands, applying minimal pressure to compress them.",
+        "The person gathers the grasses by dipping the right hand and then compresses the grasses with fingers to pack it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pack the grasses? Choose **only one** option from the following list.\nOptions:\n(A) The person uses both hands to scoop up the grasses, then brings them together in a bundle, not compressing them much with the fingers.\n(B) The person clasps the grasses using all fingers on the left hand, pulling them together gently without pressing them tightly.\n(C) The person employs only the index and middle fingers of the right hand to pin the grasses together, leaving them somewhat loosely packed.\n(D) The person gathers the grasses using the fingertips of both hands, applying minimal pressure to compress them.\n(E) The person gathers the grasses by dipping the right hand and then compresses the grasses with fingers to pack it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person gathers the grasses by dipping the right hand and then compresses the grasses with fingers to pack it."
+    },
+    "correct_idx": [
+        4
+    ]
+}

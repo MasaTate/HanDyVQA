@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the weed?",
+    "options": [
+        "The person moved the weed to the left side.",
+        "The person moved the weed to the back side.",
+        "The person moved the weed to the right side.",
+        "The person moved the weed to the front side.",
+        "The person moved the weed to the center."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the weed? Choose **only one** option from the following list.\nOptions:\n(A) The person moved the weed to the left side.\n(B) The person moved the weed to the back side.\n(C) The person moved the weed to the right side.\n(D) The person moved the weed to the front side.\n(E) The person moved the weed to the center.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person moved the weed to the right side."
+    },
+    "correct_idx": [
+        2
+    ]
+}

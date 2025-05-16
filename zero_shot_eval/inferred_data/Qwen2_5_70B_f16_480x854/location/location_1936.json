@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop a bottle of water?",
+    "options": [
+        "The person dropped the bottle of water on the floor at the right foot of the baby.",
+        "The person dropped the bottle of water on the table beside the baby.",
+        "The person dropped the bottle of water on the floor at the left foot of the baby.",
+        "The person dropped the bottle of water on the chair next to the baby.",
+        "The person dropped the bottle of water on the floor at the front of the baby."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop a bottle of water? Choose **only one** option from the following list.\nOptions:\n(A) The person dropped the bottle of water on the floor at the right foot of the baby.\n(B) The person dropped the bottle of water on the table beside the baby.\n(C) The person dropped the bottle of water on the floor at the left foot of the baby.\n(D) The person dropped the bottle of water on the chair next to the baby.\n(E) The person dropped the bottle of water on the floor at the front of the baby.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person dropped the bottle of water on the floor at the left foot of the baby."
+    },
+    "correct_idx": [
+        2
+    ]
+}

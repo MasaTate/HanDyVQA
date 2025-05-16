@@ -1,0 +1,17 @@
+{
+    "question": "How does the person apply the seasoning from the container?",
+    "options": [
+        "The person grasped the seasoning container with one hand and moved it quickly up and down.",
+        "The person used their fingers to take a pinch of seasoning from the container and scatter it gently onto the food.",
+        "The person held the seasoning container with both hands and twisted it vigorously in a circular motion.",
+        "The person raised the seasoning container above their head and poured it out thoroughly with one hand.",
+        "The person held the seasoning container with both hands and tapped it slightly against the side while tilting it gently."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person apply the seasoning from the container? Choose **only one** option from the following list.\nOptions:\n(A) The person grasped the seasoning container with one hand and moved it quickly up and down.\n(B) The person used their fingers to take a pinch of seasoning from the container and scatter it gently onto the food.\n(C) The person held the seasoning container with both hands and twisted it vigorously in a circular motion.\n(D) The person raised the seasoning container above their head and poured it out thoroughly with one hand.\n(E) The person held the seasoning container with both hands and tapped it slightly against the side while tilting it gently.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person held the seasoning container with both hands and tapped it slightly against the side while tilting it gently."
+    },
+    "correct_idx": [
+        2
+    ]
+}

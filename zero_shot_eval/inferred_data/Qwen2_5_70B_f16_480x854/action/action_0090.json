@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person lifts her right hand off the bottle of liquid while the left hand uses a whisk to mix the ingredients in a bowl.",
+        "The person extends her left hand towards the pan while the right hand is using a ladle to serve the soup from the pot.",
+        "The person pushes the bottle of liquid with her left hand while the right hand is holding a fork to eat the food directly from the pan.",
+        "The person places her left hand on the bottle of liquid while the right hand is using tongs to flip the burgers on the grill.",
+        "The person removes her left hand from the bottle of liquid while the right hand uses a spatula to fry the food on the frying pan."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person lifts her right hand off the bottle of liquid while the left hand uses a whisk to mix the ingredients in a bowl.\n(B) The person extends her left hand towards the pan while the right hand is using a ladle to serve the soup from the pot.\n(C) The person pushes the bottle of liquid with her left hand while the right hand is holding a fork to eat the food directly from the pan.\n(D) The person places her left hand on the bottle of liquid while the right hand is using tongs to flip the burgers on the grill.\n(E) The person removes her left hand from the bottle of liquid while the right hand uses a spatula to fry the food on the frying pan.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person removes her left hand from the bottle of liquid while the right hand uses a spatula to fry the food on the frying pan."
+    },
+    "correct_idx": [
+        4
+    ]
+}

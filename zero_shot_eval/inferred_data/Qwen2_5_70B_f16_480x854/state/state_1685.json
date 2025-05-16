@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the potato change?",
+    "options": [
+        "The potato changed as it was sliced and put in the cup.",
+        "The potato changed as it was mashed and formed into a pancake.",
+        "The potato changed as it was diced and mixed into a salad.",
+        "The potato changed as it was baked and served whole on a plate.",
+        "The potato changed as it was boiled and turned into a creamy mash."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the potato change? Choose **only one** option from the following list.\nOptions:\n(A) The potato changed as it was sliced and put in the cup.\n(B) The potato changed as it was mashed and formed into a pancake.\n(C) The potato changed as it was diced and mixed into a salad.\n(D) The potato changed as it was baked and served whole on a plate.\n(E) The potato changed as it was boiled and turned into a creamy mash.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The potato changed as it was sliced and put in the cup."
+    },
+    "correct_idx": [
+        0
+    ]
+}

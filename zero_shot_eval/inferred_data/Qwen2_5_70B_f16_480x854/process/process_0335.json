@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pour grated cheese?",
+    "options": [
+        "The person tilts the plastic container with both hands, letting the grated cheese scatter over the dish.",
+        "The person holds the container with their hands and tips it slightly, allowing the cheese to fall gently onto the dish.",
+        "The person tilts the plastic container with their left hand, then uses their right hand to sprinkle the grated cheese evenly onto the dish.",
+        "The person removes the lid of the plastic container with one hand and uses a spoon in the other hand to gently add the grated cheese.",
+        "The person grips the container with one hand while using the other hand to sprinkle the cheese evenly onto the dish."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pour grated cheese? Choose **only one** option from the following list.\nOptions:\n(A) The person tilts the plastic container with both hands, letting the grated cheese scatter over the dish.\n(B) The person holds the container with their hands and tips it slightly, allowing the cheese to fall gently onto the dish.\n(C) The person tilts the plastic container with their left hand, then uses their right hand to sprinkle the grated cheese evenly onto the dish.\n(D) The person removes the lid of the plastic container with one hand and uses a spoon in the other hand to gently add the grated cheese.\n(E) The person grips the container with one hand while using the other hand to sprinkle the cheese evenly onto the dish.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person tilts the plastic container with their left hand, then uses their right hand to sprinkle the grated cheese evenly onto the dish."
+    },
+    "correct_idx": [
+        2
+    ]
+}

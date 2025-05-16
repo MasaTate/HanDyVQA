@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a spoon from the rack change?",
+    "options": [
+        "The spoon was taken from the rack and moved to the lower right.",
+        "The spoon was taken from the rack and moved to the upper right.",
+        "The spoon was taken from the rack and moved to the lower left.",
+        "The spoon was left on the rack and only moved slightly to the right.",
+        "The spoon was taken from the rack and moved directly downward."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a spoon from the rack change? Choose **only one** option from the following list.\nOptions:\n(A) The spoon was taken from the rack and moved to the lower right.\n(B) The spoon was taken from the rack and moved to the upper right.\n(C) The spoon was taken from the rack and moved to the lower left.\n(D) The spoon was left on the rack and only moved slightly to the right.\n(E) The spoon was taken from the rack and moved directly downward.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The spoon was taken from the rack and moved to the lower right."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person rolls the clay on the table with her right hand and shapes it with a rolling pin.",
+        "The person lifts the clay above the table and then flattens it by pressing it down.",
+        "The person sprinkles sand on the plank and then pats the clay with both hands.",
+        "The person squeezes the clay with both hands, shaping it into a ball.",
+        "The person displays the clay to someone else before placing it down gently."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person rolls the clay on the table with her right hand and shapes it with a rolling pin.\n(B) The person lifts the clay above the table and then flattens it by pressing it down.\n(C) The person sprinkles sand on the plank and then pats the clay with both hands.\n(D) The person squeezes the clay with both hands, shaping it into a ball.\n(E) The person displays the clay to someone else before placing it down gently.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person sprinkles sand on the plank and then pats the clay with both hands."
+    },
+    "correct_idx": [
+        2
+    ]
+}

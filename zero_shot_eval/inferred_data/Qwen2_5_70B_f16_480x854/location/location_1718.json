@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put a pack of macaroni?",
+    "options": [
+        "The person puts the pack of macaroni on the shelf beside the pack of foods inside the refrigerator.",
+        "The person puts the pack of macaroni on the counter next to the pack of foods inside the refrigerator.",
+        "The person puts the pack of macaroni inside the drawer under the pack of foods in the refrigerator.",
+        "The person puts the pack of macaroni on the floor in front of the refrigerator next to the pack of foods.",
+        "The person puts the pack of macaroni on top of the pack of foods inside the refrigerator."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put a pack of macaroni? Choose **only one** option from the following list.\nOptions:\n(A) The person puts the pack of macaroni on the shelf beside the pack of foods inside the refrigerator.\n(B) The person puts the pack of macaroni on the counter next to the pack of foods inside the refrigerator.\n(C) The person puts the pack of macaroni inside the drawer under the pack of foods in the refrigerator.\n(D) The person puts the pack of macaroni on the floor in front of the refrigerator next to the pack of foods.\n(E) The person puts the pack of macaroni on top of the pack of foods inside the refrigerator.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person puts the pack of macaroni on top of the pack of foods inside the refrigerator."
+    },
+    "correct_idx": [
+        4
+    ]
+}

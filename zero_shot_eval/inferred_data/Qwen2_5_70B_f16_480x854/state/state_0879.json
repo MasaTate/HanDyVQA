@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the oven tray change?",
+    "options": [
+        "The oven tray was pulled out slightly and left partly open.",
+        "The oven tray was slid and closed completely.",
+        "The oven tray was slid but not completely closed.",
+        "The oven tray was pushed in but stopped just before closing fully.",
+        "The oven tray was moved slightly and partially closed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the oven tray change? Choose **only one** option from the following list.\nOptions:\n(A) The oven tray was pulled out slightly and left partly open.\n(B) The oven tray was slid and closed completely.\n(C) The oven tray was slid but not completely closed.\n(D) The oven tray was pushed in but stopped just before closing fully.\n(E) The oven tray was moved slightly and partially closed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The oven tray was slid and closed completely."
+    },
+    "correct_idx": [
+        1
+    ]
+}

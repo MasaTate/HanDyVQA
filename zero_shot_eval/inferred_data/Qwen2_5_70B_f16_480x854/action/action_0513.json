@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person lifts the bowl from the microwave with her right hand and starts the microwave with her left hand.",
+        "The person places the lid on the counter beside the microwave with her right hand and opens the microwave with her left hand.",
+        "The person removes the plate from the microwave using her right hand and opens the microwave door with her left hand.",
+        "The person takes the plate from the kitchen counter with her right hand and places it inside the microwave using her left hand.",
+        "The person covers the plate inside the microwave with the cover in her right hand and closes the microwave with her left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person lifts the bowl from the microwave with her right hand and starts the microwave with her left hand.\n(B) The person places the lid on the counter beside the microwave with her right hand and opens the microwave with her left hand.\n(C) The person removes the plate from the microwave using her right hand and opens the microwave door with her left hand.\n(D) The person takes the plate from the kitchen counter with her right hand and places it inside the microwave using her left hand.\n(E) The person covers the plate inside the microwave with the cover in her right hand and closes the microwave with her left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person covers the plate inside the microwave with the cover in her right hand and closes the microwave with her left hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

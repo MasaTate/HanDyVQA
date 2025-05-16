@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the drumstick?",
+    "options": [
+        "The person dropped the drumsticks onto the bottom left of the bass drum.",
+        "The person dropped the drumsticks onto the right side of the bass drum.",
+        "The person dropped the drumsticks onto the far back of the bass drum.",
+        "The person dropped the drumsticks onto the center top of the bass drum.",
+        "The person dropped the drumsticks onto the center bottom of the bass drum."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the drumstick? Choose **only one** option from the following list.\nOptions:\n(A) The person dropped the drumsticks onto the bottom left of the bass drum.\n(B) The person dropped the drumsticks onto the right side of the bass drum.\n(C) The person dropped the drumsticks onto the far back of the bass drum.\n(D) The person dropped the drumsticks onto the center top of the bass drum.\n(E) The person dropped the drumsticks onto the center bottom of the bass drum.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person dropped the drumsticks onto the bottom left of the bass drum."
+    },
+    "correct_idx": [
+        3
+    ]
+}

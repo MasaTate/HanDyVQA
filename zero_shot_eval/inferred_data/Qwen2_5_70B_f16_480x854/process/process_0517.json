@@ -1,0 +1,17 @@
+{
+    "question": "How does the person carry the plate of stir?",
+    "options": [
+        "The person balances the plate of stir on their open left palm while moving.",
+        "The person carries the plate of stir by holding its rim with both hands.",
+        "The person carries the plate of stir by lifting the edge of it with his right hand.",
+        "The person supports the plate of stir from beneath with both palms facing up.",
+        "The person carries the plate of stir using the thumb and forefinger of their left hand at the plate's edge."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person carry the plate of stir? Choose **only one** option from the following list.\nOptions:\n(A) The person balances the plate of stir on their open left palm while moving.\n(B) The person carries the plate of stir by holding its rim with both hands.\n(C) The person carries the plate of stir by lifting the edge of it with his right hand.\n(D) The person supports the plate of stir from beneath with both palms facing up.\n(E) The person carries the plate of stir using the thumb and forefinger of their left hand at the plate's edge.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person carries the plate of stir by holding its rim with both hands."
+    },
+    "correct_idx": [
+        2
+    ]
+}

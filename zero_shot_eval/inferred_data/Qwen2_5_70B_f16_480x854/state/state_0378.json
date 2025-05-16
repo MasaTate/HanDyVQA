@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the chopstick change?",
+    "options": [
+        "The chopsticks touched to flatten the aluminum foil and then moved to the right hand.",
+        "The chopsticks remained with the left hand after touching to flatten the aluminum foil on the frying pan.",
+        "The chopsticks touched to flatten the aluminum foil on the frying pan and then moved to the left hand.",
+        "The chopsticks touched to flatten the aluminum foil but stayed in the right hand afterward.",
+        "The chopsticks touched the aluminum foil but then moved to flatten another area without changing hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the chopstick change? Choose **only one** option from the following list.\nOptions:\n(A) The chopsticks touched to flatten the aluminum foil and then moved to the right hand.\n(B) The chopsticks remained with the left hand after touching to flatten the aluminum foil on the frying pan.\n(C) The chopsticks touched to flatten the aluminum foil on the frying pan and then moved to the left hand.\n(D) The chopsticks touched to flatten the aluminum foil but stayed in the right hand afterward.\n(E) The chopsticks touched the aluminum foil but then moved to flatten another area without changing hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The chopsticks touched to flatten the aluminum foil on the frying pan and then moved to the left hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a rugby ball change?",
+    "options": [
+        "The rugby ball was pushed along the ground.",
+        "The rugby ball was tossed into the air.",
+        "The rugby ball was picked up.",
+        "The rugby ball was nudged to the side.",
+        "The rugby ball was rolled across the field."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a rugby ball change? Choose **only one** option from the following list.\nOptions:\n(A) The rugby ball was pushed along the ground.\n(B) The rugby ball was tossed into the air.\n(C) The rugby ball was picked up.\n(D) The rugby ball was nudged to the side.\n(E) The rugby ball was rolled across the field.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The rugby ball was picked up."
+    },
+    "correct_idx": [
+        2
+    ]
+}

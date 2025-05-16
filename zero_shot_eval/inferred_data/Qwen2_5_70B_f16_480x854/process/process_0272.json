@@ -1,0 +1,17 @@
+{
+    "question": "How does the person fold the cupcake paper?",
+    "options": [
+        "The person grabs the cupcake paper with his right hand, then carefully folds it by pinching the edges and pressing them together.",
+        "The person holds the cupcake paper with both hands, shaping it with gentle motions rather than specific folds.",
+        "The person picks up the cupcake paper with his left hand and adjusts it with a light touch, maintaining its original form.",
+        "The person uses one hand to softly press down on the cupcake paper, smoothing it out naturally.",
+        "The person rolls the cupcake paper gently with his fingers, shaping it subtly without distinct edges."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person fold the cupcake paper? Choose **only one** option from the following list.\nOptions:\n(A) The person grabs the cupcake paper with his right hand, then carefully folds it by pinching the edges and pressing them together.\n(B) The person holds the cupcake paper with both hands, shaping it with gentle motions rather than specific folds.\n(C) The person picks up the cupcake paper with his left hand and adjusts it with a light touch, maintaining its original form.\n(D) The person uses one hand to softly press down on the cupcake paper, smoothing it out naturally.\n(E) The person rolls the cupcake paper gently with his fingers, shaping it subtly without distinct edges.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person grabs the cupcake paper with his right hand, then carefully folds it by pinching the edges and pressing them together."
+    },
+    "correct_idx": [
+        0
+    ]
+}

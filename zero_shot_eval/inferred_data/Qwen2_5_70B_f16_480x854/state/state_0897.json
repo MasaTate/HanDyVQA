@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the bowl of rhinestone change?",
+    "options": [
+        "The bowl of rhinestones was being moved away from the person.",
+        "The bowl of rhinestones was being lifted straight up.",
+        "The bowl of rhinestones was being tilted sideways to the left.",
+        "The bowl of rhinestones was being carefully tilted towards the person.",
+        "The bowl of rhinestones was being rotated in a clockwise direction."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the bowl of rhinestone change? Choose **only one** option from the following list.\nOptions:\n(A) The bowl of rhinestones was being moved away from the person.\n(B) The bowl of rhinestones was being lifted straight up.\n(C) The bowl of rhinestones was being tilted sideways to the left.\n(D) The bowl of rhinestones was being carefully tilted towards the person.\n(E) The bowl of rhinestones was being rotated in a clockwise direction.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The bowl of rhinestones was being rotated in a clockwise direction."
+    },
+    "correct_idx": [
+        3
+    ]
+}

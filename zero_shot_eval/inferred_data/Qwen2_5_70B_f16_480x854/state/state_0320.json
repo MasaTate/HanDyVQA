@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the CPU change?",
+    "options": [
+        "The CPU was lifted from the box and placed into the motherboard.",
+        "The CPU was removed from the motherboard and put back into its protective case.",
+        "The CPU was taken out of its socket and placed on a cooling pad.",
+        "The CPU was flipped upside down and tapped on the surface to ensure proper contact.",
+        "The CPU was set down on the table and the power button was pressed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the CPU change? Choose **only one** option from the following list.\nOptions:\n(A) The CPU was lifted from the box and placed into the motherboard.\n(B) The CPU was removed from the motherboard and put back into its protective case.\n(C) The CPU was taken out of its socket and placed on a cooling pad.\n(D) The CPU was flipped upside down and tapped on the surface to ensure proper contact.\n(E) The CPU was set down on the table and the power button was pressed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The CPU was set down on the table and the power button was pressed."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the frying pan change?",
+    "options": [
+        "The frying pan was lifted off the stove, resulting in a change in elevation as it was removed from the surface.",
+        "The frying pan was turned upside down, leading to a complete reversal in its orientation and the contents spilling out.",
+        "The frying pan was rotated on its handle, resulting in a change in direction while remaining flat on the cooking surface.",
+        "The frying pan was set down on the table, resulting in a change in location as it was moved away from the stovetop.",
+        "The frying pan was tilted, causing a change in position as its angle shifted."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the frying pan change? Choose **only one** option from the following list.\nOptions:\n(A) The frying pan was lifted off the stove, resulting in a change in elevation as it was removed from the surface.\n(B) The frying pan was turned upside down, leading to a complete reversal in its orientation and the contents spilling out.\n(C) The frying pan was rotated on its handle, resulting in a change in direction while remaining flat on the cooking surface.\n(D) The frying pan was set down on the table, resulting in a change in location as it was moved away from the stovetop.\n(E) The frying pan was tilted, causing a change in position as its angle shifted.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The frying pan was lifted off the stove, resulting in a change in elevation as it was removed from the surface."
+    },
+    "correct_idx": [
+        4
+    ]
+}

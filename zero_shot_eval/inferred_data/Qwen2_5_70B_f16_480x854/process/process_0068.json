@@ -1,0 +1,17 @@
+{
+    "question": "How does the person give a brick?",
+    "options": [
+        "The person hands over the brick by holding it lightly with the left hand and gently directing it towards the recipient.",
+        "The person transfers the brick by resting it on the palm of their right hand and moving it slowly to the recipient.",
+        "The person passes the brick by moving it with both hands from the edge of a table, guiding it smoothly to the recipient.",
+        "The person gives the brick by setting it on the ground and signaling for the recipient to pick it up.",
+        "The person gives the brick by gripping it firmly with their right hand and extending the arm towards the recipient, allowing them to take hold of it securely."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person give a brick? Choose **only one** option from the following list.\nOptions:\n(A) The person hands over the brick by holding it lightly with the left hand and gently directing it towards the recipient.\n(B) The person transfers the brick by resting it on the palm of their right hand and moving it slowly to the recipient.\n(C) The person passes the brick by moving it with both hands from the edge of a table, guiding it smoothly to the recipient.\n(D) The person gives the brick by setting it on the ground and signaling for the recipient to pick it up.\n(E) The person gives the brick by gripping it firmly with their right hand and extending the arm towards the recipient, allowing them to take hold of it securely.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person gives the brick by gripping it firmly with their right hand and extending the arm towards the recipient, allowing them to take hold of it securely."
+    },
+    "correct_idx": [
+        4
+    ]
+}

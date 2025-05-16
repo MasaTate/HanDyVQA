@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a piece of leather change?",
+    "options": [
+        "The piece of leather was taken and placed in a different location with a curved motion.",
+        "The piece of leather was taken and placed in a different location with a straight motion.",
+        "The piece of leather was taken and placed back in the same location with a straight motion.",
+        "The piece of leather was not moved but was flipped over in the same location.",
+        "The piece of leather was taken and placed slightly to the left with a straight motion."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a piece of leather change? Choose **only one** option from the following list.\nOptions:\n(A) The piece of leather was taken and placed in a different location with a curved motion.\n(B) The piece of leather was taken and placed in a different location with a straight motion.\n(C) The piece of leather was taken and placed back in the same location with a straight motion.\n(D) The piece of leather was not moved but was flipped over in the same location.\n(E) The piece of leather was taken and placed slightly to the left with a straight motion.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The piece of leather was taken and placed in a different location with a curved motion."
+    },
+    "correct_idx": [
+        1
+    ]
+}

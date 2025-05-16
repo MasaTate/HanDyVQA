@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put burrito?",
+    "options": [
+        "The person put the burrito on the counter.",
+        "The person put the burrito in the microwave.",
+        "The person put the burrito in the oven.",
+        "The person put the burrito on the stove.",
+        "The person put the burrito in the refrigerator."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put burrito? Choose **only one** option from the following list.\nOptions:\n(A) The person put the burrito on the counter.\n(B) The person put the burrito in the microwave.\n(C) The person put the burrito in the oven.\n(D) The person put the burrito on the stove.\n(E) The person put the burrito in the refrigerator.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person put the burrito in the oven."
+    },
+    "correct_idx": [
+        2
+    ]
+}

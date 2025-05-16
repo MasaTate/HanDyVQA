@@ -1,0 +1,17 @@
+{
+    "question": "How does the person press a button?",
+    "options": [
+        "The person pushes the button with his right hand while standing comfortably.",
+        "The person applies pressure to the button with both hands gently.",
+        "The person taps the button softly with his fingertip at an angle.",
+        "The person holds the button down gently with his palm while resting.",
+        "The person pushes the button with his left hand by twisting the brush cutter with his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person press a button? Choose **only one** option from the following list.\nOptions:\n(A) The person pushes the button with his right hand while standing comfortably.\n(B) The person applies pressure to the button with both hands gently.\n(C) The person taps the button softly with his fingertip at an angle.\n(D) The person holds the button down gently with his palm while resting.\n(E) The person pushes the button with his left hand by twisting the brush cutter with his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person pushes the button with his left hand by twisting the brush cutter with his right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

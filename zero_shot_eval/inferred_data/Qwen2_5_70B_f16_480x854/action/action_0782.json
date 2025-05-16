@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is securely grabbing the towel while closing the cupboard with her right hand and using her left hand to lean on the counter.",
+        "The person is neatly folding the towel while pulling the cupboard door open with her left hand and using her right hand to keep the towel in place.",
+        "The person is wiping the counter with the towel while using her left hand to keep the cupboard door shut and balancing herself with her right hand.",
+        "The person quickly holds the towel and opens the cupboard with both hands.",
+        "The person is hanging the towel on a hook with her right hand while using her left hand to look at the contents of the cupboard."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is securely grabbing the towel while closing the cupboard with her right hand and using her left hand to lean on the counter.\n(B) The person is neatly folding the towel while pulling the cupboard door open with her left hand and using her right hand to keep the towel in place.\n(C) The person is wiping the counter with the towel while using her left hand to keep the cupboard door shut and balancing herself with her right hand.\n(D) The person quickly holds the towel and opens the cupboard with both hands.\n(E) The person is hanging the towel on a hook with her right hand while using her left hand to look at the contents of the cupboard.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person is neatly folding the towel while pulling the cupboard door open with her left hand and using her right hand to keep the towel in place."
+    },
+    "correct_idx": [
+        3
+    ]
+}

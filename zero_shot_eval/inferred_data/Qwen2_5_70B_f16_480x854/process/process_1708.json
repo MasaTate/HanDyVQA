@@ -1,0 +1,17 @@
+{
+    "question": "How does the person paint the wall?",
+    "options": [
+        "The person paints the wall using a paintbrush in his right hand and coats from left to right.",
+        "The person paints the wall using a roller brush in his left hand and applies the paint from top to bottom.",
+        "The person uses a small sponge held in both hands to dab paint softly across the wall in a stippling effect.",
+        "The person uses a foam brush with his right hand to spread paint smoothly in diagonal strokes.",
+        "The person holds a wide brush in his left hand and paints the wall in a straight up-and-down direction."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person paint the wall? Choose **only one** option from the following list.\nOptions:\n(A) The person paints the wall using a paintbrush in his right hand and coats from left to right.\n(B) The person paints the wall using a roller brush in his left hand and applies the paint from top to bottom.\n(C) The person uses a small sponge held in both hands to dab paint softly across the wall in a stippling effect.\n(D) The person uses a foam brush with his right hand to spread paint smoothly in diagonal strokes.\n(E) The person holds a wide brush in his left hand and paints the wall in a straight up-and-down direction.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person paints the wall using a paintbrush in his right hand and coats from left to right."
+    },
+    "correct_idx": [
+        0
+    ]
+}

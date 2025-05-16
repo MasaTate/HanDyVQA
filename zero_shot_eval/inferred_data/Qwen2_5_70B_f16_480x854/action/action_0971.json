@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person uses a hammer on a wooden semi-ball while pressing it against a desk with their left hand.",
+        "The person grips a wooden semi-ball in their left hand and sands it with a block in their right hand.",
+        "The person holds a wooden cube with pliers while attempting to carve it with a chisel in their right hand.",
+        "The person uses scissors to cut a wooden semi-ball while stabilizing it with their right hand.",
+        "The person uses pliers to hold a wooden semi-ball and presses it onto a machine."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person uses a hammer on a wooden semi-ball while pressing it against a desk with their left hand.\n(B) The person grips a wooden semi-ball in their left hand and sands it with a block in their right hand.\n(C) The person holds a wooden cube with pliers while attempting to carve it with a chisel in their right hand.\n(D) The person uses scissors to cut a wooden semi-ball while stabilizing it with their right hand.\n(E) The person uses pliers to hold a wooden semi-ball and presses it onto a machine.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person uses pliers to hold a wooden semi-ball and presses it onto a machine."
+    },
+    "correct_idx": [
+        4
+    ]
+}

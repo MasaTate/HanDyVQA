@@ -1,0 +1,17 @@
+{
+    "question": "How does the person roll the pedal?",
+    "options": [
+        "The person rolls the pedal counterclockwise using the left hand.",
+        "The person balances on the right leg while pushing the pedal with their foot.",
+        "The person twists the pedal using both hands instead of a tool.",
+        "The person grips the pedal firmly with the right hand and pulls it upward.",
+        "The person taps the pedal smoothly with the palm of their hand rather than rolling it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person roll the pedal? Choose **only one** option from the following list.\nOptions:\n(A) The person rolls the pedal counterclockwise using the left hand.\n(B) The person balances on the right leg while pushing the pedal with their foot.\n(C) The person twists the pedal using both hands instead of a tool.\n(D) The person grips the pedal firmly with the right hand and pulls it upward.\n(E) The person taps the pedal smoothly with the palm of their hand rather than rolling it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person grips the pedal firmly with the right hand and pulls it upward."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of yarn change?",
+    "options": [
+        "The yarn was threaded around the outer edge of a loop.",
+        "The yarn was tied into a knot.",
+        "The yarn was wrapped around the needle.",
+        "The yarn was unwound from a spool.",
+        "The yarn was hooked through a hole."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of yarn change? Choose **only one** option from the following list.\nOptions:\n(A) The yarn was threaded around the outer edge of a loop.\n(B) The yarn was tied into a knot.\n(C) The yarn was wrapped around the needle.\n(D) The yarn was unwound from a spool.\n(E) The yarn was hooked through a hole.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The yarn was hooked through a hole."
+    },
+    "correct_idx": [
+        4
+    ]
+}

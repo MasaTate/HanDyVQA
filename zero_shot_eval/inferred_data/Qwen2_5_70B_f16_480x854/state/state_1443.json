@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the bucket change?",
+    "options": [
+        "The dough was placed in the bucket and the bucket was tilted forward.",
+        "The dough was placed in the bucket and the bucket was nudged to the right.",
+        "The dough was placed in the bucket and the bucket was moved back.",
+        "The dough was placed in the bucket and the bucket was slightly pushed.",
+        "The dough was placed in the bucket and the bucket was lifted up."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the bucket change? Choose **only one** option from the following list.\nOptions:\n(A) The dough was placed in the bucket and the bucket was tilted forward.\n(B) The dough was placed in the bucket and the bucket was nudged to the right.\n(C) The dough was placed in the bucket and the bucket was moved back.\n(D) The dough was placed in the bucket and the bucket was slightly pushed.\n(E) The dough was placed in the bucket and the bucket was lifted up.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The dough was placed in the bucket and the bucket was lifted up."
+    },
+    "correct_idx": [
+        3
+    ]
+}

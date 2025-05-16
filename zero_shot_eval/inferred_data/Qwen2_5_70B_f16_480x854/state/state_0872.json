@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the cardboard craft change?",
+    "options": [
+        "The cardboard was attached to the base.",
+        "The cardboard was attached to the cover.",
+        "The cardboard was partially attached to the cover.",
+        "The cardboard was removed from the cover.",
+        "The cardboard was attached to the opposite side of the cover."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the cardboard craft change? Choose **only one** option from the following list.\nOptions:\n(A) The cardboard was attached to the base.\n(B) The cardboard was attached to the cover.\n(C) The cardboard was partially attached to the cover.\n(D) The cardboard was removed from the cover.\n(E) The cardboard was attached to the opposite side of the cover.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The cardboard was partially attached to the cover."
+    },
+    "correct_idx": [
+        1
+    ]
+}

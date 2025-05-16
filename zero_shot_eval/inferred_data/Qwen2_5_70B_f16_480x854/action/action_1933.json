@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is tightening a bolt on the engine using his gloved left hand.",
+        "The person is installing a tube onto the engine with his bare left hand.",
+        "The person is holding a wrench in his right hand while inspecting the engine with his gloved left hand.",
+        "The person removes a tube from the engine with his gloved left hand.",
+        "The person is cleaning the engine with a rag in his gloved left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is tightening a bolt on the engine using his gloved left hand.\n(B) The person is installing a tube onto the engine with his bare left hand.\n(C) The person is holding a wrench in his right hand while inspecting the engine with his gloved left hand.\n(D) The person removes a tube from the engine with his gloved left hand.\n(E) The person is cleaning the engine with a rag in his gloved left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person removes a tube from the engine with his gloved left hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

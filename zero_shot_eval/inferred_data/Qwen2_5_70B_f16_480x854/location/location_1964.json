@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the paint bowl?",
+    "options": [
+        "The person drops the paint bowl at the middle of the bottom of the beam.",
+        "The person drops the paint bowl at the end of the top of the beam.",
+        "The person drops the paint bowl on the left side of the top of the beam.",
+        "The person drop the paint bowl at the middle of the top of the beam.",
+        "The person drops the paint bowl on the right side of the bottom of the beam."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the paint bowl? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the paint bowl at the middle of the bottom of the beam.\n(B) The person drops the paint bowl at the end of the top of the beam.\n(C) The person drops the paint bowl on the left side of the top of the beam.\n(D) The person drop the paint bowl at the middle of the top of the beam.\n(E) The person drops the paint bowl on the right side of the bottom of the beam.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person drops the paint bowl at the end of the top of the beam."
+    },
+    "correct_idx": [
+        3
+    ]
+}

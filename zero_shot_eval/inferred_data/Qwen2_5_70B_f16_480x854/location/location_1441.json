@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the eraser?",
+    "options": [
+        "The person put the eraser on the right side of the canvas.",
+        "The person put the eraser in the center of the canvas.",
+        "The person put the eraser at the bottom left corner of the canvas.",
+        "The person put the eraser at the top left corner of the canvas.",
+        "The person put the eraser on the left side of the canvas."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the eraser? Choose **only one** option from the following list.\nOptions:\n(A) The person put the eraser on the right side of the canvas.\n(B) The person put the eraser in the center of the canvas.\n(C) The person put the eraser at the bottom left corner of the canvas.\n(D) The person put the eraser at the top left corner of the canvas.\n(E) The person put the eraser on the left side of the canvas.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person put the eraser on the left side of the canvas."
+    },
+    "correct_idx": [
+        4
+    ]
+}

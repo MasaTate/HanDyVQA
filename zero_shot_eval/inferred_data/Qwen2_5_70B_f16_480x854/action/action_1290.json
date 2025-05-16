@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is pouring powder from the sack into a medium-sized container using a cup held in their right hand.",
+        "The person is using their right hand to scoop the powder from the sack with a measuring cup.",
+        "The person is mixing the powder in a bowl with a spoon while the sack is nearby on the table.",
+        "The person is pouring a substance from a container into a cup using their right hand while the sack is on the table.",
+        "The person is gently shaking the sack to release some of its contents into a cup placed nearby."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is pouring powder from the sack into a medium-sized container using a cup held in their right hand.\n(B) The person is using their right hand to scoop the powder from the sack with a measuring cup.\n(C) The person is mixing the powder in a bowl with a spoon while the sack is nearby on the table.\n(D) The person is pouring a substance from a container into a cup using their right hand while the sack is on the table.\n(E) The person is gently shaking the sack to release some of its contents into a cup placed nearby.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person is using their right hand to scoop the powder from the sack with a measuring cup."
+    },
+    "correct_idx": [
+        1
+    ]
+}

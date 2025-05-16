@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the bag of dog food change?",
+    "options": [
+        "The bag of dog food was cut open from the back side.",
+        "The bag of dog food was torn open from the top.",
+        "The bag of dog food was cut open from the front side.",
+        "The bag of dog food was opened by tearing a small corner.",
+        "The bag of dog food was sliced open from the bottom edge."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the bag of dog food change? Choose **only one** option from the following list.\nOptions:\n(A) The bag of dog food was cut open from the back side.\n(B) The bag of dog food was torn open from the top.\n(C) The bag of dog food was cut open from the front side.\n(D) The bag of dog food was opened by tearing a small corner.\n(E) The bag of dog food was sliced open from the bottom edge.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The bag of dog food was cut open from the front side."
+    },
+    "correct_idx": [
+        2
+    ]
+}

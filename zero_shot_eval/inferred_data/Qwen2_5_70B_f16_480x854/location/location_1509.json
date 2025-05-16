@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the container of liquid washing soap?",
+    "options": [
+        "The person placed the container of liquid washing soap at the lower right corner of the sink.",
+        "The person placed the container of liquid washing soap at the upper right corner of the counter.",
+        "The person placed the container of liquid washing soap at the upper left corner of the sink.",
+        "The person placed the container of liquid washing soap on the shelf above the sink.",
+        "The person placed the container of liquid washing soap at the center of the kitchen table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the container of liquid washing soap? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the container of liquid washing soap at the lower right corner of the sink.\n(B) The person placed the container of liquid washing soap at the upper right corner of the counter.\n(C) The person placed the container of liquid washing soap at the upper left corner of the sink.\n(D) The person placed the container of liquid washing soap on the shelf above the sink.\n(E) The person placed the container of liquid washing soap at the center of the kitchen table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person placed the container of liquid washing soap at the upper left corner of the sink."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "water bottle",
+        "ruler",
+        "sewing machine",
+        "paper",
+        "silk",
+        "scissor"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) water bottle\n(B) ruler\n(C) sewing machine\n(D) paper\n(E) silk\n(F) scissor\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(F) The hands are using scissors to cut fabric."
+    },
+    "correct_idx": [
+        4,
+        5
+    ]
+}

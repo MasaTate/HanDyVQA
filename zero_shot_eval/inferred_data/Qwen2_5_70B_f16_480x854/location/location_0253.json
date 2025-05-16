@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the wrench?",
+    "options": [
+        "The person dropped the wrench at the upper left portion of the machine.",
+        "The person dropped the wrench at the middle right portion of the machine.",
+        "The person dropped the wrench at the lower left portion of the machine.",
+        "The person dropped the wrench at the lower right portion of the machine.",
+        "The person dropped the wrench at the upper right portion of the machine."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the wrench? Choose **only one** option from the following list.\nOptions:\n(A) The person dropped the wrench at the upper left portion of the machine.\n(B) The person dropped the wrench at the middle right portion of the machine.\n(C) The person dropped the wrench at the lower left portion of the machine.\n(D) The person dropped the wrench at the lower right portion of the machine.\n(E) The person dropped the wrench at the upper right portion of the machine.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person dropped the wrench at the lower left portion of the machine."
+    },
+    "correct_idx": [
+        3
+    ]
+}

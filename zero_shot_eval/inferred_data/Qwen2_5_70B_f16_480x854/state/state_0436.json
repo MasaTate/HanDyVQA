@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the phone change?",
+    "options": [
+        "The phone was held in the air and moved slightly further from the person.",
+        "The phone was raised and tilted sideways before being lowered.",
+        "The phone was lifted and angled downward before being set back down.",
+        "The phone was raised above the head without being brought closer to the person.",
+        "The phone was raised and held in the air before being brought closer to the person."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the phone change? Choose **only one** option from the following list.\nOptions:\n(A) The phone was held in the air and moved slightly further from the person.\n(B) The phone was raised and tilted sideways before being lowered.\n(C) The phone was lifted and angled downward before being set back down.\n(D) The phone was raised above the head without being brought closer to the person.\n(E) The phone was raised and held in the air before being brought closer to the person.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The phone was raised and held in the air before being brought closer to the person."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the chopsticks?",
+    "options": [
+        "The person put the chopsticks in the small white cup.",
+        "The person put the chopsticks in the large black bowl.",
+        "The person put the chopsticks on the wooden cutting board.",
+        "The person put the chopsticks beside the small white cup.",
+        "The person put the chopsticks inside the blue ceramic dish."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the chopsticks? Choose **only one** option from the following list.\nOptions:\n(A) The person put the chopsticks in the small white cup.\n(B) The person put the chopsticks in the large black bowl.\n(C) The person put the chopsticks on the wooden cutting board.\n(D) The person put the chopsticks beside the small white cup.\n(E) The person put the chopsticks inside the blue ceramic dish.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person put the chopsticks in the small white cup."
+    },
+    "correct_idx": [
+        0
+    ]
+}

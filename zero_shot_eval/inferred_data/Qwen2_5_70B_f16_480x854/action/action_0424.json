@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is using both hands to lift the fabric while pulling it away from the sewing machine.",
+        "The person is using both hands to hold the cloth while sliding it towards the sewing machine.",
+        "The person is using one hand to push the cloth while guiding it towards the ironing board with the other hand.",
+        "The person is using both hands to fold the cloth in half while standing next to the sewing machine.",
+        "The person is using one hand to pin the cloth to a board while adjusting the fabric with the other hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is using both hands to lift the fabric while pulling it away from the sewing machine.\n(B) The person is using both hands to hold the cloth while sliding it towards the sewing machine.\n(C) The person is using one hand to push the cloth while guiding it towards the ironing board with the other hand.\n(D) The person is using both hands to fold the cloth in half while standing next to the sewing machine.\n(E) The person is using one hand to pin the cloth to a board while adjusting the fabric with the other hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person is using both hands to hold the cloth while sliding it towards the sewing machine."
+    },
+    "correct_idx": [
+        1
+    ]
+}

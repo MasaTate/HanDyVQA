@@ -1,0 +1,17 @@
+{
+    "question": "How does the person open a waste bin?",
+    "options": [
+        "The person presses down on the lid of the waste bin with his palm, gently encouraging it open.",
+        "The person lifts the lid with his left hand by carefully positioning his thumb underneath it, raising it smoothly.",
+        "The person uses both hands to gently slide the waste bin slightly, creating just enough movement for the lid to open.",
+        "The person lightly taps the waste bin with his knuckles, causing the lid to open slightly from the movement.",
+        "The person uses his right hand, gripping the edge of the waste bin with his pinky and ring fingers. He pulls it towards him with a controlled motion, opening it to create space for inserting the garbage."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person open a waste bin? Choose **only one** option from the following list.\nOptions:\n(A) The person presses down on the lid of the waste bin with his palm, gently encouraging it open.\n(B) The person lifts the lid with his left hand by carefully positioning his thumb underneath it, raising it smoothly.\n(C) The person uses both hands to gently slide the waste bin slightly, creating just enough movement for the lid to open.\n(D) The person lightly taps the waste bin with his knuckles, causing the lid to open slightly from the movement.\n(E) The person uses his right hand, gripping the edge of the waste bin with his pinky and ring fingers. He pulls it towards him with a controlled motion, opening it to create space for inserting the garbage.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person lifts the lid with his left hand by carefully positioning his thumb underneath it, raising it smoothly."
+    },
+    "correct_idx": [
+        4
+    ]
+}

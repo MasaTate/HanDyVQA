@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the pack change?",
+    "options": [
+        "The pack was opened and contents of the pack were taken out.",
+        "The pack was opened, but none of the contents were taken out.",
+        "The pack was partially opened and some contents were left inside.",
+        "The pack was opened and then closed without removing anything.",
+        "The pack was opened, but the contents were shaken rather than taken out."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the pack change? Choose **only one** option from the following list.\nOptions:\n(A) The pack was opened and contents of the pack were taken out.\n(B) The pack was opened, but none of the contents were taken out.\n(C) The pack was partially opened and some contents were left inside.\n(D) The pack was opened and then closed without removing anything.\n(E) The pack was opened, but the contents were shaken rather than taken out.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The pack was opened and contents of the pack were taken out."
+    },
+    "correct_idx": [
+        0
+    ]
+}

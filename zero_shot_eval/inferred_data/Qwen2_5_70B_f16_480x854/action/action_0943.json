@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person pushes the square plug end cap in his right hand into the cardboard tube.",
+        "The person attaches the round plug end cap in his right hand to the plastic bottle.",
+        "The person removes the round plug end cap in his right hand from the cardboard tube.",
+        "The person inserts the round plug end cap in his right hand into the cardboard tube.",
+        "The person inserts the round plug end cap in his right hand into the metal can."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person pushes the square plug end cap in his right hand into the cardboard tube.\n(B) The person attaches the round plug end cap in his right hand to the plastic bottle.\n(C) The person removes the round plug end cap in his right hand from the cardboard tube.\n(D) The person inserts the round plug end cap in his right hand into the cardboard tube.\n(E) The person inserts the round plug end cap in his right hand into the metal can.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person inserts the round plug end cap in his right hand into the cardboard tube."
+    },
+    "correct_idx": [
+        3
+    ]
+}

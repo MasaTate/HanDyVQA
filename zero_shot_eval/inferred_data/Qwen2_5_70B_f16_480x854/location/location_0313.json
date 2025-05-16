@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the hard drive on the work bench?",
+    "options": [
+        "The person dropped the hard drive on the workbench beside the monitor screen.",
+        "The person dropped the hard drive on the workbench at the far end of the table.",
+        "The person dropped the hard drive on the workbench in front of the coffee mug.",
+        "The person dropped the hard drive on the workbench near the laptop keyboard.",
+        "The person dropped the hard drive on the workbench next to the stack of papers."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the hard drive on the work bench? Choose **only one** option from the following list.\nOptions:\n(A) The person dropped the hard drive on the workbench beside the monitor screen.\n(B) The person dropped the hard drive on the workbench at the far end of the table.\n(C) The person dropped the hard drive on the workbench in front of the coffee mug.\n(D) The person dropped the hard drive on the workbench near the laptop keyboard.\n(E) The person dropped the hard drive on the workbench next to the stack of papers.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person dropped the hard drive on the workbench near the laptop keyboard."
+    },
+    "correct_idx": [
+        3
+    ]
+}

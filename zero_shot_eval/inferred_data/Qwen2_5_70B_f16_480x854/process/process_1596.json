@@ -1,0 +1,17 @@
+{
+    "question": "How does the person lift the bucket?",
+    "options": [
+        "The person lifts the bucket by using both hands to support it from underneath and then raising it smoothly.",
+        "The person lifts the bucket by firmly gripping the handle with their right hand and lifting the bucket upward.",
+        "The person picks up the bucket by lightly holding the edge with their fingertips and gently tilting it sideways.",
+        "The person grabs the bucket by placing one hand firmly around the middle and gently twisting their wrist to lift it.",
+        "The person hoists the bucket by carefully wrapping their arm around it and using their shoulder to lift it smoothly."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person lift the bucket? Choose **only one** option from the following list.\nOptions:\n(A) The person lifts the bucket by using both hands to support it from underneath and then raising it smoothly.\n(B) The person lifts the bucket by firmly gripping the handle with their right hand and lifting the bucket upward.\n(C) The person picks up the bucket by lightly holding the edge with their fingertips and gently tilting it sideways.\n(D) The person grabs the bucket by placing one hand firmly around the middle and gently twisting their wrist to lift it.\n(E) The person hoists the bucket by carefully wrapping their arm around it and using their shoulder to lift it smoothly.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person lifts the bucket by firmly gripping the handle with their right hand and lifting the bucket upward."
+    },
+    "correct_idx": [
+        1
+    ]
+}

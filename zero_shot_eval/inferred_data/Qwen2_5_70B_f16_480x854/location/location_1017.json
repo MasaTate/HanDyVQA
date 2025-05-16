@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the screw?",
+    "options": [
+        "The person dropped the screw inside the box.",
+        "The person dropped the screw next to the box.",
+        "The person dropped the screw on top of the box.",
+        "The person dropped the screw behind the box.",
+        "The person dropped the screw in front of the box."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the screw? Choose **only one** option from the following list.\nOptions:\n(A) The person dropped the screw inside the box.\n(B) The person dropped the screw next to the box.\n(C) The person dropped the screw on top of the box.\n(D) The person dropped the screw behind the box.\n(E) The person dropped the screw in front of the box.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person dropped the screw inside the box."
+    },
+    "correct_idx": [
+        0
+    ]
+}

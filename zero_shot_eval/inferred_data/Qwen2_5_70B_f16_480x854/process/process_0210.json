@@ -1,0 +1,17 @@
+{
+    "question": "How does the person carry a polythene bag?",
+    "options": [
+        "The person holds the polythene bag with both hands and raises it slightly above her head.",
+        "The person grasps the polythene bag by the handle and moves it gently back and forth.",
+        "The person uses her left hand to guide the bag softly along the ground.",
+        "The person smoothly transfers the polythene bag from one side to the other with a firm grip.",
+        "The person carries a polythene bag with her right hand and moves it in front of her."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person carry a polythene bag? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the polythene bag with both hands and raises it slightly above her head.\n(B) The person grasps the polythene bag by the handle and moves it gently back and forth.\n(C) The person uses her left hand to guide the bag softly along the ground.\n(D) The person smoothly transfers the polythene bag from one side to the other with a firm grip.\n(E) The person carries a polythene bag with her right hand and moves it in front of her.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person smoothly transfers the polythene bag from one side to the other with a firm grip."
+    },
+    "correct_idx": [
+        4
+    ]
+}

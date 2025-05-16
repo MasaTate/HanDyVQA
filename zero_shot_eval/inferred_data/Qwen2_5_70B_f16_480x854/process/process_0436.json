@@ -1,0 +1,17 @@
+{
+    "question": "How does the person scoop clay with right hand?",
+    "options": [
+        "The person uses the palm of his right hand to press down on the clay, flattening it slightly, and then lifts the jar gently.",
+        "The person pinches the clay between his thumb and index finger, pulling it towards himself and spreading it smoothly on the table.",
+        "The person scoops the clay with his fingers curled underneath the jar, lifts it gently, and throws it to the ground.",
+        "The person uses just his fingertips to gather the clay, gently moving it and placing it behind him.",
+        "The person shakes the jar slightly above the clay, causing the clay to spread around instead of scooping it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person scoop clay with right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person uses the palm of his right hand to press down on the clay, flattening it slightly, and then lifts the jar gently.\n(B) The person pinches the clay between his thumb and index finger, pulling it towards himself and spreading it smoothly on the table.\n(C) The person scoops the clay with his fingers curled underneath the jar, lifts it gently, and throws it to the ground.\n(D) The person uses just his fingertips to gather the clay, gently moving it and placing it behind him.\n(E) The person shakes the jar slightly above the clay, causing the clay to spread around instead of scooping it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person uses just his fingertips to gather the clay, gently moving it and placing it behind him."
+    },
+    "correct_idx": [
+        2
+    ]
+}

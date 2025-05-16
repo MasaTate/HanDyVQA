@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the chain?",
+    "options": [
+        "The person drops the chain beside a pile of wood on the ground.",
+        "The person drops the chain next to a bundle of firewood.",
+        "The person drops the chain near other chainsaws on the ground.",
+        "The person drops the chain close to a stack of lumber near the wall.",
+        "The person drops the chain in front of the shed by the doorway."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the chain? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the chain beside a pile of wood on the ground.\n(B) The person drops the chain next to a bundle of firewood.\n(C) The person drops the chain near other chainsaws on the ground.\n(D) The person drops the chain close to a stack of lumber near the wall.\n(E) The person drops the chain in front of the shed by the doorway.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person drops the chain near other chainsaws on the ground."
+    },
+    "correct_idx": [
+        2
+    ]
+}

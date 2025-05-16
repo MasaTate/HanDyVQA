@@ -1,0 +1,17 @@
+{
+    "question": "How does the person adjust the pipe?",
+    "options": [
+        "The person adjusts the pipe by using one hand to push it aside while keeping the other hand on the drawer.",
+        "The person adjusts the pipe by sliding it gently with their fingertips from one side to the other.",
+        "The person adjusts the pipe by grabbing it with one hand and smoothly twisting it in place.",
+        "The person adjusts the pipe by picking it up with both hands and moving it to the other drawer.",
+        "The person adjusts the pipe by leaning over and gently nudging it with their elbow."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person adjust the pipe? Choose **only one** option from the following list.\nOptions:\n(A) The person adjusts the pipe by using one hand to push it aside while keeping the other hand on the drawer.\n(B) The person adjusts the pipe by sliding it gently with their fingertips from one side to the other.\n(C) The person adjusts the pipe by grabbing it with one hand and smoothly twisting it in place.\n(D) The person adjusts the pipe by picking it up with both hands and moving it to the other drawer.\n(E) The person adjusts the pipe by leaning over and gently nudging it with their elbow.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person adjusts the pipe by picking it up with both hands and moving it to the other drawer."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person collect a drumstick?",
+    "options": [
+        "The person immediately grabs a pair of drumsticks, moves his hands backward, and then fixes the position of the other pair.",
+        "The person picks up one drumstick and lightly tosses it upward before catching it with one hand.",
+        "The person reaches down and pulls the drumstick smoothly across the table toward himself with an open palm.",
+        "The person picks up a single drumstick with his left hand while gently turning around.",
+        "The person grasps two drumsticks firmly and moves them up and down before placing them on the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person collect a drumstick? Choose **only one** option from the following list.\nOptions:\n(A) The person immediately grabs a pair of drumsticks, moves his hands backward, and then fixes the position of the other pair.\n(B) The person picks up one drumstick and lightly tosses it upward before catching it with one hand.\n(C) The person reaches down and pulls the drumstick smoothly across the table toward himself with an open palm.\n(D) The person picks up a single drumstick with his left hand while gently turning around.\n(E) The person grasps two drumsticks firmly and moves them up and down before placing them on the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person immediately grabs a pair of drumsticks, moves his hands backward, and then fixes the position of the other pair."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person bring a bag of bacon?",
+    "options": [
+        "The person picks up the bag of bacon from the refrigerator by gripping it with the fingers and lifting it up using his left hand.",
+        "The person grabs the bag of bacon from the countertop with a secure grip and pulls it toward himself with his right hand.",
+        "The person retrieves the bag of bacon from the refrigerator by gently using both hands to lower it, maintaining a slight grip.",
+        "The person reaches for the bag of bacon on the shelf and gently nudges it with the palm of his hand.",
+        "The person carefully slides the bag of bacon off the table into his hand by using his fingertips from the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person bring a bag of bacon? Choose **only one** option from the following list.\nOptions:\n(A) The person picks up the bag of bacon from the refrigerator by gripping it with the fingers and lifting it up using his left hand.\n(B) The person grabs the bag of bacon from the countertop with a secure grip and pulls it toward himself with his right hand.\n(C) The person retrieves the bag of bacon from the refrigerator by gently using both hands to lower it, maintaining a slight grip.\n(D) The person reaches for the bag of bacon on the shelf and gently nudges it with the palm of his hand.\n(E) The person carefully slides the bag of bacon off the table into his hand by using his fingertips from the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person picks up the bag of bacon from the refrigerator by gripping it with the fingers and lifting it up using his left hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

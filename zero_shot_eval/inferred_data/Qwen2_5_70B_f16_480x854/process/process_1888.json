@@ -1,0 +1,17 @@
+{
+    "question": "How does the person hold the t - screwdriver?",
+    "options": [
+        "The person grips the t-screwdriver securely with their right hand, using the palm to hold the t-handle while the left hand supports the handle's base, keeping it steady and stable.",
+        "The person holds the t-screwdriver with the left hand, gripping the t-handle firmly while the right hand rests on the screwdriver without adjusting its position.",
+        "The person holds the t-screwdriver with both hands, holding it from end to end and changing its position, rotating and swaying several times while walking.",
+        "The person uses the right hand to hold the t-handle of the t-screwdriver and tilts it slightly forward while the left hand is placed on the table, not touching the screwdriver.",
+        "The person clutches the t-screwdriver with one hand, rotating the t-handle smoothly without using the opposite hand to assist or modify the grip."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person hold the t - screwdriver? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the t-screwdriver securely with their right hand, using the palm to hold the t-handle while the left hand supports the handle's base, keeping it steady and stable.\n(B) The person holds the t-screwdriver with the left hand, gripping the t-handle firmly while the right hand rests on the screwdriver without adjusting its position.\n(C) The person holds the t-screwdriver with both hands, holding it from end to end and changing its position, rotating and swaying several times while walking.\n(D) The person uses the right hand to hold the t-handle of the t-screwdriver and tilts it slightly forward while the left hand is placed on the table, not touching the screwdriver.\n(E) The person clutches the t-screwdriver with one hand, rotating the t-handle smoothly without using the opposite hand to assist or modify the grip.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person holds the t-screwdriver with both hands, holding it from end to end and changing its position, rotating and swaying several times while walking."
+    },
+    "correct_idx": [
+        2
+    ]
+}

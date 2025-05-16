@@ -1,0 +1,17 @@
+{
+    "question": "How does the person dip the vegetable?",
+    "options": [
+        "The person dips the vegetable straight down into the sauce using the left hand.",
+        "The person gently swirls the vegetable around in a clockwise motion using both hands.",
+        "The person holds the vegetable above the sauce and lets it drop in with the right hand.",
+        "The person dips the vegetable and stirs it counterclockwise using the right hand.",
+        "The person grips the vegetable and moves it back and forth in the sauce with one hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person dip the vegetable? Choose **only one** option from the following list.\nOptions:\n(A) The person dips the vegetable straight down into the sauce using the left hand.\n(B) The person gently swirls the vegetable around in a clockwise motion using both hands.\n(C) The person holds the vegetable above the sauce and lets it drop in with the right hand.\n(D) The person dips the vegetable and stirs it counterclockwise using the right hand.\n(E) The person grips the vegetable and moves it back and forth in the sauce with one hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person dips the vegetable straight down into the sauce using the left hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

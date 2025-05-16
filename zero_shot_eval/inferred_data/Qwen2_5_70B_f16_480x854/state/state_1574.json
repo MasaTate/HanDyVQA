@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a wrap change?",
+    "options": [
+        "The wrap's edges were peeled away and frayed with a knife, compromising its appearance.",
+        "The wrap was completely flattened and compressed with a heavy object, changing its form.",
+        "The wrap was tightly rolled and enclosed again with plastic, enhancing its containment.",
+        "The wrap's filling was removed and spilled out, altering its contents entirely.",
+        "The wrap's surface was punctured and torn with a screwdriver, altering its integrity."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a wrap change? Choose **only one** option from the following list.\nOptions:\n(A) The wrap's edges were peeled away and frayed with a knife, compromising its appearance.\n(B) The wrap was completely flattened and compressed with a heavy object, changing its form.\n(C) The wrap was tightly rolled and enclosed again with plastic, enhancing its containment.\n(D) The wrap's filling was removed and spilled out, altering its contents entirely.\n(E) The wrap's surface was punctured and torn with a screwdriver, altering its integrity.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The wrap's surface was punctured and torn with a screwdriver, altering its integrity."
+    },
+    "correct_idx": [
+        4
+    ]
+}

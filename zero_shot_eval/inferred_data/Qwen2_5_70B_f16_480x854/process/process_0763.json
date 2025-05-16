@@ -1,0 +1,17 @@
+{
+    "question": "How does the person stir the pan of food on the cooker?",
+    "options": [
+        "The person quickly and continuously stirs the pan of food on the cooker using a whisk in his/her left hand, moving it in a circular motion.",
+        "The person carefully and slowly stirs the pan of food on the cooker using a spatula in his/her right hand, first in an upward direction and then stirs the food sideways while turning the pan anti-clockwise.",
+        "The person gently shifts the pan while shaking it with both hands, using his/her fingers to maintain the pan's position.",
+        "The person softly taps the pan with a wooden spoon held in his/her right hand, creating a rhythm in place of stirring the food.",
+        "The person holds the pan off the cooker and moves it back and forth with both hands, mixing the ingredients without a traditional stirring motion."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person stir the pan of food on the cooker? Choose **only one** option from the following list.\nOptions:\n(A) The person quickly and continuously stirs the pan of food on the cooker using a whisk in his/her left hand, moving it in a circular motion.\n(B) The person carefully and slowly stirs the pan of food on the cooker using a spatula in his/her right hand, first in an upward direction and then stirs the food sideways while turning the pan anti-clockwise.\n(C) The person gently shifts the pan while shaking it with both hands, using his/her fingers to maintain the pan's position.\n(D) The person softly taps the pan with a wooden spoon held in his/her right hand, creating a rhythm in place of stirring the food.\n(E) The person holds the pan off the cooker and moves it back and forth with both hands, mixing the ingredients without a traditional stirring motion.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person carefully and slowly stirs the pan of food on the cooker using a spatula in his/her right hand, first in an upward direction and then stirs the food sideways while turning the pan anti-clockwise."
+    },
+    "correct_idx": [
+        1
+    ]
+}

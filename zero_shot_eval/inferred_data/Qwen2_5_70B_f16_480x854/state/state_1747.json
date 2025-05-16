@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the drawer change?",
+    "options": [
+        "The drawer's position was changed as it was opened.",
+        "The drawer's state shifted as it was removed from the cabinet.",
+        "The drawer's orientation was altered as it was tilted on its side.",
+        "The drawer's appearance was modified as it was painted a different color.",
+        "The drawer's position was altered as it was closed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the drawer change? Choose **only one** option from the following list.\nOptions:\n(A) The drawer's position was changed as it was opened.\n(B) The drawer's state shifted as it was removed from the cabinet.\n(C) The drawer's orientation was altered as it was tilted on its side.\n(D) The drawer's appearance was modified as it was painted a different color.\n(E) The drawer's position was altered as it was closed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The drawer's position was changed as it was opened."
+    },
+    "correct_idx": [
+        4
+    ]
+}

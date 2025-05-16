@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put his right hand?",
+    "options": [
+        "The person put his right hand on the edge of the yoga mat, moving to the right.",
+        "The person put his right hand on the corner of the yoga mat, moving downwards.",
+        "The person put his right hand on the side of the yoga mat, moving towards the top.",
+        "The person put his right hand on the back of the yoga mat, moving to the front.",
+        "The person put his right hand on the center of the yoga mat, moving to the center."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put his right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person put his right hand on the edge of the yoga mat, moving to the right.\n(B) The person put his right hand on the corner of the yoga mat, moving downwards.\n(C) The person put his right hand on the side of the yoga mat, moving towards the top.\n(D) The person put his right hand on the back of the yoga mat, moving to the front.\n(E) The person put his right hand on the center of the yoga mat, moving to the center.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person put his right hand on the center of the yoga mat, moving to the center."
+    },
+    "correct_idx": [
+        4
+    ]
+}

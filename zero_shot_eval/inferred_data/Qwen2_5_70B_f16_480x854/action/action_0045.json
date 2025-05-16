@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person holds the plastic bowl with her left hand while mixing it with a whisk using her right hand, then pours the contents into a glass with her right hand.",
+        "The person balances the steel bowl with her left hand while scooping food from it using a fork in her right hand, then sets the fork down beside the bowl.",
+        "The person grasps the ceramic bowl with her left hand while shaking it with a spatula using her right hand, then removes her right hand and wipes it on a towel.",
+        "The person holds the steel bowl with her left hand while stirring it with a spoon using her right hand, then dips her right hand in a steel bowl filled with water.",
+        "The person clutches the glass bowl with her left hand while chopping vegetables with a knife using her right hand, then places the knife down on the counter."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the plastic bowl with her left hand while mixing it with a whisk using her right hand, then pours the contents into a glass with her right hand.\n(B) The person balances the steel bowl with her left hand while scooping food from it using a fork in her right hand, then sets the fork down beside the bowl.\n(C) The person grasps the ceramic bowl with her left hand while shaking it with a spatula using her right hand, then removes her right hand and wipes it on a towel.\n(D) The person holds the steel bowl with her left hand while stirring it with a spoon using her right hand, then dips her right hand in a steel bowl filled with water.\n(E) The person clutches the glass bowl with her left hand while chopping vegetables with a knife using her right hand, then places the knife down on the counter.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person holds the steel bowl with her left hand while stirring it with a spoon using her right hand, then dips her right hand in a steel bowl filled with water."
+    },
+    "correct_idx": [
+        3
+    ]
+}

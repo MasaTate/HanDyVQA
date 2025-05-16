@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the game cards change?",
+    "options": [
+        "The game cards were gathered into two piles without being turned over.",
+        "The game cards were positioned on the table without being turned over.",
+        "The game cards were combined into one location without being turned over.",
+        "The game cards were gathered into one place and rearranged without being turned over.",
+        "The game cards were gathered into one place without being turned over."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the game cards change? Choose **only one** option from the following list.\nOptions:\n(A) The game cards were gathered into two piles without being turned over.\n(B) The game cards were positioned on the table without being turned over.\n(C) The game cards were combined into one location without being turned over.\n(D) The game cards were gathered into one place and rearranged without being turned over.\n(E) The game cards were gathered into one place without being turned over.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The game cards were gathered into one place without being turned over."
+    },
+    "correct_idx": [
+        4
+    ]
+}

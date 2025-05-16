@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the crumpled baking paper?",
+    "options": [
+        "The person puts the crumpled baking paper on the countertop.",
+        "The person puts the crumpled baking paper in the trash can.",
+        "The person puts the crumpled baking paper under the kitchen sink.",
+        "The person puts the crumpled baking paper next to the oven.",
+        "The person puts the crumpled baking paper inside the sack."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the crumpled baking paper? Choose **only one** option from the following list.\nOptions:\n(A) The person puts the crumpled baking paper on the countertop.\n(B) The person puts the crumpled baking paper in the trash can.\n(C) The person puts the crumpled baking paper under the kitchen sink.\n(D) The person puts the crumpled baking paper next to the oven.\n(E) The person puts the crumpled baking paper inside the sack.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person puts the crumpled baking paper inside the sack."
+    },
+    "correct_idx": [
+        4
+    ]
+}

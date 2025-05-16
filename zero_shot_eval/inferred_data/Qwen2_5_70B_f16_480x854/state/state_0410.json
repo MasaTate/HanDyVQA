@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the wax carver change?",
+    "options": [
+        "The wax carver was picked up, rotated a bit more, and then placed back without contact.",
+        "The wax carver was picked up, rotated, and slightly contacted the wax.",
+        "The wax carver was picked up and rotated, but it did not contact the wax.",
+        "The wax carver was picked up, made contact with the wax, but was rotated in the opposite direction.",
+        "The wax carver was picked up, rotated, and had firm contact with the wax."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the wax carver change? Choose **only one** option from the following list.\nOptions:\n(A) The wax carver was picked up, rotated a bit more, and then placed back without contact.\n(B) The wax carver was picked up, rotated, and slightly contacted the wax.\n(C) The wax carver was picked up and rotated, but it did not contact the wax.\n(D) The wax carver was picked up, made contact with the wax, but was rotated in the opposite direction.\n(E) The wax carver was picked up, rotated, and had firm contact with the wax.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The wax carver was picked up, rotated, and had firm contact with the wax."
+    },
+    "correct_idx": [
+        1
+    ]
+}

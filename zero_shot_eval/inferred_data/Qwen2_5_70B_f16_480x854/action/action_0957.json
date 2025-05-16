@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person pats the dog's muzzle with her left hand and holds the dog's toy from its mouth.",
+        "The person strokes the dog's back with her left hand while holding the dog's collar with her right hand.",
+        "The person scratches the dog's belly with her left hand and tosses a ball using her right hand.",
+        "The person brushes the dog's fur with her left hand while squeezing a toy in her right hand.",
+        "The person hugs the dog with her left arm and holds the dog's leash with her right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person pats the dog's muzzle with her left hand and holds the dog's toy from its mouth.\n(B) The person strokes the dog's back with her left hand while holding the dog's collar with her right hand.\n(C) The person scratches the dog's belly with her left hand and tosses a ball using her right hand.\n(D) The person brushes the dog's fur with her left hand while squeezing a toy in her right hand.\n(E) The person hugs the dog with her left arm and holds the dog's leash with her right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person pats the dog's muzzle with her left hand and holds the dog's toy from its mouth."
+    },
+    "correct_idx": [
+        0
+    ]
+}

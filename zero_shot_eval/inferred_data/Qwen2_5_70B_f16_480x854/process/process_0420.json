@@ -1,0 +1,17 @@
+{
+    "question": "How does the person operate a cellphone?",
+    "options": [
+        "The person swipes the screen lightly with his left thumb and then taps the back of the cellphone with the same thumb to operate it.",
+        "The person holds the cellphone carefully in his left hand and uses his right pinky finger to touch the screen to operate it.",
+        "The person touches the screen with his palm and then gently shakes the cellphone to operate it.",
+        "The person taps the screen with his right index finger and then presses the side of the cellphone with the same index finger to operate it.",
+        "The person taps the screen using his right middle finger and then taps on the side of the cellphone with his knuckles to operate it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person operate a cellphone? Choose **only one** option from the following list.\nOptions:\n(A) The person swipes the screen lightly with his left thumb and then taps the back of the cellphone with the same thumb to operate it.\n(B) The person holds the cellphone carefully in his left hand and uses his right pinky finger to touch the screen to operate it.\n(C) The person touches the screen with his palm and then gently shakes the cellphone to operate it.\n(D) The person taps the screen with his right index finger and then presses the side of the cellphone with the same index finger to operate it.\n(E) The person taps the screen using his right middle finger and then taps on the side of the cellphone with his knuckles to operate it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person taps the screen with his right index finger and then presses the side of the cellphone with the same index finger to operate it."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the bolt change?",
+    "options": [
+        "The bolt changed as it was adjusted with pliers in a vertical motion.",
+        "The bolt changed as it was adjusted with pliers in a clockwise motion.",
+        "The bolt changed as it was adjusted with pliers in a horizontal motion.",
+        "The bolt changed as it was adjusted with pliers using a turning motion.",
+        "The bolt changed as it was adjusted with pliers in incremental motions."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the bolt change? Choose **only one** option from the following list.\nOptions:\n(A) The bolt changed as it was adjusted with pliers in a vertical motion.\n(B) The bolt changed as it was adjusted with pliers in a clockwise motion.\n(C) The bolt changed as it was adjusted with pliers in a horizontal motion.\n(D) The bolt changed as it was adjusted with pliers using a turning motion.\n(E) The bolt changed as it was adjusted with pliers in incremental motions.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The bolt changed as it was adjusted with pliers using a turning motion."
+    },
+    "correct_idx": [
+        2
+    ]
+}

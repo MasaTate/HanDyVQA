@@ -1,0 +1,17 @@
+{
+    "question": "How does the person change the position of the laptop?",
+    "options": [
+        "The person gently lifts the laptop off the table and moves it slightly sideways.",
+        "The person slightly tilts the laptop to one side and lets it smoothly move into a new position.",
+        "The person grips the laptop with both hands and carefully spins it around on the table.",
+        "The person changes the position of the laptop by pushing it backward.",
+        "The person pushes the laptop backward by gently using his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person change the position of the laptop? Choose **only one** option from the following list.\nOptions:\n(A) The person gently lifts the laptop off the table and moves it slightly sideways.\n(B) The person slightly tilts the laptop to one side and lets it smoothly move into a new position.\n(C) The person grips the laptop with both hands and carefully spins it around on the table.\n(D) The person changes the position of the laptop by pushing it backward.\n(E) The person pushes the laptop backward by gently using his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person changes the position of the laptop by pushing it backward."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a tissue from the roll of tissue change?",
+    "options": [
+        "The piece of the roll of tissue was taken out in a slow motion.",
+        "The piece of the roll of tissue was taken out in a quick motion.",
+        "The piece of the roll of tissue was torn off with a steady pull.",
+        "The piece of the roll of tissue was taken out and slightly crumpled.",
+        "The piece of the roll of tissue was taken out and then folded in half."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a tissue from the roll of tissue change? Choose **only one** option from the following list.\nOptions:\n(A) The piece of the roll of tissue was taken out in a slow motion.\n(B) The piece of the roll of tissue was taken out in a quick motion.\n(C) The piece of the roll of tissue was torn off with a steady pull.\n(D) The piece of the roll of tissue was taken out and slightly crumpled.\n(E) The piece of the roll of tissue was taken out and then folded in half.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The piece of the roll of tissue was torn off with a steady pull."
+    },
+    "correct_idx": [
+        1
+    ]
+}

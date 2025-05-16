@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the food processor change?",
+    "options": [
+        "The lid was securely placed on the food processor, enabling it to be plugged in.",
+        "The lid was loosely positioned on the food processor, preventing it from being plugged in.",
+        "The lid was removed from the food processor, causing it to be non-functional.",
+        "The lid was flipped upside down on the food processor, making it unstable for use.",
+        "The lid was cracked and unusable, rendering the food processor unable to operate."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the food processor change? Choose **only one** option from the following list.\nOptions:\n(A) The lid was securely placed on the food processor, enabling it to be plugged in.\n(B) The lid was loosely positioned on the food processor, preventing it from being plugged in.\n(C) The lid was removed from the food processor, causing it to be non-functional.\n(D) The lid was flipped upside down on the food processor, making it unstable for use.\n(E) The lid was cracked and unusable, rendering the food processor unable to operate.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The lid was securely placed on the food processor, enabling it to be plugged in."
+    },
+    "correct_idx": [
+        0
+    ]
+}

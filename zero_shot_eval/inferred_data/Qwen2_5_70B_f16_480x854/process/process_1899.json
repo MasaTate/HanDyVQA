@@ -1,0 +1,17 @@
+{
+    "question": "How does the person rub the liquid?",
+    "options": [
+        "The person wipes the handle using the left hand, moving up and down from the middle to the ends.",
+        "The person begins at the neck of the handle and rubs upward towards the top with alternating hands.",
+        "The person wipes the handle once from the end and then multiple times from the neck part down to the end with the right hand.",
+        "The person starts midway along the handle and rubs downward with a twisting motion using the left hand.",
+        "The person uses the right hand to rub the handle in circular motions, focusing on the middle section."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person rub the liquid? Choose **only one** option from the following list.\nOptions:\n(A) The person wipes the handle using the left hand, moving up and down from the middle to the ends.\n(B) The person begins at the neck of the handle and rubs upward towards the top with alternating hands.\n(C) The person wipes the handle once from the end and then multiple times from the neck part down to the end with the right hand.\n(D) The person starts midway along the handle and rubs downward with a twisting motion using the left hand.\n(E) The person uses the right hand to rub the handle in circular motions, focusing on the middle section.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person wipes the handle once from the end and then multiple times from the neck part down to the end with the right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person clean the plastic bowl?",
+    "options": [
+        "The person grabs a tissue using the right hand and wipes off the plastic container in different directions, while the left hand is holding the container for stability.",
+        "The person uses a sponge in the right hand to clean the inside of the plastic bowl, while the left hand tilts the bowl slightly for stability.",
+        "The person places the plastic bowl under running water and rotates it with the right hand, brushing it with the left hand.",
+        "The person dips a paper towel in soapy water with the right hand and gently swirls it around the plastic bowl, using the left hand for support.",
+        "The person submerges the plastic bowl in a sink filled with soapy water and moves it smoothly with both hands, alternating cleaning with the right hand while stabilizing with the left."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person clean the plastic bowl? Choose **only one** option from the following list.\nOptions:\n(A) The person grabs a tissue using the right hand and wipes off the plastic container in different directions, while the left hand is holding the container for stability.\n(B) The person uses a sponge in the right hand to clean the inside of the plastic bowl, while the left hand tilts the bowl slightly for stability.\n(C) The person places the plastic bowl under running water and rotates it with the right hand, brushing it with the left hand.\n(D) The person dips a paper towel in soapy water with the right hand and gently swirls it around the plastic bowl, using the left hand for support.\n(E) The person submerges the plastic bowl in a sink filled with soapy water and moves it smoothly with both hands, alternating cleaning with the right hand while stabilizing with the left.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person grabs a tissue using the right hand and wipes off the plastic container in different directions, while the left hand is holding the container for stability."
+    },
+    "correct_idx": [
+        0
+    ]
+}

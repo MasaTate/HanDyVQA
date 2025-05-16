@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a door change?",
+    "options": [
+        "The door, which was tightly closed, was pulled open slightly with the right hand.",
+        "The door, which was open, was closed with a quick motion.",
+        "The door, which was fully open, was held in place while the lock was adjusted.",
+        "The door, which was partially open, was moved back and forth under control.",
+        "The door, which was slightly ajar, was pushed open wider with the left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a door change? Choose **only one** option from the following list.\nOptions:\n(A) The door, which was tightly closed, was pulled open slightly with the right hand.\n(B) The door, which was open, was closed with a quick motion.\n(C) The door, which was fully open, was held in place while the lock was adjusted.\n(D) The door, which was partially open, was moved back and forth under control.\n(E) The door, which was slightly ajar, was pushed open wider with the left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The door, which was slightly ajar, was pushed open wider with the left hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "net",
+        "twig",
+        "sleeves",
+        "plant",
+        "basket",
+        "soil"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) net\n(B) twig\n(C) sleeves\n(D) plant\n(E) basket\n(F) soil\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(D) plant  \n(E) basket  \n\nThe hands in the video are seen picking plants and placing them into a blue basket. The plants are being handled directly, and the basket is used as a container for the collected plants. There is no indication that the hands are using a net, twigs, sleeves, or soil as objects."
+    },
+    "correct_idx": [
+        3,
+        4
+    ]
+}

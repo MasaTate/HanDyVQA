@@ -1,0 +1,17 @@
+{
+    "question": "How does the person clean the socket?",
+    "options": [
+        "The person places the socket between the tissue, then moves their thumb against the other fingers, rubbing it to clean the socket.",
+        "The person grips the socket using their palm, then quickly wipes it with their fingers, providing some friction.",
+        "The person pinches the socket with their middle finger and pinky while using a cloth, gliding it over the surface with minimal rubbing.",
+        "The person uses their fingertips to press down on the socket and then turns it over, aiming to remove dust rather than fully clean it.",
+        "The person holds the socket securely and moves it back and forth, generating friction with the tissue."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person clean the socket? Choose **only one** option from the following list.\nOptions:\n(A) The person places the socket between the tissue, then moves their thumb against the other fingers, rubbing it to clean the socket.\n(B) The person grips the socket using their palm, then quickly wipes it with their fingers, providing some friction.\n(C) The person pinches the socket with their middle finger and pinky while using a cloth, gliding it over the surface with minimal rubbing.\n(D) The person uses their fingertips to press down on the socket and then turns it over, aiming to remove dust rather than fully clean it.\n(E) The person holds the socket securely and moves it back and forth, generating friction with the tissue.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person places the socket between the tissue, then moves their thumb against the other fingers, rubbing it to clean the socket."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pour coffee?",
+    "options": [
+        "The person pours the coffee swiftly, carefully using both hands to tilt the kettle.",
+        "The person spills the coffee slightly by slightly losing grip while holding the kettle with one hand.",
+        "The person pours the coffee with slightly unsteady hands due to the heavy kettle.",
+        "The person pours the coffee gently, tilting the hot kettle with the right hand.",
+        "The person tilts the kettle slightly as they pour, creating small splashes."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pour coffee? Choose **only one** option from the following list.\nOptions:\n(A) The person pours the coffee swiftly, carefully using both hands to tilt the kettle.\n(B) The person spills the coffee slightly by slightly losing grip while holding the kettle with one hand.\n(C) The person pours the coffee with slightly unsteady hands due to the heavy kettle.\n(D) The person pours the coffee gently, tilting the hot kettle with the right hand.\n(E) The person tilts the kettle slightly as they pour, creating small splashes.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person pours the coffee gently, tilting the hot kettle with the right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

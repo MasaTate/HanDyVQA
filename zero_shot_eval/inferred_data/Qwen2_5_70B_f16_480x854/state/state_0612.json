@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the plier change?",
+    "options": [
+        "The pliers gripped a small wire loosely and were dropped on the ground without being opened.",
+        "The pliers gripped a thin thread firmly and were placed back in the toolbox without being opened.",
+        "The pliers gripped a small wire firmly and were lifted into the air without being opened.",
+        "The pliers gripped a small wire firmly and were put aside without being opened.",
+        "The pliers gripped a small wire firmly and were handed over to another person without being opened."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the plier change? Choose **only one** option from the following list.\nOptions:\n(A) The pliers gripped a small wire loosely and were dropped on the ground without being opened.\n(B) The pliers gripped a thin thread firmly and were placed back in the toolbox without being opened.\n(C) The pliers gripped a small wire firmly and were lifted into the air without being opened.\n(D) The pliers gripped a small wire firmly and were put aside without being opened.\n(E) The pliers gripped a small wire firmly and were handed over to another person without being opened.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The pliers gripped a small wire firmly and were put aside without being opened."
+    },
+    "correct_idx": [
+        3
+    ]
+}

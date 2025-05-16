@@ -1,0 +1,17 @@
+{
+    "question": "How does the person change the position of the cover?",
+    "options": [
+        "The person flips the cover over using the left hand and places it on the table.",
+        "The person moves the position of the cover from the countertop using the right hand then sets it on the cutting board.",
+        "The person lifts the cover with both hands then sets it gently on the floor.",
+        "The person pushes the cover from the countertop with the forearm, guiding it to the edge.",
+        "The person grabs the cover with the right hand and holds it up for a moment before setting it down."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person change the position of the cover? Choose **only one** option from the following list.\nOptions:\n(A) The person flips the cover over using the left hand and places it on the table.\n(B) The person moves the position of the cover from the countertop using the right hand then sets it on the cutting board.\n(C) The person lifts the cover with both hands then sets it gently on the floor.\n(D) The person pushes the cover from the countertop with the forearm, guiding it to the edge.\n(E) The person grabs the cover with the right hand and holds it up for a moment before setting it down.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person moves the position of the cover from the countertop using the right hand then sets it on the cutting board."
+    },
+    "correct_idx": [
+        1
+    ]
+}

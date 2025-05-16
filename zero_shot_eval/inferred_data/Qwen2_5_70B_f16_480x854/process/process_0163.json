@@ -1,0 +1,17 @@
+{
+    "question": "How does the person make gestures?",
+    "options": [
+        "The person creates gestures by balancing the brush on their palm and rotating it around the canvas.",
+        "The person makes gestures by passing the brush between both hands without directly touching the canvas.",
+        "The person gestures by gripping the brush firmly with both hands and pressing it onto the canvas.",
+        "The person produces gestures by tossing the brush gently into the air and letting it settle onto the canvas.",
+        "The person makes gestures by holding the brush and moving it back and forth in front of the canvas."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person make gestures? Choose **only one** option from the following list.\nOptions:\n(A) The person creates gestures by balancing the brush on their palm and rotating it around the canvas.\n(B) The person makes gestures by passing the brush between both hands without directly touching the canvas.\n(C) The person gestures by gripping the brush firmly with both hands and pressing it onto the canvas.\n(D) The person produces gestures by tossing the brush gently into the air and letting it settle onto the canvas.\n(E) The person makes gestures by holding the brush and moving it back and forth in front of the canvas.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person makes gestures by holding the brush and moving it back and forth in front of the canvas."
+    },
+    "correct_idx": [
+        4
+    ]
+}

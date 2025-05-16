@@ -1,0 +1,17 @@
+{
+    "question": "How does the person play video game?",
+    "options": [
+        "The person plays the video game by moving their arms and pressing keys on the keyboard energetically.",
+        "The person engages in the video game by tapping the screen of a tablet with quick, deliberate finger movements.",
+        "The person plays the video game by pressing keys on the keyboard and moving the mouse with controlled motions.",
+        "The person controls the video game by holding the joystick and moving it back and forth while focusing on the buttons.",
+        "The person plays the video game by using both hands to interact with the keys and a controller smoothly."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person play video game? Choose **only one** option from the following list.\nOptions:\n(A) The person plays the video game by moving their arms and pressing keys on the keyboard energetically.\n(B) The person engages in the video game by tapping the screen of a tablet with quick, deliberate finger movements.\n(C) The person plays the video game by pressing keys on the keyboard and moving the mouse with controlled motions.\n(D) The person controls the video game by holding the joystick and moving it back and forth while focusing on the buttons.\n(E) The person plays the video game by using both hands to interact with the keys and a controller smoothly.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person plays the video game by pressing keys on the keyboard and moving the mouse with controlled motions."
+    },
+    "correct_idx": [
+        2
+    ]
+}

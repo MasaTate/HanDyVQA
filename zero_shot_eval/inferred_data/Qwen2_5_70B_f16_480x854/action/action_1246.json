@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is taking food out of the frying pan and placing it into a bowl with their right hand while holding the tupperware in their left hand.",
+        "The person is stirring the food in the frying pan with a spatula using their left hand while balancing the tupperware on the table with their right hand.",
+        "The person is putting food into the frying pan from the tupperware using their left hand.",
+        "The person is removing food from the tupperware into a plate using their right hand while holding the frying pan with their left hand.",
+        "The person is pouring food from the frying pan into the tupperware using their left hand while reaching for a spoon with their right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is taking food out of the frying pan and placing it into a bowl with their right hand while holding the tupperware in their left hand.\n(B) The person is stirring the food in the frying pan with a spatula using their left hand while balancing the tupperware on the table with their right hand.\n(C) The person is putting food into the frying pan from the tupperware using their left hand.\n(D) The person is removing food from the tupperware into a plate using their right hand while holding the frying pan with their left hand.\n(E) The person is pouring food from the frying pan into the tupperware using their left hand while reaching for a spoon with their right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person is putting food into the frying pan from the tupperware using their left hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

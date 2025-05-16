@@ -1,0 +1,17 @@
+{
+    "question": "How does the person loosen a nut from the laptop board?",
+    "options": [
+        "The person twists the nut gently with a pair of pliers in his left hand.",
+        "The person loosens the nut from the laptop board using the precision screw with his right hand and turns it counterclockwise.",
+        "The person pulls the nut from the laptop board by gripping it snugly with his fingers on both hands.",
+        "The person loosens the nut using his right hand and carefully places the nut onto the table.",
+        "The person attempts to loosen the nut by pressing it with the palm of his hand without using a tool."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person loosen a nut from the laptop board? Choose **only one** option from the following list.\nOptions:\n(A) The person twists the nut gently with a pair of pliers in his left hand.\n(B) The person loosens the nut from the laptop board using the precision screw with his right hand and turns it counterclockwise.\n(C) The person pulls the nut from the laptop board by gripping it snugly with his fingers on both hands.\n(D) The person loosens the nut using his right hand and carefully places the nut onto the table.\n(E) The person attempts to loosen the nut by pressing it with the palm of his hand without using a tool.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person loosens the nut from the laptop board using the precision screw with his right hand and turns it counterclockwise."
+    },
+    "correct_idx": [
+        1
+    ]
+}

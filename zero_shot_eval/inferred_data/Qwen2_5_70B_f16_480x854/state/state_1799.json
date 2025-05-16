@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the comb change?",
+    "options": [
+        "The comb was dragged along the edge of the table, resulting in the table surface becoming scratched and marked.",
+        "The comb was passed through the bristles of the paintbrush, resulting in the bristles being separated and cleaned.",
+        "The comb was dipped into a bowl of water, resulting in it becoming wet and heavy with moisture.",
+        "The comb was placed under a heavy book, resulting in it being bent and distorted.",
+        "The comb was brushed against a piece of fabric, resulting in fibers becoming stuck between its teeth and altering its appearance."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the comb change? Choose **only one** option from the following list.\nOptions:\n(A) The comb was dragged along the edge of the table, resulting in the table surface becoming scratched and marked.\n(B) The comb was passed through the bristles of the paintbrush, resulting in the bristles being separated and cleaned.\n(C) The comb was dipped into a bowl of water, resulting in it becoming wet and heavy with moisture.\n(D) The comb was placed under a heavy book, resulting in it being bent and distorted.\n(E) The comb was brushed against a piece of fabric, resulting in fibers becoming stuck between its teeth and altering its appearance.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The comb was passed through the bristles of the paintbrush, resulting in the bristles being separated and cleaned."
+    },
+    "correct_idx": [
+        1
+    ]
+}

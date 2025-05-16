@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the garden change?",
+    "options": [
+        "The garden was transformed after the plants were uprooted.",
+        "The garden was altered once the weeds were removed.",
+        "The garden was modified when the flowers were rearranged.",
+        "The garden was impacted after the grass was removed.",
+        "The garden was changed after the soil was tilled."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the garden change? Choose **only one** option from the following list.\nOptions:\n(A) The garden was transformed after the plants were uprooted.\n(B) The garden was altered once the weeds were removed.\n(C) The garden was modified when the flowers were rearranged.\n(D) The garden was impacted after the grass was removed.\n(E) The garden was changed after the soil was tilled.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The garden was altered once the weeds were removed."
+    },
+    "correct_idx": [
+        4
+    ]
+}

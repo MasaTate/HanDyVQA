@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the boot change?",
+    "options": [
+        "The tops of the boot were painted with quick and random strokes.",
+        "The sides of the boot were painted with careful and detailed movements.",
+        "The tops of the boot were painted with broad, sweeping movements.",
+        "The tops of the boot were painted with careful and detailed movements.",
+        "The entire surface of the boot was coated with a thick layer of paint."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the boot change? Choose **only one** option from the following list.\nOptions:\n(A) The tops of the boot were painted with quick and random strokes.\n(B) The sides of the boot were painted with careful and detailed movements.\n(C) The tops of the boot were painted with broad, sweeping movements.\n(D) The tops of the boot were painted with careful and detailed movements.\n(E) The entire surface of the boot was coated with a thick layer of paint.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The tops of the boot were painted with careful and detailed movements."
+    },
+    "correct_idx": [
+        3
+    ]
+}

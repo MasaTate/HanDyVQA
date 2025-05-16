@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move a bowl?",
+    "options": [
+        "The person moved the bowl to the left side of the table.",
+        "The person moved the bowl to the back of the table.",
+        "The person moved the bowl to the right side of the table.",
+        "The person moved the bowl to the center of the table.",
+        "The person moved the bowl to the front edge of the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move a bowl? Choose **only one** option from the following list.\nOptions:\n(A) The person moved the bowl to the left side of the table.\n(B) The person moved the bowl to the back of the table.\n(C) The person moved the bowl to the right side of the table.\n(D) The person moved the bowl to the center of the table.\n(E) The person moved the bowl to the front edge of the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person moved the bowl to the left side of the table."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person stir liquid?",
+    "options": [
+        "The person balances the wooden plank on the edge of the container, allowing it to fall into the liquid gently.",
+        "The person takes the wooden plank in his left hand, swirling it around slowly without effectively stirring the liquid.",
+        "The person holds the wooden plank in his right hand, submerges it into the liquid, and moves it forward in a single direction to stir.",
+        "The person pushes down on the wooden plank with his right hand, using it to press closely against the bottom of the container rather than stirring.",
+        "The person holds the wooden plank in his right hand, dips it into the liquid, and gently moves it back and forth to stir."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person stir liquid? Choose **only one** option from the following list.\nOptions:\n(A) The person balances the wooden plank on the edge of the container, allowing it to fall into the liquid gently.\n(B) The person takes the wooden plank in his left hand, swirling it around slowly without effectively stirring the liquid.\n(C) The person holds the wooden plank in his right hand, submerges it into the liquid, and moves it forward in a single direction to stir.\n(D) The person pushes down on the wooden plank with his right hand, using it to press closely against the bottom of the container rather than stirring.\n(E) The person holds the wooden plank in his right hand, dips it into the liquid, and gently moves it back and forth to stir.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person holds the wooden plank in his right hand, dips it into the liquid, and gently moves it back and forth to stir."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person grab a blower vacuum?",
+    "options": [
+        "The person reaches down and carefully lifts the blower vacuum with both hands, holding it near the bottom but not using the handle.",
+        "The person bends down and uses the right hand to gently and securely wrap their fingers around the handle of the blower vacuum and lift it upwards.",
+        "The person squats and moves the blower vacuum forward, using one hand to slide it rather than holding it directly.",
+        "The person leans over and picks up the blower vacuum from the ground using the left hand only, without using the other hand for balance.",
+        "The person bends at the waist and pulls the blower vacuum by the cord instead of holding the handle firmly."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person grab a blower vacuum? Choose **only one** option from the following list.\nOptions:\n(A) The person reaches down and carefully lifts the blower vacuum with both hands, holding it near the bottom but not using the handle.\n(B) The person bends down and uses the right hand to gently and securely wrap their fingers around the handle of the blower vacuum and lift it upwards.\n(C) The person squats and moves the blower vacuum forward, using one hand to slide it rather than holding it directly.\n(D) The person leans over and picks up the blower vacuum from the ground using the left hand only, without using the other hand for balance.\n(E) The person bends at the waist and pulls the blower vacuum by the cord instead of holding the handle firmly.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person bends down and uses the right hand to gently and securely wrap their fingers around the handle of the blower vacuum and lift it upwards."
+    },
+    "correct_idx": [
+        1
+    ]
+}

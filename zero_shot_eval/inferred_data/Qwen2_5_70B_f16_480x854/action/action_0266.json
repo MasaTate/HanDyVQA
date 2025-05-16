@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person attaches the rear fender with his gloved right hand while the gloved left hand stabilizes the rear fender.",
+        "The person is loosening the screws of the rear fender with his gloved right hand while his gloved left hand holds the rear fender.",
+        "The person tightens the rear fender with his gloved right hand while the gloved left hand secures the rear fender.",
+        "The person screws the inside of the rear fender with his gloved right hand while the gloved left hand holds the rear fender.",
+        "The person removes the screws from the rear fender with his gloved right hand while his gloved left hand holds a screwdriver."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person attaches the rear fender with his gloved right hand while the gloved left hand stabilizes the rear fender.\n(B) The person is loosening the screws of the rear fender with his gloved right hand while his gloved left hand holds the rear fender.\n(C) The person tightens the rear fender with his gloved right hand while the gloved left hand secures the rear fender.\n(D) The person screws the inside of the rear fender with his gloved right hand while the gloved left hand holds the rear fender.\n(E) The person removes the screws from the rear fender with his gloved right hand while his gloved left hand holds a screwdriver.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person is loosening the screws of the rear fender with his gloved right hand while his gloved left hand holds the rear fender."
+    },
+    "correct_idx": [
+        3
+    ]
+}

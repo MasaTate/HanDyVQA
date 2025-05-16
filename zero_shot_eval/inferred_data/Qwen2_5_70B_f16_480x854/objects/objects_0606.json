@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "table. ",
+        "plastic jar. ",
+        "necklace. ",
+        "milk",
+        "stainless bowl",
+        "stainless plate"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) table. \n(B) plastic jar. \n(C) necklace. \n(D) milk\n(E) stainless bowl\n(F) stainless plate\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(E) Stainless bowl  \n(F) Stainless plate  \n\nThe hands in the video interact with both a stainless bowl and a stainless plate. The person opens the stainless bowl, revealing its contents, and then uses the stainless plate to cover it again. These actions clearly show the use of both objects."
+    },
+    "correct_idx": [
+        4,
+        5
+    ]
+}

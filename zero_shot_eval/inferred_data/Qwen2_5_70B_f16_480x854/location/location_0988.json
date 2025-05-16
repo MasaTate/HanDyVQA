@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place his left hand?",
+    "options": [
+        "The person places his left hand on the side of the motorbike seat.",
+        "The person places his left hand on the motorbike lifter.",
+        "The person places his left hand on the handlebar of the motorbike.",
+        "The person places his left hand on the ground next to the motorbike.",
+        "The person places his left hand on the rear wheel of the motorbike."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place his left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person places his left hand on the side of the motorbike seat.\n(B) The person places his left hand on the motorbike lifter.\n(C) The person places his left hand on the handlebar of the motorbike.\n(D) The person places his left hand on the ground next to the motorbike.\n(E) The person places his left hand on the rear wheel of the motorbike.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person places his left hand on the motorbike lifter."
+    },
+    "correct_idx": [
+        1
+    ]
+}

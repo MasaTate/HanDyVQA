@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person shapes the clay with one hand while working with a tool in the other.",
+        "The person rolls the clay on the table using both hands.",
+        "The person molds the clay with both hands.",
+        "The person smooths the surface of the clay by using a sponge in one hand while supporting the base with the other.",
+        "The person cuts a piece of clay with a wire cutter in one hand while holding the remainder with the other."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person shapes the clay with one hand while working with a tool in the other.\n(B) The person rolls the clay on the table using both hands.\n(C) The person molds the clay with both hands.\n(D) The person smooths the surface of the clay by using a sponge in one hand while supporting the base with the other.\n(E) The person cuts a piece of clay with a wire cutter in one hand while holding the remainder with the other.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person molds the clay with both hands."
+    },
+    "correct_idx": [
+        2
+    ]
+}

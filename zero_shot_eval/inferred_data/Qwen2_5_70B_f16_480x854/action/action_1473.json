@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is using the right hand to pick up some pieces of dough, then transferred them to the left hand to hold, before using the right hand again to place the dough on the moving plate.",
+        "The person is using the right hand to shape some pieces of dough, then moved them to the left hand to hold, before using the right hand again to place them into a tray.",
+        "The person used the left hand to pick up some pieces of dough, then transferred them to the right hand to hold, before using the left hand again to place the dough on the counter.",
+        "The person is grasping some pieces of dough with both hands, then rolling them on the counter before using the right hand to press them into a cookie shape.",
+        "The person is grabbing a handful of flour with the right hand, then sprinkling it onto the dough held in the left hand, before using the right hand again to mix the flour into the dough."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is using the right hand to pick up some pieces of dough, then transferred them to the left hand to hold, before using the right hand again to place the dough on the moving plate.\n(B) The person is using the right hand to shape some pieces of dough, then moved them to the left hand to hold, before using the right hand again to place them into a tray.\n(C) The person used the left hand to pick up some pieces of dough, then transferred them to the right hand to hold, before using the left hand again to place the dough on the counter.\n(D) The person is grasping some pieces of dough with both hands, then rolling them on the counter before using the right hand to press them into a cookie shape.\n(E) The person is grabbing a handful of flour with the right hand, then sprinkling it onto the dough held in the left hand, before using the right hand again to mix the flour into the dough.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person is using the right hand to pick up some pieces of dough, then transferred them to the left hand to hold, before using the right hand again to place the dough on the moving plate."
+    },
+    "correct_idx": [
+        0
+    ]
+}

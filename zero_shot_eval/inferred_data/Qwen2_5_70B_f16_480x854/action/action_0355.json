@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is washing the casserole with her hands and drying it with a towel afterward.",
+        "The person is scraping off the burnt food from the casserole using a spatula and setting it aside.",
+        "The person is removing the dirt from the casserole with her right hand and putting it aside while holding the casserole with her left hand.",
+        "The person is seasoning the casserole with her hands and then placing it in the oven.",
+        "The person is stacking the casserole with other dishes using both hands and tidying up the kitchen."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is washing the casserole with her hands and drying it with a towel afterward.\n(B) The person is scraping off the burnt food from the casserole using a spatula and setting it aside.\n(C) The person is removing the dirt from the casserole with her right hand and putting it aside while holding the casserole with her left hand.\n(D) The person is seasoning the casserole with her hands and then placing it in the oven.\n(E) The person is stacking the casserole with other dishes using both hands and tidying up the kitchen.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person is removing the dirt from the casserole with her right hand and putting it aside while holding the casserole with her left hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

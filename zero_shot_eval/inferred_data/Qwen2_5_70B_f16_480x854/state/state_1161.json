@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the cabinet change?",
+    "options": [
+        "The cabinet was closed, and the pan inside was rearranged.",
+        "The cabinet was opened, and the pan inside was repositioned behind a larger pot.",
+        "The cabinet was opened, and the pan inside was removed.",
+        "The cabinet was relocated, and the pan was left inside.",
+        "The cabinet was opened, and the pan was placed back inside."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the cabinet change? Choose **only one** option from the following list.\nOptions:\n(A) The cabinet was closed, and the pan inside was rearranged.\n(B) The cabinet was opened, and the pan inside was repositioned behind a larger pot.\n(C) The cabinet was opened, and the pan inside was removed.\n(D) The cabinet was relocated, and the pan was left inside.\n(E) The cabinet was opened, and the pan was placed back inside.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The cabinet was opened, and the pan inside was removed."
+    },
+    "correct_idx": [
+        2
+    ]
+}

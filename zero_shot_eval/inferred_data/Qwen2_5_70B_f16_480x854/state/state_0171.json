@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the portion of spinach change?",
+    "options": [
+        "The portion of spinach was dropped onto the ground.",
+        "The portion of spinach was thrown out, and the rest was tied together.",
+        "The portion of spinach was encased in plastic wrap.",
+        "The portion of spinach was turned into a smoothie.",
+        "The portion of spinach was placed on a plate."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the portion of spinach change? Choose **only one** option from the following list.\nOptions:\n(A) The portion of spinach was dropped onto the ground.\n(B) The portion of spinach was thrown out, and the rest was tied together.\n(C) The portion of spinach was encased in plastic wrap.\n(D) The portion of spinach was turned into a smoothie.\n(E) The portion of spinach was placed on a plate.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The portion of spinach was dropped onto the ground."
+    },
+    "correct_idx": [
+        1
+    ]
+}

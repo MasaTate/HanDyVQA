@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the piece of green pepper change?",
+    "options": [
+        "The piece of green pepper was placed alongside the bowl on the counter.",
+        "The piece of green pepper was gently put into the bowl.",
+        "The piece of green pepper was dropped onto the surface of the cutting board.",
+        "The piece of green pepper was thrown beyond the bowl and ended up on the floor.",
+        "The piece of green pepper was tossed into the bowl in a quick motion."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the piece of green pepper change? Choose **only one** option from the following list.\nOptions:\n(A) The piece of green pepper was placed alongside the bowl on the counter.\n(B) The piece of green pepper was gently put into the bowl.\n(C) The piece of green pepper was dropped onto the surface of the cutting board.\n(D) The piece of green pepper was thrown beyond the bowl and ended up on the floor.\n(E) The piece of green pepper was tossed into the bowl in a quick motion.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The piece of green pepper was gently put into the bowl."
+    },
+    "correct_idx": [
+        4
+    ]
+}

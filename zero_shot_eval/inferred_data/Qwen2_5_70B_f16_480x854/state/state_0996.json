@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the rim change?",
+    "options": [
+        "The rim was removed from the tire, resulting in it being detached and lying on the ground.",
+        "The rim was painted with a glossy finish, changing its appearance and texture.",
+        "The rim was fitted onto the tire, ensuring that it aligned properly with the edges of the wheel.",
+        "The rim was bent out of shape, preventing it from fitting securely on the tire.",
+        "The rim was replaced with a larger one, altering the overall size and fit on the vehicle."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the rim change? Choose **only one** option from the following list.\nOptions:\n(A) The rim was removed from the tire, resulting in it being detached and lying on the ground.\n(B) The rim was painted with a glossy finish, changing its appearance and texture.\n(C) The rim was fitted onto the tire, ensuring that it aligned properly with the edges of the wheel.\n(D) The rim was bent out of shape, preventing it from fitting securely on the tire.\n(E) The rim was replaced with a larger one, altering the overall size and fit on the vehicle.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The rim was fitted onto the tire, ensuring that it aligned properly with the edges of the wheel."
+    },
+    "correct_idx": [
+        2
+    ]
+}

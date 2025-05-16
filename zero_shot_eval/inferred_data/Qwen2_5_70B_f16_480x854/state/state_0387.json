@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the drawer under the tool cabinet change?",
+    "options": [
+        "The first layer of the drawer under the tool cabinet was completely pulled out while the second layer remained closed.",
+        "The first layer of the drawer under the tool cabinet was slightly opened and immediately closed before the second layer was opened.",
+        "The first layer of the drawer under the tool cabinet was left fully open while the second layer was accessed.",
+        "The first layer of the drawer under the tool cabinet was opened halfway, then the second layer was also opened halfway.",
+        "The first layer of the drawer under the tool cabinet was opened slowly before the second layer was brought back in."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the drawer under the tool cabinet change? Choose **only one** option from the following list.\nOptions:\n(A) The first layer of the drawer under the tool cabinet was completely pulled out while the second layer remained closed.\n(B) The first layer of the drawer under the tool cabinet was slightly opened and immediately closed before the second layer was opened.\n(C) The first layer of the drawer under the tool cabinet was left fully open while the second layer was accessed.\n(D) The first layer of the drawer under the tool cabinet was opened halfway, then the second layer was also opened halfway.\n(E) The first layer of the drawer under the tool cabinet was opened slowly before the second layer was brought back in.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The first layer of the drawer under the tool cabinet was completely pulled out while the second layer remained closed."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the drill change?",
+    "options": [
+        "The drill was moved to the right hand and when turned on, the light flickered.",
+        "The drill was moved to the left hand and when turned on, the light came on.",
+        "The drill was moved to the left hand and was turned on without the light coming on.",
+        "The drill was shifted to the left hand but was not turned on.",
+        "The drill was moved to the right hand and when turned on, the light did not illuminate."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the drill change? Choose **only one** option from the following list.\nOptions:\n(A) The drill was moved to the right hand and when turned on, the light flickered.\n(B) The drill was moved to the left hand and when turned on, the light came on.\n(C) The drill was moved to the left hand and was turned on without the light coming on.\n(D) The drill was shifted to the left hand but was not turned on.\n(E) The drill was moved to the right hand and when turned on, the light did not illuminate.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The drill was moved to the left hand and when turned on, the light came on."
+    },
+    "correct_idx": [
+        1
+    ]
+}

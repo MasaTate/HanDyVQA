@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the nails change?",
+    "options": [
+        "The nails were removed from the wood after being embedded.",
+        "The nails became embedded in the wood as they were hammered in.",
+        "The nails were bent at an angle as they were hammered into the surface.",
+        "The nails caused the surface of the wood to crack as they were driven in.",
+        "The nails formed a pattern on the wood as they were nailed down."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the nails change? Choose **only one** option from the following list.\nOptions:\n(A) The nails were removed from the wood after being embedded.\n(B) The nails became embedded in the wood as they were hammered in.\n(C) The nails were bent at an angle as they were hammered into the surface.\n(D) The nails caused the surface of the wood to crack as they were driven in.\n(E) The nails formed a pattern on the wood as they were nailed down.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The nails became embedded in the wood as they were hammered in."
+    },
+    "correct_idx": [
+        1
+    ]
+}

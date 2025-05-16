@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "wheels",
+        "carton box",
+        "shirt",
+        "shoes",
+        "paint brush",
+        "glue container"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) wheels\n(B) carton box\n(C) shirt\n(D) shoes\n(E) paint brush\n(F) glue container\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(E) Paint brush  \n(F) Glue container  \n\nThe hands in the video are using a paintbrush to apply grease or oil from a container (glue container) onto a car part. The other options do not apply based on the visible actions in the video."
+    },
+    "correct_idx": [
+        4,
+        5
+    ]
+}

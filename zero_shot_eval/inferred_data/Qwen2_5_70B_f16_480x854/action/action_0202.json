@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person pours soap from the bottle in his right hand into a container on the floor.",
+        "The person is applying soap onto a sponge in his right hand while he holds the bowl with his left hand.",
+        "The person is rubbing soap onto his hands from a bar of soap in his right hand and holding the bowl with his left hand.",
+        "The person is refilling a soap dispenser on the counter using the bottle of soap in his right hand.",
+        "The person sprays soap into the bowl from the bottle of soap in his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person pours soap from the bottle in his right hand into a container on the floor.\n(B) The person is applying soap onto a sponge in his right hand while he holds the bowl with his left hand.\n(C) The person is rubbing soap onto his hands from a bar of soap in his right hand and holding the bowl with his left hand.\n(D) The person is refilling a soap dispenser on the counter using the bottle of soap in his right hand.\n(E) The person sprays soap into the bowl from the bottle of soap in his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person is applying soap onto a sponge in his right hand while he holds the bowl with his left hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

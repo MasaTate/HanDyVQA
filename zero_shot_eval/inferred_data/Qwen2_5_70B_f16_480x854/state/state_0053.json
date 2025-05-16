@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a tool box change?",
+    "options": [
+        "The toolbox was moved and the contents inside were taken out.",
+        "The toolbox was kept in place and a new item was added inside.",
+        "The toolbox was moved and rearranged, leaving all items inside.",
+        "The toolbox was shifted closer to the left without being opened.",
+        "The toolbox was placed upside down without being opened."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a tool box change? Choose **only one** option from the following list.\nOptions:\n(A) The toolbox was moved and the contents inside were taken out.\n(B) The toolbox was kept in place and a new item was added inside.\n(C) The toolbox was moved and rearranged, leaving all items inside.\n(D) The toolbox was shifted closer to the left without being opened.\n(E) The toolbox was placed upside down without being opened.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The toolbox was moved and the contents inside were taken out."
+    },
+    "correct_idx": [
+        0
+    ]
+}

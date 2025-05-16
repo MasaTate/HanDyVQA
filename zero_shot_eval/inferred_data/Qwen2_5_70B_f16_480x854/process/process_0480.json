@@ -1,0 +1,17 @@
+{
+    "question": "How does the person rub the right hand thumb?",
+    "options": [
+        "The person rubs the right hand thumb with her left thumb and index fingers.",
+        "The person rubs the right hand thumb with her left hand using a cloth along with fingers.",
+        "The person rubs the right hand thumb with her left index finger and thumb in a circular motion.",
+        "The person uses her middle and ring fingers of the left hand to rub the right hand thumb.",
+        "The person rubs both thumbs with each other using their index fingers as well."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person rub the right hand thumb? Choose **only one** option from the following list.\nOptions:\n(A) The person rubs the right hand thumb with her left thumb and index fingers.\n(B) The person rubs the right hand thumb with her left hand using a cloth along with fingers.\n(C) The person rubs the right hand thumb with her left index finger and thumb in a circular motion.\n(D) The person uses her middle and ring fingers of the left hand to rub the right hand thumb.\n(E) The person rubs both thumbs with each other using their index fingers as well.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person rubs the right hand thumb with her left index finger and thumb in a circular motion."
+    },
+    "correct_idx": [
+        0
+    ]
+}

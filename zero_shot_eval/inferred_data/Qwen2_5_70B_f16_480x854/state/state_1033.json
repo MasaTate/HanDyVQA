@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the screw change?",
+    "options": [
+        "The screw was loosened on the cutting knife in a regular motion.",
+        "The screw was tightened on the cutting knife in an irregular motion.",
+        "The screw was tightened on the cutting knife in a regular motion.",
+        "The screw was adjusted but not tightened on the cutting knife.",
+        "The screw was tightened on the cutting knife with a single twist."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the screw change? Choose **only one** option from the following list.\nOptions:\n(A) The screw was loosened on the cutting knife in a regular motion.\n(B) The screw was tightened on the cutting knife in an irregular motion.\n(C) The screw was tightened on the cutting knife in a regular motion.\n(D) The screw was adjusted but not tightened on the cutting knife.\n(E) The screw was tightened on the cutting knife with a single twist.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The screw was tightened on the cutting knife in a regular motion."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person fills the bowl with water and cleans his hand with a sponge.",
+        "The person rinses the bowl and washes his right hand with tap water.",
+        "The person dries the bowl with a towel and immerses his hand in warm water.",
+        "The person rinses the spoon and washes his hand with soap.",
+        "The person empties the bowl and cleans his hand with hand sanitizer."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person fills the bowl with water and cleans his hand with a sponge.\n(B) The person rinses the bowl and washes his right hand with tap water.\n(C) The person dries the bowl with a towel and immerses his hand in warm water.\n(D) The person rinses the spoon and washes his hand with soap.\n(E) The person empties the bowl and cleans his hand with hand sanitizer.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person fills the bowl with water and cleans his hand with a sponge."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the batter in the bowl change?",
+    "options": [
+        "The batter in the bowl was slightly tilted and stirred vigorously.",
+        "The batter in the bowl was slightly tilted and stirred gently.",
+        "The batter in the bowl was left still and not stirred.",
+        "The batter in the bowl was stirred gently without being tilted.",
+        "The batter in the bowl was slightly tilted but not stirred."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the batter in the bowl change? Choose **only one** option from the following list.\nOptions:\n(A) The batter in the bowl was slightly tilted and stirred vigorously.\n(B) The batter in the bowl was slightly tilted and stirred gently.\n(C) The batter in the bowl was left still and not stirred.\n(D) The batter in the bowl was stirred gently without being tilted.\n(E) The batter in the bowl was slightly tilted but not stirred.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The batter in the bowl was slightly tilted and stirred gently."
+    },
+    "correct_idx": [
+        1
+    ]
+}

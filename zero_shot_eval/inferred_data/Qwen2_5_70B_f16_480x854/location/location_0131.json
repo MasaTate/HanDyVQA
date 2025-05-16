@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the stone?",
+    "options": [
+        "The person moves the stone to the left side with both hands then pushes the left end of the stone forward on the vegetable's cutting board.",
+        "The person transfers the stone to the right corner with one hand then lifts the upper side of the stone up on the vegetable's chopping board.",
+        "The person places the stone at the back edge with both hands then rolls the front end of the stone sideways on the vegetable's preparation board.",
+        "The person moves the stone in the center with both hands then moves the right end of the stone backward on the vegetable's grinding board.",
+        "The person shifts the stone to the bottom left with both hands then tilts the bottom end of the stone down on the vegetable's slicing board."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the stone? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the stone to the left side with both hands then pushes the left end of the stone forward on the vegetable's cutting board.\n(B) The person transfers the stone to the right corner with one hand then lifts the upper side of the stone up on the vegetable's chopping board.\n(C) The person places the stone at the back edge with both hands then rolls the front end of the stone sideways on the vegetable's preparation board.\n(D) The person moves the stone in the center with both hands then moves the right end of the stone backward on the vegetable's grinding board.\n(E) The person shifts the stone to the bottom left with both hands then tilts the bottom end of the stone down on the vegetable's slicing board.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person moves the stone in the center with both hands then moves the right end of the stone backward on the vegetable's grinding board."
+    },
+    "correct_idx": [
+        3
+    ]
+}

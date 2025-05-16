@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is painting with a brush in his hands.",
+        "The person is scraping a bamboo stick with a tool in his hands.",
+        "The person is carving with a chisel in his hands.",
+        "The person is digging with a spade in his hands.",
+        "The person is putting together a model with a screwdriver in his hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is painting with a brush in his hands.\n(B) The person is scraping a bamboo stick with a tool in his hands.\n(C) The person is carving with a chisel in his hands.\n(D) The person is digging with a spade in his hands.\n(E) The person is putting together a model with a screwdriver in his hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person is scraping a bamboo stick with a tool in his hands."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the tin of tomato change?",
+    "options": [
+        "The tin of tomato was shaken and its contents splattered onto the counter.",
+        "The tin of tomato was tilted and its contents poured into the pot.",
+        "The tin of tomato was opened and the lid was removed before being set aside.",
+        "The tin of tomato was flipped upside down, causing the contents to spill onto the table.",
+        "The tin of tomato was pierced with a can opener, allowing the juice to leak out."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the tin of tomato change? Choose **only one** option from the following list.\nOptions:\n(A) The tin of tomato was shaken and its contents splattered onto the counter.\n(B) The tin of tomato was tilted and its contents poured into the pot.\n(C) The tin of tomato was opened and the lid was removed before being set aside.\n(D) The tin of tomato was flipped upside down, causing the contents to spill onto the table.\n(E) The tin of tomato was pierced with a can opener, allowing the juice to leak out.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The tin of tomato was opened and the lid was removed before being set aside."
+    },
+    "correct_idx": [
+        1
+    ]
+}

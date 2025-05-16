@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the money change?",
+    "options": [
+        "The money was passed under the window after being moved from the dashboard.",
+        "The money was passed through the window after being moved out of the car.",
+        "The money was placed into the glove compartment instead of being passed.",
+        "The money was pulled back inside the car without being passed through the window.",
+        "The money was left on the passenger seat instead of being moved out of the car."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the money change? Choose **only one** option from the following list.\nOptions:\n(A) The money was passed under the window after being moved from the dashboard.\n(B) The money was passed through the window after being moved out of the car.\n(C) The money was placed into the glove compartment instead of being passed.\n(D) The money was pulled back inside the car without being passed through the window.\n(E) The money was left on the passenger seat instead of being moved out of the car.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The money was passed through the window after being moved out of the car."
+    },
+    "correct_idx": [
+        1
+    ]
+}

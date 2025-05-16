@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the mug change?",
+    "options": [
+        "The mug was taken from the drawer and filled with milk from the fridge.",
+        "The mug was removed from the drawer and left empty on the kitchen counter.",
+        "The mug was taken from the drawer and filled with tap water.",
+        "The mug was taken from the drawer and filled with bottled water.",
+        "The mug was picked from the drawer and filled with hot water from the kettle."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the mug change? Choose **only one** option from the following list.\nOptions:\n(A) The mug was taken from the drawer and filled with milk from the fridge.\n(B) The mug was removed from the drawer and left empty on the kitchen counter.\n(C) The mug was taken from the drawer and filled with tap water.\n(D) The mug was taken from the drawer and filled with bottled water.\n(E) The mug was picked from the drawer and filled with hot water from the kettle.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The mug was taken from the drawer and filled with tap water."
+    },
+    "correct_idx": [
+        2
+    ]
+}

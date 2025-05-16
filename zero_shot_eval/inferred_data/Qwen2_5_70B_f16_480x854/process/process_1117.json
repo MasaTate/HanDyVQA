@@ -1,0 +1,17 @@
+{
+    "question": "How does the person drive a lawn mower?",
+    "options": [
+        "The person pushed the lever to drive the lawn mower and pulled the handle to operate the lawn mower.",
+        "The person pulled the lever to drive the lawn mower and pushed the handle to operate the lawn mower.",
+        "The person turned the key to start the lawn mower and twisted the throttle to drive it forward.",
+        "The person pressed down on a button to engage the lawn mower and turned the handle to steer it.",
+        "The person held the lever and lifted the handle to drive the lawn mower."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person drive a lawn mower? Choose **only one** option from the following list.\nOptions:\n(A) The person pushed the lever to drive the lawn mower and pulled the handle to operate the lawn mower.\n(B) The person pulled the lever to drive the lawn mower and pushed the handle to operate the lawn mower.\n(C) The person turned the key to start the lawn mower and twisted the throttle to drive it forward.\n(D) The person pressed down on a button to engage the lawn mower and turned the handle to steer it.\n(E) The person held the lever and lifted the handle to drive the lawn mower.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person pushed the lever to drive the lawn mower and pulled the handle to operate the lawn mower."
+    },
+    "correct_idx": [
+        0
+    ]
+}

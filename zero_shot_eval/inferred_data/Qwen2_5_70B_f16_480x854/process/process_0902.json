@@ -1,0 +1,17 @@
+{
+    "question": "How does the person open the cover of the plastic bottle with his left hand?",
+    "options": [
+        "The person twists the cover off the bottle with his left hand while holding the bottle steady with his right hand.",
+        "The person opens the bottle by holding it with his right hand and removing the cover with his left hand.",
+        "The person flicks the cover off the bottle using his left thumb while gripping the bottle with his right hand.",
+        "The person pulls the cover off the bottle using his left hand while keeping the bottle steady with his right hand.",
+        "The person pries the cover off the bottle using the fingers of his left hand while balancing the bottle on his right palm."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person open the cover of the plastic bottle with his left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person twists the cover off the bottle with his left hand while holding the bottle steady with his right hand.\n(B) The person opens the bottle by holding it with his right hand and removing the cover with his left hand.\n(C) The person flicks the cover off the bottle using his left thumb while gripping the bottle with his right hand.\n(D) The person pulls the cover off the bottle using his left hand while keeping the bottle steady with his right hand.\n(E) The person pries the cover off the bottle using the fingers of his left hand while balancing the bottle on his right palm.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person pulls the cover off the bottle using his left hand while keeping the bottle steady with his right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

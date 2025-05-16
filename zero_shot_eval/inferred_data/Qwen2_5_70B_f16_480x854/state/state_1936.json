@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of plant thermometer change?",
+    "options": [
+        "The plant thermometer was left in place, and another item was moved instead.",
+        "The plant thermometer was bumped, which altered its position slightly.",
+        "The plant thermometer was taken out abruptly, but its position remained unchanged.",
+        "The plant thermometer was adjusted in its position without being taken out.",
+        "The plant thermometer was taken out carefully, and its position changed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of plant thermometer change? Choose **only one** option from the following list.\nOptions:\n(A) The plant thermometer was left in place, and another item was moved instead.\n(B) The plant thermometer was bumped, which altered its position slightly.\n(C) The plant thermometer was taken out abruptly, but its position remained unchanged.\n(D) The plant thermometer was adjusted in its position without being taken out.\n(E) The plant thermometer was taken out carefully, and its position changed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The plant thermometer was taken out carefully, and its position changed."
+    },
+    "correct_idx": [
+        4
+    ]
+}

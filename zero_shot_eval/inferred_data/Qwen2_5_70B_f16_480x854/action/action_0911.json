@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is placing the hanger on the rack of the jeans trouser using her right hand.",
+        "The person is positioning the hanger beside the jeans trouser using her left hand.",
+        "The person is lifting the jeans trouser from the floor with her left hand while holding a hanger in her right hand.",
+        "The person is removing the hanger from the rack of the jeans trouser using her left hand.",
+        "The person hangs the hanger on the rack of the jeans trouser using her left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is placing the hanger on the rack of the jeans trouser using her right hand.\n(B) The person is positioning the hanger beside the jeans trouser using her left hand.\n(C) The person is lifting the jeans trouser from the floor with her left hand while holding a hanger in her right hand.\n(D) The person is removing the hanger from the rack of the jeans trouser using her left hand.\n(E) The person hangs the hanger on the rack of the jeans trouser using her left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person is removing the hanger from the rack of the jeans trouser using her left hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

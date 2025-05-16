@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person rolls the tire across the floor with his right hand while leaning against the wall.",
+        "The person lifts the tire into the truck with his right hand while balancing it with his left hand.",
+        "The person leans the tire against the wall with his right hand.",
+        "The person is painting the tire while holding it with his right hand and using a brush in his left hand.",
+        "The person is pressing the tire on the ground with his right hand while holding a wrench in his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person rolls the tire across the floor with his right hand while leaning against the wall.\n(B) The person lifts the tire into the truck with his right hand while balancing it with his left hand.\n(C) The person leans the tire against the wall with his right hand.\n(D) The person is painting the tire while holding it with his right hand and using a brush in his left hand.\n(E) The person is pressing the tire on the ground with his right hand while holding a wrench in his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person leans the tire against the wall with his right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

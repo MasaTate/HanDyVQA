@@ -1,0 +1,17 @@
+{
+    "question": "How does the person insert the right hand inside the jug?",
+    "options": [
+        "The person inserts the right hand inside the jug by gripping it with their left hand to hold it steady, then carefully inserts their right hand inside the jug, guiding their fingers smoothly to reach the interior.",
+        "The person thrusts their right hand into the jug while using their knee to support it, leading to a less controlled entry.",
+        "The person pushes their right hand into the jug without using their left hand for support, allowing the jug to move as they try to fit their hand inside.",
+        "The person slides their right hand into the jug while poking around with their fingertips without stabilizing the jug using their left hand.",
+        "The person shoves their right hand inside the jug, relying only on their right arm to hold it, resulting in an unstable insertion."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person insert the right hand inside the jug? Choose **only one** option from the following list.\nOptions:\n(A) The person inserts the right hand inside the jug by gripping it with their left hand to hold it steady, then carefully inserts their right hand inside the jug, guiding their fingers smoothly to reach the interior.\n(B) The person thrusts their right hand into the jug while using their knee to support it, leading to a less controlled entry.\n(C) The person pushes their right hand into the jug without using their left hand for support, allowing the jug to move as they try to fit their hand inside.\n(D) The person slides their right hand into the jug while poking around with their fingertips without stabilizing the jug using their left hand.\n(E) The person shoves their right hand inside the jug, relying only on their right arm to hold it, resulting in an unstable insertion.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person inserts the right hand inside the jug by gripping it with their left hand to hold it steady, then carefully inserts their right hand inside the jug, guiding their fingers smoothly to reach the interior."
+    },
+    "correct_idx": [
+        0
+    ]
+}

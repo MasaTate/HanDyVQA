@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the meal change?",
+    "options": [
+        "The meal was poured from the pot into the bowl using a ladle.",
+        "The meal was served from the pot onto the plate using a spoon.",
+        "The meal was ladled from the pot into the bowl and then topped with herbs.",
+        "The meal was transferred from the pot to the bowl using chopsticks.",
+        "The meal was spilled on the table while being moved from the pot to a bowl using chopsticks."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the meal change? Choose **only one** option from the following list.\nOptions:\n(A) The meal was poured from the pot into the bowl using a ladle.\n(B) The meal was served from the pot onto the plate using a spoon.\n(C) The meal was ladled from the pot into the bowl and then topped with herbs.\n(D) The meal was transferred from the pot to the bowl using chopsticks.\n(E) The meal was spilled on the table while being moved from the pot to a bowl using chopsticks.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The meal was transferred from the pot to the bowl using chopsticks."
+    },
+    "correct_idx": [
+        3
+    ]
+}

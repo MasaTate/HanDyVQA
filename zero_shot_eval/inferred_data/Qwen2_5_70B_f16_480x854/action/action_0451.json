@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person adjusts the temperature on the oven using his/her right hand while his/her left hand holds the pot, and both hands are focused on cooking.",
+        "The person turns on the microwave using his/her right hand while his/her left hand stirs the pot on the stove with a spoon.",
+        "The person lifts the pot off the stove using both hands as his/her right hand also tries to interact with the stove controls.",
+        "The person turns off the gas range stove using his/her right hand while his/her left hand turns on another stove, and both of his/her hands are holding the pot.",
+        "The person cleans the gas range stove with a cloth in his/her right hand while the pot rests on the counter with his/her left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person adjusts the temperature on the oven using his/her right hand while his/her left hand holds the pot, and both hands are focused on cooking.\n(B) The person turns on the microwave using his/her right hand while his/her left hand stirs the pot on the stove with a spoon.\n(C) The person lifts the pot off the stove using both hands as his/her right hand also tries to interact with the stove controls.\n(D) The person turns off the gas range stove using his/her right hand while his/her left hand turns on another stove, and both of his/her hands are holding the pot.\n(E) The person cleans the gas range stove with a cloth in his/her right hand while the pot rests on the counter with his/her left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person lifts the pot off the stove using both hands as his/her right hand also tries to interact with the stove controls."
+    },
+    "correct_idx": [
+        3
+    ]
+}

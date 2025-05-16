@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of some hose change?",
+    "options": [
+        "The hose was lifted from its initial position to a slightly lower elevation than the surface of the liquid.",
+        "The hose was lifted from its initial position and placed parallel to the surface of the liquid.",
+        "The hose was lifted from its initial position to the same elevation as the surface of the liquid.",
+        "The hose was lifted from its initial position to a slightly higher elevation than the surface of the liquid.",
+        "The hose was lifted from its initial position but remained at the same height as before."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of some hose change? Choose **only one** option from the following list.\nOptions:\n(A) The hose was lifted from its initial position to a slightly lower elevation than the surface of the liquid.\n(B) The hose was lifted from its initial position and placed parallel to the surface of the liquid.\n(C) The hose was lifted from its initial position to the same elevation as the surface of the liquid.\n(D) The hose was lifted from its initial position to a slightly higher elevation than the surface of the liquid.\n(E) The hose was lifted from its initial position but remained at the same height as before.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The hose was lifted from its initial position to a slightly higher elevation than the surface of the liquid."
+    },
+    "correct_idx": [
+        3
+    ]
+}

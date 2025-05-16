@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is gripping her project while adjusting the pattern and then securing her project with one hand.",
+        "The person is positioning her work while examining the pattern and then lifting her work with her left hand.",
+        "The person is moving her work while flipping the pattern and then placing it back with one hand.",
+        "The person holds her work with both hands and touches the pattern with the left hand, and holds her work again with both hands.",
+        "The person is displaying her project while brushing the pattern and then repositioning it with her left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is gripping her project while adjusting the pattern and then securing her project with one hand.\n(B) The person is positioning her work while examining the pattern and then lifting her work with her left hand.\n(C) The person is moving her work while flipping the pattern and then placing it back with one hand.\n(D) The person holds her work with both hands and touches the pattern with the left hand, and holds her work again with both hands.\n(E) The person is displaying her project while brushing the pattern and then repositioning it with her left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person holds her work with both hands and touches the pattern with the left hand, and holds her work again with both hands."
+    },
+    "correct_idx": [
+        3
+    ]
+}

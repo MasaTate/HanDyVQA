@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a nut change?",
+    "options": [
+        "The nut was tightened clockwise onto the switch, securing it firmly in place.",
+        "The nut was loosened counter-clockwise from the switch, leaving it unsecured.",
+        "The nut was started on the switch threads and turned slightly counter-clockwise.",
+        "The nut was placed incorrectly on the switch and not turned at all.",
+        "The nut was partially tightened clockwise but was left without being firmly secured."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a nut change? Choose **only one** option from the following list.\nOptions:\n(A) The nut was tightened clockwise onto the switch, securing it firmly in place.\n(B) The nut was loosened counter-clockwise from the switch, leaving it unsecured.\n(C) The nut was started on the switch threads and turned slightly counter-clockwise.\n(D) The nut was placed incorrectly on the switch and not turned at all.\n(E) The nut was partially tightened clockwise but was left without being firmly secured.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The nut was tightened clockwise onto the switch, securing it firmly in place."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the ground change?",
+    "options": [
+        "The ground was swept with the broom where some leaves were moved.",
+        "The ground was swept with the broom but the leaves were relocated to a different area of the ground.",
+        "The ground was swept with the broom, yet some leaves were left in place.",
+        "The ground was swept with the broom, moving the leaves to the edge of the path.",
+        "The ground was swept with the broom and the leaves were gathered into a small pile."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the ground change? Choose **only one** option from the following list.\nOptions:\n(A) The ground was swept with the broom where some leaves were moved.\n(B) The ground was swept with the broom but the leaves were relocated to a different area of the ground.\n(C) The ground was swept with the broom, yet some leaves were left in place.\n(D) The ground was swept with the broom, moving the leaves to the edge of the path.\n(E) The ground was swept with the broom and the leaves were gathered into a small pile.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The ground was swept with the broom where some leaves were moved."
+    },
+    "correct_idx": [
+        0
+    ]
+}

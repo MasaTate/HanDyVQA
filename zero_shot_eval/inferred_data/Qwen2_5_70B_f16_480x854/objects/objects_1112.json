@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "egg",
+        "scoop",
+        "chopping board",
+        "flour",
+        "cake weight machine",
+        "faucet"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) egg\n(B) scoop\n(C) chopping board\n(D) flour\n(E) cake weight machine\n(F) faucet\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(B) scoop  \n(D) flour  \n\nThe hands use a scoop to transfer flour into a bowl on a scale. The flour is the substance being measured and transferred."
+    },
+    "correct_idx": [
+        1,
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pull a magnet?",
+    "options": [
+        "The person moves a magnet back and forth with his right hand and sticks it to the right side, but it doesn't stick and falls.",
+        "The person moves a magnet side to side with their left hand and sticks it to the left side, but it doesn't stick and falls.",
+        "The person pushes the magnet diagonally with the index and middle fingers of their left hand, aiming for the top, but it doesn't hold and falls.",
+        "The person pulls the magnet directly up with their right thumb and index finger, attempting to place it on the bottom, but it slips and falls.",
+        "The person pushes the magnet forward with their whole palm from the right hand, trying to fix it at the center, but it drops."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pull a magnet? Choose **only one** option from the following list.\nOptions:\n(A) The person moves a magnet back and forth with his right hand and sticks it to the right side, but it doesn't stick and falls.\n(B) The person moves a magnet side to side with their left hand and sticks it to the left side, but it doesn't stick and falls.\n(C) The person pushes the magnet diagonally with the index and middle fingers of their left hand, aiming for the top, but it doesn't hold and falls.\n(D) The person pulls the magnet directly up with their right thumb and index finger, attempting to place it on the bottom, but it slips and falls.\n(E) The person pushes the magnet forward with their whole palm from the right hand, trying to fix it at the center, but it drops.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person pulls the magnet directly up with their right thumb and index finger, attempting to place it on the bottom, but it slips and falls."
+    },
+    "correct_idx": [
+        0
+    ]
+}

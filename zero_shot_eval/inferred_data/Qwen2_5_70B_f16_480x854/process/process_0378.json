@@ -1,0 +1,17 @@
+{
+    "question": "How does the person clean the paint brush on the plastic container?",
+    "options": [
+        "The person wipes the paintbrush on the side of the plastic container using their left hand while holding it carefully.",
+        "The person shakes the paintbrush gently over the plastic container with both hands, spreading droplets of paint.",
+        "The person gently scrapes the paintbrush at the bottom of the plastic container using their fingertips on their right hand.",
+        "The person cleans the paintbrush by brushing it off on a plastic container after dipping it in liquid with their right hand.",
+        "The person flicks the paintbrush near the plastic container with a smooth motion of their wrist in their left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person clean the paint brush on the plastic container? Choose **only one** option from the following list.\nOptions:\n(A) The person wipes the paintbrush on the side of the plastic container using their left hand while holding it carefully.\n(B) The person shakes the paintbrush gently over the plastic container with both hands, spreading droplets of paint.\n(C) The person gently scrapes the paintbrush at the bottom of the plastic container using their fingertips on their right hand.\n(D) The person cleans the paintbrush by brushing it off on a plastic container after dipping it in liquid with their right hand.\n(E) The person flicks the paintbrush near the plastic container with a smooth motion of their wrist in their left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person cleans the paintbrush by brushing it off on a plastic container after dipping it in liquid with their right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

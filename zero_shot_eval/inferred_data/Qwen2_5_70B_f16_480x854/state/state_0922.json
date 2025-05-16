@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the meal change?",
+    "options": [
+        "The meal that had gathered in the center was moved to one side of the pan.",
+        "The meal that was collected in one corner remained unevenly spread.",
+        "The meal that was evenly spread out became gathered in the middle of the pan.",
+        "The meal that had gathered in a far place was evenly distributed across the pan.",
+        "The meal was moved from the near side to gather at the far edge of the pan."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the meal change? Choose **only one** option from the following list.\nOptions:\n(A) The meal that had gathered in the center was moved to one side of the pan.\n(B) The meal that was collected in one corner remained unevenly spread.\n(C) The meal that was evenly spread out became gathered in the middle of the pan.\n(D) The meal that had gathered in a far place was evenly distributed across the pan.\n(E) The meal was moved from the near side to gather at the far edge of the pan.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The meal that had gathered in a far place was evenly distributed across the pan."
+    },
+    "correct_idx": [
+        3
+    ]
+}

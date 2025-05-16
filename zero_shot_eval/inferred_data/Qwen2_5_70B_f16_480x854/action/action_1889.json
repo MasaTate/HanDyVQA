@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person dipped the paintbrush into the water cup.",
+        "The person is applying paint to the canvas using a roller.",
+        "The person dipped the sponge into the paint can.",
+        "The person dipped the paintbrush into the can of varnish.",
+        "The person is mixing the paint with a stick."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person dipped the paintbrush into the water cup.\n(B) The person is applying paint to the canvas using a roller.\n(C) The person dipped the sponge into the paint can.\n(D) The person dipped the paintbrush into the can of varnish.\n(E) The person is mixing the paint with a stick.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person dipped the paintbrush into the can of varnish."
+    },
+    "correct_idx": [
+        3
+    ]
+}

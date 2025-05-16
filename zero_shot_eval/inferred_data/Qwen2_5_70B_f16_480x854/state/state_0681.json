@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the meal change?",
+    "options": [
+        "The meal was served onto plates, causing the components to be separated into distinct portions for each diner.",
+        "The meal was seasoned with spices, resulting in a change in the flavor profile and enhancement of its taste.",
+        "The meal was stirred with a ladle, causing the ingredients to blend and mix together.",
+        "The meal was left to simmer on the stove, leading to a slow cooking process and development of a rich aroma.",
+        "The meal was cooled in the refrigerator, leading to a change in temperature and making it suitable for later consumption."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the meal change? Choose **only one** option from the following list.\nOptions:\n(A) The meal was served onto plates, causing the components to be separated into distinct portions for each diner.\n(B) The meal was seasoned with spices, resulting in a change in the flavor profile and enhancement of its taste.\n(C) The meal was stirred with a ladle, causing the ingredients to blend and mix together.\n(D) The meal was left to simmer on the stove, leading to a slow cooking process and development of a rich aroma.\n(E) The meal was cooled in the refrigerator, leading to a change in temperature and making it suitable for later consumption.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The meal was stirred with a ladle, causing the ingredients to blend and mix together."
+    },
+    "correct_idx": [
+        2
+    ]
+}

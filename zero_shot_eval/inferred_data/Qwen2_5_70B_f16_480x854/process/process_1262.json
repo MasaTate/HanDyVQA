@@ -1,0 +1,17 @@
+{
+    "question": "How does the person take a plate?",
+    "options": [
+        "The person takes the plate by sliding his left hand underneath it and pulling it towards himself gently.",
+        "The person picks up the plate using both hands from the sides and lifts it straight up with care.",
+        "The person reaches out with his right hand and nudges the plate off the table rather than lifting it.",
+        "The person holds the plate by its edge with his fingers and tilts it slightly while trying to lift it.",
+        "The person grabs the plate by lifting his right hand and moving his right hand down quickly."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person take a plate? Choose **only one** option from the following list.\nOptions:\n(A) The person takes the plate by sliding his left hand underneath it and pulling it towards himself gently.\n(B) The person picks up the plate using both hands from the sides and lifts it straight up with care.\n(C) The person reaches out with his right hand and nudges the plate off the table rather than lifting it.\n(D) The person holds the plate by its edge with his fingers and tilts it slightly while trying to lift it.\n(E) The person grabs the plate by lifting his right hand and moving his right hand down quickly.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person holds the plate by its edge with his fingers and tilts it slightly while trying to lift it."
+    },
+    "correct_idx": [
+        4
+    ]
+}

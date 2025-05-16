@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the sticker change?",
+    "options": [
+        "The sticker was slightly moved with the tweezer, while the scissors did not alter it significantly.",
+        "The sticker was touched with the tweezer and scissors, but underwent no significant change.",
+        "The sticker was touched and marginally repositioned with the scissors, but its overall placement remained unchanged.",
+        "The sticker was nudged marginally to the left using only the tweezer, with minimal change in alignment.",
+        "The sticker was pressed lightly with the scissors, but neither tool significantly altered its main position."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the sticker change? Choose **only one** option from the following list.\nOptions:\n(A) The sticker was slightly moved with the tweezer, while the scissors did not alter it significantly.\n(B) The sticker was touched with the tweezer and scissors, but underwent no significant change.\n(C) The sticker was touched and marginally repositioned with the scissors, but its overall placement remained unchanged.\n(D) The sticker was nudged marginally to the left using only the tweezer, with minimal change in alignment.\n(E) The sticker was pressed lightly with the scissors, but neither tool significantly altered its main position.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The sticker was touched with the tweezer and scissors, but underwent no significant change."
+    },
+    "correct_idx": [
+        1
+    ]
+}

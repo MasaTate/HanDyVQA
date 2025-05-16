@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person connects the battery terminals to the vespa scooter engine with his right hand.",
+        "The person inserts the cable wires into the vespa scooter engine with his right hand.",
+        "The person loosens the bolts on the vespa scooter engine with his right hand.",
+        "The person removes the old spark plug from the vespa scooter engine with his right hand.",
+        "The person pours oil into the vespa scooter engine with his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person connects the battery terminals to the vespa scooter engine with his right hand.\n(B) The person inserts the cable wires into the vespa scooter engine with his right hand.\n(C) The person loosens the bolts on the vespa scooter engine with his right hand.\n(D) The person removes the old spark plug from the vespa scooter engine with his right hand.\n(E) The person pours oil into the vespa scooter engine with his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person inserts the cable wires into the vespa scooter engine with his right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

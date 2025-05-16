@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the piece of paper change?",
+    "options": [
+        "The paper became torn into several pieces as it was pulled apart.",
+        "The paper became crumpled as it was thrown in the trash.",
+        "The paper was soaked in water, turning it into a wet mass.",
+        "The paper was folded in half repeatedly, creating creases throughout.",
+        "The paper was burned completely, turning into ashes."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the piece of paper change? Choose **only one** option from the following list.\nOptions:\n(A) The paper became torn into several pieces as it was pulled apart.\n(B) The paper became crumpled as it was thrown in the trash.\n(C) The paper was soaked in water, turning it into a wet mass.\n(D) The paper was folded in half repeatedly, creating creases throughout.\n(E) The paper was burned completely, turning into ashes.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The paper became crumpled as it was thrown in the trash."
+    },
+    "correct_idx": [
+        1
+    ]
+}

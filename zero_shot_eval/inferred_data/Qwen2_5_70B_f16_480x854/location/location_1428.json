@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the plate?",
+    "options": [
+        "The person places the plate on top of the sandwich. ",
+        "The person places the plate underneath the sandwich.",
+        "The person places the plate beside the sandwich.",
+        "The person places the plate behind the sandwich.",
+        "The person places the plate in front of the sandwich."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the plate? Choose **only one** option from the following list.\nOptions:\n(A) The person places the plate on top of the sandwich. \n(B) The person places the plate underneath the sandwich.\n(C) The person places the plate beside the sandwich.\n(D) The person places the plate behind the sandwich.\n(E) The person places the plate in front of the sandwich.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person places the plate on top of the sandwich."
+    },
+    "correct_idx": [
+        0
+    ]
+}

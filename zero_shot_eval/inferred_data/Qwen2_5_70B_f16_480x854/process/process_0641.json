@@ -1,0 +1,17 @@
+{
+    "question": "How does the person hit the wood piece?",
+    "options": [
+        "The person lightly taps the wood piece with just their fingertips of the right hand, creating a soft sound while avoiding a strong hit.",
+        "The person guides the wood piece forward with the palm of their hand, using the left hand to steer it and not striking it.",
+        "The person tosses the wood piece into the air and lets it land on the ground without employing a swinging motion.",
+        "The person curls their fingers around the wood piece and draws it toward themselves without executing any striking action.",
+        "The person hits the wood piece by gripping it firmly with their left hand, while their right hand swings steadily to strike it with controlled force, ensuring precise contact."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person hit the wood piece? Choose **only one** option from the following list.\nOptions:\n(A) The person lightly taps the wood piece with just their fingertips of the right hand, creating a soft sound while avoiding a strong hit.\n(B) The person guides the wood piece forward with the palm of their hand, using the left hand to steer it and not striking it.\n(C) The person tosses the wood piece into the air and lets it land on the ground without employing a swinging motion.\n(D) The person curls their fingers around the wood piece and draws it toward themselves without executing any striking action.\n(E) The person hits the wood piece by gripping it firmly with their left hand, while their right hand swings steadily to strike it with controlled force, ensuring precise contact.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person hits the wood piece by gripping it firmly with their left hand, while their right hand swings steadily to strike it with controlled force, ensuring precise contact."
+    },
+    "correct_idx": [
+        4
+    ]
+}

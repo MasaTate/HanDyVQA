@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person grasps the fork on the table with his right hand, then uses it to whisk the eggs while his left hand supports the bowl underneath.",
+        "The person picks up a spoon with his right hand, then stirs the mixture in the bowl while his left hand remains on the countertop.",
+        "The person reaches for the chopsticks above with his right hand, then uses it to whisk the egg while his left hand holds the bowl steady.",
+        "The person grabs the whisk with his right hand, then folds in the eggs while his left hand stabilizes the bowl on the table.",
+        "The person takes a knife in his right hand, then slices through the eggs in the bowl while his left hand holds the bowl in place."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person grasps the fork on the table with his right hand, then uses it to whisk the eggs while his left hand supports the bowl underneath.\n(B) The person picks up a spoon with his right hand, then stirs the mixture in the bowl while his left hand remains on the countertop.\n(C) The person reaches for the chopsticks above with his right hand, then uses it to whisk the egg while his left hand holds the bowl steady.\n(D) The person grabs the whisk with his right hand, then folds in the eggs while his left hand stabilizes the bowl on the table.\n(E) The person takes a knife in his right hand, then slices through the eggs in the bowl while his left hand holds the bowl in place.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person reaches for the chopsticks above with his right hand, then uses it to whisk the egg while his left hand holds the bowl steady."
+    },
+    "correct_idx": [
+        2
+    ]
+}

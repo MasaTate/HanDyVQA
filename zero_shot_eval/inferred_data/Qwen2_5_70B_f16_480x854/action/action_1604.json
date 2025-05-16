@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person attaches the woven yarn to a surface using a thumbtack.",
+        "The person cuts the woven yarn with a pair of scissors while holding the pin with the other hand.",
+        "The person rolls up the woven yarn on a spool using both hands, balancing the pin between fingers.",
+        "The person threads the woven yarn through a needle, holding a pin in one hand and the needle in the other.",
+        "The person secures the woven yarn by using a pin."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person attaches the woven yarn to a surface using a thumbtack.\n(B) The person cuts the woven yarn with a pair of scissors while holding the pin with the other hand.\n(C) The person rolls up the woven yarn on a spool using both hands, balancing the pin between fingers.\n(D) The person threads the woven yarn through a needle, holding a pin in one hand and the needle in the other.\n(E) The person secures the woven yarn by using a pin.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person secures the woven yarn by using a pin."
+    },
+    "correct_idx": [
+        4
+    ]
+}

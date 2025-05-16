@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the tap change?",
+    "options": [
+        "The tap was turned off, without any movement.",
+        "The tap was left slightly open, without any movement.",
+        "The tap was turned off and then immediately turned back on.",
+        "The tap was partially closed, just enough to slow down the flow of water.",
+        "The tap was adjusted to a trickle and then left as is."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the tap change? Choose **only one** option from the following list.\nOptions:\n(A) The tap was turned off, without any movement.\n(B) The tap was left slightly open, without any movement.\n(C) The tap was turned off and then immediately turned back on.\n(D) The tap was partially closed, just enough to slow down the flow of water.\n(E) The tap was adjusted to a trickle and then left as is.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The tap was turned off, without any movement."
+    },
+    "correct_idx": [
+        0
+    ]
+}

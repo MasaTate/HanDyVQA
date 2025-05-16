@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the soil with the gardening trowel change?",
+    "options": [
+        "The soil was overturned with the gardening trowel, affecting some plant parts.",
+        "The soil was carefully pitted with the gardening trowel, avoiding plant parts.",
+        "The soil was packed down with the gardening trowel, partially covering a seedling.",
+        "The soil was loosened with the gardening trowel, causing a nearby plant to be pushed aside.",
+        "The soil was dug into with the gardening trowel, causing plant roots to be exposed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the soil with the gardening trowel change? Choose **only one** option from the following list.\nOptions:\n(A) The soil was overturned with the gardening trowel, affecting some plant parts.\n(B) The soil was carefully pitted with the gardening trowel, avoiding plant parts.\n(C) The soil was packed down with the gardening trowel, partially covering a seedling.\n(D) The soil was loosened with the gardening trowel, causing a nearby plant to be pushed aside.\n(E) The soil was dug into with the gardening trowel, causing plant roots to be exposed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The soil was carefully pitted with the gardening trowel, avoiding plant parts."
+    },
+    "correct_idx": [
+        1
+    ]
+}

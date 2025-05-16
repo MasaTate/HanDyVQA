@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is coloring in a sketchbook with a crayon held in his/her right hand.",
+        "The person is drawing in a sketchbook with a pencil held in his/her right hand.",
+        "The person is writing in a notebook with a pen held in his/her right hand.",
+        "The person is doodling on a sketchbook page with a marker held in his/her right hand.",
+        "The person is painting on a sketchbook with a brush held in his/her right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is coloring in a sketchbook with a crayon held in his/her right hand.\n(B) The person is drawing in a sketchbook with a pencil held in his/her right hand.\n(C) The person is writing in a notebook with a pen held in his/her right hand.\n(D) The person is doodling on a sketchbook page with a marker held in his/her right hand.\n(E) The person is painting on a sketchbook with a brush held in his/her right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person is drawing in a sketchbook with a pencil held in his/her right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

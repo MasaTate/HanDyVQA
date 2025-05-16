@@ -1,0 +1,21 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "cloth",
+        "side mirror",
+        "shoe",
+        "tire",
+        "handlebar",
+        "floor",
+        "screwdriver"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) cloth\n(B) side mirror\n(C) shoe\n(D) tire\n(E) handlebar\n(F) floor\n(G) screwdriver\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(G) Screwdriver  \n(E) Handlebar  \n\nThe person in the video uses a screwdriver with their hands to work on the motorcycle's handlebar area. The handlebar itself is also manipulated by the hands as part of the task being performed."
+    },
+    "correct_idx": [
+        0,
+        1,
+        6
+    ]
+}

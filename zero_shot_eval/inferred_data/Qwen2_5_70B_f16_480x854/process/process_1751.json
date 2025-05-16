@@ -1,0 +1,17 @@
+{
+    "question": "How does the person open the plastic wire?",
+    "options": [
+        "The person used both hands to twist the plastic open, gripping it slightly before pulling it apart gently.",
+        "The person used their left hand to try to open the plastic by gently working at the edges with their fingers.",
+        "The person opened the plastic wire using both hands and pulled the wire with their left hand.",
+        "The person positioned the plastic on the table and pressed down softly with their palm to create an opening.",
+        "The person held the plastic with their fingertips and moved it back and forth slightly to loosen it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person open the plastic wire? Choose **only one** option from the following list.\nOptions:\n(A) The person used both hands to twist the plastic open, gripping it slightly before pulling it apart gently.\n(B) The person used their left hand to try to open the plastic by gently working at the edges with their fingers.\n(C) The person opened the plastic wire using both hands and pulled the wire with their left hand.\n(D) The person positioned the plastic on the table and pressed down softly with their palm to create an opening.\n(E) The person held the plastic with their fingertips and moved it back and forth slightly to loosen it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person opened the plastic wire using both hands and pulled the wire with their left hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

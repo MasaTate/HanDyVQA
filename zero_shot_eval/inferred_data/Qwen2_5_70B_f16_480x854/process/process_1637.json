@@ -1,0 +1,17 @@
+{
+    "question": "How does the person support the bicycle?",
+    "options": [
+        "The person uses one hand to hold the handlebars while gently guiding the bicycle forward with their body to keep it balanced.",
+        "The person holds the front wheel with both hands, carefully lifting it slightly to help stabilize the bicycle.",
+        "The person places both hands on the bicycle frame while leaning the right side of their body against it to keep it steady.",
+        "The person leans against the bicycle, using one arm to hold onto the seat while the other hand remains free.",
+        "The person places their hand on the saddle, softly pulling the bicycle towards them to support it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person support the bicycle? Choose **only one** option from the following list.\nOptions:\n(A) The person uses one hand to hold the handlebars while gently guiding the bicycle forward with their body to keep it balanced.\n(B) The person holds the front wheel with both hands, carefully lifting it slightly to help stabilize the bicycle.\n(C) The person places both hands on the bicycle frame while leaning the right side of their body against it to keep it steady.\n(D) The person leans against the bicycle, using one arm to hold onto the seat while the other hand remains free.\n(E) The person places their hand on the saddle, softly pulling the bicycle towards them to support it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person uses one hand to hold the handlebars while gently guiding the bicycle forward with their body to keep it balanced."
+    },
+    "correct_idx": [
+        2
+    ]
+}

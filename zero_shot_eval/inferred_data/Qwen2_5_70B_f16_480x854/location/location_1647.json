@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move a metal bookend?",
+    "options": [
+        "The person moved the metal bookend at the left portion of the book shelves.",
+        "The person moved the metal bookend at the center of the book shelves.",
+        "The person moved the metal bookend at right portion of the book shelves.",
+        "The person moved the metal bookend at the bottom right corner of the book shelves.",
+        "The person moved the metal bookend at the top left corner of the book shelves."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move a metal bookend? Choose **only one** option from the following list.\nOptions:\n(A) The person moved the metal bookend at the left portion of the book shelves.\n(B) The person moved the metal bookend at the center of the book shelves.\n(C) The person moved the metal bookend at right portion of the book shelves.\n(D) The person moved the metal bookend at the bottom right corner of the book shelves.\n(E) The person moved the metal bookend at the top left corner of the book shelves.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person moved the metal bookend at right portion of the book shelves."
+    },
+    "correct_idx": [
+        2
+    ]
+}

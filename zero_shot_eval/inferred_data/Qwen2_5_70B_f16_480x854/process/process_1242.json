@@ -1,0 +1,17 @@
+{
+    "question": "How does the person shake the knife?",
+    "options": [
+        "The person shakes the knife quickly and carefully.",
+        "The person moves the knife up and down quickly with a firm grip.",
+        "The person rotates the knife smoothly in a circular motion with one hand.",
+        "The person holds the knife still and moves it gently side to side.",
+        "The person raises the knife slightly and lowers it back down with precision."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person shake the knife? Choose **only one** option from the following list.\nOptions:\n(A) The person shakes the knife quickly and carefully.\n(B) The person moves the knife up and down quickly with a firm grip.\n(C) The person rotates the knife smoothly in a circular motion with one hand.\n(D) The person holds the knife still and moves it gently side to side.\n(E) The person raises the knife slightly and lowers it back down with precision.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person moves the knife up and down quickly with a firm grip."
+    },
+    "correct_idx": [
+        0
+    ]
+}

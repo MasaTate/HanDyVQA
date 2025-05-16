@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "scissor",
+        "sticker",
+        "glue gun",
+        "cord",
+        "table",
+        "lipstick"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) scissor\n(B) sticker\n(C) glue gun\n(D) cord\n(E) table\n(F) lipstick\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(A) The hands are using a pair of scissors to cut a green fabric strip with the word \"Caterpillar\" written on it.\n(C) A glue gun is visible on the table but not being used by the hands in the video."
+    },
+    "correct_idx": [
+        0,
+        1
+    ]
+}

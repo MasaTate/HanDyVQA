@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a white bowl change?",
+    "options": [
+        "The white bowl was rinsed and removed from the tap water without any rotation.",
+        "The white bowl was rinsed under the tap water and then rotated slightly before removal.",
+        "The white bowl was flipped upside down under the tap water and left there.",
+        "The white bowl was rinsed and remained in the tap water without removal.",
+        "The white bowl was rinsed and then partially filled with water before being removed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a white bowl change? Choose **only one** option from the following list.\nOptions:\n(A) The white bowl was rinsed and removed from the tap water without any rotation.\n(B) The white bowl was rinsed under the tap water and then rotated slightly before removal.\n(C) The white bowl was flipped upside down under the tap water and left there.\n(D) The white bowl was rinsed and remained in the tap water without removal.\n(E) The white bowl was rinsed and then partially filled with water before being removed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The white bowl was rinsed under the tap water and then rotated slightly before removal."
+    },
+    "correct_idx": [
+        0
+    ]
+}

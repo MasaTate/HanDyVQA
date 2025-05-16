@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put a can of drink in the fridge?",
+    "options": [
+        "The person put a can of drink on the top shelf of the fridge.",
+        "The person put a can of drink in the bottom drawer of the fridge.",
+        "The person put a can of drink on the side door shelf of the fridge.",
+        "The person put a can of drink at the center shelf of the fridge.",
+        "The person put a can of drink in the cool compartment of the fridge."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put a can of drink in the fridge? Choose **only one** option from the following list.\nOptions:\n(A) The person put a can of drink on the top shelf of the fridge.\n(B) The person put a can of drink in the bottom drawer of the fridge.\n(C) The person put a can of drink on the side door shelf of the fridge.\n(D) The person put a can of drink at the center shelf of the fridge.\n(E) The person put a can of drink in the cool compartment of the fridge.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person put a can of drink in the bottom drawer of the fridge."
+    },
+    "correct_idx": [
+        3
+    ]
+}

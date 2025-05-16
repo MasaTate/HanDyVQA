@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the chopping board?",
+    "options": [
+        "The person put the chopping board next to the refrigerator.",
+        "The person put the chopping board on the counter beside the stove.",
+        "The person put the chopping board inside the cabinet above the sink.",
+        "The person put the chopping board on the floor near the pantry.",
+        "The person put the chopping board under the sink. "
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the chopping board? Choose **only one** option from the following list.\nOptions:\n(A) The person put the chopping board next to the refrigerator.\n(B) The person put the chopping board on the counter beside the stove.\n(C) The person put the chopping board inside the cabinet above the sink.\n(D) The person put the chopping board on the floor near the pantry.\n(E) The person put the chopping board under the sink. \n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person put the chopping board under the sink."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "handlebar",
+        "small chair. ",
+        "motorcycle left table. ",
+        "tissue paper",
+        "socket wrench. ",
+        "glove"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) handlebar\n(B) small chair. \n(C) motorcycle left table. \n(D) tissue paper\n(E) socket wrench. \n(F) glove\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(A) The hands are using the handlebar of the motorcycle to adjust or fix something on it.\n(E) The hands are using a socket wrench to tighten or loosen bolts on the motorcycle."
+    },
+    "correct_idx": [
+        0,
+        3
+    ]
+}

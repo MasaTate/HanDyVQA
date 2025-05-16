@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "eye glass case",
+        "pencil",
+        "needle",
+        "button",
+        "threads",
+        "stair"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) eye glass case\n(B) pencil\n(C) needle\n(D) button\n(E) threads\n(F) stair\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(E) threads  \n(C) needle  \n\nThe hands in the video are using a needle and threads for sewing or embroidery on a piece of fabric. The needle is being inserted into the fabric, and the thread is being pulled through it. There is no indication of an eye glass case, pencil, button, or stair being used by the hands."
+    },
+    "correct_idx": [
+        2,
+        4
+    ]
+}

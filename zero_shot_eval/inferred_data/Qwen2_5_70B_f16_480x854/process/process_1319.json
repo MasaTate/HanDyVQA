@@ -1,0 +1,17 @@
+{
+    "question": "How does the person carry the bucket?",
+    "options": [
+        "The person lifts the bucket smoothly with both hands and places it on the table, keeping the same hands throughout.",
+        "The person uncovers the bucket with the right hand, picks it up with the left hand, switches back to the right hand to place it beside the sink.",
+        "The person grabs the bucket handle with the right hand and gently moves it to the counter while the left hand remains at their side.",
+        "The person smoothly guides the bucket across the floor with their foot, avoiding using their hands to lift it.",
+        "The person holds the bucket with both hands gently and carries it in front of them, positioning it beside the sink without dropping it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person carry the bucket? Choose **only one** option from the following list.\nOptions:\n(A) The person lifts the bucket smoothly with both hands and places it on the table, keeping the same hands throughout.\n(B) The person uncovers the bucket with the right hand, picks it up with the left hand, switches back to the right hand to place it beside the sink.\n(C) The person grabs the bucket handle with the right hand and gently moves it to the counter while the left hand remains at their side.\n(D) The person smoothly guides the bucket across the floor with their foot, avoiding using their hands to lift it.\n(E) The person holds the bucket with both hands gently and carries it in front of them, positioning it beside the sink without dropping it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person uncovers the bucket with the right hand, picks it up with the left hand, switches back to the right hand to place it beside the sink."
+    },
+    "correct_idx": [
+        1
+    ]
+}

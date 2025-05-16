@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "scissor",
+        "sink",
+        "plate",
+        "pan",
+        "salt container",
+        "stainless bowl"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) scissor\n(B) sink\n(C) plate\n(D) pan\n(E) salt container\n(F) stainless bowl\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(F) Stainless bowl\n\nThe hands are seen using a stainless bowl to mix or handle some green vegetables. There is no indication in the video that the other listed items (scissors, sink, plate, pan, or salt container) are being directly used by the hands."
+    },
+    "correct_idx": [
+        4,
+        5
+    ]
+}

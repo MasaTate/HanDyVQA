@@ -1,0 +1,17 @@
+{
+    "question": "How does the person operate the cooker?",
+    "options": [
+        "The person twists the knob on the stove with their right hand, using their thumb and forefinger to turn it carefully until it clicks, starting the cooker.",
+        "The person pushes down on the switch using their palm to apply steady pressure, engaging the cooker.",
+        "The person presses the button on the stove with their left hand, using their index finger to apply gentle pressure until the button clicks, activating the cooker.",
+        "The person slides the dial around with the fingertips of their left hand, changing the settings slightly without pressing any buttons, which does not activate the cooker.",
+        "The person uses their right hand to tap lightly on the touchscreen of the cooker, but does not press firmly enough to register any input."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person operate the cooker? Choose **only one** option from the following list.\nOptions:\n(A) The person twists the knob on the stove with their right hand, using their thumb and forefinger to turn it carefully until it clicks, starting the cooker.\n(B) The person pushes down on the switch using their palm to apply steady pressure, engaging the cooker.\n(C) The person presses the button on the stove with their left hand, using their index finger to apply gentle pressure until the button clicks, activating the cooker.\n(D) The person slides the dial around with the fingertips of their left hand, changing the settings slightly without pressing any buttons, which does not activate the cooker.\n(E) The person uses their right hand to tap lightly on the touchscreen of the cooker, but does not press firmly enough to register any input.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person presses the button on the stove with their left hand, using their index finger to apply gentle pressure until the button clicks, activating the cooker."
+    },
+    "correct_idx": [
+        2
+    ]
+}

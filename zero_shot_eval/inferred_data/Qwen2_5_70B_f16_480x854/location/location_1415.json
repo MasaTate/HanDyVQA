@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the tablet device?",
+    "options": [
+        "The person placed the tablet device on top of the back part of the notebook.",
+        "The person placed the tablet device under the middle of the notebook.",
+        "The person placed the tablet device on top of the front part of the notebook.",
+        "The person placed the tablet device on the right side of the notebook.",
+        "The person placed the tablet device on the table next to the notebook."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the tablet device? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the tablet device on top of the back part of the notebook.\n(B) The person placed the tablet device under the middle of the notebook.\n(C) The person placed the tablet device on top of the front part of the notebook.\n(D) The person placed the tablet device on the right side of the notebook.\n(E) The person placed the tablet device on the table next to the notebook.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person placed the tablet device on top of the front part of the notebook."
+    },
+    "correct_idx": [
+        2
+    ]
+}

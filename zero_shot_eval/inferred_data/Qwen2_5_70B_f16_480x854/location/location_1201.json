@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place his left hand?",
+    "options": [
+        "The person placed the left hand on the edge of the sink.",
+        "The person placed the left hand on the handle of the faucet.",
+        "The person placed the left hand on the countertop next to the faucet.",
+        "The person placed the left hand on the spout of the faucet.",
+        "The person placed the left hand on the back of the kitchen door."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place his left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the left hand on the edge of the sink.\n(B) The person placed the left hand on the handle of the faucet.\n(C) The person placed the left hand on the countertop next to the faucet.\n(D) The person placed the left hand on the spout of the faucet.\n(E) The person placed the left hand on the back of the kitchen door.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person placed the left hand on the handle of the faucet."
+    },
+    "correct_idx": [
+        1
+    ]
+}

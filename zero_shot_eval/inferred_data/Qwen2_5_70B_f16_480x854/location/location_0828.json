@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put screws?",
+    "options": [
+        "The person put the screws in his right hand.",
+        "The person put the screws in his left hand.",
+        "The person put the screws in his left pocket.",
+        "The person put the screws on the table beside him.",
+        "The person put the screws in his right shoulder bag."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put screws? Choose **only one** option from the following list.\nOptions:\n(A) The person put the screws in his right hand.\n(B) The person put the screws in his left hand.\n(C) The person put the screws in his left pocket.\n(D) The person put the screws on the table beside him.\n(E) The person put the screws in his right shoulder bag.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person put the screws in his left hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

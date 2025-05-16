@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "trash bin",
+        "machine",
+        "bolt",
+        "silicone tube",
+        "gloves",
+        "wires"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) trash bin\n(B) machine\n(C) bolt\n(D) silicone tube\n(E) gloves\n(F) wires\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(B) The hands are interacting with a machine, specifically adjusting components like valves and pipes.\n(C) The hands are manipulating bolts as part of the machine's assembly or maintenance process.\n\nAnswer format:\n(B) The hands are interacting with a machine, specifically adjusting components like valves and pipes.\n(C) The hands are manipulating bolts as part of the machine's assembly or maintenance process."
+    },
+    "correct_idx": [
+        2,
+        4
+    ]
+}

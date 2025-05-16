@@ -1,0 +1,17 @@
+{
+    "question": "How does the person wash a plate?",
+    "options": [
+        "The person cleans the plate by submerging it in a bowl of soapy water and gently using a sponge.",
+        "The person shakes off any loose dirt with both hands before gently wiping the plate clean with a towel.",
+        "The person wipes the plate carefully with a dry cloth to ensure it stays free of moisture.",
+        "The person places the plate on top of another and uses a brush to clean them smoothly.",
+        "The person rinses the plate under running water using a cloth."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person wash a plate? Choose **only one** option from the following list.\nOptions:\n(A) The person cleans the plate by submerging it in a bowl of soapy water and gently using a sponge.\n(B) The person shakes off any loose dirt with both hands before gently wiping the plate clean with a towel.\n(C) The person wipes the plate carefully with a dry cloth to ensure it stays free of moisture.\n(D) The person places the plate on top of another and uses a brush to clean them smoothly.\n(E) The person rinses the plate under running water using a cloth.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person rinses the plate under running water using a cloth."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the chuck?",
+    "options": [
+        "The person dropped the chunk next to the toolbox on the floor.",
+        "The person dropped the chunk inside the drawer of the workbench.",
+        "The person dropped the chunk on top of the toolbox lid.",
+        "The person dropped the chunk behind the toolbox against the wall.",
+        "The person dropped the chunk inside of the toolbox."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the chuck? Choose **only one** option from the following list.\nOptions:\n(A) The person dropped the chunk next to the toolbox on the floor.\n(B) The person dropped the chunk inside the drawer of the workbench.\n(C) The person dropped the chunk on top of the toolbox lid.\n(D) The person dropped the chunk behind the toolbox against the wall.\n(E) The person dropped the chunk inside of the toolbox.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person dropped the chunk inside of the toolbox."
+    },
+    "correct_idx": [
+        4
+    ]
+}

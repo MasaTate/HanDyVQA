@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person polishes the shoe with a cloth in his right hand.",
+        "The person paints the wall with the paintbrush in his right hand.",
+        "The person paints the shoe with the paintbrush in his right hand.",
+        "The person decorates the shoe with a stencil in his right hand.",
+        "The person cleans the shoe with a sponge in his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person polishes the shoe with a cloth in his right hand.\n(B) The person paints the wall with the paintbrush in his right hand.\n(C) The person paints the shoe with the paintbrush in his right hand.\n(D) The person decorates the shoe with a stencil in his right hand.\n(E) The person cleans the shoe with a sponge in his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person paints the shoe with the paintbrush in his right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

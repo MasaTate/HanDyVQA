@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person pours a liquid using a funnel with his gloved right hand while the gloved left hand keeps the beaker steady.",
+        "The person holds a test tube in his gloved right hand while the gloved left hand extracts a liquid with a dropper.",
+        "The person dips the micro pipette into a sample collector with his gloved right hand while the gloved left hand assists in opening the container.",
+        "The person mixes a solution in a petri dish with his gloved right hand while the gloved left hand adjusts the settings on a scale.",
+        "The person seals a container with a lid using his gloved right hand while the gloved left hand lifts the container off the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person pours a liquid using a funnel with his gloved right hand while the gloved left hand keeps the beaker steady.\n(B) The person holds a test tube in his gloved right hand while the gloved left hand extracts a liquid with a dropper.\n(C) The person dips the micro pipette into a sample collector with his gloved right hand while the gloved left hand assists in opening the container.\n(D) The person mixes a solution in a petri dish with his gloved right hand while the gloved left hand adjusts the settings on a scale.\n(E) The person seals a container with a lid using his gloved right hand while the gloved left hand lifts the container off the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person dips the micro pipette into a sample collector with his gloved right hand while the gloved left hand assists in opening the container."
+    },
+    "correct_idx": [
+        2
+    ]
+}

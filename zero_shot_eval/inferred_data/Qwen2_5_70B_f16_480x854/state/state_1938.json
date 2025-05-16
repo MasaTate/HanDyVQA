@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the edge of the tent change?",
+    "options": [
+        "The edge of the tent was released, and it moved freely.",
+        "The edge of the tent was secured, pulling it tightly against the ground.",
+        "The edge of the tent was folded back, creating a flap for entry.",
+        "The edge of the tent was torn, causing it to hang loosely.",
+        "The edge of the tent was raised, allowing more air to flow inside."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the edge of the tent change? Choose **only one** option from the following list.\nOptions:\n(A) The edge of the tent was released, and it moved freely.\n(B) The edge of the tent was secured, pulling it tightly against the ground.\n(C) The edge of the tent was folded back, creating a flap for entry.\n(D) The edge of the tent was torn, causing it to hang loosely.\n(E) The edge of the tent was raised, allowing more air to flow inside.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The edge of the tent was secured, pulling it tightly against the ground."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person wipe the wood with left hand?",
+    "options": [
+        "The person takes a cloth in his left hand and wipes the wood to clean it.",
+        "The person brushes the wood with the palm of his left hand, cleaning gently.",
+        "The person uses his left hand to wipe the wood and remove the dirt, and scrapes it again.",
+        "The person pats his left hand carefully on the wood surface to remove the dirt.",
+        "The person gently strokes the wood with his fingertips in his left hand to dust it off."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person wipe the wood with left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person takes a cloth in his left hand and wipes the wood to clean it.\n(B) The person brushes the wood with the palm of his left hand, cleaning gently.\n(C) The person uses his left hand to wipe the wood and remove the dirt, and scrapes it again.\n(D) The person pats his left hand carefully on the wood surface to remove the dirt.\n(E) The person gently strokes the wood with his fingertips in his left hand to dust it off.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person brushes the wood with the palm of his left hand, cleaning gently."
+    },
+    "correct_idx": [
+        2
+    ]
+}

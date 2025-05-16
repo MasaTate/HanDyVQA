@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person stirs soup in the pot using both index fingers while using the left hand to hold a spoon, and then picks up a bowl from the shelf with the right hand.",
+        "The person mixes the cheese in the salad using both index fingers. The person also dries the sieve from the sink using the left hand, and then grabs a spice bottle in the drawer using the right hand.",
+        "The person whisks eggs in a bowl using both thumbs, while the left hand is employed to wet a dishcloth, and then the right hand reaches for a measuring cup.",
+        "The person folds clothes on the table using both hands, while the left hand opens a cabinet and the right hand grabs a laundry basket.",
+        "The person rolls out dough on the countertop using both palms, while the left hand pours flour from a bag and the right hand holds a rolling pin."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person stirs soup in the pot using both index fingers while using the left hand to hold a spoon, and then picks up a bowl from the shelf with the right hand.\n(B) The person mixes the cheese in the salad using both index fingers. The person also dries the sieve from the sink using the left hand, and then grabs a spice bottle in the drawer using the right hand.\n(C) The person whisks eggs in a bowl using both thumbs, while the left hand is employed to wet a dishcloth, and then the right hand reaches for a measuring cup.\n(D) The person folds clothes on the table using both hands, while the left hand opens a cabinet and the right hand grabs a laundry basket.\n(E) The person rolls out dough on the countertop using both palms, while the left hand pours flour from a bag and the right hand holds a rolling pin.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person mixes the cheese in the salad using both index fingers. The person also dries the sieve from the sink using the left hand, and then grabs a spice bottle in the drawer using the right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

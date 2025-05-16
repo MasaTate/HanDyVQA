@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the soil in the flower pot change?",
+    "options": [
+        "The soil was removed from the pot and dried.",
+        "The soil was combined with water and turned into mud.",
+        "The soil was placed in the pot and crushed.",
+        "The soil was layered in the pot and compacted.",
+        "The soil was contaminated with chemicals and became toxic."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the soil in the flower pot change? Choose **only one** option from the following list.\nOptions:\n(A) The soil was removed from the pot and dried.\n(B) The soil was combined with water and turned into mud.\n(C) The soil was placed in the pot and crushed.\n(D) The soil was layered in the pot and compacted.\n(E) The soil was contaminated with chemicals and became toxic.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The soil was placed in the pot and crushed."
+    },
+    "correct_idx": [
+        2
+    ]
+}

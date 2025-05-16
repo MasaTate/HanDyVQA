@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person tosses the branch to the ground with their right hand while holding a handsaw in their left hand.",
+        "The person lowers the branch to the ground with their right hand while holding a hammer in their left hand.",
+        "The person places the branch on the ground with their right hand while using their left hand to support a shovel.",
+        "The person throws the branch to the ground with the right hand while holding a chainsaw with the left hand.",
+        "The person catches the branch in their right hand while holding a rake in their left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person tosses the branch to the ground with their right hand while holding a handsaw in their left hand.\n(B) The person lowers the branch to the ground with their right hand while holding a hammer in their left hand.\n(C) The person places the branch on the ground with their right hand while using their left hand to support a shovel.\n(D) The person throws the branch to the ground with the right hand while holding a chainsaw with the left hand.\n(E) The person catches the branch in their right hand while holding a rake in their left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person throws the branch to the ground with the right hand while holding a chainsaw with the left hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the cardboard piece on the floor?",
+    "options": [
+        "The person placed the cardboard on the floor beside the sofa.",
+        "The person placed the cardboard in the floor in front of the television rack.",
+        "The person placed the cardboard in the floor behind the television stand.",
+        "The person placed the cardboard on the floor in front of the coffee table.",
+        "The person placed the cardboard on the floor next to the bookshelf."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the cardboard piece on the floor? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the cardboard on the floor beside the sofa.\n(B) The person placed the cardboard in the floor in front of the television rack.\n(C) The person placed the cardboard in the floor behind the television stand.\n(D) The person placed the cardboard on the floor in front of the coffee table.\n(E) The person placed the cardboard on the floor next to the bookshelf.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person placed the cardboard in the floor in front of the television rack."
+    },
+    "correct_idx": [
+        1
+    ]
+}

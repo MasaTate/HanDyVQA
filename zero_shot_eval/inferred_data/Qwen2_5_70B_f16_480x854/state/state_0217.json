@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the scalpel change?",
+    "options": [
+        "The scalpel cover was removed completely, leaving the blade open.",
+        "The scalpel was placed back inside the cover, concealing the blade.",
+        "The scalpel handle was twisted off, detaching it from the blade.",
+        "The scalpel was dropped, causing the blade to retract partially into the handle.",
+        "The scalpel cover was lifted off, exposing the blade."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the scalpel change? Choose **only one** option from the following list.\nOptions:\n(A) The scalpel cover was removed completely, leaving the blade open.\n(B) The scalpel was placed back inside the cover, concealing the blade.\n(C) The scalpel handle was twisted off, detaching it from the blade.\n(D) The scalpel was dropped, causing the blade to retract partially into the handle.\n(E) The scalpel cover was lifted off, exposing the blade.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The scalpel cover was lifted off, exposing the blade."
+    },
+    "correct_idx": [
+        4
+    ]
+}

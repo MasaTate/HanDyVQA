@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the gear?",
+    "options": [
+        "The person drops the gear into the large container.",
+        "The person drops the gear into the small container.",
+        "The person drops the gear onto the floor next to the container.",
+        "The person drops the gear into the medium-sized box.",
+        "The person drops the gear on top of the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the gear? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the gear into the large container.\n(B) The person drops the gear into the small container.\n(C) The person drops the gear onto the floor next to the container.\n(D) The person drops the gear into the medium-sized box.\n(E) The person drops the gear on top of the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person drops the gear into the small container."
+    },
+    "correct_idx": [
+        1
+    ]
+}

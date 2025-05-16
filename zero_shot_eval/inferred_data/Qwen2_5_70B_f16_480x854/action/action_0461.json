@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is hitting a tambourine with both hands using his/her fingers.",
+        "The person is tapping a keyboard with both hands using his/her fingertips.",
+        "The person is strumming a guitar with both hands using a pick.",
+        "The person plays the drum with both hands using drumsticks.",
+        "The person is clapping his/her hands together while standing."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is hitting a tambourine with both hands using his/her fingers.\n(B) The person is tapping a keyboard with both hands using his/her fingertips.\n(C) The person is strumming a guitar with both hands using a pick.\n(D) The person plays the drum with both hands using drumsticks.\n(E) The person is clapping his/her hands together while standing.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person plays the drum with both hands using drumsticks."
+    },
+    "correct_idx": [
+        3
+    ]
+}

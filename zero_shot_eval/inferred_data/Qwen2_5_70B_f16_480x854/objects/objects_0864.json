@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "paint brush",
+        "laptop",
+        "easel. ",
+        "table. ",
+        "newspaper",
+        "paint tube"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) paint brush\n(B) laptop\n(C) easel. \n(D) table. \n(E) newspaper\n(F) paint tube\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(A) paint brush\n(C) easel. \n\nThe hands in the video are using a paint brush to paint on a canvas that is placed on an easel. The easel holds the canvas steady while the artist works."
+    },
+    "correct_idx": [
+        0,
+        1
+    ]
+}

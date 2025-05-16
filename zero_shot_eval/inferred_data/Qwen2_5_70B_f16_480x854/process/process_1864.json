@@ -1,0 +1,17 @@
+{
+    "question": "How does the person knit a dress?",
+    "options": [
+        "The person knits a dress by using the right hand to smoothly wrap the yarn around the needle.",
+        "The person knits a dress by gently holding the yarn while manipulating the needles with one hand.",
+        "The person knits a dress by using the hand to guide the needles while keeping a close grip on the yarn.",
+        "The person knits a dress by moving the yarn with her fingers and adjusting it with one hand.",
+        "The person knits a dress by sewing it and pulling the needle with threads in the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person knit a dress? Choose **only one** option from the following list.\nOptions:\n(A) The person knits a dress by using the right hand to smoothly wrap the yarn around the needle.\n(B) The person knits a dress by gently holding the yarn while manipulating the needles with one hand.\n(C) The person knits a dress by using the hand to guide the needles while keeping a close grip on the yarn.\n(D) The person knits a dress by moving the yarn with her fingers and adjusting it with one hand.\n(E) The person knits a dress by sewing it and pulling the needle with threads in the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person knits a dress by sewing it and pulling the needle with threads in the right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

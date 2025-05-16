@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the hanger?",
+    "options": [
+        "The person put the hanger on the left side of the garment rack.",
+        "The person put the hanger on the top of the garment rack.",
+        "The person put the hanger on the right side of the garment rack.",
+        "The person put the hanger on the back of the garment rack.",
+        "The person put the hanger on the front of the garment rack."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the hanger? Choose **only one** option from the following list.\nOptions:\n(A) The person put the hanger on the left side of the garment rack.\n(B) The person put the hanger on the top of the garment rack.\n(C) The person put the hanger on the right side of the garment rack.\n(D) The person put the hanger on the back of the garment rack.\n(E) The person put the hanger on the front of the garment rack.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person put the hanger on the right side of the garment rack."
+    },
+    "correct_idx": [
+        2
+    ]
+}

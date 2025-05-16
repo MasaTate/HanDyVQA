@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the wood?",
+    "options": [
+        "The person places the wood underneath another wood.",
+        "The person places the wood beside another wood.",
+        "The person places the wood on the floor next to another wood.",
+        "The person places the wood on a shelf above another wood.",
+        "The person places the wood on top of another wood."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the wood? Choose **only one** option from the following list.\nOptions:\n(A) The person places the wood underneath another wood.\n(B) The person places the wood beside another wood.\n(C) The person places the wood on the floor next to another wood.\n(D) The person places the wood on a shelf above another wood.\n(E) The person places the wood on top of another wood.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person places the wood beside another wood."
+    },
+    "correct_idx": [
+        4
+    ]
+}

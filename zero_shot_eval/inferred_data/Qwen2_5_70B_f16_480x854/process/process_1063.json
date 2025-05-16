@@ -1,0 +1,17 @@
+{
+    "question": "How does the person unscrew the drill bit?",
+    "options": [
+        "The person pulls the drill bit gently out with one hand while holding the screwdriver slightly in the other hand.",
+        "The person twists the drill bit with two pliers held tightly in each hand.",
+        "The person turns the drill bit slowly by using one hand, relying on light force to unscrew it.",
+        "The person pushes down on the drill bit gently with one hand while the other hand keeps a wrench nearby.",
+        "The person attempts to twist the drill bit using their fingers, without using any tools."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person unscrew the drill bit? Choose **only one** option from the following list.\nOptions:\n(A) The person pulls the drill bit gently out with one hand while holding the screwdriver slightly in the other hand.\n(B) The person twists the drill bit with two pliers held tightly in each hand.\n(C) The person turns the drill bit slowly by using one hand, relying on light force to unscrew it.\n(D) The person pushes down on the drill bit gently with one hand while the other hand keeps a wrench nearby.\n(E) The person attempts to twist the drill bit using their fingers, without using any tools.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person twists the drill bit with two pliers held tightly in each hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

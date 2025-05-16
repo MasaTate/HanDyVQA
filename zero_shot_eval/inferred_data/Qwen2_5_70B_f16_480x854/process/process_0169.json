@@ -1,0 +1,17 @@
+{
+    "question": "How does the person touch the right hand?",
+    "options": [
+        "The person extends her right hand sideways and uses her left hand to gently tap the palm of the right hand, with all fingers softly touching the surface at once.",
+        "The person raises her right hand above her head and gently taps it with her left hand, using only the fingertips to make contact.",
+        "The person turns her right hand over and lightly pulls her left hand away, creating a small flicking motion against the underside of the right hand.",
+        "The person first bends her right hand forward towards her chest and then uses her left hand to scratch the back of the right hand, with the left thumb holding the palm and the other fingers gently scratching the back.",
+        "The person stretches her right arm straight out and uses her left palm to place gentle pressure against the back of the right hand, applying a soft touch."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person touch the right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person extends her right hand sideways and uses her left hand to gently tap the palm of the right hand, with all fingers softly touching the surface at once.\n(B) The person raises her right hand above her head and gently taps it with her left hand, using only the fingertips to make contact.\n(C) The person turns her right hand over and lightly pulls her left hand away, creating a small flicking motion against the underside of the right hand.\n(D) The person first bends her right hand forward towards her chest and then uses her left hand to scratch the back of the right hand, with the left thumb holding the palm and the other fingers gently scratching the back.\n(E) The person stretches her right arm straight out and uses her left palm to place gentle pressure against the back of the right hand, applying a soft touch.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person first bends her right hand forward towards her chest and then uses her left hand to scratch the back of the right hand, with the left thumb holding the palm and the other fingers gently scratching the back."
+    },
+    "correct_idx": [
+        3
+    ]
+}

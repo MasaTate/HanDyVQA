@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the cat change?",
+    "options": [
+        "The cat was running away and was startled by a loud noise.",
+        "The cat was sitting still and was knocked over by a child.",
+        "The cat was lying down and was pounced on by another animal.",
+        "The cat was resting and was woken up by a loud bell.",
+        "The cat was walking closer and was gently touched on its face."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the cat change? Choose **only one** option from the following list.\nOptions:\n(A) The cat was running away and was startled by a loud noise.\n(B) The cat was sitting still and was knocked over by a child.\n(C) The cat was lying down and was pounced on by another animal.\n(D) The cat was resting and was woken up by a loud bell.\n(E) The cat was walking closer and was gently touched on its face.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The cat was walking closer and was gently touched on its face."
+    },
+    "correct_idx": [
+        4
+    ]
+}

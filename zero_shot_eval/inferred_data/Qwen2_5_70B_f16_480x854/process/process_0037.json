@@ -1,0 +1,17 @@
+{
+    "question": "How does the person put sugar in her coffee?",
+    "options": [
+        "The person picks up a sugar packet with her left hand, tears it open with her teeth, and pours the contents into the coffee mug.",
+        "The person uses her palm to take sugar from a bowl and lets it fall into the coffee without using any tools.",
+        "The person holds the mug with her right hand while lightly shaking a sugar dispenser with her left hand over it.",
+        "The person dips her finger into a sugar bowl and transfers the sugar to the coffee by flicking her finger.",
+        "The person scoops sugar with a spoon in her right hand, lifts it over the mug, then twists her wrist to pour the sugar into the coffee."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person put sugar in her coffee? Choose **only one** option from the following list.\nOptions:\n(A) The person picks up a sugar packet with her left hand, tears it open with her teeth, and pours the contents into the coffee mug.\n(B) The person uses her palm to take sugar from a bowl and lets it fall into the coffee without using any tools.\n(C) The person holds the mug with her right hand while lightly shaking a sugar dispenser with her left hand over it.\n(D) The person dips her finger into a sugar bowl and transfers the sugar to the coffee by flicking her finger.\n(E) The person scoops sugar with a spoon in her right hand, lifts it over the mug, then twists her wrist to pour the sugar into the coffee.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person scoops sugar with a spoon in her right hand, lifts it over the mug, then twists her wrist to pour the sugar into the coffee."
+    },
+    "correct_idx": [
+        4
+    ]
+}

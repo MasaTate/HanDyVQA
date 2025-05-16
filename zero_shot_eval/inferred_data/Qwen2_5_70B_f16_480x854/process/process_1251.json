@@ -1,0 +1,17 @@
+{
+    "question": "How does the person paint paper?",
+    "options": [
+        "The person applies paint to the paper with their fingers, spreading the paint across the surface using the left hand.",
+        "The person splashes paint onto the paper by tipping the paint from the can with both hands.",
+        "The person paints the paper with a paintbrush by dipping the paintbrush up and down using the right hand.",
+        "The person paints the paper with a roller by smoothly moving it back and forth using the right hand.",
+        "The person sprays paint onto the paper from a can by holding it slightly tilted with the left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person paint paper? Choose **only one** option from the following list.\nOptions:\n(A) The person applies paint to the paper with their fingers, spreading the paint across the surface using the left hand.\n(B) The person splashes paint onto the paper by tipping the paint from the can with both hands.\n(C) The person paints the paper with a paintbrush by dipping the paintbrush up and down using the right hand.\n(D) The person paints the paper with a roller by smoothly moving it back and forth using the right hand.\n(E) The person sprays paint onto the paper from a can by holding it slightly tilted with the left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person paints the paper with a paintbrush by dipping the paintbrush up and down using the right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

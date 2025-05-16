@@ -1,0 +1,17 @@
+{
+    "question": "How does the person press a button of a tablet with her left hand?",
+    "options": [
+        "The person pressed a button of a tablet with her left hand by positioning it over the tablet on the right side of the table and used her left thumb to press the button firmly, applying steady, deliberate pressure with a precise downward motion.",
+        "The person tapped a button on the tablet with her left hand while holding the device in her right hand, using her index finger to lightly touch the button.",
+        "The person pressed a button on the tablet using her left hand by holding the tablet upright and smoothly swiping her palm across the screen.",
+        "The person placed her left hand over the tablet and flicked her fingers to activate the button, using a motion that did not require direct contact.",
+        "The person held the tablet with both hands and used her left ring finger to press the button while adjusting the tablet to a slight angle."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person press a button of a tablet with her left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person pressed a button of a tablet with her left hand by positioning it over the tablet on the right side of the table and used her left thumb to press the button firmly, applying steady, deliberate pressure with a precise downward motion.\n(B) The person tapped a button on the tablet with her left hand while holding the device in her right hand, using her index finger to lightly touch the button.\n(C) The person pressed a button on the tablet using her left hand by holding the tablet upright and smoothly swiping her palm across the screen.\n(D) The person placed her left hand over the tablet and flicked her fingers to activate the button, using a motion that did not require direct contact.\n(E) The person held the tablet with both hands and used her left ring finger to press the button while adjusting the tablet to a slight angle.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person pressed a button of a tablet with her left hand by positioning it over the tablet on the right side of the table and used her left thumb to press the button firmly, applying steady, deliberate pressure with a precise downward motion."
+    },
+    "correct_idx": [
+        0
+    ]
+}

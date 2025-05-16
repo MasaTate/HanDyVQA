@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is peeling a wire with long nose pliers using both hands.",
+        "The person is passing a screwdriver from his right hand to his left hand.",
+        "The person is gripping pliers tightly in his right hand while working with a wire with his left hand.",
+        "The person is exchanging a hammer from his right hand to his left hand while holding a nail in his right hand.",
+        "The person is adjusting the grip on pliers in his right hand while balancing a piece of wood with his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is peeling a wire with long nose pliers using both hands.\n(B) The person is passing a screwdriver from his right hand to his left hand.\n(C) The person is gripping pliers tightly in his right hand while working with a wire with his left hand.\n(D) The person is exchanging a hammer from his right hand to his left hand while holding a nail in his right hand.\n(E) The person is adjusting the grip on pliers in his right hand while balancing a piece of wood with his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person is peeling a wire with long nose pliers using both hands."
+    },
+    "correct_idx": [
+        0
+    ]
+}

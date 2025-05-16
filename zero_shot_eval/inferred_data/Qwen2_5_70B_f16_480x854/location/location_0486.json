@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the dough?",
+    "options": [
+        "The person put the dough in a bucket over a scale.",
+        "The person put the dough in a bowl next to the scale.",
+        "The person put the dough on a tray beside the scale.",
+        "The person put the dough in a bag under the scale.",
+        "The person put the dough on the counter in front of the scale."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the dough? Choose **only one** option from the following list.\nOptions:\n(A) The person put the dough in a bucket over a scale.\n(B) The person put the dough in a bowl next to the scale.\n(C) The person put the dough on a tray beside the scale.\n(D) The person put the dough in a bag under the scale.\n(E) The person put the dough on the counter in front of the scale.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person put the dough in a bucket over a scale."
+    },
+    "correct_idx": [
+        0
+    ]
+}

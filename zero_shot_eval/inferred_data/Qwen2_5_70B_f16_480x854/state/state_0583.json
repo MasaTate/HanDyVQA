@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the stainless bowl change?",
+    "options": [
+        "The bowl was lifted and placed on the counter, remaining dry.",
+        "The bowl was lifted and moved to the table, staying empty.",
+        "The bowl was lifted and placed in the sink, getting soaked with water.",
+        "The bowl was lifted and placed on a drying rack instead.",
+        "The bowl was lifted and set aside, with no water added."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the stainless bowl change? Choose **only one** option from the following list.\nOptions:\n(A) The bowl was lifted and placed on the counter, remaining dry.\n(B) The bowl was lifted and moved to the table, staying empty.\n(C) The bowl was lifted and placed in the sink, getting soaked with water.\n(D) The bowl was lifted and placed on a drying rack instead.\n(E) The bowl was lifted and set aside, with no water added.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The bowl was lifted and placed in the sink, getting soaked with water."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a cup of flour change?",
+    "options": [
+        "The cup of flour was shaken to aerate it before being poured into a bowl.",
+        "The cup of flour had some taken out with a smaller cup.",
+        "The cup of flour was filled to the top and sealed with a cover.",
+        "The cup of flour was combined thoroughly with water to form a dough.",
+        "The cup of flour was spilled onto the counter during measuring."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a cup of flour change? Choose **only one** option from the following list.\nOptions:\n(A) The cup of flour was shaken to aerate it before being poured into a bowl.\n(B) The cup of flour had some taken out with a smaller cup.\n(C) The cup of flour was filled to the top and sealed with a cover.\n(D) The cup of flour was combined thoroughly with water to form a dough.\n(E) The cup of flour was spilled onto the counter during measuring.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The cup of flour had some taken out with a smaller cup."
+    },
+    "correct_idx": [
+        1
+    ]
+}

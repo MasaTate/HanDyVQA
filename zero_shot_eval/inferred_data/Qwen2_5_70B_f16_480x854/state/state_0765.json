@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the piano keyboard change?",
+    "options": [
+        "The piano keyboard had its keys on the higher octave pressed down.",
+        "The piano keyboard had its keys on the left side pressed down.",
+        "The piano keyboard had its several keys around the center pressed down.",
+        "The piano keyboard had its black keys along the center pressed down.",
+        "The piano keyboard had its keys near the lower end pressed down."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the piano keyboard change? Choose **only one** option from the following list.\nOptions:\n(A) The piano keyboard had its keys on the higher octave pressed down.\n(B) The piano keyboard had its keys on the left side pressed down.\n(C) The piano keyboard had its several keys around the center pressed down.\n(D) The piano keyboard had its black keys along the center pressed down.\n(E) The piano keyboard had its keys near the lower end pressed down.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The piano keyboard had its several keys around the center pressed down."
+    },
+    "correct_idx": [
+        2
+    ]
+}

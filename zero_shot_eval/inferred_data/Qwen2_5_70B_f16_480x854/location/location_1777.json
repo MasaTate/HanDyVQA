@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person leave hand?",
+    "options": [
+        "The person leaves his right hand on the side of the car's door and his left hand on the front bumper.",
+        "The person  leaves his right hand on top of the car's engine and his left hand on the edge of the hood.",
+        "The person leaves his right hand on the back of the car's trunk and his left hand on the side mirror.",
+        "The person leaves his right hand on the windshield and his left hand on the roof of the car.",
+        "The person leaves his right hand on the driver's seat and his left hand on the dashboard."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person leave hand? Choose **only one** option from the following list.\nOptions:\n(A) The person leaves his right hand on the side of the car's door and his left hand on the front bumper.\n(B) The person  leaves his right hand on top of the car's engine and his left hand on the edge of the hood.\n(C) The person leaves his right hand on the back of the car's trunk and his left hand on the side mirror.\n(D) The person leaves his right hand on the windshield and his left hand on the roof of the car.\n(E) The person leaves his right hand on the driver's seat and his left hand on the dashboard.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person leaves his right hand on top of the car's engine and his left hand on the edge of the hood."
+    },
+    "correct_idx": [
+        1
+    ]
+}

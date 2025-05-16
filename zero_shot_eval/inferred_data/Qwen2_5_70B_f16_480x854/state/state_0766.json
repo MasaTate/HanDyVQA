@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the board game cards change?",
+    "options": [
+        "The board game cards were shuffled and dealt to the players.",
+        "The board game cards were slid down and picked up from the table.",
+        "The board game cards were stacked in a pile and placed beside the board.",
+        "The board game cards were spread across the table and examined by the players.",
+        "The board game cards were turned over and organized by color and type."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the board game cards change? Choose **only one** option from the following list.\nOptions:\n(A) The board game cards were shuffled and dealt to the players.\n(B) The board game cards were slid down and picked up from the table.\n(C) The board game cards were stacked in a pile and placed beside the board.\n(D) The board game cards were spread across the table and examined by the players.\n(E) The board game cards were turned over and organized by color and type.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The board game cards were slid down and picked up from the table."
+    },
+    "correct_idx": [
+        1
+    ]
+}

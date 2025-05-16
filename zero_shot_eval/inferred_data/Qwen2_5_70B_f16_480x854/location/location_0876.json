@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move his right hand?",
+    "options": [
+        "The person used his right hand to brush away the paint on the paintbrush.",
+        "The person used his right hand to lift the paintbrush off the table.",
+        "The person used his right hand to dab the paint on the canvas.",
+        "The person used his right hand to shake the paint can next to the brush.",
+        "The person used his right hand to place the paintbrush into the jar."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move his right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person used his right hand to brush away the paint on the paintbrush.\n(B) The person used his right hand to lift the paintbrush off the table.\n(C) The person used his right hand to dab the paint on the canvas.\n(D) The person used his right hand to shake the paint can next to the brush.\n(E) The person used his right hand to place the paintbrush into the jar.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person used his right hand to place the paintbrush into the jar."
+    },
+    "correct_idx": [
+        0
+    ]
+}

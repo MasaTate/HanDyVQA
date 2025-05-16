@@ -1,0 +1,17 @@
+{
+    "question": "How does the person wave his left hand?",
+    "options": [
+        "The person waved his right hand by lifting it to shoulder height and moving it side to side.",
+        "The person waved his right hand by gently rotating it in circles near his waist.",
+        "The person waved his right hand by lowering it slightly towards the ground while moving it back and forth.",
+        "The person waved his left hand by raising it to the sky.",
+        "The person waved his right hand by extending it closely straight out in front of him."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person wave his left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person waved his right hand by lifting it to shoulder height and moving it side to side.\n(B) The person waved his right hand by gently rotating it in circles near his waist.\n(C) The person waved his right hand by lowering it slightly towards the ground while moving it back and forth.\n(D) The person waved his left hand by raising it to the sky.\n(E) The person waved his right hand by extending it closely straight out in front of him.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person waved his left hand by raising it to the sky."
+    },
+    "correct_idx": [
+        3
+    ]
+}

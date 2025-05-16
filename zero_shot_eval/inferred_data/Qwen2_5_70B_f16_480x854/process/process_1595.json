@@ -1,0 +1,17 @@
+{
+    "question": "How does the person tighten the bolt?",
+    "options": [
+        "The person uses a wrench by holding it in the left hand, placing it on the bolt head, and turning it in a clockwise motion.",
+        "The person uses their bare right hand to grip the bolt directly and twists it in a counterclockwise direction.",
+        "The person holds a pair of pliers in their right hand, positions it over the bolt head, and turns it counterclockwise.",
+        "The person grips the wrench with their right hand, positions it onto the bolt head, and turns it in a counterclockwise motion.",
+        "The person uses an adjustable wrench with the left hand, places it on the bolt head, and turns it in a counterclockwise direction."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person tighten the bolt? Choose **only one** option from the following list.\nOptions:\n(A) The person uses a wrench by holding it in the left hand, placing it on the bolt head, and turning it in a clockwise motion.\n(B) The person uses their bare right hand to grip the bolt directly and twists it in a counterclockwise direction.\n(C) The person holds a pair of pliers in their right hand, positions it over the bolt head, and turns it counterclockwise.\n(D) The person grips the wrench with their right hand, positions it onto the bolt head, and turns it in a counterclockwise motion.\n(E) The person uses an adjustable wrench with the left hand, places it on the bolt head, and turns it in a counterclockwise direction.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person grips the wrench with their right hand, positions it onto the bolt head, and turns it in a counterclockwise motion."
+    },
+    "correct_idx": [
+        3
+    ]
+}

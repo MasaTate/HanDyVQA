@@ -1,0 +1,17 @@
+{
+    "question": "How does the person demonstrate his words?",
+    "options": [
+        "The person demonstrated his words by gesturing with his arms raised at shoulder height.",
+        "The person showcased his words by moving his hands in circular motions with his palms at a downward angle.",
+        "The person illustrated his words by using his left hand to tap gently on his chin.",
+        "The person demonstrated his words by pointing things with his right hand.",
+        "The person expressed his words by drawing simple patterns in the air with his fingers."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person demonstrate his words? Choose **only one** option from the following list.\nOptions:\n(A) The person demonstrated his words by gesturing with his arms raised at shoulder height.\n(B) The person showcased his words by moving his hands in circular motions with his palms at a downward angle.\n(C) The person illustrated his words by using his left hand to tap gently on his chin.\n(D) The person demonstrated his words by pointing things with his right hand.\n(E) The person expressed his words by drawing simple patterns in the air with his fingers.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person demonstrated his words by pointing things with his right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

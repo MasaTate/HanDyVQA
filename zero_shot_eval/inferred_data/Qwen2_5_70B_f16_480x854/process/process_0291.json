@@ -1,0 +1,17 @@
+{
+    "question": "How does the person transfer the pruner?",
+    "options": [
+        "The person flings the pruner from his left hand, aiming it toward his right hand, which attempts to catch it with a firm grip.",
+        "The person drops the pruner casually from his left hand, and the right hand reaches out deliberately to grab it with coordination.",
+        "The person tosses the pruner gently from his left hand, with the right hand reaching toward it to grasp it properly.",
+        "The person holds the pruner lightly in his left hand and smoothly directs it across the table using his right hand for a controlled transfer.",
+        "The person releases the pruner with his left hand, extends it toward his right hand, which grips it with a firm hold as the left hand pulls away."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person transfer the pruner? Choose **only one** option from the following list.\nOptions:\n(A) The person flings the pruner from his left hand, aiming it toward his right hand, which attempts to catch it with a firm grip.\n(B) The person drops the pruner casually from his left hand, and the right hand reaches out deliberately to grab it with coordination.\n(C) The person tosses the pruner gently from his left hand, with the right hand reaching toward it to grasp it properly.\n(D) The person holds the pruner lightly in his left hand and smoothly directs it across the table using his right hand for a controlled transfer.\n(E) The person releases the pruner with his left hand, extends it toward his right hand, which grips it with a firm hold as the left hand pulls away.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person releases the pruner with his left hand, extends it toward his right hand, which grips it with a firm hold as the left hand pulls away."
+    },
+    "correct_idx": [
+        4
+    ]
+}

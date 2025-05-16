@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pluck the leaves?",
+    "options": [
+        "The person plucks the leaves by holding a branch with one hand and using the other hand to strip or pinch off the small leaves, collecting them in a metal container.",
+        "The person removes the leaves by firmly holding the branch and gently shaking it to let the leaves fall softly onto the ground.",
+        "The person pulls the leaves off by holding the branch securely with one hand and gently pulling down to detach the leaves.",
+        "The person carefully cuts the leaves using a pair of scissors, while the other hand holds the branch to keep it steady.",
+        "The person picks the leaves individually by using one hand to gently twist and turn each leaf until it separates from the branch."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pluck the leaves? Choose **only one** option from the following list.\nOptions:\n(A) The person plucks the leaves by holding a branch with one hand and using the other hand to strip or pinch off the small leaves, collecting them in a metal container.\n(B) The person removes the leaves by firmly holding the branch and gently shaking it to let the leaves fall softly onto the ground.\n(C) The person pulls the leaves off by holding the branch securely with one hand and gently pulling down to detach the leaves.\n(D) The person carefully cuts the leaves using a pair of scissors, while the other hand holds the branch to keep it steady.\n(E) The person picks the leaves individually by using one hand to gently twist and turn each leaf until it separates from the branch.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person plucks the leaves by holding a branch with one hand and using the other hand to strip or pinch off the small leaves, collecting them in a metal container."
+    },
+    "correct_idx": [
+        0
+    ]
+}

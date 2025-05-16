@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the wire change?",
+    "options": [
+        "The wire was cut to fix the position.",
+        "The wire was adjusted to steadily fix the position.",
+        "The wire was pushed to change its position.",
+        "The wire was held to maintain its position.",
+        "The wire was tied to secure its position."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the wire change? Choose **only one** option from the following list.\nOptions:\n(A) The wire was cut to fix the position.\n(B) The wire was adjusted to steadily fix the position.\n(C) The wire was pushed to change its position.\n(D) The wire was held to maintain its position.\n(E) The wire was tied to secure its position.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The wire was held to maintain its position."
+    },
+    "correct_idx": [
+        1
+    ]
+}

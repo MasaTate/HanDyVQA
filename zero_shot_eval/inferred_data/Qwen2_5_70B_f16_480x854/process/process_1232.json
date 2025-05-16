@@ -1,0 +1,17 @@
+{
+    "question": "How does the person operate a controller on the egg carton making machine?",
+    "options": [
+        "The person grips the controller with both hands, carefully pulling it forward without inserting the tray.",
+        "The person uses his left hand to gently swipe across the controller while supporting the tray with his knee.",
+        "The person places the tray on the machine and gently presses the controller with his index finger from his right hand.",
+        "The person holds the tray with his right hand and gently uses his elbow to press the controller.",
+        "The person uses both hands to hold and insert the tray and lifts his right hand to the right side to press the machine."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person operate a controller on the egg carton making machine? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the controller with both hands, carefully pulling it forward without inserting the tray.\n(B) The person uses his left hand to gently swipe across the controller while supporting the tray with his knee.\n(C) The person places the tray on the machine and gently presses the controller with his index finger from his right hand.\n(D) The person holds the tray with his right hand and gently uses his elbow to press the controller.\n(E) The person uses both hands to hold and insert the tray and lifts his right hand to the right side to press the machine.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person places the tray on the machine and gently presses the controller with his index finger from his right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

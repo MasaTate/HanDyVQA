@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the basket base on the ground?",
+    "options": [
+        "The person drops the basket base on the ground to the left of him.",
+        "The person drops the basket base on the ground behind him.",
+        "The person drops the basket base on the ground off to the right side of him.",
+        "The person drops the basket base on the ground directly beside him.",
+        "The person drops the basket base on the ground in front of him."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the basket base on the ground? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the basket base on the ground to the left of him.\n(B) The person drops the basket base on the ground behind him.\n(C) The person drops the basket base on the ground off to the right side of him.\n(D) The person drops the basket base on the ground directly beside him.\n(E) The person drops the basket base on the ground in front of him.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person drops the basket base on the ground in front of him."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the paper change?",
+    "options": [
+        "The paper was taken out of the cabinet and compressed into a ball.",
+        "The paper was pulled out from the drawer and divided into several pieces.",
+        "The paper was removed from storage and placed outside the cabinet.",
+        "The paper was extracted from the cabinet and marked on with a pen.",
+        "The paper was lifted from the shelf and bent in half."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the paper change? Choose **only one** option from the following list.\nOptions:\n(A) The paper was taken out of the cabinet and compressed into a ball.\n(B) The paper was pulled out from the drawer and divided into several pieces.\n(C) The paper was removed from storage and placed outside the cabinet.\n(D) The paper was extracted from the cabinet and marked on with a pen.\n(E) The paper was lifted from the shelf and bent in half.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The paper was removed from storage and placed outside the cabinet."
+    },
+    "correct_idx": [
+        2
+    ]
+}

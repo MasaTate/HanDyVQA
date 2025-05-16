@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the glue on the table change?",
+    "options": [
+        "The glue was slightly touched and moved a little.",
+        "The glue was spread out and thinned across the table.",
+        "The glue was scraped and separated into two blobs.",
+        "The glue was poked and deformed a bit.",
+        "The glue was nudged and expanded in size a little."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the glue on the table change? Choose **only one** option from the following list.\nOptions:\n(A) The glue was slightly touched and moved a little.\n(B) The glue was spread out and thinned across the table.\n(C) The glue was scraped and separated into two blobs.\n(D) The glue was poked and deformed a bit.\n(E) The glue was nudged and expanded in size a little.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The glue was slightly touched and moved a little."
+    },
+    "correct_idx": [
+        0
+    ]
+}

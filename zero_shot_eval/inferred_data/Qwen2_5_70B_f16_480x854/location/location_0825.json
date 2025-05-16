@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the paint container?",
+    "options": [
+        "The person placed the paint container on the left-side shelf.",
+        "The person placed the paint container on the center shelf.",
+        "The person placed the paint container on the top right shelf.",
+        "The person placed the paint container on the bottom right shelf.",
+        "The person placed the paint container on the right-side shelf."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the paint container? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the paint container on the left-side shelf.\n(B) The person placed the paint container on the center shelf.\n(C) The person placed the paint container on the top right shelf.\n(D) The person placed the paint container on the bottom right shelf.\n(E) The person placed the paint container on the right-side shelf.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person placed the paint container on the right-side shelf."
+    },
+    "correct_idx": [
+        4
+    ]
+}

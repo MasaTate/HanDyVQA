@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is threading a needle with a piece of thread in her right hand while holding the fabric with her left hand.",
+        "The person is stitching a piece of fabric with a needle and thread in her right hand while guiding the fabric with her left hand.",
+        "The person is sewing a button onto a shirt with a needle and thread in her right hand while moving the fabric with her left hand.",
+        "The person is knotting a piece of thread with her right hand while using her left hand to keep the fabric steady.",
+        "The person is weaving a small item with a piece of thread in her right hand while shaping the fabric with her left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is threading a needle with a piece of thread in her right hand while holding the fabric with her left hand.\n(B) The person is stitching a piece of fabric with a needle and thread in her right hand while guiding the fabric with her left hand.\n(C) The person is sewing a button onto a shirt with a needle and thread in her right hand while moving the fabric with her left hand.\n(D) The person is knotting a piece of thread with her right hand while using her left hand to keep the fabric steady.\n(E) The person is weaving a small item with a piece of thread in her right hand while shaping the fabric with her left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person is stitching a piece of fabric with a needle and thread in her right hand while guiding the fabric with her left hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

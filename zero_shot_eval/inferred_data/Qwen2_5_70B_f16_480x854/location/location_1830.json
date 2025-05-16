@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move a twig?",
+    "options": [
+        "The person throws the twig taken from the wire onto a nearby bush.",
+        "The person discards the twig pulled from the wire into a pile of leaves.",
+        "The person drops the twig extracted from the wire onto the patio.",
+        "The person flings the twig taken from the wire into the flower bed.",
+        "The person tosses away the twig removed from the wire to the ground."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move a twig? Choose **only one** option from the following list.\nOptions:\n(A) The person throws the twig taken from the wire onto a nearby bush.\n(B) The person discards the twig pulled from the wire into a pile of leaves.\n(C) The person drops the twig extracted from the wire onto the patio.\n(D) The person flings the twig taken from the wire into the flower bed.\n(E) The person tosses away the twig removed from the wire to the ground.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person tosses away the twig removed from the wire to the ground."
+    },
+    "correct_idx": [
+        4
+    ]
+}

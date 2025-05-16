@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place his right hand?",
+    "options": [
+        "The person placed his right hand on a single tool as it gripped the handle tightly.",
+        "The person placed his right hand on the edge of the table as it rested there casually.",
+        "The person placed his right hand on various objects as it touched multiple tools.",
+        "The person placed his right hand on his left arm as it looped around for support.",
+        "The person placed his right hand on the chair as it leaned against the backrest."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place his right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person placed his right hand on a single tool as it gripped the handle tightly.\n(B) The person placed his right hand on the edge of the table as it rested there casually.\n(C) The person placed his right hand on various objects as it touched multiple tools.\n(D) The person placed his right hand on his left arm as it looped around for support.\n(E) The person placed his right hand on the chair as it leaned against the backrest.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person placed his right hand on various objects as it touched multiple tools."
+    },
+    "correct_idx": [
+        2
+    ]
+}

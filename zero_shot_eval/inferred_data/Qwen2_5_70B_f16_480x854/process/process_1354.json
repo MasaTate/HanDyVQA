@@ -1,0 +1,17 @@
+{
+    "question": "How does the person scoop butter?",
+    "options": [
+        "The person scrapes the butter off the container gently with a spoon held in his left hand by moving it slightly sideways.",
+        "The person uses his fingers to grasp a chunk of butter and lifts it smoothly with his right hand.",
+        "The person scoops butter in quick motion using a knife with his right hand by moving his hand down.",
+        "The person stirs the butter in the bowl using a fork held in his right hand by moving it in circular motions.",
+        "The person taps the butter container slightly with his palm, allowing the butter to spread onto the counter."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person scoop butter? Choose **only one** option from the following list.\nOptions:\n(A) The person scrapes the butter off the container gently with a spoon held in his left hand by moving it slightly sideways.\n(B) The person uses his fingers to grasp a chunk of butter and lifts it smoothly with his right hand.\n(C) The person scoops butter in quick motion using a knife with his right hand by moving his hand down.\n(D) The person stirs the butter in the bowl using a fork held in his right hand by moving it in circular motions.\n(E) The person taps the butter container slightly with his palm, allowing the butter to spread onto the counter.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person scoops butter in quick motion using a knife with his right hand by moving his hand down."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the noodles change?",
+    "options": [
+        "The noodles were removed from the strainer and transferred onto a dry plate.",
+        "The noodles were taken from the strainer and transferred into a pan with sauce.",
+        "The noodles were taken from the strainer and transferred into a bowl of broth.",
+        "The noodles were taken from the strainer and transferred into a salad.",
+        "The noodles were taken from the strainer and transferred into a stir-fry dish."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the noodles change? Choose **only one** option from the following list.\nOptions:\n(A) The noodles were removed from the strainer and transferred onto a dry plate.\n(B) The noodles were taken from the strainer and transferred into a pan with sauce.\n(C) The noodles were taken from the strainer and transferred into a bowl of broth.\n(D) The noodles were taken from the strainer and transferred into a salad.\n(E) The noodles were taken from the strainer and transferred into a stir-fry dish.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The noodles were removed from the strainer and transferred onto a dry plate."
+    },
+    "correct_idx": [
+        2
+    ]
+}

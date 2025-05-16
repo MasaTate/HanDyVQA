@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "trash bin",
+        "ladder",
+        "hand drill",
+        "crimping tool",
+        "wire",
+        "floor"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) trash bin\n(B) ladder\n(C) hand drill\n(D) crimping tool\n(E) wire\n(F) floor\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(E) wire  \n(D) crimping tool  \n\nThe person in the video uses their hands to manipulate wires and a crimping tool while working on an electrical panel. The hands are seen holding and adjusting wires as well as using a crimping tool to work with the wires. There is no indication that a trash bin, ladder, hand drill, or floor is being used directly by the hands in this specific context."
+    },
+    "correct_idx": [
+        3,
+        4
+    ]
+}

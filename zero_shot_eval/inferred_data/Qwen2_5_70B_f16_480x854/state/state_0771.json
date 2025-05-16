@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of thread change?",
+    "options": [
+        "The thread was unraveled then tied into a knot and stored with the other knotted threads.",
+        "The thread was twisted then cut and placed with the other cut threads.",
+        "The thread was braided then clipped short and added to the pile of clipped threads.",
+        "The thread was knotted then frayed at the ends and arranged with the other frayed threads.",
+        "The thread was tangled then straightened and placed alongside the other straightened threads."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of thread change? Choose **only one** option from the following list.\nOptions:\n(A) The thread was unraveled then tied into a knot and stored with the other knotted threads.\n(B) The thread was twisted then cut and placed with the other cut threads.\n(C) The thread was braided then clipped short and added to the pile of clipped threads.\n(D) The thread was knotted then frayed at the ends and arranged with the other frayed threads.\n(E) The thread was tangled then straightened and placed alongside the other straightened threads.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The thread was twisted then cut and placed with the other cut threads."
+    },
+    "correct_idx": [
+        1
+    ]
+}

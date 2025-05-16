@@ -1,0 +1,17 @@
+{
+    "question": "How does the person mark the first plank of wood?",
+    "options": [
+        "The person places a steel tape on the wood to measure the exact spot to cut and then the left hand holds the steel tape steady and marks a point on the plank carefully.",
+        "The person lays the steel tape across the wood to measure the spot and uses the right hand to ensure it stays steady.",
+        "The person wraps the steel tape around the plank and uses the left hand to stabilize it while marking a point with a pencil in the right hand.",
+        "The person places the steel tape gently on the wood and holds it in place with the right hand while deliberately marking a point with the left hand.",
+        "The person positions the steel tape from one end of the plank and uses both hands to pull it gently before marking a point with a pen."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person mark the first plank of wood? Choose **only one** option from the following list.\nOptions:\n(A) The person places a steel tape on the wood to measure the exact spot to cut and then the left hand holds the steel tape steady and marks a point on the plank carefully.\n(B) The person lays the steel tape across the wood to measure the spot and uses the right hand to ensure it stays steady.\n(C) The person wraps the steel tape around the plank and uses the left hand to stabilize it while marking a point with a pencil in the right hand.\n(D) The person places the steel tape gently on the wood and holds it in place with the right hand while deliberately marking a point with the left hand.\n(E) The person positions the steel tape from one end of the plank and uses both hands to pull it gently before marking a point with a pen.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person places a steel tape on the wood to measure the exact spot to cut and then the left hand holds the steel tape steady and marks a point on the plank carefully."
+    },
+    "correct_idx": [
+        0
+    ]
+}

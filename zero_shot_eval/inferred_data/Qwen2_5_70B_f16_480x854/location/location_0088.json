@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the book?",
+    "options": [
+        "The person drops the book on top of another book.",
+        "The person drops the book next to another book.",
+        "The person drops the book underneath the table.",
+        "The person drops the book on the floor beside a chair.",
+        "The person drops the book on a shelf above another book."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the book? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the book on top of another book.\n(B) The person drops the book next to another book.\n(C) The person drops the book underneath the table.\n(D) The person drops the book on the floor beside a chair.\n(E) The person drops the book on a shelf above another book.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person drops the book on top of another book."
+    },
+    "correct_idx": [
+        0
+    ]
+}

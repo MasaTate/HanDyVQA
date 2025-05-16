@@ -1,0 +1,17 @@
+{
+    "question": "How does the person add the card?",
+    "options": [
+        "The person quickly picks up the card on the table using three fingers and places it briskly onto the stack.",
+        "The person gently picks up the card on the table using three fingers and inserts it slowly into the stack.",
+        "The person picks up the card with both hands and slides it into the stack with little caution.",
+        "The person loosely holds the card at the corners and places it back onto the table.",
+        "The person grips the card by the edges and casually places it into the pile."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person add the card? Choose **only one** option from the following list.\nOptions:\n(A) The person quickly picks up the card on the table using three fingers and places it briskly onto the stack.\n(B) The person gently picks up the card on the table using three fingers and inserts it slowly into the stack.\n(C) The person picks up the card with both hands and slides it into the stack with little caution.\n(D) The person loosely holds the card at the corners and places it back onto the table.\n(E) The person grips the card by the edges and casually places it into the pile.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person gently picks up the card on the table using three fingers and inserts it slowly into the stack."
+    },
+    "correct_idx": [
+        1
+    ]
+}

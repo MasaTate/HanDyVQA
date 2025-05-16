@@ -1,0 +1,17 @@
+{
+    "question": "How does the person transfer the grater?",
+    "options": [
+        "The person grasped the grater with both hands from the plate on the countertop and lifted it upwards, then placed it onto the table without much attention.",
+        "The person transferred the grater by picking it up with their right hand from the plate on the countertop and carefully handing it to their left hand, which held both the grater and the plate steadily, while the right hand moved to pick up the knife and fork from the plate.",
+        "The person picked up the grater with their left hand from the plate and moved it over to the right, slightly disturbing the knife and fork in the process.",
+        "The person swiftly picked up the grater from the plate using their right hand and placed it into the drawer with little handling.",
+        "The person used their fingertips to lift the grater off the plate, which led to it slightly slipping and tapping against the countertop before transferring it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person transfer the grater? Choose **only one** option from the following list.\nOptions:\n(A) The person grasped the grater with both hands from the plate on the countertop and lifted it upwards, then placed it onto the table without much attention.\n(B) The person transferred the grater by picking it up with their right hand from the plate on the countertop and carefully handing it to their left hand, which held both the grater and the plate steadily, while the right hand moved to pick up the knife and fork from the plate.\n(C) The person picked up the grater with their left hand from the plate and moved it over to the right, slightly disturbing the knife and fork in the process.\n(D) The person swiftly picked up the grater from the plate using their right hand and placed it into the drawer with little handling.\n(E) The person used their fingertips to lift the grater off the plate, which led to it slightly slipping and tapping against the countertop before transferring it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person transferred the grater by picking it up with their right hand from the plate on the countertop and carefully handing it to their left hand, which held both the grater and the plate steadily, while the right hand moved to pick up the knife and fork from the plate."
+    },
+    "correct_idx": [
+        1
+    ]
+}

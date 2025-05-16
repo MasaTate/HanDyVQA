@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the paint brush change?",
+    "options": [
+        "The paintbrush was dipped into a container of water for cleaning.",
+        "The paintbrush was placed in a jar filled with paint for storage.",
+        "The paintbrush was brushed against the wooden handle of the stairs.",
+        "The paintbrush was flicked against the edge of the paint can to remove excess paint.",
+        "The paintbrush was used to apply paint on a surface, creating strokes."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the paint brush change? Choose **only one** option from the following list.\nOptions:\n(A) The paintbrush was dipped into a container of water for cleaning.\n(B) The paintbrush was placed in a jar filled with paint for storage.\n(C) The paintbrush was brushed against the wooden handle of the stairs.\n(D) The paintbrush was flicked against the edge of the paint can to remove excess paint.\n(E) The paintbrush was used to apply paint on a surface, creating strokes.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The paintbrush was brushed against the wooden handle of the stairs."
+    },
+    "correct_idx": [
+        2
+    ]
+}

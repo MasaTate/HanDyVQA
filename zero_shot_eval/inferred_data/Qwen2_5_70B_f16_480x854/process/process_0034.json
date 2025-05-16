@@ -1,0 +1,17 @@
+{
+    "question": "How does the person roll the wood piece on the wood lathe?",
+    "options": [
+        "The person applies a consistent pressure with both hands, leading to a stable spin on the lathe.",
+        "The person rotates the wood piece smoothly using his right hand, maintaining control during the process.",
+        "The person keeps the wood piece on the lathe and adjusts it manually for steady rolling.",
+        "The person holds the wood piece with one hand while he carefully adjusts the lathe speed with the other.",
+        "The person rolls the wood piece by gently moving it forward and back with his left hand, ensuring smooth rotation on the lathe."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person roll the wood piece on the wood lathe? Choose **only one** option from the following list.\nOptions:\n(A) The person applies a consistent pressure with both hands, leading to a stable spin on the lathe.\n(B) The person rotates the wood piece smoothly using his right hand, maintaining control during the process.\n(C) The person keeps the wood piece on the lathe and adjusts it manually for steady rolling.\n(D) The person holds the wood piece with one hand while he carefully adjusts the lathe speed with the other.\n(E) The person rolls the wood piece by gently moving it forward and back with his left hand, ensuring smooth rotation on the lathe.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person applies a consistent pressure with both hands, leading to a stable spin on the lathe."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person spread the chunk of paint on the molded clay art?",
+    "options": [
+        "The person gently smears the paint chunk onto the molded clay artwork, using their hand to press it down with the left hand.",
+        "The person carefully dips the paint chunk onto the molded clay artwork using tools by slightly pushing it sideways using the right hand.",
+        "The person places the paint chunk onto the molded clay artwork from a distance, with a soft flick of the wrist from the right hand.",
+        "The person applies the paint chunk to the molded clay artwork, guiding it with circular motions using the fingers of the left hand.",
+        "The person rests the paint chunk on the molded clay artwork, allowing it to sit there gently, using just the fingertips of the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person spread the chunk of paint on the molded clay art? Choose **only one** option from the following list.\nOptions:\n(A) The person gently smears the paint chunk onto the molded clay artwork, using their hand to press it down with the left hand.\n(B) The person carefully dips the paint chunk onto the molded clay artwork using tools by slightly pushing it sideways using the right hand.\n(C) The person places the paint chunk onto the molded clay artwork from a distance, with a soft flick of the wrist from the right hand.\n(D) The person applies the paint chunk to the molded clay artwork, guiding it with circular motions using the fingers of the left hand.\n(E) The person rests the paint chunk on the molded clay artwork, allowing it to sit there gently, using just the fingertips of the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person carefully dips the paint chunk onto the molded clay artwork using tools by slightly pushing it sideways using the right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

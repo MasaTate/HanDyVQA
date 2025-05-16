@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person sketches on the canvas with the pencil in her right hand.",
+        "The person scribbles notes on the notepad with the marker in her right hand.",
+        "The person paints on the wall using a brush in her right hand while holding the palette with her left hand.",
+        "The person writes on the paper with the pen in her right hand.",
+        "The person draws on the whiteboard with the dry-erase marker in her right hand while erasing previous notes with her left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person sketches on the canvas with the pencil in her right hand.\n(B) The person scribbles notes on the notepad with the marker in her right hand.\n(C) The person paints on the wall using a brush in her right hand while holding the palette with her left hand.\n(D) The person writes on the paper with the pen in her right hand.\n(E) The person draws on the whiteboard with the dry-erase marker in her right hand while erasing previous notes with her left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person writes on the paper with the pen in her right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

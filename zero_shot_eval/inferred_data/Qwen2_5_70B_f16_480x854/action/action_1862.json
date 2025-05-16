@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person extends the measuring tape and then cuts the strip of wood with a saw in his left hand.",
+        "The person is pressing the measuring tape against the wall and marking it with a marker in his right hand.",
+        "The person pulls the measuring tape using the right hand and then marks the strip of wood with the pencil in his left hand.",
+        "The person is folding the measuring tape and then sanding the edges of the wood with sandpaper in his right hand.",
+        "The person stretches the measuring tape and then drills a hole in the strip of wood with a drill in his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person extends the measuring tape and then cuts the strip of wood with a saw in his left hand.\n(B) The person is pressing the measuring tape against the wall and marking it with a marker in his right hand.\n(C) The person pulls the measuring tape using the right hand and then marks the strip of wood with the pencil in his left hand.\n(D) The person is folding the measuring tape and then sanding the edges of the wood with sandpaper in his right hand.\n(E) The person stretches the measuring tape and then drills a hole in the strip of wood with a drill in his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person pulls the measuring tape using the right hand and then marks the strip of wood with the pencil in his left hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

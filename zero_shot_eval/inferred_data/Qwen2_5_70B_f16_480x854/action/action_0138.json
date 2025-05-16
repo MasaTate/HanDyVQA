@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person's left hand holds the thread while their right hand holds the scissors.",
+        "The person's left hand grips the fabric while their right hand operates the sewing machine lever.",
+        "The person's left hand holds the craft while their right hand holds the needle.",
+        "The person's left hand steadies the paper while their right hand applies a glue stick.",
+        "The person's left hand lifts a piece of fabric while their right hand wields a paintbrush."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person's left hand holds the thread while their right hand holds the scissors.\n(B) The person's left hand grips the fabric while their right hand operates the sewing machine lever.\n(C) The person's left hand holds the craft while their right hand holds the needle.\n(D) The person's left hand steadies the paper while their right hand applies a glue stick.\n(E) The person's left hand lifts a piece of fabric while their right hand wields a paintbrush.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person's left hand holds the craft while their right hand holds the needle."
+    },
+    "correct_idx": [
+        2
+    ]
+}

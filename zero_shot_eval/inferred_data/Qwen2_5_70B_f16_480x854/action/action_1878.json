@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person holds the cup with the left hand and stirs the soup with a fork in the right hand.",
+        "The person places the cup on the table using the right hand while holding the plate with the left hand.",
+        "The person pours the contents of the cup into the plate using the right hand while gripping the handle with the left hand.",
+        "The person balances the cup on the right hand while using the left hand to whisk the contents inside the cup.",
+        "The person lifts the plate using the left hand and taps the spoon in the cup using the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the cup with the left hand and stirs the soup with a fork in the right hand.\n(B) The person places the cup on the table using the right hand while holding the plate with the left hand.\n(C) The person pours the contents of the cup into the plate using the right hand while gripping the handle with the left hand.\n(D) The person balances the cup on the right hand while using the left hand to whisk the contents inside the cup.\n(E) The person lifts the plate using the left hand and taps the spoon in the cup using the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person lifts the plate using the left hand and taps the spoon in the cup using the right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

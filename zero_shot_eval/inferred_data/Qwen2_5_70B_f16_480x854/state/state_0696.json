@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the cloth change?",
+    "options": [
+        "The cloth was thrown onto the table.",
+        "The cloth was folded in half.",
+        "The cloth was lifted with the left hand.",
+        "The cloth was dragged across the floor.",
+        "The cloth was crumpled into a ball."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the cloth change? Choose **only one** option from the following list.\nOptions:\n(A) The cloth was thrown onto the table.\n(B) The cloth was folded in half.\n(C) The cloth was lifted with the left hand.\n(D) The cloth was dragged across the floor.\n(E) The cloth was crumpled into a ball.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The cloth was folded in half."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the hand saw's wire change?",
+    "options": [
+        "The hand saw's wire was shaken slightly without any deformation.",
+        "The hand saw's wire was slightly twisted without being shaken.",
+        "The hand saw's wire was shaken more vigorously, resulting in a slight deformation.",
+        "The hand saw's wire was pulled without being shaken.",
+        "The hand saw's wire was pushed sideways without deformation or shaking."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the hand saw's wire change? Choose **only one** option from the following list.\nOptions:\n(A) The hand saw's wire was shaken slightly without any deformation.\n(B) The hand saw's wire was slightly twisted without being shaken.\n(C) The hand saw's wire was shaken more vigorously, resulting in a slight deformation.\n(D) The hand saw's wire was pulled without being shaken.\n(E) The hand saw's wire was pushed sideways without deformation or shaking.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The hand saw's wire was pulled without being shaken."
+    },
+    "correct_idx": [
+        0
+    ]
+}

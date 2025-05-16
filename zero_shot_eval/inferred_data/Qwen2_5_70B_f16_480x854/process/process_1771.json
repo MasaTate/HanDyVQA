@@ -1,0 +1,17 @@
+{
+    "question": "How does the person lift the bottle of fluid from the work bench?",
+    "options": [
+        "The person carefully picks up the bottle of fluid by grasping it slightly with both hands and tilting it gently.",
+        "The person casually lifts the bottle of fluid by its neck using one hand while lightly securing the cap.",
+        "The person gently scoops the bottle of fluid off the work bench with a smooth wrist motion, securing the cap.",
+        "The person uses one hand to guide the bottle of fluid from the edge of the work bench rather than lifting it.",
+        "The person pulls the bottle of fluid and then moves it to the other side while locking its cap."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person lift the bottle of fluid from the work bench? Choose **only one** option from the following list.\nOptions:\n(A) The person carefully picks up the bottle of fluid by grasping it slightly with both hands and tilting it gently.\n(B) The person casually lifts the bottle of fluid by its neck using one hand while lightly securing the cap.\n(C) The person gently scoops the bottle of fluid off the work bench with a smooth wrist motion, securing the cap.\n(D) The person uses one hand to guide the bottle of fluid from the edge of the work bench rather than lifting it.\n(E) The person pulls the bottle of fluid and then moves it to the other side while locking its cap.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person gently scoops the bottle of fluid off the work bench with a smooth wrist motion, securing the cap."
+    },
+    "correct_idx": [
+        4
+    ]
+}

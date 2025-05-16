@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of dirt change?",
+    "options": [
+        "The dirt texture was smoothed as it was pressed down into the mold.",
+        "The dirt was compacted and formed into a solid block within the brick molder.",
+        "The dirt was combined with water and transformed into a muddy consistency as it was manipulated.",
+        "The dirt shape was altered and it was loosened as it was removed from the brick molder.",
+        "The dirt color was darkened as it was exposed to sunlight during the molding process."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of dirt change? Choose **only one** option from the following list.\nOptions:\n(A) The dirt texture was smoothed as it was pressed down into the mold.\n(B) The dirt was compacted and formed into a solid block within the brick molder.\n(C) The dirt was combined with water and transformed into a muddy consistency as it was manipulated.\n(D) The dirt shape was altered and it was loosened as it was removed from the brick molder.\n(E) The dirt color was darkened as it was exposed to sunlight during the molding process.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The dirt shape was altered and it was loosened as it was removed from the brick molder."
+    },
+    "correct_idx": [
+        3
+    ]
+}

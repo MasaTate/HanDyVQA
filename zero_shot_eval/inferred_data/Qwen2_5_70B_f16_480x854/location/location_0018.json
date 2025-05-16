@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the drill bit?",
+    "options": [
+        "The person put the drill bit on the workbench.",
+        "The person put the drill bit inside a toolbox.",
+        "The person put the drill bit beside the drill.",
+        "The person put the drill bit in a storage drawer.",
+        "The person put the drill bit into the drill."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the drill bit? Choose **only one** option from the following list.\nOptions:\n(A) The person put the drill bit on the workbench.\n(B) The person put the drill bit inside a toolbox.\n(C) The person put the drill bit beside the drill.\n(D) The person put the drill bit in a storage drawer.\n(E) The person put the drill bit into the drill.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person put the drill bit into the drill."
+    },
+    "correct_idx": [
+        4
+    ]
+}

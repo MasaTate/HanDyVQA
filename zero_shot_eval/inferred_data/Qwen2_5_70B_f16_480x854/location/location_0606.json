@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the dirt?",
+    "options": [
+        "The person put the dirt on the tissue paper.",
+        "The person put the dirt on the paper towel.",
+        "The person put the dirt inside the plastic bag.",
+        "The person put the dirt on the countertop.",
+        "The person put the dirt in the trash can."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the dirt? Choose **only one** option from the following list.\nOptions:\n(A) The person put the dirt on the tissue paper.\n(B) The person put the dirt on the paper towel.\n(C) The person put the dirt inside the plastic bag.\n(D) The person put the dirt on the countertop.\n(E) The person put the dirt in the trash can.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person put the dirt on the paper towel."
+    },
+    "correct_idx": [
+        0
+    ]
+}

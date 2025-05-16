@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the bucket of water change?",
+    "options": [
+        "The bucket of water was poured out onto the ground.",
+        "The bucket of water was lifted and placed on top of the ladder.",
+        "The bucket of water was tipped over, spilling some of its contents.",
+        "The bucket of water was shaken, creating waves inside.",
+        "The bucket of water was covered with a lid, trapping the water inside."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the bucket of water change? Choose **only one** option from the following list.\nOptions:\n(A) The bucket of water was poured out onto the ground.\n(B) The bucket of water was lifted and placed on top of the ladder.\n(C) The bucket of water was tipped over, spilling some of its contents.\n(D) The bucket of water was shaken, creating waves inside.\n(E) The bucket of water was covered with a lid, trapping the water inside.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The bucket of water was lifted and placed on top of the ladder."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "plate",
+        "phone",
+        "and tissue",
+        "chair",
+        "table",
+        "bag",
+        "floor"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) plate\n(B) phone\n(C) and tissue\n(D) chair\n(E) table\n(F) bag\n(G) floor\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(B) The hands use the phone to interact with it, possibly scrolling or tapping on the screen.\n(C) The hands use a tissue to clean or wipe something on the table."
+    },
+    "correct_idx": [
+        0,
+        1,
+        2
+    ]
+}

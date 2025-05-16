@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a line change?",
+    "options": [
+        "The line was erased from the cloth by consistent brushing.",
+        "The line was smudged on the cloth by circular motions.",
+        "The line was written on the cloth by repetitive movements.",
+        "The line was darkened on the cloth using repeated firm strokes.",
+        "The line was extended on the cloth by additional strokes."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a line change? Choose **only one** option from the following list.\nOptions:\n(A) The line was erased from the cloth by consistent brushing.\n(B) The line was smudged on the cloth by circular motions.\n(C) The line was written on the cloth by repetitive movements.\n(D) The line was darkened on the cloth using repeated firm strokes.\n(E) The line was extended on the cloth by additional strokes.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The line was written on the cloth by repetitive movements."
+    },
+    "correct_idx": [
+        2
+    ]
+}

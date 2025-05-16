@@ -1,0 +1,17 @@
+{
+    "question": "How does the person wear gloves?",
+    "options": [
+        "The person wears the gloves on his right hand by pulling and stretching it in the right hand's fingers using his left hand.",
+        "The person slips the gloves onto his hands by pushing them straight in using his fingers, adjusting them with his left hand.",
+        "The person fastens the gloves on his left hand by gently sliding them with his fingers and slightly adjusting the fit.",
+        "The person places the gloves on his hands by catching them and smoothly adjusting them in place.",
+        "The person pulls the gloves onto both hands by gently using a motion that ensures a proper fit."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person wear gloves? Choose **only one** option from the following list.\nOptions:\n(A) The person wears the gloves on his right hand by pulling and stretching it in the right hand's fingers using his left hand.\n(B) The person slips the gloves onto his hands by pushing them straight in using his fingers, adjusting them with his left hand.\n(C) The person fastens the gloves on his left hand by gently sliding them with his fingers and slightly adjusting the fit.\n(D) The person places the gloves on his hands by catching them and smoothly adjusting them in place.\n(E) The person pulls the gloves onto both hands by gently using a motion that ensures a proper fit.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person wears the gloves on his right hand by pulling and stretching it in the right hand's fingers using his left hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

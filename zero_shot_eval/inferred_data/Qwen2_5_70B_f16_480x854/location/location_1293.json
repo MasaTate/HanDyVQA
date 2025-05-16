@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move a stool?",
+    "options": [
+        "The person moved the stool to his front side.",
+        "The person moved the stool to his back side.",
+        "The person moved the stool to the left side of the table.",
+        "The person moved the stool to the right side of the room.",
+        "The person moved the stool to the corner by the window."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move a stool? Choose **only one** option from the following list.\nOptions:\n(A) The person moved the stool to his front side.\n(B) The person moved the stool to his back side.\n(C) The person moved the stool to the left side of the table.\n(D) The person moved the stool to the right side of the room.\n(E) The person moved the stool to the corner by the window.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person moved the stool to the left side of the table."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person plug the wire?",
+    "options": [
+        "The person gently places the wire into the plug using their right hand, guiding it smoothly.",
+        "The person carefully positions the wire into the socket with both hands, aligning it properly.",
+        "The person pushes the wire into the socket using their thumb, pressing slightly.",
+        "The person promptly plugs the wire by pulling it up using the left hand.",
+        "The person nudges the wire towards the plug with a slight wrist motion using their right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person plug the wire? Choose **only one** option from the following list.\nOptions:\n(A) The person gently places the wire into the plug using their right hand, guiding it smoothly.\n(B) The person carefully positions the wire into the socket with both hands, aligning it properly.\n(C) The person pushes the wire into the socket using their thumb, pressing slightly.\n(D) The person promptly plugs the wire by pulling it up using the left hand.\n(E) The person nudges the wire towards the plug with a slight wrist motion using their right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person carefully positions the wire into the socket with both hands, aligning it properly."
+    },
+    "correct_idx": [
+        3
+    ]
+}

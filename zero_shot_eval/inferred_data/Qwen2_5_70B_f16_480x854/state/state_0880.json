@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a set of fabrics on the table change?",
+    "options": [
+        "The fabric was being rolled into a tight cylinder.",
+        "The fabric was being folded with both hands.",
+        "The fabric was being crumpled into a ball.",
+        "The fabric was being laid flat on the table.",
+        "The fabric was being stacked in a neat pile."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a set of fabrics on the table change? Choose **only one** option from the following list.\nOptions:\n(A) The fabric was being rolled into a tight cylinder.\n(B) The fabric was being folded with both hands.\n(C) The fabric was being crumpled into a ball.\n(D) The fabric was being laid flat on the table.\n(E) The fabric was being stacked in a neat pile.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The fabric was being stacked in a neat pile."
+    },
+    "correct_idx": [
+        1
+    ]
+}

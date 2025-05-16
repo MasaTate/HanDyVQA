@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of some floor change?",
+    "options": [
+        "The flour in the container was poured and spread across the table by hand.",
+        "The flour in the container was scooped out and scattered into the air by hand.",
+        "The flour in the container was pushed and dragged on the countertop by hand.",
+        "The flour in the container was dumped and mixed into a bowl by hand.",
+        "The flour in the container was grabbed and squeezed by hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of some floor change? Choose **only one** option from the following list.\nOptions:\n(A) The flour in the container was poured and spread across the table by hand.\n(B) The flour in the container was scooped out and scattered into the air by hand.\n(C) The flour in the container was pushed and dragged on the countertop by hand.\n(D) The flour in the container was dumped and mixed into a bowl by hand.\n(E) The flour in the container was grabbed and squeezed by hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The flour in the container was pushed and dragged on the countertop by hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

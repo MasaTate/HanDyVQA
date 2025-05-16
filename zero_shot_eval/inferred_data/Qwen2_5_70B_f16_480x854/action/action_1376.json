@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person retrieves a plate from the cupboard with her hands.",
+        "The person is placing a bowl on the kitchen counter with her hands.",
+        "The person carries a bowl filled with fruit from the table with her hands.",
+        "The person lifts a bowl from the sink with her hands.",
+        "The person takes a bowl out of the refrigerator with her hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person retrieves a plate from the cupboard with her hands.\n(B) The person is placing a bowl on the kitchen counter with her hands.\n(C) The person carries a bowl filled with fruit from the table with her hands.\n(D) The person lifts a bowl from the sink with her hands.\n(E) The person takes a bowl out of the refrigerator with her hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person takes a bowl out of the refrigerator with her hands."
+    },
+    "correct_idx": [
+        4
+    ]
+}

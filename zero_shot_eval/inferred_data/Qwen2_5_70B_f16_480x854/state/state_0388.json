@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the glass tray with the paper change?",
+    "options": [
+        "The glass tray was wiped with wet brown paper, resulting in a slightly smudged surface.",
+        "The glass tray was wiped with dry brown paper without any remarkable positional or rotation change.",
+        "The glass tray was wiped with dry brown paper, resulting in a slight shift to the right.",
+        "The glass tray was wiped with dry brown paper, resulting in a slight clockwise rotation.",
+        "The glass tray was wiped with dry brown paper, resulting in it being moved closer to the edge of the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the glass tray with the paper change? Choose **only one** option from the following list.\nOptions:\n(A) The glass tray was wiped with wet brown paper, resulting in a slightly smudged surface.\n(B) The glass tray was wiped with dry brown paper without any remarkable positional or rotation change.\n(C) The glass tray was wiped with dry brown paper, resulting in a slight shift to the right.\n(D) The glass tray was wiped with dry brown paper, resulting in a slight clockwise rotation.\n(E) The glass tray was wiped with dry brown paper, resulting in it being moved closer to the edge of the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The glass tray was wiped with dry brown paper without any remarkable positional or rotation change."
+    },
+    "correct_idx": [
+        1
+    ]
+}

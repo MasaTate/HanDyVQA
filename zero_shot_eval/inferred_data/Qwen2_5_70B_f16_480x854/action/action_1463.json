@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is using the thumb of the left hand to press a button on a remote control.",
+        "The person is tapping the back of their hand with the index finger of the right hand.",
+        "The person is writing with a pencil held in the right hand while resting the left hand on the table.",
+        "The person is waving the right hand in the air to get someone's attention.",
+        "The person is using the index finger of the right hand to point at something."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is using the thumb of the left hand to press a button on a remote control.\n(B) The person is tapping the back of their hand with the index finger of the right hand.\n(C) The person is writing with a pencil held in the right hand while resting the left hand on the table.\n(D) The person is waving the right hand in the air to get someone's attention.\n(E) The person is using the index finger of the right hand to point at something.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person is using the index finger of the right hand to point at something."
+    },
+    "correct_idx": [
+        4
+    ]
+}

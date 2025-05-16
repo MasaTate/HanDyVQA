@@ -1,0 +1,17 @@
+{
+    "question": "How does the person open a shelf of the refrigerator?",
+    "options": [
+        "The person grips the shelf with their palm and pulls it outward, but the initial inward push causes some resistance.",
+        "The person uses both hands to grip the shelf and pulls it outward in a swift motion instead of a steady one.",
+        "The person places their fingers under the shelf and attempts to lift it slightly as they pull, which can cause it to wobble.",
+        "The person uses their right hand to grip the edge of the refrigerator shelf and then pull it outward with a firm and steady motion, ensuring it slides open smoothly.",
+        "The person pulls the shelf out quickly using their left hand, which might risk causing slight damage from the sudden motion."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person open a shelf of the refrigerator? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the shelf with their palm and pulls it outward, but the initial inward push causes some resistance.\n(B) The person uses both hands to grip the shelf and pulls it outward in a swift motion instead of a steady one.\n(C) The person places their fingers under the shelf and attempts to lift it slightly as they pull, which can cause it to wobble.\n(D) The person uses their right hand to grip the edge of the refrigerator shelf and then pull it outward with a firm and steady motion, ensuring it slides open smoothly.\n(E) The person pulls the shelf out quickly using their left hand, which might risk causing slight damage from the sudden motion.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person uses their right hand to grip the edge of the refrigerator shelf and then pull it outward with a firm and steady motion, ensuring it slides open smoothly."
+    },
+    "correct_idx": [
+        3
+    ]
+}

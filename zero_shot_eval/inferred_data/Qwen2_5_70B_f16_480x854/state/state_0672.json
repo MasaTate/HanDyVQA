@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the pieces of carrot change?",
+    "options": [
+        "The shredded carrots were added into the pot with the other vegetables inside.",
+        "The diced carrots were placed into the pot with the broth and spices inside.",
+        "The whole carrots were put into the pot alongside the meat and herbs inside.",
+        "The chopped carrots were picked up and placed in the pot with the other ingredients inside.",
+        "The grated carrots were incorporated into the pot with the other components inside."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the pieces of carrot change? Choose **only one** option from the following list.\nOptions:\n(A) The shredded carrots were added into the pot with the other vegetables inside.\n(B) The diced carrots were placed into the pot with the broth and spices inside.\n(C) The whole carrots were put into the pot alongside the meat and herbs inside.\n(D) The chopped carrots were picked up and placed in the pot with the other ingredients inside.\n(E) The grated carrots were incorporated into the pot with the other components inside.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The chopped carrots were picked up and placed in the pot with the other ingredients inside."
+    },
+    "correct_idx": [
+        3
+    ]
+}

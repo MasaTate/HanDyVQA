@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the tube change?",
+    "options": [
+        "The tube was rotated in the left hand to adjust its angle for a better grip on the bucket.",
+        "The tube was passed from the left hand to a nearby table to make space for the bucket.",
+        "The tube was positioned upright in the right hand to balance it with the weight of the bucket.",
+        "The tube was placed from the left hand into the bucket to see if it would sink.",
+        "The tube was moved from the right hand to the left to lift it with the bucket."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the tube change? Choose **only one** option from the following list.\nOptions:\n(A) The tube was rotated in the left hand to adjust its angle for a better grip on the bucket.\n(B) The tube was passed from the left hand to a nearby table to make space for the bucket.\n(C) The tube was positioned upright in the right hand to balance it with the weight of the bucket.\n(D) The tube was placed from the left hand into the bucket to see if it would sink.\n(E) The tube was moved from the right hand to the left to lift it with the bucket.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The tube was moved from the right hand to the left to lift it with the bucket."
+    },
+    "correct_idx": [
+        4
+    ]
+}

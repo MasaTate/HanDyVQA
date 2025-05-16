@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a pipe change?",
+    "options": [
+        "The pipe's position was altered when it was pushed to turn on in a quick motion.",
+        "The pipe's position was altered when it was pushed to turn off in a deliberate motion.",
+        "The pipe's orientation was adjusted when it was pushed sideways in a slow motion.",
+        "The pipe's angle changed slightly as it was pushed upward in a quick motion.",
+        "The pipe's position was shifted without activating any mechanism."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a pipe change? Choose **only one** option from the following list.\nOptions:\n(A) The pipe's position was altered when it was pushed to turn on in a quick motion.\n(B) The pipe's position was altered when it was pushed to turn off in a deliberate motion.\n(C) The pipe's orientation was adjusted when it was pushed sideways in a slow motion.\n(D) The pipe's angle changed slightly as it was pushed upward in a quick motion.\n(E) The pipe's position was shifted without activating any mechanism.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The pipe's position was altered when it was pushed to turn off in a deliberate motion."
+    },
+    "correct_idx": [
+        0
+    ]
+}

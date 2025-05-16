@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the knife change?",
+    "options": [
+        "The knife was gripped in her hand as it was raised above the cutting board and then brought down onto the onion.",
+        "The knife was placed into a sheath, secured, and then lifted off the cutting board as she prepared to put it away.",
+        "The knife was resting on the cutting board, was lightly held on the handle and shifted slightly, and was then set back down as she took the onion.",
+        "The knife spun in her hand and was tossed onto the table as she reached for the onion.",
+        "The knife slid across the cutting board, almost to the edge, before it was grabbed by the handle and angled upwards."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the knife change? Choose **only one** option from the following list.\nOptions:\n(A) The knife was gripped in her hand as it was raised above the cutting board and then brought down onto the onion.\n(B) The knife was placed into a sheath, secured, and then lifted off the cutting board as she prepared to put it away.\n(C) The knife was resting on the cutting board, was lightly held on the handle and shifted slightly, and was then set back down as she took the onion.\n(D) The knife spun in her hand and was tossed onto the table as she reached for the onion.\n(E) The knife slid across the cutting board, almost to the edge, before it was grabbed by the handle and angled upwards.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The knife was resting on the cutting board, was lightly held on the handle and shifted slightly, and was then set back down as she took the onion."
+    },
+    "correct_idx": [
+        2
+    ]
+}

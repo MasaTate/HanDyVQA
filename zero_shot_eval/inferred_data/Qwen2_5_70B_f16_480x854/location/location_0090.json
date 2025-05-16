@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the dishes?",
+    "options": [
+        "The person placed the dishes on the edge of the left sink.",
+        "The person placed the dishes on the bottom of the right sink.",
+        "The person placed the dishes on the top of the left counter.",
+        "The person placed the dishes on the side of the right countertop.",
+        "The person placed the dishes on the center of the right sink."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the dishes? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the dishes on the edge of the left sink.\n(B) The person placed the dishes on the bottom of the right sink.\n(C) The person placed the dishes on the top of the left counter.\n(D) The person placed the dishes on the side of the right countertop.\n(E) The person placed the dishes on the center of the right sink.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person placed the dishes on the edge of the left sink."
+    },
+    "correct_idx": [
+        4
+    ]
+}

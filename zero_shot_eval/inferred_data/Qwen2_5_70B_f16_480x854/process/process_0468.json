@@ -1,0 +1,17 @@
+{
+    "question": "How does the person close the cabinet door?",
+    "options": [
+        "The person presses the cabinet door shut with the back of his hand, gently ensuring it closes quietly against the cabinet.",
+        "The person uses his right hand to pull the cabinet door, slightly releasing it to let it settle back into the frame.",
+        "The person pushes the cabinet door shut using his left hand, applying pressure on the door's edge, and guiding it smoothly until it's fully closed.",
+        "The person nudges the cabinet door with his shoulder, softly guiding it without using his hands.",
+        "The person swings the cabinet door closed using both hands, steadily drawing it towards the frame."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person close the cabinet door? Choose **only one** option from the following list.\nOptions:\n(A) The person presses the cabinet door shut with the back of his hand, gently ensuring it closes quietly against the cabinet.\n(B) The person uses his right hand to pull the cabinet door, slightly releasing it to let it settle back into the frame.\n(C) The person pushes the cabinet door shut using his left hand, applying pressure on the door's edge, and guiding it smoothly until it's fully closed.\n(D) The person nudges the cabinet door with his shoulder, softly guiding it without using his hands.\n(E) The person swings the cabinet door closed using both hands, steadily drawing it towards the frame.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person pushes the cabinet door shut using his left hand, applying pressure on the door's edge, and guiding it smoothly until it's fully closed."
+    },
+    "correct_idx": [
+        2
+    ]
+}

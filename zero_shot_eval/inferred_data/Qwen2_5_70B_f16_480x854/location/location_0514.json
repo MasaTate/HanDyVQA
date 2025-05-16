@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the coins?",
+    "options": [
+        "The person drops the coins onto the ground next to the woman's foot.",
+        "The person drops the coins into a nearby bowl on the table.",
+        "The person drops the coins into the woman's purse.",
+        "The person drops the coins onto the chair beside the woman.",
+        "The person drops the coins into the woman's hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the coins? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the coins onto the ground next to the woman's foot.\n(B) The person drops the coins into a nearby bowl on the table.\n(C) The person drops the coins into the woman's purse.\n(D) The person drops the coins onto the chair beside the woman.\n(E) The person drops the coins into the woman's hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person drops the coins into the woman's hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

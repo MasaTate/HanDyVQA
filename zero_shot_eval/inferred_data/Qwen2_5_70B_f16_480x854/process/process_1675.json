@@ -1,0 +1,17 @@
+{
+    "question": "How does the person move the second sanding disc at the trach?",
+    "options": [
+        "The person tosses the sanding disc with his right hand, sending it over his shoulder.",
+        "The person tosses the sanding disc from his palm with a gentle wrist motion using his dominant hand.",
+        "The person tosses the sanding disc using his left hand after putting the sanding machine.",
+        "The person tosses the sanding disc underhand with both hands toward the trash can.",
+        "The person slides the sanding disc off the edge of the table with his fingertips on his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person move the second sanding disc at the trach? Choose **only one** option from the following list.\nOptions:\n(A) The person tosses the sanding disc with his right hand, sending it over his shoulder.\n(B) The person tosses the sanding disc from his palm with a gentle wrist motion using his dominant hand.\n(C) The person tosses the sanding disc using his left hand after putting the sanding machine.\n(D) The person tosses the sanding disc underhand with both hands toward the trash can.\n(E) The person slides the sanding disc off the edge of the table with his fingertips on his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person tosses the sanding disc using his left hand after putting the sanding machine."
+    },
+    "correct_idx": [
+        2
+    ]
+}

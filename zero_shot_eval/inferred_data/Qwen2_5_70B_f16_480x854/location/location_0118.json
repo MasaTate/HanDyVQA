@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put his left hand?",
+    "options": [
+        "The person put his left hand on the table beside the ziplock bag with stuffs inside.",
+        "The person put his left hand into the pocket of his jacket next to the ziplock bag.",
+        "The person put his left hand inside the ziplock bag with stuffs inside.",
+        "The person put his left hand above the ziplock bag resting on the counter.",
+        "The person put his left hand under the ziplock bag on the shelf."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put his left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person put his left hand on the table beside the ziplock bag with stuffs inside.\n(B) The person put his left hand into the pocket of his jacket next to the ziplock bag.\n(C) The person put his left hand inside the ziplock bag with stuffs inside.\n(D) The person put his left hand above the ziplock bag resting on the counter.\n(E) The person put his left hand under the ziplock bag on the shelf.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person put his left hand inside the ziplock bag with stuffs inside."
+    },
+    "correct_idx": [
+        2
+    ]
+}

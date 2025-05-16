@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is adjusting the brake pad while holding a wrench in the other hand.",
+        "The person is holding the brake pad using both hands.",
+        "The person is cleaning the brake pad using a cloth with both hands.",
+        "The person is replacing the brake pad on the vehicle while using a screwdriver with one hand and supporting it with the other.",
+        "The person is inspecting the brake pad while balancing it on a workbench with one hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is adjusting the brake pad while holding a wrench in the other hand.\n(B) The person is holding the brake pad using both hands.\n(C) The person is cleaning the brake pad using a cloth with both hands.\n(D) The person is replacing the brake pad on the vehicle while using a screwdriver with one hand and supporting it with the other.\n(E) The person is inspecting the brake pad while balancing it on a workbench with one hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person is holding the brake pad using both hands."
+    },
+    "correct_idx": [
+        1
+    ]
+}

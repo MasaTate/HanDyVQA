@@ -1,0 +1,17 @@
+{
+    "question": "How does the person push second drawer?",
+    "options": [
+        "The person smoothly slid the second drawer out using both hands and then gently pushed it back in.",
+        "The person held the handle of the second drawer with the right hand and slightly squeezed it, making the drawer glide back.",
+        "The person gently used their palm to nudge the second drawer without gripping the handle tightly.",
+        "The person pulled the second drawer and then pushed the second drawer using the left hand.",
+        "The person slightly lifted the second drawer with both hands and then softly pushed it forward to close it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person push second drawer? Choose **only one** option from the following list.\nOptions:\n(A) The person smoothly slid the second drawer out using both hands and then gently pushed it back in.\n(B) The person held the handle of the second drawer with the right hand and slightly squeezed it, making the drawer glide back.\n(C) The person gently used their palm to nudge the second drawer without gripping the handle tightly.\n(D) The person pulled the second drawer and then pushed the second drawer using the left hand.\n(E) The person slightly lifted the second drawer with both hands and then softly pushed it forward to close it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person pulled the second drawer and then pushed the second drawer using the left hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

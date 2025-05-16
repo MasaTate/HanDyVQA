@@ -1,0 +1,17 @@
+{
+    "question": "How does the person stir the the rice in the pan on a gas cooker?",
+    "options": [
+        "The person uses a large wooden spoon with the left hand to stir the rice in the pan.",
+        "The person stirs the rice in the pan using both hands, gently holding the edges of the pan to move it.",
+        "The person stirs the rice in the pan on the gas cooker gently saut\u00e9ing it using a black spatula with the right hand.",
+        "The person stirs the rice with a fork in the right hand while leaning slightly over the pan.",
+        "The person tilts the pan and gently moves the rice around using a whisk with the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person stir the the rice in the pan on a gas cooker? Choose **only one** option from the following list.\nOptions:\n(A) The person uses a large wooden spoon with the left hand to stir the rice in the pan.\n(B) The person stirs the rice in the pan using both hands, gently holding the edges of the pan to move it.\n(C) The person stirs the rice in the pan on the gas cooker gently saut\u00e9ing it using a black spatula with the right hand.\n(D) The person stirs the rice with a fork in the right hand while leaning slightly over the pan.\n(E) The person tilts the pan and gently moves the rice around using a whisk with the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person stirs the rice in the pan on the gas cooker gently saut\u00e9ing it using a black spatula with the right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the cup?",
+    "options": [
+        "The person put the cup under the faucet to get some water. ",
+        "The person put the cup next to the sink to fill it with water.",
+        "The person put the cup on the counter beside the stove to get some water.",
+        "The person put the cup in the refrigerator to cool it before using.",
+        "The person put the cup on the table in the dining room to wait for refilling."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the cup? Choose **only one** option from the following list.\nOptions:\n(A) The person put the cup under the faucet to get some water. \n(B) The person put the cup next to the sink to fill it with water.\n(C) The person put the cup on the counter beside the stove to get some water.\n(D) The person put the cup in the refrigerator to cool it before using.\n(E) The person put the cup on the table in the dining room to wait for refilling.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person put the cup under the faucet to get some water."
+    },
+    "correct_idx": [
+        0
+    ]
+}

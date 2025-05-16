@@ -1,0 +1,17 @@
+{
+    "question": "How does the person loosen the bolt?",
+    "options": [
+        "The person grips the bolt securely with pliers in his left hand and turns it clockwise using a wrench in his right hand.",
+        "The person stabilizes the bolt by holding it against the table with both hands while using a manual screwdriver to rotate the bolt in a circular motion.",
+        "The person uses his thumb and forefinger to grasp the bolt firmly and turns it sideways with a ratchet tool in his right hand.",
+        "The person supports the bolt with his palm and rotates it counter-clockwise using a hammer in his left hand.",
+        "The person holds the bolt steady using the T-shaped screwdriver in his right hand and turns the bolt anti-clockwise using the electric screwdriver in his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person loosen the bolt? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the bolt securely with pliers in his left hand and turns it clockwise using a wrench in his right hand.\n(B) The person stabilizes the bolt by holding it against the table with both hands while using a manual screwdriver to rotate the bolt in a circular motion.\n(C) The person uses his thumb and forefinger to grasp the bolt firmly and turns it sideways with a ratchet tool in his right hand.\n(D) The person supports the bolt with his palm and rotates it counter-clockwise using a hammer in his left hand.\n(E) The person holds the bolt steady using the T-shaped screwdriver in his right hand and turns the bolt anti-clockwise using the electric screwdriver in his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person holds the bolt steady using the T-shaped screwdriver in his right hand and turns the bolt anti-clockwise using the electric screwdriver in his left hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

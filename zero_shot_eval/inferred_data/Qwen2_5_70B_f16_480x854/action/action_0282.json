@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person places the pail down on the ground with the right hand.",
+        "The person lifts the bucket off the ground with the right hand and steadies it with the left hand.",
+        "The person carries two buckets, puts the right bucket on the ground, then picks up a tool from the left bucket to get the contents from the right bucket. Both hands carry each bucket.",
+        "The person pushes the bucket across the ground using the right hand.",
+        "The person removes the lid from the bucket with the right hand, using the left hand to hold it steady."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person places the pail down on the ground with the right hand.\n(B) The person lifts the bucket off the ground with the right hand and steadies it with the left hand.\n(C) The person carries two buckets, puts the right bucket on the ground, then picks up a tool from the left bucket to get the contents from the right bucket. Both hands carry each bucket.\n(D) The person pushes the bucket across the ground using the right hand.\n(E) The person removes the lid from the bucket with the right hand, using the left hand to hold it steady.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person carries two buckets, puts the right bucket on the ground, then picks up a tool from the left bucket to get the contents from the right bucket. Both hands carry each bucket."
+    },
+    "correct_idx": [
+        2
+    ]
+}

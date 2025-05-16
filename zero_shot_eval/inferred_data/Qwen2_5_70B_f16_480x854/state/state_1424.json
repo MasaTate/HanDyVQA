@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the tom change?",
+    "options": [
+        "The tom was spun around while being hit with the drumsticks.",
+        "The tom was lifted off the ground and moved while being tapped with the drumsticks.",
+        "The tom was turned upside down while being struck with the drumsticks.",
+        "The tom was strummed and hit hard with the drumsticks while staying in its place.",
+        "The tom was pushed forward and backward while being brushed with the drumsticks."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the tom change? Choose **only one** option from the following list.\nOptions:\n(A) The tom was spun around while being hit with the drumsticks.\n(B) The tom was lifted off the ground and moved while being tapped with the drumsticks.\n(C) The tom was turned upside down while being struck with the drumsticks.\n(D) The tom was strummed and hit hard with the drumsticks while staying in its place.\n(E) The tom was pushed forward and backward while being brushed with the drumsticks.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The tom was strummed and hit hard with the drumsticks while staying in its place."
+    },
+    "correct_idx": [
+        3
+    ]
+}

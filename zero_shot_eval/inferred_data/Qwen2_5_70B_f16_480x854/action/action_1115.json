@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person holds the book with both hands, pulls the other book with the left hand, and puts the book on top before pushing them with both hands into the shelf.",
+        "The person grips the magazine with both hands, pulls the other magazine with the left hand, and places it using both hands on the table.",
+        "The person holds the book with both hands, pushes it away with the right hand, and picks up a notebook with the left hand.",
+        "The person is flipping through the pages of the book with both hands while holding a pen in the right hand and balancing another book under the left arm.",
+        "The person holds a tablet with both hands, lifts another tablet with the left hand, and sets it down using both hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the book with both hands, pulls the other book with the left hand, and puts the book on top before pushing them with both hands into the shelf.\n(B) The person grips the magazine with both hands, pulls the other magazine with the left hand, and places it using both hands on the table.\n(C) The person holds the book with both hands, pushes it away with the right hand, and picks up a notebook with the left hand.\n(D) The person is flipping through the pages of the book with both hands while holding a pen in the right hand and balancing another book under the left arm.\n(E) The person holds a tablet with both hands, lifts another tablet with the left hand, and sets it down using both hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person holds the book with both hands, pulls the other book with the left hand, and puts the book on top before pushing them with both hands into the shelf."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the bottle of liquid wash?",
+    "options": [
+        "The person moved the bottle of liquid wash in the stove.",
+        "The person moved the bottle of liquid wash in the floor.",
+        "The person moved the bottle of liquid wash to he left side of the sink.",
+        "The person moved the bottle of liquid wash in the counter tops.",
+        "The person moved the bottle of liquid wash to the cabinet."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the bottle of liquid wash? Choose **only one** option from the following list.\nOptions:\n(A) The person moved the bottle of liquid wash in the stove.\n(B) The person moved the bottle of liquid wash in the floor.\n(C) The person moved the bottle of liquid wash to he left side of the sink.\n(D) The person moved the bottle of liquid wash in the counter tops.\n(E) The person moved the bottle of liquid wash to the cabinet.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person moved the bottle of liquid wash to the left side of the sink."
+    },
+    "correct_idx": [
+        3
+    ]
+}

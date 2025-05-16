@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move a red nub?",
+    "options": [
+        "The person moves a red nub slightly downward.",
+        "The person moves a red nub slightly upward.",
+        "The person moves a red nub a little to the left.",
+        "The person moves a red nub a bit to the right.",
+        "The person moves a red nub directly downward."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move a red nub? Choose **only one** option from the following list.\nOptions:\n(A) The person moves a red nub slightly downward.\n(B) The person moves a red nub slightly upward.\n(C) The person moves a red nub a little to the left.\n(D) The person moves a red nub a bit to the right.\n(E) The person moves a red nub directly downward.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person moves a red nub a bit to the right."
+    },
+    "correct_idx": [
+        1
+    ]
+}

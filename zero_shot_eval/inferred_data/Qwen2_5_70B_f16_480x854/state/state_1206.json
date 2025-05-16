@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the frying pan change?",
+    "options": [
+        "The frying pan was turned upside down, allowing the contents inside to spill out onto the counter.",
+        "The frying pan was heated on high, causing the contents inside to bubble and boil.",
+        "The frying pan was placed in the sink, where the contents were removed under running water.",
+        "The frying pan was tilted multiple times, causing the contents inside to shift and move.",
+        "The frying pan was covered with a lid, trapping steam and moisture inside."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the frying pan change? Choose **only one** option from the following list.\nOptions:\n(A) The frying pan was turned upside down, allowing the contents inside to spill out onto the counter.\n(B) The frying pan was heated on high, causing the contents inside to bubble and boil.\n(C) The frying pan was placed in the sink, where the contents were removed under running water.\n(D) The frying pan was tilted multiple times, causing the contents inside to shift and move.\n(E) The frying pan was covered with a lid, trapping steam and moisture inside.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The frying pan was tilted multiple times, causing the contents inside to shift and move."
+    },
+    "correct_idx": [
+        3
+    ]
+}

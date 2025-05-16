@@ -1,0 +1,17 @@
+{
+    "question": "How does the person grab the cable?",
+    "options": [
+        "The person holds the cable by wrapping his entire right hand around it securely.",
+        "The person grabs the cable by pinching it using his left thumb and index finger.",
+        "The person picks up the cable using the right thumb and forefinger.",
+        "The person holds onto the cable by clamping it between his left thumb and forefinger.",
+        "The person grabs the cable by hooking it with his left index finger."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person grab the cable? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the cable by wrapping his entire right hand around it securely.\n(B) The person grabs the cable by pinching it using his left thumb and index finger.\n(C) The person picks up the cable using the right thumb and forefinger.\n(D) The person holds onto the cable by clamping it between his left thumb and forefinger.\n(E) The person grabs the cable by hooking it with his left index finger.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person holds onto the cable by clamping it between his left thumb and forefinger."
+    },
+    "correct_idx": [
+        1
+    ]
+}

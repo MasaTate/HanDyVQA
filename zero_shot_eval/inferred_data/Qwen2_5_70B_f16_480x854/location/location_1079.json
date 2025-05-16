@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the mattock?",
+    "options": [
+        "The person moved the mattock from left hand to right hand.",
+        "The person moved the mattock from right hand to left hand.",
+        "The person moved the mattock from both hands to the ground.",
+        "The person moved the mattock from one hand to the other hand.",
+        "The person moved the mattock from left hand to behind their back."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the mattock? Choose **only one** option from the following list.\nOptions:\n(A) The person moved the mattock from left hand to right hand.\n(B) The person moved the mattock from right hand to left hand.\n(C) The person moved the mattock from both hands to the ground.\n(D) The person moved the mattock from one hand to the other hand.\n(E) The person moved the mattock from left hand to behind their back.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person moved the mattock from left hand to right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

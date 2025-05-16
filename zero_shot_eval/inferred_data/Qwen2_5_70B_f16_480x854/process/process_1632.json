@@ -1,0 +1,17 @@
+{
+    "question": "How does the person return the spanner?",
+    "options": [
+        "The person grips the spanner with the right hand, moves it over the container, and then releases the grip to drop it inside.",
+        "The person holds the spanner with the thumb and index finger of the left hand, moves it closely above the container, and then gently places it inside.",
+        "The person positions the spanner on the table before sliding it smoothly across the surface towards the container.",
+        "The person grips the spanner with both hands, raises it slightly, and then allows it to drop gently into the container.",
+        "The person uses the fingertips of the right hand to balance the spanner before letting it slide lightly into the container."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person return the spanner? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the spanner with the right hand, moves it over the container, and then releases the grip to drop it inside.\n(B) The person holds the spanner with the thumb and index finger of the left hand, moves it closely above the container, and then gently places it inside.\n(C) The person positions the spanner on the table before sliding it smoothly across the surface towards the container.\n(D) The person grips the spanner with both hands, raises it slightly, and then allows it to drop gently into the container.\n(E) The person uses the fingertips of the right hand to balance the spanner before letting it slide lightly into the container.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person grips the spanner with the right hand, moves it over the container, and then releases the grip to drop it inside."
+    },
+    "correct_idx": [
+        0
+    ]
+}

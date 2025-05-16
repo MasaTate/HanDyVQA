@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "pvc pipe",
+        "shoes",
+        "electric nail gun",
+        "rocks",
+        "garbage plastic",
+        "metal fence"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) pvc pipe\n(B) shoes\n(C) electric nail gun\n(D) rocks\n(E) garbage plastic\n(F) metal fence\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(C) Electric nail gun\n\nThe hands in the video are using an electric nail gun to secure a black plastic sheeting to a wooden frame. The person is holding the nail gun with both hands and appears to be driving nails into the wood to attach the plastic sheeting. There is no indication of the use of a pvc pipe, shoes, rocks, garbage plastic, or a metal fence in the video."
+    },
+    "correct_idx": [
+        2,
+        4
+    ]
+}

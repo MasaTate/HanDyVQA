@@ -1,0 +1,17 @@
+{
+    "question": "How does the person play the piano?",
+    "options": [
+        "The person hovers their fingers just above the piano keys, occasionally pressing gently to produce softer tones.",
+        "The person plays the piano by using primarily their right hand on the keys, while the left hand occasionally provides support.",
+        "The person lightly lifts their fingers off the keys after each note, focusing on a more staccato-like style.",
+        "The person glides their fingers smoothly across the keys, combining finger placement with some use of the palms to form chords.",
+        "The person plays the piano by placing the fingers of both hands on the piano keys and presses them in sequence, moving their hands smoothly across the keys to play."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person play the piano? Choose **only one** option from the following list.\nOptions:\n(A) The person hovers their fingers just above the piano keys, occasionally pressing gently to produce softer tones.\n(B) The person plays the piano by using primarily their right hand on the keys, while the left hand occasionally provides support.\n(C) The person lightly lifts their fingers off the keys after each note, focusing on a more staccato-like style.\n(D) The person glides their fingers smoothly across the keys, combining finger placement with some use of the palms to form chords.\n(E) The person plays the piano by placing the fingers of both hands on the piano keys and presses them in sequence, moving their hands smoothly across the keys to play.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person plays the piano by placing the fingers of both hands on the piano keys and presses them in sequence, moving their hands smoothly across the keys to play."
+    },
+    "correct_idx": [
+        4
+    ]
+}

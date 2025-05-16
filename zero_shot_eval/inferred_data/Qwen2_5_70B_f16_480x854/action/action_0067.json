@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person raises the bottle above the workbench with his right hand while the left hand holds the clamp steadily.",
+        "The person lifts the bottle off the vice grip with his right hand while using his left hand to adjust the settings.",
+        "The person lowers the bottle onto the vice grip with his right hand while the left hand spins the handle.",
+        "The person places the bottle into the toolkit with his right hand while his left hand holds a wrench.",
+        "The person steadies the bottle against the surface with his right hand while using his left hand to secure the screws."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person raises the bottle above the workbench with his right hand while the left hand holds the clamp steadily.\n(B) The person lifts the bottle off the vice grip with his right hand while using his left hand to adjust the settings.\n(C) The person lowers the bottle onto the vice grip with his right hand while the left hand spins the handle.\n(D) The person places the bottle into the toolkit with his right hand while his left hand holds a wrench.\n(E) The person steadies the bottle against the surface with his right hand while using his left hand to secure the screws.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person lowers the bottle onto the vice grip with his right hand while the left hand spins the handle."
+    },
+    "correct_idx": [
+        2
+    ]
+}

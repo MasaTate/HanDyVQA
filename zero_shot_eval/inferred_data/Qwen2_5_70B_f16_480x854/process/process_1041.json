@@ -1,0 +1,17 @@
+{
+    "question": "How does the person adjust the cutter, rod and the screwdriver?",
+    "options": [
+        "The person takes the screwdriver first, then grabs the cutter and rod with the right hand, placing them on the left edge of the table using the same hand.",
+        "The person holds the cutter in the left hand while balancing the rod on top and places the screwdriver on the table using the right hand.",
+        "The person picks up the rod first, then grasps the cutter and screwdriver with both hands, setting them down in the center of the table.",
+        "The person picks up the cutter first, then the rod and screwdriver, stacking them in the left hand before placing them down at the right corner of the table using the right hand.",
+        "The person sequentially lifts the rod and cutter in the right hand, while setting the screwdriver on the floor with the left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person adjust the cutter, rod and the screwdriver? Choose **only one** option from the following list.\nOptions:\n(A) The person takes the screwdriver first, then grabs the cutter and rod with the right hand, placing them on the left edge of the table using the same hand.\n(B) The person holds the cutter in the left hand while balancing the rod on top and places the screwdriver on the table using the right hand.\n(C) The person picks up the rod first, then grasps the cutter and screwdriver with both hands, setting them down in the center of the table.\n(D) The person picks up the cutter first, then the rod and screwdriver, stacking them in the left hand before placing them down at the right corner of the table using the right hand.\n(E) The person sequentially lifts the rod and cutter in the right hand, while setting the screwdriver on the floor with the left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person holds the cutter in the left hand while balancing the rod on top and places the screwdriver on the table using the right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

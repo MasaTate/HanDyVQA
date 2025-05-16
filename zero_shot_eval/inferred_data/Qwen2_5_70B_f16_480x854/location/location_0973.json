@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put her left hand?",
+    "options": [
+        "The person placed her left hand on the table and pushed it down.",
+        "The person set her left hand on the kitchen counter and leaned over it.",
+        "The person put her left hand on the cabinet and opened it.",
+        "The person positioned her left hand on the shelf and reached up.",
+        "The person rested her left hand on the chair and adjusted her posture."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put her left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person placed her left hand on the table and pushed it down.\n(B) The person set her left hand on the kitchen counter and leaned over it.\n(C) The person put her left hand on the cabinet and opened it.\n(D) The person positioned her left hand on the shelf and reached up.\n(E) The person rested her left hand on the chair and adjusted her posture.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person put her left hand on the cabinet and opened it."
+    },
+    "correct_idx": [
+        2
+    ]
+}

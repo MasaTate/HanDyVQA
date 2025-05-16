@@ -1,0 +1,21 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "cloth",
+        "tupperware",
+        "plastic detergent",
+        "knife",
+        "faucet",
+        "sponge",
+        "spoon"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) cloth\n(B) tupperware\n(C) plastic detergent\n(D) knife\n(E) faucet\n(F) sponge\n(G) spoon\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(D) The hands are using a knife to wash it under the running water.\n(F) The hands are using a sponge to clean the knife.\n\nAnswer format:\n(D) The hands are using a knife to wash it under the running water.\n(F) The hands are using a sponge to clean the knife."
+    },
+    "correct_idx": [
+        2,
+        3,
+        5
+    ]
+}

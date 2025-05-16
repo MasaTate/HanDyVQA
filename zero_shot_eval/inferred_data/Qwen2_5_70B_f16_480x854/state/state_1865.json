@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a drawer change?",
+    "options": [
+        "The drawer was pulled out and then pushed in, resulting in a shift in position from being fully closed to halfway extended.",
+        "The drawer was removed entirely from its frame and then placed back, altering its position from within the cabinet to outside it.",
+        "The drawer was left slightly ajar and then completely shut, leading to a transition in position from open to fully closed.",
+        "The drawer was slid partially out and then stopped midway, producing a change in position without fully closing or opening.",
+        "The drawer was opened and then closed, causing a change in position as it moved outward and then returned inward."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a drawer change? Choose **only one** option from the following list.\nOptions:\n(A) The drawer was pulled out and then pushed in, resulting in a shift in position from being fully closed to halfway extended.\n(B) The drawer was removed entirely from its frame and then placed back, altering its position from within the cabinet to outside it.\n(C) The drawer was left slightly ajar and then completely shut, leading to a transition in position from open to fully closed.\n(D) The drawer was slid partially out and then stopped midway, producing a change in position without fully closing or opening.\n(E) The drawer was opened and then closed, causing a change in position as it moved outward and then returned inward.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The drawer was opened and then closed, causing a change in position as it moved outward and then returned inward."
+    },
+    "correct_idx": [
+        4
+    ]
+}

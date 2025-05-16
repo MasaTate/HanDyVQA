@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person shifts the gear stick in a car with his right hand while resting his left hand on the steering wheel.",
+        "The person rubs the gear stick of the crane with a bucket with his left hand while holding a chainsaw in his right hand.",
+        "The person adjusts the gear lever in a tractor with his left hand while gripping the seat with his right hand.",
+        "The person cleans the gear stick in a vehicle using a cloth in his right hand while supporting himself with his left hand on the dashboard.",
+        "The person pushes the gear stick into a neutral position with his right hand while placing his left hand on the gear console."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person shifts the gear stick in a car with his right hand while resting his left hand on the steering wheel.\n(B) The person rubs the gear stick of the crane with a bucket with his left hand while holding a chainsaw in his right hand.\n(C) The person adjusts the gear lever in a tractor with his left hand while gripping the seat with his right hand.\n(D) The person cleans the gear stick in a vehicle using a cloth in his right hand while supporting himself with his left hand on the dashboard.\n(E) The person pushes the gear stick into a neutral position with his right hand while placing his left hand on the gear console.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person rubs the gear stick of the crane with a bucket with his left hand while holding a chainsaw in his right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

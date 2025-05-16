@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person rolls up the tent using her right hand.",
+        "The person closes the tent with her right hand.",
+        "The person secures the tent with her right hand.",
+        "The person unzips the tent using her right hand.",
+        "The person sets up the tent using her right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person rolls up the tent using her right hand.\n(B) The person closes the tent with her right hand.\n(C) The person secures the tent with her right hand.\n(D) The person unzips the tent using her right hand.\n(E) The person sets up the tent using her right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person unzips the tent using her right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person fling the cement?",
+    "options": [
+        "The person moved the cement using their left hand to guide the trowel, allowing the cement to spread without firm grip from the right hand.",
+        "The person flung the cement by gripping the trowel firmly in their right hand, scooping a portion of cement from the bowl held steady in their left hand, and swiftly flicking their wrist to hurl the cement onto the wall in a controlled, precise motion.",
+        "The person raised the trowel with both hands and allowed the cement to fall naturally onto the wall.",
+        "The person used one hand to guide the trowel along the surface, placing the cement rather than aiming it precisely toward the wall.",
+        "The person rotated and swung the trowel using their left hand, which led the cement to spread unevenly across the surface."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person fling the cement? Choose **only one** option from the following list.\nOptions:\n(A) The person moved the cement using their left hand to guide the trowel, allowing the cement to spread without firm grip from the right hand.\n(B) The person flung the cement by gripping the trowel firmly in their right hand, scooping a portion of cement from the bowl held steady in their left hand, and swiftly flicking their wrist to hurl the cement onto the wall in a controlled, precise motion.\n(C) The person raised the trowel with both hands and allowed the cement to fall naturally onto the wall.\n(D) The person used one hand to guide the trowel along the surface, placing the cement rather than aiming it precisely toward the wall.\n(E) The person rotated and swung the trowel using their left hand, which led the cement to spread unevenly across the surface.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person flung the cement by gripping the trowel firmly in their right hand, scooping a portion of cement from the bowl held steady in their left hand, and swiftly flicking their wrist to hurl the cement onto the wall in a controlled, precise motion."
+    },
+    "correct_idx": [
+        1
+    ]
+}

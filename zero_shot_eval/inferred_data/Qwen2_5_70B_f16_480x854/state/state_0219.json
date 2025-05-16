@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the cup change?",
+    "options": [
+        "The cup was moved and turned upward, causing the inside to remain in the cup.",
+        "The cup was moved and turned down, causing the inside to drop into the bucket.",
+        "The cup was moved to the side while kept upright, preventing the inside from spilling.",
+        "The cup was briefly lifted and then set back down without any rotation.",
+        "The cup was turned down but not moved, causing only a small amount to spill into the bucket."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the cup change? Choose **only one** option from the following list.\nOptions:\n(A) The cup was moved and turned upward, causing the inside to remain in the cup.\n(B) The cup was moved and turned down, causing the inside to drop into the bucket.\n(C) The cup was moved to the side while kept upright, preventing the inside from spilling.\n(D) The cup was briefly lifted and then set back down without any rotation.\n(E) The cup was turned down but not moved, causing only a small amount to spill into the bucket.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The cup was moved and turned down, causing the inside to drop into the bucket."
+    },
+    "correct_idx": [
+        1
+    ]
+}

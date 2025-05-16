@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the fan belt?",
+    "options": [
+        "The person put the fan belt on the side of the engine block.",
+        "The person put the fan belt above the engine cover.",
+        "The person put the fan belt near the radiator hoses.",
+        "The person put the fan belt inside the air filter housing.",
+        "The person put the fan belt in the engine pulley."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the fan belt? Choose **only one** option from the following list.\nOptions:\n(A) The person put the fan belt on the side of the engine block.\n(B) The person put the fan belt above the engine cover.\n(C) The person put the fan belt near the radiator hoses.\n(D) The person put the fan belt inside the air filter housing.\n(E) The person put the fan belt in the engine pulley.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person put the fan belt on the side of the engine block."
+    },
+    "correct_idx": [
+        4
+    ]
+}

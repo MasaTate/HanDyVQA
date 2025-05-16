@@ -1,0 +1,17 @@
+{
+    "question": "How does the person place his hand on the table?",
+    "options": [
+        "The person extends his hand flat toward the table, allowing the fingertips to hover just above the surface.",
+        "The person brings his hand to the table in an open palm position, softly placing it onto the surface.",
+        "The person approaches the table with his hand held sideways, then gently turns it and places it down with the back of the hand touching the table.",
+        "The person moves his hand toward the table in a closed fist, then opens it and raises it slightly, with the fingertips gently touching the surface of the table.",
+        "The person lifts his hand above the table and lowers it smoothly, letting the palm touch the surface gently."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person place his hand on the table? Choose **only one** option from the following list.\nOptions:\n(A) The person extends his hand flat toward the table, allowing the fingertips to hover just above the surface.\n(B) The person brings his hand to the table in an open palm position, softly placing it onto the surface.\n(C) The person approaches the table with his hand held sideways, then gently turns it and places it down with the back of the hand touching the table.\n(D) The person moves his hand toward the table in a closed fist, then opens it and raises it slightly, with the fingertips gently touching the surface of the table.\n(E) The person lifts his hand above the table and lowers it smoothly, letting the palm touch the surface gently.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person brings his hand to the table in an open palm position, softly placing it onto the surface."
+    },
+    "correct_idx": [
+        3
+    ]
+}

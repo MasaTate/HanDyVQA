@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the plastic wrap change?",
+    "options": [
+        "The plastic wrap was torn from the roll and left hanging from the table's edge.",
+        "The plastic wrap was slightly unrolled but remained attached to the roll.",
+        "The plastic wrap was placed on the table without being torn from the roll.",
+        "The plastic wrap was torn from the roll and placed on the table.",
+        "The plastic wrap was torn from the roll and positioned partially on the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the plastic wrap change? Choose **only one** option from the following list.\nOptions:\n(A) The plastic wrap was torn from the roll and left hanging from the table's edge.\n(B) The plastic wrap was slightly unrolled but remained attached to the roll.\n(C) The plastic wrap was placed on the table without being torn from the roll.\n(D) The plastic wrap was torn from the roll and placed on the table.\n(E) The plastic wrap was torn from the roll and positioned partially on the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The plastic wrap was torn from the roll and placed on the table."
+    },
+    "correct_idx": [
+        3
+    ]
+}

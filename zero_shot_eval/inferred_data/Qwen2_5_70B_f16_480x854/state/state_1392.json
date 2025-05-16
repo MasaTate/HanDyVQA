@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the tool bag change?",
+    "options": [
+        "The tool bag was filled with an object and then zipped closed.",
+        "The tool bag was emptied of all its contents and then left open.",
+        "The tool bag was filled with several small tools and then left completely unzipped.",
+        "The tool bag was used to hold a few large items and then partially closed.",
+        "The tool bag was rearranged to fit additional tools and then left unzipped."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the tool bag change? Choose **only one** option from the following list.\nOptions:\n(A) The tool bag was filled with an object and then zipped closed.\n(B) The tool bag was emptied of all its contents and then left open.\n(C) The tool bag was filled with several small tools and then left completely unzipped.\n(D) The tool bag was used to hold a few large items and then partially closed.\n(E) The tool bag was rearranged to fit additional tools and then left unzipped.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The tool bag was filled with an object and then zipped closed."
+    },
+    "correct_idx": [
+        0
+    ]
+}

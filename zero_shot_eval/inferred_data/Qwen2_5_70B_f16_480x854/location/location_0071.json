@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the measuring tape?",
+    "options": [
+        "The person dropped the measuring tape in front of the bucket and his right foot.",
+        "The person dropped the measuring tape beside the bucket and his right hand.",
+        "The person dropped the measuring tape behind the bucket and his left knee.",
+        "The person dropped the measuring tape on top of the bucket and his left foot.",
+        "The person dropped the measuring tape between the bucket and his left foot."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the measuring tape? Choose **only one** option from the following list.\nOptions:\n(A) The person dropped the measuring tape in front of the bucket and his right foot.\n(B) The person dropped the measuring tape beside the bucket and his right hand.\n(C) The person dropped the measuring tape behind the bucket and his left knee.\n(D) The person dropped the measuring tape on top of the bucket and his left foot.\n(E) The person dropped the measuring tape between the bucket and his left foot.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person dropped the measuring tape between the bucket and his left foot."
+    },
+    "correct_idx": [
+        4
+    ]
+}

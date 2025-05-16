@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person set a lever?",
+    "options": [
+        "The person set the lever to park mode.",
+        "The person set the lever to neutral position.",
+        "The person set the lever to drive gear.",
+        "The person set the lever to gear shift.",
+        "The person set the lever to reverse setting."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person set a lever? Choose **only one** option from the following list.\nOptions:\n(A) The person set the lever to park mode.\n(B) The person set the lever to neutral position.\n(C) The person set the lever to drive gear.\n(D) The person set the lever to gear shift.\n(E) The person set the lever to reverse setting.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person set the lever to neutral position."
+    },
+    "correct_idx": [
+        3
+    ]
+}

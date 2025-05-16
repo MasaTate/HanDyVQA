@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of pot change?",
+    "options": [
+        "The pot shifted from a covered state to an uncovered state when the lid was removed from it.",
+        "The pot changed from an empty state to a filled state when ingredients were added to it.",
+        "The pot altered from a hot state to a cold state after it was taken off the stove.",
+        "The pot transitioned from an uncovered state to a covered state when the lid was placed on it.",
+        "The pot transformed from a clean state to a dirty state after it was used for cooking."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of pot change? Choose **only one** option from the following list.\nOptions:\n(A) The pot shifted from a covered state to an uncovered state when the lid was removed from it.\n(B) The pot changed from an empty state to a filled state when ingredients were added to it.\n(C) The pot altered from a hot state to a cold state after it was taken off the stove.\n(D) The pot transitioned from an uncovered state to a covered state when the lid was placed on it.\n(E) The pot transformed from a clean state to a dirty state after it was used for cooking.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The pot shifted from a covered state to an uncovered state when the lid was removed from it."
+    },
+    "correct_idx": [
+        3
+    ]
+}

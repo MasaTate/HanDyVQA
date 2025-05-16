@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the piece of cloth change?",
+    "options": [
+        "The piece of cloth was torn into several smaller strips.",
+        "The piece of cloth was folded multiple times to form a thicker layer.",
+        "The piece of cloth was dyed a completely different color.",
+        "The piece of cloth had its edges cut.",
+        "The piece of cloth was stitched to another fabric to create a patchwork effect."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the piece of cloth change? Choose **only one** option from the following list.\nOptions:\n(A) The piece of cloth was torn into several smaller strips.\n(B) The piece of cloth was folded multiple times to form a thicker layer.\n(C) The piece of cloth was dyed a completely different color.\n(D) The piece of cloth had its edges cut.\n(E) The piece of cloth was stitched to another fabric to create a patchwork effect.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The piece of cloth had its edges cut."
+    },
+    "correct_idx": [
+        3
+    ]
+}

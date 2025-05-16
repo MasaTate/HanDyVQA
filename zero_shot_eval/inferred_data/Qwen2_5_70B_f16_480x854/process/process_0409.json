@@ -1,0 +1,17 @@
+{
+    "question": "How does the person close the freezer?",
+    "options": [
+        "The person pulls the freezer door down with her right hand, then guides it shut gently with a small amount of pressure.",
+        "The person uses her right hand to firmly grip the handle and smoothly closes the freezer door by guiding it downward.",
+        "The person grips the top edge of the freezer door with her right hand, pushes it forward, and applies pressure to close it securely.",
+        "The person taps the freezer door with her knee while supporting it with her right hand to help it close softly.",
+        "The person loosens her grip on the freezer door, allowing it to close naturally with some assistance from her hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person close the freezer? Choose **only one** option from the following list.\nOptions:\n(A) The person pulls the freezer door down with her right hand, then guides it shut gently with a small amount of pressure.\n(B) The person uses her right hand to firmly grip the handle and smoothly closes the freezer door by guiding it downward.\n(C) The person grips the top edge of the freezer door with her right hand, pushes it forward, and applies pressure to close it securely.\n(D) The person taps the freezer door with her knee while supporting it with her right hand to help it close softly.\n(E) The person loosens her grip on the freezer door, allowing it to close naturally with some assistance from her hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person grips the top edge of the freezer door with her right hand, pushes it forward, and applies pressure to close it securely."
+    },
+    "correct_idx": [
+        2
+    ]
+}

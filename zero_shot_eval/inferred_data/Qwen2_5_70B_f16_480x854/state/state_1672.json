@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of spanner change?",
+    "options": [
+        "The spanner was twisted and its angle altered as it was used to tighten the bolt.",
+        "The spanner was turned and its position shifted as it was used to loosen the bolt.",
+        "The spanner was pushed and its alignment adjusted as it was used to secure the bolt.",
+        "The spanner was lifted and its height changed as it was used to fasten the bolt.",
+        "The spanner was flipped and its orientation reversed as it was used to tighten the bolt."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of spanner change? Choose **only one** option from the following list.\nOptions:\n(A) The spanner was twisted and its angle altered as it was used to tighten the bolt.\n(B) The spanner was turned and its position shifted as it was used to loosen the bolt.\n(C) The spanner was pushed and its alignment adjusted as it was used to secure the bolt.\n(D) The spanner was lifted and its height changed as it was used to fasten the bolt.\n(E) The spanner was flipped and its orientation reversed as it was used to tighten the bolt.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The spanner was turned and its position shifted as it was used to loosen the bolt."
+    },
+    "correct_idx": [
+        1
+    ]
+}

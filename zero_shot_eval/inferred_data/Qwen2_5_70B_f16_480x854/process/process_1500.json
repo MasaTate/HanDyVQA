@@ -1,0 +1,17 @@
+{
+    "question": "How does the person move the tire?",
+    "options": [
+        "The person pushed the tire steadily with both hands, applying pressure to move it forward, using a guiding action.",
+        "The person rolled the tire by gripping it with his left hand for stability while using his right hand to pull and guide it backward.",
+        "The person held the tire with one hand for balance and directed it forward, letting it roll away under control.",
+        "The person lifted the tire slightly and let it roll on the ground, using a gentle touch for direction.",
+        "The person grasped the tire with one hand and moved it in a circular path, letting it roll smoothly along the surface."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person move the tire? Choose **only one** option from the following list.\nOptions:\n(A) The person pushed the tire steadily with both hands, applying pressure to move it forward, using a guiding action.\n(B) The person rolled the tire by gripping it with his left hand for stability while using his right hand to pull and guide it backward.\n(C) The person held the tire with one hand for balance and directed it forward, letting it roll away under control.\n(D) The person lifted the tire slightly and let it roll on the ground, using a gentle touch for direction.\n(E) The person grasped the tire with one hand and moved it in a circular path, letting it roll smoothly along the surface.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person rolled the tire by gripping it with his left hand for stability while using his right hand to pull and guide it backward."
+    },
+    "correct_idx": [
+        1
+    ]
+}

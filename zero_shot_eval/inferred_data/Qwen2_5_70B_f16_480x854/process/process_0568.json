@@ -1,0 +1,17 @@
+{
+    "question": "How does the person put manure?",
+    "options": [
+        "The person uses the weeder in their left hand to dig into the pot, allowing the manure to slide out without much precision.",
+        "The person uses both hands to gather some manure directly from the pot, moving it into a nearby bucket without the aid of a tool.",
+        "The person put manure from the pot by using the weeder in their right hand to scoop it with a controlled dip and upward twist of the wrist, then tilting it to slide the manure into their cupped left hand.",
+        "The person holds the pot with both hands and shakes it gently, encouraging the manure to drop onto the grass.",
+        "The person uses their foot to carefully nudge the manure out of the pot, bypassing the use of hands or a tool for transferring."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person put manure? Choose **only one** option from the following list.\nOptions:\n(A) The person uses the weeder in their left hand to dig into the pot, allowing the manure to slide out without much precision.\n(B) The person uses both hands to gather some manure directly from the pot, moving it into a nearby bucket without the aid of a tool.\n(C) The person put manure from the pot by using the weeder in their right hand to scoop it with a controlled dip and upward twist of the wrist, then tilting it to slide the manure into their cupped left hand.\n(D) The person holds the pot with both hands and shakes it gently, encouraging the manure to drop onto the grass.\n(E) The person uses their foot to carefully nudge the manure out of the pot, bypassing the use of hands or a tool for transferring.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person put manure from the pot by using the weeder in their right hand to scoop it with a controlled dip and upward twist of the wrist, then tilting it to slide the manure into their cupped left hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

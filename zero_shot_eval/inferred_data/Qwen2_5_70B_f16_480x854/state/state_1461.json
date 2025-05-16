@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the detergent change?",
+    "options": [
+        "The detergent was rotated upside down and squeezed, causing liquid to be released.",
+        "The detergent was rotated to the side and shaken, but no liquid was released.",
+        "The detergent was held steady and tilted forward, with a slight release of liquid.",
+        "The detergent was turned upside down and the cap was opened, but it was not squeezed, causing no liquid release.",
+        "The detergent was rotated halfway and squeezed, releasing only a small amount of liquid."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the detergent change? Choose **only one** option from the following list.\nOptions:\n(A) The detergent was rotated upside down and squeezed, causing liquid to be released.\n(B) The detergent was rotated to the side and shaken, but no liquid was released.\n(C) The detergent was held steady and tilted forward, with a slight release of liquid.\n(D) The detergent was turned upside down and the cap was opened, but it was not squeezed, causing no liquid release.\n(E) The detergent was rotated halfway and squeezed, releasing only a small amount of liquid.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The detergent was rotated upside down and squeezed, causing liquid to be released."
+    },
+    "correct_idx": [
+        0
+    ]
+}

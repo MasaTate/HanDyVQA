@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person pulls the thread lever up with the left hand while pulling the piece of cloth with the right hand.",
+        "The person pushes the thread lever down with the right hand while holding the piece of cloth with the left hand.",
+        "The person adjusts the thread lever sideways with the right hand while holding the piece of cloth tightly with both hands.",
+        "The person lifts the thread lever with the right hand while smoothing the piece of cloth down with the left hand.",
+        "The person twists the thread lever clockwise with the right hand while tucking the piece of cloth under the left arm."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person pulls the thread lever up with the left hand while pulling the piece of cloth with the right hand.\n(B) The person pushes the thread lever down with the right hand while holding the piece of cloth with the left hand.\n(C) The person adjusts the thread lever sideways with the right hand while holding the piece of cloth tightly with both hands.\n(D) The person lifts the thread lever with the right hand while smoothing the piece of cloth down with the left hand.\n(E) The person twists the thread lever clockwise with the right hand while tucking the piece of cloth under the left arm.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person pushes the thread lever down with the right hand while holding the piece of cloth with the left hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

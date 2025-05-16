@@ -1,0 +1,17 @@
+{
+    "question": "How does the person hit a pipe?",
+    "options": [
+        "The person uses both hands to hold the drill, then gently presses it against the pipe, slightly repositioning it.",
+        "The person holds the drill steadily with his left hand and maneuvers it smoothly towards the pipe.",
+        "The person gently presses the button on the drill with one finger while keeping the other hand positioned near the pipe.",
+        "The person directs the drill forward with a single hand, allowing it to slightly touch the pipe.",
+        "The person grips the drill with his right hand, and due to the lack of balance, the drill swings and makes contact with the pipe."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person hit a pipe? Choose **only one** option from the following list.\nOptions:\n(A) The person uses both hands to hold the drill, then gently presses it against the pipe, slightly repositioning it.\n(B) The person holds the drill steadily with his left hand and maneuvers it smoothly towards the pipe.\n(C) The person gently presses the button on the drill with one finger while keeping the other hand positioned near the pipe.\n(D) The person directs the drill forward with a single hand, allowing it to slightly touch the pipe.\n(E) The person grips the drill with his right hand, and due to the lack of balance, the drill swings and makes contact with the pipe.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person grips the drill with his right hand, and due to the lack of balance, the drill swings and makes contact with the pipe."
+    },
+    "correct_idx": [
+        4
+    ]
+}

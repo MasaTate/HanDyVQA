@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is using her right hand to paint a flower pattern onto the canvas while holding the palette in her left hand.",
+        "The person is using her right hand to weave a flower pattern into a tapestry while adjusting the loom with her left hand.",
+        "The person is using her right hand to stitch a flower pattern onto the Aida cloth while holding the embroidery hoop in her left hand.",
+        "The person is using her right hand to draw a flower pattern on the paper while holding the sketchpad in her left hand.",
+        "The person is using her right hand to glue a flower pattern into a scrapbook while steadying the book with her left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is using her right hand to paint a flower pattern onto the canvas while holding the palette in her left hand.\n(B) The person is using her right hand to weave a flower pattern into a tapestry while adjusting the loom with her left hand.\n(C) The person is using her right hand to stitch a flower pattern onto the Aida cloth while holding the embroidery hoop in her left hand.\n(D) The person is using her right hand to draw a flower pattern on the paper while holding the sketchpad in her left hand.\n(E) The person is using her right hand to glue a flower pattern into a scrapbook while steadying the book with her left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person is using her right hand to stitch a flower pattern onto the Aida cloth while holding the embroidery hoop in her left hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

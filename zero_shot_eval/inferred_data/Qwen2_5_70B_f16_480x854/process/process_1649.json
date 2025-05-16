@@ -1,0 +1,17 @@
+{
+    "question": "How does the person stretch his left hand?",
+    "options": [
+        "The person stretches his left hand to raise it slightly above his head to wave at someone.",
+        "The person stretches his left hand to reach the tumbler on the table while his right hand is holding a controller.",
+        "The person stretches his left hand gently gripping the edge of the table with his fingers.",
+        "The person stretches his left hand extending it outward while his other hand is holding a book.",
+        "The person stretches his left hand smoothly pushing against the wall to lean on it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person stretch his left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person stretches his left hand to raise it slightly above his head to wave at someone.\n(B) The person stretches his left hand to reach the tumbler on the table while his right hand is holding a controller.\n(C) The person stretches his left hand gently gripping the edge of the table with his fingers.\n(D) The person stretches his left hand extending it outward while his other hand is holding a book.\n(E) The person stretches his left hand smoothly pushing against the wall to lean on it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person stretches his left hand to reach the tumbler on the table while his right hand is holding a controller."
+    },
+    "correct_idx": [
+        1
+    ]
+}

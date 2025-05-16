@@ -1,0 +1,17 @@
+{
+    "question": "How does the person check a mobile phone?",
+    "options": [
+        "The person is walking and then slightly lifts up his/her mobile phone in front.",
+        "The person is sitting and gently holds the mobile phone close to their face to read it.",
+        "The person is standing still and slowly moves the mobile phone in their hands.",
+        "The person is leaning against a wall and lightly tilts the mobile phone while looking down.",
+        "The person is lying down and gently raises the mobile phone above their head to check it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person check a mobile phone? Choose **only one** option from the following list.\nOptions:\n(A) The person is walking and then slightly lifts up his/her mobile phone in front.\n(B) The person is sitting and gently holds the mobile phone close to their face to read it.\n(C) The person is standing still and slowly moves the mobile phone in their hands.\n(D) The person is leaning against a wall and lightly tilts the mobile phone while looking down.\n(E) The person is lying down and gently raises the mobile phone above their head to check it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person is walking and then slightly lifts up his/her mobile phone in front."
+    },
+    "correct_idx": [
+        0
+    ]
+}

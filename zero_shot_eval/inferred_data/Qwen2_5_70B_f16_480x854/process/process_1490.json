@@ -1,0 +1,17 @@
+{
+    "question": "How does the person close the tool box?",
+    "options": [
+        "The person nudged the toolbox gently with his left hand, using a forward motion.",
+        "The person slid the toolbox smoothly by pulling it with both hands at the edges.",
+        "The person pushed the toolbox with his right hand by applying forward pressure.",
+        "The person lifted the toolbox slightly with his right hand and then lowered it back down.",
+        "The person pushed the toolbox backwards using his elbow in place of his hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person close the tool box? Choose **only one** option from the following list.\nOptions:\n(A) The person nudged the toolbox gently with his left hand, using a forward motion.\n(B) The person slid the toolbox smoothly by pulling it with both hands at the edges.\n(C) The person pushed the toolbox with his right hand by applying forward pressure.\n(D) The person lifted the toolbox slightly with his right hand and then lowered it back down.\n(E) The person pushed the toolbox backwards using his elbow in place of his hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person pushed the toolbox with his right hand by applying forward pressure."
+    },
+    "correct_idx": [
+        2
+    ]
+}

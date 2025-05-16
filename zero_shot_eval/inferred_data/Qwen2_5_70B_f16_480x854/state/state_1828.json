@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the cupboard extension with the pencil change?",
+    "options": [
+        "The cupboard extension, altering its position as it was pushed and changing form as it was moved, was shifted aside.",
+        "The cupboard extension, changing position as it was lifted and changing appearance as it was marked, was picked up.",
+        "The cupboard extension, rotating on its axis and changing appearance as it was polished, was cleaned.",
+        "The cupboard extension, extending outward and changing color as it was painted, was refurbished.",
+        "The cupboard extension, changing configuration as it was dismantled, was taken apart."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the cupboard extension with the pencil change? Choose **only one** option from the following list.\nOptions:\n(A) The cupboard extension, altering its position as it was pushed and changing form as it was moved, was shifted aside.\n(B) The cupboard extension, changing position as it was lifted and changing appearance as it was marked, was picked up.\n(C) The cupboard extension, rotating on its axis and changing appearance as it was polished, was cleaned.\n(D) The cupboard extension, extending outward and changing color as it was painted, was refurbished.\n(E) The cupboard extension, changing configuration as it was dismantled, was taken apart.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The cupboard extension, changing position as it was lifted and changing appearance as it was marked, was picked up."
+    },
+    "correct_idx": [
+        1
+    ]
+}

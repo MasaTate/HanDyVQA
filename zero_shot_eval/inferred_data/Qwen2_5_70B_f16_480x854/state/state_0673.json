@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the plywood change?",
+    "options": [
+        "The plywood was stacked in the middle of the woodcraft.",
+        "The plywood was arranged vertically along the side of the workshop.",
+        "The plywood was laid flat on the floor in the corner of the room.",
+        "The plywood was suspended from the ceiling with ropes.",
+        "The plywood was placed on top of a workbench in the laboratory."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the plywood change? Choose **only one** option from the following list.\nOptions:\n(A) The plywood was stacked in the middle of the woodcraft.\n(B) The plywood was arranged vertically along the side of the workshop.\n(C) The plywood was laid flat on the floor in the corner of the room.\n(D) The plywood was suspended from the ceiling with ropes.\n(E) The plywood was placed on top of a workbench in the laboratory.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The plywood was stacked in the middle of the woodcraft."
+    },
+    "correct_idx": [
+        0
+    ]
+}

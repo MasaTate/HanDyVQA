@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the bolt change?",
+    "options": [
+        "The bolt was tightened onto the lawn mower.",
+        "The bolt was removed from the lawn mower.",
+        "The bolt was replaced on the lawn mower.",
+        "The bolt was loosened from the lawn mower.",
+        "The bolt was painted on the lawn mower."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the bolt change? Choose **only one** option from the following list.\nOptions:\n(A) The bolt was tightened onto the lawn mower.\n(B) The bolt was removed from the lawn mower.\n(C) The bolt was replaced on the lawn mower.\n(D) The bolt was loosened from the lawn mower.\n(E) The bolt was painted on the lawn mower.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The bolt was tightened onto the lawn mower."
+    },
+    "correct_idx": [
+        3
+    ]
+}

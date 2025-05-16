@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the phone?",
+    "options": [
+        "The person dropped the phone on the right side of the table next to the lamp.",
+        "The person dropped the phone in the center of the table near the coffee mug.",
+        "The person dropped the phone on the left side of the table next to the notebook.",
+        "The person dropped the phone on the left edge of the table beside the pen holder.",
+        "The person dropped the phone on the right edge of the table across from the notebook."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the phone? Choose **only one** option from the following list.\nOptions:\n(A) The person dropped the phone on the right side of the table next to the lamp.\n(B) The person dropped the phone in the center of the table near the coffee mug.\n(C) The person dropped the phone on the left side of the table next to the notebook.\n(D) The person dropped the phone on the left edge of the table beside the pen holder.\n(E) The person dropped the phone on the right edge of the table across from the notebook.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person dropped the phone on the left side of the table next to the notebook."
+    },
+    "correct_idx": [
+        2
+    ]
+}

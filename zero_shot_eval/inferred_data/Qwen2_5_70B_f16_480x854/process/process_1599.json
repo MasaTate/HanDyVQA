@@ -1,0 +1,17 @@
+{
+    "question": "How does the person peel the shells of the onion?",
+    "options": [
+        "The person places the onion on the counter and uses a knife in their right hand to slice off the top layer while leaving the skin attached.",
+        "The person holds the onion in their right hand and uses their thumb to press into the skin, cracking it rather than pulling it off.",
+        "The person balances the onion on a cutting board and gently removes the outer layers with a spoon held in their left hand.",
+        "The person grips the onion with both hands, turning it slightly to loosen the skin before pulling it apart.",
+        "The person holds the onion with their left hand, then uses their right hand to grip the outer skin, to pinch and pull off the dry outer layers."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person peel the shells of the onion? Choose **only one** option from the following list.\nOptions:\n(A) The person places the onion on the counter and uses a knife in their right hand to slice off the top layer while leaving the skin attached.\n(B) The person holds the onion in their right hand and uses their thumb to press into the skin, cracking it rather than pulling it off.\n(C) The person balances the onion on a cutting board and gently removes the outer layers with a spoon held in their left hand.\n(D) The person grips the onion with both hands, turning it slightly to loosen the skin before pulling it apart.\n(E) The person holds the onion with their left hand, then uses their right hand to grip the outer skin, to pinch and pull off the dry outer layers.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person holds the onion with their left hand, then uses their right hand to grip the outer skin, to pinch and pull off the dry outer layers."
+    },
+    "correct_idx": [
+        4
+    ]
+}

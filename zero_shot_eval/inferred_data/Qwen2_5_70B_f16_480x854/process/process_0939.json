@@ -1,0 +1,17 @@
+{
+    "question": "How does the person clean the glass cup with the napkin?",
+    "options": [
+        "The person holds the glass cup with both hands and moves it in a circle, while rubbing the napkin gently around the rim.",
+        "The person holds the cup with the left hand, rotating it in an anti-clockwise direction while the right hand holds the napkin at the mouth of the cup and wipes it gently, including the side of the cup.",
+        "The person grips the cup comfortably with the right hand and uses the napkin to wipe around the bottom of the cup in a gentle circular motion.",
+        "The person lifts the cup with the right hand and places the napkin inside the cup, allowing it to rest and then gently guiding it to clean the surface.",
+        "The person holds the cup using the right hand and softly presses the napkin against the side of the cup while making slight movements."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person clean the glass cup with the napkin? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the glass cup with both hands and moves it in a circle, while rubbing the napkin gently around the rim.\n(B) The person holds the cup with the left hand, rotating it in an anti-clockwise direction while the right hand holds the napkin at the mouth of the cup and wipes it gently, including the side of the cup.\n(C) The person grips the cup comfortably with the right hand and uses the napkin to wipe around the bottom of the cup in a gentle circular motion.\n(D) The person lifts the cup with the right hand and places the napkin inside the cup, allowing it to rest and then gently guiding it to clean the surface.\n(E) The person holds the cup using the right hand and softly presses the napkin against the side of the cup while making slight movements.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person holds the cup with the left hand, rotating it in an anti-clockwise direction while the right hand holds the napkin at the mouth of the cup and wipes it gently, including the side of the cup."
+    },
+    "correct_idx": [
+        1
+    ]
+}

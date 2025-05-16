@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the bangle?",
+    "options": [
+        "The person moves the bangle away from the leg.",
+        "The person moves the bangle below the foot.",
+        "The person moves the bangle beside the chair.",
+        "The person moves the bangle near the leg.",
+        "The person moves the bangle above the knee."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the bangle? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the bangle away from the leg.\n(B) The person moves the bangle below the foot.\n(C) The person moves the bangle beside the chair.\n(D) The person moves the bangle near the leg.\n(E) The person moves the bangle above the knee.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person moves the bangle near the leg."
+    },
+    "correct_idx": [
+        3
+    ]
+}

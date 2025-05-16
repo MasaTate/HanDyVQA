@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the tablet change?",
+    "options": [
+        "The tablet screen was tapped.",
+        "The tablet screen was swiped.",
+        "The tablet screen was pressed.",
+        "The tablet screen was held down.",
+        "The tablet screen was double-tapped."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the tablet change? Choose **only one** option from the following list.\nOptions:\n(A) The tablet screen was tapped.\n(B) The tablet screen was swiped.\n(C) The tablet screen was pressed.\n(D) The tablet screen was held down.\n(E) The tablet screen was double-tapped.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The tablet screen was tapped."
+    },
+    "correct_idx": [
+        2
+    ]
+}

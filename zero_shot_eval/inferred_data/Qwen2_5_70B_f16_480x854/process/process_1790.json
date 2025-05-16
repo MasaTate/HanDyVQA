@@ -1,0 +1,17 @@
+{
+    "question": "How does the person push some chia seeds?",
+    "options": [
+        "The person carefully scoops the chia seeds from the container using a spoon.",
+        "The person gently flicks the chia seeds across the table with her fingers.",
+        "The person smoothly slides the container, causing some chia seeds to spill.",
+        "The person uses a spatula to pull the chia seeds from the container.",
+        "The person moves the chia seeds inside the millstone using the left index finger after turning it counterclockwise."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person push some chia seeds? Choose **only one** option from the following list.\nOptions:\n(A) The person carefully scoops the chia seeds from the container using a spoon.\n(B) The person gently flicks the chia seeds across the table with her fingers.\n(C) The person smoothly slides the container, causing some chia seeds to spill.\n(D) The person uses a spatula to pull the chia seeds from the container.\n(E) The person moves the chia seeds inside the millstone using the left index finger after turning it counterclockwise.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person moves the chia seeds inside the millstone using the left index finger after turning it counterclockwise."
+    },
+    "correct_idx": [
+        4
+    ]
+}

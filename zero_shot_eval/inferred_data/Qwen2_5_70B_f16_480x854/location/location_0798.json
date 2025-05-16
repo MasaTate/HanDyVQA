@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the cardboard tube?",
+    "options": [
+        "The person tries to place the cardboard tube beside another tube.",
+        "The person tries to place the cardboard tube underneath another tube.",
+        "The person tries to place the cardboard tube on top of another tube.",
+        "The person tries to place the cardboard tube in front of another tube.",
+        "The person tries to place the cardboard tube behind another tube."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the cardboard tube? Choose **only one** option from the following list.\nOptions:\n(A) The person tries to place the cardboard tube beside another tube.\n(B) The person tries to place the cardboard tube underneath another tube.\n(C) The person tries to place the cardboard tube on top of another tube.\n(D) The person tries to place the cardboard tube in front of another tube.\n(E) The person tries to place the cardboard tube behind another tube.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person tries to place the cardboard tube on top of another tube."
+    },
+    "correct_idx": [
+        2
+    ]
+}

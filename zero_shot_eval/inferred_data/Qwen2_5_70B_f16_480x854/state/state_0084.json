@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the flour container change?",
+    "options": [
+        "The flour container was tilted slightly and moved right over the sink.",
+        "The flour container was rotated upright and moved right near the sink.",
+        "The flour container was rotated to the side and moved left next to the sink.",
+        "The flour container was left upright and moved completely over the countertop.",
+        "The flour container was rotated upright and moved left over the sink."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the flour container change? Choose **only one** option from the following list.\nOptions:\n(A) The flour container was tilted slightly and moved right over the sink.\n(B) The flour container was rotated upright and moved right near the sink.\n(C) The flour container was rotated to the side and moved left next to the sink.\n(D) The flour container was left upright and moved completely over the countertop.\n(E) The flour container was rotated upright and moved left over the sink.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The flour container was rotated upright and moved left over the sink."
+    },
+    "correct_idx": [
+        4
+    ]
+}

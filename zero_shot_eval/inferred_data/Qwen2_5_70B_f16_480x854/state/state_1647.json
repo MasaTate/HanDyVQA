@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a thread from the cloth change?",
+    "options": [
+        "The thread from the cloth was tangled and knotted within the fabric.",
+        "The thread from the cloth was braided to form a thicker strand within the fabric.",
+        "The thread from the cloth was detached and removed from the cut cloth.",
+        "The thread from the cloth was dyed a different color while still part of the fabric.",
+        "The thread from the cloth was woven into a different pattern alongside the existing fabric."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a thread from the cloth change? Choose **only one** option from the following list.\nOptions:\n(A) The thread from the cloth was tangled and knotted within the fabric.\n(B) The thread from the cloth was braided to form a thicker strand within the fabric.\n(C) The thread from the cloth was detached and removed from the cut cloth.\n(D) The thread from the cloth was dyed a different color while still part of the fabric.\n(E) The thread from the cloth was woven into a different pattern alongside the existing fabric.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The thread from the cloth was detached and removed from the cut cloth."
+    },
+    "correct_idx": [
+        2
+    ]
+}

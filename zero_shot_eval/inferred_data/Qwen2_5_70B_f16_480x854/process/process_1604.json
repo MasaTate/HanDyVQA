@@ -1,0 +1,17 @@
+{
+    "question": "How does the person push another tray of leaves?",
+    "options": [
+        "The person places their right elbow near the side of the tray and nudges it gently forward.",
+        "The person places the back of their hand on the side of the tray and moves it in a backward direction.",
+        "The person places their left hand on the side of the tray and pushes it in forward motion.",
+        "The person grips the front of the tray with their right hand and pulls it in their direction.",
+        "The person lightly taps the tray with their fingertips to move it slightly forward."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person push another tray of leaves? Choose **only one** option from the following list.\nOptions:\n(A) The person places their right elbow near the side of the tray and nudges it gently forward.\n(B) The person places the back of their hand on the side of the tray and moves it in a backward direction.\n(C) The person places their left hand on the side of the tray and pushes it in forward motion.\n(D) The person grips the front of the tray with their right hand and pulls it in their direction.\n(E) The person lightly taps the tray with their fingertips to move it slightly forward.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person places their left hand on the side of the tray and pushes it in forward motion."
+    },
+    "correct_idx": [
+        2
+    ]
+}

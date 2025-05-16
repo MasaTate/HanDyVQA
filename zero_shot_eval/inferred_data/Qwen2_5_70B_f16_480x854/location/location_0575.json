@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the t - shirt?",
+    "options": [
+        "The person placed the t-shirt by hanging it on the back of a chair.",
+        "The person placed the t-shirt by laying it flat on the floor.",
+        "The person placed the t-shirt by rolling it up tightly in a drawer.",
+        "The person placed the t-shirt by folding it inside out.",
+        "The person placed the t-shirt by draping it over a shelf."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the t - shirt? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the t-shirt by hanging it on the back of a chair.\n(B) The person placed the t-shirt by laying it flat on the floor.\n(C) The person placed the t-shirt by rolling it up tightly in a drawer.\n(D) The person placed the t-shirt by folding it inside out.\n(E) The person placed the t-shirt by draping it over a shelf.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person placed the t-shirt by laying it flat on the floor."
+    },
+    "correct_idx": [
+        3
+    ]
+}

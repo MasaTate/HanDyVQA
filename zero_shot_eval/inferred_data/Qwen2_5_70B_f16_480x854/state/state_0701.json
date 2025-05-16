@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the clay pot change?",
+    "options": [
+        "The inner side of the clay pot was smoothed with a sponge.",
+        "The surface of the clay pot was coated with a glossy glaze.",
+        "The bottom of the clay pot was thickened to enhance stability.",
+        "The rim of the clay pot was trimmed for a more even finish.",
+        "The outer side of the clay pot was carved using a needle tool."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the clay pot change? Choose **only one** option from the following list.\nOptions:\n(A) The inner side of the clay pot was smoothed with a sponge.\n(B) The surface of the clay pot was coated with a glossy glaze.\n(C) The bottom of the clay pot was thickened to enhance stability.\n(D) The rim of the clay pot was trimmed for a more even finish.\n(E) The outer side of the clay pot was carved using a needle tool.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The outer side of the clay pot was carved using a needle tool."
+    },
+    "correct_idx": [
+        4
+    ]
+}

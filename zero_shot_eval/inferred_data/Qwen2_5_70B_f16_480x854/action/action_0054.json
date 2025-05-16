@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person's left hand holds the sponge while the right hand squeezes it, then the left hand picks up the soap bottle and unscrews the cap before pouring it onto the sponge.",
+        "The person's left hand lifts the sponge from the sink while the right hand applies soap directly onto the counter, then the left hand uses the sponge to wipe the table.",
+        "The person's left hand grips the sponge tightly while the right hand reaches for the soap bottle, then the left hand scrubs the dishes with the sponge.",
+        "The person's left hand is placing the sponge down beside the soap, while the right hand is picking up a dish towel to dry the counter.",
+        "The person's left hand grabs the sponge and passes it to the right hand, then grabs the soap bottle with his left hand and pours it onto the sponge."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person's left hand holds the sponge while the right hand squeezes it, then the left hand picks up the soap bottle and unscrews the cap before pouring it onto the sponge.\n(B) The person's left hand lifts the sponge from the sink while the right hand applies soap directly onto the counter, then the left hand uses the sponge to wipe the table.\n(C) The person's left hand grips the sponge tightly while the right hand reaches for the soap bottle, then the left hand scrubs the dishes with the sponge.\n(D) The person's left hand is placing the sponge down beside the soap, while the right hand is picking up a dish towel to dry the counter.\n(E) The person's left hand grabs the sponge and passes it to the right hand, then grabs the soap bottle with his left hand and pours it onto the sponge.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person's left hand grabs the sponge and passes it to the right hand, then grabs the soap bottle with his left hand and pours it onto the sponge."
+    },
+    "correct_idx": [
+        4
+    ]
+}

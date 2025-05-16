@@ -1,0 +1,17 @@
+{
+    "question": "How does the person touch the tip of wood piece?",
+    "options": [
+        "The person uses the palm of the right hand to press gently against the side of the wood piece.",
+        "The person lays down the right hand finger to touch the tip of wood piece.",
+        "The person holds the wood piece between the thumb and index finger of the left hand.",
+        "The person softly taps the tip of the wood piece with the knuckle of the right hand.",
+        "The person moves a finger along the length of the wood piece rather than touching the tip."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person touch the tip of wood piece? Choose **only one** option from the following list.\nOptions:\n(A) The person uses the palm of the right hand to press gently against the side of the wood piece.\n(B) The person lays down the right hand finger to touch the tip of wood piece.\n(C) The person holds the wood piece between the thumb and index finger of the left hand.\n(D) The person softly taps the tip of the wood piece with the knuckle of the right hand.\n(E) The person moves a finger along the length of the wood piece rather than touching the tip.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person lays down the right hand finger to touch the tip of wood piece."
+    },
+    "correct_idx": [
+        1
+    ]
+}

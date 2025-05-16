@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the board change?",
+    "options": [
+        "The board was fully cut through after contact with a cutter.",
+        "The board had contact with a cutter but had only subtle change.",
+        "The board was scratched visibly after contact with a cutter.",
+        "The board was sliced halfway but did not detach after contact with a cutter.",
+        "The board was slightly marked but remained unchanged structurally after contact with a cutter."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the board change? Choose **only one** option from the following list.\nOptions:\n(A) The board was fully cut through after contact with a cutter.\n(B) The board had contact with a cutter but had only subtle change.\n(C) The board was scratched visibly after contact with a cutter.\n(D) The board was sliced halfway but did not detach after contact with a cutter.\n(E) The board was slightly marked but remained unchanged structurally after contact with a cutter.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The board was slightly marked but remained unchanged structurally after contact with a cutter."
+    },
+    "correct_idx": [
+        1
+    ]
+}

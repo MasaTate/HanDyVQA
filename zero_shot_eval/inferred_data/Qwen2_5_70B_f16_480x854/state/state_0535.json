@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the pack of body pain relief cream change?",
+    "options": [
+        "The body pain relief cream was taken from the shelf and placed back without flipping.",
+        "The body pain relief cream was picked up from the counter and returned to the shelf.",
+        "The body pain relief cream was taken from the shelf and flipped.",
+        "The body pain relief cream was rotated while still sitting on the shelf.",
+        "The body pain relief cream was taken from the shelf and rotated without flipping."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the pack of body pain relief cream change? Choose **only one** option from the following list.\nOptions:\n(A) The body pain relief cream was taken from the shelf and placed back without flipping.\n(B) The body pain relief cream was picked up from the counter and returned to the shelf.\n(C) The body pain relief cream was taken from the shelf and flipped.\n(D) The body pain relief cream was rotated while still sitting on the shelf.\n(E) The body pain relief cream was taken from the shelf and rotated without flipping.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The body pain relief cream was taken from the shelf and flipped."
+    },
+    "correct_idx": [
+        2
+    ]
+}

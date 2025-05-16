@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the brick?",
+    "options": [
+        "The person dropped the bricks on the ground.",
+        "The person dropped the bricks on the table.",
+        "The person dropped the bricks on the porch.",
+        "The person dropped the bricks next to the wall.",
+        "The person dropped the bricks in the driveway."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the brick? Choose **only one** option from the following list.\nOptions:\n(A) The person dropped the bricks on the ground.\n(B) The person dropped the bricks on the table.\n(C) The person dropped the bricks on the porch.\n(D) The person dropped the bricks next to the wall.\n(E) The person dropped the bricks in the driveway.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person dropped the bricks on the ground."
+    },
+    "correct_idx": [
+        0
+    ]
+}

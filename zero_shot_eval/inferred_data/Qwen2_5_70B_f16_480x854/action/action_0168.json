@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is folding and organizing the colorful banner.",
+        "The person is decorating the colorful banner with bright colors.",
+        "The person is securing the colorful banner to the wall using tape.",
+        "The person is untangling and fixing the colorful banner with both hands.",
+        "The person is trimming the colorful banner into smaller sections."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is folding and organizing the colorful banner.\n(B) The person is decorating the colorful banner with bright colors.\n(C) The person is securing the colorful banner to the wall using tape.\n(D) The person is untangling and fixing the colorful banner with both hands.\n(E) The person is trimming the colorful banner into smaller sections.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person is untangling and fixing the colorful banner with both hands."
+    },
+    "correct_idx": [
+        3
+    ]
+}

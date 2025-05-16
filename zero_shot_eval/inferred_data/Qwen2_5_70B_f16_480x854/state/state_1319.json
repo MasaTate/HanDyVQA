@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the bag change?",
+    "options": [
+        "The bag began empty, had its straps adjusted for a better fit, and then was hung on a hook for storage.",
+        "The bag began full, had an item removed, and then was left unzipped for easy access.",
+        "The bag began closed, had the zipper broken, and then remained partially open for ventilation.",
+        "The bag began closed, had several items piled on top, and then was pushed aside to clear the space.",
+        "The bag began open, had an item placed inside, and then was zipped up to close securely."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the bag change? Choose **only one** option from the following list.\nOptions:\n(A) The bag began empty, had its straps adjusted for a better fit, and then was hung on a hook for storage.\n(B) The bag began full, had an item removed, and then was left unzipped for easy access.\n(C) The bag began closed, had the zipper broken, and then remained partially open for ventilation.\n(D) The bag began closed, had several items piled on top, and then was pushed aside to clear the space.\n(E) The bag began open, had an item placed inside, and then was zipped up to close securely.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The bag began open, had an item placed inside, and then was zipped up to close securely."
+    },
+    "correct_idx": [
+        4
+    ]
+}

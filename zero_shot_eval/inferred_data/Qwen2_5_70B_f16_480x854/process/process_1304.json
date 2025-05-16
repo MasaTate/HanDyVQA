@@ -1,0 +1,17 @@
+{
+    "question": "How does the person raise the vegetable plant?",
+    "options": [
+        "The person gently lifts the vegetable plant with both hands, giving support from underneath.",
+        "The person carefully pulls the vegetable plant upwards using one hand from the base.",
+        "The person loosens the soil around the vegetable plant before lifting it smoothly.",
+        "The person raises the vegetable plant by pulling it with his left hand supported by his right hand.",
+        "The person raises the vegetable plant into the air with a careful lift of the wrist."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person raise the vegetable plant? Choose **only one** option from the following list.\nOptions:\n(A) The person gently lifts the vegetable plant with both hands, giving support from underneath.\n(B) The person carefully pulls the vegetable plant upwards using one hand from the base.\n(C) The person loosens the soil around the vegetable plant before lifting it smoothly.\n(D) The person raises the vegetable plant by pulling it with his left hand supported by his right hand.\n(E) The person raises the vegetable plant into the air with a careful lift of the wrist.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person raises the vegetable plant by pulling it with his left hand supported by his right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

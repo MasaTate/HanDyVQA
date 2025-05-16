@@ -1,0 +1,17 @@
+{
+    "question": "How does the person turn the control knob of a gas cooker?",
+    "options": [
+        "The person turns the control knob by twisting it with her left hand.",
+        "The person pushes down the control knob using her palm and not twisting it.",
+        "The person rotates the control knob with her right hand while holding it with her other hand.",
+        "The person pulls the control knob outward slightly before turning it with her fingers.",
+        "The person turns the control knob by flicking it slightly with her wrist instead of twisting."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person turn the control knob of a gas cooker? Choose **only one** option from the following list.\nOptions:\n(A) The person turns the control knob by twisting it with her left hand.\n(B) The person pushes down the control knob using her palm and not twisting it.\n(C) The person rotates the control knob with her right hand while holding it with her other hand.\n(D) The person pulls the control knob outward slightly before turning it with her fingers.\n(E) The person turns the control knob by flicking it slightly with her wrist instead of twisting.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person pulls the control knob outward slightly before turning it with her fingers."
+    },
+    "correct_idx": [
+        0
+    ]
+}

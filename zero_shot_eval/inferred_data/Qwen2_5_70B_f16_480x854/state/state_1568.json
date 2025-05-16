@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the piece of spring onions change?",
+    "options": [
+        "The piece of spring onions was transferred back onto the cutting board after resting in a white container.",
+        "The piece of spring onions was moved sequentially from a white container to another dish.",
+        "The piece of spring onions was transferred from the cutting board to a blue container instead of a white one.",
+        "The piece of spring onions was transferred from the cutting board to a white container in sequence.",
+        "The piece of spring onions was rearranged on the cutting board before moving to a white container."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the piece of spring onions change? Choose **only one** option from the following list.\nOptions:\n(A) The piece of spring onions was transferred back onto the cutting board after resting in a white container.\n(B) The piece of spring onions was moved sequentially from a white container to another dish.\n(C) The piece of spring onions was transferred from the cutting board to a blue container instead of a white one.\n(D) The piece of spring onions was transferred from the cutting board to a white container in sequence.\n(E) The piece of spring onions was rearranged on the cutting board before moving to a white container.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The piece of spring onions was transferred from the cutting board to a white container in sequence."
+    },
+    "correct_idx": [
+        3
+    ]
+}

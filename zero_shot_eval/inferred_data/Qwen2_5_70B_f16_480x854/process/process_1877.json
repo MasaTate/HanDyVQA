@@ -1,0 +1,17 @@
+{
+    "question": "How does the person shake the sachet?",
+    "options": [
+        "The person shakes the sachet twice with the left hand, then transfers it to the right hand and shakes it twice more, finally holding it with both hands.",
+        "The person shakes the sachet firmly in one hand, keeping it there instead of switching hands.",
+        "The person shakes the sachet once with the right hand, then places it down.",
+        "The person holds the sachet with both hands but instead of shaking it, they gently squeeze it.",
+        "The person moves the sachet up and down in a tossing motion instead of shaking it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person shake the sachet? Choose **only one** option from the following list.\nOptions:\n(A) The person shakes the sachet twice with the left hand, then transfers it to the right hand and shakes it twice more, finally holding it with both hands.\n(B) The person shakes the sachet firmly in one hand, keeping it there instead of switching hands.\n(C) The person shakes the sachet once with the right hand, then places it down.\n(D) The person holds the sachet with both hands but instead of shaking it, they gently squeeze it.\n(E) The person moves the sachet up and down in a tossing motion instead of shaking it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person shakes the sachet firmly in one hand, keeping it there instead of switching hands."
+    },
+    "correct_idx": [
+        0
+    ]
+}

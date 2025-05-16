@@ -1,0 +1,17 @@
+{
+    "question": "How does the person polish the plank of wood?",
+    "options": [
+        "The person held the plank of wood horizontally with both hands and polished the plank by moving a cloth over it in a straight back-and-forth motion.",
+        "The person lifted the plank of wood above his head using both hands and applied polish from a distance before placing it down onto the workbench.",
+        "The person placed the plank of wood on the ground and applied pressure with his foot while using a sponge with his left hand to apply polish.",
+        "The person picked up the plank of wood with his right hand only and moved a brush across the surface without any circular movements.",
+        "The person rotated the plank of wood to an upright position using his left hand and polished the plank with a sander in a circular movement and in an anti-clockwise direction."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person polish the plank of wood? Choose **only one** option from the following list.\nOptions:\n(A) The person held the plank of wood horizontally with both hands and polished the plank by moving a cloth over it in a straight back-and-forth motion.\n(B) The person lifted the plank of wood above his head using both hands and applied polish from a distance before placing it down onto the workbench.\n(C) The person placed the plank of wood on the ground and applied pressure with his foot while using a sponge with his left hand to apply polish.\n(D) The person picked up the plank of wood with his right hand only and moved a brush across the surface without any circular movements.\n(E) The person rotated the plank of wood to an upright position using his left hand and polished the plank with a sander in a circular movement and in an anti-clockwise direction.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person rotated the plank of wood to an upright position using his left hand and polished the plank with a sander in a circular movement and in an anti-clockwise direction."
+    },
+    "correct_idx": [
+        4
+    ]
+}

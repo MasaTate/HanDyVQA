@@ -1,0 +1,17 @@
+{
+    "question": "How does the person grab a clothes?",
+    "options": [
+        "The person scoops up the clothing with both hands, lifting it from either side.",
+        "The person grabs a piece of clothing from the pile by gripping it and lifting it up using his right hand.",
+        "The person pinches the fabric at the corners with the left hand, lifting it from the pile.",
+        "The person drags the piece of clothing from the pile using the back of their hand.",
+        "The person folds the clothing gently with both hands before lifting it from the pile."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person grab a clothes? Choose **only one** option from the following list.\nOptions:\n(A) The person scoops up the clothing with both hands, lifting it from either side.\n(B) The person grabs a piece of clothing from the pile by gripping it and lifting it up using his right hand.\n(C) The person pinches the fabric at the corners with the left hand, lifting it from the pile.\n(D) The person drags the piece of clothing from the pile using the back of their hand.\n(E) The person folds the clothing gently with both hands before lifting it from the pile.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person grabs a piece of clothing from the pile by gripping it and lifting it up using his right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

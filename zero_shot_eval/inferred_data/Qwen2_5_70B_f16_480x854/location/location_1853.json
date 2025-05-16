@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the scissor on the table?",
+    "options": [
+        "The person drops the scissor on the table behind the glue bottle.",
+        "The person drops the scissor on the table in front of the notebook.",
+        "The person drops the scissor on the table beside the tape dispenser.",
+        "The person drops the scissor on the table next to colored threads.",
+        "The person drops the scissor on the table across from the stapler."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the scissor on the table? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the scissor on the table behind the glue bottle.\n(B) The person drops the scissor on the table in front of the notebook.\n(C) The person drops the scissor on the table beside the tape dispenser.\n(D) The person drops the scissor on the table next to colored threads.\n(E) The person drops the scissor on the table across from the stapler.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person drops the scissor on the table next to colored threads."
+    },
+    "correct_idx": [
+        3
+    ]
+}

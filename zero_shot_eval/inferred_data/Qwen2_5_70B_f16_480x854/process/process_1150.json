@@ -1,0 +1,17 @@
+{
+    "question": "How does the person bring a screw driver from his trousers?",
+    "options": [
+        "The person reached into his trousers with both hands and eventually pulled out the screwdriver.",
+        "The person carefully unzipped his trousers and let the screwdriver drop into his palm.",
+        "The person inserted his right hand and pulled up the screwdriver out of his trousers with his right hand.",
+        "The person bent down and picked up the screwdriver from near his trousers using his left hand.",
+        "The person used his right hand to guide the screwdriver smoothly through the fabric of his trousers."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person bring a screw driver from his trousers? Choose **only one** option from the following list.\nOptions:\n(A) The person reached into his trousers with both hands and eventually pulled out the screwdriver.\n(B) The person carefully unzipped his trousers and let the screwdriver drop into his palm.\n(C) The person inserted his right hand and pulled up the screwdriver out of his trousers with his right hand.\n(D) The person bent down and picked up the screwdriver from near his trousers using his left hand.\n(E) The person used his right hand to guide the screwdriver smoothly through the fabric of his trousers.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person inserted his right hand and pulled up the screwdriver out of his trousers with his right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

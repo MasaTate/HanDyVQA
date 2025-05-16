@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the white jerrycan change?",
+    "options": [
+        "The white jerrycan was lowered and moved to the right.",
+        "The white jerrycan was raised and moved to the left.",
+        "The white jerrycan was raised and moved forward.",
+        "The white jerrycan was lifted and moved to the right.",
+        "The white jerrycan was tilted and moved backward."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the white jerrycan change? Choose **only one** option from the following list.\nOptions:\n(A) The white jerrycan was lowered and moved to the right.\n(B) The white jerrycan was raised and moved to the left.\n(C) The white jerrycan was raised and moved forward.\n(D) The white jerrycan was lifted and moved to the right.\n(E) The white jerrycan was tilted and moved backward.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The white jerrycan was lifted and moved to the right."
+    },
+    "correct_idx": [
+        1
+    ]
+}

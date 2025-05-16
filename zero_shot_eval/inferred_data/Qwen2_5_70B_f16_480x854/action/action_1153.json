@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person shook the plant with his left and right hand and held a watering can in his right hand to water the soil.",
+        "The person adjusted the plant with his left and right hand and held a rake in his right hand to clear the soil.",
+        "The person twisted the plant with his left and right hand and grasped a shovel in his right hand to remove rocks from the soil.",
+        "The person tugged at the plant with his left and right hand and used a hoe in his right hand to aerate the soil.",
+        "The person swayed the plant with his left and right hand and grabbed a tool to dig the soil with his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person shook the plant with his left and right hand and held a watering can in his right hand to water the soil.\n(B) The person adjusted the plant with his left and right hand and held a rake in his right hand to clear the soil.\n(C) The person twisted the plant with his left and right hand and grasped a shovel in his right hand to remove rocks from the soil.\n(D) The person tugged at the plant with his left and right hand and used a hoe in his right hand to aerate the soil.\n(E) The person swayed the plant with his left and right hand and grabbed a tool to dig the soil with his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person swayed the plant with his left and right hand and grabbed a tool to dig the soil with his right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

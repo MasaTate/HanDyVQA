@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person uses his left hand to hold the container while his right hand transfers the dough to the other container.",
+        "The person uses his left hand to hold the bowl while his right hand mixes the dough with a whisk.",
+        "The person uses his left hand to carry the container while his right hand pours the dough onto the counter.",
+        "The person uses his left hand to clasp the lid of the container while his right hand scoops the dough into a measuring cup.",
+        "The person uses his left hand to stabilize the container while his right hand kneads the dough inside it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person uses his left hand to hold the container while his right hand transfers the dough to the other container.\n(B) The person uses his left hand to hold the bowl while his right hand mixes the dough with a whisk.\n(C) The person uses his left hand to carry the container while his right hand pours the dough onto the counter.\n(D) The person uses his left hand to clasp the lid of the container while his right hand scoops the dough into a measuring cup.\n(E) The person uses his left hand to stabilize the container while his right hand kneads the dough inside it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person uses his left hand to hold the container while his right hand transfers the dough to the other container."
+    },
+    "correct_idx": [
+        0
+    ]
+}

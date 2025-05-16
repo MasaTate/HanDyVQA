@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person pours the puri mix from a steel bowl into a large bowl using her right hand while her left hand is holding a mesh skimmer.",
+        "The person scoops the puri mix from a steel bowl with a small bowl using her right hand while the left hand is holding the mesh skimmer.",
+        "The person kneads the puri mix in a steel bowl with her right hand while holding a small bowl with her left hand.",
+        "The person stirs the puri mix in a steel bowl using a whisk in her right hand while her left hand is holding a mesh skimmer.",
+        "The person lifts the puri mix from a steel bowl using her right hand while the left hand is holding a small bowl."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person pours the puri mix from a steel bowl into a large bowl using her right hand while her left hand is holding a mesh skimmer.\n(B) The person scoops the puri mix from a steel bowl with a small bowl using her right hand while the left hand is holding the mesh skimmer.\n(C) The person kneads the puri mix in a steel bowl with her right hand while holding a small bowl with her left hand.\n(D) The person stirs the puri mix in a steel bowl using a whisk in her right hand while her left hand is holding a mesh skimmer.\n(E) The person lifts the puri mix from a steel bowl using her right hand while the left hand is holding a small bowl.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person scoops the puri mix from a steel bowl with a small bowl using her right hand while the left hand is holding the mesh skimmer."
+    },
+    "correct_idx": [
+        1
+    ]
+}

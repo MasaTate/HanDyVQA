@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a bowl in the wash sink change?",
+    "options": [
+        "The bowl was being rotated clockwise.",
+        "The bowl was being rotated counterclockwise.",
+        "The bowl was flipped over instead of being rotated.",
+        "The bowl was lifted out of the sink and set aside.",
+        "The bowl was rotated counterclockwise before being put back."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a bowl in the wash sink change? Choose **only one** option from the following list.\nOptions:\n(A) The bowl was being rotated clockwise.\n(B) The bowl was being rotated counterclockwise.\n(C) The bowl was flipped over instead of being rotated.\n(D) The bowl was lifted out of the sink and set aside.\n(E) The bowl was rotated counterclockwise before being put back.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The bowl was lifted out of the sink and set aside."
+    },
+    "correct_idx": [
+        1
+    ]
+}

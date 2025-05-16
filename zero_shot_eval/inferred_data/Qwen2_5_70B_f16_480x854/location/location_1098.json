@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place his right hand?",
+    "options": [
+        "The person placed his right hand from the timer to the rag.",
+        "The person placed his right hand over the timer on the table.",
+        "The person moved his right hand towards the rag on the floor.",
+        "The person placed his right hand from the rag to the timer.",
+        "The person shifted his right hand from the timer to the shelf."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place his right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person placed his right hand from the timer to the rag.\n(B) The person placed his right hand over the timer on the table.\n(C) The person moved his right hand towards the rag on the floor.\n(D) The person placed his right hand from the rag to the timer.\n(E) The person shifted his right hand from the timer to the shelf.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person placed his right hand from the rag to the timer."
+    },
+    "correct_idx": [
+        3
+    ]
+}

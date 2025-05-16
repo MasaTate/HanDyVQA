@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of milk change?",
+    "options": [
+        "The milk was poured into a container in a clockwise direction.",
+        "The milk was poured into a container in a counterclockwise direction.",
+        "The milk was poured onto a surface, resulting in a splatter.",
+        "The milk was transferred into a container through a funnel.",
+        "The milk was shaken in the container before being served."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of milk change? Choose **only one** option from the following list.\nOptions:\n(A) The milk was poured into a container in a clockwise direction.\n(B) The milk was poured into a container in a counterclockwise direction.\n(C) The milk was poured onto a surface, resulting in a splatter.\n(D) The milk was transferred into a container through a funnel.\n(E) The milk was shaken in the container before being served.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The milk was poured into a container in a clockwise direction."
+    },
+    "correct_idx": [
+        0
+    ]
+}

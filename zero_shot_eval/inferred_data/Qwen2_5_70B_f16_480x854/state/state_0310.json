@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the cloth change?",
+    "options": [
+        "The excess thread from the cloth was cut and slightly moved downward.",
+        "The excess thread from the cloth was trimmed and slightly moved to the left.",
+        "The excess thread from the cloth was cut and slightly moved upward.",
+        "The excess thread from the cloth was left uncut but was slightly moved upward.",
+        "The excess thread from the cloth was shortened and slightly moved to the right."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the cloth change? Choose **only one** option from the following list.\nOptions:\n(A) The excess thread from the cloth was cut and slightly moved downward.\n(B) The excess thread from the cloth was trimmed and slightly moved to the left.\n(C) The excess thread from the cloth was cut and slightly moved upward.\n(D) The excess thread from the cloth was left uncut but was slightly moved upward.\n(E) The excess thread from the cloth was shortened and slightly moved to the right.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The excess thread from the cloth was cut and slightly moved downward."
+    },
+    "correct_idx": [
+        2
+    ]
+}

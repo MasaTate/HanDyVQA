@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the phone change?",
+    "options": [
+        "The phone was picked up from his pocket and put down without being activated.",
+        "The phone was picked up from his pocket and then put down after being activated.",
+        "The phone was taken out of his pocket and placed on the table without being activated.",
+        "The phone was taken from his pocket and held in hand without being put down.",
+        "The phone was taken out of his pocket and put back without activation."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the phone change? Choose **only one** option from the following list.\nOptions:\n(A) The phone was picked up from his pocket and put down without being activated.\n(B) The phone was picked up from his pocket and then put down after being activated.\n(C) The phone was taken out of his pocket and placed on the table without being activated.\n(D) The phone was taken from his pocket and held in hand without being put down.\n(E) The phone was taken out of his pocket and put back without activation.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The phone was picked up from his pocket and then put down after being activated."
+    },
+    "correct_idx": [
+        0
+    ]
+}

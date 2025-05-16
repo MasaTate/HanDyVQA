@@ -1,0 +1,17 @@
+{
+    "question": "How does the person place the plate?",
+    "options": [
+        "The person tossed the plate gently into the air with her left hand and carefully set it down on the kitchen counter.",
+        "The person slid the plate smoothly across the counter using her palm, guiding it with both hands.",
+        "The person quickly and gently places the plate on the kitchen counter using her right hand, then lifts up another plate using both hands.",
+        "The person lifted the plate high over her head and placed it onto the kitchen counter with care.",
+        "The person balanced the plate on her right hand and smoothly tilted her wrist to set it onto the kitchen counter."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person place the plate? Choose **only one** option from the following list.\nOptions:\n(A) The person tossed the plate gently into the air with her left hand and carefully set it down on the kitchen counter.\n(B) The person slid the plate smoothly across the counter using her palm, guiding it with both hands.\n(C) The person quickly and gently places the plate on the kitchen counter using her right hand, then lifts up another plate using both hands.\n(D) The person lifted the plate high over her head and placed it onto the kitchen counter with care.\n(E) The person balanced the plate on her right hand and smoothly tilted her wrist to set it onto the kitchen counter.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person quickly and gently places the plate on the kitchen counter using her right hand, then lifts up another plate using both hands."
+    },
+    "correct_idx": [
+        2
+    ]
+}

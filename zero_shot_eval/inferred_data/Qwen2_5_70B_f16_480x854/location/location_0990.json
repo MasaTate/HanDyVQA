@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the remote?",
+    "options": [
+        "The person put the remote on the couch.",
+        "\u00a0The person put the remote on the table.",
+        "The person put the remote on the floor next to the table.",
+        "The person put the remote on the coffee table.",
+        "The person put the remote on the armrest of the chair."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the remote? Choose **only one** option from the following list.\nOptions:\n(A) The person put the remote on the couch.\n(B) \u00a0The person put the remote on the table.\n(C) The person put the remote on the floor next to the table.\n(D) The person put the remote on the coffee table.\n(E) The person put the remote on the armrest of the chair.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person put the remote on the table."
+    },
+    "correct_idx": [
+        1
+    ]
+}

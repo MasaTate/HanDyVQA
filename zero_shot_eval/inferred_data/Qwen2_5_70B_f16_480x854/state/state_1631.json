@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the cigarette change?",
+    "options": [
+        "The cigarette was crushed and left flattened on the table.",
+        "The cigarette was partially burned and discarded on the floor.",
+        "The cigarette was moved from one hand to the other.",
+        "The cigarette was rolled tightly and placed into a different pack.",
+        "The cigarette was extinguished and left in the ashtray."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the cigarette change? Choose **only one** option from the following list.\nOptions:\n(A) The cigarette was crushed and left flattened on the table.\n(B) The cigarette was partially burned and discarded on the floor.\n(C) The cigarette was moved from one hand to the other.\n(D) The cigarette was rolled tightly and placed into a different pack.\n(E) The cigarette was extinguished and left in the ashtray.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The cigarette was extinguished and left in the ashtray."
+    },
+    "correct_idx": [
+        4
+    ]
+}

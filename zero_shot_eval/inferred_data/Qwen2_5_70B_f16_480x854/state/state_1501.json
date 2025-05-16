@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the laptop battery change?",
+    "options": [
+        "The laptop battery was picked up, rotated, and placed on the laptop, altering its position.",
+        "The laptop battery was picked up, flipped upside down, and placed beside the laptop, altering its orientation.",
+        "The laptop battery was slid slightly, rotated, and positioned next to the laptop, changing its orientation.",
+        "The laptop battery was picked up, turned ninety degrees, and placed on the laptop without changing its position.",
+        "The laptop battery was lifted, rotated, and put down adjacent to the laptop, altering its alignment."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the laptop battery change? Choose **only one** option from the following list.\nOptions:\n(A) The laptop battery was picked up, rotated, and placed on the laptop, altering its position.\n(B) The laptop battery was picked up, flipped upside down, and placed beside the laptop, altering its orientation.\n(C) The laptop battery was slid slightly, rotated, and positioned next to the laptop, changing its orientation.\n(D) The laptop battery was picked up, turned ninety degrees, and placed on the laptop without changing its position.\n(E) The laptop battery was lifted, rotated, and put down adjacent to the laptop, altering its alignment.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The laptop battery was picked up, rotated, and placed on the laptop, altering its position."
+    },
+    "correct_idx": [
+        0
+    ]
+}

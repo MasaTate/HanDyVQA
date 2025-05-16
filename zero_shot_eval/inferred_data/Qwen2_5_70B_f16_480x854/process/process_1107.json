@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pull the paper?",
+    "options": [
+        "The person drags the paper with his right hand toward the center of the table by gripping it with the right thumb and middle finger.",
+        "The person slides the paper with his left hand toward the center of the table, using a gentle grip of the thumb and palm.",
+        "The person scoops the paper with his left hand, moving it back toward the center of the table using the back of his fingers.",
+        "The person pulls the paper with both hands, gripping it lightly with all fingers to bring it toward the center of the table.",
+        "The person pulls the paper with his left hand to the center of the table by gripping it tightly using the left thumb and index finger."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pull the paper? Choose **only one** option from the following list.\nOptions:\n(A) The person drags the paper with his right hand toward the center of the table by gripping it with the right thumb and middle finger.\n(B) The person slides the paper with his left hand toward the center of the table, using a gentle grip of the thumb and palm.\n(C) The person scoops the paper with his left hand, moving it back toward the center of the table using the back of his fingers.\n(D) The person pulls the paper with both hands, gripping it lightly with all fingers to bring it toward the center of the table.\n(E) The person pulls the paper with his left hand to the center of the table by gripping it tightly using the left thumb and index finger.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person pulls the paper with his left hand to the center of the table by gripping it tightly using the left thumb and index finger."
+    },
+    "correct_idx": [
+        4
+    ]
+}

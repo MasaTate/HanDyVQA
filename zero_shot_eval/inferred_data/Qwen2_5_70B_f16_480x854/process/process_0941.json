@@ -1,0 +1,17 @@
+{
+    "question": "How does the person close the microwave?",
+    "options": [
+        "The person pulls the microwave door shut with their left hand, applying steady pressure.",
+        "The person carefully closes the microwave door using their right hand.",
+        "The person uses their left hand to close the microwave by gently pushing it.",
+        "The person nudges the microwave door shut using their leg for support.",
+        "The person lightly presses the microwave door with their fingers to close it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person close the microwave? Choose **only one** option from the following list.\nOptions:\n(A) The person pulls the microwave door shut with their left hand, applying steady pressure.\n(B) The person carefully closes the microwave door using their right hand.\n(C) The person uses their left hand to close the microwave by gently pushing it.\n(D) The person nudges the microwave door shut using their leg for support.\n(E) The person lightly presses the microwave door with their fingers to close it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person uses their left hand to close the microwave by gently pushing it."
+    },
+    "correct_idx": [
+        2
+    ]
+}

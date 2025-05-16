@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person sets the seasoning down on the counter, rinses her hands in the sink, loosens the vinegar bottle cap, and shifts the salt shaker closer to the stove.",
+        "The person sprinkles the seasoning onto the food with her right hand, uses her left hand to stir the mixture, and sets the oil bottle on the table before adjusting the spice rack.",
+        "The person raises the seasoning jar, shakes it lightly with her right hand, pours oil into the pan with her left hand, and arranges the utensils.",
+        "The person removes the lid from the container with her right hand, checks the expiration date with her left hand, empties the seasoning into a bowl, and places the can on the shelf.",
+        "The person returns the seasoning to the tray, wipes her left hand with her right hand, tightens the oil bottle lid, and slightly adjusts the can."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person sets the seasoning down on the counter, rinses her hands in the sink, loosens the vinegar bottle cap, and shifts the salt shaker closer to the stove.\n(B) The person sprinkles the seasoning onto the food with her right hand, uses her left hand to stir the mixture, and sets the oil bottle on the table before adjusting the spice rack.\n(C) The person raises the seasoning jar, shakes it lightly with her right hand, pours oil into the pan with her left hand, and arranges the utensils.\n(D) The person removes the lid from the container with her right hand, checks the expiration date with her left hand, empties the seasoning into a bowl, and places the can on the shelf.\n(E) The person returns the seasoning to the tray, wipes her left hand with her right hand, tightens the oil bottle lid, and slightly adjusts the can.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person returns the seasoning to the tray, wipes her left hand with her right hand, tightens the oil bottle lid, and slightly adjusts the can."
+    },
+    "correct_idx": [
+        4
+    ]
+}

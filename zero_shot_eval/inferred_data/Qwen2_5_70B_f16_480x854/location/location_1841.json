@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the flashlight?",
+    "options": [
+        "The person places the flashlight from his right hand to his left hand.",
+        "The person places the flashlight on the table beside his hand.",
+        "The person places the flashlight from his left hand to his right hand.",
+        "The person places the flashlight from his left hand to the pocket of his jacket.",
+        "The person places the flashlight on the floor next to his feet."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the flashlight? Choose **only one** option from the following list.\nOptions:\n(A) The person places the flashlight from his right hand to his left hand.\n(B) The person places the flashlight on the table beside his hand.\n(C) The person places the flashlight from his left hand to his right hand.\n(D) The person places the flashlight from his left hand to the pocket of his jacket.\n(E) The person places the flashlight on the floor next to his feet.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person places the flashlight from his right hand to his left hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

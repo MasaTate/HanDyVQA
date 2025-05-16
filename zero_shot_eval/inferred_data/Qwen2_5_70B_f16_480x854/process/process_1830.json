@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pick the bin?",
+    "options": [
+        "The person grabs the bin with both hands, gently pushing it forward.",
+        "The person uses their left hand to slightly tilt the bin before lifting it.",
+        "The person rolls the bin towards them using their right hand while supporting the rim with their left hand.",
+        "The person pulls the bin up smoothly, keeping their fingers lightly under the lid.",
+        "The person grabs the trash and puts it in the bin, lifting it to the front using the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pick the bin? Choose **only one** option from the following list.\nOptions:\n(A) The person grabs the bin with both hands, gently pushing it forward.\n(B) The person uses their left hand to slightly tilt the bin before lifting it.\n(C) The person rolls the bin towards them using their right hand while supporting the rim with their left hand.\n(D) The person pulls the bin up smoothly, keeping their fingers lightly under the lid.\n(E) The person grabs the trash and puts it in the bin, lifting it to the front using the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person uses their left hand to slightly tilt the bin before lifting it."
+    },
+    "correct_idx": [
+        4
+    ]
+}

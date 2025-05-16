@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a video game change?",
+    "options": [
+        "The video game was paused and the character remained stationary.",
+        "The video game was reset and the character returned to the starting point.",
+        "The video game was saved and the character switched to a different level.",
+        "The video game was played and the character moved.",
+        "The video game was exited and the character disappeared from the screen."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a video game change? Choose **only one** option from the following list.\nOptions:\n(A) The video game was paused and the character remained stationary.\n(B) The video game was reset and the character returned to the starting point.\n(C) The video game was saved and the character switched to a different level.\n(D) The video game was played and the character moved.\n(E) The video game was exited and the character disappeared from the screen.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The video game was played and the character moved."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the paint brush change?",
+    "options": [
+        "The paintbrush was washed in water, with all the paint removed from its bristles.",
+        "The paintbrush was dipped into the white paint, coating its bristles.",
+        "The paintbrush was left out to dry, with its bristles becoming stiff and hard.",
+        "The paintbrush was used to mix colors on a palette, with the paint blended throughout its bristles.",
+        "The paintbrush was rolled in a layer of dried paint, with its bristles fattened by a crust."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the paint brush change? Choose **only one** option from the following list.\nOptions:\n(A) The paintbrush was washed in water, with all the paint removed from its bristles.\n(B) The paintbrush was dipped into the white paint, coating its bristles.\n(C) The paintbrush was left out to dry, with its bristles becoming stiff and hard.\n(D) The paintbrush was used to mix colors on a palette, with the paint blended throughout its bristles.\n(E) The paintbrush was rolled in a layer of dried paint, with its bristles fattened by a crust.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The paintbrush was dipped into the white paint, coating its bristles."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pick the bunch of mushroom?",
+    "options": [
+        "The person lifts the bunch of mushrooms with the left hand, puts it back on the chopping board, and holds the mushrooms firmly to cut it.",
+        "The person grabs the bunch of mushrooms gently with both hands, lifting them carefully from the chopping board, but mistakenly lets them slip onto the floor.",
+        "The person pinches the bunch of mushrooms with their right hand, lifting them slightly, but accidentally lets one slide off the chopping board onto the counter.",
+        "The person uses their thumb and index finger of the left hand to hold the mushrooms closely, as they try to place them into a bowl, resulting in a few mushrooms falling onto the table.",
+        "The person lifts the bunch of mushrooms smoothly with the right hand while using the left hand to guide them, inadvertently causing the mushrooms to roll over the edge of the chopping board."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pick the bunch of mushroom? Choose **only one** option from the following list.\nOptions:\n(A) The person lifts the bunch of mushrooms with the left hand, puts it back on the chopping board, and holds the mushrooms firmly to cut it.\n(B) The person grabs the bunch of mushrooms gently with both hands, lifting them carefully from the chopping board, but mistakenly lets them slip onto the floor.\n(C) The person pinches the bunch of mushrooms with their right hand, lifting them slightly, but accidentally lets one slide off the chopping board onto the counter.\n(D) The person uses their thumb and index finger of the left hand to hold the mushrooms closely, as they try to place them into a bowl, resulting in a few mushrooms falling onto the table.\n(E) The person lifts the bunch of mushrooms smoothly with the right hand while using the left hand to guide them, inadvertently causing the mushrooms to roll over the edge of the chopping board.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person lifts the bunch of mushrooms with the left hand, puts it back on the chopping board, and holds the mushrooms firmly to cut it."
+    },
+    "correct_idx": [
+        0
+    ]
+}

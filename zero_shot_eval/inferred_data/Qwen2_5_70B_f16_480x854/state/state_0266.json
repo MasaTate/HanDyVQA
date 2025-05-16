@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the canvas sheet on the dining table change?",
+    "options": [
+        "The canvas sheet was rotated clockwise by 90 degrees.",
+        "The canvas sheet was rotated counterclockwise by 45 degrees.",
+        "The canvas sheet was rotated counterclockwise by 180 degrees.",
+        "The canvas sheet was rotated clockwise by 180 degrees.",
+        "The canvas sheet was rotated counterclockwise by 90 degrees."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the canvas sheet on the dining table change? Choose **only one** option from the following list.\nOptions:\n(A) The canvas sheet was rotated clockwise by 90 degrees.\n(B) The canvas sheet was rotated counterclockwise by 45 degrees.\n(C) The canvas sheet was rotated counterclockwise by 180 degrees.\n(D) The canvas sheet was rotated clockwise by 180 degrees.\n(E) The canvas sheet was rotated counterclockwise by 90 degrees.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The canvas sheet was rotated counterclockwise by 180 degrees."
+    },
+    "correct_idx": [
+        4
+    ]
+}

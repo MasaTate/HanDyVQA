@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of an ant change?",
+    "options": [
+        "The ant was on the ground and then stepped on.",
+        "The ant was on the table and then knocked to the floor.",
+        "The ant was on the leaf and then blown away.",
+        "The ant was on his arm and then swatted.",
+        "The ant was on the wall and then brushed off."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of an ant change? Choose **only one** option from the following list.\nOptions:\n(A) The ant was on the ground and then stepped on.\n(B) The ant was on the table and then knocked to the floor.\n(C) The ant was on the leaf and then blown away.\n(D) The ant was on his arm and then swatted.\n(E) The ant was on the wall and then brushed off.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The ant was on his arm and then swatted."
+    },
+    "correct_idx": [
+        3
+    ]
+}

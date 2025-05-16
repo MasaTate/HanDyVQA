@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the woodwork change?",
+    "options": [
+        "The splinter of the wood was touched by the chisel but was not changed drastically.",
+        "The splinter of the wood was touched by the chisel and was completely removed.",
+        "The chisel was applied to the wood, creating a small groove.",
+        "The chisel was swept across the surface, leveling the splinter.",
+        "The chisel was pressed down into the wood, cutting deeply."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the woodwork change? Choose **only one** option from the following list.\nOptions:\n(A) The splinter of the wood was touched by the chisel but was not changed drastically.\n(B) The splinter of the wood was touched by the chisel and was completely removed.\n(C) The chisel was applied to the wood, creating a small groove.\n(D) The chisel was swept across the surface, leveling the splinter.\n(E) The chisel was pressed down into the wood, cutting deeply.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The splinter of the wood was touched by the chisel but was not changed drastically."
+    },
+    "correct_idx": [
+        0
+    ]
+}

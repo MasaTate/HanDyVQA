@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the bottle change?",
+    "options": [
+        "The bottle was initially standing upright on the shelf, and then it was tilted and poured out while being turned upside down.",
+        "The bottle was originally lying flat on the floor, and then it was lifted and shaken before being set back down.",
+        "The bottle was first resting on the table, and then it was picked up and held while being rotated in a clockwise direction.",
+        "The bottle started off being closed with a cap, and then it was unscrewed and opened while being turned sideways.",
+        "The bottle was placed inside a bag, and then it was taken out and moved around while being switched between hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the bottle change? Choose **only one** option from the following list.\nOptions:\n(A) The bottle was initially standing upright on the shelf, and then it was tilted and poured out while being turned upside down.\n(B) The bottle was originally lying flat on the floor, and then it was lifted and shaken before being set back down.\n(C) The bottle was first resting on the table, and then it was picked up and held while being rotated in a clockwise direction.\n(D) The bottle started off being closed with a cap, and then it was unscrewed and opened while being turned sideways.\n(E) The bottle was placed inside a bag, and then it was taken out and moved around while being switched between hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The bottle was placed inside a bag, and then it was taken out and moved around while being switched between hands."
+    },
+    "correct_idx": [
+        2
+    ]
+}

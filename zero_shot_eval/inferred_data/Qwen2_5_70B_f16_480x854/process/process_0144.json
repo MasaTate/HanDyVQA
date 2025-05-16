@@ -1,0 +1,17 @@
+{
+    "question": "How does the person gather the dirt?",
+    "options": [
+        "The person collects the dirt with both hands, moving it around and then attempts to push it into a corner with her palms flat near the ground.",
+        "The person uses a shovel to scoop the dirt but accidentally sends it elsewhere while trying to bring it to a pile.",
+        "The person picks up the dirt with her right hand and then tosses it back rather than gathering it into a pile.",
+        "The person directs all the dirt to a specific spot by sweeping it with her right hand, then gathers it into a small pile by cupping her fingers and using a scooping motion.",
+        "The person uses her left hand to move the dirt aside while her right hand holds a container, causing no collection into a pile."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person gather the dirt? Choose **only one** option from the following list.\nOptions:\n(A) The person collects the dirt with both hands, moving it around and then attempts to push it into a corner with her palms flat near the ground.\n(B) The person uses a shovel to scoop the dirt but accidentally sends it elsewhere while trying to bring it to a pile.\n(C) The person picks up the dirt with her right hand and then tosses it back rather than gathering it into a pile.\n(D) The person directs all the dirt to a specific spot by sweeping it with her right hand, then gathers it into a small pile by cupping her fingers and using a scooping motion.\n(E) The person uses her left hand to move the dirt aside while her right hand holds a container, causing no collection into a pile.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person directs all the dirt to a specific spot by sweeping it with her right hand, then gathers it into a small pile by cupping her fingers and using a scooping motion."
+    },
+    "correct_idx": [
+        3
+    ]
+}

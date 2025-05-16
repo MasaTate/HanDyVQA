@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the ball change?",
+    "options": [
+        "The ball was thrown across the field, changing its location.",
+        "The ball was shot into the ring, changing its position.",
+        "The ball was rolled down the slope, changing its movement.",
+        "The ball was tossed into the air, changing its elevation.",
+        "The ball was kicked towards the goal, changing its trajectory."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the ball change? Choose **only one** option from the following list.\nOptions:\n(A) The ball was thrown across the field, changing its location.\n(B) The ball was shot into the ring, changing its position.\n(C) The ball was rolled down the slope, changing its movement.\n(D) The ball was tossed into the air, changing its elevation.\n(E) The ball was kicked towards the goal, changing its trajectory.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The ball was shot into the ring, changing its position."
+    },
+    "correct_idx": [
+        1
+    ]
+}

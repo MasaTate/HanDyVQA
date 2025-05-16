@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person gathers food scraps from the serving dish with his left hand and places the empty bowl on the kitchen counter using his right hand.",
+        "The person takes food remnants off the dining table with his left hand and sets the dirty plate in the sink using his right hand.",
+        "The person scoops leftover food from the pot into a container with his left hand and discards the empty bowl in the trash with his right hand.",
+        "The person collects food leftovers in the soup bowl in his left hand and places the empty plate into the sink using his right hand.",
+        "The person picks up uneaten food from a plate in his left hand and balances the empty soup bowl in his right hand as he walks towards the kitchen."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person gathers food scraps from the serving dish with his left hand and places the empty bowl on the kitchen counter using his right hand.\n(B) The person takes food remnants off the dining table with his left hand and sets the dirty plate in the sink using his right hand.\n(C) The person scoops leftover food from the pot into a container with his left hand and discards the empty bowl in the trash with his right hand.\n(D) The person collects food leftovers in the soup bowl in his left hand and places the empty plate into the sink using his right hand.\n(E) The person picks up uneaten food from a plate in his left hand and balances the empty soup bowl in his right hand as he walks towards the kitchen.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person gathers food scraps from the serving dish with his left hand and places the empty bowl on the kitchen counter using his right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

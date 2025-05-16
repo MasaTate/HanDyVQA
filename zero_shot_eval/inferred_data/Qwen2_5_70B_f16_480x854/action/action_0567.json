@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person untangles yarn from the bundle of yarn on the floor with her right hand.",
+        "The person winds yarn onto a spool from the bundle of yarn on the floor with her right hand.",
+        "The person gathers yarn from the bundle of yarn on the floor with her right hand.",
+        "The person sorts yarn by color from the bundle of yarn on the floor with her right hand.",
+        "The person pulls out yarn from the bundle of yarn on the floor with her right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person untangles yarn from the bundle of yarn on the floor with her right hand.\n(B) The person winds yarn onto a spool from the bundle of yarn on the floor with her right hand.\n(C) The person gathers yarn from the bundle of yarn on the floor with her right hand.\n(D) The person sorts yarn by color from the bundle of yarn on the floor with her right hand.\n(E) The person pulls out yarn from the bundle of yarn on the floor with her right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person pulls out yarn from the bundle of yarn on the floor with her right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

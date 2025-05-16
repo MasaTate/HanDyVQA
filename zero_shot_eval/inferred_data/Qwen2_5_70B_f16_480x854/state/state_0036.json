@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the concrete change?",
+    "options": [
+        "The small debris of concrete was picked up and placed on the ground instead of in the bucket.",
+        "The small debris of concrete was moved to the side rather than being returned to the bucket.",
+        "The small debris of concrete was picked up to be returned to the bucket.",
+        "The small debris of concrete was picked up and thrown into another container.",
+        "The small debris of concrete was collected but left on the table instead of being placed in the bucket."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the concrete change? Choose **only one** option from the following list.\nOptions:\n(A) The small debris of concrete was picked up and placed on the ground instead of in the bucket.\n(B) The small debris of concrete was moved to the side rather than being returned to the bucket.\n(C) The small debris of concrete was picked up to be returned to the bucket.\n(D) The small debris of concrete was picked up and thrown into another container.\n(E) The small debris of concrete was collected but left on the table instead of being placed in the bucket.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The small debris of concrete was picked up to be returned to the bucket."
+    },
+    "correct_idx": [
+        2
+    ]
+}

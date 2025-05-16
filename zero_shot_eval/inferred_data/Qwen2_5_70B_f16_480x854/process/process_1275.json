@@ -1,0 +1,17 @@
+{
+    "question": "How does the person put the container on the upper shelf?",
+    "options": [
+        "The person raises the container upward with her left hand, allowing it to settle carefully on the shelf.",
+        "The person holds the container with both hands and lifts it gently upward as she focuses on the shelf.",
+        "The person places the container on the upper shelf by moving her hand upward using her right hand.",
+        "The person reaches over with her right hand and places the container on the shelf, ensuring it's positioned properly.",
+        "The person guides the container with a flick of her wrist as she stands on tiptoe, directing it to the upper shelf."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person put the container on the upper shelf? Choose **only one** option from the following list.\nOptions:\n(A) The person raises the container upward with her left hand, allowing it to settle carefully on the shelf.\n(B) The person holds the container with both hands and lifts it gently upward as she focuses on the shelf.\n(C) The person places the container on the upper shelf by moving her hand upward using her right hand.\n(D) The person reaches over with her right hand and places the container on the shelf, ensuring it's positioned properly.\n(E) The person guides the container with a flick of her wrist as she stands on tiptoe, directing it to the upper shelf.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person places the container on the upper shelf by moving her hand upward using her right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

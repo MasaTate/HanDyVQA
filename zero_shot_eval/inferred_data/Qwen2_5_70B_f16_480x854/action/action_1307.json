@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person dries his right hand with a towel after washing it at the tap.",
+        "The person scrubs his right hand with soap under the tap.",
+        "The person splashes water on his right hand from the basin.",
+        "The person rinses his right hand at the tap.",
+        "The person washes his left hand with soap."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person dries his right hand with a towel after washing it at the tap.\n(B) The person scrubs his right hand with soap under the tap.\n(C) The person splashes water on his right hand from the basin.\n(D) The person rinses his right hand at the tap.\n(E) The person washes his left hand with soap.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person rinses his right hand at the tap."
+    },
+    "correct_idx": [
+        3
+    ]
+}

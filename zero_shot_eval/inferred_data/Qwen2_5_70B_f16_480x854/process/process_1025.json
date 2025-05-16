@@ -1,0 +1,17 @@
+{
+    "question": "How does the person scroll the computer mouse?",
+    "options": [
+        "The person holds the computer mouse and scrolls it up and down using the index finger.",
+        "The person grips the computer mouse with their palm and moves it gently side to side instead of scrolling up and down.",
+        "The person picks up the computer mouse and moves it back and forth with both hands to navigate the screen.",
+        "The person presses on the computer mouse with their thumb and twists it in circles rather than scrolling.",
+        "The person taps the side of the computer mouse with their pinky finger without rolling the scroll wheel."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person scroll the computer mouse? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the computer mouse and scrolls it up and down using the index finger.\n(B) The person grips the computer mouse with their palm and moves it gently side to side instead of scrolling up and down.\n(C) The person picks up the computer mouse and moves it back and forth with both hands to navigate the screen.\n(D) The person presses on the computer mouse with their thumb and twists it in circles rather than scrolling.\n(E) The person taps the side of the computer mouse with their pinky finger without rolling the scroll wheel.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person holds the computer mouse and scrolls it up and down using the index finger."
+    },
+    "correct_idx": [
+        0
+    ]
+}

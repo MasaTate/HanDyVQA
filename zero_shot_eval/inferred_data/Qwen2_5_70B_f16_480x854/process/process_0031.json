@@ -1,0 +1,17 @@
+{
+    "question": "How does the person drain the water?",
+    "options": [
+        "The person lifts the pedal with his right hand and pushes the water with a sponge in his left hand to direct it away from the drain.",
+        "The person drains the water by holding the pedal with his left hand to control the flow while using a brush in his right hand to sweep the water toward the drain.",
+        "The person twists the pedal with the fingers of his left hand while using his right hand to cup the water and guide it out.",
+        "The person presses the pedal down firmly with both hands to release the water while using a towel held in his mouth to collect it.",
+        "The person holds the pedal steady with his left hand and uses a bucket in his right hand to scoop the water aside."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person drain the water? Choose **only one** option from the following list.\nOptions:\n(A) The person lifts the pedal with his right hand and pushes the water with a sponge in his left hand to direct it away from the drain.\n(B) The person drains the water by holding the pedal with his left hand to control the flow while using a brush in his right hand to sweep the water toward the drain.\n(C) The person twists the pedal with the fingers of his left hand while using his right hand to cup the water and guide it out.\n(D) The person presses the pedal down firmly with both hands to release the water while using a towel held in his mouth to collect it.\n(E) The person holds the pedal steady with his left hand and uses a bucket in his right hand to scoop the water aside.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person drains the water by holding the pedal with his left hand to control the flow while using a brush in his right hand to sweep the water toward the drain."
+    },
+    "correct_idx": [
+        1
+    ]
+}

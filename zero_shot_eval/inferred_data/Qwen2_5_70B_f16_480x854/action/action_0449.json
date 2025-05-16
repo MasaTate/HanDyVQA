@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person uses a roller to coat the floor while gently nudging the paint can outward with his/her left hand.",
+        "The person paints the floor with the paintbrush in his/her right hand while dragging the paint can inwards using his/her left hand.",
+        "The person applies wallpaper to the wall using the paintbrush in his/her right hand while keeping the paint can balanced on the floor with his/her left hand.",
+        "The person removes old paint from the floor with a putty knife in his/her right hand while stabilizing the paint can with his/her left hand.",
+        "The person blends colors on a palette with the paintbrush in his/her right hand while lifting the paint can from the table with his/her left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person uses a roller to coat the floor while gently nudging the paint can outward with his/her left hand.\n(B) The person paints the floor with the paintbrush in his/her right hand while dragging the paint can inwards using his/her left hand.\n(C) The person applies wallpaper to the wall using the paintbrush in his/her right hand while keeping the paint can balanced on the floor with his/her left hand.\n(D) The person removes old paint from the floor with a putty knife in his/her right hand while stabilizing the paint can with his/her left hand.\n(E) The person blends colors on a palette with the paintbrush in his/her right hand while lifting the paint can from the table with his/her left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person paints the floor with the paintbrush in his/her right hand while dragging the paint can inwards using his/her left hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

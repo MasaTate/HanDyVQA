@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the bubbles in the sink change?",
+    "options": [
+        "The bubbles in the sink were washed away to the right by the water.",
+        "The bubbles in the sink were swirled around in the center by the water.",
+        "The bubbles in the sink were washed away to the left by the water.",
+        "The bubbles in the sink were dissipated by the water.",
+        "The bubbles in the sink were moved toward the drain by the water."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the bubbles in the sink change? Choose **only one** option from the following list.\nOptions:\n(A) The bubbles in the sink were washed away to the right by the water.\n(B) The bubbles in the sink were swirled around in the center by the water.\n(C) The bubbles in the sink were washed away to the left by the water.\n(D) The bubbles in the sink were dissipated by the water.\n(E) The bubbles in the sink were moved toward the drain by the water.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The bubbles in the sink were moved toward the drain by the water."
+    },
+    "correct_idx": [
+        2
+    ]
+}

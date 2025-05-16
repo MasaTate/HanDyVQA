@@ -1,0 +1,17 @@
+{
+    "question": "How does the person shred the cabbage?",
+    "options": [
+        "The person quickly chops the cabbage in a downward motion, then slides the knife perpendicularly to the previous cuts to slice it into thin strips.",
+        "The person uses their fingers to tear the cabbage into pieces, spreading them on the cutting board.",
+        "The person gently rolls the cabbage on the board and uses a knife to shave off thin layers.",
+        "The person presses down on the cabbage with both hands, twisting to create chunks.",
+        "The person drops the cabbage onto the table, allowing it to break into larger portions."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person shred the cabbage? Choose **only one** option from the following list.\nOptions:\n(A) The person quickly chops the cabbage in a downward motion, then slides the knife perpendicularly to the previous cuts to slice it into thin strips.\n(B) The person uses their fingers to tear the cabbage into pieces, spreading them on the cutting board.\n(C) The person gently rolls the cabbage on the board and uses a knife to shave off thin layers.\n(D) The person presses down on the cabbage with both hands, twisting to create chunks.\n(E) The person drops the cabbage onto the table, allowing it to break into larger portions.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person quickly chops the cabbage in a downward motion, then slides the knife perpendicularly to the previous cuts to slice it into thin strips."
+    },
+    "correct_idx": [
+        0
+    ]
+}

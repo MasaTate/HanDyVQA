@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of small paint container change?",
+    "options": [
+        "The small paint container was knocked over onto the table.",
+        "The small paint container was transferred into a larger container.",
+        "The small paint container was picked up, its lid was opened, then it was put back on the table and fell off.",
+        "The small paint container was agitated to mix its contents.",
+        "The small paint container was sealed with a plastic cover."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of small paint container change? Choose **only one** option from the following list.\nOptions:\n(A) The small paint container was knocked over onto the table.\n(B) The small paint container was transferred into a larger container.\n(C) The small paint container was picked up, its lid was opened, then it was put back on the table and fell off.\n(D) The small paint container was agitated to mix its contents.\n(E) The small paint container was sealed with a plastic cover.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The small paint container was picked up, its lid was opened, then it was put back on the table and fell off."
+    },
+    "correct_idx": [
+        2
+    ]
+}

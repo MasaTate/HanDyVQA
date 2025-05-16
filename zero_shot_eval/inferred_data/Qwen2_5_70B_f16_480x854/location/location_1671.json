@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place her right hand?",
+    "options": [
+        "The person placed her right hand at the left stair handrailing.",
+        "The person placed her right hand on the right wall beside the stairs.",
+        "The person placed her right hand on the top of the stair banister.",
+        "The person placed her right hand at the bottom of the stair railing.",
+        "The person placed her right hand at the right stair handrailing."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place her right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person placed her right hand at the left stair handrailing.\n(B) The person placed her right hand on the right wall beside the stairs.\n(C) The person placed her right hand on the top of the stair banister.\n(D) The person placed her right hand at the bottom of the stair railing.\n(E) The person placed her right hand at the right stair handrailing.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person placed her right hand at the right stair handrailing."
+    },
+    "correct_idx": [
+        4
+    ]
+}

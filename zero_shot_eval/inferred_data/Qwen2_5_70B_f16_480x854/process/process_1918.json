@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pack flour?",
+    "options": [
+        "The person scoops the flour with his hands and carefully pours it into the bag.",
+        "The person grabs the flour with one hand and gently shakes it into the container.",
+        "The person holds the flour bag and uses the fingertips of one hand to pinch some flour.",
+        "The person moves the flour by using his right hand and spreads it on the surface, and then rolls it with the dough.",
+        "The person uses a scoop with his hand to transfer the flour into a bowl."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pack flour? Choose **only one** option from the following list.\nOptions:\n(A) The person scoops the flour with his hands and carefully pours it into the bag.\n(B) The person grabs the flour with one hand and gently shakes it into the container.\n(C) The person holds the flour bag and uses the fingertips of one hand to pinch some flour.\n(D) The person moves the flour by using his right hand and spreads it on the surface, and then rolls it with the dough.\n(E) The person uses a scoop with his hand to transfer the flour into a bowl.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person moves the flour by using his right hand and spreads it on the surface, and then rolls it with the dough."
+    },
+    "correct_idx": [
+        3
+    ]
+}

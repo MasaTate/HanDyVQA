@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is using the right hand to adjust the bamboo strip while supporting the basket with the left hand resting on the ground.",
+        "The person is balancing the basket on the right arm while using the left hand to arrange a bamboo strip.",
+        "The person is holding the basket in the right hand while using the left hand to position the bamboo strip around the top of the basket.",
+        "The person uses the left hand to hold and support the basket while using the right hand to straighten the bamboo strip.",
+        "The person is lifting the basket with both hands while using a tool in the right hand to adjust the bamboo strip."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is using the right hand to adjust the bamboo strip while supporting the basket with the left hand resting on the ground.\n(B) The person is balancing the basket on the right arm while using the left hand to arrange a bamboo strip.\n(C) The person is holding the basket in the right hand while using the left hand to position the bamboo strip around the top of the basket.\n(D) The person uses the left hand to hold and support the basket while using the right hand to straighten the bamboo strip.\n(E) The person is lifting the basket with both hands while using a tool in the right hand to adjust the bamboo strip.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person uses the left hand to hold and support the basket while using the right hand to straighten the bamboo strip."
+    },
+    "correct_idx": [
+        3
+    ]
+}

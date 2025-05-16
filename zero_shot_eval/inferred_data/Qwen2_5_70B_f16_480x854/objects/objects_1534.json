@@ -1,0 +1,25 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "chopping board",
+        "knife",
+        "soap",
+        "plate",
+        "plastic tray",
+        "frying pan",
+        "faucet",
+        "egg plant",
+        "plate rack"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) chopping board\n(B) knife\n(C) soap\n(D) plate\n(E) plastic tray\n(F) frying pan\n(G) faucet\n(H) egg plant\n(I) plate rack\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(B) knife\n(D) plate\n(H) egg plant\n\nAnswer format:\n(B) The hands use a knife to cut the eggplant on the chopping board.\n(D) The hands hold a plate with eggplants on it.\n(H) The hands handle an eggplant, placing it on the chopping board for cutting."
+    },
+    "correct_idx": [
+        1,
+        3,
+        4,
+        6,
+        7
+    ]
+}

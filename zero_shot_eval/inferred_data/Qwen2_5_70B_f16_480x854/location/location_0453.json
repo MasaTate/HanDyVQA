@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the piece of wood?",
+    "options": [
+        "The person drops the piece of wood behind a stack of wood in the corner.",
+        "The person drops the piece of wood in front with another pile of wood.",
+        "The person drops the piece of wood to the side near the wooden fence.",
+        "The person drops the piece of wood in the back next to the old shed.",
+        "The person drops the piece of wood to the left beside a pile of leaves."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the piece of wood? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the piece of wood behind a stack of wood in the corner.\n(B) The person drops the piece of wood in front with another pile of wood.\n(C) The person drops the piece of wood to the side near the wooden fence.\n(D) The person drops the piece of wood in the back next to the old shed.\n(E) The person drops the piece of wood to the left beside a pile of leaves.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person drops the piece of wood in front with another pile of wood."
+    },
+    "correct_idx": [
+        1
+    ]
+}

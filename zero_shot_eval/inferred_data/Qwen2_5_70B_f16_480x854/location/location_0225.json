@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the claw hammer on the ground?",
+    "options": [
+        "The person placed the claw hammer at the edge of the ground near the red toolbox.",
+        "The person placed the claw hammer at the corner of the ground beside the blue machine.",
+        "The person placed the claw hammer at the center of the ground next to the black device.",
+        "The person placed the claw hammer in the middle of the ground next to the white surface.",
+        "The person placed the claw hammer at the far side of the ground behind the green crate."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the claw hammer on the ground? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the claw hammer at the edge of the ground near the red toolbox.\n(B) The person placed the claw hammer at the corner of the ground beside the blue machine.\n(C) The person placed the claw hammer at the center of the ground next to the black device.\n(D) The person placed the claw hammer in the middle of the ground next to the white surface.\n(E) The person placed the claw hammer at the far side of the ground behind the green crate.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person placed the claw hammer in the middle of the ground next to the white surface."
+    },
+    "correct_idx": [
+        2
+    ]
+}

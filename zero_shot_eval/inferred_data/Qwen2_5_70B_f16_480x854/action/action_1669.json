@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person marks a point on a piece of wood with the pencil in their left hand and a ruler in their right hand.",
+        "The person measures a distance on a metal sheet using the tape measure in their left hand and a brush in their right hand.",
+        "The person draws a line on a metal surface with the marker in their right hand while holding the metal with their left hand.",
+        "The person marks a point on a metal with the marker in the left hand while holding a tape measure in the right hand.",
+        "The person places a sticker on a metal object using the glue in their left hand and a tape measure in their right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person marks a point on a piece of wood with the pencil in their left hand and a ruler in their right hand.\n(B) The person measures a distance on a metal sheet using the tape measure in their left hand and a brush in their right hand.\n(C) The person draws a line on a metal surface with the marker in their right hand while holding the metal with their left hand.\n(D) The person marks a point on a metal with the marker in the left hand while holding a tape measure in the right hand.\n(E) The person places a sticker on a metal object using the glue in their left hand and a tape measure in their right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person marks a point on a metal with the marker in the left hand while holding a tape measure in the right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

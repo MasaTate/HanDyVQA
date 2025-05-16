@@ -1,0 +1,17 @@
+{
+    "question": "How does the person sharpen the pruner blade with a file?",
+    "options": [
+        "The person grips the pruner blade gently with both hands and applies the file's edge smoothly against the blade's surface.",
+        "The person holds the pruner blade with the left hand and sharpens it by making friction of the file to the edge of the blade with the right hand.",
+        "The person holds the file carefully in both hands and uses it to press gently onto the pruner blade while it rests securely on the table.",
+        "The person supports the pruner blade in the right hand and uses the left hand to slide the file slightly along the top of the blade rather than the edge.",
+        "The person balances the pruner blade carefully on their knee and tries to sharpen it by moving the file back and forth while closely holding the blade."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person sharpen the pruner blade with a file? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the pruner blade gently with both hands and applies the file's edge smoothly against the blade's surface.\n(B) The person holds the pruner blade with the left hand and sharpens it by making friction of the file to the edge of the blade with the right hand.\n(C) The person holds the file carefully in both hands and uses it to press gently onto the pruner blade while it rests securely on the table.\n(D) The person supports the pruner blade in the right hand and uses the left hand to slide the file slightly along the top of the blade rather than the edge.\n(E) The person balances the pruner blade carefully on their knee and tries to sharpen it by moving the file back and forth while closely holding the blade.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person holds the pruner blade with the left hand and sharpens it by making friction of the file to the edge of the blade with the right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

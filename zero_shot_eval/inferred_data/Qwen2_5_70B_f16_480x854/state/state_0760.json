@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a plastic box change?",
+    "options": [
+        "The plastic box was slightly shifted to the left side of the table.",
+        "The plastic box was slightly shifted forward on the table.",
+        "The plastic box was slightly shifted backward on the table.",
+        "The plastic box was slightly shifted to the right side of the table.",
+        "The plastic box was slightly repositioned to the center of the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a plastic box change? Choose **only one** option from the following list.\nOptions:\n(A) The plastic box was slightly shifted to the left side of the table.\n(B) The plastic box was slightly shifted forward on the table.\n(C) The plastic box was slightly shifted backward on the table.\n(D) The plastic box was slightly shifted to the right side of the table.\n(E) The plastic box was slightly repositioned to the center of the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The plastic box was slightly shifted to the left side of the table."
+    },
+    "correct_idx": [
+        3
+    ]
+}

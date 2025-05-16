@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person holds a white plant pot on the pavement with his left hand.",
+        "The person holds the black plant bucket on the pavement with his left hand.",
+        "The person places the black plant bucket on the ground using both hands.",
+        "The person waters the black plant bucket on the pavement with a hose in his left hand.",
+        "The person lifts the black plant bucket off the pavement with his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person holds a white plant pot on the pavement with his left hand.\n(B) The person holds the black plant bucket on the pavement with his left hand.\n(C) The person places the black plant bucket on the ground using both hands.\n(D) The person waters the black plant bucket on the pavement with a hose in his left hand.\n(E) The person lifts the black plant bucket off the pavement with his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person holds the black plant bucket on the pavement with his left hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

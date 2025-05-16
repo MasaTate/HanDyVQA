@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the clay artwork change?",
+    "options": [
+        "The clay artwork was barely touched with the tip of the paintbrush.",
+        "The clay artwork was firmly pressed with the tip of the paintbrush.",
+        "The clay artwork was poked with the end of the paintbrush.",
+        "The clay artwork was swiped with the side of the paintbrush.",
+        "The clay artwork was slightly rolled with the shaft of the paintbrush."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the clay artwork change? Choose **only one** option from the following list.\nOptions:\n(A) The clay artwork was barely touched with the tip of the paintbrush.\n(B) The clay artwork was firmly pressed with the tip of the paintbrush.\n(C) The clay artwork was poked with the end of the paintbrush.\n(D) The clay artwork was swiped with the side of the paintbrush.\n(E) The clay artwork was slightly rolled with the shaft of the paintbrush.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The clay artwork was barely touched with the tip of the paintbrush."
+    },
+    "correct_idx": [
+        0
+    ]
+}

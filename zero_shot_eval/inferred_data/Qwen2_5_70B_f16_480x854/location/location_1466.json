@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the clay?",
+    "options": [
+        "The person placed the clay at the very back, mismatching it from the rows of molded clay.",
+        "The person aligned the clay at the very front, matching it to the many rows of molded clay.",
+        "The person put the clay in the middle, disrupting the alignment with the rows of molded clay.",
+        "The person positioned the clay slightly off-center, breaking the alignment with the molded rows.",
+        "The person set the clay on the side, not aligning it with the rows of molded clay."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the clay? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the clay at the very back, mismatching it from the rows of molded clay.\n(B) The person aligned the clay at the very front, matching it to the many rows of molded clay.\n(C) The person put the clay in the middle, disrupting the alignment with the rows of molded clay.\n(D) The person positioned the clay slightly off-center, breaking the alignment with the molded rows.\n(E) The person set the clay on the side, not aligning it with the rows of molded clay.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person aligned the clay at the very front, matching it to the many rows of molded clay."
+    },
+    "correct_idx": [
+        1
+    ]
+}

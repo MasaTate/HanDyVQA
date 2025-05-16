@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the bit holder change?",
+    "options": [
+        "The bit holder was changed to another bit and then moved while being rotated about 90 degrees to the right.",
+        "The bit holder was changed to the same bit and then moved while being rotated about 180 degrees to the left.",
+        "The bit holder was changed to another bit and then moved while being rotated about 90 degrees to the left.",
+        "The bit holder was not changed to another bit but was moved while being rotated about 90 degrees to the left.",
+        "The bit holder was changed to another bit and then moved without being rotated."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the bit holder change? Choose **only one** option from the following list.\nOptions:\n(A) The bit holder was changed to another bit and then moved while being rotated about 90 degrees to the right.\n(B) The bit holder was changed to the same bit and then moved while being rotated about 180 degrees to the left.\n(C) The bit holder was changed to another bit and then moved while being rotated about 90 degrees to the left.\n(D) The bit holder was not changed to another bit but was moved while being rotated about 90 degrees to the left.\n(E) The bit holder was changed to another bit and then moved without being rotated.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The bit holder was changed to another bit and then moved while being rotated about 90 degrees to the right."
+    },
+    "correct_idx": [
+        2
+    ]
+}

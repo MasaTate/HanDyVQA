@@ -1,0 +1,21 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "tupperware",
+        "cheeze",
+        "shoes",
+        "plastic bottle. ",
+        "flat bread",
+        "prunes",
+        "plastic container"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) tupperware\n(B) cheeze\n(C) shoes\n(D) plastic bottle. \n(E) flat bread\n(F) prunes\n(G) plastic container\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(A) tupperware\n(F) prunes\n(G) plastic container\n\nThe hands are using a plastic container (tupperware) filled with prunes. The person is taking prunes from the container and placing them on the flat breads."
+    },
+    "correct_idx": [
+        4,
+        5,
+        6
+    ]
+}

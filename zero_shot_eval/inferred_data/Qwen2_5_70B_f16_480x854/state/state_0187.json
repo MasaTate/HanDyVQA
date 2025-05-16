@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of chia seed change?",
+    "options": [
+        "The chia seeds were taken with a cup and spilled on the table instead of going into the grinder.",
+        "The chia seeds were taken with a cup and transferred into the grinder.",
+        "The chia seeds were taken with a cup and placed back into their original container instead of the grinder.",
+        "The chia seeds were taken with a cup and poured into a different container instead of the grinder.",
+        "The chia seeds were taken with a cup and dropped into a bowl instead of the grinder."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of chia seed change? Choose **only one** option from the following list.\nOptions:\n(A) The chia seeds were taken with a cup and spilled on the table instead of going into the grinder.\n(B) The chia seeds were taken with a cup and transferred into the grinder.\n(C) The chia seeds were taken with a cup and placed back into their original container instead of the grinder.\n(D) The chia seeds were taken with a cup and poured into a different container instead of the grinder.\n(E) The chia seeds were taken with a cup and dropped into a bowl instead of the grinder.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The chia seeds were taken with a cup and transferred into the grinder."
+    },
+    "correct_idx": [
+        1
+    ]
+}

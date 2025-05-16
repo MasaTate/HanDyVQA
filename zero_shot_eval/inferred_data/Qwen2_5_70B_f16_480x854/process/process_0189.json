@@ -1,0 +1,17 @@
+{
+    "question": "How does the person wrap the strand of yarn?",
+    "options": [
+        "The person holds the strand of yarn with her right hand and guides it around her left fingers, wrapping it in a circular motion until it is secured.",
+        "The person grips the strand of yarn with her hands and straightens it without guiding it around her fingers.",
+        "The person pinches the yarn gently with her thumb and forefinger, twisting it rather than wrapping it around her fingers.",
+        "The person lets the strand of yarn fall loosely as she uses her hand to casually place it onto the table rather than wrapping it.",
+        "The person twists the strand of yarn into a spiral form with her left hand, rather than wrapping it in a circular motion around her fingers."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person wrap the strand of yarn? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the strand of yarn with her right hand and guides it around her left fingers, wrapping it in a circular motion until it is secured.\n(B) The person grips the strand of yarn with her hands and straightens it without guiding it around her fingers.\n(C) The person pinches the yarn gently with her thumb and forefinger, twisting it rather than wrapping it around her fingers.\n(D) The person lets the strand of yarn fall loosely as she uses her hand to casually place it onto the table rather than wrapping it.\n(E) The person twists the strand of yarn into a spiral form with her left hand, rather than wrapping it in a circular motion around her fingers.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person holds the strand of yarn with her right hand and guides it around her left fingers, wrapping it in a circular motion until it is secured."
+    },
+    "correct_idx": [
+        0
+    ]
+}

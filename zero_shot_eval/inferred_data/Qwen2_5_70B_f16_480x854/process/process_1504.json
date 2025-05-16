@@ -1,0 +1,17 @@
+{
+    "question": "How does the person move the tray?",
+    "options": [
+        "The person pushed the tray gently forward with the palm of his right hand, making it slide gently across the surface.",
+        "The person lifted one end of the tray with his right hand, angling it slightly, and then set it down smoothly after.",
+        "The person gripped the tray with both hands and attempted to twist his wrists, which made the tray move unsteadily.",
+        "The person rolled the tray by pressing his left middle and ring fingers against its edge and applying a gentle flicking motion, causing it to rotate smoothly.",
+        "The person held the tray with his fingers spread comfortably and moved it side to side, causing a slight bounce instead of rolling."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person move the tray? Choose **only one** option from the following list.\nOptions:\n(A) The person pushed the tray gently forward with the palm of his right hand, making it slide gently across the surface.\n(B) The person lifted one end of the tray with his right hand, angling it slightly, and then set it down smoothly after.\n(C) The person gripped the tray with both hands and attempted to twist his wrists, which made the tray move unsteadily.\n(D) The person rolled the tray by pressing his left middle and ring fingers against its edge and applying a gentle flicking motion, causing it to rotate smoothly.\n(E) The person held the tray with his fingers spread comfortably and moved it side to side, causing a slight bounce instead of rolling.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person rolled the tray by pressing his left middle and ring fingers against its edge and applying a gentle flicking motion, causing it to rotate smoothly."
+    },
+    "correct_idx": [
+        3
+    ]
+}

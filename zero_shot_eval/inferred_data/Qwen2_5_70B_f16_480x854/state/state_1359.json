@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the mound of dough on the work table change?",
+    "options": [
+        "The dough was rolled out flat and then shaped into a circle before it was dusted with some flour.",
+        "The dough was kneaded and then separated into small balls before it was coated with some flour.",
+        "The dough was stretched into a long strip and then cut into pieces before it was sprinkled with some flour.",
+        "The dough was flipped upside down and smashed before it was splashed with some flour.",
+        "The dough was pressed down and folded over itself multiple times before it was brushed with some flour."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the mound of dough on the work table change? Choose **only one** option from the following list.\nOptions:\n(A) The dough was rolled out flat and then shaped into a circle before it was dusted with some flour.\n(B) The dough was kneaded and then separated into small balls before it was coated with some flour.\n(C) The dough was stretched into a long strip and then cut into pieces before it was sprinkled with some flour.\n(D) The dough was flipped upside down and smashed before it was splashed with some flour.\n(E) The dough was pressed down and folded over itself multiple times before it was brushed with some flour.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The dough was kneaded and then separated into small balls before it was coated with some flour."
+    },
+    "correct_idx": [
+        3
+    ]
+}

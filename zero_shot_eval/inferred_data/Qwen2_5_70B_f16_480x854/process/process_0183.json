@@ -1,0 +1,17 @@
+{
+    "question": "How does the person use the knife?",
+    "options": [
+        "The person grips the knife with both hands, chopping vigorously as they press down on the eggplant. After cutting, they use the knife to move the pieces into a bowl.",
+        "The person holds the knife with their left hand, making a continuous motion across the eggplant. Once cut, they leave the slices on the cutting board.",
+        "The person holds the knife with their right hand, slicing through the eggplant with a downward motion. After cutting, they use the knife to gently push the slices to the side.",
+        "The person pinches the knife between two fingers, lightly tapping the eggplant instead of slicing it fully. After tapping, they leave the knife in place without moving the slices.",
+        "The person swings the knife with their right hand in a wide arc to slice the eggplant. After making the cuts, they toss the slices instead of pushing them aside."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person use the knife? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the knife with both hands, chopping vigorously as they press down on the eggplant. After cutting, they use the knife to move the pieces into a bowl.\n(B) The person holds the knife with their left hand, making a continuous motion across the eggplant. Once cut, they leave the slices on the cutting board.\n(C) The person holds the knife with their right hand, slicing through the eggplant with a downward motion. After cutting, they use the knife to gently push the slices to the side.\n(D) The person pinches the knife between two fingers, lightly tapping the eggplant instead of slicing it fully. After tapping, they leave the knife in place without moving the slices.\n(E) The person swings the knife with their right hand in a wide arc to slice the eggplant. After making the cuts, they toss the slices instead of pushing them aside.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person holds the knife with their right hand, slicing through the eggplant with a downward motion. After cutting, they use the knife to gently push the slices to the side."
+    },
+    "correct_idx": [
+        2
+    ]
+}

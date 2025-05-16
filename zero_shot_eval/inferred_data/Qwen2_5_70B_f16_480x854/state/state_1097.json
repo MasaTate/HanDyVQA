@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the vacuum cleaner change?",
+    "options": [
+        "The vacuum was moved backward slowly without changing direction.",
+        "The vacuum was moved forward slowly without changing direction.",
+        "The vacuum was moved forward quickly without changing direction.",
+        "The vacuum was moved forward slowly but with a slight veer to the right.",
+        "The vacuum was moved forward and then paused without changing direction."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the vacuum cleaner change? Choose **only one** option from the following list.\nOptions:\n(A) The vacuum was moved backward slowly without changing direction.\n(B) The vacuum was moved forward slowly without changing direction.\n(C) The vacuum was moved forward quickly without changing direction.\n(D) The vacuum was moved forward slowly but with a slight veer to the right.\n(E) The vacuum was moved forward and then paused without changing direction.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The vacuum was moved forward slowly but with a slight veer to the right."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is placing the drill on the side with their hands, grabbing the nut, giving the wrench to their left hand, and reaching inside the engine.",
+        "The person is setting down the saw on the side with their hands, picking up a bolt, giving the hammer to their left hand, and leaning over the car hood.",
+        "The person is holding the screwdriver in their right hand, adjusting the oil filter with their left hand, and tightening screws under the hood of the car.",
+        "The person is lifting the hammer from the table with their right hand, placing the nut into a box with their left hand, and stepping back from the engine.",
+        "The person is handling the vacuum cleaner with both hands while picking up a wrench from the floor and searching for tools in the garage."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is placing the drill on the side with their hands, grabbing the nut, giving the wrench to their left hand, and reaching inside the engine.\n(B) The person is setting down the saw on the side with their hands, picking up a bolt, giving the hammer to their left hand, and leaning over the car hood.\n(C) The person is holding the screwdriver in their right hand, adjusting the oil filter with their left hand, and tightening screws under the hood of the car.\n(D) The person is lifting the hammer from the table with their right hand, placing the nut into a box with their left hand, and stepping back from the engine.\n(E) The person is handling the vacuum cleaner with both hands while picking up a wrench from the floor and searching for tools in the garage.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person is placing the drill on the side with their hands, grabbing the nut, giving the wrench to their left hand, and reaching inside the engine."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person touch a cloth?",
+    "options": [
+        "The person touches the cloth with both hands, puts it down on the floor, then taps it with the right hand.",
+        "The person grabs the cloth with both hands, lifts it up, and places it gently onto the couch.",
+        "The person uses the fingertips of the left hand to carefully brush across the surface of the cloth before stepping away.",
+        "The person pinches the edge of the cloth lightly with their thumb and forefinger, giving it a gentle shake.",
+        "The person touches the cloth with the palm of their hand, smoothly moving it across the table while holding on."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person touch a cloth? Choose **only one** option from the following list.\nOptions:\n(A) The person touches the cloth with both hands, puts it down on the floor, then taps it with the right hand.\n(B) The person grabs the cloth with both hands, lifts it up, and places it gently onto the couch.\n(C) The person uses the fingertips of the left hand to carefully brush across the surface of the cloth before stepping away.\n(D) The person pinches the edge of the cloth lightly with their thumb and forefinger, giving it a gentle shake.\n(E) The person touches the cloth with the palm of their hand, smoothly moving it across the table while holding on.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person touches the cloth with both hands, puts it down on the floor, then taps it with the right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

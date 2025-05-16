@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person rolls the dice on the table with his right hand while holding the container with his left hand.",
+        "The person shuffles the dice in the container with his right hand and pours it onto the board.",
+        "The person tosses the dice from his right hand into the container while steadying it with his left hand.",
+        "The person removes the dice from the container with his right hand while using his left hand to keep the container steady.",
+        "The person stacks the dice into a tower with his right hand while steadying them with his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person rolls the dice on the table with his right hand while holding the container with his left hand.\n(B) The person shuffles the dice in the container with his right hand and pours it onto the board.\n(C) The person tosses the dice from his right hand into the container while steadying it with his left hand.\n(D) The person removes the dice from the container with his right hand while using his left hand to keep the container steady.\n(E) The person stacks the dice into a tower with his right hand while steadying them with his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person shuffles the dice in the container with his right hand and pours it onto the board."
+    },
+    "correct_idx": [
+        1
+    ]
+}

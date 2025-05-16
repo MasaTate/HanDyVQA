@@ -1,0 +1,17 @@
+{
+    "question": "How does the person paint a paper?",
+    "options": [
+        "The person paints the paper by moving the paintbrush horizontally across the surface using her left hand in smooth strokes.",
+        "The person paints the paper by dabbing the paintbrush vertically with the left hand, creating a pattern of small dots.",
+        "The person paints the paper by gently tapping the paintbrush against it repeatedly with the right hand.",
+        "The person paints the paper by placing the paintbrush on the paper using her right hand, stroking it up and down.",
+        "The person coats the paper by guiding the paintbrush diagonally with her right hand using broad, sweeping motions."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person paint a paper? Choose **only one** option from the following list.\nOptions:\n(A) The person paints the paper by moving the paintbrush horizontally across the surface using her left hand in smooth strokes.\n(B) The person paints the paper by dabbing the paintbrush vertically with the left hand, creating a pattern of small dots.\n(C) The person paints the paper by gently tapping the paintbrush against it repeatedly with the right hand.\n(D) The person paints the paper by placing the paintbrush on the paper using her right hand, stroking it up and down.\n(E) The person coats the paper by guiding the paintbrush diagonally with her right hand using broad, sweeping motions.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person paints the paper by gently tapping the paintbrush against it repeatedly with the right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

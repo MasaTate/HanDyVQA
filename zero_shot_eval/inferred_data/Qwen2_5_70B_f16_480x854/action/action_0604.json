@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person adjusts the handle of the trolley with his right hand while stabilizing it with his left hand.",
+        "The person pushed up the handle of the trolley using the right hand.",
+        "The person is lifting the trolley handle with both hands to move it to another position.",
+        "The person is tightening the grip on the trolley with his right hand while keeping the handle steady with his left hand.",
+        "The person is inspecting the trolley handle for issues with his right hand while resting his left hand on the frame."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person adjusts the handle of the trolley with his right hand while stabilizing it with his left hand.\n(B) The person pushed up the handle of the trolley using the right hand.\n(C) The person is lifting the trolley handle with both hands to move it to another position.\n(D) The person is tightening the grip on the trolley with his right hand while keeping the handle steady with his left hand.\n(E) The person is inspecting the trolley handle for issues with his right hand while resting his left hand on the frame.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person pushed up the handle of the trolley using the right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

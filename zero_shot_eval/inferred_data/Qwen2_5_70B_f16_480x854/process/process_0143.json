@@ -1,0 +1,17 @@
+{
+    "question": "How does the person scrub the toilet room floor?",
+    "options": [
+        "The person scrubs the toilet room floor using a back-and-forth motion with the cloth in her left hand, focusing more on speed rather than pressure without emphasizing circular motions.",
+        "The person starts by scrubbing the toilet room floor in a circular motion with the cloth in her right hand, then focuses on a specific spot, rubbing back and forth while applying most of the pressure with the index finger.",
+        "The person uses both hands to scrub the toilet room floor energetically, moving the cloth from side to side without focusing on one specific area, applying pressure mainly with the palms rather than the fingers.",
+        "The person gently dabs the toilet room floor with the cloth held with her thumb and ring finger, moving in straight paths, applying very light pressure.",
+        "The person wipes the toilet room floor with a sweeping motion using the cloth in her right hand, lifting it slightly between each stroke instead of maintaining constant contact."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person scrub the toilet room floor? Choose **only one** option from the following list.\nOptions:\n(A) The person scrubs the toilet room floor using a back-and-forth motion with the cloth in her left hand, focusing more on speed rather than pressure without emphasizing circular motions.\n(B) The person starts by scrubbing the toilet room floor in a circular motion with the cloth in her right hand, then focuses on a specific spot, rubbing back and forth while applying most of the pressure with the index finger.\n(C) The person uses both hands to scrub the toilet room floor energetically, moving the cloth from side to side without focusing on one specific area, applying pressure mainly with the palms rather than the fingers.\n(D) The person gently dabs the toilet room floor with the cloth held with her thumb and ring finger, moving in straight paths, applying very light pressure.\n(E) The person wipes the toilet room floor with a sweeping motion using the cloth in her right hand, lifting it slightly between each stroke instead of maintaining constant contact.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person starts by scrubbing the toilet room floor in a circular motion with the cloth in her right hand, then focuses on a specific spot, rubbing back and forth while applying most of the pressure with the index finger."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person tighten a metal?",
+    "options": [
+        "The person tightens the metal by pressing down with both palms on either side.",
+        "The person tightens the metal by gripping it and adding some pressure to tighten the metal using his right hand.",
+        "The person raises the metal and brings it down onto the table to secure it.",
+        "The person adjusts the metal by sliding it back and forth using his left hand.",
+        "The person flips the metal and taps it against another object to make it fit tighter."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person tighten a metal? Choose **only one** option from the following list.\nOptions:\n(A) The person tightens the metal by pressing down with both palms on either side.\n(B) The person tightens the metal by gripping it and adding some pressure to tighten the metal using his right hand.\n(C) The person raises the metal and brings it down onto the table to secure it.\n(D) The person adjusts the metal by sliding it back and forth using his left hand.\n(E) The person flips the metal and taps it against another object to make it fit tighter.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person tightens the metal by gripping it and adding some pressure to tighten the metal using his right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

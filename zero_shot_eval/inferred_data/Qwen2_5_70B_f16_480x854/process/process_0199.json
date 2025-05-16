@@ -1,0 +1,17 @@
+{
+    "question": "How does the person arrange a part of the flat wood?",
+    "options": [
+        "The person holds one piece of wood with both hands, attempting to fit it into place with considerable force.",
+        "The person moves one piece of wood across the table with their right hand, aiming to position it correctly.",
+        "The person pushes on one piece of wood with their palm, applying downward pressure to guide it into alignment.",
+        "The person grabs two pieces of wood together with both hands, trying to stack them while adjusting their position.",
+        "The person grips one piece of wood with their right hand while using their left to slightly shift another piece to the left, making small, controlled adjustments to align them."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person arrange a part of the flat wood? Choose **only one** option from the following list.\nOptions:\n(A) The person holds one piece of wood with both hands, attempting to fit it into place with considerable force.\n(B) The person moves one piece of wood across the table with their right hand, aiming to position it correctly.\n(C) The person pushes on one piece of wood with their palm, applying downward pressure to guide it into alignment.\n(D) The person grabs two pieces of wood together with both hands, trying to stack them while adjusting their position.\n(E) The person grips one piece of wood with their right hand while using their left to slightly shift another piece to the left, making small, controlled adjustments to align them.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person grips one piece of wood with their right hand while using their left to slightly shift another piece to the left, making small, controlled adjustments to align them."
+    },
+    "correct_idx": [
+        4
+    ]
+}

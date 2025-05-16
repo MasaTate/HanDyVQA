@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a green pepper change?",
+    "options": [
+        "The green pepper was slightly moved and rotated, having contact with the knife but not being sliced yet.",
+        "The green pepper was rolled slightly but was not touched by the knife at all.",
+        "The green pepper was slightly moved and pressed, yet remained untouched by any cutting utensils.",
+        "The green pepper was slightly rotated and lifted off the surface but was not contacted by the knife.",
+        "The green pepper was nudged and turned, yet the knife was only nearby without making contact."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a green pepper change? Choose **only one** option from the following list.\nOptions:\n(A) The green pepper was slightly moved and rotated, having contact with the knife but not being sliced yet.\n(B) The green pepper was rolled slightly but was not touched by the knife at all.\n(C) The green pepper was slightly moved and pressed, yet remained untouched by any cutting utensils.\n(D) The green pepper was slightly rotated and lifted off the surface but was not contacted by the knife.\n(E) The green pepper was nudged and turned, yet the knife was only nearby without making contact.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The green pepper was slightly moved and rotated, having contact with the knife but not being sliced yet."
+    },
+    "correct_idx": [
+        0
+    ]
+}

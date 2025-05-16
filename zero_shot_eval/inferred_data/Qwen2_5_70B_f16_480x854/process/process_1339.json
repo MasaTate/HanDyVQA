@@ -1,0 +1,17 @@
+{
+    "question": "How does the person wash the pot?",
+    "options": [
+        "The person scrubs the pot under a stream of running water.",
+        "The person fills the pot with warm water and then wipes it dry with a towel.",
+        "The person dips the pot into a bucket filled with water and washes it with the right hand.",
+        "The person dips the pot into a bucket filled with water that contains soap to clean it.",
+        "The person sprays the pot with a cleaning solution before rinsing it in the sink."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person wash the pot? Choose **only one** option from the following list.\nOptions:\n(A) The person scrubs the pot under a stream of running water.\n(B) The person fills the pot with warm water and then wipes it dry with a towel.\n(C) The person dips the pot into a bucket filled with water and washes it with the right hand.\n(D) The person dips the pot into a bucket filled with water that contains soap to clean it.\n(E) The person sprays the pot with a cleaning solution before rinsing it in the sink.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person dips the pot into a bucket filled with water that contains soap to clean it."
+    },
+    "correct_idx": [
+        2
+    ]
+}

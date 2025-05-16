@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the small container change?",
+    "options": [
+        "The small container was opened, and its contents spilled when it was shaken.",
+        "The small container was closed tightly, and its contents remained inside when it was turned upside down.",
+        "The small container was cracked, allowing a slow leak of its contents when it was moved.",
+        "The small container was sealed completely, and no sound was released when it was shaken.",
+        "The small container was dropped and remained intact, with its contents undisturbed inside."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the small container change? Choose **only one** option from the following list.\nOptions:\n(A) The small container was opened, and its contents spilled when it was shaken.\n(B) The small container was closed tightly, and its contents remained inside when it was turned upside down.\n(C) The small container was cracked, allowing a slow leak of its contents when it was moved.\n(D) The small container was sealed completely, and no sound was released when it was shaken.\n(E) The small container was dropped and remained intact, with its contents undisturbed inside.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The small container was closed tightly, and its contents remained inside when it was turned upside down."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the shirt change?",
+    "options": [
+        "The shirt was laid flat, smoothed out, and then folded on a shelf.",
+        "The shirt was tossed up, caught, and then placed on a hanger without being wrinkled.",
+        "The shirt was tossed up, wrinkled, and then hung on a hanger.",
+        "The shirt was tossed up, wrinkled, and then placed on a chair instead of a hanger.",
+        "The shirt was turned inside out before being tossed and then hung on a hanger."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the shirt change? Choose **only one** option from the following list.\nOptions:\n(A) The shirt was laid flat, smoothed out, and then folded on a shelf.\n(B) The shirt was tossed up, caught, and then placed on a hanger without being wrinkled.\n(C) The shirt was tossed up, wrinkled, and then hung on a hanger.\n(D) The shirt was tossed up, wrinkled, and then placed on a chair instead of a hanger.\n(E) The shirt was turned inside out before being tossed and then hung on a hanger.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The shirt was tossed up, wrinkled, and then hung on a hanger."
+    },
+    "correct_idx": [
+        2
+    ]
+}

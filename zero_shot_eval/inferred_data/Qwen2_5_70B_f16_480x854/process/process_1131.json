@@ -1,0 +1,17 @@
+{
+    "question": "How does the person return the cloth?",
+    "options": [
+        "The person tosses the cloth over a chair back with a gentle flick using just one hand.",
+        "The person loosely folds the cloth and sets it on the counter with one hand.",
+        "The person places the cloth back on the handle of the gas stove by swinging it using both hands to swing the cloth.",
+        "The person drapes the cloth over a cupboard door by extending it with one arm.",
+        "The person puts the cloth in a drawer by pushing it in smoothly with the back of the hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person return the cloth? Choose **only one** option from the following list.\nOptions:\n(A) The person tosses the cloth over a chair back with a gentle flick using just one hand.\n(B) The person loosely folds the cloth and sets it on the counter with one hand.\n(C) The person places the cloth back on the handle of the gas stove by swinging it using both hands to swing the cloth.\n(D) The person drapes the cloth over a cupboard door by extending it with one arm.\n(E) The person puts the cloth in a drawer by pushing it in smoothly with the back of the hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person puts the cloth in a drawer by pushing it in smoothly with the back of the hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

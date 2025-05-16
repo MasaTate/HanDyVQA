@@ -1,0 +1,17 @@
+{
+    "question": "How does the person drop the spoon?",
+    "options": [
+        "The person drops the spoon gently on the top of the drying rack with their right hand after rinsing it.",
+        "The person lets the spoon slip from between their fingers, allowing it to lay softly on the countertop with their left hand.",
+        "The person places the spoon off their palm, allowing it to settle slightly on the edge of the sink.",
+        "The person releases the spoon from their hand after shaking off excess water, allowing it to rest onto a kitchen towel.",
+        "The person drops the spoon by tilting their hand downward, enabling it to rest gently on the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person drop the spoon? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the spoon gently on the top of the drying rack with their right hand after rinsing it.\n(B) The person lets the spoon slip from between their fingers, allowing it to lay softly on the countertop with their left hand.\n(C) The person places the spoon off their palm, allowing it to settle slightly on the edge of the sink.\n(D) The person releases the spoon from their hand after shaking off excess water, allowing it to rest onto a kitchen towel.\n(E) The person drops the spoon by tilting their hand downward, enabling it to rest gently on the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person drops the spoon gently on the top of the drying rack with their right hand after rinsing it."
+    },
+    "correct_idx": [
+        0
+    ]
+}

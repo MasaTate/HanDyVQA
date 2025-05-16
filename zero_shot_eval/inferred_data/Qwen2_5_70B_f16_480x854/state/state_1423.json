@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the lawnmower tank change?",
+    "options": [
+        "The gas cap was removed from the lawnmower tank and pressure was applied from above.",
+        "The gas cap was slightly loosened on the lawnmower tank, allowing pressure to be gradually released.",
+        "The gas cap was twisted off the lawnmower tank but remained attached without pressure applied.",
+        "The gas cap was removed, and subsequently, the tank was closed again without pressure applied.",
+        "Pressure was applied from above before the gas cap was completely removed from the lawnmower tank."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the lawnmower tank change? Choose **only one** option from the following list.\nOptions:\n(A) The gas cap was removed from the lawnmower tank and pressure was applied from above.\n(B) The gas cap was slightly loosened on the lawnmower tank, allowing pressure to be gradually released.\n(C) The gas cap was twisted off the lawnmower tank but remained attached without pressure applied.\n(D) The gas cap was removed, and subsequently, the tank was closed again without pressure applied.\n(E) Pressure was applied from above before the gas cap was completely removed from the lawnmower tank.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) Pressure was applied from above before the gas cap was completely removed from the lawnmower tank."
+    },
+    "correct_idx": [
+        0
+    ]
+}

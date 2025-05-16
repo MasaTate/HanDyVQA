@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person holds the dosa pan steady and gently shakes it with their right hand.",
+        "The person rotates the dosa pan slightly, giving it a shake with the right hand.",
+        "The person flips the dosa pan and starts shaking it using the right hand.",
+        "The person grips the dosa pan and begins to gently move it back and forth with the right hand.",
+        "The person carefully maneuvers the dosa pan, shaking it lightly using the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the dosa pan steady and gently shakes it with their right hand.\n(B) The person rotates the dosa pan slightly, giving it a shake with the right hand.\n(C) The person flips the dosa pan and starts shaking it using the right hand.\n(D) The person grips the dosa pan and begins to gently move it back and forth with the right hand.\n(E) The person carefully maneuvers the dosa pan, shaking it lightly using the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person rotates the dosa pan slightly, giving it a shake with the right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

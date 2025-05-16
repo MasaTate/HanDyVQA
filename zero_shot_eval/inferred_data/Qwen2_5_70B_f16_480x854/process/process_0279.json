@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pick an oil suction gun?",
+    "options": [
+        "The person reaches for the oil suction gun with both hands, gently positioning it sideways before lifting it up.",
+        "The person taps the oil suction gun with his left hand, then lightly slides it towards himself prior to picking it up.",
+        "The person picks up the oil suction gun by extending his right hand, gripping the handle with his fingers, and lifting it upwards in a smooth motion.",
+        "The person grabs the oil suction gun from the bottom with his left hand and carefully turns it over before lifting it.",
+        "The person extends his hand to gently guide the oil suction gun from the table and lifts it with care."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pick an oil suction gun? Choose **only one** option from the following list.\nOptions:\n(A) The person reaches for the oil suction gun with both hands, gently positioning it sideways before lifting it up.\n(B) The person taps the oil suction gun with his left hand, then lightly slides it towards himself prior to picking it up.\n(C) The person picks up the oil suction gun by extending his right hand, gripping the handle with his fingers, and lifting it upwards in a smooth motion.\n(D) The person grabs the oil suction gun from the bottom with his left hand and carefully turns it over before lifting it.\n(E) The person extends his hand to gently guide the oil suction gun from the table and lifts it with care.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person picks up the oil suction gun by extending his right hand, gripping the handle with his fingers, and lifting it upwards in a smooth motion."
+    },
+    "correct_idx": [
+        2
+    ]
+}

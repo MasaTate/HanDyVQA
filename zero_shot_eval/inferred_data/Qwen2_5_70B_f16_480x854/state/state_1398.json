@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the nut change?",
+    "options": [
+        "The nut was rotated in a counterclockwise direction.",
+        "The nut was turned to a sideways position at a 90-degree angle.",
+        "The nut was rotated in a clockwise direction.",
+        "The nut was flipped completely upside down.",
+        "The nut was moved back and forth in a shaking motion."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the nut change? Choose **only one** option from the following list.\nOptions:\n(A) The nut was rotated in a counterclockwise direction.\n(B) The nut was turned to a sideways position at a 90-degree angle.\n(C) The nut was rotated in a clockwise direction.\n(D) The nut was flipped completely upside down.\n(E) The nut was moved back and forth in a shaking motion.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The nut was rotated in a clockwise direction."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person adjust the white cloth her left hand?",
+    "options": [
+        "The person uses both hands to gently adjust the white cloth, smoothly pulling it from the table with slight support from the left hand.",
+        "The person holds the white cloth in her left hand and gently spreads it across her body, with minimal assistance from her right hand.",
+        "The person flips the white cloth over with her right hand, allowing it to rest over the edge of the table while her left hand gently steadies a nearby object.",
+        "The person adjusts the white cloth in her right hand by supporting it with her left hand index finger and the book it is holding to unfold some part of the cloth and then hold the back of the cloth using her right hand.",
+        "The person grabs the white cloth with her right hand and easily moves it back and forth, showing little adjustment needed from her left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person adjust the white cloth her left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person uses both hands to gently adjust the white cloth, smoothly pulling it from the table with slight support from the left hand.\n(B) The person holds the white cloth in her left hand and gently spreads it across her body, with minimal assistance from her right hand.\n(C) The person flips the white cloth over with her right hand, allowing it to rest over the edge of the table while her left hand gently steadies a nearby object.\n(D) The person adjusts the white cloth in her right hand by supporting it with her left hand index finger and the book it is holding to unfold some part of the cloth and then hold the back of the cloth using her right hand.\n(E) The person grabs the white cloth with her right hand and easily moves it back and forth, showing little adjustment needed from her left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person adjusts the white cloth in her right hand by supporting it with her left hand index finger and the book it is holding to unfold some part of the cloth and then hold the back of the cloth using her right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the broom change?",
+    "options": [
+        "The broom was picked up and leaned against the wall.",
+        "The broom was waved in the air before being laid flat on the floor.",
+        "The broom was rotated in the air and then dropped onto the ground.",
+        "The broom was used to sweep dust and then placed on the table.",
+        "The broom was held and placed beside the trash can."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the broom change? Choose **only one** option from the following list.\nOptions:\n(A) The broom was picked up and leaned against the wall.\n(B) The broom was waved in the air before being laid flat on the floor.\n(C) The broom was rotated in the air and then dropped onto the ground.\n(D) The broom was used to sweep dust and then placed on the table.\n(E) The broom was held and placed beside the trash can.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The broom was held and placed beside the trash can."
+    },
+    "correct_idx": [
+        4
+    ]
+}

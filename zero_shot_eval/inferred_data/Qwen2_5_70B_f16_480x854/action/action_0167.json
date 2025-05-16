@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is pushing the wooden tray with their right hand while carrying a bowl with their left hand to help with the task.",
+        "The person is lifting the metal tray with their right hand while balancing a glass with their left hand to complete the action.",
+        "The person is sliding the ceramic tray with their left hand while grabbing a fork with their right hand to prepare for the meal.",
+        "The person is pulling the metal tray with their left hand while holding a plate with their right hand to assist in the process.",
+        "The person is maneuvering the metal tray with their right hand while holding a cup with their left hand to facilitate the serving."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is pushing the wooden tray with their right hand while carrying a bowl with their left hand to help with the task.\n(B) The person is lifting the metal tray with their right hand while balancing a glass with their left hand to complete the action.\n(C) The person is sliding the ceramic tray with their left hand while grabbing a fork with their right hand to prepare for the meal.\n(D) The person is pulling the metal tray with their left hand while holding a plate with their right hand to assist in the process.\n(E) The person is maneuvering the metal tray with their right hand while holding a cup with their left hand to facilitate the serving.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person is pulling the metal tray with their left hand while holding a plate with their right hand to assist in the process."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the bowl change?",
+    "options": [
+        "The water in the bowl was stirred while the bowl was kept upright.",
+        "The water in the bowl was stirred without sufficient tilting of the bowl.",
+        "The water in the bowl was swirled without any tilting of the bowl.",
+        "The water in the bowl was stirred, yet the bowl was not tilted at all.",
+        "The water in the bowl was stirred while being tilted."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the bowl change? Choose **only one** option from the following list.\nOptions:\n(A) The water in the bowl was stirred while the bowl was kept upright.\n(B) The water in the bowl was stirred without sufficient tilting of the bowl.\n(C) The water in the bowl was swirled without any tilting of the bowl.\n(D) The water in the bowl was stirred, yet the bowl was not tilted at all.\n(E) The water in the bowl was stirred while being tilted.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The water in the bowl was stirred while being tilted."
+    },
+    "correct_idx": [
+        4
+    ]
+}

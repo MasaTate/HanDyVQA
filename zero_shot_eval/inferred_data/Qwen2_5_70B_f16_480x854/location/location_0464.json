@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the knitted pattern?",
+    "options": [
+        "The person drops the knitted pattern on the table in front of her phone.",
+        "The person drops the knitted pattern on the floor next to her phone.",
+        "The person drops the knitted pattern on the couch behind her phone.",
+        "The person drops the knitted pattern on the shelf above her phone.",
+        "The person drops the knitted pattern on the chair beside her phone."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the knitted pattern? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the knitted pattern on the table in front of her phone.\n(B) The person drops the knitted pattern on the floor next to her phone.\n(C) The person drops the knitted pattern on the couch behind her phone.\n(D) The person drops the knitted pattern on the shelf above her phone.\n(E) The person drops the knitted pattern on the chair beside her phone.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person drops the knitted pattern on the table in front of her phone."
+    },
+    "correct_idx": [
+        1
+    ]
+}

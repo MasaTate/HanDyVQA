@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the cut mango pieces change?",
+    "options": [
+        "The cut mango pieces were sliced into smaller pieces multiple times.",
+        "The cut mango pieces were squashed and not sliced any further.",
+        "The cut mango pieces were rearranged but remained unsliced.",
+        "The cut mango pieces were pressed into a parcel shape instead of being sliced again.",
+        "The cut mango pieces were diced into large chunks several times."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the cut mango pieces change? Choose **only one** option from the following list.\nOptions:\n(A) The cut mango pieces were sliced into smaller pieces multiple times.\n(B) The cut mango pieces were squashed and not sliced any further.\n(C) The cut mango pieces were rearranged but remained unsliced.\n(D) The cut mango pieces were pressed into a parcel shape instead of being sliced again.\n(E) The cut mango pieces were diced into large chunks several times.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The cut mango pieces were sliced into smaller pieces multiple times."
+    },
+    "correct_idx": [
+        0
+    ]
+}

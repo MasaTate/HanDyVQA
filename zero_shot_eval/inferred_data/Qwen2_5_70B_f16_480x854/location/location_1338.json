@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the shred?",
+    "options": [
+        "The person dropped the shred onto the floor beside the paper tube.",
+        "The person dropped the shred into the wastebasket across the room.",
+        "The person dropped the shred into the paper tube.",
+        "The person dropped the shred onto the table next to the paper tube.",
+        "The person dropped the shred into the cardboard box stacked near the paper tube."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the shred? Choose **only one** option from the following list.\nOptions:\n(A) The person dropped the shred onto the floor beside the paper tube.\n(B) The person dropped the shred into the wastebasket across the room.\n(C) The person dropped the shred into the paper tube.\n(D) The person dropped the shred onto the table next to the paper tube.\n(E) The person dropped the shred into the cardboard box stacked near the paper tube.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person dropped the shred into the paper tube."
+    },
+    "correct_idx": [
+        2
+    ]
+}

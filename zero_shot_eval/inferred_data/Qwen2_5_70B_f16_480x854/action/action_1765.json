@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person loosens a connector bolt with a wrench in his right hand while holding the connector with his left hand.",
+        "The person tightens the screw using the screwdriver in his right hand while his left hand holds the cover of the CPU as support.",
+        "The person secures a panel on the CPU using a drill in his right hand while stabilizing the CPU with his left hand.",
+        "The person applies pressure to unscrew a fastening on the desk using a screwdriver in his right hand while supporting the desk with his left hand.",
+        "The person installs a component in the CPU using a screwdriver in his right hand while holding the CPU case with his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person loosens a connector bolt with a wrench in his right hand while holding the connector with his left hand.\n(B) The person tightens the screw using the screwdriver in his right hand while his left hand holds the cover of the CPU as support.\n(C) The person secures a panel on the CPU using a drill in his right hand while stabilizing the CPU with his left hand.\n(D) The person applies pressure to unscrew a fastening on the desk using a screwdriver in his right hand while supporting the desk with his left hand.\n(E) The person installs a component in the CPU using a screwdriver in his right hand while holding the CPU case with his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person tightens the screw using the screwdriver in his right hand while his left hand holds the cover of the CPU as support."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person applies paint to the wall using a brush in his right hand.",
+        "The person scrapes the surface of the wall with a trowel in his right hand.",
+        "The person taps the wall gently with his right hand to check for hollow spots.",
+        "The person smooths a hole using his left hand and a palette in the right hand, then transfers the palette to the left and smooths the hole with the right hand.",
+        "The person spreads plaster on the wall using a spatula in his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person applies paint to the wall using a brush in his right hand.\n(B) The person scrapes the surface of the wall with a trowel in his right hand.\n(C) The person taps the wall gently with his right hand to check for hollow spots.\n(D) The person smooths a hole using his left hand and a palette in the right hand, then transfers the palette to the left and smooths the hole with the right hand.\n(E) The person spreads plaster on the wall using a spatula in his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person spreads plaster on the wall using a spatula in his right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

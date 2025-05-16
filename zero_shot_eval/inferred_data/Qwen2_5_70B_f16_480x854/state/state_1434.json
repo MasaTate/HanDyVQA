@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the sponge change?",
+    "options": [
+        "The sponge was dropped onto the floor, splashed with water, and then thrown across the room.",
+        "The sponge was placed in a bowl, submerged in the water, and then pulled out with a fork.",
+        "The sponge was picked up, soaked in the water, and then squeezed with hands.",
+        "The sponge was rolled up tightly, dipped in the water, and then tossed into a bucket.",
+        "The sponge was laid flat, sprayed with water, and then wrung out into a sink."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the sponge change? Choose **only one** option from the following list.\nOptions:\n(A) The sponge was dropped onto the floor, splashed with water, and then thrown across the room.\n(B) The sponge was placed in a bowl, submerged in the water, and then pulled out with a fork.\n(C) The sponge was picked up, soaked in the water, and then squeezed with hands.\n(D) The sponge was rolled up tightly, dipped in the water, and then tossed into a bucket.\n(E) The sponge was laid flat, sprayed with water, and then wrung out into a sink.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The sponge was picked up, soaked in the water, and then squeezed with hands."
+    },
+    "correct_idx": [
+        2
+    ]
+}

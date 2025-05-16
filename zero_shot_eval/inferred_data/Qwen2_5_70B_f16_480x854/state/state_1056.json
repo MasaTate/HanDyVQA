@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a gasket change?",
+    "options": [
+        "The small item in the gasket was adjusted but left inside it.",
+        "The small item in the gasket was partially removed but not taken out.",
+        "The small item in the gasket was removed from inside it.",
+        "The small item in the gasket was moved but remained inside it.",
+        "The small item in the gasket was pushed further inside instead of being removed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a gasket change? Choose **only one** option from the following list.\nOptions:\n(A) The small item in the gasket was adjusted but left inside it.\n(B) The small item in the gasket was partially removed but not taken out.\n(C) The small item in the gasket was removed from inside it.\n(D) The small item in the gasket was moved but remained inside it.\n(E) The small item in the gasket was pushed further inside instead of being removed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The small item in the gasket was removed from inside it."
+    },
+    "correct_idx": [
+        2
+    ]
+}

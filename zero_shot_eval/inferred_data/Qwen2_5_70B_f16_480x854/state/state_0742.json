@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the wood change?",
+    "options": [
+        "The wood was heated by flames, resulting in a change in shape as it warped and bent.",
+        "The wood was soaked in water, resulting in expansion and increased softness.",
+        "The wood was sanded down, resulting in a smooth and polished surface.",
+        "The wood made forceful contact with another piece of wood, briefly shifting its position upon impact.",
+        "The wood was painted over, resulting in a new color and altered appearance."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the wood change? Choose **only one** option from the following list.\nOptions:\n(A) The wood was heated by flames, resulting in a change in shape as it warped and bent.\n(B) The wood was soaked in water, resulting in expansion and increased softness.\n(C) The wood was sanded down, resulting in a smooth and polished surface.\n(D) The wood made forceful contact with another piece of wood, briefly shifting its position upon impact.\n(E) The wood was painted over, resulting in a new color and altered appearance.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The wood made forceful contact with another piece of wood, briefly shifting its position upon impact."
+    },
+    "correct_idx": [
+        3
+    ]
+}

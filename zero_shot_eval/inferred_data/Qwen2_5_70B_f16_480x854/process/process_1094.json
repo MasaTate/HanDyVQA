@@ -1,0 +1,17 @@
+{
+    "question": "How does the person bring the baluster?",
+    "options": [
+        "The person pushes the baluster forward using the palm of the left hand with gentle effort.",
+        "The person lifts the baluster slowly by placing both hands underneath it and raising it gently.",
+        "The person uses one finger from the left hand to nudge the baluster gently along the floor.",
+        "The person picks up the baluster by balancing it on the fingertips of the right hand and lifting smoothly.",
+        "The person is gripping the baluster tightly and pulled it up quickly using the left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person bring the baluster? Choose **only one** option from the following list.\nOptions:\n(A) The person pushes the baluster forward using the palm of the left hand with gentle effort.\n(B) The person lifts the baluster slowly by placing both hands underneath it and raising it gently.\n(C) The person uses one finger from the left hand to nudge the baluster gently along the floor.\n(D) The person picks up the baluster by balancing it on the fingertips of the right hand and lifting smoothly.\n(E) The person is gripping the baluster tightly and pulled it up quickly using the left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person is gripping the baluster tightly and pulled it up quickly using the left hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

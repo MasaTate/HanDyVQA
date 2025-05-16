@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the chopping board change?",
+    "options": [
+        "The chopping board was lifted up, rotated, and moved to the drying area.",
+        "The chopping board was lifted up, rotated, and moved to the washing area.",
+        "The chopping board was lifted, wiped clean, and placed back on the counter.",
+        "The chopping board was lifted up, rotated the opposite way, and set back down.",
+        "The chopping board was lifted, flipped over without rotating, and moved to another area."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the chopping board change? Choose **only one** option from the following list.\nOptions:\n(A) The chopping board was lifted up, rotated, and moved to the drying area.\n(B) The chopping board was lifted up, rotated, and moved to the washing area.\n(C) The chopping board was lifted, wiped clean, and placed back on the counter.\n(D) The chopping board was lifted up, rotated the opposite way, and set back down.\n(E) The chopping board was lifted, flipped over without rotating, and moved to another area.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The chopping board was lifted up, rotated, and moved to the drying area."
+    },
+    "correct_idx": [
+        0
+    ]
+}

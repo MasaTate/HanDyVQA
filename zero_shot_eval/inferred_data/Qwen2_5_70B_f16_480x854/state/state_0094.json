@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the plant change?",
+    "options": [
+        "The plant was placed on the table by the hand without any contact with the cutter.",
+        "The plant was touched by the hand but remained in its original pot without contact with the cutter.",
+        "The plant experienced slight pressure with the hand, and the cutter was positioned near it without touching.",
+        "The plant had contact with the cutter and the hand but was not cut.",
+        "The plant was held by the hand while the cutter was positioned nearby but never made contact."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the plant change? Choose **only one** option from the following list.\nOptions:\n(A) The plant was placed on the table by the hand without any contact with the cutter.\n(B) The plant was touched by the hand but remained in its original pot without contact with the cutter.\n(C) The plant experienced slight pressure with the hand, and the cutter was positioned near it without touching.\n(D) The plant had contact with the cutter and the hand but was not cut.\n(E) The plant was held by the hand while the cutter was positioned nearby but never made contact.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The plant had contact with the cutter and the hand but was not cut."
+    },
+    "correct_idx": [
+        3
+    ]
+}

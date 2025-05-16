@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is holding the chainsaw with their right hand while orienting it with their left hand.",
+        "The person is starting the chainsaw with their right hand and adjusting it with their left hand.",
+        "The person is tilting the chainsaw with their left hand.",
+        "The person is gripping the chainsaw securely with both hands while getting ready to cut.",
+        "The person is placing the chainsaw down with their right hand while bringing it up with their left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is holding the chainsaw with their right hand while orienting it with their left hand.\n(B) The person is starting the chainsaw with their right hand and adjusting it with their left hand.\n(C) The person is tilting the chainsaw with their left hand.\n(D) The person is gripping the chainsaw securely with both hands while getting ready to cut.\n(E) The person is placing the chainsaw down with their right hand while bringing it up with their left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person is tilting the chainsaw with their left hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a piece of wood   change?",
+    "options": [
+        "The piece of wood was placed flat on the ground to help stabilize the hose.",
+        "The piece of wood was balanced on a stack of bricks to elevate the hose from the ground.",
+        "The piece of wood was cut into smaller pieces to create a base for the hose holder.",
+        "The piece of wood was removed to provide easier access to the hose.",
+        "The piece of wood was positioned upright to adjust the hose on the ground."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a piece of wood   change? Choose **only one** option from the following list.\nOptions:\n(A) The piece of wood was placed flat on the ground to help stabilize the hose.\n(B) The piece of wood was balanced on a stack of bricks to elevate the hose from the ground.\n(C) The piece of wood was cut into smaller pieces to create a base for the hose holder.\n(D) The piece of wood was removed to provide easier access to the hose.\n(E) The piece of wood was positioned upright to adjust the hose on the ground.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The piece of wood was positioned upright to adjust the hose on the ground."
+    },
+    "correct_idx": [
+        4
+    ]
+}

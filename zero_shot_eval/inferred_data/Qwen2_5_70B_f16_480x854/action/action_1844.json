@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person removes the wallpaper from the wall using a straight razor in his right hand while holding a bucket with his left hand.",
+        "The person cleans the paint from the ceiling using a butterfly knife in his right hand.",
+        "The person is applying paint to the ceiling using a paintbrush in his right hand while balancing on a ladder with his left hand.",
+        "The person scrapes mud off the floor using a putty knife with his left hand while holding a sponge in his right hand.",
+        "The person cuts through drywall using a utility knife in his left hand while holding a flashlight in his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person removes the wallpaper from the wall using a straight razor in his right hand while holding a bucket with his left hand.\n(B) The person cleans the paint from the ceiling using a butterfly knife in his right hand.\n(C) The person is applying paint to the ceiling using a paintbrush in his right hand while balancing on a ladder with his left hand.\n(D) The person scrapes mud off the floor using a putty knife with his left hand while holding a sponge in his right hand.\n(E) The person cuts through drywall using a utility knife in his left hand while holding a flashlight in his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person cleans the paint from the ceiling using a butterfly knife in his right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

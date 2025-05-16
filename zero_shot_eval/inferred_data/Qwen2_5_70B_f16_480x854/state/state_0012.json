@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the dice change?",
+    "options": [
+        "The dice were put on top of the cylinder and then removed.",
+        "The dice once went inside the cylinder and then came out.",
+        "The dice were pushed halfway into the cylinder but not fully inserted, then taken out.",
+        "The dice were held above the cylinder but never went in, then set aside.",
+        "The dice were inside the cylinder and shifted to the side without coming out."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the dice change? Choose **only one** option from the following list.\nOptions:\n(A) The dice were put on top of the cylinder and then removed.\n(B) The dice once went inside the cylinder and then came out.\n(C) The dice were pushed halfway into the cylinder but not fully inserted, then taken out.\n(D) The dice were held above the cylinder but never went in, then set aside.\n(E) The dice were inside the cylinder and shifted to the side without coming out.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The dice once went inside the cylinder and then came out."
+    },
+    "correct_idx": [
+        1
+    ]
+}

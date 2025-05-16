@@ -1,0 +1,17 @@
+{
+    "question": "How does the person clean the paint brush?",
+    "options": [
+        "The person sweeps the paintbrush across the canvas using their left hand.",
+        "The person holds the paintbrush with both hands and moves it in a gentle swirling motion.",
+        "The person presses the paintbrush lightly against the table with their right hand.",
+        "The person twirls the paintbrush gently between their fingers on their left hand.",
+        "The person dips the paintbrush in the water container and drains at the edge of the container to clean it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person clean the paint brush? Choose **only one** option from the following list.\nOptions:\n(A) The person sweeps the paintbrush across the canvas using their left hand.\n(B) The person holds the paintbrush with both hands and moves it in a gentle swirling motion.\n(C) The person presses the paintbrush lightly against the table with their right hand.\n(D) The person twirls the paintbrush gently between their fingers on their left hand.\n(E) The person dips the paintbrush in the water container and drains at the edge of the container to clean it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person dips the paintbrush in the water container and drains at the edge of the container to clean it."
+    },
+    "correct_idx": [
+        4
+    ]
+}

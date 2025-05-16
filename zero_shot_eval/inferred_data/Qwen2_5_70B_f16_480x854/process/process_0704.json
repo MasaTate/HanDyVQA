@@ -1,0 +1,17 @@
+{
+    "question": "How does the person clean the baking tray on the metallic baker &#39;s table?",
+    "options": [
+        "The person scrubs the baking tray smoothly with a sponge that he holds with his left hand.",
+        "The person wipes the baking tray gently with a clean cloth that he holds with the fingertips of his right hand.",
+        "The person turns the baking tray slightly and taps it with his right hand to remove debris.",
+        "The person moves the baking tray slightly, using a spatula that he holds with his left hand.",
+        "The person wipes the baking tray gently with a paper towel held between his fingers of both hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person clean the baking tray on the metallic baker &#39;s table? Choose **only one** option from the following list.\nOptions:\n(A) The person scrubs the baking tray smoothly with a sponge that he holds with his left hand.\n(B) The person wipes the baking tray gently with a clean cloth that he holds with the fingertips of his right hand.\n(C) The person turns the baking tray slightly and taps it with his right hand to remove debris.\n(D) The person moves the baking tray slightly, using a spatula that he holds with his left hand.\n(E) The person wipes the baking tray gently with a paper towel held between his fingers of both hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person wipes the baking tray gently with a paper towel held between his fingers of both hands."
+    },
+    "correct_idx": [
+        1
+    ]
+}

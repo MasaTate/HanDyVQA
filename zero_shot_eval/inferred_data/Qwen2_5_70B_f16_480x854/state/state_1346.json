@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a lid change?",
+    "options": [
+        "The lid, which was previously secured on a pot, was lifted off and set aside, leaving the pot open.",
+        "The lid, originally with another person, was handed or passed over, transferring it to someone else.",
+        "The lid, initially resting on a counter, was picked up and placed directly onto a pot, sealing it.",
+        "The lid, after being held in one hand, was tossed to land on the table.",
+        "The lid, originally attached to a container, was unscrewed and detached from the container."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a lid change? Choose **only one** option from the following list.\nOptions:\n(A) The lid, which was previously secured on a pot, was lifted off and set aside, leaving the pot open.\n(B) The lid, originally with another person, was handed or passed over, transferring it to someone else.\n(C) The lid, initially resting on a counter, was picked up and placed directly onto a pot, sealing it.\n(D) The lid, after being held in one hand, was tossed to land on the table.\n(E) The lid, originally attached to a container, was unscrewed and detached from the container.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The lid, which was previously secured on a pot, was lifted off and set aside, leaving the pot open."
+    },
+    "correct_idx": [
+        1
+    ]
+}

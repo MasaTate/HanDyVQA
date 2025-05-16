@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a page of the book change?",
+    "options": [
+        "The page of the book was turned without being bent or wrinkled.",
+        "The page of the book was creased at the edge and left slightly torn.",
+        "The page of the book was flattened and smoothed out but was initially wrinkled.",
+        "The page of the book was folded in half and marked with a crease.",
+        "The page of the book was bent and slightly wrinkled but not turned."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a page of the book change? Choose **only one** option from the following list.\nOptions:\n(A) The page of the book was turned without being bent or wrinkled.\n(B) The page of the book was creased at the edge and left slightly torn.\n(C) The page of the book was flattened and smoothed out but was initially wrinkled.\n(D) The page of the book was folded in half and marked with a crease.\n(E) The page of the book was bent and slightly wrinkled but not turned.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The page of the book was turned without being bent or wrinkled."
+    },
+    "correct_idx": [
+        4
+    ]
+}

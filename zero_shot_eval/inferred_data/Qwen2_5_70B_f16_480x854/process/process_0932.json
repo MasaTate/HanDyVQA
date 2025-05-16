@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pull a wire-roll from the polythene bag with his left hand?",
+    "options": [
+        "The person uses his left hand to gently pull the wire-roll out of the polythene bag while the other hand is resting by his side.",
+        "The person pulls the wire-roll from the bag by holding it with his left hand and removing the bag with his right hand.",
+        "The person grasps the wire-roll with both hands and carefully lifts it out of the polythene bag, paying little attention to the bag's handle.",
+        "The person places his right hand on the table and uses his left hand to steadily guide the wire-roll out of the polythene bag.",
+        "The person reaches into the polythene bag with his right hand to take hold of the wire-roll while keeping his left hand in his pocket."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pull a wire-roll from the polythene bag with his left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person uses his left hand to gently pull the wire-roll out of the polythene bag while the other hand is resting by his side.\n(B) The person pulls the wire-roll from the bag by holding it with his left hand and removing the bag with his right hand.\n(C) The person grasps the wire-roll with both hands and carefully lifts it out of the polythene bag, paying little attention to the bag's handle.\n(D) The person places his right hand on the table and uses his left hand to steadily guide the wire-roll out of the polythene bag.\n(E) The person reaches into the polythene bag with his right hand to take hold of the wire-roll while keeping his left hand in his pocket.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person pulls the wire-roll from the bag by holding it with his left hand and removing the bag with his right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

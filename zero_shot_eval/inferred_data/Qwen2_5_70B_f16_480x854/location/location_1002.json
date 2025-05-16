@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the crocheted yarn?",
+    "options": [
+        "The person places the crocheted yarn on a pillow resting against their left thigh.",
+        "The person places the crocheted yarn on the armrest of the chair beside their right hip.",
+        "The person places the crocheted yarn on a newspaper laid out on the floor beside them.",
+        "The person places the crocheted yarn on a blanket folded over their knees.",
+        "The person places the crocheted yarn on a sheet draped over both thighs."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the crocheted yarn? Choose **only one** option from the following list.\nOptions:\n(A) The person places the crocheted yarn on a pillow resting against their left thigh.\n(B) The person places the crocheted yarn on the armrest of the chair beside their right hip.\n(C) The person places the crocheted yarn on a newspaper laid out on the floor beside them.\n(D) The person places the crocheted yarn on a blanket folded over their knees.\n(E) The person places the crocheted yarn on a sheet draped over both thighs.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person places the crocheted yarn on a sheet draped over both thighs."
+    },
+    "correct_idx": [
+        4
+    ]
+}

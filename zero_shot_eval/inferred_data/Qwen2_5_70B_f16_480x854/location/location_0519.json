@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the drill bit?",
+    "options": [
+        "The person drops the drill bit onto the workbench next to the toolbox.",
+        "The person drops the drill bit onto the car lifter.",
+        "The person drops the drill bit onto the floor in front of the car.",
+        "The person drops the drill bit into a storage bin under the workstation.",
+        "The person drops the drill bit onto the side shelf of the garage."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the drill bit? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the drill bit onto the workbench next to the toolbox.\n(B) The person drops the drill bit onto the car lifter.\n(C) The person drops the drill bit onto the floor in front of the car.\n(D) The person drops the drill bit into a storage bin under the workstation.\n(E) The person drops the drill bit onto the side shelf of the garage.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person drops the drill bit onto the car lifter."
+    },
+    "correct_idx": [
+        1
+    ]
+}

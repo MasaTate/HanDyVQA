@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the cymbal change?",
+    "options": [
+        "The cymbal's surface was deformed as it was struck by the drumsticks.",
+        "The cymbal was removed from the stand as it was struck by the drumsticks.",
+        "The cymbal's sound quality was changed as it was struck by the drumsticks.",
+        "The cymbal's position was altered as it was struck by the drumsticks.",
+        "The cymbal was flipped over as it was struck by the drumsticks."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the cymbal change? Choose **only one** option from the following list.\nOptions:\n(A) The cymbal's surface was deformed as it was struck by the drumsticks.\n(B) The cymbal was removed from the stand as it was struck by the drumsticks.\n(C) The cymbal's sound quality was changed as it was struck by the drumsticks.\n(D) The cymbal's position was altered as it was struck by the drumsticks.\n(E) The cymbal was flipped over as it was struck by the drumsticks.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The cymbal's position was altered as it was struck by the drumsticks."
+    },
+    "correct_idx": [
+        3
+    ]
+}

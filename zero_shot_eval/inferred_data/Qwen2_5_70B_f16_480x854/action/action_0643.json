@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person handles a piece of cloth with his left hand.",
+        "The person touches a piece of plastic with his left hand.",
+        "The person applies pressure to a piece of paper with his left hand.",
+        "The person grasps a piece of metal with his left hand.",
+        "The person moves a piece of wood with his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person handles a piece of cloth with his left hand.\n(B) The person touches a piece of plastic with his left hand.\n(C) The person applies pressure to a piece of paper with his left hand.\n(D) The person grasps a piece of metal with his left hand.\n(E) The person moves a piece of wood with his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person touches a piece of plastic with his left hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

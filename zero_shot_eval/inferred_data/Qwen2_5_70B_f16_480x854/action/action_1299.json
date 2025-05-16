@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person marks the pottery on the sculpting stand with the spindle gouge in his right hand.",
+        "The person carves designs into the pottery on the sculpting stand using a carving tool in his right hand.",
+        "The person smooths the surface of the pottery on the sculpting stand with a sponge in his right hand.",
+        "The person shapes the pottery on the sculpting stand with a wooden tool in his right hand.",
+        "The person trims the edges of the pottery on the sculpting stand using a trimming knife in his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person marks the pottery on the sculpting stand with the spindle gouge in his right hand.\n(B) The person carves designs into the pottery on the sculpting stand using a carving tool in his right hand.\n(C) The person smooths the surface of the pottery on the sculpting stand with a sponge in his right hand.\n(D) The person shapes the pottery on the sculpting stand with a wooden tool in his right hand.\n(E) The person trims the edges of the pottery on the sculpting stand using a trimming knife in his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person marks the pottery on the sculpting stand with the spindle gouge in his right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

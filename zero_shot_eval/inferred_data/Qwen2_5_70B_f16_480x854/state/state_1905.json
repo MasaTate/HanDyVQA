@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the wardrobe change?",
+    "options": [
+        "The wardrobe door was pushed closed, and what was inside was hidden.",
+        "The wardrobe door was pulled open, but no change occurred in what was inside.",
+        "The wardrobe door was pulled slightly ajar, and no contents were revealed.",
+        "The wardrobe door was opened, and a small portion of the contents was revealed.",
+        "The wardrobe door was left halfway open, and most of the interior was obscured."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the wardrobe change? Choose **only one** option from the following list.\nOptions:\n(A) The wardrobe door was pushed closed, and what was inside was hidden.\n(B) The wardrobe door was pulled open, but no change occurred in what was inside.\n(C) The wardrobe door was pulled slightly ajar, and no contents were revealed.\n(D) The wardrobe door was opened, and a small portion of the contents was revealed.\n(E) The wardrobe door was left halfway open, and most of the interior was obscured.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The wardrobe door was pushed closed, and what was inside was hidden."
+    },
+    "correct_idx": [
+        1
+    ]
+}

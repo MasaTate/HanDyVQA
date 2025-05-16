@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the screws?",
+    "options": [
+        "The person put the screws on the top right portion of the bolting deck.",
+        "The person put the screws on the bottom left portion of the bolting deck.",
+        "The person put the screws on the top left portion of the bolting deck.",
+        "The person put the screws on the center right portion of the bolting deck.",
+        "The person put the screws on the bottom right portion of the bolting deck."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the screws? Choose **only one** option from the following list.\nOptions:\n(A) The person put the screws on the top right portion of the bolting deck.\n(B) The person put the screws on the bottom left portion of the bolting deck.\n(C) The person put the screws on the top left portion of the bolting deck.\n(D) The person put the screws on the center right portion of the bolting deck.\n(E) The person put the screws on the bottom right portion of the bolting deck.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person put the screws on the center right portion of the bolting deck."
+    },
+    "correct_idx": [
+        0
+    ]
+}

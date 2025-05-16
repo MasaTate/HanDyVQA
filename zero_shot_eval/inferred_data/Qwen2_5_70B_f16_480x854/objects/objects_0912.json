@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "laptop",
+        "speaker",
+        "jacket",
+        "microphone. ",
+        "window",
+        "electric guitar"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) laptop\n(B) speaker\n(C) jacket\n(D) microphone. \n(E) window\n(F) electric guitar\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(A) The hands are using the laptop, as seen when the person operates the keyboard and touchpad.\n(F) The hands are also using the electric guitar, as the person holds and plays it.\n\nAnswer format:\n(A) The hands are using the laptop.\n(F) The hands are using the electric guitar."
+    },
+    "correct_idx": [
+        0,
+        5
+    ]
+}

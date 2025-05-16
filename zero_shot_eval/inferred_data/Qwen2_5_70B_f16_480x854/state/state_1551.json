@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the pot change?",
+    "options": [
+        "The pot was slightly repositioned in a quick motion, altering its placement.",
+        "The pot was lifted and turned slightly before being put back down.",
+        "The pot was nudged to the left, adjusting its position.",
+        "The pot was spun around in its spot without changing its base position.",
+        "The pot was tipped forward slightly and then returned to its original level."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the pot change? Choose **only one** option from the following list.\nOptions:\n(A) The pot was slightly repositioned in a quick motion, altering its placement.\n(B) The pot was lifted and turned slightly before being put back down.\n(C) The pot was nudged to the left, adjusting its position.\n(D) The pot was spun around in its spot without changing its base position.\n(E) The pot was tipped forward slightly and then returned to its original level.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The pot was lifted and turned slightly before being put back down."
+    },
+    "correct_idx": [
+        0
+    ]
+}

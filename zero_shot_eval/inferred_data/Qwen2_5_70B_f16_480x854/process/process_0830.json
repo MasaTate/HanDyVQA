@@ -1,0 +1,17 @@
+{
+    "question": "How does the person drag the twine?",
+    "options": [
+        "The person pulls the twine with both hands, holding it gently between the palms.",
+        "The person moves the twine forward with a smooth motion of the fingers on the left hand.",
+        "The person drags the twine by pulling it using the right hand.",
+        "The person drags the twine using the fingertips of the left hand, keeping the right hand slightly stationary.",
+        "The person lifts the twine slightly off the ground and lets it slide through their fingers slowly."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person drag the twine? Choose **only one** option from the following list.\nOptions:\n(A) The person pulls the twine with both hands, holding it gently between the palms.\n(B) The person moves the twine forward with a smooth motion of the fingers on the left hand.\n(C) The person drags the twine by pulling it using the right hand.\n(D) The person drags the twine using the fingertips of the left hand, keeping the right hand slightly stationary.\n(E) The person lifts the twine slightly off the ground and lets it slide through their fingers slowly.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person drags the twine using the fingertips of the left hand, keeping the right hand slightly stationary."
+    },
+    "correct_idx": [
+        2
+    ]
+}

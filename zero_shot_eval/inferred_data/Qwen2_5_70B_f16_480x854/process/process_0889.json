@@ -1,0 +1,17 @@
+{
+    "question": "How does the person knock a car?",
+    "options": [
+        "The person taps the car with an open palm in a sweeping motion using the fingers.",
+        "The person strikes the car with the back of the hand in a quick flicking manner.",
+        "The person uses a flat hand and presses down firmly on the hood of the car.",
+        "The person claps both hands and taps the sides of the car loudly.",
+        "The person folded the right hand into a fist and gently jabs on the bottom of the car repeatedly using the side of the fist in an upward and downward direction."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person knock a car? Choose **only one** option from the following list.\nOptions:\n(A) The person taps the car with an open palm in a sweeping motion using the fingers.\n(B) The person strikes the car with the back of the hand in a quick flicking manner.\n(C) The person uses a flat hand and presses down firmly on the hood of the car.\n(D) The person claps both hands and taps the sides of the car loudly.\n(E) The person folded the right hand into a fist and gently jabs on the bottom of the car repeatedly using the side of the fist in an upward and downward direction.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person folded the right hand into a fist and gently jabs on the bottom of the car repeatedly using the side of the fist in an upward and downward direction."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is holding the metal bar with his left hand and the measuring tape with his right hand.",
+        "The person is gripping the metal pole with his left hand and the caliper with his right hand.",
+        "The person is supporting the metal bar with his right hand and holding the measuring tape with his left hand.",
+        "The person is lifting the metal rod with his left hand and holding the scale with his right hand.",
+        "The person is pushing the metal beam with his left hand and holding the ruler with his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is holding the metal bar with his left hand and the measuring tape with his right hand.\n(B) The person is gripping the metal pole with his left hand and the caliper with his right hand.\n(C) The person is supporting the metal bar with his right hand and holding the measuring tape with his left hand.\n(D) The person is lifting the metal rod with his left hand and holding the scale with his right hand.\n(E) The person is pushing the metal beam with his left hand and holding the ruler with his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person is holding the metal bar with his left hand and the measuring tape with his right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the phone change?",
+    "options": [
+        "The phone was shaken, scrolling through various applications.",
+        "The phone was flipped, rearranging the icons on the home screen.",
+        "The phone was pressed, unlocking the screen and opening the messaging app.",
+        "The phone was turned sideways, adjusting the display to landscape mode.",
+        "The phone was tapped multiple times, quickly navigating through the camera."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the phone change? Choose **only one** option from the following list.\nOptions:\n(A) The phone was shaken, scrolling through various applications.\n(B) The phone was flipped, rearranging the icons on the home screen.\n(C) The phone was pressed, unlocking the screen and opening the messaging app.\n(D) The phone was turned sideways, adjusting the display to landscape mode.\n(E) The phone was tapped multiple times, quickly navigating through the camera.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The phone was tapped multiple times, quickly navigating through the camera."
+    },
+    "correct_idx": [
+        4
+    ]
+}

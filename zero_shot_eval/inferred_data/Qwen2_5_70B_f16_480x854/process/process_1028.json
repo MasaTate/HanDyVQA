@@ -1,0 +1,17 @@
+{
+    "question": "How does the person give a plate?",
+    "options": [
+        "The person holds the plate with two fingers and slides it mid-air using the left hand.",
+        "The person offers the plate by holding it with both hands and handing it sideways.",
+        "The person passes the plate by moving it gently across the table with one hand.",
+        "The person holds the plate using two fingers and hands it forward using the right hand.",
+        "The person grips the plate with one hand and moves it slightly backward over their shoulder."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person give a plate? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the plate with two fingers and slides it mid-air using the left hand.\n(B) The person offers the plate by holding it with both hands and handing it sideways.\n(C) The person passes the plate by moving it gently across the table with one hand.\n(D) The person holds the plate using two fingers and hands it forward using the right hand.\n(E) The person grips the plate with one hand and moves it slightly backward over their shoulder.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person holds the plate using two fingers and hands it forward using the right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

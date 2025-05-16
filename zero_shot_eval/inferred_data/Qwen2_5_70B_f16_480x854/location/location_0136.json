@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place her right hand?",
+    "options": [
+        "The person places her right hand on the wooden frame of the window.",
+        "The person places her right hand against the concrete of the window.",
+        "The person places her right hand beside the glass pane of the window.",
+        "The person places her right hand on the metal railing next to the window.",
+        "The person places her right hand below the sill of the window."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place her right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person places her right hand on the wooden frame of the window.\n(B) The person places her right hand against the concrete of the window.\n(C) The person places her right hand beside the glass pane of the window.\n(D) The person places her right hand on the metal railing next to the window.\n(E) The person places her right hand below the sill of the window.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person places her right hand on the metal railing next to the window."
+    },
+    "correct_idx": [
+        1
+    ]
+}

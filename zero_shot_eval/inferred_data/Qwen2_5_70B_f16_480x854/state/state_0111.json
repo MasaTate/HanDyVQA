@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the foam change?",
+    "options": [
+        "The foam changed its form from a solid block to a frothy mass.",
+        "The foam changed its color from white to a light green shade.",
+        "The foam changed its texture from soft to hard as it dried.",
+        "The foam changed its size from large to small after being compressed.",
+        "The foam changed its location from left hand to right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the foam change? Choose **only one** option from the following list.\nOptions:\n(A) The foam changed its form from a solid block to a frothy mass.\n(B) The foam changed its color from white to a light green shade.\n(C) The foam changed its texture from soft to hard as it dried.\n(D) The foam changed its size from large to small after being compressed.\n(E) The foam changed its location from left hand to right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The foam changed its location from left hand to right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

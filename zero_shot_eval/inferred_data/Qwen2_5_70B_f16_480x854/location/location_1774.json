@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the   left hand?",
+    "options": [
+        "The person moves his left hand inside the refrigerator and took out a carrot.",
+        "The person moves his left hand outside the refrigerator and puts in a tomato.",
+        "The person moves his left hand beside the refrigerator and grabs a cucumber.",
+        "The person moves his left hand above the refrigerator and reaches for a bell pepper.",
+        "The person moves his left hand around the refrigerator and picks up a zucchini."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the   left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person moves his left hand inside the refrigerator and took out a carrot.\n(B) The person moves his left hand outside the refrigerator and puts in a tomato.\n(C) The person moves his left hand beside the refrigerator and grabs a cucumber.\n(D) The person moves his left hand above the refrigerator and reaches for a bell pepper.\n(E) The person moves his left hand around the refrigerator and picks up a zucchini.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person moves his left hand inside the refrigerator and took out a carrot."
+    },
+    "correct_idx": [
+        0
+    ]
+}

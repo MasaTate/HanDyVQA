@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person return the small bag in the bag?",
+    "options": [
+        "The person returns the small bag to his bag, to the upper part.",
+        "The person returns the small bag to his bag, to the lower part.",
+        "The person returns the small bag to his bag, to the right side.",
+        "The person returns the small bag to his bag, to the front pocket.",
+        "The person returns the small bag to his bag, to the back compartment."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person return the small bag in the bag? Choose **only one** option from the following list.\nOptions:\n(A) The person returns the small bag to his bag, to the upper part.\n(B) The person returns the small bag to his bag, to the lower part.\n(C) The person returns the small bag to his bag, to the right side.\n(D) The person returns the small bag to his bag, to the front pocket.\n(E) The person returns the small bag to his bag, to the back compartment.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person returns the small bag to his bag, to the lower part."
+    },
+    "correct_idx": [
+        0
+    ]
+}

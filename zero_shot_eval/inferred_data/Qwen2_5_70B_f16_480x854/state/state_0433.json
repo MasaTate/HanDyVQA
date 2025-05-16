@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the fridge shelf change?",
+    "options": [
+        "The fridge shelf was lifted up, allowing it to be removed from the fridge.",
+        "The fridge shelf was pushed back in, altering its position within the fridge.",
+        "The fridge shelf was pulled out, changing its position within the fridge.",
+        "The fridge shelf was removed and placed on the counter for cleaning.",
+        "The fridge shelf was lowered, changing its height to fit taller items."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the fridge shelf change? Choose **only one** option from the following list.\nOptions:\n(A) The fridge shelf was lifted up, allowing it to be removed from the fridge.\n(B) The fridge shelf was pushed back in, altering its position within the fridge.\n(C) The fridge shelf was pulled out, changing its position within the fridge.\n(D) The fridge shelf was removed and placed on the counter for cleaning.\n(E) The fridge shelf was lowered, changing its height to fit taller items.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The fridge shelf was pulled out, changing its position within the fridge."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pick the phone?",
+    "options": [
+        "The person gently takes the phone with their left hand, raising it calmly off the surface in a steady motion.",
+        "The person uses both hands to carefully hold the phone from the side, moving it away with slight adjustment.",
+        "The person cautiously nudges the phone towards the edge of the surface with their fingertips, allowing it to settle in their palm.",
+        "The person carefully grips the phone with their right hand, lifting it smoothly off the surface with minimal horizontal movement.",
+        "The person holds the phone snugly with their right hand and lifts it smoothly, maintaining control as it rises."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pick the phone? Choose **only one** option from the following list.\nOptions:\n(A) The person gently takes the phone with their left hand, raising it calmly off the surface in a steady motion.\n(B) The person uses both hands to carefully hold the phone from the side, moving it away with slight adjustment.\n(C) The person cautiously nudges the phone towards the edge of the surface with their fingertips, allowing it to settle in their palm.\n(D) The person carefully grips the phone with their right hand, lifting it smoothly off the surface with minimal horizontal movement.\n(E) The person holds the phone snugly with their right hand and lifts it smoothly, maintaining control as it rises.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person carefully grips the phone with their right hand, lifting it smoothly off the surface with minimal horizontal movement."
+    },
+    "correct_idx": [
+        3
+    ]
+}

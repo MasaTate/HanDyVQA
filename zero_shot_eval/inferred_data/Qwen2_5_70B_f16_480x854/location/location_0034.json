@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the spoons?",
+    "options": [
+        "The person dropped the spoons in the bottom left corner of the dish drainer.",
+        "The person dropped the spoons in the top right corner of the dish drainer.",
+        "The person dropped the spoons in the middle section of the dish drainer.",
+        "The person dropped the spoons in the top left corner of the dish drainer.",
+        "The person dropped the spoons in the bottom right corner of the dish drainer."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the spoons? Choose **only one** option from the following list.\nOptions:\n(A) The person dropped the spoons in the bottom left corner of the dish drainer.\n(B) The person dropped the spoons in the top right corner of the dish drainer.\n(C) The person dropped the spoons in the middle section of the dish drainer.\n(D) The person dropped the spoons in the top left corner of the dish drainer.\n(E) The person dropped the spoons in the bottom right corner of the dish drainer.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person dropped the spoons in the top right corner of the dish drainer."
+    },
+    "correct_idx": [
+        1
+    ]
+}

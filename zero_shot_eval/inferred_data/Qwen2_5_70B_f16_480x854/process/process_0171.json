@@ -1,0 +1,17 @@
+{
+    "question": "How does the person arrange the wrench?",
+    "options": [
+        "The person picks up the wrench with his right hand, then adjusts its position by turning it on the surface, ensuring it is aligned properly.",
+        "The person grabs the wrench with both hands and gently places it on the workbench, making sure it's in a useful position.",
+        "The person holds the wrench in their left hand and carefully positions it, paying close attention to its orientation.",
+        "The person lifts the wrench with their right hand and places it on the table, ensuring it is ready for use.",
+        "The person picks up the wrench using their fingers and sets it down smoothly on the floor, checking for proper alignment."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person arrange the wrench? Choose **only one** option from the following list.\nOptions:\n(A) The person picks up the wrench with his right hand, then adjusts its position by turning it on the surface, ensuring it is aligned properly.\n(B) The person grabs the wrench with both hands and gently places it on the workbench, making sure it's in a useful position.\n(C) The person holds the wrench in their left hand and carefully positions it, paying close attention to its orientation.\n(D) The person lifts the wrench with their right hand and places it on the table, ensuring it is ready for use.\n(E) The person picks up the wrench using their fingers and sets it down smoothly on the floor, checking for proper alignment.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person holds the wrench in their left hand and carefully positions it, paying close attention to its orientation."
+    },
+    "correct_idx": [
+        0
+    ]
+}

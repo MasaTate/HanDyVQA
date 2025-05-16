@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person covers the container with the lid using both hands.",
+        "The person lifts the container off the table with his right hand while holding the lid in his left hand.",
+        "The person pours the contents of the container into a bowl using the lid in his right hand.",
+        "The person is sealing the container tightly with a clamp using his right hand while balancing the lid in his left hand.",
+        "The person removes the lid from the container on the counter using his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person covers the container with the lid using both hands.\n(B) The person lifts the container off the table with his right hand while holding the lid in his left hand.\n(C) The person pours the contents of the container into a bowl using the lid in his right hand.\n(D) The person is sealing the container tightly with a clamp using his right hand while balancing the lid in his left hand.\n(E) The person removes the lid from the container on the counter using his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person covers the container with the lid using both hands."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the spoon with the sponge change?",
+    "options": [
+        "The spoon was placed in a bowl of soapy water and soaked for several hours, allowing the grime to detach.",
+        "The spoon was washed under running water and scrubbed with a dishwashing brush to remove any dirt and food residue, ensuring it became clean.",
+        "The spoon was placed into a dishwasher along with other utensils, where it underwent a high-temperature cleaning cycle to eliminate stains.",
+        "The spoon was wiped with a damp cloth and then dried off, resulting in a surface that appeared shiny but retained some residues.",
+        "The spoon was immersed in a mixture of vinegar and baking soda, causing a bubbling reaction that aimed to lift away dirt particles."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the spoon with the sponge change? Choose **only one** option from the following list.\nOptions:\n(A) The spoon was placed in a bowl of soapy water and soaked for several hours, allowing the grime to detach.\n(B) The spoon was washed under running water and scrubbed with a dishwashing brush to remove any dirt and food residue, ensuring it became clean.\n(C) The spoon was placed into a dishwasher along with other utensils, where it underwent a high-temperature cleaning cycle to eliminate stains.\n(D) The spoon was wiped with a damp cloth and then dried off, resulting in a surface that appeared shiny but retained some residues.\n(E) The spoon was immersed in a mixture of vinegar and baking soda, causing a bubbling reaction that aimed to lift away dirt particles.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The spoon was washed under running water and scrubbed with a dishwashing brush to remove any dirt and food residue, ensuring it became clean."
+    },
+    "correct_idx": [
+        1
+    ]
+}

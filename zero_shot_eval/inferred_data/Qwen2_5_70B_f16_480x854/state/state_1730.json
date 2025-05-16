@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a die change?",
+    "options": [
+        "The dice's surface was altered as they were marked with scratches after being rolled across the concrete floor.",
+        "The dice's position was altered as they were placed on the table after being removed from the cup.",
+        "The dice's color was altered as they faded when exposed to sunlight for an extended period.",
+        "The dice's weight was altered as they were covered with a layer of paint for decoration.",
+        "The dice's shape was altered as they became rounded after being worn down from repeated use."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a die change? Choose **only one** option from the following list.\nOptions:\n(A) The dice's surface was altered as they were marked with scratches after being rolled across the concrete floor.\n(B) The dice's position was altered as they were placed on the table after being removed from the cup.\n(C) The dice's color was altered as they faded when exposed to sunlight for an extended period.\n(D) The dice's weight was altered as they were covered with a layer of paint for decoration.\n(E) The dice's shape was altered as they became rounded after being worn down from repeated use.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The dice's position was altered as they were placed on the table after being removed from the cup."
+    },
+    "correct_idx": [
+        1
+    ]
+}

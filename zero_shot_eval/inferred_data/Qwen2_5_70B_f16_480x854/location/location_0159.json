@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the hanger?",
+    "options": [
+        "The person drops the hanger on the hanger stand.",
+        "The person drops the hanger on the floor next to the door.",
+        "The person drops the hanger on the shelf in the closet.",
+        "The person drops the hanger on the couch in the living room.",
+        "The person drops the hanger on the edge of the kitchen counter."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the hanger? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the hanger on the hanger stand.\n(B) The person drops the hanger on the floor next to the door.\n(C) The person drops the hanger on the shelf in the closet.\n(D) The person drops the hanger on the couch in the living room.\n(E) The person drops the hanger on the edge of the kitchen counter.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person drops the hanger on the hanger stand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

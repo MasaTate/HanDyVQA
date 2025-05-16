@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the filter basket of the coffee machine change?",
+    "options": [
+        "The coffee machine's filter basket was filled with coffee grounds.",
+        "The coffee machine's filter basket was closed.",
+        "The coffee machine's filter basket was removed.",
+        "The coffee machine's filter basket was opened to release steam.",
+        "The coffee machine's filter basket was replaced."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the filter basket of the coffee machine change? Choose **only one** option from the following list.\nOptions:\n(A) The coffee machine's filter basket was filled with coffee grounds.\n(B) The coffee machine's filter basket was closed.\n(C) The coffee machine's filter basket was removed.\n(D) The coffee machine's filter basket was opened to release steam.\n(E) The coffee machine's filter basket was replaced.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The coffee machine's filter basket was removed."
+    },
+    "correct_idx": [
+        1
+    ]
+}

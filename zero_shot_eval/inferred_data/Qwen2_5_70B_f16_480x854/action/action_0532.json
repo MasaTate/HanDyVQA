@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person applies a liquid to his left hand using the spray bottle in his gloved right hand.",
+        "The person uses a cloth to wipe his left hand while holding the spray bottle in his gloved right hand.",
+        "The person pours a liquid onto his left hand from the spray bottle held in his gloved right hand.",
+        "The person cools his left hand with an item while holding the spray bottle in his gloved right hand.",
+        "The person sprays his left hand with the spray bottle in his gloved right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person applies a liquid to his left hand using the spray bottle in his gloved right hand.\n(B) The person uses a cloth to wipe his left hand while holding the spray bottle in his gloved right hand.\n(C) The person pours a liquid onto his left hand from the spray bottle held in his gloved right hand.\n(D) The person cools his left hand with an item while holding the spray bottle in his gloved right hand.\n(E) The person sprays his left hand with the spray bottle in his gloved right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person sprays his left hand with the spray bottle in his gloved right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

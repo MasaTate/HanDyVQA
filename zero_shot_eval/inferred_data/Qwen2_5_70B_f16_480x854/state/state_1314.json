@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the oil change?",
+    "options": [
+        "The oil was scooped from one pan and transferred to a pan on the left.",
+        "The oil was poured from one pan into another pan on the right.",
+        "The oil was scooped from one pan and transferred to another pan on the right.",
+        "The oil was scooped from the pan and transferred to a bowl on the right.",
+        "The oil was scooped from one pan but was not transferred to another pan."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the oil change? Choose **only one** option from the following list.\nOptions:\n(A) The oil was scooped from one pan and transferred to a pan on the left.\n(B) The oil was poured from one pan into another pan on the right.\n(C) The oil was scooped from one pan and transferred to another pan on the right.\n(D) The oil was scooped from the pan and transferred to a bowl on the right.\n(E) The oil was scooped from one pan but was not transferred to another pan.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The oil was scooped from one pan and transferred to another pan on the right."
+    },
+    "correct_idx": [
+        2
+    ]
+}

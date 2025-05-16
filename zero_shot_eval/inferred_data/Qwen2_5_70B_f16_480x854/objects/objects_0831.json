@@ -1,0 +1,21 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "plastic slicer",
+        "mug",
+        "shoes",
+        "plastic tray",
+        "drawer",
+        "tissue",
+        "pan"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) plastic slicer\n(B) mug\n(C) shoes\n(D) plastic tray\n(E) drawer\n(F) tissue\n(G) pan\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(E) drawer  \n(D) plastic tray  \n\nThe person opens a drawer with their hand and then uses a plastic tray containing meat. The other options do not match the actions observed in the video."
+    },
+    "correct_idx": [
+        0,
+        3,
+        4
+    ]
+}

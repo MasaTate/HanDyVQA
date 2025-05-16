@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move a shirt?",
+    "options": [
+        "The person moved a shirt onto the chair beside them.",
+        "The person moved a shirt slightly but did not change position.",
+        "The person moved a shirt to the edge of the bed.",
+        "The person moved a shirt to hang on the back of the door.",
+        "The person moved a shirt into the middle of the laundry basket."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move a shirt? Choose **only one** option from the following list.\nOptions:\n(A) The person moved a shirt onto the chair beside them.\n(B) The person moved a shirt slightly but did not change position.\n(C) The person moved a shirt to the edge of the bed.\n(D) The person moved a shirt to hang on the back of the door.\n(E) The person moved a shirt into the middle of the laundry basket.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person moved a shirt slightly but did not change position."
+    },
+    "correct_idx": [
+        1
+    ]
+}

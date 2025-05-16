@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "electrical tape",
+        "clamp pliers",
+        "engine block",
+        "bench vise",
+        "drawer",
+        "disposable gloves"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) electrical tape\n(B) clamp pliers\n(C) engine block\n(D) bench vise\n(E) drawer\n(F) disposable gloves\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(E) The hands are using the drawer to search for tools.\n(B) The hands are using the clamp pliers, which were taken out from the drawer.\n\nAnswer format:\n(E) The hands are using the drawer to search for tools.\n(B) The hands are using the clamp pliers, which were taken out from the drawer."
+    },
+    "correct_idx": [
+        1,
+        5
+    ]
+}

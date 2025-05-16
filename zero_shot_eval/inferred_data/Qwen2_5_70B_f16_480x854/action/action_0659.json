@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person extends their left hand to the monitor.",
+        "The person moves their right hand towards the keyboard.",
+        "The person shifts his right hand to the mouse.",
+        "The person lifts their left hand to adjust the webcam.",
+        "The person slides their right hand to pick up the phone on the desk."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person extends their left hand to the monitor.\n(B) The person moves their right hand towards the keyboard.\n(C) The person shifts his right hand to the mouse.\n(D) The person lifts their left hand to adjust the webcam.\n(E) The person slides their right hand to pick up the phone on the desk.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person shifts his right hand to the mouse."
+    },
+    "correct_idx": [
+        2
+    ]
+}

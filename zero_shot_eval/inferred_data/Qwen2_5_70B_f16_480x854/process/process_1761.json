@@ -1,0 +1,17 @@
+{
+    "question": "How does the person mix the wheat?",
+    "options": [
+        "The person stirred the wheat in different directions using his right hand.",
+        "The person stirred the wheat in a circular motion with both hands.",
+        "The person moved the container of wheat back and forth with one hand.",
+        "The person used a spoon in the left hand to lift the wheat from the bottom.",
+        "The person tilted the wheat from one bowl to another with both hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person mix the wheat? Choose **only one** option from the following list.\nOptions:\n(A) The person stirred the wheat in different directions using his right hand.\n(B) The person stirred the wheat in a circular motion with both hands.\n(C) The person moved the container of wheat back and forth with one hand.\n(D) The person used a spoon in the left hand to lift the wheat from the bottom.\n(E) The person tilted the wheat from one bowl to another with both hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person stirred the wheat in different directions using his right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

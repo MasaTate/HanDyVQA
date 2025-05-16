@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the pen?",
+    "options": [
+        "The person placed the pen on the bottom of the plank beside the table.",
+        "The person placed the pen on the top of the plank above the table.",
+        "The person placed the pen on the side of the table next to the notebook.",
+        "The person placed the pen on the edge of the tabletop near the wall.",
+        "The person placed the pen on the back of the chair next to the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the pen? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the pen on the bottom of the plank beside the table.\n(B) The person placed the pen on the top of the plank above the table.\n(C) The person placed the pen on the side of the table next to the notebook.\n(D) The person placed the pen on the edge of the tabletop near the wall.\n(E) The person placed the pen on the back of the chair next to the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person placed the pen on the edge of the tabletop near the wall."
+    },
+    "correct_idx": [
+        1
+    ]
+}

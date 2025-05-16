@@ -1,0 +1,17 @@
+{
+    "question": "How does the person stir the pap?",
+    "options": [
+        "The person holds the spoon firmly in his left hand and moves it in an up-and-down motion to mix it thoroughly.",
+        "The person uses both hands to hold the spoon near the base and moves it side to side, spreading the pap evenly.",
+        "The person grips the spoon with his thumb and index finger, guiding it back and forth through the pap in a smooth manner.",
+        "The person holds the spoon in his right hand, places it in the pap, and stirs it gently in a circular motion to mix it evenly.",
+        "The person rests the spoon on top of the pap and taps it gently with his fingers to mix it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person stir the pap? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the spoon firmly in his left hand and moves it in an up-and-down motion to mix it thoroughly.\n(B) The person uses both hands to hold the spoon near the base and moves it side to side, spreading the pap evenly.\n(C) The person grips the spoon with his thumb and index finger, guiding it back and forth through the pap in a smooth manner.\n(D) The person holds the spoon in his right hand, places it in the pap, and stirs it gently in a circular motion to mix it evenly.\n(E) The person rests the spoon on top of the pap and taps it gently with his fingers to mix it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person holds the spoon in his right hand, places it in the pap, and stirs it gently in a circular motion to mix it evenly."
+    },
+    "correct_idx": [
+        3
+    ]
+}

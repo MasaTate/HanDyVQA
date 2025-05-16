@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the food change?",
+    "options": [
+        "The food was shaken, causing the ingredients to splatter and mix unevenly.",
+        "The food was whisked, resulting in the ingredients becoming frothy and overmixed.",
+        "The food was mashed, turning the ingredients into a uniform paste.",
+        "The food was stirred, blending the ingredients evenly without overmixing.",
+        "The food was left untouched, causing the ingredients to remain separate and unmixed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the food change? Choose **only one** option from the following list.\nOptions:\n(A) The food was shaken, causing the ingredients to splatter and mix unevenly.\n(B) The food was whisked, resulting in the ingredients becoming frothy and overmixed.\n(C) The food was mashed, turning the ingredients into a uniform paste.\n(D) The food was stirred, blending the ingredients evenly without overmixing.\n(E) The food was left untouched, causing the ingredients to remain separate and unmixed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The food was stirred, blending the ingredients evenly without overmixing."
+    },
+    "correct_idx": [
+        3
+    ]
+}

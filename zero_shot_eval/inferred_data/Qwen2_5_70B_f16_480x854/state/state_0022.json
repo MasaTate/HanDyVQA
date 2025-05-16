@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the motherboard change?",
+    "options": [
+        "The motherboard was moved left and right.",
+        "The motherboard was moved up and down.",
+        "The motherboard was tilted forward and backward.",
+        "The motherboard was rotated clockwise.",
+        "The motherboard was moved diagonally."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the motherboard change? Choose **only one** option from the following list.\nOptions:\n(A) The motherboard was moved left and right.\n(B) The motherboard was moved up and down.\n(C) The motherboard was tilted forward and backward.\n(D) The motherboard was rotated clockwise.\n(E) The motherboard was moved diagonally.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The motherboard was tilted forward and backward."
+    },
+    "correct_idx": [
+        1
+    ]
+}

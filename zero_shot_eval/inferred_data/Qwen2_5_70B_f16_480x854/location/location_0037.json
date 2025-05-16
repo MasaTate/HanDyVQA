@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the cotton wool?",
+    "options": [
+        "The person placed the cotton wool in the center.",
+        "The person positioned the cotton wool in the corner.",
+        "The person moved the cotton wool to the right side.",
+        "The person set the cotton wool at the back.",
+        "The person laid the cotton wool on the floor."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the cotton wool? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the cotton wool in the center.\n(B) The person positioned the cotton wool in the corner.\n(C) The person moved the cotton wool to the right side.\n(D) The person set the cotton wool at the back.\n(E) The person laid the cotton wool on the floor.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person laid the cotton wool on the floor."
+    },
+    "correct_idx": [
+        2
+    ]
+}

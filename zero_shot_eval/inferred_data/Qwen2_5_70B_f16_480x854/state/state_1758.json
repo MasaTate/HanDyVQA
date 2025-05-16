@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the clay work on the turntable with the loop change?",
+    "options": [
+        "The clay on the turntable changes as it spins right while being shaped.",
+        "The clay on the turntable changes as it spins faster while being molded.",
+        "The clay on the turntable changes as it remains stationary while being decorated.",
+        "The clay on the turntable changes as it spins left while being carved.",
+        "The clay on the turntable changes as it spins slowly while being pressed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the clay work on the turntable with the loop change? Choose **only one** option from the following list.\nOptions:\n(A) The clay on the turntable changes as it spins right while being shaped.\n(B) The clay on the turntable changes as it spins faster while being molded.\n(C) The clay on the turntable changes as it remains stationary while being decorated.\n(D) The clay on the turntable changes as it spins left while being carved.\n(E) The clay on the turntable changes as it spins slowly while being pressed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The clay on the turntable changes as it spins left while being carved."
+    },
+    "correct_idx": [
+        3
+    ]
+}

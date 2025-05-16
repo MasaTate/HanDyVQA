@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the big bowl?",
+    "options": [
+        "The person moved the big bowl by lifting it quickly.",
+        "The person moved the big bowl by sliding it across the table.",
+        "The person moved the big bowl by tilting it to one side.",
+        "The person moved the big bowl by pushing it with their hand.",
+        "The person moved the big bowl by rotating it slowly."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the big bowl? Choose **only one** option from the following list.\nOptions:\n(A) The person moved the big bowl by lifting it quickly.\n(B) The person moved the big bowl by sliding it across the table.\n(C) The person moved the big bowl by tilting it to one side.\n(D) The person moved the big bowl by pushing it with their hand.\n(E) The person moved the big bowl by rotating it slowly.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person moved the big bowl by rotating it slowly."
+    },
+    "correct_idx": [
+        4
+    ]
+}

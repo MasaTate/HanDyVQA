@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the dumbbells change?",
+    "options": [
+        "The dumbbells were lifted up, put downward, transferred to the right hand, and lifted up again.",
+        "The dumbbells were lifted up, put downward, transferred to the left hand, and lifted up again.",
+        "The dumbbells were not lifted up but slid to the right side, then transferred to the right hand.",
+        "The dumbbells were lifted halfway up, put downward, and then rolled to the right hand.",
+        "The dumbbells were lifted up, put downward, transferred to the right hand, and set back on the floor."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the dumbbells change? Choose **only one** option from the following list.\nOptions:\n(A) The dumbbells were lifted up, put downward, transferred to the right hand, and lifted up again.\n(B) The dumbbells were lifted up, put downward, transferred to the left hand, and lifted up again.\n(C) The dumbbells were not lifted up but slid to the right side, then transferred to the right hand.\n(D) The dumbbells were lifted halfway up, put downward, and then rolled to the right hand.\n(E) The dumbbells were lifted up, put downward, transferred to the right hand, and set back on the floor.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The dumbbells were lifted up, put downward, transferred to the right hand, and lifted up again."
+    },
+    "correct_idx": [
+        0
+    ]
+}

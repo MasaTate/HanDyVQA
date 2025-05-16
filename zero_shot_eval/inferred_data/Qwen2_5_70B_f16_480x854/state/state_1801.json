@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a lawn with the blower change?",
+    "options": [
+        "The lawn was blown to the side and slightly flattened.",
+        "The lawn was blown upward and scattered.",
+        "The lawn was blown forward and piled up.",
+        "The lawn was blown backward and partially uprooted.",
+        "The lawn was blown down and removed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a lawn with the blower change? Choose **only one** option from the following list.\nOptions:\n(A) The lawn was blown to the side and slightly flattened.\n(B) The lawn was blown upward and scattered.\n(C) The lawn was blown forward and piled up.\n(D) The lawn was blown backward and partially uprooted.\n(E) The lawn was blown down and removed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The lawn was blown down and removed."
+    },
+    "correct_idx": [
+        4
+    ]
+}

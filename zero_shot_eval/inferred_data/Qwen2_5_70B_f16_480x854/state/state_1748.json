@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of another stick change?",
+    "options": [
+        "The stick's length was altered as it was cut into smaller sections for easier handling.",
+        "The stick's orientation was adjusted as it was placed leaning against the wall instead of lying flat on the ground.",
+        "The stick's position was altered as it was picked up and transferred to the other working table.",
+        "The stick's texture was modified as it was sanded to remove the bark.",
+        "The stick's appearance was changed as it was painted with bright colors for decoration."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of another stick change? Choose **only one** option from the following list.\nOptions:\n(A) The stick's length was altered as it was cut into smaller sections for easier handling.\n(B) The stick's orientation was adjusted as it was placed leaning against the wall instead of lying flat on the ground.\n(C) The stick's position was altered as it was picked up and transferred to the other working table.\n(D) The stick's texture was modified as it was sanded to remove the bark.\n(E) The stick's appearance was changed as it was painted with bright colors for decoration.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The stick's position was altered as it was picked up and transferred to the other working table."
+    },
+    "correct_idx": [
+        2
+    ]
+}

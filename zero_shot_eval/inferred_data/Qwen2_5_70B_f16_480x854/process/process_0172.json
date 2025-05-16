@@ -1,0 +1,17 @@
+{
+    "question": "How does the person close the purse?",
+    "options": [
+        "The person uses her right hand to press down on the purse while her left hand offers slight support to close it.",
+        "The person closes the purse by using both hands to gently bring it together with proper support.",
+        "The person holds the purse with her right hand and guides it closed with a gentle flick of her wrist.",
+        "The person uses her left hand to flap the purse shut while her right hand holds it slightly ajar.",
+        "The person flips the purse with her left hand while using her right hand for support to close it securely."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person close the purse? Choose **only one** option from the following list.\nOptions:\n(A) The person uses her right hand to press down on the purse while her left hand offers slight support to close it.\n(B) The person closes the purse by using both hands to gently bring it together with proper support.\n(C) The person holds the purse with her right hand and guides it closed with a gentle flick of her wrist.\n(D) The person uses her left hand to flap the purse shut while her right hand holds it slightly ajar.\n(E) The person flips the purse with her left hand while using her right hand for support to close it securely.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person closes the purse by using both hands to gently bring it together with proper support."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the concrete elevation with the broom change?",
+    "options": [
+        "The concrete elevation was smoothed when the dirt was brushed off with the broom.",
+        "The concrete elevation was reshaped as the edges were cleaned with the broom.",
+        "The concrete elevation was polished when the dust was swept off with the broom.",
+        "The concrete elevation was leveled after the debris was cleared with the broom.",
+        "The concrete elevation was cleared when the leaves were swept off with the broom."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the concrete elevation with the broom change? Choose **only one** option from the following list.\nOptions:\n(A) The concrete elevation was smoothed when the dirt was brushed off with the broom.\n(B) The concrete elevation was reshaped as the edges were cleaned with the broom.\n(C) The concrete elevation was polished when the dust was swept off with the broom.\n(D) The concrete elevation was leveled after the debris was cleared with the broom.\n(E) The concrete elevation was cleared when the leaves were swept off with the broom.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The concrete elevation was cleared when the leaves were swept off with the broom."
+    },
+    "correct_idx": [
+        4
+    ]
+}

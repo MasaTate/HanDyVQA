@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the floor change?",
+    "options": [
+        "The floor was cleaned by mopping it with a cloth to remove the stains.",
+        "The floor was cleaned by scraping off the dirt with the hand and wiping it with a dry cloth.",
+        "The floor was cleaned by scrubbing it with a brush to eliminate the grime.",
+        "The floor was cleaned by polishing it with a cleaner and a microfiber pad.",
+        "The floor was cleaned by sweeping up the dirt with a broom."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the floor change? Choose **only one** option from the following list.\nOptions:\n(A) The floor was cleaned by mopping it with a cloth to remove the stains.\n(B) The floor was cleaned by scraping off the dirt with the hand and wiping it with a dry cloth.\n(C) The floor was cleaned by scrubbing it with a brush to eliminate the grime.\n(D) The floor was cleaned by polishing it with a cleaner and a microfiber pad.\n(E) The floor was cleaned by sweeping up the dirt with a broom.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The floor was cleaned by mopping it with a cloth to remove the stains."
+    },
+    "correct_idx": [
+        1
+    ]
+}

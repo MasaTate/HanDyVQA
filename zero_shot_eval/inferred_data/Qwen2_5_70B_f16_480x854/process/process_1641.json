@@ -1,0 +1,17 @@
+{
+    "question": "How does the person touch a plant?",
+    "options": [
+        "The person reaches out with the left hand, extending the fingers to press against the plant's surface while gently gripping it.",
+        "The person uses the right hand to brush the plant's leaves softly with the palm, keeping the fingers slightly curled.",
+        "The person holds the plant's stem securely with both hands as if to lift it, without aiming for a gentle touch.",
+        "The person touches the plant with a single finger from the right hand, with no additional contact from other parts of the hand.",
+        "The person glides their fingers over the plant's surface using their left hand, applying minimal pressure."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person touch a plant? Choose **only one** option from the following list.\nOptions:\n(A) The person reaches out with the left hand, extending the fingers to press against the plant's surface while gently gripping it.\n(B) The person uses the right hand to brush the plant's leaves softly with the palm, keeping the fingers slightly curled.\n(C) The person holds the plant's stem securely with both hands as if to lift it, without aiming for a gentle touch.\n(D) The person touches the plant with a single finger from the right hand, with no additional contact from other parts of the hand.\n(E) The person glides their fingers over the plant's surface using their left hand, applying minimal pressure.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person reaches out with the left hand, extending the fingers to press against the plant's surface while gently gripping it."
+    },
+    "correct_idx": [
+        0
+    ]
+}

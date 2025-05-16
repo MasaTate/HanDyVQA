@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of another ingredient change?",
+    "options": [
+        "The ingredient was spun to check other ingredients.",
+        "The ingredient was poured into a bowl to be mixed with other ingredients.",
+        "The ingredient was diced into small pieces to blend with other ingredients.",
+        "The ingredient was grated to achieve a finer texture with other ingredients.",
+        "The ingredient was heated in a pan to have its flavor enhanced with other ingredients."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of another ingredient change? Choose **only one** option from the following list.\nOptions:\n(A) The ingredient was spun to check other ingredients.\n(B) The ingredient was poured into a bowl to be mixed with other ingredients.\n(C) The ingredient was diced into small pieces to blend with other ingredients.\n(D) The ingredient was grated to achieve a finer texture with other ingredients.\n(E) The ingredient was heated in a pan to have its flavor enhanced with other ingredients.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The ingredient was spun to check other ingredients."
+    },
+    "correct_idx": [
+        0
+    ]
+}

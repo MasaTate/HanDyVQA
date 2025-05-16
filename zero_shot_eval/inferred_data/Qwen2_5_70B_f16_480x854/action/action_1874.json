@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person gathers large leaves using both hands and gently holds the collected leaves in their left hand.",
+        "The person plucks small flowers using both hands and carefully cradles the collected flowers in their right hand.",
+        "The person trims small flowers using both hands and securely grips the scissors in their right hand while holding the flowers with their left hand.",
+        "The person arranges dried flowers using both hands and delicately places the arranged flowers in a vase with their right hand.",
+        "The person digs small plants from the soil using both hands and firmly holds the discarded plants in their left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person gathers large leaves using both hands and gently holds the collected leaves in their left hand.\n(B) The person plucks small flowers using both hands and carefully cradles the collected flowers in their right hand.\n(C) The person trims small flowers using both hands and securely grips the scissors in their right hand while holding the flowers with their left hand.\n(D) The person arranges dried flowers using both hands and delicately places the arranged flowers in a vase with their right hand.\n(E) The person digs small plants from the soil using both hands and firmly holds the discarded plants in their left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person plucks small flowers using both hands and carefully cradles the collected flowers in their right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

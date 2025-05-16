@@ -1,0 +1,17 @@
+{
+    "question": "How does the person vacuum the debris?",
+    "options": [
+        "The person pushes the vacuum forward with both hands, gently swaying it side to side while moving steadily, ensuring the vacuum glides smoothly over the surface.",
+        "The person operates the vacuum by gripping it with their left hand and moving it smoothly back and forth to effectively clean the debris.",
+        "The person vacuums the debris by holding the vacuum in their right hand and moving it steadily along the surface of the wall, using smooth, upward and downward motions to ensure the debris is effectively removed",
+        "The person turns the vacuum on and moves it carefully across the floor with one hand, making sure to lift the nozzle slightly to capture the debris.",
+        "The person holds the vacuum securely and gently maneuvers it over the surface, ensuring the debris is collected efficiently."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person vacuum the debris? Choose **only one** option from the following list.\nOptions:\n(A) The person pushes the vacuum forward with both hands, gently swaying it side to side while moving steadily, ensuring the vacuum glides smoothly over the surface.\n(B) The person operates the vacuum by gripping it with their left hand and moving it smoothly back and forth to effectively clean the debris.\n(C) The person vacuums the debris by holding the vacuum in their right hand and moving it steadily along the surface of the wall, using smooth, upward and downward motions to ensure the debris is effectively removed\n(D) The person turns the vacuum on and moves it carefully across the floor with one hand, making sure to lift the nozzle slightly to capture the debris.\n(E) The person holds the vacuum securely and gently maneuvers it over the surface, ensuring the debris is collected efficiently.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person vacuums the debris by holding the vacuum in their right hand and moving it steadily along the surface of the wall, using smooth, upward and downward motions to ensure the debris is effectively removed"
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a wire change?",
+    "options": [
+        "The wire was coiled and suspended from the ceiling.",
+        "The wire was straightened out and laid flat on the table.",
+        "The wire was tangled into a knot and left hanging on a hook.",
+        "The wire was displaced and thrown on the floor.",
+        "The wire was cut into shorter segments and placed in a drawer."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a wire change? Choose **only one** option from the following list.\nOptions:\n(A) The wire was coiled and suspended from the ceiling.\n(B) The wire was straightened out and laid flat on the table.\n(C) The wire was tangled into a knot and left hanging on a hook.\n(D) The wire was displaced and thrown on the floor.\n(E) The wire was cut into shorter segments and placed in a drawer.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The wire was displaced and thrown on the floor."
+    },
+    "correct_idx": [
+        3
+    ]
+}

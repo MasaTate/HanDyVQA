@@ -1,0 +1,17 @@
+{
+    "question": "How does the person use the liquid?",
+    "options": [
+        "The person tipped the container to let the liquid pour out, but it spilled onto the floor.",
+        "The person gently held the container and slightly angled it, resulting in only a few drops falling.",
+        "The person moved the container towards the edge of the sink, allowing the liquid to flow out slowly.",
+        "The person poured the liquid by firmly gripping the container with her left hand, tilting it to let the liquid flow while gathering it with her right hand using a cup. After that, she poured the cup from her right hand into the sink.",
+        "The person rotated the container while attempting to catch the liquid with her left hand, which led to a spill."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person use the liquid? Choose **only one** option from the following list.\nOptions:\n(A) The person tipped the container to let the liquid pour out, but it spilled onto the floor.\n(B) The person gently held the container and slightly angled it, resulting in only a few drops falling.\n(C) The person moved the container towards the edge of the sink, allowing the liquid to flow out slowly.\n(D) The person poured the liquid by firmly gripping the container with her left hand, tilting it to let the liquid flow while gathering it with her right hand using a cup. After that, she poured the cup from her right hand into the sink.\n(E) The person rotated the container while attempting to catch the liquid with her left hand, which led to a spill.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person moved the container towards the edge of the sink, allowing the liquid to flow out slowly."
+    },
+    "correct_idx": [
+        3
+    ]
+}

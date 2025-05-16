@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a button change?",
+    "options": [
+        "The button was pressed and held down tightly before it was released.",
+        "The button was rapidly tapped multiple times before it was finally released.",
+        "The button was slightly twisted to the left and then pushed down before it was lifted off.",
+        "The button was touched and then slid sideways before it was returned to its original position.",
+        "The button was pulled up and then pressed down again before it was let go."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a button change? Choose **only one** option from the following list.\nOptions:\n(A) The button was pressed and held down tightly before it was released.\n(B) The button was rapidly tapped multiple times before it was finally released.\n(C) The button was slightly twisted to the left and then pushed down before it was lifted off.\n(D) The button was touched and then slid sideways before it was returned to its original position.\n(E) The button was pulled up and then pressed down again before it was let go.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The button was slightly twisted to the left and then pushed down before it was lifted off."
+    },
+    "correct_idx": [
+        0
+    ]
+}

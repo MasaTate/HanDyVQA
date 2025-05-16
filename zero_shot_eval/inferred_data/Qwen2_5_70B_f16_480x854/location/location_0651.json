@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the first jug in the sink with her gloved right hand?",
+    "options": [
+        "The person slightly rotated the first jug clockwise.",
+        "The person slightly rotated the first jug counterclockwise.",
+        "The person slightly rotated the first jug straight up.",
+        "The person slightly rotated the first jug to the left.",
+        "The person slightly rotated the first jug downwards."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the first jug in the sink with her gloved right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person slightly rotated the first jug clockwise.\n(B) The person slightly rotated the first jug counterclockwise.\n(C) The person slightly rotated the first jug straight up.\n(D) The person slightly rotated the first jug to the left.\n(E) The person slightly rotated the first jug downwards.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person slightly rotated the first jug clockwise."
+    },
+    "correct_idx": [
+        0
+    ]
+}

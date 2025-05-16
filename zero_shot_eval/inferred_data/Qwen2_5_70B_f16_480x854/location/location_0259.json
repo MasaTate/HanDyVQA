@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move a dirt?",
+    "options": [
+        "The person moved the dirt at the left portion of the tray.",
+        "The person moved the dirt at the right portion of the tray.",
+        "The person moved the dirt at the center area of the tray.",
+        "The person moved the dirt at the bottom edge of the tray.",
+        "The person moved the dirt at the top section of the tray."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move a dirt? Choose **only one** option from the following list.\nOptions:\n(A) The person moved the dirt at the left portion of the tray.\n(B) The person moved the dirt at the right portion of the tray.\n(C) The person moved the dirt at the center area of the tray.\n(D) The person moved the dirt at the bottom edge of the tray.\n(E) The person moved the dirt at the top section of the tray.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person moved the dirt at the left portion of the tray."
+    },
+    "correct_idx": [
+        0
+    ]
+}

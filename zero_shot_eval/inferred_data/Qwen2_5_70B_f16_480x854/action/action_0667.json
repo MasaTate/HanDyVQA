@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person holds the page with his left hand while drawing a straight line along the ruler with a pencil in his right hand.",
+        "The person aligns the edge of the page with the ruler using his right hand while holding a marker in his left hand.",
+        "The person lifts the page on the right against the ruler with his right hand.",
+        "The person presses the paper down onto the table with his right hand while trying to cut it straight using scissors in his left hand.",
+        "The person adjusts the position of the ruler on the table with his left hand while tracing a curve on the page with a pen in his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the page with his left hand while drawing a straight line along the ruler with a pencil in his right hand.\n(B) The person aligns the edge of the page with the ruler using his right hand while holding a marker in his left hand.\n(C) The person lifts the page on the right against the ruler with his right hand.\n(D) The person presses the paper down onto the table with his right hand while trying to cut it straight using scissors in his left hand.\n(E) The person adjusts the position of the ruler on the table with his left hand while tracing a curve on the page with a pen in his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person lifts the page on the right against the ruler with his right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

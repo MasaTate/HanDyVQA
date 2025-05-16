@@ -1,0 +1,17 @@
+{
+    "question": "How does the person mix the greens?",
+    "options": [
+        "The person softly tosses the greens in the basket to mix them.",
+        "The person carefully stirs the greens with a spoon in the bowl.",
+        "The person lightly shakes the basket to combine the greens.",
+        "The person gently grabs and mixes the greens using the right hand.",
+        "The person arranges the greens by placing them in even layers."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person mix the greens? Choose **only one** option from the following list.\nOptions:\n(A) The person softly tosses the greens in the basket to mix them.\n(B) The person carefully stirs the greens with a spoon in the bowl.\n(C) The person lightly shakes the basket to combine the greens.\n(D) The person gently grabs and mixes the greens using the right hand.\n(E) The person arranges the greens by placing them in even layers.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person gently grabs and mixes the greens using the right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

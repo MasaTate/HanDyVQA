@@ -1,0 +1,17 @@
+{
+    "question": "How does the person push the shelf basket?",
+    "options": [
+        "The person moves the shelf basket using both hands, placing them firmly at the front while leaning forward to guide it along the path.",
+        "The person nudges the shelf basket from the back with the palm of his hand, using a gentle flicking motion to move it ahead.",
+        "The person pulls the shelf basket by gripping the bottom edge with one hand, guiding it smoothly along the surface.",
+        "The person lifts the shelf basket off the surface with one hand and then places it onto the table without continuing to push it forward.",
+        "The person pushes the shelf basket by placing his right hand on the side of the basket, applying forward pressure while keeping his arm slightly extended to guide it smoothly along the surface."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person push the shelf basket? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the shelf basket using both hands, placing them firmly at the front while leaning forward to guide it along the path.\n(B) The person nudges the shelf basket from the back with the palm of his hand, using a gentle flicking motion to move it ahead.\n(C) The person pulls the shelf basket by gripping the bottom edge with one hand, guiding it smoothly along the surface.\n(D) The person lifts the shelf basket off the surface with one hand and then places it onto the table without continuing to push it forward.\n(E) The person pushes the shelf basket by placing his right hand on the side of the basket, applying forward pressure while keeping his arm slightly extended to guide it smoothly along the surface.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person pushes the shelf basket by placing his right hand on the side of the basket, applying forward pressure while keeping his arm slightly extended to guide it smoothly along the surface."
+    },
+    "correct_idx": [
+        4
+    ]
+}

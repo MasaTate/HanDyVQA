@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the toothbrush change?",
+    "options": [
+        "The toothbrush became wet when it was dipped into the basin of water.",
+        "The toothbrush became stained when it was used on a colored surface.",
+        "The toothbrush became worn out after it was used for an extended period.",
+        "The toothbrush became hard when it was left in the sun to dry.",
+        "The toothbrush became dirty after it was dropped on the bathroom floor."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the toothbrush change? Choose **only one** option from the following list.\nOptions:\n(A) The toothbrush became wet when it was dipped into the basin of water.\n(B) The toothbrush became stained when it was used on a colored surface.\n(C) The toothbrush became worn out after it was used for an extended period.\n(D) The toothbrush became hard when it was left in the sun to dry.\n(E) The toothbrush became dirty after it was dropped on the bathroom floor.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The toothbrush became wet when it was dipped into the basin of water."
+    },
+    "correct_idx": [
+        0
+    ]
+}

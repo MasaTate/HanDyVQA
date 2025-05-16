@@ -1,0 +1,17 @@
+{
+    "question": "How does the person activate the cutting implement?",
+    "options": [
+        "The person activates the cutting implement by gripping the activation mechanism with their right hand and pressing it down to engage the tool.",
+        "The person lifts the cutting implement with both hands and shakes it slightly to engage the tool.",
+        "The person holds the cutting implement with their left hand and turns the activation mechanism to start it.",
+        "The person gently taps the cutting implement on the table with their fingers to activate its function.",
+        "The person presses down on the cutting implement with the palm of their left hand and engages the mechanism."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person activate the cutting implement? Choose **only one** option from the following list.\nOptions:\n(A) The person activates the cutting implement by gripping the activation mechanism with their right hand and pressing it down to engage the tool.\n(B) The person lifts the cutting implement with both hands and shakes it slightly to engage the tool.\n(C) The person holds the cutting implement with their left hand and turns the activation mechanism to start it.\n(D) The person gently taps the cutting implement on the table with their fingers to activate its function.\n(E) The person presses down on the cutting implement with the palm of their left hand and engages the mechanism.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person activates the cutting implement by gripping the activation mechanism with their right hand and pressing it down to engage the tool."
+    },
+    "correct_idx": [
+        0
+    ]
+}

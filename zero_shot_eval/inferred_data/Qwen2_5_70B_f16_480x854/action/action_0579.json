@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person set the wrench on the toolbox while holding a hammer in his right hand and retrieved a drill from his pocket with his left hand.",
+        "The person placed the screwdriver on the car lifter while holding nosepliers and passed into his right hand, and picked some tools from his pocket with his left hand.",
+        "The person balanced the screwdriver on the workbench while using a pair of scissors in his right hand and pulled some screws from his pocket with his left hand.",
+        "The person laid the pliers on the floor while clutching a chisel in his right hand and took a flashlight from his pocket with his left hand.",
+        "The person positioned the screwdriver on the ground while grasping a saw in his right hand and grabbed a level tool from his pocket with his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person set the wrench on the toolbox while holding a hammer in his right hand and retrieved a drill from his pocket with his left hand.\n(B) The person placed the screwdriver on the car lifter while holding nosepliers and passed into his right hand, and picked some tools from his pocket with his left hand.\n(C) The person balanced the screwdriver on the workbench while using a pair of scissors in his right hand and pulled some screws from his pocket with his left hand.\n(D) The person laid the pliers on the floor while clutching a chisel in his right hand and took a flashlight from his pocket with his left hand.\n(E) The person positioned the screwdriver on the ground while grasping a saw in his right hand and grabbed a level tool from his pocket with his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person placed the screwdriver on the car lifter while holding nosepliers and passed into his right hand, and picked some tools from his pocket with his left hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

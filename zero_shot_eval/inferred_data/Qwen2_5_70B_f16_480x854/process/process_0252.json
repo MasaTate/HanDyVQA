@@ -1,0 +1,17 @@
+{
+    "question": "How does the person carry the chainsaw?",
+    "options": [
+        "The person holds the chainsaw in their right hand, gripping the handle securely, and positions the blade upward to keep it steady and ready for cutting.",
+        "The person picks up the chainsaw with both hands, ensuring the blade is pointed downwards to maintain stability while moving.",
+        "The person balances the chainsaw on their shoulder, holding it with one hand at the top and the other hand supporting the base.",
+        "The person grasps the chainsaw by the motor casing with one hand, allowing the blade to hang freely as they proceed.",
+        "The person carries the chainsaw horizontally, gripping the front handle with one hand and the rear handle with the other, with the blade facing sideways."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person carry the chainsaw? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the chainsaw in their right hand, gripping the handle securely, and positions the blade upward to keep it steady and ready for cutting.\n(B) The person picks up the chainsaw with both hands, ensuring the blade is pointed downwards to maintain stability while moving.\n(C) The person balances the chainsaw on their shoulder, holding it with one hand at the top and the other hand supporting the base.\n(D) The person grasps the chainsaw by the motor casing with one hand, allowing the blade to hang freely as they proceed.\n(E) The person carries the chainsaw horizontally, gripping the front handle with one hand and the rear handle with the other, with the blade facing sideways.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person holds the chainsaw in their right hand, gripping the handle securely, and positions the blade upward to keep it steady and ready for cutting."
+    },
+    "correct_idx": [
+        0
+    ]
+}

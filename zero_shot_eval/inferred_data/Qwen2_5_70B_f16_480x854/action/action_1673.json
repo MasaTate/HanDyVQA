@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person tightens the right shoe with the left hand first, followed by the right hand.",
+        "The person removes the left shoe with the right hand first, then switches to the left hand.",
+        "The person ties the right shoe with both hands simultaneously.",
+        "The person adjusts the left shoe with the right hand while holding the shoe with the left hand.",
+        "The person unstraps the right shoe with the left hand first, followed by the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person tightens the right shoe with the left hand first, followed by the right hand.\n(B) The person removes the left shoe with the right hand first, then switches to the left hand.\n(C) The person ties the right shoe with both hands simultaneously.\n(D) The person adjusts the left shoe with the right hand while holding the shoe with the left hand.\n(E) The person unstraps the right shoe with the left hand first, followed by the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person unstraps the right shoe with the left hand first, followed by the right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

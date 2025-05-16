@@ -1,0 +1,17 @@
+{
+    "question": "How does the person remove the screw driver from the bolt?",
+    "options": [
+        "The person tugs the screwdriver out of the bolt with minimal twisting, relying primarily on arm strength.",
+        "The person pulls the screwdriver out of the bolt with slight rotation, focusing mainly on pulling the handle.",
+        "The person rotates the screwdriver slightly before trying to remove it from the bolt.",
+        "The person removes the screwdriver from the bolt by twisting it and pulling it out.",
+        "The person raises the screwdriver with an upward motion, gently working against the bolt."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person remove the screw driver from the bolt? Choose **only one** option from the following list.\nOptions:\n(A) The person tugs the screwdriver out of the bolt with minimal twisting, relying primarily on arm strength.\n(B) The person pulls the screwdriver out of the bolt with slight rotation, focusing mainly on pulling the handle.\n(C) The person rotates the screwdriver slightly before trying to remove it from the bolt.\n(D) The person removes the screwdriver from the bolt by twisting it and pulling it out.\n(E) The person raises the screwdriver with an upward motion, gently working against the bolt.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person removes the screwdriver from the bolt by twisting it and pulling it out."
+    },
+    "correct_idx": [
+        3
+    ]
+}

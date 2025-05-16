@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the eggplant skins with the knife change?",
+    "options": [
+        "The eggplant bottom edge skins were partially peeled with the knife.",
+        "The eggplant top edge skins were peeled with the knife.",
+        "The eggplant skins were fully removed using a back-and-forth motion of the knife.",
+        "The eggplant was cut in half before the top edge skins were peeled with the knife.",
+        "The eggplant top edges were scored but left unpeeled with the knife."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the eggplant skins with the knife change? Choose **only one** option from the following list.\nOptions:\n(A) The eggplant bottom edge skins were partially peeled with the knife.\n(B) The eggplant top edge skins were peeled with the knife.\n(C) The eggplant skins were fully removed using a back-and-forth motion of the knife.\n(D) The eggplant was cut in half before the top edge skins were peeled with the knife.\n(E) The eggplant top edges were scored but left unpeeled with the knife.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The eggplant bottom edge skins were partially peeled with the knife."
+    },
+    "correct_idx": [
+        1
+    ]
+}

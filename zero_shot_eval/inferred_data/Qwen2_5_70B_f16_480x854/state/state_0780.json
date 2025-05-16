@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the napkin change?",
+    "options": [
+        "The napkin was crumpled into a tight ball and left wrinkled.",
+        "The napkin was soaked in water and left on the corner.",
+        "The napkin was burned and turned into ashes.",
+        "The napkin was folded into a decorative shape and left stiff.",
+        "The napkin was stained with ink and showed dark blotches."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the napkin change? Choose **only one** option from the following list.\nOptions:\n(A) The napkin was crumpled into a tight ball and left wrinkled.\n(B) The napkin was soaked in water and left on the corner.\n(C) The napkin was burned and turned into ashes.\n(D) The napkin was folded into a decorative shape and left stiff.\n(E) The napkin was stained with ink and showed dark blotches.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The napkin was soaked in water and left on the corner."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person turn the leaf with left hand?",
+    "options": [
+        "The person turned the leaf slightly sideways with the palm of his left hand.",
+        "The person reached forward and nudged the leaf gently with his right elbow.",
+        "The person held the leaf closely and moved it with both hands.",
+        "The person lifted the leaf and smoothly rotated it while resting it against his forearm.",
+        "The person flipped the leaf using his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person turn the leaf with left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person turned the leaf slightly sideways with the palm of his left hand.\n(B) The person reached forward and nudged the leaf gently with his right elbow.\n(C) The person held the leaf closely and moved it with both hands.\n(D) The person lifted the leaf and smoothly rotated it while resting it against his forearm.\n(E) The person flipped the leaf using his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person flipped the leaf using his left hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person take dough?",
+    "options": [
+        "The person grabs the dough with his right hand and starts to lift it before shifting it to his left hand.",
+        "The person scoops the dough with his right hand and then comfortably moves it to his left hand.",
+        "The person takes the dough with his right hand from the machine and passes it to his left hand, and puts it on the table.",
+        "The person uses his left hand to take a portion of dough and carefully pulls it away from the rest.",
+        "The person rolls the dough smoothly using his left hand, starting with a gentle grip from the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person take dough? Choose **only one** option from the following list.\nOptions:\n(A) The person grabs the dough with his right hand and starts to lift it before shifting it to his left hand.\n(B) The person scoops the dough with his right hand and then comfortably moves it to his left hand.\n(C) The person takes the dough with his right hand from the machine and passes it to his left hand, and puts it on the table.\n(D) The person uses his left hand to take a portion of dough and carefully pulls it away from the rest.\n(E) The person rolls the dough smoothly using his left hand, starting with a gentle grip from the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person takes the dough with his right hand from the machine and passes it to his left hand, and puts it on the table."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is cleaning the cloth, using the right hand to tap the dirt off, then reaching for the blow gun and using it on the cloth.",
+        "The person is scrubbing the cloth, using their right hand to rub it clean, then picking up a spray bottle and applying it to the cloth.",
+        "The person is folding the cloth, using their right hand to flatten out wrinkles, then taking a pair of scissors to cut it into smaller sections.",
+        "The person is ironing the cloth, using their right hand to operate the iron, then flipping a switch to power it on while securing the cloth with their left hand.",
+        "The person is dragging the cloth across a table, using their right hand to move it along, then grabbing a sponge to wipe off the surface underneath."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is cleaning the cloth, using the right hand to tap the dirt off, then reaching for the blow gun and using it on the cloth.\n(B) The person is scrubbing the cloth, using their right hand to rub it clean, then picking up a spray bottle and applying it to the cloth.\n(C) The person is folding the cloth, using their right hand to flatten out wrinkles, then taking a pair of scissors to cut it into smaller sections.\n(D) The person is ironing the cloth, using their right hand to operate the iron, then flipping a switch to power it on while securing the cloth with their left hand.\n(E) The person is dragging the cloth across a table, using their right hand to move it along, then grabbing a sponge to wipe off the surface underneath.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person is cleaning the cloth, using the right hand to tap the dirt off, then reaching for the blow gun and using it on the cloth."
+    },
+    "correct_idx": [
+        0
+    ]
+}

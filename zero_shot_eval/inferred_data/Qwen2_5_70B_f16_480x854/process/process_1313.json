@@ -1,0 +1,17 @@
+{
+    "question": "How does the person put the socks?",
+    "options": [
+        "The person tosses the socks by picking them up with the right hand and gently throwing them across the room.",
+        "The person picks up the socks with both hands and smoothly places them into a nearby basket.",
+        "The person scrunches the socks in the right hand and softly drops them onto the bed without changing their position.",
+        "The person grabs a sock with the left hand while slightly nudging the other sock under a chair with the right hand.",
+        "The person puts the socks by picking them up from the floor with the right hand, then moving the right hand to the left side to switch the socks to the left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person put the socks? Choose **only one** option from the following list.\nOptions:\n(A) The person tosses the socks by picking them up with the right hand and gently throwing them across the room.\n(B) The person picks up the socks with both hands and smoothly places them into a nearby basket.\n(C) The person scrunches the socks in the right hand and softly drops them onto the bed without changing their position.\n(D) The person grabs a sock with the left hand while slightly nudging the other sock under a chair with the right hand.\n(E) The person puts the socks by picking them up from the floor with the right hand, then moving the right hand to the left side to switch the socks to the left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person puts the socks by picking them up from the floor with the right hand, then moving the right hand to the left side to switch the socks to the left hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

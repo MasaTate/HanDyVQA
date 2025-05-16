@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the remote?",
+    "options": [
+        "The person moved the remote by grabbing it with one hand.",
+        "The person moved the remote by picking it up with two fingers.",
+        "The person moved the remote by sliding it off the table with one hand.",
+        "The person moved the remote by tossing it onto the couch.",
+        "The person moved the remote by taking it with both hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the remote? Choose **only one** option from the following list.\nOptions:\n(A) The person moved the remote by grabbing it with one hand.\n(B) The person moved the remote by picking it up with two fingers.\n(C) The person moved the remote by sliding it off the table with one hand.\n(D) The person moved the remote by tossing it onto the couch.\n(E) The person moved the remote by taking it with both hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person moved the remote by grabbing it with one hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

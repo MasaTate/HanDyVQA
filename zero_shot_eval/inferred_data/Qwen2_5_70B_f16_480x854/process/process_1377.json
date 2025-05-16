@@ -1,0 +1,17 @@
+{
+    "question": "How does the person measure the long thin stick?",
+    "options": [
+        "The person holds the long thin stick in place with the left hand while pressing the ruler down firmly with the right hand to measure it.",
+        "The person uses the steel ruler to gently measure the long thin stick by applying some compression from the right hand.",
+        "The person carefully balances the long thin stick on the edge of the table and uses the ruler to measure its length with sight from above.",
+        "The person grips the long thin stick steadily with both hands and places the ruler onto it to get a measurement.",
+        "The person turns the long thin stick gently between the fingers of the right hand while smoothly sliding the ruler along its length."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person measure the long thin stick? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the long thin stick in place with the left hand while pressing the ruler down firmly with the right hand to measure it.\n(B) The person uses the steel ruler to gently measure the long thin stick by applying some compression from the right hand.\n(C) The person carefully balances the long thin stick on the edge of the table and uses the ruler to measure its length with sight from above.\n(D) The person grips the long thin stick steadily with both hands and places the ruler onto it to get a measurement.\n(E) The person turns the long thin stick gently between the fingers of the right hand while smoothly sliding the ruler along its length.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person holds the long thin stick in place with the left hand while pressing the ruler down firmly with the right hand to measure it."
+    },
+    "correct_idx": [
+        1
+    ]
+}

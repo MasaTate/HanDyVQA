@@ -1,0 +1,17 @@
+{
+    "question": "How does the person throw the basketball?",
+    "options": [
+        "The person grips the basketball with both hands, then extends both arms forward, releasing the ball with a strong push but less controlled motion.",
+        "The person holds the basketball in his left hand, raises it above his head, and lets it fall towards the floor with a more vertical motion.",
+        "The person holds the basketball with his right hand, then extends his arm forward while flicking his wrist to release the ball in a smooth, controlled motion.",
+        "The person clutches the basketball with one hand and moves his arm backward before sending it in an unsteady direction across the court.",
+        "The person balances the basketball on his fingertips, turns his body slightly, and moves his fingers to guide the ball smoothly along the floor."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person throw the basketball? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the basketball with both hands, then extends both arms forward, releasing the ball with a strong push but less controlled motion.\n(B) The person holds the basketball in his left hand, raises it above his head, and lets it fall towards the floor with a more vertical motion.\n(C) The person holds the basketball with his right hand, then extends his arm forward while flicking his wrist to release the ball in a smooth, controlled motion.\n(D) The person clutches the basketball with one hand and moves his arm backward before sending it in an unsteady direction across the court.\n(E) The person balances the basketball on his fingertips, turns his body slightly, and moves his fingers to guide the ball smoothly along the floor.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person holds the basketball with his right hand, then extends his arm forward while flicking his wrist to release the ball in a smooth, controlled motion."
+    },
+    "correct_idx": [
+        2
+    ]
+}

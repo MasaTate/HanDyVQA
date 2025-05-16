@@ -1,0 +1,17 @@
+{
+    "question": "How does the person rinse his left hand?",
+    "options": [
+        "The person splashes water onto his left hand while holding it slightly away from the faucet, trying to rinse effectively.",
+        "The person uses a damp cloth to gently clean his left hand, opting not to use water from the faucet.",
+        "The person rinses his left hand by placing it under a running faucet in the sink, allowing the water to flow over their hand to remove any residue or dirt.",
+        "The person dips his left hand into a bowl of water instead of placing it under the running faucet.",
+        "The person uses a spray bottle to apply water onto his left hand rather than using the running faucet."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person rinse his left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person splashes water onto his left hand while holding it slightly away from the faucet, trying to rinse effectively.\n(B) The person uses a damp cloth to gently clean his left hand, opting not to use water from the faucet.\n(C) The person rinses his left hand by placing it under a running faucet in the sink, allowing the water to flow over their hand to remove any residue or dirt.\n(D) The person dips his left hand into a bowl of water instead of placing it under the running faucet.\n(E) The person uses a spray bottle to apply water onto his left hand rather than using the running faucet.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person rinses his left hand by placing it under a running faucet in the sink, allowing the water to flow over their hand to remove any residue or dirt."
+    },
+    "correct_idx": [
+        2
+    ]
+}

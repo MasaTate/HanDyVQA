@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the punch change?",
+    "options": [
+        "The punch was hit on the top with a hammer without movement or rotation.",
+        "The punch was hit on the side with a hammer, resulting in a tilt.",
+        "The punch was tapped on the top with a hammer, resulting in a slight shift to the right.",
+        "The punch was struck with a hammer at an angle, resulting in a rotation.",
+        "The punch was tapped on the top with a hammer, resulting in a slight shift to the left."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the punch change? Choose **only one** option from the following list.\nOptions:\n(A) The punch was hit on the top with a hammer without movement or rotation.\n(B) The punch was hit on the side with a hammer, resulting in a tilt.\n(C) The punch was tapped on the top with a hammer, resulting in a slight shift to the right.\n(D) The punch was struck with a hammer at an angle, resulting in a rotation.\n(E) The punch was tapped on the top with a hammer, resulting in a slight shift to the left.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The punch was tapped on the top with a hammer, resulting in a slight shift to the right."
+    },
+    "correct_idx": [
+        0
+    ]
+}

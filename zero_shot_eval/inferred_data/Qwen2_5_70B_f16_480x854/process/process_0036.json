@@ -1,0 +1,17 @@
+{
+    "question": "How does the person take a knife?",
+    "options": [
+        "The person uses both hands to hold the knife securely in the middle.",
+        "The person slides the knife towards himself on the table with one finger gently.",
+        "The person takes the knife by the handle using his left hand.",
+        "The person picks up the knife with his right hand carefully.",
+        "The person grabs the knife by the blade with caution using one hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person take a knife? Choose **only one** option from the following list.\nOptions:\n(A) The person uses both hands to hold the knife securely in the middle.\n(B) The person slides the knife towards himself on the table with one finger gently.\n(C) The person takes the knife by the handle using his left hand.\n(D) The person picks up the knife with his right hand carefully.\n(E) The person grabs the knife by the blade with caution using one hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person picks up the knife with his right hand carefully."
+    },
+    "correct_idx": [
+        2
+    ]
+}

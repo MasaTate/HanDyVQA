@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the left hand?",
+    "options": [
+        "The person placed the left hand in the bottom right corner of the open book.",
+        "The person placed the left hand in the top right corner of the open book.",
+        "The person placed the left hand in the top center of the open book.",
+        "The person placed the left hand in the bottom left corner of the open book.",
+        "The person placed the left hand in the middle of the closed book."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the left hand in the bottom right corner of the open book.\n(B) The person placed the left hand in the top right corner of the open book.\n(C) The person placed the left hand in the top center of the open book.\n(D) The person placed the left hand in the bottom left corner of the open book.\n(E) The person placed the left hand in the middle of the closed book.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person placed the left hand in the top center of the open book."
+    },
+    "correct_idx": [
+        2
+    ]
+}

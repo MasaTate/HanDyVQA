@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person tears the sheet of paper-like material using both her hands.",
+        "The person crumples the sheet of paper-like material using both her hands.",
+        "The person folds the sheet of paper-like material using both her hands.",
+        "The person attaches the sheet of paper-like material to a surface using both her hands.",
+        "The person divides the sheet of paper-like material into smaller pieces using both her hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person tears the sheet of paper-like material using both her hands.\n(B) The person crumples the sheet of paper-like material using both her hands.\n(C) The person folds the sheet of paper-like material using both her hands.\n(D) The person attaches the sheet of paper-like material to a surface using both her hands.\n(E) The person divides the sheet of paper-like material into smaller pieces using both her hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person folds the sheet of paper-like material using both her hands."
+    },
+    "correct_idx": [
+        2
+    ]
+}

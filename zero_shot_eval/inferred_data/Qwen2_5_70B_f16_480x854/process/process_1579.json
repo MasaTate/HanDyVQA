@@ -1,0 +1,17 @@
+{
+    "question": "How does the person grab a plate?",
+    "options": [
+        "The person holds the plate from the bottom with both hands, applying a gentle grip before smoothly lifting it.",
+        "The person uses their left hand to position their fingers around the center of the plate, lifting it carefully.",
+        "The person uses their right hand, positioning their fingers and thumb around the edge of the plate, then squeezes gently to securely grip it and lift it.",
+        "The person places their entire right hand under the plate, applying slight pressure to smoothly pick it up.",
+        "The person uses their index finger around the rim while the thumb supports the underside, lifting it gently."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person grab a plate? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the plate from the bottom with both hands, applying a gentle grip before smoothly lifting it.\n(B) The person uses their left hand to position their fingers around the center of the plate, lifting it carefully.\n(C) The person uses their right hand, positioning their fingers and thumb around the edge of the plate, then squeezes gently to securely grip it and lift it.\n(D) The person places their entire right hand under the plate, applying slight pressure to smoothly pick it up.\n(E) The person uses their index finger around the rim while the thumb supports the underside, lifting it gently.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person uses their right hand, positioning their fingers and thumb around the edge of the plate, then squeezes gently to securely grip it and lift it."
+    },
+    "correct_idx": [
+        2
+    ]
+}

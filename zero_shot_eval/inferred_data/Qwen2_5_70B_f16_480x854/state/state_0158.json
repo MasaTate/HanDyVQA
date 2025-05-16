@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the sponge change?",
+    "options": [
+        "The sponge was slid from the middle of the wall towards the corner, leaving the wall cleaner.",
+        "The sponge was slid from top to bottom of the wall, clearing the wall.",
+        "The sponge was slid from left to right on the wall, cleaning the wall.",
+        "The sponge was slid in a circular motion on the wall, making the wall cleaner.",
+        "The sponge was slid from the corner towards the middle of the wall, cleaning the wall."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the sponge change? Choose **only one** option from the following list.\nOptions:\n(A) The sponge was slid from the middle of the wall towards the corner, leaving the wall cleaner.\n(B) The sponge was slid from top to bottom of the wall, clearing the wall.\n(C) The sponge was slid from left to right on the wall, cleaning the wall.\n(D) The sponge was slid in a circular motion on the wall, making the wall cleaner.\n(E) The sponge was slid from the corner towards the middle of the wall, cleaning the wall.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The sponge was slid from the corner towards the middle of the wall, cleaning the wall."
+    },
+    "correct_idx": [
+        4
+    ]
+}

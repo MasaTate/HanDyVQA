@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the tissue?",
+    "options": [
+        "The person moves the tissue outside the machine parts with the right hand to wipe it down.",
+        "The person moves the tissue beside the machine on the table with the right hand to organize it.",
+        "The person moves the tissue underneath the machine with the right hand to store it away.",
+        "The person moves the tissue inside the machine parts with the right hand to clean it. ",
+        "The person moves the tissue above the machine on the shelf with the right hand to keep it handy."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the tissue? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the tissue outside the machine parts with the right hand to wipe it down.\n(B) The person moves the tissue beside the machine on the table with the right hand to organize it.\n(C) The person moves the tissue underneath the machine with the right hand to store it away.\n(D) The person moves the tissue inside the machine parts with the right hand to clean it. \n(E) The person moves the tissue above the machine on the shelf with the right hand to keep it handy.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person moves the tissue inside the machine parts with the right hand to clean it."
+    },
+    "correct_idx": [
+        3
+    ]
+}

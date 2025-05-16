@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person places the potato down on the counter with her left hand while using her right hand to handle another potato.",
+        "The person picks up the potato with her left hand while setting down a knife onto the cutting board from her right hand.",
+        "The person holds the potato lightly in her left hand while using her right hand to manage another potato.",
+        "The person takes out the potato from the plastic bag using her hands and then puts it on the chopping board.",
+        "The person rolls the potato across the table with her left hand while holding a utensil in her right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person places the potato down on the counter with her left hand while using her right hand to handle another potato.\n(B) The person picks up the potato with her left hand while setting down a knife onto the cutting board from her right hand.\n(C) The person holds the potato lightly in her left hand while using her right hand to manage another potato.\n(D) The person takes out the potato from the plastic bag using her hands and then puts it on the chopping board.\n(E) The person rolls the potato across the table with her left hand while holding a utensil in her right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person takes out the potato from the plastic bag using her hands and then puts it on the chopping board."
+    },
+    "correct_idx": [
+        3
+    ]
+}

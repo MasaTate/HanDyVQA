@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the bolt?",
+    "options": [
+        "The person places the bolt back into the organizer toolbox.",
+        "The person places the bolt onto the workbench next to the organizer toolbox.",
+        "The person places the bolt into the drawer of the desk.",
+        "The person places the bolt on the shelf above the organizer toolbox.",
+        "The person places the bolt behind the organizer toolbox."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the bolt? Choose **only one** option from the following list.\nOptions:\n(A) The person places the bolt back into the organizer toolbox.\n(B) The person places the bolt onto the workbench next to the organizer toolbox.\n(C) The person places the bolt into the drawer of the desk.\n(D) The person places the bolt on the shelf above the organizer toolbox.\n(E) The person places the bolt behind the organizer toolbox.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person places the bolt back into the organizer toolbox."
+    },
+    "correct_idx": [
+        0
+    ]
+}

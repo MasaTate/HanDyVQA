@@ -1,0 +1,17 @@
+{
+    "question": "How does the person operate the cooker?",
+    "options": [
+        "The person turned on the cooker by pressing the power switch with his right hand while steadily adjusting the temperature dial with his fingers.",
+        "The person operated the cooker by using his left hand to firmly press the power switch and then rotating the temperature dial.",
+        "The person activated the cooker by smoothly sliding his hand across the control panel and mistakenly touching the timer along with the power switch.",
+        "The person operated the cooker by pressing down the power switch with his palm while moving the temperature dial using his elbow.",
+        "The person switched on the cooker by holding the temperature dial with both hands and pulling it gently while managing to press the power switch."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person operate the cooker? Choose **only one** option from the following list.\nOptions:\n(A) The person turned on the cooker by pressing the power switch with his right hand while steadily adjusting the temperature dial with his fingers.\n(B) The person operated the cooker by using his left hand to firmly press the power switch and then rotating the temperature dial.\n(C) The person activated the cooker by smoothly sliding his hand across the control panel and mistakenly touching the timer along with the power switch.\n(D) The person operated the cooker by pressing down the power switch with his palm while moving the temperature dial using his elbow.\n(E) The person switched on the cooker by holding the temperature dial with both hands and pulling it gently while managing to press the power switch.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person operated the cooker by using his left hand to firmly press the power switch and then rotating the temperature dial."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person transfer the joined planks?",
+    "options": [
+        "The person grips the joined planks with their right hand, lifts them slightly, and then shifts them to their left hand for support before completing the transfer.",
+        "The person picks up the joined planks with both hands, raises them gently, and places them onto the nearby table.",
+        "The person smoothly slides the joined planks across the surface with one hand before lifting them.",
+        "The person holds the joined planks closely in one hand and moves them around before passing them to the other hand.",
+        "The person balances the joined planks on one knee and then shifts them to their other hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person transfer the joined planks? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the joined planks with their right hand, lifts them slightly, and then shifts them to their left hand for support before completing the transfer.\n(B) The person picks up the joined planks with both hands, raises them gently, and places them onto the nearby table.\n(C) The person smoothly slides the joined planks across the surface with one hand before lifting them.\n(D) The person holds the joined planks closely in one hand and moves them around before passing them to the other hand.\n(E) The person balances the joined planks on one knee and then shifts them to their other hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person picks up the joined planks with both hands, raises them gently, and places them onto the nearby table."
+    },
+    "correct_idx": [
+        0
+    ]
+}

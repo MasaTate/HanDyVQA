@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person twists the rod in his left hand using the wrench in his right hand.",
+        "The person pushes the rod in his left hand with the hammer in his right hand.",
+        "The person grips the rod in his left hand while prying it apart with the screwdriver in his right hand.",
+        "The person hits the rod in his left hand using the spanner in his right hand.",
+        "The person pulls the rod in his left hand using the pliers in his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person twists the rod in his left hand using the wrench in his right hand.\n(B) The person pushes the rod in his left hand with the hammer in his right hand.\n(C) The person grips the rod in his left hand while prying it apart with the screwdriver in his right hand.\n(D) The person hits the rod in his left hand using the spanner in his right hand.\n(E) The person pulls the rod in his left hand using the pliers in his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person grips the rod in his left hand while prying it apart with the screwdriver in his right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

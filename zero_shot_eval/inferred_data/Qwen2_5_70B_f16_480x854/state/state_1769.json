@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the nail change?",
+    "options": [
+        "The nail was pulled out of the wood.",
+        "The nail was twisted into the wood.",
+        "The nail was bent sideways against the wood.",
+        "The nail was removed from the wood with pliers.",
+        "The nail was hammered into the wood."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the nail change? Choose **only one** option from the following list.\nOptions:\n(A) The nail was pulled out of the wood.\n(B) The nail was twisted into the wood.\n(C) The nail was bent sideways against the wood.\n(D) The nail was removed from the wood with pliers.\n(E) The nail was hammered into the wood.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The nail was twisted into the wood."
+    },
+    "correct_idx": [
+        4
+    ]
+}

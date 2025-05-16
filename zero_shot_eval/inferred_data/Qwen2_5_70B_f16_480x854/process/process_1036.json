@@ -1,0 +1,17 @@
+{
+    "question": "How does the person drink the cup of coffee?",
+    "options": [
+        "The person tilts the cup of coffee slightly, accidentally spilling some as he attempts to drink with both hands.",
+        "The person grabs the cup of coffee with his left hand, gently holding it as he brings it to his lips.",
+        "The person uses one hand to bring the cup towards his mouth without fully lifting it off the table.",
+        "The person raises the cup of coffee slightly and attempts to drink it from an unusual angle.",
+        "The person lifts the cup of coffee with his right hand, holding it tightly before taking a sip."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person drink the cup of coffee? Choose **only one** option from the following list.\nOptions:\n(A) The person tilts the cup of coffee slightly, accidentally spilling some as he attempts to drink with both hands.\n(B) The person grabs the cup of coffee with his left hand, gently holding it as he brings it to his lips.\n(C) The person uses one hand to bring the cup towards his mouth without fully lifting it off the table.\n(D) The person raises the cup of coffee slightly and attempts to drink it from an unusual angle.\n(E) The person lifts the cup of coffee with his right hand, holding it tightly before taking a sip.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person lifts the cup of coffee with his right hand, holding it tightly before taking a sip."
+    },
+    "correct_idx": [
+        4
+    ]
+}

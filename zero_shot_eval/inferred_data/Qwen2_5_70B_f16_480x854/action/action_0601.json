@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person pushes the drawer with her right hand and removes two bottles, grasping them with her left hand. Then she opens the cabinet with her right hand.",
+        "The person lifts the drawer with her right hand and sets down two bottles, holding one with her right hand and one with her left hand. Then she leaves the cabinet open with her right hand.",
+        "The person slides the drawer to the side with her right hand and takes out two cans, holding them with both hands. Then she locks the cabinet with her left hand.",
+        "The person pulls the drawer with her right hand and places two bottles, holding them with both hands. Then she closes the cabinet with her left hand.",
+        "The person opens the cabinet door with her right hand while removing two bottles from the shelf using both hands. Then she pulls the drawer shut with her left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person pushes the drawer with her right hand and removes two bottles, grasping them with her left hand. Then she opens the cabinet with her right hand.\n(B) The person lifts the drawer with her right hand and sets down two bottles, holding one with her right hand and one with her left hand. Then she leaves the cabinet open with her right hand.\n(C) The person slides the drawer to the side with her right hand and takes out two cans, holding them with both hands. Then she locks the cabinet with her left hand.\n(D) The person pulls the drawer with her right hand and places two bottles, holding them with both hands. Then she closes the cabinet with her left hand.\n(E) The person opens the cabinet door with her right hand while removing two bottles from the shelf using both hands. Then she pulls the drawer shut with her left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person pulls the drawer with her right hand and places two bottles, holding them with both hands. Then she closes the cabinet with her left hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

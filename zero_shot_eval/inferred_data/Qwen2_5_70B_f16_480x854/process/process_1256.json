@@ -1,0 +1,17 @@
+{
+    "question": "How does the person hit the switch box?",
+    "options": [
+        "The person gently struck the switch box with his right fist.",
+        "The person tapped the switch box gently with his fingertips from the right hand.",
+        "The person lightly hits the switch box using his left hand.",
+        "The person pressed the switch box softly with the palm of his left hand.",
+        "The person brushed the switch box slightly with the back of his hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person hit the switch box? Choose **only one** option from the following list.\nOptions:\n(A) The person gently struck the switch box with his right fist.\n(B) The person tapped the switch box gently with his fingertips from the right hand.\n(C) The person lightly hits the switch box using his left hand.\n(D) The person pressed the switch box softly with the palm of his left hand.\n(E) The person brushed the switch box slightly with the back of his hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person lightly hits the switch box using his left hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

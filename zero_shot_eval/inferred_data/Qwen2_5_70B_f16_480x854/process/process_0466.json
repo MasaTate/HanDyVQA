@@ -1,0 +1,17 @@
+{
+    "question": "How does the person rub the apple?",
+    "options": [
+        "The person rotates the apple in a circular motion with his left hand, gently polishing it to create a shiny surface before placing it on the counter.",
+        "The person moves his right hand in a vertical motion up and down on the apple, pressing lightly but not coating it with any substance before setting it aside.",
+        "The person gives the apple a gentle shake in his left hand, trying to remove dirt but not actually rubbing it with any substance on the surface.",
+        "The person rubs the apple back and forth sideways with his right hand, flipping it to coat it with the powder-like substance before dipping it into the egg.",
+        "The person rubs the apple in a circular motion with his right hand, coating it with the powder-like substance before placing it into the egg."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person rub the apple? Choose **only one** option from the following list.\nOptions:\n(A) The person rotates the apple in a circular motion with his left hand, gently polishing it to create a shiny surface before placing it on the counter.\n(B) The person moves his right hand in a vertical motion up and down on the apple, pressing lightly but not coating it with any substance before setting it aside.\n(C) The person gives the apple a gentle shake in his left hand, trying to remove dirt but not actually rubbing it with any substance on the surface.\n(D) The person rubs the apple back and forth sideways with his right hand, flipping it to coat it with the powder-like substance before dipping it into the egg.\n(E) The person rubs the apple in a circular motion with his right hand, coating it with the powder-like substance before placing it into the egg.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person rubs the apple in a circular motion with his right hand, coating it with the powder-like substance before placing it into the egg."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person wash the glove on the right hand?",
+    "options": [
+        "The person dips the glove on the right hand into a bowl of soapy water, gently using the left hand to immerse it.",
+        "The person carefully scrubs the glove on the right hand with the edge of the sink, smoothing the motions with the left hand.",
+        "The person uses the right hand to grasp the faucet, slightly shaking the glove on the right hand, rather than holding the hose with the left.",
+        "The person uses both hands to gently press the glove together while holding it under running water from the faucet.",
+        "The person holds the running hose with the left hand to quickly rinse the glove on the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person wash the glove on the right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person dips the glove on the right hand into a bowl of soapy water, gently using the left hand to immerse it.\n(B) The person carefully scrubs the glove on the right hand with the edge of the sink, smoothing the motions with the left hand.\n(C) The person uses the right hand to grasp the faucet, slightly shaking the glove on the right hand, rather than holding the hose with the left.\n(D) The person uses both hands to gently press the glove together while holding it under running water from the faucet.\n(E) The person holds the running hose with the left hand to quickly rinse the glove on the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person holds the running hose with the left hand to quickly rinse the glove on the right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

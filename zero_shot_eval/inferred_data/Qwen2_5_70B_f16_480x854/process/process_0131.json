@@ -1,0 +1,17 @@
+{
+    "question": "How does the person transfer the wooden plank?",
+    "options": [
+        "The person grips the wooden plank with their right hand, extends it forward at the center of their body, then the left hand reaches out to grip the plank from the right hand, carefully securing it while maintaining control.",
+        "The person uses both hands to lift the wooden plank from one end, swinging it steadily toward the other side of their body, and briefly adjusting their grip during the transfer.",
+        "The person picks up the wooden plank with two hands at either end and swings it to the side, gently shifting their leg to maintain balance during the motion.",
+        "The person holds one end of the wooden plank with their left hand, leans back slightly, and pivots it across their body, maintaining a stable position throughout the motion.",
+        "The person grabs the wooden plank with both hands at opposite ends, angling it upward smoothly to ensure a secure grip is maintained during the transfer process."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person transfer the wooden plank? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the wooden plank with their right hand, extends it forward at the center of their body, then the left hand reaches out to grip the plank from the right hand, carefully securing it while maintaining control.\n(B) The person uses both hands to lift the wooden plank from one end, swinging it steadily toward the other side of their body, and briefly adjusting their grip during the transfer.\n(C) The person picks up the wooden plank with two hands at either end and swings it to the side, gently shifting their leg to maintain balance during the motion.\n(D) The person holds one end of the wooden plank with their left hand, leans back slightly, and pivots it across their body, maintaining a stable position throughout the motion.\n(E) The person grabs the wooden plank with both hands at opposite ends, angling it upward smoothly to ensure a secure grip is maintained during the transfer process.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person grips the wooden plank with their right hand, extends it forward at the center of their body, then the left hand reaches out to grip the plank from the right hand, carefully securing it while maintaining control."
+    },
+    "correct_idx": [
+        0
+    ]
+}

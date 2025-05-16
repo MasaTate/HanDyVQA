@@ -1,0 +1,17 @@
+{
+    "question": "How does the person hit the tile driller?",
+    "options": [
+        "The person punched the tile driller gently against the wall.",
+        "The person tossed the tile driller lightly into a nearby tool box.",
+        "The person swung the tile driller smoothly in an arc before placing it on the ground.",
+        "The person released the tile driller slightly from a height onto a surface.",
+        "The person hit the tile driller by shaking it off to the floor."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person hit the tile driller? Choose **only one** option from the following list.\nOptions:\n(A) The person punched the tile driller gently against the wall.\n(B) The person tossed the tile driller lightly into a nearby tool box.\n(C) The person swung the tile driller smoothly in an arc before placing it on the ground.\n(D) The person released the tile driller slightly from a height onto a surface.\n(E) The person hit the tile driller by shaking it off to the floor.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person hit the tile driller by shaking it off to the floor."
+    },
+    "correct_idx": [
+        4
+    ]
+}

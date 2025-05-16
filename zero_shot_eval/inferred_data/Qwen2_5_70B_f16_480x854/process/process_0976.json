@@ -1,0 +1,17 @@
+{
+    "question": "How does the person support himself?",
+    "options": [
+        "The person placed his right hand on the floor, supporting himself while using the left hand to hold a wall with a downward motion.",
+        "The person lay down his left hand in the window of the building, and scrapes the paint off the building using the scraping tool in the right hand with an upward motion.",
+        "The person leaned against the window with his left shoulder and used his right hand to gently pull at the paint from the window frame with a sideways motion.",
+        "The person extended his left arm out of the window and grips the ledge firmly with both hands, pulling his body upward.",
+        "The person lay down his left hand in the window of the building and scrapes the paint off the building using the scraping tool in the right hand with a downward motion."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person support himself? Choose **only one** option from the following list.\nOptions:\n(A) The person placed his right hand on the floor, supporting himself while using the left hand to hold a wall with a downward motion.\n(B) The person lay down his left hand in the window of the building, and scrapes the paint off the building using the scraping tool in the right hand with an upward motion.\n(C) The person leaned against the window with his left shoulder and used his right hand to gently pull at the paint from the window frame with a sideways motion.\n(D) The person extended his left arm out of the window and grips the ledge firmly with both hands, pulling his body upward.\n(E) The person lay down his left hand in the window of the building and scrapes the paint off the building using the scraping tool in the right hand with a downward motion.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person lay down his left hand in the window of the building and scrapes the paint off the building using the scraping tool in the right hand with a downward motion."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person arrange the wood slabs on the ground?",
+    "options": [
+        "The person places the wood slabs in a neat, vertical line, making sure each piece is spaced evenly.",
+        "The person arranges the wood slabs by roughly tossing them from left to right on the ground using both hands.",
+        "The person lays the wood slabs in a horizontal row, forming a broad, flat area.",
+        "The person arranges the wood slabs by gently tossing them from left to right on the ground using both hands.",
+        "The person arranges the wood slabs by roughly tossing them from right to left on the ground using both hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person arrange the wood slabs on the ground? Choose **only one** option from the following list.\nOptions:\n(A) The person places the wood slabs in a neat, vertical line, making sure each piece is spaced evenly.\n(B) The person arranges the wood slabs by roughly tossing them from left to right on the ground using both hands.\n(C) The person lays the wood slabs in a horizontal row, forming a broad, flat area.\n(D) The person arranges the wood slabs by gently tossing them from left to right on the ground using both hands.\n(E) The person arranges the wood slabs by roughly tossing them from right to left on the ground using both hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person lays the wood slabs in a horizontal row, forming a broad, flat area."
+    },
+    "correct_idx": [
+        1
+    ]
+}

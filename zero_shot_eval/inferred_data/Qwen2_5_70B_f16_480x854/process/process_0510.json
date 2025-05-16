@@ -1,0 +1,17 @@
+{
+    "question": "How does the person collect a stone?",
+    "options": [
+        "The person collects a stone by catching it mid-air with their right hand as it is thrown by another person, and then, they grip it firmly to secure it, ensuring the stone remains steady in their grasp.",
+        "The person collects the stone from the ground using both hands, clasping it smoothly and ensuring a more secure grip.",
+        "The person collects the stone by reaching down with their left hand, balancing it steadily as they hold it more securely.",
+        "The person collects the stone by guiding it gently with their finger towards their right hand, making sure to hold it properly.",
+        "The person collects the stone by bending down, smoothly placing it into their pocket with one hand, making sure it stays secure."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person collect a stone? Choose **only one** option from the following list.\nOptions:\n(A) The person collects a stone by catching it mid-air with their right hand as it is thrown by another person, and then, they grip it firmly to secure it, ensuring the stone remains steady in their grasp.\n(B) The person collects the stone from the ground using both hands, clasping it smoothly and ensuring a more secure grip.\n(C) The person collects the stone by reaching down with their left hand, balancing it steadily as they hold it more securely.\n(D) The person collects the stone by guiding it gently with their finger towards their right hand, making sure to hold it properly.\n(E) The person collects the stone by bending down, smoothly placing it into their pocket with one hand, making sure it stays secure.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person collects a stone by catching it mid-air with their right hand as it is thrown by another person, and then, they grip it firmly to secure it, ensuring the stone remains steady in their grasp."
+    },
+    "correct_idx": [
+        0
+    ]
+}

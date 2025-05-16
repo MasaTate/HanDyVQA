@@ -1,0 +1,17 @@
+{
+    "question": "How does the person drop a brake pad?",
+    "options": [
+        "The person flicks the brake pad lightly from his left hand and lets it fall without full control.",
+        "The person grips the brake pad with both hands and lowers it forcefully to the ground.",
+        "The person holds the brake pad with his left hand, lowers it steadily, and releases it gently to drop it to the ground without causing impact.",
+        "The person holds the brake pad in his right hand and lets it slip, allowing it to land without much care.",
+        "The person positions the brake pad above and allows it to descend, letting it hit the surface quickly."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person drop a brake pad? Choose **only one** option from the following list.\nOptions:\n(A) The person flicks the brake pad lightly from his left hand and lets it fall without full control.\n(B) The person grips the brake pad with both hands and lowers it forcefully to the ground.\n(C) The person holds the brake pad with his left hand, lowers it steadily, and releases it gently to drop it to the ground without causing impact.\n(D) The person holds the brake pad in his right hand and lets it slip, allowing it to land without much care.\n(E) The person positions the brake pad above and allows it to descend, letting it hit the surface quickly.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person holds the brake pad with his left hand, lowers it steadily, and releases it gently to drop it to the ground without causing impact."
+    },
+    "correct_idx": [
+        2
+    ]
+}

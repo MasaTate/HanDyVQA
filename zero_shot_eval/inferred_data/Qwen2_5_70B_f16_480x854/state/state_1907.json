@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the lawnmower change?",
+    "options": [
+        "The lawnmower was pulled backward to the left in the process of being pushed.",
+        "The lawnmower was pulled forward to the right in the process of being pushed.",
+        "The lawnmower was pushed forward to the left in the process of being pushed.",
+        "The lawnmower was pushed backward to the right in the process of being pushed.",
+        "The lawnmower was pulled backward to the right in the process of being pushed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the lawnmower change? Choose **only one** option from the following list.\nOptions:\n(A) The lawnmower was pulled backward to the left in the process of being pushed.\n(B) The lawnmower was pulled forward to the right in the process of being pushed.\n(C) The lawnmower was pushed forward to the left in the process of being pushed.\n(D) The lawnmower was pushed backward to the right in the process of being pushed.\n(E) The lawnmower was pulled backward to the right in the process of being pushed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The lawnmower was pulled backward to the left in the process of being pushed."
+    },
+    "correct_idx": [
+        0
+    ]
+}

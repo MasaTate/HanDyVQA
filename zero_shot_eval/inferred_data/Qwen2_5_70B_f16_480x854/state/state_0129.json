@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the piece of meat change?",
+    "options": [
+        "The piece of meat was stripped off from the other part and placed directly onto a plate.",
+        "The piece of meat was moved aside without being separated from the other part.",
+        "The piece of meat was stripped off and placed onto a cutting board.",
+        "The piece of meat was separated from the other part but stayed in the same spot.",
+        "The piece of meat was stripped off from the other part and put aside."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the piece of meat change? Choose **only one** option from the following list.\nOptions:\n(A) The piece of meat was stripped off from the other part and placed directly onto a plate.\n(B) The piece of meat was moved aside without being separated from the other part.\n(C) The piece of meat was stripped off and placed onto a cutting board.\n(D) The piece of meat was separated from the other part but stayed in the same spot.\n(E) The piece of meat was stripped off from the other part and put aside.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The piece of meat was stripped off from the other part and put aside."
+    },
+    "correct_idx": [
+        4
+    ]
+}

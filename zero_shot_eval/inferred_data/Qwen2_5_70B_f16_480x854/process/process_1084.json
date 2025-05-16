@@ -1,0 +1,17 @@
+{
+    "question": "How does the person grab an extension box?",
+    "options": [
+        "The person touches the extension box lightly with the palm and attempts to push it gently forward.",
+        "The person grabs the extension by gripping it tightly with the fingers and then lifts it up.",
+        "The person holds the extension box with an open hand and pulls it towards himself without a firm grip.",
+        "The person picks up the extension box by pinching it between the thumb and the side of the index finger.",
+        "The person clasps the extension box loosely with both hands and lets it slide slightly downwards."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person grab an extension box? Choose **only one** option from the following list.\nOptions:\n(A) The person touches the extension box lightly with the palm and attempts to push it gently forward.\n(B) The person grabs the extension by gripping it tightly with the fingers and then lifts it up.\n(C) The person holds the extension box with an open hand and pulls it towards himself without a firm grip.\n(D) The person picks up the extension box by pinching it between the thumb and the side of the index finger.\n(E) The person clasps the extension box loosely with both hands and lets it slide slightly downwards.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person grabs the extension by gripping it tightly with the fingers and then lifts it up."
+    },
+    "correct_idx": [
+        1
+    ]
+}

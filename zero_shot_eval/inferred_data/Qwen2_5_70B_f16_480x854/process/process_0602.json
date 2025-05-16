@@ -1,0 +1,17 @@
+{
+    "question": "How does the person mark the plywood?",
+    "options": [
+        "The person marked the plywood by moving their hand above the surface, allowing the finger to drop softly, creating a gentle impression with limited control over the movement.",
+        "The person marked the plywood by using the index finger of their right hand to press firmly against the surface, moving it steadily in a deliberate, sweeping motion along the desired direction to create a clear mark.",
+        "The person scratched the plywood by using the back of their hand to move across the surface, resulting in uneven and light markings instead of a clear line.",
+        "The person used their palm to press lightly on the plywood, aiming to create a mark but only leaving a soft ripple in the wood with little definition.",
+        "The person tapped the plywood gently with the fingertips of both hands in a gentle, varied motion, creating multiple scattered marks that lack precision."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person mark the plywood? Choose **only one** option from the following list.\nOptions:\n(A) The person marked the plywood by moving their hand above the surface, allowing the finger to drop softly, creating a gentle impression with limited control over the movement.\n(B) The person marked the plywood by using the index finger of their right hand to press firmly against the surface, moving it steadily in a deliberate, sweeping motion along the desired direction to create a clear mark.\n(C) The person scratched the plywood by using the back of their hand to move across the surface, resulting in uneven and light markings instead of a clear line.\n(D) The person used their palm to press lightly on the plywood, aiming to create a mark but only leaving a soft ripple in the wood with little definition.\n(E) The person tapped the plywood gently with the fingertips of both hands in a gentle, varied motion, creating multiple scattered marks that lack precision.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person marked the plywood by using the index finger of their right hand to press firmly against the surface, moving it steadily in a deliberate, sweeping motion along the desired direction to create a clear mark."
+    },
+    "correct_idx": [
+        1
+    ]
+}

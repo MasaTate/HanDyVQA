@@ -1,0 +1,17 @@
+{
+    "question": "How does the person paint the ceiling with the paint roller?",
+    "options": [
+        "The person carefully applies paint onto the ceiling using both hands.",
+        "The person gently paints the ceiling horizontally using the right hand.",
+        "The person paints the ceiling vertically while holding the roller with the left hand.",
+        "The person cautiously raises the roller above the head, allowing it to rest on the ceiling.",
+        "The person smoothly rolls the roller around in circles on the ceiling using the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person paint the ceiling with the paint roller? Choose **only one** option from the following list.\nOptions:\n(A) The person carefully applies paint onto the ceiling using both hands.\n(B) The person gently paints the ceiling horizontally using the right hand.\n(C) The person paints the ceiling vertically while holding the roller with the left hand.\n(D) The person cautiously raises the roller above the head, allowing it to rest on the ceiling.\n(E) The person smoothly rolls the roller around in circles on the ceiling using the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person gently paints the ceiling horizontally using the right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

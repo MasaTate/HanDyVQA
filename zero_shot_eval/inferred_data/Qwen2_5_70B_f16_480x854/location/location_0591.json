@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the plank of wood?",
+    "options": [
+        "The person drops the plank of wood beside another plank of wood.",
+        "The person drops the plank of wood on top of another plank of wood.",
+        "The person drops the plank of wood in front of another plank of wood.",
+        "The person drops the plank of wood underneath another plank of wood.",
+        "The person drops the plank of wood at the end of another plank of wood."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the plank of wood? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the plank of wood beside another plank of wood.\n(B) The person drops the plank of wood on top of another plank of wood.\n(C) The person drops the plank of wood in front of another plank of wood.\n(D) The person drops the plank of wood underneath another plank of wood.\n(E) The person drops the plank of wood at the end of another plank of wood.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person drops the plank of wood beside another plank of wood."
+    },
+    "correct_idx": [
+        1
+    ]
+}

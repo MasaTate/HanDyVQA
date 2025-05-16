@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the ball towards the man change?",
+    "options": [
+        "The ball, after being caught by the man, was rolled on the ground towards the other man.",
+        "The ball, after being caught by the man, was tossed up into the air above his head.",
+        "The ball, after being caught by the man, was held in his hand for a moment before he walked away.",
+        "The ball, after being caught by the man, was swiftly and forcefully thrown back to the other man.",
+        "The ball, after being caught by the man, was passed to a child standing nearby."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the ball towards the man change? Choose **only one** option from the following list.\nOptions:\n(A) The ball, after being caught by the man, was rolled on the ground towards the other man.\n(B) The ball, after being caught by the man, was tossed up into the air above his head.\n(C) The ball, after being caught by the man, was held in his hand for a moment before he walked away.\n(D) The ball, after being caught by the man, was swiftly and forcefully thrown back to the other man.\n(E) The ball, after being caught by the man, was passed to a child standing nearby.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The ball, after being caught by the man, was swiftly and forcefully thrown back to the other man."
+    },
+    "correct_idx": [
+        3
+    ]
+}

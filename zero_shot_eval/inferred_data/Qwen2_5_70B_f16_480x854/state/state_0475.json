@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the bag change?",
+    "options": [
+        "The bag was lifted and placed slightly to the left of its original position.",
+        "The bag was lifted and set down a bit forward from its original spot.",
+        "The bag was lifted and then returned to the exact same position.",
+        "The bag was picked up and put back down, but rotated slightly.",
+        "The bag was lifted and returned to its position but facing the opposite direction."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the bag change? Choose **only one** option from the following list.\nOptions:\n(A) The bag was lifted and placed slightly to the left of its original position.\n(B) The bag was lifted and set down a bit forward from its original spot.\n(C) The bag was lifted and then returned to the exact same position.\n(D) The bag was picked up and put back down, but rotated slightly.\n(E) The bag was lifted and returned to its position but facing the opposite direction.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The bag was lifted and set down a bit forward from its original spot."
+    },
+    "correct_idx": [
+        2
+    ]
+}

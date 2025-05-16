@@ -1,0 +1,17 @@
+{
+    "question": "How does the person transfer the drill?",
+    "options": [
+        "The person moves the drill smoothly from one hand to the other, without switching the drill bit.",
+        "The person moves the drill from his left hand to his right by passing it after picking a screw from the floor.",
+        "The person grips the drill gently with both hands and lifts it slightly up, instead of transferring it.",
+        "The person uses the right hand to move the drill across the table, rather than holding it still.",
+        "The person holds the drill with both hands, but doesn't change the drill bit when putting it down."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person transfer the drill? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the drill smoothly from one hand to the other, without switching the drill bit.\n(B) The person moves the drill from his left hand to his right by passing it after picking a screw from the floor.\n(C) The person grips the drill gently with both hands and lifts it slightly up, instead of transferring it.\n(D) The person uses the right hand to move the drill across the table, rather than holding it still.\n(E) The person holds the drill with both hands, but doesn't change the drill bit when putting it down.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person moves the drill from his left hand to his right by passing it after picking a screw from the floor."
+    },
+    "correct_idx": [
+        1
+    ]
+}

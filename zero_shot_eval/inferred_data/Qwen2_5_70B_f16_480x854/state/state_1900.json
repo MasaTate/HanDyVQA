@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the angle level ruler on the wall change?",
+    "options": [
+        "The ruler was removed from the wall, resulting in a change in position as it was lifted away from the surface.",
+        "The ruler was attached to the wall using new screws, altering its state from loose to secure.",
+        "The ruler was adjusted to a different angle, resulting in a change in orientation as it was rotated on the wall.",
+        "The ruler was leaned on the wall, causing a change in position as it was tilted against the surface.",
+        "The ruler was covered with a layer of dust, resulting in a change in condition as it became obscured and less visible."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the angle level ruler on the wall change? Choose **only one** option from the following list.\nOptions:\n(A) The ruler was removed from the wall, resulting in a change in position as it was lifted away from the surface.\n(B) The ruler was attached to the wall using new screws, altering its state from loose to secure.\n(C) The ruler was adjusted to a different angle, resulting in a change in orientation as it was rotated on the wall.\n(D) The ruler was leaned on the wall, causing a change in position as it was tilted against the surface.\n(E) The ruler was covered with a layer of dust, resulting in a change in condition as it became obscured and less visible.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The ruler was removed from the wall, resulting in a change in position as it was lifted away from the surface."
+    },
+    "correct_idx": [
+        3
+    ]
+}

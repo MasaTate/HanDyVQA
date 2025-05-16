@@ -1,0 +1,17 @@
+{
+    "question": "How does the person transfer the piece of dough?",
+    "options": [
+        "The person handles the dough with both hands, carefully elevating it before moving it onto the mixing bowl.",
+        "The person uses his left hand to lift the piece of dough, guiding it onto the surface with minimal support from his fingers.",
+        "The person delicately pinches the dough with the tips of his fingers from the left hand, flipping it over before setting it onto the countertop.",
+        "The person swiftly gathers the dough with the fingertips of his right hand, then places it onto the table with a gentle touch.",
+        "The person transfers the piece of dough using his right hand by carefully picking it up with his fingers, supporting it with his palm to prevent it from stretching or tearing, and then gently placing it onto the desired surface."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person transfer the piece of dough? Choose **only one** option from the following list.\nOptions:\n(A) The person handles the dough with both hands, carefully elevating it before moving it onto the mixing bowl.\n(B) The person uses his left hand to lift the piece of dough, guiding it onto the surface with minimal support from his fingers.\n(C) The person delicately pinches the dough with the tips of his fingers from the left hand, flipping it over before setting it onto the countertop.\n(D) The person swiftly gathers the dough with the fingertips of his right hand, then places it onto the table with a gentle touch.\n(E) The person transfers the piece of dough using his right hand by carefully picking it up with his fingers, supporting it with his palm to prevent it from stretching or tearing, and then gently placing it onto the desired surface.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person transfers the piece of dough using his right hand by carefully picking it up with his fingers, supporting it with his palm to prevent it from stretching or tearing, and then gently placing it onto the desired surface."
+    },
+    "correct_idx": [
+        4
+    ]
+}

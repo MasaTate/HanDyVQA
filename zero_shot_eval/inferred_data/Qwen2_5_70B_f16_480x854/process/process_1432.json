@@ -1,0 +1,17 @@
+{
+    "question": "How does the person plaster the wall?",
+    "options": [
+        "The person uses a brush with the left hand to cover the wall by sweeping it in curvy motions.",
+        "The person holds a bucket of liquid with both hands and applies it to the wall in a splattering motion.",
+        "The person uses a plaster with the right hand to cover the wall by swiping it in straight motions.",
+        "The person presses a sponge against the wall with the right hand and moves it in a rolling direction.",
+        "The person pats the wall with their palm to spread the plaster quickly, avoiding the use of any tools."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person plaster the wall? Choose **only one** option from the following list.\nOptions:\n(A) The person uses a brush with the left hand to cover the wall by sweeping it in curvy motions.\n(B) The person holds a bucket of liquid with both hands and applies it to the wall in a splattering motion.\n(C) The person uses a plaster with the right hand to cover the wall by swiping it in straight motions.\n(D) The person presses a sponge against the wall with the right hand and moves it in a rolling direction.\n(E) The person pats the wall with their palm to spread the plaster quickly, avoiding the use of any tools.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person uses a plaster with the right hand to cover the wall by swiping it in straight motions."
+    },
+    "correct_idx": [
+        2
+    ]
+}

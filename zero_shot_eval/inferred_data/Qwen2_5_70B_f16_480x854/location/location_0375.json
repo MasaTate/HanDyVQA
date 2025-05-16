@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person dip the foam?",
+    "options": [
+        "The person placed the foam sponge on the countertop.",
+        "The person tossed the foam sponge in the sink.",
+        "The person set the foam sponge on the floor next to the bucket.",
+        "The person laid the foam sponge on the table adjacent to the bucket.",
+        "The person dipped the foam sponge in the bucket."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person dip the foam? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the foam sponge on the countertop.\n(B) The person tossed the foam sponge in the sink.\n(C) The person set the foam sponge on the floor next to the bucket.\n(D) The person laid the foam sponge on the table adjacent to the bucket.\n(E) The person dipped the foam sponge in the bucket.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person dipped the foam sponge in the bucket."
+    },
+    "correct_idx": [
+        4
+    ]
+}

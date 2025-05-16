@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the paper bag?",
+    "options": [
+        "The person drops the paper bag on the floor beside the weighing scale.",
+        "The person drops the paper bag on a chair near the weighing scale.",
+        "The person drops the paper bag on a shelf next to the weighing scale.",
+        "The person drops the paper bag on the counter behind the weighing scale.",
+        "The person drops the paper bag on a table in front of the weighing scale."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the paper bag? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the paper bag on the floor beside the weighing scale.\n(B) The person drops the paper bag on a chair near the weighing scale.\n(C) The person drops the paper bag on a shelf next to the weighing scale.\n(D) The person drops the paper bag on the counter behind the weighing scale.\n(E) The person drops the paper bag on a table in front of the weighing scale.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person drops the paper bag on the counter behind the weighing scale."
+    },
+    "correct_idx": [
+        4
+    ]
+}

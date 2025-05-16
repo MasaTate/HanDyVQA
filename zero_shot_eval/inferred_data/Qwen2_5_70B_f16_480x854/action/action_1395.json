@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person, wearing a glove on his left hand, uses it to unplug the extension cord from the wall outlet.",
+        "The person, wearing a glove on his left hand, uses it to adjust the settings on a power strip.",
+        "The person, wearing a glove on his left hand, uses it to repair a damaged extension cord on the desk.",
+        "The person, wearing a glove on his left hand, uses it to wind up the extension cord after use.",
+        "The person, wearing a glove on his left hand, uses it to switch on the extension cord."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person, wearing a glove on his left hand, uses it to unplug the extension cord from the wall outlet.\n(B) The person, wearing a glove on his left hand, uses it to adjust the settings on a power strip.\n(C) The person, wearing a glove on his left hand, uses it to repair a damaged extension cord on the desk.\n(D) The person, wearing a glove on his left hand, uses it to wind up the extension cord after use.\n(E) The person, wearing a glove on his left hand, uses it to switch on the extension cord.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person, wearing a glove on his left hand, uses it to switch on the extension cord."
+    },
+    "correct_idx": [
+        4
+    ]
+}

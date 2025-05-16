@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the screw nail change?",
+    "options": [
+        "The screw nail that is already inserted into the wood was tightened more.",
+        "The screw nail that is already inserted into the wood was loosened slightly.",
+        "The screw nail that is partly inserted into the wood was tightened further.",
+        "The screw nail that was completely inserted was removed from the wood.",
+        "The screw nail that is flush with the wood was backed out slightly."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the screw nail change? Choose **only one** option from the following list.\nOptions:\n(A) The screw nail that is already inserted into the wood was tightened more.\n(B) The screw nail that is already inserted into the wood was loosened slightly.\n(C) The screw nail that is partly inserted into the wood was tightened further.\n(D) The screw nail that was completely inserted was removed from the wood.\n(E) The screw nail that is flush with the wood was backed out slightly.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The screw nail that is partly inserted into the wood was tightened further."
+    },
+    "correct_idx": [
+        0
+    ]
+}

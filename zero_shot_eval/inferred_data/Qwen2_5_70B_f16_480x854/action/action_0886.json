@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is holding a pack of bacon in his left hand and picking up a scissor with his right hand.",
+        "The person is opening a pack of bacon with her hands while holding it steady on the counter with her left hand.",
+        "The person is slicing through the pack of bacon with a knife in her right hand while keeping the pack in place with her left hand.",
+        "The person is tearing open a pack of bacon with her right hand while using her left hand to stabilize the pack on the table.",
+        "The person is folding a pack of bacon in half using her right hand while gripping the edges with her left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is holding a pack of bacon in his left hand and picking up a scissor with his right hand.\n(B) The person is opening a pack of bacon with her hands while holding it steady on the counter with her left hand.\n(C) The person is slicing through the pack of bacon with a knife in her right hand while keeping the pack in place with her left hand.\n(D) The person is tearing open a pack of bacon with her right hand while using her left hand to stabilize the pack on the table.\n(E) The person is folding a pack of bacon in half using her right hand while gripping the edges with her left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person is tearing open a pack of bacon with her right hand while using her left hand to stabilize the pack on the table."
+    },
+    "correct_idx": [
+        0
+    ]
+}

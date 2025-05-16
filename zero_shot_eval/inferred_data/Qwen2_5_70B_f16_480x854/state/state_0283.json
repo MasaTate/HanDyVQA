@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the sickle change?",
+    "options": [
+        "The bamboo was cut into three unequal parts and positioned side by side.",
+        "The bamboo was sliced along its length but remained partly connected.",
+        "The bamboo was cut into two parts and then two parts were aligned together.",
+        "The bamboo was not cut but was instead marked slightly on the surface.",
+        "The bamboo was cut into two parts and then placed end to end."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the sickle change? Choose **only one** option from the following list.\nOptions:\n(A) The bamboo was cut into three unequal parts and positioned side by side.\n(B) The bamboo was sliced along its length but remained partly connected.\n(C) The bamboo was cut into two parts and then two parts were aligned together.\n(D) The bamboo was not cut but was instead marked slightly on the surface.\n(E) The bamboo was cut into two parts and then placed end to end.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The bamboo was not cut but was instead marked slightly on the surface."
+    },
+    "correct_idx": [
+        2
+    ]
+}

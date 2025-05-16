@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a waste bin change?",
+    "options": [
+        "The lid of the waste bin rotated sideways, allowing an opening.",
+        "The waste bin was emptied, leaving it without contents.",
+        "The lid of the waste bin moved upward, creating an opening.",
+        "The bottom of the waste bin collapsed, resulting in it caving inward.",
+        "The waste bin was sealed shut, restricting any access to its interior."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a waste bin change? Choose **only one** option from the following list.\nOptions:\n(A) The lid of the waste bin rotated sideways, allowing an opening.\n(B) The waste bin was emptied, leaving it without contents.\n(C) The lid of the waste bin moved upward, creating an opening.\n(D) The bottom of the waste bin collapsed, resulting in it caving inward.\n(E) The waste bin was sealed shut, restricting any access to its interior.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The lid of the waste bin moved upward, creating an opening."
+    },
+    "correct_idx": [
+        2
+    ]
+}

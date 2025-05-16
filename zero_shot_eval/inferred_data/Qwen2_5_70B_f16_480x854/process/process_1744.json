@@ -1,0 +1,17 @@
+{
+    "question": "How does the person remove the shoe?",
+    "options": [
+        "The person slipped the shoe off by using the left foot to gently push against the heel while leaning forward.",
+        "The person removed the shoe by pulling it off with both hands while standing upright.",
+        "The person loosened the laces and pulled the shoe off using the right hand while standing.",
+        "The person stepped on the heel of the right shoe with the left foot to slip it off, not using their hands.",
+        "The person removed the shoe by pushing it from the right foot using the left hand while sitting."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person remove the shoe? Choose **only one** option from the following list.\nOptions:\n(A) The person slipped the shoe off by using the left foot to gently push against the heel while leaning forward.\n(B) The person removed the shoe by pulling it off with both hands while standing upright.\n(C) The person loosened the laces and pulled the shoe off using the right hand while standing.\n(D) The person stepped on the heel of the right shoe with the left foot to slip it off, not using their hands.\n(E) The person removed the shoe by pushing it from the right foot using the left hand while sitting.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person removed the shoe by pushing it from the right foot using the left hand while sitting."
+    },
+    "correct_idx": [
+        4
+    ]
+}

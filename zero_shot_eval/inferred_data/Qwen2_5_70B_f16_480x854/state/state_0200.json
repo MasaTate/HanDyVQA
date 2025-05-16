@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a drawer change?",
+    "options": [
+        "The drawer was pulled out and pushed in to check its contents.",
+        "The drawer was removed entirely from the furniture to clean the area.",
+        "The drawer was tilted to one side to improve access.",
+        "The drawer was locked and unlocked to secure its items.",
+        "The drawer was opened and closed to adjust its position."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a drawer change? Choose **only one** option from the following list.\nOptions:\n(A) The drawer was pulled out and pushed in to check its contents.\n(B) The drawer was removed entirely from the furniture to clean the area.\n(C) The drawer was tilted to one side to improve access.\n(D) The drawer was locked and unlocked to secure its items.\n(E) The drawer was opened and closed to adjust its position.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The drawer was pulled out and pushed in to check its contents."
+    },
+    "correct_idx": [
+        4
+    ]
+}

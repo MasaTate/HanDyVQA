@@ -1,0 +1,17 @@
+{
+    "question": "How does the person scroll pictures?",
+    "options": [
+        "The person scrolls pictures using both thumbs, gently pinching the screen to zoom in and view images.",
+        "The person swipes the phone screen smoothly with his thumb, making the pictures switch quickly.",
+        "The person taps on the pictures closely with his index finger, moving through them one by one.",
+        "The person scrolls pictures with his right thumb, swiping from the right side to the left side of the phone screen.",
+        "The person holds the phone with his left hand and swipes downwards slightly to reveal more pictures."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person scroll pictures? Choose **only one** option from the following list.\nOptions:\n(A) The person scrolls pictures using both thumbs, gently pinching the screen to zoom in and view images.\n(B) The person swipes the phone screen smoothly with his thumb, making the pictures switch quickly.\n(C) The person taps on the pictures closely with his index finger, moving through them one by one.\n(D) The person scrolls pictures with his right thumb, swiping from the right side to the left side of the phone screen.\n(E) The person holds the phone with his left hand and swipes downwards slightly to reveal more pictures.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person scrolls pictures with his right thumb, swiping from the right side to the left side of the phone screen."
+    },
+    "correct_idx": [
+        3
+    ]
+}

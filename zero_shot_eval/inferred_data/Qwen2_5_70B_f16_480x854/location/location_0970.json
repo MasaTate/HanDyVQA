@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move a wood?",
+    "options": [
+        "The person moves a piece of wood on the left corner of the workbench.",
+        "The person moves a piece of wood in the center of the workbench.",
+        "The person moves a piece of wood on the right corner of the workbench.",
+        "The person moves a piece of wood on the right side of the shelf.",
+        "The person moves a piece of wood near the front edge of the workbench."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move a wood? Choose **only one** option from the following list.\nOptions:\n(A) The person moves a piece of wood on the left corner of the workbench.\n(B) The person moves a piece of wood in the center of the workbench.\n(C) The person moves a piece of wood on the right corner of the workbench.\n(D) The person moves a piece of wood on the right side of the shelf.\n(E) The person moves a piece of wood near the front edge of the workbench.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person moves a piece of wood near the front edge of the workbench."
+    },
+    "correct_idx": [
+        2
+    ]
+}

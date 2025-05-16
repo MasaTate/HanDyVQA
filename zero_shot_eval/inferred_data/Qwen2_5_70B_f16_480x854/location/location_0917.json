@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the clay mould?",
+    "options": [
+        "The person moves the clay mold on the ground going to its left.",
+        "The person moves the clay mold on the table going to its right.",
+        "The person moves the clay mold on the ground going forward.",
+        "The person moves the clay mold on the ground goin to its right.",
+        "The person moves the clay mold on the shelf going to its right."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the clay mould? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the clay mold on the ground going to its left.\n(B) The person moves the clay mold on the table going to its right.\n(C) The person moves the clay mold on the ground going forward.\n(D) The person moves the clay mold on the ground goin to its right.\n(E) The person moves the clay mold on the shelf going to its right.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person moves the clay mold on the ground going to its right."
+    },
+    "correct_idx": [
+        3
+    ]
+}

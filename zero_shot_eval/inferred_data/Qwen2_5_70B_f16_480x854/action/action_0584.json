@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person plants a seedling with her right hand.",
+        "The person plants seeds in the ground with her right hand.",
+        "The person pulls weeds from the ground with her right hand.",
+        "The person rakes leaves on the ground with her right hand.",
+        "The person mixes soil in a pot with her right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person plants a seedling with her right hand.\n(B) The person plants seeds in the ground with her right hand.\n(C) The person pulls weeds from the ground with her right hand.\n(D) The person rakes leaves on the ground with her right hand.\n(E) The person mixes soil in a pot with her right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person plants a seedling with her right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

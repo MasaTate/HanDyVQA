@@ -1,0 +1,17 @@
+{
+    "question": "How does the person open the tube?",
+    "options": [
+        "The person opens the tube by twisting the cap with his right hand while holding the tube with the left hand.",
+        "The person squeezes the tube with his right hand while holding the cap with the left hand.",
+        "The person pries off the cap of the tube with the fingers of the right hand, without stabilizing the tube.",
+        "The person pulls the cap off the tube using both hands, gripping the tube closely.",
+        "The person uses his thumb to push the cap off the tube while holding it in one hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person open the tube? Choose **only one** option from the following list.\nOptions:\n(A) The person opens the tube by twisting the cap with his right hand while holding the tube with the left hand.\n(B) The person squeezes the tube with his right hand while holding the cap with the left hand.\n(C) The person pries off the cap of the tube with the fingers of the right hand, without stabilizing the tube.\n(D) The person pulls the cap off the tube using both hands, gripping the tube closely.\n(E) The person uses his thumb to push the cap off the tube while holding it in one hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person opens the tube by twisting the cap with his right hand while holding the tube with the left hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

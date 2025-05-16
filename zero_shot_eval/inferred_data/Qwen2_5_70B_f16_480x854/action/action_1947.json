@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is sticking the natural twine to the tube and grabbing the glue gun.",
+        "The person is attaching the natural twine to the tube and holding the glue stick in his right hand.",
+        "The person is wrapping the natural twine around a tube while putting the glue gun down with his left hand.",
+        "The person is unwinding the natural twine from a spool while steadying the glue gun with his left hand.",
+        "The person is pressing the glue gun down onto the table while pulling the twine off the shelf with his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is sticking the natural twine to the tube and grabbing the glue gun.\n(B) The person is attaching the natural twine to the tube and holding the glue stick in his right hand.\n(C) The person is wrapping the natural twine around a tube while putting the glue gun down with his left hand.\n(D) The person is unwinding the natural twine from a spool while steadying the glue gun with his left hand.\n(E) The person is pressing the glue gun down onto the table while pulling the twine off the shelf with his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person is sticking the natural twine to the tube and grabbing the glue gun."
+    },
+    "correct_idx": [
+        0
+    ]
+}

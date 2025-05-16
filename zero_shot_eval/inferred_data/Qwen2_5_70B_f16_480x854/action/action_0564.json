@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person shakes the cucumber in her right hand.",
+        "The person holds a zucchini in her right hand while chopping it with a knife in her left hand.",
+        "The person is juggling a zucchini and a cucumber with both hands in the kitchen.",
+        "The person picks up the zucchini with her right hand and places it into a bag.",
+        "The person is stirring a pot with a zucchini in her right hand, resting her left hand on the counter."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person shakes the cucumber in her right hand.\n(B) The person holds a zucchini in her right hand while chopping it with a knife in her left hand.\n(C) The person is juggling a zucchini and a cucumber with both hands in the kitchen.\n(D) The person picks up the zucchini with her right hand and places it into a bag.\n(E) The person is stirring a pot with a zucchini in her right hand, resting her left hand on the counter.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person shakes the cucumber in her right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

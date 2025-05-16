@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is operating a hand drill with their right hand while using their left hand to stabilize the wooden piece on the table.",
+        "The person is sanding a wooden surface with a manual sander in their right hand while gripping the wood with their left hand.",
+        "The person is polishing a surface with a cloth in their right hand while keeping the object steady with their left hand.",
+        "The person is using their right hand to hold the electric sander while using their left hand to hold the wooden piece on the table.",
+        "The person is using their right hand to hold a chisel while their left hand presses down on the wood to carve it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is operating a hand drill with their right hand while using their left hand to stabilize the wooden piece on the table.\n(B) The person is sanding a wooden surface with a manual sander in their right hand while gripping the wood with their left hand.\n(C) The person is polishing a surface with a cloth in their right hand while keeping the object steady with their left hand.\n(D) The person is using their right hand to hold the electric sander while using their left hand to hold the wooden piece on the table.\n(E) The person is using their right hand to hold a chisel while their left hand presses down on the wood to carve it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person is using their right hand to hold the electric sander while using their left hand to hold the wooden piece on the table."
+    },
+    "correct_idx": [
+        3
+    ]
+}

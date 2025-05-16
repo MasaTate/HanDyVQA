@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the cloth?",
+    "options": [
+        "the person moved the cloth on the right side.",
+        "the person moved the cloth on the left side.",
+        "the person moved the cloth at the center of the table.",
+        "the person moved the cloth under the table.",
+        "the person moved the cloth on the far side of the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the cloth? Choose **only one** option from the following list.\nOptions:\n(A) the person moved the cloth on the right side.\n(B) the person moved the cloth on the left side.\n(C) the person moved the cloth at the center of the table.\n(D) the person moved the cloth under the table.\n(E) the person moved the cloth on the far side of the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) the person moved the cloth on the left side."
+    },
+    "correct_idx": [
+        1
+    ]
+}

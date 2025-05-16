@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of page change?",
+    "options": [
+        "The page, removed from the book, was torn out.",
+        "The page, altered by a fold, was creased down the center.",
+        "The page, compressed into a new form, was crumpled into a ball.",
+        "The page, marked by a substance, was stained with ink.",
+        "The page, changing position as it turned over, was flipped."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of page change? Choose **only one** option from the following list.\nOptions:\n(A) The page, removed from the book, was torn out.\n(B) The page, altered by a fold, was creased down the center.\n(C) The page, compressed into a new form, was crumpled into a ball.\n(D) The page, marked by a substance, was stained with ink.\n(E) The page, changing position as it turned over, was flipped.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The page, changing position as it turned over, was flipped."
+    },
+    "correct_idx": [
+        4
+    ]
+}

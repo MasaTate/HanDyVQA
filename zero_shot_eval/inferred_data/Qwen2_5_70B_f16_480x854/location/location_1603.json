@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the screw belt?",
+    "options": [
+        "The person drops the screw belt on top of the wooden shelf.",
+        "The person drops the screw belt beside the plastic container.",
+        "The person drops the screw belt near the glass jar.",
+        "The person drops the screw belt inside the metal case.",
+        "The person drops the screw belt underneath the workbench."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the screw belt? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the screw belt on top of the wooden shelf.\n(B) The person drops the screw belt beside the plastic container.\n(C) The person drops the screw belt near the glass jar.\n(D) The person drops the screw belt inside the metal case.\n(E) The person drops the screw belt underneath the workbench.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person drops the screw belt inside the metal case."
+    },
+    "correct_idx": [
+        3
+    ]
+}

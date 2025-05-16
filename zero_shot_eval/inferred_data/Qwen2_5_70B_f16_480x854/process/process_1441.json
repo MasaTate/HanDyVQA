@@ -1,0 +1,17 @@
+{
+    "question": "How does the person fold the thread?",
+    "options": [
+        "The person tries to fold the thread by wrapping it around their hand without much structure.",
+        "The person gently holds the thread with one hand and attempts to fold it by moving their wrist.",
+        "The person carefully pinches the thread with both hands and smoothly brings the ends together in a controlled motion to fold it.",
+        "The person attempts to fold the thread by pressing it between both palms, creating a disordered bunch.",
+        "The person curls the thread between their fingers with an unsteady motion, not smoothly folding it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person fold the thread? Choose **only one** option from the following list.\nOptions:\n(A) The person tries to fold the thread by wrapping it around their hand without much structure.\n(B) The person gently holds the thread with one hand and attempts to fold it by moving their wrist.\n(C) The person carefully pinches the thread with both hands and smoothly brings the ends together in a controlled motion to fold it.\n(D) The person attempts to fold the thread by pressing it between both palms, creating a disordered bunch.\n(E) The person curls the thread between their fingers with an unsteady motion, not smoothly folding it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person carefully pinches the thread with both hands and smoothly brings the ends together in a controlled motion to fold it."
+    },
+    "correct_idx": [
+        2
+    ]
+}

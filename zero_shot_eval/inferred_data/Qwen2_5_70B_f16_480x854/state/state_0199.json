@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the bag of flour change?",
+    "options": [
+        "The bag of flour was tilted to one side while remaining in the pile.",
+        "The bag of flour was pushed aside in the pile without being lifted.",
+        "The bag of flour was lifted from the pile of flour bags and its location was changed.",
+        "The bag of flour was lifted and returned to the same spot in the pile.",
+        "The bag of flour was slightly shifted in place within the pile."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the bag of flour change? Choose **only one** option from the following list.\nOptions:\n(A) The bag of flour was tilted to one side while remaining in the pile.\n(B) The bag of flour was pushed aside in the pile without being lifted.\n(C) The bag of flour was lifted from the pile of flour bags and its location was changed.\n(D) The bag of flour was lifted and returned to the same spot in the pile.\n(E) The bag of flour was slightly shifted in place within the pile.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The bag of flour was lifted from the pile of flour bags and its location was changed."
+    },
+    "correct_idx": [
+        2
+    ]
+}

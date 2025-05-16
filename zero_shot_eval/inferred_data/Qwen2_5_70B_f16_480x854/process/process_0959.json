@@ -1,0 +1,17 @@
+{
+    "question": "How does the person roll the back tire of the bicycle?",
+    "options": [
+        "The person lifts the back of the bicycle and gently moves the tire forward with both hands, keeping a steady grip on the frame.",
+        "The person nudges the back tire softly with their foot, attempting to initiate rotation without any hand support.",
+        "The person pedals with their right hand and gently rolls the bicycle's back tire by holding the side of the tire with their left hand and carefully rotating it in a clockwise direction.",
+        "The person uses their right hand to cautiously apply the brake lever while rotating the back tire in a counterclockwise direction with their left hand.",
+        "The person grips the rim of the tire with both hands and attempts to spin it smoothly in a circular motion while managing its path."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person roll the back tire of the bicycle? Choose **only one** option from the following list.\nOptions:\n(A) The person lifts the back of the bicycle and gently moves the tire forward with both hands, keeping a steady grip on the frame.\n(B) The person nudges the back tire softly with their foot, attempting to initiate rotation without any hand support.\n(C) The person pedals with their right hand and gently rolls the bicycle's back tire by holding the side of the tire with their left hand and carefully rotating it in a clockwise direction.\n(D) The person uses their right hand to cautiously apply the brake lever while rotating the back tire in a counterclockwise direction with their left hand.\n(E) The person grips the rim of the tire with both hands and attempts to spin it smoothly in a circular motion while managing its path.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person lifts the back of the bicycle and gently moves the tire forward with both hands, keeping a steady grip on the frame."
+    },
+    "correct_idx": [
+        2
+    ]
+}

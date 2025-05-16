@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person draws a design on the cloth on the table with the marker in her right hand while her left hand is holding the pattern steadily.",
+        "The person colors a design on the paper on the table with the pencil in her right hand while holding the paper down with her left hand.",
+        "The person traces the pattern on the cloth on the table with the pen in her right hand while the left hand steadily holds the pattern.",
+        "The person cuts a line on the cloth on the table with scissors in her right hand while holding the cloth steady with her left hand.",
+        "The person paints a pattern on the canvas on the table with the brush in her right hand while keeping the canvas steady with her left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person draws a design on the cloth on the table with the marker in her right hand while her left hand is holding the pattern steadily.\n(B) The person colors a design on the paper on the table with the pencil in her right hand while holding the paper down with her left hand.\n(C) The person traces the pattern on the cloth on the table with the pen in her right hand while the left hand steadily holds the pattern.\n(D) The person cuts a line on the cloth on the table with scissors in her right hand while holding the cloth steady with her left hand.\n(E) The person paints a pattern on the canvas on the table with the brush in her right hand while keeping the canvas steady with her left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person traces the pattern on the cloth on the table with the pen in her right hand while the left hand steadily holds the pattern."
+    },
+    "correct_idx": [
+        2
+    ]
+}

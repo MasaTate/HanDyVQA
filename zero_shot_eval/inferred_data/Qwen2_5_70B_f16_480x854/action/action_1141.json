@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is filling the pot with liquid using his left hand while holding the pot with his right hand.",
+        "The person is stirring the liquid in the pot using his left hand while the pot is resting on the table.",
+        "The person pours the liquid into the pot using his left hand while the pot is held by the right hand.",
+        "The person is spilling the liquid onto the counter using his left hand while the pot is held by his right hand.",
+        "The person is shaking the pot to mix the contents using his left hand while the pot is supported by his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is filling the pot with liquid using his left hand while holding the pot with his right hand.\n(B) The person is stirring the liquid in the pot using his left hand while the pot is resting on the table.\n(C) The person pours the liquid into the pot using his left hand while the pot is held by the right hand.\n(D) The person is spilling the liquid onto the counter using his left hand while the pot is held by his right hand.\n(E) The person is shaking the pot to mix the contents using his left hand while the pot is supported by his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person pours the liquid into the pot using his left hand while the pot is held by the right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

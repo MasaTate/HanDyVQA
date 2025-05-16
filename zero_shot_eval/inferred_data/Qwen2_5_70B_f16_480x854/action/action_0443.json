@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person feeds the dog on the couch with her right hand.",
+        "The person entertains the dog on the couch using her right hand.",
+        "The person pets the dog on the couch with her right hand.",
+        "The person grooms the dog on the couch with her right hand.",
+        "The person holds the dog on the couch with her right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person feeds the dog on the couch with her right hand.\n(B) The person entertains the dog on the couch using her right hand.\n(C) The person pets the dog on the couch with her right hand.\n(D) The person grooms the dog on the couch with her right hand.\n(E) The person holds the dog on the couch with her right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person pets the dog on the couch with her right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person dust the surface of the bucket trowel?",
+    "options": [
+        "The person uses his right hand to swipe across the surface of the bucket trowel with a gentle touch to clean off the dust.",
+        "The person gently rubs the surface of the bucket trowel with the palm of his hand to remove the dust buildup.",
+        "The person lightly pinches the edge of the bucket trowel with his thumb and forefinger and gently shakes it to dislodge the dust.",
+        "The person softly presses his hand on the surface of the bucket trowel and drags his fingers smoothly to wipe it clean.",
+        "The person quickly slides the fingers of his left hand across the surface of the bucket trowel with a light tapping motion to dust it off."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person dust the surface of the bucket trowel? Choose **only one** option from the following list.\nOptions:\n(A) The person uses his right hand to swipe across the surface of the bucket trowel with a gentle touch to clean off the dust.\n(B) The person gently rubs the surface of the bucket trowel with the palm of his hand to remove the dust buildup.\n(C) The person lightly pinches the edge of the bucket trowel with his thumb and forefinger and gently shakes it to dislodge the dust.\n(D) The person softly presses his hand on the surface of the bucket trowel and drags his fingers smoothly to wipe it clean.\n(E) The person quickly slides the fingers of his left hand across the surface of the bucket trowel with a light tapping motion to dust it off.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person lightly pinches the edge of the bucket trowel with his thumb and forefinger and gently shakes it to dislodge the dust."
+    },
+    "correct_idx": [
+        4
+    ]
+}

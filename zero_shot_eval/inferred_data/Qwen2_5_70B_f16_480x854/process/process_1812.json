@@ -1,0 +1,17 @@
+{
+    "question": "How does the person raise some cloths?",
+    "options": [
+        "The person holds the clothes and directs them towards the mannequin using a smooth motion.",
+        "The individual raises the clothes with both hands and moves them gently before placing them near the mannequin.",
+        "The person carefully lifts the clothes upwards, positioning them with awareness towards the mannequin's stance.",
+        "The individual moves the clothes across the surface before gently lifting them to position them on the mannequin.",
+        "The person lifts and taps the clothes at the back of the mannequin by gently using the left hand and moves to the other one."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person raise some cloths? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the clothes and directs them towards the mannequin using a smooth motion.\n(B) The individual raises the clothes with both hands and moves them gently before placing them near the mannequin.\n(C) The person carefully lifts the clothes upwards, positioning them with awareness towards the mannequin's stance.\n(D) The individual moves the clothes across the surface before gently lifting them to position them on the mannequin.\n(E) The person lifts and taps the clothes at the back of the mannequin by gently using the left hand and moves to the other one.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person lifts and taps the clothes at the back of the mannequin by gently using the left hand and moves to the other one."
+    },
+    "correct_idx": [
+        4
+    ]
+}

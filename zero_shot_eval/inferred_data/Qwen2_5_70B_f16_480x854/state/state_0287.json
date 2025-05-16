@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the mortar change?",
+    "options": [
+        "The ingredients in the mortar were lightly pressed with the pestle and remained mostly intact, clearly visible in the light.",
+        "The ingredients in the mortar were finely ground to a powder by the pestle, easily visible due to the bright light.",
+        "The ingredients in the mortar were stirred with the pestle, but shadows obscured their transformation.",
+        "The ingredients in the mortar were partly crushed by the pestle with some chunks remaining, highlighted by the lack of shadow.",
+        "The ingredients in the mortar were crushed by grinding with the pestle, but barely visible due to the shadow."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the mortar change? Choose **only one** option from the following list.\nOptions:\n(A) The ingredients in the mortar were lightly pressed with the pestle and remained mostly intact, clearly visible in the light.\n(B) The ingredients in the mortar were finely ground to a powder by the pestle, easily visible due to the bright light.\n(C) The ingredients in the mortar were stirred with the pestle, but shadows obscured their transformation.\n(D) The ingredients in the mortar were partly crushed by the pestle with some chunks remaining, highlighted by the lack of shadow.\n(E) The ingredients in the mortar were crushed by grinding with the pestle, but barely visible due to the shadow.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The ingredients in the mortar were partly crushed by the pestle with some chunks remaining, highlighted by the lack of shadow."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "chair",
+        "knife",
+        "plastic lid",
+        "pail",
+        "ginger",
+        "stainless steel bowl"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) chair\n(B) knife\n(C) plastic lid\n(D) pail\n(E) ginger\n(F) stainless steel bowl\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(B) The hands use a knife to cut or handle the ginger on the plate.\n(F) The hands place a stainless steel bowl on the table.\n\nAnswer format:\n(B) The hands use a knife to cut or handle the ginger on the plate.\n(F) The hands place a stainless steel bowl on the table."
+    },
+    "correct_idx": [
+        1,
+        5
+    ]
+}

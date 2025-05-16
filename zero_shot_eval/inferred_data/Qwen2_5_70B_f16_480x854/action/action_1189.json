@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person holds the hook with her left hand and twists the yarn with her right hand.",
+        "The person places the hook on the table with her right hand while trying to manage the yarn with her left hand.",
+        "The person pushes the hook into the yarn with her right hand while holding the yarn firmly with her left hand.",
+        "The person holds the hook with her right hand and pulls the yarn with both hands.",
+        "The person uses the hook in her right hand to wrap the yarn around the fingers of her left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the hook with her left hand and twists the yarn with her right hand.\n(B) The person places the hook on the table with her right hand while trying to manage the yarn with her left hand.\n(C) The person pushes the hook into the yarn with her right hand while holding the yarn firmly with her left hand.\n(D) The person holds the hook with her right hand and pulls the yarn with both hands.\n(E) The person uses the hook in her right hand to wrap the yarn around the fingers of her left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person pushes the hook into the yarn with her right hand while holding the yarn firmly with her left hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

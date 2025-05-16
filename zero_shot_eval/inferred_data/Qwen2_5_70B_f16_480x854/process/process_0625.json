@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pour the jug of water?",
+    "options": [
+        "The person holds the jug with both hands at the base, gently raising it above the bowl, and pours the water carefully to avoid spills.",
+        "The person grabs the jug with their left hand, tilts it steadily, and pours water into the cup while aiming accurately.",
+        "The person pours the jug of water by gripping the jug handle with their right hand, tilts the jug resting in the sink, and carefully pours the water into the planetary mixer in a smooth and controlled motion.",
+        "The person uses one hand to hold the jug and the other to guide it smoothly, ensuring the water flows without splashes.",
+        "The person clutches the jug with both hands, raises it overhead, and lets the water pour out steadily."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pour the jug of water? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the jug with both hands at the base, gently raising it above the bowl, and pours the water carefully to avoid spills.\n(B) The person grabs the jug with their left hand, tilts it steadily, and pours water into the cup while aiming accurately.\n(C) The person pours the jug of water by gripping the jug handle with their right hand, tilts the jug resting in the sink, and carefully pours the water into the planetary mixer in a smooth and controlled motion.\n(D) The person uses one hand to hold the jug and the other to guide it smoothly, ensuring the water flows without splashes.\n(E) The person clutches the jug with both hands, raises it overhead, and lets the water pour out steadily.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person pours the jug of water by gripping the jug handle with their right hand, tilts the jug resting in the sink, and carefully pours the water into the planetary mixer in a smooth and controlled motion."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the sand change?",
+    "options": [
+        "The sand was stirred lightly but not pounded.",
+        "The sand was pounded and stirred roughly.",
+        "The sand was pounded softly and left unstirred.",
+        "The sand was stirred softly and pressed slightly.",
+        "The sand was smoothed flat and not stirred at all."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the sand change? Choose **only one** option from the following list.\nOptions:\n(A) The sand was stirred lightly but not pounded.\n(B) The sand was pounded and stirred roughly.\n(C) The sand was pounded softly and left unstirred.\n(D) The sand was stirred softly and pressed slightly.\n(E) The sand was smoothed flat and not stirred at all.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The sand was stirred softly and pressed slightly."
+    },
+    "correct_idx": [
+        1
+    ]
+}

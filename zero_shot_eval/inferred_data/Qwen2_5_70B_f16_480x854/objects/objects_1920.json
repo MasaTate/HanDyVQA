@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "mallet",
+        "towel",
+        "cloth",
+        "brush",
+        "paper",
+        "art piece"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) mallet\n(B) towel\n(C) cloth\n(D) brush\n(E) paper\n(F) art piece\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(E) paper  \n(F) art piece  \n\nThe hands in the video interact with various objects on the table. They pick up and handle pieces of paper and what appear to be art pieces or craft materials. There is no clear indication of the use of a mallet, towel, cloth, or brush in the provided frames."
+    },
+    "correct_idx": [
+        2,
+        5
+    ]
+}

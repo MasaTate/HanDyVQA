@@ -1,0 +1,17 @@
+{
+    "question": "How does the person rub the right hand?",
+    "options": [
+        "The person scratches the right hand with the fingertips of the left hand in a gentle, circular motion.",
+        "The person pats the right hand with the palm of the left hand in a light, tapping rhythm.",
+        "The person strokes the right hand with the fingertips of the left hand in a smooth, diagonal way.",
+        "The person rubs the right hand against the left arm in an upward and downward movement repeatedly.",
+        "The person squeezes and releases the right hand with the grip of the left hand in a gentle rhythm."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person rub the right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person scratches the right hand with the fingertips of the left hand in a gentle, circular motion.\n(B) The person pats the right hand with the palm of the left hand in a light, tapping rhythm.\n(C) The person strokes the right hand with the fingertips of the left hand in a smooth, diagonal way.\n(D) The person rubs the right hand against the left arm in an upward and downward movement repeatedly.\n(E) The person squeezes and releases the right hand with the grip of the left hand in a gentle rhythm.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person squeezes and releases the right hand with the grip of the left hand in a gentle rhythm."
+    },
+    "correct_idx": [
+        3
+    ]
+}

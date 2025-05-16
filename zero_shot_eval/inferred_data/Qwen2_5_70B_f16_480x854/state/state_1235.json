@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the carburetor change?",
+    "options": [
+        "The carburetor was removed entirely from the engine after the mounting screws were taken out.",
+        "The carburetor was disassembled into several pieces after the fasteners were detached.",
+        "The carburetor was unscrewed after the bolt was loosened.",
+        "The carburetor was shifted slightly to the side after the clips were released.",
+        "The carburetor was cleaned thoroughly after being taken apart for inspection."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the carburetor change? Choose **only one** option from the following list.\nOptions:\n(A) The carburetor was removed entirely from the engine after the mounting screws were taken out.\n(B) The carburetor was disassembled into several pieces after the fasteners were detached.\n(C) The carburetor was unscrewed after the bolt was loosened.\n(D) The carburetor was shifted slightly to the side after the clips were released.\n(E) The carburetor was cleaned thoroughly after being taken apart for inspection.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The carburetor was unscrewed after the bolt was loosened."
+    },
+    "correct_idx": [
+        2
+    ]
+}

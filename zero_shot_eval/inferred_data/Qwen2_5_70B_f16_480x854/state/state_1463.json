@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of rubbish change?",
+    "options": [
+        "The rubbish was scattered around the area after being blown by the wind.",
+        "The rubbish was mixed together with other debris after being disturbed.",
+        "The rubbish became compacted after being stepped on by someone.",
+        "The rubbish shifted position after being thrown.",
+        "The rubbish was covered by leaves after falling from a nearby tree."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of rubbish change? Choose **only one** option from the following list.\nOptions:\n(A) The rubbish was scattered around the area after being blown by the wind.\n(B) The rubbish was mixed together with other debris after being disturbed.\n(C) The rubbish became compacted after being stepped on by someone.\n(D) The rubbish shifted position after being thrown.\n(E) The rubbish was covered by leaves after falling from a nearby tree.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The rubbish shifted position after being thrown."
+    },
+    "correct_idx": [
+        3
+    ]
+}

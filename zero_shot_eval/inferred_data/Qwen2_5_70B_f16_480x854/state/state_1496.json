@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a glove change?",
+    "options": [
+        "The glove was placed in a laundry basket, becoming wrinkled and crumpled.",
+        "The glove was turned inside out, altering its texture and appearance.",
+        "The glove was put on, adjusting its shape and fit.",
+        "The glove was rolled up tightly, changing its form into a small ball.",
+        "The glove was left out in the rain, causing it to soak and lose its original shape."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a glove change? Choose **only one** option from the following list.\nOptions:\n(A) The glove was placed in a laundry basket, becoming wrinkled and crumpled.\n(B) The glove was turned inside out, altering its texture and appearance.\n(C) The glove was put on, adjusting its shape and fit.\n(D) The glove was rolled up tightly, changing its form into a small ball.\n(E) The glove was left out in the rain, causing it to soak and lose its original shape.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The glove was put on, adjusting its shape and fit."
+    },
+    "correct_idx": [
+        2
+    ]
+}

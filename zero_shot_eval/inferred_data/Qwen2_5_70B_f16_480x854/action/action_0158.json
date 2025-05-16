@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person crumples the dry leaf in the left hand before tossing it onto the ground with the right hand, while keeping the left hand raised.",
+        "The person tears the dry leaf in half using both hands while holding it above the table.",
+        "The person twirls the dry leaf between the fingers in the right hand while resting the left hand on the arm of the chair.",
+        "The person passes the dry leaf from the left hand to the right hand, then rests the left hand on the leg afterward.",
+        "The person places the dry leaf onto the table with the right hand while clasping the left hand behind the back."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person crumples the dry leaf in the left hand before tossing it onto the ground with the right hand, while keeping the left hand raised.\n(B) The person tears the dry leaf in half using both hands while holding it above the table.\n(C) The person twirls the dry leaf between the fingers in the right hand while resting the left hand on the arm of the chair.\n(D) The person passes the dry leaf from the left hand to the right hand, then rests the left hand on the leg afterward.\n(E) The person places the dry leaf onto the table with the right hand while clasping the left hand behind the back.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person passes the dry leaf from the left hand to the right hand, then rests the left hand on the leg afterward."
+    },
+    "correct_idx": [
+        3
+    ]
+}

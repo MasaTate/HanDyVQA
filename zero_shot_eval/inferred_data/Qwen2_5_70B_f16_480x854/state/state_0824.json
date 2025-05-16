@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the socket change?",
+    "options": [
+        "The socket was removed using a socket wrench.",
+        "The socket was damaged when a hammer was used to strike it.",
+        "The socket was painted a different color to match the wall.",
+        "The socket was covered with a decorative plate after installation.",
+        "The socket was replaced with a larger model to handle more power."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the socket change? Choose **only one** option from the following list.\nOptions:\n(A) The socket was removed using a socket wrench.\n(B) The socket was damaged when a hammer was used to strike it.\n(C) The socket was painted a different color to match the wall.\n(D) The socket was covered with a decorative plate after installation.\n(E) The socket was replaced with a larger model to handle more power.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The socket was removed using a socket wrench."
+    },
+    "correct_idx": [
+        0
+    ]
+}

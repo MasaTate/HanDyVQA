@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pluck a chili pepper?",
+    "options": [
+        "The person grasps the chili pepper with both hands and gently lifts it toward her face to inspect it.",
+        "The person gradually twists her wrist to the right while gently pulling the chili pepper with her right hand.",
+        "The person lightly pinches the chili pepper using her thumb and forefinger in the right hand before pulling it smoothly downward.",
+        "The person quickly plucks the chili pepper using her left hand and sways her hand to the grass to the left.",
+        "The person pauses briefly before gently pulling the chili pepper with her left hand while leaning back, slightly bending it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pluck a chili pepper? Choose **only one** option from the following list.\nOptions:\n(A) The person grasps the chili pepper with both hands and gently lifts it toward her face to inspect it.\n(B) The person gradually twists her wrist to the right while gently pulling the chili pepper with her right hand.\n(C) The person lightly pinches the chili pepper using her thumb and forefinger in the right hand before pulling it smoothly downward.\n(D) The person quickly plucks the chili pepper using her left hand and sways her hand to the grass to the left.\n(E) The person pauses briefly before gently pulling the chili pepper with her left hand while leaning back, slightly bending it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person lightly pinches the chili pepper using her thumb and forefinger in the right hand before pulling it smoothly downward."
+    },
+    "correct_idx": [
+        3
+    ]
+}

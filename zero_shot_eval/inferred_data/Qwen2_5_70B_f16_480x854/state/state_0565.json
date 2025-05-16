@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the rubber change?",
+    "options": [
+        "The rubber was loosened and detached from the lawnmower.",
+        "The rubber was stretched and torn from the lawnmower.",
+        "The rubber was bent and folded onto the edges of the lawnmower.",
+        "The rubber was heated and melted into a residue on the lawnmower.",
+        "The rubber was punctured and left hanging from the lawnmower."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the rubber change? Choose **only one** option from the following list.\nOptions:\n(A) The rubber was loosened and detached from the lawnmower.\n(B) The rubber was stretched and torn from the lawnmower.\n(C) The rubber was bent and folded onto the edges of the lawnmower.\n(D) The rubber was heated and melted into a residue on the lawnmower.\n(E) The rubber was punctured and left hanging from the lawnmower.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The rubber was loosened and detached from the lawnmower."
+    },
+    "correct_idx": [
+        0
+    ]
+}

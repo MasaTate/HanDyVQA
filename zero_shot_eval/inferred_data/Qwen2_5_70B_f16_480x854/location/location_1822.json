@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the container?",
+    "options": [
+        "The person places the container inside the refrigerator next to a jar of jam.",
+        "The person places the container inside the refrigerator behind a bottle of milk.",
+        "The person places the container on the kitchen counter next to a loaf of bread.",
+        "The person places the container inside the cupboard above the sink.",
+        "The person places the container in the freezer next to a bag of frozen veggies."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the container? Choose **only one** option from the following list.\nOptions:\n(A) The person places the container inside the refrigerator next to a jar of jam.\n(B) The person places the container inside the refrigerator behind a bottle of milk.\n(C) The person places the container on the kitchen counter next to a loaf of bread.\n(D) The person places the container inside the cupboard above the sink.\n(E) The person places the container in the freezer next to a bag of frozen veggies.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person places the container inside the refrigerator behind a bottle of milk."
+    },
+    "correct_idx": [
+        0
+    ]
+}

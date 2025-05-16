@@ -1,0 +1,17 @@
+{
+    "question": "How does the person iron the collar of the shirt on the table  ?",
+    "options": [
+        "The person presses down the iron comfortably against the collar of the shirt on the table with his hand, moving it in a gentle circular motion.",
+        "The person holds the iron in one hand and lightly taps it on the collar of the shirt on the table without sliding it much.",
+        "The person uses one hand to gently adjust the collar of the shirt while the iron hovers slightly above the fabric.",
+        "The person moves the iron smoothly side to side over the collar of the shirt on the table, gripping the handle securely with one hand.",
+        "The person irons the collar of the shirt on the table carefully with his right hand, moving the iron back and forth repeatedly."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person iron the collar of the shirt on the table  ? Choose **only one** option from the following list.\nOptions:\n(A) The person presses down the iron comfortably against the collar of the shirt on the table with his hand, moving it in a gentle circular motion.\n(B) The person holds the iron in one hand and lightly taps it on the collar of the shirt on the table without sliding it much.\n(C) The person uses one hand to gently adjust the collar of the shirt while the iron hovers slightly above the fabric.\n(D) The person moves the iron smoothly side to side over the collar of the shirt on the table, gripping the handle securely with one hand.\n(E) The person irons the collar of the shirt on the table carefully with his right hand, moving the iron back and forth repeatedly.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person irons the collar of the shirt on the table carefully with his right hand, moving the iron back and forth repeatedly."
+    },
+    "correct_idx": [
+        4
+    ]
+}

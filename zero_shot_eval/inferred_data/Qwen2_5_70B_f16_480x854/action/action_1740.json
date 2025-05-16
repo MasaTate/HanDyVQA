@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person closes the faucet using his left hand and then cuts another pepper on the chopping board with the knife he was holding in his left hand.",
+        "The person is placing a green pepper in a bowl on the counter with his left hand.",
+        "The person is lifting a green pepper off the cutting board with his left hand while preparing to slice it.",
+        "The person is rolling a green pepper on the cutting board with his left hand as he gets ready to slice it.",
+        "The person is holding a green pepper in his left hand, inspecting it closely before cutting."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person closes the faucet using his left hand and then cuts another pepper on the chopping board with the knife he was holding in his left hand.\n(B) The person is placing a green pepper in a bowl on the counter with his left hand.\n(C) The person is lifting a green pepper off the cutting board with his left hand while preparing to slice it.\n(D) The person is rolling a green pepper on the cutting board with his left hand as he gets ready to slice it.\n(E) The person is holding a green pepper in his left hand, inspecting it closely before cutting.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person is lifting a green pepper off the cutting board with his left hand while preparing to slice it."
+    },
+    "correct_idx": [
+        0
+    ]
+}

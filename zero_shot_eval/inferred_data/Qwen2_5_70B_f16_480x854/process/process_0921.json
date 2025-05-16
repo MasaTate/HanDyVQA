@@ -1,0 +1,17 @@
+{
+    "question": "How does the person transfer the spanners?",
+    "options": [
+        "The person lifts the spanners with both hands and puts them into the drawer gently.",
+        "The person picks up the spanners using his left hand and transfers them quickly to his right hand and then puts them back in the drawer gently.",
+        "The person grips the spanners softly in his right hand and carries them carefully before placing them on the table.",
+        "The person takes the spanners with his left hand and sets them behind him thoughtfully.",
+        "The person picks up the spanners with his fingers and lays them down lightly onto the floor, considering their position."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person transfer the spanners? Choose **only one** option from the following list.\nOptions:\n(A) The person lifts the spanners with both hands and puts them into the drawer gently.\n(B) The person picks up the spanners using his left hand and transfers them quickly to his right hand and then puts them back in the drawer gently.\n(C) The person grips the spanners softly in his right hand and carries them carefully before placing them on the table.\n(D) The person takes the spanners with his left hand and sets them behind him thoughtfully.\n(E) The person picks up the spanners with his fingers and lays them down lightly onto the floor, considering their position.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person lifts the spanners with both hands and puts them into the drawer gently."
+    },
+    "correct_idx": [
+        1
+    ]
+}

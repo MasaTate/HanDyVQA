@@ -1,0 +1,17 @@
+{
+    "question": "How does the person examine the milk?",
+    "options": [
+        "The person dips his left index finger into the can to examine the texture of the milk.",
+        "The person uses his right hand to tilt the can slightly to test the consistency of the milk.",
+        "The person tilts the can and lets a small amount flow into his left hand to observe its color.",
+        "The person holds the can gently in both hands and looks at it closely to examine the milk.",
+        "The person picks up the can smoothly with his right hand and taps it slightly to hear any sounds."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person examine the milk? Choose **only one** option from the following list.\nOptions:\n(A) The person dips his left index finger into the can to examine the texture of the milk.\n(B) The person uses his right hand to tilt the can slightly to test the consistency of the milk.\n(C) The person tilts the can and lets a small amount flow into his left hand to observe its color.\n(D) The person holds the can gently in both hands and looks at it closely to examine the milk.\n(E) The person picks up the can smoothly with his right hand and taps it slightly to hear any sounds.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person uses his right hand to tilt the can slightly to test the consistency of the milk."
+    },
+    "correct_idx": [
+        0
+    ]
+}

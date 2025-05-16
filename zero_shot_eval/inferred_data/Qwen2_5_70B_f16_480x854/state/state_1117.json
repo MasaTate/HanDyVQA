@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the grains in the mortar change?",
+    "options": [
+        "The grains in the mortar were soaked in water until they became a paste.",
+        "The grains in the mortar were heated until they turned toasted and dark in color.",
+        "The grains in the mortar were left whole and simply mixed without alteration.",
+        "The grains in the mortar were sorted by size, resulting in separate piles of different sizes.",
+        "The grains in the mortar were ground and crushed into smaller pieces using a pestle."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the grains in the mortar change? Choose **only one** option from the following list.\nOptions:\n(A) The grains in the mortar were soaked in water until they became a paste.\n(B) The grains in the mortar were heated until they turned toasted and dark in color.\n(C) The grains in the mortar were left whole and simply mixed without alteration.\n(D) The grains in the mortar were sorted by size, resulting in separate piles of different sizes.\n(E) The grains in the mortar were ground and crushed into smaller pieces using a pestle.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The grains in the mortar were ground and crushed into smaller pieces using a pestle."
+    },
+    "correct_idx": [
+        4
+    ]
+}

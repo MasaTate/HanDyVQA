@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the bin?",
+    "options": [
+        "The person moved the bin far from the pack of groceries.",
+        "The person moved the bin behind the pack of groceries.",
+        "The person moved the bin next to the pack of groceries.",
+        "The person moved the bin close to the pack of groceries.",
+        "The person moved the bin across the room from the pack of groceries."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the bin? Choose **only one** option from the following list.\nOptions:\n(A) The person moved the bin far from the pack of groceries.\n(B) The person moved the bin behind the pack of groceries.\n(C) The person moved the bin next to the pack of groceries.\n(D) The person moved the bin close to the pack of groceries.\n(E) The person moved the bin across the room from the pack of groceries.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person moved the bin close to the pack of groceries."
+    },
+    "correct_idx": [
+        3
+    ]
+}

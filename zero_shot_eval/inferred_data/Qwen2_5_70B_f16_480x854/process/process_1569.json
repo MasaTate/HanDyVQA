@@ -1,0 +1,17 @@
+{
+    "question": "How does the person carry the purple cup?",
+    "options": [
+        "The person pinches the purple cup between their fingers, lifting it cautiously with their right hand, maintaining some stability.",
+        "The person cradles the purple cup with both hands, lifting it with care and tilting it slightly to the side.",
+        "The person holds the purple cup gently in their left hand, raising it carefully as they walk.",
+        "The person supports the purple cup on their palm, with the fingers curled closely around the sides, lifting it smoothly to move it.",
+        "The person grips the purple cup firmly with their left hand, holding it by the base, and lifts it steadily to carry it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person carry the purple cup? Choose **only one** option from the following list.\nOptions:\n(A) The person pinches the purple cup between their fingers, lifting it cautiously with their right hand, maintaining some stability.\n(B) The person cradles the purple cup with both hands, lifting it with care and tilting it slightly to the side.\n(C) The person holds the purple cup gently in their left hand, raising it carefully as they walk.\n(D) The person supports the purple cup on their palm, with the fingers curled closely around the sides, lifting it smoothly to move it.\n(E) The person grips the purple cup firmly with their left hand, holding it by the base, and lifts it steadily to carry it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person holds the purple cup gently in their left hand, raising it carefully as they walk."
+    },
+    "correct_idx": [
+        4
+    ]
+}

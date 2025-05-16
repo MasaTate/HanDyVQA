@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the knife change?",
+    "options": [
+        "The knife was first slid from left to right on the chopping board, then used to cut vegetables.",
+        "The knife was first lifted off the chopping board, then used to cut vegetables.",
+        "The knife was first slid from right to left on the chopping board before being wiped clean.",
+        "The knife was first slid from right to left on the chopping board, then used to cut vegetables.",
+        "The knife remained stationary on the chopping board before being used to cut vegetables."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the knife change? Choose **only one** option from the following list.\nOptions:\n(A) The knife was first slid from left to right on the chopping board, then used to cut vegetables.\n(B) The knife was first lifted off the chopping board, then used to cut vegetables.\n(C) The knife was first slid from right to left on the chopping board before being wiped clean.\n(D) The knife was first slid from right to left on the chopping board, then used to cut vegetables.\n(E) The knife remained stationary on the chopping board before being used to cut vegetables.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The knife was first lifted off the chopping board, then used to cut vegetables."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the tissue change?",
+    "options": [
+        "The tissue, initially clean, became stained after touching the paintbrush.",
+        "The tissue, initially dry, became damp after cleaning the paint spills.",
+        "The tissue, initially smooth, became crumpled after tapping on the painting.",
+        "The tissue, initially flat, was torn into smaller pieces while handling the painting.",
+        "The tissue, initially unused, became wrinkled after being folded to fit in a pocket."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the tissue change? Choose **only one** option from the following list.\nOptions:\n(A) The tissue, initially clean, became stained after touching the paintbrush.\n(B) The tissue, initially dry, became damp after cleaning the paint spills.\n(C) The tissue, initially smooth, became crumpled after tapping on the painting.\n(D) The tissue, initially flat, was torn into smaller pieces while handling the painting.\n(E) The tissue, initially unused, became wrinkled after being folded to fit in a pocket.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The tissue, initially smooth, became crumpled after tapping on the painting."
+    },
+    "correct_idx": [
+        2
+    ]
+}

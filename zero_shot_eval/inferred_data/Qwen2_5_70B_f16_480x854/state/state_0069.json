@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the plastic bag change?",
+    "options": [
+        "The plastic bag was picked up and unrolled, changing its position and shape.",
+        "The plastic bag was picked up and twisted, altering its shape and condition.",
+        "The plastic bag was picked up and crumpled, changing its position and texture.",
+        "The plastic bag was picked up and folded, modifying its position and form.",
+        "The plastic bag was picked up and compressed, adjusting its position and size."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the plastic bag change? Choose **only one** option from the following list.\nOptions:\n(A) The plastic bag was picked up and unrolled, changing its position and shape.\n(B) The plastic bag was picked up and twisted, altering its shape and condition.\n(C) The plastic bag was picked up and crumpled, changing its position and texture.\n(D) The plastic bag was picked up and folded, modifying its position and form.\n(E) The plastic bag was picked up and compressed, adjusting its position and size.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The plastic bag was picked up and unrolled, changing its position and shape."
+    },
+    "correct_idx": [
+        0
+    ]
+}

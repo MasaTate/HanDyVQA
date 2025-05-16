@@ -1,0 +1,20 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "mirror",
+        "storage cabinet",
+        "face mask",
+        "hair dryer",
+        "pants",
+        "hair brush",
+        "cloth"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) mirror\n(B) storage cabinet\n(C) face mask\n(D) hair dryer\n(E) pants\n(F) hair brush\n(G) cloth\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(D) hair dryer\n(F) hair brush"
+    },
+    "correct_idx": [
+        3,
+        5
+    ]
+}

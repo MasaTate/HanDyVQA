@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the poster change?",
+    "options": [
+        "The poster was stretched out on the table.",
+        "The poster was crumpled and thrown in the trash.",
+        "The poster was rolled onto the ground.",
+        "The poster was pinned on the wall.",
+        "The poster was folded and placed in a binder."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the poster change? Choose **only one** option from the following list.\nOptions:\n(A) The poster was stretched out on the table.\n(B) The poster was crumpled and thrown in the trash.\n(C) The poster was rolled onto the ground.\n(D) The poster was pinned on the wall.\n(E) The poster was folded and placed in a binder.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The poster was rolled onto the ground."
+    },
+    "correct_idx": [
+        2
+    ]
+}

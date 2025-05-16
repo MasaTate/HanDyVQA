@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of tape change?",
+    "options": [
+        "The tape was taken and applied horizontally to the paint.",
+        "The tape was taken and applied diagonally to the paint.",
+        "The tape was taken and applied vertically to the paint.",
+        "The tape was taken and left beside the paint.",
+        "The tape was taken and applied vertically to a different surface."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of tape change? Choose **only one** option from the following list.\nOptions:\n(A) The tape was taken and applied horizontally to the paint.\n(B) The tape was taken and applied diagonally to the paint.\n(C) The tape was taken and applied vertically to the paint.\n(D) The tape was taken and left beside the paint.\n(E) The tape was taken and applied vertically to a different surface.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The tape was taken and applied vertically to the paint."
+    },
+    "correct_idx": [
+        2
+    ]
+}

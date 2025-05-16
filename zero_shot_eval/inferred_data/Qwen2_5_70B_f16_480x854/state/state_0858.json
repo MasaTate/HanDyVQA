@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of soap change?",
+    "options": [
+        "The soap was dispensed from the bottle, spreading and forming a layer on the surface of the hand.",
+        "The soap was squeezed from the bottle, forming a foam that filled the basin.",
+        "The soap was pumped out of the bottle, creating bubbles that appeared in the air.",
+        "The soap was poured out of the bottle, collecting in a puddle on the countertop.",
+        "The soap was dripped from the bottle, moving down the side of the hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of soap change? Choose **only one** option from the following list.\nOptions:\n(A) The soap was dispensed from the bottle, spreading and forming a layer on the surface of the hand.\n(B) The soap was squeezed from the bottle, forming a foam that filled the basin.\n(C) The soap was pumped out of the bottle, creating bubbles that appeared in the air.\n(D) The soap was poured out of the bottle, collecting in a puddle on the countertop.\n(E) The soap was dripped from the bottle, moving down the side of the hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The soap was dispensed from the bottle, spreading and forming a layer on the surface of the hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

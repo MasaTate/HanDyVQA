@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the flask?",
+    "options": [
+        "The person places the flask beside the empty sack.",
+        "The person places the flask underneath the empty sack.",
+        "The person places the flask on top of the empty sack.",
+        "The person places the flask on the ground next to the empty sack.",
+        "The person places the flask in front of the empty sack."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the flask? Choose **only one** option from the following list.\nOptions:\n(A) The person places the flask beside the empty sack.\n(B) The person places the flask underneath the empty sack.\n(C) The person places the flask on top of the empty sack.\n(D) The person places the flask on the ground next to the empty sack.\n(E) The person places the flask in front of the empty sack.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person places the flask on the ground next to the empty sack."
+    },
+    "correct_idx": [
+        2
+    ]
+}

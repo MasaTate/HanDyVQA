@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the tip of the screwdriver change?",
+    "options": [
+        "The tip of the screwdriver was lightly touched by the left hand.",
+        "The tip of the screwdriver was gripped by the right hand.",
+        "The tip of the screwdriver was rubbed against the table's surface.",
+        "The tip of the screwdriver was flicked away by the index finger.",
+        "The tip of the screwdriver was rotated in a circular motion by the palm."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the tip of the screwdriver change? Choose **only one** option from the following list.\nOptions:\n(A) The tip of the screwdriver was lightly touched by the left hand.\n(B) The tip of the screwdriver was gripped by the right hand.\n(C) The tip of the screwdriver was rubbed against the table's surface.\n(D) The tip of the screwdriver was flicked away by the index finger.\n(E) The tip of the screwdriver was rotated in a circular motion by the palm.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The tip of the screwdriver was lightly touched by the left hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

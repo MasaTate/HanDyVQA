@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the lego?",
+    "options": [
+        "The person put the Lego by stacking it on top of another Lego.",
+        "The person put the Lego by placing it next to another Lego.",
+        "The person put the Lego by aligning it parallel to another Lego.",
+        "The person put the Lego by sticking it to the side of another Lego.",
+        "The person put the Lego by attaching it to another Lego."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the lego? Choose **only one** option from the following list.\nOptions:\n(A) The person put the Lego by stacking it on top of another Lego.\n(B) The person put the Lego by placing it next to another Lego.\n(C) The person put the Lego by aligning it parallel to another Lego.\n(D) The person put the Lego by sticking it to the side of another Lego.\n(E) The person put the Lego by attaching it to another Lego.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person put the Lego by attaching it to another Lego."
+    },
+    "correct_idx": [
+        4
+    ]
+}

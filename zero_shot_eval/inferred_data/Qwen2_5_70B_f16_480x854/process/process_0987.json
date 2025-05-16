@@ -1,0 +1,17 @@
+{
+    "question": "How does the person drive the car?",
+    "options": [
+        "The person carefully uses both hands to turn the steering wheel to the right and left.",
+        "The person steers with one hand while reaching forward to adjust the radio with the other hand.",
+        "The person holds the steering wheel with one hand and uses the other hand to manage a cup of coffee.",
+        "The person navigates the steering wheel with only their fingertips on one side, resting the other hand on their lap.",
+        "The person uses both hands on the steering wheel, pushing with the palms without making turns."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person drive the car? Choose **only one** option from the following list.\nOptions:\n(A) The person carefully uses both hands to turn the steering wheel to the right and left.\n(B) The person steers with one hand while reaching forward to adjust the radio with the other hand.\n(C) The person holds the steering wheel with one hand and uses the other hand to manage a cup of coffee.\n(D) The person navigates the steering wheel with only their fingertips on one side, resting the other hand on their lap.\n(E) The person uses both hands on the steering wheel, pushing with the palms without making turns.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person steers with one hand while reaching forward to adjust the radio with the other hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

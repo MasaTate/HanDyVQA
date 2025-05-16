@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is flipping pancakes in the frying pan with a spatula in her right hand while resting her left hand on the edge of the stove.",
+        "The person seems to be stirring vegetables in the frying pan with a wooden spoon in her right hand while balancing the pan with her left hand.",
+        "The person is pouring oil into the frying pan on the stove with a bottle in her right hand while holding the pan steady with her left hand.",
+        "The person slides her fingers into the frying pan to adjust the heat while holding a lid in her right hand that she is about to place on top.",
+        "The person places her right hand above the frying pan on the stove and holds the oil container with her left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is flipping pancakes in the frying pan with a spatula in her right hand while resting her left hand on the edge of the stove.\n(B) The person seems to be stirring vegetables in the frying pan with a wooden spoon in her right hand while balancing the pan with her left hand.\n(C) The person is pouring oil into the frying pan on the stove with a bottle in her right hand while holding the pan steady with her left hand.\n(D) The person slides her fingers into the frying pan to adjust the heat while holding a lid in her right hand that she is about to place on top.\n(E) The person places her right hand above the frying pan on the stove and holds the oil container with her left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person places her right hand above the frying pan on the stove and holds the oil container with her left hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

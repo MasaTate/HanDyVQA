@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the air blow gun change?",
+    "options": [
+        "The air blow gun had its nozzle blocked, then was moved to the lower right.",
+        "The air blow gun had something removed from its nozzle and then was moved to the upper right.",
+        "The air blow gun was moved to the upper left without removing anything from its nozzle.",
+        "The air blow gun was moved straight upward after being cleaned.",
+        "The air blow gun was moved to the side while something was added to its nozzle."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the air blow gun change? Choose **only one** option from the following list.\nOptions:\n(A) The air blow gun had its nozzle blocked, then was moved to the lower right.\n(B) The air blow gun had something removed from its nozzle and then was moved to the upper right.\n(C) The air blow gun was moved to the upper left without removing anything from its nozzle.\n(D) The air blow gun was moved straight upward after being cleaned.\n(E) The air blow gun was moved to the side while something was added to its nozzle.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The air blow gun was moved to the upper left without removing anything from its nozzle."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person cleans her retainers using a cloth and applies toothpaste to them.",
+        "The person is rinsing her toothbrush under the tap while holding the retainers with her other hand.",
+        "The person is soaking her retainers in a cleaning solution, gently stirring it with one hand.",
+        "The person is drying her retainers with a towel and inspecting them closely with both hands.",
+        "The person rinses her retainers and brushes it with a toothbrush using both hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person cleans her retainers using a cloth and applies toothpaste to them.\n(B) The person is rinsing her toothbrush under the tap while holding the retainers with her other hand.\n(C) The person is soaking her retainers in a cleaning solution, gently stirring it with one hand.\n(D) The person is drying her retainers with a towel and inspecting them closely with both hands.\n(E) The person rinses her retainers and brushes it with a toothbrush using both hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person cleans her retainers using a cloth and applies toothpaste to them."
+    },
+    "correct_idx": [
+        4
+    ]
+}

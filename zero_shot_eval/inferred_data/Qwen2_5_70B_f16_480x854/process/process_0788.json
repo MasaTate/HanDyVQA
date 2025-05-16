@@ -1,0 +1,17 @@
+{
+    "question": "How does the person drive the lawn mower?",
+    "options": [
+        "The person maneuvers the lawn mower by gripping the steering handle with both hands simultaneously, before pushing it forward without involving the lever.",
+        "The person drives the lawn mower by first holding the steering handle with his left hand and the lever with his right hand. Next, he switches hands so the right hand is holding the steering handle and the left hand pulls some lever on its left side, then returns to the original hand position.",
+        "The individual operates the lawn mower by crossing his arms and gripping the steering handle with both hands while using his right elbow to manipulate the lever.",
+        "The person drives the lawn mower by holding the steering handle with his right hand and using his knee to press the lever in place of the other hand.",
+        "The individual steers the lawn mower by keeping one hand on the steering handle while using the other hand to adjust the lever by flicking it up and down."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person drive the lawn mower? Choose **only one** option from the following list.\nOptions:\n(A) The person maneuvers the lawn mower by gripping the steering handle with both hands simultaneously, before pushing it forward without involving the lever.\n(B) The person drives the lawn mower by first holding the steering handle with his left hand and the lever with his right hand. Next, he switches hands so the right hand is holding the steering handle and the left hand pulls some lever on its left side, then returns to the original hand position.\n(C) The individual operates the lawn mower by crossing his arms and gripping the steering handle with both hands while using his right elbow to manipulate the lever.\n(D) The person drives the lawn mower by holding the steering handle with his right hand and using his knee to press the lever in place of the other hand.\n(E) The individual steers the lawn mower by keeping one hand on the steering handle while using the other hand to adjust the lever by flicking it up and down.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person drives the lawn mower by first holding the steering handle with his left hand and the lever with his right hand. Next, he switches hands so the right hand is holding the steering handle and the left hand pulls some lever on its left side, then returns to the original hand position."
+    },
+    "correct_idx": [
+        1
+    ]
+}

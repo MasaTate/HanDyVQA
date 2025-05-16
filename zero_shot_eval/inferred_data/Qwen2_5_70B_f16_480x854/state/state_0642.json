@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the wood change?",
+    "options": [
+        "The wood was marked for measurement but remained unchanged.",
+        "The wood was measured with the meter on one side but did not change further.",
+        "The wood was aligned with the meter for verification and was unaltered.",
+        "The wood was positioned against the meter and was left as it was.",
+        "The wood had a contact with the meter but didn't change in other way."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the wood change? Choose **only one** option from the following list.\nOptions:\n(A) The wood was marked for measurement but remained unchanged.\n(B) The wood was measured with the meter on one side but did not change further.\n(C) The wood was aligned with the meter for verification and was unaltered.\n(D) The wood was positioned against the meter and was left as it was.\n(E) The wood had a contact with the meter but didn't change in other way.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The wood was aligned with the meter for verification and was unaltered."
+    },
+    "correct_idx": [
+        4
+    ]
+}

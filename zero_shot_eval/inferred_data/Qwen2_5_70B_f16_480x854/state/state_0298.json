@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the position of the gallon change?",
+    "options": [
+        "The gallon was lifted up, tilted, and then moved to a different location.",
+        "The gallon was lifted halfway, tilted, and then set down.",
+        "The gallon was lifted up, tilted, and then put down in the original place.",
+        "The gallon was lifted up, rotated instead of being tilted, and then set down.",
+        "The gallon was lifted up, tilted, and left on its side after being put down."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the position of the gallon change? Choose **only one** option from the following list.\nOptions:\n(A) The gallon was lifted up, tilted, and then moved to a different location.\n(B) The gallon was lifted halfway, tilted, and then set down.\n(C) The gallon was lifted up, tilted, and then put down in the original place.\n(D) The gallon was lifted up, rotated instead of being tilted, and then set down.\n(E) The gallon was lifted up, tilted, and left on its side after being put down.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The gallon was lifted up, tilted, and then moved to a different location."
+    },
+    "correct_idx": [
+        2
+    ]
+}

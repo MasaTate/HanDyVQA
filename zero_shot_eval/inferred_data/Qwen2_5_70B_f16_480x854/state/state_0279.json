@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the switch on the wall change?",
+    "options": [
+        "The switch on the wall was touched.",
+        "The switch on the wall was flipped upwards.",
+        "The switch on the wall was pressed and held.",
+        "The switch on the wall was tapped.",
+        "The switch on the wall was nudged."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the switch on the wall change? Choose **only one** option from the following list.\nOptions:\n(A) The switch on the wall was touched.\n(B) The switch on the wall was flipped upwards.\n(C) The switch on the wall was pressed and held.\n(D) The switch on the wall was tapped.\n(E) The switch on the wall was nudged.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The switch on the wall was touched."
+    },
+    "correct_idx": [
+        0
+    ]
+}

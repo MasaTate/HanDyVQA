@@ -1,0 +1,17 @@
+{
+    "question": "How does the person paint the clay flower pot?",
+    "options": [
+        "The person uses both hands to securely hold the clay flower pot while painting.",
+        "The person dips the brush into the paint and then brushes the clay flower pot with the right hand.",
+        "The person carefully paints the clay pot with the left hand, while keeping it steady with the right hand.",
+        "The person lightly applies paint to the clay flower pot using a spoon held in the right hand.",
+        "The person uses a roller with the left hand to evenly coat the pot, choosing it over a brush."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person paint the clay flower pot? Choose **only one** option from the following list.\nOptions:\n(A) The person uses both hands to securely hold the clay flower pot while painting.\n(B) The person dips the brush into the paint and then brushes the clay flower pot with the right hand.\n(C) The person carefully paints the clay pot with the left hand, while keeping it steady with the right hand.\n(D) The person lightly applies paint to the clay flower pot using a spoon held in the right hand.\n(E) The person uses a roller with the left hand to evenly coat the pot, choosing it over a brush.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person dips the brush into the paint and then brushes the clay flower pot with the right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

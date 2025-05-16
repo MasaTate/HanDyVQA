@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a jar cover on the kitchen counter change?",
+    "options": [
+        "The jar cover was placed on the counter with a slight turn to the left.",
+        "The jar cover was placed on the counter after being flipped.",
+        "The jar cover was placed on the counter with a slight rotation to the right.",
+        "The jar cover was placed on the counter without any rotation change.",
+        "The jar cover was placed on the counter after being moved from another area of the kitchen."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a jar cover on the kitchen counter change? Choose **only one** option from the following list.\nOptions:\n(A) The jar cover was placed on the counter with a slight turn to the left.\n(B) The jar cover was placed on the counter after being flipped.\n(C) The jar cover was placed on the counter with a slight rotation to the right.\n(D) The jar cover was placed on the counter without any rotation change.\n(E) The jar cover was placed on the counter after being moved from another area of the kitchen.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The jar cover was placed on the counter without any rotation change."
+    },
+    "correct_idx": [
+        3
+    ]
+}

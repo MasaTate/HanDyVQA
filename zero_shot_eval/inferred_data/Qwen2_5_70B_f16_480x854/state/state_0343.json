@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the pan change?",
+    "options": [
+        "The wet pan was touched with a finger.",
+        "The wet pan was pressed with a finger.",
+        "The wet pan was scratched with a finger.",
+        "The wet pan was moved in circular motions with a finger.",
+        "The wet pan was rubbed with a finger."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the pan change? Choose **only one** option from the following list.\nOptions:\n(A) The wet pan was touched with a finger.\n(B) The wet pan was pressed with a finger.\n(C) The wet pan was scratched with a finger.\n(D) The wet pan was moved in circular motions with a finger.\n(E) The wet pan was rubbed with a finger.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The wet pan was rubbed with a finger."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is gripping the spatula with the right hand while holding the bowl with the left hand and turning the oven's dial.",
+        "The person is using the right hand to stir the contents in the pan while holding the chopsticks with the left hand and adjusting the heat on the stove.",
+        "The person is using the right hand to hold the chopsticks while holding the pan with the left hand and touching the stove\u2019s knob.",
+        "The person is holding the pan in the right hand while gripping the knife with the left hand and pressing the button on the microwave.",
+        "The person is balancing the pot with the right hand while holding a ladle in the left hand and checking the timer on the oven."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is gripping the spatula with the right hand while holding the bowl with the left hand and turning the oven's dial.\n(B) The person is using the right hand to stir the contents in the pan while holding the chopsticks with the left hand and adjusting the heat on the stove.\n(C) The person is using the right hand to hold the chopsticks while holding the pan with the left hand and touching the stove\u2019s knob.\n(D) The person is holding the pan in the right hand while gripping the knife with the left hand and pressing the button on the microwave.\n(E) The person is balancing the pot with the right hand while holding a ladle in the left hand and checking the timer on the oven.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person is using the right hand to hold the chopsticks while holding the pan with the left hand and touching the stove\u2019s knob."
+    },
+    "correct_idx": [
+        2
+    ]
+}

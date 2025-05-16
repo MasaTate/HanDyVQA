@@ -1,0 +1,17 @@
+{
+    "question": "How does the person cover the pot?",
+    "options": [
+        "The person grabs the lid with both hands, aligns it with the pot, and then lowers it quickly to cover the pot securely.",
+        "The person picks up the lid with his left hand, aligns it properly, and gently places it on the pot.",
+        "The person uses one hand to place the lid onto the pot from a short distance, letting it settle into position on its own.",
+        "He holds the lid with his right hand, aligns it with the pot, and gently lowers it in a controlled motion to ensure a secure fit.",
+        "The person shifts the lid with his right hand, aligns it with the pot's edge, and lowers it smoothly to secure it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person cover the pot? Choose **only one** option from the following list.\nOptions:\n(A) The person grabs the lid with both hands, aligns it with the pot, and then lowers it quickly to cover the pot securely.\n(B) The person picks up the lid with his left hand, aligns it properly, and gently places it on the pot.\n(C) The person uses one hand to place the lid onto the pot from a short distance, letting it settle into position on its own.\n(D) He holds the lid with his right hand, aligns it with the pot, and gently lowers it in a controlled motion to ensure a secure fit.\n(E) The person shifts the lid with his right hand, aligns it with the pot's edge, and lowers it smoothly to secure it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person shifts the lid with his right hand, aligns it with the pot's edge, and lowers it smoothly to secure it."
+    },
+    "correct_idx": [
+        3
+    ]
+}

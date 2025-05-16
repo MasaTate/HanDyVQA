@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person installs the washer and twists it in a counterclockwise direction using his right hand.",
+        "The person installs the washer nut on the bike frame using his right hand.",
+        "The individual tightens the washer nut at the bottom of the bike with his right hand.",
+        "The person removes the washer nut from the bike handlebar using his right hand.",
+        "The individual adjusts the washer nut on the wheel of the bike with his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person installs the washer and twists it in a counterclockwise direction using his right hand.\n(B) The person installs the washer nut on the bike frame using his right hand.\n(C) The individual tightens the washer nut at the bottom of the bike with his right hand.\n(D) The person removes the washer nut from the bike handlebar using his right hand.\n(E) The individual adjusts the washer nut on the wheel of the bike with his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person installs the washer nut on the bike frame using his right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

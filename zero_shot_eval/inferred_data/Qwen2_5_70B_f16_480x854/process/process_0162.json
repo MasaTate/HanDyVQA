@@ -1,0 +1,17 @@
+{
+    "question": "How does the person unzip a bag in the refrigerator?",
+    "options": [
+        "The person tugs on the zipper with her left hand while holding the bag with her right hand, trying to open it slowly.",
+        "The person uses both hands to grip the bag securely before carefully pulling the zipper down.",
+        "The person presses the zipper down with the palm of her right hand, which slightly delays the opening of the bag.",
+        "The person grabs the zipper with her right hand and pulls it sidewards in a quick motion to open the bag.",
+        "The person lifts the whole bag with her left hand while using her right hand to gently push down on the zipper, making it less efficient to open."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person unzip a bag in the refrigerator? Choose **only one** option from the following list.\nOptions:\n(A) The person tugs on the zipper with her left hand while holding the bag with her right hand, trying to open it slowly.\n(B) The person uses both hands to grip the bag securely before carefully pulling the zipper down.\n(C) The person presses the zipper down with the palm of her right hand, which slightly delays the opening of the bag.\n(D) The person grabs the zipper with her right hand and pulls it sidewards in a quick motion to open the bag.\n(E) The person lifts the whole bag with her left hand while using her right hand to gently push down on the zipper, making it less efficient to open.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person grabs the zipper with her right hand and pulls it sidewards in a quick motion to open the bag."
+    },
+    "correct_idx": [
+        3
+    ]
+}

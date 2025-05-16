@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the napkin change?",
+    "options": [
+        "The napkin was held and moved along the table to wipe.",
+        "The napkin was held and moved along the wall to wipe.",
+        "The napkin was held and dabbed on the wall.",
+        "The napkin was crumpled in the hand before being used on the wall to wipe.",
+        "The napkin was held tight and pressed against the wall without moving."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the napkin change? Choose **only one** option from the following list.\nOptions:\n(A) The napkin was held and moved along the table to wipe.\n(B) The napkin was held and moved along the wall to wipe.\n(C) The napkin was held and dabbed on the wall.\n(D) The napkin was crumpled in the hand before being used on the wall to wipe.\n(E) The napkin was held tight and pressed against the wall without moving.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The napkin was held and moved along the table to wipe."
+    },
+    "correct_idx": [
+        1
+    ]
+}

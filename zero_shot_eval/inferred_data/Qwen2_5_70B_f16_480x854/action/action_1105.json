@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person removes the lightbulb from its packaging and places it carefully on a shelf next to the ladder.",
+        "The person twists the lightbulb in the socket while standing near the ladder.",
+        "The person is checking the wattage of the lightbulb while holding it in one hand and a tool in the other.",
+        "The person is adjusting the light fixture on the ladder, holding the lightbulb with care in both hands.",
+        "The person takes the lightbulb out of its socket and puts it into the holder attached to the ladder with his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person removes the lightbulb from its packaging and places it carefully on a shelf next to the ladder.\n(B) The person twists the lightbulb in the socket while standing near the ladder.\n(C) The person is checking the wattage of the lightbulb while holding it in one hand and a tool in the other.\n(D) The person is adjusting the light fixture on the ladder, holding the lightbulb with care in both hands.\n(E) The person takes the lightbulb out of its socket and puts it into the holder attached to the ladder with his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person twists the lightbulb in the socket while standing near the ladder."
+    },
+    "correct_idx": [
+        4
+    ]
+}

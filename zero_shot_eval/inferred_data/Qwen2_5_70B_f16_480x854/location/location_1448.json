@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the can?",
+    "options": [
+        "The person drops the can to the left of the other cans on the rail.",
+        "The person drops the can just in front of the other cans on the edge of the rail.",
+        "The person drops the can to the right of the other cans on the rail.",
+        "The person drops the can behind the other cans near the end of the rail.",
+        "The person drops the can next to the other cans on the floor beside the rail."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the can? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the can to the left of the other cans on the rail.\n(B) The person drops the can just in front of the other cans on the edge of the rail.\n(C) The person drops the can to the right of the other cans on the rail.\n(D) The person drops the can behind the other cans near the end of the rail.\n(E) The person drops the can next to the other cans on the floor beside the rail.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person drops the can to the right of the other cans on the rail."
+    },
+    "correct_idx": [
+        2
+    ]
+}

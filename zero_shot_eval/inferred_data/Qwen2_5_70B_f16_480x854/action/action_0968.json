@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is climbing the step ladder and holding a paintbrush with his right hand.",
+        "The person is folding a table with his right hand while standing next to the step ladder.",
+        "The person adjusts the step ladder and holds the shelf with his right hand.",
+        "The person is leaning against the step ladder and positioning a picture frame with his right hand.",
+        "The person is cleaning the step ladder with a cloth in his right hand while keeping the shelf steady with his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is climbing the step ladder and holding a paintbrush with his right hand.\n(B) The person is folding a table with his right hand while standing next to the step ladder.\n(C) The person adjusts the step ladder and holds the shelf with his right hand.\n(D) The person is leaning against the step ladder and positioning a picture frame with his right hand.\n(E) The person is cleaning the step ladder with a cloth in his right hand while keeping the shelf steady with his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person adjusts the step ladder and holds the shelf with his right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

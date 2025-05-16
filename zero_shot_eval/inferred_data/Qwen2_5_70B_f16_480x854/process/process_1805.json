@@ -1,0 +1,17 @@
+{
+    "question": "How does the person wash the handle of the spoon with the sponge in her right hand?",
+    "options": [
+        "The person scrubs the spoon gently with the sponge while holding it over the sink.",
+        "The person soaks the sponge in soapy water and lightly taps it on the spoon instead of wiping.",
+        "The person holds the spoon under running water and wipes it quickly with the sponge.",
+        "The person holds the spoon up to the sponge and rubs the sponge against it with only a little water.",
+        "The person places the spoon on the counter and wipes it slowly with the sponge using only a small amount of water."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person wash the handle of the spoon with the sponge in her right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person scrubs the spoon gently with the sponge while holding it over the sink.\n(B) The person soaks the sponge in soapy water and lightly taps it on the spoon instead of wiping.\n(C) The person holds the spoon under running water and wipes it quickly with the sponge.\n(D) The person holds the spoon up to the sponge and rubs the sponge against it with only a little water.\n(E) The person places the spoon on the counter and wipes it slowly with the sponge using only a small amount of water.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person scrubs the spoon gently with the sponge while holding it over the sink."
+    },
+    "correct_idx": [
+        2
+    ]
+}

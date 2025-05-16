@@ -1,0 +1,21 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "spatula",
+        "ceramic bowl",
+        "tap",
+        "sponge",
+        "plate",
+        "scissor",
+        "knife"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) spatula\n(B) ceramic bowl\n(C) tap\n(D) sponge\n(E) plate\n(F) scissor\n(G) knife\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(A) The person uses a spatula to interact with items in the cabinet.\n(D) The person uses a sponge to wash a ceramic bowl in the sink.\n\nAnswer format:\n(A) Spatula is used to interact with items in the cabinet.\n(D) Sponge is used to wash a ceramic bowl in the sink."
+    },
+    "correct_idx": [
+        0,
+        1,
+        3
+    ]
+}

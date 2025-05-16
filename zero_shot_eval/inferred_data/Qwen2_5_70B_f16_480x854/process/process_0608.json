@@ -1,0 +1,17 @@
+{
+    "question": "How does the person cover the plastic bottle with the lid?",
+    "options": [
+        "The person balances the bottle on the table and uses both hands to press the lid gently onto it.",
+        "The person holds the bottle in one hand and carefully places the lid onto the top without tightening it.",
+        "The person holds the bottle firmly with one hand, then uses the thumb and fingers of the other hand to grip the lid and twists it to tighten.",
+        "The person grips the lid with their fingertips and rotates it slightly over the bottle.",
+        "The person grabs the bottle with both hands and gives it a gentle shake, hoping the lid will seat itself."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person cover the plastic bottle with the lid? Choose **only one** option from the following list.\nOptions:\n(A) The person balances the bottle on the table and uses both hands to press the lid gently onto it.\n(B) The person holds the bottle in one hand and carefully places the lid onto the top without tightening it.\n(C) The person holds the bottle firmly with one hand, then uses the thumb and fingers of the other hand to grip the lid and twists it to tighten.\n(D) The person grips the lid with their fingertips and rotates it slightly over the bottle.\n(E) The person grabs the bottle with both hands and gives it a gentle shake, hoping the lid will seat itself.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person holds the bottle firmly with one hand, then uses the thumb and fingers of the other hand to grip the lid and twists it to tighten."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person screw the washer?",
+    "options": [
+        "The person screws the washer snugly using both hands without gloves, applying ample force.",
+        "The person screws the washer with a relaxed grip using the left hand while casually holding the tool in the right hand.",
+        "The person screws the washer with the right hand while balancing it on the table, not using the ideal method.",
+        "The person screws the washer with a firm twist using a blue glove with both hands, as if it's not positioned well.",
+        "The person tries to screw the washer using their fingertips in the right hand, finding it hard to keep a grip."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person screw the washer? Choose **only one** option from the following list.\nOptions:\n(A) The person screws the washer snugly using both hands without gloves, applying ample force.\n(B) The person screws the washer with a relaxed grip using the left hand while casually holding the tool in the right hand.\n(C) The person screws the washer with the right hand while balancing it on the table, not using the ideal method.\n(D) The person screws the washer with a firm twist using a blue glove with both hands, as if it's not positioned well.\n(E) The person tries to screw the washer using their fingertips in the right hand, finding it hard to keep a grip.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person screws the washer with a firm twist using a blue glove with both hands, as if it's not positioned well."
+    },
+    "correct_idx": [
+        3
+    ]
+}

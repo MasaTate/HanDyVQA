@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the twigs?",
+    "options": [
+        "The person dropped the twigs at the right side of the sack.",
+        "The person dropped the twigs on the front side of the sack.",
+        "The person dropped the twigs at the left side of the sack.",
+        "The person dropped the twigs at the back side of the sack.",
+        "The person dropped the twigs at the bottom of the sack."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the twigs? Choose **only one** option from the following list.\nOptions:\n(A) The person dropped the twigs at the right side of the sack.\n(B) The person dropped the twigs on the front side of the sack.\n(C) The person dropped the twigs at the left side of the sack.\n(D) The person dropped the twigs at the back side of the sack.\n(E) The person dropped the twigs at the bottom of the sack.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person dropped the twigs at the left side of the sack."
+    },
+    "correct_idx": [
+        2
+    ]
+}

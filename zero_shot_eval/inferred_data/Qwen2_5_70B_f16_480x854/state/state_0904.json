@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of corn from the metal bowl change?",
+    "options": [
+        "The bowl was tilted, and the corn ended up on the countertop instead of the pot.",
+        "The bowl was moved without tilting, causing the corn to remain inside.",
+        "The bowl was tilted but not far enough, leaving most of the corn inside the bowl.",
+        "The bowl was tilted, and the corn inside was transferred from the bowl into the pot.",
+        "The bowl was tilted, and only a small amount of corn fell into the pot while the rest stayed inside."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of corn from the metal bowl change? Choose **only one** option from the following list.\nOptions:\n(A) The bowl was tilted, and the corn ended up on the countertop instead of the pot.\n(B) The bowl was moved without tilting, causing the corn to remain inside.\n(C) The bowl was tilted but not far enough, leaving most of the corn inside the bowl.\n(D) The bowl was tilted, and the corn inside was transferred from the bowl into the pot.\n(E) The bowl was tilted, and only a small amount of corn fell into the pot while the rest stayed inside.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The bowl was tilted, and the corn inside was transferred from the bowl into the pot."
+    },
+    "correct_idx": [
+        3
+    ]
+}

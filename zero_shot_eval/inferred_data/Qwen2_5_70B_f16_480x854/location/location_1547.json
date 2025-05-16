@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the engine?",
+    "options": [
+        "The person drops the engine on the back side of the worktable.",
+        "The person drops the engine on the front side of the worktable.",
+        "The person drops the engine on the left side of the worktable.",
+        "The person drops the engine on the right side of the worktable.",
+        "The person drops the engine near the workbench next to the worktable."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the engine? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the engine on the back side of the worktable.\n(B) The person drops the engine on the front side of the worktable.\n(C) The person drops the engine on the left side of the worktable.\n(D) The person drops the engine on the right side of the worktable.\n(E) The person drops the engine near the workbench next to the worktable.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person drops the engine on the left side of the worktable."
+    },
+    "correct_idx": [
+        1
+    ]
+}

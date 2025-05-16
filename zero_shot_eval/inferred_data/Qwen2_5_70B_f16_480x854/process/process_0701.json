@@ -1,0 +1,17 @@
+{
+    "question": "How does the person fit the part?",
+    "options": [
+        "The person twists the part into place using the fingertips of his left hand to apply pressure.",
+        "The person places the part down gently using the palm of his right hand for a snug fit.",
+        "The person fits the part by pressing it hard using the fingertips of his right hand.",
+        "The person balances the part on his left hand while pressing it firmly with his thumb.",
+        "The person slides the part into position using the fingertips of his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person fit the part? Choose **only one** option from the following list.\nOptions:\n(A) The person twists the part into place using the fingertips of his left hand to apply pressure.\n(B) The person places the part down gently using the palm of his right hand for a snug fit.\n(C) The person fits the part by pressing it hard using the fingertips of his right hand.\n(D) The person balances the part on his left hand while pressing it firmly with his thumb.\n(E) The person slides the part into position using the fingertips of his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person fits the part by pressing it hard using the fingertips of his right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

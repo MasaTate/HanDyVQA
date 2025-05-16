@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the thread from the needle change?",
+    "options": [
+        "The thread from the needle was twisted around the needle and then tightened.",
+        "The thread from the needle was looped through the needle's eye and pulled sideways.",
+        "The thread from the needle was knotted at the end and then pushed into the needle's body.",
+        "The thread from the needle was inserted into the needle's eye and pulled upward.",
+        "The thread from the needle was removed completely and placed to the side."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the thread from the needle change? Choose **only one** option from the following list.\nOptions:\n(A) The thread from the needle was twisted around the needle and then tightened.\n(B) The thread from the needle was looped through the needle's eye and pulled sideways.\n(C) The thread from the needle was knotted at the end and then pushed into the needle's body.\n(D) The thread from the needle was inserted into the needle's eye and pulled upward.\n(E) The thread from the needle was removed completely and placed to the side.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The thread from the needle was inserted into the needle's eye and pulled upward."
+    },
+    "correct_idx": [
+        3
+    ]
+}

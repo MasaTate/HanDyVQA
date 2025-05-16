@@ -1,0 +1,17 @@
+{
+    "question": "How does the person operate the sound mixer?",
+    "options": [
+        "The person adjusts the sound mixer by twisting the knob counterclockwise using his right hand.",
+        "The person adjusts the sound mixer by pressing the buttons with both hands firmly.",
+        "The person operates the sound mixer by sliding the faders up with his left hand while holding the base with his right hand.",
+        "The person adjusts the sound mixer by tapping the screen repeatedly using his fingertips on the right hand.",
+        "The person operates the sound mixer by pulling the knobs toward him with his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person operate the sound mixer? Choose **only one** option from the following list.\nOptions:\n(A) The person adjusts the sound mixer by twisting the knob counterclockwise using his right hand.\n(B) The person adjusts the sound mixer by pressing the buttons with both hands firmly.\n(C) The person operates the sound mixer by sliding the faders up with his left hand while holding the base with his right hand.\n(D) The person adjusts the sound mixer by tapping the screen repeatedly using his fingertips on the right hand.\n(E) The person operates the sound mixer by pulling the knobs toward him with his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person operates the sound mixer by pulling the knobs toward him with his left hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

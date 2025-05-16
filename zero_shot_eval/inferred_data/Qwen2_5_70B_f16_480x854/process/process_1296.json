@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pick a dirt?",
+    "options": [
+        "The person picks up the dirt by pinching it and quickly lifts their hand to throw the dirt into the sink using their right hand.",
+        "The person gathers the dirt into the palm of their hand and gently moves their hand to deposit it onto the ground using their left hand.",
+        "The person holds the dirt securely and moves their arm back slightly before tossing it into the air with their right hand.",
+        "The person uses both hands to collect a large amount of dirt and carefully spreads it over the countertop with a flicking motion.",
+        "The person swipes at the dirt with the back of their hand and guides it off the table without lifting it with their right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pick a dirt? Choose **only one** option from the following list.\nOptions:\n(A) The person picks up the dirt by pinching it and quickly lifts their hand to throw the dirt into the sink using their right hand.\n(B) The person gathers the dirt into the palm of their hand and gently moves their hand to deposit it onto the ground using their left hand.\n(C) The person holds the dirt securely and moves their arm back slightly before tossing it into the air with their right hand.\n(D) The person uses both hands to collect a large amount of dirt and carefully spreads it over the countertop with a flicking motion.\n(E) The person swipes at the dirt with the back of their hand and guides it off the table without lifting it with their right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person picks up the dirt by pinching it and quickly lifts their hand to throw the dirt into the sink using their right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

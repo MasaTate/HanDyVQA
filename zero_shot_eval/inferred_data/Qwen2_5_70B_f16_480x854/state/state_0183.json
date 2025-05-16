@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the door of the car change?",
+    "options": [
+        "The door of the car was left slightly ajar.",
+        "The door of the car was closed completely.",
+        "The door of the car was opened halfway.",
+        "The door of the car was pushed closed but remained unlatched.",
+        "The door of the car was left open."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the door of the car change? Choose **only one** option from the following list.\nOptions:\n(A) The door of the car was left slightly ajar.\n(B) The door of the car was closed completely.\n(C) The door of the car was opened halfway.\n(D) The door of the car was pushed closed but remained unlatched.\n(E) The door of the car was left open.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The door of the car was closed completely."
+    },
+    "correct_idx": [
+        1
+    ]
+}

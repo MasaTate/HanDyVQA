@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person examines the tire pressure gauge with his left hand.",
+        "The person is tightening the wheel nuts with a wrench in his hand.",
+        "The person adjusts the gear shifter using his hand.",
+        "The person checks the brake caliper in his both hand.",
+        "The person is cleaning the windshield with a cloth in his hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person examines the tire pressure gauge with his left hand.\n(B) The person is tightening the wheel nuts with a wrench in his hand.\n(C) The person adjusts the gear shifter using his hand.\n(D) The person checks the brake caliper in his both hand.\n(E) The person is cleaning the windshield with a cloth in his hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person checks the brake caliper in his both hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the knife?",
+    "options": [
+        "The person moves the knife towards the far end of the chopping board.",
+        "The person moves the knife towards the left side of the chopping board.",
+        "The person moves the knife towards the right corner of the chopping board.",
+        "The person moves the knife to the center of the chopping board.",
+        "The person moves the knife off the edge of the chopping board."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the knife? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the knife towards the far end of the chopping board.\n(B) The person moves the knife towards the left side of the chopping board.\n(C) The person moves the knife towards the right corner of the chopping board.\n(D) The person moves the knife to the center of the chopping board.\n(E) The person moves the knife off the edge of the chopping board.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person moves the knife towards the right corner of the chopping board."
+    },
+    "correct_idx": [
+        0
+    ]
+}

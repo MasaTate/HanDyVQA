@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the knife?",
+    "options": [
+        "The person dropped the knife on the counter next to the sink.",
+        "The person dropped the knife in the drawer under the table.",
+        "The person dropped the knife on the floor beside the refrigerator.",
+        "The person dropped the knife inside the cabinet.",
+        "The person dropped the knife on the shelf above the stove."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the knife? Choose **only one** option from the following list.\nOptions:\n(A) The person dropped the knife on the counter next to the sink.\n(B) The person dropped the knife in the drawer under the table.\n(C) The person dropped the knife on the floor beside the refrigerator.\n(D) The person dropped the knife inside the cabinet.\n(E) The person dropped the knife on the shelf above the stove.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person dropped the knife inside the cabinet."
+    },
+    "correct_idx": [
+        3
+    ]
+}

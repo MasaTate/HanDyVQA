@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pull the wire?",
+    "options": [
+        "The person pulls the wire by twisting it gently with both hands.",
+        "The person pulls the wire by moving it away from them with their left hand.",
+        "The person pulls the wire by sliding it along the surface with their fingertips.",
+        "The person pulls the wire by lifting it slightly with a smooth motion of their right arm.",
+        "The person pulls the wire by stretching it using their right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pull the wire? Choose **only one** option from the following list.\nOptions:\n(A) The person pulls the wire by twisting it gently with both hands.\n(B) The person pulls the wire by moving it away from them with their left hand.\n(C) The person pulls the wire by sliding it along the surface with their fingertips.\n(D) The person pulls the wire by lifting it slightly with a smooth motion of their right arm.\n(E) The person pulls the wire by stretching it using their right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person pulls the wire by stretching it using their right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

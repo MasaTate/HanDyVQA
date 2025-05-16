@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person adjusts the blade on the reciprocating saw.",
+        "The person loosens the blade on the reciprocating saw.",
+        "The person tightens the blade to the reciprocating saw.",
+        "The person is attaching the blade to the reciprocating saw.",
+        "The person is securing the blade of the reciprocating saw."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person adjusts the blade on the reciprocating saw.\n(B) The person loosens the blade on the reciprocating saw.\n(C) The person tightens the blade to the reciprocating saw.\n(D) The person is attaching the blade to the reciprocating saw.\n(E) The person is securing the blade of the reciprocating saw.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person is attaching the blade to the reciprocating saw."
+    },
+    "correct_idx": [
+        2
+    ]
+}

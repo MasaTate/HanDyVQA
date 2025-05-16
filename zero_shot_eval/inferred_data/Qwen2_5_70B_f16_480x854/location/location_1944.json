@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place his right hand?",
+    "options": [
+        "The person placed his right hand on the desk holding the measuring tool.",
+        "The person placed his right hand on the ground holding the measuring tool.",
+        "The person placed his right hand on the table holding the measuring tool.",
+        "The person placed his right hand on the floor holding the measuring tool.",
+        "The person placed his right hand on his knee holding the measuring tool."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place his right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person placed his right hand on the desk holding the measuring tool.\n(B) The person placed his right hand on the ground holding the measuring tool.\n(C) The person placed his right hand on the table holding the measuring tool.\n(D) The person placed his right hand on the floor holding the measuring tool.\n(E) The person placed his right hand on his knee holding the measuring tool.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person placed his right hand on the floor holding the measuring tool."
+    },
+    "correct_idx": [
+        3
+    ]
+}

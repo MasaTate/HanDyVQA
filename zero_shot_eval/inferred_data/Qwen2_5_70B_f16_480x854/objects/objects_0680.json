@@ -1,0 +1,23 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "egg",
+        "pan",
+        "bowl",
+        "kitchen cabinet",
+        "mug",
+        "sink. ",
+        "dish rack",
+        "timer"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) egg\n(B) pan\n(C) bowl\n(D) kitchen cabinet\n(E) mug\n(F) sink. \n(G) dish rack\n(H) timer\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(A) egg  \n(C) bowl  \n\nThe hands are seen cracking an egg into a bowl and then using the bowl to hold the egg contents. The other options do not directly describe the actions performed by the hands in this specific sequence."
+    },
+    "correct_idx": [
+        0,
+        2,
+        4,
+        7
+    ]
+}

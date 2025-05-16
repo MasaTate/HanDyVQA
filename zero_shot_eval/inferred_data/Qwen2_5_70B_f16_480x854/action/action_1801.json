@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person tightened a bolt at the left of the lawn mower with the spanner in his right hand.",
+        "The person loosened a screw at the right side of the lawn mower with the hammer in his right hand.",
+        "The person adjusted a hose next to the lawn mower with the wrench in his right hand.",
+        "The person tightened a bolt at the front of the lawn mower with the screwdriver in his right hand.",
+        "The person is removing a filter from the lawn mower using the pliers in his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person tightened a bolt at the left of the lawn mower with the spanner in his right hand.\n(B) The person loosened a screw at the right side of the lawn mower with the hammer in his right hand.\n(C) The person adjusted a hose next to the lawn mower with the wrench in his right hand.\n(D) The person tightened a bolt at the front of the lawn mower with the screwdriver in his right hand.\n(E) The person is removing a filter from the lawn mower using the pliers in his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person is removing a filter from the lawn mower using the pliers in his right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

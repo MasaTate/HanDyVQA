@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the manure change?",
+    "options": [
+        "The manure was slightly moved towards the wall.",
+        "The manure was slightly moved away from the wall.",
+        "The manure was shifted closer to the center of the room.",
+        "The manure was adjusted further from the wall.",
+        "The manure was shifted more towards the door."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the manure change? Choose **only one** option from the following list.\nOptions:\n(A) The manure was slightly moved towards the wall.\n(B) The manure was slightly moved away from the wall.\n(C) The manure was shifted closer to the center of the room.\n(D) The manure was adjusted further from the wall.\n(E) The manure was shifted more towards the door.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The manure was slightly moved towards the wall."
+    },
+    "correct_idx": [
+        0
+    ]
+}

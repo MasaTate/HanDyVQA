@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the glove change?",
+    "options": [
+        "The glove was tossed aside, causing a change in position as it was moved to the ground.",
+        "The glove was rolled up, leading to a change in shape as it was compressed.",
+        "The glove was removed, causing a change in position as it was taken off the hand.",
+        "The glove was worn, causing a change in position as it was placed on the hand.",
+        "The glove was soaked in water, resulting in a change in texture as it became wet and heavy."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the glove change? Choose **only one** option from the following list.\nOptions:\n(A) The glove was tossed aside, causing a change in position as it was moved to the ground.\n(B) The glove was rolled up, leading to a change in shape as it was compressed.\n(C) The glove was removed, causing a change in position as it was taken off the hand.\n(D) The glove was worn, causing a change in position as it was placed on the hand.\n(E) The glove was soaked in water, resulting in a change in texture as it became wet and heavy.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The glove was removed, causing a change in position as it was taken off the hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

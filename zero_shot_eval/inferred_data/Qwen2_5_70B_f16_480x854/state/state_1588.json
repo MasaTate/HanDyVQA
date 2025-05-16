@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the books in the bookshelf change?",
+    "options": [
+        "The bookshelf became emptier as several books were removed.",
+        "The bookshelf became fuller as more books were added.",
+        "The bookshelf was rearranged to display the books in a new order.",
+        "The bookshelf was damaged as a few books fell off and some pages were torn.",
+        "The bookshelf was painted over, altering its appearance while the books remained unchanged."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the books in the bookshelf change? Choose **only one** option from the following list.\nOptions:\n(A) The bookshelf became emptier as several books were removed.\n(B) The bookshelf became fuller as more books were added.\n(C) The bookshelf was rearranged to display the books in a new order.\n(D) The bookshelf was damaged as a few books fell off and some pages were torn.\n(E) The bookshelf was painted over, altering its appearance while the books remained unchanged.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The bookshelf became fuller as more books were added."
+    },
+    "correct_idx": [
+        1
+    ]
+}

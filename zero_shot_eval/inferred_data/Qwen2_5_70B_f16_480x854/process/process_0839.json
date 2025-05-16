@@ -1,0 +1,17 @@
+{
+    "question": "How does the person start the string trimmer?",
+    "options": [
+        "The person pulls the starter rope forcefully once in an upward direction using the right hand while holding the string trimmer firmly with the left hand.",
+        "The person twists the throttle with the left hand while steadying the string trimmer upright with the right hand.",
+        "The person presses the starter button several times using the left thumb while keeping the string trimmer on the ground.",
+        "The person gently moves the choke lever with the right index finger while balancing the string trimmer in both hands with minimal pressure.",
+        "The person shakes the string trimmer noticeably with both hands just before trying to start it using an unspecific method."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person start the string trimmer? Choose **only one** option from the following list.\nOptions:\n(A) The person pulls the starter rope forcefully once in an upward direction using the right hand while holding the string trimmer firmly with the left hand.\n(B) The person twists the throttle with the left hand while steadying the string trimmer upright with the right hand.\n(C) The person presses the starter button several times using the left thumb while keeping the string trimmer on the ground.\n(D) The person gently moves the choke lever with the right index finger while balancing the string trimmer in both hands with minimal pressure.\n(E) The person shakes the string trimmer noticeably with both hands just before trying to start it using an unspecific method.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person pulls the starter rope forcefully once in an upward direction using the right hand while holding the string trimmer firmly with the left hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

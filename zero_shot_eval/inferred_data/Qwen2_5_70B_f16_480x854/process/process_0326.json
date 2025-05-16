@@ -1,0 +1,17 @@
+{
+    "question": "How does the person put the oil?",
+    "options": [
+        "The person opens the kitchen cabinet with their left hand, extends their right arm downwards to hold the oil bottle, and places it inside the cabinet.",
+        "The person opens the kitchen cabinet using their right hand, holds the oil bottle above waist level with their left arm, and sets it on the counter.",
+        "The person opens the kitchen cabinet with their left hand, carefully balances the oil bottle in their right hand, and places it on the table.",
+        "The person opens the kitchen cabinet by using their right arm, gently holds the oil bottle with their left hand, and places it inside, ensuring no oil is spilled.",
+        "The person opens the kitchen cabinet with their right hand, holds the oil bottle with both hands, and steps back slightly."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person put the oil? Choose **only one** option from the following list.\nOptions:\n(A) The person opens the kitchen cabinet with their left hand, extends their right arm downwards to hold the oil bottle, and places it inside the cabinet.\n(B) The person opens the kitchen cabinet using their right hand, holds the oil bottle above waist level with their left arm, and sets it on the counter.\n(C) The person opens the kitchen cabinet with their left hand, carefully balances the oil bottle in their right hand, and places it on the table.\n(D) The person opens the kitchen cabinet by using their right arm, gently holds the oil bottle with their left hand, and places it inside, ensuring no oil is spilled.\n(E) The person opens the kitchen cabinet with their right hand, holds the oil bottle with both hands, and steps back slightly.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person opens the kitchen cabinet by using their right arm, gently holds the oil bottle with their left hand, and places it inside, ensuring no oil is spilled."
+    },
+    "correct_idx": [
+        0
+    ]
+}

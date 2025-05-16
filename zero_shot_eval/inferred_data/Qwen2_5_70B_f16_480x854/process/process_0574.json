@@ -1,0 +1,17 @@
+{
+    "question": "How does the person smoothen the pillar with the sand paper?",
+    "options": [
+        "The person holds the sand paper against the pillar and slides it sideways to smoothen the surface.",
+        "The person uses the sand paper in a circular motion around the pillar to achieve a smoother finish.",
+        "The person gently taps the sand paper against the pillar to smoothen the surface.",
+        "The person moves the sand paper back and forth across the pillar to smoothen it.",
+        "The person rubs the sand paper in an up and down motion to smoothen the pillar."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person smoothen the pillar with the sand paper? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the sand paper against the pillar and slides it sideways to smoothen the surface.\n(B) The person uses the sand paper in a circular motion around the pillar to achieve a smoother finish.\n(C) The person gently taps the sand paper against the pillar to smoothen the surface.\n(D) The person moves the sand paper back and forth across the pillar to smoothen it.\n(E) The person rubs the sand paper in an up and down motion to smoothen the pillar.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person rubs the sand paper in an up and down motion to smoothen the pillar."
+    },
+    "correct_idx": [
+        4
+    ]
+}

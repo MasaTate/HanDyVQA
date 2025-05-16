@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person pours the water from the pitcher in their right hand into the bucket while using the left hand to stir the cement with a shovel.",
+        "The person lifts the pitcher with both hands and places it beside the bucket while using their right hand to mix the cement in a wheelbarrow.",
+        "The person empties the pitcher with their right hand into the bucket while holding a trowel in their left hand to spread the cement.",
+        "The person fills the pitcher with water using their right hand and uses their left hand to hold the bucket steady.",
+        "The person throws the pitcher coming from their left hand to the bucket and uses the right hand to shove the cement."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person pours the water from the pitcher in their right hand into the bucket while using the left hand to stir the cement with a shovel.\n(B) The person lifts the pitcher with both hands and places it beside the bucket while using their right hand to mix the cement in a wheelbarrow.\n(C) The person empties the pitcher with their right hand into the bucket while holding a trowel in their left hand to spread the cement.\n(D) The person fills the pitcher with water using their right hand and uses their left hand to hold the bucket steady.\n(E) The person throws the pitcher coming from their left hand to the bucket and uses the right hand to shove the cement.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person throws the pitcher coming from their left hand to the bucket and uses the right hand to shove the cement."
+    },
+    "correct_idx": [
+        4
+    ]
+}

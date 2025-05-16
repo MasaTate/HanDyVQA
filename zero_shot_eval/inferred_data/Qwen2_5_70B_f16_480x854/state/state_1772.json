@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the sponge change?",
+    "options": [
+        "The sponge's surface became damp as it was soaked in water before being placed on the counter.",
+        "The sponge was compressed as it was squished before being set on the dish rack.",
+        "The sponge's position was altered as it was wiped into the container.",
+        "The sponge's shape was altered as it was twisted to remove excess water.",
+        "The sponge was relocated as it was moved from one side of the sink to the other during cleaning."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the sponge change? Choose **only one** option from the following list.\nOptions:\n(A) The sponge's surface became damp as it was soaked in water before being placed on the counter.\n(B) The sponge was compressed as it was squished before being set on the dish rack.\n(C) The sponge's position was altered as it was wiped into the container.\n(D) The sponge's shape was altered as it was twisted to remove excess water.\n(E) The sponge was relocated as it was moved from one side of the sink to the other during cleaning.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The sponge's shape was altered as it was twisted to remove excess water."
+    },
+    "correct_idx": [
+        2
+    ]
+}

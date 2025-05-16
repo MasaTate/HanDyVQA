@@ -1,0 +1,17 @@
+{
+    "question": "How does the person transfer a washer?",
+    "options": [
+        "The person flips the washer from one hand to the other with a flick of the wrist before setting it down.",
+        "The person transfers a washer by holding it between their right fingers, moving it carefully from one hand to the other, and then positioning it onto a bolt or designated spot in the machinery.",
+        "The person holds the washer in a clenched fist and attempts to place it onto the bolt with some movement in the hand.",
+        "The person picks up the washer with the palm of their hand and lowers it onto the surface without specific guidance.",
+        "The person pinches the washer with their thumb and index finger, turning it slightly as it moves to the other hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person transfer a washer? Choose **only one** option from the following list.\nOptions:\n(A) The person flips the washer from one hand to the other with a flick of the wrist before setting it down.\n(B) The person transfers a washer by holding it between their right fingers, moving it carefully from one hand to the other, and then positioning it onto a bolt or designated spot in the machinery.\n(C) The person holds the washer in a clenched fist and attempts to place it onto the bolt with some movement in the hand.\n(D) The person picks up the washer with the palm of their hand and lowers it onto the surface without specific guidance.\n(E) The person pinches the washer with their thumb and index finger, turning it slightly as it moves to the other hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person transfers a washer by holding it between their right fingers, moving it carefully from one hand to the other, and then positioning it onto a bolt or designated spot in the machinery."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person push the potatoes?",
+    "options": [
+        "The person smoothly pushes the potatoes from both sides with both hands.",
+        "The person gently moves the potatoes with the tips of the fingers on the right hand.",
+        "The person slightly shifts the potatoes using the back of the hand.",
+        "The person carefully pushes the potatoes by sliding them to the left side using the left hand.",
+        "The person smoothly rolls the potatoes by tilting them with the wrist."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person push the potatoes? Choose **only one** option from the following list.\nOptions:\n(A) The person smoothly pushes the potatoes from both sides with both hands.\n(B) The person gently moves the potatoes with the tips of the fingers on the right hand.\n(C) The person slightly shifts the potatoes using the back of the hand.\n(D) The person carefully pushes the potatoes by sliding them to the left side using the left hand.\n(E) The person smoothly rolls the potatoes by tilting them with the wrist.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person carefully pushes the potatoes by sliding them to the left side using the left hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

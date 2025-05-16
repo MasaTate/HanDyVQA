@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the green onions on the cutting board change?",
+    "options": [
+        "The green onions on the cutting board were moved to the left.",
+        "The green onions on the cutting board were moved to the right.",
+        "The green onions on the cutting board were slightly moved forward.",
+        "The green onions on the cutting board were pulled toward the back of the board.",
+        "The green onions on the cutting board were rotated slightly but stayed in the same position."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the green onions on the cutting board change? Choose **only one** option from the following list.\nOptions:\n(A) The green onions on the cutting board were moved to the left.\n(B) The green onions on the cutting board were moved to the right.\n(C) The green onions on the cutting board were slightly moved forward.\n(D) The green onions on the cutting board were pulled toward the back of the board.\n(E) The green onions on the cutting board were rotated slightly but stayed in the same position.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The green onions on the cutting board were moved to the left."
+    },
+    "correct_idx": [
+        1
+    ]
+}

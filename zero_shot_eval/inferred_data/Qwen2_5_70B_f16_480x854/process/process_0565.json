@@ -1,0 +1,17 @@
+{
+    "question": "How does the person release the fork?",
+    "options": [
+        "The person releases the fork when he lets go of it inside the bowl.",
+        "The person releases the fork by gently letting it fall onto the floor beside him.",
+        "The person releases the fork by smoothly setting it down on the edge of the countertop.",
+        "The person releases the fork by carefully placing it across the table after removing it from the bowl.",
+        "The person releases the fork by balancing it on the rim of the bowl and gently letting it slide into the sink."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person release the fork? Choose **only one** option from the following list.\nOptions:\n(A) The person releases the fork when he lets go of it inside the bowl.\n(B) The person releases the fork by gently letting it fall onto the floor beside him.\n(C) The person releases the fork by smoothly setting it down on the edge of the countertop.\n(D) The person releases the fork by carefully placing it across the table after removing it from the bowl.\n(E) The person releases the fork by balancing it on the rim of the bowl and gently letting it slide into the sink.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person releases the fork when he lets go of it inside the bowl."
+    },
+    "correct_idx": [
+        0
+    ]
+}

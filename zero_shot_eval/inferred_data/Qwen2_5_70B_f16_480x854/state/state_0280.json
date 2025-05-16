@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the line change?",
+    "options": [
+        "The line was made slightly thicker.",
+        "The line was made slightly thinner.",
+        "The line was altered to appear wavy instead of straight.",
+        "The line was transformed into a dotted pattern.",
+        "The line was adjusted to a faded color."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the line change? Choose **only one** option from the following list.\nOptions:\n(A) The line was made slightly thicker.\n(B) The line was made slightly thinner.\n(C) The line was altered to appear wavy instead of straight.\n(D) The line was transformed into a dotted pattern.\n(E) The line was adjusted to a faded color.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The line was made slightly thicker."
+    },
+    "correct_idx": [
+        0
+    ]
+}

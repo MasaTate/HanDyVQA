@@ -1,0 +1,17 @@
+{
+    "question": "How does the person wash the tray?",
+    "options": [
+        "The person picked up the tray with both hands and placed it in the water, allowing the dirt to sit for a while without using any soap.",
+        "The person washed the tray by firmly holding it in their left hand and bringing it to the sink, while their right hand grabbed the sponge with soap, applying it in smooth, circular motions to scrub the tray clean.",
+        "The person held the tray in one hand while using the other to splash water onto it, choosing not to use a sponge for cleaning.",
+        "The person lifted the tray above the sink, pouring soap onto it but without scrubbing or using a sponge.",
+        "The person put the tray on the countertop and used a towel to scrub it instead of firmly holding it in the sink."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person wash the tray? Choose **only one** option from the following list.\nOptions:\n(A) The person picked up the tray with both hands and placed it in the water, allowing the dirt to sit for a while without using any soap.\n(B) The person washed the tray by firmly holding it in their left hand and bringing it to the sink, while their right hand grabbed the sponge with soap, applying it in smooth, circular motions to scrub the tray clean.\n(C) The person held the tray in one hand while using the other to splash water onto it, choosing not to use a sponge for cleaning.\n(D) The person lifted the tray above the sink, pouring soap onto it but without scrubbing or using a sponge.\n(E) The person put the tray on the countertop and used a towel to scrub it instead of firmly holding it in the sink.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person washed the tray by firmly holding it in their left hand and bringing it to the sink, while their right hand grabbed the sponge with soap, applying it in smooth, circular motions to scrub the tray clean."
+    },
+    "correct_idx": [
+        1
+    ]
+}

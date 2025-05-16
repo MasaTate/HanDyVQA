@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person cleans mud off his shoes using both hands.",
+        "The person folds clothes on a table using both hands.",
+        "The person wipes a table with a cloth using both hands.",
+        "The person brushes off dirt from his pants using both hands.",
+        "The person adjusts his belt with one hand while holding a jacket with the other."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person cleans mud off his shoes using both hands.\n(B) The person folds clothes on a table using both hands.\n(C) The person wipes a table with a cloth using both hands.\n(D) The person brushes off dirt from his pants using both hands.\n(E) The person adjusts his belt with one hand while holding a jacket with the other.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person brushes off dirt from his pants using both hands."
+    },
+    "correct_idx": [
+        3
+    ]
+}

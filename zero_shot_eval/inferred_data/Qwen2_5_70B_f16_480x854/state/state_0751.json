@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the paper punch change?",
+    "options": [
+        "The paper punch was grabbed, shifted to the left, and placed onto the cutting mat.",
+        "The paper punch was grabbed and placed directly onto the table without shifting.",
+        "The paper punch was lifted, then moved forward, and placed onto the cutting mat.",
+        "The paper punch was grabbed, shifted to the right, and placed onto the cutting mat.",
+        "The paper punch was grabbed, shifted backward, and placed onto the cutting mat."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the paper punch change? Choose **only one** option from the following list.\nOptions:\n(A) The paper punch was grabbed, shifted to the left, and placed onto the cutting mat.\n(B) The paper punch was grabbed and placed directly onto the table without shifting.\n(C) The paper punch was lifted, then moved forward, and placed onto the cutting mat.\n(D) The paper punch was grabbed, shifted to the right, and placed onto the cutting mat.\n(E) The paper punch was grabbed, shifted backward, and placed onto the cutting mat.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The paper punch was grabbed, shifted to the left, and placed onto the cutting mat."
+    },
+    "correct_idx": [
+        3
+    ]
+}

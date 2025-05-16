@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the frying pan change?",
+    "options": [
+        "The frying pan was tilted slightly to the side, causing the vegetables inside to slide towards the edge.",
+        "The frying pan was lifted higher and then rotated, causing the vegetables inside to tumble over each other.",
+        "The frying pan was moved back and forth briskly, causing the vegetables inside to shift quickly from side to side.",
+        "The frying pan was raised and rocked, causing only the vegetables on the top to move.",
+        "The frying pan was slightly lifted up and moved in a shaking motion, causing the vegetables inside to shift."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the frying pan change? Choose **only one** option from the following list.\nOptions:\n(A) The frying pan was tilted slightly to the side, causing the vegetables inside to slide towards the edge.\n(B) The frying pan was lifted higher and then rotated, causing the vegetables inside to tumble over each other.\n(C) The frying pan was moved back and forth briskly, causing the vegetables inside to shift quickly from side to side.\n(D) The frying pan was raised and rocked, causing only the vegetables on the top to move.\n(E) The frying pan was slightly lifted up and moved in a shaking motion, causing the vegetables inside to shift.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The frying pan was slightly lifted up and moved in a shaking motion, causing the vegetables inside to shift."
+    },
+    "correct_idx": [
+        4
+    ]
+}

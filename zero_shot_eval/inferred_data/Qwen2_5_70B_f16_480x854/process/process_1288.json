@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pull a plug from the adapter?",
+    "options": [
+        "The person uses her right hand to adjust the plug while tilting the adapter gently in the opposite direction.",
+        "The person pulls the plug with only her fingertips, applying a controlled movement to remove it from the adapter.",
+        "The person uses both hands to rotate the plug slightly before pulling it out smoothly from the adapter.",
+        "The person pulls the plug by gripping the plug tightly and moving her left hand down to separate it from the adapter.",
+        "The person grasps the cord attached to the plug and pulls it away gently from the adapter instead of gripping the plug itself."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pull a plug from the adapter? Choose **only one** option from the following list.\nOptions:\n(A) The person uses her right hand to adjust the plug while tilting the adapter gently in the opposite direction.\n(B) The person pulls the plug with only her fingertips, applying a controlled movement to remove it from the adapter.\n(C) The person uses both hands to rotate the plug slightly before pulling it out smoothly from the adapter.\n(D) The person pulls the plug by gripping the plug tightly and moving her left hand down to separate it from the adapter.\n(E) The person grasps the cord attached to the plug and pulls it away gently from the adapter instead of gripping the plug itself.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person pulls the plug by gripping the plug tightly and moving her left hand down to separate it from the adapter."
+    },
+    "correct_idx": [
+        3
+    ]
+}

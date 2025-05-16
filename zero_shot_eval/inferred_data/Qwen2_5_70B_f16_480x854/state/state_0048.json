@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a marker from his trousers change?",
+    "options": [
+        "The marker was picked out of the trousers and held in his left hand, changing its position and rotation.",
+        "The marker was picked out of the trousers and held in his right hand, altering its position and rotation.",
+        "The marker was taken from the trousers and held in both hands, changing its position slightly.",
+        "The marker was removed from the trousers and dropped on the table, altering its location.",
+        "The marker was extracted from the trousers and placed in his shirt pocket, changing its orientation and location."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a marker from his trousers change? Choose **only one** option from the following list.\nOptions:\n(A) The marker was picked out of the trousers and held in his left hand, changing its position and rotation.\n(B) The marker was picked out of the trousers and held in his right hand, altering its position and rotation.\n(C) The marker was taken from the trousers and held in both hands, changing its position slightly.\n(D) The marker was removed from the trousers and dropped on the table, altering its location.\n(E) The marker was extracted from the trousers and placed in his shirt pocket, changing its orientation and location.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The marker was picked out of the trousers and held in his right hand, altering its position and rotation."
+    },
+    "correct_idx": [
+        0
+    ]
+}

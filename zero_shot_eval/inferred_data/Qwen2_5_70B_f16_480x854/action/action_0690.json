@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person removes a screw from the lawn mower with his right hand while stabilizing the mower with his left hand.",
+        "The person picked up a nut from the lawn mower with his left hand.",
+        "The person lifts a small piece of grass from the lawn mower with his right hand while holding the mower handle with his left hand.",
+        "The person is pulling a lever on the lawn mower with his right hand while using his left hand to guide the mower's position.",
+        "The person is checking the oil level in the lawn mower with his right hand while balancing the mower with his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person removes a screw from the lawn mower with his right hand while stabilizing the mower with his left hand.\n(B) The person picked up a nut from the lawn mower with his left hand.\n(C) The person lifts a small piece of grass from the lawn mower with his right hand while holding the mower handle with his left hand.\n(D) The person is pulling a lever on the lawn mower with his right hand while using his left hand to guide the mower's position.\n(E) The person is checking the oil level in the lawn mower with his right hand while balancing the mower with his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person removes a screw from the lawn mower with his right hand while stabilizing the mower with his left hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

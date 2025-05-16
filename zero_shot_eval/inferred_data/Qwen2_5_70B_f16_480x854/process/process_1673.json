@@ -1,0 +1,17 @@
+{
+    "question": "How does the person adjust the dress on the table?",
+    "options": [
+        "The person rearranges the dress on the table with both hands, smoothing it out evenly.",
+        "The person moves the dress on the table by ensuring the dress is laid flat and positioned correctly using her right hand.",
+        "The person adjusts the dress by moving it from the edge of the table with her left hand, which may cause it to gather slightly.",
+        "The person lifts the dress carefully by the collar with her right hand, attending to any wrinkles.",
+        "The person places the dress neatly after folding it in half with both hands, ensuring it sits well."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person adjust the dress on the table? Choose **only one** option from the following list.\nOptions:\n(A) The person rearranges the dress on the table with both hands, smoothing it out evenly.\n(B) The person moves the dress on the table by ensuring the dress is laid flat and positioned correctly using her right hand.\n(C) The person adjusts the dress by moving it from the edge of the table with her left hand, which may cause it to gather slightly.\n(D) The person lifts the dress carefully by the collar with her right hand, attending to any wrinkles.\n(E) The person places the dress neatly after folding it in half with both hands, ensuring it sits well.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person adjusts the dress by moving it from the edge of the table with her left hand, which may cause it to gather slightly."
+    },
+    "correct_idx": [
+        1
+    ]
+}

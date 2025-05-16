@@ -1,0 +1,17 @@
+{
+    "question": "How does the person wash the container?",
+    "options": [
+        "The person grips the container with both hands and raises it to let water pour into it from a separate faucet.",
+        "The person squeezes the container with the right hand while holding it upside down, letting water flow over the outside surface.",
+        "The person uses the right hand to spin the container under the water, creating a swirling effect for cleaning.",
+        "The person holds the container with the left hand and moves it sideways under running water, allowing the water to splash inside for rinsing.",
+        "The person taps the container against the sink's edge while using the left hand to scrub the inside with a sponge."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person wash the container? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the container with both hands and raises it to let water pour into it from a separate faucet.\n(B) The person squeezes the container with the right hand while holding it upside down, letting water flow over the outside surface.\n(C) The person uses the right hand to spin the container under the water, creating a swirling effect for cleaning.\n(D) The person holds the container with the left hand and moves it sideways under running water, allowing the water to splash inside for rinsing.\n(E) The person taps the container against the sink's edge while using the left hand to scrub the inside with a sponge.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person holds the container with the left hand and moves it sideways under running water, allowing the water to splash inside for rinsing."
+    },
+    "correct_idx": [
+        3
+    ]
+}

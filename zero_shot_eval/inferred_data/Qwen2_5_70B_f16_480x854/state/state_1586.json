@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the seatbelt change?",
+    "options": [
+        "The seatbelt was retracted as it was pulled back into its holder.",
+        "The seatbelt became tangled as it was pulled out too quickly.",
+        "The seatbelt became secured as it was fastened.",
+        "The seatbelt was released as it was unfastened.",
+        "The seatbelt was adjusted to fit more snugly around the passenger."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the seatbelt change? Choose **only one** option from the following list.\nOptions:\n(A) The seatbelt was retracted as it was pulled back into its holder.\n(B) The seatbelt became tangled as it was pulled out too quickly.\n(C) The seatbelt became secured as it was fastened.\n(D) The seatbelt was released as it was unfastened.\n(E) The seatbelt was adjusted to fit more snugly around the passenger.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The seatbelt was released as it was unfastened."
+    },
+    "correct_idx": [
+        2
+    ]
+}

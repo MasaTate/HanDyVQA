@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the paper cloth change?",
+    "options": [
+        "The paper cloth was crumpled into a tight shape in the right hand.",
+        "The paper cloth was torn into several pieces.",
+        "The paper cloth was transferred from the right hand to the left hand.",
+        "The paper cloth was unfolded and laid out flat on the table.",
+        "The paper cloth was rolled into a tube shape in the left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the paper cloth change? Choose **only one** option from the following list.\nOptions:\n(A) The paper cloth was crumpled into a tight shape in the right hand.\n(B) The paper cloth was torn into several pieces.\n(C) The paper cloth was transferred from the right hand to the left hand.\n(D) The paper cloth was unfolded and laid out flat on the table.\n(E) The paper cloth was rolled into a tube shape in the left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The paper cloth was transferred from the right hand to the left hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

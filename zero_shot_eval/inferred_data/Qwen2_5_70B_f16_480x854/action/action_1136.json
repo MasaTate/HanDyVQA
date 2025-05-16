@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is turning on his tablet, placing it on the table with his right hand, and holding the shovel with his left hand.",
+        "The person switches off his phone, puts it inside his pocket with his left hand, and holds the shovel with both hands.",
+        "The person is taking a photograph with his camera using his right hand and resting the shovel against his leg with his left hand.",
+        "The person is writing a message in his notebook with his right hand and holding the shovel with his left hand.",
+        "The person is adjusting the volume on his speaker with his left hand while holding the shovel with both hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is turning on his tablet, placing it on the table with his right hand, and holding the shovel with his left hand.\n(B) The person switches off his phone, puts it inside his pocket with his left hand, and holds the shovel with both hands.\n(C) The person is taking a photograph with his camera using his right hand and resting the shovel against his leg with his left hand.\n(D) The person is writing a message in his notebook with his right hand and holding the shovel with his left hand.\n(E) The person is adjusting the volume on his speaker with his left hand while holding the shovel with both hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person switches off his phone, puts it inside his pocket with his left hand, and holds the shovel with both hands."
+    },
+    "correct_idx": [
+        1
+    ]
+}

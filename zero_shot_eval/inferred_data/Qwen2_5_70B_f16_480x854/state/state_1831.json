@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the bolt change?",
+    "options": [
+        "The bolt, changing in position and angle as it was loosened, became unsecured.",
+        "The bolt, changing in position and tension as it was tightened, was secured.",
+        "The bolt, changing in position and length as it was removed, was detached.",
+        "The bolt, changing in position and grip as it was adjusted, became misaligned.",
+        "The bolt, changing in position and stress as it was hammered, was damaged."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the bolt change? Choose **only one** option from the following list.\nOptions:\n(A) The bolt, changing in position and angle as it was loosened, became unsecured.\n(B) The bolt, changing in position and tension as it was tightened, was secured.\n(C) The bolt, changing in position and length as it was removed, was detached.\n(D) The bolt, changing in position and grip as it was adjusted, became misaligned.\n(E) The bolt, changing in position and stress as it was hammered, was damaged.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The bolt, changing in position and angle as it was loosened, became unsecured."
+    },
+    "correct_idx": [
+        1
+    ]
+}

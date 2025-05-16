@@ -1,0 +1,17 @@
+{
+    "question": "How does the person wring the bristles of the paintbrush in her right hand?",
+    "options": [
+        "The person vigorously twists the bristles of the paintbrush in her right hand while stabilizing it with her left hand.",
+        "The person pulls the bristles gently down with her right hand, allowing the water to drip off without applying pressure.",
+        "The person taps the bristles of the paintbrush softly against the edge of a container while using her left hand for support.",
+        "The person wrings the bristles of the paintbrush by shaking and compressing the bristle of the paintbrush using both hands.",
+        "The person flicks her wrist slowly while holding the paintbrush comfortably in her right hand, rotating it gently without applying pressure to the bristles."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person wring the bristles of the paintbrush in her right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person vigorously twists the bristles of the paintbrush in her right hand while stabilizing it with her left hand.\n(B) The person pulls the bristles gently down with her right hand, allowing the water to drip off without applying pressure.\n(C) The person taps the bristles of the paintbrush softly against the edge of a container while using her left hand for support.\n(D) The person wrings the bristles of the paintbrush by shaking and compressing the bristle of the paintbrush using both hands.\n(E) The person flicks her wrist slowly while holding the paintbrush comfortably in her right hand, rotating it gently without applying pressure to the bristles.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person wrings the bristles of the paintbrush by shaking and compressing the bristle of the paintbrush using both hands."
+    },
+    "correct_idx": [
+        3
+    ]
+}

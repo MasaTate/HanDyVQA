@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of one of the chopsticks change?",
+    "options": [
+        "The chopsticks were held separately while being poked to the chicken, and then joined together in one hand.",
+        "The chopsticks were picked up together and rested on the table before being used to pick up a piece of sushi.",
+        "The chopsticks were placed side by side as they were used to stir a bowl of noodles, and then laid flat on the plate.",
+        "The chopsticks were held together at the ends while reaching for a piece of tofu, and then placed into a bowl.",
+        "The chopsticks were crossed over each other while being lifted toward a dumpling, and then positioned into a soup."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of one of the chopsticks change? Choose **only one** option from the following list.\nOptions:\n(A) The chopsticks were held separately while being poked to the chicken, and then joined together in one hand.\n(B) The chopsticks were picked up together and rested on the table before being used to pick up a piece of sushi.\n(C) The chopsticks were placed side by side as they were used to stir a bowl of noodles, and then laid flat on the plate.\n(D) The chopsticks were held together at the ends while reaching for a piece of tofu, and then placed into a bowl.\n(E) The chopsticks were crossed over each other while being lifted toward a dumpling, and then positioned into a soup.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The chopsticks were held separately while being poked to the chicken, and then joined together in one hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

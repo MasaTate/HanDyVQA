@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the nut change?",
+    "options": [
+        "The nut was picked up and wiped to clean and dry it.",
+        "The nut was lifted and placed into a bowl for storage.",
+        "The nut was smashed with a tool to break it open.",
+        "The nut was immersed in water to soften its shell.",
+        "The nut was placed on a counter to be air dried."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the nut change? Choose **only one** option from the following list.\nOptions:\n(A) The nut was picked up and wiped to clean and dry it.\n(B) The nut was lifted and placed into a bowl for storage.\n(C) The nut was smashed with a tool to break it open.\n(D) The nut was immersed in water to soften its shell.\n(E) The nut was placed on a counter to be air dried.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The nut was picked up and wiped to clean and dry it."
+    },
+    "correct_idx": [
+        0
+    ]
+}

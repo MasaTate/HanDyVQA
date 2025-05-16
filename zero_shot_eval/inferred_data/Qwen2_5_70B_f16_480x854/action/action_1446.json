@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person uses both hands to close the cabinet, then uses the left hand to push the bowl away from the edge of the counter.",
+        "The person uses one hand to pull the cabinet door open, then uses the left hand to lift a pot from the shelf.",
+        "The person opens the cabinet with their right hand, then uses both hands to hold and inspect a plate.",
+        "The person uses both hands to push the cabinet shut, then reaches in with the right hand to take out a cup.",
+        "The person uses both hands to open the cabinet, then uses the right hand to reach for and grab the bowl."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person uses both hands to close the cabinet, then uses the left hand to push the bowl away from the edge of the counter.\n(B) The person uses one hand to pull the cabinet door open, then uses the left hand to lift a pot from the shelf.\n(C) The person opens the cabinet with their right hand, then uses both hands to hold and inspect a plate.\n(D) The person uses both hands to push the cabinet shut, then reaches in with the right hand to take out a cup.\n(E) The person uses both hands to open the cabinet, then uses the right hand to reach for and grab the bowl.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person uses both hands to open the cabinet, then uses the right hand to reach for and grab the bowl."
+    },
+    "correct_idx": [
+        4
+    ]
+}

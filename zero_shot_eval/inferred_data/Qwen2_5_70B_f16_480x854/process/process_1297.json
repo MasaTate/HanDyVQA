@@ -1,0 +1,17 @@
+{
+    "question": "How does the person raise a box?",
+    "options": [
+        "The person raises a box by gripping the lid of the box and quickly lifting the box up using the left hand.",
+        "The person tilts the box to the side and gently lifts it with both hands under the base.",
+        "The person lifts the box from underneath with one hand while keeping the other hand on top for support.",
+        "The person bends down and raises the box by holding onto the bottom edge with one hand.",
+        "The person uses two fingers to pinch the corner of the box and attempts to lift it with the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person raise a box? Choose **only one** option from the following list.\nOptions:\n(A) The person raises a box by gripping the lid of the box and quickly lifting the box up using the left hand.\n(B) The person tilts the box to the side and gently lifts it with both hands under the base.\n(C) The person lifts the box from underneath with one hand while keeping the other hand on top for support.\n(D) The person bends down and raises the box by holding onto the bottom edge with one hand.\n(E) The person uses two fingers to pinch the corner of the box and attempts to lift it with the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person lifts the box from underneath with one hand while keeping the other hand on top for support."
+    },
+    "correct_idx": [
+        0
+    ]
+}

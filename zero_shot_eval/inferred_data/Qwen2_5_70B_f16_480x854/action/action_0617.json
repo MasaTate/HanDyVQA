@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is stirring the soup in the pot with her right hand while holding the pot steady with her left hand.",
+        "The person is mixing the noodles in the bowl with her right hand while keeping the bowl steady with her left hand.",
+        "The person is pouring the sauce over the noodles in the bowl with her right hand while keeping the bowl steady with her left hand.",
+        "The person is tossing the salad in the bowl with her right hand while keeping the bowl steady with her left hand.",
+        "The person is kneading the dough on the countertop with her right hand while stabilizing the bowl with her left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is stirring the soup in the pot with her right hand while holding the pot steady with her left hand.\n(B) The person is mixing the noodles in the bowl with her right hand while keeping the bowl steady with her left hand.\n(C) The person is pouring the sauce over the noodles in the bowl with her right hand while keeping the bowl steady with her left hand.\n(D) The person is tossing the salad in the bowl with her right hand while keeping the bowl steady with her left hand.\n(E) The person is kneading the dough on the countertop with her right hand while stabilizing the bowl with her left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person is mixing the noodles in the bowl with her right hand while keeping the bowl steady with her left hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

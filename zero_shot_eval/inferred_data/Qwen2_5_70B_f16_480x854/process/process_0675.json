@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pass the chopsticks?",
+    "options": [
+        "The person sends the chopsticks quickly across the table using a flick of the wrist.",
+        "The person moves the chopsticks smoothly along the table surface with his right hand, guiding them to the left hand.",
+        "The person passes the chopsticks quickly from the fingertips of his right hand to the fingertips of his left hand.",
+        "The person holds the chopsticks firmly with both hands, raising them slightly before passing them to the other hand.",
+        "The person tosses the chopsticks lightly into the air, catching them with the left hand after a brief moment."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pass the chopsticks? Choose **only one** option from the following list.\nOptions:\n(A) The person sends the chopsticks quickly across the table using a flick of the wrist.\n(B) The person moves the chopsticks smoothly along the table surface with his right hand, guiding them to the left hand.\n(C) The person passes the chopsticks quickly from the fingertips of his right hand to the fingertips of his left hand.\n(D) The person holds the chopsticks firmly with both hands, raising them slightly before passing them to the other hand.\n(E) The person tosses the chopsticks lightly into the air, catching them with the left hand after a brief moment.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person passes the chopsticks quickly from the fingertips of his right hand to the fingertips of his left hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

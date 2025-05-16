@@ -1,0 +1,17 @@
+{
+    "question": "How does the person change the position of his left hand?",
+    "options": [
+        "The person shifts his left hand to the side, allowing the hose to slip from his grip momentarily.",
+        "The person lightly tosses the hose forward and reaches out to catch it again with his left hand.",
+        "The person changes the position of his left hand by dropping what it is initially holding and grabbing the hose in front to adjust its position.",
+        "The person nudges the hose off his hand and then carefully picks it up from the ground.",
+        "The person turns his left hand, causing the hose to rest on the ground briefly before grabbing it again."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person change the position of his left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person shifts his left hand to the side, allowing the hose to slip from his grip momentarily.\n(B) The person lightly tosses the hose forward and reaches out to catch it again with his left hand.\n(C) The person changes the position of his left hand by dropping what it is initially holding and grabbing the hose in front to adjust its position.\n(D) The person nudges the hose off his hand and then carefully picks it up from the ground.\n(E) The person turns his left hand, causing the hose to rest on the ground briefly before grabbing it again.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person changes the position of his left hand by dropping what it is initially holding and grabbing the hose in front to adjust its position."
+    },
+    "correct_idx": [
+        2
+    ]
+}

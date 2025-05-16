@@ -1,0 +1,17 @@
+{
+    "question": "How does the person slide the craft?",
+    "options": [
+        "The person lightly moves the craft on the right side of the table using the palm of the hand.",
+        "The person gently and slightly slides the craft in the upper left area of the table using the left hand.",
+        "The person lifts the craft gently and sets it toward the center of the table using both hands.",
+        "The person angles the craft and smoothly guides it off the table using the fingers of the left hand.",
+        "The person carefully holds the craft and moves it along the side of the table with the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person slide the craft? Choose **only one** option from the following list.\nOptions:\n(A) The person lightly moves the craft on the right side of the table using the palm of the hand.\n(B) The person gently and slightly slides the craft in the upper left area of the table using the left hand.\n(C) The person lifts the craft gently and sets it toward the center of the table using both hands.\n(D) The person angles the craft and smoothly guides it off the table using the fingers of the left hand.\n(E) The person carefully holds the craft and moves it along the side of the table with the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person gently and slightly slides the craft in the upper left area of the table using the left hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

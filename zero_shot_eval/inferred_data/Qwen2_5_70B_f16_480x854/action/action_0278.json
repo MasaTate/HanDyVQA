@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person points at something behind him with his left hand while holding a book in his right hand.",
+        "The person waves to someone in front of him with his left hand while holding his phone in his right hand.",
+        "The person shows a sign language gesture to someone beside him with his left hand while keeping his right hand in his pocket.",
+        "The person gestures something towards the person in front of him using his left hand.",
+        "The person explains something to a crowd with both hands while holding a cup in his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person points at something behind him with his left hand while holding a book in his right hand.\n(B) The person waves to someone in front of him with his left hand while holding his phone in his right hand.\n(C) The person shows a sign language gesture to someone beside him with his left hand while keeping his right hand in his pocket.\n(D) The person gestures something towards the person in front of him using his left hand.\n(E) The person explains something to a crowd with both hands while holding a cup in his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person gestures something towards the person in front of him using his left hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

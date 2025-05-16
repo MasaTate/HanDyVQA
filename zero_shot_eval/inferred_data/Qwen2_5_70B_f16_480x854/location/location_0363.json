@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the storage?",
+    "options": [
+        "The person drops the storage on the floor next to the shelf.",
+        "The person drops the storage on the table beside the shelf.",
+        "The person drops the storage inside the drawer of the shelf.",
+        "The person drops the storage on the top of the shelf.",
+        "The person drops the storage on the shelf."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the storage? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the storage on the floor next to the shelf.\n(B) The person drops the storage on the table beside the shelf.\n(C) The person drops the storage inside the drawer of the shelf.\n(D) The person drops the storage on the top of the shelf.\n(E) The person drops the storage on the shelf.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person drops the storage on the shelf."
+    },
+    "correct_idx": [
+        4
+    ]
+}

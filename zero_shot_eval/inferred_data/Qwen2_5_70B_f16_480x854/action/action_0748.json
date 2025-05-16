@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person removes the bits of food stuck in his left hand.",
+        "The person is wiping his hands with a napkin in his right hand while holding a sandwich in his left hand.",
+        "The person is washing his right hand under a faucet while holding a bar of soap with his left hand.",
+        "The person is drying his hands with a towel using his left hand while holding a glass of water in his right hand.",
+        "The person is applying lotion to his right hand while holding a book with his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person removes the bits of food stuck in his left hand.\n(B) The person is wiping his hands with a napkin in his right hand while holding a sandwich in his left hand.\n(C) The person is washing his right hand under a faucet while holding a bar of soap with his left hand.\n(D) The person is drying his hands with a towel using his left hand while holding a glass of water in his right hand.\n(E) The person is applying lotion to his right hand while holding a book with his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person removes the bits of food stuck in his left hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

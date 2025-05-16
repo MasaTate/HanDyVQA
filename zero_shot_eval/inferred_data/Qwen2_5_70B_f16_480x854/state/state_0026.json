@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a bottle of oil change?",
+    "options": [
+        "The bottle of oil was opened and the oil was about to be poured into a salad bowl.",
+        "The bottle of oil was opened and the oil was about to be poured into a measuring cup.",
+        "The bottle of oil was opened and the oil was about to be poured into the pan on the gas stove.",
+        "The bottle of oil was opened and the oil was about to be poured onto a baking sheet.",
+        "The bottle of oil was opened and the oil was poured into the pan on the gas stove."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a bottle of oil change? Choose **only one** option from the following list.\nOptions:\n(A) The bottle of oil was opened and the oil was about to be poured into a salad bowl.\n(B) The bottle of oil was opened and the oil was about to be poured into a measuring cup.\n(C) The bottle of oil was opened and the oil was about to be poured into the pan on the gas stove.\n(D) The bottle of oil was opened and the oil was about to be poured onto a baking sheet.\n(E) The bottle of oil was opened and the oil was poured into the pan on the gas stove.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The bottle of oil was opened and the oil was about to be poured into the pan on the gas stove."
+    },
+    "correct_idx": [
+        2
+    ]
+}

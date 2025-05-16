@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the yellow fabric on the container?",
+    "options": [
+        "The person placed the yellow fabric at the lower portion of the container.",
+        "The person placed the yellow fabric at the upper portion of the container.",
+        "The person placed the yellow fabric on the side of the container.",
+        "The person placed the yellow fabric at the back portion of the container.",
+        "The person placed the yellow fabric at the front edge of the container."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the yellow fabric on the container? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the yellow fabric at the lower portion of the container.\n(B) The person placed the yellow fabric at the upper portion of the container.\n(C) The person placed the yellow fabric on the side of the container.\n(D) The person placed the yellow fabric at the back portion of the container.\n(E) The person placed the yellow fabric at the front edge of the container.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person placed the yellow fabric at the lower portion of the container."
+    },
+    "correct_idx": [
+        1
+    ]
+}

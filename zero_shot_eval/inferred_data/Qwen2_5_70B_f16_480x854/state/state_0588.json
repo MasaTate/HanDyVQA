@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the paintbrush change?",
+    "options": [
+        "The paintbrush was soaked in paint and then wiped on a canvas.",
+        "The paintbrush was dipped in water and then pressed on paper.",
+        "The paintbrush was cleaned with solvent and then set aside to dry.",
+        "The paintbrush was dipped in a thick mixture and then dragged across a surface.",
+        "The paintbrush was flicked and then dropped onto the floor."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the paintbrush change? Choose **only one** option from the following list.\nOptions:\n(A) The paintbrush was soaked in paint and then wiped on a canvas.\n(B) The paintbrush was dipped in water and then pressed on paper.\n(C) The paintbrush was cleaned with solvent and then set aside to dry.\n(D) The paintbrush was dipped in a thick mixture and then dragged across a surface.\n(E) The paintbrush was flicked and then dropped onto the floor.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The paintbrush was soaked in paint and then wiped on a canvas."
+    },
+    "correct_idx": [
+        1
+    ]
+}

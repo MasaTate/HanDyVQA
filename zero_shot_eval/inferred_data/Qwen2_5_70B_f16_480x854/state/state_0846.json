@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of another page of the book change?",
+    "options": [
+        "The page was crumpled and showed signs of damage.",
+        "The page was flipped and turned to the next page.",
+        "The page was torn out and removed from the book.",
+        "The page was dog-eared at the corner.",
+        "The page was stained with ink."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of another page of the book change? Choose **only one** option from the following list.\nOptions:\n(A) The page was crumpled and showed signs of damage.\n(B) The page was flipped and turned to the next page.\n(C) The page was torn out and removed from the book.\n(D) The page was dog-eared at the corner.\n(E) The page was stained with ink.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The page was flipped and turned to the next page."
+    },
+    "correct_idx": [
+        1
+    ]
+}

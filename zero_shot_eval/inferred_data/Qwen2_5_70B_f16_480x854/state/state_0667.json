@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the manure change?",
+    "options": [
+        "The manure was piled in a corner, remaining clumped together and not spreading out.",
+        "The manure was placed into a compost bin, where it began to decompose separately.",
+        "The manure was combined with water, forming a slurry that remained in a container.",
+        "The manure was dispersed across the soil, integrating into its surface.",
+        "The manure was stored in bags in a shed, remaining untouched and in its original form."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the manure change? Choose **only one** option from the following list.\nOptions:\n(A) The manure was piled in a corner, remaining clumped together and not spreading out.\n(B) The manure was placed into a compost bin, where it began to decompose separately.\n(C) The manure was combined with water, forming a slurry that remained in a container.\n(D) The manure was dispersed across the soil, integrating into its surface.\n(E) The manure was stored in bags in a shed, remaining untouched and in its original form.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The manure was dispersed across the soil, integrating into its surface."
+    },
+    "correct_idx": [
+        3
+    ]
+}

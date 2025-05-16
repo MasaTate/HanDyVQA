@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the sewing machine change?",
+    "options": [
+        "The control knob of the sewing machine was rotated counterclockwise.",
+        "The control knob of the sewing machine was rotated clockwise.",
+        "The control knob of the sewing machine was kept in its original position without rotating.",
+        "The control knob of the sewing machine was rotated slightly counterclockwise and then returned to its original position.",
+        "The control knob of the sewing machine was attempted to be rotated counterclockwise but returned to its original position."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the sewing machine change? Choose **only one** option from the following list.\nOptions:\n(A) The control knob of the sewing machine was rotated counterclockwise.\n(B) The control knob of the sewing machine was rotated clockwise.\n(C) The control knob of the sewing machine was kept in its original position without rotating.\n(D) The control knob of the sewing machine was rotated slightly counterclockwise and then returned to its original position.\n(E) The control knob of the sewing machine was attempted to be rotated counterclockwise but returned to its original position.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The control knob of the sewing machine was attempted to be rotated counterclockwise but returned to its original position."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pack rice?",
+    "options": [
+        "The person packed the rice by using a measuring cup in her right hand to scoop, holding the pan steady with her left hand.",
+        "The person packed the rice by smoothly transferring it with her hand to the pot, avoiding the use of any utensils.",
+        "The person packed the rice by gently pouring it from a bag into the pan while stabilizing it with her left hand.",
+        "The person packed the rice by using a large spoon in her right hand to scoop from a bowl, keeping the pan steady with her left hand.",
+        "The person packed the rice by using a rice paddle in her right hand to scoop while steadying the pan with her left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pack rice? Choose **only one** option from the following list.\nOptions:\n(A) The person packed the rice by using a measuring cup in her right hand to scoop, holding the pan steady with her left hand.\n(B) The person packed the rice by smoothly transferring it with her hand to the pot, avoiding the use of any utensils.\n(C) The person packed the rice by gently pouring it from a bag into the pan while stabilizing it with her left hand.\n(D) The person packed the rice by using a large spoon in her right hand to scoop from a bowl, keeping the pan steady with her left hand.\n(E) The person packed the rice by using a rice paddle in her right hand to scoop while steadying the pan with her left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person packed the rice by using a rice paddle in her right hand to scoop while steadying the pan with her left hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

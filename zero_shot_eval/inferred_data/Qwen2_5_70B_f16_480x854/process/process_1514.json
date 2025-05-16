@@ -1,0 +1,17 @@
+{
+    "question": "How does the person move the blue plate?",
+    "options": [
+        "The person moved the blue plate across the table with the palm of her hand.",
+        "The person lifted the blue plate using one hand and guided it over the edge of the table.",
+        "The person shifted the blue plate by gently putting it down with her hands.",
+        "The person picked up the blue plate with her fingers and let it rest on the floor.",
+        "The person used a cloth to slide the blue plate off the counter with her hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person move the blue plate? Choose **only one** option from the following list.\nOptions:\n(A) The person moved the blue plate across the table with the palm of her hand.\n(B) The person lifted the blue plate using one hand and guided it over the edge of the table.\n(C) The person shifted the blue plate by gently putting it down with her hands.\n(D) The person picked up the blue plate with her fingers and let it rest on the floor.\n(E) The person used a cloth to slide the blue plate off the counter with her hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person shifted the blue plate by gently putting it down with her hands."
+    },
+    "correct_idx": [
+        2
+    ]
+}

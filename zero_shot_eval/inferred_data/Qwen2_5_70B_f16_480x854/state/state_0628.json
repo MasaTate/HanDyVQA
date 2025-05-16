@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of milk change?",
+    "options": [
+        "The milk was poured quickly into the glass and filled it to the brim.",
+        "The milk was dribbled slowly into the pot and collected at the center.",
+        "The milk was flowed smoothly into the bowl and spread at the bottom of the bowl.",
+        "The milk was dripped steadily into a teacup and pooled at one side.",
+        "The milk was splashed over the table surface and soaked into the cloth."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of milk change? Choose **only one** option from the following list.\nOptions:\n(A) The milk was poured quickly into the glass and filled it to the brim.\n(B) The milk was dribbled slowly into the pot and collected at the center.\n(C) The milk was flowed smoothly into the bowl and spread at the bottom of the bowl.\n(D) The milk was dripped steadily into a teacup and pooled at one side.\n(E) The milk was splashed over the table surface and soaked into the cloth.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The milk was dribbled slowly into the pot and collected at the center."
+    },
+    "correct_idx": [
+        2
+    ]
+}

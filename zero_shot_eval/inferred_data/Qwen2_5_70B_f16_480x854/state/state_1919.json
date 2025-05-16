@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the glove change?",
+    "options": [
+        "The glove was accidentally dropped on the floor, resulting in a change in position as it moved from the intended place.",
+        "The glove was about to be worn, causing a change in position as it was prepared to be placed on the hand.",
+        "The glove was turned inside out, leading to a change in its interior and exterior surfaces as it was adjusted.",
+        "The glove was placed into a pocket, resulting in a change in its shape as it adapted to the space available.",
+        "The glove was left unfolded on the table, causing a change in its state as it stayed unused and open."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the glove change? Choose **only one** option from the following list.\nOptions:\n(A) The glove was accidentally dropped on the floor, resulting in a change in position as it moved from the intended place.\n(B) The glove was about to be worn, causing a change in position as it was prepared to be placed on the hand.\n(C) The glove was turned inside out, leading to a change in its interior and exterior surfaces as it was adjusted.\n(D) The glove was placed into a pocket, resulting in a change in its shape as it adapted to the space available.\n(E) The glove was left unfolded on the table, causing a change in its state as it stayed unused and open.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The glove was turned inside out, leading to a change in its interior and exterior surfaces as it was adjusted."
+    },
+    "correct_idx": [
+        1
+    ]
+}

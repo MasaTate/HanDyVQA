@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is drying the knife with a towel in their right hand while lifting the dish lid with their left hand.",
+        "The person is chopping vegetables on the cutting board with the knife in their right hand while moving the dish lid away with their left hand.",
+        "The person first washes the knife using the right hand and then pulls the dish lid closer with their left hand.",
+        "The person is placing the knife on the table with their right hand while picking up the dish lid with their left hand.",
+        "The person is slicing bread with the knife in their right hand while holding the dish lid in their left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is drying the knife with a towel in their right hand while lifting the dish lid with their left hand.\n(B) The person is chopping vegetables on the cutting board with the knife in their right hand while moving the dish lid away with their left hand.\n(C) The person first washes the knife using the right hand and then pulls the dish lid closer with their left hand.\n(D) The person is placing the knife on the table with their right hand while picking up the dish lid with their left hand.\n(E) The person is slicing bread with the knife in their right hand while holding the dish lid in their left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person first washes the knife using the right hand and then pulls the dish lid closer with their left hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

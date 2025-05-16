@@ -1,0 +1,17 @@
+{
+    "question": "How does the person hold the piece of metal on the table with his left hand?",
+    "options": [
+        "The person holds the piece of metal on the table with his left hand gently, allowing slight movement.",
+        "The person holds the piece of metal on the table with his left hand using only his thumb and forefinger.",
+        "The person holds the piece of metal on the table with his left hand tightly and carefully.",
+        "The person holds the piece of metal on the table with his left hand before slightly lifting it.",
+        "The person holds the piece of metal on the table with his left hand, supporting it as he rests his elbow."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person hold the piece of metal on the table with his left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the piece of metal on the table with his left hand gently, allowing slight movement.\n(B) The person holds the piece of metal on the table with his left hand using only his thumb and forefinger.\n(C) The person holds the piece of metal on the table with his left hand tightly and carefully.\n(D) The person holds the piece of metal on the table with his left hand before slightly lifting it.\n(E) The person holds the piece of metal on the table with his left hand, supporting it as he rests his elbow.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person holds the piece of metal on the table with his left hand tightly and carefully."
+    },
+    "correct_idx": [
+        2
+    ]
+}

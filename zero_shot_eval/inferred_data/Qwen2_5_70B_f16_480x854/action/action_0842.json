@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person's right hand painted the wall while the left hand used a roller brush before moving to the next section of the wall.",
+        "The person's right hand applied paint to the wall while the left hand held a can of paint before finishing the job.",
+        "The person's right hand touched up the wall with a sponge while the left hand took away old paint before starting the new layer.",
+        "The person's right hand paints the wall and transfers the paintbrush to the left hand before removing the tape on the wall.",
+        "The person's right hand painted the wall while the left hand held a drop cloth before tidying up the area."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person's right hand painted the wall while the left hand used a roller brush before moving to the next section of the wall.\n(B) The person's right hand applied paint to the wall while the left hand held a can of paint before finishing the job.\n(C) The person's right hand touched up the wall with a sponge while the left hand took away old paint before starting the new layer.\n(D) The person's right hand paints the wall and transfers the paintbrush to the left hand before removing the tape on the wall.\n(E) The person's right hand painted the wall while the left hand held a drop cloth before tidying up the area.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person's right hand paints the wall and transfers the paintbrush to the left hand before removing the tape on the wall."
+    },
+    "correct_idx": [
+        3
+    ]
+}

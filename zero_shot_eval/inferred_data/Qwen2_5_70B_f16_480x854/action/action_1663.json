@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is placing a piece of wood on the surface of the soil with the right hand while the left hand supports another tool.",
+        "The person is pulling a piece of wood out of the ground with the right hand while the left hand steadies an additional piece of wood.",
+        "The person is stacking a piece of wood against a wall with the right hand while the left hand pushes down on a gardening tool.",
+        "The person submerges a piece of wood into the ground with the right hand while the left-hand holds onto the other wood.",
+        "The person is using the right hand to hammer a piece of wood while the left hand holds another object."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is placing a piece of wood on the surface of the soil with the right hand while the left hand supports another tool.\n(B) The person is pulling a piece of wood out of the ground with the right hand while the left hand steadies an additional piece of wood.\n(C) The person is stacking a piece of wood against a wall with the right hand while the left hand pushes down on a gardening tool.\n(D) The person submerges a piece of wood into the ground with the right hand while the left-hand holds onto the other wood.\n(E) The person is using the right hand to hammer a piece of wood while the left hand holds another object.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person submerges a piece of wood into the ground with the right hand while the left-hand holds onto the other wood."
+    },
+    "correct_idx": [
+        3
+    ]
+}

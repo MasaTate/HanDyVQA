@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the motorcycle wheel?",
+    "options": [
+        "The person moved the motorcycle wheel in the opposite direction on the same spot.",
+        "The person moved the motorcycle wheel slightly to the left on the ground.",
+        "The person moved the motorcycle wheel away to the right side of the garage.",
+        "The person moved the motorcycle wheel in a clockwise direction on the floor.",
+        "The person moved the motorcycle wheel on the same place in a counter clockwise direction."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the motorcycle wheel? Choose **only one** option from the following list.\nOptions:\n(A) The person moved the motorcycle wheel in the opposite direction on the same spot.\n(B) The person moved the motorcycle wheel slightly to the left on the ground.\n(C) The person moved the motorcycle wheel away to the right side of the garage.\n(D) The person moved the motorcycle wheel in a clockwise direction on the floor.\n(E) The person moved the motorcycle wheel on the same place in a counter clockwise direction.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person moved the motorcycle wheel in a clockwise direction on the floor."
+    },
+    "correct_idx": [
+        4
+    ]
+}

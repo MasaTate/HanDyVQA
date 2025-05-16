@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the umbrella?",
+    "options": [
+        "The person drops the umbrella in front of the legs of the chair.",
+        "The person drops the umbrella beside the side of the chair.",
+        "The person drops the umbrella behind the backrest of the chair.",
+        "The person drops the umbrella on the seat of the chair.",
+        "The person drops the umbrella under the table next to the chair."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the umbrella? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the umbrella in front of the legs of the chair.\n(B) The person drops the umbrella beside the side of the chair.\n(C) The person drops the umbrella behind the backrest of the chair.\n(D) The person drops the umbrella on the seat of the chair.\n(E) The person drops the umbrella under the table next to the chair.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person drops the umbrella beside the side of the chair."
+    },
+    "correct_idx": [
+        2
+    ]
+}

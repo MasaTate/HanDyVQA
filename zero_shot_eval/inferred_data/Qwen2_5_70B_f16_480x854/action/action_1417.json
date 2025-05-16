@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person grips the sprayer gun with the right hand while supporting the nozzle with the left hand by holding the hose.",
+        "The person uses the right hand to hold and spray the sprayer gun, while the left hand supports the tool by holding the hose.",
+        "The person aims the sprayer gun with the right hand while the left hand assists by holding the hose.",
+        "The person pulls the trigger of the sprayer gun with the right hand while the left hand adjusts the position of the hose.",
+        "The person holds the sprayer gun in both hands while maintaining control of the hose with the left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the sprayer gun with the right hand while supporting the nozzle with the left hand by holding the hose.\n(B) The person uses the right hand to hold and spray the sprayer gun, while the left hand supports the tool by holding the hose.\n(C) The person aims the sprayer gun with the right hand while the left hand assists by holding the hose.\n(D) The person pulls the trigger of the sprayer gun with the right hand while the left hand adjusts the position of the hose.\n(E) The person holds the sprayer gun in both hands while maintaining control of the hose with the left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person uses the right hand to hold and spray the sprayer gun, while the left hand supports the tool by holding the hose."
+    },
+    "correct_idx": [
+        1
+    ]
+}

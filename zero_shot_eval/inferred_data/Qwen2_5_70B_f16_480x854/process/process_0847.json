@@ -1,0 +1,17 @@
+{
+    "question": "How does the person hold the plant?",
+    "options": [
+        "The person quickly taps on the plant using the heel of the left hand palm.",
+        "The person holds the plant securely with both hands, moving it closer to their body.",
+        "The person softly grips the base of the plant with the thumb and forefinger of the right hand.",
+        "The person steadies the plant on their knee using a single finger from the left hand.",
+        "The person picks up the plant by its pot with the fingertips of the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person hold the plant? Choose **only one** option from the following list.\nOptions:\n(A) The person quickly taps on the plant using the heel of the left hand palm.\n(B) The person holds the plant securely with both hands, moving it closer to their body.\n(C) The person softly grips the base of the plant with the thumb and forefinger of the right hand.\n(D) The person steadies the plant on their knee using a single finger from the left hand.\n(E) The person picks up the plant by its pot with the fingertips of the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person softly grips the base of the plant with the thumb and forefinger of the right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

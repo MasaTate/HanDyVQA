@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "laptop charger",
+        "computer mouse",
+        "rubber seal",
+        "screwdriver",
+        "voltage tester",
+        "paper"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) laptop charger\n(B) computer mouse\n(C) rubber seal\n(D) screwdriver\n(E) voltage tester\n(F) paper\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(D) Screwdriver\n(A) Laptop charger"
+    },
+    "correct_idx": [
+        2,
+        3
+    ]
+}

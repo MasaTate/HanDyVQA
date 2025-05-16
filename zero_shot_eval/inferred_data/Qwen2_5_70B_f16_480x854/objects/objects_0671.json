@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "engine",
+        "metal blades",
+        "nuts",
+        "bolts",
+        "ball peen dead blow hammer",
+        "plastic containers"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) engine\n(B) metal blades\n(C) nuts\n(D) bolts\n(E) ball peen dead blow hammer\n(F) plastic containers\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(A) The hands are working on the engine, adjusting and manipulating parts within it.\n(D) The hands are using bolts, likely to secure or adjust components of the engine."
+    },
+    "correct_idx": [
+        2,
+        3
+    ]
+}

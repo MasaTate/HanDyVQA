@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the paint bucket change?",
+    "options": [
+        "The paint bucket was rotated counterclockwise and then placed on the table.",
+        "The paint bucket was tipped slightly and spun in place before being set down.",
+        "The paint bucket was rotated clockwise and counterclockwise and put on the floor.",
+        "The paint bucket was rotated clockwise only and left on a shelf.",
+        "The paint bucket was flipped upside down and then put on a different spot on the floor."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the paint bucket change? Choose **only one** option from the following list.\nOptions:\n(A) The paint bucket was rotated counterclockwise and then placed on the table.\n(B) The paint bucket was tipped slightly and spun in place before being set down.\n(C) The paint bucket was rotated clockwise and counterclockwise and put on the floor.\n(D) The paint bucket was rotated clockwise only and left on a shelf.\n(E) The paint bucket was flipped upside down and then put on a different spot on the floor.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The paint bucket was rotated clockwise and counterclockwise and put on the floor."
+    },
+    "correct_idx": [
+        2
+    ]
+}

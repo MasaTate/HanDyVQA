@@ -1,0 +1,17 @@
+{
+    "question": "How does the person wear the glove?",
+    "options": [
+        "The person briefly struggled, attempting to pull the glove onto the left hand with the right hand.",
+        "The person put on the glove by gently stretching the opening with both hands and sliding it onto the right hand.",
+        "The person placed the glove on a flat surface and slid the right hand into it without using the left hand for help.",
+        "The person put on the glove by pulling it up on the right hand with the assistance of the left hand.",
+        "The person carefully guided their fingers into the glove, using only the right hand to adjust it into place."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person wear the glove? Choose **only one** option from the following list.\nOptions:\n(A) The person briefly struggled, attempting to pull the glove onto the left hand with the right hand.\n(B) The person put on the glove by gently stretching the opening with both hands and sliding it onto the right hand.\n(C) The person placed the glove on a flat surface and slid the right hand into it without using the left hand for help.\n(D) The person put on the glove by pulling it up on the right hand with the assistance of the left hand.\n(E) The person carefully guided their fingers into the glove, using only the right hand to adjust it into place.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person put on the glove by pulling it up on the right hand with the assistance of the left hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

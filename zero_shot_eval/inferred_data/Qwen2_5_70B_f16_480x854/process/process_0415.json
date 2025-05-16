@@ -1,0 +1,17 @@
+{
+    "question": "How does the person point the phone flash light?",
+    "options": [
+        "The person grips the phone with both hands and tilts it to direct the flashlight towards the ceiling.",
+        "The person uses his left hand to stabilize the phone and touches the screen to activate the flashlight without changing its position.",
+        "The person places the phone on the edge of the table and leans over to direct the flashlight downwards at the floor.",
+        "The person holds the phone in his right hand and points the flashlight towards his own face.",
+        "The person holds the phone with his right hand and tilts it sideways to point the flashlight through the gap in the wall."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person point the phone flash light? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the phone with both hands and tilts it to direct the flashlight towards the ceiling.\n(B) The person uses his left hand to stabilize the phone and touches the screen to activate the flashlight without changing its position.\n(C) The person places the phone on the edge of the table and leans over to direct the flashlight downwards at the floor.\n(D) The person holds the phone in his right hand and points the flashlight towards his own face.\n(E) The person holds the phone with his right hand and tilts it sideways to point the flashlight through the gap in the wall.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person holds the phone with his right hand and tilts it sideways to point the flashlight through the gap in the wall."
+    },
+    "correct_idx": [
+        4
+    ]
+}

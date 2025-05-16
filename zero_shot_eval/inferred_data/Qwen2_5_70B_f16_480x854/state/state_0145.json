@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the tap changed?",
+    "options": [
+        "The handle of the tap was pushed down and the spout was repositioned.",
+        "The handle was tilted to the side, and the spout maintained its original angle.",
+        "The handle of the tap was lifted up and the spout was moved, changing its angle.",
+        "The handle of the tap was adjusted slightly, but the spout remained stationary.",
+        "The handle was pulled upward slightly, but the spout was rotated in the opposite direction."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the tap changed? Choose **only one** option from the following list.\nOptions:\n(A) The handle of the tap was pushed down and the spout was repositioned.\n(B) The handle was tilted to the side, and the spout maintained its original angle.\n(C) The handle of the tap was lifted up and the spout was moved, changing its angle.\n(D) The handle of the tap was adjusted slightly, but the spout remained stationary.\n(E) The handle was pulled upward slightly, but the spout was rotated in the opposite direction.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The handle of the tap was lifted up and the spout was moved, changing its angle."
+    },
+    "correct_idx": [
+        2
+    ]
+}

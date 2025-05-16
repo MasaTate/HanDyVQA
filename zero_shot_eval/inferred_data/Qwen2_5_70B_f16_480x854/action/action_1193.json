@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person threads the needle through a piece of fabric and sets it on the table near the sewing machine.",
+        "The person pushes the thread through the needle and winds it around the spool of the sewing machine.",
+        "The person pulls the thread through the needle and arranges it neatly on the surface of the sewing machine.",
+        "The person inserts the needle into the thread and places it inside a drawer.",
+        "The person places the needle inside a drawer and arranges the threads around the sewing machine."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person threads the needle through a piece of fabric and sets it on the table near the sewing machine.\n(B) The person pushes the thread through the needle and winds it around the spool of the sewing machine.\n(C) The person pulls the thread through the needle and arranges it neatly on the surface of the sewing machine.\n(D) The person inserts the needle into the thread and places it inside a drawer.\n(E) The person places the needle inside a drawer and arranges the threads around the sewing machine.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person places the needle inside a drawer and arranges the threads around the sewing machine."
+    },
+    "correct_idx": [
+        3
+    ]
+}

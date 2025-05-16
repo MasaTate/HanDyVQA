@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put some dough?",
+    "options": [
+        "The person put some dough at the food processor.",
+        "The person put some dough at the mixing machine.",
+        "The person put some dough on the countertop next to the stove.",
+        "The person put some dough in the bowl on the table.",
+        "The person put some dough near the baking sheet."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put some dough? Choose **only one** option from the following list.\nOptions:\n(A) The person put some dough at the food processor.\n(B) The person put some dough at the mixing machine.\n(C) The person put some dough on the countertop next to the stove.\n(D) The person put some dough in the bowl on the table.\n(E) The person put some dough near the baking sheet.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person put some dough at the mixing machine."
+    },
+    "correct_idx": [
+        1
+    ]
+}

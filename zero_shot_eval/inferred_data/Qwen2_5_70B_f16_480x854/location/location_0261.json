@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the pieces of tape?",
+    "options": [
+        "The person drops the pieces of tape on the side of the motorcycle seat.",
+        "The person drops the pieces of tape on the top of the motorcycle footrest.",
+        "The person drops the pieces of tape on the front of the motorcycle handlebars.",
+        "The person drops the pieces of tape under the motorcycle engine cover.",
+        "The person drops the pieces of tape at the back of the motorcycle storage compartment."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the pieces of tape? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the pieces of tape on the side of the motorcycle seat.\n(B) The person drops the pieces of tape on the top of the motorcycle footrest.\n(C) The person drops the pieces of tape on the front of the motorcycle handlebars.\n(D) The person drops the pieces of tape under the motorcycle engine cover.\n(E) The person drops the pieces of tape at the back of the motorcycle storage compartment.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person drops the pieces of tape at the back of the motorcycle storage compartment."
+    },
+    "correct_idx": [
+        1
+    ]
+}

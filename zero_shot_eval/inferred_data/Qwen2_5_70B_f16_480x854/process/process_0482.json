@@ -1,0 +1,17 @@
+{
+    "question": "How does the person throw the leaves of the second plant on the ground?",
+    "options": [
+        "The person releases the leaves of the second plant by clasping them in both hands, rotating his body slightly, and then opens his hands to let them disperse gently into the air.",
+        "The person removes the leaves from the second plant using both hands and allows them to fall gently downwards, guiding them smoothly with minimal arm movement to the ground directly below.",
+        "The person slides the leaves from the second plant out of the pot with his left hand and guides them towards the ground using his right hand to position them in front of him.",
+        "The person holds the leaves of the second plant with his left hand and releases them with a slight backward swing, dropping them to land softly behind him.",
+        "The person throws the leaves of the second plant on the ground by initially gathering some leaves from the pot using his right hand while keeping others firmly in his left hand, and then moves his right arm to his side and lets go, allowing the leaves to drop onto the ground on his right."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person throw the leaves of the second plant on the ground? Choose **only one** option from the following list.\nOptions:\n(A) The person releases the leaves of the second plant by clasping them in both hands, rotating his body slightly, and then opens his hands to let them disperse gently into the air.\n(B) The person removes the leaves from the second plant using both hands and allows them to fall gently downwards, guiding them smoothly with minimal arm movement to the ground directly below.\n(C) The person slides the leaves from the second plant out of the pot with his left hand and guides them towards the ground using his right hand to position them in front of him.\n(D) The person holds the leaves of the second plant with his left hand and releases them with a slight backward swing, dropping them to land softly behind him.\n(E) The person throws the leaves of the second plant on the ground by initially gathering some leaves from the pot using his right hand while keeping others firmly in his left hand, and then moves his right arm to his side and lets go, allowing the leaves to drop onto the ground on his right.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person removes the leaves from the second plant using both hands and allows them to fall gently downwards, guiding them smoothly with minimal arm movement to the ground directly below."
+    },
+    "correct_idx": [
+        4
+    ]
+}

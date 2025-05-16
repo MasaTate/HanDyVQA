@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the rectangular metal tube on the wall?",
+    "options": [
+        "The person moved the rectangular metal tube on the right edge of the wall.",
+        "The person moved the rectangular metal tube on the left edge of the wall.",
+        "The person moved the rectangular metal tube in the center of the wall.",
+        "The person moved the rectangular metal tube on the lower section of the wall.",
+        "The person moved the rectangular metal tube at the top corner of the wall."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the rectangular metal tube on the wall? Choose **only one** option from the following list.\nOptions:\n(A) The person moved the rectangular metal tube on the right edge of the wall.\n(B) The person moved the rectangular metal tube on the left edge of the wall.\n(C) The person moved the rectangular metal tube in the center of the wall.\n(D) The person moved the rectangular metal tube on the lower section of the wall.\n(E) The person moved the rectangular metal tube at the top corner of the wall.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person moved the rectangular metal tube on the right edge of the wall."
+    },
+    "correct_idx": [
+        1
+    ]
+}

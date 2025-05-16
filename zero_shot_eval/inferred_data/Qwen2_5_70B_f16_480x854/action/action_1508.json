@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is gripping the paintbrush with their right hand while steadying a canvas with their left hand.",
+        "The person is using the paintbrush with their right hand while adjusting a sculpture with their left hand.",
+        "The person is holding the paintbrush with their right hand while holding the potter's wheel with their left hand.",
+        "The person is holding a palette with their right hand while resting their left hand on the table.",
+        "The person is painting on the canvas with their right hand while holding the easel with their left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is gripping the paintbrush with their right hand while steadying a canvas with their left hand.\n(B) The person is using the paintbrush with their right hand while adjusting a sculpture with their left hand.\n(C) The person is holding the paintbrush with their right hand while holding the potter's wheel with their left hand.\n(D) The person is holding a palette with their right hand while resting their left hand on the table.\n(E) The person is painting on the canvas with their right hand while holding the easel with their left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person is holding the paintbrush with their right hand while holding the potter's wheel with their left hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

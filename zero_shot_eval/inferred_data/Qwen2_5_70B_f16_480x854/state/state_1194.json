@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the drawing change?",
+    "options": [
+        "The drawing was turned upside down, changing its orientation in relation to the viewer.",
+        "The drawing was stretched across the surface, modifying its dimensions significantly.",
+        "The drawing was placed under a glass frame, protecting it from damage while changing its presentation.",
+        "The drawing was moved closer, altering its position relative to the person.",
+        "The drawing was torn in half, altering its integrity and making it impossible to view as a whole."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the drawing change? Choose **only one** option from the following list.\nOptions:\n(A) The drawing was turned upside down, changing its orientation in relation to the viewer.\n(B) The drawing was stretched across the surface, modifying its dimensions significantly.\n(C) The drawing was placed under a glass frame, protecting it from damage while changing its presentation.\n(D) The drawing was moved closer, altering its position relative to the person.\n(E) The drawing was torn in half, altering its integrity and making it impossible to view as a whole.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The drawing was moved closer, altering its position relative to the person."
+    },
+    "correct_idx": [
+        3
+    ]
+}

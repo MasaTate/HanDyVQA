@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the molding stick change?",
+    "options": [
+        "The molding stick was slightly dipped into water, and then tapped against the clay pot.",
+        "The molding stick was fully submerged in water, and then pressed against the clay pot.",
+        "The molding stick was rinsed under running water, and then rubbed along the clay pot.",
+        "The molding stick was soaked in water for several minutes, and then scraped across the clay pot.",
+        "The molding stick was dipped into a gel, and then rolled over the surface of the clay pot."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the molding stick change? Choose **only one** option from the following list.\nOptions:\n(A) The molding stick was slightly dipped into water, and then tapped against the clay pot.\n(B) The molding stick was fully submerged in water, and then pressed against the clay pot.\n(C) The molding stick was rinsed under running water, and then rubbed along the clay pot.\n(D) The molding stick was soaked in water for several minutes, and then scraped across the clay pot.\n(E) The molding stick was dipped into a gel, and then rolled over the surface of the clay pot.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The molding stick was slightly dipped into water, and then tapped against the clay pot."
+    },
+    "correct_idx": [
+        0
+    ]
+}

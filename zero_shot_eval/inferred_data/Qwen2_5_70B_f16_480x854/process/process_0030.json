@@ -1,0 +1,17 @@
+{
+    "question": "How does the person rotate the sponge cloth?",
+    "options": [
+        "The person pinches the sponge cloth between her fingers and twists it slightly clockwise.",
+        "The person holds the sponge cloth with both hands and gently shakes it in different directions.",
+        "The person rotates the sponge cloth counterclockwise using the palm of her right hand.",
+        "The person grips the sponge cloth with one hand and moves it away with minimal rotation.",
+        "The person balances the sponge cloth on the tip of her finger and slowly spins her finger to rotate it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person rotate the sponge cloth? Choose **only one** option from the following list.\nOptions:\n(A) The person pinches the sponge cloth between her fingers and twists it slightly clockwise.\n(B) The person holds the sponge cloth with both hands and gently shakes it in different directions.\n(C) The person rotates the sponge cloth counterclockwise using the palm of her right hand.\n(D) The person grips the sponge cloth with one hand and moves it away with minimal rotation.\n(E) The person balances the sponge cloth on the tip of her finger and slowly spins her finger to rotate it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person rotates the sponge cloth counterclockwise using the palm of her right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

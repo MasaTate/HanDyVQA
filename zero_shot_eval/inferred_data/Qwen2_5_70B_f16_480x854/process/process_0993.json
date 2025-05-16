@@ -1,0 +1,17 @@
+{
+    "question": "How does the person make a move on the chess board with his right hand?",
+    "options": [
+        "The person stretches out his right hand, picks up the chess piece, and holds it above the board, pausing momentarily before deciding where to place it.",
+        "The person lightly touches the chess piece with his right hand, moving it to another square in a swift motion.",
+        "The person extends his right hand, grips the chess piece, and moves it across the board, considering where to place it.",
+        "The person brings his right hand over the chess board, taps the chess piece to start the move, then pulls his hand back with thoughtfulness.",
+        "The person reaches out with his right hand, carefully picks up the chess piece, and smoothly places it on the intended square, contemplating his next move."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person make a move on the chess board with his right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person stretches out his right hand, picks up the chess piece, and holds it above the board, pausing momentarily before deciding where to place it.\n(B) The person lightly touches the chess piece with his right hand, moving it to another square in a swift motion.\n(C) The person extends his right hand, grips the chess piece, and moves it across the board, considering where to place it.\n(D) The person brings his right hand over the chess board, taps the chess piece to start the move, then pulls his hand back with thoughtfulness.\n(E) The person reaches out with his right hand, carefully picks up the chess piece, and smoothly places it on the intended square, contemplating his next move.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person lightly touches the chess piece with his right hand, moving it to another square in a swift motion."
+    },
+    "correct_idx": [
+        4
+    ]
+}

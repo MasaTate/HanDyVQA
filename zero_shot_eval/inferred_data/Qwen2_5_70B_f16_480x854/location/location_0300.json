@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the left hand?",
+    "options": [
+        "The person placed the left hand on the left side of the long sleeve.",
+        "The person placed the left hand on the right side of the long sleeve.",
+        "The person placed the left hand on the center of the long sleeve.",
+        "The person placed the left hand on the left side of the short sleeve.",
+        "The person placed the left hand on the back side of the long sleeve."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the left hand on the left side of the long sleeve.\n(B) The person placed the left hand on the right side of the long sleeve.\n(C) The person placed the left hand on the center of the long sleeve.\n(D) The person placed the left hand on the left side of the short sleeve.\n(E) The person placed the left hand on the back side of the long sleeve.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person placed the left hand on the center of the long sleeve."
+    },
+    "correct_idx": [
+        0
+    ]
+}

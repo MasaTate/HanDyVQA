@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a loose part of wood change?",
+    "options": [
+        "The loose part of wood was picked up and dropped directly without spinning.",
+        "The loose part of wood was placed aside without being thrown.",
+        "The loose part of wood was removed and thrown, resulting in a spinning fall.",
+        "The loose part of wood was removed and laid down to prevent any fall.",
+        "The loose part of wood was thrown to the side but did not spin as it fell."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a loose part of wood change? Choose **only one** option from the following list.\nOptions:\n(A) The loose part of wood was picked up and dropped directly without spinning.\n(B) The loose part of wood was placed aside without being thrown.\n(C) The loose part of wood was removed and thrown, resulting in a spinning fall.\n(D) The loose part of wood was removed and laid down to prevent any fall.\n(E) The loose part of wood was thrown to the side but did not spin as it fell.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The loose part of wood was removed and thrown, resulting in a spinning fall."
+    },
+    "correct_idx": [
+        2
+    ]
+}

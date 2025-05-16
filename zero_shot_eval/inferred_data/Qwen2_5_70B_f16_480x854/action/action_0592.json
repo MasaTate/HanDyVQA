@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person holds the sandwich with both hands. And opens the fridge door with her right hand, then places the sandwich on the counter.",
+        "The person is preparing a sandwich with both hands. And closes the fridge door using her left hand, then takes the sandwich out of a lunchbox.",
+        "The person grips the sandwich with both hands. And closes the fridge door with her right hand, then places the sandwich in the trash can.",
+        "The person balances the sandwich in one hand. And opens the fridge door with her left hand, then puts the sandwich on the kitchen table.",
+        "The person wraps the sandwich with both hands. And opens the fridge door with her left hand, then places the sandwich inside the fridge."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the sandwich with both hands. And opens the fridge door with her right hand, then places the sandwich on the counter.\n(B) The person is preparing a sandwich with both hands. And closes the fridge door using her left hand, then takes the sandwich out of a lunchbox.\n(C) The person grips the sandwich with both hands. And closes the fridge door with her right hand, then places the sandwich in the trash can.\n(D) The person balances the sandwich in one hand. And opens the fridge door with her left hand, then puts the sandwich on the kitchen table.\n(E) The person wraps the sandwich with both hands. And opens the fridge door with her left hand, then places the sandwich inside the fridge.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person wraps the sandwich with both hands. And opens the fridge door with her left hand, then places the sandwich inside the fridge."
+    },
+    "correct_idx": [
+        4
+    ]
+}

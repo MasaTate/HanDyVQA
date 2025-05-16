@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the microfiber cloth change?",
+    "options": [
+        "The microfiber cloth was moved across the floor to wipe, altering its shape slightly.",
+        "The microfiber cloth was moved across the table to wipe, becoming slightly crumpled.",
+        "The microfiber cloth was moved across the counter to wipe, folding as it went.",
+        "The microfiber cloth was moved across the window to wipe, gathering wrinkles as it cleaned.",
+        "The microfiber cloth was moved across the wall of the fridge to wipe, changing its shape."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the microfiber cloth change? Choose **only one** option from the following list.\nOptions:\n(A) The microfiber cloth was moved across the floor to wipe, altering its shape slightly.\n(B) The microfiber cloth was moved across the table to wipe, becoming slightly crumpled.\n(C) The microfiber cloth was moved across the counter to wipe, folding as it went.\n(D) The microfiber cloth was moved across the window to wipe, gathering wrinkles as it cleaned.\n(E) The microfiber cloth was moved across the wall of the fridge to wipe, changing its shape.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The microfiber cloth was moved across the wall of the fridge to wipe, changing its shape."
+    },
+    "correct_idx": [
+        4
+    ]
+}

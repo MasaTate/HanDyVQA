@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the string change?",
+    "options": [
+        "The string was grasped firmly at both ends, maintaining tension between the hands.",
+        "The string was held loosely at one end, allowing it to sag in the middle.",
+        "The string was twisted around itself multiple times, forming a knot.",
+        "The string was dropped onto the ground, losing all tension and becoming slack.",
+        "The string was wrapped around a finger, creating a loop instead of tension."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the string change? Choose **only one** option from the following list.\nOptions:\n(A) The string was grasped firmly at both ends, maintaining tension between the hands.\n(B) The string was held loosely at one end, allowing it to sag in the middle.\n(C) The string was twisted around itself multiple times, forming a knot.\n(D) The string was dropped onto the ground, losing all tension and becoming slack.\n(E) The string was wrapped around a finger, creating a loop instead of tension.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The string was dropped onto the ground, losing all tension and becoming slack."
+    },
+    "correct_idx": [
+        0
+    ]
+}

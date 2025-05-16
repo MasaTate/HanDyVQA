@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is steaming the tunic shirt using a garment steamer in the right hand while the left hand keeps the shirt steady on a hanger.",
+        "The person is folding the tunic shirt using both hands while the flat iron is placed on the ironing board nearby.",
+        "The person is ironing the tunic shirt using a flat iron in the right hand while the left hand smoothens out the tunic shirt.",
+        "The person is pressing the tunic shirt using a pressing cloth in the right hand while the left hand manages the heat settings on the iron.",
+        "The person is cleaning the tunic shirt with a lint roller in the right hand while holding the shirt steady with the left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is steaming the tunic shirt using a garment steamer in the right hand while the left hand keeps the shirt steady on a hanger.\n(B) The person is folding the tunic shirt using both hands while the flat iron is placed on the ironing board nearby.\n(C) The person is ironing the tunic shirt using a flat iron in the right hand while the left hand smoothens out the tunic shirt.\n(D) The person is pressing the tunic shirt using a pressing cloth in the right hand while the left hand manages the heat settings on the iron.\n(E) The person is cleaning the tunic shirt with a lint roller in the right hand while holding the shirt steady with the left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person is folding the tunic shirt using both hands while the flat iron is placed on the ironing board nearby."
+    },
+    "correct_idx": [
+        2
+    ]
+}

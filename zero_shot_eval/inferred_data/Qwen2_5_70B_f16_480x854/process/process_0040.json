@@ -1,0 +1,17 @@
+{
+    "question": "How does the person toss the card on the table?",
+    "options": [
+        "The person holds the card in his left hand, then uses both hands to gently place the card on the table.",
+        "The person holds the card in his left hand, grasps it with his right hand, then flicks his wrist to toss it onto the table toward a player's position.",
+        "The person grips the card in his right hand and moves his arm before calmly sliding it onto the table.",
+        "The person pinches the corner of the card with his thumb and forefinger, then gently guides it onto the table.",
+        "The person places the card on the table, then smoothly moves it across toward a player\u2019s position."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person toss the card on the table? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the card in his left hand, then uses both hands to gently place the card on the table.\n(B) The person holds the card in his left hand, grasps it with his right hand, then flicks his wrist to toss it onto the table toward a player's position.\n(C) The person grips the card in his right hand and moves his arm before calmly sliding it onto the table.\n(D) The person pinches the corner of the card with his thumb and forefinger, then gently guides it onto the table.\n(E) The person places the card on the table, then smoothly moves it across toward a player\u2019s position.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person holds the card in his left hand, grasps it with his right hand, then flicks his wrist to toss it onto the table toward a player's position."
+    },
+    "correct_idx": [
+        1
+    ]
+}

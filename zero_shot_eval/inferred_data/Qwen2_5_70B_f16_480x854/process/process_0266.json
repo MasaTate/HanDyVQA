@@ -1,0 +1,17 @@
+{
+    "question": "How does the person scratch the left hand nail?",
+    "options": [
+        "The person uses their index finger to glide across the surface of the left hand nail in a straight motion.",
+        "The person rubs the nail of the left index finger against the palm of their left hand in a smooth, circular motion.",
+        "The person uses their thumb to press against the nail of the left index finger, moving it back and forth in a scratching motion.",
+        "The person uses their right hand to gently pinch the left hand nail between their thumb and finger, moving it slightly.",
+        "The person lightly taps the left hand nail with the tip of their right index finger in a gentle motion."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person scratch the left hand nail? Choose **only one** option from the following list.\nOptions:\n(A) The person uses their index finger to glide across the surface of the left hand nail in a straight motion.\n(B) The person rubs the nail of the left index finger against the palm of their left hand in a smooth, circular motion.\n(C) The person uses their thumb to press against the nail of the left index finger, moving it back and forth in a scratching motion.\n(D) The person uses their right hand to gently pinch the left hand nail between their thumb and finger, moving it slightly.\n(E) The person lightly taps the left hand nail with the tip of their right index finger in a gentle motion.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person uses their thumb to press against the nail of the left index finger, moving it back and forth in a scratching motion."
+    },
+    "correct_idx": [
+        2
+    ]
+}

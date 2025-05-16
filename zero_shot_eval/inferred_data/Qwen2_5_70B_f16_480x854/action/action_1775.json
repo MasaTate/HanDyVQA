@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person slices the onions on the cutting board using a knife in her right hand while holding the onions steady with her left hand.",
+        "The person holds a knife in his right hand, removes the onions from it using his left hand, and gathers the chopped onions on the chopping board.",
+        "The person chops the onions into small pieces on the countertop using the knife in her right hand while securing the onions with her left hand.",
+        "The person peels the onions on the chopping board using a peeler in her right hand while balancing the onions with her left hand.",
+        "The person transfers the chopped onions from the board to a bowl with a spatula in her right hand while holding the bowl with her left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person slices the onions on the cutting board using a knife in her right hand while holding the onions steady with her left hand.\n(B) The person holds a knife in his right hand, removes the onions from it using his left hand, and gathers the chopped onions on the chopping board.\n(C) The person chops the onions into small pieces on the countertop using the knife in her right hand while securing the onions with her left hand.\n(D) The person peels the onions on the chopping board using a peeler in her right hand while balancing the onions with her left hand.\n(E) The person transfers the chopped onions from the board to a bowl with a spatula in her right hand while holding the bowl with her left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person holds a knife in his right hand, removes the onions from it using his left hand, and gathers the chopped onions on the chopping board."
+    },
+    "correct_idx": [
+        1
+    ]
+}

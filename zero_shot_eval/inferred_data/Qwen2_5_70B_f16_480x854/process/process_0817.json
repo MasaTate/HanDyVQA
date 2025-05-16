@@ -1,0 +1,17 @@
+{
+    "question": "How does the person scoop paint from a paint container?",
+    "options": [
+        "The person carefully tilts the paint container to guide the paint smoothly onto the brush held by the left hand.",
+        "The person uses a tool to scoop paint from the container, holding it gently with both hands for better control.",
+        "The person presses the brush slightly against the edge of the paint container to remove excess paint with the right hand.",
+        "The person picks up the container with the left hand and lightly shakes it to release some paint before dipping the brush.",
+        "The person quickly dips the brush head downwards inside the paint container using the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person scoop paint from a paint container? Choose **only one** option from the following list.\nOptions:\n(A) The person carefully tilts the paint container to guide the paint smoothly onto the brush held by the left hand.\n(B) The person uses a tool to scoop paint from the container, holding it gently with both hands for better control.\n(C) The person presses the brush slightly against the edge of the paint container to remove excess paint with the right hand.\n(D) The person picks up the container with the left hand and lightly shakes it to release some paint before dipping the brush.\n(E) The person quickly dips the brush head downwards inside the paint container using the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person quickly dips the brush head downwards inside the paint container using the right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

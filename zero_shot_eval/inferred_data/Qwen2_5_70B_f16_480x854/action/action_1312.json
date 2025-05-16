@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is squeezing the garlic through the garlic press into a bowl on the kitchen counter with a spoon in her right hand.",
+        "The person scrapes the garlic from the garlic press into a saucepan on a weighing scale with the knife in her right hand.",
+        "The person is chopping the garlic on a cutting board with the knife in her right hand while holding the garlic bulb with her left hand.",
+        "The person is peeling the garlic cloves on the kitchen countertop using her right hand while placing them in a mixing bowl with her left hand.",
+        "The person is mashing the garlic in a mortar with a pestle in her right hand while resting the bowl on the table with her left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is squeezing the garlic through the garlic press into a bowl on the kitchen counter with a spoon in her right hand.\n(B) The person scrapes the garlic from the garlic press into a saucepan on a weighing scale with the knife in her right hand.\n(C) The person is chopping the garlic on a cutting board with the knife in her right hand while holding the garlic bulb with her left hand.\n(D) The person is peeling the garlic cloves on the kitchen countertop using her right hand while placing them in a mixing bowl with her left hand.\n(E) The person is mashing the garlic in a mortar with a pestle in her right hand while resting the bowl on the table with her left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person scrapes the garlic from the garlic press into a saucepan on a weighing scale with the knife in her right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person return his left hand?",
+    "options": [
+        "The person cautiously pulled the left handlebar of the motorcycle towards himself.",
+        "The person slowly held back the left-handle grip of the motorcycle and grabbed it.",
+        "The person carefully steered the left handle with control.",
+        "The person softly adjusted the left handle of the motorcycle with his fingers.",
+        "The person gently turned his left wrist while holding the left handle of the motorcycle."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person return his left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person cautiously pulled the left handlebar of the motorcycle towards himself.\n(B) The person slowly held back the left-handle grip of the motorcycle and grabbed it.\n(C) The person carefully steered the left handle with control.\n(D) The person softly adjusted the left handle of the motorcycle with his fingers.\n(E) The person gently turned his left wrist while holding the left handle of the motorcycle.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person slowly held back the left-handle grip of the motorcycle and grabbed it."
+    },
+    "correct_idx": [
+        1
+    ]
+}

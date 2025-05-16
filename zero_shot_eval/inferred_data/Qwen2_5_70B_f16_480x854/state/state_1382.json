@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the brush change?",
+    "options": [
+        "The brush was lifted and shaken over a sink while it was being moved back and forth.",
+        "The brush was placed on a table and rolled across the surface while being pushed with a hand.",
+        "The brush was taken and dipped into a cup with water while it was being rotated in a clockwise direction.",
+        "The brush was picked up and tapped against the edge of a container while being turned upside down.",
+        "The brush was held and swirled around in a bowl of paint while being pulled up and down."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the brush change? Choose **only one** option from the following list.\nOptions:\n(A) The brush was lifted and shaken over a sink while it was being moved back and forth.\n(B) The brush was placed on a table and rolled across the surface while being pushed with a hand.\n(C) The brush was taken and dipped into a cup with water while it was being rotated in a clockwise direction.\n(D) The brush was picked up and tapped against the edge of a container while being turned upside down.\n(E) The brush was held and swirled around in a bowl of paint while being pulled up and down.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The brush was taken and dipped into a cup with water while it was being rotated in a clockwise direction."
+    },
+    "correct_idx": [
+        2
+    ]
+}

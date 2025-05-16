@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the table change?",
+    "options": [
+        "The table was set with a vase and a stack of books.",
+        "The table was covered with a tablecloth and decorative candles.",
+        "The table was placed with a plate and playing cards.",
+        "The table was adorned with a bowl of fruit and a bottle of wine.",
+        "The table was cluttered with pens and papers for a meeting."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the table change? Choose **only one** option from the following list.\nOptions:\n(A) The table was set with a vase and a stack of books.\n(B) The table was covered with a tablecloth and decorative candles.\n(C) The table was placed with a plate and playing cards.\n(D) The table was adorned with a bowl of fruit and a bottle of wine.\n(E) The table was cluttered with pens and papers for a meeting.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The table was placed with a plate and playing cards."
+    },
+    "correct_idx": [
+        2
+    ]
+}

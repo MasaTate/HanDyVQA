@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the left hand?",
+    "options": [
+        "The person moved the left hand to the right side.",
+        "The person moved the left hand to the center of the table.",
+        "The person moved the left hand to the back of the chair.",
+        "The person moved the left hand to the left side.",
+        "The person moved the left hand to the front of the desk."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person moved the left hand to the right side.\n(B) The person moved the left hand to the center of the table.\n(C) The person moved the left hand to the back of the chair.\n(D) The person moved the left hand to the left side.\n(E) The person moved the left hand to the front of the desk.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person moved the left hand to the left side."
+    },
+    "correct_idx": [
+        3
+    ]
+}

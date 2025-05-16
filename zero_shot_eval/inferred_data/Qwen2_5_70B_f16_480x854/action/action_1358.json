@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person places the thermostatic glue gun on the workbench with her right hand while holding a piece of cardboard with her left hand.",
+        "The person presses the trigger of the thermostatic glue gun with her right hand while aiming it at a piece of fabric with her left hand.",
+        "The person adjusts the nozzle of the thermostatic glue gun using her right hand while stabilizing the project with her left hand.",
+        "The person detaches the thermostatic glue gun from a paper with her right hand.",
+        "The person sets the thermostatic glue gun on the table with her right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person places the thermostatic glue gun on the workbench with her right hand while holding a piece of cardboard with her left hand.\n(B) The person presses the trigger of the thermostatic glue gun with her right hand while aiming it at a piece of fabric with her left hand.\n(C) The person adjusts the nozzle of the thermostatic glue gun using her right hand while stabilizing the project with her left hand.\n(D) The person detaches the thermostatic glue gun from a paper with her right hand.\n(E) The person sets the thermostatic glue gun on the table with her right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person places the thermostatic glue gun on the workbench with her right hand while holding a piece of cardboard with her left hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

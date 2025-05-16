@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the bamboo rod?",
+    "options": [
+        "The person drops the bamboo rod to the left side on the floor and then drops a group of bamboo rod simultaneously to the right side on the floor too.",
+        "The person drops the bamboo rod to the right side on the floor and then drops a group of bamboo rod simultaneously to the left side on the floor too.",
+        "The person drops the bamboo rod in the center of the floor and then drops a group of bamboo rod simultaneously to the right side on the floor too.",
+        "The person drops the bamboo rod slightly behind them on the floor and then drops a group of bamboo rod simultaneously in front of them on the floor too.",
+        "The person drops the bamboo rod on the edge of the floor near the wall and then drops a group of bamboo rod simultaneously on the opposite edge on the floor too."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the bamboo rod? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the bamboo rod to the left side on the floor and then drops a group of bamboo rod simultaneously to the right side on the floor too.\n(B) The person drops the bamboo rod to the right side on the floor and then drops a group of bamboo rod simultaneously to the left side on the floor too.\n(C) The person drops the bamboo rod in the center of the floor and then drops a group of bamboo rod simultaneously to the right side on the floor too.\n(D) The person drops the bamboo rod slightly behind them on the floor and then drops a group of bamboo rod simultaneously in front of them on the floor too.\n(E) The person drops the bamboo rod on the edge of the floor near the wall and then drops a group of bamboo rod simultaneously on the opposite edge on the floor too.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person drops the bamboo rod to the left side on the floor and then drops a group of bamboo rod simultaneously to the right side on the floor too."
+    },
+    "correct_idx": [
+        0
+    ]
+}

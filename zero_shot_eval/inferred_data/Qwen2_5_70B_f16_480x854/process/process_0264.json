@@ -1,0 +1,17 @@
+{
+    "question": "How does the person touch the lawn mower?",
+    "options": [
+        "The person uses his right hand to lightly touch the lawn mower for support while draining the oil, ensuring stability as the oil flows out.",
+        "The person grips the lawn mower with both hands, assessing its balance while managing the oil drainage.",
+        "The person applies his palm to the lawn mower, exerting pressure yet maintaining awareness of the oil draining process.",
+        "The person steadies the lawn mower by the handle with one hand, confirming its status while supervising the oil flow.",
+        "The person leans forward and uses his fingers to interact with the lawn area around the mower, focusing less on the mower itself."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person touch the lawn mower? Choose **only one** option from the following list.\nOptions:\n(A) The person uses his right hand to lightly touch the lawn mower for support while draining the oil, ensuring stability as the oil flows out.\n(B) The person grips the lawn mower with both hands, assessing its balance while managing the oil drainage.\n(C) The person applies his palm to the lawn mower, exerting pressure yet maintaining awareness of the oil draining process.\n(D) The person steadies the lawn mower by the handle with one hand, confirming its status while supervising the oil flow.\n(E) The person leans forward and uses his fingers to interact with the lawn area around the mower, focusing less on the mower itself.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person uses his right hand to lightly touch the lawn mower for support while draining the oil, ensuring stability as the oil flows out."
+    },
+    "correct_idx": [
+        0
+    ]
+}

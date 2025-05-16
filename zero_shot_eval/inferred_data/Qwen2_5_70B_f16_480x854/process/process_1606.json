@@ -1,0 +1,17 @@
+{
+    "question": "How does the person dig the soil around the tomato?",
+    "options": [
+        "The person uses their left hand to grip the hoe and moves it in a downward lifting motion.",
+        "The person holds the hoe with both hands and uses a forceful downward swing.",
+        "The person drags the hoe gently over the soil, using minimal grip.",
+        "The person uses the back of the hoe to gently press onto the soil rather than scooping.",
+        "The person grips a small hoe with their right hand, then moves it in a controlled scooping motion."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person dig the soil around the tomato? Choose **only one** option from the following list.\nOptions:\n(A) The person uses their left hand to grip the hoe and moves it in a downward lifting motion.\n(B) The person holds the hoe with both hands and uses a forceful downward swing.\n(C) The person drags the hoe gently over the soil, using minimal grip.\n(D) The person uses the back of the hoe to gently press onto the soil rather than scooping.\n(E) The person grips a small hoe with their right hand, then moves it in a controlled scooping motion.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person grips a small hoe with their right hand, then moves it in a controlled scooping motion."
+    },
+    "correct_idx": [
+        4
+    ]
+}

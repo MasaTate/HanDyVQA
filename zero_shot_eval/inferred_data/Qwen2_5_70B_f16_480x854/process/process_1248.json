@@ -1,0 +1,17 @@
+{
+    "question": "How does the person shift the phone on the table?",
+    "options": [
+        "The person moves the phone across the table with a smooth motion of his right hand.",
+        "The person slides the phone toward the edge of the table using his left fingers.",
+        "The person grips the phone firmly and raises it above the table before setting it down.",
+        "The person slides the phone toward the edge of the table using his fingers from his right hand.",
+        "The person tilts the phone over on its side, making it roll across the table with a flick of his wrist."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person shift the phone on the table? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the phone across the table with a smooth motion of his right hand.\n(B) The person slides the phone toward the edge of the table using his left fingers.\n(C) The person grips the phone firmly and raises it above the table before setting it down.\n(D) The person slides the phone toward the edge of the table using his fingers from his right hand.\n(E) The person tilts the phone over on its side, making it roll across the table with a flick of his wrist.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person slides the phone toward the edge of the table using his left fingers."
+    },
+    "correct_idx": [
+        1
+    ]
+}

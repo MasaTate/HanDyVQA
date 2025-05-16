@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person set the bowl on the dining table with her left hand and picked up a fork using her right hand, placing it next to the bowl. Then she closes the fridge front door with her right hand.",
+        "The person is putting the plate on the kitchen shelf with her left hand while holding a wooden spoon in her right hand and stirring something inside the bowl. Then she pushes the fridge door closed with her right elbow.",
+        "The person placed the plate on the kitchen countertop with her left hand and picked up the chopstick using her right hand and placed it on the plate. Then opens the fridge front door using her left hand.",
+        "The person is lifting the plate off the kitchen countertop with her left hand and holding a pair of scissors in her right hand, preparing to cut something. Then she pulls the fridge door open using her right hand.",
+        "The person moved the bowl to the kitchen island with her left hand and picked up a knife with her right hand to start chopping vegetables. Then she opens the fridge door using her left elbow."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person set the bowl on the dining table with her left hand and picked up a fork using her right hand, placing it next to the bowl. Then she closes the fridge front door with her right hand.\n(B) The person is putting the plate on the kitchen shelf with her left hand while holding a wooden spoon in her right hand and stirring something inside the bowl. Then she pushes the fridge door closed with her right elbow.\n(C) The person placed the plate on the kitchen countertop with her left hand and picked up the chopstick using her right hand and placed it on the plate. Then opens the fridge front door using her left hand.\n(D) The person is lifting the plate off the kitchen countertop with her left hand and holding a pair of scissors in her right hand, preparing to cut something. Then she pulls the fridge door open using her right hand.\n(E) The person moved the bowl to the kitchen island with her left hand and picked up a knife with her right hand to start chopping vegetables. Then she opens the fridge door using her left elbow.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person placed the plate on the kitchen countertop with her left hand and picked up the chopstick using her right hand and placed it on the plate. Then opens the fridge front door using her left hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

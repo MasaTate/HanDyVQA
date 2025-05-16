@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the egg change?",
+    "options": [
+        "The egg was repositioned and cracked, with the inside coming out of the shell and dropping into the bowl.",
+        "The egg was repositioned before its shell was cracked, creating an opening without releasing the contents into the bowl.",
+        "The egg was shifted slightly and cracked open, but the yolk remained suspended halfway in the shell instead of dropping into the bowl.",
+        "The egg was tilted to the side and cracked, but instead of dropping into the bowl, the contents spilled onto the table.",
+        "The egg was turned upside down and cracked, but the inside was scooped out with a spoon rather than dropping into the bowl."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the egg change? Choose **only one** option from the following list.\nOptions:\n(A) The egg was repositioned and cracked, with the inside coming out of the shell and dropping into the bowl.\n(B) The egg was repositioned before its shell was cracked, creating an opening without releasing the contents into the bowl.\n(C) The egg was shifted slightly and cracked open, but the yolk remained suspended halfway in the shell instead of dropping into the bowl.\n(D) The egg was tilted to the side and cracked, but instead of dropping into the bowl, the contents spilled onto the table.\n(E) The egg was turned upside down and cracked, but the inside was scooped out with a spoon rather than dropping into the bowl.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The egg was repositioned and cracked, with the inside coming out of the shell and dropping into the bowl."
+    },
+    "correct_idx": [
+        0
+    ]
+}

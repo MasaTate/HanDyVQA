@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a paint bottle in the box change?",
+    "options": [
+        "The paint bottle was picked, opened, and squeezed back into the box.",
+        "The paint bottle was picked, turned upside down, and returned to the box.",
+        "The paint bottle was picked, tipped slightly, and placed back into the box.",
+        "The paint bottle was picked, rolled on the table, and set back inside the box.",
+        "The paint bottle was picked, shaken, and then put aside on the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a paint bottle in the box change? Choose **only one** option from the following list.\nOptions:\n(A) The paint bottle was picked, opened, and squeezed back into the box.\n(B) The paint bottle was picked, turned upside down, and returned to the box.\n(C) The paint bottle was picked, tipped slightly, and placed back into the box.\n(D) The paint bottle was picked, rolled on the table, and set back inside the box.\n(E) The paint bottle was picked, shaken, and then put aside on the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The paint bottle was picked, tipped slightly, and placed back into the box."
+    },
+    "correct_idx": [
+        4
+    ]
+}

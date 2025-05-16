@@ -1,0 +1,17 @@
+{
+    "question": "How does the person cut the bamboo strip?",
+    "options": [
+        "The person employs a small knife and applies consistent force to separate the bamboo strip.",
+        "The person uses a pair of scissors and applies pressure to separate the bamboo strip.",
+        "The person takes a kitchen knife and applies downward pressure to split the bamboo strip.",
+        "The person uses a big semicircle knife and swings it with light accurate force to cut the bamboo strip.",
+        "The person holds a machete and applies force to cut the bamboo strip."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person cut the bamboo strip? Choose **only one** option from the following list.\nOptions:\n(A) The person employs a small knife and applies consistent force to separate the bamboo strip.\n(B) The person uses a pair of scissors and applies pressure to separate the bamboo strip.\n(C) The person takes a kitchen knife and applies downward pressure to split the bamboo strip.\n(D) The person uses a big semicircle knife and swings it with light accurate force to cut the bamboo strip.\n(E) The person holds a machete and applies force to cut the bamboo strip.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person employs a small knife and applies consistent force to separate the bamboo strip."
+    },
+    "correct_idx": [
+        3
+    ]
+}

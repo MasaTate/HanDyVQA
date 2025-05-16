@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the stone picker?",
+    "options": [
+        "The person places the stone picker beside the bowl.",
+        "The person sets the stone picker under the bowl.",
+        "The person drops the stone picker on top of the bowl.",
+        "The person positions the stone picker in front of the bowl.",
+        "The person lays the stone picker behind the bowl."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the stone picker? Choose **only one** option from the following list.\nOptions:\n(A) The person places the stone picker beside the bowl.\n(B) The person sets the stone picker under the bowl.\n(C) The person drops the stone picker on top of the bowl.\n(D) The person positions the stone picker in front of the bowl.\n(E) The person lays the stone picker behind the bowl.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person places the stone picker beside the bowl."
+    },
+    "correct_idx": [
+        2
+    ]
+}

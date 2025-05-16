@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the stick change?",
+    "options": [
+        "The stick was picked up from the ground beside the fence but remained intact.",
+        "The stick was picked up from the fence but not cut.",
+        "The stick was lifted over the fence but not altered.",
+        "The stick was picked up from the fence and placed on the ground without any change.",
+        "The stick was taken from the fence and held in hand without being changed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the stick change? Choose **only one** option from the following list.\nOptions:\n(A) The stick was picked up from the ground beside the fence but remained intact.\n(B) The stick was picked up from the fence but not cut.\n(C) The stick was lifted over the fence but not altered.\n(D) The stick was picked up from the fence and placed on the ground without any change.\n(E) The stick was taken from the fence and held in hand without being changed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The stick was taken from the fence and held in hand without being changed."
+    },
+    "correct_idx": [
+        1
+    ]
+}

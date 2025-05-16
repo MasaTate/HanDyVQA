@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person chops the okra and places it in a pan using his left hand while the right hand is holding a fork.",
+        "The person slices the okra and throws it into a pot with his left hand while his right hand is holding a cutting board.",
+        "The person stirs the okra and pours it into a container using his left hand while the right hand is holding a spoon.",
+        "The person washes the okra and puts them in the bowl using his left hand while the right hand is holding a knife.",
+        "The person peels the okra and discards it into the trash can with his left hand while his right hand is holding a plate."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person chops the okra and places it in a pan using his left hand while the right hand is holding a fork.\n(B) The person slices the okra and throws it into a pot with his left hand while his right hand is holding a cutting board.\n(C) The person stirs the okra and pours it into a container using his left hand while the right hand is holding a spoon.\n(D) The person washes the okra and puts them in the bowl using his left hand while the right hand is holding a knife.\n(E) The person peels the okra and discards it into the trash can with his left hand while his right hand is holding a plate.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person washes the okra and puts them in the bowl using his left hand while the right hand is holding a knife."
+    },
+    "correct_idx": [
+        3
+    ]
+}

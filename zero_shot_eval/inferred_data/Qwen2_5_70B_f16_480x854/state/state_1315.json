@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the scissors change?",
+    "options": [
+        "The scissors went from being used to cut paper to being placed back in the drawer.",
+        "The scissors went from cutting thread on the cloth to being set down on the right side of the table.",
+        "The scissors transitioned from trimming fabric to hanging on a hook on the wall.",
+        "The scissors shifted from snipping ribbon to resting on a nearby shelf.",
+        "The scissors changed from slicing through cardboard to lying flat on the surface of the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the scissors change? Choose **only one** option from the following list.\nOptions:\n(A) The scissors went from being used to cut paper to being placed back in the drawer.\n(B) The scissors went from cutting thread on the cloth to being set down on the right side of the table.\n(C) The scissors transitioned from trimming fabric to hanging on a hook on the wall.\n(D) The scissors shifted from snipping ribbon to resting on a nearby shelf.\n(E) The scissors changed from slicing through cardboard to lying flat on the surface of the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The scissors went from cutting thread on the cloth to being set down on the right side of the table."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person raise his left hand?",
+    "options": [
+        "The person moves his left hand from side to side to gesture towards someone.",
+        "The person raises his left hand upwards naturally to get someone's attention.",
+        "The person lowers his left hand gradually to emphasize a point.",
+        "The person extends his left hand forward to offer a high five.",
+        "The person lifts his left hand from down to up to check the item that he held."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person raise his left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person moves his left hand from side to side to gesture towards someone.\n(B) The person raises his left hand upwards naturally to get someone's attention.\n(C) The person lowers his left hand gradually to emphasize a point.\n(D) The person extends his left hand forward to offer a high five.\n(E) The person lifts his left hand from down to up to check the item that he held.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person lifts his left hand from down to up to check the item that he held."
+    },
+    "correct_idx": [
+        4
+    ]
+}

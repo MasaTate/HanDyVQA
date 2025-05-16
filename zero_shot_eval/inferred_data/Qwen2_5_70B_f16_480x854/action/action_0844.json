@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person's right hand is wearing mittens before touching the rangehood while the left hand is holding a mitten.",
+        "The person's right hand is adjusting the temperature dial on the oven while the left hand is holding a spatula.",
+        "The person's right hand is removing a baking tray from the oven while the left hand is holding a mat.",
+        "The person's right hand is cleaning the countertop with a cloth while the left hand is holding a dish.",
+        "The person's right hand is stirring a pot on the stove while the left hand is holding a cookbook."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person's right hand is wearing mittens before touching the rangehood while the left hand is holding a mitten.\n(B) The person's right hand is adjusting the temperature dial on the oven while the left hand is holding a spatula.\n(C) The person's right hand is removing a baking tray from the oven while the left hand is holding a mat.\n(D) The person's right hand is cleaning the countertop with a cloth while the left hand is holding a dish.\n(E) The person's right hand is stirring a pot on the stove while the left hand is holding a cookbook.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person's right hand is wearing mittens before touching the rangehood while the left hand is holding a mitten."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person hold the tray?",
+    "options": [
+        "The person grasps the tray by the edge, using a firm grip with all the fingers, while slightly pressing with the thumb for stabilization.",
+        "The person balances the tray on the palm, applying gentle pressure from the fingertips to maintain control.",
+        "The person holds the tray from the bottom part of it, adding some pressure with the thumb to stabilize the tray.",
+        "The person supports the tray by gently pressing against the top surface with the palm, while subtly touching the underside.",
+        "The person cradles the tray in both hands, with fingers spread underneath and thumbs placed closely along the edges."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person hold the tray? Choose **only one** option from the following list.\nOptions:\n(A) The person grasps the tray by the edge, using a firm grip with all the fingers, while slightly pressing with the thumb for stabilization.\n(B) The person balances the tray on the palm, applying gentle pressure from the fingertips to maintain control.\n(C) The person holds the tray from the bottom part of it, adding some pressure with the thumb to stabilize the tray.\n(D) The person supports the tray by gently pressing against the top surface with the palm, while subtly touching the underside.\n(E) The person cradles the tray in both hands, with fingers spread underneath and thumbs placed closely along the edges.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person cradles the tray in both hands, with fingers spread underneath and thumbs placed closely along the edges."
+    },
+    "correct_idx": [
+        2
+    ]
+}

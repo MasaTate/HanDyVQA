@@ -1,0 +1,17 @@
+{
+    "question": "How does the person touch the ground?",
+    "options": [
+        "The person presses down on the ground with the palm of their hand.",
+        "The person holds the ground with their entire hand, pressing gently.",
+        "The person grasps the grass with the tip of their fingers with the right hand before putting the ball.",
+        "The person taps the ground with the flat of their hand in brief motions.",
+        "The person brushes their hand closely across the ground, using the back of their hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person touch the ground? Choose **only one** option from the following list.\nOptions:\n(A) The person presses down on the ground with the palm of their hand.\n(B) The person holds the ground with their entire hand, pressing gently.\n(C) The person grasps the grass with the tip of their fingers with the right hand before putting the ball.\n(D) The person taps the ground with the flat of their hand in brief motions.\n(E) The person brushes their hand closely across the ground, using the back of their hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person grasps the grass with the tip of their fingers with the right hand before putting the ball."
+    },
+    "correct_idx": [
+        2
+    ]
+}

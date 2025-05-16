@@ -1,0 +1,17 @@
+{
+    "question": "How does the person lower his left hand?",
+    "options": [
+        "The person lowers his left hand by bending the elbow gently while keeping the arm slightly close to the body.",
+        "The person lowers his left hand by twisting the wrist gently while moving the hand in a circular manner.",
+        "The person lowers his left hand by lifting the shoulder slightly and then allowing the hand to drop smoothly.",
+        "The person lowers his left hand by guiding it downward with the right hand applied gently.",
+        "The person lowers his left hand by extending the arm downward quickly."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person lower his left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person lowers his left hand by bending the elbow gently while keeping the arm slightly close to the body.\n(B) The person lowers his left hand by twisting the wrist gently while moving the hand in a circular manner.\n(C) The person lowers his left hand by lifting the shoulder slightly and then allowing the hand to drop smoothly.\n(D) The person lowers his left hand by guiding it downward with the right hand applied gently.\n(E) The person lowers his left hand by extending the arm downward quickly.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person lowers his left hand by bending the elbow gently while keeping the arm slightly close to the body."
+    },
+    "correct_idx": [
+        4
+    ]
+}

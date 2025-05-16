@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pound the mixture?",
+    "options": [
+        "The person uses both hands to hold the pestle and pushes it gently across the surface of the mixture in a spreading motion.",
+        "The person carefully balances the pestle on the edge of the mortar and smoothly rolls it back and forth over the mixture using one hand.",
+        "The person grasps the pestle with both hands and lifts it slightly above the mortar, then lets it drop softly without the pounding force.",
+        "The person holds the mortar steady with the left hand while gripping the pestle with the right hand, repeatedly lifting and striking it downward onto the mixture in a pounding motion.",
+        "The person places the pestle atop the mixture and applies gentle pressure downward, creating a pressing motion rather than striking it down."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pound the mixture? Choose **only one** option from the following list.\nOptions:\n(A) The person uses both hands to hold the pestle and pushes it gently across the surface of the mixture in a spreading motion.\n(B) The person carefully balances the pestle on the edge of the mortar and smoothly rolls it back and forth over the mixture using one hand.\n(C) The person grasps the pestle with both hands and lifts it slightly above the mortar, then lets it drop softly without the pounding force.\n(D) The person holds the mortar steady with the left hand while gripping the pestle with the right hand, repeatedly lifting and striking it downward onto the mixture in a pounding motion.\n(E) The person places the pestle atop the mixture and applies gentle pressure downward, creating a pressing motion rather than striking it down.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person holds the mortar steady with the left hand while gripping the pestle with the right hand, repeatedly lifting and striking it downward onto the mixture in a pounding motion."
+    },
+    "correct_idx": [
+        3
+    ]
+}

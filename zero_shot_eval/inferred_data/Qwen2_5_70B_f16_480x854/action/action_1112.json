@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is applying paint to the wall with a brush held in his right hand while holding a palette in his left hand.",
+        "The person is digging a hole in the garden with a shovel held in his right hand while using a trowel in his left hand.",
+        "The person uses the trowel with his right hand to scrape the sand from the wall.",
+        "The person is pouring water on the wall with a watering can in his right hand while using a sponge in his left hand.",
+        "The person is using the trowel with his right hand to spread soil on the floor while holding a bucket in his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is applying paint to the wall with a brush held in his right hand while holding a palette in his left hand.\n(B) The person is digging a hole in the garden with a shovel held in his right hand while using a trowel in his left hand.\n(C) The person uses the trowel with his right hand to scrape the sand from the wall.\n(D) The person is pouring water on the wall with a watering can in his right hand while using a sponge in his left hand.\n(E) The person is using the trowel with his right hand to spread soil on the floor while holding a bucket in his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person uses the trowel with his right hand to scrape the sand from the wall."
+    },
+    "correct_idx": [
+        2
+    ]
+}

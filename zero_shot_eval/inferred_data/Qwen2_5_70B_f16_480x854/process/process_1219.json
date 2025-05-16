@@ -1,0 +1,17 @@
+{
+    "question": "How does the person transfer the sponge?",
+    "options": [
+        "The person lifted up the sponge and transfers the sponge from his right hand to his left hand.",
+        "The person tossed the sponge gently from his right hand into the air before catching it in his left hand.",
+        "The person pinched the sponge with two fingers of his right hand and smoothly moved it across the table into his left hand.",
+        "The person rolled the sponge along his forearm from his right hand to his left hand.",
+        "The person slid the sponge off his right hand onto the counter, allowing it to land in his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person transfer the sponge? Choose **only one** option from the following list.\nOptions:\n(A) The person lifted up the sponge and transfers the sponge from his right hand to his left hand.\n(B) The person tossed the sponge gently from his right hand into the air before catching it in his left hand.\n(C) The person pinched the sponge with two fingers of his right hand and smoothly moved it across the table into his left hand.\n(D) The person rolled the sponge along his forearm from his right hand to his left hand.\n(E) The person slid the sponge off his right hand onto the counter, allowing it to land in his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person lifted up the sponge and transfers the sponge from his right hand to his left hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

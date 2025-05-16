@@ -1,0 +1,17 @@
+{
+    "question": "How does the person rub the gum?",
+    "options": [
+        "The person lightly taps the gum on the cardboard, using minimal pressure to transfer it.",
+        "The person scratches the gum on the cardboard in a back-and-forth motion, pressing it slightly.",
+        "The person rubs the gum by pressing it against the cardboard with firm pressure to transfer some of the gum.",
+        "The person rolls the gum gently in circles on the cardboard while applying some pressure.",
+        "The person uses their palm to press the gum onto the cardboard instead of using their fingers."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person rub the gum? Choose **only one** option from the following list.\nOptions:\n(A) The person lightly taps the gum on the cardboard, using minimal pressure to transfer it.\n(B) The person scratches the gum on the cardboard in a back-and-forth motion, pressing it slightly.\n(C) The person rubs the gum by pressing it against the cardboard with firm pressure to transfer some of the gum.\n(D) The person rolls the gum gently in circles on the cardboard while applying some pressure.\n(E) The person uses their palm to press the gum onto the cardboard instead of using their fingers.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person rubs the gum by pressing it against the cardboard with firm pressure to transfer some of the gum."
+    },
+    "correct_idx": [
+        2
+    ]
+}

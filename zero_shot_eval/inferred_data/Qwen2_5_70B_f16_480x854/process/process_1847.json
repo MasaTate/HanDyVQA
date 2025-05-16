@@ -1,0 +1,17 @@
+{
+    "question": "How does the person use chopping board?",
+    "options": [
+        "The person flips the chopping board over and lets the potatoes fall onto the surface.",
+        "The person pushes the potatoes with their palm off the chopping board onto another area.",
+        "The person lifts the chopping board and shakes it gently to distribute the potatoes onto the surface.",
+        "The person transfers the potatoes by scraping them from the chopping board to the bowl using a knife in the right hand and chops another potato.",
+        "The person holds the chopping board with both hands and slightly tilts it to allow the potatoes to slide off."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person use chopping board? Choose **only one** option from the following list.\nOptions:\n(A) The person flips the chopping board over and lets the potatoes fall onto the surface.\n(B) The person pushes the potatoes with their palm off the chopping board onto another area.\n(C) The person lifts the chopping board and shakes it gently to distribute the potatoes onto the surface.\n(D) The person transfers the potatoes by scraping them from the chopping board to the bowl using a knife in the right hand and chops another potato.\n(E) The person holds the chopping board with both hands and slightly tilts it to allow the potatoes to slide off.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person transfers the potatoes by scraping them from the chopping board to the bowl using a knife in the right hand and chops another potato."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the red towel on the wall change?",
+    "options": [
+        "The red towel was removed from the wall and folded.",
+        "The red towel was hung on the wall.",
+        "The red towel was slightly adjusted but remained on the wall.",
+        "The red towel was hung on another wall.",
+        "The red towel was repositioned to hang lower on the wall."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the red towel on the wall change? Choose **only one** option from the following list.\nOptions:\n(A) The red towel was removed from the wall and folded.\n(B) The red towel was hung on the wall.\n(C) The red towel was slightly adjusted but remained on the wall.\n(D) The red towel was hung on another wall.\n(E) The red towel was repositioned to hang lower on the wall.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The red towel was removed from the wall and folded."
+    },
+    "correct_idx": [
+        1
+    ]
+}

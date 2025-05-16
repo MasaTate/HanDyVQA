@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person removes the lid from a stainless pot with his right hand.",
+        "The person lifts the lid off a stainless pot with his right hand.",
+        "The person is removing the cover of a stainless container with his right hand.",
+        "The person adjusts the lid on a stainless saucepan with his right hand.",
+        "The person twists off the lid of a stainless pot with his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person removes the lid from a stainless pot with his right hand.\n(B) The person lifts the lid off a stainless pot with his right hand.\n(C) The person is removing the cover of a stainless container with his right hand.\n(D) The person adjusts the lid on a stainless saucepan with his right hand.\n(E) The person twists off the lid of a stainless pot with his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person lifts the lid off a stainless pot with his right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

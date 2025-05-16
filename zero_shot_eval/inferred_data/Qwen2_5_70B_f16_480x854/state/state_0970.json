@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the bowl with cement mixture change?",
+    "options": [
+        "The bowl filled with cement mixture was tilted to one side.",
+        "The bowl filled with cement mixture was relocated.",
+        "The bowl filled with cement mixture was transferred into another container.",
+        "The bowl filled with cement mixture was covered with a plastic sheet.",
+        "The bowl filled with cement mixture was lifted."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the bowl with cement mixture change? Choose **only one** option from the following list.\nOptions:\n(A) The bowl filled with cement mixture was tilted to one side.\n(B) The bowl filled with cement mixture was relocated.\n(C) The bowl filled with cement mixture was transferred into another container.\n(D) The bowl filled with cement mixture was covered with a plastic sheet.\n(E) The bowl filled with cement mixture was lifted.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The bowl filled with cement mixture was lifted."
+    },
+    "correct_idx": [
+        4
+    ]
+}

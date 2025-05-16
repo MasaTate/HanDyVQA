@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of pan change?",
+    "options": [
+        "The pan was placed under running water, receiving the water, then flipped to pour off the water, but was not placed back under the running water again.",
+        "The pan was already wet and was flipped to pour off the water without receiving additional water.",
+        "The pan was placed under running water, receiving the water, but was moved away without being flipped.",
+        "The pan was placed under running water, receiving the water, then flipped to pour off the water, and subsequently received the water again.",
+        "The pan was placed under running water, turned to its side to pour off the water, and left that way without receiving more water."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of pan change? Choose **only one** option from the following list.\nOptions:\n(A) The pan was placed under running water, receiving the water, then flipped to pour off the water, but was not placed back under the running water again.\n(B) The pan was already wet and was flipped to pour off the water without receiving additional water.\n(C) The pan was placed under running water, receiving the water, but was moved away without being flipped.\n(D) The pan was placed under running water, receiving the water, then flipped to pour off the water, and subsequently received the water again.\n(E) The pan was placed under running water, turned to its side to pour off the water, and left that way without receiving more water.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The pan was placed under running water, receiving the water, then flipped to pour off the water, and subsequently received the water again."
+    },
+    "correct_idx": [
+        3
+    ]
+}

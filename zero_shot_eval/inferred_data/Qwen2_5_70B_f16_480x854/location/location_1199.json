@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the set square?",
+    "options": [
+        "The person placed the blue set square on the top of the clay.",
+        "The person placed the blue set square on the left side of the clay.",
+        "The person placed the blue set square on the right side of the clay.",
+        "The person placed the blue set square in the bottom of the clay.",
+        "The person placed the blue set square next to the clay."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the set square? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the blue set square on the top of the clay.\n(B) The person placed the blue set square on the left side of the clay.\n(C) The person placed the blue set square on the right side of the clay.\n(D) The person placed the blue set square in the bottom of the clay.\n(E) The person placed the blue set square next to the clay.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person placed the blue set square on the left side of the clay."
+    },
+    "correct_idx": [
+        3
+    ]
+}

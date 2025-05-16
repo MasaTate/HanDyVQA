@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the iron rod change?",
+    "options": [
+        "The iron rod was bent into a curve.",
+        "The iron rod was welded to another piece.",
+        "The iron rod was melted into a liquid.",
+        "The iron rod was painted with a protective coating.",
+        "The iron rod was cut with a grinder."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the iron rod change? Choose **only one** option from the following list.\nOptions:\n(A) The iron rod was bent into a curve.\n(B) The iron rod was welded to another piece.\n(C) The iron rod was melted into a liquid.\n(D) The iron rod was painted with a protective coating.\n(E) The iron rod was cut with a grinder.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The iron rod was cut with a grinder."
+    },
+    "correct_idx": [
+        4
+    ]
+}

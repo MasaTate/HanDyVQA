@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person return a fruit?",
+    "options": [
+        "The person returned the fruit on the countertop behind the microwave.",
+        "The person returned the fruit on the countertop next to the dish rack.",
+        "The person returned the fruit on the countertop in front of the sink.",
+        "The person returned the fruit on the countertop beside the kitchen island.",
+        "The person returned the fruit on the countertop near the cutting board."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person return a fruit? Choose **only one** option from the following list.\nOptions:\n(A) The person returned the fruit on the countertop behind the microwave.\n(B) The person returned the fruit on the countertop next to the dish rack.\n(C) The person returned the fruit on the countertop in front of the sink.\n(D) The person returned the fruit on the countertop beside the kitchen island.\n(E) The person returned the fruit on the countertop near the cutting board.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person returned the fruit on the countertop behind the microwave."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place a wooden block?",
+    "options": [
+        "The person placed the wooden block on the side of the wooden block stack.",
+        "The person placed the wooden block on the bottom part of the wooden block stack.",
+        "The person placed the wooden block beside the wooden block stack.",
+        "The person placed the wooden block in front of the wooden block stack.",
+        "The person placed the wooden block on the top part of the wooden block stack."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place a wooden block? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the wooden block on the side of the wooden block stack.\n(B) The person placed the wooden block on the bottom part of the wooden block stack.\n(C) The person placed the wooden block beside the wooden block stack.\n(D) The person placed the wooden block in front of the wooden block stack.\n(E) The person placed the wooden block on the top part of the wooden block stack.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person placed the wooden block on the top part of the wooden block stack."
+    },
+    "correct_idx": [
+        4
+    ]
+}

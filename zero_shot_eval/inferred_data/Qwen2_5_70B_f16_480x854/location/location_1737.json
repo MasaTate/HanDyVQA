@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the remaining zucchini?",
+    "options": [
+        "The person places the remaining zucchini at right side of dining table.",
+        "The person places the remaining zucchini on the top shelf of the pantry.",
+        "The person places the remaining zucchini near the center of the kitchen counter.",
+        "The person places the remaining zucchini at left side of dining table.",
+        "The person places the remaining zucchini on the far edge of the kitchen island."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the remaining zucchini? Choose **only one** option from the following list.\nOptions:\n(A) The person places the remaining zucchini at right side of dining table.\n(B) The person places the remaining zucchini on the top shelf of the pantry.\n(C) The person places the remaining zucchini near the center of the kitchen counter.\n(D) The person places the remaining zucchini at left side of dining table.\n(E) The person places the remaining zucchini on the far edge of the kitchen island.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person places the remaining zucchini at right side of dining table."
+    },
+    "correct_idx": [
+        3
+    ]
+}

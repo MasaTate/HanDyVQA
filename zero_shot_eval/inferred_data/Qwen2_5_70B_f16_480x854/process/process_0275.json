@@ -1,0 +1,17 @@
+{
+    "question": "How does the person clean the screen of the phone?",
+    "options": [
+        "The person grips the phone in his right hand while using his left hand to rub the screen in a circular motion, which can lead to streaks.",
+        "The person places the phone on the table and uses both hands to press a cloth onto the screen, applying considerable pressure.",
+        "The person tilts the phone in his right hand and uses his fingers to remove dirt from the screen without wiping it clean.",
+        "The person holds the phone steady with his left hand and uses his right hand to wipe the screen in a forward motion, ensuring it is cleaned in one smooth direction.",
+        "The person holds the phone with one hand and uses a spray cleaner with his other hand, sprinkling it on the screen."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person clean the screen of the phone? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the phone in his right hand while using his left hand to rub the screen in a circular motion, which can lead to streaks.\n(B) The person places the phone on the table and uses both hands to press a cloth onto the screen, applying considerable pressure.\n(C) The person tilts the phone in his right hand and uses his fingers to remove dirt from the screen without wiping it clean.\n(D) The person holds the phone steady with his left hand and uses his right hand to wipe the screen in a forward motion, ensuring it is cleaned in one smooth direction.\n(E) The person holds the phone with one hand and uses a spray cleaner with his other hand, sprinkling it on the screen.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person holds the phone steady with his left hand and uses his right hand to wipe the screen in a forward motion, ensuring it is cleaned in one smooth direction."
+    },
+    "correct_idx": [
+        3
+    ]
+}

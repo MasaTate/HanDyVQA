@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the tile drill change?",
+    "options": [
+        "The tile drill was inserted with an object but stayed still.",
+        "The tile drill was positioned near a tile but left unmoved.",
+        "The tile drill was inserted in a different spot and remained unmoved.",
+        "The tile drill was inserted with an object and moved.",
+        "The tile drill was placed on the surface but not pressed down."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the tile drill change? Choose **only one** option from the following list.\nOptions:\n(A) The tile drill was inserted with an object but stayed still.\n(B) The tile drill was positioned near a tile but left unmoved.\n(C) The tile drill was inserted in a different spot and remained unmoved.\n(D) The tile drill was inserted with an object and moved.\n(E) The tile drill was placed on the surface but not pressed down.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The tile drill was inserted with an object but stayed still."
+    },
+    "correct_idx": [
+        3
+    ]
+}

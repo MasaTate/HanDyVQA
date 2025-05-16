@@ -1,0 +1,17 @@
+{
+    "question": "How does the person take paper?",
+    "options": [
+        "The person takes the paper by holding the corner of it with their index finger and thumb of the left hand.",
+        "The person takes the paper by moving the whole hand under it and lifting it with both hands.",
+        "The person takes the paper by using the thumb and middle finger of the left hand to hold the top edge.",
+        "The person takes the paper using the thumb and index finger to grip one side and pull it gently.",
+        "The person takes the paper by pinching and lifting around the middle of it with his/her right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person take paper? Choose **only one** option from the following list.\nOptions:\n(A) The person takes the paper by holding the corner of it with their index finger and thumb of the left hand.\n(B) The person takes the paper by moving the whole hand under it and lifting it with both hands.\n(C) The person takes the paper by using the thumb and middle finger of the left hand to hold the top edge.\n(D) The person takes the paper using the thumb and index finger to grip one side and pull it gently.\n(E) The person takes the paper by pinching and lifting around the middle of it with his/her right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person takes the paper using the thumb and index finger to grip one side and pull it gently."
+    },
+    "correct_idx": [
+        4
+    ]
+}

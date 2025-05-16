@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the painting brush change?",
+    "options": [
+        "The paintbrush was soaked in water, allowing the previous paint residue to be removed.",
+        "The paintbrush was pressed against the canvas, causing the bristles to fan out and create a different texture.",
+        "The paintbrush was coated with paint on its tip and used to apply color to the surface.",
+        "The paintbrush was dropped on the floor, resulting in a smudge of paint on the surface below.",
+        "The paintbrush was twisted, adjusting the bristles for a finer stroke during painting."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the painting brush change? Choose **only one** option from the following list.\nOptions:\n(A) The paintbrush was soaked in water, allowing the previous paint residue to be removed.\n(B) The paintbrush was pressed against the canvas, causing the bristles to fan out and create a different texture.\n(C) The paintbrush was coated with paint on its tip and used to apply color to the surface.\n(D) The paintbrush was dropped on the floor, resulting in a smudge of paint on the surface below.\n(E) The paintbrush was twisted, adjusting the bristles for a finer stroke during painting.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The paintbrush was coated with paint on its tip and used to apply color to the surface."
+    },
+    "correct_idx": [
+        2
+    ]
+}

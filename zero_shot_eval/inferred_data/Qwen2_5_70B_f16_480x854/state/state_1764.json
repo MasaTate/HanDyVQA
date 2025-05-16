@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a drawing on the table change?",
+    "options": [
+        "The drawing on the table changed as paint was removed with precision.",
+        "The drawing on the table changed as paint was added without any clear plan.",
+        "The drawing on the table changed as paint was added carefully.",
+        "The drawing on the table changed as color pencils were utilized in place of paint.",
+        "The drawing on the table changed as paint was mixed to modify the colors."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a drawing on the table change? Choose **only one** option from the following list.\nOptions:\n(A) The drawing on the table changed as paint was removed with precision.\n(B) The drawing on the table changed as paint was added without any clear plan.\n(C) The drawing on the table changed as paint was added carefully.\n(D) The drawing on the table changed as color pencils were utilized in place of paint.\n(E) The drawing on the table changed as paint was mixed to modify the colors.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The drawing on the table changed as paint was added carefully."
+    },
+    "correct_idx": [
+        2
+    ]
+}

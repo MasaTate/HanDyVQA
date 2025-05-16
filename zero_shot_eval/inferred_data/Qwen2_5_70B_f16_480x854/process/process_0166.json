@@ -1,0 +1,17 @@
+{
+    "question": "How does the person bring the brake pad?",
+    "options": [
+        "The person bends slightly, reaches into the packaging with his left hand to grasp the brake pad, and then brings it forward with just his left hand.",
+        "The person stretches his right arm to gently move the packaging aside and uses both hands to lift the brake pad upward.",
+        "The person leans back, reaches with his right hand to pull the brake pad from the packaging while his left hand remains behind.",
+        "The person stands straight and uses his left hand to shift the packaging, grasping the brake pad with his right hand while leaning slightly to the side.",
+        "The person squats down, holds the entire packaging with both hands, and takes out the brake pad with an overhand motion."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person bring the brake pad? Choose **only one** option from the following list.\nOptions:\n(A) The person bends slightly, reaches into the packaging with his left hand to grasp the brake pad, and then brings it forward with just his left hand.\n(B) The person stretches his right arm to gently move the packaging aside and uses both hands to lift the brake pad upward.\n(C) The person leans back, reaches with his right hand to pull the brake pad from the packaging while his left hand remains behind.\n(D) The person stands straight and uses his left hand to shift the packaging, grasping the brake pad with his right hand while leaning slightly to the side.\n(E) The person squats down, holds the entire packaging with both hands, and takes out the brake pad with an overhand motion.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person stretches his right arm to gently move the packaging aside and uses both hands to lift the brake pad upward."
+    },
+    "correct_idx": [
+        0
+    ]
+}

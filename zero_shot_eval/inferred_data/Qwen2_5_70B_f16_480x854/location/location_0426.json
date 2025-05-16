@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the left hand?",
+    "options": [
+        "The person drops his left hand next to his left pocket, near his left knee.",
+        "The person drops his left hand behind his left thigh, close to the chair leg.",
+        "The person drops his left hand in front of his left foot, near the shoe.",
+        "The person drops his left hand above his left shoulder, near his ear.",
+        "The person drops his left hand alongside his left hip, near the side of his shirt."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person drops his left hand next to his left pocket, near his left knee.\n(B) The person drops his left hand behind his left thigh, close to the chair leg.\n(C) The person drops his left hand in front of his left foot, near the shoe.\n(D) The person drops his left hand above his left shoulder, near his ear.\n(E) The person drops his left hand alongside his left hip, near the side of his shirt.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person drops his left hand alongside his left hip, near the side of his shirt."
+    },
+    "correct_idx": [
+        0
+    ]
+}

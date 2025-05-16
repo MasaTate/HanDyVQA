@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is shaping the clay with both hands on the potter's wheel.",
+        "The person is trimming the edges of the clay with a tool in both hands while using the potter's wheel.",
+        "The person adjusts the tool with both hands on the potter's wheel.",
+        "The person is cleaning the potter's wheel with both hands using a sponge.",
+        "The person is mixing the clay with both hands on the potter's wheel."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is shaping the clay with both hands on the potter's wheel.\n(B) The person is trimming the edges of the clay with a tool in both hands while using the potter's wheel.\n(C) The person adjusts the tool with both hands on the potter's wheel.\n(D) The person is cleaning the potter's wheel with both hands using a sponge.\n(E) The person is mixing the clay with both hands on the potter's wheel.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person adjusts the tool with both hands on the potter's wheel."
+    },
+    "correct_idx": [
+        2
+    ]
+}

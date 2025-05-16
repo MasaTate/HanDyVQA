@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "traditional pos terminals",
+        "plastic basket",
+        "display",
+        "products",
+        "credit card",
+        "cctv"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) traditional pos terminals\n(B) plastic basket\n(C) display\n(D) products\n(E) credit card\n(F) cctv\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(B) plastic basket  \n(D) products  \n\nThe hands in the video are seen interacting with a plastic shopping basket and handling various products within the store environment. There is no clear indication of using traditional POS terminals, displays, credit cards, or CCTV systems directly by the hands in this specific context."
+    },
+    "correct_idx": [
+        0,
+        4
+    ]
+}

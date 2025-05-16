@@ -1,0 +1,17 @@
+{
+    "question": "How does the person unscrew the side panel of the bike?",
+    "options": [
+        "The person unscrews the side panel of the bike by using a Phillips screwdriver and turning it carefully.",
+        "The person unscrews the side panel of the bike by twisting it using a flat screwdriver.",
+        "The person loosens the screws with a flat head screwdriver before using their fingers to complete the process.",
+        "The person removes the screws from the side panel using a power drill to make the task faster.",
+        "The person tries to unscrew the side panel by carefully gripping the screw heads with a pair of pliers."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person unscrew the side panel of the bike? Choose **only one** option from the following list.\nOptions:\n(A) The person unscrews the side panel of the bike by using a Phillips screwdriver and turning it carefully.\n(B) The person unscrews the side panel of the bike by twisting it using a flat screwdriver.\n(C) The person loosens the screws with a flat head screwdriver before using their fingers to complete the process.\n(D) The person removes the screws from the side panel using a power drill to make the task faster.\n(E) The person tries to unscrew the side panel by carefully gripping the screw heads with a pair of pliers.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person unscrews the side panel of the bike by using a Phillips screwdriver and turning it carefully."
+    },
+    "correct_idx": [
+        1
+    ]
+}

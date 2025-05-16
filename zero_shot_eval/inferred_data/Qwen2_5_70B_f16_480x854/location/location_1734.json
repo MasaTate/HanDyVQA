@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move a puzzle piece?",
+    "options": [
+        "The person moves the puzzle piece on the lower portion of the table.",
+        "The person moves the puzzle piece on the right side of the table.",
+        "The person moves the puzzle piece on the left edge of the table.",
+        "The person moves the puzzle piece on the upper portion of the table.",
+        "The person moves the puzzle piece on the center of the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move a puzzle piece? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the puzzle piece on the lower portion of the table.\n(B) The person moves the puzzle piece on the right side of the table.\n(C) The person moves the puzzle piece on the left edge of the table.\n(D) The person moves the puzzle piece on the upper portion of the table.\n(E) The person moves the puzzle piece on the center of the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person moves the puzzle piece on the lower portion of the table."
+    },
+    "correct_idx": [
+        3
+    ]
+}

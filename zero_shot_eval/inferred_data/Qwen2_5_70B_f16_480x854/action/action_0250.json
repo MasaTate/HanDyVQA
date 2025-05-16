@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is sculpting the craft on a pottery wheel using a tool in the right hand while the left hand supports the pottery.",
+        "The person is decorating the craft on a stationary table with a sponge in the right hand while the left hand holds the pottery still.",
+        "The person paints the craft on a pottery wheel with the brush in the right hand while the left hand is holding a piece of the pottery.",
+        "The person is molding the craft on a pottery wheel using their fingers on both hands, with the left hand assisting in shaping the pottery.",
+        "The person is glazing the craft on a pottery wheel with a spray bottle in the right hand while the left hand positions the pottery."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is sculpting the craft on a pottery wheel using a tool in the right hand while the left hand supports the pottery.\n(B) The person is decorating the craft on a stationary table with a sponge in the right hand while the left hand holds the pottery still.\n(C) The person paints the craft on a pottery wheel with the brush in the right hand while the left hand is holding a piece of the pottery.\n(D) The person is molding the craft on a pottery wheel using their fingers on both hands, with the left hand assisting in shaping the pottery.\n(E) The person is glazing the craft on a pottery wheel with a spray bottle in the right hand while the left hand positions the pottery.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person paints the craft on a pottery wheel with the brush in the right hand while the left hand is holding a piece of the pottery."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person move her left hand?",
+    "options": [
+        "The person slides her left hand in gently and holds it there briefly before pulling it out.",
+        "The person places her left hand in quickly and keeps it still for a while before removing it.",
+        "The person inserts her left hand carefully and removes it immediately.",
+        "The person pushes her left hand in gently and then turns it slightly before taking it out.",
+        "The person guides her left hand in slowly and lets it rest shortly before retracting it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person move her left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person slides her left hand in gently and holds it there briefly before pulling it out.\n(B) The person places her left hand in quickly and keeps it still for a while before removing it.\n(C) The person inserts her left hand carefully and removes it immediately.\n(D) The person pushes her left hand in gently and then turns it slightly before taking it out.\n(E) The person guides her left hand in slowly and lets it rest shortly before retracting it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person slides her left hand in gently and holds it there briefly before pulling it out."
+    },
+    "correct_idx": [
+        2
+    ]
+}

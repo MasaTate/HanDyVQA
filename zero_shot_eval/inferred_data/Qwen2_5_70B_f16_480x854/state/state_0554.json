@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the shirt change?",
+    "options": [
+        "The shirt was stained with various pigments, altering its appearance significantly.",
+        "The shirt shrank in size, becoming tighter and unfit to wear.",
+        "The shirt was adorned with additional buttons and patches, changing its look completely.",
+        "The shirt was torn in several areas, resulting in large openings and a ragged appearance.",
+        "The shirt became creased with visible folds and slight distortions in its shape."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the shirt change? Choose **only one** option from the following list.\nOptions:\n(A) The shirt was stained with various pigments, altering its appearance significantly.\n(B) The shirt shrank in size, becoming tighter and unfit to wear.\n(C) The shirt was adorned with additional buttons and patches, changing its look completely.\n(D) The shirt was torn in several areas, resulting in large openings and a ragged appearance.\n(E) The shirt became creased with visible folds and slight distortions in its shape.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The shirt became creased with visible folds and slight distortions in its shape."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the turner change?",
+    "options": [
+        "The turner was rubbed with the sponge, left unflipped, and rinsed under running water from the faucet.",
+        "The turner was rubbed with the sponge, flipped, but not rinsed under any water.",
+        "The turner was rinsed under running water from the faucet without using a sponge.",
+        "The turner was rubbed with a sponge, flipped, but not rinsed under any water.",
+        "The turner was rubbed with the sponge, flipped, and rinsed under running water from the faucet."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the turner change? Choose **only one** option from the following list.\nOptions:\n(A) The turner was rubbed with the sponge, left unflipped, and rinsed under running water from the faucet.\n(B) The turner was rubbed with the sponge, flipped, but not rinsed under any water.\n(C) The turner was rinsed under running water from the faucet without using a sponge.\n(D) The turner was rubbed with a sponge, flipped, but not rinsed under any water.\n(E) The turner was rubbed with the sponge, flipped, and rinsed under running water from the faucet.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The turner was rubbed with a sponge, flipped, but not rinsed under any water."
+    },
+    "correct_idx": [
+        4
+    ]
+}

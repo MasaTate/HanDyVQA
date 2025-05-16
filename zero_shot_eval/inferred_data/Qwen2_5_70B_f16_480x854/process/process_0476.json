@@ -1,0 +1,17 @@
+{
+    "question": "How does the person shift the bowl?",
+    "options": [
+        "The person shifts the bowl by placing the palm of her right hand on it, using gentle pressure to slide it across to the left side.",
+        "The person lifts the bowl using both hands, raising it off the table before setting it down directly in front of her.",
+        "The person shifts the bowl by gripping it securely with her left hand, lifting it slightly off the surface, and then moving her arm in a smooth motion, sliding the bowl to her right side.",
+        "Using her right hand fingertips, the person nudges the bowl, which rotates slightly as it slides across to the left.",
+        "The person hooks her fingers around the edge of the bowl with the right hand, moving it by gently pivoting to shift it forward."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person shift the bowl? Choose **only one** option from the following list.\nOptions:\n(A) The person shifts the bowl by placing the palm of her right hand on it, using gentle pressure to slide it across to the left side.\n(B) The person lifts the bowl using both hands, raising it off the table before setting it down directly in front of her.\n(C) The person shifts the bowl by gripping it securely with her left hand, lifting it slightly off the surface, and then moving her arm in a smooth motion, sliding the bowl to her right side.\n(D) Using her right hand fingertips, the person nudges the bowl, which rotates slightly as it slides across to the left.\n(E) The person hooks her fingers around the edge of the bowl with the right hand, moving it by gently pivoting to shift it forward.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person shifts the bowl by gripping it securely with her left hand, lifting it slightly off the surface, and then moving her arm in a smooth motion, sliding the bowl to her right side."
+    },
+    "correct_idx": [
+        2
+    ]
+}

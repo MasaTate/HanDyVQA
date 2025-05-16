@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the rail change?",
+    "options": [
+        "The surface of the rail was polished by the scraper, resulting in a slight sheen.",
+        "The surface of the rail was scuffed by the scraper, with small grooves becoming visible.",
+        "The surface of the rail was scratched by the scraper, causing no noticeable change in the texture.",
+        "The surface of the rail was scraped deeply, leaving noticeable marks along its length.",
+        "The surface of the rail was brushed by the scraper, with loose particles removed but the texture unchanged."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the rail change? Choose **only one** option from the following list.\nOptions:\n(A) The surface of the rail was polished by the scraper, resulting in a slight sheen.\n(B) The surface of the rail was scuffed by the scraper, with small grooves becoming visible.\n(C) The surface of the rail was scratched by the scraper, causing no noticeable change in the texture.\n(D) The surface of the rail was scraped deeply, leaving noticeable marks along its length.\n(E) The surface of the rail was brushed by the scraper, with loose particles removed but the texture unchanged.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The surface of the rail was brushed by the scraper, with loose particles removed but the texture unchanged."
+    },
+    "correct_idx": [
+        2
+    ]
+}

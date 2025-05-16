@@ -1,0 +1,17 @@
+{
+    "question": "How does the person bring a bottle of spice?",
+    "options": [
+        "The person brings the bottle of spice from the cabinet by dragging it down quickly with the right hand.",
+        "The person lifts the bottle of spice from the cabinet using both hands and raises it above the head.",
+        "The person retrieves the bottle of spice by pushing it off the shelf with palms, letting it fall down.",
+        "The person pulls the bottle of spice out of the cabinet with the fingertips of the left hand while holding the shelf's edge.",
+        "The person carefully takes the bottle of spice by cupping it with the right hand and sliding it smoothly off the shelf."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person bring a bottle of spice? Choose **only one** option from the following list.\nOptions:\n(A) The person brings the bottle of spice from the cabinet by dragging it down quickly with the right hand.\n(B) The person lifts the bottle of spice from the cabinet using both hands and raises it above the head.\n(C) The person retrieves the bottle of spice by pushing it off the shelf with palms, letting it fall down.\n(D) The person pulls the bottle of spice out of the cabinet with the fingertips of the left hand while holding the shelf's edge.\n(E) The person carefully takes the bottle of spice by cupping it with the right hand and sliding it smoothly off the shelf.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person carefully takes the bottle of spice by cupping it with the right hand and sliding it smoothly off the shelf."
+    },
+    "correct_idx": [
+        0
+    ]
+}

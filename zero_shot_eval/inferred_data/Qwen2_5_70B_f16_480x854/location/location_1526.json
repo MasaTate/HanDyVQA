@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the plier?",
+    "options": [
+        "The person moved the plier from the floor to his left hand.",
+        "The person moved the plier from the table to his right hand.",
+        "The person moved the plier from the chair to his right hand.",
+        "The person moved the plier from the floor to his left arm.",
+        "The person moved the plier from the floor to his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the plier? Choose **only one** option from the following list.\nOptions:\n(A) The person moved the plier from the floor to his left hand.\n(B) The person moved the plier from the table to his right hand.\n(C) The person moved the plier from the chair to his right hand.\n(D) The person moved the plier from the floor to his left arm.\n(E) The person moved the plier from the floor to his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person moved the plier from the floor to his right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

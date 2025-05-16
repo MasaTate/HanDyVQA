@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a piece of parsnip change?",
+    "options": [
+        "The piece of parsnip was sliced into larger pieces with a distinct change in position.",
+        "The piece of parsnip was chopped into rough pieces with significant movement.",
+        "The piece of parsnip was sliced into little pieces with little change in position.",
+        "The piece of parsnip was diced into cubes with a slight shift in position.",
+        "The piece of parsnip was shaved into thin strips without a change in position."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a piece of parsnip change? Choose **only one** option from the following list.\nOptions:\n(A) The piece of parsnip was sliced into larger pieces with a distinct change in position.\n(B) The piece of parsnip was chopped into rough pieces with significant movement.\n(C) The piece of parsnip was sliced into little pieces with little change in position.\n(D) The piece of parsnip was diced into cubes with a slight shift in position.\n(E) The piece of parsnip was shaved into thin strips without a change in position.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The piece of parsnip was sliced into little pieces with little change in position."
+    },
+    "correct_idx": [
+        2
+    ]
+}

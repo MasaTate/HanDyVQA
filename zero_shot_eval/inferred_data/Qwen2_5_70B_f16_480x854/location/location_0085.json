@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the hand drill?",
+    "options": [
+        "The person placed the hand drill on the shelf above his head.",
+        "The person placed the hand drill on the workbench to his right side.",
+        "The person placed the hand drill on the floor in front of him.",
+        "The person placed the hand drill on the table to his back side.",
+        "The person placed the hand drill on the floor to his left side."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the hand drill? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the hand drill on the shelf above his head.\n(B) The person placed the hand drill on the workbench to his right side.\n(C) The person placed the hand drill on the floor in front of him.\n(D) The person placed the hand drill on the table to his back side.\n(E) The person placed the hand drill on the floor to his left side.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person placed the hand drill on the floor to his left side."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the hair clip change?",
+    "options": [
+        "The hair clip was placed in a drawer and then taken to the bathroom counter.",
+        "The hair clip was dropped on the floor and then picked up from the carpet.",
+        "The hair clip was set on the table and then moved to the ironing board.",
+        "The hair clip was attached to a bag and then removed to be placed on a shelf.",
+        "The hair clip was put in a pocket and then transferred to a purse."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the hair clip change? Choose **only one** option from the following list.\nOptions:\n(A) The hair clip was placed in a drawer and then taken to the bathroom counter.\n(B) The hair clip was dropped on the floor and then picked up from the carpet.\n(C) The hair clip was set on the table and then moved to the ironing board.\n(D) The hair clip was attached to a bag and then removed to be placed on a shelf.\n(E) The hair clip was put in a pocket and then transferred to a purse.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The hair clip was set on the table and then moved to the ironing board."
+    },
+    "correct_idx": [
+        2
+    ]
+}

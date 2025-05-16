@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the plate?",
+    "options": [
+        "The person placed the plate on the shelf.",
+        "The person dropped the plate on the countertop.",
+        "The person set the plate on the kitchen floor.",
+        "The person laid the plate on the dining table.",
+        "The person put the plate on the coffee table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the plate? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the plate on the shelf.\n(B) The person dropped the plate on the countertop.\n(C) The person set the plate on the kitchen floor.\n(D) The person laid the plate on the dining table.\n(E) The person put the plate on the coffee table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person placed the plate on the shelf."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the paper?",
+    "options": [
+        "The person dropped the paper at the top right corner of the blueprint paper.",
+        "The person dropped the paper at the bottom left corner of the blueprint paper.",
+        "The person dropped the paper at the center of the blueprint paper.",
+        "The person dropped the paper at the left edge of the blueprint paper.",
+        "The person dropped the paper at the bottom right corner of the blueprint paper."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the paper? Choose **only one** option from the following list.\nOptions:\n(A) The person dropped the paper at the top right corner of the blueprint paper.\n(B) The person dropped the paper at the bottom left corner of the blueprint paper.\n(C) The person dropped the paper at the center of the blueprint paper.\n(D) The person dropped the paper at the left edge of the blueprint paper.\n(E) The person dropped the paper at the bottom right corner of the blueprint paper.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person dropped the paper at the center of the blueprint paper."
+    },
+    "correct_idx": [
+        2
+    ]
+}

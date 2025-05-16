@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the dough change?",
+    "options": [
+        "The dough changed by being placed in the machine to be flattened.",
+        "The dough changed by being stretched to form a thin layer.",
+        "The dough changed by being rolled out with a pin to create a circular shape.",
+        "The dough changed by being kneaded to incorporate air.",
+        "The dough changed by being pressed into a pan to create a crust."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the dough change? Choose **only one** option from the following list.\nOptions:\n(A) The dough changed by being placed in the machine to be flattened.\n(B) The dough changed by being stretched to form a thin layer.\n(C) The dough changed by being rolled out with a pin to create a circular shape.\n(D) The dough changed by being kneaded to incorporate air.\n(E) The dough changed by being pressed into a pan to create a crust.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The dough changed by being placed in the machine to be flattened."
+    },
+    "correct_idx": [
+        0
+    ]
+}

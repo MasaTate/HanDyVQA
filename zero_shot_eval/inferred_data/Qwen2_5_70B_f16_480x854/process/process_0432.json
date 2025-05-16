@@ -1,0 +1,17 @@
+{
+    "question": "How does the person reposition a bowl?",
+    "options": [
+        "The person grasps the bowl with both hands and shifts it carefully to another spot, ensuring it remains balanced.",
+        "The person gently tilts the bowl with one hand while sliding it across the surface, taking care to avoid dropping it.",
+        "The person lifts the bowl from the table using his right hand and places it down in a new position with control.",
+        "The person slightly lifts the bowl with his right hand and moves it sideways to a new position, adjusting it carefully to ensure it's placed securely.",
+        "The person lifts the bowl with both hands, turns it smoothly, and places it down in a new location thoughtfully."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person reposition a bowl? Choose **only one** option from the following list.\nOptions:\n(A) The person grasps the bowl with both hands and shifts it carefully to another spot, ensuring it remains balanced.\n(B) The person gently tilts the bowl with one hand while sliding it across the surface, taking care to avoid dropping it.\n(C) The person lifts the bowl from the table using his right hand and places it down in a new position with control.\n(D) The person slightly lifts the bowl with his right hand and moves it sideways to a new position, adjusting it carefully to ensure it's placed securely.\n(E) The person lifts the bowl with both hands, turns it smoothly, and places it down in a new location thoughtfully.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person slightly lifts the bowl with his right hand and moves it sideways to a new position, adjusting it carefully to ensure it's placed securely."
+    },
+    "correct_idx": [
+        3
+    ]
+}

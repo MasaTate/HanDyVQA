@@ -1,0 +1,17 @@
+{
+    "question": "How does the person wash the glass cup in the basin?",
+    "options": [
+        "The person grips the glass cup with both hands, rubbing it around the side of the basin, while not using a sponge to remove any grime.",
+        "The person takes the glass cup in his right hand and dips it into the soapy water, leaving some stains because he does not scrub.",
+        "The person uses his left hand to splash water onto the glass cup while shaking it energetically instead of using a sponge for proper washing.",
+        "The person places the glass cup on the edge of the basin and lets the water flow over it, depending on the running water rather than cleaning the surface.",
+        "The person holds the glass cup with his left hand, scrubs its surface in a circular motion with a sponge in his right hand, applying pressure to clean it thoroughly before rinsing it under water."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person wash the glass cup in the basin? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the glass cup with both hands, rubbing it around the side of the basin, while not using a sponge to remove any grime.\n(B) The person takes the glass cup in his right hand and dips it into the soapy water, leaving some stains because he does not scrub.\n(C) The person uses his left hand to splash water onto the glass cup while shaking it energetically instead of using a sponge for proper washing.\n(D) The person places the glass cup on the edge of the basin and lets the water flow over it, depending on the running water rather than cleaning the surface.\n(E) The person holds the glass cup with his left hand, scrubs its surface in a circular motion with a sponge in his right hand, applying pressure to clean it thoroughly before rinsing it under water.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person holds the glass cup with his left hand, scrubs its surface in a circular motion with a sponge in his right hand, applying pressure to clean it thoroughly before rinsing it under water."
+    },
+    "correct_idx": [
+        4
+    ]
+}

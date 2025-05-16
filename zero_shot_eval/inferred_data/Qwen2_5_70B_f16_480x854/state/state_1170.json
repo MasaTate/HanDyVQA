@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a hose on a wall change?",
+    "options": [
+        "The hose on the wall was removed from its holder.",
+        "The hose on the wall was twisted into a spiral shape.",
+        "The hose on the wall was moved a little bit.",
+        "The hose on the wall was pulled to the ground.",
+        "The hose on the wall was stretched to its full length."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a hose on a wall change? Choose **only one** option from the following list.\nOptions:\n(A) The hose on the wall was removed from its holder.\n(B) The hose on the wall was twisted into a spiral shape.\n(C) The hose on the wall was moved a little bit.\n(D) The hose on the wall was pulled to the ground.\n(E) The hose on the wall was stretched to its full length.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The hose on the wall was pulled to the ground."
+    },
+    "correct_idx": [
+        2
+    ]
+}

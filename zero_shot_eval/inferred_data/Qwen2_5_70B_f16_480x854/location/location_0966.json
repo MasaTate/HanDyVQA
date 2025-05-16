@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the sponge?",
+    "options": [
+        "The person moves the sponge from the sink to the right hand after taking it and adding soap on it.",
+        "The person moves the sponge from the sink to the left hand after taking it and putting dishwashing liquid on it.",
+        "The person moves the sponge from the counter to the left hand after rinsing it and applying detergent on it.",
+        "The person moves the sponge from the sink to the table after taking it and putting cleaning solution on it.",
+        "The person moves the sponge from the drawer to the left hand after taking it and dousing it with water."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the sponge? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the sponge from the sink to the right hand after taking it and adding soap on it.\n(B) The person moves the sponge from the sink to the left hand after taking it and putting dishwashing liquid on it.\n(C) The person moves the sponge from the counter to the left hand after rinsing it and applying detergent on it.\n(D) The person moves the sponge from the sink to the table after taking it and putting cleaning solution on it.\n(E) The person moves the sponge from the drawer to the left hand after taking it and dousing it with water.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person moves the sponge from the sink to the left hand after taking it and putting dishwashing liquid on it."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person wear the glove?",
+    "options": [
+        "The person uses their right hand to grasp the glove, then gently turns it around before trying to fit their left hand into it, sliding it in after adjusting the fit.",
+        "The person takes the glove between both hands and carefully prepares it before attempting to pull it over their hand, adjusting as necessary to ensure a good fit.",
+        "The person holds the glove with their left hand, then slides their right hand into it, adjusting the fit by pulling the glove over the fingers and wrist.",
+        "The person holds the glove by the fingertips with their right hand and smoothly places the palm of their left hand into it, securing the wrist for a snug fit.",
+        "The person lays the glove carefully on the table and presses their hands gently into it, ensuring the fingers are inserted properly."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person wear the glove? Choose **only one** option from the following list.\nOptions:\n(A) The person uses their right hand to grasp the glove, then gently turns it around before trying to fit their left hand into it, sliding it in after adjusting the fit.\n(B) The person takes the glove between both hands and carefully prepares it before attempting to pull it over their hand, adjusting as necessary to ensure a good fit.\n(C) The person holds the glove with their left hand, then slides their right hand into it, adjusting the fit by pulling the glove over the fingers and wrist.\n(D) The person holds the glove by the fingertips with their right hand and smoothly places the palm of their left hand into it, securing the wrist for a snug fit.\n(E) The person lays the glove carefully on the table and presses their hands gently into it, ensuring the fingers are inserted properly.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person holds the glove with their left hand, then slides their right hand into it, adjusting the fit by pulling the glove over the fingers and wrist."
+    },
+    "correct_idx": [
+        2
+    ]
+}

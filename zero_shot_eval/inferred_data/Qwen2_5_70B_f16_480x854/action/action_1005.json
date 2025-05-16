@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person uses his right hand to pull the matches and the cigarettes out of the pack.",
+        "The person uses his right hand to grab the lighter while placing the pack of cigarettes on the table with his left hand.",
+        "The person uses his right hand to take the lighter and the cigarettes out of the pack.",
+        "The person uses his right hand to light the cigarette after taking it out of the pack with his left hand.",
+        "The person uses his right hand to shake the cigarette pack while holding the lighter in his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person uses his right hand to pull the matches and the cigarettes out of the pack.\n(B) The person uses his right hand to grab the lighter while placing the pack of cigarettes on the table with his left hand.\n(C) The person uses his right hand to take the lighter and the cigarettes out of the pack.\n(D) The person uses his right hand to light the cigarette after taking it out of the pack with his left hand.\n(E) The person uses his right hand to shake the cigarette pack while holding the lighter in his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person uses his right hand to take the lighter and the cigarettes out of the pack."
+    },
+    "correct_idx": [
+        2
+    ]
+}

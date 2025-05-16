@@ -1,0 +1,22 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "container",
+        "mug",
+        "cardboard",
+        "ruler",
+        "cutter knife",
+        "paint brush",
+        "small cup",
+        "fastener"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) container\n(B) mug\n(C) cardboard\n(D) ruler\n(E) cutter knife\n(F) paint brush\n(G) small cup\n(H) fastener\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(F) Paint brush\n(C) Cardboard"
+    },
+    "correct_idx": [
+        2,
+        5,
+        6
+    ]
+}

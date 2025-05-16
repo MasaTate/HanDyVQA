@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the flour change?",
+    "options": [
+        "The flour was spread out and rubbed in an elliptical motion.",
+        "The flour was flattened but rubbed in a back-and-forth motion.",
+        "The flour was flattened and rubbed in a circular motion.",
+        "The flour was left as a pile and tapped in a circular motion.",
+        "The flour was spread broadly and rubbed in an up-and-down motion."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the flour change? Choose **only one** option from the following list.\nOptions:\n(A) The flour was spread out and rubbed in an elliptical motion.\n(B) The flour was flattened but rubbed in a back-and-forth motion.\n(C) The flour was flattened and rubbed in a circular motion.\n(D) The flour was left as a pile and tapped in a circular motion.\n(E) The flour was spread broadly and rubbed in an up-and-down motion.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The flour was flattened and rubbed in a circular motion."
+    },
+    "correct_idx": [
+        2
+    ]
+}

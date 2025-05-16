@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the bamboo strips?",
+    "options": [
+        "The person gathers the bamboo strips and moves them to the left side.",
+        "The person gathers the bamboo strips and moves them to the back corner.",
+        "The person gathers the bamboo strips and moves them to the right side.",
+        "The person gathers the bamboo strips and moves them to the center of the room.",
+        "The person gathers the bamboo strips and moves them to the front shelf."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the bamboo strips? Choose **only one** option from the following list.\nOptions:\n(A) The person gathers the bamboo strips and moves them to the left side.\n(B) The person gathers the bamboo strips and moves them to the back corner.\n(C) The person gathers the bamboo strips and moves them to the right side.\n(D) The person gathers the bamboo strips and moves them to the center of the room.\n(E) The person gathers the bamboo strips and moves them to the front shelf.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person gathers the bamboo strips and moves them to the back corner."
+    },
+    "correct_idx": [
+        2
+    ]
+}

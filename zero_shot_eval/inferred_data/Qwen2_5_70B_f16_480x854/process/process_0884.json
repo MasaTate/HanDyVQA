@@ -1,0 +1,17 @@
+{
+    "question": "How does the person run her left hand?",
+    "options": [
+        "The person grips the vegetables firmly, slightly slides the left hand in the stems before cutting it and using the left hand fingertips, then gently collects the vegetable stems and leaves by pulling it towards itself.",
+        "The person loosely holds the vegetables with her left hand, allowing them to slip through her fingers while cutting, then quickly places the vegetable stems and leaves into a bowl, not pulling them towards herself.",
+        "The person uses her left hand to move the vegetables over the cutting board swiftly, not gripping them securely, and then casually removes the stems and leaves without collecting them.",
+        "The person lightly holds the vegetables with one finger of her left hand, barely cutting them, and attempts to lift the entire bunch without properly sorting the stems and leaves.",
+        "The person quickly grabs the vegetables with her left hand and moves them around a bit before choosing to let the stems and leaves drop onto the countertop, not collecting them."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person run her left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the vegetables firmly, slightly slides the left hand in the stems before cutting it and using the left hand fingertips, then gently collects the vegetable stems and leaves by pulling it towards itself.\n(B) The person loosely holds the vegetables with her left hand, allowing them to slip through her fingers while cutting, then quickly places the vegetable stems and leaves into a bowl, not pulling them towards herself.\n(C) The person uses her left hand to move the vegetables over the cutting board swiftly, not gripping them securely, and then casually removes the stems and leaves without collecting them.\n(D) The person lightly holds the vegetables with one finger of her left hand, barely cutting them, and attempts to lift the entire bunch without properly sorting the stems and leaves.\n(E) The person quickly grabs the vegetables with her left hand and moves them around a bit before choosing to let the stems and leaves drop onto the countertop, not collecting them.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person grips the vegetables firmly, slightly slides the left hand in the stems before cutting it and using the left hand fingertips, then gently collects the vegetable stems and leaves by pulling it towards itself."
+    },
+    "correct_idx": [
+        0
+    ]
+}

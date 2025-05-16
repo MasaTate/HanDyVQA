@@ -1,0 +1,17 @@
+{
+    "question": "How does the person hold the tomato?",
+    "options": [
+        "The person holds the tomato securely in his right hand, using his fingers to firmly support it while picking it up from the kitchen counter.",
+        "The person balances the tomato on the palm of his left hand, gently supporting it with his fingers from underneath without fully enclosing it.",
+        "The person cradles the tomato in his left hand, using his fingers to lightly wrap around its sides, ensuring a gentle grip without applying pressure to avoid crushing it.",
+        "The person carefully pinches the tomato between his thumb and index finger of the right hand, lifting it smoothly off the table.",
+        "The person holds the tomato with both hands, placing one on its top and the other on its bottom to secure it, while being cautious of applying too much pressure."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person hold the tomato? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the tomato securely in his right hand, using his fingers to firmly support it while picking it up from the kitchen counter.\n(B) The person balances the tomato on the palm of his left hand, gently supporting it with his fingers from underneath without fully enclosing it.\n(C) The person cradles the tomato in his left hand, using his fingers to lightly wrap around its sides, ensuring a gentle grip without applying pressure to avoid crushing it.\n(D) The person carefully pinches the tomato between his thumb and index finger of the right hand, lifting it smoothly off the table.\n(E) The person holds the tomato with both hands, placing one on its top and the other on its bottom to secure it, while being cautious of applying too much pressure.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person cradles the tomato in his left hand, using his fingers to lightly wrap around its sides, ensuring a gentle grip without applying pressure to avoid crushing it."
+    },
+    "correct_idx": [
+        2
+    ]
+}

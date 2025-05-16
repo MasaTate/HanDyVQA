@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the yarn change?",
+    "options": [
+        "The yarn was tangled and knotted, preventing it from being easily fed through the knitting needles and disrupting the flow of the project.",
+        "The yarn was cut into several pieces, making it difficult to create a continuous pattern while knitting.",
+        "The yarn was pulled gently to feed it through the knitting needles, creating loops and stitches that gradually formed a pattern.",
+        "The yarn was wound into a ball, making it easier to manage but altering its loose state before knitting.",
+        "The yarn was soaked in water, causing it to become heavy and difficult to work with during the knitting process."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the yarn change? Choose **only one** option from the following list.\nOptions:\n(A) The yarn was tangled and knotted, preventing it from being easily fed through the knitting needles and disrupting the flow of the project.\n(B) The yarn was cut into several pieces, making it difficult to create a continuous pattern while knitting.\n(C) The yarn was pulled gently to feed it through the knitting needles, creating loops and stitches that gradually formed a pattern.\n(D) The yarn was wound into a ball, making it easier to manage but altering its loose state before knitting.\n(E) The yarn was soaked in water, causing it to become heavy and difficult to work with during the knitting process.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The yarn was pulled gently to feed it through the knitting needles, creating loops and stitches that gradually formed a pattern."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the t-spanner?",
+    "options": [
+        "The person drops the t-spanner on the ground next to the motorcycle lifter with the right hand.",
+        "The person drops the t-spanner on the workbench beside the motorcycle lifter with the right hand.",
+        "The person drops the t-spanner on the motorcycle lifter with the right hand.",
+        "The person drops the t-spanner inside the toolbox near the motorcycle lifter with the right hand.",
+        "The person drops the t-spanner on the floor in front of the motorcycle lifter with the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the t-spanner? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the t-spanner on the ground next to the motorcycle lifter with the right hand.\n(B) The person drops the t-spanner on the workbench beside the motorcycle lifter with the right hand.\n(C) The person drops the t-spanner on the motorcycle lifter with the right hand.\n(D) The person drops the t-spanner inside the toolbox near the motorcycle lifter with the right hand.\n(E) The person drops the t-spanner on the floor in front of the motorcycle lifter with the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person drops the t-spanner on the motorcycle lifter with the right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

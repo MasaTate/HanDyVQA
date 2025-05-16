@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person squeezes the sponge using her left hand and then closes the faucet with her right hand.",
+        "The person grips the sponge with her left hand and twists it to drain water while using her right hand to hold the faucet in place.",
+        "The person washes a dish with her right hand while using her left hand to pour soap directly from the bottle.",
+        "The person is soaking the sponge in water with her left hand while turning the faucet on with her right hand.",
+        "The person pushes the sponge against the countertop using her left hand while adjusting the faucet handle with her right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person squeezes the sponge using her left hand and then closes the faucet with her right hand.\n(B) The person grips the sponge with her left hand and twists it to drain water while using her right hand to hold the faucet in place.\n(C) The person washes a dish with her right hand while using her left hand to pour soap directly from the bottle.\n(D) The person is soaking the sponge in water with her left hand while turning the faucet on with her right hand.\n(E) The person pushes the sponge against the countertop using her left hand while adjusting the faucet handle with her right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person is soaking the sponge in water with her left hand while turning the faucet on with her right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "curtain",
+        "door",
+        "mat",
+        "slippers",
+        "toolbox",
+        "wooden shelf"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) curtain\n(B) door\n(C) mat\n(D) slippers\n(E) toolbox\n(F) wooden shelf\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(F) Wooden shelf\n\nThe hands in the video are using a wooden shelf. The person is assembling or working on a white wooden shelf, which involves handling various parts of it. There is no indication that the other listed objects (curtain, door, mat, slippers, or toolbox) are being used by the hands in this specific sequence of actions."
+    },
+    "correct_idx": [
+        4,
+        5
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the measuring cup?",
+    "options": [
+        "The person places the measuring cup next to the chopping board.",
+        "The person places the measuring cup behind the chopping board.",
+        "The person places the measuring cup in front of the chopping board.",
+        "The person places the measuring cup on the counter beside the chopping board.",
+        "The person places the measuring cup across from the chopping board."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the measuring cup? Choose **only one** option from the following list.\nOptions:\n(A) The person places the measuring cup next to the chopping board.\n(B) The person places the measuring cup behind the chopping board.\n(C) The person places the measuring cup in front of the chopping board.\n(D) The person places the measuring cup on the counter beside the chopping board.\n(E) The person places the measuring cup across from the chopping board.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person places the measuring cup on the counter beside the chopping board."
+    },
+    "correct_idx": [
+        0
+    ]
+}

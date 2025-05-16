@@ -1,0 +1,17 @@
+{
+    "question": "How does the person hold paper list?",
+    "options": [
+        "The person grips the paper list gently with both hands, raising it slightly for a better view.",
+        "The person lifts the paper list with her left hand, showing it in an upward direction.",
+        "The person picks up the paper list using her right hand, holding it slightly away from her side.",
+        "The person holds the paper list with her fingers and lifts it smoothly above her shoulder.",
+        "The person places the paper list flat on the table and lightly presses down on it with her hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person hold paper list? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the paper list gently with both hands, raising it slightly for a better view.\n(B) The person lifts the paper list with her left hand, showing it in an upward direction.\n(C) The person picks up the paper list using her right hand, holding it slightly away from her side.\n(D) The person holds the paper list with her fingers and lifts it smoothly above her shoulder.\n(E) The person places the paper list flat on the table and lightly presses down on it with her hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person lifts the paper list with her left hand, showing it in an upward direction."
+    },
+    "correct_idx": [
+        1
+    ]
+}

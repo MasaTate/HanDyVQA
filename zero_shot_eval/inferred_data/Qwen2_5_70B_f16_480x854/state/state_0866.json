@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the mat change?",
+    "options": [
+        "The mat was rolled up and wrapped with a yarn, leaving it reshaped.",
+        "The mat was folded and fastened with a yarn, slightly altering its shape.",
+        "The mat was secured with a yarn in a manner that caused it to bend slightly.",
+        "The mat was tied with a yarn, causing it to curve and change shape slightly.",
+        "The mat was tied and secured with a yarn, but the mat itself didn't change in any way."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the mat change? Choose **only one** option from the following list.\nOptions:\n(A) The mat was rolled up and wrapped with a yarn, leaving it reshaped.\n(B) The mat was folded and fastened with a yarn, slightly altering its shape.\n(C) The mat was secured with a yarn in a manner that caused it to bend slightly.\n(D) The mat was tied with a yarn, causing it to curve and change shape slightly.\n(E) The mat was tied and secured with a yarn, but the mat itself didn't change in any way.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The mat was tied with a yarn, causing it to curve and change shape slightly."
+    },
+    "correct_idx": [
+        4
+    ]
+}

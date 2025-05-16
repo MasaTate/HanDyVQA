@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the engine of the second lawn tractor change?",
+    "options": [
+        "The engine of the second lawn tractor was raised up, making it more accessible for maintenance.",
+        "The engine of the second lawn tractor was shifted sideways, allowing improved airflow around it.",
+        "The engine of the second lawn tractor was detached completely from the chassis, making it portable.",
+        "The engine of the second lawn tractor was lowered into position, becoming enclosed.",
+        "The engine of the second lawn tractor was rotated outward, providing a broader view of the internal components."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the engine of the second lawn tractor change? Choose **only one** option from the following list.\nOptions:\n(A) The engine of the second lawn tractor was raised up, making it more accessible for maintenance.\n(B) The engine of the second lawn tractor was shifted sideways, allowing improved airflow around it.\n(C) The engine of the second lawn tractor was detached completely from the chassis, making it portable.\n(D) The engine of the second lawn tractor was lowered into position, becoming enclosed.\n(E) The engine of the second lawn tractor was rotated outward, providing a broader view of the internal components.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The engine of the second lawn tractor was lowered into position, becoming enclosed."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person move the cards?",
+    "options": [
+        "The person moves the cards using the right hand by dragging it up and down.",
+        "The person moves the cards using both hands, creating a circular motion.",
+        "The person moves the cards by flipping them with the thumb and index finger of the left hand.",
+        "The person moves the cards across the table with the palm of their hand.",
+        "The person moves the cards by lifting them with a flick of the wrist."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person move the cards? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the cards using the right hand by dragging it up and down.\n(B) The person moves the cards using both hands, creating a circular motion.\n(C) The person moves the cards by flipping them with the thumb and index finger of the left hand.\n(D) The person moves the cards across the table with the palm of their hand.\n(E) The person moves the cards by lifting them with a flick of the wrist.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person moves the cards across the table with the palm of their hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

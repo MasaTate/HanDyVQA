@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the brush change?",
+    "options": [
+        "The brush was dipped in egg and then brushed onto the bread in a circular motion.",
+        "The brush was dipped in egg and then brushed onto the bread in a straight line.",
+        "The brush was dipped in egg and then brushed onto a pastry in a zigzag pattern.",
+        "The brush was dipped halfway in egg and then brushed onto the bread in a light motion.",
+        "The brush was fully coated in egg and then tapped onto the bread in repetitive motions."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the brush change? Choose **only one** option from the following list.\nOptions:\n(A) The brush was dipped in egg and then brushed onto the bread in a circular motion.\n(B) The brush was dipped in egg and then brushed onto the bread in a straight line.\n(C) The brush was dipped in egg and then brushed onto a pastry in a zigzag pattern.\n(D) The brush was dipped halfway in egg and then brushed onto the bread in a light motion.\n(E) The brush was fully coated in egg and then tapped onto the bread in repetitive motions.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The brush was dipped in egg and then brushed onto the bread in a circular motion."
+    },
+    "correct_idx": [
+        0
+    ]
+}

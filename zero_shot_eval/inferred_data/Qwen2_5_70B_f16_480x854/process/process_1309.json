@@ -1,0 +1,17 @@
+{
+    "question": "How does the person push the box?",
+    "options": [
+        "The person pushes the box forward by pressing the top with both hands.",
+        "The person shoves the box sideways using the palm of the left hand.",
+        "The person pushes the box by dragging the box up using the right hand.",
+        "The person slides the box gently along the surface by gripping the edges with the right fingers.",
+        "The person lifts the box slightly and then moves it forward with a flick of the wrist."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person push the box? Choose **only one** option from the following list.\nOptions:\n(A) The person pushes the box forward by pressing the top with both hands.\n(B) The person shoves the box sideways using the palm of the left hand.\n(C) The person pushes the box by dragging the box up using the right hand.\n(D) The person slides the box gently along the surface by gripping the edges with the right fingers.\n(E) The person lifts the box slightly and then moves it forward with a flick of the wrist.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person slides the box gently along the surface by gripping the edges with the right fingers."
+    },
+    "correct_idx": [
+        2
+    ]
+}

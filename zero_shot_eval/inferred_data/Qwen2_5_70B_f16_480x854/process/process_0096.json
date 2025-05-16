@@ -1,0 +1,17 @@
+{
+    "question": "How does the person move a plank of wood?",
+    "options": [
+        "The person pushes the plank of wood along the floor using both hands, keeping it on the ground.",
+        "The person tries to slide the plank of wood across the table by using their fingertips with a light grip.",
+        "The person moves the plank of wood by extending their arm and gripping it firmly with one hand, then lifts and puts it in another place.",
+        "The person bends down and tries to roll the plank of wood onto its side rather than lifting it.",
+        "The person attempts to carry the plank of wood over their shoulder, holding it gently with one hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person move a plank of wood? Choose **only one** option from the following list.\nOptions:\n(A) The person pushes the plank of wood along the floor using both hands, keeping it on the ground.\n(B) The person tries to slide the plank of wood across the table by using their fingertips with a light grip.\n(C) The person moves the plank of wood by extending their arm and gripping it firmly with one hand, then lifts and puts it in another place.\n(D) The person bends down and tries to roll the plank of wood onto its side rather than lifting it.\n(E) The person attempts to carry the plank of wood over their shoulder, holding it gently with one hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person moves the plank of wood by extending their arm and gripping it firmly with one hand, then lifts and puts it in another place."
+    },
+    "correct_idx": [
+        2
+    ]
+}

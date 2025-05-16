@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the pieces of onions on the tray change?",
+    "options": [
+        "Scattered pieces of onions on the tray were arranged in a neat row along the edge of the tray.",
+        "Scattered pieces of onions on the tray were left scattered across the tray in a random pattern.",
+        "Scattered pieces of onions on the tray were piled on top of each other in a small mound.",
+        "Scattered pieces of onions on the tray were gathered in one place with a kitchen knife.",
+        "Scattered pieces of onions on the tray were organized in a neat row along the edge of the tray."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the pieces of onions on the tray change? Choose **only one** option from the following list.\nOptions:\n(A) Scattered pieces of onions on the tray were arranged in a neat row along the edge of the tray.\n(B) Scattered pieces of onions on the tray were left scattered across the tray in a random pattern.\n(C) Scattered pieces of onions on the tray were piled on top of each other in a small mound.\n(D) Scattered pieces of onions on the tray were gathered in one place with a kitchen knife.\n(E) Scattered pieces of onions on the tray were organized in a neat row along the edge of the tray.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) Scattered pieces of onions on the tray were gathered in one place with a kitchen knife."
+    },
+    "correct_idx": [
+        3
+    ]
+}

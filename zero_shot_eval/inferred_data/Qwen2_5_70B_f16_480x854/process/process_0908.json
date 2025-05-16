@@ -1,0 +1,17 @@
+{
+    "question": "How does the person use the chisel?",
+    "options": [
+        "The person firmly holds the chisel with both hands and attempts to move it downward onto the surface, lacking precise guidance.",
+        "The person uses the right hand to hold the chisel's handle while the left hand rests above the chisel, not actively directing it.",
+        "The person lightly taps the chisel with the fingers, leading to movements that lack precision and control.",
+        "The person uses the left hand to hold the chisel's handle and guide the body of the chisel using the right hand's thumb in a sideward position and then moving from right to left.",
+        "The person holds the chisel upright with one hand and aims to apply downward pressure, not considering the ideal angle for effective use."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person use the chisel? Choose **only one** option from the following list.\nOptions:\n(A) The person firmly holds the chisel with both hands and attempts to move it downward onto the surface, lacking precise guidance.\n(B) The person uses the right hand to hold the chisel's handle while the left hand rests above the chisel, not actively directing it.\n(C) The person lightly taps the chisel with the fingers, leading to movements that lack precision and control.\n(D) The person uses the left hand to hold the chisel's handle and guide the body of the chisel using the right hand's thumb in a sideward position and then moving from right to left.\n(E) The person holds the chisel upright with one hand and aims to apply downward pressure, not considering the ideal angle for effective use.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person uses the left hand to hold the chisel's handle and guide the body of the chisel using the right hand's thumb in a sideward position and then moving from right to left."
+    },
+    "correct_idx": [
+        3
+    ]
+}

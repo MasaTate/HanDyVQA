@@ -1,0 +1,17 @@
+{
+    "question": "How does the person tighten the bolt?",
+    "options": [
+        "The person holds the wrench firmly with his right hand, places it over the bolt, and turns it downward to tighten, while his left hand rests against a nearby surface for support.",
+        "The person uses both hands to adjust the bolt directly, gripping it securely with his fingers instead of using a tool, while standing close to the workbench for stability.",
+        "The person gently touches the wrench with his left hand, guiding it into place on the bolt, and then applies a quick, controlled motion to tighten it.",
+        "The person sets the wrench on the bolt with his right hand and carefully pushes it sideways to apply pressure, while his left hand steadies the bolt without contributing to the tightening process.",
+        "The person grips the wrench with his left hand, positions it on the bolt, and turns it clockwise to tighten, while his right hand supports and stabilizes the object."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person tighten the bolt? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the wrench firmly with his right hand, places it over the bolt, and turns it downward to tighten, while his left hand rests against a nearby surface for support.\n(B) The person uses both hands to adjust the bolt directly, gripping it securely with his fingers instead of using a tool, while standing close to the workbench for stability.\n(C) The person gently touches the wrench with his left hand, guiding it into place on the bolt, and then applies a quick, controlled motion to tighten it.\n(D) The person sets the wrench on the bolt with his right hand and carefully pushes it sideways to apply pressure, while his left hand steadies the bolt without contributing to the tightening process.\n(E) The person grips the wrench with his left hand, positions it on the bolt, and turns it clockwise to tighten, while his right hand supports and stabilizes the object.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person grips the wrench with his left hand, positions it on the bolt, and turns it clockwise to tighten, while his right hand supports and stabilizes the object."
+    },
+    "correct_idx": [
+        4
+    ]
+}

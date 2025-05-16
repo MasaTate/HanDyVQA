@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of stones change?",
+    "options": [
+        "The stones were taken from the bucket and arranged on the ground next to the metal.",
+        "The stones were taken from the bucket and placed in a circle on the sand.",
+        "The stones were taken from the bucket and arranged on the ground next to the wood.",
+        "The stones were removed from the bucket and lined up along the path.",
+        "The stones were taken from the bucket and scattered around the wooden plank."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of stones change? Choose **only one** option from the following list.\nOptions:\n(A) The stones were taken from the bucket and arranged on the ground next to the metal.\n(B) The stones were taken from the bucket and placed in a circle on the sand.\n(C) The stones were taken from the bucket and arranged on the ground next to the wood.\n(D) The stones were removed from the bucket and lined up along the path.\n(E) The stones were taken from the bucket and scattered around the wooden plank.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The stones were taken from the bucket and arranged on the ground next to the wood."
+    },
+    "correct_idx": [
+        2
+    ]
+}

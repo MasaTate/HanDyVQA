@@ -1,0 +1,17 @@
+{
+    "question": "How does the person rub the brush?",
+    "options": [
+        "The person strokes the brush evenly against the surface using both hands to apply moderate pressure.",
+        "The person moves the brush gently in circles with his left hand to create a soft swirling effect.",
+        "The person rubs the brush firmly against the surface using his right hand.",
+        "The person glides the brush steadily across the surface with his right hand while applying consistent pressure.",
+        "The person taps the brush rhythmically on the surface with his fingers, creating a different pattern."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person rub the brush? Choose **only one** option from the following list.\nOptions:\n(A) The person strokes the brush evenly against the surface using both hands to apply moderate pressure.\n(B) The person moves the brush gently in circles with his left hand to create a soft swirling effect.\n(C) The person rubs the brush firmly against the surface using his right hand.\n(D) The person glides the brush steadily across the surface with his right hand while applying consistent pressure.\n(E) The person taps the brush rhythmically on the surface with his fingers, creating a different pattern.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person glides the brush steadily across the surface with his right hand while applying consistent pressure."
+    },
+    "correct_idx": [
+        2
+    ]
+}

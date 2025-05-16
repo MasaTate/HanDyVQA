@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "plants",
+        "paint brush",
+        "plastic garbage",
+        "tiles",
+        "wooden post",
+        "metal trash bin"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) plants\n(B) paint brush\n(C) plastic garbage\n(D) tiles\n(E) wooden post\n(F) metal trash bin\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(B) paint brush  \n(C) plastic garbage  \n\nThe hands in the video are using a paint brush (yellow handle) to interact with a plastic garbage bag. The person appears to be manipulating or adjusting the plastic bag while holding the paint brush. There is no interaction with plants, tiles, a wooden post, or a metal trash bin."
+    },
+    "correct_idx": [
+        1,
+        2
+    ]
+}

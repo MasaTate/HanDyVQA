@@ -1,0 +1,17 @@
+{
+    "question": "How does the person peel the scale?",
+    "options": [
+        "The person peels the outer layer of the onion by gripping it with both hands and carefully pulling it away using steady force.",
+        "The person peels the onion by holding it with one hand and using the other hand to gently scrape the skin with a spoon.",
+        "The person holds the onion in one hand and carefully removes the outer layer with a fork in the other hand, aiming for precision.",
+        "The person peels the outer layer of the onion by holding it firmly in one hand while using a knife in the other hand to carefully lift the skin.",
+        "The person tries to peel the onion by holding it in their hand and letting the skin come off through gentle manipulation."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person peel the scale? Choose **only one** option from the following list.\nOptions:\n(A) The person peels the outer layer of the onion by gripping it with both hands and carefully pulling it away using steady force.\n(B) The person peels the onion by holding it with one hand and using the other hand to gently scrape the skin with a spoon.\n(C) The person holds the onion in one hand and carefully removes the outer layer with a fork in the other hand, aiming for precision.\n(D) The person peels the outer layer of the onion by holding it firmly in one hand while using a knife in the other hand to carefully lift the skin.\n(E) The person tries to peel the onion by holding it in their hand and letting the skin come off through gentle manipulation.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person peels the outer layer of the onion by holding it firmly in one hand while using a knife in the other hand to carefully lift the skin."
+    },
+    "correct_idx": [
+        3
+    ]
+}

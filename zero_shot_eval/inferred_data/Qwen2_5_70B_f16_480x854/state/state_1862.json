@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the test tube change?",
+    "options": [
+        "The test tube was lifted and rotated upside down twice.",
+        "The test tube was lifted and rotated right side up twice.",
+        "The test tube was lifted and turned upside down once.",
+        "The test tube was lifted and rotated upward and then immediately downward.",
+        "The test tube was lifted and rotated halfway upside down once."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the test tube change? Choose **only one** option from the following list.\nOptions:\n(A) The test tube was lifted and rotated upside down twice.\n(B) The test tube was lifted and rotated right side up twice.\n(C) The test tube was lifted and turned upside down once.\n(D) The test tube was lifted and rotated upward and then immediately downward.\n(E) The test tube was lifted and rotated halfway upside down once.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The test tube was lifted and turned upside down once."
+    },
+    "correct_idx": [
+        0
+    ]
+}

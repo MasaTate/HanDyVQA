@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move a mouse?",
+    "options": [
+        "The person sharply moves the mouse diagonally off the mousepad.",
+        "The person quickly moves the mouse forwards towards the edge of the desk.",
+        "The person gently shifts the mouse backwards away from the keyboard.",
+        "The person slightly moves the mouse sideways on the mousepad.",
+        "The person delicately adjusts the mouse at an angle on the corner of the desk."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move a mouse? Choose **only one** option from the following list.\nOptions:\n(A) The person sharply moves the mouse diagonally off the mousepad.\n(B) The person quickly moves the mouse forwards towards the edge of the desk.\n(C) The person gently shifts the mouse backwards away from the keyboard.\n(D) The person slightly moves the mouse sideways on the mousepad.\n(E) The person delicately adjusts the mouse at an angle on the corner of the desk.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person slightly moves the mouse sideways on the mousepad."
+    },
+    "correct_idx": [
+        3
+    ]
+}

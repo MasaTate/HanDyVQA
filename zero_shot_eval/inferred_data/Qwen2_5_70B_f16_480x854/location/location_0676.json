@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the scissors?",
+    "options": [
+        "The person dropped the scissors on the kitchen counter.",
+        "The person laid the scissors on the dining room table.",
+        "The person placed the scissors on the sewing machine table.",
+        "The person set the scissors on the foldable table in the corner.",
+        "The person put the scissors on the craft desk near the window."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the scissors? Choose **only one** option from the following list.\nOptions:\n(A) The person dropped the scissors on the kitchen counter.\n(B) The person laid the scissors on the dining room table.\n(C) The person placed the scissors on the sewing machine table.\n(D) The person set the scissors on the foldable table in the corner.\n(E) The person put the scissors on the craft desk near the window.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person set the scissors on the foldable table in the corner."
+    },
+    "correct_idx": [
+        2
+    ]
+}

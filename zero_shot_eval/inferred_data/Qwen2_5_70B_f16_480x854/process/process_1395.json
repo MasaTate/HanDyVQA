@@ -1,0 +1,17 @@
+{
+    "question": "How does the person mark the cloth?",
+    "options": [
+        "The person marks the cloth by holding the pattern down steadily and moving the pen in the left hand in circular motions.",
+        "The person immediately marks the cloth by lifting up the pattern and then slowly moving the pen in the right hand side to side to mark the cloth.",
+        "The person presses the pattern on the cloth while moving the pen in the right hand up and down to create marks.",
+        "The person secures the pattern to the cloth and then taps the pen in the left hand gently on the surface to make dots.",
+        "The person flips the pattern over and glides the pen in the right hand across the cloth, making a continuous line."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person mark the cloth? Choose **only one** option from the following list.\nOptions:\n(A) The person marks the cloth by holding the pattern down steadily and moving the pen in the left hand in circular motions.\n(B) The person immediately marks the cloth by lifting up the pattern and then slowly moving the pen in the right hand side to side to mark the cloth.\n(C) The person presses the pattern on the cloth while moving the pen in the right hand up and down to create marks.\n(D) The person secures the pattern to the cloth and then taps the pen in the left hand gently on the surface to make dots.\n(E) The person flips the pattern over and glides the pen in the right hand across the cloth, making a continuous line.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person presses the pattern on the cloth while moving the pen in the right hand up and down to create marks."
+    },
+    "correct_idx": [
+        1
+    ]
+}

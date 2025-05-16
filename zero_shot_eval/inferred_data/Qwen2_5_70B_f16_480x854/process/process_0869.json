@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pick the garden sprayer from the floor?",
+    "options": [
+        "The person kneels down and carefully grabs the sprayer handle with both hands, attempting to lift it off the ground.",
+        "The person leans forward and draws the sprayer towards them with their left hand, rather than picking it up.",
+        "The person bends down quickly and deliberately picks up the sprayer hose nozzle using the right hand.",
+        "The person reaches down casually and moves the sprayer aside, instead of lifting it.",
+        "The person squats down and attempts to lift the sprayer using just their fingers, making it difficult to grasp."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pick the garden sprayer from the floor? Choose **only one** option from the following list.\nOptions:\n(A) The person kneels down and carefully grabs the sprayer handle with both hands, attempting to lift it off the ground.\n(B) The person leans forward and draws the sprayer towards them with their left hand, rather than picking it up.\n(C) The person bends down quickly and deliberately picks up the sprayer hose nozzle using the right hand.\n(D) The person reaches down casually and moves the sprayer aside, instead of lifting it.\n(E) The person squats down and attempts to lift the sprayer using just their fingers, making it difficult to grasp.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person bends down quickly and deliberately picks up the sprayer hose nozzle using the right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

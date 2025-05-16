@@ -1,0 +1,17 @@
+{
+    "question": "How does the person slice the vegetables?",
+    "options": [
+        "The person holds the knife in her right hand and grips the vegetable firmly with her left hand, then moves the knife in a downward-forward sliding motion to slice through it.",
+        "The person places the knife gently flat on the cutting board and slides the vegetable across the blade to slice it.",
+        "The person holds the vegetable slightly in her right hand and directs the knife with care from the side.",
+        "The person grips the vegetable with her right hand and carefully uses her left hand to press the knife down from above.",
+        "The person holds the knife in her right hand and grips the vegetable smoothly with her left hand, then moves the knife gently sideways to slice it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person slice the vegetables? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the knife in her right hand and grips the vegetable firmly with her left hand, then moves the knife in a downward-forward sliding motion to slice through it.\n(B) The person places the knife gently flat on the cutting board and slides the vegetable across the blade to slice it.\n(C) The person holds the vegetable slightly in her right hand and directs the knife with care from the side.\n(D) The person grips the vegetable with her right hand and carefully uses her left hand to press the knife down from above.\n(E) The person holds the knife in her right hand and grips the vegetable smoothly with her left hand, then moves the knife gently sideways to slice it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person holds the knife in her right hand and grips the vegetable firmly with her left hand, then moves the knife in a downward-forward sliding motion to slice through it."
+    },
+    "correct_idx": [
+        0
+    ]
+}

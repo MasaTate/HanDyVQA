@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop containers?",
+    "options": [
+        "The person put the container inside the drawer of the kitchen cooker.",
+        "The person placed the container on the countertop of the kitchen island.",
+        "The person dropped the container next to the refrigerator in the dining area.",
+        "The person put the container inside the cabinet above the sink.",
+        "The person set the container on the floor near the entrance of the kitchen."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop containers? Choose **only one** option from the following list.\nOptions:\n(A) The person put the container inside the drawer of the kitchen cooker.\n(B) The person placed the container on the countertop of the kitchen island.\n(C) The person dropped the container next to the refrigerator in the dining area.\n(D) The person put the container inside the cabinet above the sink.\n(E) The person set the container on the floor near the entrance of the kitchen.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person put the container inside the drawer of the kitchen cooker."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the laptop hinge change?",
+    "options": [
+        "The hinge was damaged when it was forced open.",
+        "The hinge became detached from the laptop casing.",
+        "The hinge corroded and became difficult to move.",
+        "The hinge was treated with lubricant, making it easier to open and close.",
+        "The hinge moved slightly as it was touched."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the laptop hinge change? Choose **only one** option from the following list.\nOptions:\n(A) The hinge was damaged when it was forced open.\n(B) The hinge became detached from the laptop casing.\n(C) The hinge corroded and became difficult to move.\n(D) The hinge was treated with lubricant, making it easier to open and close.\n(E) The hinge moved slightly as it was touched.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The hinge moved slightly as it was touched."
+    },
+    "correct_idx": [
+        4
+    ]
+}

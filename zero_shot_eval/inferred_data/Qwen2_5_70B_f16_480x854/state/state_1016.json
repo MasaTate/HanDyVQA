@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the glove change?",
+    "options": [
+        "The glove was placed on the table with the opening being folded over.",
+        "The glove was worn with the fingers pushed through and the opening not stretched.",
+        "The glove was worn with the opening being stretched.",
+        "The glove was held in the left hand, and the opening was adjusted, keeping it unstretched.",
+        "The glove was put on halfway, leaving the fingers outside while not stretching the opening."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the glove change? Choose **only one** option from the following list.\nOptions:\n(A) The glove was placed on the table with the opening being folded over.\n(B) The glove was worn with the fingers pushed through and the opening not stretched.\n(C) The glove was worn with the opening being stretched.\n(D) The glove was held in the left hand, and the opening was adjusted, keeping it unstretched.\n(E) The glove was put on halfway, leaving the fingers outside while not stretching the opening.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The glove was worn with the opening being stretched."
+    },
+    "correct_idx": [
+        2
+    ]
+}

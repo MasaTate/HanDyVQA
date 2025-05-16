@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the bolt change?",
+    "options": [
+        "The bolt was partially unscrewed, allowing for some movement but retaining most of its tightness.",
+        "The bolt was tightened, increasing its hold within the assembly.",
+        "The bolt was removed, allowing the connected parts to separate.",
+        "The bolt was replaced with a longer one, changing its fit within the structure.",
+        "The bolt was unscrewed, reducing its tightness."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the bolt change? Choose **only one** option from the following list.\nOptions:\n(A) The bolt was partially unscrewed, allowing for some movement but retaining most of its tightness.\n(B) The bolt was tightened, increasing its hold within the assembly.\n(C) The bolt was removed, allowing the connected parts to separate.\n(D) The bolt was replaced with a longer one, changing its fit within the structure.\n(E) The bolt was unscrewed, reducing its tightness.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The bolt was unscrewed, reducing its tightness."
+    },
+    "correct_idx": [
+        4
+    ]
+}

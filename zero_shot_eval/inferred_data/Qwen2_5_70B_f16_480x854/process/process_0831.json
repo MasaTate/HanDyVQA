@@ -1,0 +1,17 @@
+{
+    "question": "How does the person carry the paint bottle from the table?",
+    "options": [
+        "The person swiftly grips the paint bottle with the entire right hand and raises it upwards with minimal care.",
+        "The person gently grabs the paint bottle and rotates it in an anti-clockwise direction, then lifts it upwards from the table, slightly rotating it again in an anti-clockwise direction using the right hand fingertips.",
+        "The person employs both hands to hold the paint bottle and elevates it directly, forgoing any rotation.",
+        "The person delicately pinches the paint bottle using the thumb and index finger of the left hand and raises it vertically without rotating.",
+        "The person grips the paint bottle firmly with the right hand and tilts it forward as it is lifted, risking a spill."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person carry the paint bottle from the table? Choose **only one** option from the following list.\nOptions:\n(A) The person swiftly grips the paint bottle with the entire right hand and raises it upwards with minimal care.\n(B) The person gently grabs the paint bottle and rotates it in an anti-clockwise direction, then lifts it upwards from the table, slightly rotating it again in an anti-clockwise direction using the right hand fingertips.\n(C) The person employs both hands to hold the paint bottle and elevates it directly, forgoing any rotation.\n(D) The person delicately pinches the paint bottle using the thumb and index finger of the left hand and raises it vertically without rotating.\n(E) The person grips the paint bottle firmly with the right hand and tilts it forward as it is lifted, risking a spill.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person gently grabs the paint bottle and rotates it in an anti-clockwise direction, then lifts it upwards from the table, slightly rotating it again in an anti-clockwise direction using the right hand fingertips."
+    },
+    "correct_idx": [
+        1
+    ]
+}

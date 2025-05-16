@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the mud?",
+    "options": [
+        "The person moved the mud alongside the hollow blocks, then scattered it near the edge of the pile of mud.",
+        "The person moved the mud behind the hollow blocks, then dumped it away from the pile of mud.",
+        "The person moved the mud around the hollow blocks, then placed it in front of the pile of mud.",
+        "The person moved the mud inside the hollow blocks, then threw it onto the pile of mud.",
+        "The person moved the mud beneath the hollow blocks, then tossed it onto the side of the pile of mud."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the mud? Choose **only one** option from the following list.\nOptions:\n(A) The person moved the mud alongside the hollow blocks, then scattered it near the edge of the pile of mud.\n(B) The person moved the mud behind the hollow blocks, then dumped it away from the pile of mud.\n(C) The person moved the mud around the hollow blocks, then placed it in front of the pile of mud.\n(D) The person moved the mud inside the hollow blocks, then threw it onto the pile of mud.\n(E) The person moved the mud beneath the hollow blocks, then tossed it onto the side of the pile of mud.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person moved the mud inside the hollow blocks, then threw it onto the pile of mud."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person count the pieces of wood?",
+    "options": [
+        "The person counts the pieces of wood by stacking them on top of each other, using his hands.",
+        "The person counts the pieces of wood by pointing at each piece with his index finger, holding the pencil in his other hand.",
+        "The person counts the pieces of wood by picking each one up individually and placing it into a bag.",
+        "The person counts the pieces of wood by tapping them with a pencil in his right hand as he passes by.",
+        "The person counts the pieces of wood by sweeping his hand over them to estimate the total amount."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person count the pieces of wood? Choose **only one** option from the following list.\nOptions:\n(A) The person counts the pieces of wood by stacking them on top of each other, using his hands.\n(B) The person counts the pieces of wood by pointing at each piece with his index finger, holding the pencil in his other hand.\n(C) The person counts the pieces of wood by picking each one up individually and placing it into a bag.\n(D) The person counts the pieces of wood by tapping them with a pencil in his right hand as he passes by.\n(E) The person counts the pieces of wood by sweeping his hand over them to estimate the total amount.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person counts the pieces of wood by tapping them with a pencil in his right hand as he passes by."
+    },
+    "correct_idx": [
+        3
+    ]
+}

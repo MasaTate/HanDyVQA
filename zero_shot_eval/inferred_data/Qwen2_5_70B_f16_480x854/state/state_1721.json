@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the window scraper change?",
+    "options": [
+        "The window scraper was gripped and rotated clockwise, and its position was altered when it was held.",
+        "The window scraper was gripped and rotated counter-clockwise, and its position remained the same when it was held.",
+        "The window scraper was picked up but not rotated, and it was held in its original position.",
+        "The window scraper was gripped and twisted slightly clockwise, but its position was not changed.",
+        "The window scraper was held and rotated in the opposite direction, resulting in a different alteration of its position."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the window scraper change? Choose **only one** option from the following list.\nOptions:\n(A) The window scraper was gripped and rotated clockwise, and its position was altered when it was held.\n(B) The window scraper was gripped and rotated counter-clockwise, and its position remained the same when it was held.\n(C) The window scraper was picked up but not rotated, and it was held in its original position.\n(D) The window scraper was gripped and twisted slightly clockwise, but its position was not changed.\n(E) The window scraper was held and rotated in the opposite direction, resulting in a different alteration of its position.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The window scraper was gripped and rotated clockwise, and its position was altered when it was held."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person scroll a phone?",
+    "options": [
+        "The person carefully swipes the phone screen with her/his thumb.",
+        "The person gently tilts the phone to navigate through the content.",
+        "The person slowly and vertically scrolls the phone using her/his right thumb.",
+        "The person softly taps the screen with her/his index finger to scroll.",
+        "The person holds the phone with both hands while moving it slightly sideways."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person scroll a phone? Choose **only one** option from the following list.\nOptions:\n(A) The person carefully swipes the phone screen with her/his thumb.\n(B) The person gently tilts the phone to navigate through the content.\n(C) The person slowly and vertically scrolls the phone using her/his right thumb.\n(D) The person softly taps the screen with her/his index finger to scroll.\n(E) The person holds the phone with both hands while moving it slightly sideways.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person slowly and vertically scrolls the phone using her/his right thumb."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the phone?",
+    "options": [
+        "The person placed the phone on top of the PC case.",
+        "The person placed the phone beside the keyboard on the desk.",
+        "The person placed the phone underneath the monitor.",
+        "The person placed the phone inside the PC case.",
+        "The person placed the phone in the drawer of the desk."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the phone? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the phone on top of the PC case.\n(B) The person placed the phone beside the keyboard on the desk.\n(C) The person placed the phone underneath the monitor.\n(D) The person placed the phone inside the PC case.\n(E) The person placed the phone in the drawer of the desk.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person placed the phone on top of the PC case."
+    },
+    "correct_idx": [
+        3
+    ]
+}

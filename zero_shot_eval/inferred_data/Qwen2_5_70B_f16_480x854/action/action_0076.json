@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person moves the tray from her right hand to her left hand while adjusting her scarf.",
+        "The person lifts the tray above her head with both hands while fixing her hair.",
+        "The person sets the tray down on the table with her left hand while smoothing her blouse with her right hand.",
+        "The person balances the tray on her knee with her left hand while tidying up the table with her right hand.",
+        "The person transfers the tray from the left hand to the right hand as she straightens her clothes."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the tray from her right hand to her left hand while adjusting her scarf.\n(B) The person lifts the tray above her head with both hands while fixing her hair.\n(C) The person sets the tray down on the table with her left hand while smoothing her blouse with her right hand.\n(D) The person balances the tray on her knee with her left hand while tidying up the table with her right hand.\n(E) The person transfers the tray from the left hand to the right hand as she straightens her clothes.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person transfers the tray from the left hand to the right hand as she straightens her clothes."
+    },
+    "correct_idx": [
+        4
+    ]
+}

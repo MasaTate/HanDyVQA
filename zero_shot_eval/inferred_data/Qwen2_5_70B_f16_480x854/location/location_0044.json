@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the white nylon?",
+    "options": [
+        "The person drops the white nylon onto the middle of the handmade bamboo scaffolding.",
+        "The person drops the white nylon onto the edge of the bamboo scaffolding.",
+        "The person drops the white nylon at the corner of the handmade bamboo scaffolding.",
+        "The person drops the white nylon onto the base of the bamboo scaffolding.",
+        "The person drops the white nylon onto the top of the bamboo scaffolding."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the white nylon? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the white nylon onto the middle of the handmade bamboo scaffolding.\n(B) The person drops the white nylon onto the edge of the bamboo scaffolding.\n(C) The person drops the white nylon at the corner of the handmade bamboo scaffolding.\n(D) The person drops the white nylon onto the base of the bamboo scaffolding.\n(E) The person drops the white nylon onto the top of the bamboo scaffolding.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person drops the white nylon onto the edge of the bamboo scaffolding."
+    },
+    "correct_idx": [
+        0
+    ]
+}

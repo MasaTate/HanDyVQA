@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person tightens the bolt to the step board with his right hand while supporting the board with his left hand.",
+        "The person loosens the bolt on the step board using a wrench in his right hand while stabilizing the board with his left hand.",
+        "The person is tightening the screw to the step board using a screwdriver in his left hand while holding the board with his right hand.",
+        "The person is adjusting the belt on the step board by pulling it with both hands while examining the board.",
+        "The person is lubricating the bolt of the step board with a grease applicator in his right hand while supporting the board with his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person tightens the bolt to the step board with his right hand while supporting the board with his left hand.\n(B) The person loosens the bolt on the step board using a wrench in his right hand while stabilizing the board with his left hand.\n(C) The person is tightening the screw to the step board using a screwdriver in his left hand while holding the board with his right hand.\n(D) The person is adjusting the belt on the step board by pulling it with both hands while examining the board.\n(E) The person is lubricating the bolt of the step board with a grease applicator in his right hand while supporting the board with his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person tightens the bolt to the step board with his right hand while supporting the board with his left hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

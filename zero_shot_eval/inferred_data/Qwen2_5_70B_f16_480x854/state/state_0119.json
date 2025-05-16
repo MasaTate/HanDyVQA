@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the paint container change?",
+    "options": [
+        "The handle of the paint container was pressed down, and the container was turned a quarter turn.",
+        "The handle of the paint container was pulled up, and the container was turned half a turn.",
+        "The handle of the paint container was pulled up, and the container was turned a full turn.",
+        "The handle of the paint container was lifted slightly, but the container was left unturned.",
+        "The handle of the paint container was pushed down, and then it was turned in the opposite direction."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the paint container change? Choose **only one** option from the following list.\nOptions:\n(A) The handle of the paint container was pressed down, and the container was turned a quarter turn.\n(B) The handle of the paint container was pulled up, and the container was turned half a turn.\n(C) The handle of the paint container was pulled up, and the container was turned a full turn.\n(D) The handle of the paint container was lifted slightly, but the container was left unturned.\n(E) The handle of the paint container was pushed down, and then it was turned in the opposite direction.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The handle of the paint container was pressed down, and the container was turned a quarter turn."
+    },
+    "correct_idx": [
+        1
+    ]
+}

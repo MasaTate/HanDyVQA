@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person holds the trumpet with his right hand while adjusting the mouthpiece with his left hand.",
+        "The person cleans the trumpet with a cloth in his left hand while gripping the stand with his right hand.",
+        "The person plays the piano with his left hand while the trumpet rests on his lap.",
+        "The person tunes the trumpet using a tuner in his right hand while holding a sheet of music with his left hand.",
+        "The person plays the horn with both hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the trumpet with his right hand while adjusting the mouthpiece with his left hand.\n(B) The person cleans the trumpet with a cloth in his left hand while gripping the stand with his right hand.\n(C) The person plays the piano with his left hand while the trumpet rests on his lap.\n(D) The person tunes the trumpet using a tuner in his right hand while holding a sheet of music with his left hand.\n(E) The person plays the horn with both hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person plays the horn with both hands."
+    },
+    "correct_idx": [
+        4
+    ]
+}

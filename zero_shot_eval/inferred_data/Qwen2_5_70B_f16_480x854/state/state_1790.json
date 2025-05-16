@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of tofu change?",
+    "options": [
+        "The tofu was lifted to the left using chopsticks.",
+        "The tofu was lifted to the right using chopsticks.",
+        "The tofu was pushed forward using chopsticks.",
+        "The tofu was rotated in place using chopsticks.",
+        "The tofu was lifted upwards using chopsticks."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of tofu change? Choose **only one** option from the following list.\nOptions:\n(A) The tofu was lifted to the left using chopsticks.\n(B) The tofu was lifted to the right using chopsticks.\n(C) The tofu was pushed forward using chopsticks.\n(D) The tofu was rotated in place using chopsticks.\n(E) The tofu was lifted upwards using chopsticks.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The tofu was lifted to the left using chopsticks."
+    },
+    "correct_idx": [
+        1
+    ]
+}

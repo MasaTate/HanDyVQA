@@ -1,0 +1,17 @@
+{
+    "question": "How does the person play the computer game?",
+    "options": [
+        "The person grips the mouse with both hands and moves it forward and backward while pressing the left button.",
+        "The person uses their left hand to move the mouse while tapping the spacebar with their right hand.",
+        "The person holds the mouse with the index and middle fingers of his right hand and rotates it in circles while clicking the left button continuously.",
+        "The person balances the mouse near the edge of the table and nudges it with his wrist while clicking the right button.",
+        "The person holds the mouse in his right hand and moves it from side to side while clicking the left and right buttons."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person play the computer game? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the mouse with both hands and moves it forward and backward while pressing the left button.\n(B) The person uses their left hand to move the mouse while tapping the spacebar with their right hand.\n(C) The person holds the mouse with the index and middle fingers of his right hand and rotates it in circles while clicking the left button continuously.\n(D) The person balances the mouse near the edge of the table and nudges it with his wrist while clicking the right button.\n(E) The person holds the mouse in his right hand and moves it from side to side while clicking the left and right buttons.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person holds the mouse in his right hand and moves it from side to side while clicking the left and right buttons."
+    },
+    "correct_idx": [
+        4
+    ]
+}

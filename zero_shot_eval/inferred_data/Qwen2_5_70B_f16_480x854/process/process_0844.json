@@ -1,0 +1,17 @@
+{
+    "question": "How does the person stretch her left hand?",
+    "options": [
+        "The person raises her left hand above her head while placing her right hand on her hip.",
+        "The person stretches her left hand out in front of her, reaching for an object on the shelf.",
+        "The person extends her left hand to the side, parallel to the floor, while resting against the wall.",
+        "The person waves her left hand in the air excitedly after stepping back from the cabinet.",
+        "The person stretches her left hand forward to feel the heat coming from the frying pan on the stove."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person stretch her left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person raises her left hand above her head while placing her right hand on her hip.\n(B) The person stretches her left hand out in front of her, reaching for an object on the shelf.\n(C) The person extends her left hand to the side, parallel to the floor, while resting against the wall.\n(D) The person waves her left hand in the air excitedly after stepping back from the cabinet.\n(E) The person stretches her left hand forward to feel the heat coming from the frying pan on the stove.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person stretches her left hand forward to feel the heat coming from the frying pan on the stove."
+    },
+    "correct_idx": [
+        4
+    ]
+}

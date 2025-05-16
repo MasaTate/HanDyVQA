@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "cuo",
+        "piston",
+        "rachet wrench",
+        "paste",
+        "plastic ware",
+        "light"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) cuo\n(B) piston\n(C) rachet wrench\n(D) paste\n(E) plastic ware\n(F) light\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(B) piston  \n(D) paste  \n\nThe hands in the video are manipulating a small mechanical component, which appears to be a piston, and applying a paste or lubricant to it. There is no visible use of a cup, ratchet wrench, plastic ware, or light in the actions being performed."
+    },
+    "correct_idx": [
+        1,
+        3
+    ]
+}

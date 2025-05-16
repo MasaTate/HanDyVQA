@@ -1,0 +1,17 @@
+{
+    "question": "How does the person slice the zucchini?",
+    "options": [
+        "The person holds the zucchini in his left hand while cutting through it with a diagonal motion using a large knife.",
+        "The person puts the zucchini on the chopping board and slices it with a tip-to-heel motion using his right hand.",
+        "The person presses down on the zucchini with both hands before slicing it gently with a consistent downward motion.",
+        "The person balances the zucchini on his lap and tries to chop it using a steady back-and-forth motion with a small knife.",
+        "The person lifts the zucchini above the counter and lets it settle before cutting it with a smooth twisting action."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person slice the zucchini? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the zucchini in his left hand while cutting through it with a diagonal motion using a large knife.\n(B) The person puts the zucchini on the chopping board and slices it with a tip-to-heel motion using his right hand.\n(C) The person presses down on the zucchini with both hands before slicing it gently with a consistent downward motion.\n(D) The person balances the zucchini on his lap and tries to chop it using a steady back-and-forth motion with a small knife.\n(E) The person lifts the zucchini above the counter and lets it settle before cutting it with a smooth twisting action.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person holds the zucchini in his left hand while cutting through it with a diagonal motion using a large knife."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person dip his right hand?",
+    "options": [
+        "The person lifts his right hand upward, moving away from the sack.",
+        "The person dips his right hand by lowering it down to the sack.",
+        "The person sways his right hand from side to side, avoiding contact with the sack.",
+        "The person pushes his right hand forward, extending it beyond the sack rather than lowering it.",
+        "The person rotates his right hand in circles above the sack, keeping it from dipping."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person dip his right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person lifts his right hand upward, moving away from the sack.\n(B) The person dips his right hand by lowering it down to the sack.\n(C) The person sways his right hand from side to side, avoiding contact with the sack.\n(D) The person pushes his right hand forward, extending it beyond the sack rather than lowering it.\n(E) The person rotates his right hand in circles above the sack, keeping it from dipping.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person dips his right hand by lowering it down to the sack."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is washing the car using a sponge with both hands.",
+        "The person is applying wax to the car with a brush using both hands.",
+        "The person is drying the car using a towel with one hand while holding a spray bottle in the other.",
+        "The person is vacuuming the interior of the car with a handheld vacuum using both hands.",
+        "The person is polishing the car using a cloth with both hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is washing the car using a sponge with both hands.\n(B) The person is applying wax to the car with a brush using both hands.\n(C) The person is drying the car using a towel with one hand while holding a spray bottle in the other.\n(D) The person is vacuuming the interior of the car with a handheld vacuum using both hands.\n(E) The person is polishing the car using a cloth with both hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person is polishing the car using a cloth with both hands."
+    },
+    "correct_idx": [
+        4
+    ]
+}

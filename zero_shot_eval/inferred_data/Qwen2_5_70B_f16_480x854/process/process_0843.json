@@ -1,0 +1,17 @@
+{
+    "question": "How does the person screw a bolt?",
+    "options": [
+        "The person holds the bolt gently with their right hand while using their left hand to twist it in a circular motion with slight pressure.",
+        "The person places the bolt on the surface and carefully presses down on it with the palm of the right hand, trying to stabilize it with minimal tools.",
+        "The person grips the bolt with the fingertips of both hands and moves it gently back and forth while positioning it into place.",
+        "The person screws a bolt by holding it tightly with a screwdriver on its left side using the left hand and twisting it upwards and downwards repeatedly using the right hand.",
+        "The person holds the screwdriver in their right hand and uses the left hand to guide the bolt while trying to secure it with twisting motions."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person screw a bolt? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the bolt gently with their right hand while using their left hand to twist it in a circular motion with slight pressure.\n(B) The person places the bolt on the surface and carefully presses down on it with the palm of the right hand, trying to stabilize it with minimal tools.\n(C) The person grips the bolt with the fingertips of both hands and moves it gently back and forth while positioning it into place.\n(D) The person screws a bolt by holding it tightly with a screwdriver on its left side using the left hand and twisting it upwards and downwards repeatedly using the right hand.\n(E) The person holds the screwdriver in their right hand and uses the left hand to guide the bolt while trying to secure it with twisting motions.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person holds the screwdriver in their right hand and uses the left hand to guide the bolt while trying to secure it with twisting motions."
+    },
+    "correct_idx": [
+        3
+    ]
+}

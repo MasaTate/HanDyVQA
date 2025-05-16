@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is preparing to mend the fabric using a ribbon in one hand while gripping the scissors in the other.",
+        "The person is preparing to sew the cloth with thread held in both hands.",
+        "The person is putting together a quilt using a pair of pins held in one hand and the patterned fabric in the other.",
+        "The person is arranging the fabric pieces using a tape measure in one hand while holding the cloth down with the other.",
+        "The person is preparing to weave a basket using a cord manipulated with one hand while securing the base with the other."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is preparing to mend the fabric using a ribbon in one hand while gripping the scissors in the other.\n(B) The person is preparing to sew the cloth with thread held in both hands.\n(C) The person is putting together a quilt using a pair of pins held in one hand and the patterned fabric in the other.\n(D) The person is arranging the fabric pieces using a tape measure in one hand while holding the cloth down with the other.\n(E) The person is preparing to weave a basket using a cord manipulated with one hand while securing the base with the other.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person is preparing to sew the cloth with thread held in both hands."
+    },
+    "correct_idx": [
+        1
+    ]
+}

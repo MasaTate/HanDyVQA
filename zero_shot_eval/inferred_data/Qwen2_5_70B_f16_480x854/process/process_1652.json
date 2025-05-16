@@ -1,0 +1,17 @@
+{
+    "question": "How does the person stop the spinning wheel?",
+    "options": [
+        "The person used his right hand to gently push against the spinning wheel, attempting to slow it down.",
+        "The person kneels down and carefully holds the wheel with both hands to try to bring it to a stop.",
+        "The person taps the side of the spinning wheel gently with his palm to interrupt its motion.",
+        "The person reaches out with a single finger to lightly touch the wheel, hoping to stop its spin.",
+        "The person used his left hand as a brake to stop the spinning wheel from rolling and fix the bicycle chain."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person stop the spinning wheel? Choose **only one** option from the following list.\nOptions:\n(A) The person used his right hand to gently push against the spinning wheel, attempting to slow it down.\n(B) The person kneels down and carefully holds the wheel with both hands to try to bring it to a stop.\n(C) The person taps the side of the spinning wheel gently with his palm to interrupt its motion.\n(D) The person reaches out with a single finger to lightly touch the wheel, hoping to stop its spin.\n(E) The person used his left hand as a brake to stop the spinning wheel from rolling and fix the bicycle chain.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person used his left hand as a brake to stop the spinning wheel from rolling and fix the bicycle chain."
+    },
+    "correct_idx": [
+        4
+    ]
+}

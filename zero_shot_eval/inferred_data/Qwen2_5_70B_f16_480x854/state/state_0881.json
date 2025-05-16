@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the metal rod change?",
+    "options": [
+        "The metal rod was slightly moved to the left.",
+        "The metal rod was slightly moved to the right.",
+        "The metal rod was moved slightly upward.",
+        "The metal rod was moved slightly forward.",
+        "The metal rod was moved slightly backward."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the metal rod change? Choose **only one** option from the following list.\nOptions:\n(A) The metal rod was slightly moved to the left.\n(B) The metal rod was slightly moved to the right.\n(C) The metal rod was moved slightly upward.\n(D) The metal rod was moved slightly forward.\n(E) The metal rod was moved slightly backward.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The metal rod was slightly moved to the right."
+    },
+    "correct_idx": [
+        1
+    ]
+}

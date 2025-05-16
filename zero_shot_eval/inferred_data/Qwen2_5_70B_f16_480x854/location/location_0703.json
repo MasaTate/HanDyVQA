@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the pieces of dough?",
+    "options": [
+        "The person places the pieces of dough on the kitchen counter.",
+        "The person places the pieces of dough on the prep table.",
+        "The person places the pieces of dough on the cutting board.",
+        "The person places the pieces of dough on the dining table.",
+        "The person places the pieces of dough on the shelf above the sink."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the pieces of dough? Choose **only one** option from the following list.\nOptions:\n(A) The person places the pieces of dough on the kitchen counter.\n(B) The person places the pieces of dough on the prep table.\n(C) The person places the pieces of dough on the cutting board.\n(D) The person places the pieces of dough on the dining table.\n(E) The person places the pieces of dough on the shelf above the sink.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person places the pieces of dough on the prep table."
+    },
+    "correct_idx": [
+        1
+    ]
+}

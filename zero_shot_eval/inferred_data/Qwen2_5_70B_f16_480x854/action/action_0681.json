@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person switches the sandpaper in his right hand to his left hand.",
+        "The person moves the paintbrush in his right hand to his left hand.",
+        "The person places the sandpaper on the table with his right hand while holding a piece of wood with his left hand.",
+        "The person grips the sandpaper with his right hand while using his left hand to smooth the edges of a wooden frame.",
+        "The person passes the sandpaper from his right hand to a friend, who is standing beside him with an outstretched left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person switches the sandpaper in his right hand to his left hand.\n(B) The person moves the paintbrush in his right hand to his left hand.\n(C) The person places the sandpaper on the table with his right hand while holding a piece of wood with his left hand.\n(D) The person grips the sandpaper with his right hand while using his left hand to smooth the edges of a wooden frame.\n(E) The person passes the sandpaper from his right hand to a friend, who is standing beside him with an outstretched left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person switches the sandpaper in his right hand to his left hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

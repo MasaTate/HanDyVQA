@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of another ball towards the man change?",
+    "options": [
+        "The ball was rolled toward the man, causing a change in its location as it traveled across the ground.",
+        "The ball was thrown toward the man, causing a change in position as it moved in his direction.",
+        "The ball was bounced toward the man, causing a shift in its position as it leaped off the surface.",
+        "The ball was passed toward the man, causing a change in its trajectory as it was directed through the air.",
+        "The ball was kicked toward the man, causing a change in its state as it flew in his direction."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of another ball towards the man change? Choose **only one** option from the following list.\nOptions:\n(A) The ball was rolled toward the man, causing a change in its location as it traveled across the ground.\n(B) The ball was thrown toward the man, causing a change in position as it moved in his direction.\n(C) The ball was bounced toward the man, causing a shift in its position as it leaped off the surface.\n(D) The ball was passed toward the man, causing a change in its trajectory as it was directed through the air.\n(E) The ball was kicked toward the man, causing a change in its state as it flew in his direction.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The ball was thrown toward the man, causing a change in position as it moved in his direction."
+    },
+    "correct_idx": [
+        1
+    ]
+}

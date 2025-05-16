@@ -1,0 +1,17 @@
+{
+    "question": "How does the person slide the cards?",
+    "options": [
+        "The person gently pushes the cards with a steady movement of his hand.",
+        "The person smoothly rotates his wrist to direct the cards in a wide arc across the table.",
+        "The person slides the cards with the fingers of his left hand, moving them towards himself.",
+        "The person slightly lifts the cards and lets them settle onto the table's surface.",
+        "The person holds the cards with a firm grip and moves them closely along the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person slide the cards? Choose **only one** option from the following list.\nOptions:\n(A) The person gently pushes the cards with a steady movement of his hand.\n(B) The person smoothly rotates his wrist to direct the cards in a wide arc across the table.\n(C) The person slides the cards with the fingers of his left hand, moving them towards himself.\n(D) The person slightly lifts the cards and lets them settle onto the table's surface.\n(E) The person holds the cards with a firm grip and moves them closely along the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person slides the cards with the fingers of his left hand, moving them towards himself."
+    },
+    "correct_idx": [
+        2
+    ]
+}

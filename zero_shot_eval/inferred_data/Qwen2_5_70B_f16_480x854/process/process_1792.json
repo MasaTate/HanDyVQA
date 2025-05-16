@@ -1,0 +1,17 @@
+{
+    "question": "How does the person mark the wooden board?",
+    "options": [
+        "The person marks the wooden board with a pen in the right hand, while using the left hand to hold the ruler near the middle of the board.",
+        "The person uses a piece of chalk held with the left hand to mark the wooden board, while the right hand steadies the ruler along the side.",
+        "The person lightly sketches on the wooden board with a crayon in the right hand, while the left hand holds the ruler at a slight angle.",
+        "The person marks the wooden board with a pencil held in the left hand, while using the right hand to hold a ruler near the edge of the wood.",
+        "The person marks the wooden board with a piece of charcoal in the left hand, pressing the ruler with the right hand against the side of the board."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person mark the wooden board? Choose **only one** option from the following list.\nOptions:\n(A) The person marks the wooden board with a pen in the right hand, while using the left hand to hold the ruler near the middle of the board.\n(B) The person uses a piece of chalk held with the left hand to mark the wooden board, while the right hand steadies the ruler along the side.\n(C) The person lightly sketches on the wooden board with a crayon in the right hand, while the left hand holds the ruler at a slight angle.\n(D) The person marks the wooden board with a pencil held in the left hand, while using the right hand to hold a ruler near the edge of the wood.\n(E) The person marks the wooden board with a piece of charcoal in the left hand, pressing the ruler with the right hand against the side of the board.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person marks the wooden board with a pencil held in the left hand, while using the right hand to hold a ruler near the edge of the wood."
+    },
+    "correct_idx": [
+        3
+    ]
+}

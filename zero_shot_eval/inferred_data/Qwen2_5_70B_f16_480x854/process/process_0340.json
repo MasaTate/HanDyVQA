@@ -1,0 +1,17 @@
+{
+    "question": "How does the person roll the dough over the baking table?",
+    "options": [
+        "The person pinches the edges of the dough and gently lifts it off the table with a deliberate movement.",
+        "The person uses both hands to carefully spread the dough, creating an even shape as they stretch it.",
+        "The person places the dough onto the table with both hands and lets it rest evenly without rolling.",
+        "The person taps the dough smoothly with the palm of their hand, allowing it to flatten evenly as they work.",
+        "The person presses down with their right hand and rolls the dough backward in one smooth motion."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person roll the dough over the baking table? Choose **only one** option from the following list.\nOptions:\n(A) The person pinches the edges of the dough and gently lifts it off the table with a deliberate movement.\n(B) The person uses both hands to carefully spread the dough, creating an even shape as they stretch it.\n(C) The person places the dough onto the table with both hands and lets it rest evenly without rolling.\n(D) The person taps the dough smoothly with the palm of their hand, allowing it to flatten evenly as they work.\n(E) The person presses down with their right hand and rolls the dough backward in one smooth motion.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person taps the dough smoothly with the palm of their hand, allowing it to flatten evenly as they work."
+    },
+    "correct_idx": [
+        4
+    ]
+}

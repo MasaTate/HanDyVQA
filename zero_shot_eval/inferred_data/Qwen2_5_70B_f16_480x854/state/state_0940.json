@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the tree branch change?",
+    "options": [
+        "The tree branch was cut by a chainsaw and remained hanging instead of being caught.",
+        "The tree branch was cut by a chainsaw and fell straight down instead of being caught.",
+        "The tree branch was cut by a chainsaw and toppled sideways instead of being caught.",
+        "The tree branch was cut by a chainsaw and was falling instead of being caught.",
+        "The tree branch was cut by a chainsaw and splintered into the tree instead of being caught."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the tree branch change? Choose **only one** option from the following list.\nOptions:\n(A) The tree branch was cut by a chainsaw and remained hanging instead of being caught.\n(B) The tree branch was cut by a chainsaw and fell straight down instead of being caught.\n(C) The tree branch was cut by a chainsaw and toppled sideways instead of being caught.\n(D) The tree branch was cut by a chainsaw and was falling instead of being caught.\n(E) The tree branch was cut by a chainsaw and splintered into the tree instead of being caught.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The tree branch was cut by a chainsaw and was falling instead of being caught."
+    },
+    "correct_idx": [
+        3
+    ]
+}

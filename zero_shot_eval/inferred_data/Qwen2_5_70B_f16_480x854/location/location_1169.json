@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the electric iron on the ironing table?",
+    "options": [
+        "the person drops the electric iron on the left side of the iron table.",
+        "The person drops the electric iron on the right side of the iron table.",
+        "the person drops the electric iron on the center of the ironing table.",
+        "the person drops the electric iron on the far edge of the ironing table.",
+        "the person drops the electric iron on the back side of the ironing table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the electric iron on the ironing table? Choose **only one** option from the following list.\nOptions:\n(A) the person drops the electric iron on the left side of the iron table.\n(B) The person drops the electric iron on the right side of the iron table.\n(C) the person drops the electric iron on the center of the ironing table.\n(D) the person drops the electric iron on the far edge of the ironing table.\n(E) the person drops the electric iron on the back side of the ironing table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person drops the electric iron on the right side of the iron table."
+    },
+    "correct_idx": [
+        1
+    ]
+}

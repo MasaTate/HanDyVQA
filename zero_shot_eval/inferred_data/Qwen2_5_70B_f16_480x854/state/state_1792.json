@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the frying pan change?",
+    "options": [
+        "The frying pan was cleaned and its surface was free of residue.",
+        "The frying pan was heated until it was ready for cooking.",
+        "The frying pan was scratched and showed signs of wear on its surface.",
+        "The frying pan was soaked in soapy water and had a shine after washing.",
+        "The frying pan was coated with oil and had a slick surface."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the frying pan change? Choose **only one** option from the following list.\nOptions:\n(A) The frying pan was cleaned and its surface was free of residue.\n(B) The frying pan was heated until it was ready for cooking.\n(C) The frying pan was scratched and showed signs of wear on its surface.\n(D) The frying pan was soaked in soapy water and had a shine after washing.\n(E) The frying pan was coated with oil and had a slick surface.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The frying pan was cleaned and its surface was free of residue."
+    },
+    "correct_idx": [
+        0
+    ]
+}

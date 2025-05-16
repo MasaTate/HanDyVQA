@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is erasing the drawing paper with their right hand while holding an eraser, and using their left hand to hold the paper.",
+        "The person is coloring the drawing paper with their right hand while gripping a marker, and using their left hand to hold the paper.",
+        "The person is wiping the drawing paper with their right hand while holding a pencil, and using their left hand to hold the paper.",
+        "The person is folding the drawing paper with their right hand while holding scissors, and using their left hand to press down the paper.",
+        "The person is sketching on the drawing paper with their right hand while holding a paintbrush, and using their left hand to balance the paper."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is erasing the drawing paper with their right hand while holding an eraser, and using their left hand to hold the paper.\n(B) The person is coloring the drawing paper with their right hand while gripping a marker, and using their left hand to hold the paper.\n(C) The person is wiping the drawing paper with their right hand while holding a pencil, and using their left hand to hold the paper.\n(D) The person is folding the drawing paper with their right hand while holding scissors, and using their left hand to press down the paper.\n(E) The person is sketching on the drawing paper with their right hand while holding a paintbrush, and using their left hand to balance the paper.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person is sketching on the drawing paper with their right hand while holding a paintbrush, and using their left hand to balance the paper."
+    },
+    "correct_idx": [
+        2
+    ]
+}

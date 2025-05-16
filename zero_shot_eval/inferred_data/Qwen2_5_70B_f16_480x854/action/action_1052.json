@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person takes a red backpack from the woman using his left hand.",
+        "The person reaches for a purple polythene bag on the table with his right hand.",
+        "The person receives a purple polythene bag from the man with his left hand.",
+        "The person gives a purple polythene bag to the man with his left hand.",
+        "The person holds a purple polythene bag in his left hand while reaching for his wallet with his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person takes a red backpack from the woman using his left hand.\n(B) The person reaches for a purple polythene bag on the table with his right hand.\n(C) The person receives a purple polythene bag from the man with his left hand.\n(D) The person gives a purple polythene bag to the man with his left hand.\n(E) The person holds a purple polythene bag in his left hand while reaching for his wallet with his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person receives a purple polythene bag from the man with his left hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

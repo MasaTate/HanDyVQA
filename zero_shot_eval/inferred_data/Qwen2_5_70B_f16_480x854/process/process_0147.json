@@ -1,0 +1,17 @@
+{
+    "question": "How does the person rotate the piece of paper?",
+    "options": [
+        "The person uses both hands to hold the paper at the center and then gently flips it, adjusting its angle as needed.",
+        "The person holds the paper flat on the table with one hand and smoothly slides it sideways without altering its orientation.",
+        "The person pinches the corner of the paper with his right hand and gently moves it, helping it rotate carefully to the desired angle.",
+        "The person holds the paper with one hand near the top and carefully shifts it downward, allowing it to pivot to the intended position.",
+        "The person grips the edge of the paper with the fingers of his left hand, then applies a slight twisting motion to rotate the paper, adjusting its position to the desired angle."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person rotate the piece of paper? Choose **only one** option from the following list.\nOptions:\n(A) The person uses both hands to hold the paper at the center and then gently flips it, adjusting its angle as needed.\n(B) The person holds the paper flat on the table with one hand and smoothly slides it sideways without altering its orientation.\n(C) The person pinches the corner of the paper with his right hand and gently moves it, helping it rotate carefully to the desired angle.\n(D) The person holds the paper with one hand near the top and carefully shifts it downward, allowing it to pivot to the intended position.\n(E) The person grips the edge of the paper with the fingers of his left hand, then applies a slight twisting motion to rotate the paper, adjusting its position to the desired angle.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person grips the edge of the paper with the fingers of his left hand, then applies a slight twisting motion to rotate the paper, adjusting its position to the desired angle."
+    },
+    "correct_idx": [
+        4
+    ]
+}

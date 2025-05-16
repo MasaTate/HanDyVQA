@@ -1,0 +1,17 @@
+{
+    "question": "How does the person place her left hand?",
+    "options": [
+        "The person lifts her left hand, moves it forward, and places her left hand onto the center of the notebook.",
+        "The person lowers her left hand onto the table and slides it to the left part of the notebook.",
+        "The person extends her left hand and places it gently onto the right part of the notebook with minimal adjustment.",
+        "The person raises her left hand and gently lets it fall towards the notebook.",
+        "The person observes her left hand and rotates it, and then places her left hand on the left part of the notebook."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person place her left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person lifts her left hand, moves it forward, and places her left hand onto the center of the notebook.\n(B) The person lowers her left hand onto the table and slides it to the left part of the notebook.\n(C) The person extends her left hand and places it gently onto the right part of the notebook with minimal adjustment.\n(D) The person raises her left hand and gently lets it fall towards the notebook.\n(E) The person observes her left hand and rotates it, and then places her left hand on the left part of the notebook.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person lifts her left hand, moves it forward, and places her left hand onto the center of the notebook."
+    },
+    "correct_idx": [
+        4
+    ]
+}

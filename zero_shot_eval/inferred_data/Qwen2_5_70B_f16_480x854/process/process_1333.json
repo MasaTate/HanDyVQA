@@ -1,0 +1,17 @@
+{
+    "question": "How does the person chop the piece of carrot with the cleaver?",
+    "options": [
+        "The person cuts the piece of carrot with the cleaver by bringing the blade down firmly, making larger chunks.",
+        "The person chops the piece of carrot with the cleaver into small slices by slicing it down using the knife.",
+        "The person uses the cleaver on the carrot to press it gently instead of chopping slices.",
+        "The person raises the cleaver above the carrot and then lowers it decisively in a single motion.",
+        "The person holds the carrot steady with one hand while the other hand attempts to cut into the carrot with the cleaver."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person chop the piece of carrot with the cleaver? Choose **only one** option from the following list.\nOptions:\n(A) The person cuts the piece of carrot with the cleaver by bringing the blade down firmly, making larger chunks.\n(B) The person chops the piece of carrot with the cleaver into small slices by slicing it down using the knife.\n(C) The person uses the cleaver on the carrot to press it gently instead of chopping slices.\n(D) The person raises the cleaver above the carrot and then lowers it decisively in a single motion.\n(E) The person holds the carrot steady with one hand while the other hand attempts to cut into the carrot with the cleaver.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person cuts the piece of carrot with the cleaver by bringing the blade down firmly, making larger chunks."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person tears out the edges of the paper with the right hand while the left hand ensures the paper stays flat on the table using a ruler.",
+        "The person folds the paper in half with the right hand while the left hand keeps the paper steady on the table using a weight.",
+        "The person cuts the paper into smaller pieces with scissors in the right hand while the left hand holds the paper steady on the table.",
+        "The person glues the edges of the paper together with the right hand while the left hand lifts the paper slightly off the table.",
+        "The person smooths out the wrinkles in the paper with the right hand while the left hand gently raises the opposite side of the paper off the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person tears out the edges of the paper with the right hand while the left hand ensures the paper stays flat on the table using a ruler.\n(B) The person folds the paper in half with the right hand while the left hand keeps the paper steady on the table using a weight.\n(C) The person cuts the paper into smaller pieces with scissors in the right hand while the left hand holds the paper steady on the table.\n(D) The person glues the edges of the paper together with the right hand while the left hand lifts the paper slightly off the table.\n(E) The person smooths out the wrinkles in the paper with the right hand while the left hand gently raises the opposite side of the paper off the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person tears out the edges of the paper with the right hand while the left hand ensures the paper stays flat on the table using a ruler."
+    },
+    "correct_idx": [
+        0
+    ]
+}

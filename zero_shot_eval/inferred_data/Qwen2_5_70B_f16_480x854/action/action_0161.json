@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person lifts the drumstick with their right hand, intending to place it on a plate while holding a glass of water in their left hand.",
+        "The person transfers the drumstick to their left hand to set something aside before taking it back with their right hand.",
+        "The person rotates the drumstick in their right hand and simultaneously picks up a fork with their left hand.",
+        "The person sets the drumstick down using their right hand while reaching for a napkin with their left hand.",
+        "The person grips the drumstick securely with both hands to take a bite."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person lifts the drumstick with their right hand, intending to place it on a plate while holding a glass of water in their left hand.\n(B) The person transfers the drumstick to their left hand to set something aside before taking it back with their right hand.\n(C) The person rotates the drumstick in their right hand and simultaneously picks up a fork with their left hand.\n(D) The person sets the drumstick down using their right hand while reaching for a napkin with their left hand.\n(E) The person grips the drumstick securely with both hands to take a bite.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person transfers the drumstick to their left hand to set something aside before taking it back with their right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

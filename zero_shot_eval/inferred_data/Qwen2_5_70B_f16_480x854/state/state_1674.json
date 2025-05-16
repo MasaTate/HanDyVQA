@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the needle change?",
+    "options": [
+        "The needle was pushed down while being kept steady.",
+        "The needle was lifted while being rotated in the opposite direction.",
+        "The needle was held still without being lifted or rotated.",
+        "The needle was lifted carefully without any rotation.",
+        "The needle was lifted carefully while being rotated slightly."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the needle change? Choose **only one** option from the following list.\nOptions:\n(A) The needle was pushed down while being kept steady.\n(B) The needle was lifted while being rotated in the opposite direction.\n(C) The needle was held still without being lifted or rotated.\n(D) The needle was lifted carefully without any rotation.\n(E) The needle was lifted carefully while being rotated slightly.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The needle was lifted carefully while being rotated slightly."
+    },
+    "correct_idx": [
+        4
+    ]
+}

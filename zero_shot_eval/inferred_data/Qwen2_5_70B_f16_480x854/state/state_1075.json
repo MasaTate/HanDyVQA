@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the yarn fro change?",
+    "options": [
+        "The yarn was tangled and wrapped around itself.",
+        "The yarn was unraveled and laid out in a line.",
+        "The yarn was pulled and knitted into a pattern.",
+        "The yarn was dyed and altered to a different color.",
+        "The yarn was twisted and intertwined with another strand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the yarn fro change? Choose **only one** option from the following list.\nOptions:\n(A) The yarn was tangled and wrapped around itself.\n(B) The yarn was unraveled and laid out in a line.\n(C) The yarn was pulled and knitted into a pattern.\n(D) The yarn was dyed and altered to a different color.\n(E) The yarn was twisted and intertwined with another strand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The yarn was pulled and knitted into a pattern."
+    },
+    "correct_idx": [
+        2
+    ]
+}

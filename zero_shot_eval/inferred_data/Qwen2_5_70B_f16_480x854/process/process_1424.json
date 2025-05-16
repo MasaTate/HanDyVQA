@@ -1,0 +1,17 @@
+{
+    "question": "How does the person make hand gestures?",
+    "options": [
+        "The person waves their left hand while pointing at the ground with the index finger of the right hand.",
+        "The person clenches both fists and shakes them slightly while looking around the room.",
+        "The person raises both arms above their head and spins slowly in circles while smiling.",
+        "The person makes hand gestures by moving the right hand up and pointing it at the tent.",
+        "The person softly taps their fingers together on their palm while nodding their head."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person make hand gestures? Choose **only one** option from the following list.\nOptions:\n(A) The person waves their left hand while pointing at the ground with the index finger of the right hand.\n(B) The person clenches both fists and shakes them slightly while looking around the room.\n(C) The person raises both arms above their head and spins slowly in circles while smiling.\n(D) The person makes hand gestures by moving the right hand up and pointing it at the tent.\n(E) The person softly taps their fingers together on their palm while nodding their head.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person makes hand gestures by moving the right hand up and pointing it at the tent."
+    },
+    "correct_idx": [
+        3
+    ]
+}

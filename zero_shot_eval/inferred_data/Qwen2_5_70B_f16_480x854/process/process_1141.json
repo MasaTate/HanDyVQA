@@ -1,0 +1,17 @@
+{
+    "question": "How does the person take the needle?",
+    "options": [
+        "The person grabs the needle with her left hand, using a pinching motion to add some compression to the sides.",
+        "The person reaches out and guides the needle off the table, using her hand in a smooth motion.",
+        "The person picks up the needle by adding some pressure in compressing the fingers from the table with her right hand.",
+        "The person uses her thumb and forefinger from her right hand to lift the needle, applying light pressure on the sides.",
+        "The person bends down and collects the needle into her palm with her fingers, applying slight pressure from above."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person take the needle? Choose **only one** option from the following list.\nOptions:\n(A) The person grabs the needle with her left hand, using a pinching motion to add some compression to the sides.\n(B) The person reaches out and guides the needle off the table, using her hand in a smooth motion.\n(C) The person picks up the needle by adding some pressure in compressing the fingers from the table with her right hand.\n(D) The person uses her thumb and forefinger from her right hand to lift the needle, applying light pressure on the sides.\n(E) The person bends down and collects the needle into her palm with her fingers, applying slight pressure from above.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person uses her thumb and forefinger from her right hand to lift the needle, applying light pressure on the sides."
+    },
+    "correct_idx": [
+        2
+    ]
+}

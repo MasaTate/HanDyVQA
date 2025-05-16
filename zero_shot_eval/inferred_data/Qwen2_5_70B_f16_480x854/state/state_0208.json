@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the wok change?",
+    "options": [
+        "The cooked ingredients in the wok were transferred to other dishes, but the wok doesn't change its state.",
+        "The uncooked ingredients were added to the wok and then removed, modifying its contents but not its state.",
+        "The wok was left on the stove with the cooked ingredients still inside, maintaining everything as it is.",
+        "The ingredients were stirred in the wok and then left there, without being moved to other dishes.",
+        "The wok was emptied completely, but it was not used to transfer anything to other dishes."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the wok change? Choose **only one** option from the following list.\nOptions:\n(A) The cooked ingredients in the wok were transferred to other dishes, but the wok doesn't change its state.\n(B) The uncooked ingredients were added to the wok and then removed, modifying its contents but not its state.\n(C) The wok was left on the stove with the cooked ingredients still inside, maintaining everything as it is.\n(D) The ingredients were stirred in the wok and then left there, without being moved to other dishes.\n(E) The wok was emptied completely, but it was not used to transfer anything to other dishes.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The cooked ingredients in the wok were transferred to other dishes, but the wok doesn't change its state."
+    },
+    "correct_idx": [
+        0
+    ]
+}

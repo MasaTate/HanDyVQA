@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a wingnut change?",
+    "options": [
+        "The wingnut was rotated clockwise with consistent light force throughout.",
+        "The wingnut was rotated counterclockwise with moderate force and then held steady.",
+        "The wingnut was rotated clockwise briefly before a pause, then turned again.",
+        "The wingnut was turned counterclockwise with varying force and then stopped halfway.",
+        "The wingnut was rotated counterclockwise with strong force at first and then with light force."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a wingnut change? Choose **only one** option from the following list.\nOptions:\n(A) The wingnut was rotated clockwise with consistent light force throughout.\n(B) The wingnut was rotated counterclockwise with moderate force and then held steady.\n(C) The wingnut was rotated clockwise briefly before a pause, then turned again.\n(D) The wingnut was turned counterclockwise with varying force and then stopped halfway.\n(E) The wingnut was rotated counterclockwise with strong force at first and then with light force.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The wingnut was rotated counterclockwise with moderate force and then held steady."
+    },
+    "correct_idx": [
+        4
+    ]
+}

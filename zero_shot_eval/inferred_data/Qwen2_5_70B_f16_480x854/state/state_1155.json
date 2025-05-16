@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the drawing paper change?",
+    "options": [
+        "The drawing paper had old drawings removed, resulting in a blank and clean surface.",
+        "The drawing paper was crumpled and wrinkled, resulting in a textured appearance.",
+        "The drawing paper had new drawings added, incorporating more lines, details, and elements.",
+        "The drawing paper was stained with ink, resulting in dark spots and smudges on its surface.",
+        "The drawing paper was torn into jagged pieces, rendering it unusable for further drawing."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the drawing paper change? Choose **only one** option from the following list.\nOptions:\n(A) The drawing paper had old drawings removed, resulting in a blank and clean surface.\n(B) The drawing paper was crumpled and wrinkled, resulting in a textured appearance.\n(C) The drawing paper had new drawings added, incorporating more lines, details, and elements.\n(D) The drawing paper was stained with ink, resulting in dark spots and smudges on its surface.\n(E) The drawing paper was torn into jagged pieces, rendering it unusable for further drawing.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The drawing paper had new drawings added, incorporating more lines, details, and elements."
+    },
+    "correct_idx": [
+        2
+    ]
+}

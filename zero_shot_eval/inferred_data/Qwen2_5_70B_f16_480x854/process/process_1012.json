@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pull another branch?",
+    "options": [
+        "The person gently brushes against the nearby branch and nudges it to see if it moves with his left hand.",
+        "The person uses both hands to apply force on the branch as if to push it away instead of pulling it towards him.",
+        "The person holds the branch with one hand but instead of pulling, slightly twists it.",
+        "The person reaches out confidently with his right hand and taps the branch before retracting his hand slowly.",
+        "The person firmly grasps a nearby branch, applies steady force, and pulls it using his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pull another branch? Choose **only one** option from the following list.\nOptions:\n(A) The person gently brushes against the nearby branch and nudges it to see if it moves with his left hand.\n(B) The person uses both hands to apply force on the branch as if to push it away instead of pulling it towards him.\n(C) The person holds the branch with one hand but instead of pulling, slightly twists it.\n(D) The person reaches out confidently with his right hand and taps the branch before retracting his hand slowly.\n(E) The person firmly grasps a nearby branch, applies steady force, and pulls it using his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person firmly grasps a nearby branch, applies steady force, and pulls it using his right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the drawing on the wall change?",
+    "options": [
+        "Some white part of the drawing on the wall was painted with a blue color.",
+        "Some white part of the drawing on the wall was painted with a red color.",
+        "Some blue part of the drawing on the wall was painted with a green color.",
+        "Some white part of the drawing on the wall was painted with a green color.",
+        "Some white part of the drawing on the wall was painted with a yellow color."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the drawing on the wall change? Choose **only one** option from the following list.\nOptions:\n(A) Some white part of the drawing on the wall was painted with a blue color.\n(B) Some white part of the drawing on the wall was painted with a red color.\n(C) Some blue part of the drawing on the wall was painted with a green color.\n(D) Some white part of the drawing on the wall was painted with a green color.\n(E) Some white part of the drawing on the wall was painted with a yellow color.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) Some white part of the drawing on the wall was painted with a green color."
+    },
+    "correct_idx": [
+        3
+    ]
+}

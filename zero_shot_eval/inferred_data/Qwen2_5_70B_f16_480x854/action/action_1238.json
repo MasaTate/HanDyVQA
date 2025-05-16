@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is holding a flower pot in one hand while using the other hand to arrange stones on a table.",
+        "The person is placing the stone in a flower pot.",
+        "The person is removing weeds from the garden bed with his right hand while holding a trowel in his left hand.",
+        "The person is watering the plants with a watering can in both hands while stones lay on the ground nearby.",
+        "The person is picking up soil from a bag with one hand while digging a hole with a shovel in the other hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is holding a flower pot in one hand while using the other hand to arrange stones on a table.\n(B) The person is placing the stone in a flower pot.\n(C) The person is removing weeds from the garden bed with his right hand while holding a trowel in his left hand.\n(D) The person is watering the plants with a watering can in both hands while stones lay on the ground nearby.\n(E) The person is picking up soil from a bag with one hand while digging a hole with a shovel in the other hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person is placing the stone in a flower pot."
+    },
+    "correct_idx": [
+        1
+    ]
+}

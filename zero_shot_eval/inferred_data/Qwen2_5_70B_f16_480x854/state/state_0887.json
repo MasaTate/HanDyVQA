@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a nut from the tire change?",
+    "options": [
+        "The nut was twisted clockwise.",
+        "The nut was loosened slightly counterclockwise.",
+        "The nut was twisted but not removed completely.",
+        "The nut was twisted counterclockwise partially.",
+        "The nut was twisted counterclockwise."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a nut from the tire change? Choose **only one** option from the following list.\nOptions:\n(A) The nut was twisted clockwise.\n(B) The nut was loosened slightly counterclockwise.\n(C) The nut was twisted but not removed completely.\n(D) The nut was twisted counterclockwise partially.\n(E) The nut was twisted counterclockwise.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The nut was twisted counterclockwise partially."
+    },
+    "correct_idx": [
+        4
+    ]
+}

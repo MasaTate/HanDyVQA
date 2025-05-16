@@ -1,0 +1,17 @@
+{
+    "question": "How does the person move the spanner?",
+    "options": [
+        "The person shifts the spanner by gripping it with both hands and pulling it toward himself.",
+        "The person shifts the spanner by lifting it slightly upwards with his left hand and then letting it settle back down.",
+        "The person shifts the spanner by moving it aside using his right hand.",
+        "The person shifts the spanner by sliding it across the workbench using his right hand.",
+        "The person shifts the spanner by gently pushing it with his palm to move it aside."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person move the spanner? Choose **only one** option from the following list.\nOptions:\n(A) The person shifts the spanner by gripping it with both hands and pulling it toward himself.\n(B) The person shifts the spanner by lifting it slightly upwards with his left hand and then letting it settle back down.\n(C) The person shifts the spanner by moving it aside using his right hand.\n(D) The person shifts the spanner by sliding it across the workbench using his right hand.\n(E) The person shifts the spanner by gently pushing it with his palm to move it aside.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person shifts the spanner by moving it aside using his right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

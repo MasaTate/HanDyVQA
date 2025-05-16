@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the shrub change?",
+    "options": [
+        "The dead branches of the shrub were pulled off carefully and at a moderate pace.",
+        "The healthy leaves of the shrub were removed with scissors.",
+        "The dead branches of the shrub were pulled off vigorously.",
+        "The dead branches of the shrub were trimmed with a small saw instead of being pulled.",
+        "The shrub was shaken instead of having its dead branches pulled off."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the shrub change? Choose **only one** option from the following list.\nOptions:\n(A) The dead branches of the shrub were pulled off carefully and at a moderate pace.\n(B) The healthy leaves of the shrub were removed with scissors.\n(C) The dead branches of the shrub were pulled off vigorously.\n(D) The dead branches of the shrub were trimmed with a small saw instead of being pulled.\n(E) The shrub was shaken instead of having its dead branches pulled off.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The dead branches of the shrub were pulled off carefully and at a moderate pace."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pack the yam?",
+    "options": [
+        "The person grabs the yam with both hands and guides it gently into the round plastic container, not using the knife.",
+        "The person slides the yam using their left hand along the flat surface of the knife using their right hand, then uses their left hand to pick up some yam and place it into the round plastic container.",
+        "The person lifts the yam with their right hand and smoothly places it into the round plastic container from above.",
+        "The person uses their right hand to carefully scoop up the yam and set it into the round plastic container with precision.",
+        "The person pushes the yam off the knife with their palm and assists it into the round plastic container with the help of their fingers."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pack the yam? Choose **only one** option from the following list.\nOptions:\n(A) The person grabs the yam with both hands and guides it gently into the round plastic container, not using the knife.\n(B) The person slides the yam using their left hand along the flat surface of the knife using their right hand, then uses their left hand to pick up some yam and place it into the round plastic container.\n(C) The person lifts the yam with their right hand and smoothly places it into the round plastic container from above.\n(D) The person uses their right hand to carefully scoop up the yam and set it into the round plastic container with precision.\n(E) The person pushes the yam off the knife with their palm and assists it into the round plastic container with the help of their fingers.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person slides the yam using their left hand along the flat surface of the knife using their right hand, then uses their left hand to pick up some yam and place it into the round plastic container."
+    },
+    "correct_idx": [
+        1
+    ]
+}

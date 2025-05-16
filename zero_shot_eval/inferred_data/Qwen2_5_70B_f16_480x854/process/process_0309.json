@@ -1,0 +1,17 @@
+{
+    "question": "How does the person tighten the nut?",
+    "options": [
+        "The person tightens the nut by using a wrench in their right hand and turning it slightly clockwise.",
+        "The person grips the nut gently with their fingers in the left hand and twists it slightly counterclockwise.",
+        "The person holds the wrench with both hands and moves it slightly up from the nut without turning it.",
+        "The person applies gentle pressure on the nut with the heel of their hand and pushes it slightly down.",
+        "The person tightens the nut with a wrench in their right hand and turning it gently counterclockwise."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person tighten the nut? Choose **only one** option from the following list.\nOptions:\n(A) The person tightens the nut by using a wrench in their right hand and turning it slightly clockwise.\n(B) The person grips the nut gently with their fingers in the left hand and twists it slightly counterclockwise.\n(C) The person holds the wrench with both hands and moves it slightly up from the nut without turning it.\n(D) The person applies gentle pressure on the nut with the heel of their hand and pushes it slightly down.\n(E) The person tightens the nut with a wrench in their right hand and turning it gently counterclockwise.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person tightens the nut by using a wrench in their right hand and turning it slightly clockwise."
+    },
+    "correct_idx": [
+        0
+    ]
+}

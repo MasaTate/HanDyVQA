@@ -1,0 +1,17 @@
+{
+    "question": "How does the person flip the dough in the frying pan?",
+    "options": [
+        "The person flips the dough using a fork and then places it onto the plate with their right hand.",
+        "The person uses their right hand to move the frying pan and flips the dough back into the pan before placing it on the plate.",
+        "The person flips the dough with two spatulas before placing it on the plate with both hands.",
+        "The person transfers the dough with their left hand directly from the pan to the plate without any utensils.",
+        "The person flips the dough with a spatula and then flips it again with their left hand to put it on the plate."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person flip the dough in the frying pan? Choose **only one** option from the following list.\nOptions:\n(A) The person flips the dough using a fork and then places it onto the plate with their right hand.\n(B) The person uses their right hand to move the frying pan and flips the dough back into the pan before placing it on the plate.\n(C) The person flips the dough with two spatulas before placing it on the plate with both hands.\n(D) The person transfers the dough with their left hand directly from the pan to the plate without any utensils.\n(E) The person flips the dough with a spatula and then flips it again with their left hand to put it on the plate.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person uses their right hand to move the frying pan and flips the dough back into the pan before placing it on the plate."
+    },
+    "correct_idx": [
+        4
+    ]
+}

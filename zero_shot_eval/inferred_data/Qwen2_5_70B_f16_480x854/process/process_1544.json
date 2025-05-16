@@ -1,0 +1,17 @@
+{
+    "question": "How does the person loosen a bolt?",
+    "options": [
+        "The person pushes the bolt to the side with their palm rather than twisting it.",
+        "The person twists the bolt counterclockwise.",
+        "The person tries to lift the bolt straight up, avoiding rotational force.",
+        "The person turns the bolt clockwise in an effort to loosen it.",
+        "The person grips the bolt firmly and shakes it back and forth rather than twisting."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person loosen a bolt? Choose **only one** option from the following list.\nOptions:\n(A) The person pushes the bolt to the side with their palm rather than twisting it.\n(B) The person twists the bolt counterclockwise.\n(C) The person tries to lift the bolt straight up, avoiding rotational force.\n(D) The person turns the bolt clockwise in an effort to loosen it.\n(E) The person grips the bolt firmly and shakes it back and forth rather than twisting.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person twists the bolt counterclockwise."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the tunic shirt?",
+    "options": [
+        "The person laid the tunic shirt at the edge of the ironing table.",
+        "The person laid the tunic shirt on the left side of the ironing table.",
+        "The person laid the tunic shirt in the middle of the ironing table.",
+        "The person laid the tunic shirt on the floor next to the ironing table.",
+        "The person laid the tunic shirt on the back of a nearby chair."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the tunic shirt? Choose **only one** option from the following list.\nOptions:\n(A) The person laid the tunic shirt at the edge of the ironing table.\n(B) The person laid the tunic shirt on the left side of the ironing table.\n(C) The person laid the tunic shirt in the middle of the ironing table.\n(D) The person laid the tunic shirt on the floor next to the ironing table.\n(E) The person laid the tunic shirt on the back of a nearby chair.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person laid the tunic shirt in the middle of the ironing table."
+    },
+    "correct_idx": [
+        2
+    ]
+}

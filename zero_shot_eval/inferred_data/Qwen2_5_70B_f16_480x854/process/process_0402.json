@@ -1,0 +1,17 @@
+{
+    "question": "How does the person tuck the twigs?",
+    "options": [
+        "The person pushes the twig firmly into the sack, not considering the contents.",
+        "The person places the twig beside the sack rather than tucking it in.",
+        "The person tucks the twig gently, allowing it to close the sack.",
+        "The person grasps the twig by an awkward end, making it challenging to tuck into the sack.",
+        "The person tosses the twig into the sack from a bit of a distance."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person tuck the twigs? Choose **only one** option from the following list.\nOptions:\n(A) The person pushes the twig firmly into the sack, not considering the contents.\n(B) The person places the twig beside the sack rather than tucking it in.\n(C) The person tucks the twig gently, allowing it to close the sack.\n(D) The person grasps the twig by an awkward end, making it challenging to tuck into the sack.\n(E) The person tosses the twig into the sack from a bit of a distance.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person tucks the twig gently, allowing it to close the sack."
+    },
+    "correct_idx": [
+        2
+    ]
+}

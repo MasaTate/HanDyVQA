@@ -1,0 +1,17 @@
+{
+    "question": "How does the person flip the page?",
+    "options": [
+        "The person slides the page with their palm, moving it smoothly over to turn it.",
+        "The person flips the page with her fingers, turning it gently to the other side.",
+        "The person holds the corner of the page with their hand, moving it carefully to the side.",
+        "The person uses their knuckles to move the page softly instead of flipping it.",
+        "The person taps the page to the edge of the book to make it shift over."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person flip the page? Choose **only one** option from the following list.\nOptions:\n(A) The person slides the page with their palm, moving it smoothly over to turn it.\n(B) The person flips the page with her fingers, turning it gently to the other side.\n(C) The person holds the corner of the page with their hand, moving it carefully to the side.\n(D) The person uses their knuckles to move the page softly instead of flipping it.\n(E) The person taps the page to the edge of the book to make it shift over.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person holds the corner of the page with their hand, moving it carefully to the side."
+    },
+    "correct_idx": [
+        1
+    ]
+}

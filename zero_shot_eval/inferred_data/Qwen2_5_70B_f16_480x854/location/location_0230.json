@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the bottle of oil?",
+    "options": [
+        "The person drops the bottle of oil on the kitchen countertop table.",
+        "The person drops the bottle of oil on the dining room table.",
+        "The person drops the bottle of oil on the kitchen floor near the stove.",
+        "The person drops the bottle of oil on the kitchen island.",
+        "The person drops the bottle of oil on the coffee table in the living room."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the bottle of oil? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the bottle of oil on the kitchen countertop table.\n(B) The person drops the bottle of oil on the dining room table.\n(C) The person drops the bottle of oil on the kitchen floor near the stove.\n(D) The person drops the bottle of oil on the kitchen island.\n(E) The person drops the bottle of oil on the coffee table in the living room.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person drops the bottle of oil on the kitchen countertop table."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the cloth?",
+    "options": [
+        "The person drops the clothes in a plastic bag on the floor.",
+        "The person places the clothes in a cardboard box on the shelf.",
+        "The person lays the clothes on a wooden chair by the window.",
+        "The person tosses the clothes into a laundry basket in the corner.",
+        "The person hangs the clothes on a hook near the door."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the cloth? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the clothes in a plastic bag on the floor.\n(B) The person places the clothes in a cardboard box on the shelf.\n(C) The person lays the clothes on a wooden chair by the window.\n(D) The person tosses the clothes into a laundry basket in the corner.\n(E) The person hangs the clothes on a hook near the door.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person tosses the clothes into a laundry basket in the corner."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person uses his right hand to hold a hammer while adjusting his cap with his left hand, which is holding a cigarette.",
+        "The person uses his right hand to place the wrench at the car lifter and pulls his jacket sleeves of his left hand upward, and his left hand holding a cigarette passes it to his right hand to pull the jacket sleeves of his right hand using his left hand.",
+        "The person grips a screwdriver in his right hand to tighten a bolt on the car lifter, while holding a drink in his left hand to take a sip.",
+        "The person picks up a tire iron with his right hand, gesturing to someone nearby with his left hand, which holds a sandwich.",
+        "The person holds a toolbox with his right hand at the car lifter while using his left hand to check the time on his wristwatch."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person uses his right hand to hold a hammer while adjusting his cap with his left hand, which is holding a cigarette.\n(B) The person uses his right hand to place the wrench at the car lifter and pulls his jacket sleeves of his left hand upward, and his left hand holding a cigarette passes it to his right hand to pull the jacket sleeves of his right hand using his left hand.\n(C) The person grips a screwdriver in his right hand to tighten a bolt on the car lifter, while holding a drink in his left hand to take a sip.\n(D) The person picks up a tire iron with his right hand, gesturing to someone nearby with his left hand, which holds a sandwich.\n(E) The person holds a toolbox with his right hand at the car lifter while using his left hand to check the time on his wristwatch.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person uses his right hand to place the wrench at the car lifter and pulls his jacket sleeves of his left hand upward, and his left hand holding a cigarette passes it to his right hand to pull the jacket sleeves of his right hand using his left hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

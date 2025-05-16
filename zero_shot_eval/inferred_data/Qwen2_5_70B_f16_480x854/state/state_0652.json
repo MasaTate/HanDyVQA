@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the spoon change?",
+    "options": [
+        "The spatula was moved in a circular motion, mixing the pasta and ingredients.",
+        "The spatula was lifted slightly, flipping the pasta and ingredients.",
+        "The spatula was used to push the pasta and ingredients to one side.",
+        "The spatula was moved back and forth, shifting the pasta and ingredients.",
+        "The spatula was pressed down slightly, mashing the pasta and ingredients."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the spoon change? Choose **only one** option from the following list.\nOptions:\n(A) The spatula was moved in a circular motion, mixing the pasta and ingredients.\n(B) The spatula was lifted slightly, flipping the pasta and ingredients.\n(C) The spatula was used to push the pasta and ingredients to one side.\n(D) The spatula was moved back and forth, shifting the pasta and ingredients.\n(E) The spatula was pressed down slightly, mashing the pasta and ingredients.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The spatula was moved back and forth, shifting the pasta and ingredients."
+    },
+    "correct_idx": [
+        3
+    ]
+}

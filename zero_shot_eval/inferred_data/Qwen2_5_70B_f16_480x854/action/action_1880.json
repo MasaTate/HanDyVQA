@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is crocheting and then pulls the yarn with her right hand.",
+        "The person is knitting with her left hand while holding the yarn in her right hand.",
+        "The person is unraveling the yarn with her left hand while pulling the end with her right hand.",
+        "The person is organizing the yarn on the table with her right hand while holding needles in her left hand.",
+        "The person is measuring the yarn with her right hand while placing it in a basket with her left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is crocheting and then pulls the yarn with her right hand.\n(B) The person is knitting with her left hand while holding the yarn in her right hand.\n(C) The person is unraveling the yarn with her left hand while pulling the end with her right hand.\n(D) The person is organizing the yarn on the table with her right hand while holding needles in her left hand.\n(E) The person is measuring the yarn with her right hand while placing it in a basket with her left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person is crocheting and then pulls the yarn with her right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

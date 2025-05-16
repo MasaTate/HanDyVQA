@@ -1,0 +1,17 @@
+{
+    "question": "How does the person break the vegetable on the chopping board?",
+    "options": [
+        "The person presses the vegetable on the chopping board with their hand.",
+        "The person uses a knife to chop the vegetable on the cutting board.",
+        "The person twists the vegetable in their fingers until it breaks above the chopping board.",
+        "The person pulls the vegetable apart with both hands, separating it over the chopping board.",
+        "The person rolls the vegetable off the edge of the chopping board onto the floor."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person break the vegetable on the chopping board? Choose **only one** option from the following list.\nOptions:\n(A) The person presses the vegetable on the chopping board with their hand.\n(B) The person uses a knife to chop the vegetable on the cutting board.\n(C) The person twists the vegetable in their fingers until it breaks above the chopping board.\n(D) The person pulls the vegetable apart with both hands, separating it over the chopping board.\n(E) The person rolls the vegetable off the edge of the chopping board onto the floor.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person uses a knife to chop the vegetable on the cutting board."
+    },
+    "correct_idx": [
+        1
+    ]
+}

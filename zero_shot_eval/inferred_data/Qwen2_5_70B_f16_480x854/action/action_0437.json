@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person places tools on the shelf with one hand while holding a toolbox with the other.",
+        "The person catches tools thrown to him with both hands while standing by the table.",
+        "The person pushes tools away from the edge of the table with both hands while standing nearby.",
+        "The person throws tools at the table from both hands.",
+        "The person sorts tools into a drawer with both hands while sitting at the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person places tools on the shelf with one hand while holding a toolbox with the other.\n(B) The person catches tools thrown to him with both hands while standing by the table.\n(C) The person pushes tools away from the edge of the table with both hands while standing nearby.\n(D) The person throws tools at the table from both hands.\n(E) The person sorts tools into a drawer with both hands while sitting at the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person pushes tools away from the edge of the table with both hands while standing nearby."
+    },
+    "correct_idx": [
+        3
+    ]
+}

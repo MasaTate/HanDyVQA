@@ -1,0 +1,17 @@
+{
+    "question": "How does the person raise the plank of wood?",
+    "options": [
+        "The person carefully grips the edge of the wooden plank with both hands and lifts it upwards smoothly using wrist movement.",
+        "The person gently presses down on the wooden plank with one hand to help raise it while maintaining some tilt.",
+        "The person slides their left hand beneath the wooden plank, lifting it with a gentle tilt and wrist guidance.",
+        "The person uses their left hand fingers to lift and tilt the wooden plank upwards with a slight wrist movement.",
+        "The person supports the wooden plank on their palm and gradually raises it, using a subtle arm and wrist movement."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person raise the plank of wood? Choose **only one** option from the following list.\nOptions:\n(A) The person carefully grips the edge of the wooden plank with both hands and lifts it upwards smoothly using wrist movement.\n(B) The person gently presses down on the wooden plank with one hand to help raise it while maintaining some tilt.\n(C) The person slides their left hand beneath the wooden plank, lifting it with a gentle tilt and wrist guidance.\n(D) The person uses their left hand fingers to lift and tilt the wooden plank upwards with a slight wrist movement.\n(E) The person supports the wooden plank on their palm and gradually raises it, using a subtle arm and wrist movement.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person uses their left hand fingers to lift and tilt the wooden plank upwards with a slight wrist movement."
+    },
+    "correct_idx": [
+        3
+    ]
+}

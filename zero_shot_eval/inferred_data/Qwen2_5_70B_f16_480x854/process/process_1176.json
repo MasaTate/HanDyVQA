@@ -1,0 +1,17 @@
+{
+    "question": "How does the person mold the clay pot?",
+    "options": [
+        "The person kneads the clay with both hands, gently pressing and stretching it to form the pot.",
+        "The person twists the clay while placing it against the table with one hand to create the pot's shape.",
+        "The person rolls the clay into a ball using the palms of both hands, then presses it down to flatten before shaping.",
+        "The person uses their fingers to pull the clay apart repeatedly, allowing it to stretch slightly during shaping.",
+        "The person uses a wooden pestle and hammered it to the clay to mold the clay pot."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person mold the clay pot? Choose **only one** option from the following list.\nOptions:\n(A) The person kneads the clay with both hands, gently pressing and stretching it to form the pot.\n(B) The person twists the clay while placing it against the table with one hand to create the pot's shape.\n(C) The person rolls the clay into a ball using the palms of both hands, then presses it down to flatten before shaping.\n(D) The person uses their fingers to pull the clay apart repeatedly, allowing it to stretch slightly during shaping.\n(E) The person uses a wooden pestle and hammered it to the clay to mold the clay pot.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person uses a wooden pestle and hammered it to the clay to mold the clay pot."
+    },
+    "correct_idx": [
+        4
+    ]
+}

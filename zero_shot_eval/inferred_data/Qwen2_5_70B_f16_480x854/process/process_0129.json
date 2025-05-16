@@ -1,0 +1,17 @@
+{
+    "question": "How does the person grab a phone from the air compressor top?",
+    "options": [
+        "The person reaches towards the phone with his right hand, uses his palm to slide it slightly but ends up moving it off the air compressor.",
+        "The person taps the phone with the back of his hand before attempting to lift it, which makes it move slightly on the air compressor.",
+        "The person places his right hand beneath the phone as if to catch it, but unintentionally nudges it off the air compressor with his elbow.",
+        "The person attempts to grab the phone with two hands but accidentally shifts it sideways on the air compressor instead of lifting it.",
+        "The person extends his right hand towards the phone on the air compressor, uses his fingers to grip it, and lifts it while holding the cigarette between his fingers at the same time."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person grab a phone from the air compressor top? Choose **only one** option from the following list.\nOptions:\n(A) The person reaches towards the phone with his right hand, uses his palm to slide it slightly but ends up moving it off the air compressor.\n(B) The person taps the phone with the back of his hand before attempting to lift it, which makes it move slightly on the air compressor.\n(C) The person places his right hand beneath the phone as if to catch it, but unintentionally nudges it off the air compressor with his elbow.\n(D) The person attempts to grab the phone with two hands but accidentally shifts it sideways on the air compressor instead of lifting it.\n(E) The person extends his right hand towards the phone on the air compressor, uses his fingers to grip it, and lifts it while holding the cigarette between his fingers at the same time.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person reaches towards the phone with his right hand, uses his palm to slide it slightly but ends up moving it off the air compressor."
+    },
+    "correct_idx": [
+        4
+    ]
+}

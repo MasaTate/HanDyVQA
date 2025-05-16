@@ -1,0 +1,17 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "small flour bucket",
+        "sponge",
+        "mug",
+        "rice cooker",
+        "4 burner gas range"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **only one** option from the following list.\nOptions:\n(A) small flour bucket\n(B) sponge\n(C) mug\n(D) rice cooker\n(E) 4 burner gas range\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) small flour bucket"
+    },
+    "correct_idx": [
+        0
+    ]
+}

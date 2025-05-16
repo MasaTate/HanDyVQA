@@ -1,0 +1,17 @@
+{
+    "question": "How does the person raise a toy towards the baby y?",
+    "options": [
+        "The person lifts the toy above their head with both hands and keeps it steady in front of the baby.",
+        "The person shifts the toy between both hands while facing the baby.",
+        "The person raises and shakes the toy with their right hand towards the baby.",
+        "The person moves the toy away from the baby while holding it firmly in their left hand.",
+        "The person gently tosses the toy into the air, letting it drift down towards the baby."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person raise a toy towards the baby y? Choose **only one** option from the following list.\nOptions:\n(A) The person lifts the toy above their head with both hands and keeps it steady in front of the baby.\n(B) The person shifts the toy between both hands while facing the baby.\n(C) The person raises and shakes the toy with their right hand towards the baby.\n(D) The person moves the toy away from the baby while holding it firmly in their left hand.\n(E) The person gently tosses the toy into the air, letting it drift down towards the baby.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person raises and shakes the toy with their right hand towards the baby."
+    },
+    "correct_idx": [
+        2
+    ]
+}

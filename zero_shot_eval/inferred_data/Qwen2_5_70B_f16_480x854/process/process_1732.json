@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pierce the jalapeno pepper?",
+    "options": [
+        "The person pierces the jalapeno pepper by using a fork in her right hand while securing the jalapeno with her left hand and placing it on a cutting board.",
+        "The person pierces the jalapeno pepper by using a skewer held in her right hand while holding the jalapeno with her left hand on the kitchen counter.",
+        "The person pierces the jalapeno pepper by using a knife in her right hand while holding the jalapeno pepper with her left hand and putting it on the plate.",
+        "The person pushes a sharp stick through the jalapeno pepper with her right hand while holding it in her left hand.",
+        "The person pierces the jalapeno pepper with a kitchen needle in her right hand while it rests against the side of a bowl held by her left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pierce the jalapeno pepper? Choose **only one** option from the following list.\nOptions:\n(A) The person pierces the jalapeno pepper by using a fork in her right hand while securing the jalapeno with her left hand and placing it on a cutting board.\n(B) The person pierces the jalapeno pepper by using a skewer held in her right hand while holding the jalapeno with her left hand on the kitchen counter.\n(C) The person pierces the jalapeno pepper by using a knife in her right hand while holding the jalapeno pepper with her left hand and putting it on the plate.\n(D) The person pushes a sharp stick through the jalapeno pepper with her right hand while holding it in her left hand.\n(E) The person pierces the jalapeno pepper with a kitchen needle in her right hand while it rests against the side of a bowl held by her left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person pierces the jalapeno pepper by using a knife in her right hand while holding the jalapeno pepper with her left hand and putting it on the plate."
+    },
+    "correct_idx": [
+        2
+    ]
+}

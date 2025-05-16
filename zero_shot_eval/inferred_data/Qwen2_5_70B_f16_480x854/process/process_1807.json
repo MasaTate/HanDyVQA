@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pack the seeds?",
+    "options": [
+        "The person gathers the seeds by using both hands at the same time.",
+        "The person grabs the seeds to collect using her right hand before transferring them to her left.",
+        "The person picks up the seeds individually using their left hand.",
+        "The person uses a small shovel in their right hand to collect the seeds into a bag.",
+        "The person gently places the seeds into the container from a short distance using their right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pack the seeds? Choose **only one** option from the following list.\nOptions:\n(A) The person gathers the seeds by using both hands at the same time.\n(B) The person grabs the seeds to collect using her right hand before transferring them to her left.\n(C) The person picks up the seeds individually using their left hand.\n(D) The person uses a small shovel in their right hand to collect the seeds into a bag.\n(E) The person gently places the seeds into the container from a short distance using their right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person grabs the seeds to collect using her right hand before transferring them to her left."
+    },
+    "correct_idx": [
+        1
+    ]
+}

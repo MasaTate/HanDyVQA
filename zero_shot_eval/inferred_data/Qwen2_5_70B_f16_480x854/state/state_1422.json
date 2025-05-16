@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a paper change?",
+    "options": [
+        "The paper was torn from top to bottom out of the pad of paper without folding it.",
+        "The paper was cut in a circular fashion out of the pad of paper without folding it.",
+        "The paper was ripped from left to right out of the pad of paper without folding it.",
+        "The paper was sliced diagonally out of the pad of paper without folding it.",
+        "The paper was pulled out from the pad of paper in a wavy motion without folding it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a paper change? Choose **only one** option from the following list.\nOptions:\n(A) The paper was torn from top to bottom out of the pad of paper without folding it.\n(B) The paper was cut in a circular fashion out of the pad of paper without folding it.\n(C) The paper was ripped from left to right out of the pad of paper without folding it.\n(D) The paper was sliced diagonally out of the pad of paper without folding it.\n(E) The paper was pulled out from the pad of paper in a wavy motion without folding it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The paper was ripped from left to right out of the pad of paper without folding it."
+    },
+    "correct_idx": [
+        2
+    ]
+}

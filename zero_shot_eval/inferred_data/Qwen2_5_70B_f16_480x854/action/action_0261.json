@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person unscrews the lid from a bottle using the right hand, then lifts the bottle off the counter with the left hand and pours it into a glass.",
+        "The person opens the jar with both hands, then sets the jar down on the table with the right hand while holding a spoon in the left hand.",
+        "The person lifts the jar from the shelf with the left hand, then shakes it gently with the right hand before setting it back down.",
+        "The person closes the lid on the jar using the right hand, then picks up another jar on the table with the left hand.",
+        "The person removes the label from the jar with the right hand, then holds the jar in the left hand while examining it thoroughly."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person unscrews the lid from a bottle using the right hand, then lifts the bottle off the counter with the left hand and pours it into a glass.\n(B) The person opens the jar with both hands, then sets the jar down on the table with the right hand while holding a spoon in the left hand.\n(C) The person lifts the jar from the shelf with the left hand, then shakes it gently with the right hand before setting it back down.\n(D) The person closes the lid on the jar using the right hand, then picks up another jar on the table with the left hand.\n(E) The person removes the label from the jar with the right hand, then holds the jar in the left hand while examining it thoroughly.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person closes the lid on the jar using the right hand, then picks up another jar on the table with the left hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

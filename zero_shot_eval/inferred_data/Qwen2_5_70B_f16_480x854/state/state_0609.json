@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the nut change?",
+    "options": [
+        "The nut was pulled partly out from the wrench and placed back into the wrench.",
+        "The nut was pulled off from the wrench and put down.",
+        "The nut was twisted off from the wrench and placed on a shelf.",
+        "The nut was pushed further into the wrench and then taken out.",
+        "The nut was pulled from the wrench but held in the hand instead of being set down."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the nut change? Choose **only one** option from the following list.\nOptions:\n(A) The nut was pulled partly out from the wrench and placed back into the wrench.\n(B) The nut was pulled off from the wrench and put down.\n(C) The nut was twisted off from the wrench and placed on a shelf.\n(D) The nut was pushed further into the wrench and then taken out.\n(E) The nut was pulled from the wrench but held in the hand instead of being set down.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The nut was pulled off from the wrench and put down."
+    },
+    "correct_idx": [
+        1
+    ]
+}

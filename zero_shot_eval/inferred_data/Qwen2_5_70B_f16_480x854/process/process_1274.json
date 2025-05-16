@@ -1,0 +1,17 @@
+{
+    "question": "How does the person rub the paint?",
+    "options": [
+        "The person spreads the paint by moving his right palm gently across the surface in a back-and-forth motion.",
+        "The person smears the paint in a circular motion using his left thumb and other fingers.",
+        "The person uses the side of his right hand to move the paint smoothly in a straight horizontal line.",
+        "The person rubs the paint by rotating his right hand in the rim from up to down using his right fingertips.",
+        "The person rubs the paint by swirling his right hand gently in a clockwise motion, using the tips of his fingers."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person rub the paint? Choose **only one** option from the following list.\nOptions:\n(A) The person spreads the paint by moving his right palm gently across the surface in a back-and-forth motion.\n(B) The person smears the paint in a circular motion using his left thumb and other fingers.\n(C) The person uses the side of his right hand to move the paint smoothly in a straight horizontal line.\n(D) The person rubs the paint by rotating his right hand in the rim from up to down using his right fingertips.\n(E) The person rubs the paint by swirling his right hand gently in a clockwise motion, using the tips of his fingers.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person rubs the paint by rotating his right hand in the rim from up to down using his right fingertips."
+    },
+    "correct_idx": [
+        3
+    ]
+}

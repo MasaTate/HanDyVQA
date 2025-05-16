@@ -1,0 +1,17 @@
+{
+    "question": "How does the person drop the card?",
+    "options": [
+        "The person releases the cards from his left hand with a slight wrist movement, guiding them to fall neatly onto the board.",
+        "The person holds the cards firmly in his palm and carefully directs them downward, letting them settle calmly onto the game board.",
+        "The person uses both hands to balance the cards before gently guiding them onto the table in a smooth motion.",
+        "The person drops the cards by holding them lightly between the fingers of his right hand, then moves his hand over the game board and with a gentle release motion, he loosens his grip, allowing the cards to drop smoothly onto the board.",
+        "The person positions the cards at the edge of the table and softly nudges them with his fingertips, allowing them to gradually slide onto the board."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person drop the card? Choose **only one** option from the following list.\nOptions:\n(A) The person releases the cards from his left hand with a slight wrist movement, guiding them to fall neatly onto the board.\n(B) The person holds the cards firmly in his palm and carefully directs them downward, letting them settle calmly onto the game board.\n(C) The person uses both hands to balance the cards before gently guiding them onto the table in a smooth motion.\n(D) The person drops the cards by holding them lightly between the fingers of his right hand, then moves his hand over the game board and with a gentle release motion, he loosens his grip, allowing the cards to drop smoothly onto the board.\n(E) The person positions the cards at the edge of the table and softly nudges them with his fingertips, allowing them to gradually slide onto the board.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person drops the cards by holding them lightly between the fingers of his right hand, then moves his hand over the game board and with a gentle release motion, he loosens his grip, allowing the cards to drop smoothly onto the board."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the shred?",
+    "options": [
+        "The person drops the shreds into the paper bag with the left hand.",
+        "The person drops the shreds onto the wooden table with the right hand.",
+        "The person drops the shreds to the cardboard tube roll with the right hand.",
+        "The person drops the shreds beside the trash can with the right hand.",
+        "The person drops the shreds into the plastic bin with the left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the shred? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the shreds into the paper bag with the left hand.\n(B) The person drops the shreds onto the wooden table with the right hand.\n(C) The person drops the shreds to the cardboard tube roll with the right hand.\n(D) The person drops the shreds beside the trash can with the right hand.\n(E) The person drops the shreds into the plastic bin with the left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person drops the shreds to the cardboard tube roll with the right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

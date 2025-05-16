@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the plastic container change?",
+    "options": [
+        "The plastic container was lifted and scrubbed with a sponge without soap under the tap.",
+        "The plastic container was placed in the sink and wiped with the soapy sponge without rotating.",
+        "The plastic container was lifted and rubbed by the sponge with soap, being rotated over the sink.",
+        "The plastic container was lifted and rinsed under the faucet, without using a sponge or soap.",
+        "The plastic container was rubbed with a dry sponge on the counter, without being lifted or rotated."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the plastic container change? Choose **only one** option from the following list.\nOptions:\n(A) The plastic container was lifted and scrubbed with a sponge without soap under the tap.\n(B) The plastic container was placed in the sink and wiped with the soapy sponge without rotating.\n(C) The plastic container was lifted and rubbed by the sponge with soap, being rotated over the sink.\n(D) The plastic container was lifted and rinsed under the faucet, without using a sponge or soap.\n(E) The plastic container was rubbed with a dry sponge on the counter, without being lifted or rotated.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The plastic container was lifted and rubbed by the sponge with soap, being rotated over the sink."
+    },
+    "correct_idx": [
+        2
+    ]
+}

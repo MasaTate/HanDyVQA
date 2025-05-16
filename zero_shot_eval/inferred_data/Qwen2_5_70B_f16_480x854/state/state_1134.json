@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the pack of meat change?",
+    "options": [
+        "The pack of meat was uncovered and moved to the right on the counter.",
+        "The pack of meat was slightly tilted forward while remaining uncovered.",
+        "The pack of meat was lifted slightly and turned without being covered.",
+        "The pack of meat was covered while being lifted up slightly.",
+        "The pack of meat was covered as it was moved downward."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the pack of meat change? Choose **only one** option from the following list.\nOptions:\n(A) The pack of meat was uncovered and moved to the right on the counter.\n(B) The pack of meat was slightly tilted forward while remaining uncovered.\n(C) The pack of meat was lifted slightly and turned without being covered.\n(D) The pack of meat was covered while being lifted up slightly.\n(E) The pack of meat was covered as it was moved downward.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The pack of meat was covered while being lifted up slightly."
+    },
+    "correct_idx": [
+        3
+    ]
+}

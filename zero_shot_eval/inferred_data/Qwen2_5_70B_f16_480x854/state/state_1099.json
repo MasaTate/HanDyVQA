@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the electrode change?",
+    "options": [
+        "The electrode was adjusted in the holder to achieve the required angle for welding.",
+        "The electrode was removed from the holder and cleaned to ensure proper conductivity.",
+        "The electrode was connected to the power supply for testing its performance.",
+        "The electrode was secured in the electrode holder, ready for welding.",
+        "The electrode was coated with a protective layer to prevent oxidation before use."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the electrode change? Choose **only one** option from the following list.\nOptions:\n(A) The electrode was adjusted in the holder to achieve the required angle for welding.\n(B) The electrode was removed from the holder and cleaned to ensure proper conductivity.\n(C) The electrode was connected to the power supply for testing its performance.\n(D) The electrode was secured in the electrode holder, ready for welding.\n(E) The electrode was coated with a protective layer to prevent oxidation before use.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The electrode was secured in the electrode holder, ready for welding."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the screw?",
+    "options": [
+        "The person put the screw in the hole of the object.",
+        "The person put the screw on the surface beside the hole.",
+        "The person put the screw in the drawer next to the workbench.",
+        "The person put the screw under the table near the leg.",
+        "The person put the screw on top of the toolbox."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the screw? Choose **only one** option from the following list.\nOptions:\n(A) The person put the screw in the hole of the object.\n(B) The person put the screw on the surface beside the hole.\n(C) The person put the screw in the drawer next to the workbench.\n(D) The person put the screw under the table near the leg.\n(E) The person put the screw on top of the toolbox.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person put the screw in the hole of the object."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person shakes a bottle of liquid soap with her right hand into the soap compartment while holding a measuring cup in her left hand.",
+        "The person is filling a measuring cup with powder soap using her right hand while directing it into a laundry basket with her left hand.",
+        "The person scoops powder soap into a bowl with her right hand while moving an empty container aside with her left hand.",
+        "The person pours the powder soap from the measuring spoon with her right hand into the soap compartment.",
+        "The person is emptying a packet of powder soap straight into the washing machine using her right hand while holding the measuring spoon in her left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person shakes a bottle of liquid soap with her right hand into the soap compartment while holding a measuring cup in her left hand.\n(B) The person is filling a measuring cup with powder soap using her right hand while directing it into a laundry basket with her left hand.\n(C) The person scoops powder soap into a bowl with her right hand while moving an empty container aside with her left hand.\n(D) The person pours the powder soap from the measuring spoon with her right hand into the soap compartment.\n(E) The person is emptying a packet of powder soap straight into the washing machine using her right hand while holding the measuring spoon in her left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person pours the powder soap from the measuring spoon with her right hand into the soap compartment."
+    },
+    "correct_idx": [
+        3
+    ]
+}

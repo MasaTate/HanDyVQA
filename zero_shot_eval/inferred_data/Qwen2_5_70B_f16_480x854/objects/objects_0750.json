@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "bed",
+        "crochet hook",
+        "wool yarn",
+        "side table",
+        "cup. ",
+        "coaster"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) bed\n(B) crochet hook\n(C) wool yarn\n(D) side table\n(E) cup. \n(F) coaster\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(B) Crochet hook\n(C) Wool yarn"
+    },
+    "correct_idx": [
+        1,
+        2
+    ]
+}

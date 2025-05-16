@@ -1,0 +1,17 @@
+{
+    "question": "How does the person stretch her left hand?",
+    "options": [
+        "The person extended her left hand toward the mug, making contact with the table.",
+        "The person extended her left hand to grab the mug by the handle on the top of the table in front of her.",
+        "The person raised her left hand gradually without reaching for anything specific.",
+        "The person moved her left hand slightly away from the table while keeping it relaxed.",
+        "The person curled her left hand slightly while adjusting her position at the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person stretch her left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person extended her left hand toward the mug, making contact with the table.\n(B) The person extended her left hand to grab the mug by the handle on the top of the table in front of her.\n(C) The person raised her left hand gradually without reaching for anything specific.\n(D) The person moved her left hand slightly away from the table while keeping it relaxed.\n(E) The person curled her left hand slightly while adjusting her position at the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person extended her left hand to grab the mug by the handle on the top of the table in front of her."
+    },
+    "correct_idx": [
+        1
+    ]
+}

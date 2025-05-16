@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the brake pad change?",
+    "options": [
+        "The brake pad was lifted, changing its elevation and angle.",
+        "The brake pad was rotated, altering its position and orientation.",
+        "The brake pad was shifted sideways, affecting its alignment and proximity.",
+        "The brake pad was flipped over, modifying its surface contact and exposure.",
+        "The brake pad was adjusted forward, impacting its distance and placement."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the brake pad change? Choose **only one** option from the following list.\nOptions:\n(A) The brake pad was lifted, changing its elevation and angle.\n(B) The brake pad was rotated, altering its position and orientation.\n(C) The brake pad was shifted sideways, affecting its alignment and proximity.\n(D) The brake pad was flipped over, modifying its surface contact and exposure.\n(E) The brake pad was adjusted forward, impacting its distance and placement.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The brake pad was flipped over, modifying its surface contact and exposure."
+    },
+    "correct_idx": [
+        1
+    ]
+}

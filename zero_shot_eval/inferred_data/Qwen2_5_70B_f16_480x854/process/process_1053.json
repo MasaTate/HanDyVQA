@@ -1,0 +1,17 @@
+{
+    "question": "How does the person move the right hand?",
+    "options": [
+        "The person swings the right arm back and forth above the gaming board while gently holding the right hand open, then slightly lowers the arm toward the table and taps the card on the surface.",
+        "The person waves the right arm in circles above the gaming board, then brings the right hand down gently, lightly tapping the card on the table before raising the arm.",
+        "The person lifts the right arm over the gaming board, holding the card with both hands, and then smoothly moves the arm to the side, keeping the card steady near the table.",
+        "The person moves the right arm away from the gaming board and smoothly slides the card with the fingertips along the table, then gently follows with a tap.",
+        "The person extends the right arm to the gaming board and rests the right hand at the edge of the table, then quickly slides up and down the card and quickly raises up the right arm and shakes it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person move the right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person swings the right arm back and forth above the gaming board while gently holding the right hand open, then slightly lowers the arm toward the table and taps the card on the surface.\n(B) The person waves the right arm in circles above the gaming board, then brings the right hand down gently, lightly tapping the card on the table before raising the arm.\n(C) The person lifts the right arm over the gaming board, holding the card with both hands, and then smoothly moves the arm to the side, keeping the card steady near the table.\n(D) The person moves the right arm away from the gaming board and smoothly slides the card with the fingertips along the table, then gently follows with a tap.\n(E) The person extends the right arm to the gaming board and rests the right hand at the edge of the table, then quickly slides up and down the card and quickly raises up the right arm and shakes it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person moves the right arm away from the gaming board and smoothly slides the card with the fingertips along the table, then gently follows with a tap."
+    },
+    "correct_idx": [
+        4
+    ]
+}

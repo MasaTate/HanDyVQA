@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place his left hand?",
+    "options": [
+        "The person places his left hand on the drum lid.",
+        "The person places his left hand on the drum container.",
+        "The person places his left hand next to the drum container.",
+        "The person places his left hand on the floor beside the drum.",
+        "The person places his left hand at the edge of the drum container."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place his left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person places his left hand on the drum lid.\n(B) The person places his left hand on the drum container.\n(C) The person places his left hand next to the drum container.\n(D) The person places his left hand on the floor beside the drum.\n(E) The person places his left hand at the edge of the drum container.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person places his left hand on the drum lid."
+    },
+    "correct_idx": [
+        1
+    ]
+}

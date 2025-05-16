@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a leaf change?",
+    "options": [
+        "The leaf's position was altered as it was picked from the bush.",
+        "The leaf's position was altered as it was blown away by the wind.",
+        "The leaf's color was altered as it turned from green to brown due to drying.",
+        "The leaf's shape was modified as it was crumpled in a person's hand.",
+        "The leaf's texture was altered as it was pressed between the pages of a book."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a leaf change? Choose **only one** option from the following list.\nOptions:\n(A) The leaf's position was altered as it was picked from the bush.\n(B) The leaf's position was altered as it was blown away by the wind.\n(C) The leaf's color was altered as it turned from green to brown due to drying.\n(D) The leaf's shape was modified as it was crumpled in a person's hand.\n(E) The leaf's texture was altered as it was pressed between the pages of a book.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The leaf's position was altered as it was picked from the bush."
+    },
+    "correct_idx": [
+        0
+    ]
+}

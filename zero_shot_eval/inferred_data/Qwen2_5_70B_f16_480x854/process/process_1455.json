@@ -1,0 +1,17 @@
+{
+    "question": "How does the person remove the left hand?",
+    "options": [
+        "The person removes her left hand by moving it sideways along the surface of the knob.",
+        "The person removes her left hand by lifting it away quickly off the top of the knob.",
+        "The person removes her left hand by softly pulling it back while keeping contact with the knob.",
+        "The person removes her left hand by pressing it down onto the knob before taking it away.",
+        "The person removes her left hand by turning it in a circular motion around the knob before releasing."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person remove the left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person removes her left hand by moving it sideways along the surface of the knob.\n(B) The person removes her left hand by lifting it away quickly off the top of the knob.\n(C) The person removes her left hand by softly pulling it back while keeping contact with the knob.\n(D) The person removes her left hand by pressing it down onto the knob before taking it away.\n(E) The person removes her left hand by turning it in a circular motion around the knob before releasing.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person removes her left hand by lifting it away quickly off the top of the knob."
+    },
+    "correct_idx": [
+        1
+    ]
+}

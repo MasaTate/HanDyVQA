@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pull a wire?",
+    "options": [
+        "The person tugs the wire slightly downwards with both hands while standing near the left side of it.",
+        "The person gently twists the wire around the index finger of the left hand and uses the right hand to hold it steadily.",
+        "The person is smoothly pushing the wire forward using both hands together with a gentle grip.",
+        "The person is pulling up the wire in the right side direction using the right hand while the left hand supports.",
+        "The person drags the wire closely towards themselves, using the fingertips of the right hand with minimal support from the left."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pull a wire? Choose **only one** option from the following list.\nOptions:\n(A) The person tugs the wire slightly downwards with both hands while standing near the left side of it.\n(B) The person gently twists the wire around the index finger of the left hand and uses the right hand to hold it steadily.\n(C) The person is smoothly pushing the wire forward using both hands together with a gentle grip.\n(D) The person is pulling up the wire in the right side direction using the right hand while the left hand supports.\n(E) The person drags the wire closely towards themselves, using the fingertips of the right hand with minimal support from the left.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person is pulling up the wire in the right side direction using the right hand while the left hand supports."
+    },
+    "correct_idx": [
+        3
+    ]
+}

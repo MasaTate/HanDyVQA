@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the molded clay?",
+    "options": [
+        "The person put the molded clay on the center of the table.",
+        "The person put the molded clay on the edge of the floor.",
+        "The person put the molded clay on the far side of the floor.",
+        "The person put the molded clay on the corner of the workbench.",
+        "The person put the molded clay on the shelf above the desk."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the molded clay? Choose **only one** option from the following list.\nOptions:\n(A) The person put the molded clay on the center of the table.\n(B) The person put the molded clay on the edge of the floor.\n(C) The person put the molded clay on the far side of the floor.\n(D) The person put the molded clay on the corner of the workbench.\n(E) The person put the molded clay on the shelf above the desk.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person put the molded clay on the center of the table."
+    },
+    "correct_idx": [
+        1
+    ]
+}

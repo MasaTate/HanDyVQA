@@ -1,0 +1,17 @@
+{
+    "question": "How does the person fling the hammer from the ladder top?",
+    "options": [
+        "The person grips the hammer firmly with his full right hand and releases it over his shoulder while climbing down the ladder.",
+        "The person flicks the hammer with a twist of his wrist from the top of the ladder, losing control as it moves off to the side.",
+        "The person gently nudges the hammer from the edge of the ladder with his left hand, causing it to descend along the ladder rungs.",
+        "The person uses both hands to raise the hammer above his head and unintentionally lets it go while reaching for a rung on the ladder.",
+        "The person grabs the hammer using his right hand fingertips and it suddenly slips from his right hand while he is going down the ladder and falls down before catching it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person fling the hammer from the ladder top? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the hammer firmly with his full right hand and releases it over his shoulder while climbing down the ladder.\n(B) The person flicks the hammer with a twist of his wrist from the top of the ladder, losing control as it moves off to the side.\n(C) The person gently nudges the hammer from the edge of the ladder with his left hand, causing it to descend along the ladder rungs.\n(D) The person uses both hands to raise the hammer above his head and unintentionally lets it go while reaching for a rung on the ladder.\n(E) The person grabs the hammer using his right hand fingertips and it suddenly slips from his right hand while he is going down the ladder and falls down before catching it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person flicks the hammer with a twist of his wrist from the top of the ladder, losing control as it moves off to the side."
+    },
+    "correct_idx": [
+        4
+    ]
+}

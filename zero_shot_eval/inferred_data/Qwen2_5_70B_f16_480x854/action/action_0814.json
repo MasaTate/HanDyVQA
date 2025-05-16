@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person cuts a carrot on the cutting board with the knife in her right hand.",
+        "The person is slicing a cucumber on the cutting board with the knife in her right hand while securing the cucumber with her left hand.",
+        "The person is dicing a carrot on the cutting board using the knife in her right hand while keeping the carrot steady with her left hand.",
+        "The person is grating a carrot on a box grater with her right hand while holding the grater with her left hand.",
+        "The person is chopping a carrot on a cutting board using a chef's knife in her right hand while pressing the carrot down with her left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person cuts a carrot on the cutting board with the knife in her right hand.\n(B) The person is slicing a cucumber on the cutting board with the knife in her right hand while securing the cucumber with her left hand.\n(C) The person is dicing a carrot on the cutting board using the knife in her right hand while keeping the carrot steady with her left hand.\n(D) The person is grating a carrot on a box grater with her right hand while holding the grater with her left hand.\n(E) The person is chopping a carrot on a cutting board using a chef's knife in her right hand while pressing the carrot down with her left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person is dicing a carrot on the cutting board using the knife in her right hand while keeping the carrot steady with her left hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

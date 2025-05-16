@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person reveals a card using the left hand while holding a stack of cards with the right hand.",
+        "The person shuffles a deck of cards with both hands while seated at a table.",
+        "The person discards a card with the left hand while picking up a chip with the right hand.",
+        "The person hides a card using both hands.",
+        "The person displays a card using the right hand while adjusting glasses with the left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person reveals a card using the left hand while holding a stack of cards with the right hand.\n(B) The person shuffles a deck of cards with both hands while seated at a table.\n(C) The person discards a card with the left hand while picking up a chip with the right hand.\n(D) The person hides a card using both hands.\n(E) The person displays a card using the right hand while adjusting glasses with the left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person hides a card using both hands."
+    },
+    "correct_idx": [
+        3
+    ]
+}

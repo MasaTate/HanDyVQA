@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person pulls the door open with his left hand.",
+        "The person pushes the door closed with his right hand.",
+        "The person closes the door by swinging it shut with both hands.",
+        "The person pulls the door knob with his right hand but does not open the door.",
+        "The person slides the door to the side using his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person pulls the door open with his left hand.\n(B) The person pushes the door closed with his right hand.\n(C) The person closes the door by swinging it shut with both hands.\n(D) The person pulls the door knob with his right hand but does not open the door.\n(E) The person slides the door to the side using his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person pushes the door closed with his right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

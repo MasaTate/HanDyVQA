@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the clothes on the clothesline change?",
+    "options": [
+        "The clothes on the clothesline shifted to the left along the line.",
+        "The clothes on the clothesline dropped to the ground from the line.",
+        "The clothes on the clothesline twisted into knots.",
+        "The clothes on the clothesline became tangled together.",
+        "The clothes on the clothesline were pulled upward."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the clothes on the clothesline change? Choose **only one** option from the following list.\nOptions:\n(A) The clothes on the clothesline shifted to the left along the line.\n(B) The clothes on the clothesline dropped to the ground from the line.\n(C) The clothes on the clothesline twisted into knots.\n(D) The clothes on the clothesline became tangled together.\n(E) The clothes on the clothesline were pulled upward.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The clothes on the clothesline shifted to the left along the line."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person deal the cards?",
+    "options": [
+        "The person spreads the cards in a fan shape across the table, using both hands for a smooth and even distribution.",
+        "The person shuffles the cards gently before releasing them above the table, allowing them to settle randomly.",
+        "The person arranges the cards in a neat stack and gently drops them onto the table, letting them spread naturally.",
+        "The person slides the cards softly across the table using one hand, ensuring they move smoothly.",
+        "The person hands the card to each player one by one by putting one card facing down across the table starting from left to right using the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person deal the cards? Choose **only one** option from the following list.\nOptions:\n(A) The person spreads the cards in a fan shape across the table, using both hands for a smooth and even distribution.\n(B) The person shuffles the cards gently before releasing them above the table, allowing them to settle randomly.\n(C) The person arranges the cards in a neat stack and gently drops them onto the table, letting them spread naturally.\n(D) The person slides the cards softly across the table using one hand, ensuring they move smoothly.\n(E) The person hands the card to each player one by one by putting one card facing down across the table starting from left to right using the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person hands the card to each player one by one by putting one card facing down across the table starting from left to right using the right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

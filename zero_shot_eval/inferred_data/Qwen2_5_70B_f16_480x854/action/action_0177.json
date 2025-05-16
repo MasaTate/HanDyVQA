@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person spreads tomato paste on a piece of bread with a knife in the right hand while holding the bread with the left hand.",
+        "The person pours tomato paste into a bowl using a cup in the right hand while stabilizing the bowl with the left hand.",
+        "The person scoops tomato paste out of the box using the spoon in his right hand.",
+        "The person mixes tomato paste with a whisk in the right hand while holding a bowl in the left hand.",
+        "The person drizzles tomato paste over a pizza with a squeeze bottle in the right hand while securing the pizza with the left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person spreads tomato paste on a piece of bread with a knife in the right hand while holding the bread with the left hand.\n(B) The person pours tomato paste into a bowl using a cup in the right hand while stabilizing the bowl with the left hand.\n(C) The person scoops tomato paste out of the box using the spoon in his right hand.\n(D) The person mixes tomato paste with a whisk in the right hand while holding a bowl in the left hand.\n(E) The person drizzles tomato paste over a pizza with a squeeze bottle in the right hand while securing the pizza with the left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person scoops tomato paste out of the box using the spoon in his right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the try square?",
+    "options": [
+        "The person moves the try square in the left corner of the table.",
+        "The person moves the try square in the center of the table.",
+        "The person moves the try square at the edge of the table.",
+        "The person moves the try square in the right corner of the table.",
+        "The person moves the try square near the bottom edge of the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the try square? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the try square in the left corner of the table.\n(B) The person moves the try square in the center of the table.\n(C) The person moves the try square at the edge of the table.\n(D) The person moves the try square in the right corner of the table.\n(E) The person moves the try square near the bottom edge of the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person moves the try square in the right corner of the table."
+    },
+    "correct_idx": [
+        3
+    ]
+}

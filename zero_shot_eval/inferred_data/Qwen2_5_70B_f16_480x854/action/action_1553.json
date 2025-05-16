@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is carrying the bowl with their left hand, putting the corn in with their right hand, and then tossing it into the garden.",
+        "The person is balancing the bowl with their left hand, mixing the corn with a spoon in their right hand, and then serving it onto a plate.",
+        "The person is gripping the bowl with their left hand, sprinkling salt onto the corn with their right hand, and then placing it in the fridge.",
+        "The person is setting the bowl down with their left hand, stirring the corn with a spatula in their right hand, and then transferring it to a skillet.",
+        "The person is holding the bowl with their left hand, scooping the corn with their right hand, and then pouring it into the kudam."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is carrying the bowl with their left hand, putting the corn in with their right hand, and then tossing it into the garden.\n(B) The person is balancing the bowl with their left hand, mixing the corn with a spoon in their right hand, and then serving it onto a plate.\n(C) The person is gripping the bowl with their left hand, sprinkling salt onto the corn with their right hand, and then placing it in the fridge.\n(D) The person is setting the bowl down with their left hand, stirring the corn with a spatula in their right hand, and then transferring it to a skillet.\n(E) The person is holding the bowl with their left hand, scooping the corn with their right hand, and then pouring it into the kudam.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person is holding the bowl with their left hand, scooping the corn with their right hand, and then pouring it into the kudam."
+    },
+    "correct_idx": [
+        4
+    ]
+}

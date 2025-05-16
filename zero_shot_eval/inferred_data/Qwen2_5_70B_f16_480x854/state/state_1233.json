@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the bulb change?",
+    "options": [
+        "The bulb was rotated counter-clockwise to be removed from the receptacle.",
+        "The bulb was rotated halfway clockwise and then stopped.",
+        "The bulb was rotated counter-clockwise to loosen from the socket.",
+        "The bulb was rotated clockwise but not fully attached to the receptacle.",
+        "The bulb was rotated clockwise to be attached to the receptacle."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the bulb change? Choose **only one** option from the following list.\nOptions:\n(A) The bulb was rotated counter-clockwise to be removed from the receptacle.\n(B) The bulb was rotated halfway clockwise and then stopped.\n(C) The bulb was rotated counter-clockwise to loosen from the socket.\n(D) The bulb was rotated clockwise but not fully attached to the receptacle.\n(E) The bulb was rotated clockwise to be attached to the receptacle.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The bulb was rotated clockwise to be attached to the receptacle."
+    },
+    "correct_idx": [
+        4
+    ]
+}

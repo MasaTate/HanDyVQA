@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the bowl?",
+    "options": [
+        "The person drops the bowl in the right side of the sink.",
+        "The person drops the bowl on the countertop next to the sink.",
+        "The person drops the bowl in the left side of the sink.",
+        "The person drops the bowl inside the cabinet beneath the sink.",
+        "The person drops the bowl in front of the faucet on the sink."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the bowl? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the bowl in the right side of the sink.\n(B) The person drops the bowl on the countertop next to the sink.\n(C) The person drops the bowl in the left side of the sink.\n(D) The person drops the bowl inside the cabinet beneath the sink.\n(E) The person drops the bowl in front of the faucet on the sink.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person drops the bowl in the left side of the sink."
+    },
+    "correct_idx": [
+        2
+    ]
+}

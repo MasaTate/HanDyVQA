@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the wood change?",
+    "options": [
+        "The top right corner of the wooden plank was turned brown when the brush was applied.",
+        "The left bottom corner of the wooden plank was turned a darker shade when the brush was applied.",
+        "The left bottom corner of the wooden plank was thought to turn brown when the brush was applied but it wasn't.",
+        "The entire surface of the wooden plank was turned brown when the brush was applied.",
+        "The left bottom corner of the wooden plank was turned brown when the brush was applied."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the wood change? Choose **only one** option from the following list.\nOptions:\n(A) The top right corner of the wooden plank was turned brown when the brush was applied.\n(B) The left bottom corner of the wooden plank was turned a darker shade when the brush was applied.\n(C) The left bottom corner of the wooden plank was thought to turn brown when the brush was applied but it wasn't.\n(D) The entire surface of the wooden plank was turned brown when the brush was applied.\n(E) The left bottom corner of the wooden plank was turned brown when the brush was applied.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The left bottom corner of the wooden plank was turned brown when the brush was applied."
+    },
+    "correct_idx": [
+        4
+    ]
+}

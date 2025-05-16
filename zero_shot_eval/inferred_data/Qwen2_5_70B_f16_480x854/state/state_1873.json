@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of fried egg change?",
+    "options": [
+        "The fried egg was moved to a plate on the left side.",
+        "The fried egg was moved to a plate on the right side.",
+        "The fried egg was moved to a bowl on the right side.",
+        "The fried egg was moved but remained partially on the pan.",
+        "The fried egg was flipped before being moved to a plate on the right side."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of fried egg change? Choose **only one** option from the following list.\nOptions:\n(A) The fried egg was moved to a plate on the left side.\n(B) The fried egg was moved to a plate on the right side.\n(C) The fried egg was moved to a bowl on the right side.\n(D) The fried egg was moved but remained partially on the pan.\n(E) The fried egg was flipped before being moved to a plate on the right side.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The fried egg was moved but remained partially on the pan."
+    },
+    "correct_idx": [
+        1
+    ]
+}

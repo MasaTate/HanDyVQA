@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the bolt change?",
+    "options": [
+        "The bolt became loose as it was unscrewed with the power drill.",
+        "The bolt became more secure as it was tightened with the power drill.",
+        "The bolt was removed from its fixture using the power drill.",
+        "The bolt was stripped and made unusable due to excessive tightening with the power drill.",
+        "The bolt was covered in rust as it was exposed to moisture during drilling."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the bolt change? Choose **only one** option from the following list.\nOptions:\n(A) The bolt became loose as it was unscrewed with the power drill.\n(B) The bolt became more secure as it was tightened with the power drill.\n(C) The bolt was removed from its fixture using the power drill.\n(D) The bolt was stripped and made unusable due to excessive tightening with the power drill.\n(E) The bolt was covered in rust as it was exposed to moisture during drilling.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The bolt became loose as it was unscrewed with the power drill."
+    },
+    "correct_idx": [
+        1
+    ]
+}

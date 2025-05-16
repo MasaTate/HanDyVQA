@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pick the piece of cloth?",
+    "options": [
+        "The person uses their right hand to grip the piece of cloth and lift it upward with a smooth motion.",
+        "The person nudges the piece of cloth gently off the table and lets it fall to the floor.",
+        "The person uses the fingers of their left hand to grip the piece of cloth gently and then lift it upward with a smooth and controlled motion.",
+        "The person pinches an edge of the piece of cloth using their fingers and moves it quickly through the air.",
+        "The person uses their palm to lift the piece of cloth gently and move it along the surface of the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pick the piece of cloth? Choose **only one** option from the following list.\nOptions:\n(A) The person uses their right hand to grip the piece of cloth and lift it upward with a smooth motion.\n(B) The person nudges the piece of cloth gently off the table and lets it fall to the floor.\n(C) The person uses the fingers of their left hand to grip the piece of cloth gently and then lift it upward with a smooth and controlled motion.\n(D) The person pinches an edge of the piece of cloth using their fingers and moves it quickly through the air.\n(E) The person uses their palm to lift the piece of cloth gently and move it along the surface of the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person uses the fingers of their left hand to grip the piece of cloth gently and then lift it upward with a smooth and controlled motion."
+    },
+    "correct_idx": [
+        2
+    ]
+}

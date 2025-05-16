@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the peg?",
+    "options": [
+        "The person shifts the cloth peg upward using the left hand.",
+        "The person adjusts the cloth peg to the left side with the right hand.",
+        "The person nudges the cloth peg over to the right with the left hand.",
+        "The person slightly move down the cloth peg on the clot with the right hand.",
+        "The person pulls the cloth peg to the top of the line with the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the peg? Choose **only one** option from the following list.\nOptions:\n(A) The person shifts the cloth peg upward using the left hand.\n(B) The person adjusts the cloth peg to the left side with the right hand.\n(C) The person nudges the cloth peg over to the right with the left hand.\n(D) The person slightly move down the cloth peg on the clot with the right hand.\n(E) The person pulls the cloth peg to the top of the line with the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person adjusts the cloth peg to the left side with the right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

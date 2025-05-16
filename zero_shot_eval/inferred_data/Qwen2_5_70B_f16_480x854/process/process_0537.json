@@ -1,0 +1,17 @@
+{
+    "question": "How does the person stop the car?",
+    "options": [
+        "The person stops the car by applying pressure to the brake pedal with their foot, gradually decreasing speed while maintaining control of the steering wheel, until the vehicle comes to a complete stop.",
+        "The person slows the car by gently releasing the accelerator while keeping a firm grip on the steering wheel, gradually bringing the car to a halt.",
+        "The person stops the car by pressing the clutch pedal and shifting the gear stick to neutral, allowing the vehicle to coast without immediate braking.",
+        "The person stops the car by maneuvering the steering wheel slightly to the right while steadily pressing the brake pedal, resulting in a controlled stop.",
+        "The person brings the car to a stop by easing off the gas pedal and lifting the handbrake with a steady motion, ensuring a smooth standstill."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person stop the car? Choose **only one** option from the following list.\nOptions:\n(A) The person stops the car by applying pressure to the brake pedal with their foot, gradually decreasing speed while maintaining control of the steering wheel, until the vehicle comes to a complete stop.\n(B) The person slows the car by gently releasing the accelerator while keeping a firm grip on the steering wheel, gradually bringing the car to a halt.\n(C) The person stops the car by pressing the clutch pedal and shifting the gear stick to neutral, allowing the vehicle to coast without immediate braking.\n(D) The person stops the car by maneuvering the steering wheel slightly to the right while steadily pressing the brake pedal, resulting in a controlled stop.\n(E) The person brings the car to a stop by easing off the gas pedal and lifting the handbrake with a steady motion, ensuring a smooth standstill.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person stops the car by applying pressure to the brake pedal with their foot, gradually decreasing speed while maintaining control of the steering wheel, until the vehicle comes to a complete stop."
+    },
+    "correct_idx": [
+        0
+    ]
+}

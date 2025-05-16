@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person tightens a spark plug into the engine using the ratchet tool with his right hand.",
+        "The person removes a spark plug from the engine with the socket wrench held in his right hand.",
+        "The person unscrews a spark plug with the socket wrench with his right hand.",
+        "The person adjusts a spark plug using the torque wrench in his right hand while stabilizing the engine with his left hand.",
+        "The person inspects a spark plug with a flashlight in his right hand while holding the spark plug with his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person tightens a spark plug into the engine using the ratchet tool with his right hand.\n(B) The person removes a spark plug from the engine with the socket wrench held in his right hand.\n(C) The person unscrews a spark plug with the socket wrench with his right hand.\n(D) The person adjusts a spark plug using the torque wrench in his right hand while stabilizing the engine with his left hand.\n(E) The person inspects a spark plug with a flashlight in his right hand while holding the spark plug with his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person adjusts a spark plug using the torque wrench in his right hand while stabilizing the engine with his left hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

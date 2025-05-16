@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a computer on the white table change?",
+    "options": [
+        "The computer on the white table was restarted and adjusted nearer to the edge.",
+        "The computer on the white table was powered off and relocated to another spot.",
+        "The computer on the white table was unplugged and leaned to one side.",
+        "The computer on the white table was updated and repositioned back into place.",
+        "The computer on the white table was turned on and slightly adjusted its position."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a computer on the white table change? Choose **only one** option from the following list.\nOptions:\n(A) The computer on the white table was restarted and adjusted nearer to the edge.\n(B) The computer on the white table was powered off and relocated to another spot.\n(C) The computer on the white table was unplugged and leaned to one side.\n(D) The computer on the white table was updated and repositioned back into place.\n(E) The computer on the white table was turned on and slightly adjusted its position.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The computer on the white table was turned on and slightly adjusted its position."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person pulls a Jenga block out of the Jenga tower with their right-hand finger.",
+        "The person uses their right hand to knock over a Jenga block from the table.",
+        "The person pushes a Jenga block out of the Jenga tower with their right-hand finger.",
+        "The person places a Jenga block onto the Jenga tower with their right hand.",
+        "The person nudges a Jenga block in the tower with their right hand to make it wobble."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person pulls a Jenga block out of the Jenga tower with their right-hand finger.\n(B) The person uses their right hand to knock over a Jenga block from the table.\n(C) The person pushes a Jenga block out of the Jenga tower with their right-hand finger.\n(D) The person places a Jenga block onto the Jenga tower with their right hand.\n(E) The person nudges a Jenga block in the tower with their right hand to make it wobble.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person pushes a Jenga block out of the Jenga tower with their right-hand finger."
+    },
+    "correct_idx": [
+        2
+    ]
+}

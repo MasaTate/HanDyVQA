@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is pushing the shear into the coconut shell with his right hand.",
+        "The person is removing the fiber from the coconut husk using the shear in his right hand.",
+        "The person is holding the shear against the coconut husk with his right hand while stabilizing the coconut with his left hand.",
+        "The person is using the shear to cut through the tough exterior of the coconut with his right hand.",
+        "The person pierces the shear into the epicarp of the coconut using his right hand and holds the shear with both hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is pushing the shear into the coconut shell with his right hand.\n(B) The person is removing the fiber from the coconut husk using the shear in his right hand.\n(C) The person is holding the shear against the coconut husk with his right hand while stabilizing the coconut with his left hand.\n(D) The person is using the shear to cut through the tough exterior of the coconut with his right hand.\n(E) The person pierces the shear into the epicarp of the coconut using his right hand and holds the shear with both hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person pierces the shear into the epicarp of the coconut using his right hand and holds the shear with both hands."
+    },
+    "correct_idx": [
+        4
+    ]
+}

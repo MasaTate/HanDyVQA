@@ -1,0 +1,17 @@
+{
+    "question": "How does the person throw the stem?",
+    "options": [
+        "The person holds the stem in his left hand, raises his arm slightly upward, and tosses it forward with a gentle flick of the wrist.",
+        "The person clutches the stem in both hands and moves it backward with a smooth motion.",
+        "The person pinches the stem between his fingers, moves it slightly sideways, and places it gently onto a nearby surface.",
+        "The person twists the stem between his fingers, spins around smoothly, and lets it gently fall out of his hand.",
+        "The person grips the stem in his right hand, swings his arm slightly downward, and releases it to let the stem fall to the ground."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person throw the stem? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the stem in his left hand, raises his arm slightly upward, and tosses it forward with a gentle flick of the wrist.\n(B) The person clutches the stem in both hands and moves it backward with a smooth motion.\n(C) The person pinches the stem between his fingers, moves it slightly sideways, and places it gently onto a nearby surface.\n(D) The person twists the stem between his fingers, spins around smoothly, and lets it gently fall out of his hand.\n(E) The person grips the stem in his right hand, swings his arm slightly downward, and releases it to let the stem fall to the ground.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person grips the stem in his right hand, swings his arm slightly downward, and releases it to let the stem fall to the ground."
+    },
+    "correct_idx": [
+        4
+    ]
+}

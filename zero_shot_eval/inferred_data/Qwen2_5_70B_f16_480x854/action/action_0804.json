@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is cutting a small branch of a tree in his left hand with a knife in his right hand.",
+        "The person is collecting weeds with his right hand while kneeling on the ground.",
+        "The person is rearranging flowers in a pot with his right hand while holding a small trowel in his left hand.",
+        "The person is trimming the edges of the lawn with a pair of shears in his right hand while holding the grass clippings in his left hand.",
+        "The person is spreading fertilizer on the garden bed using a scoop in his right hand while holding a watering can in his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is cutting a small branch of a tree in his left hand with a knife in his right hand.\n(B) The person is collecting weeds with his right hand while kneeling on the ground.\n(C) The person is rearranging flowers in a pot with his right hand while holding a small trowel in his left hand.\n(D) The person is trimming the edges of the lawn with a pair of shears in his right hand while holding the grass clippings in his left hand.\n(E) The person is spreading fertilizer on the garden bed using a scoop in his right hand while holding a watering can in his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person is cutting a small branch of a tree in his left hand with a knife in his right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

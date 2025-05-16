@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the bottle of sauce change?",
+    "options": [
+        "The bottle of sauce was picked up and opened.",
+        "The bottle of sauce was turned upside down and shaken.",
+        "The bottle of sauce was placed in the refrigerator and sealed.",
+        "The bottle of sauce was poured into a bowl and then closed.",
+        "The bottle of sauce was thrown away and replaced with a new one."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the bottle of sauce change? Choose **only one** option from the following list.\nOptions:\n(A) The bottle of sauce was picked up and opened.\n(B) The bottle of sauce was turned upside down and shaken.\n(C) The bottle of sauce was placed in the refrigerator and sealed.\n(D) The bottle of sauce was poured into a bowl and then closed.\n(E) The bottle of sauce was thrown away and replaced with a new one.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The bottle of sauce was picked up and opened."
+    },
+    "correct_idx": [
+        0
+    ]
+}

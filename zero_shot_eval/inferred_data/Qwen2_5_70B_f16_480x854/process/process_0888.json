@@ -1,0 +1,17 @@
+{
+    "question": "How does the person carry the pot?",
+    "options": [
+        "The person grips the pot with both hands around the bowl, attempting to lift it without using the handle.",
+        "The person firmly grabs the detachable pot handle, clips it securely to the side of the pot, and carries the pot using the attached handle.",
+        "The person holds the pot by gripping the handle with one hand while supporting the bottom with the other, making it awkward to carry.",
+        "The person uses fingertips to hold the edge of the pot lid and tries to lift the pot, causing it to tilt slightly.",
+        "The person wraps their arms closely around the entire pot and attempts to lift it, neglecting the handle and risking spillage."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person carry the pot? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the pot with both hands around the bowl, attempting to lift it without using the handle.\n(B) The person firmly grabs the detachable pot handle, clips it securely to the side of the pot, and carries the pot using the attached handle.\n(C) The person holds the pot by gripping the handle with one hand while supporting the bottom with the other, making it awkward to carry.\n(D) The person uses fingertips to hold the edge of the pot lid and tries to lift the pot, causing it to tilt slightly.\n(E) The person wraps their arms closely around the entire pot and attempts to lift it, neglecting the handle and risking spillage.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person firmly grabs the detachable pot handle, clips it securely to the side of the pot, and carries the pot using the attached handle."
+    },
+    "correct_idx": [
+        1
+    ]
+}

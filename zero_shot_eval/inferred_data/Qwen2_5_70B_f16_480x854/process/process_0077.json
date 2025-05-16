@@ -1,0 +1,17 @@
+{
+    "question": "How does the person detach a wood?",
+    "options": [
+        "The person grips the wood with both hands and applies some force to pull it out steadily.",
+        "The person detaches the wood by gripping it with his fingers and possibly pulling or wiggling it to loosen it from its attachment.",
+        "The person attempts to detach the wood by pressing it gently against a stable surface with his palm.",
+        "The person uses a tool to carefully pry the wood while also gripping it slightly with his fingers.",
+        "The person twists his wrist slightly to attempt loosening the wood before pulling it off."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person detach a wood? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the wood with both hands and applies some force to pull it out steadily.\n(B) The person detaches the wood by gripping it with his fingers and possibly pulling or wiggling it to loosen it from its attachment.\n(C) The person attempts to detach the wood by pressing it gently against a stable surface with his palm.\n(D) The person uses a tool to carefully pry the wood while also gripping it slightly with his fingers.\n(E) The person twists his wrist slightly to attempt loosening the wood before pulling it off.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person uses a tool to carefully pry the wood while also gripping it slightly with his fingers."
+    },
+    "correct_idx": [
+        1
+    ]
+}

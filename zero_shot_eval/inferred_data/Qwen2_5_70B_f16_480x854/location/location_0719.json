@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the hand?",
+    "options": [
+        "The person places the hand on the hedge trimmer machine.",
+        "The person places the hand on the lawn mower machine.",
+        "The person places the hand on the tool shed door.",
+        "The person places the hand on the workbench in the garage.",
+        "The person places the hand on the grass cutter machine."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the hand? Choose **only one** option from the following list.\nOptions:\n(A) The person places the hand on the hedge trimmer machine.\n(B) The person places the hand on the lawn mower machine.\n(C) The person places the hand on the tool shed door.\n(D) The person places the hand on the workbench in the garage.\n(E) The person places the hand on the grass cutter machine.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person places the hand on the grass cutter machine."
+    },
+    "correct_idx": [
+        4
+    ]
+}

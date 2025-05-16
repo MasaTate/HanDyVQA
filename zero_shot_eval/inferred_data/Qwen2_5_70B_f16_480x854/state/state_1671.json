@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the fridge change?",
+    "options": [
+        "The fridge was opened, an object was taken out, and then closed again.",
+        "The fridge was left open while a container was rearranged inside.",
+        "The fridge was opened, a plastic object was placed inside, and then closed again.",
+        "The fridge was briefly opened for a different object to be taken out and then closed.",
+        "The fridge was opened, inspected without anything being placed inside, and then closed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the fridge change? Choose **only one** option from the following list.\nOptions:\n(A) The fridge was opened, an object was taken out, and then closed again.\n(B) The fridge was left open while a container was rearranged inside.\n(C) The fridge was opened, a plastic object was placed inside, and then closed again.\n(D) The fridge was briefly opened for a different object to be taken out and then closed.\n(E) The fridge was opened, inspected without anything being placed inside, and then closed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The fridge was opened, a plastic object was placed inside, and then closed again."
+    },
+    "correct_idx": [
+        2
+    ]
+}

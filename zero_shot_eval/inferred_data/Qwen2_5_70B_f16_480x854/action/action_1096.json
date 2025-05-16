@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person presses down the lid of the charcoal grill with his right hand and secures it with both hands.",
+        "The person holds up the handle of the charcoal grill with his right hand and adjusts it with both hands.",
+        "The person opens the charcoal grill using both hands while placing a lighter fluid bottle on the ground with his right hand.",
+        "The person lifts the charcoal grill off the ground with his right hand and stabilizes it with his left hand.",
+        "The person grips the edge of the charcoal grill with both hands while trying to clean it with a brush in his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person presses down the lid of the charcoal grill with his right hand and secures it with both hands.\n(B) The person holds up the handle of the charcoal grill with his right hand and adjusts it with both hands.\n(C) The person opens the charcoal grill using both hands while placing a lighter fluid bottle on the ground with his right hand.\n(D) The person lifts the charcoal grill off the ground with his right hand and stabilizes it with his left hand.\n(E) The person grips the edge of the charcoal grill with both hands while trying to clean it with a brush in his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person holds up the handle of the charcoal grill with his right hand and adjusts it with both hands."
+    },
+    "correct_idx": [
+        1
+    ]
+}

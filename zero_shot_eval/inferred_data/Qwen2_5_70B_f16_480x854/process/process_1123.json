@@ -1,0 +1,17 @@
+{
+    "question": "How does the person detach the switch of the motorbike?",
+    "options": [
+        "The person removes the switch from the motorbike by turning it gently with his right hand.",
+        "The person detaches the switch of the motorbike by pulling it with his left hand.",
+        "The person lifts the switch off the motorbike by pressing it softly with the palm of his hand.",
+        "The person pries the switch away from the motorbike using his fingers in his right hand.",
+        "The person pulls the switch off the motorbike by gripping it slightly with both hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person detach the switch of the motorbike? Choose **only one** option from the following list.\nOptions:\n(A) The person removes the switch from the motorbike by turning it gently with his right hand.\n(B) The person detaches the switch of the motorbike by pulling it with his left hand.\n(C) The person lifts the switch off the motorbike by pressing it softly with the palm of his hand.\n(D) The person pries the switch away from the motorbike using his fingers in his right hand.\n(E) The person pulls the switch off the motorbike by gripping it slightly with both hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person pulls the switch off the motorbike by gripping it slightly with both hands."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person press a button?",
+    "options": [
+        "The person gently taps the button with his right hand thumb, applying minimal pressure.",
+        "The person quickly presses the button downwards several times with force using his left hand index finger.",
+        "The person presses the button at a slight angle using the palm of his hand instead of directly downwards.",
+        "The person holds the button down steadily with his middle finger while supporting it with his other hand.",
+        "The person slides his finger over the button to activate it, rather than pressing directly."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person press a button? Choose **only one** option from the following list.\nOptions:\n(A) The person gently taps the button with his right hand thumb, applying minimal pressure.\n(B) The person quickly presses the button downwards several times with force using his left hand index finger.\n(C) The person presses the button at a slight angle using the palm of his hand instead of directly downwards.\n(D) The person holds the button down steadily with his middle finger while supporting it with his other hand.\n(E) The person slides his finger over the button to activate it, rather than pressing directly.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person quickly presses the button downwards several times with force using his left hand index finger."
+    },
+    "correct_idx": [
+        1
+    ]
+}

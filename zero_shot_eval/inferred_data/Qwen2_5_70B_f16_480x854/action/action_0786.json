@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person sprinkles pepper on the pasta with the right hand.",
+        "The person mixes cheese into the pasta with the right hand.",
+        "The person drizzles olive oil over the bread with the right hand.",
+        "The person scatters oregano over the soup with the right hand.",
+        "The person sprinkles salt on the pizza with the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person sprinkles pepper on the pasta with the right hand.\n(B) The person mixes cheese into the pasta with the right hand.\n(C) The person drizzles olive oil over the bread with the right hand.\n(D) The person scatters oregano over the soup with the right hand.\n(E) The person sprinkles salt on the pizza with the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person sprinkles salt on the pizza with the right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

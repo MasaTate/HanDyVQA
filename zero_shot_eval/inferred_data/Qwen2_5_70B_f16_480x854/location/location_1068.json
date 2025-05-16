@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the seedling?",
+    "options": [
+        "The person put the seedlings on the left side of the ground.",
+        "The person put the seedlings on the right side of the ground.",
+        "The person put the seedlings at the back of the garden.",
+        "The person put the seedlings in the center of the patio.",
+        "The person put the seedlings on the front steps of the house."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the seedling? Choose **only one** option from the following list.\nOptions:\n(A) The person put the seedlings on the left side of the ground.\n(B) The person put the seedlings on the right side of the ground.\n(C) The person put the seedlings at the back of the garden.\n(D) The person put the seedlings in the center of the patio.\n(E) The person put the seedlings on the front steps of the house.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person put the seedlings on the left side of the ground."
+    },
+    "correct_idx": [
+        0
+    ]
+}

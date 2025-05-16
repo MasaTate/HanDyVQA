@@ -1,0 +1,17 @@
+{
+    "question": "How does the person stretch his left hand?",
+    "options": [
+        "The person stretches his left hand by raising it upwards while rotating the wrist, keeping the position to display the palm.",
+        "The person stretches his left hand by pulling it slightly back towards his shoulder while holding a book, fingers remaining closely folded.",
+        "The person stretches his left hand by extending it in front of him as he holds a pen, making smooth circular motions in the air.",
+        "The person stretches his left hand by opening it widely while leaning forward, using the other hand to gently press on a table.",
+        "The person stretches his left hand by extending it sideways while brushing the wood, moving his hand back and forth repeatedly to cover the surface."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person stretch his left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person stretches his left hand by raising it upwards while rotating the wrist, keeping the position to display the palm.\n(B) The person stretches his left hand by pulling it slightly back towards his shoulder while holding a book, fingers remaining closely folded.\n(C) The person stretches his left hand by extending it in front of him as he holds a pen, making smooth circular motions in the air.\n(D) The person stretches his left hand by opening it widely while leaning forward, using the other hand to gently press on a table.\n(E) The person stretches his left hand by extending it sideways while brushing the wood, moving his hand back and forth repeatedly to cover the surface.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person stretches his left hand by extending it sideways while brushing the wood, moving his hand back and forth repeatedly to cover the surface."
+    },
+    "correct_idx": [
+        4
+    ]
+}

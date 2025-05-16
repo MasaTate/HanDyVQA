@@ -1,0 +1,17 @@
+{
+    "question": "How does the person drag the wire?",
+    "options": [
+        "The person pulls the wire with one hand, holding it gently with their fingers.",
+        "The person pulls the wire towards him using both hands.",
+        "The person lifts the wire slightly off the ground and balances it over their shoulder with one arm.",
+        "The person pushes the wire gently forward with the palm of one hand.",
+        "The person moves the wire from one hand to the other as they guide it across the surface."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person drag the wire? Choose **only one** option from the following list.\nOptions:\n(A) The person pulls the wire with one hand, holding it gently with their fingers.\n(B) The person pulls the wire towards him using both hands.\n(C) The person lifts the wire slightly off the ground and balances it over their shoulder with one arm.\n(D) The person pushes the wire gently forward with the palm of one hand.\n(E) The person moves the wire from one hand to the other as they guide it across the surface.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person pulls the wire towards him using both hands."
+    },
+    "correct_idx": [
+        1
+    ]
+}

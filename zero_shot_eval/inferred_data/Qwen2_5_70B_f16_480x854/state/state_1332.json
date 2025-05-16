@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a dirt change?",
+    "options": [
+        "The dirt, initially clinging to the knife, was manually wiped off and transferred to the sink.",
+        "The dirt, originally caked onto the knife, was scraped off and discarded into the trash can.",
+        "The dirt, previously stuck on the knife, was rinsed off with water and left to wash down the drain.",
+        "The dirt, which was adhering to the knife, was brushed off onto the countertop for later cleanup.",
+        "The dirt, once embedded in the knife, was knocked off and fell onto the floor."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a dirt change? Choose **only one** option from the following list.\nOptions:\n(A) The dirt, initially clinging to the knife, was manually wiped off and transferred to the sink.\n(B) The dirt, originally caked onto the knife, was scraped off and discarded into the trash can.\n(C) The dirt, previously stuck on the knife, was rinsed off with water and left to wash down the drain.\n(D) The dirt, which was adhering to the knife, was brushed off onto the countertop for later cleanup.\n(E) The dirt, once embedded in the knife, was knocked off and fell onto the floor.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The dirt, initially clinging to the knife, was manually wiped off and transferred to the sink."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the cream container?",
+    "options": [
+        "The person placed the cream container on the right front of the sink in the bathroom.",
+        "The person placed the cream container on the left front of the sink in the bathroom.",
+        "The person placed the cream container on the right back of the sink in the bathroom.",
+        "The person placed the cream container on the left back corner of the shower in the bathroom.",
+        "The person placed the cream container on the center of the bathroom counter, away from the sink."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the cream container? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the cream container on the right front of the sink in the bathroom.\n(B) The person placed the cream container on the left front of the sink in the bathroom.\n(C) The person placed the cream container on the right back of the sink in the bathroom.\n(D) The person placed the cream container on the left back corner of the shower in the bathroom.\n(E) The person placed the cream container on the center of the bathroom counter, away from the sink.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person placed the cream container on the right front of the sink in the bathroom."
+    },
+    "correct_idx": [
+        0
+    ]
+}

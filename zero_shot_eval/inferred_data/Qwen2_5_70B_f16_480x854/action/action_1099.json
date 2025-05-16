@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person spreads the fabric over the garden space using both hands.",
+        "The person unfolds the polythene over the garden space using both hands.",
+        "The person rolls up the polythene over the garden space using both hands.",
+        "The person gathers the polythene into a round shape using both hands.",
+        "The person places the polythene onto a table using both hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person spreads the fabric over the garden space using both hands.\n(B) The person unfolds the polythene over the garden space using both hands.\n(C) The person rolls up the polythene over the garden space using both hands.\n(D) The person gathers the polythene into a round shape using both hands.\n(E) The person places the polythene onto a table using both hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person unfolds the polythene over the garden space using both hands."
+    },
+    "correct_idx": [
+        1
+    ]
+}

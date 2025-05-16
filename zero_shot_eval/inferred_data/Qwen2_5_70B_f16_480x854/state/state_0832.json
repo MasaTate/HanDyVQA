@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the jar change?",
+    "options": [
+        "The jar's lid was twisted off, allowing the contents to be exposed, and then the lid was discarded, leaving the jar open.",
+        "The jar's lid was removed completely, revealing its contents, and then the jar was turned upside down, emptying its contents.",
+        "The jar's lid was unscrewed partially, allowing air to enter but keeping the contents secure, and then the lid was pushed back down without sealing it.",
+        "The jar's lid was lifted off, exposing its contents, and then the lid was placed back on, sealing the jar.",
+        "The jar's lid was popped off, revealing its contents, and then the jar was set aside, leaving it open for an extended period."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the jar change? Choose **only one** option from the following list.\nOptions:\n(A) The jar's lid was twisted off, allowing the contents to be exposed, and then the lid was discarded, leaving the jar open.\n(B) The jar's lid was removed completely, revealing its contents, and then the jar was turned upside down, emptying its contents.\n(C) The jar's lid was unscrewed partially, allowing air to enter but keeping the contents secure, and then the lid was pushed back down without sealing it.\n(D) The jar's lid was lifted off, exposing its contents, and then the lid was placed back on, sealing the jar.\n(E) The jar's lid was popped off, revealing its contents, and then the jar was set aside, leaving it open for an extended period.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The jar's lid was lifted off, exposing its contents, and then the lid was placed back on, sealing the jar."
+    },
+    "correct_idx": [
+        3
+    ]
+}

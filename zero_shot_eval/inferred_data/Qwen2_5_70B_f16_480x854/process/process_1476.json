@@ -1,0 +1,17 @@
+{
+    "question": "How does the person shake the hose?",
+    "options": [
+        "The person shook the hose by holding it with his left hand and rapidly moving his right hand up and down, causing the hose to shake.",
+        "The person twisted the hose by gripping it with both hands and moving it side to side, creating a jostling motion.",
+        "The person dragged the hose on the ground while holding one end with their left hand, leading it to move without a shake.",
+        "The person pulled the hose back and forth with both hands, generating tension but not a shaking motion.",
+        "The person let one end of the hose drop while holding the other, resulting in a flopping motion rather than shaking."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person shake the hose? Choose **only one** option from the following list.\nOptions:\n(A) The person shook the hose by holding it with his left hand and rapidly moving his right hand up and down, causing the hose to shake.\n(B) The person twisted the hose by gripping it with both hands and moving it side to side, creating a jostling motion.\n(C) The person dragged the hose on the ground while holding one end with their left hand, leading it to move without a shake.\n(D) The person pulled the hose back and forth with both hands, generating tension but not a shaking motion.\n(E) The person let one end of the hose drop while holding the other, resulting in a flopping motion rather than shaking.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person twisted the hose by gripping it with both hands and moving it side to side, creating a jostling motion."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the flour change?",
+    "options": [
+        "The flour remained dry as oil was added and stirred in a circular motion.",
+        "The flour's texture was altered as water was added and mixed in a circular motion.",
+        "The flour's texture became coarser after sugar was mixed in a zigzag pattern.",
+        "The flour's texture was changed when milk was poured on it and mixed back and forth.",
+        "The flour was left clumpy after water was added and mixed in a clockwise-only manner."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the flour change? Choose **only one** option from the following list.\nOptions:\n(A) The flour remained dry as oil was added and stirred in a circular motion.\n(B) The flour's texture was altered as water was added and mixed in a circular motion.\n(C) The flour's texture became coarser after sugar was mixed in a zigzag pattern.\n(D) The flour's texture was changed when milk was poured on it and mixed back and forth.\n(E) The flour was left clumpy after water was added and mixed in a clockwise-only manner.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The flour's texture was altered as water was added and mixed in a circular motion."
+    },
+    "correct_idx": [
+        1
+    ]
+}

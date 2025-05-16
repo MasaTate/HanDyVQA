@@ -1,0 +1,17 @@
+{
+    "question": "How does the person operate the phone?",
+    "options": [
+        "The person swipes the screen of the phone with the palm of the right hand to explore options, activating an app.",
+        "The person holds the phone in the left hand while using the right thumb to adjust the volume.",
+        "The person uses the right hand index finger to touch the screen and presses the keyboard of the phone to send some messages.",
+        "The person balances the phone on their lap and uses both hands to slightly shake it to receive notifications.",
+        "The person grips the phone with both hands and supports it against their shoulder while speaking."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person operate the phone? Choose **only one** option from the following list.\nOptions:\n(A) The person swipes the screen of the phone with the palm of the right hand to explore options, activating an app.\n(B) The person holds the phone in the left hand while using the right thumb to adjust the volume.\n(C) The person uses the right hand index finger to touch the screen and presses the keyboard of the phone to send some messages.\n(D) The person balances the phone on their lap and uses both hands to slightly shake it to receive notifications.\n(E) The person grips the phone with both hands and supports it against their shoulder while speaking.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person uses the right hand index finger to touch the screen and presses the keyboard of the phone to send some messages."
+    },
+    "correct_idx": [
+        2
+    ]
+}

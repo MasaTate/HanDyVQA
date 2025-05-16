@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the plate change?",
+    "options": [
+        "The plate was tilted slightly but remained in the same orientation.",
+        "The plate was lifted up and rotated so that its edge was up.",
+        "The plate was rotated slightly while staying on the table.",
+        "The plate was lifted up and rotated so that the surface was up.",
+        "The plate was moved to the side with its surface still facing down."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the plate change? Choose **only one** option from the following list.\nOptions:\n(A) The plate was tilted slightly but remained in the same orientation.\n(B) The plate was lifted up and rotated so that its edge was up.\n(C) The plate was rotated slightly while staying on the table.\n(D) The plate was lifted up and rotated so that the surface was up.\n(E) The plate was moved to the side with its surface still facing down.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The plate was lifted up and rotated so that the surface was up."
+    },
+    "correct_idx": [
+        3
+    ]
+}

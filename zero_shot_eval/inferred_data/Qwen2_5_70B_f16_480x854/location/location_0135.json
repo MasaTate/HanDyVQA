@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the sandwich?",
+    "options": [
+        "The person put the sandwich beside the sandwich stuffings with the right hand.",
+        "The person put the sandwich underneath the sandwich stuffings with the right hand.",
+        "The person put the sandwich in front of the sandwich stuffings with the left hand.",
+        "The person put the sandwich behind the sandwich stuffings with the left hand.",
+        "The person put the sandwich on top of the sandwich stuffings with the left hand.   "
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the sandwich? Choose **only one** option from the following list.\nOptions:\n(A) The person put the sandwich beside the sandwich stuffings with the right hand.\n(B) The person put the sandwich underneath the sandwich stuffings with the right hand.\n(C) The person put the sandwich in front of the sandwich stuffings with the left hand.\n(D) The person put the sandwich behind the sandwich stuffings with the left hand.\n(E) The person put the sandwich on top of the sandwich stuffings with the left hand.   \n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person put the sandwich on top of the sandwich stuffings with the left hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the clay pot change?",
+    "options": [
+        "The clay pot was lifted up, dusted off, and slightly roughened.",
+        "The clay pot was tilted sideways, partially cleaned, and given a textured surface.",
+        "The clay pot was lifted up, wiped off, and left uneven.",
+        "The clay pot was lifted up, polished, and then slightly scratched.",
+        "The clay pot was lifted up, cleaned, and smoothed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the clay pot change? Choose **only one** option from the following list.\nOptions:\n(A) The clay pot was lifted up, dusted off, and slightly roughened.\n(B) The clay pot was tilted sideways, partially cleaned, and given a textured surface.\n(C) The clay pot was lifted up, wiped off, and left uneven.\n(D) The clay pot was lifted up, polished, and then slightly scratched.\n(E) The clay pot was lifted up, cleaned, and smoothed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The clay pot was lifted up, cleaned, and smoothed."
+    },
+    "correct_idx": [
+        4
+    ]
+}

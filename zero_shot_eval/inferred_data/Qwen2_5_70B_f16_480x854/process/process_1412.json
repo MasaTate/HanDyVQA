@@ -1,0 +1,17 @@
+{
+    "question": "How does the person remove his left hand?",
+    "options": [
+        "The person lifts his left hand off the steering wheel as he reaches for a drink with his right hand.",
+        "The person removes his left hand from the steering wheel when he replaces his right hand to control the steering wheel.",
+        "The person moves his left arm away from the steering wheel as he turns his body to the right to look outside.",
+        "The person slides his left hand along the steering wheel before pulling it away to adjust his seatbelt.",
+        "The person places his left hand on his knee while keeping his right hand steady on the wheel."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person remove his left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person lifts his left hand off the steering wheel as he reaches for a drink with his right hand.\n(B) The person removes his left hand from the steering wheel when he replaces his right hand to control the steering wheel.\n(C) The person moves his left arm away from the steering wheel as he turns his body to the right to look outside.\n(D) The person slides his left hand along the steering wheel before pulling it away to adjust his seatbelt.\n(E) The person places his left hand on his knee while keeping his right hand steady on the wheel.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person removes his left hand from the steering wheel when he replaces his right hand to control the steering wheel."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person crumples the polythene bag using both hands.",
+        "The person opens the polythene bag with both hands while holding it by the edge.",
+        "The person takes the trash and separates the cardboard and the plastic using both hands before throwing them in the trash can.",
+        "The person smooths out the polythene bag on a flat surface with both hands.",
+        "The person grips the polythene bag while using both hands to place a few items inside."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person crumples the polythene bag using both hands.\n(B) The person opens the polythene bag with both hands while holding it by the edge.\n(C) The person takes the trash and separates the cardboard and the plastic using both hands before throwing them in the trash can.\n(D) The person smooths out the polythene bag on a flat surface with both hands.\n(E) The person grips the polythene bag while using both hands to place a few items inside.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person takes the trash and separates the cardboard and the plastic using both hands before throwing them in the trash can."
+    },
+    "correct_idx": [
+        2
+    ]
+}

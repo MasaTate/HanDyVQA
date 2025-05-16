@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a hole change?",
+    "options": [
+        "The hole was filled with soil, decreasing its size and depth.",
+        "The hole was expanded using a shovel, modifying its shape.",
+        "The hole was drilled, increasing its size and depth.",
+        "The hole was reinforced with cement, strengthening its walls.",
+        "The hole was deepened by removing rocks, increasing its depth."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a hole change? Choose **only one** option from the following list.\nOptions:\n(A) The hole was filled with soil, decreasing its size and depth.\n(B) The hole was expanded using a shovel, modifying its shape.\n(C) The hole was drilled, increasing its size and depth.\n(D) The hole was reinforced with cement, strengthening its walls.\n(E) The hole was deepened by removing rocks, increasing its depth.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The hole was drilled, increasing its size and depth."
+    },
+    "correct_idx": [
+        2
+    ]
+}

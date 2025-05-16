@@ -1,0 +1,17 @@
+{
+    "question": "How does the person dust his body?",
+    "options": [
+        "The person uses his left hand to push the dust in a forward direction, moving away from his right hand and pushing it downwards, away from his body.",
+        "The person sweeps the dust upwards towards his face using his right hand while moving it gently around his torso.",
+        "The person flicks the dust off his body sideways with the palm of his left hand, spreading it into the air rather than pushing it down.",
+        "The person taps the dust off his shoulder with the back of his right hand, making slight contact with the body as he moves his arm sideways.",
+        "The person brushes the dust towards his left side using the fingertips of his right hand, smoothly moving it in an outward direction away from his body."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person dust his body? Choose **only one** option from the following list.\nOptions:\n(A) The person uses his left hand to push the dust in a forward direction, moving away from his right hand and pushing it downwards, away from his body.\n(B) The person sweeps the dust upwards towards his face using his right hand while moving it gently around his torso.\n(C) The person flicks the dust off his body sideways with the palm of his left hand, spreading it into the air rather than pushing it down.\n(D) The person taps the dust off his shoulder with the back of his right hand, making slight contact with the body as he moves his arm sideways.\n(E) The person brushes the dust towards his left side using the fingertips of his right hand, smoothly moving it in an outward direction away from his body.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person taps the dust off his shoulder with the back of his right hand, making slight contact with the body as he moves his arm sideways."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person picks up a roll of table napkin from the shelf with the left hand while attempting to cut a piece of napkin with the right hand.",
+        "The person holds a roll of table napkin in his right hand while using the left hand to push it against the table.",
+        "The person lightly squeezes a roll of table napkin with his right hand while holding it steady with his left hand.",
+        "The person is pulling off a piece of table napkin on the floor with his right hand while grasping a pen with his left hand.",
+        "The person grabs a roll of table napkin on the table with the left hand while trying to tear a part of the napkin with the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person picks up a roll of table napkin from the shelf with the left hand while attempting to cut a piece of napkin with the right hand.\n(B) The person holds a roll of table napkin in his right hand while using the left hand to push it against the table.\n(C) The person lightly squeezes a roll of table napkin with his right hand while holding it steady with his left hand.\n(D) The person is pulling off a piece of table napkin on the floor with his right hand while grasping a pen with his left hand.\n(E) The person grabs a roll of table napkin on the table with the left hand while trying to tear a part of the napkin with the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person grabs a roll of table napkin on the table with the left hand while trying to tear a part of the napkin with the right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

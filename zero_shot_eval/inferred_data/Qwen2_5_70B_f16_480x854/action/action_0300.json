@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person transfers the salad into a bowl, holding the plate with their left hand while skillfully tossing the lettuce with a spoon in their right hand.",
+        "The person scoops the soup from a pot, holding the ladle with their left hand while gently stirring the soup with a whisk in their right hand.",
+        "The person serves the dessert onto a plate, holding a serving tray with their left hand while carefully cutting the cake with a knife in their right hand.",
+        "The person pours the cooked food into the casserole, holding the pan with their left hand while carefully scraping the food with a spatula in their right hand.",
+        "The person lifts the veggies from the cutting board, holding a knife in their left hand while finely shredding the vegetables with a grater in their right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person transfers the salad into a bowl, holding the plate with their left hand while skillfully tossing the lettuce with a spoon in their right hand.\n(B) The person scoops the soup from a pot, holding the ladle with their left hand while gently stirring the soup with a whisk in their right hand.\n(C) The person serves the dessert onto a plate, holding a serving tray with their left hand while carefully cutting the cake with a knife in their right hand.\n(D) The person pours the cooked food into the casserole, holding the pan with their left hand while carefully scraping the food with a spatula in their right hand.\n(E) The person lifts the veggies from the cutting board, holding a knife in their left hand while finely shredding the vegetables with a grater in their right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person pours the cooked food into the casserole, holding the pan with their left hand while carefully scraping the food with a spatula in their right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

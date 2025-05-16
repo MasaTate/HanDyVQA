@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move a ratchet strap?",
+    "options": [
+        "The person moved the ratchet strap to the left portion of the wooden floor.",
+        "The person moved the ratchet strap next to the chair on the wooden floor.",
+        "The person moved the ratchet strap under the side table on the wooden floor.",
+        "The person moved the racket strap at the right portion of the wooden floor.",
+        "The person moved the ratchet strap onto the wooden floor near the entrance."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move a ratchet strap? Choose **only one** option from the following list.\nOptions:\n(A) The person moved the ratchet strap to the left portion of the wooden floor.\n(B) The person moved the ratchet strap next to the chair on the wooden floor.\n(C) The person moved the ratchet strap under the side table on the wooden floor.\n(D) The person moved the racket strap at the right portion of the wooden floor.\n(E) The person moved the ratchet strap onto the wooden floor near the entrance.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person moved the racket strap at the right portion of the wooden floor."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the rope?",
+    "options": [
+        "The person drops the rope on the table.",
+        "The person drops the rope on the chair next to the wall.",
+        "The person drops the rope on the ground.",
+        "The person drops the rope on the shelf beside the window.",
+        "The person drops the rope on the floor near the door."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the rope? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the rope on the table.\n(B) The person drops the rope on the chair next to the wall.\n(C) The person drops the rope on the ground.\n(D) The person drops the rope on the shelf beside the window.\n(E) The person drops the rope on the floor near the door.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person drops the rope on the ground."
+    },
+    "correct_idx": [
+        2
+    ]
+}

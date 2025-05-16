@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "microwave",
+        "bread toaster",
+        "ladle",
+        "frying pan",
+        "pot",
+        "food pouch"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) microwave\n(B) bread toaster\n(C) ladle\n(D) frying pan\n(E) pot\n(F) food pouch\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(A) The hands are seen interacting with the microwave, likely opening or closing it.\n(F) The hands are holding a food pouch, which appears to be a package of tortilla strips."
+    },
+    "correct_idx": [
+        2,
+        3
+    ]
+}

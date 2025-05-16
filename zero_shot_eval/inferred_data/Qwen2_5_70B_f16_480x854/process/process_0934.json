@@ -1,0 +1,17 @@
+{
+    "question": "How does the person take the banana flower?",
+    "options": [
+        "The person grabs the banana flower with both hands and pulls it off with attention, placing it gently into the basket.",
+        "The person uses one hand to hold the stem of the banana flower and removes it carefully before placing it softly in the basket.",
+        "The person clasps the banana flower with the fingertips of the right hand, lifting it smoothly and carefully placing it in the basket.",
+        "The person takes off the banana bloom and carefully brushes it with the left hand thumb while transferring it to the right hand to gently put it down inside the basket.",
+        "The person handles the banana flower with one hand and gently places it into the basket, ensuring it lands softly."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person take the banana flower? Choose **only one** option from the following list.\nOptions:\n(A) The person grabs the banana flower with both hands and pulls it off with attention, placing it gently into the basket.\n(B) The person uses one hand to hold the stem of the banana flower and removes it carefully before placing it softly in the basket.\n(C) The person clasps the banana flower with the fingertips of the right hand, lifting it smoothly and carefully placing it in the basket.\n(D) The person takes off the banana bloom and carefully brushes it with the left hand thumb while transferring it to the right hand to gently put it down inside the basket.\n(E) The person handles the banana flower with one hand and gently places it into the basket, ensuring it lands softly.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person takes off the banana bloom and carefully brushes it with the left hand thumb while transferring it to the right hand to gently put it down inside the basket."
+    },
+    "correct_idx": [
+        3
+    ]
+}

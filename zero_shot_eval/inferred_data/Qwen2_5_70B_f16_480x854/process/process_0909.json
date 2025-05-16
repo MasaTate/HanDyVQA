@@ -1,0 +1,17 @@
+{
+    "question": "How does the person collect the twig  ?",
+    "options": [
+        "The person grabs the twig with both hands and pulls it off the branch, letting it fall to the ground, without using any tools.",
+        "The person moves the twig aside with their palm while using their left hand to steady themselves against the tree.",
+        "The person uses their right hand to shake the branch, allowing the twig to drop down on its own, while their left hand stays in their pocket.",
+        "The person bends down on one knee to reach for the twig, using only their left hand to pick it up, not using any cutting tools.",
+        "The person uses pruning shears to cut the twig with their right hand, while their left hand picks up the twigs and tosses them to the ground."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person collect the twig  ? Choose **only one** option from the following list.\nOptions:\n(A) The person grabs the twig with both hands and pulls it off the branch, letting it fall to the ground, without using any tools.\n(B) The person moves the twig aside with their palm while using their left hand to steady themselves against the tree.\n(C) The person uses their right hand to shake the branch, allowing the twig to drop down on its own, while their left hand stays in their pocket.\n(D) The person bends down on one knee to reach for the twig, using only their left hand to pick it up, not using any cutting tools.\n(E) The person uses pruning shears to cut the twig with their right hand, while their left hand picks up the twigs and tosses them to the ground.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person uses pruning shears to cut the twig with their right hand, while their left hand picks up the twigs and tosses them to the ground."
+    },
+    "correct_idx": [
+        4
+    ]
+}

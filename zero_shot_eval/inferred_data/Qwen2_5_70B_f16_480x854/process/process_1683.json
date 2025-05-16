@@ -1,0 +1,17 @@
+{
+    "question": "How does the person beat his left hand?",
+    "options": [
+        "The person tapped his left hand on his right hand in an enthusiastic manner.",
+        "The person tapped his left hand using his right palm with some force.",
+        "The person gently tapped his left hand using the fingertips from his right hand.",
+        "The person tapped his left hand and right hand by smashing some clay in the brick mold.",
+        "The person struck his left hand lightly with the back of the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person beat his left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person tapped his left hand on his right hand in an enthusiastic manner.\n(B) The person tapped his left hand using his right palm with some force.\n(C) The person gently tapped his left hand using the fingertips from his right hand.\n(D) The person tapped his left hand and right hand by smashing some clay in the brick mold.\n(E) The person struck his left hand lightly with the back of the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person tapped his left hand and right hand by smashing some clay in the brick mold."
+    },
+    "correct_idx": [
+        3
+    ]
+}

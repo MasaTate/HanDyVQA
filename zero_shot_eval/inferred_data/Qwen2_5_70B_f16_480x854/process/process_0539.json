@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pass the plate?",
+    "options": [
+        "The person hands the plate with their left hand, gently rotating it as they extend their arm towards the recipient.",
+        "The person passes the plate using their right hand by gripping it securely, lifting it with a steady motion, and extending their arm towards the recipient to hand it over carefully.",
+        "The person moves the plate forward with their fingertips from the edge of the table, guiding it slowly towards the recipient.",
+        "The person holds the plate with both hands, adjusting it slightly before attempting to pass it to the other person.",
+        "The person lowers the plate into the recipient's hands, releasing it smoothly with a slight motion of their right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pass the plate? Choose **only one** option from the following list.\nOptions:\n(A) The person hands the plate with their left hand, gently rotating it as they extend their arm towards the recipient.\n(B) The person passes the plate using their right hand by gripping it securely, lifting it with a steady motion, and extending their arm towards the recipient to hand it over carefully.\n(C) The person moves the plate forward with their fingertips from the edge of the table, guiding it slowly towards the recipient.\n(D) The person holds the plate with both hands, adjusting it slightly before attempting to pass it to the other person.\n(E) The person lowers the plate into the recipient's hands, releasing it smoothly with a slight motion of their right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person passes the plate using their right hand by gripping it securely, lifting it with a steady motion, and extending their arm towards the recipient to hand it over carefully."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the hanger change?",
+    "options": [
+        "The hanger was moved out of the cabinet as the clothes were removed from it.",
+        "The hanger was moved as the clothes were draped over it but then placed on a rack instead of the cabinet.",
+        "The hanger was moved as the clothes were draped over it and placed in the cabinet.",
+        "The hanger was moved as the clothes were taken off and was left on the shelf.",
+        "The hanger was moved with clothes already on it and hung outside the closet door."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the hanger change? Choose **only one** option from the following list.\nOptions:\n(A) The hanger was moved out of the cabinet as the clothes were removed from it.\n(B) The hanger was moved as the clothes were draped over it but then placed on a rack instead of the cabinet.\n(C) The hanger was moved as the clothes were draped over it and placed in the cabinet.\n(D) The hanger was moved as the clothes were taken off and was left on the shelf.\n(E) The hanger was moved with clothes already on it and hung outside the closet door.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The hanger was moved as the clothes were taken off and was left on the shelf."
+    },
+    "correct_idx": [
+        2
+    ]
+}

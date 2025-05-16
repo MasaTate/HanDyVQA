@@ -1,0 +1,17 @@
+{
+    "question": "How does the person push the nail rack?",
+    "options": [
+        "The person slowly moves the nail rack by using both hands to push it forward.",
+        "The person gently pushes the nail rack by sliding the rack to the left using the right hand.",
+        "The person lightly taps the side of the nail rack with their hand, making it wobble instead of sliding.",
+        "The person turns their wrist, causing the nail rack to tip over rather than pushing it.",
+        "The person carefully lifts the nail rack with one hand and then places it down quickly to the table rather than pushing it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person push the nail rack? Choose **only one** option from the following list.\nOptions:\n(A) The person slowly moves the nail rack by using both hands to push it forward.\n(B) The person gently pushes the nail rack by sliding the rack to the left using the right hand.\n(C) The person lightly taps the side of the nail rack with their hand, making it wobble instead of sliding.\n(D) The person turns their wrist, causing the nail rack to tip over rather than pushing it.\n(E) The person carefully lifts the nail rack with one hand and then places it down quickly to the table rather than pushing it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person gently pushes the nail rack by sliding the rack to the left using the right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

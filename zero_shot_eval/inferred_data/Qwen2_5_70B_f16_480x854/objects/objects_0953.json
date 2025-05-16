@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "cupboard",
+        "drawer",
+        "casserole",
+        "drawer knob",
+        "shades",
+        "stainless steel bowl"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) cupboard\n(B) drawer\n(C) casserole\n(D) drawer knob\n(E) shades\n(F) stainless steel bowl\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(A) cupboard - The hands open the cupboard to access the red casserole dish inside.\n(C) casserole - The hands pick up the red casserole dish from the cupboard."
+    },
+    "correct_idx": [
+        0,
+        5
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the knife change?",
+    "options": [
+        "The knife's surface became free of residue after being cleaned.",
+        "The knife's edge was sharpened to enhance its cutting ability.",
+        "The knife's handle was replaced with a more comfortable design.",
+        "The knife's blade was covered with rust after being exposed to water.",
+        "The knife's overall length was increased after modification."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the knife change? Choose **only one** option from the following list.\nOptions:\n(A) The knife's surface became free of residue after being cleaned.\n(B) The knife's edge was sharpened to enhance its cutting ability.\n(C) The knife's handle was replaced with a more comfortable design.\n(D) The knife's blade was covered with rust after being exposed to water.\n(E) The knife's overall length was increased after modification.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The knife's surface became free of residue after being cleaned."
+    },
+    "correct_idx": [
+        0
+    ]
+}

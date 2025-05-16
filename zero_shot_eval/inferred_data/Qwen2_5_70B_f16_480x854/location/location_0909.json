@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the cup of dog food?",
+    "options": [
+        "The person places the cup of dog food on the table edge.",
+        "The person places the cup of dog food on the floor next to the tray.",
+        "The person places the cup of dog food on the shelf above the tray.",
+        "The person places the cup of dog food on the tray wall.",
+        "The person places the cup of dog food on the right side of the tray."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the cup of dog food? Choose **only one** option from the following list.\nOptions:\n(A) The person places the cup of dog food on the table edge.\n(B) The person places the cup of dog food on the floor next to the tray.\n(C) The person places the cup of dog food on the shelf above the tray.\n(D) The person places the cup of dog food on the tray wall.\n(E) The person places the cup of dog food on the right side of the tray.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person places the cup of dog food on the right side of the tray."
+    },
+    "correct_idx": [
+        3
+    ]
+}

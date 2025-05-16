@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the bobbin?",
+    "options": [
+        "The person put the bobbin in the sewing drawer.",
+        "The person put the bobbin in the bobbin winder.",
+        "The person put the bobbin on the table next to the sewing machine.",
+        "The person put the bobbin in the thread box.",
+        "The person put the bobbin on the floor beside the craft supplies."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the bobbin? Choose **only one** option from the following list.\nOptions:\n(A) The person put the bobbin in the sewing drawer.\n(B) The person put the bobbin in the bobbin winder.\n(C) The person put the bobbin on the table next to the sewing machine.\n(D) The person put the bobbin in the thread box.\n(E) The person put the bobbin on the floor beside the craft supplies.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person put the bobbin in the bobbin winder."
+    },
+    "correct_idx": [
+        1
+    ]
+}

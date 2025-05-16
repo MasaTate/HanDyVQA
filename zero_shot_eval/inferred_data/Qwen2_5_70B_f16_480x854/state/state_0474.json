@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the screen change?",
+    "options": [
+        "The screen was swiped to the left, revealing the applications on the side.",
+        "The screen was tapped multiple times, revealing the hidden notifications.",
+        "The screen was pressed firmly, causing the icons to rearrange.",
+        "The screen was rotated, altering the orientation of the displayed content.",
+        "The screen was swiped up, revealing the images below."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the screen change? Choose **only one** option from the following list.\nOptions:\n(A) The screen was swiped to the left, revealing the applications on the side.\n(B) The screen was tapped multiple times, revealing the hidden notifications.\n(C) The screen was pressed firmly, causing the icons to rearrange.\n(D) The screen was rotated, altering the orientation of the displayed content.\n(E) The screen was swiped up, revealing the images below.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The screen was swiped up, revealing the images below."
+    },
+    "correct_idx": [
+        4
+    ]
+}

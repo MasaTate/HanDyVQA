@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the pitcher of water change?",
+    "options": [
+        "The pitcher of water was spilled onto the counter, creating a mess.",
+        "The pitcher of water was poured into the mixing bowl to mix the dough.",
+        "The pitcher of water was emptied into a glass to serve.",
+        "The pitcher of water was filled with ice cubes to cool it.",
+        "The pitcher of water was transferred to a larger container for storage."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the pitcher of water change? Choose **only one** option from the following list.\nOptions:\n(A) The pitcher of water was spilled onto the counter, creating a mess.\n(B) The pitcher of water was poured into the mixing bowl to mix the dough.\n(C) The pitcher of water was emptied into a glass to serve.\n(D) The pitcher of water was filled with ice cubes to cool it.\n(E) The pitcher of water was transferred to a larger container for storage.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The pitcher of water was poured into the mixing bowl to mix the dough."
+    },
+    "correct_idx": [
+        1
+    ]
+}

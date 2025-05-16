@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person operates the leaf blower with one hand while holding a rake in the other.",
+        "The person sets down the leaf blower vacuum with both hands while adjusting a strap on their shoulder.",
+        "The person pushes the leaf blower vacuum with one hand while stabilizing a garden bag with the other.",
+        "The person cleans the leaf blower vacuum using a cloth held in one hand while the other hand supports the device.",
+        "The person grabs the leaf blower vacuum with both hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person operates the leaf blower with one hand while holding a rake in the other.\n(B) The person sets down the leaf blower vacuum with both hands while adjusting a strap on their shoulder.\n(C) The person pushes the leaf blower vacuum with one hand while stabilizing a garden bag with the other.\n(D) The person cleans the leaf blower vacuum using a cloth held in one hand while the other hand supports the device.\n(E) The person grabs the leaf blower vacuum with both hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person grabs the leaf blower vacuum with both hands."
+    },
+    "correct_idx": [
+        4
+    ]
+}

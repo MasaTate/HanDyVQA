@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person takes a towel from the cabinet using her right hand, then holds it with both hands.",
+        "The person pulls a piece of fabric from the drawer using her right hand, then holds it with both hands.",
+        "The person grabs one piece of clothing with a hanger from the cabinet using her right hand, then holds it with both hands.",
+        "The person retrieves a shirt from the closet using her right hand, then holds it with both hands.",
+        "The person picks up a scarf from the shelf using her right hand, then holds it with both hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person takes a towel from the cabinet using her right hand, then holds it with both hands.\n(B) The person pulls a piece of fabric from the drawer using her right hand, then holds it with both hands.\n(C) The person grabs one piece of clothing with a hanger from the cabinet using her right hand, then holds it with both hands.\n(D) The person retrieves a shirt from the closet using her right hand, then holds it with both hands.\n(E) The person picks up a scarf from the shelf using her right hand, then holds it with both hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person retrieves a shirt from the closet using her right hand, then holds it with both hands."
+    },
+    "correct_idx": [
+        2
+    ]
+}

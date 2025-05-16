@@ -1,0 +1,17 @@
+{
+    "question": "How does the person lower her left hand?",
+    "options": [
+        "The person lowered her left hand by gradually moving it downward and resting it on the chopping board.",
+        "The person slowly withdrew her left hand, keeping it close and letting it hover just above the chopping board.",
+        "The person gently lowered her left hand, allowing it to rest softly onto the chopping board.",
+        "The person moved her left hand outward to the side, aligning it horizontally above the chopping board.",
+        "The person guided her left hand in a curve and let it softly land onto a bowl, rather than resting it on the chopping board."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person lower her left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person lowered her left hand by gradually moving it downward and resting it on the chopping board.\n(B) The person slowly withdrew her left hand, keeping it close and letting it hover just above the chopping board.\n(C) The person gently lowered her left hand, allowing it to rest softly onto the chopping board.\n(D) The person moved her left hand outward to the side, aligning it horizontally above the chopping board.\n(E) The person guided her left hand in a curve and let it softly land onto a bowl, rather than resting it on the chopping board.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person lowered her left hand by gradually moving it downward and resting it on the chopping board."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the sponge?",
+    "options": [
+        "The person put the sponge near the front edge of the sink.",
+        "The person put the sponge on the left side of the drainboard.",
+        "The person put the sponge at the far end of the sink.",
+        "The person put the sponge on the cutting board next to the sink.",
+        "The person put the sponge on the right side of the countertop."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the sponge? Choose **only one** option from the following list.\nOptions:\n(A) The person put the sponge near the front edge of the sink.\n(B) The person put the sponge on the left side of the drainboard.\n(C) The person put the sponge at the far end of the sink.\n(D) The person put the sponge on the cutting board next to the sink.\n(E) The person put the sponge on the right side of the countertop.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person put the sponge on the left side of the drainboard."
+    },
+    "correct_idx": [
+        2
+    ]
+}

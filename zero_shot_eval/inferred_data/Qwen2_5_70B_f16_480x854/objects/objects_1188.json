@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "rice ladle",
+        "pot mat",
+        "colander",
+        "round stainless basin",
+        "dish rack",
+        "faucet"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) rice ladle\n(B) pot mat\n(C) colander\n(D) round stainless basin\n(E) dish rack\n(F) faucet\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(C) The hands use a colander to rinse rice in the sink.\n(F) The hands adjust the faucet to control the water flow while rinsing the rice."
+    },
+    "correct_idx": [
+        0,
+        1
+    ]
+}

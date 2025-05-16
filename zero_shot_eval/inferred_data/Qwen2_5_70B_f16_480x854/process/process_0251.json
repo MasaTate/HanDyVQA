@@ -1,0 +1,17 @@
+{
+    "question": "How does the person close the forth drawer from the green tool box?",
+    "options": [
+        "The person used both hands to open the drawer and then pushed it closed with his left hand.",
+        "The person pushed the drawer shut with his palm while holding the toolbox steady with his right hand.",
+        "The person gripped the sides of the drawer with both hands, pulling it halfway out before letting it slide back in.",
+        "The person managed the drawer with his right hand while balancing the toolbox with his left hand.",
+        "The person pushed the drawer using his right hand to close the drawer of the green tool box."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person close the forth drawer from the green tool box? Choose **only one** option from the following list.\nOptions:\n(A) The person used both hands to open the drawer and then pushed it closed with his left hand.\n(B) The person pushed the drawer shut with his palm while holding the toolbox steady with his right hand.\n(C) The person gripped the sides of the drawer with both hands, pulling it halfway out before letting it slide back in.\n(D) The person managed the drawer with his right hand while balancing the toolbox with his left hand.\n(E) The person pushed the drawer using his right hand to close the drawer of the green tool box.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person pushed the drawer using his right hand to close the drawer of the green tool box."
+    },
+    "correct_idx": [
+        4
+    ]
+}

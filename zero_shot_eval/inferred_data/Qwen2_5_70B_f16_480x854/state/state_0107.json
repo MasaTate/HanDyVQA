@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of some paint from the tube change?",
+    "options": [
+        "The paint was transferred from the right hand to the left hand then moved to the palette.",
+        "The paint was transferred from the left hand to the right hand and spilled on the table.",
+        "The paint was transferred from the left hand to the right hand then moved to the canvas.",
+        "The paint was transferred from the left hand to the right hand then moved to the palette.",
+        "The paint was transferred from the left hand to the right hand and put back into the tube."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of some paint from the tube change? Choose **only one** option from the following list.\nOptions:\n(A) The paint was transferred from the right hand to the left hand then moved to the palette.\n(B) The paint was transferred from the left hand to the right hand and spilled on the table.\n(C) The paint was transferred from the left hand to the right hand then moved to the canvas.\n(D) The paint was transferred from the left hand to the right hand then moved to the palette.\n(E) The paint was transferred from the left hand to the right hand and put back into the tube.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The paint was transferred from the left hand to the right hand then moved to the palette."
+    },
+    "correct_idx": [
+        3
+    ]
+}

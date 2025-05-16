@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of glue change?",
+    "options": [
+        "The cap of the glue was removed and placed on the table, but the glue was not squeezed out.",
+        "The cap of the glue was removed and put on the table, and the glue was squeezed out.",
+        "The glue was squeezed out without the cap being removed, and it was wiped away immediately.",
+        "The glue was squeezed out, and the cap was replaced without being set on the table.",
+        "The cap was removed, replaced immediately, and then the glue was squeezed out with difficulty."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of glue change? Choose **only one** option from the following list.\nOptions:\n(A) The cap of the glue was removed and placed on the table, but the glue was not squeezed out.\n(B) The cap of the glue was removed and put on the table, and the glue was squeezed out.\n(C) The glue was squeezed out without the cap being removed, and it was wiped away immediately.\n(D) The glue was squeezed out, and the cap was replaced without being set on the table.\n(E) The cap was removed, replaced immediately, and then the glue was squeezed out with difficulty.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The cap of the glue was removed and placed on the table, but the glue was not squeezed out."
+    },
+    "correct_idx": [
+        1
+    ]
+}

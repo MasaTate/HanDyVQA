@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the position of the knife change?",
+    "options": [
+        "The knife was flipped and placed down.",
+        "The knife was rotated and positioned vertically.",
+        "The knife was lifted and balanced upright.",
+        "The knife was slid and set on the edge.",
+        "The knife was repositioned and moved aside."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the position of the knife change? Choose **only one** option from the following list.\nOptions:\n(A) The knife was flipped and placed down.\n(B) The knife was rotated and positioned vertically.\n(C) The knife was lifted and balanced upright.\n(D) The knife was slid and set on the edge.\n(E) The knife was repositioned and moved aside.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The knife was repositioned and moved aside."
+    },
+    "correct_idx": [
+        4
+    ]
+}

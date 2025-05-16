@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person's left hand is pulling down the folding armrest.",
+        "The person's left hand is adjusting the backrest of the chair while the right hand rests on the seat cushion.",
+        "The person's left hand is pushing up the folding armrest while the right hand is holding a drink.",
+        "The person's left hand is folding the armrest up while the right hand is scrolling on a phone.",
+        "The person's left hand is grabbing a pillow while the right hand is tugging at the armrest."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person's left hand is pulling down the folding armrest.\n(B) The person's left hand is adjusting the backrest of the chair while the right hand rests on the seat cushion.\n(C) The person's left hand is pushing up the folding armrest while the right hand is holding a drink.\n(D) The person's left hand is folding the armrest up while the right hand is scrolling on a phone.\n(E) The person's left hand is grabbing a pillow while the right hand is tugging at the armrest.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person's left hand is pulling down the folding armrest."
+    },
+    "correct_idx": [
+        0
+    ]
+}

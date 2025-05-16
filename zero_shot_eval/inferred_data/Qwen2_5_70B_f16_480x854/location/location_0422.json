@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put cup?",
+    "options": [
+        "The person sets the cup beside the scoop.",
+        "The person positions the cup under the scoop.",
+        "The person places the cup behind the scoop.",
+        "The person moves the cup in front of the scoop.",
+        "The person places the cup over the scoop. "
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put cup? Choose **only one** option from the following list.\nOptions:\n(A) The person sets the cup beside the scoop.\n(B) The person positions the cup under the scoop.\n(C) The person places the cup behind the scoop.\n(D) The person moves the cup in front of the scoop.\n(E) The person places the cup over the scoop. \n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person positions the cup under the scoop."
+    },
+    "correct_idx": [
+        4
+    ]
+}

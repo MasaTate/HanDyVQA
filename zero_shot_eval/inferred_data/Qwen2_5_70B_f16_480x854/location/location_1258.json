@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the dustbin?",
+    "options": [
+        "The person pushed the bin to the side of the table.",
+        "The person set the bin near the corner of the room.",
+        "The person placed the bin on top of the table.",
+        "The person pulled out the bin under the table.",
+        "The person carried the bin to the entrance of the kitchen."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the dustbin? Choose **only one** option from the following list.\nOptions:\n(A) The person pushed the bin to the side of the table.\n(B) The person set the bin near the corner of the room.\n(C) The person placed the bin on top of the table.\n(D) The person pulled out the bin under the table.\n(E) The person carried the bin to the entrance of the kitchen.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person pulled out the bin under the table."
+    },
+    "correct_idx": [
+        3
+    ]
+}

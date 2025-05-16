@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the knife change?",
+    "options": [
+        "The knife was taken, moved to the right, and wiped with a cloth.",
+        "The knife was taken, held still, and washed with soap.",
+        "The knife was taken, moved to the left, and rinsed under a light drizzle.",
+        "The knife was taken, slightly lifted, and polished to remove smudges.",
+        "The knife was taken, moved to the left, and washed in water."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the knife change? Choose **only one** option from the following list.\nOptions:\n(A) The knife was taken, moved to the right, and wiped with a cloth.\n(B) The knife was taken, held still, and washed with soap.\n(C) The knife was taken, moved to the left, and rinsed under a light drizzle.\n(D) The knife was taken, slightly lifted, and polished to remove smudges.\n(E) The knife was taken, moved to the left, and washed in water.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The knife was taken, moved to the left, and washed in water."
+    },
+    "correct_idx": [
+        4
+    ]
+}

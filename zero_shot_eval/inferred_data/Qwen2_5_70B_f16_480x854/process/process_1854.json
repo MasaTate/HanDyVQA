@@ -1,0 +1,17 @@
+{
+    "question": "How does the person raise her left hand?",
+    "options": [
+        "The person lifts her left hand smoothly above her head.",
+        "The person moves her left hand in a gentle arc in front of her body.",
+        "The person lifts her left hand gently after picking a card.",
+        "The person extends her left hand forward with a slight bend at the elbow.",
+        "The person raises her left hand straight out in front of her, slightly parallel to the ground."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person raise her left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person lifts her left hand smoothly above her head.\n(B) The person moves her left hand in a gentle arc in front of her body.\n(C) The person lifts her left hand gently after picking a card.\n(D) The person extends her left hand forward with a slight bend at the elbow.\n(E) The person raises her left hand straight out in front of her, slightly parallel to the ground.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person lifts her left hand gently after picking a card."
+    },
+    "correct_idx": [
+        2
+    ]
+}

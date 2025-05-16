@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the other blue pawn?",
+    "options": [
+        "The person moves the other blue pawn three squares along the board game squares.",
+        "The person moves the other blue pawn seven squares along the board game squares.",
+        "The person move the other blue pawn five squares along the board game squares.",
+        "The other blue pawn is moved six squares along the adjacent board game track.",
+        "The person moves the other blue pawn four squares backward on the board game path."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the other blue pawn? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the other blue pawn three squares along the board game squares.\n(B) The person moves the other blue pawn seven squares along the board game squares.\n(C) The person move the other blue pawn five squares along the board game squares.\n(D) The other blue pawn is moved six squares along the adjacent board game track.\n(E) The person moves the other blue pawn four squares backward on the board game path.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The other blue pawn is moved six squares along the adjacent board game track."
+    },
+    "correct_idx": [
+        2
+    ]
+}

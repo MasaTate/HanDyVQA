@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the wooden railing change?",
+    "options": [
+        "The wooden railing's surface was roughened as it was sanded in a horizontal motion.",
+        "The wooden railing's surface was smoothed as it was sanded in a vertical motion.",
+        "The wooden railing's surface was smoothed as it was sanded in a circular motion.",
+        "The wooden railing's surface was scratched as it was sanded with uneven pressure.",
+        "The wooden railing's surface was only partially smoothed as it was sanded in an incomplete vertical motion."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the wooden railing change? Choose **only one** option from the following list.\nOptions:\n(A) The wooden railing's surface was roughened as it was sanded in a horizontal motion.\n(B) The wooden railing's surface was smoothed as it was sanded in a vertical motion.\n(C) The wooden railing's surface was smoothed as it was sanded in a circular motion.\n(D) The wooden railing's surface was scratched as it was sanded with uneven pressure.\n(E) The wooden railing's surface was only partially smoothed as it was sanded in an incomplete vertical motion.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The wooden railing's surface was smoothed as it was sanded in a vertical motion."
+    },
+    "correct_idx": [
+        1
+    ]
+}

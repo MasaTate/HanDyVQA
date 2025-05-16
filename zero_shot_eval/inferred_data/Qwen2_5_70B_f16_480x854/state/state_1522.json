@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the piano change?",
+    "options": [
+        "The piano was opened, allowing access to the internal mechanism.",
+        "The piano was polished, enhancing its shine and appearance.",
+        "The piano was played, producing sound.",
+        "The piano was moved to a different location in the room.",
+        "The piano was tuned, adjusting the tension of the strings."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the piano change? Choose **only one** option from the following list.\nOptions:\n(A) The piano was opened, allowing access to the internal mechanism.\n(B) The piano was polished, enhancing its shine and appearance.\n(C) The piano was played, producing sound.\n(D) The piano was moved to a different location in the room.\n(E) The piano was tuned, adjusting the tension of the strings.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The piano was played, producing sound."
+    },
+    "correct_idx": [
+        2
+    ]
+}

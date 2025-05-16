@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person scoops flour using a cup and her hands.",
+        "The person pours flour from a bag into a bowl using her hands and a spoon.",
+        "The person sprinkles flour over a baking sheet using her hands and a sieve.",
+        "The person sifts flour into a measuring cup using her hands and a whisk.",
+        "The person mixes flour with water in a bowl using her hands and a spatula."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person scoops flour using a cup and her hands.\n(B) The person pours flour from a bag into a bowl using her hands and a spoon.\n(C) The person sprinkles flour over a baking sheet using her hands and a sieve.\n(D) The person sifts flour into a measuring cup using her hands and a whisk.\n(E) The person mixes flour with water in a bowl using her hands and a spatula.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person scoops flour using a cup and her hands."
+    },
+    "correct_idx": [
+        0
+    ]
+}

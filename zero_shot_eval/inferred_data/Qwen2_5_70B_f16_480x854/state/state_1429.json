@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the bucket change?",
+    "options": [
+        "The bucket was filled with water while it rested on a table, and then it was tipped over, spilling the water onto the floor.",
+        "The bucket was suspended from a hook as sand was poured into it, and then it was lowered to the ground.",
+        "The bucket was placed upside down while dirt was shoveled around it, and then it was flipped over to reveal the contents.",
+        "The bucket was initially lying on the floor while paint was mixed in it, and then it was carried across the room.",
+        "The bucket was left empty while it sat on a shelf, and then it was knocked off and rolled across the floor."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the bucket change? Choose **only one** option from the following list.\nOptions:\n(A) The bucket was filled with water while it rested on a table, and then it was tipped over, spilling the water onto the floor.\n(B) The bucket was suspended from a hook as sand was poured into it, and then it was lowered to the ground.\n(C) The bucket was placed upside down while dirt was shoveled around it, and then it was flipped over to reveal the contents.\n(D) The bucket was initially lying on the floor while paint was mixed in it, and then it was carried across the room.\n(E) The bucket was left empty while it sat on a shelf, and then it was knocked off and rolled across the floor.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The bucket was initially lying on the floor while paint was mixed in it, and then it was carried across the room."
+    },
+    "correct_idx": [
+        3
+    ]
+}

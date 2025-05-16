@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person stacks some plates on the kitchen counter using their left hand while the right hand holds a spoon.",
+        "The person arranges some bowls on the dishwasher rack using their left hand while the right hand holds a casserole.",
+        "The person is placing a pot on the stove using their left hand while the right hand holds a dishcloth.",
+        "The person cleans some green beans in a bowl using their left hand while the right hand holds a cutting board.",
+        "The person organizes some cups in the cabinet using their left hand while the right hand carries a frying pan."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person stacks some plates on the kitchen counter using their left hand while the right hand holds a spoon.\n(B) The person arranges some bowls on the dishwasher rack using their left hand while the right hand holds a casserole.\n(C) The person is placing a pot on the stove using their left hand while the right hand holds a dishcloth.\n(D) The person cleans some green beans in a bowl using their left hand while the right hand holds a cutting board.\n(E) The person organizes some cups in the cabinet using their left hand while the right hand carries a frying pan.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person arranges some bowls on the dishwasher rack using their left hand while the right hand holds a casserole."
+    },
+    "correct_idx": [
+        1
+    ]
+}

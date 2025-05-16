@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is holding a smoothie they are preparing to drink.",
+        "The person is holding a bottle of water they are about to sip.",
+        "The person is holding a cup of coffee they are enjoying.",
+        "The person is holding a soda can they are about to open.",
+        "The person is holding the juice they are drinking."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is holding a smoothie they are preparing to drink.\n(B) The person is holding a bottle of water they are about to sip.\n(C) The person is holding a cup of coffee they are enjoying.\n(D) The person is holding a soda can they are about to open.\n(E) The person is holding the juice they are drinking.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person is holding the juice they are drinking."
+    },
+    "correct_idx": [
+        4
+    ]
+}

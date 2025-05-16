@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the wood grain filler change?",
+    "options": [
+        "The wood grain filler was applied in a thick layer on the wood.",
+        "The wood grain filler was mixed with paint before being spread on the wood.",
+        "The wood grain filler was wiped off from the wood surface.",
+        "The wood grain filler was sanded after being applied to the wood.",
+        "The wood grain filler was smeared on the wood."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the wood grain filler change? Choose **only one** option from the following list.\nOptions:\n(A) The wood grain filler was applied in a thick layer on the wood.\n(B) The wood grain filler was mixed with paint before being spread on the wood.\n(C) The wood grain filler was wiped off from the wood surface.\n(D) The wood grain filler was sanded after being applied to the wood.\n(E) The wood grain filler was smeared on the wood.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The wood grain filler was smeared on the wood."
+    },
+    "correct_idx": [
+        4
+    ]
+}

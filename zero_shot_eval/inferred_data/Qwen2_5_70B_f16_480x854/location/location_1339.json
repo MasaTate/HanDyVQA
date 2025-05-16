@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the piece of paper?",
+    "options": [
+        "The person moves the piece of paper from the table towards the upper right corner of the drawing pad.",
+        "The person moves the piece of paper from the table towards the lower left corner of the drawing pad.",
+        "The person moves the piece of paper from the table towards the upper left corner of the drawing pad.",
+        "The person moves the piece of paper from the table towards the center of the drawing pad.",
+        "The person moves the piece of paper from the table towards the lower right corner of the drawing pad."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the piece of paper? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the piece of paper from the table towards the upper right corner of the drawing pad.\n(B) The person moves the piece of paper from the table towards the lower left corner of the drawing pad.\n(C) The person moves the piece of paper from the table towards the upper left corner of the drawing pad.\n(D) The person moves the piece of paper from the table towards the center of the drawing pad.\n(E) The person moves the piece of paper from the table towards the lower right corner of the drawing pad.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person moves the piece of paper from the table towards the upper right corner of the drawing pad."
+    },
+    "correct_idx": [
+        2
+    ]
+}

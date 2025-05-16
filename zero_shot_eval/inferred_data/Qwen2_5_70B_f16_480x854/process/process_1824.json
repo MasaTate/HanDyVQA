@@ -1,0 +1,17 @@
+{
+    "question": "How does the person stir the content of the glass bowl with the chopstick in her left hand?",
+    "options": [
+        "The person uses the chopstick to stir the liquid in a smooth motion with the left hand, while the right hand remains steady.",
+        "The person stirs the soup in a clockwise motion with the chopstick held vertically in the left hand, while describing the motion.",
+        "The person mixes the liquid by tapping the chopstick slightly at the bottom of the bowl with the left hand, while the other hand rests gently on the table.",
+        "The person holds the chopstick like a pencil in the left hand and lightly moves it through the soup in diagonal lines.",
+        "The person mixes the soup in a circular motion with chopsticks using the left hand, while the right hand is holding a bowl."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person stir the content of the glass bowl with the chopstick in her left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person uses the chopstick to stir the liquid in a smooth motion with the left hand, while the right hand remains steady.\n(B) The person stirs the soup in a clockwise motion with the chopstick held vertically in the left hand, while describing the motion.\n(C) The person mixes the liquid by tapping the chopstick slightly at the bottom of the bowl with the left hand, while the other hand rests gently on the table.\n(D) The person holds the chopstick like a pencil in the left hand and lightly moves it through the soup in diagonal lines.\n(E) The person mixes the soup in a circular motion with chopsticks using the left hand, while the right hand is holding a bowl.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person mixes the soup in a circular motion with chopsticks using the left hand, while the right hand is holding a bowl"
+    },
+    "correct_idx": [
+        4
+    ]
+}

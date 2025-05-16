@@ -1,0 +1,17 @@
+{
+    "question": "How does the person shake the tub?",
+    "options": [
+        "The person holds the tub with both hands and executes a gentle swirling motion to stir the contents smoothly.",
+        "The person lifts the tub with one hand and tilts it gently to mix the contents inside gradually.",
+        "The person grips the lid of the tub with one hand while gently tapping the bottom with their other hand to create a soft sound.",
+        "The person uses the fingers of their left hand to grip the edge or side of the tub, then moves their hand back and forth in a controlled shaking motion to agitate the contents inside.",
+        "The person holds the tub inverted in one hand and shakes it gently to agitate the contents slightly."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person shake the tub? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the tub with both hands and executes a gentle swirling motion to stir the contents smoothly.\n(B) The person lifts the tub with one hand and tilts it gently to mix the contents inside gradually.\n(C) The person grips the lid of the tub with one hand while gently tapping the bottom with their other hand to create a soft sound.\n(D) The person uses the fingers of their left hand to grip the edge or side of the tub, then moves their hand back and forth in a controlled shaking motion to agitate the contents inside.\n(E) The person holds the tub inverted in one hand and shakes it gently to agitate the contents slightly.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person uses the fingers of their left hand to grip the edge or side of the tub, then moves their hand back and forth in a controlled shaking motion to agitate the contents inside."
+    },
+    "correct_idx": [
+        3
+    ]
+}

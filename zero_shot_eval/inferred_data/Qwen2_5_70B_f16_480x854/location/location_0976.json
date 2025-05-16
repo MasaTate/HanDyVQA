@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the chocolate bar?",
+    "options": [
+        "The person places the chocolate bar on the bottom of the shelf.",
+        "The person places the chocolate bar on the side of the countertop.",
+        "The person places the chocolate bar on the edge of the table.",
+        "The person places the chocolate bar on the shelf above the fridge.",
+        "\u00a0The person places the chocolate bar on the top of the breed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the chocolate bar? Choose **only one** option from the following list.\nOptions:\n(A) The person places the chocolate bar on the bottom of the shelf.\n(B) The person places the chocolate bar on the side of the countertop.\n(C) The person places the chocolate bar on the edge of the table.\n(D) The person places the chocolate bar on the shelf above the fridge.\n(E) \u00a0The person places the chocolate bar on the top of the breed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person places the chocolate bar on the top of the bread."
+    },
+    "correct_idx": [
+        4
+    ]
+}

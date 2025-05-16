@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of oil change?",
+    "options": [
+        "Some oil was moved from a cup to the pan with a wrap, and the rest was placed on the table.",
+        "All the oil was moved from a cup to the pan with a wrap, and none was placed on the table.",
+        "A small amount of oil was moved from a cup to the pan with a wrap, and the majority remained in the cup.",
+        "Some oil was moved from a cup to the side of the pan with a wrap, and the rest was spilled on the table.",
+        "No oil was moved from the cup to the pan with a wrap, and all the oil remained in the cup."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of oil change? Choose **only one** option from the following list.\nOptions:\n(A) Some oil was moved from a cup to the pan with a wrap, and the rest was placed on the table.\n(B) All the oil was moved from a cup to the pan with a wrap, and none was placed on the table.\n(C) A small amount of oil was moved from a cup to the pan with a wrap, and the majority remained in the cup.\n(D) Some oil was moved from a cup to the side of the pan with a wrap, and the rest was spilled on the table.\n(E) No oil was moved from the cup to the pan with a wrap, and all the oil remained in the cup.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) A small amount of oil was moved from a cup to the pan with a wrap, and the majority remained in the cup."
+    },
+    "correct_idx": [
+        0
+    ]
+}

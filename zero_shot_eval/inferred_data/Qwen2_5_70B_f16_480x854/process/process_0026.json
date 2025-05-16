@@ -1,0 +1,17 @@
+{
+    "question": "How does the person start the sewing machine?",
+    "options": [
+        "The person positions the fabric under the presser foot with her left hand and lowers the foot with her right hand to secure it before starting the sewing machine.",
+        "The person places the fabric on the table with her right hand and gently presses the start button on the sewing machine before securing it.",
+        "The person grabs the fabric with both hands and carefully slides it toward her instead of positioning it under the presser foot.",
+        "The person holds the fabric in her lap and uses her right hand to gently pull on the thread to start the sewing machine.",
+        "The person lifts the sewing machine slightly and uses both hands to hold the base as a method to start it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person start the sewing machine? Choose **only one** option from the following list.\nOptions:\n(A) The person positions the fabric under the presser foot with her left hand and lowers the foot with her right hand to secure it before starting the sewing machine.\n(B) The person places the fabric on the table with her right hand and gently presses the start button on the sewing machine before securing it.\n(C) The person grabs the fabric with both hands and carefully slides it toward her instead of positioning it under the presser foot.\n(D) The person holds the fabric in her lap and uses her right hand to gently pull on the thread to start the sewing machine.\n(E) The person lifts the sewing machine slightly and uses both hands to hold the base as a method to start it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person positions the fabric under the presser foot with her left hand and lowers the foot with her right hand to secure it before starting the sewing machine."
+    },
+    "correct_idx": [
+        0
+    ]
+}

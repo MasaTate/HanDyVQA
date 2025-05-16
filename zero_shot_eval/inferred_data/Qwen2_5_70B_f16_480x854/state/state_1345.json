@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the phone change?",
+    "options": [
+        "The phone was turned off and then restarted after a software update.",
+        "The phone was disabled and then reset to its original settings.",
+        "The phone was locked and then unlocked using a security code.",
+        "The phone was turned off and then turned on again.",
+        "The phone was put in airplane mode and then returned to normal mode."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the phone change? Choose **only one** option from the following list.\nOptions:\n(A) The phone was turned off and then restarted after a software update.\n(B) The phone was disabled and then reset to its original settings.\n(C) The phone was locked and then unlocked using a security code.\n(D) The phone was turned off and then turned on again.\n(E) The phone was put in airplane mode and then returned to normal mode.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The phone was turned off and then turned on again."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person remove the lid of the tin of tomato?",
+    "options": [
+        "The person grips the lid with both hands and attempts to unscrew it by turning it gently.",
+        "The person carefully inserts a small knife into the edge of the lid and uses their right hand to gently lift the lid.",
+        "The person uses a spoon to gently pry the lid by pushing it under the edge and lifting it with their left hand.",
+        "The person places the tin on the table and taps the lid lightly with the palm of their right hand to encourage it to open.",
+        "The person holds the lid with their fingertips and carefully lifts it upward, adjusting it slightly to release the seal."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person remove the lid of the tin of tomato? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the lid with both hands and attempts to unscrew it by turning it gently.\n(B) The person carefully inserts a small knife into the edge of the lid and uses their right hand to gently lift the lid.\n(C) The person uses a spoon to gently pry the lid by pushing it under the edge and lifting it with their left hand.\n(D) The person places the tin on the table and taps the lid lightly with the palm of their right hand to encourage it to open.\n(E) The person holds the lid with their fingertips and carefully lifts it upward, adjusting it slightly to release the seal.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person holds the lid with their fingertips and carefully lifts it upward, adjusting it slightly to release the seal."
+    },
+    "correct_idx": [
+        1
+    ]
+}

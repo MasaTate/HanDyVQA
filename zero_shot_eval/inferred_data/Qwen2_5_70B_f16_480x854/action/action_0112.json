@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person moves the paper to their left hand and puts their right hand in their pocket.",
+        "The person holds the paper with their left hand and puts their right hand in their pocket.",
+        "The person places the paper on the table with one hand while resting the other in a pocket.",
+        "The person passes the paper to his right hand and puts the left hand in his pocket.",
+        "The person folds the paper in half using one hand while keeping the other in a pocket."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the paper to their left hand and puts their right hand in their pocket.\n(B) The person holds the paper with their left hand and puts their right hand in their pocket.\n(C) The person places the paper on the table with one hand while resting the other in a pocket.\n(D) The person passes the paper to his right hand and puts the left hand in his pocket.\n(E) The person folds the paper in half using one hand while keeping the other in a pocket.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person passes the paper to his right hand and puts the left hand in his pocket."
+    },
+    "correct_idx": [
+        3
+    ]
+}

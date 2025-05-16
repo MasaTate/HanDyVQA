@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the chisel?",
+    "options": [
+        "The person places the chisel under the car lifter.",
+        "The person places the chisel beside the car lifter.",
+        "The person places the chisel on the floor next to the car lifter.",
+        "The person places the chisel on top of the car lifter.",
+        "The person places the chisel across the car lifter."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the chisel? Choose **only one** option from the following list.\nOptions:\n(A) The person places the chisel under the car lifter.\n(B) The person places the chisel beside the car lifter.\n(C) The person places the chisel on the floor next to the car lifter.\n(D) The person places the chisel on top of the car lifter.\n(E) The person places the chisel across the car lifter.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person places the chisel on the floor next to the car lifter."
+    },
+    "correct_idx": [
+        3
+    ]
+}

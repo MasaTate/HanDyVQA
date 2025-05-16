@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of tofu change?",
+    "options": [
+        "The tofu was moved from the counter and placed onto a cutting board.",
+        "The tofu was shifted and set into a bowl on the counter.",
+        "The tofu was taken from the package and placed onto a plate.",
+        "The tofu was transferred to a shelf in the fridge instead of the pan.",
+        "The tofu was moved and placed into the pan."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of tofu change? Choose **only one** option from the following list.\nOptions:\n(A) The tofu was moved from the counter and placed onto a cutting board.\n(B) The tofu was shifted and set into a bowl on the counter.\n(C) The tofu was taken from the package and placed onto a plate.\n(D) The tofu was transferred to a shelf in the fridge instead of the pan.\n(E) The tofu was moved and placed into the pan.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The tofu was moved and placed into the pan."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the volume button change?",
+    "options": [
+        "The volume button was pressed and turned up.",
+        "The volume button was held down, causing sustained activation.",
+        "The volume button was tapped multiple times, resulting in repeated activation.",
+        "The volume button was pressed and turned down.",
+        "The volume button was released after being briefly pressed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the volume button change? Choose **only one** option from the following list.\nOptions:\n(A) The volume button was pressed and turned up.\n(B) The volume button was held down, causing sustained activation.\n(C) The volume button was tapped multiple times, resulting in repeated activation.\n(D) The volume button was pressed and turned down.\n(E) The volume button was released after being briefly pressed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The volume button was released after being briefly pressed."
+    },
+    "correct_idx": [
+        3
+    ]
+}

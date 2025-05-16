@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the painting brush change?",
+    "options": [
+        "The painting brush was submerged in a bowl of paint and then lifted out while being shaken to remove excess paint droplets.",
+        "The painting brush was placed on a palette and pressed down to absorb a thick layer of paint before being used.",
+        "The painting brush was set aside after being cleaned, and then wiped with a cloth to remove any remaining paint.",
+        "The painting brush was rolled on a paper towel to dry it after being thoroughly rinsed under running water.",
+        "The painting brush was dipped in a cup with water while being rotated in an anti-clockwise direction and then was lifted up and pinched dry with fingers."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the painting brush change? Choose **only one** option from the following list.\nOptions:\n(A) The painting brush was submerged in a bowl of paint and then lifted out while being shaken to remove excess paint droplets.\n(B) The painting brush was placed on a palette and pressed down to absorb a thick layer of paint before being used.\n(C) The painting brush was set aside after being cleaned, and then wiped with a cloth to remove any remaining paint.\n(D) The painting brush was rolled on a paper towel to dry it after being thoroughly rinsed under running water.\n(E) The painting brush was dipped in a cup with water while being rotated in an anti-clockwise direction and then was lifted up and pinched dry with fingers.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The painting brush was dipped in a cup with water while being rotated in an anti-clockwise direction and then was lifted up and pinched dry with fingers."
+    },
+    "correct_idx": [
+        4
+    ]
+}

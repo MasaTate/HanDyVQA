@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the mortar change?",
+    "options": [
+        "The mortar was heated to high temperatures, altering its hardness and brittleness.",
+        "The mortar was ground into a fine powder, altering its granularity and form.",
+        "The mortar was layered with different materials, altering its appearance and composition.",
+        "The mortar was mixed with water, altering its texture and consistency.",
+        "The mortar was exposed to air, altering its hardness and malleability."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the mortar change? Choose **only one** option from the following list.\nOptions:\n(A) The mortar was heated to high temperatures, altering its hardness and brittleness.\n(B) The mortar was ground into a fine powder, altering its granularity and form.\n(C) The mortar was layered with different materials, altering its appearance and composition.\n(D) The mortar was mixed with water, altering its texture and consistency.\n(E) The mortar was exposed to air, altering its hardness and malleability.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The mortar was exposed to air, altering its hardness and malleability."
+    },
+    "correct_idx": [
+        3
+    ]
+}

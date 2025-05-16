@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is gripping the canvas tarp with both hands, slightly lifting it with his/her left hand, and starts to fold the tarp inwards.",
+        "The person is managing the polyester tarp with both hands, lifting it up with his/her left hand, and begins to lay the tarp flat on the ground.",
+        "The person is clutching the camping mat with both hands, raising it with his/her right hand, and moves to roll the mat into a tight cylinder.",
+        "The person is arranging the sleeping bag with both hands, lifting it off the ground with his/her left hand, and preparing to pack it into a backpack.",
+        "The person is holding the nylon tent fabric with both hands, briefly lifting his/her right hand, and proceeds to spread the tent fabric outwards."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is gripping the canvas tarp with both hands, slightly lifting it with his/her left hand, and starts to fold the tarp inwards.\n(B) The person is managing the polyester tarp with both hands, lifting it up with his/her left hand, and begins to lay the tarp flat on the ground.\n(C) The person is clutching the camping mat with both hands, raising it with his/her right hand, and moves to roll the mat into a tight cylinder.\n(D) The person is arranging the sleeping bag with both hands, lifting it off the ground with his/her left hand, and preparing to pack it into a backpack.\n(E) The person is holding the nylon tent fabric with both hands, briefly lifting his/her right hand, and proceeds to spread the tent fabric outwards.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person is managing the polyester tarp with both hands, lifting it up with his/her left hand, and begins to lay the tarp flat on the ground."
+    },
+    "correct_idx": [
+        4
+    ]
+}

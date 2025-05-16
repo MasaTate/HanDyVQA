@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "Using his right hand, the person moves the blue pawn towards the other person, then repositions a green pawn to the left part of the board.",
+        "Using his left hand, the person pushes the red pawn towards the center of the board, then checks the position of a yellow pawn among other pieces.",
+        "With both hands, the person arranges several pawns and places them vertically on the edge of the board while keeping the blue pawn steady.",
+        "Holding a blue and a green pawn in his right hand, the person aligns them to form a diagonal pattern on the board.",
+        "The person slides a white pawn across the board with his left hand while considering the blue pawn's possible moves with his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) Using his right hand, the person moves the blue pawn towards the other person, then repositions a green pawn to the left part of the board.\n(B) Using his left hand, the person pushes the red pawn towards the center of the board, then checks the position of a yellow pawn among other pieces.\n(C) With both hands, the person arranges several pawns and places them vertically on the edge of the board while keeping the blue pawn steady.\n(D) Holding a blue and a green pawn in his right hand, the person aligns them to form a diagonal pattern on the board.\n(E) The person slides a white pawn across the board with his left hand while considering the blue pawn's possible moves with his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) Using his right hand, the person moves the blue pawn towards the other person, then repositions a green pawn to the left part of the board."
+    },
+    "correct_idx": [
+        0
+    ]
+}

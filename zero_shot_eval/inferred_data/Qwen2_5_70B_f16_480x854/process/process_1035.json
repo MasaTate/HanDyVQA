@@ -1,0 +1,17 @@
+{
+    "question": "How does the person swipe his left hand?",
+    "options": [
+        "The person swipes his left hand gently from side to side on the top of the cardboard.",
+        "The person moves his left hand slightly in a circular motion near the edge of the cardboard.",
+        "The person swipes his left hand from up to down on the side of the cardboard.",
+        "The person flicks his left hand smoothly in a diagonal direction towards the center of the cardboard.",
+        "The person pushes his left hand slightly forward towards the back edge of the cardboard."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person swipe his left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person swipes his left hand gently from side to side on the top of the cardboard.\n(B) The person moves his left hand slightly in a circular motion near the edge of the cardboard.\n(C) The person swipes his left hand from up to down on the side of the cardboard.\n(D) The person flicks his left hand smoothly in a diagonal direction towards the center of the cardboard.\n(E) The person pushes his left hand slightly forward towards the back edge of the cardboard.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person swipes his left hand gently from side to side on the top of the cardboard."
+    },
+    "correct_idx": [
+        2
+    ]
+}

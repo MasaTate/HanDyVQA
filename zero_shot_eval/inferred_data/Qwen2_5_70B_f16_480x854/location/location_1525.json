@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the potato?",
+    "options": [
+        "The person dropped the potato on the bottom side of the platter.",
+        "The person dropped the potato on the top side of the platter.",
+        "The person dropped the potato near the edge of the platter.",
+        "The person dropped the potato at the center of the platter.",
+        "The person dropped the potato on the side of the platter."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the potato? Choose **only one** option from the following list.\nOptions:\n(A) The person dropped the potato on the bottom side of the platter.\n(B) The person dropped the potato on the top side of the platter.\n(C) The person dropped the potato near the edge of the platter.\n(D) The person dropped the potato at the center of the platter.\n(E) The person dropped the potato on the side of the platter.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person dropped the potato at the center of the platter."
+    },
+    "correct_idx": [
+        0
+    ]
+}

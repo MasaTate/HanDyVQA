@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person was anxious about rock climbing and waved their arms slightly.",
+        "The person was calm while hiking in the forest, stretching their arms toward the sky.",
+        "The person was surprised to see their friend and quickly clenched their fists.",
+        "The person was excited about mountain climbing with their friend and gave a high five.",
+        "The person was preparing for a hiking trip and was packing their backpack carefully."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person was anxious about rock climbing and waved their arms slightly.\n(B) The person was calm while hiking in the forest, stretching their arms toward the sky.\n(C) The person was surprised to see their friend and quickly clenched their fists.\n(D) The person was excited about mountain climbing with their friend and gave a high five.\n(E) The person was preparing for a hiking trip and was packing their backpack carefully.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person was excited about mountain climbing with their friend and gave a high five."
+    },
+    "correct_idx": [
+        3
+    ]
+}

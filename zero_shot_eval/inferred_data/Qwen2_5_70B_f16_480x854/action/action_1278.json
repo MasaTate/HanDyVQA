@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person waves his right hand in a subtle manner.",
+        "The person casually holds a pen in his right hand.",
+        "The person makes a gesture with his right hand.",
+        "The person points with his right hand towards something nearby.",
+        "The person gently touches his glasses with his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person waves his right hand in a subtle manner.\n(B) The person casually holds a pen in his right hand.\n(C) The person makes a gesture with his right hand.\n(D) The person points with his right hand towards something nearby.\n(E) The person gently touches his glasses with his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person makes a gesture with his right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

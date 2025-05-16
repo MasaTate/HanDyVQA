@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the vacuum cleaner change?",
+    "options": [
+        "The hose of the vacuum cleaner was tightened without any shaking.",
+        "The hose of the vacuum cleaner was shaken while remaining tightly affixed.",
+        "The hose of the vacuum cleaner was twisted slightly instead of being loosened.",
+        "The hose of the vacuum cleaner was shaken while being slightly loosened.",
+        "The hose of the vacuum cleaner was loosened without any shaking."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the vacuum cleaner change? Choose **only one** option from the following list.\nOptions:\n(A) The hose of the vacuum cleaner was tightened without any shaking.\n(B) The hose of the vacuum cleaner was shaken while remaining tightly affixed.\n(C) The hose of the vacuum cleaner was twisted slightly instead of being loosened.\n(D) The hose of the vacuum cleaner was shaken while being slightly loosened.\n(E) The hose of the vacuum cleaner was loosened without any shaking.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The hose of the vacuum cleaner was shaken while being slightly loosened."
+    },
+    "correct_idx": [
+        3
+    ]
+}

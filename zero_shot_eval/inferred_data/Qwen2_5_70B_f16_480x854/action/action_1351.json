@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person takes out the container from the box with his right hand while the left hand holds the box.",
+        "The person retrieves a box from the shelf with his right hand while balancing it with his left hand.",
+        "The person pulls a container from the pantry with his left hand while using his right hand to steady other items.",
+        "The person takes a jar out of the cupboard with his right hand while holding the door open with his left hand.",
+        "The person lifts a basket from the countertop using both hands, ensuring it remains stable."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person takes out the container from the box with his right hand while the left hand holds the box.\n(B) The person retrieves a box from the shelf with his right hand while balancing it with his left hand.\n(C) The person pulls a container from the pantry with his left hand while using his right hand to steady other items.\n(D) The person takes a jar out of the cupboard with his right hand while holding the door open with his left hand.\n(E) The person lifts a basket from the countertop using both hands, ensuring it remains stable.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person lifts a basket from the countertop using both hands, ensuring it remains stable."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the scrubber?",
+    "options": [
+        "The person puts the scrubber on the right side of the sink.",
+        "The person puts the scrubber on the right side of the dishes.",
+        "The person puts the scrubber on the edge of the countertop next to the sink.",
+        "The person puts the scrubber in the bottom drawer of the kitchen.",
+        "The person puts the scrubber on the top shelf above the sink."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the scrubber? Choose **only one** option from the following list.\nOptions:\n(A) The person puts the scrubber on the right side of the sink.\n(B) The person puts the scrubber on the right side of the dishes.\n(C) The person puts the scrubber on the edge of the countertop next to the sink.\n(D) The person puts the scrubber in the bottom drawer of the kitchen.\n(E) The person puts the scrubber on the top shelf above the sink.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person puts the scrubber on the right side of the sink."
+    },
+    "correct_idx": [
+        0
+    ]
+}

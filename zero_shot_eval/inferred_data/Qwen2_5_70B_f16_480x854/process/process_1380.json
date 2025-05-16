@@ -1,0 +1,17 @@
+{
+    "question": "How does the person release the mouse?",
+    "options": [
+        "The person lifts the mouse up with the palm of the right hand, tilting it slightly before letting it slide down.",
+        "The person carefully places the mouse onto the desk by pivoting it from the wrist while maintaining a light grip with the fingers.",
+        "The person flips the mouse over by using the back of the hand to push it away, without fully letting go.",
+        "The person pushes the mouse forward with the fingertips of the right hand, maintaining constant pressure throughout the movement.",
+        "The person quickly releases the mouse after grabbing it by compressing and rolling the right hand fingers."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person release the mouse? Choose **only one** option from the following list.\nOptions:\n(A) The person lifts the mouse up with the palm of the right hand, tilting it slightly before letting it slide down.\n(B) The person carefully places the mouse onto the desk by pivoting it from the wrist while maintaining a light grip with the fingers.\n(C) The person flips the mouse over by using the back of the hand to push it away, without fully letting go.\n(D) The person pushes the mouse forward with the fingertips of the right hand, maintaining constant pressure throughout the movement.\n(E) The person quickly releases the mouse after grabbing it by compressing and rolling the right hand fingers.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person quickly releases the mouse after grabbing it by compressing and rolling the right hand fingers."
+    },
+    "correct_idx": [
+        4
+    ]
+}

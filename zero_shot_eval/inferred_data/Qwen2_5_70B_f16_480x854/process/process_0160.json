@@ -1,0 +1,17 @@
+{
+    "question": "How does the person break the soil with the gardening trowel?",
+    "options": [
+        "The person disrupts the soil with the gardening trowel by scraping it slightly along the surface.",
+        "The person mixes the soil using the gardening trowel by moving it in circular motions.",
+        "The person loosens the soil with the gardening trowel by gently shifting it back and forth.",
+        "The person breaks the soil by stabbing and tapping it with the gardening trowel.",
+        "The person plows the soil with the gardening trowel by sweeping it smoothly side to side."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person break the soil with the gardening trowel? Choose **only one** option from the following list.\nOptions:\n(A) The person disrupts the soil with the gardening trowel by scraping it slightly along the surface.\n(B) The person mixes the soil using the gardening trowel by moving it in circular motions.\n(C) The person loosens the soil with the gardening trowel by gently shifting it back and forth.\n(D) The person breaks the soil by stabbing and tapping it with the gardening trowel.\n(E) The person plows the soil with the gardening trowel by sweeping it smoothly side to side.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person breaks the soil by stabbing and tapping it with the gardening trowel."
+    },
+    "correct_idx": [
+        3
+    ]
+}

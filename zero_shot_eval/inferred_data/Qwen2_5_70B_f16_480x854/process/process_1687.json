@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pull the twig?",
+    "options": [
+        "The person pulls the twig upward using both hands, held closely together.",
+        "The person pulls the twig to her left side using her left hand, guided by her right hand holding a pruner.",
+        "The person pulls the twig towards her with her left hand, without using a pruner for assistance.",
+        "She uses her right hand to grab the twig and pulls it downward with a careful motion.",
+        "Using both hands, she pulls the twig towards her body, with a gentle and careful twist."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pull the twig? Choose **only one** option from the following list.\nOptions:\n(A) The person pulls the twig upward using both hands, held closely together.\n(B) The person pulls the twig to her left side using her left hand, guided by her right hand holding a pruner.\n(C) The person pulls the twig towards her with her left hand, without using a pruner for assistance.\n(D) She uses her right hand to grab the twig and pulls it downward with a careful motion.\n(E) Using both hands, she pulls the twig towards her body, with a gentle and careful twist.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person pulls the twig to her left side using her left hand, guided by her right hand holding a pruner."
+    },
+    "correct_idx": [
+        1
+    ]
+}

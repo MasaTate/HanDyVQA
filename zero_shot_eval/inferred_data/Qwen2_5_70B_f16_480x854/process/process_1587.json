@@ -1,0 +1,17 @@
+{
+    "question": "How does the person uncap the toner container?",
+    "options": [
+        "The person holds the toner container with their right hand, gripping the cap with their left hand, and pulls it straight up to remove it.",
+        "The person places the toner container on the table and uses both hands to press the cap until it pops off.",
+        "The person angles the toner container to the side and uses their right hand to ease the cap off, instead of twisting it.",
+        "The person grips the toner container with their left hand and uses their right hand to gently shake it, allowing the cap to come loose.",
+        "The person holds the toner container with their left hand, gripping the cap with their right hand, and twists it in a counterclockwise motion to uncap it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person uncap the toner container? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the toner container with their right hand, gripping the cap with their left hand, and pulls it straight up to remove it.\n(B) The person places the toner container on the table and uses both hands to press the cap until it pops off.\n(C) The person angles the toner container to the side and uses their right hand to ease the cap off, instead of twisting it.\n(D) The person grips the toner container with their left hand and uses their right hand to gently shake it, allowing the cap to come loose.\n(E) The person holds the toner container with their left hand, gripping the cap with their right hand, and twists it in a counterclockwise motion to uncap it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person holds the toner container with their left hand, gripping the cap with their right hand, and twists it in a counterclockwise motion to uncap it."
+    },
+    "correct_idx": [
+        4
+    ]
+}

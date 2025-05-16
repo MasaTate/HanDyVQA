@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the second book on the shelf?",
+    "options": [
+        "The person puts the book on the shelf beside a vase.",
+        "The person puts the book on the shelf in front of a picture frame.",
+        "The person puts the book on the shelf above the first book.",
+        "The person puts the book on the shelf over a stack of books.",
+        "The person puts the book on the shelf near the edge of the shelf."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the second book on the shelf? Choose **only one** option from the following list.\nOptions:\n(A) The person puts the book on the shelf beside a vase.\n(B) The person puts the book on the shelf in front of a picture frame.\n(C) The person puts the book on the shelf above the first book.\n(D) The person puts the book on the shelf over a stack of books.\n(E) The person puts the book on the shelf near the edge of the shelf.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person puts the book on the shelf above the first book."
+    },
+    "correct_idx": [
+        3
+    ]
+}

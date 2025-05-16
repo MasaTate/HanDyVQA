@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the vegetable in the kitchen sink change?",
+    "options": [
+        "The vegetable in the kitchen sink was covered with soap suds.",
+        "The vegetable in the kitchen sink was soaked in vinegar.",
+        "The vegetable in the kitchen sink was dried with a cloth.",
+        "The vegetable in the kitchen sink was rinsed with water.",
+        "The vegetable in the kitchen sink was wetted while being cut into pieces."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the vegetable in the kitchen sink change? Choose **only one** option from the following list.\nOptions:\n(A) The vegetable in the kitchen sink was covered with soap suds.\n(B) The vegetable in the kitchen sink was soaked in vinegar.\n(C) The vegetable in the kitchen sink was dried with a cloth.\n(D) The vegetable in the kitchen sink was rinsed with water.\n(E) The vegetable in the kitchen sink was wetted while being cut into pieces.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The vegetable in the kitchen sink was rinsed with water."
+    },
+    "correct_idx": [
+        3
+    ]
+}

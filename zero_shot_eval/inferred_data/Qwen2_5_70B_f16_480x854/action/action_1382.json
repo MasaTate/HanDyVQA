@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person grips the crochet hook with her right hand.",
+        "The person uses a pair of scissors in her right hand.",
+        "The person holds the knitting needle with her right hand.",
+        "The person is weaving fabric with her right hand.",
+        "The person balances a frying pan with her right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the crochet hook with her right hand.\n(B) The person uses a pair of scissors in her right hand.\n(C) The person holds the knitting needle with her right hand.\n(D) The person is weaving fabric with her right hand.\n(E) The person balances a frying pan with her right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person grips the crochet hook with her right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of roller change?",
+    "options": [
+        "The roller was placed at the bottom portion of the wall and was moved upward slightly.",
+        "The roller was set down near the midsection of the wall.",
+        "The roller was lifted halfway up the wall.",
+        "The roller was moved horizontally along the middle of the wall.",
+        "The roller was lifted to the top portion of the wall."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of roller change? Choose **only one** option from the following list.\nOptions:\n(A) The roller was placed at the bottom portion of the wall and was moved upward slightly.\n(B) The roller was set down near the midsection of the wall.\n(C) The roller was lifted halfway up the wall.\n(D) The roller was moved horizontally along the middle of the wall.\n(E) The roller was lifted to the top portion of the wall.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The roller was lifted to the top portion of the wall."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person holds the oil gun horizontally with both hands while looking at the nozzle.",
+        "The person places the oil gun nozzle back into the container using his left hand while supporting the gun with his right hand.",
+        "The person grips the oil gun tightly with his right hand while inspecting the nozzle with his left hand.",
+        "The person hooks and hangs the oil gun nozzle with his right hand.",
+        "The person aims the oil gun at a nearby object with his right hand while adjusting the nozzle with his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the oil gun horizontally with both hands while looking at the nozzle.\n(B) The person places the oil gun nozzle back into the container using his left hand while supporting the gun with his right hand.\n(C) The person grips the oil gun tightly with his right hand while inspecting the nozzle with his left hand.\n(D) The person hooks and hangs the oil gun nozzle with his right hand.\n(E) The person aims the oil gun at a nearby object with his right hand while adjusting the nozzle with his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person hooks and hangs the oil gun nozzle with his right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

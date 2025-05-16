@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the tube change?",
+    "options": [
+        "The caps were removed from the tube and placed side by side.",
+        "The caps were loosened slightly without being fully removed.",
+        "The caps were placed on the tube without being secured with a twist.",
+        "The caps were twisted in the opposite direction, slightly loosening them.",
+        "The caps were put back on the tube with a twist."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the tube change? Choose **only one** option from the following list.\nOptions:\n(A) The caps were removed from the tube and placed side by side.\n(B) The caps were loosened slightly without being fully removed.\n(C) The caps were placed on the tube without being secured with a twist.\n(D) The caps were twisted in the opposite direction, slightly loosening them.\n(E) The caps were put back on the tube with a twist.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The caps were put back on the tube with a twist."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person change the position of her left hand?",
+    "options": [
+        "The person gently loosens her left hand from the wood, allowing it to remain slightly unsupported.",
+        "The person carefully holds the wood and firmly shifts her left hand grip to the upper left part for a secure and steady hold.",
+        "The person slightly adjusts her left hand to the right side, resulting in a less stable hold.",
+        "The person tightly grips the wood with her left hand before gently moving it downward, leading to a less stable hold.",
+        "The person shifts her left hand upward with a gentle grip, not ensuring complete stability."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person change the position of her left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person gently loosens her left hand from the wood, allowing it to remain slightly unsupported.\n(B) The person carefully holds the wood and firmly shifts her left hand grip to the upper left part for a secure and steady hold.\n(C) The person slightly adjusts her left hand to the right side, resulting in a less stable hold.\n(D) The person tightly grips the wood with her left hand before gently moving it downward, leading to a less stable hold.\n(E) The person shifts her left hand upward with a gentle grip, not ensuring complete stability.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person carefully holds the wood and firmly shifts her left hand grip to the upper left part for a secure and steady hold."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is wrapping a gift box with a roll of wrapping paper, while holding a pair of scissors with the left hand.",
+        "The person is holding a toolbox with the right hand and using a screwdriver with the left hand to work on the box.",
+        "The person is measuring the box with a measuring tape using the right hand.",
+        "The person is arranging boxes on a shelf with both hands, making sure they are neatly placed.",
+        "The person is lifting a box with both hands and checking its weight while carrying it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is wrapping a gift box with a roll of wrapping paper, while holding a pair of scissors with the left hand.\n(B) The person is holding a toolbox with the right hand and using a screwdriver with the left hand to work on the box.\n(C) The person is measuring the box with a measuring tape using the right hand.\n(D) The person is arranging boxes on a shelf with both hands, making sure they are neatly placed.\n(E) The person is lifting a box with both hands and checking its weight while carrying it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person is measuring the box with a measuring tape using the right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person take salt?",
+    "options": [
+        "The person quickly grabs the salt container with the left hand and pours a substantial amount directly onto the tray.",
+        "The person picks up the salt shaker and shakes it steadily over the tray using both hands to pour out a considerable stream of salt.",
+        "The person holds the salt container with the thumb and forefinger of the right hand, then tilts it slightly to pour the salt onto the tray.",
+        "The person reaches for the salt pot with the right hand and tips it gently, allowing a generous amount of salt to fall out onto the tray.",
+        "The person grabs the salt and then slowly lays it down to take a pinch of salt using the right hand to pour it on the tray."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person take salt? Choose **only one** option from the following list.\nOptions:\n(A) The person quickly grabs the salt container with the left hand and pours a substantial amount directly onto the tray.\n(B) The person picks up the salt shaker and shakes it steadily over the tray using both hands to pour out a considerable stream of salt.\n(C) The person holds the salt container with the thumb and forefinger of the right hand, then tilts it slightly to pour the salt onto the tray.\n(D) The person reaches for the salt pot with the right hand and tips it gently, allowing a generous amount of salt to fall out onto the tray.\n(E) The person grabs the salt and then slowly lays it down to take a pinch of salt using the right hand to pour it on the tray.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person grabs the salt and then slowly lays it down to take a pinch of salt using the right hand to pour it on the tray."
+    },
+    "correct_idx": [
+        4
+    ]
+}

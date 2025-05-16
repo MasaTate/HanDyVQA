@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person shreds the cabbage with the knife in her right hand while her left hand holds the cabbage.",
+        "The person chops the cabbage with the knife in her right hand while her left hand holds the bowl.",
+        "The person slices the lettuce with the knife in her right hand while her left hand grips the cutting board.",
+        "The person mixes the cabbage with the whisk in her right hand while her left hand stabilizes the mixing bowl.",
+        "The person shreds the cabbage with the grater in her right hand while her left hand steadies the cabbage."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person shreds the cabbage with the knife in her right hand while her left hand holds the cabbage.\n(B) The person chops the cabbage with the knife in her right hand while her left hand holds the bowl.\n(C) The person slices the lettuce with the knife in her right hand while her left hand grips the cutting board.\n(D) The person mixes the cabbage with the whisk in her right hand while her left hand stabilizes the mixing bowl.\n(E) The person shreds the cabbage with the grater in her right hand while her left hand steadies the cabbage.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person shreds the cabbage with the knife in her right hand while her left hand holds the cabbage."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person hold the trowel?",
+    "options": [
+        "The person initially holds the trowel with their right hand, then shifts it to their left hand with a smooth and steady grip. After briefly adjusting their hold, they return the trowel to their right hand, securing it firmly once more.",
+        "The person starts by holding the trowel with both hands initially, stabilizing it comfortably before lifting it off the surface.",
+        "The person grips the trowel with their left hand, holding it at the edge while keeping their right hand relaxed by their side.",
+        "The person holds the trowel in their right hand with an initial quick motion, raising it while steadily adjusting their grip for better control.",
+        "The person balances the trowel in their right hand, maintaining a light hold which makes it a bit challenging to achieve a solid grip."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person hold the trowel? Choose **only one** option from the following list.\nOptions:\n(A) The person initially holds the trowel with their right hand, then shifts it to their left hand with a smooth and steady grip. After briefly adjusting their hold, they return the trowel to their right hand, securing it firmly once more.\n(B) The person starts by holding the trowel with both hands initially, stabilizing it comfortably before lifting it off the surface.\n(C) The person grips the trowel with their left hand, holding it at the edge while keeping their right hand relaxed by their side.\n(D) The person holds the trowel in their right hand with an initial quick motion, raising it while steadily adjusting their grip for better control.\n(E) The person balances the trowel in their right hand, maintaining a light hold which makes it a bit challenging to achieve a solid grip.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person holds the trowel in their right hand with an initial quick motion, raising it while steadily adjusting their grip for better control."
+    },
+    "correct_idx": [
+        0
+    ]
+}

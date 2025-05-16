@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pass the can of engine oil?",
+    "options": [
+        "The person gently rolls the can of engine oil towards the trash bin using their foot.",
+        "The person tosses the can of engine oil to their left hand and then throws it into the trash bin.",
+        "The person holds the can of engine oil in one hand and gently nudges it off the table with the other hand.",
+        "The person places the can of engine oil down carefully next to the trash bin rather than throwing it.",
+        "The person lifts the can of engine oil overhead and lets it slide gently into the trash bin."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pass the can of engine oil? Choose **only one** option from the following list.\nOptions:\n(A) The person gently rolls the can of engine oil towards the trash bin using their foot.\n(B) The person tosses the can of engine oil to their left hand and then throws it into the trash bin.\n(C) The person holds the can of engine oil in one hand and gently nudges it off the table with the other hand.\n(D) The person places the can of engine oil down carefully next to the trash bin rather than throwing it.\n(E) The person lifts the can of engine oil overhead and lets it slide gently into the trash bin.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person places the can of engine oil down carefully next to the trash bin rather than throwing it."
+    },
+    "correct_idx": [
+        1
+    ]
+}

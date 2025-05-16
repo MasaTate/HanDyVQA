@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person slices the onion into rings with the knife in his right hand.",
+        "The person chops the onion into small pieces with the knife in his right hand.",
+        "The person grates the onion using a grater held in his right hand.",
+        "The person washes the onion and places it on the cutting board with the knife in his right hand.",
+        "The person peels the onion, removing the skin with the knife in his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person slices the onion into rings with the knife in his right hand.\n(B) The person chops the onion into small pieces with the knife in his right hand.\n(C) The person grates the onion using a grater held in his right hand.\n(D) The person washes the onion and places it on the cutting board with the knife in his right hand.\n(E) The person peels the onion, removing the skin with the knife in his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person peels the onion, removing the skin with the knife in his right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

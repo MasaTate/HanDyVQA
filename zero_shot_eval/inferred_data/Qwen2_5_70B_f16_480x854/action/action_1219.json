@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is applying paint to the iron bars with a brush in his right hand while holding a palette in his left hand.",
+        "The person is hammering nails into the iron bars with a hammer in his right hand while holding a screw in his left hand.",
+        "The person is removing dirt from the iron bars with the knife in his right hand.",
+        "The person is wiping dust off the iron bars with a cloth in his right hand while holding a bucket in his left hand.",
+        "The person is tightening a bolt on the iron bars with a wrench in his right hand while holding a tool belt in his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is applying paint to the iron bars with a brush in his right hand while holding a palette in his left hand.\n(B) The person is hammering nails into the iron bars with a hammer in his right hand while holding a screw in his left hand.\n(C) The person is removing dirt from the iron bars with the knife in his right hand.\n(D) The person is wiping dust off the iron bars with a cloth in his right hand while holding a bucket in his left hand.\n(E) The person is tightening a bolt on the iron bars with a wrench in his right hand while holding a tool belt in his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person is removing dirt from the iron bars with the knife in his right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

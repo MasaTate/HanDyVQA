@@ -1,0 +1,17 @@
+{
+    "question": "How does the person operate the laptop?",
+    "options": [
+        "The person uses the thumb and index finger of the right hand to press the keyboard to paste an image, then moves the image using the pinky and thumb across the touchpad with the left hand.",
+        "The person uses the middle finger and ring finger of the right hand to press the keyboard to paste an image, then swipes the image using the thumb and index finger of the left hand on the touchpad.",
+        "The person presses the keyboard using the little finger and index finger of the left hand to paste an image, then drags the image using the touchpad with the crossed middle finger and index finger of the right hand.",
+        "The person taps the keyboard lightly with the index finger of the right hand to paste an image and then moves the image around with the index finger of the right hand on the touchpad.",
+        "The person holds the keyboard with the thumb while using the index finger on the right hand to paste an image and drags the image with the ring finger of the left hand on the touchpad."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person operate the laptop? Choose **only one** option from the following list.\nOptions:\n(A) The person uses the thumb and index finger of the right hand to press the keyboard to paste an image, then moves the image using the pinky and thumb across the touchpad with the left hand.\n(B) The person uses the middle finger and ring finger of the right hand to press the keyboard to paste an image, then swipes the image using the thumb and index finger of the left hand on the touchpad.\n(C) The person presses the keyboard using the little finger and index finger of the left hand to paste an image, then drags the image using the touchpad with the crossed middle finger and index finger of the right hand.\n(D) The person taps the keyboard lightly with the index finger of the right hand to paste an image and then moves the image around with the index finger of the right hand on the touchpad.\n(E) The person holds the keyboard with the thumb while using the index finger on the right hand to paste an image and drags the image with the ring finger of the left hand on the touchpad.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person taps the keyboard lightly with the index finger of the right hand to paste an image and then moves the image around with the index finger of the right hand on the touchpad."
+    },
+    "correct_idx": [
+        2
+    ]
+}

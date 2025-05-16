@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is taking a hammer from the workshop cabinet with their hand.",
+        "The person is placing a screwdriver back into the workshop cabinet with their hand.",
+        "The person is holding a wrench from the workshop cabinet with their hand.",
+        "The person is searching for a screwdriver in the workshop cabinet with their hand.",
+        "The person is grabbing a screwdriver from the workshop cabinet with their hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is taking a hammer from the workshop cabinet with their hand.\n(B) The person is placing a screwdriver back into the workshop cabinet with their hand.\n(C) The person is holding a wrench from the workshop cabinet with their hand.\n(D) The person is searching for a screwdriver in the workshop cabinet with their hand.\n(E) The person is grabbing a screwdriver from the workshop cabinet with their hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person is grabbing a screwdriver from the workshop cabinet with their hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

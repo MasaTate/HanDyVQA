@@ -1,0 +1,17 @@
+{
+    "question": "How does the person touch the knife?",
+    "options": [
+        "The person touches the knife by placing their right hand on the blade while gripping the handle with their left hand, adjusting its position as they rinse it.",
+        "The person holds the knife by the handle with their right hand, letting the blade rest lightly against their palm as they shake it gently to remove excess water.",
+        "The person taps the knife on the edge of the sink with their left hand while gripping the handle with their right hand, making sure it stays steady.",
+        "The person uses their left hand to guide the blade while holding the handle with their right hand, tilting it slightly to shake off water.",
+        "The person picks up the knife by the blade with their left hand, while their right hand steadies the handle, allowing it to pivot smoothly."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person touch the knife? Choose **only one** option from the following list.\nOptions:\n(A) The person touches the knife by placing their right hand on the blade while gripping the handle with their left hand, adjusting its position as they rinse it.\n(B) The person holds the knife by the handle with their right hand, letting the blade rest lightly against their palm as they shake it gently to remove excess water.\n(C) The person taps the knife on the edge of the sink with their left hand while gripping the handle with their right hand, making sure it stays steady.\n(D) The person uses their left hand to guide the blade while holding the handle with their right hand, tilting it slightly to shake off water.\n(E) The person picks up the knife by the blade with their left hand, while their right hand steadies the handle, allowing it to pivot smoothly.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person uses their left hand to guide the blade while holding the handle with their right hand, tilting it slightly to shake off water."
+    },
+    "correct_idx": [
+        0
+    ]
+}

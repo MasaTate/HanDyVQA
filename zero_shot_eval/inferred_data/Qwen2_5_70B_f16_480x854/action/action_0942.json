@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person trims a thread with the scissors and holds the fabric in his left hand.",
+        "The person is using a needle to stitch fabric while holding the scissors in his right hand and the cloth in his left hand.",
+        "The person cuts a thread with the scissors using the right hand and holds the sewn cloth with both hands.",
+        "The person is tying a knot with a piece of thread while holding the cloth with both hands.",
+        "The person is cutting a piece of paper with the scissors while holding the sewn cloth in his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person trims a thread with the scissors and holds the fabric in his left hand.\n(B) The person is using a needle to stitch fabric while holding the scissors in his right hand and the cloth in his left hand.\n(C) The person cuts a thread with the scissors using the right hand and holds the sewn cloth with both hands.\n(D) The person is tying a knot with a piece of thread while holding the cloth with both hands.\n(E) The person is cutting a piece of paper with the scissors while holding the sewn cloth in his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person trims a thread with the scissors and holds the fabric in his left hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

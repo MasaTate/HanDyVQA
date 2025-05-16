@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the paintbrush?",
+    "options": [
+        "The person dropped the paintbrush into the lower left corner of the palette.",
+        "The person dropped the paintbrush into the upper right corner of the palette.",
+        "The person dropped the paintbrush into the center of the palette.",
+        "The person dropped the paintbrush beside the lower right corner of the palette.",
+        "The person dropped the paintbrush onto the table next to the palette."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the paintbrush? Choose **only one** option from the following list.\nOptions:\n(A) The person dropped the paintbrush into the lower left corner of the palette.\n(B) The person dropped the paintbrush into the upper right corner of the palette.\n(C) The person dropped the paintbrush into the center of the palette.\n(D) The person dropped the paintbrush beside the lower right corner of the palette.\n(E) The person dropped the paintbrush onto the table next to the palette.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person dropped the paintbrush onto the table next to the palette."
+    },
+    "correct_idx": [
+        0
+    ]
+}

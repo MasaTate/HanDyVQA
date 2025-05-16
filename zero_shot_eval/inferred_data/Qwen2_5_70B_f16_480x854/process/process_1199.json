@@ -1,0 +1,17 @@
+{
+    "question": "How does the person fix the screw?",
+    "options": [
+        "The person fixes the screw by placing it into the socket using the right hand and carefully turning it with a screwdriver.",
+        "The person fixes the screw by positioning it on the edge of the socket and gently nudging it with their fingers from the right hand.",
+        "The person fixes the screw by using their left hand to set the screw into the socket while applying minimal pressure to secure it.",
+        "The person fixes the screw by holding it above the socket with their right hand and letting it fall gently, allowing it to settle without twisting.",
+        "The person fixes the screw by inserting it and pushing it into the socket using the left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person fix the screw? Choose **only one** option from the following list.\nOptions:\n(A) The person fixes the screw by placing it into the socket using the right hand and carefully turning it with a screwdriver.\n(B) The person fixes the screw by positioning it on the edge of the socket and gently nudging it with their fingers from the right hand.\n(C) The person fixes the screw by using their left hand to set the screw into the socket while applying minimal pressure to secure it.\n(D) The person fixes the screw by holding it above the socket with their right hand and letting it fall gently, allowing it to settle without twisting.\n(E) The person fixes the screw by inserting it and pushing it into the socket using the left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person fixes the screw by inserting it and pushing it into the socket using the left hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

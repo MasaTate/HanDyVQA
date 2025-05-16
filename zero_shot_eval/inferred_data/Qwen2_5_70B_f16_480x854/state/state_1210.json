@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the grass trimmer rod change?",
+    "options": [
+        "The grass trimmer rod was lifted, changing the blade's angle, while the removed grass was cleared away.",
+        "The grass trimmer rod was pushed down, altering the height of the cut, while the trimmed grass was left behind.",
+        "The grass trimmer rod was rotated, adjusting the direction of the blade, while the surrounding plants were left untouched.",
+        "The grass trimmer rod was extended, increasing the reach of the blade, while the uncut grass remained in place.",
+        "The grass trimmer rod was tilted sideways, shifting the blade's position, while the fallen debris was gathered up."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the grass trimmer rod change? Choose **only one** option from the following list.\nOptions:\n(A) The grass trimmer rod was lifted, changing the blade's angle, while the removed grass was cleared away.\n(B) The grass trimmer rod was pushed down, altering the height of the cut, while the trimmed grass was left behind.\n(C) The grass trimmer rod was rotated, adjusting the direction of the blade, while the surrounding plants were left untouched.\n(D) The grass trimmer rod was extended, increasing the reach of the blade, while the uncut grass remained in place.\n(E) The grass trimmer rod was tilted sideways, shifting the blade's position, while the fallen debris was gathered up.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The grass trimmer rod was lifted, changing the blade's angle, while the removed grass was cleared away."
+    },
+    "correct_idx": [
+        0
+    ]
+}

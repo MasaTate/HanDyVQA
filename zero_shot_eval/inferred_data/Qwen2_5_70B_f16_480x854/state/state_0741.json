@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the dried crop change?",
+    "options": [
+        "The dried crop was crushed and spread evenly across the surface.",
+        "The dried crop was bundled together and stacked in a different location.",
+        "The dried crop was soaked in water and placed in a container.",
+        "The dried crop was cut and moved to the other side.",
+        "The dried crop was ground into a fine powder and stored in a bag."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the dried crop change? Choose **only one** option from the following list.\nOptions:\n(A) The dried crop was crushed and spread evenly across the surface.\n(B) The dried crop was bundled together and stacked in a different location.\n(C) The dried crop was soaked in water and placed in a container.\n(D) The dried crop was cut and moved to the other side.\n(E) The dried crop was ground into a fine powder and stored in a bag.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The dried crop was cut and moved to the other side."
+    },
+    "correct_idx": [
+        3
+    ]
+}

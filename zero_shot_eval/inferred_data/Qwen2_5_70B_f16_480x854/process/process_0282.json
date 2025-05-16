@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pour the dice?",
+    "options": [
+        "The person holds the small cup with both hands, tilts it quickly, and lets the dice spill onto the table in an unorganized manner.",
+        "The person positions the small cup near the table edge and nudges it over with his palm, allowing the dice to roll out unexpectedly.",
+        "The person grips the small cup with his left hand and shakes it energetically, causing the dice to fly out erratically.",
+        "The person holds the small cup with his right hand, tilts it slightly, and gently pours the dice onto the table, letting them fall out of the cup in a controlled manner.",
+        "The person holds the small cup with his left hand and moves it sideways, letting the dice scatter widely beyond the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pour the dice? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the small cup with both hands, tilts it quickly, and lets the dice spill onto the table in an unorganized manner.\n(B) The person positions the small cup near the table edge and nudges it over with his palm, allowing the dice to roll out unexpectedly.\n(C) The person grips the small cup with his left hand and shakes it energetically, causing the dice to fly out erratically.\n(D) The person holds the small cup with his right hand, tilts it slightly, and gently pours the dice onto the table, letting them fall out of the cup in a controlled manner.\n(E) The person holds the small cup with his left hand and moves it sideways, letting the dice scatter widely beyond the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person holds the small cup with his right hand, tilts it slightly, and gently pours the dice onto the table, letting them fall out of the cup in a controlled manner."
+    },
+    "correct_idx": [
+        3
+    ]
+}

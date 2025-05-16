@@ -1,0 +1,17 @@
+{
+    "question": "How does the person scratch his right hand?",
+    "options": [
+        "The person uses the palm of his left hand to softly pat the area on his right hand that itches.",
+        "The person uses his right thumb to softly press against the itchy spot on his right hand and move it in a circular motion.",
+        "The person gently rubs his right hand against a textured surface to relieve the itch.",
+        "The person lightly pinches the skin on his right hand with his left fingers, pulling it slightly away from the itching area.",
+        "The person scratches his right hand by using the nails or fingertips of his left hand to gently rub or scrape the area that itches."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person scratch his right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person uses the palm of his left hand to softly pat the area on his right hand that itches.\n(B) The person uses his right thumb to softly press against the itchy spot on his right hand and move it in a circular motion.\n(C) The person gently rubs his right hand against a textured surface to relieve the itch.\n(D) The person lightly pinches the skin on his right hand with his left fingers, pulling it slightly away from the itching area.\n(E) The person scratches his right hand by using the nails or fingertips of his left hand to gently rub or scrape the area that itches.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person scratches his right hand by using the nails or fingertips of his left hand to gently rub or scrape the area that itches."
+    },
+    "correct_idx": [
+        4
+    ]
+}

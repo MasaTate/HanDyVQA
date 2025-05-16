@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person presses his fingers gently against the side of the container.",
+        "The person wipes the tip of the container using the index finger of the right hand.",
+        "The person is pouring liquid from the container, using both hands carefully.",
+        "The person is twisting the cap of the container with his right hand while holding it steady with his left hand.",
+        "The person is shaking the container subtly with both hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person presses his fingers gently against the side of the container.\n(B) The person wipes the tip of the container using the index finger of the right hand.\n(C) The person is pouring liquid from the container, using both hands carefully.\n(D) The person is twisting the cap of the container with his right hand while holding it steady with his left hand.\n(E) The person is shaking the container subtly with both hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person is pouring liquid from the container, using both hands carefully."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the coffee bag?",
+    "options": [
+        "The person places the coffee bag on the far end of the table.",
+        "The person places the coffee bag near the center of the table.",
+        "The person places the coffee bag under the table on the floor.",
+        "The person places the coffee bag on the side of the chair next to the table.",
+        "The person places the coffee bag on top of the shelf above the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the coffee bag? Choose **only one** option from the following list.\nOptions:\n(A) The person places the coffee bag on the far end of the table.\n(B) The person places the coffee bag near the center of the table.\n(C) The person places the coffee bag under the table on the floor.\n(D) The person places the coffee bag on the side of the chair next to the table.\n(E) The person places the coffee bag on top of the shelf above the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person places the coffee bag near the center of the table."
+    },
+    "correct_idx": [
+        0
+    ]
+}

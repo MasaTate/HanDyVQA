@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is hammering the concrete, using both hands to hold a mallet.",
+        "The person is chiseling the concrete with both hands, holding a chisel in one hand and the concrete block in the other.",
+        "The person is drilling the concrete, using both hands to hold the drill.",
+        "The person is polishing the concrete, using both hands to hold a buffer tool.",
+        "The person is breaking the concrete apart, using both hands to grip a sledgehammer."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is hammering the concrete, using both hands to hold a mallet.\n(B) The person is chiseling the concrete with both hands, holding a chisel in one hand and the concrete block in the other.\n(C) The person is drilling the concrete, using both hands to hold the drill.\n(D) The person is polishing the concrete, using both hands to hold a buffer tool.\n(E) The person is breaking the concrete apart, using both hands to grip a sledgehammer.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person is drilling the concrete, using both hands to hold the drill."
+    },
+    "correct_idx": [
+        2
+    ]
+}

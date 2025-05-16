@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is sketching a landscape from a laptop on the easel using charcoal in her right hand.",
+        "The person is transferring a digital design from a laptop onto the canvas using a palette knife in her right hand.",
+        "The person is tracing an image from a laptop onto the canvas on the floor using a pencil in her right hand.",
+        "The person is holding a paintbrush in her right hand and dipping it into the paint before applying it to the canvas.",
+        "The person is creating a mural from a laptop on the wall using spray paint in her right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is sketching a landscape from a laptop on the easel using charcoal in her right hand.\n(B) The person is transferring a digital design from a laptop onto the canvas using a palette knife in her right hand.\n(C) The person is tracing an image from a laptop onto the canvas on the floor using a pencil in her right hand.\n(D) The person is holding a paintbrush in her right hand and dipping it into the paint before applying it to the canvas.\n(E) The person is creating a mural from a laptop on the wall using spray paint in her right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person is holding a paintbrush in her right hand and dipping it into the paint before applying it to the canvas."
+    },
+    "correct_idx": [
+        3
+    ]
+}

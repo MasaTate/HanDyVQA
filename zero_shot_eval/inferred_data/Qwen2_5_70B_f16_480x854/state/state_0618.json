@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the head of the snare drum change?",
+    "options": [
+        "The head of the snare drum was struck with a stick.",
+        "The head of the snare drum was covered with a cloth.",
+        "The head of the snare drum was removed and replaced.",
+        "The head of the snare drum was touched by the finger.",
+        "The head of the snare drum was tightened with a tool."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the head of the snare drum change? Choose **only one** option from the following list.\nOptions:\n(A) The head of the snare drum was struck with a stick.\n(B) The head of the snare drum was covered with a cloth.\n(C) The head of the snare drum was removed and replaced.\n(D) The head of the snare drum was touched by the finger.\n(E) The head of the snare drum was tightened with a tool.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The head of the snare drum was struck with a stick."
+    },
+    "correct_idx": [
+        3
+    ]
+}

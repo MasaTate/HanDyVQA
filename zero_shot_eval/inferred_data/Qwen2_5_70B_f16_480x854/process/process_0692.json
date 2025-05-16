@@ -1,0 +1,17 @@
+{
+    "question": "How does the person press the cooker?",
+    "options": [
+        "The person uses their left hand to firmly press the button on the cooker, applying steady pressure to activate or adjust it as needed.",
+        "The person uses their right hand to quickly press the button on the cooker, hoping to register the action with less precision.",
+        "The person lightly taps the button on the cooker with a fingertip from their right hand, not applying enough pressure to activate it.",
+        "The person pushes down on the button with the palm of their hand, pressing it awkwardly rather than using their fingers for better precision.",
+        "The person grasps the button with their thumb and index finger of the left hand, pulling it downward instead of pressing it steadily."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person press the cooker? Choose **only one** option from the following list.\nOptions:\n(A) The person uses their left hand to firmly press the button on the cooker, applying steady pressure to activate or adjust it as needed.\n(B) The person uses their right hand to quickly press the button on the cooker, hoping to register the action with less precision.\n(C) The person lightly taps the button on the cooker with a fingertip from their right hand, not applying enough pressure to activate it.\n(D) The person pushes down on the button with the palm of their hand, pressing it awkwardly rather than using their fingers for better precision.\n(E) The person grasps the button with their thumb and index finger of the left hand, pulling it downward instead of pressing it steadily.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person uses their left hand to firmly press the button on the cooker, applying steady pressure to activate or adjust it as needed."
+    },
+    "correct_idx": [
+        0
+    ]
+}

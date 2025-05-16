@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person uses both hands to tighten the bolt and screw, then uses his left hand to pick up a small square plastic container, places the bolt and screw inside it, and then sets it on a kitchen counter.",
+        "The person uses both hands to loosen the bolt and nut, then uses his left hand to pick up a large metal bucket, drops the bolt and nut into it, and then places it on a workbench.",
+        "The person uses both hands to twist the bolt and nut, then uses his left hand to pick up a small round metal bowl, puts the bolt and nut inside it, and then places it on a wooden table.",
+        "The person uses both hands to hold the bolt and nut in place, then uses his left hand to lift a small glass jar, puts the bolt and nut inside it, and then positions it on a shelf.",
+        "The person uses both hands to separate the bolt and washer, then uses his left hand to grab a small wooden box, places the bolt and washer inside it, and then sets it on the floor."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person uses both hands to tighten the bolt and screw, then uses his left hand to pick up a small square plastic container, places the bolt and screw inside it, and then sets it on a kitchen counter.\n(B) The person uses both hands to loosen the bolt and nut, then uses his left hand to pick up a large metal bucket, drops the bolt and nut into it, and then places it on a workbench.\n(C) The person uses both hands to twist the bolt and nut, then uses his left hand to pick up a small round metal bowl, puts the bolt and nut inside it, and then places it on a wooden table.\n(D) The person uses both hands to hold the bolt and nut in place, then uses his left hand to lift a small glass jar, puts the bolt and nut inside it, and then positions it on a shelf.\n(E) The person uses both hands to separate the bolt and washer, then uses his left hand to grab a small wooden box, places the bolt and washer inside it, and then sets it on the floor.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person uses both hands to twist the bolt and nut, then uses his left hand to pick up a small round metal bowl, puts the bolt and nut inside it, and then places it on a wooden table."
+    },
+    "correct_idx": [
+        2
+    ]
+}

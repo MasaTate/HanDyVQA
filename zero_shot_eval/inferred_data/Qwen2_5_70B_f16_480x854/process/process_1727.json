@@ -1,0 +1,17 @@
+{
+    "question": "How does the person tighten another nut?",
+    "options": [
+        "The person tightens another nut using an impact wrench in his right hand and presses the button to operate the wrench.",
+        "The person secures the nut with a manual wrench using both hands, ensuring a snug fit.",
+        "The person uses a ratchet wrench in his left hand to gradually tighten the nut.",
+        "The person secures the nut using a wrench in the right hand, turning it manually instead of pressing a button.",
+        "The person tightens the nut with pliers in his right hand, applying pressure by squeezing the handles."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person tighten another nut? Choose **only one** option from the following list.\nOptions:\n(A) The person tightens another nut using an impact wrench in his right hand and presses the button to operate the wrench.\n(B) The person secures the nut with a manual wrench using both hands, ensuring a snug fit.\n(C) The person uses a ratchet wrench in his left hand to gradually tighten the nut.\n(D) The person secures the nut using a wrench in the right hand, turning it manually instead of pressing a button.\n(E) The person tightens the nut with pliers in his right hand, applying pressure by squeezing the handles.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person tightens another nut using an impact wrench in his right hand and presses the button to operate the wrench."
+    },
+    "correct_idx": [
+        0
+    ]
+}

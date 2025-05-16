@@ -1,0 +1,17 @@
+{
+    "question": "How does the person insert the left hand inside the box?",
+    "options": [
+        "The person gently guides his left hand into the box without glancing.",
+        "The person hesitantly moves his left hand halfway into the box, then retracts it.",
+        "The person deliberately places his left hand into the box while momentarily distracted.",
+        "The person smoothly slides his left hand into the box, slightly touching the sides.",
+        "The person carefully inserts his left hand inside the box without hesitation."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person insert the left hand inside the box? Choose **only one** option from the following list.\nOptions:\n(A) The person gently guides his left hand into the box without glancing.\n(B) The person hesitantly moves his left hand halfway into the box, then retracts it.\n(C) The person deliberately places his left hand into the box while momentarily distracted.\n(D) The person smoothly slides his left hand into the box, slightly touching the sides.\n(E) The person carefully inserts his left hand inside the box without hesitation.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person carefully inserts his left hand inside the box without hesitation."
+    },
+    "correct_idx": [
+        4
+    ]
+}

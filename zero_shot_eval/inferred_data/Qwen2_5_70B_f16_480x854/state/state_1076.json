@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the right pair of wet sneakers change?",
+    "options": [
+        "The right pair of sneakers was covered with soap after being brushed on its back.",
+        "The right pair of sneakers was covered with detergent after being brushed on its back.",
+        "The right pair of sneakers was covered with cleaning solution after being brushed on its back.",
+        "The right pair of sneakers was covered with soap after being brushed on its top.",
+        "The right pair of sneakers was covered with soap after being brushed on its sole."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the right pair of wet sneakers change? Choose **only one** option from the following list.\nOptions:\n(A) The right pair of sneakers was covered with soap after being brushed on its back.\n(B) The right pair of sneakers was covered with detergent after being brushed on its back.\n(C) The right pair of sneakers was covered with cleaning solution after being brushed on its back.\n(D) The right pair of sneakers was covered with soap after being brushed on its top.\n(E) The right pair of sneakers was covered with soap after being brushed on its sole.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The right pair of sneakers was covered with soap after being brushed on its back."
+    },
+    "correct_idx": [
+        0
+    ]
+}

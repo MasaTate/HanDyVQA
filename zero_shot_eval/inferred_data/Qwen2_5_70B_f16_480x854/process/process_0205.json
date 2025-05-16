@@ -1,0 +1,17 @@
+{
+    "question": "How does the person unscrew a bolt?",
+    "options": [
+        "The person grips the screwdriver with their right hand, positions the tip into the bolt\u2019s slot, and applies downward pressure while turning it counterclockwise with a firm wrist motion to gradually loosen the bolt.",
+        "The person holds the screwdriver horizontally with their right hand and pushes it sideways into the bolt, turning it clockwise with a steady motion to secure it.",
+        "The person uses both hands to twist the handle of the screwdriver gently, aiming to make contact with the bolt with careful precision.",
+        "The person grips the screwdriver with their right hand and tries to lift the bolt out gently, using a gradual, upward motion.",
+        "The person positions the screwdriver at a slight angle and taps the handle with a controlled pat, hoping to loosen the bolt by influencing it somewhat."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person unscrew a bolt? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the screwdriver with their right hand, positions the tip into the bolt\u2019s slot, and applies downward pressure while turning it counterclockwise with a firm wrist motion to gradually loosen the bolt.\n(B) The person holds the screwdriver horizontally with their right hand and pushes it sideways into the bolt, turning it clockwise with a steady motion to secure it.\n(C) The person uses both hands to twist the handle of the screwdriver gently, aiming to make contact with the bolt with careful precision.\n(D) The person grips the screwdriver with their right hand and tries to lift the bolt out gently, using a gradual, upward motion.\n(E) The person positions the screwdriver at a slight angle and taps the handle with a controlled pat, hoping to loosen the bolt by influencing it somewhat.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person grips the screwdriver with their right hand, positions the tip into the bolt\u2019s slot, and applies downward pressure while turning it counterclockwise with a firm wrist motion to gradually loosen the bolt."
+    },
+    "correct_idx": [
+        0
+    ]
+}

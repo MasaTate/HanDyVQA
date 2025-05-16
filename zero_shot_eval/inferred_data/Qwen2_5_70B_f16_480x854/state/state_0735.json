@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the cap change?",
+    "options": [
+        "The cap was removed from the opening, leaving the container exposed.",
+        "The cap was tilted to the side, partially covering the opening of the container.",
+        "The cap was placed over the opening, sealing the container.",
+        "The cap was twisted tightly, forming a vacuum seal on the container.",
+        "The cap was dropped onto the ground, becoming completely detached from the container."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the cap change? Choose **only one** option from the following list.\nOptions:\n(A) The cap was removed from the opening, leaving the container exposed.\n(B) The cap was tilted to the side, partially covering the opening of the container.\n(C) The cap was placed over the opening, sealing the container.\n(D) The cap was twisted tightly, forming a vacuum seal on the container.\n(E) The cap was dropped onto the ground, becoming completely detached from the container.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The cap was removed from the opening, leaving the container exposed."
+    },
+    "correct_idx": [
+        2
+    ]
+}

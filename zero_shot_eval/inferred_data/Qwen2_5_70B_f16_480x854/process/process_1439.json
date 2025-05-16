@@ -1,0 +1,17 @@
+{
+    "question": "How does the person hit the drawing book?",
+    "options": [
+        "The person slaps the drawing book with the palm of their right hand, using a swift motion to create a sound on the cover.",
+        "The person flicks the drawing book with a finger from the right hand, making it flip slightly without solid contact.",
+        "The person taps down on the drawing book with the tips of their fingers on the left hand, applying light pressure instead of striking.",
+        "The person strikes the drawing book using the back of the pen held in their left hand, applying a quick, deliberate motion with a gentle tap to make contact.",
+        "The person waves their hand over the drawing book, letting the wind from their motion rustle the pages with no physical contact."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person hit the drawing book? Choose **only one** option from the following list.\nOptions:\n(A) The person slaps the drawing book with the palm of their right hand, using a swift motion to create a sound on the cover.\n(B) The person flicks the drawing book with a finger from the right hand, making it flip slightly without solid contact.\n(C) The person taps down on the drawing book with the tips of their fingers on the left hand, applying light pressure instead of striking.\n(D) The person strikes the drawing book using the back of the pen held in their left hand, applying a quick, deliberate motion with a gentle tap to make contact.\n(E) The person waves their hand over the drawing book, letting the wind from their motion rustle the pages with no physical contact.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person strike the drawing book using the back of the pen held in their left hand, applying a quick, deliberate motion with a gentle tap to make contact."
+    },
+    "correct_idx": [
+        3
+    ]
+}

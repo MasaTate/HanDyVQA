@@ -1,0 +1,17 @@
+{
+    "question": "How does the person push the dish tray?",
+    "options": [
+        "The person pushed the dish tray forward into the dishwasher using his left hand, applying a steady forward motion.",
+        "The person moved the dish tray sideways with his right hand, applying a smooth lateral motion.",
+        "The person raised the dish tray with both hands before placing it gently into the dishwasher.",
+        "The person guided the dish tray off the counter using his fingers, keeping a steady hand.",
+        "The person held the dish tray with one hand and guided it towards the dishwasher with a smooth motion."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person push the dish tray? Choose **only one** option from the following list.\nOptions:\n(A) The person pushed the dish tray forward into the dishwasher using his left hand, applying a steady forward motion.\n(B) The person moved the dish tray sideways with his right hand, applying a smooth lateral motion.\n(C) The person raised the dish tray with both hands before placing it gently into the dishwasher.\n(D) The person guided the dish tray off the counter using his fingers, keeping a steady hand.\n(E) The person held the dish tray with one hand and guided it towards the dishwasher with a smooth motion.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person pushed the dish tray forward into the dishwasher using his left hand, applying a steady forward motion."
+    },
+    "correct_idx": [
+        0
+    ]
+}

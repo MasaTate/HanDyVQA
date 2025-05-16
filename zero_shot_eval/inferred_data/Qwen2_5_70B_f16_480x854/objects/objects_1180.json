@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "wrist band",
+        "wooden cutter",
+        "slipper",
+        "stainless steel basin",
+        "pumpkin skin",
+        "floor"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) wrist band\n(B) wooden cutter\n(C) slipper\n(D) stainless steel basin\n(E) pumpkin skin\n(F) floor\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(B) Wooden cutter\n(D) Stainless steel basin\n(E) Pumpkin skin"
+    },
+    "correct_idx": [
+        1,
+        3
+    ]
+}

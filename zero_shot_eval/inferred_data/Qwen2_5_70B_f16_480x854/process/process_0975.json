@@ -1,0 +1,17 @@
+{
+    "question": "How does the person push a pair of scissors on the table?",
+    "options": [
+        "The person slid the pair of scissors towards the edge of the table using her left hand, applying some pressure.",
+        "The person pushed the scissors to the side of the table with both hands, resulting in them slipping a bit.",
+        "The person tapped the scissors gently on the table using her right hand, without much movement.",
+        "The person quickly pushed the pair of scissors to the corner of the table using her right hand.",
+        "The person lifted the scissors slightly and placed them back onto the table softly with her right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person push a pair of scissors on the table? Choose **only one** option from the following list.\nOptions:\n(A) The person slid the pair of scissors towards the edge of the table using her left hand, applying some pressure.\n(B) The person pushed the scissors to the side of the table with both hands, resulting in them slipping a bit.\n(C) The person tapped the scissors gently on the table using her right hand, without much movement.\n(D) The person quickly pushed the pair of scissors to the corner of the table using her right hand.\n(E) The person lifted the scissors slightly and placed them back onto the table softly with her right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person quickly pushed the pair of scissors to the corner of the table using her right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

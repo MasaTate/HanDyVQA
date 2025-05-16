@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "Using the right hand, the person tosses a stone towards the water and reaches down to grab another one.",
+        "With the right hand, the person places a stone into a bag and takes out a similar stone with the left hand.",
+        "Using the right hand, the person moves a stone on the grass while using the left hand to steady themselves.",
+        "Using the right hand, the person throws a stone on the ground and picks up another one.",
+        "With the right hand, the person bounces a stone off the ground and gets ready to throw another one with the left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) Using the right hand, the person tosses a stone towards the water and reaches down to grab another one.\n(B) With the right hand, the person places a stone into a bag and takes out a similar stone with the left hand.\n(C) Using the right hand, the person moves a stone on the grass while using the left hand to steady themselves.\n(D) Using the right hand, the person throws a stone on the ground and picks up another one.\n(E) With the right hand, the person bounces a stone off the ground and gets ready to throw another one with the left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) Using the right hand, the person throws a stone on the ground and picks up another one."
+    },
+    "correct_idx": [
+        3
+    ]
+}

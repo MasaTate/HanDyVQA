@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the sandwich change?",
+    "options": [
+        "The sandwich was flipped before a bite was taken.",
+        "The sandwich was shifted to the left before a bite was taken.",
+        "The sandwich was inverted before a bite was taken.",
+        "The sandwich was angled forward before a bite was taken.",
+        "The sandwich was rotated before a bite was taken."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the sandwich change? Choose **only one** option from the following list.\nOptions:\n(A) The sandwich was flipped before a bite was taken.\n(B) The sandwich was shifted to the left before a bite was taken.\n(C) The sandwich was inverted before a bite was taken.\n(D) The sandwich was angled forward before a bite was taken.\n(E) The sandwich was rotated before a bite was taken.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The sandwich was rotated before a bite was taken."
+    },
+    "correct_idx": [
+        4
+    ]
+}

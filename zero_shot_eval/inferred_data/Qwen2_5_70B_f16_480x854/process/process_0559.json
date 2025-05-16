@@ -1,0 +1,17 @@
+{
+    "question": "How does the person open the laptop?",
+    "options": [
+        "The person gently lifts the laptop open using both hands, slightly pressing on the edges of the lid.",
+        "The person carefully opens the laptop by placing his fingers between the lid and the base with his right hand.",
+        "The person leans the laptop backward by holding the sides with both hands and gradually opening the lid.",
+        "The person uses his right hand to lift the lid upward while lightly supporting the keyboard with his left.",
+        "The person opens the laptop by pulling the lid upward with his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person open the laptop? Choose **only one** option from the following list.\nOptions:\n(A) The person gently lifts the laptop open using both hands, slightly pressing on the edges of the lid.\n(B) The person carefully opens the laptop by placing his fingers between the lid and the base with his right hand.\n(C) The person leans the laptop backward by holding the sides with both hands and gradually opening the lid.\n(D) The person uses his right hand to lift the lid upward while lightly supporting the keyboard with his left.\n(E) The person opens the laptop by pulling the lid upward with his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person opens the laptop by pulling the lid upward with his left hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

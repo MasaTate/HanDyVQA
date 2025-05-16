@@ -1,0 +1,21 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "embroidered",
+        "beads",
+        "white bangle",
+        "batik skirt",
+        "plate",
+        "dress",
+        "and needle"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) embroidered\n(B) beads\n(C) white bangle\n(D) batik skirt\n(E) plate\n(F) dress\n(G) and needle\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(B) beads  \n(E) plate  \n(G) and needle  \n\nThe hands in the video are using beads, a plate to hold the beads, and a needle for what appears to be embroidery or beadwork on fabric. The other options do not directly describe the objects being actively used by the hands in the video."
+    },
+    "correct_idx": [
+        1,
+        4,
+        6
+    ]
+}

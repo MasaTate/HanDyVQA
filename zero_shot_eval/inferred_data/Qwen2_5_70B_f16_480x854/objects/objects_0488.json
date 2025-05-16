@@ -1,0 +1,21 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "scissors",
+        "sawing machine",
+        "tweezers",
+        "ruler",
+        "fabric",
+        "paperweight",
+        "thread"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) scissors\n(B) sawing machine\n(C) tweezers\n(D) ruler\n(E) fabric\n(F) paperweight\n(G) thread\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(B) sawing machine  \n(E) fabric  \n(G) thread  \n\nAnswer format:  \n(B) The hands are using a sewing machine, which is a type of sawing machine for fabric.  \n(E) The hands are manipulating fabric on the sewing machine.  \n(G) The hands are handling thread, as seen with the spool on the sewing machine.  "
+    },
+    "correct_idx": [
+        0,
+        1,
+        4
+    ]
+}

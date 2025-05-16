@@ -1,0 +1,17 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "liquid soap",
+        "milk pouch",
+        "white bowl",
+        "vegetable scraps",
+        "pink cloth"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **only one** option from the following list.\nOptions:\n(A) liquid soap\n(B) milk pouch\n(C) white bowl\n(D) vegetable scraps\n(E) pink cloth\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) vegetable scraps"
+    },
+    "correct_idx": [
+        3
+    ]
+}

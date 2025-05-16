@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person uses the paint roller in his right hand to add color to the canvas.",
+        "The person uses a pencil in his right hand to sketch out the clay artwork on the table.",
+        "The person uses the sponge in his right hand to gently clean the clay artwork.",
+        "The person uses the brush in his left hand to refine the edges of the clay figurine.",
+        "The person uses the paintbrush in his right hand to color the clay artwork."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person uses the paint roller in his right hand to add color to the canvas.\n(B) The person uses a pencil in his right hand to sketch out the clay artwork on the table.\n(C) The person uses the sponge in his right hand to gently clean the clay artwork.\n(D) The person uses the brush in his left hand to refine the edges of the clay figurine.\n(E) The person uses the paintbrush in his right hand to color the clay artwork.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person uses the paintbrush in his right hand to color the clay artwork."
+    },
+    "correct_idx": [
+        4
+    ]
+}

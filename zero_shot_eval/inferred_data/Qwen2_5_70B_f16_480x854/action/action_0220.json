@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person tightens a bolt on the bicycle handlebar with the right hand while the left hand holds the handlebars steady.",
+        "The person loosens a screw on the motorcycle frame with the right hand while the left hand stabilizes the engine.",
+        "The person loosens a screw on the motorcycle wheel with the right hand while the left hand holds the rim.",
+        "The person removes a screw from the motorcycle seat with the right hand while the left hand keeps the seat in place.",
+        "The person adjusts the tire pressure on the motorcycle tire with the right hand while the left hand secures the valve."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person tightens a bolt on the bicycle handlebar with the right hand while the left hand holds the handlebars steady.\n(B) The person loosens a screw on the motorcycle frame with the right hand while the left hand stabilizes the engine.\n(C) The person loosens a screw on the motorcycle wheel with the right hand while the left hand holds the rim.\n(D) The person removes a screw from the motorcycle seat with the right hand while the left hand keeps the seat in place.\n(E) The person adjusts the tire pressure on the motorcycle tire with the right hand while the left hand secures the valve.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person loosens a screw on the motorcycle wheel with the right hand while the left hand holds the rim."
+    },
+    "correct_idx": [
+        2
+    ]
+}

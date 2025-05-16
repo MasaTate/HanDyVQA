@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person pushes the elevator door open using his left hand.",
+        "The person holds the post lift button with his right hand while switching on the light with his left hand.",
+        "The person taps the floor number button with his left hand while carrying a bag in his right hand.",
+        "The person adjusts the elevator's display panel using his left hand.",
+        "The person presses the post lift button using his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person pushes the elevator door open using his left hand.\n(B) The person holds the post lift button with his right hand while switching on the light with his left hand.\n(C) The person taps the floor number button with his left hand while carrying a bag in his right hand.\n(D) The person adjusts the elevator's display panel using his left hand.\n(E) The person presses the post lift button using his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person presses the post lift button using his left hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the funnel change?",
+    "options": [
+        "The funnel was picked up and moved to the hole of the oil tank, then removed without the oil being poured.",
+        "The funnel was picked up and moved to the hole of the oil tank, then filled with oil.",
+        "The funnel was picked up and slightly tilted, but it was not moved to the hole of the oil tank.",
+        "The funnel was picked up and incorrectly placed near the hole of the oil tank, then filled with the oil.",
+        "The funnel was picked up and moved to the hole of the oil tank, then filled with water instead of oil."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the funnel change? Choose **only one** option from the following list.\nOptions:\n(A) The funnel was picked up and moved to the hole of the oil tank, then removed without the oil being poured.\n(B) The funnel was picked up and moved to the hole of the oil tank, then filled with oil.\n(C) The funnel was picked up and slightly tilted, but it was not moved to the hole of the oil tank.\n(D) The funnel was picked up and incorrectly placed near the hole of the oil tank, then filled with the oil.\n(E) The funnel was picked up and moved to the hole of the oil tank, then filled with water instead of oil.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The funnel was picked up and moved to the hole of the oil tank, then filled with oil."
+    },
+    "correct_idx": [
+        1
+    ]
+}

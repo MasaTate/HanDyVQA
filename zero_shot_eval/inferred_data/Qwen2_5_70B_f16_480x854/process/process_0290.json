@@ -1,0 +1,17 @@
+{
+    "question": "How does the person trim one of the orange's stalk in his left hand?",
+    "options": [
+        "The person holds the orange\u2019s stalk with his left hand, then positions the pruning shears with his right hand and cuts through the stalk in a controlled, steady motion.",
+        "The person grasps the orange\u2019s stalk with his left hand, then briskly closes the pruning shears with his right hand, resulting in a slightly rough cut.",
+        "The person raises the orange with his left hand and steadily brings the pruning shears down with his right hand to cut the stalk.",
+        "The person holds the orange firmly with both hands and uses the pruning shears in a hasty manner, leading to an uneven trim.",
+        "The person pinches the stalk gently between his left index finger and thumb, then attempts to break it off with his right hand instead of using shears."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person trim one of the orange's stalk in his left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the orange\u2019s stalk with his left hand, then positions the pruning shears with his right hand and cuts through the stalk in a controlled, steady motion.\n(B) The person grasps the orange\u2019s stalk with his left hand, then briskly closes the pruning shears with his right hand, resulting in a slightly rough cut.\n(C) The person raises the orange with his left hand and steadily brings the pruning shears down with his right hand to cut the stalk.\n(D) The person holds the orange firmly with both hands and uses the pruning shears in a hasty manner, leading to an uneven trim.\n(E) The person pinches the stalk gently between his left index finger and thumb, then attempts to break it off with his right hand instead of using shears.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person holds the orange\u2019s stalk with his left hand, then positions the pruning shears with his right hand and cuts through the stalk in a controlled, steady motion."
+    },
+    "correct_idx": [
+        0
+    ]
+}

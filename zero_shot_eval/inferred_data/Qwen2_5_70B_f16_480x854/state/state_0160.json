@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of another part of the cloth change?",
+    "options": [
+        "The part of the cloth was cut to about 5cm.",
+        "The part of the cloth was cut around 10cm.",
+        "The part of the cloth was cut to approximately 15cm.",
+        "The part of the cloth was trimmed without precise measurement.",
+        "The part of the cloth was marked at 10cm but not cut."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of another part of the cloth change? Choose **only one** option from the following list.\nOptions:\n(A) The part of the cloth was cut to about 5cm.\n(B) The part of the cloth was cut around 10cm.\n(C) The part of the cloth was cut to approximately 15cm.\n(D) The part of the cloth was trimmed without precise measurement.\n(E) The part of the cloth was marked at 10cm but not cut.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The part of the cloth was trimmed without precise measurement."
+    },
+    "correct_idx": [
+        1
+    ]
+}

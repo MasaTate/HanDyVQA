@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the steel cup change?",
+    "options": [
+        "The steel cup was tilted but only a small amount of the content was poured and it was not refilled with chia seeds.",
+        "The steel cup was emptied completely by pouring and then filled with water instead of chia seeds.",
+        "The steel cup was tilted and most of the content inside was poured before being refilled with chia seeds.",
+        "The steel cup was tilted and a little of the content was poured out before being partially refilled with chia seeds.",
+        "The steel cup was tipped over completely, spilling all contents, and was left empty without refilling."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the steel cup change? Choose **only one** option from the following list.\nOptions:\n(A) The steel cup was tilted but only a small amount of the content was poured and it was not refilled with chia seeds.\n(B) The steel cup was emptied completely by pouring and then filled with water instead of chia seeds.\n(C) The steel cup was tilted and most of the content inside was poured before being refilled with chia seeds.\n(D) The steel cup was tilted and a little of the content was poured out before being partially refilled with chia seeds.\n(E) The steel cup was tipped over completely, spilling all contents, and was left empty without refilling.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The steel cup was tilted and most of the content inside was poured before being refilled with chia seeds."
+    },
+    "correct_idx": [
+        2
+    ]
+}

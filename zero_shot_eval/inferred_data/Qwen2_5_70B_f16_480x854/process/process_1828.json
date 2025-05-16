@@ -1,0 +1,17 @@
+{
+    "question": "How does the person swipe the glue?",
+    "options": [
+        "The person swipes the glue by gently tapping the pincer with their palm.",
+        "The person uses their fingers to push the glue gently along the surface of the pincer.",
+        "The person moves their wrist slightly to flick the glue off the pincer.",
+        "The person swipes the glue off the pincer by pulling it with the right thumb.",
+        "The person wraps their fingers around the pincer to pull the glue off smoothly."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person swipe the glue? Choose **only one** option from the following list.\nOptions:\n(A) The person swipes the glue by gently tapping the pincer with their palm.\n(B) The person uses their fingers to push the glue gently along the surface of the pincer.\n(C) The person moves their wrist slightly to flick the glue off the pincer.\n(D) The person swipes the glue off the pincer by pulling it with the right thumb.\n(E) The person wraps their fingers around the pincer to pull the glue off smoothly.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person swipes the glue off the pincer by pulling it with the right thumb."
+    },
+    "correct_idx": [
+        3
+    ]
+}

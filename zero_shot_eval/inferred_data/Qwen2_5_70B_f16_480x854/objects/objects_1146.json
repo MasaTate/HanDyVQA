@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "paint brush",
+        "metal container",
+        "shoes",
+        "wall plastering",
+        "side walk",
+        "pot"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) paint brush\n(B) metal container\n(C) shoes\n(D) wall plastering\n(E) side walk\n(F) pot\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(B) metal container\n(F) pot\n\nThe hands are using a metal container (a pot) to scoop water from a larger container. The pot is being filled with water and then used to pour it elsewhere."
+    },
+    "correct_idx": [
+        0,
+        1
+    ]
+}

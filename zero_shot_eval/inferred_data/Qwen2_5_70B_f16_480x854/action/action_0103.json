@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person moves his right hand on the board.",
+        "The person raises his right hand slightly above the table.",
+        "The person sweeps his right hand gently across the table.",
+        "The person places his right hand on a nearby chair.",
+        "The person keeps his right hand still, resting it on the board."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person moves his right hand on the board.\n(B) The person raises his right hand slightly above the table.\n(C) The person sweeps his right hand gently across the table.\n(D) The person places his right hand on a nearby chair.\n(E) The person keeps his right hand still, resting it on the board.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person moves his right hand on the board."
+    },
+    "correct_idx": [
+        0
+    ]
+}

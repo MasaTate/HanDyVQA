@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the disk drive holder change?",
+    "options": [
+        "The disk drive was secured and mounted into the CPU.",
+        "The disk drive was unplugged and removed from the CPU.",
+        "The disk drive was disassembled and taken from the CPU.",
+        "The disk drive was placed and inserted into the CPU.",
+        "The disk drive was attached and fastened into an external enclosure."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the disk drive holder change? Choose **only one** option from the following list.\nOptions:\n(A) The disk drive was secured and mounted into the CPU.\n(B) The disk drive was unplugged and removed from the CPU.\n(C) The disk drive was disassembled and taken from the CPU.\n(D) The disk drive was placed and inserted into the CPU.\n(E) The disk drive was attached and fastened into an external enclosure.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The disk drive was placed and inserted into the CPU."
+    },
+    "correct_idx": [
+        3
+    ]
+}

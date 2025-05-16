@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person strikes the drum with the drumsticks held in both hands while standing close to the instrument.",
+        "The person taps the tambourine with the drumsticks while keeping the other hand free.",
+        "The person is playing a rhythm on the bongos using the drumsticks held in both hands.",
+        "The person beats the cymbal with the drumsticks using both hands.",
+        "The person shakes the maracas with the drumsticks while holding the other hand in the air."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person strikes the drum with the drumsticks held in both hands while standing close to the instrument.\n(B) The person taps the tambourine with the drumsticks while keeping the other hand free.\n(C) The person is playing a rhythm on the bongos using the drumsticks held in both hands.\n(D) The person beats the cymbal with the drumsticks using both hands.\n(E) The person shakes the maracas with the drumsticks while holding the other hand in the air.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person strikes the drum with the drumsticks held in both hands while standing close to the instrument."
+    },
+    "correct_idx": [
+        3
+    ]
+}

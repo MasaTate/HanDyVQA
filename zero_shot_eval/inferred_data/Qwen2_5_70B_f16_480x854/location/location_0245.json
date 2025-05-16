@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the paint bucket?",
+    "options": [
+        "The person places the paint bucket on the table.",
+        "The person places the paint bucket on the shelf.",
+        "The person places the paint bucket on the floor mat.",
+        "The person places the paint bucket on the ground.",
+        "The person places the paint bucket on the staircase."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the paint bucket? Choose **only one** option from the following list.\nOptions:\n(A) The person places the paint bucket on the table.\n(B) The person places the paint bucket on the shelf.\n(C) The person places the paint bucket on the floor mat.\n(D) The person places the paint bucket on the ground.\n(E) The person places the paint bucket on the staircase.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person places the paint bucket on the ground."
+    },
+    "correct_idx": [
+        3
+    ]
+}

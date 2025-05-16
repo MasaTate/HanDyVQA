@@ -1,0 +1,17 @@
+{
+    "question": "How does the person drop the sponge?",
+    "options": [
+        "The person easily lets the sponge fall from their hands, not squeezing any water out first.",
+        "The person releases the sponge using their left hand, allowing it to slide gently down.",
+        "The person nudges the sponge off the edge of the table with their palm, letting it fall onto the floor.",
+        "The person drops the sponge from a moderate height using their right hand without checking if it is dry.",
+        "The person promptly drops the sponge using the right hand after squeezing the water out."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person drop the sponge? Choose **only one** option from the following list.\nOptions:\n(A) The person easily lets the sponge fall from their hands, not squeezing any water out first.\n(B) The person releases the sponge using their left hand, allowing it to slide gently down.\n(C) The person nudges the sponge off the edge of the table with their palm, letting it fall onto the floor.\n(D) The person drops the sponge from a moderate height using their right hand without checking if it is dry.\n(E) The person promptly drops the sponge using the right hand after squeezing the water out.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person promptly drops the sponge using the right hand after squeezing the water out."
+    },
+    "correct_idx": [
+        4
+    ]
+}

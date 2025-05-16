@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the table change?",
+    "options": [
+        "The table was changed as it was wiped with a kitchen tissue.",
+        "The table was changed as it was covered with a tablecloth.",
+        "The table was changed as it was painted with a fresh coat of varnish.",
+        "The table was changed as it was sanded with fine grit sandpaper.",
+        "The table was changed as it was decorated with a centerpiece."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the table change? Choose **only one** option from the following list.\nOptions:\n(A) The table was changed as it was wiped with a kitchen tissue.\n(B) The table was changed as it was covered with a tablecloth.\n(C) The table was changed as it was painted with a fresh coat of varnish.\n(D) The table was changed as it was sanded with fine grit sandpaper.\n(E) The table was changed as it was decorated with a centerpiece.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The table was changed as it was wiped with a kitchen tissue."
+    },
+    "correct_idx": [
+        0
+    ]
+}

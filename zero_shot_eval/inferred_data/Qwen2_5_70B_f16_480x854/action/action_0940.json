@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person removes the shell of the nut and places it in a container, then picks up another nut to prepare.",
+        "The person sorts the nuts on the table and sets the processed ones aside while using both hands.",
+        "The person cleans the inside of the nut and places it on the tray, then grabs another one to clean.",
+        "The person chops the nuts with a knife on the cutting board and places them into a bowl.",
+        "The person is roasting the nuts in a pan while stirring them with one hand and holding a spoon in the other."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person removes the shell of the nut and places it in a container, then picks up another nut to prepare.\n(B) The person sorts the nuts on the table and sets the processed ones aside while using both hands.\n(C) The person cleans the inside of the nut and places it on the tray, then grabs another one to clean.\n(D) The person chops the nuts with a knife on the cutting board and places them into a bowl.\n(E) The person is roasting the nuts in a pan while stirring them with one hand and holding a spoon in the other.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person cleans the inside of the nut and places it on the tray, then grabs another one to clean."
+    },
+    "correct_idx": [
+        2
+    ]
+}

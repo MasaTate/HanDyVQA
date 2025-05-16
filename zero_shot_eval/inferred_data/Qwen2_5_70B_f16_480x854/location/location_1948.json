@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the kitchen roll back on the slab?",
+    "options": [
+        "The person puts the kitchen roll back near the middle of the kitchen slab.",
+        "The person puts the kitchen roll back beside the sink in the kitchen.",
+        "The person puts the kitchen roll back to the far end of the kitchen.",
+        "The person puts the kitchen roll back next to the stove on the kitchen slab.",
+        "The person puts the kitchen roll back under the cabinets on the kitchen slab."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the kitchen roll back on the slab? Choose **only one** option from the following list.\nOptions:\n(A) The person puts the kitchen roll back near the middle of the kitchen slab.\n(B) The person puts the kitchen roll back beside the sink in the kitchen.\n(C) The person puts the kitchen roll back to the far end of the kitchen.\n(D) The person puts the kitchen roll back next to the stove on the kitchen slab.\n(E) The person puts the kitchen roll back under the cabinets on the kitchen slab.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person puts the kitchen roll back next to the stove on the kitchen slab."
+    },
+    "correct_idx": [
+        2
+    ]
+}

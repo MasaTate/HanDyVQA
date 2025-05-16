@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person swiped the screen and then rubbed his left shoulder with his right hand.",
+        "The person tapped the screen and then pinched his left arm with his right hand.",
+        "The person poked the screen and then scratched the left arm with his right hand.",
+        "The person pressed the screen and then massaged his left wrist with his right hand.",
+        "The person dragged his finger across the screen and then brushed his left thigh with his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person swiped the screen and then rubbed his left shoulder with his right hand.\n(B) The person tapped the screen and then pinched his left arm with his right hand.\n(C) The person poked the screen and then scratched the left arm with his right hand.\n(D) The person pressed the screen and then massaged his left wrist with his right hand.\n(E) The person dragged his finger across the screen and then brushed his left thigh with his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person poked the screen and then scratched the left arm with his right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

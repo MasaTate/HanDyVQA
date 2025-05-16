@@ -1,0 +1,17 @@
+{
+    "question": "How does the person press the paper punch?",
+    "options": [
+        "The person uses the fingers of the right hand to press the top of the paper punch while pressing it down steadily.",
+        "The person presses the paper punch by adding pressure to press it down using the palm of the left hand.",
+        "The person angles the paper punch and sets it onto the table, allowing it to settle naturally.",
+        "The person taps the paper punch gently with the fingertips of the left hand rather than pressing it fully.",
+        "The person holds the paper punch with both hands and turns it over, hoping gravity will assist in the process."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person press the paper punch? Choose **only one** option from the following list.\nOptions:\n(A) The person uses the fingers of the right hand to press the top of the paper punch while pressing it down steadily.\n(B) The person presses the paper punch by adding pressure to press it down using the palm of the left hand.\n(C) The person angles the paper punch and sets it onto the table, allowing it to settle naturally.\n(D) The person taps the paper punch gently with the fingertips of the left hand rather than pressing it fully.\n(E) The person holds the paper punch with both hands and turns it over, hoping gravity will assist in the process.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person presses the paper punch by adding pressure to press it down using the palm of the left hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

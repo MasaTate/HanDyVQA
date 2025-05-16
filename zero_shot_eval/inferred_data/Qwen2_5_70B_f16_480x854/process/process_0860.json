@@ -1,0 +1,17 @@
+{
+    "question": "How does the person throw a toy on the ground?",
+    "options": [
+        "The person casts the toy gently into the air with both hands and observes it descend calmly.",
+        "The person rolls the toy along the ground by pushing it forward with their palm while standing.",
+        "The person drops the toy on the ground by carefully tossing it downward and slightly swinging it forward with the left hand.",
+        "The person flicks the toy in front of them using their right index finger in a light motion.",
+        "The person holds the toy gently before releasing it as they take a step back, letting it land naturally."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person throw a toy on the ground? Choose **only one** option from the following list.\nOptions:\n(A) The person casts the toy gently into the air with both hands and observes it descend calmly.\n(B) The person rolls the toy along the ground by pushing it forward with their palm while standing.\n(C) The person drops the toy on the ground by carefully tossing it downward and slightly swinging it forward with the left hand.\n(D) The person flicks the toy in front of them using their right index finger in a light motion.\n(E) The person holds the toy gently before releasing it as they take a step back, letting it land naturally.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person drops the toy on the ground by carefully tossing it downward and slightly swinging it forward with the left hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

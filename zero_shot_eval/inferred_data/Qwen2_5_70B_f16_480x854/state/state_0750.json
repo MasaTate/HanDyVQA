@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of phone screen change?",
+    "options": [
+        "The phone screen was touched, changing the screen display with different characters.",
+        "The phone screen was touched, changing the screen display with a different image.",
+        "The phone screen was swiped, revealing another page on display.",
+        "The phone screen was tapped, changing the display to a different app's interface.",
+        "The phone screen was pressed, altering the display brightness level."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of phone screen change? Choose **only one** option from the following list.\nOptions:\n(A) The phone screen was touched, changing the screen display with different characters.\n(B) The phone screen was touched, changing the screen display with a different image.\n(C) The phone screen was swiped, revealing another page on display.\n(D) The phone screen was tapped, changing the display to a different app's interface.\n(E) The phone screen was pressed, altering the display brightness level.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The phone screen was touched, changing the screen display with different characters."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person unlock the tape ruler?",
+    "options": [
+        "The person uses both hands to pull the tape measure after unlocking it.",
+        "The person attempts to unlock the blade using his left hand while holding the tape measure in his right hand.",
+        "The person turns the tape measure along with unlocking it to extend the blade.",
+        "The person holds the tape measure with two fingers and pushes the blade to release it along with unlocking it.",
+        "The person unlocks the tape ruler by pulling it with his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person unlock the tape ruler? Choose **only one** option from the following list.\nOptions:\n(A) The person uses both hands to pull the tape measure after unlocking it.\n(B) The person attempts to unlock the blade using his left hand while holding the tape measure in his right hand.\n(C) The person turns the tape measure along with unlocking it to extend the blade.\n(D) The person holds the tape measure with two fingers and pushes the blade to release it along with unlocking it.\n(E) The person unlocks the tape ruler by pulling it with his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person unlocks the tape ruler by pulling it with his right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

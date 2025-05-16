@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the cooker change?",
+    "options": [
+        "The cooker\u2019s state was modified as it was used to boil water for pasta.",
+        "The cooker\u2019s state was adjusted when it was used to steam vegetables.",
+        "The cooker\u2019s state changed as it was used to bake a cake.",
+        "The cooker\u2019s state was altered as it was used to cook the batter.",
+        "The cooker\u2019s state shifted when it was used to fry some eggs."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the cooker change? Choose **only one** option from the following list.\nOptions:\n(A) The cooker\u2019s state was modified as it was used to boil water for pasta.\n(B) The cooker\u2019s state was adjusted when it was used to steam vegetables.\n(C) The cooker\u2019s state changed as it was used to bake a cake.\n(D) The cooker\u2019s state was altered as it was used to cook the batter.\n(E) The cooker\u2019s state shifted when it was used to fry some eggs.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The cooker\u2019s state was altered as it was used to cook the batter."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person unscrew the screw of the CPU?",
+    "options": [
+        "The person twists the screw of the CPU clockwise using the right hand, applying pressure while handling it without the use of a screwdriver.",
+        "The person unscrews the screw of the CPU with a screwdriver in a counterclockwise turn using both hands, removing the screw with the right hand and placing it on the table.",
+        "The person uses a pair of pliers in a smooth motion to grip the screw and slide it out, balancing the CPU with the left hand.",
+        "The person presses the screw into the CPU rather than unscrewing it, using the thumb from the right hand to provide force.",
+        "The person moves the screw of the CPU by pressing it with a finger, using the left hand to hold the CPU steady."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person unscrew the screw of the CPU? Choose **only one** option from the following list.\nOptions:\n(A) The person twists the screw of the CPU clockwise using the right hand, applying pressure while handling it without the use of a screwdriver.\n(B) The person unscrews the screw of the CPU with a screwdriver in a counterclockwise turn using both hands, removing the screw with the right hand and placing it on the table.\n(C) The person uses a pair of pliers in a smooth motion to grip the screw and slide it out, balancing the CPU with the left hand.\n(D) The person presses the screw into the CPU rather than unscrewing it, using the thumb from the right hand to provide force.\n(E) The person moves the screw of the CPU by pressing it with a finger, using the left hand to hold the CPU steady.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person unscrews the screw of the CPU with a screwdriver in a counterclockwise turn using both hands, removing the screw with the right hand and placing it on the table."
+    },
+    "correct_idx": [
+        1
+    ]
+}

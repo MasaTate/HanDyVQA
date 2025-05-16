@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move a container?",
+    "options": [
+        "The person moves the container to the left side of the freezer.",
+        "The person moves the container to the right side of the freezer.",
+        "The person moves the container to the back of the freezer.",
+        "The person moves the container to the front of the freezer.",
+        "The person moves the container to the bottom shelf of the freezer."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move a container? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the container to the left side of the freezer.\n(B) The person moves the container to the right side of the freezer.\n(C) The person moves the container to the back of the freezer.\n(D) The person moves the container to the front of the freezer.\n(E) The person moves the container to the bottom shelf of the freezer.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person moves the container to the back of the freezer."
+    },
+    "correct_idx": [
+        0
+    ]
+}

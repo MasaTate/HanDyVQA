@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a yarn change?",
+    "options": [
+        "The yarn was twisted around a spool to secure it in place.",
+        "The yarn was tangled into a knot, causing it to be unusable as a continuous strand.",
+        "The yarn was cut into short lengths for a different project.",
+        "The yarn was pulled from the handle to release it for use.",
+        "The yarn was rolled into a ball to keep it organized and tangle-free."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a yarn change? Choose **only one** option from the following list.\nOptions:\n(A) The yarn was twisted around a spool to secure it in place.\n(B) The yarn was tangled into a knot, causing it to be unusable as a continuous strand.\n(C) The yarn was cut into short lengths for a different project.\n(D) The yarn was pulled from the handle to release it for use.\n(E) The yarn was rolled into a ball to keep it organized and tangle-free.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The yarn was pulled from the handle to release it for use."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person held a rag tightly with both hands and wiped the floor with it using his left hand, then focused on cleaning the bicycle's frame.",
+        "The individual clasped a towel securely with both hands and dusted off the shelves with it, later using his left hand to polish the car's dashboard.",
+        "The person wrapped a napkin snugly around both hands and dried the table with it, then proceeded to clean the kitchen sink using his right hand.",
+        "The individual clutched a paper towel firmly with both hands and wiped the window with it, then continued to clean the refrigerator's surface using his left hand.",
+        "The person holds a cloth firmly with both hands and wipes the motorcycle's engine with it using his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person held a rag tightly with both hands and wiped the floor with it using his left hand, then focused on cleaning the bicycle's frame.\n(B) The individual clasped a towel securely with both hands and dusted off the shelves with it, later using his left hand to polish the car's dashboard.\n(C) The person wrapped a napkin snugly around both hands and dried the table with it, then proceeded to clean the kitchen sink using his right hand.\n(D) The individual clutched a paper towel firmly with both hands and wiped the window with it, then continued to clean the refrigerator's surface using his left hand.\n(E) The person holds a cloth firmly with both hands and wipes the motorcycle's engine with it using his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person holds a cloth firmly with both hands and wipes the motorcycle's engine with it using his right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the skillet on the gas cooker change?",
+    "options": [
+        "The skillet was pushed to the side of the gas cooker, allowing it to cool down and preventing the egg from cooking properly.",
+        "The skillet was removed from the gas cooker and placed upside down, which caused the egg to spill out.",
+        "The skillet was taken off the gas cooker and set on the counter, leading the egg to harden due to the sudden drop in temperature.",
+        "The skillet was lifted from the gas cooker and tilted slightly, causing the egg to spread evenly.",
+        "The skillet was picked up and shaken on the gas cooker, causing the egg to scramble uncontrollably."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the skillet on the gas cooker change? Choose **only one** option from the following list.\nOptions:\n(A) The skillet was pushed to the side of the gas cooker, allowing it to cool down and preventing the egg from cooking properly.\n(B) The skillet was removed from the gas cooker and placed upside down, which caused the egg to spill out.\n(C) The skillet was taken off the gas cooker and set on the counter, leading the egg to harden due to the sudden drop in temperature.\n(D) The skillet was lifted from the gas cooker and tilted slightly, causing the egg to spread evenly.\n(E) The skillet was picked up and shaken on the gas cooker, causing the egg to scramble uncontrollably.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The skillet was lifted from the gas cooker and tilted slightly, causing the egg to spread evenly."
+    },
+    "correct_idx": [
+        3
+    ]
+}

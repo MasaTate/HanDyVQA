@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "wheat sifter",
+        "corn",
+        "corn milling",
+        "cup",
+        "cloth",
+        "plastic bottle"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) wheat sifter\n(B) corn\n(C) corn milling\n(D) cup\n(E) cloth\n(F) plastic bottle\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(D) cup\n(C) corn milling"
+    },
+    "correct_idx": [
+        2,
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person dab the bristles of the paint brush?",
+    "options": [
+        "The person uses the left hand to flick the paintbrush's bristles in a gentle side-to-side motion.",
+        "The person uses the right hand to dab the paintbrush's bristles in a circular motion and anti-clockwise direction.",
+        "The person taps the paintbrush against the edge of the palette vertically while holding it with both hands.",
+        "The person swirls the paintbrush's bristles in a zigzag pattern using only the right hand.",
+        "The person bounces the paintbrush up and down with the index finger of the left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person dab the bristles of the paint brush? Choose **only one** option from the following list.\nOptions:\n(A) The person uses the left hand to flick the paintbrush's bristles in a gentle side-to-side motion.\n(B) The person uses the right hand to dab the paintbrush's bristles in a circular motion and anti-clockwise direction.\n(C) The person taps the paintbrush against the edge of the palette vertically while holding it with both hands.\n(D) The person swirls the paintbrush's bristles in a zigzag pattern using only the right hand.\n(E) The person bounces the paintbrush up and down with the index finger of the left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person uses the right hand to dab the paintbrush's bristles in a circular motion and anti-clockwise direction."
+    },
+    "correct_idx": [
+        1
+    ]
+}

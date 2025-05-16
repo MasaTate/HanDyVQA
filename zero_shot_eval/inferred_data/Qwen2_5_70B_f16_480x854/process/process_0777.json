@@ -1,0 +1,17 @@
+{
+    "question": "How does the person take the plug of an iron on the table?",
+    "options": [
+        "The person picks up the plug with both hands and gently moves it toward the outlet.",
+        "The person slides the plug slightly off the table using the palm of the right hand.",
+        "The person grabs the plug with the right hand and lifts it upward to plug it into an outlet.",
+        "The person pinches the plug using the index and middle fingers of the left hand, then moves it carefully.",
+        "The person rolls the plug between the fingers of the right hand before placing it back on the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person take the plug of an iron on the table? Choose **only one** option from the following list.\nOptions:\n(A) The person picks up the plug with both hands and gently moves it toward the outlet.\n(B) The person slides the plug slightly off the table using the palm of the right hand.\n(C) The person grabs the plug with the right hand and lifts it upward to plug it into an outlet.\n(D) The person pinches the plug using the index and middle fingers of the left hand, then moves it carefully.\n(E) The person rolls the plug between the fingers of the right hand before placing it back on the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person grabs the plug with the right hand and lifts it upward to plug it into an outlet."
+    },
+    "correct_idx": [
+        2
+    ]
+}

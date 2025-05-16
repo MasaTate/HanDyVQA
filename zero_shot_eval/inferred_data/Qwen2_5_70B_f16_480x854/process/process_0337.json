@@ -1,0 +1,17 @@
+{
+    "question": "How does the person dust her right hand?",
+    "options": [
+        "The person dusts her right hand by brushing it with the palm of her left hand, moving gently.",
+        "The person dusts her right hand by rubbing her thumb and index finger together.",
+        "The person dusts her right hand by wiping it on her clothing, using a smooth motion.",
+        "The person dusts her right hand by tapping it lightly against her thigh.",
+        "The person dusts her right hand by flicking her wrist, shaking off any dust gently."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person dust her right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person dusts her right hand by brushing it with the palm of her left hand, moving gently.\n(B) The person dusts her right hand by rubbing her thumb and index finger together.\n(C) The person dusts her right hand by wiping it on her clothing, using a smooth motion.\n(D) The person dusts her right hand by tapping it lightly against her thigh.\n(E) The person dusts her right hand by flicking her wrist, shaking off any dust gently.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person dusts her right hand by wiping it on her clothing, using a smooth motion."
+    },
+    "correct_idx": [
+        1
+    ]
+}

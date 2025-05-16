@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the spatula?",
+    "options": [
+        "The person drops the spatula next to the ceramic bowl.",
+        "The person drops the spatula on the edge of the countertop.",
+        "The person drops the spatula in front of the ceramic bowl.",
+        "The person drops the spatula inside the sink.",
+        "The person drops the spatula on top of the ceramic bowl."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the spatula? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the spatula next to the ceramic bowl.\n(B) The person drops the spatula on the edge of the countertop.\n(C) The person drops the spatula in front of the ceramic bowl.\n(D) The person drops the spatula inside the sink.\n(E) The person drops the spatula on top of the ceramic bowl.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person drops the spatula next to the ceramic bowl."
+    },
+    "correct_idx": [
+        4
+    ]
+}

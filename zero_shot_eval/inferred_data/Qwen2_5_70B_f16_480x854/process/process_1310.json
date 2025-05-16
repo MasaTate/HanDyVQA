@@ -1,0 +1,17 @@
+{
+    "question": "How does the person lower his left hand?",
+    "options": [
+        "The person swings his left hand upward and lets it rest on his knee.",
+        "The person lowers his left hand by moving it down to the right side and then places it on the bike handlebar.",
+        "The person extends his left arm forward and lowers it toward the floor.",
+        "The person raises his left hand and moves it behind his back.",
+        "The person retracts his left hand toward his chest without placing it anywhere afterwards."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person lower his left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person swings his left hand upward and lets it rest on his knee.\n(B) The person lowers his left hand by moving it down to the right side and then places it on the bike handlebar.\n(C) The person extends his left arm forward and lowers it toward the floor.\n(D) The person raises his left hand and moves it behind his back.\n(E) The person retracts his left hand toward his chest without placing it anywhere afterwards.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person lowers his left hand by moving it down to the right side and then places it on the bike handlebar."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is rubbing the kitten's head with a finger.",
+        "The person is scratching the kitten's belly with a finger.",
+        "The person is petting the kitten's back with a palm.",
+        "The person is holding the kitten in one hand while using the other hand to interact with a toy.",
+        "The person is brushing the kitten's fur with a comb in one hand while gently cradling the kitten with the other."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is rubbing the kitten's head with a finger.\n(B) The person is scratching the kitten's belly with a finger.\n(C) The person is petting the kitten's back with a palm.\n(D) The person is holding the kitten in one hand while using the other hand to interact with a toy.\n(E) The person is brushing the kitten's fur with a comb in one hand while gently cradling the kitten with the other.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person is rubbing the kitten's head with a finger."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person tighten the screw of the hose clamp?",
+    "options": [
+        "The person grips the screwdriver firmly in his right hand, aligns its tip with the screw head, and rotates it clockwise with controlled pressure.",
+        "The person holds the screwdriver lightly with two fingers and applies excess downward force rather than rotating it.",
+        "The person balances the screwdriver on the screw head without grasping it and gently nudges it instead of turning it.",
+        "The person rotates the screwdriver counterclockwise with his left hand, while his other hand supports the clamp, rather than tightening it.",
+        "The person grips the screwdriver with his right hand, aligns its tip with the screw head, and rotates it counterclockwise with significant pressure."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person tighten the screw of the hose clamp? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the screwdriver firmly in his right hand, aligns its tip with the screw head, and rotates it clockwise with controlled pressure.\n(B) The person holds the screwdriver lightly with two fingers and applies excess downward force rather than rotating it.\n(C) The person balances the screwdriver on the screw head without grasping it and gently nudges it instead of turning it.\n(D) The person rotates the screwdriver counterclockwise with his left hand, while his other hand supports the clamp, rather than tightening it.\n(E) The person grips the screwdriver with his right hand, aligns its tip with the screw head, and rotates it counterclockwise with significant pressure.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person grips the screwdriver firmly in his right hand, aligns its tip with the screw head, and rotates it clockwise with controlled pressure."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person move a tabletop cooker?",
+    "options": [
+        "The person turns the knob of the tabletop cooker carefully using both hands in a steady motion.",
+        "The person raises the lid of the tabletop cooker smoothly using their right hand.",
+        "The person pulls the knob with the index finger of their right hand, allowing it to open.",
+        "The person twists the knob of the tabletop cooker firmly with their right hand while securing it with the other hand.",
+        "The person opens the tabletop cooker by gently turning its knob using the left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person move a tabletop cooker? Choose **only one** option from the following list.\nOptions:\n(A) The person turns the knob of the tabletop cooker carefully using both hands in a steady motion.\n(B) The person raises the lid of the tabletop cooker smoothly using their right hand.\n(C) The person pulls the knob with the index finger of their right hand, allowing it to open.\n(D) The person twists the knob of the tabletop cooker firmly with their right hand while securing it with the other hand.\n(E) The person opens the tabletop cooker by gently turning its knob using the left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person raises the lid of the tabletop cooker smoothly using their right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

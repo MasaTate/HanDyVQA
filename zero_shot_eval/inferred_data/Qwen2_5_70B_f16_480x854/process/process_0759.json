@@ -1,0 +1,17 @@
+{
+    "question": "How does the person reposition his left hand?",
+    "options": [
+        "The person raises his left hand near the pail of paint and lowers it gently onto the top edge with minimal contact with the sides.",
+        "The person moves his left hand smoothly towards the side of the pail to softly touch it without abrupt movements.",
+        "The person gently takes hold of the pail with both hands, paying attention to how his left hand slides along it.",
+        "The person slightly tilts his left hand on the side of the pail of paint and slides it downwards to hold the bottom of the pail.",
+        "The person moves his left hand towards the top handle of the pail to gently adjust its position upwards."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person reposition his left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person raises his left hand near the pail of paint and lowers it gently onto the top edge with minimal contact with the sides.\n(B) The person moves his left hand smoothly towards the side of the pail to softly touch it without abrupt movements.\n(C) The person gently takes hold of the pail with both hands, paying attention to how his left hand slides along it.\n(D) The person slightly tilts his left hand on the side of the pail of paint and slides it downwards to hold the bottom of the pail.\n(E) The person moves his left hand towards the top handle of the pail to gently adjust its position upwards.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person slightly tilts his left hand on the side of the pail of paint and slides it downwards to hold the bottom of the pail."
+    },
+    "correct_idx": [
+        3
+    ]
+}

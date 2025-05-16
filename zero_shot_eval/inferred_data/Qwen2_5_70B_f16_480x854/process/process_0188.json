@@ -1,0 +1,17 @@
+{
+    "question": "How does the person turn a tap with her left hand?",
+    "options": [
+        "The person grasps the tap handle with her left hand and slightly rotates it clockwise in a smooth motion, applying gentle pressure to shut off the water.",
+        "The person pushes down on the tap handle with her left hand in a hastened manner, using her palm to engage the mechanism but struggles to turn off the water.",
+        "The person twists the tap handle back and forth with her left hand using her fingertips, resulting in an uneven motion that doesn't successfully shut off the water.",
+        "The person lifts the tap handle upward with her left hand, moving it away from the fixture, which doesn't effectively stop the water flow.",
+        "The person grips the tap handle with her left hand and turns it counterclockwise, making brief, small turns that do not completely shut off the water."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person turn a tap with her left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person grasps the tap handle with her left hand and slightly rotates it clockwise in a smooth motion, applying gentle pressure to shut off the water.\n(B) The person pushes down on the tap handle with her left hand in a hastened manner, using her palm to engage the mechanism but struggles to turn off the water.\n(C) The person twists the tap handle back and forth with her left hand using her fingertips, resulting in an uneven motion that doesn't successfully shut off the water.\n(D) The person lifts the tap handle upward with her left hand, moving it away from the fixture, which doesn't effectively stop the water flow.\n(E) The person grips the tap handle with her left hand and turns it counterclockwise, making brief, small turns that do not completely shut off the water.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person grasps the tap handle with her left hand and slightly rotates it clockwise in a smooth motion, applying gentle pressure to shut off the water."
+    },
+    "correct_idx": [
+        0
+    ]
+}

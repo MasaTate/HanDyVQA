@@ -1,0 +1,17 @@
+{
+    "question": "How does the person throw the bag?",
+    "options": [
+        "The person throws the bag by initially gripping it with both hands but shifts it to the right hand and swings it steadily toward the wall before releasing it.",
+        "The person releases the bag into the machine after gripping it with one hand and smoothly tossing it using an underhand motion.",
+        "The person lets go of the bag by pulling it back using both hands and then lowering it smoothly to the floor with a gentle motion.",
+        "The person hurls the bag into the machine by holding it steadily with the left hand and using a controlled overhead action to release it effectively.",
+        "The person throws the bag after placing the contents into the machine by gripping it initially with both hands to gain control, and then, they shift the bag to their left hand, swinging it with a steady motion before releasing it toward the ground in a controlled throw."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person throw the bag? Choose **only one** option from the following list.\nOptions:\n(A) The person throws the bag by initially gripping it with both hands but shifts it to the right hand and swings it steadily toward the wall before releasing it.\n(B) The person releases the bag into the machine after gripping it with one hand and smoothly tossing it using an underhand motion.\n(C) The person lets go of the bag by pulling it back using both hands and then lowering it smoothly to the floor with a gentle motion.\n(D) The person hurls the bag into the machine by holding it steadily with the left hand and using a controlled overhead action to release it effectively.\n(E) The person throws the bag after placing the contents into the machine by gripping it initially with both hands to gain control, and then, they shift the bag to their left hand, swinging it with a steady motion before releasing it toward the ground in a controlled throw.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person throws the bag after placing the contents into the machine by gripping it initially with both hands to gain control, and then, they shift the bag to their left hand, swinging it with a steady motion before releasing it toward the ground in a controlled throw."
+    },
+    "correct_idx": [
+        4
+    ]
+}

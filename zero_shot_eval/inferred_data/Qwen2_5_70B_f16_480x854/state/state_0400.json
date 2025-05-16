@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the tablet change?",
+    "options": [
+        "The tablet screen was lightly scrolled to the right, and the page remained unchanged.",
+        "The tablet screen was tapped, causing the current page to refresh.",
+        "The tablet screen was pressed, causing the page to zoom in.",
+        "The tablet was swiped upward, making the page scroll downward.",
+        "The tablet screen was lightly scrolled to the left, and the page on the screen was turned over."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the tablet change? Choose **only one** option from the following list.\nOptions:\n(A) The tablet screen was lightly scrolled to the right, and the page remained unchanged.\n(B) The tablet screen was tapped, causing the current page to refresh.\n(C) The tablet screen was pressed, causing the page to zoom in.\n(D) The tablet was swiped upward, making the page scroll downward.\n(E) The tablet screen was lightly scrolled to the left, and the page on the screen was turned over.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The tablet screen was lightly scrolled to the left, and the page on the screen was turned over."
+    },
+    "correct_idx": [
+        4
+    ]
+}

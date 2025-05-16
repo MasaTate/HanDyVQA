@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the drawing change?",
+    "options": [
+        "A thick horizontal line was added to the drawing.",
+        "A thin vertical line was added to the drawing.",
+        "A thick vertical line was added to the drawing.",
+        "A thick diagonal line was added to the drawing.",
+        "A thick vertical zigzag line was added to the drawing."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the drawing change? Choose **only one** option from the following list.\nOptions:\n(A) A thick horizontal line was added to the drawing.\n(B) A thin vertical line was added to the drawing.\n(C) A thick vertical line was added to the drawing.\n(D) A thick diagonal line was added to the drawing.\n(E) A thick vertical zigzag line was added to the drawing.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) A thick vertical line was added to the drawing."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pick a bottle on the cabinet?",
+    "options": [
+        "The person picks a bottle on the cabinet using their right hand by reaching out to grasp it firmly, then holding it under the tap of running water.",
+        "The person picks the bottle from the cabinet using their left hand by gently sliding it towards them while avoiding contact with water.",
+        "The person takes the bottle using both hands by carefully cupping it from the sides and lifting it away from the cabinet, not interacting with water.",
+        "The person picks the bottle using their right hand by using their fingers to hook it and smoothly pulling it down, without holding it under running water.",
+        "The person taps the bottle lightly with their fingertips of the right hand, gently nudging it from the cabinet, without placing it under a water tap."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pick a bottle on the cabinet? Choose **only one** option from the following list.\nOptions:\n(A) The person picks a bottle on the cabinet using their right hand by reaching out to grasp it firmly, then holding it under the tap of running water.\n(B) The person picks the bottle from the cabinet using their left hand by gently sliding it towards them while avoiding contact with water.\n(C) The person takes the bottle using both hands by carefully cupping it from the sides and lifting it away from the cabinet, not interacting with water.\n(D) The person picks the bottle using their right hand by using their fingers to hook it and smoothly pulling it down, without holding it under running water.\n(E) The person taps the bottle lightly with their fingertips of the right hand, gently nudging it from the cabinet, without placing it under a water tap.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person picks the bottle using their right hand by using their fingers to hook it and smoothly pulling it down, without holding it under running water."
+    },
+    "correct_idx": [
+        0
+    ]
+}

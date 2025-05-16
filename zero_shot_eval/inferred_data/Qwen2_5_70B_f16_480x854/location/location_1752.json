@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the cutter?",
+    "options": [
+        "The person places the cutter at the right side of the working table.",
+        "The person places the cutter in the center of the working table.",
+        "The person places the cutter on the floor next to the working table.",
+        "The person places the cutter at the left side the working table.",
+        "The person places the cutter on the edge of the working table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the cutter? Choose **only one** option from the following list.\nOptions:\n(A) The person places the cutter at the right side of the working table.\n(B) The person places the cutter in the center of the working table.\n(C) The person places the cutter on the floor next to the working table.\n(D) The person places the cutter at the left side the working table.\n(E) The person places the cutter on the edge of the working table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person places the cutter on the edge of the working table."
+    },
+    "correct_idx": [
+        3
+    ]
+}

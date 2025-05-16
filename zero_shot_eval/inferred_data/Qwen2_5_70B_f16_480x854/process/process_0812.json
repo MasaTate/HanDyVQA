@@ -1,0 +1,17 @@
+{
+    "question": "How does the person examine her left hand?",
+    "options": [
+        "The person inspects her left hand by placing it behind her back and viewing it from there.",
+        "The person examines her left hand by raising it for a closer look.",
+        "The person checks her left hand by putting it on the table and observing it from afar.",
+        "The person studies her left hand by turning it palm down and glancing at it from the side.",
+        "The person evaluates her left hand by lowering it and pointing to her fingers with her right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person examine her left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person inspects her left hand by placing it behind her back and viewing it from there.\n(B) The person examines her left hand by raising it for a closer look.\n(C) The person checks her left hand by putting it on the table and observing it from afar.\n(D) The person studies her left hand by turning it palm down and glancing at it from the side.\n(E) The person evaluates her left hand by lowering it and pointing to her fingers with her right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person examines her left hand by raising it for a closer look."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person uproot a green vegetable from the ground?",
+    "options": [
+        "The person softly pulls the green vegetable from the ground using both hands closely positioned around its stem.",
+        "The person carefully digs around the green vegetable with a trowel and then lifts it out, using a smooth motion.",
+        "The person gently grabs the green vegetable with his fingertips and lifts it upward from the soil.",
+        "The person gently uproots the green vegetable by pulling it from the ground using his right palm.",
+        "The person uses his left hand to gently press on the soil while the right hand smoothly twists the vegetable out."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person uproot a green vegetable from the ground? Choose **only one** option from the following list.\nOptions:\n(A) The person softly pulls the green vegetable from the ground using both hands closely positioned around its stem.\n(B) The person carefully digs around the green vegetable with a trowel and then lifts it out, using a smooth motion.\n(C) The person gently grabs the green vegetable with his fingertips and lifts it upward from the soil.\n(D) The person gently uproots the green vegetable by pulling it from the ground using his right palm.\n(E) The person uses his left hand to gently press on the soil while the right hand smoothly twists the vegetable out.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person gently uproots the green vegetable by pulling it from the ground using his right palm."
+    },
+    "correct_idx": [
+        3
+    ]
+}

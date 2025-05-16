@@ -1,0 +1,17 @@
+{
+    "question": "How does the person spray the bicycle?",
+    "options": [
+        "The person sprays the bicycle with a water sprayer while holding it slightly farther away, resulting in a fine mist.",
+        "The person sprays the bicycle with a water sprayer by moving the hand side to side, covering some parts of the bike unevenly.",
+        "The person sprays by slowly pressing the sprayer while directing it downward, making the spray less effective.",
+        "The person immediately sprays the bicycle using a water sprayer after putting a little soap by moving his hand in an up and down motion.",
+        "The person sprays the bicycle by gripping the sprayer and pulling the trigger rapidly, leading to more soap and water running off."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person spray the bicycle? Choose **only one** option from the following list.\nOptions:\n(A) The person sprays the bicycle with a water sprayer while holding it slightly farther away, resulting in a fine mist.\n(B) The person sprays the bicycle with a water sprayer by moving the hand side to side, covering some parts of the bike unevenly.\n(C) The person sprays by slowly pressing the sprayer while directing it downward, making the spray less effective.\n(D) The person immediately sprays the bicycle using a water sprayer after putting a little soap by moving his hand in an up and down motion.\n(E) The person sprays the bicycle by gripping the sprayer and pulling the trigger rapidly, leading to more soap and water running off.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person sprays the bicycle by gripping the sprayer and pulling the trigger rapidly, leading to more soap and water running off."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the book between the books on the shelf?",
+    "options": [
+        "The person puts the book on the top shelf beside the other books.",
+        "The person sets the book in front of the books on the shelf.",
+        "The person placed the book between the books on the shelf.",
+        "The person arranges the book behind the books on the shelf.",
+        "The person positions the book above the other books on the shelf."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the book between the books on the shelf? Choose **only one** option from the following list.\nOptions:\n(A) The person puts the book on the top shelf beside the other books.\n(B) The person sets the book in front of the books on the shelf.\n(C) The person placed the book between the books on the shelf.\n(D) The person arranges the book behind the books on the shelf.\n(E) The person positions the book above the other books on the shelf.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person placed the book between the books on the shelf."
+    },
+    "correct_idx": [
+        2
+    ]
+}

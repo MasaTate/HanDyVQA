@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the small piece of plywood on the table?",
+    "options": [
+        "The piece of plywood is placed at the lower right section of the table.",
+        "The plywood is set down on the middle right area of the table.",
+        "Yes, the plywood is positioned in the upper right corner of the table.",
+        "The person placed the piece of plywood at the upper left portion of the table.",
+        "The piece of plywood is located at the center bottom part of the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the small piece of plywood on the table? Choose **only one** option from the following list.\nOptions:\n(A) The piece of plywood is placed at the lower right section of the table.\n(B) The plywood is set down on the middle right area of the table.\n(C) Yes, the plywood is positioned in the upper right corner of the table.\n(D) The person placed the piece of plywood at the upper left portion of the table.\n(E) The piece of plywood is located at the center bottom part of the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The plywood is set down on the middle right area of the table."
+    },
+    "correct_idx": [
+        3
+    ]
+}

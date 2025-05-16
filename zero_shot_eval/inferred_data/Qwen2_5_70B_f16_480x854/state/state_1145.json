@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a plank change?",
+    "options": [
+        "The plank changes from being stacked on top of each other to being laid out flat.",
+        "The plank changes from being in a chaotic arrangement to being organized in a row.",
+        "The plank changes from being jumbled together to being spaced evenly.",
+        "The plank changes from being piled up to being lined up.",
+        "The plank changes from being in a heap to being placed side by side."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a plank change? Choose **only one** option from the following list.\nOptions:\n(A) The plank changes from being stacked on top of each other to being laid out flat.\n(B) The plank changes from being in a chaotic arrangement to being organized in a row.\n(C) The plank changes from being jumbled together to being spaced evenly.\n(D) The plank changes from being piled up to being lined up.\n(E) The plank changes from being in a heap to being placed side by side.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The plank changes from being jumbled together to being spaced evenly."
+    },
+    "correct_idx": [
+        3
+    ]
+}

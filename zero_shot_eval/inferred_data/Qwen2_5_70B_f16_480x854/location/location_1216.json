@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the first plank of wood?",
+    "options": [
+        "The person placed the first plank of wood on the left edge of the another wood.",
+        "The person placed the first plank of wood below the center of the another wood.",
+        "The person placed the first plank of wood on the corner of the nearby table.",
+        "The person placed the first plank of wood on the right edge of the another wood.",
+        "The person placed the first plank of wood on the left side of the tabletop."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the first plank of wood? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the first plank of wood on the left edge of the another wood.\n(B) The person placed the first plank of wood below the center of the another wood.\n(C) The person placed the first plank of wood on the corner of the nearby table.\n(D) The person placed the first plank of wood on the right edge of the another wood.\n(E) The person placed the first plank of wood on the left side of the tabletop.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person placed the first plank of wood on the left edge of the another wood."
+    },
+    "correct_idx": [
+        3
+    ]
+}

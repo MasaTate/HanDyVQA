@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move a small carton pack?",
+    "options": [
+        "The person moves the small carton pack behind her next to a pencil.",
+        "The person moves the small carton pack to the left of her beside a notebook.",
+        "The person moves the small carton pack in front of her near a stapler.",
+        "The person moves the small carton pack in front of her next to a ruler.",
+        "The person moves the small carton pack on the right of her next to a binder."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move a small carton pack? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the small carton pack behind her next to a pencil.\n(B) The person moves the small carton pack to the left of her beside a notebook.\n(C) The person moves the small carton pack in front of her near a stapler.\n(D) The person moves the small carton pack in front of her next to a ruler.\n(E) The person moves the small carton pack on the right of her next to a binder.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person moves the small carton pack in front of her next to a ruler."
+    },
+    "correct_idx": [
+        3
+    ]
+}

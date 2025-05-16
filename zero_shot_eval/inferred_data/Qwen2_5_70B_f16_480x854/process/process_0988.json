@@ -1,0 +1,17 @@
+{
+    "question": "How does the person touch the guitar?",
+    "options": [
+        "The person softly presses the guitar body with his left hand to lower it onto the surface.",
+        "The person carefully turns the guitar body using both hands to adjust its position while holding the neck steadily.",
+        "The person gently touches the guitar string with his left index, middle, and ring fingers and adjusts the guitar with his right hand.",
+        "The person softly touches the guitar string with his left index, middle, and ring fingers and adjusts the guitar with his right hand.",
+        "The person gently touches the guitar string with his left index, middle, and ring fingers and lifts the guitar with his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person touch the guitar? Choose **only one** option from the following list.\nOptions:\n(A) The person softly presses the guitar body with his left hand to lower it onto the surface.\n(B) The person carefully turns the guitar body using both hands to adjust its position while holding the neck steadily.\n(C) The person gently touches the guitar string with his left index, middle, and ring fingers and adjusts the guitar with his right hand.\n(D) The person softly touches the guitar string with his left index, middle, and ring fingers and adjusts the guitar with his right hand.\n(E) The person gently touches the guitar string with his left index, middle, and ring fingers and lifts the guitar with his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person softly touches the guitar string with his left index, middle, and ring fingers and adjusts the guitar with his right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

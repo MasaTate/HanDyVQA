@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the rag change?",
+    "options": [
+        "The rag became dirty after being used to clean the muddy floor.",
+        "The rag became damp after being used to wipe the wood.",
+        "The rag was torn into several pieces after being pulled too hard.",
+        "The rag was stained with paint after being used for touch-ups.",
+        "The rag became dry and stiff after being left in the sun."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the rag change? Choose **only one** option from the following list.\nOptions:\n(A) The rag became dirty after being used to clean the muddy floor.\n(B) The rag became damp after being used to wipe the wood.\n(C) The rag was torn into several pieces after being pulled too hard.\n(D) The rag was stained with paint after being used for touch-ups.\n(E) The rag became dry and stiff after being left in the sun.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The rag became damp after being used to wipe the wood."
+    },
+    "correct_idx": [
+        1
+    ]
+}

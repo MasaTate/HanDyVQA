@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a tortilla change?",
+    "options": [
+        "The tortilla was grabbed and folded in half.",
+        "The tortilla was rolled into a flat disk.",
+        "The tortilla was torn into several small pieces.",
+        "The tortilla was placed on a plate and covered with a cloth.",
+        "The tortilla was stacked on top of another tortilla."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a tortilla change? Choose **only one** option from the following list.\nOptions:\n(A) The tortilla was grabbed and folded in half.\n(B) The tortilla was rolled into a flat disk.\n(C) The tortilla was torn into several small pieces.\n(D) The tortilla was placed on a plate and covered with a cloth.\n(E) The tortilla was stacked on top of another tortilla.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The tortilla was grabbed and folded in half."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a door change?",
+    "options": [
+        "The door was pushed away from the wall and became closed.",
+        "The door was lifted off its hinges and became detached.",
+        "The door was pulled toward the wall and became open.",
+        "The door was moved back and forth and became ajar.",
+        "The door was slid to the side and became open."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a door change? Choose **only one** option from the following list.\nOptions:\n(A) The door was pushed away from the wall and became closed.\n(B) The door was lifted off its hinges and became detached.\n(C) The door was pulled toward the wall and became open.\n(D) The door was moved back and forth and became ajar.\n(E) The door was slid to the side and became open.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The door was pulled toward the wall and became open."
+    },
+    "correct_idx": [
+        2
+    ]
+}

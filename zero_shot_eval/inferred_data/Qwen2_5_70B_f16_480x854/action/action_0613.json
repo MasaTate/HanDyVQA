@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person pours sugar from a bucket into a bowl using a cup in his right hand.",
+        "The person is sprinkling sugar from a shaker onto a dessert using his right hand while holding the plate with his left hand.",
+        "The person transfers sugar from a container to a jar using a scoop held in his right hand.",
+        "The person is measuring sugar with a measuring cup in his right hand while holding a notepad with his left hand.",
+        "The person scoops sugar from the bucket with a cup using his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person pours sugar from a bucket into a bowl using a cup in his right hand.\n(B) The person is sprinkling sugar from a shaker onto a dessert using his right hand while holding the plate with his left hand.\n(C) The person transfers sugar from a container to a jar using a scoop held in his right hand.\n(D) The person is measuring sugar with a measuring cup in his right hand while holding a notepad with his left hand.\n(E) The person scoops sugar from the bucket with a cup using his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person scoops sugar from the bucket with a cup using his right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

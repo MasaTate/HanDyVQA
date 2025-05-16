@@ -1,0 +1,17 @@
+{
+    "question": "How does the person sweep the chair?",
+    "options": [
+        "The person jabs the broom at the chair, attempting to knock the dust off in a quick motion, foregoing any back-and-forth movement.",
+        "The person raises the broom and lets it fall onto the chair, hoping the dust will be dislodged by the impact.",
+        "The person holds the broom close, brushing his shoulder near the chair rather than using the broom's bristles to clean effectively.",
+        "The person moves the broom across the chair with his hand, sweeping the dust in a controlled, back-and-forth motion, gently pushing the dust off the chair's surface.",
+        "The person uses the broom's handle to push at the chair in a varied manner, trying to shift the dust without a sweeping motion."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person sweep the chair? Choose **only one** option from the following list.\nOptions:\n(A) The person jabs the broom at the chair, attempting to knock the dust off in a quick motion, foregoing any back-and-forth movement.\n(B) The person raises the broom and lets it fall onto the chair, hoping the dust will be dislodged by the impact.\n(C) The person holds the broom close, brushing his shoulder near the chair rather than using the broom's bristles to clean effectively.\n(D) The person moves the broom across the chair with his hand, sweeping the dust in a controlled, back-and-forth motion, gently pushing the dust off the chair's surface.\n(E) The person uses the broom's handle to push at the chair in a varied manner, trying to shift the dust without a sweeping motion.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person moves the broom across the chair with his hand, sweeping the dust in a controlled, back-and-forth motion, gently pushing the dust off the chair's surface."
+    },
+    "correct_idx": [
+        3
+    ]
+}

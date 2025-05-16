@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a book from the shelf change?",
+    "options": [
+        "The book was taken from the shelf horizontally and was flipped around to reveal the front cover.",
+        "The book was pulled from the shelf vertically and was opened to the middle to reveal the pages inside.",
+        "The book was slid off the shelf diagonally and was placed down with the back cover facing up.",
+        "The book was lifted from the shelf and was turned on its side to show the spine.",
+        "The book was removed from the shelf in a standing position and was closed to protect the pages."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a book from the shelf change? Choose **only one** option from the following list.\nOptions:\n(A) The book was taken from the shelf horizontally and was flipped around to reveal the front cover.\n(B) The book was pulled from the shelf vertically and was opened to the middle to reveal the pages inside.\n(C) The book was slid off the shelf diagonally and was placed down with the back cover facing up.\n(D) The book was lifted from the shelf and was turned on its side to show the spine.\n(E) The book was removed from the shelf in a standing position and was closed to protect the pages.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The book was taken from the shelf horizontally and was flipped around to reveal the front cover."
+    },
+    "correct_idx": [
+        0
+    ]
+}

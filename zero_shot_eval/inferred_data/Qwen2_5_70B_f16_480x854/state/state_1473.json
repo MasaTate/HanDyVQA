@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the table top change?",
+    "options": [
+        "The table top's surface was made scratchy after being dragged across a rough floor.",
+        "The table top's surface was stained by absorbed ink.",
+        "The table top's surface was made cleaner after being wiped with a sponge.",
+        "The table top's surface was dulled after being exposed to direct sunlight for too long.",
+        "The table top's surface was made sticky after having a sugary drink spilled on it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the table top change? Choose **only one** option from the following list.\nOptions:\n(A) The table top's surface was made scratchy after being dragged across a rough floor.\n(B) The table top's surface was stained by absorbed ink.\n(C) The table top's surface was made cleaner after being wiped with a sponge.\n(D) The table top's surface was dulled after being exposed to direct sunlight for too long.\n(E) The table top's surface was made sticky after having a sugary drink spilled on it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The table top's surface was made cleaner after being wiped with a sponge."
+    },
+    "correct_idx": [
+        2
+    ]
+}

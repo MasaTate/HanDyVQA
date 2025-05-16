@@ -1,0 +1,17 @@
+{
+    "question": "How does the person dip the stick?",
+    "options": [
+        "The person presses the stick into the ground using both hands, applying a steady force without any movement.",
+        "The person gently rests the tip of the stick on the ground with their left hand, not initiating any motion.",
+        "The person taps the ground with the stick, using a quick motion of their right wrist.",
+        "The person waves the stick back and forth in the air before letting it touch the ground with one hand.",
+        "The person dips the stick into the ground with their right hand, and moves it in a circular motion."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person dip the stick? Choose **only one** option from the following list.\nOptions:\n(A) The person presses the stick into the ground using both hands, applying a steady force without any movement.\n(B) The person gently rests the tip of the stick on the ground with their left hand, not initiating any motion.\n(C) The person taps the ground with the stick, using a quick motion of their right wrist.\n(D) The person waves the stick back and forth in the air before letting it touch the ground with one hand.\n(E) The person dips the stick into the ground with their right hand, and moves it in a circular motion.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person dips the stick into the ground with their right hand, and moves it in a circular motion."
+    },
+    "correct_idx": [
+        4
+    ]
+}

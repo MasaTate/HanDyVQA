@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the plate?",
+    "options": [
+        "The person place the plate inside the dishwasher on the right side.",
+        "The person places the plate inside the dishwasher on the left side.",
+        "The person places the plate outside the dishwasher on the right side of the counter.",
+        "The person places the plate on top of the dishwasher, towards the front.",
+        "The person places the plate inside the dishwasher on the middle rack."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the plate? Choose **only one** option from the following list.\nOptions:\n(A) The person place the plate inside the dishwasher on the right side.\n(B) The person places the plate inside the dishwasher on the left side.\n(C) The person places the plate outside the dishwasher on the right side of the counter.\n(D) The person places the plate on top of the dishwasher, towards the front.\n(E) The person places the plate inside the dishwasher on the middle rack.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person places the plate inside the dishwasher on the left side."
+    },
+    "correct_idx": [
+        0
+    ]
+}

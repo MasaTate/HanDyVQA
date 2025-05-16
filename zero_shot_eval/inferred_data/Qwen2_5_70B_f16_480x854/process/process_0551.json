@@ -1,0 +1,17 @@
+{
+    "question": "How does the person search the purse?",
+    "options": [
+        "The person searches the purse by holding it securely with both hands and gently shaking it to see if the item is noticeable.",
+        "The person searches the purse by gripping it securely with her right hand to keep it steady and then, using her left hand, she carefully reaches into the purse and searches for the desired item.",
+        "The person opens the purse wide with her right hand and uses her left hand to gently move items aside, observing them carefully.",
+        "The person uses her left hand to hold the purse while gently swaying it back and forth, attempting to get a glimpse of the item inside.",
+        "The person grips the purse with one hand and slightly tips it, allowing some contents to move toward the edge while searching for the item."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person search the purse? Choose **only one** option from the following list.\nOptions:\n(A) The person searches the purse by holding it securely with both hands and gently shaking it to see if the item is noticeable.\n(B) The person searches the purse by gripping it securely with her right hand to keep it steady and then, using her left hand, she carefully reaches into the purse and searches for the desired item.\n(C) The person opens the purse wide with her right hand and uses her left hand to gently move items aside, observing them carefully.\n(D) The person uses her left hand to hold the purse while gently swaying it back and forth, attempting to get a glimpse of the item inside.\n(E) The person grips the purse with one hand and slightly tips it, allowing some contents to move toward the edge while searching for the item.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person searches the purse by gripping it securely with her right hand to keep it steady and then, using her left hand, she carefully reaches into the purse and searches for the desired item."
+    },
+    "correct_idx": [
+        1
+    ]
+}

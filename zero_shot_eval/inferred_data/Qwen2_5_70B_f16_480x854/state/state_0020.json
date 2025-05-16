@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of piano change?",
+    "options": [
+        "The piano keys were slightly touched.",
+        "The piano keys were tapped in another order.",
+        "The piano keys were pushed and released.",
+        "The piano keys were pressed.",
+        "The piano keys were muted during pressing."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of piano change? Choose **only one** option from the following list.\nOptions:\n(A) The piano keys were slightly touched.\n(B) The piano keys were tapped in another order.\n(C) The piano keys were pushed and released.\n(D) The piano keys were pressed.\n(E) The piano keys were muted during pressing.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The piano keys were pressed."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the bottle change?",
+    "options": [
+        "The bottle became empty after the liquid was poured out.",
+        "The bottle was broken into pieces after being dropped on the floor.",
+        "The bottle was closed after the lid was placed on it.",
+        "The bottle expanded in size after being heated under the sun.",
+        "The bottle was filled with sand after it was used to collect it from the beach."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the bottle change? Choose **only one** option from the following list.\nOptions:\n(A) The bottle became empty after the liquid was poured out.\n(B) The bottle was broken into pieces after being dropped on the floor.\n(C) The bottle was closed after the lid was placed on it.\n(D) The bottle expanded in size after being heated under the sun.\n(E) The bottle was filled with sand after it was used to collect it from the beach.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The bottle was closed after the lid was placed on it."
+    },
+    "correct_idx": [
+        2
+    ]
+}

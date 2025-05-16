@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the asparagus?",
+    "options": [
+        "The person moved the asparagus from her left hand to the right side of the casserole.",
+        "The person moved the asparagus from her left hand to the back of the casserole.",
+        "The person moved the asparagus from her left hand to the front edge of the casserole.",
+        "The person moved the asparagus from her left hand to the bottom of the casserole.",
+        "The person moved the asparagus from her left hand to the center of the casserole."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the asparagus? Choose **only one** option from the following list.\nOptions:\n(A) The person moved the asparagus from her left hand to the right side of the casserole.\n(B) The person moved the asparagus from her left hand to the back of the casserole.\n(C) The person moved the asparagus from her left hand to the front edge of the casserole.\n(D) The person moved the asparagus from her left hand to the bottom of the casserole.\n(E) The person moved the asparagus from her left hand to the center of the casserole.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person moved the asparagus from her left hand to the center of the casserole."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the glove change?",
+    "options": [
+        "The glove was stretched when worn to accommodate a larger hand.",
+        "The glove was adjusted when worn to ensure a snug fit.",
+        "The glove was folded when stored to save space in a drawer.",
+        "The glove was layered beneath another pair for added warmth.",
+        "The glove was turned inside out for cleaning purposes."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the glove change? Choose **only one** option from the following list.\nOptions:\n(A) The glove was stretched when worn to accommodate a larger hand.\n(B) The glove was adjusted when worn to ensure a snug fit.\n(C) The glove was folded when stored to save space in a drawer.\n(D) The glove was layered beneath another pair for added warmth.\n(E) The glove was turned inside out for cleaning purposes.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The glove was adjusted when worn to ensure a snug fit."
+    },
+    "correct_idx": [
+        1
+    ]
+}

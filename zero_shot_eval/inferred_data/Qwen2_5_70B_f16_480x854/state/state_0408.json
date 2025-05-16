@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the coffee maker change?",
+    "options": [
+        "The base of the coffee maker was removed from the main unit.",
+        "The water reservoir of the coffee maker was detached from the main unit.",
+        "The filter basket of the coffee maker was removed for cleaning.",
+        "The lid of the coffee maker was left open.",
+        "The lid of the coffee maker that had been open was closed and then opened again."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the coffee maker change? Choose **only one** option from the following list.\nOptions:\n(A) The base of the coffee maker was removed from the main unit.\n(B) The water reservoir of the coffee maker was detached from the main unit.\n(C) The filter basket of the coffee maker was removed for cleaning.\n(D) The lid of the coffee maker was left open.\n(E) The lid of the coffee maker that had been open was closed and then opened again.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The lid of the coffee maker that had been open was closed and then opened again."
+    },
+    "correct_idx": [
+        4
+    ]
+}

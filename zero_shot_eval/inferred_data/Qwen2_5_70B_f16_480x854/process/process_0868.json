@@ -1,0 +1,17 @@
+{
+    "question": "How does the person take a screw?",
+    "options": [
+        "The person carefully picks the screw from the carpet with his left hand.",
+        "The person smoothly picks up the screw using both hands from the surface.",
+        "The person leans down and picks the screw up into his palm using his fingers.",
+        "The person uses a pair of pliers to pick up the screw smoothly.",
+        "The person gently takes the screw by picking it up from the carpet using the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person take a screw? Choose **only one** option from the following list.\nOptions:\n(A) The person carefully picks the screw from the carpet with his left hand.\n(B) The person smoothly picks up the screw using both hands from the surface.\n(C) The person leans down and picks the screw up into his palm using his fingers.\n(D) The person uses a pair of pliers to pick up the screw smoothly.\n(E) The person gently takes the screw by picking it up from the carpet using the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person gently takes the screw by picking it up from the carpet using the right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

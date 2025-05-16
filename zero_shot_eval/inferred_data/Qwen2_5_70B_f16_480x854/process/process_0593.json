@@ -1,0 +1,17 @@
+{
+    "question": "How does the person dip the file?",
+    "options": [
+        "The person gradually lowered the file into the water while tilting it at an angle.",
+        "The person rapidly dipped the file into the water.",
+        "The person immersed the file fully in the water for a short duration.",
+        "The person softly placed the file on the water's surface without immersing it.",
+        "The person moved the file smoothly across the water before dipping it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person dip the file? Choose **only one** option from the following list.\nOptions:\n(A) The person gradually lowered the file into the water while tilting it at an angle.\n(B) The person rapidly dipped the file into the water.\n(C) The person immersed the file fully in the water for a short duration.\n(D) The person softly placed the file on the water's surface without immersing it.\n(E) The person moved the file smoothly across the water before dipping it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person immersed the file fully in the water for a short duration."
+    },
+    "correct_idx": [
+        1
+    ]
+}

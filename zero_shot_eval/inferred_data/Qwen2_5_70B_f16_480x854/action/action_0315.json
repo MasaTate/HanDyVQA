@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person unplugs the cable from a wall socket with his left hand.",
+        "The person adjusts the position of the cable near the wall socket with both hands.",
+        "The person wraps the cable around a holder on the wall using his left hand.",
+        "The person plugs the cable into a wall socket with his left hand.",
+        "The person examines the cable for damage while holding it in both hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person unplugs the cable from a wall socket with his left hand.\n(B) The person adjusts the position of the cable near the wall socket with both hands.\n(C) The person wraps the cable around a holder on the wall using his left hand.\n(D) The person plugs the cable into a wall socket with his left hand.\n(E) The person examines the cable for damage while holding it in both hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person unplugs the cable from a wall socket with his left hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

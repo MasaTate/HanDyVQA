@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person's right hand skillfully carves the eyes of the sculpture using a metal chisel, while the left hand keeps the sculpture steady for better control during the operation.",
+        "The person's right hand gently polishes the surface of the sculpture using a cloth, while the left hand assists by holding the sculpture or applying more polish.",
+        "The person's right hand applies paint to the sculpture using a brush, while the left hand steadies the base to maintain its position during the painting.",
+        "The person's right hand meticulously sculpts the lips of the sculpture using a wooden sculpting tool, while the left hand ensures stability and support throughout the process.",
+        "The person's right hand adds texture to the sculpture with a sponge, while the left hand carefully supports the sculpture to assess the progress."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person's right hand skillfully carves the eyes of the sculpture using a metal chisel, while the left hand keeps the sculpture steady for better control during the operation.\n(B) The person's right hand gently polishes the surface of the sculpture using a cloth, while the left hand assists by holding the sculpture or applying more polish.\n(C) The person's right hand applies paint to the sculpture using a brush, while the left hand steadies the base to maintain its position during the painting.\n(D) The person's right hand meticulously sculpts the lips of the sculpture using a wooden sculpting tool, while the left hand ensures stability and support throughout the process.\n(E) The person's right hand adds texture to the sculpture with a sponge, while the left hand carefully supports the sculpture to assess the progress.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person's right hand meticulously sculpts the lips of the sculpture using a wooden sculpting tool, while the left hand ensures stability and support throughout the process."
+    },
+    "correct_idx": [
+        3
+    ]
+}

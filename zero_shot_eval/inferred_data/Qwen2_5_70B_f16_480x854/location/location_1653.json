@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move a brick?",
+    "options": [
+        "The person slightly moved the bricks at the side of the building.",
+        "The person slightly moved the bricks near the edge of the yard.",
+        "The person slightly moved the bricks at the center of the ground.",
+        "The person slightly moved the bricks in the corner of the driveway.",
+        "The person slightly moved the bricks at the back of the garden."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move a brick? Choose **only one** option from the following list.\nOptions:\n(A) The person slightly moved the bricks at the side of the building.\n(B) The person slightly moved the bricks near the edge of the yard.\n(C) The person slightly moved the bricks at the center of the ground.\n(D) The person slightly moved the bricks in the corner of the driveway.\n(E) The person slightly moved the bricks at the back of the garden.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person slightly moved the bricks at the side of the building."
+    },
+    "correct_idx": [
+        2
+    ]
+}

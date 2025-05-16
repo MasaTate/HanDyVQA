@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pack the dead branches?",
+    "options": [
+        "The person gathers the branches using both hands and places them into the bag without cutting them first.",
+        "The person cut the branch first with a garden scissor using both hands, and then packs the dead branches by grabbing them in his left hand.",
+        "The person uses one hand to pull the branches and then moves them slowly towards the packing area.",
+        "The person grabs a few branches with his right hand and gently places them into a box.",
+        "The person picks up the branches with one hand and places them over his shoulder before packing them."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pack the dead branches? Choose **only one** option from the following list.\nOptions:\n(A) The person gathers the branches using both hands and places them into the bag without cutting them first.\n(B) The person cut the branch first with a garden scissor using both hands, and then packs the dead branches by grabbing them in his left hand.\n(C) The person uses one hand to pull the branches and then moves them slowly towards the packing area.\n(D) The person grabs a few branches with his right hand and gently places them into a box.\n(E) The person picks up the branches with one hand and places them over his shoulder before packing them.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person cut the branch first with a garden scissor using both hands, and then packs the dead branches by grabbing them in his left hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

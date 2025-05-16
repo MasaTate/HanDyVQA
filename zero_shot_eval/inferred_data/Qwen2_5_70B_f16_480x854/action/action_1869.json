@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person holds a stick with her left hand while balancing on one foot.",
+        "The person tosses a stick into the air with her left hand while squatting down.",
+        "The person grabs a stick with her left hand.",
+        "The person is picking up a stick with her left hand while using her right hand to point at something.",
+        "The person is throwing a stick with her right hand to a dog while standing still."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person holds a stick with her left hand while balancing on one foot.\n(B) The person tosses a stick into the air with her left hand while squatting down.\n(C) The person grabs a stick with her left hand.\n(D) The person is picking up a stick with her left hand while using her right hand to point at something.\n(E) The person is throwing a stick with her right hand to a dog while standing still.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person grabs a stick with her left hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the pack of fish cake rolls change?",
+    "options": [
+        "The pack of fish cake rolls was punctured, with its contents spilled onto the counter.",
+        "The pack of fish cake rolls was shaken, causing the rolls to become jumbled inside.",
+        "The pack of fish cake rolls was vacuum-sealed, preserving its freshness without exposing the contents.",
+        "The pack of fish cake rolls was opened, exposing its contents.",
+        "The pack of fish cake rolls was folded over, leaving the contents partially obscured."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the pack of fish cake rolls change? Choose **only one** option from the following list.\nOptions:\n(A) The pack of fish cake rolls was punctured, with its contents spilled onto the counter.\n(B) The pack of fish cake rolls was shaken, causing the rolls to become jumbled inside.\n(C) The pack of fish cake rolls was vacuum-sealed, preserving its freshness without exposing the contents.\n(D) The pack of fish cake rolls was opened, exposing its contents.\n(E) The pack of fish cake rolls was folded over, leaving the contents partially obscured.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The pack of fish cake rolls was opened, exposing its contents."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of an ipod button change?",
+    "options": [
+        "The iPod button was pressed twice, causing the device to reset.",
+        "The iPod button was pressed, causing the device to pause playback.",
+        "The iPod button was pressed, causing the device to turn on.",
+        "The iPod button was pressed, but the device did not respond.",
+        "The iPod button was pressed, causing the volume to increase."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of an ipod button change? Choose **only one** option from the following list.\nOptions:\n(A) The iPod button was pressed twice, causing the device to reset.\n(B) The iPod button was pressed, causing the device to pause playback.\n(C) The iPod button was pressed, causing the device to turn on.\n(D) The iPod button was pressed, but the device did not respond.\n(E) The iPod button was pressed, causing the volume to increase.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The iPod button was pressed, causing the device to turn on."
+    },
+    "correct_idx": [
+        2
+    ]
+}

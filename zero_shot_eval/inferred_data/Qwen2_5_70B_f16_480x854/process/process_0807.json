@@ -1,0 +1,17 @@
+{
+    "question": "How does the person clip the plywood?",
+    "options": [
+        "The person uses both hands to slide the clips onto the plywood, not applying much pressure, so they stay on either side.",
+        "The person squeezes the first clip tightly with the left hand and attaches it to the left side of the plywood. Then, they squeeze the other clip tightly with the right hand and attach it to the right side of the plywood.",
+        "The person grips one clip with the left hand and places it near the plywood without securing it.",
+        "The person holds one clip with the right hand and tries to press it onto the plywood without much force to secure it.",
+        "The person rotates the clips in their hands and sets them on top of the plywood without clipping them."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person clip the plywood? Choose **only one** option from the following list.\nOptions:\n(A) The person uses both hands to slide the clips onto the plywood, not applying much pressure, so they stay on either side.\n(B) The person squeezes the first clip tightly with the left hand and attaches it to the left side of the plywood. Then, they squeeze the other clip tightly with the right hand and attach it to the right side of the plywood.\n(C) The person grips one clip with the left hand and places it near the plywood without securing it.\n(D) The person holds one clip with the right hand and tries to press it onto the plywood without much force to secure it.\n(E) The person rotates the clips in their hands and sets them on top of the plywood without clipping them.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person squeezes the first clip tightly with the left hand and attaches it to the left side of the plywood. Then, they squeeze the other clip tightly with the right hand and attach it to the right side of the plywood."
+    },
+    "correct_idx": [
+        1
+    ]
+}

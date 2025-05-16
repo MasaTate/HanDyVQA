@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the paper?",
+    "options": [
+        "The person drops the paper in a recycling bin across from the refrigerator.",
+        "The person drops the paper on the counter beside the refrigerator.",
+        "The person drops the paper in a wastebasket in the living room.",
+        "The person drops the paper in a bin behind the refrigerator.",
+        "The person drops the paper in a trash bin next to the refrigerator."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the paper? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the paper in a recycling bin across from the refrigerator.\n(B) The person drops the paper on the counter beside the refrigerator.\n(C) The person drops the paper in a wastebasket in the living room.\n(D) The person drops the paper in a bin behind the refrigerator.\n(E) The person drops the paper in a trash bin next to the refrigerator.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person drops the paper in a trash bin next to the refrigerator."
+    },
+    "correct_idx": [
+        4
+    ]
+}

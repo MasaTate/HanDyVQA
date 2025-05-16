@@ -1,0 +1,17 @@
+{
+    "question": "How does the person shuffle the cards?",
+    "options": [
+        "The person grips the deck of cards in both hands and gently flips the entire stack over, adjusting the order without removing any cards.",
+        "The person holds the cards in his left hand and carefully uses his right hand to slide multiple cards out at once, rearranging them.",
+        "The person holds the deck of cards in his right hand and uses his left index finger and thumb to pick a card from the bottom and place it on top, shuffling the deck.",
+        "The person takes the deck in his right hand and smoothly shakes it from side to side, attempting to mix the cards with gentle movements.",
+        "The person places the cards on the table and uses both hands to spread them out systematically, attempting to mix them while keeping them in order."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person shuffle the cards? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the deck of cards in both hands and gently flips the entire stack over, adjusting the order without removing any cards.\n(B) The person holds the cards in his left hand and carefully uses his right hand to slide multiple cards out at once, rearranging them.\n(C) The person holds the deck of cards in his right hand and uses his left index finger and thumb to pick a card from the bottom and place it on top, shuffling the deck.\n(D) The person takes the deck in his right hand and smoothly shakes it from side to side, attempting to mix the cards with gentle movements.\n(E) The person places the cards on the table and uses both hands to spread them out systematically, attempting to mix them while keeping them in order.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person holds the cards in his left hand and carefully uses his right hand to slide multiple cards out at once, rearranging them."
+    },
+    "correct_idx": [
+        2
+    ]
+}

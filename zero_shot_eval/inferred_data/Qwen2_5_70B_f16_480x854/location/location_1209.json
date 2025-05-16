@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the items in the fridge?",
+    "options": [
+        "The person moves the items in the top part of the fridge.",
+        "The person moves the items in the middle section of the fridge.",
+        "The person move the items in the bottom part of the fridge.",
+        "The person moves the items in the door compartment of the fridge.",
+        "The person moves the items on the shelf above the drawers in the fridge."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the items in the fridge? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the items in the top part of the fridge.\n(B) The person moves the items in the middle section of the fridge.\n(C) The person move the items in the bottom part of the fridge.\n(D) The person moves the items in the door compartment of the fridge.\n(E) The person moves the items on the shelf above the drawers in the fridge.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person moves the items in the middle section of the fridge."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person draw the wire?",
+    "options": [
+        "The person tries to push the wire forward using the palm of his right hand.",
+        "The person wraps the wire around his fingers on his left hand to adjust it.",
+        "The person raises the wire using both hands to move it.",
+        "The person pulls the wire with his left hand.",
+        "The person guides the wire across the surface with the back of his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person draw the wire? Choose **only one** option from the following list.\nOptions:\n(A) The person tries to push the wire forward using the palm of his right hand.\n(B) The person wraps the wire around his fingers on his left hand to adjust it.\n(C) The person raises the wire using both hands to move it.\n(D) The person pulls the wire with his left hand.\n(E) The person guides the wire across the surface with the back of his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person pulls the wire with his left hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

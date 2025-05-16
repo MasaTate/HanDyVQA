@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move a phone?",
+    "options": [
+        "The person moves a phone to the right side near the sink.",
+        "The person moves a phone to the side of the countertop.",
+        "The person moves a phone to the front edge of the table.",
+        "The person moves a phone to the corner next to the toaster.",
+        "The person moves a phone to the back of the kitchen shelf."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move a phone? Choose **only one** option from the following list.\nOptions:\n(A) The person moves a phone to the right side near the sink.\n(B) The person moves a phone to the side of the countertop.\n(C) The person moves a phone to the front edge of the table.\n(D) The person moves a phone to the corner next to the toaster.\n(E) The person moves a phone to the back of the kitchen shelf.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person moves a phone to the right side near the sink."
+    },
+    "correct_idx": [
+        0
+    ]
+}

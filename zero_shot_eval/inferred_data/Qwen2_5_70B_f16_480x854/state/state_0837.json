@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the wire change?",
+    "options": [
+        "The wire was twisted into a spiral shape.",
+        "The wire was being stripped of its outer sheath.",
+        "The wire was coiled into a tight bundle.",
+        "The wire was extended to its full length.",
+        "The wire was intertwined with another wire."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the wire change? Choose **only one** option from the following list.\nOptions:\n(A) The wire was twisted into a spiral shape.\n(B) The wire was being stripped of its outer sheath.\n(C) The wire was coiled into a tight bundle.\n(D) The wire was extended to its full length.\n(E) The wire was intertwined with another wire.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The wire was being stripped of its outer sheath."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person grate ginger?",
+    "options": [
+        "The person presses the grater with both hands while smoothly rubbing the ginger against it in a circular motion using the right hand.",
+        "The person raises the grater slightly above the counter and lets the ginger fall onto it from the right hand.",
+        "The person holds the ginger with the left hand and taps it up and down against the grater with the right hand.",
+        "The person uses the palm of the left hand to ease the ginger into the grater while supporting it upright with the right hand.",
+        "The person grates the ginger by holding the grater with his left hand and gently scraping the ginger in the grater sideways using the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person grate ginger? Choose **only one** option from the following list.\nOptions:\n(A) The person presses the grater with both hands while smoothly rubbing the ginger against it in a circular motion using the right hand.\n(B) The person raises the grater slightly above the counter and lets the ginger fall onto it from the right hand.\n(C) The person holds the ginger with the left hand and taps it up and down against the grater with the right hand.\n(D) The person uses the palm of the left hand to ease the ginger into the grater while supporting it upright with the right hand.\n(E) The person grates the ginger by holding the grater with his left hand and gently scraping the ginger in the grater sideways using the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person grates the ginger by holding the grater with his left hand and gently scraping the ginger in the grater sideways using the right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

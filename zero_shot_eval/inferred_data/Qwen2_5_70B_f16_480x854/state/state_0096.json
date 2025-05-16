@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of book pages change?",
+    "options": [
+        "The book was picked, opened, and pages were turned forward only.",
+        "The book was picked, opened, and pages were held steady without skimming.",
+        "The book was picked, opened, and pages were flipped backward only.",
+        "The book was picked, opened, and skimmed in both directions.",
+        "The book was picked, opened, and pages were turned one by one in one direction."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of book pages change? Choose **only one** option from the following list.\nOptions:\n(A) The book was picked, opened, and pages were turned forward only.\n(B) The book was picked, opened, and pages were held steady without skimming.\n(C) The book was picked, opened, and pages were flipped backward only.\n(D) The book was picked, opened, and skimmed in both directions.\n(E) The book was picked, opened, and pages were turned one by one in one direction.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The book was picked, opened, and skimmed in both directions."
+    },
+    "correct_idx": [
+        3
+    ]
+}

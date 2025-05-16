@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the eggplant with the knife change?",
+    "options": [
+        "The eggplant was hollowed out as its insides were removed with a knife.",
+        "The eggplant was sliced into thin rounds with a knife.",
+        "The eggplant was diced into small cubes using a knife.",
+        "The eggplant was peeled as its skin was removed with a knife.",
+        "The eggplant became shorter as its ends were cut off with a knife."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the eggplant with the knife change? Choose **only one** option from the following list.\nOptions:\n(A) The eggplant was hollowed out as its insides were removed with a knife.\n(B) The eggplant was sliced into thin rounds with a knife.\n(C) The eggplant was diced into small cubes using a knife.\n(D) The eggplant was peeled as its skin was removed with a knife.\n(E) The eggplant became shorter as its ends were cut off with a knife.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The eggplant became shorter as its ends were cut off with a knife."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the book?",
+    "options": [
+        "The person placed the book at the right corner of the book shelves.",
+        "The person placed the book in the center of the book shelves.",
+        "The person placed the book at the left corner of the book shelves.",
+        "The person placed the book on the top shelf of the book shelves.",
+        "The person placed the book on the bottom shelf of the book shelves."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the book? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the book at the right corner of the book shelves.\n(B) The person placed the book in the center of the book shelves.\n(C) The person placed the book at the left corner of the book shelves.\n(D) The person placed the book on the top shelf of the book shelves.\n(E) The person placed the book on the bottom shelf of the book shelves.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person placed the book at the right corner of the book shelves."
+    },
+    "correct_idx": [
+        2
+    ]
+}

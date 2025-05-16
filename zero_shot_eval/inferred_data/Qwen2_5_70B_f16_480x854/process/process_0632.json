@@ -1,0 +1,17 @@
+{
+    "question": "How does the person wash a local sauce pan?",
+    "options": [
+        "The person holds the local sauce pan upright with their left hand while using their right hand to scrub the inside surface in circular motions.",
+        "The person washes a local sauce pan by holding it steady with their left hand while their right hand moves the scrubber back and forth across the back of the pan in a firm, rhythmic motion to clean it thoroughly.",
+        "The person grips the handle of the local sauce pan with their left hand while their right hand pours water over it, moving the scrubber across the surface.",
+        "The person tilts the local sauce pan on its side with their right hand while their left hand gently spreads soap into it before cleaning.",
+        "The person balances the local sauce pan on the edge of the sink using their left hand while moving the scrubber smoothly with their right hand to create bubbles."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person wash a local sauce pan? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the local sauce pan upright with their left hand while using their right hand to scrub the inside surface in circular motions.\n(B) The person washes a local sauce pan by holding it steady with their left hand while their right hand moves the scrubber back and forth across the back of the pan in a firm, rhythmic motion to clean it thoroughly.\n(C) The person grips the handle of the local sauce pan with their left hand while their right hand pours water over it, moving the scrubber across the surface.\n(D) The person tilts the local sauce pan on its side with their right hand while their left hand gently spreads soap into it before cleaning.\n(E) The person balances the local sauce pan on the edge of the sink using their left hand while moving the scrubber smoothly with their right hand to create bubbles.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person washes a local sauce pan by holding it steady with their left hand while their right hand moves the scrubber back and forth across the back of the pan in a firm, rhythmic motion to clean it thoroughly."
+    },
+    "correct_idx": [
+        1
+    ]
+}

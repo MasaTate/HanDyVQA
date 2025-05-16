@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the white paper?",
+    "options": [
+        "The person dropped the white paper in the right corner of the sink.",
+        "The person dropped the white paper in the left corner of the sink.",
+        "The person dropped the white paper on the edge of the kitchen counter.",
+        "The person dropped the white paper in the bottom center of the trash can.",
+        "The person dropped the white paper next to the faucet on the sink."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the white paper? Choose **only one** option from the following list.\nOptions:\n(A) The person dropped the white paper in the right corner of the sink.\n(B) The person dropped the white paper in the left corner of the sink.\n(C) The person dropped the white paper on the edge of the kitchen counter.\n(D) The person dropped the white paper in the bottom center of the trash can.\n(E) The person dropped the white paper next to the faucet on the sink.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person dropped the white paper in the right corner of the sink."
+    },
+    "correct_idx": [
+        0
+    ]
+}

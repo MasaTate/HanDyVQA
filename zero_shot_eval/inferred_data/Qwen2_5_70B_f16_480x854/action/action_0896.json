@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person discards the wire with the right hand and places the stick down using the left hand before grabbing a hammer in the right hand to secure the circuit breaker.",
+        "The person catches the wire with the left hand and lifts the stick with the right hand, then takes a wrench in the right hand to tighten the circuit breaker.",
+        "The person pulls the wire with the left hand and holds the stick up with the right hand while using a pair of pliers in the right hand to bend the circuit breaker.",
+        "The person throws the wire with the left hand and puts down the stick using the right hand and then picks up a screwdriver in the right hand to screw the circuit breaker.",
+        "The person drops the wire with the left hand and moves the stick aside with the right hand, then picks up a drill in the right hand to fasten the circuit breaker."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person discards the wire with the right hand and places the stick down using the left hand before grabbing a hammer in the right hand to secure the circuit breaker.\n(B) The person catches the wire with the left hand and lifts the stick with the right hand, then takes a wrench in the right hand to tighten the circuit breaker.\n(C) The person pulls the wire with the left hand and holds the stick up with the right hand while using a pair of pliers in the right hand to bend the circuit breaker.\n(D) The person throws the wire with the left hand and puts down the stick using the right hand and then picks up a screwdriver in the right hand to screw the circuit breaker.\n(E) The person drops the wire with the left hand and moves the stick aside with the right hand, then picks up a drill in the right hand to fasten the circuit breaker.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person throws the wire with the left hand and puts down the stick using the right hand and then picks up a screwdriver in the right hand to screw the circuit breaker."
+    },
+    "correct_idx": [
+        3
+    ]
+}

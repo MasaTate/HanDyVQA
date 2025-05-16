@@ -1,0 +1,17 @@
+{
+    "question": "How does the person remove a needle?",
+    "options": [
+        "The person pulls the needle upward with a smooth motion, using a firm grip with the entire left hand.",
+        "The person holds the needle between the tips of the middle and ring fingers of the right hand, carefully twisting it before pulling it out.",
+        "The person removes a needle by gently pulling and sliding it sideways towards the right using the right hand's thumb and index finger.",
+        "The person uses the palm of the left hand to press the needle down smoothly before removing it.",
+        "The person moves the needle out by applying gentle pressure with the palm of the right hand while stabilizing with the left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person remove a needle? Choose **only one** option from the following list.\nOptions:\n(A) The person pulls the needle upward with a smooth motion, using a firm grip with the entire left hand.\n(B) The person holds the needle between the tips of the middle and ring fingers of the right hand, carefully twisting it before pulling it out.\n(C) The person removes a needle by gently pulling and sliding it sideways towards the right using the right hand's thumb and index finger.\n(D) The person uses the palm of the left hand to press the needle down smoothly before removing it.\n(E) The person moves the needle out by applying gentle pressure with the palm of the right hand while stabilizing with the left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person removes a needle by gently pulling and sliding it sideways towards the right using the right hand's thumb and index finger."
+    },
+    "correct_idx": [
+        2
+    ]
+}

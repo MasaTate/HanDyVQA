@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person tosses the socks onto the bed with his right hand.",
+        "The person throws the socks on the bed with his right hand.",
+        "The person throws the socks onto a chair with his right hand.",
+        "The person places the socks on the dresser with his right hand.",
+        "The person catches a sock in his right hand while reaching for another with his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person tosses the socks onto the bed with his right hand.\n(B) The person throws the socks on the bed with his right hand.\n(C) The person throws the socks onto a chair with his right hand.\n(D) The person places the socks on the dresser with his right hand.\n(E) The person catches a sock in his right hand while reaching for another with his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person throws the socks on the bed with his right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person picks up a box with his right hand and passes it to the left hand, and takes the bolt from the air filter cover into his right hand from the box.",
+        "The person tries to take the screw from the engine compartment into his right hand.",
+        "The person puts the bolt from the air filter cover into his left hand.",
+        "The person holds the bolt above his right shoulder after taking it from the air filter cover.",
+        "The person carefully cleans the air filter cover with the bolt in his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person picks up a box with his right hand and passes it to the left hand, and takes the bolt from the air filter cover into his right hand from the box.\n(B) The person tries to take the screw from the engine compartment into his right hand.\n(C) The person puts the bolt from the air filter cover into his left hand.\n(D) The person holds the bolt above his right shoulder after taking it from the air filter cover.\n(E) The person carefully cleans the air filter cover with the bolt in his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person puts the bolt from the air filter cover into his left hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

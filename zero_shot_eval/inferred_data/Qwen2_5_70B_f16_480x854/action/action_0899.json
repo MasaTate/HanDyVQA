@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is driving a nail into the wall with a hammer in her right hand while holding the nail with her left hand.",
+        "The person's right hand picks up the hammer and hits the nail into a cardboard tube.",
+        "The person is pulling a nail out of a wooden board on the table with a hammer in her right hand while stabilizing the board with her left hand.",
+        "The person is setting a nail in a piece of plywood on the floor with a hammer in her right hand while supporting the plywood with her left hand.",
+        "The person is tapping a nail into a wooden frame on a workbench with a hammer in her right hand while holding the nail steady with her left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is driving a nail into the wall with a hammer in her right hand while holding the nail with her left hand.\n(B) The person's right hand picks up the hammer and hits the nail into a cardboard tube.\n(C) The person is pulling a nail out of a wooden board on the table with a hammer in her right hand while stabilizing the board with her left hand.\n(D) The person is setting a nail in a piece of plywood on the floor with a hammer in her right hand while supporting the plywood with her left hand.\n(E) The person is tapping a nail into a wooden frame on a workbench with a hammer in her right hand while holding the nail steady with her left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person's right hand picks up the hammer and hits the nail into a cardboard tube."
+    },
+    "correct_idx": [
+        1
+    ]
+}

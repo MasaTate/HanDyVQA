@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the trigger of the drill driver change?",
+    "options": [
+        "The trigger of the drill driver rotated as it was turned on and off.",
+        "The trigger of the drill driver was pulled back and remained held for continuous operation.",
+        "The trigger of the drill driver slid sideways as it was adjusted for different speeds.",
+        "The trigger of the drill driver moved in and out as it was pressed and released.",
+        "The trigger of the drill driver was locked in position to prevent any movement."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the trigger of the drill driver change? Choose **only one** option from the following list.\nOptions:\n(A) The trigger of the drill driver rotated as it was turned on and off.\n(B) The trigger of the drill driver was pulled back and remained held for continuous operation.\n(C) The trigger of the drill driver slid sideways as it was adjusted for different speeds.\n(D) The trigger of the drill driver moved in and out as it was pressed and released.\n(E) The trigger of the drill driver was locked in position to prevent any movement.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The trigger of the drill driver moved in and out as it was pressed and released."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the oil guage stick change?",
+    "options": [
+        "The oil gauge stick was made empty after oil had been depleted from the vehicle.",
+        "The oil gauge stick was kept operational and displayed a full oil reading.",
+        "The oil gauge stick was stuck at the halfway mark without any movement.",
+        "The oil gauge stick was left broken and showed an incorrect reading consistently.",
+        "The oil gauge stick was inserted into the oil dipstick tube of the lawn mower."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the oil guage stick change? Choose **only one** option from the following list.\nOptions:\n(A) The oil gauge stick was made empty after oil had been depleted from the vehicle.\n(B) The oil gauge stick was kept operational and displayed a full oil reading.\n(C) The oil gauge stick was stuck at the halfway mark without any movement.\n(D) The oil gauge stick was left broken and showed an incorrect reading consistently.\n(E) The oil gauge stick was inserted into the oil dipstick tube of the lawn mower.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The oil gauge stick was inserted into the oil dipstick tube of the lawn mower."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person picks a bowl with her left hand first then passes it to her right hand before picking up another bowl with her left hand.",
+        "The person picks a cup with her right hand first then transfers it to her left hand before reaching for a plate beside it.",
+        "The person picks up a basket with her left hand then switches it to her right hand before lifting a bag that was next to it.",
+        "The person picks a jug with her right hand then moves it to her left hand before grabbing a glass that was adjacent to it.",
+        "The person picks up a pot with her left hand first then passes it to her right hand before picking up a pan that was on its right."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person picks a bowl with her left hand first then passes it to her right hand before picking up another bowl with her left hand.\n(B) The person picks a cup with her right hand first then transfers it to her left hand before reaching for a plate beside it.\n(C) The person picks up a basket with her left hand then switches it to her right hand before lifting a bag that was next to it.\n(D) The person picks a jug with her right hand then moves it to her left hand before grabbing a glass that was adjacent to it.\n(E) The person picks up a pot with her left hand first then passes it to her right hand before picking up a pan that was on its right.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person picks a bowl with her left hand first then passes it to her right hand before picking up another bowl with her left hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

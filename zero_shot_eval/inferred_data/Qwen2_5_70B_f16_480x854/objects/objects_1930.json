@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "knife",
+        "plate",
+        "bowl",
+        "steel wool",
+        "sponge",
+        "spoon"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) knife\n(B) plate\n(C) bowl\n(D) steel wool\n(E) sponge\n(F) spoon\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(D) Steel wool  \n(E) Sponge  \n\nThe hands in the video use both steel wool and a sponge for cleaning tasks in the sink area. The steel wool is used for scrubbing, while the sponge is also utilized for cleaning purposes."
+    },
+    "correct_idx": [
+        0,
+        3
+    ]
+}

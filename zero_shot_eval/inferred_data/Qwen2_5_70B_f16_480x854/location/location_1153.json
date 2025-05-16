@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put meat?",
+    "options": [
+        "The person put the meat on the counter next to the gas cooker with the left hand.",
+        "The person put the meat on the top shelf of the fridge with the right hand.",
+        "The person put the meat on the stove beside the gas cooker with the left hand.",
+        "The person put the meat on the griller under the gas cooker with the right hand.",
+        "The person put the meat on the cutting board in front of the gas cooker with the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put meat? Choose **only one** option from the following list.\nOptions:\n(A) The person put the meat on the counter next to the gas cooker with the left hand.\n(B) The person put the meat on the top shelf of the fridge with the right hand.\n(C) The person put the meat on the stove beside the gas cooker with the left hand.\n(D) The person put the meat on the griller under the gas cooker with the right hand.\n(E) The person put the meat on the cutting board in front of the gas cooker with the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person put the meat on the griller under the gas cooker with the right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

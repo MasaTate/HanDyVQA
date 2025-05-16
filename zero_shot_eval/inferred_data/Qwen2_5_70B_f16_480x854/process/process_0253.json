@@ -1,0 +1,17 @@
+{
+    "question": "How does the person drop the soap container?",
+    "options": [
+        "The person holds the soap container in their right hand and moves their arm downward, gently releasing their grip.",
+        "The person lightly tosses the soap container over their shoulder, letting it move smoothly across the room.",
+        "The person holds the soap container in both hands and slowly nudges it forward off the edge of the counter.",
+        "The person raises the soap container above their head and smoothly brings it down, slightly releasing their grip.",
+        "The person grasps the top of the soap container and smoothly shifts their hand to the side, allowing it to slide off the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person drop the soap container? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the soap container in their right hand and moves their arm downward, gently releasing their grip.\n(B) The person lightly tosses the soap container over their shoulder, letting it move smoothly across the room.\n(C) The person holds the soap container in both hands and slowly nudges it forward off the edge of the counter.\n(D) The person raises the soap container above their head and smoothly brings it down, slightly releasing their grip.\n(E) The person grasps the top of the soap container and smoothly shifts their hand to the side, allowing it to slide off the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person holds the soap container in their right hand and moves their arm downward, gently releasing their grip."
+    },
+    "correct_idx": [
+        0
+    ]
+}

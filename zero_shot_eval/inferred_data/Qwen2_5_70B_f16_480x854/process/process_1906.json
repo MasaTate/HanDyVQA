@@ -1,0 +1,17 @@
+{
+    "question": "How does the person shift the fabric on the knitting needle?",
+    "options": [
+        "The person adjusts the fabric gently on the left knitting needle with the left hand before smoothly moving the right knitting needle with the right hand.",
+        "The person wraps the fabric around the right knitting needle using both hands, then carefully relocates the left needle to position it correctly.",
+        "The person lifts the fabric slightly off the right knitting needle with the right hand and then uses the left hand to shift the left knitting needle towards the outside.",
+        "The person moves the fabric slightly on the right knitting needle once towards the center with the right hand, then shifts the fabric on the left knitting needle towards the center three times with the left hand.",
+        "The person nudges the fabric gently on the right knitting needle with the right hand, then closely holds the left knitting needle with both hands, realigning it slightly away from the center."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person shift the fabric on the knitting needle? Choose **only one** option from the following list.\nOptions:\n(A) The person adjusts the fabric gently on the left knitting needle with the left hand before smoothly moving the right knitting needle with the right hand.\n(B) The person wraps the fabric around the right knitting needle using both hands, then carefully relocates the left needle to position it correctly.\n(C) The person lifts the fabric slightly off the right knitting needle with the right hand and then uses the left hand to shift the left knitting needle towards the outside.\n(D) The person moves the fabric slightly on the right knitting needle once towards the center with the right hand, then shifts the fabric on the left knitting needle towards the center three times with the left hand.\n(E) The person nudges the fabric gently on the right knitting needle with the right hand, then closely holds the left knitting needle with both hands, realigning it slightly away from the center.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person moves the fabric slightly on the right knitting needle once towards the center with the right hand, then shifts the fabric on the left knitting needle towards the center three times with the left hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

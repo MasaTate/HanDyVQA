@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pluck a leaf?",
+    "options": [
+        "The person pulls the leaf sideways using their middle and ring fingers of their right hand.",
+        "The person slides their hand along the stem and gently twists it to remove the leaf with their palm.",
+        "The person pinches the leaf between their thumb and pinky finger before pulling it slightly to the side.",
+        "The person uses their right hand thumb and index finger to pluck a leaf downward forcefully.",
+        "The person grasps the leaf with both hands and pulls upward smoothly to detach it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pluck a leaf? Choose **only one** option from the following list.\nOptions:\n(A) The person pulls the leaf sideways using their middle and ring fingers of their right hand.\n(B) The person slides their hand along the stem and gently twists it to remove the leaf with their palm.\n(C) The person pinches the leaf between their thumb and pinky finger before pulling it slightly to the side.\n(D) The person uses their right hand thumb and index finger to pluck a leaf downward forcefully.\n(E) The person grasps the leaf with both hands and pulls upward smoothly to detach it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person uses their right hand thumb and index finger to pluck a leaf downward forcefully."
+    },
+    "correct_idx": [
+        3
+    ]
+}

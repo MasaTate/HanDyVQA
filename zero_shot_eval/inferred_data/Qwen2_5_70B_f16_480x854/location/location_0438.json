@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the bowls?",
+    "options": [
+        "The person places the bowls in a kitchen drawer below the countertop.",
+        "The person places the bowls on the dining table next to the salad.",
+        "The person places the bowls in a pantry shelf opposite the refrigerator.",
+        "The person places the bowls on the kitchen island next to the sink.",
+        "The person places the bowls in a kitchen shelf above the countertop."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the bowls? Choose **only one** option from the following list.\nOptions:\n(A) The person places the bowls in a kitchen drawer below the countertop.\n(B) The person places the bowls on the dining table next to the salad.\n(C) The person places the bowls in a pantry shelf opposite the refrigerator.\n(D) The person places the bowls on the kitchen island next to the sink.\n(E) The person places the bowls in a kitchen shelf above the countertop.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person places the bowls in a kitchen shelf above the countertop."
+    },
+    "correct_idx": [
+        4
+    ]
+}

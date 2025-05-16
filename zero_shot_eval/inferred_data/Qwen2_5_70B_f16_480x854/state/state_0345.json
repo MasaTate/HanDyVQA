@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the part of the wood plank change?",
+    "options": [
+        "The part of the wood plank was picked up from the floor, rotated, and put at the other place horizontally.",
+        "The part of the wood plank was moved slightly to the side, rotated, and put back vertically.",
+        "The part of the wood plank was picked up from the table, rotated, and put at the other place vertically.",
+        "The part of the wood plank was picked up from the table, not rotated, and put at the other place diagonally.",
+        "The part of the wood plank was picked up from the table, rotated twice, and put back in the same place."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the part of the wood plank change? Choose **only one** option from the following list.\nOptions:\n(A) The part of the wood plank was picked up from the floor, rotated, and put at the other place horizontally.\n(B) The part of the wood plank was moved slightly to the side, rotated, and put back vertically.\n(C) The part of the wood plank was picked up from the table, rotated, and put at the other place vertically.\n(D) The part of the wood plank was picked up from the table, not rotated, and put at the other place diagonally.\n(E) The part of the wood plank was picked up from the table, rotated twice, and put back in the same place.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The part of the wood plank was picked up from the table, rotated, and put at the other place vertically."
+    },
+    "correct_idx": [
+        2
+    ]
+}

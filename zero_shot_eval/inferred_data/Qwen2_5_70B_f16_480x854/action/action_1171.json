@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person uses his left hand to touch the surface of a stove, then picks up a spatula with his right hand.",
+        "The person adjusts the stove settings with his left hand, then holds a spoon in his right hand.",
+        "The person checks the temperature of a saucepan with his left hand, then pours oil from a bottle using his right hand.",
+        "The person is using his left hand to feel the heat of a frying pan and to grab the bottle.",
+        "The person lifts a frying pan with his left hand, then sets it down on the counter using his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person uses his left hand to touch the surface of a stove, then picks up a spatula with his right hand.\n(B) The person adjusts the stove settings with his left hand, then holds a spoon in his right hand.\n(C) The person checks the temperature of a saucepan with his left hand, then pours oil from a bottle using his right hand.\n(D) The person is using his left hand to feel the heat of a frying pan and to grab the bottle.\n(E) The person lifts a frying pan with his left hand, then sets it down on the counter using his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person is using his left hand to feel the heat of a frying pan and to grab the bottle."
+    },
+    "correct_idx": [
+        3
+    ]
+}

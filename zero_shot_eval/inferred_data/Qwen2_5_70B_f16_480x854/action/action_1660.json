@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person coils the rope using both hands.",
+        "The person holds the hose in one hand while wrapping it around a pole with the other.",
+        "The person ties the hose with both hands and then grabs the tools from the ground using the right hand.",
+        "The person untangles the hose with both hands.",
+        "The person carries the hose over their shoulder with one hand while dragging it with the other."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person coils the rope using both hands.\n(B) The person holds the hose in one hand while wrapping it around a pole with the other.\n(C) The person ties the hose with both hands and then grabs the tools from the ground using the right hand.\n(D) The person untangles the hose with both hands.\n(E) The person carries the hose over their shoulder with one hand while dragging it with the other.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person ties the hose with both hands and then grabs the tools from the ground using the right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

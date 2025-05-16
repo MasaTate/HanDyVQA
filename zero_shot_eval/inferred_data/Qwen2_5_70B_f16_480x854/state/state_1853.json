@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the screw change?",
+    "options": [
+        "The screw was drilled in, resulting in a modification of its position as it became anchored.",
+        "The screw was twisted out, leading to a change in its position as it became loose.",
+        "The screw was turned sideways, resulting in a change in its angle as it became misaligned.",
+        "The screw was screwed in, causing a change in position as it became secured.",
+        "The screw was pushed down, causing a change in its depth as it became embedded."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the screw change? Choose **only one** option from the following list.\nOptions:\n(A) The screw was drilled in, resulting in a modification of its position as it became anchored.\n(B) The screw was twisted out, leading to a change in its position as it became loose.\n(C) The screw was turned sideways, resulting in a change in its angle as it became misaligned.\n(D) The screw was screwed in, causing a change in position as it became secured.\n(E) The screw was pushed down, causing a change in its depth as it became embedded.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The screw was screwed in, causing a change in position as it became secured."
+    },
+    "correct_idx": [
+        3
+    ]
+}

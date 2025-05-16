@@ -1,0 +1,17 @@
+{
+    "question": "How does the person touch the paper?",
+    "options": [
+        "The person points at the paper with their right index finger.",
+        "The person gently brushes the surface of the paper with the tips of their right fingers, feeling its texture.",
+        "The person presses the edge of the paper with their right thumb, holding it in place on the table.",
+        "The person lightly taps a specific spot on the paper to draw attention to it using their right index finger.",
+        "The person softly rests their hand on the paper, keeping it from blowing away with their right palm."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person touch the paper? Choose **only one** option from the following list.\nOptions:\n(A) The person points at the paper with their right index finger.\n(B) The person gently brushes the surface of the paper with the tips of their right fingers, feeling its texture.\n(C) The person presses the edge of the paper with their right thumb, holding it in place on the table.\n(D) The person lightly taps a specific spot on the paper to draw attention to it using their right index finger.\n(E) The person softly rests their hand on the paper, keeping it from blowing away with their right palm.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person points at the paper with their right index finger."
+    },
+    "correct_idx": [
+        0
+    ]
+}

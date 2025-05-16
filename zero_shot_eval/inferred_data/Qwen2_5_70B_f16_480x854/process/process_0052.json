@@ -1,0 +1,17 @@
+{
+    "question": "How does the person take mortar?",
+    "options": [
+        "The person first mixes the mortar with a trowel in his right hand while holding the bucket steady with his left hand, then scoops up the mortar by sliding the trowel under it and lifting it carefully.",
+        "The person gently scoops up mortar with both hands directly from the bucket, lifting it swiftly without using a trowel.",
+        "The person uses the trowel but skips mixing the mortar, trying to pick up a large scoop without much stirring.",
+        "The person holds the bucket with his right hand and tilts it to let mortar spread onto the ground rather than scooping it up.",
+        "The person reaches into the bucket with one hand to collect the mortar and drops it onto the ground with little care."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person take mortar? Choose **only one** option from the following list.\nOptions:\n(A) The person first mixes the mortar with a trowel in his right hand while holding the bucket steady with his left hand, then scoops up the mortar by sliding the trowel under it and lifting it carefully.\n(B) The person gently scoops up mortar with both hands directly from the bucket, lifting it swiftly without using a trowel.\n(C) The person uses the trowel but skips mixing the mortar, trying to pick up a large scoop without much stirring.\n(D) The person holds the bucket with his right hand and tilts it to let mortar spread onto the ground rather than scooping it up.\n(E) The person reaches into the bucket with one hand to collect the mortar and drops it onto the ground with little care.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person first mixes the mortar with a trowel in his right hand while holding the bucket steady with his left hand, then scoops up the mortar by sliding the trowel under it and lifting it carefully."
+    },
+    "correct_idx": [
+        0
+    ]
+}

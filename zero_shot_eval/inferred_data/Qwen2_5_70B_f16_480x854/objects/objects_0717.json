@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "plants",
+        "pick mattock",
+        "twigs",
+        "grass",
+        "dirt",
+        "sandals"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) plants\n(B) pick mattock\n(C) twigs\n(D) grass\n(E) dirt\n(F) sandals\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(B) pick mattock  \n(E) dirt  \n\nThe person in the video is using a pick mattock with their right hand to dig into the soil. Their left hand is also interacting with the dirt, possibly to clear or move it aside. Therefore, the correct options are (B) pick mattock and (E) dirt."
+    },
+    "correct_idx": [
+        1,
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person tightens the rubber screw of the drill machine using his right hand.",
+        "The person carefully adjusts the rubber screw of the saw machine using his right hand while holding the machine steady.",
+        "The person screws the rubber component of the power tool with his right hand while stabilizing it with his left.",
+        "The person screws the rubber screw of the saw machine using his right hand.",
+        "The person unscrews the rubber part of the saw using his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person tightens the rubber screw of the drill machine using his right hand.\n(B) The person carefully adjusts the rubber screw of the saw machine using his right hand while holding the machine steady.\n(C) The person screws the rubber component of the power tool with his right hand while stabilizing it with his left.\n(D) The person screws the rubber screw of the saw machine using his right hand.\n(E) The person unscrews the rubber part of the saw using his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person carefully adjusts the rubber screw of the saw machine using his right hand while holding the machine steady."
+    },
+    "correct_idx": [
+        3
+    ]
+}

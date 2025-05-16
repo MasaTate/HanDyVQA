@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the paper?",
+    "options": [
+        "The person put the paper on the shelf on the left side.",
+        "The person put the paper on the table on the right side.",
+        "The person put the paper on the floor in front of the table.",
+        "The person put the paper on the chair beside the table.",
+        "The person put the paper on the desk on the far side."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the paper? Choose **only one** option from the following list.\nOptions:\n(A) The person put the paper on the shelf on the left side.\n(B) The person put the paper on the table on the right side.\n(C) The person put the paper on the floor in front of the table.\n(D) The person put the paper on the chair beside the table.\n(E) The person put the paper on the desk on the far side.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person put the paper on the table on the right side."
+    },
+    "correct_idx": [
+        1
+    ]
+}

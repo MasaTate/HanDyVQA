@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a door of the book shelf change?",
+    "options": [
+        "The bookshelf door was swung open to retrieve another book.",
+        "The bookshelf door was left ajar while organizing the books.",
+        "The bookshelf door was locked after placing the book inside.",
+        "The bookshelf door was painted a new color after removing the book.",
+        "The bookshelf door was closed after putting the book back."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a door of the book shelf change? Choose **only one** option from the following list.\nOptions:\n(A) The bookshelf door was swung open to retrieve another book.\n(B) The bookshelf door was left ajar while organizing the books.\n(C) The bookshelf door was locked after placing the book inside.\n(D) The bookshelf door was painted a new color after removing the book.\n(E) The bookshelf door was closed after putting the book back.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The bookshelf door was closed after putting the book back."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the stalk?",
+    "options": [
+        "The person dropped the stalk on the ground to his right side.",
+        "The person dropped the stalk on the ground to his left side.",
+        "The person dropped the stalk on the table in front of him.",
+        "The person dropped the stalk on the chair beside him.",
+        "The person dropped the stalk on the floor behind him."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the stalk? Choose **only one** option from the following list.\nOptions:\n(A) The person dropped the stalk on the ground to his right side.\n(B) The person dropped the stalk on the ground to his left side.\n(C) The person dropped the stalk on the table in front of him.\n(D) The person dropped the stalk on the chair beside him.\n(E) The person dropped the stalk on the floor behind him.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person dropped the stalk on the ground to his right side."
+    },
+    "correct_idx": [
+        0
+    ]
+}

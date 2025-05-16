@@ -1,0 +1,17 @@
+{
+    "question": "How does the person straighten the knitted cloth?",
+    "options": [
+        "The person shifts the knitting cloth on the knitting needle from top to bottom, then moves it upward twice with the right hand to straighten the knitted cloth.",
+        "The person adjusts the knitting cloth on the needle by sliding it closely back and forth with the left hand to straighten it.",
+        "The person smooths the knitted cloth by gently pushing it from the sides towards the center with both hands.",
+        "The person flips the knitted cloth over and carefully tugs on each corner to straighten it.",
+        "The person uses the index finger and thumb of the right hand to slightly tug downward on the edges of the cloth."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person straighten the knitted cloth? Choose **only one** option from the following list.\nOptions:\n(A) The person shifts the knitting cloth on the knitting needle from top to bottom, then moves it upward twice with the right hand to straighten the knitted cloth.\n(B) The person adjusts the knitting cloth on the needle by sliding it closely back and forth with the left hand to straighten it.\n(C) The person smooths the knitted cloth by gently pushing it from the sides towards the center with both hands.\n(D) The person flips the knitted cloth over and carefully tugs on each corner to straighten it.\n(E) The person uses the index finger and thumb of the right hand to slightly tug downward on the edges of the cloth.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person adjusts the knitting cloth on the needle by sliding it closely back and forth with the left hand to straighten it."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person cover the plastic cup?",
+    "options": [
+        "The person covers the plastic cup by holding the lid with his left hand and pressing it to seal.",
+        "The person places the lid on top of the plastic cup with his right hand and rests it gently.",
+        "The person grips the lid with both hands and lowers it toward the cup in a gradual motion.",
+        "The person holds the cup with his dominant hand and sets the lid on top, aligning it without pressing.",
+        "The person flicks the lid onto the cup with his fingers, hoping it stays in place without additional effort."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person cover the plastic cup? Choose **only one** option from the following list.\nOptions:\n(A) The person covers the plastic cup by holding the lid with his left hand and pressing it to seal.\n(B) The person places the lid on top of the plastic cup with his right hand and rests it gently.\n(C) The person grips the lid with both hands and lowers it toward the cup in a gradual motion.\n(D) The person holds the cup with his dominant hand and sets the lid on top, aligning it without pressing.\n(E) The person flicks the lid onto the cup with his fingers, hoping it stays in place without additional effort.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person holds the cup with his dominant hand and sets the lid on top, aligning it without pressing."
+    },
+    "correct_idx": [
+        0
+    ]
+}

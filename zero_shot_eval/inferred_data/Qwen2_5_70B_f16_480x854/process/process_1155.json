@@ -1,0 +1,17 @@
+{
+    "question": "How does the person cut the plank?",
+    "options": [
+        "The person uses a chisel in his left hand, applying pressure with his right hand for leverage to break the plank apart.",
+        "The person hacks at the plank with an axe, held with both hands and swinging downward to cut through the wood.",
+        "The person cuts the plank with a saw in his right hand with a sliding motion, while holding the plank firmly with his left hand to stabilize it.",
+        "The person saws the plank using a hand saw, moving it in a back-and-forth motion with both hands, but without securing the plank.",
+        "The person cuts the plank with a power saw in both hands, relying on the tool itself to maintain steadiness."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person cut the plank? Choose **only one** option from the following list.\nOptions:\n(A) The person uses a chisel in his left hand, applying pressure with his right hand for leverage to break the plank apart.\n(B) The person hacks at the plank with an axe, held with both hands and swinging downward to cut through the wood.\n(C) The person cuts the plank with a saw in his right hand with a sliding motion, while holding the plank firmly with his left hand to stabilize it.\n(D) The person saws the plank using a hand saw, moving it in a back-and-forth motion with both hands, but without securing the plank.\n(E) The person cuts the plank with a power saw in both hands, relying on the tool itself to maintain steadiness.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person cuts the plank with a saw in his right hand with a sliding motion, while holding the plank firmly with his left hand to stabilize it."
+    },
+    "correct_idx": [
+        2
+    ]
+}

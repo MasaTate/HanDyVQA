@@ -1,0 +1,17 @@
+{
+    "question": "How does the person rotate another tire of the lawnmower?",
+    "options": [
+        "The person turns the tire with both hands, making uneven adjustments to its position.",
+        "Using the left hand, the person moves the tire in a quick manner, resulting in a partial rotation.",
+        "The person rotates another tire of the lawnmower with their right hand, gripping it securely and turning it back and forth in controlled, deliberate movements to adjust its position.",
+        "The person uses their right hand to move the tire in brief motions, trying to adjust its position.",
+        "Grasping the tire lightly with their fingers, the person attempts to shift it without securing a stable grip."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person rotate another tire of the lawnmower? Choose **only one** option from the following list.\nOptions:\n(A) The person turns the tire with both hands, making uneven adjustments to its position.\n(B) Using the left hand, the person moves the tire in a quick manner, resulting in a partial rotation.\n(C) The person rotates another tire of the lawnmower with their right hand, gripping it securely and turning it back and forth in controlled, deliberate movements to adjust its position.\n(D) The person uses their right hand to move the tire in brief motions, trying to adjust its position.\n(E) Grasping the tire lightly with their fingers, the person attempts to shift it without securing a stable grip.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person rotates another tire of the lawnmower with their right hand, gripping it securely and turning it back and forth in controlled, deliberate movements to adjust its position."
+    },
+    "correct_idx": [
+        2
+    ]
+}

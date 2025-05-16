@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place a sand paper on the workshop table?",
+    "options": [
+        "The person places a sandpaper to the right center on the workshop table.",
+        "The person places a sandpaper to the left center on the workshop table.",
+        "The person places a sandpaper in the right corner on the workshop table.",
+        "The person places a sandpaper on the far left edge of the workshop table.",
+        "The person places a sandpaper towards the back center on the workshop table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place a sand paper on the workshop table? Choose **only one** option from the following list.\nOptions:\n(A) The person places a sandpaper to the right center on the workshop table.\n(B) The person places a sandpaper to the left center on the workshop table.\n(C) The person places a sandpaper in the right corner on the workshop table.\n(D) The person places a sandpaper on the far left edge of the workshop table.\n(E) The person places a sandpaper towards the back center on the workshop table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person places a sandpaper to the right center on the workshop table."
+    },
+    "correct_idx": [
+        0
+    ]
+}

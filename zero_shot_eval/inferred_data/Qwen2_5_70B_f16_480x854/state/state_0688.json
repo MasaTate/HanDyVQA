@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the dough on the table change?",
+    "options": [
+        "The dough was grabbed and rolled on the table, and shifted to the black plate.",
+        "The dough was grabbed and rolled on the table, but remained on the table.",
+        "The dough was patted and shifted to the black plate without rolling.",
+        "The dough was pressed and moved to a different spot on the table.",
+        "The dough was stretched before being placed onto the black plate."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the dough on the table change? Choose **only one** option from the following list.\nOptions:\n(A) The dough was grabbed and rolled on the table, and shifted to the black plate.\n(B) The dough was grabbed and rolled on the table, but remained on the table.\n(C) The dough was patted and shifted to the black plate without rolling.\n(D) The dough was pressed and moved to a different spot on the table.\n(E) The dough was stretched before being placed onto the black plate.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The dough was grabbed and rolled on the table, and shifted to the black plate."
+    },
+    "correct_idx": [
+        0
+    ]
+}

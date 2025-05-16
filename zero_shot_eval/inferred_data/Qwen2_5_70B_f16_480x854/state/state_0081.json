@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the paint brush change?",
+    "options": [
+        "The paintbrush was picked up from the palette and dipped into the paint while being swirled.",
+        "The paintbrush was picked up from the palette and dipped into the water while being shaken.",
+        "The paintbrush was picked up from the palette and dipped into the water without being shaken.",
+        "The paintbrush was picked up from the table and dipped into the water while being stirred.",
+        "The paintbrush was lifted from the palette and dipped into the water but remained still."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the paint brush change? Choose **only one** option from the following list.\nOptions:\n(A) The paintbrush was picked up from the palette and dipped into the paint while being swirled.\n(B) The paintbrush was picked up from the palette and dipped into the water while being shaken.\n(C) The paintbrush was picked up from the palette and dipped into the water without being shaken.\n(D) The paintbrush was picked up from the table and dipped into the water while being stirred.\n(E) The paintbrush was lifted from the palette and dipped into the water but remained still.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The paintbrush was picked up from the palette and dipped into the water while being shaken."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the content in the bowl change?",
+    "options": [
+        "The content in the bowl was stirred using a spatula.",
+        "The content in the bowl was blended until it formed a smooth mixture.",
+        "The content in the bowl was poured into a larger container.",
+        "The content in the bowl was heated until it started to simmer.",
+        "The content in the bowl was layered with additional ingredients."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the content in the bowl change? Choose **only one** option from the following list.\nOptions:\n(A) The content in the bowl was stirred using a spatula.\n(B) The content in the bowl was blended until it formed a smooth mixture.\n(C) The content in the bowl was poured into a larger container.\n(D) The content in the bowl was heated until it started to simmer.\n(E) The content in the bowl was layered with additional ingredients.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The content in the bowl was stirred using a spatula."
+    },
+    "correct_idx": [
+        0
+    ]
+}

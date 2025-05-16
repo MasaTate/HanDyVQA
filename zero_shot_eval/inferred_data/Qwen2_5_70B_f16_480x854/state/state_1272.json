@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the basket change?",
+    "options": [
+        "The basket was steadily filled with green leaves gathered from the plant on the ground, and afterwards, it was carried away by a person.",
+        "The basket was steadily filled with various fruits collected from the orchard, and then it was placed back on the ground.",
+        "The basket was emptied of its contents, and afterwards, it was cleaned and put back on the shelf.",
+        "The basket was skillfully woven anew with colorful threads, and then it was displayed as a decorative item.",
+        "The basket was overturned, spilling out its contents, and then it was picked up and repositioned."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the basket change? Choose **only one** option from the following list.\nOptions:\n(A) The basket was steadily filled with green leaves gathered from the plant on the ground, and afterwards, it was carried away by a person.\n(B) The basket was steadily filled with various fruits collected from the orchard, and then it was placed back on the ground.\n(C) The basket was emptied of its contents, and afterwards, it was cleaned and put back on the shelf.\n(D) The basket was skillfully woven anew with colorful threads, and then it was displayed as a decorative item.\n(E) The basket was overturned, spilling out its contents, and then it was picked up and repositioned.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The basket was steadily filled with green leaves gathered from the plant on the ground, and afterwards, it was carried away by a person."
+    },
+    "correct_idx": [
+        0
+    ]
+}

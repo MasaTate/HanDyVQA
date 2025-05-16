@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person grabs his phone from the couch and hands his notebook to the other person using the left hand while scrolling through his phone with the right hand.",
+        "The person sets down his phone on the table and gives the paper back to the other person using the left hand while typing a message with the right hand.",
+        "The person picks up his phone from the table and takes the paper from the other person using the left hand while unlocking his phone using the right hand.",
+        "The person holds his phone in one hand while picking up a cup of coffee from the table with the other hand and chatting with the other person.",
+        "The person lifts his phone off the desk and hands a pen to the other person using the left hand while searching for an app with the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person grabs his phone from the couch and hands his notebook to the other person using the left hand while scrolling through his phone with the right hand.\n(B) The person sets down his phone on the table and gives the paper back to the other person using the left hand while typing a message with the right hand.\n(C) The person picks up his phone from the table and takes the paper from the other person using the left hand while unlocking his phone using the right hand.\n(D) The person holds his phone in one hand while picking up a cup of coffee from the table with the other hand and chatting with the other person.\n(E) The person lifts his phone off the desk and hands a pen to the other person using the left hand while searching for an app with the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person picks up his phone from the table and takes the paper from the other person using the left hand while unlocking his phone using the right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

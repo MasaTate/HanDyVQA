@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "basket",
+        "bracelet",
+        "sticks",
+        "leaves",
+        "lighter",
+        "ground"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) basket\n(B) bracelet\n(C) sticks\n(D) leaves\n(E) lighter\n(F) ground\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(C) Sticks are used by the hands to stir the grains in the pot.\n\nThere is no evidence in the video that the other options (A, B, D, E, F) are being used by the hands."
+    },
+    "correct_idx": [
+        2,
+        4
+    ]
+}

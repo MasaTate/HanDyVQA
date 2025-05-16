@@ -1,0 +1,17 @@
+{
+    "question": "How does the person roll the pottery?",
+    "options": [
+        "The person moves the pottery rapidly with her right hand, using noticeable pressure as it turns in an irregular counterclockwise direction.",
+        "The person rolls the pottery slowly with her left hand, applying gentle pressure while guiding it in a controlled clockwise motion.",
+        "The person holds the pottery firmly with both hands and rocks it back and forth energetically rather than rolling it.",
+        "The person raises the pottery with her left hand before placing it swiftly onto the table.",
+        "The person presses the pottery with her palm, causing it to move across the surface rather than rolling it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person roll the pottery? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the pottery rapidly with her right hand, using noticeable pressure as it turns in an irregular counterclockwise direction.\n(B) The person rolls the pottery slowly with her left hand, applying gentle pressure while guiding it in a controlled clockwise motion.\n(C) The person holds the pottery firmly with both hands and rocks it back and forth energetically rather than rolling it.\n(D) The person raises the pottery with her left hand before placing it swiftly onto the table.\n(E) The person presses the pottery with her palm, causing it to move across the surface rather than rolling it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person rolls the pottery slowly with her left hand, applying gentle pressure while guiding it in a controlled clockwise motion."
+    },
+    "correct_idx": [
+        1
+    ]
+}

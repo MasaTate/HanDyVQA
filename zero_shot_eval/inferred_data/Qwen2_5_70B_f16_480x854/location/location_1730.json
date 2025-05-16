@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move a cord?",
+    "options": [
+        "The person moves the cord behind the pouch.",
+        "The person moves the cord next to the pouch.",
+        "The person moves the cord on the other side the pouch.",
+        "The person moves the cord in front of the pouch.",
+        "The person moves the cord above the pouch."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move a cord? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the cord behind the pouch.\n(B) The person moves the cord next to the pouch.\n(C) The person moves the cord on the other side the pouch.\n(D) The person moves the cord in front of the pouch.\n(E) The person moves the cord above the pouch.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person moves the cord behind the pouch."
+    },
+    "correct_idx": [
+        2
+    ]
+}

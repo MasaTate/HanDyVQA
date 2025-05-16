@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person uses their jacket to wipe the dirt on the metal tube with their right hand.",
+        "The person uses a cloth to clean the dirt off the wooden table with their right hand.",
+        "The person pulls the dirt off the metal tube with their left hand while holding the jacket in their right hand.",
+        "The person brushes the dirt off the floor with a broom using their right hand and holds the jacket in their left hand.",
+        "The person scrubs the dirt from the wall with a sponge using their right hand and grasps the jacket with their left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person uses their jacket to wipe the dirt on the metal tube with their right hand.\n(B) The person uses a cloth to clean the dirt off the wooden table with their right hand.\n(C) The person pulls the dirt off the metal tube with their left hand while holding the jacket in their right hand.\n(D) The person brushes the dirt off the floor with a broom using their right hand and holds the jacket in their left hand.\n(E) The person scrubs the dirt from the wall with a sponge using their right hand and grasps the jacket with their left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person pulls the dirt off the metal tube with their left hand while holding the jacket in their right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the cement mix from the cement bowl change?",
+    "options": [
+        "The cement mix was poured from the cement bowl into a larger container.",
+        "The cement mix was scooped out of the cement bowl and placed on the ground.",
+        "The cement mix was picked up from the cement bowl and applied to the bricks.",
+        "The cement mix was transferred from the cement bowl into a mold.",
+        "The cement mix was taken from the cement bowl and scattered over a surface."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the cement mix from the cement bowl change? Choose **only one** option from the following list.\nOptions:\n(A) The cement mix was poured from the cement bowl into a larger container.\n(B) The cement mix was scooped out of the cement bowl and placed on the ground.\n(C) The cement mix was picked up from the cement bowl and applied to the bricks.\n(D) The cement mix was transferred from the cement bowl into a mold.\n(E) The cement mix was taken from the cement bowl and scattered over a surface.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The cement mix was picked up from the cement bowl and applied to the bricks."
+    },
+    "correct_idx": [
+        2
+    ]
+}

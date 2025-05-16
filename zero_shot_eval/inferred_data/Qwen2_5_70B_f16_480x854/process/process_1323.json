@@ -1,0 +1,17 @@
+{
+    "question": "How does the person cut the tuber of potato?",
+    "options": [
+        "The person chops the tuber of potato with a knife in the left hand, applying strong strokes each time.",
+        "The person uses a peeler in the right hand to gently scrape the surface of the potato rather than cutting it.",
+        "The person presses the tuber gently and attempts to break it apart with their palms instead of using a knife.",
+        "The person slices the tuber of potato with a dull knife held in both hands, moving the blade smoothly sideways.",
+        "The person cuts the tuber of potato by slicing up and down using a knife in the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person cut the tuber of potato? Choose **only one** option from the following list.\nOptions:\n(A) The person chops the tuber of potato with a knife in the left hand, applying strong strokes each time.\n(B) The person uses a peeler in the right hand to gently scrape the surface of the potato rather than cutting it.\n(C) The person presses the tuber gently and attempts to break it apart with their palms instead of using a knife.\n(D) The person slices the tuber of potato with a dull knife held in both hands, moving the blade smoothly sideways.\n(E) The person cuts the tuber of potato by slicing up and down using a knife in the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person cuts the tuber of potato by slicing up and down using a knife in the right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

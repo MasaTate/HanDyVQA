@@ -1,0 +1,17 @@
+{
+    "question": "How does the person slide a transparent bag?",
+    "options": [
+        "The person pushes the transparent bag away with both hands, allowing it to glide across the surface.",
+        "The person lifts the transparent bag off the table with the left hand and places it back down on the same spot.",
+        "The person flicks the transparent bag lightly with the fingertips of the right hand, making it skid to the side.",
+        "The person slides the transparent bag by dragging it down and picks it up with the right hand toward himself.",
+        "The person grabs the transparent bag with both hands and shakes it gently instead of sliding it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person slide a transparent bag? Choose **only one** option from the following list.\nOptions:\n(A) The person pushes the transparent bag away with both hands, allowing it to glide across the surface.\n(B) The person lifts the transparent bag off the table with the left hand and places it back down on the same spot.\n(C) The person flicks the transparent bag lightly with the fingertips of the right hand, making it skid to the side.\n(D) The person slides the transparent bag by dragging it down and picks it up with the right hand toward himself.\n(E) The person grabs the transparent bag with both hands and shakes it gently instead of sliding it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person slides the transparent bag by dragging it down and picks it up with the right hand toward himself."
+    },
+    "correct_idx": [
+        3
+    ]
+}

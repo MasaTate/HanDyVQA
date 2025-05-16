@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place a utensil?",
+    "options": [
+        "The person placed the utensil on the bottom left section of the countertop.",
+        "The person placed the utensil on the top left corner of the countertop.",
+        "The person placed the utensil on the top right portion of the countertop.",
+        "The person placed the utensil on the middle right area of the countertop.",
+        "The person placed the utensil on the bottom right side of the countertop."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place a utensil? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the utensil on the bottom left section of the countertop.\n(B) The person placed the utensil on the top left corner of the countertop.\n(C) The person placed the utensil on the top right portion of the countertop.\n(D) The person placed the utensil on the middle right area of the countertop.\n(E) The person placed the utensil on the bottom right side of the countertop.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person placed the utensil on the middle right area of the countertop."
+    },
+    "correct_idx": [
+        2
+    ]
+}

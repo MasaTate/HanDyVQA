@@ -1,0 +1,17 @@
+{
+    "question": "How does the person switch the bottle?",
+    "options": [
+        "The person picks up the bottle with both hands around its body and gently tilts it, releasing the contents rather than switching it.",
+        "The person picks up the bottle from its lid using the left hand fingertips and then passes it to the right hand. The right hand shakes it while turning it upside down and the left hand holds the bottom of the bottle supporting the right hand.",
+        "The person lifts the bottle from the base with the right hand and smoothly moves it through the air, not engaging in any switching.",
+        "The person takes the bottle by the neck with the right hand, but rather than passing it over, he gives it a shake without any support from the left hand.",
+        "The person holds the bottle with one hand and spins it on the table, disregarding any need to switch it between hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person switch the bottle? Choose **only one** option from the following list.\nOptions:\n(A) The person picks up the bottle with both hands around its body and gently tilts it, releasing the contents rather than switching it.\n(B) The person picks up the bottle from its lid using the left hand fingertips and then passes it to the right hand. The right hand shakes it while turning it upside down and the left hand holds the bottom of the bottle supporting the right hand.\n(C) The person lifts the bottle from the base with the right hand and smoothly moves it through the air, not engaging in any switching.\n(D) The person takes the bottle by the neck with the right hand, but rather than passing it over, he gives it a shake without any support from the left hand.\n(E) The person holds the bottle with one hand and spins it on the table, disregarding any need to switch it between hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person picks up the bottle from its lid using the left hand fingertips and then passes it to the right hand. The right hand shakes it while turning it upside down and the left hand holds the bottom of the bottle supporting the right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

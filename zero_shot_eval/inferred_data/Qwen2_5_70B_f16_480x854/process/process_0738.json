@@ -1,0 +1,17 @@
+{
+    "question": "How does the person sculpt a styrofoam?",
+    "options": [
+        "The person shapes the styrofoam by applying pressure with the palm of their hand.",
+        "The person molds the styrofoam by pressing it gently between their fingers.",
+        "The person sculpts a styrofoam by cutting some parts of it with a knipper.",
+        "The person trims the styrofoam by guiding a blade along the edge in a smooth motion.",
+        "The person carves the styrofoam by marking its surface with a sharp pencil."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person sculpt a styrofoam? Choose **only one** option from the following list.\nOptions:\n(A) The person shapes the styrofoam by applying pressure with the palm of their hand.\n(B) The person molds the styrofoam by pressing it gently between their fingers.\n(C) The person sculpts a styrofoam by cutting some parts of it with a knipper.\n(D) The person trims the styrofoam by guiding a blade along the edge in a smooth motion.\n(E) The person carves the styrofoam by marking its surface with a sharp pencil.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person sculpts a styrofoam by cutting some parts of it with a knipper."
+    },
+    "correct_idx": [
+        2
+    ]
+}

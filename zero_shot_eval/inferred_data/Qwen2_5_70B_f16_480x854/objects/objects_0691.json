@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "paint brush",
+        "furniture",
+        "wood table",
+        "chairs",
+        "wood planks",
+        "paper cuttings"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) paint brush\n(B) furniture\n(C) wood table\n(D) chairs\n(E) wood planks\n(F) paper cuttings\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(A) paint brush\n(C) wood table"
+    },
+    "correct_idx": [
+        0,
+        1
+    ]
+}

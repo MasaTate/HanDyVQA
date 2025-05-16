@@ -1,0 +1,17 @@
+{
+    "question": "How does the person twist the bamboo rod?",
+    "options": [
+        "The person grips the bamboo rod with both hands, rotating it in a side-to-side direction while leaning to apply pressure.",
+        "The person holds onto the bamboo rod with the left hand while twisting it in a backward and forward direction and forcefully pulls it downwards using only the right hand.",
+        "The person clasps the bamboo rod firmly with the right hand and moves it upwards while twisting it in a circular motion.",
+        "The person balances the bamboo rod on the palm and uses the fingers to move it left and right without much significant twisting.",
+        "The person holds the bamboo rod at both ends and twists it gently in a circular motion, applying minimal downward force."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person twist the bamboo rod? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the bamboo rod with both hands, rotating it in a side-to-side direction while leaning to apply pressure.\n(B) The person holds onto the bamboo rod with the left hand while twisting it in a backward and forward direction and forcefully pulls it downwards using only the right hand.\n(C) The person clasps the bamboo rod firmly with the right hand and moves it upwards while twisting it in a circular motion.\n(D) The person balances the bamboo rod on the palm and uses the fingers to move it left and right without much significant twisting.\n(E) The person holds the bamboo rod at both ends and twists it gently in a circular motion, applying minimal downward force.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person holds onto the bamboo rod with the left hand while twisting it in a backward and forward direction and forcefully pulls it downwards using only the right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

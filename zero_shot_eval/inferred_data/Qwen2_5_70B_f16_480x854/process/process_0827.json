@@ -1,0 +1,17 @@
+{
+    "question": "How does the person wash a straw?",
+    "options": [
+        "The person is scrubbing the inner part of the straw up and down with a stick.",
+        "The person is twisting the straw gently with both hands while holding it under running water.",
+        "The person is dipping the straw in soapy water and moving it slightly side to side.",
+        "The person is using a cloth to wipe the exterior of the straw gently in circular motions.",
+        "The person is pouring detergent inside the straw and letting it soak slightly before scrubbing."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person wash a straw? Choose **only one** option from the following list.\nOptions:\n(A) The person is scrubbing the inner part of the straw up and down with a stick.\n(B) The person is twisting the straw gently with both hands while holding it under running water.\n(C) The person is dipping the straw in soapy water and moving it slightly side to side.\n(D) The person is using a cloth to wipe the exterior of the straw gently in circular motions.\n(E) The person is pouring detergent inside the straw and letting it soak slightly before scrubbing.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person is scrubbing the inner part of the straw up and down with a stick."
+    },
+    "correct_idx": [
+        0
+    ]
+}

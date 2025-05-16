@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is holding the tin can with their right hand and pouring some dry paste from it using a plastic spatula held in their left hand.",
+        "The person is holding a tin can with their left hand and stirring the dry paste in a bowl using a wooden spoon in their right hand.",
+        "The person is holding the tin can with their right hand and spreading some dry paste onto a piece of paper with a brush held in their left hand.",
+        "The person is holding the tin can on the table with their left hand while using a fork in their right hand to collect some of the dry paste.",
+        "The person is holding the tin can with their left hand and scooping some dry paste from the tin can with the metal bar in their right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is holding the tin can with their right hand and pouring some dry paste from it using a plastic spatula held in their left hand.\n(B) The person is holding a tin can with their left hand and stirring the dry paste in a bowl using a wooden spoon in their right hand.\n(C) The person is holding the tin can with their right hand and spreading some dry paste onto a piece of paper with a brush held in their left hand.\n(D) The person is holding the tin can on the table with their left hand while using a fork in their right hand to collect some of the dry paste.\n(E) The person is holding the tin can with their left hand and scooping some dry paste from the tin can with the metal bar in their right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person is holding the tin can with their left hand and scooping some dry paste from the tin can with the metal bar in their right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

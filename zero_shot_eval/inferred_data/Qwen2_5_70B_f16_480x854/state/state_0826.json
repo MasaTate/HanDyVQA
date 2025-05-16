@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the body change?",
+    "options": [
+        "The body was covered with dust and became dirtier.",
+        "The body was sprayed with water but was not cleaned.",
+        "The body was wiped, resulting in a thin layer of mud rather than cleaning.",
+        "The body was wiped off the dust and became cleaner.",
+        "The body was wiped off, but some dusty areas remained."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the body change? Choose **only one** option from the following list.\nOptions:\n(A) The body was covered with dust and became dirtier.\n(B) The body was sprayed with water but was not cleaned.\n(C) The body was wiped, resulting in a thin layer of mud rather than cleaning.\n(D) The body was wiped off the dust and became cleaner.\n(E) The body was wiped off, but some dusty areas remained.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The body was wiped off the dust and became cleaner."
+    },
+    "correct_idx": [
+        3
+    ]
+}

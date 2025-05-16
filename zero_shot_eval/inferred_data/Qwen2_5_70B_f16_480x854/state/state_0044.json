@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of another contour gauge change?",
+    "options": [
+        "The other contour gauge was picked up and moved to a lower shelf.",
+        "The other contour gauge was picked up and positioned in the opposite corner.",
+        "The other contour gauge was picked up and set on the adjacent table.",
+        "The other contour gauge was picked up and placed on a nearby desk.",
+        "The other contour gauge was picked up and placed on the other side."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of another contour gauge change? Choose **only one** option from the following list.\nOptions:\n(A) The other contour gauge was picked up and moved to a lower shelf.\n(B) The other contour gauge was picked up and positioned in the opposite corner.\n(C) The other contour gauge was picked up and set on the adjacent table.\n(D) The other contour gauge was picked up and placed on a nearby desk.\n(E) The other contour gauge was picked up and placed on the other side.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The other contour gauge was picked up and positioned in the opposite corner."
+    },
+    "correct_idx": [
+        4
+    ]
+}

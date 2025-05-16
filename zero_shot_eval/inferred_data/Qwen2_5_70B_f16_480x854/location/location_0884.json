@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the paper?",
+    "options": [
+        "The person moved the paper to his left hand, then to his right hand.",
+        "The person moved the paper to his left hand, then back to the table.",
+        "The person moved the paper to the middle of the table, then to his left hand.",
+        "The person moved the paper to his right hand, then onto the floor.",
+        "The person moved the paper to his right hand, then to his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the paper? Choose **only one** option from the following list.\nOptions:\n(A) The person moved the paper to his left hand, then to his right hand.\n(B) The person moved the paper to his left hand, then back to the table.\n(C) The person moved the paper to the middle of the table, then to his left hand.\n(D) The person moved the paper to his right hand, then onto the floor.\n(E) The person moved the paper to his right hand, then to his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person moved the paper to his right hand, then to his left hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

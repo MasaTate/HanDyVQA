@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a pen change?",
+    "options": [
+        "The pen was rotated in a circular motion and pressed against the paper.",
+        "The pen was moved side to side and slid over the paper.",
+        "The pen was rotated side to side and held just above the paper.",
+        "The pen was tapped on the paper without any rotation or up and down motion.",
+        "The pen was rotated in an up and down motion and tapped on the paper."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a pen change? Choose **only one** option from the following list.\nOptions:\n(A) The pen was rotated in a circular motion and pressed against the paper.\n(B) The pen was moved side to side and slid over the paper.\n(C) The pen was rotated side to side and held just above the paper.\n(D) The pen was tapped on the paper without any rotation or up and down motion.\n(E) The pen was rotated in an up and down motion and tapped on the paper.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The pen was rotated side to side and held just above the paper."
+    },
+    "correct_idx": [
+        4
+    ]
+}

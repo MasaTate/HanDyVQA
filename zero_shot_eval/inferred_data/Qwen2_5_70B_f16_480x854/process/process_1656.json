@@ -1,0 +1,17 @@
+{
+    "question": "How does the person rub the end of a wire?",
+    "options": [
+        "The person rubbed the end of the wire using his right thumb and index finger to insert the pin in his left hand.",
+        "The person scraped the end of the wire gently against a textured surface using both hands.",
+        "The person twisted the end of the wire smoothly between his fingers, applying slight pressure with his middle finger.",
+        "The person rubbed the end of the wire using the palm of his hand, moving it back and forth.",
+        "The person held the wire with both hands and shook it slightly instead of rubbing."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person rub the end of a wire? Choose **only one** option from the following list.\nOptions:\n(A) The person rubbed the end of the wire using his right thumb and index finger to insert the pin in his left hand.\n(B) The person scraped the end of the wire gently against a textured surface using both hands.\n(C) The person twisted the end of the wire smoothly between his fingers, applying slight pressure with his middle finger.\n(D) The person rubbed the end of the wire using the palm of his hand, moving it back and forth.\n(E) The person held the wire with both hands and shook it slightly instead of rubbing.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person rubbed the end of the wire using his right thumb and index finger to insert the pin in his left hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

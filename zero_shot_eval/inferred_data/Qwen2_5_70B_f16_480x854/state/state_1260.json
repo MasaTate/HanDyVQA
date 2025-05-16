@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the brown material change?",
+    "options": [
+        "The brown material was slowly folded and unfolded.",
+        "The brown material was gently twisted and set down.",
+        "The brown material was carefully rolled and tucked.",
+        "The brown material was lightly lifted and moved.",
+        "The brown material was slightly shifted to the left."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the brown material change? Choose **only one** option from the following list.\nOptions:\n(A) The brown material was slowly folded and unfolded.\n(B) The brown material was gently twisted and set down.\n(C) The brown material was carefully rolled and tucked.\n(D) The brown material was lightly lifted and moved.\n(E) The brown material was slightly shifted to the left.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The brown material was lightly lifted and moved."
+    },
+    "correct_idx": [
+        3
+    ]
+}

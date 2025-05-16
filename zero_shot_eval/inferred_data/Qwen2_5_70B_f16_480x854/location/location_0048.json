@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the glass?",
+    "options": [
+        "The person placed the glass cover in the center of the dining table.",
+        "The person placed the glass cover at the back of the countertop.",
+        "The person placed the glass cover on the side of the kitchen island.",
+        " The person placed the glass cover on the edge of the countertop.",
+        "The person placed the glass cover near the sink on the countertop."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the glass? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the glass cover in the center of the dining table.\n(B) The person placed the glass cover at the back of the countertop.\n(C) The person placed the glass cover on the side of the kitchen island.\n(D)  The person placed the glass cover on the edge of the countertop.\n(E) The person placed the glass cover near the sink on the countertop.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person placed the glass cover near the sink on the countertop."
+    },
+    "correct_idx": [
+        3
+    ]
+}

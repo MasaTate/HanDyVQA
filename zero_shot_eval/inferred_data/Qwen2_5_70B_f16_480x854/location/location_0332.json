@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the head of the grease gun?",
+    "options": [
+        "The person dropped the head of the grease gun on the workbench nearby.",
+        "The person dropped the head of the grease gun on the floor beside the mower.",
+        "The person dropped the head of the grease gun on the engine of the mower.",
+        "The person dropped the head of the grease gun on the mower deck.",
+        "The person dropped the head of the grease gun on the side shelf of the garage."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the head of the grease gun? Choose **only one** option from the following list.\nOptions:\n(A) The person dropped the head of the grease gun on the workbench nearby.\n(B) The person dropped the head of the grease gun on the floor beside the mower.\n(C) The person dropped the head of the grease gun on the engine of the mower.\n(D) The person dropped the head of the grease gun on the mower deck.\n(E) The person dropped the head of the grease gun on the side shelf of the garage.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person dropped the head of the grease gun on the mower deck."
+    },
+    "correct_idx": [
+        3
+    ]
+}

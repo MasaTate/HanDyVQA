@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person puts the lanyard and cloth bag into the box using his right hand.",
+        "The person places the lanyard and paper bag into the box using his right hand.",
+        "The person takes the lanyard and cloth bag out of the box using his right hand.",
+        "The person holds the lanyard and cloth bag over the box with his right hand.",
+        "The person stores the lanyard and backpack in the box using his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person puts the lanyard and cloth bag into the box using his right hand.\n(B) The person places the lanyard and paper bag into the box using his right hand.\n(C) The person takes the lanyard and cloth bag out of the box using his right hand.\n(D) The person holds the lanyard and cloth bag over the box with his right hand.\n(E) The person stores the lanyard and backpack in the box using his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person puts the lanyard and cloth bag into the box using his right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

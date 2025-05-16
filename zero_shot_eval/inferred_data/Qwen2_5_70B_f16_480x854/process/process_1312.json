@@ -1,0 +1,17 @@
+{
+    "question": "How does the person squeeze the sachet?",
+    "options": [
+        "The person grips the sachet with both hands and gently pulls it apart.",
+        "The person presses down on the sachet using the palm of the right hand.",
+        "The person squeezes the sachet by compressing the left hand fingers.",
+        "The person twists the sachet by holding it with two fingers of the right hand.",
+        "The person uses the thumb and index finger of the left hand to pinch one edge of the sachet."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person squeeze the sachet? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the sachet with both hands and gently pulls it apart.\n(B) The person presses down on the sachet using the palm of the right hand.\n(C) The person squeezes the sachet by compressing the left hand fingers.\n(D) The person twists the sachet by holding it with two fingers of the right hand.\n(E) The person uses the thumb and index finger of the left hand to pinch one edge of the sachet.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person squeezes the sachet by compressing the left hand fingers."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person scratch his right leg?",
+    "options": [
+        "The person grabs a nearby pencil with his left hand and uses it to gently touch his right leg for a quick scratch.",
+        "The person clenches his fist and gently rubs his knuckles against his right leg to alleviate the itch.",
+        "The person holds the sickle in his right hand and uses its tip to lightly scrape back and forth against his right leg to scratch it.",
+        "The person takes off his shoe with both hands and smoothly uses the heel to scratch his right leg.",
+        "The person uses his left hand to slightly lift the fabric of his pants and pulls it away from his right leg to scratch beneath."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person scratch his right leg? Choose **only one** option from the following list.\nOptions:\n(A) The person grabs a nearby pencil with his left hand and uses it to gently touch his right leg for a quick scratch.\n(B) The person clenches his fist and gently rubs his knuckles against his right leg to alleviate the itch.\n(C) The person holds the sickle in his right hand and uses its tip to lightly scrape back and forth against his right leg to scratch it.\n(D) The person takes off his shoe with both hands and smoothly uses the heel to scratch his right leg.\n(E) The person uses his left hand to slightly lift the fabric of his pants and pulls it away from his right leg to scratch beneath.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person clenches his fist and gently rubs his knuckles against his right leg to alleviate the itch."
+    },
+    "correct_idx": [
+        2
+    ]
+}

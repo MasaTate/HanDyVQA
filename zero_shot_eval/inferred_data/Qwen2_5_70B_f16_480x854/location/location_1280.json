@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the sieve?",
+    "options": [
+        "The person places the sieve at the left corner of the kitchen counter.",
+        "The person drops the sieve on the right side of the kitchen floor.",
+        "The person puts the sieve at the back of the kitchen table.",
+        "The person sets the sieve in front of the refrigerator.",
+        "The person puts the sieve at the center of the kitchen sink."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the sieve? Choose **only one** option from the following list.\nOptions:\n(A) The person places the sieve at the left corner of the kitchen counter.\n(B) The person drops the sieve on the right side of the kitchen floor.\n(C) The person puts the sieve at the back of the kitchen table.\n(D) The person sets the sieve in front of the refrigerator.\n(E) The person puts the sieve at the center of the kitchen sink.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person puts the sieve at the center of the kitchen sink."
+    },
+    "correct_idx": [
+        4
+    ]
+}

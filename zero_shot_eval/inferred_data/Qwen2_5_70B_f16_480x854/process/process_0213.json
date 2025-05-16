@@ -1,0 +1,17 @@
+{
+    "question": "How does the person slide the bamboo strip?",
+    "options": [
+        "The person pulls the bamboo strip towards himself using both hands, gently lifting it slightly off the surface.",
+        "The person tries to move the bamboo strip away from him using the fingertips of his right hand.",
+        "The person holds the bamboo strip with one hand and then moves it up and down, allowing it to shift slightly.",
+        "The person moves the bamboo strip off the table with his left hand and directs it sideways, not sliding it smoothly.",
+        "The person slides the bamboo strip by pushing it to the left side using his right hand with the help of his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person slide the bamboo strip? Choose **only one** option from the following list.\nOptions:\n(A) The person pulls the bamboo strip towards himself using both hands, gently lifting it slightly off the surface.\n(B) The person tries to move the bamboo strip away from him using the fingertips of his right hand.\n(C) The person holds the bamboo strip with one hand and then moves it up and down, allowing it to shift slightly.\n(D) The person moves the bamboo strip off the table with his left hand and directs it sideways, not sliding it smoothly.\n(E) The person slides the bamboo strip by pushing it to the left side using his right hand with the help of his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person slides the bamboo strip by pushing it to the left side using his right hand with the help of his left hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

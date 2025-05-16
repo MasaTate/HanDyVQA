@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of some of the cards change?",
+    "options": [
+        "The cards changed as they were shuffled to be used in the game.",
+        "The cards changed as they were neatly stacked to form a deck.",
+        "The cards changed as they were spread out on the table to show their faces.",
+        "The cards changed as they were discarded face down after a round of play.",
+        "The cards changed as they were sorted into different suits for organization."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of some of the cards change? Choose **only one** option from the following list.\nOptions:\n(A) The cards changed as they were shuffled to be used in the game.\n(B) The cards changed as they were neatly stacked to form a deck.\n(C) The cards changed as they were spread out on the table to show their faces.\n(D) The cards changed as they were discarded face down after a round of play.\n(E) The cards changed as they were sorted into different suits for organization.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The cards changed as they were spread out on the table to show their faces."
+    },
+    "correct_idx": [
+        0
+    ]
+}

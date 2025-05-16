@@ -1,0 +1,17 @@
+{
+    "question": "How does the person wipe the desk with the right hand?",
+    "options": [
+        "The person wipes the desk with the palm of their right hand, moving it in broad circular motions to clear away the dust.",
+        "The person uses their right thumb to gently scrub a small sticky spot on the desk until the surface feels smooth.",
+        "The person drags their right pinky finger along the edge of the desk, brushing away crumbs with gentle strokes.",
+        "The person sweeps across the desk in a quick, light motion, scattering loose debris with the back of their right hand.",
+        "The person wipes the desk with the right middle finger, pressing it lightly against the surface and moving it in a rightward direction."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person wipe the desk with the right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person wipes the desk with the palm of their right hand, moving it in broad circular motions to clear away the dust.\n(B) The person uses their right thumb to gently scrub a small sticky spot on the desk until the surface feels smooth.\n(C) The person drags their right pinky finger along the edge of the desk, brushing away crumbs with gentle strokes.\n(D) The person sweeps across the desk in a quick, light motion, scattering loose debris with the back of their right hand.\n(E) The person wipes the desk with the right middle finger, pressing it lightly against the surface and moving it in a rightward direction.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person sweeps across the desk in a quick, light motion, scattering loose debris with the back of their right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

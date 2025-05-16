@@ -1,0 +1,17 @@
+{
+    "question": "How does the person twist the bicycle hub?",
+    "options": [
+        "The person holds the bicycle hub with one hand and presses down steadily, aiming to twist it.",
+        "The person places their palm on the bicycle hub and attempts to shift it sideways smoothly, rather than twisting.",
+        "The person grips the bicycle hub with both hands and rotates it in opposite directions, applying steady force to twist it.",
+        "The person grasps the bicycle hub with one hand and pulls it gently while attempting a wrist twist without full rotation.",
+        "The person uses their fingertips to lightly flick the bicycle hub, initiating a gentle rotation with minimal movement."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person twist the bicycle hub? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the bicycle hub with one hand and presses down steadily, aiming to twist it.\n(B) The person places their palm on the bicycle hub and attempts to shift it sideways smoothly, rather than twisting.\n(C) The person grips the bicycle hub with both hands and rotates it in opposite directions, applying steady force to twist it.\n(D) The person grasps the bicycle hub with one hand and pulls it gently while attempting a wrist twist without full rotation.\n(E) The person uses their fingertips to lightly flick the bicycle hub, initiating a gentle rotation with minimal movement.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person grips the bicycle hub with both hands and rotates it in opposite directions, applying steady force to twist it."
+    },
+    "correct_idx": [
+        2
+    ]
+}

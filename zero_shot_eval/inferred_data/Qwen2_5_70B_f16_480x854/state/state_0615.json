@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the check shirt change?",
+    "options": [
+        "The checkered shirt was pulled from the hanger and placed on the floor.",
+        "The checkered shirt was taken off the hanger and arranged neatly.",
+        "The checkered shirt was lifted from the hanger and laid over a chair.",
+        "The checkered shirt was removed from the hanger and placed in a bag.",
+        "The checkered shirt on the hanger was grabbed from the rack."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the check shirt change? Choose **only one** option from the following list.\nOptions:\n(A) The checkered shirt was pulled from the hanger and placed on the floor.\n(B) The checkered shirt was taken off the hanger and arranged neatly.\n(C) The checkered shirt was lifted from the hanger and laid over a chair.\n(D) The checkered shirt was removed from the hanger and placed in a bag.\n(E) The checkered shirt on the hanger was grabbed from the rack.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The checkered shirt on the hanger was grabbed from the rack."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person holds a square rod against the wooden railing pillar with both hands.",
+        "The person removes a round rod from the steel railing pillar using his right hand while stabilizing it with his left hand.",
+        "The person attaches a round rod to the steel railing pillar with both hands.",
+        "The person tightens a bolt on the steel railing pillar with both hands.",
+        "The person paints the steel railing pillar with a brush using his right hand while holding a paint can with his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person holds a square rod against the wooden railing pillar with both hands.\n(B) The person removes a round rod from the steel railing pillar using his right hand while stabilizing it with his left hand.\n(C) The person attaches a round rod to the steel railing pillar with both hands.\n(D) The person tightens a bolt on the steel railing pillar with both hands.\n(E) The person paints the steel railing pillar with a brush using his right hand while holding a paint can with his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person attaches a round rod to the steel railing pillar with both hands."
+    },
+    "correct_idx": [
+        2
+    ]
+}

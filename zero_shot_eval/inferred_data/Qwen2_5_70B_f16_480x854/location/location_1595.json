@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move grass clumps?",
+    "options": [
+        "The person moves the grass clumps backward on the floor.",
+        "The person moves the grass clumps to the right spot on the floor.",
+        "The person moves the grass clumps near the corner of the floor.",
+        "The person moves the grass clumps to the edge of the floor.",
+        "The person moves the grass clumps forward on the floor."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move grass clumps? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the grass clumps backward on the floor.\n(B) The person moves the grass clumps to the right spot on the floor.\n(C) The person moves the grass clumps near the corner of the floor.\n(D) The person moves the grass clumps to the edge of the floor.\n(E) The person moves the grass clumps forward on the floor.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person moves the grass clumps backward on the floor."
+    },
+    "correct_idx": [
+        4
+    ]
+}

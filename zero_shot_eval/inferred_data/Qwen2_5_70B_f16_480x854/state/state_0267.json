@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the wheel change?",
+    "options": [
+        "The wheel was attached with the washer and the hub, changing its position.",
+        "The wheel was slightly rotated, and left unattached with the washer and the hub.",
+        "The wheel was positioned next to the washer and hub, and remained detached.",
+        "The wheel was aligned precisely, but not attached to the hub or the washer.",
+        "The wheel was attached to the hub without the washer, changing its position."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the wheel change? Choose **only one** option from the following list.\nOptions:\n(A) The wheel was attached with the washer and the hub, changing its position.\n(B) The wheel was slightly rotated, and left unattached with the washer and the hub.\n(C) The wheel was positioned next to the washer and hub, and remained detached.\n(D) The wheel was aligned precisely, but not attached to the hub or the washer.\n(E) The wheel was attached to the hub without the washer, changing its position.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The wheel was slightly rotated, and left unattached with the washer and the hub."
+    },
+    "correct_idx": [
+        0
+    ]
+}

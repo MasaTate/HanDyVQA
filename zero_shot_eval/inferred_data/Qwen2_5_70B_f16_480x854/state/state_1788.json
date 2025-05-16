@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a small plank change?",
+    "options": [
+        "The small plank was balanced on the stack of bricks.",
+        "The small plank was laid beneath the wider plank.",
+        "The small plank was placed on the long plank of wood.",
+        "The small plank was leaned against the wall.",
+        "The small plank was inserted between the concrete slabs."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a small plank change? Choose **only one** option from the following list.\nOptions:\n(A) The small plank was balanced on the stack of bricks.\n(B) The small plank was laid beneath the wider plank.\n(C) The small plank was placed on the long plank of wood.\n(D) The small plank was leaned against the wall.\n(E) The small plank was inserted between the concrete slabs.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The small plank was placed on the long plank of wood."
+    },
+    "correct_idx": [
+        2
+    ]
+}

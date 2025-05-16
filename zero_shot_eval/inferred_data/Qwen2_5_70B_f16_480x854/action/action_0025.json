@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person's left hand lifts a lid from a pot, then moves a cloth to her right hand to adjust the stove controls.",
+        "The person's left hand places a pot on the counter, then picks up a paper towel with her right hand to wipe the surface.",
+        "The person's left hand takes a lid off a pan, then transfers a spoon to her right hand to stir the pot's contents.",
+        "The person's left hand puts a pot on the stove, then reaches for a spatula with her right hand to start cooking.",
+        "The person's left hand puts a lid on a pot, then picks up a small towel and passes it to her right hand to pick up the gas burner stand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person's left hand lifts a lid from a pot, then moves a cloth to her right hand to adjust the stove controls.\n(B) The person's left hand places a pot on the counter, then picks up a paper towel with her right hand to wipe the surface.\n(C) The person's left hand takes a lid off a pan, then transfers a spoon to her right hand to stir the pot's contents.\n(D) The person's left hand puts a pot on the stove, then reaches for a spatula with her right hand to start cooking.\n(E) The person's left hand puts a lid on a pot, then picks up a small towel and passes it to her right hand to pick up the gas burner stand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person's left hand puts a lid on a pot, then picks up a small towel and passes it to her right hand to pick up the gas burner stand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

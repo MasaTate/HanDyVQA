@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the metal box change?",
+    "options": [
+        "The metal box was pushed slightly without any permanent movement.",
+        "The metal box was lifted slightly but returned to its original position.",
+        "The metal box was rotated slightly while remaining in place.",
+        "The metal box was tilted without any change in its final position.",
+        "The metal box was hit but didn't change its position."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the metal box change? Choose **only one** option from the following list.\nOptions:\n(A) The metal box was pushed slightly without any permanent movement.\n(B) The metal box was lifted slightly but returned to its original position.\n(C) The metal box was rotated slightly while remaining in place.\n(D) The metal box was tilted without any change in its final position.\n(E) The metal box was hit but didn't change its position.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The metal box was hit but didn't change its position."
+    },
+    "correct_idx": [
+        4
+    ]
+}

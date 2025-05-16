@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the   bamboo stick change?",
+    "options": [
+        "The bamboo strip was scraped, but the shavings were left on the strip.",
+        "The bamboo strip was scraped, resulting in a rough surface without removing shavings.",
+        "The bamboo strip was scraped, and the scrapings were collected instead of being removed.",
+        "The bamboo strip was scraped, and the shavings were removed.",
+        "The bamboo strip had its shavings partially removed, leaving it not completely clean."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the   bamboo stick change? Choose **only one** option from the following list.\nOptions:\n(A) The bamboo strip was scraped, but the shavings were left on the strip.\n(B) The bamboo strip was scraped, resulting in a rough surface without removing shavings.\n(C) The bamboo strip was scraped, and the scrapings were collected instead of being removed.\n(D) The bamboo strip was scraped, and the shavings were removed.\n(E) The bamboo strip had its shavings partially removed, leaving it not completely clean.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The bamboo strip was scraped, and the shavings were removed."
+    },
+    "correct_idx": [
+        3
+    ]
+}

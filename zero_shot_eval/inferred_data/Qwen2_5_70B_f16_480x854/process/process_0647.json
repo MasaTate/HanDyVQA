@@ -1,0 +1,17 @@
+{
+    "question": "How does the person increase oven heat?",
+    "options": [
+        "The person nudges the dial with his hand to increase the oven heat.",
+        "The person turns the knob smoothly using his hand to raise the oven temperature.",
+        "The person touches the control panel gently with his hand to adjust the oven heat upwards.",
+        "The person taps the button to increase the oven heat with his index finger.",
+        "The person presses the button slightly with his thumb to turn up the oven heat."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person increase oven heat? Choose **only one** option from the following list.\nOptions:\n(A) The person nudges the dial with his hand to increase the oven heat.\n(B) The person turns the knob smoothly using his hand to raise the oven temperature.\n(C) The person touches the control panel gently with his hand to adjust the oven heat upwards.\n(D) The person taps the button to increase the oven heat with his index finger.\n(E) The person presses the button slightly with his thumb to turn up the oven heat.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person touches the control panel gently with his hand to adjust the oven heat upwards."
+    },
+    "correct_idx": [
+        3
+    ]
+}

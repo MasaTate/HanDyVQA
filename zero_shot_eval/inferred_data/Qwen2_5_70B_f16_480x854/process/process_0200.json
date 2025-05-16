@@ -1,0 +1,17 @@
+{
+    "question": "How does the person flap his right hand?",
+    "options": [
+        "The person flaps his right hand swiftly in the sink and then wipes it with a cloth.",
+        "The person waves his right hand slowly while moving it side to side in a gentle motion.",
+        "The person lifts his right hand above his head and then lowers it swiftly in a smooth motion.",
+        "The person shakes his right hand quickly while holding a cup, allowing the liquid to spill.",
+        "The person extends his right hand outward and holds it calmly, gesturing towards an object in front of him."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person flap his right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person flaps his right hand swiftly in the sink and then wipes it with a cloth.\n(B) The person waves his right hand slowly while moving it side to side in a gentle motion.\n(C) The person lifts his right hand above his head and then lowers it swiftly in a smooth motion.\n(D) The person shakes his right hand quickly while holding a cup, allowing the liquid to spill.\n(E) The person extends his right hand outward and holds it calmly, gesturing towards an object in front of him.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person flaps his right hand swiftly in the sink and then wipes it with a cloth."
+    },
+    "correct_idx": [
+        0
+    ]
+}

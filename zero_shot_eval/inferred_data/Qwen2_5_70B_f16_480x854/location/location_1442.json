@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the screw?",
+    "options": [
+        "The person placed the screw on the left side of the vent cover.",
+        "The person placed the screw on the right side of the vent cover.",
+        "The person placed the screw in the center of the vent cover.",
+        "The person placed the screw on the right side of the wall next to the vent cover.",
+        "The person placed the screw on the floor beneath the vent cover."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the screw? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the screw on the left side of the vent cover.\n(B) The person placed the screw on the right side of the vent cover.\n(C) The person placed the screw in the center of the vent cover.\n(D) The person placed the screw on the right side of the wall next to the vent cover.\n(E) The person placed the screw on the floor beneath the vent cover.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person placed the screw on the left side of the vent cover."
+    },
+    "correct_idx": [
+        1
+    ]
+}

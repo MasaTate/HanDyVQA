@@ -1,0 +1,17 @@
+{
+    "question": "How does the person open the lid?",
+    "options": [
+        "The person carefully slides the lid of the pitcher sideways using his left palm.",
+        "The person twists the lid of the pitcher off smoothly with both hands.",
+        "The person gently lifts the lid of the pitcher by pulling it upward using his right hand fingertips.",
+        "The person slides the lid of the pitcher off with his fingers, while securing the pitcher with his left hand.",
+        "The person grasps the lid of the pitcher with his right hand and softly removes it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person open the lid? Choose **only one** option from the following list.\nOptions:\n(A) The person carefully slides the lid of the pitcher sideways using his left palm.\n(B) The person twists the lid of the pitcher off smoothly with both hands.\n(C) The person gently lifts the lid of the pitcher by pulling it upward using his right hand fingertips.\n(D) The person slides the lid of the pitcher off with his fingers, while securing the pitcher with his left hand.\n(E) The person grasps the lid of the pitcher with his right hand and softly removes it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person grasps the lid of the pitcher with his right hand and softly removes it."
+    },
+    "correct_idx": [
+        2
+    ]
+}

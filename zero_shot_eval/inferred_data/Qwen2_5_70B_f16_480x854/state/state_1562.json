@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the pottery wheel change?",
+    "options": [
+        "The pottery wheel's position shifted slightly as it was turned clockwise.",
+        "The pottery wheel remained stationary as it was rotated counterclockwise, without shifting its position.",
+        "The pottery wheel's position shifted slightly as it was turned clockwise and then back.",
+        "The pottery wheel's position shifted slightly as it was turned counterclockwise.",
+        "The pottery wheel was started to rotate counterclockwise, but its position did not change."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the pottery wheel change? Choose **only one** option from the following list.\nOptions:\n(A) The pottery wheel's position shifted slightly as it was turned clockwise.\n(B) The pottery wheel remained stationary as it was rotated counterclockwise, without shifting its position.\n(C) The pottery wheel's position shifted slightly as it was turned clockwise and then back.\n(D) The pottery wheel's position shifted slightly as it was turned counterclockwise.\n(E) The pottery wheel was started to rotate counterclockwise, but its position did not change.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The pottery wheel's position shifted slightly as it was turned counterclockwise."
+    },
+    "correct_idx": [
+        3
+    ]
+}

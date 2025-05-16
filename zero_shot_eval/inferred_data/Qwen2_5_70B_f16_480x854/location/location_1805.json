@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the ravioli?",
+    "options": [
+        "The person makes ravioli on a table with a rolling pin and a bowl.",
+        "The person prepares ravioli on a countertop with a cutting board and a pot.",
+        "The person rolls out ravioli on a kitchen island with a pastry cutter and a whisk.",
+        "The person assembles ravioli on a countertop using a spatula and a plate.",
+        "The person mixes ravioli on a table with a dough scraper and a frying pan."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the ravioli? Choose **only one** option from the following list.\nOptions:\n(A) The person makes ravioli on a table with a rolling pin and a bowl.\n(B) The person prepares ravioli on a countertop with a cutting board and a pot.\n(C) The person rolls out ravioli on a kitchen island with a pastry cutter and a whisk.\n(D) The person assembles ravioli on a countertop using a spatula and a plate.\n(E) The person mixes ravioli on a table with a dough scraper and a frying pan.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person makes ravioli on a table with a rolling pin and a bowl."
+    },
+    "correct_idx": [
+        0
+    ]
+}

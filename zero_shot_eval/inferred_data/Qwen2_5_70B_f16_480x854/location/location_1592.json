@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the weighing scale?",
+    "options": [
+        "The person put the weighing scale at the left side of the microwave oven.",
+        "The person put the weighing scale at the right side of the microwave oven.",
+        "The person put the weighing scale in front of the microwave oven.",
+        "The person put the weighing scale behind the microwave oven.",
+        "The person put the weighing scale on top of the microwave oven."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the weighing scale? Choose **only one** option from the following list.\nOptions:\n(A) The person put the weighing scale at the left side of the microwave oven.\n(B) The person put the weighing scale at the right side of the microwave oven.\n(C) The person put the weighing scale in front of the microwave oven.\n(D) The person put the weighing scale behind the microwave oven.\n(E) The person put the weighing scale on top of the microwave oven.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person put the weighing scale at the left side of the microwave oven."
+    },
+    "correct_idx": [
+        1
+    ]
+}

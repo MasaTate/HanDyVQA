@@ -1,0 +1,17 @@
+{
+    "question": "How does the person touch his right hand?",
+    "options": [
+        "The person pressed his right hand gently against the surface of the table using the palm of his left hand, making a subtle, soft sound.",
+        "The person waved his left hand over his right hand in a smooth motion, lightly brushing it in a gesture that made brief contact.",
+        "The person held his right wrist with the fingers of his left hand, moving it inward slowly and softly with a fluid motion.",
+        "The person touched his right hand and arm by dipping their left hand into the container of water, then moved it upward in a smooth gesture along the right hand, continuing up the arm with steady, gentle motions.",
+        "The person moved his right hand with the back of his left hand, sweeping it gently off an object on the table with a soft touch."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person touch his right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person pressed his right hand gently against the surface of the table using the palm of his left hand, making a subtle, soft sound.\n(B) The person waved his left hand over his right hand in a smooth motion, lightly brushing it in a gesture that made brief contact.\n(C) The person held his right wrist with the fingers of his left hand, moving it inward slowly and softly with a fluid motion.\n(D) The person touched his right hand and arm by dipping their left hand into the container of water, then moved it upward in a smooth gesture along the right hand, continuing up the arm with steady, gentle motions.\n(E) The person moved his right hand with the back of his left hand, sweeping it gently off an object on the table with a soft touch.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person touched his right hand and arm by dipping their left hand into the container of water, then moved it upward in a smooth gesture along the right hand, continuing up the arm with steady, gentle motions."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person tosses a ball using his/her right hand.",
+        "The person throws a ball using his/her right hand.",
+        "The person catches a ball with both hands while standing.",
+        "The person rolls a ball down a lane using his/her right hand.",
+        "The person lifts a ball with his/her right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person tosses a ball using his/her right hand.\n(B) The person throws a ball using his/her right hand.\n(C) The person catches a ball with both hands while standing.\n(D) The person rolls a ball down a lane using his/her right hand.\n(E) The person lifts a ball with his/her right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person throws a ball using his/her right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

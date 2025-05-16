@@ -1,0 +1,17 @@
+{
+    "question": "How does the person arrange the items in the carton?",
+    "options": [
+        "The person uses both hands to place the items into the carton, without focusing on a specific order.",
+        "The person handles the items using their left hand and puts them into the carton without much attention to their arrangement.",
+        "The person positions the items in the carton by using their fingers to nudge them in without lifting them directly.",
+        "The person places the items into the carton with their palm, mixing them up without arranging them specifically.",
+        "The person arranges the items in the carton by carefully using their right hand to lift and position each item, with deliberate and precise movements."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person arrange the items in the carton? Choose **only one** option from the following list.\nOptions:\n(A) The person uses both hands to place the items into the carton, without focusing on a specific order.\n(B) The person handles the items using their left hand and puts them into the carton without much attention to their arrangement.\n(C) The person positions the items in the carton by using their fingers to nudge them in without lifting them directly.\n(D) The person places the items into the carton with their palm, mixing them up without arranging them specifically.\n(E) The person arranges the items in the carton by carefully using their right hand to lift and position each item, with deliberate and precise movements.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person arranges the items in the carton by carefully using their right hand to lift and position each item, with deliberate and precise movements."
+    },
+    "correct_idx": [
+        4
+    ]
+}

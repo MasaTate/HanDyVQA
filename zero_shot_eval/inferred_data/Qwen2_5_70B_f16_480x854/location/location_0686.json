@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the sponge?",
+    "options": [
+        "The person drops the sponge on the sink.",
+        "The person drops the sponge on the counter.",
+        "The person drops the sponge in the bowl.",
+        "The person drops the sponge next to the faucet.",
+        "The person drops the sponge on the kitchen floor."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the sponge? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the sponge on the sink.\n(B) The person drops the sponge on the counter.\n(C) The person drops the sponge in the bowl.\n(D) The person drops the sponge next to the faucet.\n(E) The person drops the sponge on the kitchen floor.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person drops the sponge on the sink."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person wipe her right hand?",
+    "options": [
+        "The person wipes her right hand by bunching up the cloth and gently rubbing it back and forth across her palm.",
+        "The person wipes her right hand by pulling the cloth from the chair and rolling her hand using the cloth.",
+        "The person wipes her right hand by smoothly dragging the cloth along the edge of the table while holding her hand still.",
+        "The person wipes her right hand by grasping the cloth and lightly patting it against her hand several times.",
+        "The person wipes her right hand by holding the cloth with both hands and gently pressing it down on her wrist."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person wipe her right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person wipes her right hand by bunching up the cloth and gently rubbing it back and forth across her palm.\n(B) The person wipes her right hand by pulling the cloth from the chair and rolling her hand using the cloth.\n(C) The person wipes her right hand by smoothly dragging the cloth along the edge of the table while holding her hand still.\n(D) The person wipes her right hand by grasping the cloth and lightly patting it against her hand several times.\n(E) The person wipes her right hand by holding the cloth with both hands and gently pressing it down on her wrist.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person wipes her right hand by pulling the cloth from the chair and rolling her hand using the cloth."
+    },
+    "correct_idx": [
+        1
+    ]
+}

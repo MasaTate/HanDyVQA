@@ -1,0 +1,17 @@
+{
+    "question": "How does the person glue the poster to the wall?",
+    "options": [
+        "The person affixed the poster to the wall by holding it against the surface with one hand while using the other hand to apply glue along the edges.",
+        "The person attached the poster to the wall by holding the top edge with both hands and gently pressing it against the wall.",
+        "The person secured the poster to the wall by carefully pressing it with both hands to smooth it out before it was attached.",
+        "The person placed the poster on the wall by holding the corners with one hand while pressing the bottom edge smoothly into position.",
+        "The person attached the poster to the wall by holding it in place with one hand while using the other hand to apply tape along the edges, pressing it firmly to secure it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person glue the poster to the wall? Choose **only one** option from the following list.\nOptions:\n(A) The person affixed the poster to the wall by holding it against the surface with one hand while using the other hand to apply glue along the edges.\n(B) The person attached the poster to the wall by holding the top edge with both hands and gently pressing it against the wall.\n(C) The person secured the poster to the wall by carefully pressing it with both hands to smooth it out before it was attached.\n(D) The person placed the poster on the wall by holding the corners with one hand while pressing the bottom edge smoothly into position.\n(E) The person attached the poster to the wall by holding it in place with one hand while using the other hand to apply tape along the edges, pressing it firmly to secure it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person attached the poster to the wall by holding it in place with one hand while using the other hand to apply tape along the edges, pressing it firmly to secure it."
+    },
+    "correct_idx": [
+        4
+    ]
+}

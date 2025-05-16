@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the book?",
+    "options": [
+        "The person placed the book at the bottom of another book in his right hand.",
+        "The person placed the book at the top of another book in his both hands.",
+        "The person placed the book beside another book in her left hand.",
+        "The person placed the book on the shelf behind another book with both hands.",
+        "The person placed the book at the side of another book in her right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the book? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the book at the bottom of another book in his right hand.\n(B) The person placed the book at the top of another book in his both hands.\n(C) The person placed the book beside another book in her left hand.\n(D) The person placed the book on the shelf behind another book with both hands.\n(E) The person placed the book at the side of another book in her right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person placed the book on the shelf behind another book with both hands."
+    },
+    "correct_idx": [
+        1
+    ]
+}

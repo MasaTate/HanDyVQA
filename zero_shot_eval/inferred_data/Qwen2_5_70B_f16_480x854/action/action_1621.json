@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person tightened the screws using a screwdriver in the right hand.",
+        "The person fixed the bicycle using a tool in the right hand.",
+        "The person cleaned the machine with a cloth in the right hand.",
+        "The person assembled a shelf using a hammer in the right hand.",
+        "The person adjusted the machine using a wrench in the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person tightened the screws using a screwdriver in the right hand.\n(B) The person fixed the bicycle using a tool in the right hand.\n(C) The person cleaned the machine with a cloth in the right hand.\n(D) The person assembled a shelf using a hammer in the right hand.\n(E) The person adjusted the machine using a wrench in the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person adjusted the machine using a wrench in the right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

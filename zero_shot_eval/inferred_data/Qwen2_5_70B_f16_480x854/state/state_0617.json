@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the grounded beef change?",
+    "options": [
+        "The ground beef was stirred while being spilled out.",
+        "The ground beef was pressed flat before being spilled out.",
+        "The ground beef was stirred briefly and remained in the pan.",
+        "The ground beef was stirred more slowly than before and left to cool.",
+        "The ground beef was slightly rearranged but not fully stirred."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the grounded beef change? Choose **only one** option from the following list.\nOptions:\n(A) The ground beef was stirred while being spilled out.\n(B) The ground beef was pressed flat before being spilled out.\n(C) The ground beef was stirred briefly and remained in the pan.\n(D) The ground beef was stirred more slowly than before and left to cool.\n(E) The ground beef was slightly rearranged but not fully stirred.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The ground beef was slightly rearranged but not fully stirred."
+    },
+    "correct_idx": [
+        0
+    ]
+}

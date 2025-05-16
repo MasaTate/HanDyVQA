@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "Both hands of the person are resting on the ground. Then, the right hand lifts off and reaches upward toward the ceiling in a gentle movement.",
+        "Both hands of the person are positioned against a wall. Then, the left hand releases and moves downward toward the ground in a deliberate motion.",
+        "Both hands of the person are steady on a basketball. Then, the right hand pulls back and moves forward as if passing the ball gently.",
+        "Both hands of the person are placed on a chair. Then, the left hand moves backward and gently reaches for something behind the chair.",
+        "Both hands of the person are planted on the ground. Then, the left hand lifts off and smoothly stretches outward to the left, reaching toward the back in a controlled motion."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) Both hands of the person are resting on the ground. Then, the right hand lifts off and reaches upward toward the ceiling in a gentle movement.\n(B) Both hands of the person are positioned against a wall. Then, the left hand releases and moves downward toward the ground in a deliberate motion.\n(C) Both hands of the person are steady on a basketball. Then, the right hand pulls back and moves forward as if passing the ball gently.\n(D) Both hands of the person are placed on a chair. Then, the left hand moves backward and gently reaches for something behind the chair.\n(E) Both hands of the person are planted on the ground. Then, the left hand lifts off and smoothly stretches outward to the left, reaching toward the back in a controlled motion.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) Both hands of the person are planted on the ground. Then, the left hand lifts off and smoothly stretches outward to the left, reaching toward the back in a controlled motion."
+    },
+    "correct_idx": [
+        4
+    ]
+}

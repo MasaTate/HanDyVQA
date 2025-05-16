@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person shifts the roller on the floor with his left hand while the right hand pounds its top with a hammer.",
+        "The person moves the roller on the floor with his left hand while using a screwdriver in his right hand to adjust a bolt.",
+        "The person lifts the roller from the floor with his left hand while holding a paintbrush in his right hand to coat a wall.",
+        "The person rolls the roller on the workbench with his left hand while gripping a chisel in his right hand to shape wood.",
+        "The person steadies the roller on a shelf with his left hand while applying pressure with a wrench in his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person shifts the roller on the floor with his left hand while the right hand pounds its top with a hammer.\n(B) The person moves the roller on the floor with his left hand while using a screwdriver in his right hand to adjust a bolt.\n(C) The person lifts the roller from the floor with his left hand while holding a paintbrush in his right hand to coat a wall.\n(D) The person rolls the roller on the workbench with his left hand while gripping a chisel in his right hand to shape wood.\n(E) The person steadies the roller on a shelf with his left hand while applying pressure with a wrench in his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person shifts the roller on the floor with his left hand while the right hand pounds its top with a hammer."
+    },
+    "correct_idx": [
+        0
+    ]
+}

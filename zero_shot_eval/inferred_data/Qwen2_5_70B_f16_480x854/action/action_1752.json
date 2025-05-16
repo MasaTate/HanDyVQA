@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person flipped the pancake using the spatula in her right hand while holding the frying pan with her left hand.",
+        "The person stirred the ingredients in the bowl with a whisk held in her right hand while holding the bowl steady with her left hand.",
+        "The person scraped the remaining batter from the side of the bowl using a rubber spatula in her right hand while balancing the bowl with her left hand.",
+        "The person removed the flour stuck to the side of the bowl with a spatula in her right hand while her left hand was holding the bowl.",
+        "The person placed the spatula into the bowl with her right hand while supporting the bowl with her left hand to prevent it from tipping over."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person flipped the pancake using the spatula in her right hand while holding the frying pan with her left hand.\n(B) The person stirred the ingredients in the bowl with a whisk held in her right hand while holding the bowl steady with her left hand.\n(C) The person scraped the remaining batter from the side of the bowl using a rubber spatula in her right hand while balancing the bowl with her left hand.\n(D) The person removed the flour stuck to the side of the bowl with a spatula in her right hand while her left hand was holding the bowl.\n(E) The person placed the spatula into the bowl with her right hand while supporting the bowl with her left hand to prevent it from tipping over.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person removed the flour stuck to the side of the bowl with a spatula in her right hand while her left hand was holding the bowl."
+    },
+    "correct_idx": [
+        3
+    ]
+}

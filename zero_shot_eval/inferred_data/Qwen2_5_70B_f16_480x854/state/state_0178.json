@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a cell-phone change?",
+    "options": [
+        "The cell phone was powered off, restricting access to its functions.",
+        "The cell phone was unlocked, allowing access to its functions.",
+        "The cell phone was reset to factory settings, erasing all personal data.",
+        "The cell phone was put into airplane mode, disabling all communication features.",
+        "The cell phone was dropped, resulting in a shattered screen and inoperability."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a cell-phone change? Choose **only one** option from the following list.\nOptions:\n(A) The cell phone was powered off, restricting access to its functions.\n(B) The cell phone was unlocked, allowing access to its functions.\n(C) The cell phone was reset to factory settings, erasing all personal data.\n(D) The cell phone was put into airplane mode, disabling all communication features.\n(E) The cell phone was dropped, resulting in a shattered screen and inoperability.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The cell phone was unlocked, allowing access to its functions."
+    },
+    "correct_idx": [
+        1
+    ]
+}

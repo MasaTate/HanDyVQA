@@ -1,0 +1,17 @@
+{
+    "question": "How does the person grab a door?",
+    "options": [
+        "The person grabs the door handle gently with his right hand and pulls it open.",
+        "The person pulls the door open with both hands, using a firm grip on the handle.",
+        "The person reaches out with one hand and lightly pushes the door open.",
+        "The person gently grips the door handle with his pinky and ring fingers.",
+        "The person nudges the door open by softly using his elbow."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person grab a door? Choose **only one** option from the following list.\nOptions:\n(A) The person grabs the door handle gently with his right hand and pulls it open.\n(B) The person pulls the door open with both hands, using a firm grip on the handle.\n(C) The person reaches out with one hand and lightly pushes the door open.\n(D) The person gently grips the door handle with his pinky and ring fingers.\n(E) The person nudges the door open by softly using his elbow.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person grabs the door handle gently with his right hand and pulls it open."
+    },
+    "correct_idx": [
+        0
+    ]
+}

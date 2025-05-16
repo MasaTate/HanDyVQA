@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the flour change?",
+    "options": [
+        "The flour in the large bowl was transferred into a smaller container.",
+        "The flour in the large bowl was sifted to remove lumps.",
+        "The flour in the large bowl was mixed with water.",
+        "The flour in the large bowl was heated to create a paste.",
+        "The flour in the large bowl was spread onto a surface for rolling."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the flour change? Choose **only one** option from the following list.\nOptions:\n(A) The flour in the large bowl was transferred into a smaller container.\n(B) The flour in the large bowl was sifted to remove lumps.\n(C) The flour in the large bowl was mixed with water.\n(D) The flour in the large bowl was heated to create a paste.\n(E) The flour in the large bowl was spread onto a surface for rolling.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The flour in the large bowl was mixed with water."
+    },
+    "correct_idx": [
+        2
+    ]
+}

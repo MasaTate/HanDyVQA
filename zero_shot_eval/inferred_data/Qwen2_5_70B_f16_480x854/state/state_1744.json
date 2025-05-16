@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the water change?",
+    "options": [
+        "The water's state was transformed as it was frozen into ice cubes.",
+        "The water's form was modified as it evaporated into steam.",
+        "The water's consistency was altered as it was mixed with the mortar.",
+        "The water's clarity was changed as it became murky after mixing with dirt.",
+        "The water's surface tension was affected as it was mixed with soap."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the water change? Choose **only one** option from the following list.\nOptions:\n(A) The water's state was transformed as it was frozen into ice cubes.\n(B) The water's form was modified as it evaporated into steam.\n(C) The water's consistency was altered as it was mixed with the mortar.\n(D) The water's clarity was changed as it became murky after mixing with dirt.\n(E) The water's surface tension was affected as it was mixed with soap.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The water's consistency was altered as it was mixed with the mortar."
+    },
+    "correct_idx": [
+        2
+    ]
+}

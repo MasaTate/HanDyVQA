@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the thread on the loom change?",
+    "options": [
+        "The thread on the loom was adjusted back and forth.",
+        "The thread on the loom was adjusted only forward once.",
+        "The thread on the loom was pulled tight and released without moving back.",
+        "The thread on the loom was moved slightly to one side and left in place.",
+        "The thread on the loom was loosened and then pushed forward."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the thread on the loom change? Choose **only one** option from the following list.\nOptions:\n(A) The thread on the loom was adjusted back and forth.\n(B) The thread on the loom was adjusted only forward once.\n(C) The thread on the loom was pulled tight and released without moving back.\n(D) The thread on the loom was moved slightly to one side and left in place.\n(E) The thread on the loom was loosened and then pushed forward.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The thread on the loom was adjusted back and forth."
+    },
+    "correct_idx": [
+        0
+    ]
+}

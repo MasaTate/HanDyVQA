@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the nylon?",
+    "options": [
+        "The person put the nylon alongside the pulled grass on the grass patch.",
+        "The person put the nylon together with the pulled grass on the ground.",
+        "The person put the nylon next to the pulled grass on the picnic blanket.",
+        "The person put the nylon with the pulled grass on the table.",
+        "The person put the nylon near the pulled grass on the garden path."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the nylon? Choose **only one** option from the following list.\nOptions:\n(A) The person put the nylon alongside the pulled grass on the grass patch.\n(B) The person put the nylon together with the pulled grass on the ground.\n(C) The person put the nylon next to the pulled grass on the picnic blanket.\n(D) The person put the nylon with the pulled grass on the table.\n(E) The person put the nylon near the pulled grass on the garden path.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person put the nylon together with the pulled grass on the ground."
+    },
+    "correct_idx": [
+        1
+    ]
+}

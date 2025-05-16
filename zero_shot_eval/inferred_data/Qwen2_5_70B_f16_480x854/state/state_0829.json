@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the black pen change?",
+    "options": [
+        "The black pen was picked up, moved to the right hand and hovered above the paper.",
+        "The black pen was picked up, moved to the left hand and touched the paper.",
+        "The black pen was picked up, placed back down on the right side, and tapped the table.",
+        "The black pen was picked up, returned to its original position on the right, and did not touch the paper.",
+        "The black pen was picked up, held in the left hand but hovered close to the paper."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the black pen change? Choose **only one** option from the following list.\nOptions:\n(A) The black pen was picked up, moved to the right hand and hovered above the paper.\n(B) The black pen was picked up, moved to the left hand and touched the paper.\n(C) The black pen was picked up, placed back down on the right side, and tapped the table.\n(D) The black pen was picked up, returned to its original position on the right, and did not touch the paper.\n(E) The black pen was picked up, held in the left hand but hovered close to the paper.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The black pen was picked up, moved to the left hand and touched the paper."
+    },
+    "correct_idx": [
+        1
+    ]
+}

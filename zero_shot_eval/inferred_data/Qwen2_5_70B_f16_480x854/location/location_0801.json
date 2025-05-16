@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the nut in the drawer?",
+    "options": [
+        "The person drops the nut on top of the drawer.",
+        "The person drops the nut near the edge of the drawer.",
+        "The person drops the nut inside the drawer.",
+        "The person drops the nut in front of the drawer.",
+        "The person drops the nut beside the drawer."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the nut in the drawer? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the nut on top of the drawer.\n(B) The person drops the nut near the edge of the drawer.\n(C) The person drops the nut inside the drawer.\n(D) The person drops the nut in front of the drawer.\n(E) The person drops the nut beside the drawer.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person drops the nut inside the drawer."
+    },
+    "correct_idx": [
+        2
+    ]
+}

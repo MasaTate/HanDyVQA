@@ -1,0 +1,17 @@
+{
+    "question": "How does the person shuffle the dice?",
+    "options": [
+        "The person uses both hands to pick up the dice and rolls them gently across the table to shuffle them.",
+        "The person holds the dice in his left hand and reaches into a bag, gently mixing the dice.",
+        "The person places the dice at the edge of the table and softly pushes them off to mix them.",
+        "The person presses the dice together in his palm and smoothly turns his hand over, releasing them onto the table.",
+        "The person uses his right hand to lift the dice and then shakes them in his palm to shuffle them."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person shuffle the dice? Choose **only one** option from the following list.\nOptions:\n(A) The person uses both hands to pick up the dice and rolls them gently across the table to shuffle them.\n(B) The person holds the dice in his left hand and reaches into a bag, gently mixing the dice.\n(C) The person places the dice at the edge of the table and softly pushes them off to mix them.\n(D) The person presses the dice together in his palm and smoothly turns his hand over, releasing them onto the table.\n(E) The person uses his right hand to lift the dice and then shakes them in his palm to shuffle them.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person uses his right hand to lift the dice and then shakes them in his palm to shuffle them."
+    },
+    "correct_idx": [
+        4
+    ]
+}

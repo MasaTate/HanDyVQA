@@ -1,0 +1,17 @@
+{
+    "question": "How does the person wrap the avocado?",
+    "options": [
+        "The person gently holds the avocado with one hand and gradually wraps the plastic around it.",
+        "The person tightly twists the plastic wrap around the avocado using both hands.",
+        "The person casually tries to cover the avocado by pressing the plastic wrap onto it with one hand.",
+        "The person quickly puts the plastic wrap above the avocado and then squeezes it with both hands.",
+        "The person uses a piece of paper to wrap the avocado, without considering the plastic wrap."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person wrap the avocado? Choose **only one** option from the following list.\nOptions:\n(A) The person gently holds the avocado with one hand and gradually wraps the plastic around it.\n(B) The person tightly twists the plastic wrap around the avocado using both hands.\n(C) The person casually tries to cover the avocado by pressing the plastic wrap onto it with one hand.\n(D) The person quickly puts the plastic wrap above the avocado and then squeezes it with both hands.\n(E) The person uses a piece of paper to wrap the avocado, without considering the plastic wrap.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person gently holds the avocado with one hand and gradually wraps the plastic around it."
+    },
+    "correct_idx": [
+        3
+    ]
+}

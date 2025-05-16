@@ -1,0 +1,17 @@
+{
+    "question": "How does the person leave hand?",
+    "options": [
+        "The person gently retracts their hands away from the cat, allowing it to regain its balance.",
+        "The person carefully draws back their hands, ensuring the cat remains steady as they release their grip.",
+        "The person gradually lifts their hands, releasing the cat with a soft motion.",
+        "The person smoothly turns their wrists to let go of the cat, allowing it to remain calm.",
+        "The person leaves both hands from holding the cat by slowly loosening the grip of the fingers."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person leave hand? Choose **only one** option from the following list.\nOptions:\n(A) The person gently retracts their hands away from the cat, allowing it to regain its balance.\n(B) The person carefully draws back their hands, ensuring the cat remains steady as they release their grip.\n(C) The person gradually lifts their hands, releasing the cat with a soft motion.\n(D) The person smoothly turns their wrists to let go of the cat, allowing it to remain calm.\n(E) The person leaves both hands from holding the cat by slowly loosening the grip of the fingers.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person leaves both hands from holding the cat by slowly loosening the grip of the fingers."
+    },
+    "correct_idx": [
+        4
+    ]
+}

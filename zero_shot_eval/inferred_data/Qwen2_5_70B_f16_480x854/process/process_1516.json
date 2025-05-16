@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pluck a leaf from another tree?",
+    "options": [
+        "The person pinched a leaf from the tree with her right thumb and index finger.",
+        "The person gently grasps the leaf with her whole hand and eases it off.",
+        "The person delicately pulls on the leaf with her right hand, using her fingers to separate it.",
+        "The person adjusts the leaf away from the branch gently with her fingertips.",
+        "The person slowly taps the leaf with the side of her hand to let it fall off."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pluck a leaf from another tree? Choose **only one** option from the following list.\nOptions:\n(A) The person pinched a leaf from the tree with her right thumb and index finger.\n(B) The person gently grasps the leaf with her whole hand and eases it off.\n(C) The person delicately pulls on the leaf with her right hand, using her fingers to separate it.\n(D) The person adjusts the leaf away from the branch gently with her fingertips.\n(E) The person slowly taps the leaf with the side of her hand to let it fall off.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person pinched a leaf from the tree with her right thumb and index finger."
+    },
+    "correct_idx": [
+        0
+    ]
+}

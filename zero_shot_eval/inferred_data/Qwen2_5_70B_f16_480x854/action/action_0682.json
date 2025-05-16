@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person irons a dress with an iron in his right hand.",
+        "The person steams a dress with a garment steamer in his right hand.",
+        "The person folds a dress on the ironing board with both hands while holding the iron in his left hand.",
+        "The person presses a dress with a press cloth using the iron in his right hand.",
+        "The person cleans a dress with a lint roller in his right hand while holding the dress with his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person irons a dress with an iron in his right hand.\n(B) The person steams a dress with a garment steamer in his right hand.\n(C) The person folds a dress on the ironing board with both hands while holding the iron in his left hand.\n(D) The person presses a dress with a press cloth using the iron in his right hand.\n(E) The person cleans a dress with a lint roller in his right hand while holding the dress with his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person irons a dress with an iron in his right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

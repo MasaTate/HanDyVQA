@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a napkin from the countertop change?",
+    "options": [
+        "The napkin on the countertop became damp when it was soaked by a glass of water.",
+        "The napkin on the countertop became crumpled when it was compressed under a heavy book.",
+        "The napkin on the countertop became warm when it was held by the handle of the hot pan.",
+        "The napkin on the countertop became stained when it was marked by a piece of fruit.",
+        "The napkin on the countertop was torn when it was sliced by a sharp object."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a napkin from the countertop change? Choose **only one** option from the following list.\nOptions:\n(A) The napkin on the countertop became damp when it was soaked by a glass of water.\n(B) The napkin on the countertop became crumpled when it was compressed under a heavy book.\n(C) The napkin on the countertop became warm when it was held by the handle of the hot pan.\n(D) The napkin on the countertop became stained when it was marked by a piece of fruit.\n(E) The napkin on the countertop was torn when it was sliced by a sharp object.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The napkin on the countertop became warm when it was held by the handle of the hot pan."
+    },
+    "correct_idx": [
+        2
+    ]
+}

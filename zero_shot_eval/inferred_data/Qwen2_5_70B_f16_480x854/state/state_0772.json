@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a tissue paper change?",
+    "options": [
+        "The tissue paper was rolled, pulled out, but left uncut and folded.",
+        "The tissue paper was partially rolled, pulled slightly, and torn off without being crumpled.",
+        "The tissue paper was unrolled, pulled out, cut off, and left flat.",
+        "The tissue paper was rolled, pulled out, and cut off before being crumpled.",
+        "The tissue paper was rolled tightly, pulled out, cut off, and folded."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a tissue paper change? Choose **only one** option from the following list.\nOptions:\n(A) The tissue paper was rolled, pulled out, but left uncut and folded.\n(B) The tissue paper was partially rolled, pulled slightly, and torn off without being crumpled.\n(C) The tissue paper was unrolled, pulled out, cut off, and left flat.\n(D) The tissue paper was rolled, pulled out, and cut off before being crumpled.\n(E) The tissue paper was rolled tightly, pulled out, cut off, and folded.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The tissue paper was unrolled, pulled out, cut off, and left flat."
+    },
+    "correct_idx": [
+        3
+    ]
+}

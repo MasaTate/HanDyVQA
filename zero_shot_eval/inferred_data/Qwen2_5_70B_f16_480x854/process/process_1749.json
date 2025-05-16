@@ -1,0 +1,17 @@
+{
+    "question": "How does the person carry the jar of oat?",
+    "options": [
+        "The person carried the jar of oats while keeping the lid securely fastened on top.",
+        "The person lifted the jar of oats with both hands, ensuring the lid was still attached snugly.",
+        "The person grabbed the jar of oats by the edges without removing the lid.",
+        "The person picked up the jar of oats with one hand while leaving the lid on the table.",
+        "The person carried the jar of oats after taking its lid off using the left hand and securely grabbed it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person carry the jar of oat? Choose **only one** option from the following list.\nOptions:\n(A) The person carried the jar of oats while keeping the lid securely fastened on top.\n(B) The person lifted the jar of oats with both hands, ensuring the lid was still attached snugly.\n(C) The person grabbed the jar of oats by the edges without removing the lid.\n(D) The person picked up the jar of oats with one hand while leaving the lid on the table.\n(E) The person carried the jar of oats after taking its lid off using the left hand and securely grabbed it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person carried the jar of oats after taking its lid off using the left hand and securely grabbed it."
+    },
+    "correct_idx": [
+        4
+    ]
+}

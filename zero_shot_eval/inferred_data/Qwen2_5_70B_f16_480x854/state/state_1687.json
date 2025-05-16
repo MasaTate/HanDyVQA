@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the stack of cards change?",
+    "options": [
+        "The stack of cards changed as it was shuffled.",
+        "The stack of cards changed as it was dropped onto the floor.",
+        "The stack of cards changed as it was taken from the table.",
+        "The stack of cards changed as it was arranged into a pile.",
+        "The stack of cards changed as it was spread out for display."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the stack of cards change? Choose **only one** option from the following list.\nOptions:\n(A) The stack of cards changed as it was shuffled.\n(B) The stack of cards changed as it was dropped onto the floor.\n(C) The stack of cards changed as it was taken from the table.\n(D) The stack of cards changed as it was arranged into a pile.\n(E) The stack of cards changed as it was spread out for display.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The stack of cards changed as it was spread out for display."
+    },
+    "correct_idx": [
+        2
+    ]
+}

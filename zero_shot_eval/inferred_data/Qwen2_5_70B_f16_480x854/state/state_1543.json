@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the carburetor change?",
+    "options": [
+        "The carburetor was removed entirely from the engine and placed in a different location for inspection.",
+        "The carburetor was held in place and its position remained unchanged while being examined.",
+        "The carburetor was adjusted slightly, and its position was modified to improve airflow while it was being examined.",
+        "The carburetor was cleaned thoroughly, and its surface appearance was altered during the examination.",
+        "The carburetor was coated with a fresh layer of paint while being inspected."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the carburetor change? Choose **only one** option from the following list.\nOptions:\n(A) The carburetor was removed entirely from the engine and placed in a different location for inspection.\n(B) The carburetor was held in place and its position remained unchanged while being examined.\n(C) The carburetor was adjusted slightly, and its position was modified to improve airflow while it was being examined.\n(D) The carburetor was cleaned thoroughly, and its surface appearance was altered during the examination.\n(E) The carburetor was coated with a fresh layer of paint while being inspected.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The carburetor was removed entirely from the engine and placed in a different location for inspection."
+    },
+    "correct_idx": [
+        1
+    ]
+}

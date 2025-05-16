@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the cloth change?",
+    "options": [
+        "The cloth was lifted, shaken to remove folds, and spread out into a flatter shape.",
+        "The cloth was rolled up, compressed, and placed into a container.",
+        "The cloth was gathered, tossed into the air, and landed in an uneven pile.",
+        "The cloth was crumpled, placed in a corner, and left to collect dust.",
+        "The cloth was folded, stored in a drawer, and stacked with other fabrics."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the cloth change? Choose **only one** option from the following list.\nOptions:\n(A) The cloth was lifted, shaken to remove folds, and spread out into a flatter shape.\n(B) The cloth was rolled up, compressed, and placed into a container.\n(C) The cloth was gathered, tossed into the air, and landed in an uneven pile.\n(D) The cloth was crumpled, placed in a corner, and left to collect dust.\n(E) The cloth was folded, stored in a drawer, and stacked with other fabrics.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The cloth was lifted, shaken to remove folds, and spread out into a flatter shape."
+    },
+    "correct_idx": [
+        0
+    ]
+}

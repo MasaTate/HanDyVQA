@@ -1,0 +1,17 @@
+{
+    "question": "How does the person scratch his right leg?",
+    "options": [
+        "The person uses his left foot to rub against his right leg, moving it in gentle circles to lessen the itch.",
+        "The person extends his right arm holding the drumstick to reach his right leg, then uses his fingers to scratch it with quick, back-and-forth motions, applying light pressure to relieve the itch.",
+        "The person bends down and uses the palm of his right hand to slide smoothly across his thigh, pressing down slightly to scratch his leg.",
+        "The person lifts his right leg onto his left knee and uses a cloth to gently press the area rather than using his fingers to scratch.",
+        "The person leans back in his chair and uses a pencil to tap lightly on his right leg, attempting to reach the itchy spot with minimal effect."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person scratch his right leg? Choose **only one** option from the following list.\nOptions:\n(A) The person uses his left foot to rub against his right leg, moving it in gentle circles to lessen the itch.\n(B) The person extends his right arm holding the drumstick to reach his right leg, then uses his fingers to scratch it with quick, back-and-forth motions, applying light pressure to relieve the itch.\n(C) The person bends down and uses the palm of his right hand to slide smoothly across his thigh, pressing down slightly to scratch his leg.\n(D) The person lifts his right leg onto his left knee and uses a cloth to gently press the area rather than using his fingers to scratch.\n(E) The person leans back in his chair and uses a pencil to tap lightly on his right leg, attempting to reach the itchy spot with minimal effect.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person extends his right arm holding the drumstick to reach his right leg, then uses his fingers to scratch it with quick, back-and-forth motions, applying light pressure to relieve the itch."
+    },
+    "correct_idx": [
+        1
+    ]
+}

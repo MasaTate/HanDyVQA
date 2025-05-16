@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put a container of food?",
+    "options": [
+        "The person puts a container of food outside the refrigerator.",
+        "The person puts a container of food in front of the refrigerator.",
+        "The person puts a container of food inside the refrigerator.",
+        "The person puts a container of food on top of the refrigerator.",
+        "The person puts a container of food beside the refrigerator."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put a container of food? Choose **only one** option from the following list.\nOptions:\n(A) The person puts a container of food outside the refrigerator.\n(B) The person puts a container of food in front of the refrigerator.\n(C) The person puts a container of food inside the refrigerator.\n(D) The person puts a container of food on top of the refrigerator.\n(E) The person puts a container of food beside the refrigerator.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person puts a container of food inside the refrigerator."
+    },
+    "correct_idx": [
+        2
+    ]
+}

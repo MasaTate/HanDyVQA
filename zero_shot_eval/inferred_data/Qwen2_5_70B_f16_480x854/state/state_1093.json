@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a sticker change?",
+    "options": [
+        "The sticker is being scraped off the laptop.",
+        "The sticker is being peeled away from the surface of the laptop.",
+        "The sticker is being removed from the laptop with a solvent.",
+        "The sticker is being torn, leaving some residue on the laptop.",
+        "The sticker is being lifted from the laptop but remains attached at one corner."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a sticker change? Choose **only one** option from the following list.\nOptions:\n(A) The sticker is being scraped off the laptop.\n(B) The sticker is being peeled away from the surface of the laptop.\n(C) The sticker is being removed from the laptop with a solvent.\n(D) The sticker is being torn, leaving some residue on the laptop.\n(E) The sticker is being lifted from the laptop but remains attached at one corner.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The sticker is being peeled away from the surface of the laptop."
+    },
+    "correct_idx": [
+        0
+    ]
+}

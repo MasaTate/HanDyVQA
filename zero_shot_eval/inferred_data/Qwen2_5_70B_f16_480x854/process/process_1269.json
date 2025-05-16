@@ -1,0 +1,17 @@
+{
+    "question": "How does the person examine the lawn mower?",
+    "options": [
+        "The person examines the lawn mower by touching and pulling the cable down gently with his right hand.",
+        "The person inspects the lawn mower by lightly pushing it forward using both hands in front.",
+        "The person checks the lawn mower by lifting the machine slightly with both hands from underneath.",
+        "The person evaluates the lawn mower by softly tapping on the side with the palm of his left hand.",
+        "The person examines the lawn mower by slightly twisting the throttle grip with his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person examine the lawn mower? Choose **only one** option from the following list.\nOptions:\n(A) The person examines the lawn mower by touching and pulling the cable down gently with his right hand.\n(B) The person inspects the lawn mower by lightly pushing it forward using both hands in front.\n(C) The person checks the lawn mower by lifting the machine slightly with both hands from underneath.\n(D) The person evaluates the lawn mower by softly tapping on the side with the palm of his left hand.\n(E) The person examines the lawn mower by slightly twisting the throttle grip with his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person examines the lawn mower by touching and pulling the cable down gently with his right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

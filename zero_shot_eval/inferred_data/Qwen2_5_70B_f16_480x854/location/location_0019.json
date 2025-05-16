@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the beech dowel?",
+    "options": [
+        "The person dropped the beech dowel on his left hand.",
+        "The person dropped the beech dowel on his right hand.",
+        "The person dropped the beech dowel on his right knee.",
+        "The person dropped the beech dowel on the ground beside his feet.",
+        "The person dropped the beech dowel on the table in front of him."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the beech dowel? Choose **only one** option from the following list.\nOptions:\n(A) The person dropped the beech dowel on his left hand.\n(B) The person dropped the beech dowel on his right hand.\n(C) The person dropped the beech dowel on his right knee.\n(D) The person dropped the beech dowel on the ground beside his feet.\n(E) The person dropped the beech dowel on the table in front of him.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person dropped the beech dowel on his left hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

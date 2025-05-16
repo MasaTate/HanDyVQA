@@ -1,0 +1,20 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "slippers",
+        "pants",
+        "shirts",
+        "metal",
+        "plants",
+        "wall",
+        "trowel"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) slippers\n(B) pants\n(C) shirts\n(D) metal\n(E) plants\n(F) wall\n(G) trowel\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(G) trowel\n\nThe hands in the video are using a trowel to spread and smooth the concrete on the construction surface. The trowel is a common tool used in construction for this purpose. There is no indication that the hands are using slippers, pants, shirts, metal, plants, or a wall directly."
+    },
+    "correct_idx": [
+        3,
+        6
+    ]
+}

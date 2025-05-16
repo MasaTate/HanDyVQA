@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person adjusts his grip on the handle of the cutting tool with his hand to ensure a better hold on the device.",
+        "The person opens the blade cover of the cutting tool with his left hand while holding the tool with his right hand.",
+        "The person cleans the blade of the cutting tool with a cloth using his right hand while holding the body of the tool with his left hand.",
+        "The person closes the blade cover of the cutting tool with his hand to secure the blade inside.",
+        "The person sharpens the blade of the cutting tool on a stone using his right hand while stabilizing the tool with his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person adjusts his grip on the handle of the cutting tool with his hand to ensure a better hold on the device.\n(B) The person opens the blade cover of the cutting tool with his left hand while holding the tool with his right hand.\n(C) The person cleans the blade of the cutting tool with a cloth using his right hand while holding the body of the tool with his left hand.\n(D) The person closes the blade cover of the cutting tool with his hand to secure the blade inside.\n(E) The person sharpens the blade of the cutting tool on a stone using his right hand while stabilizing the tool with his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person opens the blade cover of the cutting tool with his left hand while holding the tool with his right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

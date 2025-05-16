@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the pack of cards?",
+    "options": [
+        "The person drops the pack of cards on the floor next to the table.",
+        "The person drops the pack of cards on the chair beside the table.",
+        "The person drops the pack of cards on the shelf above the table.",
+        "The person drops the pack of cards on the side table across the room.",
+        "The person drops the pack of cards on the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the pack of cards? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the pack of cards on the floor next to the table.\n(B) The person drops the pack of cards on the chair beside the table.\n(C) The person drops the pack of cards on the shelf above the table.\n(D) The person drops the pack of cards on the side table across the room.\n(E) The person drops the pack of cards on the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person drops the pack of cards on the table."
+    },
+    "correct_idx": [
+        4
+    ]
+}

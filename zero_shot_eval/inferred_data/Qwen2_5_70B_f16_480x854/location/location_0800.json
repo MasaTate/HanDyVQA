@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the paper tape?",
+    "options": [
+        "The person drops the paper tape on top of the table.",
+        "The person drops the paper tape on the floor next to the table.",
+        "The person drops the paper tape on the shelf above the table.",
+        "The person drops the paper tape under the table.",
+        "The person drops the paper tape in the corner of the room."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the paper tape? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the paper tape on top of the table.\n(B) The person drops the paper tape on the floor next to the table.\n(C) The person drops the paper tape on the shelf above the table.\n(D) The person drops the paper tape under the table.\n(E) The person drops the paper tape in the corner of the room.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person drops the paper tape on top of the table."
+    },
+    "correct_idx": [
+        0
+    ]
+}

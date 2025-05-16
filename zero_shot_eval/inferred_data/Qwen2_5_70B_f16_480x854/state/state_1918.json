@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the dress on the table change?",
+    "options": [
+        "The dress on the table was dyed, altering its appearance significantly with a new color.",
+        "The dress on the table was ironed, causing a change in texture as wrinkles were removed.",
+        "The dress on the table was torn, resulting in jagged edges that changed its form.",
+        "The dress on the table was folded, leading to a more compact and organized presentation.",
+        "The dress on the table was draped, changing its shape and how it hung."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the dress on the table change? Choose **only one** option from the following list.\nOptions:\n(A) The dress on the table was dyed, altering its appearance significantly with a new color.\n(B) The dress on the table was ironed, causing a change in texture as wrinkles were removed.\n(C) The dress on the table was torn, resulting in jagged edges that changed its form.\n(D) The dress on the table was folded, leading to a more compact and organized presentation.\n(E) The dress on the table was draped, changing its shape and how it hung.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The dress on the table was ironed, causing a change in texture as wrinkles were removed."
+    },
+    "correct_idx": [
+        1
+    ]
+}

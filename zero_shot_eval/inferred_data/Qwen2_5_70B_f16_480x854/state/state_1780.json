@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of some batter change?",
+    "options": [
+        "The batter changed by being poured into a mixing bowl.",
+        "The batter changed by being stirred with a ladle.",
+        "The batter changed by being mixed with an electric mixer.",
+        "The batter changed by being folded with a spatula.",
+        "The batter changed by being shaken in a jar."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of some batter change? Choose **only one** option from the following list.\nOptions:\n(A) The batter changed by being poured into a mixing bowl.\n(B) The batter changed by being stirred with a ladle.\n(C) The batter changed by being mixed with an electric mixer.\n(D) The batter changed by being folded with a spatula.\n(E) The batter changed by being shaken in a jar.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The batter changed by being stirred with a ladle."
+    },
+    "correct_idx": [
+        1
+    ]
+}

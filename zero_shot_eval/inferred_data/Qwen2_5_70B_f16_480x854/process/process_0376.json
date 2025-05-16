@@ -1,0 +1,17 @@
+{
+    "question": "How does the person smoothen the mortar?",
+    "options": [
+        "The person spreads the mortar with a broad brush, moving it back and forth with their left hand.",
+        "The person smooths the mortar with a trowel, moving it back and forth with their right hand.",
+        "The person pats down the mortar using their palm, pressing it slightly with their fingers.",
+        "The person swirls the mortar in a circular motion using a wooden board held in both hands.",
+        "The person edges the mortar with a small scoop, guiding it with their right hand before placing it down."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person smoothen the mortar? Choose **only one** option from the following list.\nOptions:\n(A) The person spreads the mortar with a broad brush, moving it back and forth with their left hand.\n(B) The person smooths the mortar with a trowel, moving it back and forth with their right hand.\n(C) The person pats down the mortar using their palm, pressing it slightly with their fingers.\n(D) The person swirls the mortar in a circular motion using a wooden board held in both hands.\n(E) The person edges the mortar with a small scoop, guiding it with their right hand before placing it down.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person smooths the mortar with a trowel, moving it back and forth with their right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

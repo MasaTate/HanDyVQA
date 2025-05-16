@@ -1,0 +1,17 @@
+{
+    "question": "How does the person place a card?",
+    "options": [
+        "The person holds the card in their left hand, guiding it over the table and setting it down gently onto the surface.",
+        "The person holds the card with their right hand, moving it over the table, and lowering it flat onto the surface with a downward motion before releasing it.",
+        "The person gently lets the card slide from their fingers so that it lands smoothly on the floor.",
+        "The person grips the card with both hands and releases it lightly onto the table.",
+        "The person holds the card with their thumb and forefinger, lightly turning it before setting it down on the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person place a card? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the card in their left hand, guiding it over the table and setting it down gently onto the surface.\n(B) The person holds the card with their right hand, moving it over the table, and lowering it flat onto the surface with a downward motion before releasing it.\n(C) The person gently lets the card slide from their fingers so that it lands smoothly on the floor.\n(D) The person grips the card with both hands and releases it lightly onto the table.\n(E) The person holds the card with their thumb and forefinger, lightly turning it before setting it down on the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person holds the card with their right hand, moving it over the table, and lowering it flat onto the surface with a downward motion before releasing it."
+    },
+    "correct_idx": [
+        1
+    ]
+}

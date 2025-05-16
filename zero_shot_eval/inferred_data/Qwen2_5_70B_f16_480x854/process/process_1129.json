@@ -1,0 +1,17 @@
+{
+    "question": "How does the person gather some strip woods?",
+    "options": [
+        "The person gathers the strips of wood into a heap using both hands while slightly leaning over.",
+        "The person lifts each strip of wood individually with one hand and places them back down.",
+        "The person gently holds the strips of wood with one hand and sets them down neatly.",
+        "The person stacks the strips of wood on top of each other using both hands.",
+        "The person places the strips of wood into a nearby box using a smooth motion with both hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person gather some strip woods? Choose **only one** option from the following list.\nOptions:\n(A) The person gathers the strips of wood into a heap using both hands while slightly leaning over.\n(B) The person lifts each strip of wood individually with one hand and places them back down.\n(C) The person gently holds the strips of wood with one hand and sets them down neatly.\n(D) The person stacks the strips of wood on top of each other using both hands.\n(E) The person places the strips of wood into a nearby box using a smooth motion with both hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person gathers the strips of wood into a heap using both hands while slightly leaning over."
+    },
+    "correct_idx": [
+        3
+    ]
+}

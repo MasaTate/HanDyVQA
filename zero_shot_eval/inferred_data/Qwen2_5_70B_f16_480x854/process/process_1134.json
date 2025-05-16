@@ -1,0 +1,17 @@
+{
+    "question": "How does the person tighten the screw?",
+    "options": [
+        "The person tightens the screw using his right hand by twisting it and his left hand holds to support.",
+        "The person tightens the screw using both hands by spinning it steadily while holding it with his right hand.",
+        "The person adjusts the screw by moving it forward with his left hand while the right hand holds the screwdriver.",
+        "The person secures the screw by pressing down on it with the palm of his right hand, without additional support.",
+        "The person manually tightens the screw by gripping it with his left hand and pulling it slightly upward."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person tighten the screw? Choose **only one** option from the following list.\nOptions:\n(A) The person tightens the screw using his right hand by twisting it and his left hand holds to support.\n(B) The person tightens the screw using both hands by spinning it steadily while holding it with his right hand.\n(C) The person adjusts the screw by moving it forward with his left hand while the right hand holds the screwdriver.\n(D) The person secures the screw by pressing down on it with the palm of his right hand, without additional support.\n(E) The person manually tightens the screw by gripping it with his left hand and pulling it slightly upward.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person tightens the screw using his right hand by twisting it and his left hand holds to support."
+    },
+    "correct_idx": [
+        0
+    ]
+}

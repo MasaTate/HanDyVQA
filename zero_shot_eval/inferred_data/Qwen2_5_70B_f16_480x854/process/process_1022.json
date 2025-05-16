@@ -1,0 +1,17 @@
+{
+    "question": "How does the person collect the doughnuts with the lid?",
+    "options": [
+        "The person uses both hands to lift the lid off the platter while avoiding sliding it.",
+        "The person tilts the lid towards himself and attempts to catch the doughnuts with his left hand.",
+        "The person pushes the lid down onto the doughnuts, pressing them instead of scooping.",
+        "The person grabs the lid with his left hand and attempts to lift the doughnuts closely without sliding.",
+        "The person slides the lid under the doughnuts to scoop them with his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person collect the doughnuts with the lid? Choose **only one** option from the following list.\nOptions:\n(A) The person uses both hands to lift the lid off the platter while avoiding sliding it.\n(B) The person tilts the lid towards himself and attempts to catch the doughnuts with his left hand.\n(C) The person pushes the lid down onto the doughnuts, pressing them instead of scooping.\n(D) The person grabs the lid with his left hand and attempts to lift the doughnuts closely without sliding.\n(E) The person slides the lid under the doughnuts to scoop them with his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person slides the lid under the doughnuts to scoop them with his right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

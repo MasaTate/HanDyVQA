@@ -1,0 +1,17 @@
+{
+    "question": "How does the person use his right hand?",
+    "options": [
+        "The person uses their right hand to guide the tape, pressing down with the palm and moving it smoothly in a forward direction along its length to ensure it sticks properly to the surface.",
+        "The person uses their right hand to pull the tape out at a steady pace, positioning it between their fingers while guiding it along the surface.",
+        "The person uses their right hand to hold the tape firmly at both ends while attempting to place it, making sure it aligns closely with the surface.",
+        "The person uses their right hand to lightly handle the tape from the side, making minimal contact as they aim to secure it to the surface.",
+        "The person uses their right hand to set the tape onto the surface, allowing it to settle gently with some direction and pressure."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person use his right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person uses their right hand to guide the tape, pressing down with the palm and moving it smoothly in a forward direction along its length to ensure it sticks properly to the surface.\n(B) The person uses their right hand to pull the tape out at a steady pace, positioning it between their fingers while guiding it along the surface.\n(C) The person uses their right hand to hold the tape firmly at both ends while attempting to place it, making sure it aligns closely with the surface.\n(D) The person uses their right hand to lightly handle the tape from the side, making minimal contact as they aim to secure it to the surface.\n(E) The person uses their right hand to set the tape onto the surface, allowing it to settle gently with some direction and pressure.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person uses their right hand to guide the tape, pressing down with the palm and moving it smoothly in a forward direction along its length to ensure it sticks properly to the surface."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person burn the ribbon?",
+    "options": [
+        "The person grips the lighter in her left hand, flicks the switch with her index finger, and moves it away from the ribbon as the flame ignites.",
+        "The person holds the lighter flat in her palm, uses her pinky to ignite it, and accidentally lets the ribbon touch the flame.",
+        "The person holds the lighter with both hands in an upside-down position, struggling to ignite it before inadvertently touching the ribbon with the lighter's casing.",
+        "The person holds the lighter in her right hand, ignites it but keeps it distant from the ribbon to avoid burning it.",
+        "The person holds the lighter in her right hand, ignites it with her thumb, and brings the flame to the ribbon's edge while holding it steady with her left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person burn the ribbon? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the lighter in her left hand, flicks the switch with her index finger, and moves it away from the ribbon as the flame ignites.\n(B) The person holds the lighter flat in her palm, uses her pinky to ignite it, and accidentally lets the ribbon touch the flame.\n(C) The person holds the lighter with both hands in an upside-down position, struggling to ignite it before inadvertently touching the ribbon with the lighter's casing.\n(D) The person holds the lighter in her right hand, ignites it but keeps it distant from the ribbon to avoid burning it.\n(E) The person holds the lighter in her right hand, ignites it with her thumb, and brings the flame to the ribbon's edge while holding it steady with her left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person holds the lighter in her right hand, ignites it with her thumb, and brings the flame to the ribbon's edge while holding it steady with her left hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

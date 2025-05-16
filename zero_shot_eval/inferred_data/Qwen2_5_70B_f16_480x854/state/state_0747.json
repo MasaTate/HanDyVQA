@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a sandwich change?",
+    "options": [
+        "The sandwich, completely squished, was left on the plate after being held.",
+        "The sandwich, fully consumed, was set aside in the trash after being held.",
+        "The sandwich, half-eaten, remained in place while being held.",
+        "The sandwich, neatly arranged, was returned to the counter after being held.",
+        "The sandwich, with a bite taken out, was turned upside down while being held."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a sandwich change? Choose **only one** option from the following list.\nOptions:\n(A) The sandwich, completely squished, was left on the plate after being held.\n(B) The sandwich, fully consumed, was set aside in the trash after being held.\n(C) The sandwich, half-eaten, remained in place while being held.\n(D) The sandwich, neatly arranged, was returned to the counter after being held.\n(E) The sandwich, with a bite taken out, was turned upside down while being held.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The sandwich, half-eaten, remained in place while being held."
+    },
+    "correct_idx": [
+        2
+    ]
+}

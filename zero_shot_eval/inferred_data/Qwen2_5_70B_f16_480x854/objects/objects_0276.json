@@ -1,0 +1,21 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "scissor",
+        "cloth",
+        "steel bowl",
+        "drill",
+        "screwdriver",
+        "bottle",
+        "screw"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) scissor\n(B) cloth\n(C) steel bowl\n(D) drill\n(E) screwdriver\n(F) bottle\n(G) screw\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(E) Screwdriver\n(G) Screw\n\nAnswer format:\n(E) The person uses a screwdriver to manipulate screws.\n(G) The person handles screws, likely for assembly or repair tasks."
+    },
+    "correct_idx": [
+        2,
+        4,
+        6
+    ]
+}

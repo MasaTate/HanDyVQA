@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the book change?",
+    "options": [
+        "The page of the book was flipped slowly, and the spine was pressed.",
+        "The page of the book was folded, and the edges were marked.",
+        "The book was opened, and the dust cover was taken off.",
+        "The page of the book was torn out, and the back cover was taken off.",
+        "The page of the book was turned rapidly, and the cover was wiped."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the book change? Choose **only one** option from the following list.\nOptions:\n(A) The page of the book was flipped slowly, and the spine was pressed.\n(B) The page of the book was folded, and the edges were marked.\n(C) The book was opened, and the dust cover was taken off.\n(D) The page of the book was torn out, and the back cover was taken off.\n(E) The page of the book was turned rapidly, and the cover was wiped.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The page of the book was turned rapidly, and the cover was wiped."
+    },
+    "correct_idx": [
+        4
+    ]
+}

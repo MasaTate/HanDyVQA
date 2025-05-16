@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "toaster",
+        "tea kittle",
+        "bowl",
+        "door handle",
+        "chopping board",
+        "teacup"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) toaster\n(B) tea kittle\n(C) bowl\n(D) door handle\n(E) chopping board\n(F) teacup\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(C) The hands are seen using a bowl to hold food items while preparing a meal in the kitchen.  \n(D) The hands interact with a door handle to open a cabinet containing dishes and utensils.  "
+    },
+    "correct_idx": [
+        2,
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a bottle from the fridge change?",
+    "options": [
+        "The bottle was picked with the left hand from the center of the third shelf from the top of the refrigerator.",
+        "The bottle was picked with the left hand from the near right side of the third shelf from the top of the refrigerator.",
+        "The bottle was picked with the left hand from the far left side of the third shelf from the top of the refrigerator.",
+        "The bottle was picked with the left hand from the far right side of the fourth shelf from the top of the refrigerator.",
+        "The bottle was picked with the left hand from the far right side of the third shelf from the top of the refrigerator."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a bottle from the fridge change? Choose **only one** option from the following list.\nOptions:\n(A) The bottle was picked with the left hand from the center of the third shelf from the top of the refrigerator.\n(B) The bottle was picked with the left hand from the near right side of the third shelf from the top of the refrigerator.\n(C) The bottle was picked with the left hand from the far left side of the third shelf from the top of the refrigerator.\n(D) The bottle was picked with the left hand from the far right side of the fourth shelf from the top of the refrigerator.\n(E) The bottle was picked with the left hand from the far right side of the third shelf from the top of the refrigerator.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The bottle was picked with the left hand from the near right side of the third shelf from the top of the refrigerator."
+    },
+    "correct_idx": [
+        4
+    ]
+}

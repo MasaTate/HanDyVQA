@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a door change?",
+    "options": [
+        "The door slid from left to right until it partially covered the doorway.",
+        "The door slid from right to left until it completely covered the doorway.",
+        "The door was moved from right to left, leaving the doorway partly open.",
+        "The door slid from right to left until it mostly covered the doorway.",
+        "The door slid from right to left, stopping just before it fully covered the doorway."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a door change? Choose **only one** option from the following list.\nOptions:\n(A) The door slid from left to right until it partially covered the doorway.\n(B) The door slid from right to left until it completely covered the doorway.\n(C) The door was moved from right to left, leaving the doorway partly open.\n(D) The door slid from right to left until it mostly covered the doorway.\n(E) The door slid from right to left, stopping just before it fully covered the doorway.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The door was moved from right to left, leaving the doorway partly open."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person cut the thread with scissors with right hand?",
+    "options": [
+        "The person cuts the thread with scissors by gently applying varying pressure on the handles, carefully managing the blades.",
+        "The person cuts the thread with scissors by holding the handle securely while using the right hand to guide the thread.",
+        "The person cuts the thread with scissors by quickly compressing the fingers in the handle of the scissor.",
+        "The person cuts the thread by carefully adjusting the scissor blades along the thread's path and applying gentle pressure.",
+        "The person cuts the thread with scissors by using the thumb to pivot the handle while the fingers guide the action."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person cut the thread with scissors with right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person cuts the thread with scissors by gently applying varying pressure on the handles, carefully managing the blades.\n(B) The person cuts the thread with scissors by holding the handle securely while using the right hand to guide the thread.\n(C) The person cuts the thread with scissors by quickly compressing the fingers in the handle of the scissor.\n(D) The person cuts the thread by carefully adjusting the scissor blades along the thread's path and applying gentle pressure.\n(E) The person cuts the thread with scissors by using the thumb to pivot the handle while the fingers guide the action.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person cuts the thread with scissors by quickly compressing the fingers in the handle of the scissor."
+    },
+    "correct_idx": [
+        2
+    ]
+}

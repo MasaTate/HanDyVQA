@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the drawing on the ground change?",
+    "options": [
+        "The drawing was partially washed away with water, resulting in a blurred and faded effect on the ground.",
+        "The drawing was completely covered with a layer of dirt, concealing the original colors and details.",
+        "The drawing was carefully sprinkled with colored chalk, adding vibrant hues and textures to the surface.",
+        "The drawing was overlaid with a thick layer of paint, changing its appearance into a solid, opaque surface.",
+        "The drawing was smudged with a cloth, leading to a distorted and unclear representation on the ground."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the drawing on the ground change? Choose **only one** option from the following list.\nOptions:\n(A) The drawing was partially washed away with water, resulting in a blurred and faded effect on the ground.\n(B) The drawing was completely covered with a layer of dirt, concealing the original colors and details.\n(C) The drawing was carefully sprinkled with colored chalk, adding vibrant hues and textures to the surface.\n(D) The drawing was overlaid with a thick layer of paint, changing its appearance into a solid, opaque surface.\n(E) The drawing was smudged with a cloth, leading to a distorted and unclear representation on the ground.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The drawing was carefully sprinkled with colored chalk, adding vibrant hues and textures to the surface."
+    },
+    "correct_idx": [
+        2
+    ]
+}

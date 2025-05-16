@@ -1,0 +1,17 @@
+{
+    "question": "How does the person wash the pot with the sponge in his right hand?",
+    "options": [
+        "The person scrubs the pot closely with the sponge held firmly in both hands.",
+        "The person uses the sponge to spread water around inside the pot.",
+        "The person dabs the sponge gently on the pot while holding it with the left hand as well.",
+        "The person squeezes the sponge over the pot, letting soapy water flow without much cleaning motion.",
+        "The person scrubs the pot vigorously with the sponge to wipe the pot clean using the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person wash the pot with the sponge in his right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person scrubs the pot closely with the sponge held firmly in both hands.\n(B) The person uses the sponge to spread water around inside the pot.\n(C) The person dabs the sponge gently on the pot while holding it with the left hand as well.\n(D) The person squeezes the sponge over the pot, letting soapy water flow without much cleaning motion.\n(E) The person scrubs the pot vigorously with the sponge to wipe the pot clean using the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person scrubs the pot vigorously with the sponge to wipe the pot clean using the right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

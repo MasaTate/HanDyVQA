@@ -1,0 +1,17 @@
+{
+    "question": "How does the person switch the container?",
+    "options": [
+        "The person grabs the container with both hands and lifts it from the countertop, transfers it to their right hand, and then peels off the plastic with their right hand.",
+        "The person nudges the container with their right hand, catching it with their left hand, and then uses their left hand to remove the plastic from the bottom.",
+        "The person picks up the container with their right hand, gently moves it to their left hand, and then begins to remove the plastic wrapper using both hands.",
+        "The person tilts the container slightly while holding it with both hands, allows it to come off the countertop, and then removes the plastic with their right hand.",
+        "The person switches the container from the countertop by lifting it gently with their left hand, smoothly transfers it to their right hand, and while holding the container, uses their left hand to peel off the plastic from the bottom."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person switch the container? Choose **only one** option from the following list.\nOptions:\n(A) The person grabs the container with both hands and lifts it from the countertop, transfers it to their right hand, and then peels off the plastic with their right hand.\n(B) The person nudges the container with their right hand, catching it with their left hand, and then uses their left hand to remove the plastic from the bottom.\n(C) The person picks up the container with their right hand, gently moves it to their left hand, and then begins to remove the plastic wrapper using both hands.\n(D) The person tilts the container slightly while holding it with both hands, allows it to come off the countertop, and then removes the plastic with their right hand.\n(E) The person switches the container from the countertop by lifting it gently with their left hand, smoothly transfers it to their right hand, and while holding the container, uses their left hand to peel off the plastic from the bottom.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person switches the container from the countertop by lifting it gently with their left hand, smoothly transfers it to their right hand, and while holding the container, uses their left hand to peel off the plastic from the bottom."
+    },
+    "correct_idx": [
+        4
+    ]
+}

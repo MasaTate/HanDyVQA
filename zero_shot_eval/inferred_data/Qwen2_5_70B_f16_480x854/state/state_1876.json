@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the thread change?",
+    "options": [
+        "The thread was threaded into the needle, causing a change in position as it passed through the eye of the needle.",
+        "The thread was tangled into a knot, resulting in a change in organization as it became difficult to manage.",
+        "The thread was cut into smaller pieces, leading to a change in length as it became multiple short segments.",
+        "The thread was unwound from a spool, causing a change in arrangement as it became loose and stretched out.",
+        "The thread was dyed a different color, resulting in a change in appearance as it changed from its original shade."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the thread change? Choose **only one** option from the following list.\nOptions:\n(A) The thread was threaded into the needle, causing a change in position as it passed through the eye of the needle.\n(B) The thread was tangled into a knot, resulting in a change in organization as it became difficult to manage.\n(C) The thread was cut into smaller pieces, leading to a change in length as it became multiple short segments.\n(D) The thread was unwound from a spool, causing a change in arrangement as it became loose and stretched out.\n(E) The thread was dyed a different color, resulting in a change in appearance as it changed from its original shade.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The thread was threaded into the needle, causing a change in position as it passed through the eye of the needle."
+    },
+    "correct_idx": [
+        0
+    ]
+}

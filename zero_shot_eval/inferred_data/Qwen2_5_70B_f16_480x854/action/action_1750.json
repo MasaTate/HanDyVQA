@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person rests his right hand on the table while holding his phone with his left hand.",
+        "The person supports himself with his right hand on the counter while stirring a pot with his left hand.",
+        "The person brings his left hand closer to the stand to adjust the picture frame.",
+        "The person sprinkled some water to the side of the frame using his right hand and then he started scrubbing the frame using a sponge in his right hand.",
+        "The person presses his right hand on the shelf while reaching up with his left hand to take a book."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person rests his right hand on the table while holding his phone with his left hand.\n(B) The person supports himself with his right hand on the counter while stirring a pot with his left hand.\n(C) The person brings his left hand closer to the stand to adjust the picture frame.\n(D) The person sprinkled some water to the side of the frame using his right hand and then he started scrubbing the frame using a sponge in his right hand.\n(E) The person presses his right hand on the shelf while reaching up with his left hand to take a book.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person sprinkled some water to the side of the frame using his right hand and then he started scrubbing the frame using a sponge in his right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

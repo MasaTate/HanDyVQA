@@ -1,0 +1,17 @@
+{
+    "question": "How does the person rest his left hand?",
+    "options": [
+        "The person holds their left hand above the metal bar, lowering it slightly while leaning with care.",
+        "The person places their left hand beside the metal bar, resting it gently against the side as if pausing.",
+        "The person brings their left hand down smoothly, setting it gently onto the metal bar with precision.",
+        "The person rests their left hand on top of the metal bar by lowering it gently after retrieving something inside the machine.",
+        "The person positions their left hand behind the metal bar, softly touching it with the fingertips."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person rest his left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person holds their left hand above the metal bar, lowering it slightly while leaning with care.\n(B) The person places their left hand beside the metal bar, resting it gently against the side as if pausing.\n(C) The person brings their left hand down smoothly, setting it gently onto the metal bar with precision.\n(D) The person rests their left hand on top of the metal bar by lowering it gently after retrieving something inside the machine.\n(E) The person positions their left hand behind the metal bar, softly touching it with the fingertips.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person rests their left hand on top of the metal bar by lowering it gently after retrieving something inside the machine."
+    },
+    "correct_idx": [
+        3
+    ]
+}

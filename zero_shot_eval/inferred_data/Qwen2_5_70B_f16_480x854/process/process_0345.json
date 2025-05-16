@@ -1,0 +1,17 @@
+{
+    "question": "How does the person beat the egg?",
+    "options": [
+        "The person lightly taps the egg against the edge of the bowl using a fork in his left hand, while the right hand keeps the bowl steady.",
+        "The person shakes the egg briskly in the bowl using both palms to create a bouncing motion.",
+        "The person rapidly stirs the egg in a circular motion using a chopstick in his right hand, keeping a steady grip on the bowl with his left hand.",
+        "The person uses a whisk in his left hand to jab at the egg while his right hand lifts the bowl.",
+        "The person gently breaks the egg by crushing the yolk with the chopsticks in his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person beat the egg? Choose **only one** option from the following list.\nOptions:\n(A) The person lightly taps the egg against the edge of the bowl using a fork in his left hand, while the right hand keeps the bowl steady.\n(B) The person shakes the egg briskly in the bowl using both palms to create a bouncing motion.\n(C) The person rapidly stirs the egg in a circular motion using a chopstick in his right hand, keeping a steady grip on the bowl with his left hand.\n(D) The person uses a whisk in his left hand to jab at the egg while his right hand lifts the bowl.\n(E) The person gently breaks the egg by crushing the yolk with the chopsticks in his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person rapidly stirs the egg in a circular motion using a chopstick in his right hand, keeping a steady grip on the bowl with his left hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

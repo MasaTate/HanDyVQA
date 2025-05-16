@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is holding a roll of scotch tape in her left hand while placing the tape onto the wall with her right hand.",
+        "The person is pulling off a piece of cello tape from the dispenser with her right hand while holding the empty shelf with her left hand.",
+        "The person is applying the cello tape onto a package with her right hand while holding a pair of scissors in her left hand.",
+        "The person is holding a cello tape in her left hand while putting the tape onto the shelf using her right hand.",
+        "The person is removing the cello tape from the shelf with her right hand while holding the tape dispenser in her left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is holding a roll of scotch tape in her left hand while placing the tape onto the wall with her right hand.\n(B) The person is pulling off a piece of cello tape from the dispenser with her right hand while holding the empty shelf with her left hand.\n(C) The person is applying the cello tape onto a package with her right hand while holding a pair of scissors in her left hand.\n(D) The person is holding a cello tape in her left hand while putting the tape onto the shelf using her right hand.\n(E) The person is removing the cello tape from the shelf with her right hand while holding the tape dispenser in her left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person is holding a cello tape in her left hand while putting the tape onto the shelf using her right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

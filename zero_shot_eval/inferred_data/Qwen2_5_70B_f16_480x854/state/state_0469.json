@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of soup change?",
+    "options": [
+        "The soup was poured into a bowl and swirled with the spoon.",
+        "The soup was left untouched in the pot with the spoon resting on it.",
+        "The soup was ladled into a separate cup without being stirred.",
+        "The soup was stirred and scooped with the spoon.",
+        "The soup was pushed to the side of the pot without being scooped."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of soup change? Choose **only one** option from the following list.\nOptions:\n(A) The soup was poured into a bowl and swirled with the spoon.\n(B) The soup was left untouched in the pot with the spoon resting on it.\n(C) The soup was ladled into a separate cup without being stirred.\n(D) The soup was stirred and scooped with the spoon.\n(E) The soup was pushed to the side of the pot without being scooped.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The soup was stirred and scooped with the spoon."
+    },
+    "correct_idx": [
+        3
+    ]
+}

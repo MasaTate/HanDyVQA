@@ -1,0 +1,17 @@
+{
+    "question": "How does the person screw the cpu?",
+    "options": [
+        "The person uses their left hand to screw the CPU and turns it in a counterclockwise direction.",
+        "Using both hands, the person screws the CPU while rotating it in a counterclockwise motion.",
+        "The person screws the CPU with their right hand, alternating between clockwise and counterclockwise turns.",
+        "The person screws the CPU with their right hand and turns it clockwise.",
+        "The person grips the screwdriver with their right hand and turns it in a counterclockwise direction."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person screw the cpu? Choose **only one** option from the following list.\nOptions:\n(A) The person uses their left hand to screw the CPU and turns it in a counterclockwise direction.\n(B) Using both hands, the person screws the CPU while rotating it in a counterclockwise motion.\n(C) The person screws the CPU with their right hand, alternating between clockwise and counterclockwise turns.\n(D) The person screws the CPU with their right hand and turns it clockwise.\n(E) The person grips the screwdriver with their right hand and turns it in a counterclockwise direction.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person screws the CPU with their right hand and turns it clockwise."
+    },
+    "correct_idx": [
+        3
+    ]
+}

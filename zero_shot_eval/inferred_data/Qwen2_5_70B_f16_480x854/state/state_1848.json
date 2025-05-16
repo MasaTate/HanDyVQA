@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the water bottle change?",
+    "options": [
+        "The water bottle was closed and placed on the table.",
+        "The water bottle was closed and placed on the shelf.",
+        "The water bottle was closed and placed in the refrigerator.",
+        "The water bottle was closed and left on the counter.",
+        "The water bottle was closed and set on the floor."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the water bottle change? Choose **only one** option from the following list.\nOptions:\n(A) The water bottle was closed and placed on the table.\n(B) The water bottle was closed and placed on the shelf.\n(C) The water bottle was closed and placed in the refrigerator.\n(D) The water bottle was closed and left on the counter.\n(E) The water bottle was closed and set on the floor.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The water bottle was closed and placed on the table."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the paintbrush change?",
+    "options": [
+        "The paintbrush was broken off from the painting, put down, and dipped into ink.",
+        "The paintbrush maintained contact with the painting, was lifted slightly, and then dipped into water.",
+        "The paintbrush was lifted from the painting, placed down, and dipped into paint.",
+        "The paintbrush was touched briefly to the canvas, then held in the air without being dipped.",
+        "The paintbrush made contact with the painting, was lifted, and was not dipped into any liquid."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the paintbrush change? Choose **only one** option from the following list.\nOptions:\n(A) The paintbrush was broken off from the painting, put down, and dipped into ink.\n(B) The paintbrush maintained contact with the painting, was lifted slightly, and then dipped into water.\n(C) The paintbrush was lifted from the painting, placed down, and dipped into paint.\n(D) The paintbrush was touched briefly to the canvas, then held in the air without being dipped.\n(E) The paintbrush made contact with the painting, was lifted, and was not dipped into any liquid.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The paintbrush was lifted from the painting, placed down, and dipped into paint."
+    },
+    "correct_idx": [
+        0
+    ]
+}

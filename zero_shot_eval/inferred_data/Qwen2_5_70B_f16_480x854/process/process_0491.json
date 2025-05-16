@@ -1,0 +1,17 @@
+{
+    "question": "How does the person knead the dough on the kneading table?",
+    "options": [
+        "The person kneads the dough on the kneading table by adding flour with his right hand, and then using the dough scraper in her right hand, he gathers any loose bits of dough or flour while simultaneously pressing and folding the dough with his left hand.",
+        "The person kneads the dough by sprinkling flour with his left hand, and then using both hands gently pressing and folding the dough while gathering loose bits.",
+        "The person works the dough by pressing it softly down with his right palm and then folding it over with his left palm, while gently incorporating any loose flour.",
+        "The person kneads the dough by using his left hand to sprinkle additional flour, and then his right hand to smoothly press and roll the dough using a scraper.",
+        "The person gathers the flour closely with a scoop using his right hand and then carefully flattens and folds the dough with the palm of his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person knead the dough on the kneading table? Choose **only one** option from the following list.\nOptions:\n(A) The person kneads the dough on the kneading table by adding flour with his right hand, and then using the dough scraper in her right hand, he gathers any loose bits of dough or flour while simultaneously pressing and folding the dough with his left hand.\n(B) The person kneads the dough by sprinkling flour with his left hand, and then using both hands gently pressing and folding the dough while gathering loose bits.\n(C) The person works the dough by pressing it softly down with his right palm and then folding it over with his left palm, while gently incorporating any loose flour.\n(D) The person kneads the dough by using his left hand to sprinkle additional flour, and then his right hand to smoothly press and roll the dough using a scraper.\n(E) The person gathers the flour closely with a scoop using his right hand and then carefully flattens and folds the dough with the palm of his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person kneads the dough by sprinkling flour with his left hand, and then using both hands gently pressing and folding the dough while gathering loose bits."
+    },
+    "correct_idx": [
+        0
+    ]
+}

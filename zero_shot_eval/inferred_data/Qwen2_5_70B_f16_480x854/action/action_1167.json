@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is lifting the dumbbells with both hands.",
+        "The person is holding the dumbbells with his right hand while balancing on his left foot.",
+        "The person lifts the dumbbells using his left hand.",
+        "The person is using his hands to perform push-ups on the ground.",
+        "The person is lifting a dumbbell with both hands above his head."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is lifting the dumbbells with both hands.\n(B) The person is holding the dumbbells with his right hand while balancing on his left foot.\n(C) The person lifts the dumbbells using his left hand.\n(D) The person is using his hands to perform push-ups on the ground.\n(E) The person is lifting a dumbbell with both hands above his head.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person is lifting the dumbbells with both hands."
+    },
+    "correct_idx": [
+        2
+    ]
+}

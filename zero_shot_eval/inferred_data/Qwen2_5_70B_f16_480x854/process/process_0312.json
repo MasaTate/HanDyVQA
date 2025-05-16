@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pull wool?",
+    "options": [
+        "The person holds the wool with both hands, pulling it evenly and firmly.",
+        "The person grips the wool with their left fingers, gently pulling it in a steady motion.",
+        "The person pinches the edge of the wool with their thumb and forefinger, pulling it slightly.",
+        "The person wraps the wool around their fist, pulling it smoothly with a twist.",
+        "The person drags the wool using the palm of their hand, guiding it carefully."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pull wool? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the wool with both hands, pulling it evenly and firmly.\n(B) The person grips the wool with their left fingers, gently pulling it in a steady motion.\n(C) The person pinches the edge of the wool with their thumb and forefinger, pulling it slightly.\n(D) The person wraps the wool around their fist, pulling it smoothly with a twist.\n(E) The person drags the wool using the palm of their hand, guiding it carefully.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person grips the wool with their left fingers, gently pulling it in a steady motion."
+    },
+    "correct_idx": [
+        1
+    ]
+}

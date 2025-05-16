@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person tightens a bolt on the lawnmower deck with a socket wrench in his right hand while his left hand supports the lawnmower.",
+        "The person removes a nut from the lawnmower handle using the wrench in his right hand while his left hand stabilizes the lawnmower.",
+        "The person adjusts a screw on the lawnmower deck with a screwdriver in his right hand while holding a bolt with his left hand.",
+        "The person is loosening a bolt from the bike frame with the wrench in his right hand while his left hand holds a can of oil.",
+        "The person unscrews a bolt from the lawnmower deck with the wrench in his right hand while his left hand holds a drill."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person tightens a bolt on the lawnmower deck with a socket wrench in his right hand while his left hand supports the lawnmower.\n(B) The person removes a nut from the lawnmower handle using the wrench in his right hand while his left hand stabilizes the lawnmower.\n(C) The person adjusts a screw on the lawnmower deck with a screwdriver in his right hand while holding a bolt with his left hand.\n(D) The person is loosening a bolt from the bike frame with the wrench in his right hand while his left hand holds a can of oil.\n(E) The person unscrews a bolt from the lawnmower deck with the wrench in his right hand while his left hand holds a drill.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person unscrews a bolt from the lawnmower deck with the wrench in his right hand while his left hand holds a drill."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person holds the tap with her hand while drying dishes with a towel.",
+        "The person uses her hand to open the cupboard and stack dishes inside.",
+        "The person opens the dishwasher with her hand to load the dishes inside.",
+        "The person opens the tap with her right hand and pours liquid soap into the sponge to wash the white cup.",
+        "The person wipes the table clean with her hand after a meal."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the tap with her hand while drying dishes with a towel.\n(B) The person uses her hand to open the cupboard and stack dishes inside.\n(C) The person opens the dishwasher with her hand to load the dishes inside.\n(D) The person opens the tap with her right hand and pours liquid soap into the sponge to wash the white cup.\n(E) The person wipes the table clean with her hand after a meal.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person opens the tap with her right hand and pours liquid soap into the sponge to wash the white cup."
+    },
+    "correct_idx": [
+        3
+    ]
+}

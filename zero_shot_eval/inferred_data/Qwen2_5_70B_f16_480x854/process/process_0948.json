@@ -1,0 +1,17 @@
+{
+    "question": "How does the person screw lug bolt?",
+    "options": [
+        "The person uses both hands to turn a lug bolt, moving it in a counterclockwise direction.",
+        "The person uses his left hand to hold the lug bolt steady and applies force with the right hand, moving it downward.",
+        "The person screws a lug bolt using only his right hand while rotating it in a clockwise direction.",
+        "The person screws a lug bolt with his left hand and twists it back and forth rather than in a steady direction.",
+        "The person grips a lug bolt with two fingers of the right hand and pushes it straight down instead of rotating."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person screw lug bolt? Choose **only one** option from the following list.\nOptions:\n(A) The person uses both hands to turn a lug bolt, moving it in a counterclockwise direction.\n(B) The person uses his left hand to hold the lug bolt steady and applies force with the right hand, moving it downward.\n(C) The person screws a lug bolt using only his right hand while rotating it in a clockwise direction.\n(D) The person screws a lug bolt with his left hand and twists it back and forth rather than in a steady direction.\n(E) The person grips a lug bolt with two fingers of the right hand and pushes it straight down instead of rotating.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person uses his left hand to hold the lug bolt steady and applies force with the right hand, moving it downward."
+    },
+    "correct_idx": [
+        2
+    ]
+}

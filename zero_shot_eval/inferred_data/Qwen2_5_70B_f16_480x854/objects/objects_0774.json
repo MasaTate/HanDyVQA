@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "hammer",
+        "socket wrench",
+        "drawer",
+        "screwdriver",
+        "toolbox. ",
+        "pliers"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) hammer\n(B) socket wrench\n(C) drawer\n(D) screwdriver\n(E) toolbox. \n(F) pliers\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(B) socket wrench  \n(C) drawer  \n\nThe person in the video uses their hands to open a drawer containing various tools, including socket wrenches. They then select a socket wrench from the drawer and use it. The other options do not apply based on the visible actions in the video."
+    },
+    "correct_idx": [
+        1,
+        2
+    ]
+}

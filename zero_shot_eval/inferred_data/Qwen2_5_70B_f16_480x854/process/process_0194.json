@@ -1,0 +1,17 @@
+{
+    "question": "How does the person operate the phone?",
+    "options": [
+        "The person taps the phone screen using his right hand while holding the phone with both hands.",
+        "The person operates the phone by swiping its screen with his right hand while holding it in his left hand.",
+        "The person grips the phone with both hands and uses the buttons as well as swiping the screen.",
+        "The person uses his left hand to swipe the phone screen while supporting it with his left hand.",
+        "The person holds the phone in his right hand and moves it to operate the screen with his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person operate the phone? Choose **only one** option from the following list.\nOptions:\n(A) The person taps the phone screen using his right hand while holding the phone with both hands.\n(B) The person operates the phone by swiping its screen with his right hand while holding it in his left hand.\n(C) The person grips the phone with both hands and uses the buttons as well as swiping the screen.\n(D) The person uses his left hand to swipe the phone screen while supporting it with his left hand.\n(E) The person holds the phone in his right hand and moves it to operate the screen with his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person taps the phone screen using his right hand while holding the phone with both hands."
+    },
+    "correct_idx": [
+        1
+    ]
+}

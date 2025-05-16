@@ -1,0 +1,17 @@
+{
+    "question": "How does the person move his hands?",
+    "options": [
+        "The person gently pushes the refrigerator door closed with her hand and swings her left arm forward towards the edge of the countertop.",
+        "The person smoothly closes the refrigerator door and moves her left hand slightly forward to rest on the countertop.",
+        "The person closes the refrigerator with her hand and sways her left hand forward, palm facing, to touch and lean on the edge of the countertop.",
+        "The person softly nudges the refrigerator shut and brings her left hand forward to the countertop, palm facing it.",
+        "The person carefully closes the fridge with her hand and extends her left hand to make contact with the countertop."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person move his hands? Choose **only one** option from the following list.\nOptions:\n(A) The person gently pushes the refrigerator door closed with her hand and swings her left arm forward towards the edge of the countertop.\n(B) The person smoothly closes the refrigerator door and moves her left hand slightly forward to rest on the countertop.\n(C) The person closes the refrigerator with her hand and sways her left hand forward, palm facing, to touch and lean on the edge of the countertop.\n(D) The person softly nudges the refrigerator shut and brings her left hand forward to the countertop, palm facing it.\n(E) The person carefully closes the fridge with her hand and extends her left hand to make contact with the countertop.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person closes the refrigerator with her hand and sways her left hand forward, palm facing, to touch and lean on the edge of the countertop."
+    },
+    "correct_idx": [
+        2
+    ]
+}

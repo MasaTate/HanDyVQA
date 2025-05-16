@@ -1,0 +1,17 @@
+{
+    "question": "How does the person insert the screw?",
+    "options": [
+        "The person tries to insert the screw by gripping it in their right hand, misaligning it slightly with the wrench as they attempt to fit it in place.",
+        "The person inserts the screw by tossing it gently towards the socket wrench, hoping it will fit accurately.",
+        "The person holds the screw between the fingers of their right hand, attempting to place it into the wrench while checking alignment carefully.",
+        "The person pushes the screw into the socket wrench using both hands, taking a moment to verify the alignment for accuracy.",
+        "The person inserts the screw by holding it in their left hand, aligning it carefully with the deep socket of the socket wrench, and using their right hand to guide the wrench into position with precise, steady motion."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person insert the screw? Choose **only one** option from the following list.\nOptions:\n(A) The person tries to insert the screw by gripping it in their right hand, misaligning it slightly with the wrench as they attempt to fit it in place.\n(B) The person inserts the screw by tossing it gently towards the socket wrench, hoping it will fit accurately.\n(C) The person holds the screw between the fingers of their right hand, attempting to place it into the wrench while checking alignment carefully.\n(D) The person pushes the screw into the socket wrench using both hands, taking a moment to verify the alignment for accuracy.\n(E) The person inserts the screw by holding it in their left hand, aligning it carefully with the deep socket of the socket wrench, and using their right hand to guide the wrench into position with precise, steady motion.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person inserts the screw by holding it in their left hand, aligning it carefully with the deep socket of the socket wrench, and using their right hand to guide the wrench into position with precise, steady motion."
+    },
+    "correct_idx": [
+        4
+    ]
+}

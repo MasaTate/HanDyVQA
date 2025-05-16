@@ -1,0 +1,17 @@
+{
+    "question": "How does the person rinse her right hand?",
+    "options": [
+        "The person rinses her right hand by splashing water onto it with her left hand, not placing it directly under the faucet.",
+        "The person rinses her right hand by gently dipping it into a bowl of water, rather than using a running tap.",
+        "The person rinses her right hand by positioning it under the running water in the sink, adjusting the angle to ensure even coverage, then shakes her hand briskly to remove any excess water.",
+        "The person rinses her right hand by holding it still under a slow stream of water, then wipes the water off with a towel rather than shaking.",
+        "The person rinses her right hand by resting it flat on the edge of the sink as water runs over it, without adjusting the angle for full coverage."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person rinse her right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person rinses her right hand by splashing water onto it with her left hand, not placing it directly under the faucet.\n(B) The person rinses her right hand by gently dipping it into a bowl of water, rather than using a running tap.\n(C) The person rinses her right hand by positioning it under the running water in the sink, adjusting the angle to ensure even coverage, then shakes her hand briskly to remove any excess water.\n(D) The person rinses her right hand by holding it still under a slow stream of water, then wipes the water off with a towel rather than shaking.\n(E) The person rinses her right hand by resting it flat on the edge of the sink as water runs over it, without adjusting the angle for full coverage.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person rinses her right hand by positioning it under the running water in the sink, adjusting the angle to ensure even coverage, then shakes her hand briskly to remove any excess water."
+    },
+    "correct_idx": [
+        2
+    ]
+}

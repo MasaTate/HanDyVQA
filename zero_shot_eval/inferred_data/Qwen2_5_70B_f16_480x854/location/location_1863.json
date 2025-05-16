@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place some screws?",
+    "options": [
+        "The person places screws next to the toolbox.",
+        "The person places screws on top of the fuse box.",
+        "The person places screws underneath the workbench.",
+        "The person places screws on top of the refrigerator.",
+        "The person places screws against the wall beside the window."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place some screws? Choose **only one** option from the following list.\nOptions:\n(A) The person places screws next to the toolbox.\n(B) The person places screws on top of the fuse box.\n(C) The person places screws underneath the workbench.\n(D) The person places screws on top of the refrigerator.\n(E) The person places screws against the wall beside the window.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person places screws on top of the fuse box."
+    },
+    "correct_idx": [
+        1
+    ]
+}

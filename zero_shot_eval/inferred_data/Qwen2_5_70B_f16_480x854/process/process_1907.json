@@ -1,0 +1,17 @@
+{
+    "question": "How does the person smoothen the piece of wood on the black plate with the sander machine?",
+    "options": [
+        "The person holds the piece of wood with both hands and moves it side to side while applying gentle pressure with the sander machine.",
+        "The person balances the piece of wood on the edge of the black plate and uses the sander machine with one hand, smoothly guiding it over the surface.",
+        "The person put the sander machine with the left hand over the wood in the right hand and applied smooth, consistent pressure over the surface back and forth three times.",
+        "The person grips the piece of wood with the left hand and applies the sander machine against it with the right hand, maintaining contact with the plate throughout.",
+        "The person places the piece of wood on the sandpaper and guides the sander machine with both hands, moving it smoothly back and forth."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person smoothen the piece of wood on the black plate with the sander machine? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the piece of wood with both hands and moves it side to side while applying gentle pressure with the sander machine.\n(B) The person balances the piece of wood on the edge of the black plate and uses the sander machine with one hand, smoothly guiding it over the surface.\n(C) The person put the sander machine with the left hand over the wood in the right hand and applied smooth, consistent pressure over the surface back and forth three times.\n(D) The person grips the piece of wood with the left hand and applies the sander machine against it with the right hand, maintaining contact with the plate throughout.\n(E) The person places the piece of wood on the sandpaper and guides the sander machine with both hands, moving it smoothly back and forth.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person places the piece of wood on the sandpaper and guides the sander machine with both hands, moving it smoothly back and forth."
+    },
+    "correct_idx": [
+        2
+    ]
+}

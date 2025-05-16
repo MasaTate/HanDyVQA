@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person dusts the chair of a lawnmower with his right hand.",
+        "The person wipes the seat of a bicycle with his right hand.",
+        "The person cleans the handlebars of a lawnmower with his right hand.",
+        "The person oils the wheels of a lawnmower with his right hand.",
+        "The person sharpens the blades of a lawnmower with his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person dusts the chair of a lawnmower with his right hand.\n(B) The person wipes the seat of a bicycle with his right hand.\n(C) The person cleans the handlebars of a lawnmower with his right hand.\n(D) The person oils the wheels of a lawnmower with his right hand.\n(E) The person sharpens the blades of a lawnmower with his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person dusts the chair of a lawnmower with his right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

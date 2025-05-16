@@ -1,0 +1,17 @@
+{
+    "question": "How does the person touch his pocket?",
+    "options": [
+        "The person brushes his hand against his pocket gently using his palm.",
+        "The person grabs the edge of his pocket with his left hand and pulls it outward slightly.",
+        "The person pokes his pocket softly with two fingers from his right hand.",
+        "The person touches his pocket by tapping it lightly using his right hand.",
+        "The person clenches his fist and taps it against his pocket with a soft motion."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person touch his pocket? Choose **only one** option from the following list.\nOptions:\n(A) The person brushes his hand against his pocket gently using his palm.\n(B) The person grabs the edge of his pocket with his left hand and pulls it outward slightly.\n(C) The person pokes his pocket softly with two fingers from his right hand.\n(D) The person touches his pocket by tapping it lightly using his right hand.\n(E) The person clenches his fist and taps it against his pocket with a soft motion.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person touches his pocket by tapping it lightly using his right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

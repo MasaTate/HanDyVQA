@@ -1,0 +1,17 @@
+{
+    "question": "How does the person dispose the unwanted part of the onion into the waste nylon?",
+    "options": [
+        "The person uses his right hand to hold the unwanted part of the onion firmly, then tosses it gently into the waste nylon, with some pieces landing outside.",
+        "The person pinches the unwanted part of the onion with two fingers in his right hand and lightly moves it into the waste nylon, without focusing on where it goes.",
+        "The person places the unwanted part of the onion on the edge of the waste nylon with his right hand and nudges it softly, letting it slide off rather than dropping it directly.",
+        "The person grabs the unwanted part of the onion with his left hand, moves it over the waste nylon, tilts it slightly, and quickly releases it to drop it inside without spilling.",
+        "The person holds the unwanted part of the onion with both hands, applies pressure, and nudges it toward the waste nylon while adjusting it at an awkward angle."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person dispose the unwanted part of the onion into the waste nylon? Choose **only one** option from the following list.\nOptions:\n(A) The person uses his right hand to hold the unwanted part of the onion firmly, then tosses it gently into the waste nylon, with some pieces landing outside.\n(B) The person pinches the unwanted part of the onion with two fingers in his right hand and lightly moves it into the waste nylon, without focusing on where it goes.\n(C) The person places the unwanted part of the onion on the edge of the waste nylon with his right hand and nudges it softly, letting it slide off rather than dropping it directly.\n(D) The person grabs the unwanted part of the onion with his left hand, moves it over the waste nylon, tilts it slightly, and quickly releases it to drop it inside without spilling.\n(E) The person holds the unwanted part of the onion with both hands, applies pressure, and nudges it toward the waste nylon while adjusting it at an awkward angle.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person grabs the unwanted part of the onion with his left hand, moves it over the waste nylon, tilts it slightly, and quickly releases it to drop it inside without spilling."
+    },
+    "correct_idx": [
+        3
+    ]
+}

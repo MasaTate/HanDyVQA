@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place her right hand?",
+    "options": [
+        "The person places her right hand on the side of the mold.",
+        "The person places her right hand under the mold.",
+        "The person places her right hand on the edge of the mold.",
+        "The person places her right hand on the top of the mold.",
+        "The person places her right hand along the bottom of the mold."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place her right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person places her right hand on the side of the mold.\n(B) The person places her right hand under the mold.\n(C) The person places her right hand on the edge of the mold.\n(D) The person places her right hand on the top of the mold.\n(E) The person places her right hand along the bottom of the mold.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person places her right hand on the edge of the mold."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "keyboard",
+        "fire extingiusher ",
+        "welding machine",
+        "plastic bag",
+        "carton",
+        "broom"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) keyboard\n(B) fire extingiusher \n(C) welding machine\n(D) plastic bag\n(E) carton\n(F) broom\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(D) plastic bag  \n(E) carton  \n\nThe person in the video is using their hands to open a carton box and then handle a plastic bag containing an item. The keyboard is present on the workbench but not being actively used by the hands in this specific sequence. There is no fire extinguisher, welding machine, or broom visible or being used in the video."
+    },
+    "correct_idx": [
+        3,
+        4
+    ]
+}

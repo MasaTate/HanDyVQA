@@ -1,0 +1,17 @@
+{
+    "question": "How does the person shift a battery on the workshop table?",
+    "options": [
+        "The person is gripping the head of the battery and slides it up to the top of the table using the right hand.",
+        "The person holds the battery with both hands and lifts it slightly off the table, moving it upwards.",
+        "The person pushes the battery gently on the table's surface with an open palm of the left hand.",
+        "The person moves the battery along the table with a light flick of the right hand.",
+        "The person nudges the battery from the side with the right hand, making it shift slightly instead of lifting."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person shift a battery on the workshop table? Choose **only one** option from the following list.\nOptions:\n(A) The person is gripping the head of the battery and slides it up to the top of the table using the right hand.\n(B) The person holds the battery with both hands and lifts it slightly off the table, moving it upwards.\n(C) The person pushes the battery gently on the table's surface with an open palm of the left hand.\n(D) The person moves the battery along the table with a light flick of the right hand.\n(E) The person nudges the battery from the side with the right hand, making it shift slightly instead of lifting.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person nudges the battery from the side with the right hand, making it shift slightly instead of lifting."
+    },
+    "correct_idx": [
+        0
+    ]
+}

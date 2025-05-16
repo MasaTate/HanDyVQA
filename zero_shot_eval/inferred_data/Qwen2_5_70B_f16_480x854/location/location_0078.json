@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move a small metal bar?",
+    "options": [
+        "The person moved the small metal bar to the left of the car lift.",
+        "The person moved the small metal bar in front of the car lift.",
+        "The person moved the small metal bar behind the car lift.",
+        "The person moved the small metal bar to the left side of the garage.",
+        "The person moved the small metal bar to the right of the car lift."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move a small metal bar? Choose **only one** option from the following list.\nOptions:\n(A) The person moved the small metal bar to the left of the car lift.\n(B) The person moved the small metal bar in front of the car lift.\n(C) The person moved the small metal bar behind the car lift.\n(D) The person moved the small metal bar to the left side of the garage.\n(E) The person moved the small metal bar to the right of the car lift.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person moved the small metal bar to the right of the car lift."
+    },
+    "correct_idx": [
+        4
+    ]
+}

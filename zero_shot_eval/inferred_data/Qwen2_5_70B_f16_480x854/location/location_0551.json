@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the glass bottle?",
+    "options": [
+        "The person drops the glass bottle on the counter next to the refrigerator.",
+        "The person drops the glass bottle on the floor beside the refrigerator.",
+        "The person drops the glass bottle on the shelf inside the refrigerator.",
+        "The person drops the glass bottle on the shelf above the refrigerator.",
+        "The person drops the glass bottle on the table in front of the refrigerator."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the glass bottle? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the glass bottle on the counter next to the refrigerator.\n(B) The person drops the glass bottle on the floor beside the refrigerator.\n(C) The person drops the glass bottle on the shelf inside the refrigerator.\n(D) The person drops the glass bottle on the shelf above the refrigerator.\n(E) The person drops the glass bottle on the table in front of the refrigerator.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person drops the glass bottle on the shelf inside the refrigerator."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a piece with a knitting needle change?",
+    "options": [
+        "The piece with the knitting needle was placed onto the table.",
+        "The piece with the knitting needle was passed to the left hand.",
+        "The piece with the knitting needle was wrapped around the needle.",
+        "The piece with the knitting needle was taken away from the needle.",
+        "The piece with the knitting needle was raised from the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a piece with a knitting needle change? Choose **only one** option from the following list.\nOptions:\n(A) The piece with the knitting needle was placed onto the table.\n(B) The piece with the knitting needle was passed to the left hand.\n(C) The piece with the knitting needle was wrapped around the needle.\n(D) The piece with the knitting needle was taken away from the needle.\n(E) The piece with the knitting needle was raised from the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The piece with the knitting needle was passed to the left hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

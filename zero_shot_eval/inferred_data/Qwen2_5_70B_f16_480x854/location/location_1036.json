@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the caliper?",
+    "options": [
+        "The person placed the caliper on the shelf at the lower section of the cabinet.",
+        "The person placed the caliper in a drawer at the middle level of the cabinet.",
+        "The person placed the caliper on top of the cabinet near the back edge.",
+        "The person placed the caliper inside the toolbox below the cabinet.",
+        "The person placed the caliper inside its case at the upper portion of the cabinet."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the caliper? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the caliper on the shelf at the lower section of the cabinet.\n(B) The person placed the caliper in a drawer at the middle level of the cabinet.\n(C) The person placed the caliper on top of the cabinet near the back edge.\n(D) The person placed the caliper inside the toolbox below the cabinet.\n(E) The person placed the caliper inside its case at the upper portion of the cabinet.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person placed the caliper inside its case at the upper portion of the cabinet."
+    },
+    "correct_idx": [
+        4
+    ]
+}

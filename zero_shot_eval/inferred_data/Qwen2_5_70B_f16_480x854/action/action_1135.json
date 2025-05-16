@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person removes a pack of food from the fridge using his right hand, transfers it to his left hand, then pushes the drawer back.",
+        "The person is taking a bottle of juice from the fridge using his right hand, passing it to his left, then closing the fridge door.",
+        "The person is pulling a container of leftovers from the fridge using his right hand, shifting it to his left, then shutting the refrigerator.",
+        "The person is reaching for a pack of food in the pantry using his right hand, moving it to his left, then placing it on the counter.",
+        "The person is grabbing a box of snacks from the fridge using his right hand, transferring it to his left hand, then closing the fridge with his hip."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person removes a pack of food from the fridge using his right hand, transfers it to his left hand, then pushes the drawer back.\n(B) The person is taking a bottle of juice from the fridge using his right hand, passing it to his left, then closing the fridge door.\n(C) The person is pulling a container of leftovers from the fridge using his right hand, shifting it to his left, then shutting the refrigerator.\n(D) The person is reaching for a pack of food in the pantry using his right hand, moving it to his left, then placing it on the counter.\n(E) The person is grabbing a box of snacks from the fridge using his right hand, transferring it to his left hand, then closing the fridge with his hip.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person removes a pack of food from the fridge using his right hand, transfers it to his left hand, then pushes the drawer back."
+    },
+    "correct_idx": [
+        0
+    ]
+}

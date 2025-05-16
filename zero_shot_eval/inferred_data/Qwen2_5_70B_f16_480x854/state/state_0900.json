@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the tablet computer change?",
+    "options": [
+        "The tablet was tapped and scrolled up.",
+        "The tablet was tapped and swiped to the left.",
+        "The tablet was tapped and scrolled down.",
+        "The tablet was tapped and the screen dimmed.",
+        "The tablet was tapped and the keyboard appeared."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the tablet computer change? Choose **only one** option from the following list.\nOptions:\n(A) The tablet was tapped and scrolled up.\n(B) The tablet was tapped and swiped to the left.\n(C) The tablet was tapped and scrolled down.\n(D) The tablet was tapped and the screen dimmed.\n(E) The tablet was tapped and the keyboard appeared.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The tablet was tapped and scrolled up."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the clip change?",
+    "options": [
+        "The clip snapped away from the slot on the laptop and fell to the floor.",
+        "The clip clicked into place as it was reattached to the slot on the side of the laptop.",
+        "The clip twisted until it broke and no longer fit in the slot.",
+        "The clip bent out of shape when it was forcefully removed from the laptop.",
+        "The clip was pressed down until it became lodged in the slot on the laptop."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the clip change? Choose **only one** option from the following list.\nOptions:\n(A) The clip snapped away from the slot on the laptop and fell to the floor.\n(B) The clip clicked into place as it was reattached to the slot on the side of the laptop.\n(C) The clip twisted until it broke and no longer fit in the slot.\n(D) The clip bent out of shape when it was forcefully removed from the laptop.\n(E) The clip was pressed down until it became lodged in the slot on the laptop.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The clip clicked into place as it was reattached to the slot on the side of the laptop."
+    },
+    "correct_idx": [
+        1
+    ]
+}

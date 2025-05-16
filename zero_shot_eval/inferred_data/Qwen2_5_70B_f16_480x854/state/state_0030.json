@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the earpiece change?",
+    "options": [
+        "The earpiece was plugged in to be used.",
+        "The earpiece was held in hand to listen to music.",
+        "The earpiece was placed in a charging case to recharge it.",
+        "The earpiece was removed from the ear to take a phone call.",
+        "The earpiece was connected via Bluetooth to a device."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the earpiece change? Choose **only one** option from the following list.\nOptions:\n(A) The earpiece was plugged in to be used.\n(B) The earpiece was held in hand to listen to music.\n(C) The earpiece was placed in a charging case to recharge it.\n(D) The earpiece was removed from the ear to take a phone call.\n(E) The earpiece was connected via Bluetooth to a device.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The earpiece was plugged in to be used."
+    },
+    "correct_idx": [
+        0
+    ]
+}

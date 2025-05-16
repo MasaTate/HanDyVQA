@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person places the jigsaw on the workbench with his left hand while handling the power cord with his right hand.",
+        "The person secures the jigsaw on the cutting machine using both hands, ensuring it is held firmly in place.",
+        "The person removes the jigsaw from the shelf with his right hand before setting it down on the cutting machine with his left hand.",
+        "The person puts the jigsaw on the cutting table with his right hand.",
+        "The person picks up the jigsaw from the floor with his right hand while steadying the cutting machine with his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person places the jigsaw on the workbench with his left hand while handling the power cord with his right hand.\n(B) The person secures the jigsaw on the cutting machine using both hands, ensuring it is held firmly in place.\n(C) The person removes the jigsaw from the shelf with his right hand before setting it down on the cutting machine with his left hand.\n(D) The person puts the jigsaw on the cutting table with his right hand.\n(E) The person picks up the jigsaw from the floor with his right hand while steadying the cutting machine with his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person puts the jigsaw on the cutting table with his right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

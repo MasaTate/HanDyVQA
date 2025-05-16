@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the sleeve of his shirt change?",
+    "options": [
+        "The sleeve of his shirt was torn at the seam.",
+        "The sleeve of his shirt was stained with ink.",
+        "The sleeve of his shirt was rolled up.",
+        "The sleeve of his shirt was removed entirely.",
+        "The sleeve of his shirt was pulled down."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the sleeve of his shirt change? Choose **only one** option from the following list.\nOptions:\n(A) The sleeve of his shirt was torn at the seam.\n(B) The sleeve of his shirt was stained with ink.\n(C) The sleeve of his shirt was rolled up.\n(D) The sleeve of his shirt was removed entirely.\n(E) The sleeve of his shirt was pulled down.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The sleeve of his shirt was rolled up."
+    },
+    "correct_idx": [
+        2
+    ]
+}

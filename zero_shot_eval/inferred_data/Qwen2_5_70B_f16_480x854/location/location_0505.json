@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place his left hand?",
+    "options": [
+        "The person puts his left hand on a pot filled with soil.",
+        "The person places his left hand on an empty pot.",
+        "The person puts his left hand on the glass bottle.",
+        "The person places his left hand on a plastic cup.",
+        "The person puts his left hand on the dried leaves."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place his left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person puts his left hand on a pot filled with soil.\n(B) The person places his left hand on an empty pot.\n(C) The person puts his left hand on the glass bottle.\n(D) The person places his left hand on a plastic cup.\n(E) The person puts his left hand on the dried leaves.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person puts his left hand on a pot filled with soil."
+    },
+    "correct_idx": [
+        0
+    ]
+}

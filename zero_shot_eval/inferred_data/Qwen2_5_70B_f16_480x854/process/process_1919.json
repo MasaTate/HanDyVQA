@@ -1,0 +1,17 @@
+{
+    "question": "How does the person separate the buckets?",
+    "options": [
+        "The person pulls the two buckets apart using both hands, steadily moving them away from each other.",
+        "The person lifts the two buckets inserted into each other with the left hand and pushes the bucket on the bottom in a twisting manner using the right hand to separate them.",
+        "The person tips the buckets slightly, allowing their weight to help separate them while holding them by the rim with both hands.",
+        "The person holds one bucket steady with the right hand and gently pulls the other bucket upwards with the left hand.",
+        "The person uses one hand to grip the top bucket and moves it gently to try to dislodge the bottom bucket."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person separate the buckets? Choose **only one** option from the following list.\nOptions:\n(A) The person pulls the two buckets apart using both hands, steadily moving them away from each other.\n(B) The person lifts the two buckets inserted into each other with the left hand and pushes the bucket on the bottom in a twisting manner using the right hand to separate them.\n(C) The person tips the buckets slightly, allowing their weight to help separate them while holding them by the rim with both hands.\n(D) The person holds one bucket steady with the right hand and gently pulls the other bucket upwards with the left hand.\n(E) The person uses one hand to grip the top bucket and moves it gently to try to dislodge the bottom bucket.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person lifts the two buckets inserted into each other with the left hand and pushes the bucket on the bottom in a twisting manner using the right hand to separate them."
+    },
+    "correct_idx": [
+        1
+    ]
+}

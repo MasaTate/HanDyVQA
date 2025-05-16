@@ -1,0 +1,17 @@
+{
+    "question": "How does the person turn the pressure sprayer in the bicycle wash?",
+    "options": [
+        "The person twists the nozzle of the pressure sprayer in his left hand while aiming it at the bicycle.",
+        "The person holds the pressure sprayer comfortably in his right hand and presses a button to release the liquid.",
+        "The person turns the pressure sprayer in the bicycle wash to the left using his right hand, then presses it to release liquid onto the brush.",
+        "The person carefully lifts the pressure sprayer with both hands and sprays downward onto the bicycle.",
+        "The person leans over slightly, supporting the pressure sprayer with his knee while using his right hand to press the trigger."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person turn the pressure sprayer in the bicycle wash? Choose **only one** option from the following list.\nOptions:\n(A) The person twists the nozzle of the pressure sprayer in his left hand while aiming it at the bicycle.\n(B) The person holds the pressure sprayer comfortably in his right hand and presses a button to release the liquid.\n(C) The person turns the pressure sprayer in the bicycle wash to the left using his right hand, then presses it to release liquid onto the brush.\n(D) The person carefully lifts the pressure sprayer with both hands and sprays downward onto the bicycle.\n(E) The person leans over slightly, supporting the pressure sprayer with his knee while using his right hand to press the trigger.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person turns the pressure sprayer in the bicycle wash to the left using his right hand, then presses it to release liquid onto the brush."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person rinse her left hand?",
+    "options": [
+        "The person rubs her left hand with her right hand while rinsing it with water and liquid soap.",
+        "The person rubs her left hand against the metal sink using water only, without any soap.",
+        "The person splashes water onto her left hand while keeping her right hand still and not using soap.",
+        "The person holds her left hand under running water and wipes it with a towel without using soap.",
+        "The person pours soap on her right hand with her left hand and does not rinse her left hand with water."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person rinse her left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person rubs her left hand with her right hand while rinsing it with water and liquid soap.\n(B) The person rubs her left hand against the metal sink using water only, without any soap.\n(C) The person splashes water onto her left hand while keeping her right hand still and not using soap.\n(D) The person holds her left hand under running water and wipes it with a towel without using soap.\n(E) The person pours soap on her right hand with her left hand and does not rinse her left hand with water.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person rubs her left hand with her right hand while rinsing it with water and liquid soap."
+    },
+    "correct_idx": [
+        0
+    ]
+}

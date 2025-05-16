@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person adjusts the volume on the car radio using their right hand while holding the phone with their left hand.",
+        "The person uses their right hand to play music on the car media player while holding the phone in the same hand.",
+        "The person browses through playlists on the car media player with their left hand while gripping the steering wheel with the right hand.",
+        "The person selects a song on the car media player with their right hand while holding a drink in the same hand.",
+        "The person plays a podcast on the car media player using their right hand while resting the phone on their lap."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person adjusts the volume on the car radio using their right hand while holding the phone with their left hand.\n(B) The person uses their right hand to play music on the car media player while holding the phone in the same hand.\n(C) The person browses through playlists on the car media player with their left hand while gripping the steering wheel with the right hand.\n(D) The person selects a song on the car media player with their right hand while holding a drink in the same hand.\n(E) The person plays a podcast on the car media player using their right hand while resting the phone on their lap.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person uses their right hand to play music on the car media player while holding the phone in the same hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

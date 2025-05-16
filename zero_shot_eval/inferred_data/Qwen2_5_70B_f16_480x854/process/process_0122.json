@@ -1,0 +1,17 @@
+{
+    "question": "How does the person release the object?",
+    "options": [
+        "The person gently flicks his wrist, which allows the tent's edge to move slightly away from his grasp.",
+        "The person releases the object with a smooth motion using both hands, allowing the tent's edge to roll across the table.",
+        "The person clenches his fist for a moment and smoothly moves his hand aside, which lets the tent's edge fall gently.",
+        "The person opens his left hand slightly and loosens his grip, allowing the tent's edge to rest in its position.",
+        "The person raises his hand to release the object slowly, allowing the tent's edge to lower onto the ground."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person release the object? Choose **only one** option from the following list.\nOptions:\n(A) The person gently flicks his wrist, which allows the tent's edge to move slightly away from his grasp.\n(B) The person releases the object with a smooth motion using both hands, allowing the tent's edge to roll across the table.\n(C) The person clenches his fist for a moment and smoothly moves his hand aside, which lets the tent's edge fall gently.\n(D) The person opens his left hand slightly and loosens his grip, allowing the tent's edge to rest in its position.\n(E) The person raises his hand to release the object slowly, allowing the tent's edge to lower onto the ground.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person raises his hand to release the object slowly, allowing the tent's edge to lower onto the ground."
+    },
+    "correct_idx": [
+        3
+    ]
+}

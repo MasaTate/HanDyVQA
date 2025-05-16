@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the faucet change?",
+    "options": [
+        "The faucet spray head was moved back to its base after washing the sink.",
+        "The faucet spray head was left outside of its base after rinsing dishes.",
+        "The faucet spray head was positioned halfway back to its base after being used.",
+        "The faucet spray head was placed at the edge of the sink rather than its base.",
+        "The faucet spray head was detached and set aside instead of returned to the base."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the faucet change? Choose **only one** option from the following list.\nOptions:\n(A) The faucet spray head was moved back to its base after washing the sink.\n(B) The faucet spray head was left outside of its base after rinsing dishes.\n(C) The faucet spray head was positioned halfway back to its base after being used.\n(D) The faucet spray head was placed at the edge of the sink rather than its base.\n(E) The faucet spray head was detached and set aside instead of returned to the base.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The faucet spray head was moved back to its base after washing the sink."
+    },
+    "correct_idx": [
+        0
+    ]
+}

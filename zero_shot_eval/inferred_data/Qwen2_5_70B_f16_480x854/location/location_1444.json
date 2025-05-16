@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person return the kitchen utensil?",
+    "options": [
+        "The person returns the kitchen utensil on the counter next to the sink.",
+        "The person returns the kitchen utensil inside the drawer next to the stove.",
+        "The person returns the kitchen utensil inside the dish organizer.",
+        "The person returns the kitchen utensil on the shelf above the refrigerator.",
+        "The person returns the kitchen utensil inside the cupboard by the dining table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person return the kitchen utensil? Choose **only one** option from the following list.\nOptions:\n(A) The person returns the kitchen utensil on the counter next to the sink.\n(B) The person returns the kitchen utensil inside the drawer next to the stove.\n(C) The person returns the kitchen utensil inside the dish organizer.\n(D) The person returns the kitchen utensil on the shelf above the refrigerator.\n(E) The person returns the kitchen utensil inside the cupboard by the dining table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person returns the kitchen utensil inside the dish organizer."
+    },
+    "correct_idx": [
+        2
+    ]
+}

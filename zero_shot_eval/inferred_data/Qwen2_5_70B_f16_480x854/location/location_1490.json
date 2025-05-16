@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the lump of dough?",
+    "options": [
+        "The person drops the lump of dough onto the wooden cutting board.",
+        "The person drops the lump of dough onto the countertop next to the bowl.",
+        "The person drops the lump of dough into the plastic mixing bowl.",
+        "The person drops the lump of dough onto the marble surface beside the bowl.",
+        "The person drops the lump of dough back into the stainless steel bowl."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the lump of dough? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the lump of dough onto the wooden cutting board.\n(B) The person drops the lump of dough onto the countertop next to the bowl.\n(C) The person drops the lump of dough into the plastic mixing bowl.\n(D) The person drops the lump of dough onto the marble surface beside the bowl.\n(E) The person drops the lump of dough back into the stainless steel bowl.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person drops the lump of dough back into the stainless steel bowl."
+    },
+    "correct_idx": [
+        4
+    ]
+}

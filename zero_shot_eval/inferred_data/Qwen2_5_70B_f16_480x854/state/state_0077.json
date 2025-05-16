@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the T-spanner tip change?",
+    "options": [
+        "The T-spanner tip was reassembled, disconnected and connected to other parts.",
+        "The T-spanner tip was reassembled, disconnected and left unattached to any part.",
+        "The T-spanner tip was partially reassembled, disconnected and rotated without connecting.",
+        "The T-spanner tip was disassembled, momentarily connected to other parts, and left disassembled.",
+        "The T-spanner tip was reassembled in the incorrect order, connected, but then disconnected again."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the T-spanner tip change? Choose **only one** option from the following list.\nOptions:\n(A) The T-spanner tip was reassembled, disconnected and connected to other parts.\n(B) The T-spanner tip was reassembled, disconnected and left unattached to any part.\n(C) The T-spanner tip was partially reassembled, disconnected and rotated without connecting.\n(D) The T-spanner tip was disassembled, momentarily connected to other parts, and left disassembled.\n(E) The T-spanner tip was reassembled in the incorrect order, connected, but then disconnected again.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The T-spanner tip was reassembled, disconnected and connected to other parts."
+    },
+    "correct_idx": [
+        0
+    ]
+}

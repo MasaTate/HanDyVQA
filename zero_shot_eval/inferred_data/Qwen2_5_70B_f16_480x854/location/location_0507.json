@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the sieve bowl?",
+    "options": [
+        "The person drops the sieve bowl beside the pot.",
+        "The person drops the sieve bowl underneath the pot.",
+        "The person drops the sieve bowl in front of the pot.",
+        "The person drops the sieve bowl on top of a pot.",
+        "The person drops the sieve bowl onto the counter next to the pot."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the sieve bowl? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the sieve bowl beside the pot.\n(B) The person drops the sieve bowl underneath the pot.\n(C) The person drops the sieve bowl in front of the pot.\n(D) The person drops the sieve bowl on top of a pot.\n(E) The person drops the sieve bowl onto the counter next to the pot.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person drops the sieve bowl on top of a pot."
+    },
+    "correct_idx": [
+        3
+    ]
+}

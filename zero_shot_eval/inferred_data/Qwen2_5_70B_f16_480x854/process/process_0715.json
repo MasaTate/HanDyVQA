@@ -1,0 +1,17 @@
+{
+    "question": "How does the person rest the book?",
+    "options": [
+        "The person places the first book on the shelf with the right hand and gives a gentle push to the second book next to it, ensuring it stands upright.",
+        "The person sets the first book down on the shelf with both hands, making sure it stays steady, then places the second book carefully on top of it.",
+        "The person holds the first book vertically with one hand and gently rests it onto the shelf, leaving it slightly tilted, then places the second book horizontally beside it.",
+        "The person grips the first book with both hands and slides it onto the shelf, then gently sets the second book beside it, slightly adjusting its position.",
+        "The person carefully puts the first book onto the shelf with the left hand and presses it to remain standing upright, then carefully places the second book beside the first in an upright position."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person rest the book? Choose **only one** option from the following list.\nOptions:\n(A) The person places the first book on the shelf with the right hand and gives a gentle push to the second book next to it, ensuring it stands upright.\n(B) The person sets the first book down on the shelf with both hands, making sure it stays steady, then places the second book carefully on top of it.\n(C) The person holds the first book vertically with one hand and gently rests it onto the shelf, leaving it slightly tilted, then places the second book horizontally beside it.\n(D) The person grips the first book with both hands and slides it onto the shelf, then gently sets the second book beside it, slightly adjusting its position.\n(E) The person carefully puts the first book onto the shelf with the left hand and presses it to remain standing upright, then carefully places the second book beside the first in an upright position.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person holds the first book vertically with one hand and gently rests it onto the shelf, leaving it slightly tilted, then places the second book horizontally beside it."
+    },
+    "correct_idx": [
+        4
+    ]
+}

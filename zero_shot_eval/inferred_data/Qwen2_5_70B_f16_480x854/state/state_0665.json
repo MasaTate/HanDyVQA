@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a jug of water change?",
+    "options": [
+        "The jug of water was placed on a shelf, and the water remained undisturbed inside it.",
+        "The jug of water was capped tightly, and the water was kept inside it.",
+        "The jug of water was turned upside down, but the water was retained within the jug.",
+        "The jug of water was lifted, and the water was poured into the bowl with flour in it.",
+        "The jug of water was set next to a glass, and the water was left in the jug."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a jug of water change? Choose **only one** option from the following list.\nOptions:\n(A) The jug of water was placed on a shelf, and the water remained undisturbed inside it.\n(B) The jug of water was capped tightly, and the water was kept inside it.\n(C) The jug of water was turned upside down, but the water was retained within the jug.\n(D) The jug of water was lifted, and the water was poured into the bowl with flour in it.\n(E) The jug of water was set next to a glass, and the water was left in the jug.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The jug of water was lifted, and the water was poured into the bowl with flour in it."
+    },
+    "correct_idx": [
+        3
+    ]
+}

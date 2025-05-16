@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the plastic stool change?",
+    "options": [
+        "The plastic stool was flipped upside down.",
+        "The plastic stool was turned around to face the back wall.",
+        "The plastic stool was dragged across the floor.",
+        "The plastic stool was moved to the right side.",
+        "The plastic stool was elevated onto a table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the plastic stool change? Choose **only one** option from the following list.\nOptions:\n(A) The plastic stool was flipped upside down.\n(B) The plastic stool was turned around to face the back wall.\n(C) The plastic stool was dragged across the floor.\n(D) The plastic stool was moved to the right side.\n(E) The plastic stool was elevated onto a table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The plastic stool was flipped upside down."
+    },
+    "correct_idx": [
+        3
+    ]
+}

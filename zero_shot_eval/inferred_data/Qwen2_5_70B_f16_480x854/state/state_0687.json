@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the yarn change?",
+    "options": [
+        "The yarn was unraveled, and the strands separated, then twisted loosely.",
+        "The yarn was cut into several short lengths, and the strands frayed at the ends.",
+        "The yarn was knotted, and the strands intertwined, then braided tightly.",
+        "The yarn was laid flat, and the strands spread apart, then wound loosely around a spool.",
+        "The yarn was stretched, and the strands pulled away from each other, then formed a loop."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the yarn change? Choose **only one** option from the following list.\nOptions:\n(A) The yarn was unraveled, and the strands separated, then twisted loosely.\n(B) The yarn was cut into several short lengths, and the strands frayed at the ends.\n(C) The yarn was knotted, and the strands intertwined, then braided tightly.\n(D) The yarn was laid flat, and the strands spread apart, then wound loosely around a spool.\n(E) The yarn was stretched, and the strands pulled away from each other, then formed a loop.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The yarn was stretched, and the strands pulled away from each other, then formed a loop."
+    },
+    "correct_idx": [
+        2
+    ]
+}

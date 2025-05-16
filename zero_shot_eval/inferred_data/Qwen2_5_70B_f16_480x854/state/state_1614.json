@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the tray from the ground change?",
+    "options": [
+        "The tray flipped over and landed on the ground after being tossed into the air.",
+        "The tray slid across the ground and came to a stop after being pushed.",
+        "The tray was thrown and landed flat on the ground without any rotation.",
+        "The tray rotated and landed on the ground as it was spun and thrown.",
+        "The tray was dropped from a height and landed on the ground with a bounce."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the tray from the ground change? Choose **only one** option from the following list.\nOptions:\n(A) The tray flipped over and landed on the ground after being tossed into the air.\n(B) The tray slid across the ground and came to a stop after being pushed.\n(C) The tray was thrown and landed flat on the ground without any rotation.\n(D) The tray rotated and landed on the ground as it was spun and thrown.\n(E) The tray was dropped from a height and landed on the ground with a bounce.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The tray rotated and landed on the ground as it was spun and thrown."
+    },
+    "correct_idx": [
+        3
+    ]
+}

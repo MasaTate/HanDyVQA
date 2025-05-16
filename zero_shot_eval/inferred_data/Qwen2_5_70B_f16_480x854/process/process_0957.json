@@ -1,0 +1,17 @@
+{
+    "question": "How does the person stretch the wire?",
+    "options": [
+        "The person stretches the wire by pulling the left hand downward while holding the other wire with the right hand.",
+        "The person tries to stretch the wire using only their right hand while securing it at one end.",
+        "The person pulls the wire firmly with one hand while the other hand holds it securely.",
+        "The person stretches the wire using their fingers, focusing less on engaging their entire hands.",
+        "The person twists the wire slightly, using both hands to manipulate it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person stretch the wire? Choose **only one** option from the following list.\nOptions:\n(A) The person stretches the wire by pulling the left hand downward while holding the other wire with the right hand.\n(B) The person tries to stretch the wire using only their right hand while securing it at one end.\n(C) The person pulls the wire firmly with one hand while the other hand holds it securely.\n(D) The person stretches the wire using their fingers, focusing less on engaging their entire hands.\n(E) The person twists the wire slightly, using both hands to manipulate it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person pulls the wire firmly with one hand while the other hand holds it securely."
+    },
+    "correct_idx": [
+        0
+    ]
+}

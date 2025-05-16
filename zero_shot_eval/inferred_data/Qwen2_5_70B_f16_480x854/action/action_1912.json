@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is drying her hands using a towel with both hands.",
+        "The person is applying lotion on her hands using both hands.",
+        "The person is shaking hands with another person using her right hand.",
+        "The person is washing her hands using both hands.",
+        "The person is painting her nails with a brush using her right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is drying her hands using a towel with both hands.\n(B) The person is applying lotion on her hands using both hands.\n(C) The person is shaking hands with another person using her right hand.\n(D) The person is washing her hands using both hands.\n(E) The person is painting her nails with a brush using her right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person is washing her hands using both hands."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person wipe the knife?",
+    "options": [
+        "The person wiped the knife by using their left thumb and index finger to scrape off residue in a downward motion while holding the knife steady with their right hand.",
+        "The person swiped the knife gently back and forth using both hands, gripping the handle carefully to ensure no residue remained on the blade.",
+        "The person moved the knife in a circular motion with their right hand while using a cloth in their left hand, applying careful pressure to remove any residue.",
+        "The person held the knife vertically in their right hand and used their palm to gently rub off the residue, with some falling onto the surface.",
+        "The person tapped the knife gently against the edge of the counter with their right hand, letting any residue fall off with minimal effort."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person wipe the knife? Choose **only one** option from the following list.\nOptions:\n(A) The person wiped the knife by using their left thumb and index finger to scrape off residue in a downward motion while holding the knife steady with their right hand.\n(B) The person swiped the knife gently back and forth using both hands, gripping the handle carefully to ensure no residue remained on the blade.\n(C) The person moved the knife in a circular motion with their right hand while using a cloth in their left hand, applying careful pressure to remove any residue.\n(D) The person held the knife vertically in their right hand and used their palm to gently rub off the residue, with some falling onto the surface.\n(E) The person tapped the knife gently against the edge of the counter with their right hand, letting any residue fall off with minimal effort.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person wiped the knife by using their left thumb and index finger to scrape off residue in a downward motion while holding the knife steady with their right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

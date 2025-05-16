@@ -1,0 +1,17 @@
+{
+    "question": "How does the person knock the floor?",
+    "options": [
+        "The person tapped the floor firmly with the side of their hand, then swiftly picked up a chess piece, placing it onto the board with little focus on positioning.",
+        "The person knocked the floor decisively with a closed hand, then quickly grabbed a chess piece, setting it down on the board in a casual manner.",
+        "The person gently brushed their hand over the floor before firmly taking hold of a chess piece and setting it onto the board energetically.",
+        "The person tapped the floor lightly with their knuckles and then cautiously grasped a chess piece, setting it aside without placing it on the board.",
+        "The person knocked the floor by using the fingers of their right hand to tap it lightly, then smoothly grasped a chess piece, sliding it across the board to place it in a new position with precise, calculated movements."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person knock the floor? Choose **only one** option from the following list.\nOptions:\n(A) The person tapped the floor firmly with the side of their hand, then swiftly picked up a chess piece, placing it onto the board with little focus on positioning.\n(B) The person knocked the floor decisively with a closed hand, then quickly grabbed a chess piece, setting it down on the board in a casual manner.\n(C) The person gently brushed their hand over the floor before firmly taking hold of a chess piece and setting it onto the board energetically.\n(D) The person tapped the floor lightly with their knuckles and then cautiously grasped a chess piece, setting it aside without placing it on the board.\n(E) The person knocked the floor by using the fingers of their right hand to tap it lightly, then smoothly grasped a chess piece, sliding it across the board to place it in a new position with precise, calculated movements.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person knocked the floor by using the fingers of their right hand to tap it lightly, then smoothly grasped a chess piece, sliding it across the board to place it in a new position with precise, calculated movements."
+    },
+    "correct_idx": [
+        4
+    ]
+}

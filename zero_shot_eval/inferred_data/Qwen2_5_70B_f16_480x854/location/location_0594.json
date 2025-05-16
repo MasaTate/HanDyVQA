@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move a spoon?",
+    "options": [
+        "The person moves the spoon onto the ceramic plate.",
+        "The person moves the spoon beside the glass jar.",
+        "The person moves the spoon into the plastic container.",
+        "The person moves the spoon onto the wooden cutting board.",
+        "The person moves the spoon in the stainless bowl."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move a spoon? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the spoon onto the ceramic plate.\n(B) The person moves the spoon beside the glass jar.\n(C) The person moves the spoon into the plastic container.\n(D) The person moves the spoon onto the wooden cutting board.\n(E) The person moves the spoon in the stainless bowl.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person moves the spoon in the stainless bowl."
+    },
+    "correct_idx": [
+        4
+    ]
+}

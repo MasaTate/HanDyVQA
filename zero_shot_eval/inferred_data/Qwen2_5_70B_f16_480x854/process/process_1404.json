@@ -1,0 +1,17 @@
+{
+    "question": "How does the person insert the thread into the eye of the needle?",
+    "options": [
+        "The person places the thread onto the table while holding the needle in the left hand with a firm grip.",
+        "The person moves the thread towards the needle without proper alignment, using both hands to adjust the needle.",
+        "The person holds the needle and attempts to catch the thread as it aligns with the eye of the needle.",
+        "The person is picking the needle and lifting it up to insert the thread into the eye by slowly moving the right hand.",
+        "The person holds the needle with the left hand and attempts to thread by bringing the needle towards the thread rather than the other way around."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person insert the thread into the eye of the needle? Choose **only one** option from the following list.\nOptions:\n(A) The person places the thread onto the table while holding the needle in the left hand with a firm grip.\n(B) The person moves the thread towards the needle without proper alignment, using both hands to adjust the needle.\n(C) The person holds the needle and attempts to catch the thread as it aligns with the eye of the needle.\n(D) The person is picking the needle and lifting it up to insert the thread into the eye by slowly moving the right hand.\n(E) The person holds the needle with the left hand and attempts to thread by bringing the needle towards the thread rather than the other way around.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person holds the needle and attempts to catch the thread as it aligns with the eye of the needle."
+    },
+    "correct_idx": [
+        3
+    ]
+}

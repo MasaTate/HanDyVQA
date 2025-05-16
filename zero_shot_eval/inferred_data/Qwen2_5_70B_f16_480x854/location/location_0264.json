@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the brush?",
+    "options": [
+        "The person dropped the brush behind the salt and pepper shakers.",
+        "The person dropped the brush next to the mustard bottle.",
+        "The person dropped the brush in front of the ketchup and mayonnaise jars.",
+        "The person dropped the brush on the countertop opposite the cooking oil.",
+        "The person dropped the brush in between the catsup and vinegar bottle."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the brush? Choose **only one** option from the following list.\nOptions:\n(A) The person dropped the brush behind the salt and pepper shakers.\n(B) The person dropped the brush next to the mustard bottle.\n(C) The person dropped the brush in front of the ketchup and mayonnaise jars.\n(D) The person dropped the brush on the countertop opposite the cooking oil.\n(E) The person dropped the brush in between the catsup and vinegar bottle.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person dropped the brush in between the catsup and vinegar bottle."
+    },
+    "correct_idx": [
+        4
+    ]
+}

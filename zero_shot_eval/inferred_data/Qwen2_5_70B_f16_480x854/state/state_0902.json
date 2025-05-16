@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the water change?",
+    "options": [
+        "The water was poured from the pot and spilled onto the floor.",
+        "The water was transferred from the pot into a glass container.",
+        "The water was scooped from the pot and thrown into the sink.",
+        "The water was drained from the pot and absorbed by a sponge.",
+        "The water was evaporated from the pot and turned into steam."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the water change? Choose **only one** option from the following list.\nOptions:\n(A) The water was poured from the pot and spilled onto the floor.\n(B) The water was transferred from the pot into a glass container.\n(C) The water was scooped from the pot and thrown into the sink.\n(D) The water was drained from the pot and absorbed by a sponge.\n(E) The water was evaporated from the pot and turned into steam.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The water was scooped from the pot and thrown into the sink."
+    },
+    "correct_idx": [
+        2
+    ]
+}

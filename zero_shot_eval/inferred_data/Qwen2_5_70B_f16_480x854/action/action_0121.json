@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person folds the jeans and places them neatly into the drawer with the right hand while holding a shirt in the left hand.",
+        "The person hangs the jeans back and grabs the other piece of clothing with the same right hand.",
+        "The person is tossing the jeans into the laundry basket using the right hand while holding a belt in the left hand.",
+        "The person takes the jeans off the shelf and holds them in the right hand while moving other clothes aside with the left hand.",
+        "The person is sorting through the jeans on the table using both hands while searching for a matching top."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person folds the jeans and places them neatly into the drawer with the right hand while holding a shirt in the left hand.\n(B) The person hangs the jeans back and grabs the other piece of clothing with the same right hand.\n(C) The person is tossing the jeans into the laundry basket using the right hand while holding a belt in the left hand.\n(D) The person takes the jeans off the shelf and holds them in the right hand while moving other clothes aside with the left hand.\n(E) The person is sorting through the jeans on the table using both hands while searching for a matching top.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person hangs the jeans back and grabs the other piece of clothing with the same right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

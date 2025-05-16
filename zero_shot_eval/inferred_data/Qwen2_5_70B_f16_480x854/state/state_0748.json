@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the a phone change?",
+    "options": [
+        "The phone transitioned from being off to displaying content upon interaction without any movement.",
+        "The phone remained off and did not display any content despite being moved.",
+        "The phone was shifted and powered on, yet did not display content.",
+        "The phone displayed content only after being powered on and moved.",
+        "The phone was set to vibrate but stayed off and did not display any content."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the a phone change? Choose **only one** option from the following list.\nOptions:\n(A) The phone transitioned from being off to displaying content upon interaction without any movement.\n(B) The phone remained off and did not display any content despite being moved.\n(C) The phone was shifted and powered on, yet did not display content.\n(D) The phone displayed content only after being powered on and moved.\n(E) The phone was set to vibrate but stayed off and did not display any content.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The phone transitioned from being off to displaying content upon interaction without any movement."
+    },
+    "correct_idx": [
+        0
+    ]
+}

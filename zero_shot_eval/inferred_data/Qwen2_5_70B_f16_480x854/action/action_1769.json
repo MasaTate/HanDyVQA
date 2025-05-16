@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person turns on the faucet with her left hand while holding a glass with her right hand.",
+        "The person adjusts the hot water knob with her left hand while holding a sponge in her right hand.",
+        "The person checks the water temperature with her left hand while gripping the sink's edge with her right hand.",
+        "The person pulls the lever of the shower using her left hand while keeping a shampoo bottle in her right hand.",
+        "The person grabs the onion using her left hand and washes it while the other hand is holding a knife and pulling up the handle of the faucet."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person turns on the faucet with her left hand while holding a glass with her right hand.\n(B) The person adjusts the hot water knob with her left hand while holding a sponge in her right hand.\n(C) The person checks the water temperature with her left hand while gripping the sink's edge with her right hand.\n(D) The person pulls the lever of the shower using her left hand while keeping a shampoo bottle in her right hand.\n(E) The person grabs the onion using her left hand and washes it while the other hand is holding a knife and pulling up the handle of the faucet.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person grabs the onion using her left hand and washes it while the other hand is holding a knife and pulling up the handle of the faucet."
+    },
+    "correct_idx": [
+        4
+    ]
+}

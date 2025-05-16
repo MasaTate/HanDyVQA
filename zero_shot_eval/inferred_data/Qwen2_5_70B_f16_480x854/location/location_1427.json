@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place his left hand?",
+    "options": [
+        "The person placed his left hand on the lower right side of the paper while writing.",
+        "The person placed his left hand on the upper left side of the paper while writing.",
+        "The person placed his left hand on the center of the paper while writing.",
+        "The person placed his left hand on the top left corner of the book while writing.",
+        "The person placed his left hand on the lower left side of the paper while writing."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place his left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person placed his left hand on the lower right side of the paper while writing.\n(B) The person placed his left hand on the upper left side of the paper while writing.\n(C) The person placed his left hand on the center of the paper while writing.\n(D) The person placed his left hand on the top left corner of the book while writing.\n(E) The person placed his left hand on the lower left side of the paper while writing.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person placed his left hand on the lower left side of the paper while writing."
+    },
+    "correct_idx": [
+        4
+    ]
+}

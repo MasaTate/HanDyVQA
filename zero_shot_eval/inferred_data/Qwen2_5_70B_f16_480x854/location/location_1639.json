@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move a rug on the floor?",
+    "options": [
+        "The person moved the rug with her right hand from her front.",
+        "The person moved the rug with her left hand from her side.",
+        "The person moved the rug with her right hand from behind her.",
+        "The person moved the rug with her left hand from the middle of the room.",
+        "The person moved the rug with her left hand from her back."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move a rug on the floor? Choose **only one** option from the following list.\nOptions:\n(A) The person moved the rug with her right hand from her front.\n(B) The person moved the rug with her left hand from her side.\n(C) The person moved the rug with her right hand from behind her.\n(D) The person moved the rug with her left hand from the middle of the room.\n(E) The person moved the rug with her left hand from her back.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person moved the rug with her left hand from her side."
+    },
+    "correct_idx": [
+        4
+    ]
+}

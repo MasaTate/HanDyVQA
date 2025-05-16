@@ -1,0 +1,17 @@
+{
+    "question": "How does the person take a plastic beaker from the plastic shelf?",
+    "options": [
+        "The person takes a plastic beaker from the plastic shelf with her left hand and, after lifting it off, she places it on a nearby table, ensuring it is stable and properly positioned.",
+        "The person takes a plastic beaker from the plastic shelf using both hands, ensuring a firm hold, and subsequently places it on the floor next to her, ensuring it is stable and properly positioned.",
+        "The person takes a plastic beaker from the plastic shelf with her right hand by securely grasping it, then after lifting it off, she carefully places it on the second top section of the same plastic shelf, ensuring it is stable and properly positioned.",
+        "The person takes a plastic beaker from the plastic shelf with her right hand, using a gentle grasp with her thumb and index finger, and then sets it down on a chair beside the shelf, ensuring it is stable and properly positioned.",
+        "The person takes a plastic beaker from the plastic shelf with her right hand and moves it quickly to balance it on a different section of the shelf, ensuring it is stable and properly positioned."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person take a plastic beaker from the plastic shelf? Choose **only one** option from the following list.\nOptions:\n(A) The person takes a plastic beaker from the plastic shelf with her left hand and, after lifting it off, she places it on a nearby table, ensuring it is stable and properly positioned.\n(B) The person takes a plastic beaker from the plastic shelf using both hands, ensuring a firm hold, and subsequently places it on the floor next to her, ensuring it is stable and properly positioned.\n(C) The person takes a plastic beaker from the plastic shelf with her right hand by securely grasping it, then after lifting it off, she carefully places it on the second top section of the same plastic shelf, ensuring it is stable and properly positioned.\n(D) The person takes a plastic beaker from the plastic shelf with her right hand, using a gentle grasp with her thumb and index finger, and then sets it down on a chair beside the shelf, ensuring it is stable and properly positioned.\n(E) The person takes a plastic beaker from the plastic shelf with her right hand and moves it quickly to balance it on a different section of the shelf, ensuring it is stable and properly positioned.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person takes a plastic beaker from the plastic shelf with her right hand by securely grasping it, then after lifting it off, she carefully places it on the second top section of the same plastic shelf, ensuring it is stable and properly positioned."
+    },
+    "correct_idx": [
+        2
+    ]
+}

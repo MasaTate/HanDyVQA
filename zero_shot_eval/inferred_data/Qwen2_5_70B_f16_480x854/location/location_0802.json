@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the piece of white cloth?",
+    "options": [
+        "The person drops the piece of white cloth on the ground between his feet.",
+        "The person drops the piece of white cloth on the ground next to his feet.",
+        "The person drops the piece of white cloth on the floor in front of him.",
+        "The person drops the piece of white cloth on the ground behind his feet.",
+        "The person drops the piece of white cloth on the ground to the left of him."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the piece of white cloth? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the piece of white cloth on the ground between his feet.\n(B) The person drops the piece of white cloth on the ground next to his feet.\n(C) The person drops the piece of white cloth on the floor in front of him.\n(D) The person drops the piece of white cloth on the ground behind his feet.\n(E) The person drops the piece of white cloth on the ground to the left of him.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person drops the piece of white cloth on the ground between his feet."
+    },
+    "correct_idx": [
+        0
+    ]
+}

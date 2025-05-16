@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place a piece of leather?",
+    "options": [
+        "The person placed the piece of leather in the corner of the desk.",
+        "The person placed the piece of leather on the left side of the desk.",
+        "The person placed the piece of leather in the center of the desk.",
+        "The person placed the piece of leather in front of the desk.",
+        "The person placed the piece of leather on the right edge of the desk."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place a piece of leather? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the piece of leather in the corner of the desk.\n(B) The person placed the piece of leather on the left side of the desk.\n(C) The person placed the piece of leather in the center of the desk.\n(D) The person placed the piece of leather in front of the desk.\n(E) The person placed the piece of leather on the right edge of the desk.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person placed the piece of leather in the center of the desk."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the metal bar on the work bench?",
+    "options": [
+        "The person placed the metal bar on a wooden panel near the center of the workbench.",
+        "The person placed the metal bar on a toolbox at the far end of the workbench.",
+        "The person placed the metal bar on a paper sheet just off the side of the workbench.",
+        "The person placed the metal bar on a plastic container right in the middle of the workbench.",
+        "The person placed the metal bar on a metal piece near the edge of the workbench."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the metal bar on the work bench? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the metal bar on a wooden panel near the center of the workbench.\n(B) The person placed the metal bar on a toolbox at the far end of the workbench.\n(C) The person placed the metal bar on a paper sheet just off the side of the workbench.\n(D) The person placed the metal bar on a plastic container right in the middle of the workbench.\n(E) The person placed the metal bar on a metal piece near the edge of the workbench.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person placed the metal bar on a wooden panel near the center of the workbench."
+    },
+    "correct_idx": [
+        4
+    ]
+}

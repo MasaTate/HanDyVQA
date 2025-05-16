@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person held a plate in each hand, then set the plate in her right hand on the countertop to cover the plate in her left hand with foil.",
+        "The person held a pot in each hand, then lifted the pot in her right hand to pour the contents of the pot in her left hand into a pan.",
+        "The person held a cup in each hand, then picked up the cup in her right hand to stir the contents of the cup in her left hand with a spoon.",
+        "The person held a bowl in each hand, then placed the bowl in her right hand on the table to remove the cellophane from the bowl in her left hand.",
+        "The person held a basket in each hand, then placed the basket in her right hand on the floor to transfer the items from the basket in her left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person held a plate in each hand, then set the plate in her right hand on the countertop to cover the plate in her left hand with foil.\n(B) The person held a pot in each hand, then lifted the pot in her right hand to pour the contents of the pot in her left hand into a pan.\n(C) The person held a cup in each hand, then picked up the cup in her right hand to stir the contents of the cup in her left hand with a spoon.\n(D) The person held a bowl in each hand, then placed the bowl in her right hand on the table to remove the cellophane from the bowl in her left hand.\n(E) The person held a basket in each hand, then placed the basket in her right hand on the floor to transfer the items from the basket in her left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person held a bowl in each hand, then placed the bowl in her right hand on the table to remove the cellophane from the bowl in her left hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

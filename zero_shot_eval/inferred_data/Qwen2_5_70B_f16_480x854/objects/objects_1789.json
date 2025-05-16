@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "clothes",
+        "grass",
+        "gate",
+        "rope",
+        "corn cobs",
+        "sack needle"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) clothes\n(B) grass\n(C) gate\n(D) rope\n(E) corn cobs\n(F) sack needle\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(D) Rope  \n(F) Sack needle  \n\nThe hands in the video are using a rope to tie or secure something, likely a sack or bundle. Additionally, there appears to be a tool resembling a sack needle being used to assist in threading or manipulating the rope through the material."
+    },
+    "correct_idx": [
+        3,
+        5
+    ]
+}

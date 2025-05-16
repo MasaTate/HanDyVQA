@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a cup change?",
+    "options": [
+        "The cup was lifted and its position changed when it was taken out of the bucket.",
+        "The cup was knocked over and its contents spilled when it was bumped.",
+        "The cup was filled with water and its weight increased when it was submerged.",
+        "The cup was dropped and its shape changed when it cracked upon hitting the floor.",
+        "The cup was placed inside another cup, altering its arrangement in the cupboard."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a cup change? Choose **only one** option from the following list.\nOptions:\n(A) The cup was lifted and its position changed when it was taken out of the bucket.\n(B) The cup was knocked over and its contents spilled when it was bumped.\n(C) The cup was filled with water and its weight increased when it was submerged.\n(D) The cup was dropped and its shape changed when it cracked upon hitting the floor.\n(E) The cup was placed inside another cup, altering its arrangement in the cupboard.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The cup was lifted and its position changed when it was taken out of the bucket."
+    },
+    "correct_idx": [
+        0
+    ]
+}

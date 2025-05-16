@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the picture frame on the wall?",
+    "options": [
+        "The person places the picture frame on the lower part of the wall.",
+        "The person places the picture frame on the middle section of the wall.",
+        "The person places the picture frame on the upper part of the wall.",
+        "The person places the picture frame on the left side of the wall.",
+        "The person places the picture frame on the right corner of the wall."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the picture frame on the wall? Choose **only one** option from the following list.\nOptions:\n(A) The person places the picture frame on the lower part of the wall.\n(B) The person places the picture frame on the middle section of the wall.\n(C) The person places the picture frame on the upper part of the wall.\n(D) The person places the picture frame on the left side of the wall.\n(E) The person places the picture frame on the right corner of the wall.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person places the picture frame on the lower part of the wall."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person pushes the paper with her left hand and holds a paintbrush in her right hand to apply paint on the frame.",
+        "The person turns the page with her right hand and holds a pair of scissors in her left hand while preparing to cut the frame.",
+        "The person holds the paper in her left hand while using a pencil in her right hand to draw on the frame.",
+        "The person lifts the paper with her left hand, then places it back, and holds a glue gun using her right hand.",
+        "The person grabs the paper with both hands while using a stapler in her right hand to secure the edges of the frame."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person pushes the paper with her left hand and holds a paintbrush in her right hand to apply paint on the frame.\n(B) The person turns the page with her right hand and holds a pair of scissors in her left hand while preparing to cut the frame.\n(C) The person holds the paper in her left hand while using a pencil in her right hand to draw on the frame.\n(D) The person lifts the paper with her left hand, then places it back, and holds a glue gun using her right hand.\n(E) The person grabs the paper with both hands while using a stapler in her right hand to secure the edges of the frame.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person lifts the paper with her left hand, then places it back, and holds a glue gun using her right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

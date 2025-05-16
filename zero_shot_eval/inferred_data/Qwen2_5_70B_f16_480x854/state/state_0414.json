@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the motorcycle part change?",
+    "options": [
+        "The motorcycle part was tapped by a metal, causing slight movement.",
+        "The motorcycle part was hit by a metal.",
+        "The motorcycle part was scratched by a metal, not experiencing a hit.",
+        "The motorcycle part was pressed by a metal, yet not impacted by a hit.",
+        "The motorcycle part was brushed by a metal, resulting in superficial marks."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the motorcycle part change? Choose **only one** option from the following list.\nOptions:\n(A) The motorcycle part was tapped by a metal, causing slight movement.\n(B) The motorcycle part was hit by a metal.\n(C) The motorcycle part was scratched by a metal, not experiencing a hit.\n(D) The motorcycle part was pressed by a metal, yet not impacted by a hit.\n(E) The motorcycle part was brushed by a metal, resulting in superficial marks.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The motorcycle part was tapped by a metal, causing slight movement."
+    },
+    "correct_idx": [
+        1
+    ]
+}

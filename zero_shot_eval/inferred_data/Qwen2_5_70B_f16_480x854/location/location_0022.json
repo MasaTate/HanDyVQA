@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person keep the cleaning spray?",
+    "options": [
+        "The person put the cleaning spray on the bottom shelf.",
+        "The person stored the cleaning spray under the sink.",
+        "The person left the cleaning spray on the kitchen counter.",
+        "The person placed the cleaning spray on the top shelf.",
+        "The person positioned the cleaning spray on the middle shelf."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person keep the cleaning spray? Choose **only one** option from the following list.\nOptions:\n(A) The person put the cleaning spray on the bottom shelf.\n(B) The person stored the cleaning spray under the sink.\n(C) The person left the cleaning spray on the kitchen counter.\n(D) The person placed the cleaning spray on the top shelf.\n(E) The person positioned the cleaning spray on the middle shelf.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person placed the cleaning spray on the top shelf."
+    },
+    "correct_idx": [
+        3
+    ]
+}

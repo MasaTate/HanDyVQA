@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the brick mold change?",
+    "options": [
+        "The brick mold was lifted slightly and placed back down in the same spot.",
+        "The brick mold was rotated but kept in the same spot.",
+        "The brick mold was adjusted a few inches to the right on the same surface.",
+        "The brick mold was tilted but left in its original position.",
+        "The brick mold was transferred to another place."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the brick mold change? Choose **only one** option from the following list.\nOptions:\n(A) The brick mold was lifted slightly and placed back down in the same spot.\n(B) The brick mold was rotated but kept in the same spot.\n(C) The brick mold was adjusted a few inches to the right on the same surface.\n(D) The brick mold was tilted but left in its original position.\n(E) The brick mold was transferred to another place.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The brick mold was transferred to another place."
+    },
+    "correct_idx": [
+        4
+    ]
+}

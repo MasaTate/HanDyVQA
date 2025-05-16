@@ -1,0 +1,17 @@
+{
+    "question": "How does the person move his right hand?",
+    "options": [
+        "The person gradually moves his right hand to the side in a gentle sweep.",
+        "The person lifts his right hand above his head and smoothly brings it back down.",
+        "The person slowly lowers his right hand in a downward gesture.",
+        "The person turns his wrist and pivots his right hand outward slightly.",
+        "The person moves his right hand back and forth in a gentle motion."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person move his right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person gradually moves his right hand to the side in a gentle sweep.\n(B) The person lifts his right hand above his head and smoothly brings it back down.\n(C) The person slowly lowers his right hand in a downward gesture.\n(D) The person turns his wrist and pivots his right hand outward slightly.\n(E) The person moves his right hand back and forth in a gentle motion.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person turns his wrist and pivots his right hand outward slightly."
+    },
+    "correct_idx": [
+        2
+    ]
+}

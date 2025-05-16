@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is pulling the fabric with a pair of scissors in his right hand while holding the edge with his left hand.",
+        "The person is folding the fabric neatly using both hands while it remains on the surface in front of him.",
+        "The person is rolling the fabric into a ball using both hands while standing in the room.",
+        "The person detaches the crochet thread by pulling away from the other with her left hand while holding a needle in her right hand.",
+        "The person is sewing the edges of the fabric together using a needle in his right hand while guiding it with his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is pulling the fabric with a pair of scissors in his right hand while holding the edge with his left hand.\n(B) The person is folding the fabric neatly using both hands while it remains on the surface in front of him.\n(C) The person is rolling the fabric into a ball using both hands while standing in the room.\n(D) The person detaches the crochet thread by pulling away from the other with her left hand while holding a needle in her right hand.\n(E) The person is sewing the edges of the fabric together using a needle in his right hand while guiding it with his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person detaches the crochet thread by pulling away from the other with her left hand while holding a needle in her right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

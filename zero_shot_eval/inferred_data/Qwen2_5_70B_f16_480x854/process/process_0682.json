@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pick the packet of potatoes?",
+    "options": [
+        "The person uses both hands to push the packet of potatoes slightly forward, applying steady pressure rather than a firm grip.",
+        "The person pinches the corner of the packet of potatoes slightly with just their thumb and index finger, carefully lifting it off the surface.",
+        "The person gently slides the packet of potatoes towards themselves using the heel of their right hand, minimizing a direct grip.",
+        "The person uses the fingers of their right hand to grip the packet of potatoes securely, then lift it with a steady upward motion, ensuring a firm hold.",
+        "The person reaches out with their left hand to pull the packet of potatoes, lifting it slightly without establishing a firm grip first."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pick the packet of potatoes? Choose **only one** option from the following list.\nOptions:\n(A) The person uses both hands to push the packet of potatoes slightly forward, applying steady pressure rather than a firm grip.\n(B) The person pinches the corner of the packet of potatoes slightly with just their thumb and index finger, carefully lifting it off the surface.\n(C) The person gently slides the packet of potatoes towards themselves using the heel of their right hand, minimizing a direct grip.\n(D) The person uses the fingers of their right hand to grip the packet of potatoes securely, then lift it with a steady upward motion, ensuring a firm hold.\n(E) The person reaches out with their left hand to pull the packet of potatoes, lifting it slightly without establishing a firm grip first.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person uses the fingers of their right hand to grip the packet of potatoes securely, then lift it with a steady upward motion, ensuring a firm hold."
+    },
+    "correct_idx": [
+        3
+    ]
+}

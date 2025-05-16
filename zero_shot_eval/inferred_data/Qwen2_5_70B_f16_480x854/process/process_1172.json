@@ -1,0 +1,17 @@
+{
+    "question": "How does the person screw the rubber screw?",
+    "options": [
+        "The person twists the rubber screw gently with their fingers while putting it into place instead of pressing it in.",
+        "The person pushes the rubber screw into place with their hand, using slightly more pressure than usual.",
+        "The person presses the rubber screw into place using their hand instead of screwing it in.",
+        "The person rolls the rubber screw smoothly between their hands to ensure it is correctly positioned.",
+        "The person lightly presses the rubber screw on the surface, ensuring it is firmly set."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person screw the rubber screw? Choose **only one** option from the following list.\nOptions:\n(A) The person twists the rubber screw gently with their fingers while putting it into place instead of pressing it in.\n(B) The person pushes the rubber screw into place with their hand, using slightly more pressure than usual.\n(C) The person presses the rubber screw into place using their hand instead of screwing it in.\n(D) The person rolls the rubber screw smoothly between their hands to ensure it is correctly positioned.\n(E) The person lightly presses the rubber screw on the surface, ensuring it is firmly set.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person presses the rubber screw into place using their hand instead of screwing it in."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the knife?",
+    "options": [
+        "The person placed the knife on top of the cutting board.",
+        "The person placed the knife next to the cutting board.",
+        "The person placed the knife on the edge of the countertop.",
+        "The person placed the knife inside the kitchen drawer.",
+        "The person placed the knife on the dining table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the knife? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the knife on top of the cutting board.\n(B) The person placed the knife next to the cutting board.\n(C) The person placed the knife on the edge of the countertop.\n(D) The person placed the knife inside the kitchen drawer.\n(E) The person placed the knife on the dining table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person placed the knife next to the cutting board."
+    },
+    "correct_idx": [
+        0
+    ]
+}

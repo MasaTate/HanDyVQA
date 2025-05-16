@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the folder?",
+    "options": [
+        "The person places the folder in the right hand.",
+        "The person places the folder in left hand.",
+        "The person places the folder on the table with the right hand.",
+        "The person places the folder on the bottom shelf with the left hand.",
+        "The person places the folder in the middle of the desk."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the folder? Choose **only one** option from the following list.\nOptions:\n(A) The person places the folder in the right hand.\n(B) The person places the folder in left hand.\n(C) The person places the folder on the table with the right hand.\n(D) The person places the folder on the bottom shelf with the left hand.\n(E) The person places the folder in the middle of the desk.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person places the folder in left hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a spanner change?",
+    "options": [
+        "The spanner, altering in color as it was exposed to light and changing in state as it was submerged in water, was influenced.",
+        "The spanner, changing in texture as contact was made and changing in state as it was set free, was affected.",
+        "The spanner, shifting in shape as it was bent slightly and changing in state as it was left in a drawer, was impacted.",
+        "The spanner, transforming in shine as it was polished and changing in state as it was replaced on the shelf, was modified.",
+        "The spanner, varying in temperature as it was heated and changing in state as it was dropped on the floor, was altered."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a spanner change? Choose **only one** option from the following list.\nOptions:\n(A) The spanner, altering in color as it was exposed to light and changing in state as it was submerged in water, was influenced.\n(B) The spanner, changing in texture as contact was made and changing in state as it was set free, was affected.\n(C) The spanner, shifting in shape as it was bent slightly and changing in state as it was left in a drawer, was impacted.\n(D) The spanner, transforming in shine as it was polished and changing in state as it was replaced on the shelf, was modified.\n(E) The spanner, varying in temperature as it was heated and changing in state as it was dropped on the floor, was altered.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The spanner, changing in texture as contact was made and changing in state as it was set free, was affected."
+    },
+    "correct_idx": [
+        1
+    ]
+}

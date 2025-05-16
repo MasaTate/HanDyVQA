@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the floor change?",
+    "options": [
+        "The floor became cleaner and its surface was cleared of debris as it was swept with a broom.",
+        "The floor was covered with a new layer of paint, changing its appearance and texture.",
+        "The floor was marked with various stains and scratches as objects were moved across its surface.",
+        "The floor was removed, leaving the underlying subfloor exposed and uneven.",
+        "The floor was carpeted over, altering its surface feel and covering the original material."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the floor change? Choose **only one** option from the following list.\nOptions:\n(A) The floor became cleaner and its surface was cleared of debris as it was swept with a broom.\n(B) The floor was covered with a new layer of paint, changing its appearance and texture.\n(C) The floor was marked with various stains and scratches as objects were moved across its surface.\n(D) The floor was removed, leaving the underlying subfloor exposed and uneven.\n(E) The floor was carpeted over, altering its surface feel and covering the original material.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The floor became cleaner and its surface was cleared of debris as it was swept with a broom."
+    },
+    "correct_idx": [
+        0
+    ]
+}

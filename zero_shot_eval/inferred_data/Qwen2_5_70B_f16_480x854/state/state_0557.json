@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a bolt change?",
+    "options": [
+        "The bolt transitioned from a secured state to a partially loosened state.",
+        "The bolt transitioned from a secured state to a bent state.",
+        "The bolt transitioned from a secured state to a rusted state.",
+        "The bolt transitioned from a secured state to a stripped state.",
+        "The bolt transitioned from a secured, threaded state to a fully detached state."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a bolt change? Choose **only one** option from the following list.\nOptions:\n(A) The bolt transitioned from a secured state to a partially loosened state.\n(B) The bolt transitioned from a secured state to a bent state.\n(C) The bolt transitioned from a secured state to a rusted state.\n(D) The bolt transitioned from a secured state to a stripped state.\n(E) The bolt transitioned from a secured, threaded state to a fully detached state.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The bolt transitioned from a secured, threaded state to a fully detached state."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person loosen the fastener?",
+    "options": [
+        "The person grips the piece with both hands while trying to twist it in a different way, not using a wrench.",
+        "The person uses the wrench in one hand and gently moves the piece with the other hand instead of holding it firmly.",
+        "The person loosens the fastener by holding the piece firmly in one hand while using the wrench in the other hand to turn it.",
+        "The person carefully balances the piece on his knee while using the wrench with one hand to loosen it.",
+        "The person places the piece on the ground and steadies it with his foot while turning the wrench with his other hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person loosen the fastener? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the piece with both hands while trying to twist it in a different way, not using a wrench.\n(B) The person uses the wrench in one hand and gently moves the piece with the other hand instead of holding it firmly.\n(C) The person loosens the fastener by holding the piece firmly in one hand while using the wrench in the other hand to turn it.\n(D) The person carefully balances the piece on his knee while using the wrench with one hand to loosen it.\n(E) The person places the piece on the ground and steadies it with his foot while turning the wrench with his other hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person loosens the fastener by holding the piece firmly in one hand while using the wrench in the other hand to turn it."
+    },
+    "correct_idx": [
+        2
+    ]
+}

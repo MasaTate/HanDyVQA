@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pack the pieces of yam?",
+    "options": [
+        "The person tosses the pieces of yam into a small basket with one hand.",
+        "The person arranges the pieces of yam on top of each other on the countertop using both hands.",
+        "The person places the pieces of yam in a big silver bowl.",
+        "The person guides the pieces of yam across the table into a bowl.",
+        "The person sets the pieces of yam in a row on a plate using two fingers."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pack the pieces of yam? Choose **only one** option from the following list.\nOptions:\n(A) The person tosses the pieces of yam into a small basket with one hand.\n(B) The person arranges the pieces of yam on top of each other on the countertop using both hands.\n(C) The person places the pieces of yam in a big silver bowl.\n(D) The person guides the pieces of yam across the table into a bowl.\n(E) The person sets the pieces of yam in a row on a plate using two fingers.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person places the pieces of yam in a big silver bowl."
+    },
+    "correct_idx": [
+        2
+    ]
+}

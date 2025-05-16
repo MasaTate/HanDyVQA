@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the piece of wood on the black plate with the sander machine change?",
+    "options": [
+        "The piece of wood was roughened and its surface became coarser as it was gouged on the black plate.",
+        "The piece of wood was split and its edges became uneven as it was cut on the black plate.",
+        "The piece of wood was coated and its color changed to a brighter tone while resting on the black plate.",
+        "The piece of wood was smoothed and its surface became finer as it was sanded on the black plate.",
+        "The piece of wood was warped and its shape became distorted as it was exposed to heat on the black plate."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the piece of wood on the black plate with the sander machine change? Choose **only one** option from the following list.\nOptions:\n(A) The piece of wood was roughened and its surface became coarser as it was gouged on the black plate.\n(B) The piece of wood was split and its edges became uneven as it was cut on the black plate.\n(C) The piece of wood was coated and its color changed to a brighter tone while resting on the black plate.\n(D) The piece of wood was smoothed and its surface became finer as it was sanded on the black plate.\n(E) The piece of wood was warped and its shape became distorted as it was exposed to heat on the black plate.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The piece of wood was smoothed and its surface became finer as it was sanded on the black plate."
+    },
+    "correct_idx": [
+        3
+    ]
+}

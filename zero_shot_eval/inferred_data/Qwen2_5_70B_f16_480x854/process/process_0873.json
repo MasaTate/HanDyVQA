@@ -1,0 +1,17 @@
+{
+    "question": "How does the person smoothen the mortar on the brick?",
+    "options": [
+        "The person pushes the mortar firmly into the joint with a steady hand, using a large spatula held in their left hand, focusing on the contact made.",
+        "The person drags the trowel over the surface of the brick with attention, using both hands to lift and distribute the mortar smoothly.",
+        "The person applies the cement tightly to the joint in an upward direction using a trowel in the right hand and smoothens it by applying a consistent force in a circular direction.",
+        "The person applies the trowel to the mortar methodically with their fingers, attempting to reduce gaps by applying more pressure.",
+        "The person adjusts the mortar at the joint using a scraper in the right hand while ensuring pressure is applied to achieve a smooth finish."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person smoothen the mortar on the brick? Choose **only one** option from the following list.\nOptions:\n(A) The person pushes the mortar firmly into the joint with a steady hand, using a large spatula held in their left hand, focusing on the contact made.\n(B) The person drags the trowel over the surface of the brick with attention, using both hands to lift and distribute the mortar smoothly.\n(C) The person applies the cement tightly to the joint in an upward direction using a trowel in the right hand and smoothens it by applying a consistent force in a circular direction.\n(D) The person applies the trowel to the mortar methodically with their fingers, attempting to reduce gaps by applying more pressure.\n(E) The person adjusts the mortar at the joint using a scraper in the right hand while ensuring pressure is applied to achieve a smooth finish.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person adjusts the mortar at the joint using a scraper in the right hand while ensuring pressure is applied to achieve a smooth finish."
+    },
+    "correct_idx": [
+        2
+    ]
+}

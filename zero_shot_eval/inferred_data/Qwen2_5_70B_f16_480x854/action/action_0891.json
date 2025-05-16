@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person pulls a starter cord with his left hand while holding onto the mower with his right hand.",
+        "The person is holding a mower with both hands, puts it down to turn off the switch using the left hand and then tightens the cord with his right hand.",
+        "The person releases a starter cord with his left hand while stabilizing the mower with his right hand.",
+        "The person tightly holds a starter cord with his right hand while using his left hand to support the mower.",
+        "The person twists a starter cord with both hands while standing beside the mower."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person pulls a starter cord with his left hand while holding onto the mower with his right hand.\n(B) The person is holding a mower with both hands, puts it down to turn off the switch using the left hand and then tightens the cord with his right hand.\n(C) The person releases a starter cord with his left hand while stabilizing the mower with his right hand.\n(D) The person tightly holds a starter cord with his right hand while using his left hand to support the mower.\n(E) The person twists a starter cord with both hands while standing beside the mower.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person pulls a starter cord with his left hand while holding onto the mower with his right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

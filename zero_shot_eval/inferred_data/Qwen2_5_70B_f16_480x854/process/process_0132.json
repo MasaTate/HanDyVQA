@@ -1,0 +1,17 @@
+{
+    "question": "How does the person place the tool?",
+    "options": [
+        "The person grips the tool with both hands and places it into the circular ditch on the table, ensuring it fits into place.",
+        "The person uses their right hand to lower the tool gently above the circular ditch on the table, aiming to position it properly.",
+        "The person guides the tool with their palm, trying to align it with their fingers as it moves into the circular ditch.",
+        "The person holds the tool with one hand, adjusting it gently as they position it into the circular ditch, checking for alignment.",
+        "The person uses their left hand to align the tool with the circular ditch on the table, carefully guiding it into place. After securing it with the left hand, they switch to the right hand to adjust and position the tool more precisely."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person place the tool? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the tool with both hands and places it into the circular ditch on the table, ensuring it fits into place.\n(B) The person uses their right hand to lower the tool gently above the circular ditch on the table, aiming to position it properly.\n(C) The person guides the tool with their palm, trying to align it with their fingers as it moves into the circular ditch.\n(D) The person holds the tool with one hand, adjusting it gently as they position it into the circular ditch, checking for alignment.\n(E) The person uses their left hand to align the tool with the circular ditch on the table, carefully guiding it into place. After securing it with the left hand, they switch to the right hand to adjust and position the tool more precisely.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person uses their left hand to align the tool with the circular ditch on the table, carefully guiding it into place. After securing it with the left hand, they switch to the right hand to adjust and position the tool more precisely."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person used his right hand to fix the screw into the rear caliper brake pad assembly while his left hand holds it.",
+        "The person used his right hand to tighten a bolt on the front brake assembly, while his left hand stabilizes the assembly.",
+        "The person used his right hand to adjust the brake cable while using his left hand to hold a screwdriver.",
+        "The person used both hands to assemble the front caliper brake pad, with his right hand placing the pad and his left hand gripping the caliper.",
+        "The person used his left hand to remove the brake pads from the rear caliper, while using a drill in his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person used his right hand to fix the screw into the rear caliper brake pad assembly while his left hand holds it.\n(B) The person used his right hand to tighten a bolt on the front brake assembly, while his left hand stabilizes the assembly.\n(C) The person used his right hand to adjust the brake cable while using his left hand to hold a screwdriver.\n(D) The person used both hands to assemble the front caliper brake pad, with his right hand placing the pad and his left hand gripping the caliper.\n(E) The person used his left hand to remove the brake pads from the rear caliper, while using a drill in his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person used both hands to assemble the front caliper brake pad, with his right hand placing the pad and his left hand gripping the caliper."
+    },
+    "correct_idx": [
+        0
+    ]
+}

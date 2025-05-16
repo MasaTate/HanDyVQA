@@ -1,0 +1,17 @@
+{
+    "question": "How does the person hit the dustpan?",
+    "options": [
+        "The person softly nudges the dustpan using his fingertips.",
+        "The person gently taps the edge of the dustpan using his left fingertips.",
+        "The person lightly brushes the dustpan with the back of his hand.",
+        "The person softly presses on the dustpan with the palm of his hand.",
+        "The person gently flicks the dustpan using his thumb."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person hit the dustpan? Choose **only one** option from the following list.\nOptions:\n(A) The person softly nudges the dustpan using his fingertips.\n(B) The person gently taps the edge of the dustpan using his left fingertips.\n(C) The person lightly brushes the dustpan with the back of his hand.\n(D) The person softly presses on the dustpan with the palm of his hand.\n(E) The person gently flicks the dustpan using his thumb.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person softly presses on the dustpan with the palm of his hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

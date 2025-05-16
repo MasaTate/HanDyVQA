@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person holds a piece of yam with his right hand while peeling it with a spoon in his left hand on the countertop.",
+        "The person is mashing a cooked yam with a fork in his right hand while keeping a bowl of it steady with his left hand on the table.",
+        "The person holds a piece of yam with his left hand while cutting it into pieces with a knife in his right hand on the cutting board.",
+        "The person is slicing a carrot with a knife in his right hand while holding the carrot with his left hand on the chopping board.",
+        "The person is dicing a piece of yam using a vegetable peeler in his right hand while keeping the yam in place with his left hand on the cutting board."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person holds a piece of yam with his right hand while peeling it with a spoon in his left hand on the countertop.\n(B) The person is mashing a cooked yam with a fork in his right hand while keeping a bowl of it steady with his left hand on the table.\n(C) The person holds a piece of yam with his left hand while cutting it into pieces with a knife in his right hand on the cutting board.\n(D) The person is slicing a carrot with a knife in his right hand while holding the carrot with his left hand on the chopping board.\n(E) The person is dicing a piece of yam using a vegetable peeler in his right hand while keeping the yam in place with his left hand on the cutting board.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person holds a piece of yam with his left hand while cutting it into pieces with a knife in his right hand on the cutting board."
+    },
+    "correct_idx": [
+        2
+    ]
+}

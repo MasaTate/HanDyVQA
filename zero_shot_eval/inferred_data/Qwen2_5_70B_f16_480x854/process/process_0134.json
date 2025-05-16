@@ -1,0 +1,17 @@
+{
+    "question": "How does the person lift the carton from the motorcycle?",
+    "options": [
+        "The person uses both hands and pushes the carton off the motorcycle carefully.",
+        "The person grips the carton with their thumb and index finger of the right hand and lifts it upwards carefully.",
+        "The person grabs the carton with the palms of both hands and moves it gently to the side.",
+        "The person holds the carton with one hand on the bottom and raises it upwards smoothly.",
+        "The person picks up the carton by gently sliding it off the motorcycle."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person lift the carton from the motorcycle? Choose **only one** option from the following list.\nOptions:\n(A) The person uses both hands and pushes the carton off the motorcycle carefully.\n(B) The person grips the carton with their thumb and index finger of the right hand and lifts it upwards carefully.\n(C) The person grabs the carton with the palms of both hands and moves it gently to the side.\n(D) The person holds the carton with one hand on the bottom and raises it upwards smoothly.\n(E) The person picks up the carton by gently sliding it off the motorcycle.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person holds the carton with one hand on the bottom and raises it upwards smoothly."
+    },
+    "correct_idx": [
+        1
+    ]
+}

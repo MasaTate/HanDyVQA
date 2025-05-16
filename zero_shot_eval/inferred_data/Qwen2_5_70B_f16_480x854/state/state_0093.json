@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the strand of wool change?",
+    "options": [
+        "The strand of wool was unraveled to create a ball of yarn.",
+        "The strand of wool was woven to form a fabric.",
+        "The strand of wool was carefully crocheted using a knitting pick.",
+        "The strand of wool was twisted to create a thicker rope.",
+        "The strand of wool was dyed to change its color."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the strand of wool change? Choose **only one** option from the following list.\nOptions:\n(A) The strand of wool was unraveled to create a ball of yarn.\n(B) The strand of wool was woven to form a fabric.\n(C) The strand of wool was carefully crocheted using a knitting pick.\n(D) The strand of wool was twisted to create a thicker rope.\n(E) The strand of wool was dyed to change its color.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The strand of wool was carefully crocheted using a knitting pick."
+    },
+    "correct_idx": [
+        2
+    ]
+}

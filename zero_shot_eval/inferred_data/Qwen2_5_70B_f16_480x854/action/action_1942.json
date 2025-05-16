@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person kneads the dough with their left hand while holding a rolling pin in their right hand.",
+        "The person shapes the dough with their right hand while supporting it with their left hand.",
+        "The person tosses the dough into the air with their right hand while catching it with their left hand.",
+        "The person mixes ingredients in a bowl with their right hand while holding the dough in their left hand.",
+        "The person cuts the dough using their right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person kneads the dough with their left hand while holding a rolling pin in their right hand.\n(B) The person shapes the dough with their right hand while supporting it with their left hand.\n(C) The person tosses the dough into the air with their right hand while catching it with their left hand.\n(D) The person mixes ingredients in a bowl with their right hand while holding the dough in their left hand.\n(E) The person cuts the dough using their right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person cuts the dough using their right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

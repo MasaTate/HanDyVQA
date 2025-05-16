@@ -1,0 +1,17 @@
+{
+    "question": "How does the person fold the edges of a box?",
+    "options": [
+        "The person bent the edge of the box outward, not folding it inward.",
+        "The person crumpled the edge of the box, avoiding a proper fold.",
+        "The person rolled the edge of the box, not making a clean fold.",
+        "The person folded the edge of the box by folding the edge inward.",
+        "The person tore the edge of the box, creating an uneven fold."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person fold the edges of a box? Choose **only one** option from the following list.\nOptions:\n(A) The person bent the edge of the box outward, not folding it inward.\n(B) The person crumpled the edge of the box, avoiding a proper fold.\n(C) The person rolled the edge of the box, not making a clean fold.\n(D) The person folded the edge of the box by folding the edge inward.\n(E) The person tore the edge of the box, creating an uneven fold.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person folded the edge of the box by folding the edge inward."
+    },
+    "correct_idx": [
+        3
+    ]
+}

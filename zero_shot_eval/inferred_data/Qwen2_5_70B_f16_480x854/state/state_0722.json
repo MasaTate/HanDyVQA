@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the wood change?",
+    "options": [
+        "The wood was touched with a square ruler without any change.",
+        "The wood was lightly sanded on the surface using a square ruler.",
+        "The wood was marked with a pencil along the edge of a square ruler.",
+        "The wood was aligned parallel to a square ruler without any drawing.",
+        "The wood was measured with precision using a square ruler but not altered."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the wood change? Choose **only one** option from the following list.\nOptions:\n(A) The wood was touched with a square ruler without any change.\n(B) The wood was lightly sanded on the surface using a square ruler.\n(C) The wood was marked with a pencil along the edge of a square ruler.\n(D) The wood was aligned parallel to a square ruler without any drawing.\n(E) The wood was measured with precision using a square ruler but not altered.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The wood was marked with a pencil along the edge of a square ruler."
+    },
+    "correct_idx": [
+        0
+    ]
+}

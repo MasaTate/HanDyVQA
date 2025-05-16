@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is drying the knife with their left hand, turning off the tap water with their right hand, and then placing the orange on the counter with both hands.",
+        "The person is sharpening the knife with their left hand, closing the tap water with their right hand, and then holding the orange with their left hand while examining it.",
+        "The person is chopping with the knife in their left hand, pouring water from the tap with their right hand, and then tossing the orange into a bowl with both hands.",
+        "The person is storing the knife in a drawer with their left hand, adjusting the tap water with their right hand, and then disposing of the orange in the trash with both hands.",
+        "The person is washing the knife with their left hand, opening the tap water with their right hand, and then grabbing the orange with both hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is drying the knife with their left hand, turning off the tap water with their right hand, and then placing the orange on the counter with both hands.\n(B) The person is sharpening the knife with their left hand, closing the tap water with their right hand, and then holding the orange with their left hand while examining it.\n(C) The person is chopping with the knife in their left hand, pouring water from the tap with their right hand, and then tossing the orange into a bowl with both hands.\n(D) The person is storing the knife in a drawer with their left hand, adjusting the tap water with their right hand, and then disposing of the orange in the trash with both hands.\n(E) The person is washing the knife with their left hand, opening the tap water with their right hand, and then grabbing the orange with both hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person is washing the knife with their left hand, opening the tap water with their right hand, and then grabbing the orange with both hands."
+    },
+    "correct_idx": [
+        4
+    ]
+}

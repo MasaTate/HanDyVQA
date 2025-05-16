@@ -1,0 +1,17 @@
+{
+    "question": "How does the person touch a pack of tomato?",
+    "options": [
+        "The person holds the pack of tomatoes firmly with both hands and slightly moves it.",
+        "The person lightly taps the pack of tomatoes with the index finger of the left hand.",
+        "The person uses the left hand to move the pack of tomatoes gently across the surface.",
+        "The person grips a pack of tomatoes with the right hand and lifts it a bit upwards to give space for an item from the left hand.",
+        "The person holds the pack of tomatoes between the thumb and middle finger of the right hand without moving it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person touch a pack of tomato? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the pack of tomatoes firmly with both hands and slightly moves it.\n(B) The person lightly taps the pack of tomatoes with the index finger of the left hand.\n(C) The person uses the left hand to move the pack of tomatoes gently across the surface.\n(D) The person grips a pack of tomatoes with the right hand and lifts it a bit upwards to give space for an item from the left hand.\n(E) The person holds the pack of tomatoes between the thumb and middle finger of the right hand without moving it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person grips a pack of tomatoes with the right hand and lifts it a bit upwards to give space for an item from the left hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

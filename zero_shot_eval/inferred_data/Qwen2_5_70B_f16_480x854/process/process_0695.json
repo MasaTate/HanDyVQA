@@ -1,0 +1,17 @@
+{
+    "question": "How does the person shake the right hand?",
+    "options": [
+        "The person grips the salt container with their right hand and moves their hand in a subtle circular motion, letting chunks of salt fall onto the food.",
+        "The person holds the salt with their right hand and shakes their hand in a controlled back-and-forth motion over the pan, allowing the salt to sprinkle evenly onto the food.",
+        "The person tilts the salt shaker while holding it with their right hand, allowing a large amount of salt to spill all at once onto the food.",
+        "The person uses their right hand to flick the wrist briefly, letting a sprinkle of salt scatter across the food.",
+        "The person taps the salt container against the side of the pan with their right hand, letting only a few grains of salt fall onto the food."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person shake the right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the salt container with their right hand and moves their hand in a subtle circular motion, letting chunks of salt fall onto the food.\n(B) The person holds the salt with their right hand and shakes their hand in a controlled back-and-forth motion over the pan, allowing the salt to sprinkle evenly onto the food.\n(C) The person tilts the salt shaker while holding it with their right hand, allowing a large amount of salt to spill all at once onto the food.\n(D) The person uses their right hand to flick the wrist briefly, letting a sprinkle of salt scatter across the food.\n(E) The person taps the salt container against the side of the pan with their right hand, letting only a few grains of salt fall onto the food.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person holds the salt with their right hand and shakes their hand in a controlled back-and-forth motion over the pan, allowing the salt to sprinkle evenly onto the food."
+    },
+    "correct_idx": [
+        1
+    ]
+}

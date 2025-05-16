@@ -1,0 +1,17 @@
+{
+    "question": "How does the person tap her right hand?",
+    "options": [
+        "The person shuffles the cards in his hands and places his right hand on the center of the table, then taps her fingers in a rhythmic drumming.",
+        "The person holds the cards in her left hand and gently places her palm on the table, softly tapping her fingers.",
+        "The person grips the cards carefully in her fist and softly taps her right hand on the table, making a light tapping sound.",
+        "The person shuffles the cards in his hands and places his right hand on the center of the table, then taps her fingers with steady intensity.",
+        "The person shuffles the cards in his hands and places his right hand on the center of the table, then taps her fingers lightly."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person tap her right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person shuffles the cards in his hands and places his right hand on the center of the table, then taps her fingers in a rhythmic drumming.\n(B) The person holds the cards in her left hand and gently places her palm on the table, softly tapping her fingers.\n(C) The person grips the cards carefully in her fist and softly taps her right hand on the table, making a light tapping sound.\n(D) The person shuffles the cards in his hands and places his right hand on the center of the table, then taps her fingers with steady intensity.\n(E) The person shuffles the cards in his hands and places his right hand on the center of the table, then taps her fingers lightly.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person shuffles the cards in his hands and places his right hand on the center of the table, then taps her fingers lightly."
+    },
+    "correct_idx": [
+        0
+    ]
+}

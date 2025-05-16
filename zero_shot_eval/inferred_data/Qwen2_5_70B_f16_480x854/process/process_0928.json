@@ -1,0 +1,17 @@
+{
+    "question": "How does the person grab an onion with her left hand?",
+    "options": [
+        "The person picks up the onion with her left hand by gently holding it between her fingers after setting the tomatoes on the counter.",
+        "The person reaches for the onion with her left hand while carefully moving the tomatoes aside with the same hand.",
+        "The person grabs an onion by scooping it and sliding it towards herself after placing tomatoes aside using the left hand.",
+        "The person holds the onion closely in her left hand after placing the tomatoes neatly into a bowl using her right hand.",
+        "The person lifts the onion with her left hand by gently wrapping her fingers around it after setting the tomatoes aside on the counter."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person grab an onion with her left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person picks up the onion with her left hand by gently holding it between her fingers after setting the tomatoes on the counter.\n(B) The person reaches for the onion with her left hand while carefully moving the tomatoes aside with the same hand.\n(C) The person grabs an onion by scooping it and sliding it towards herself after placing tomatoes aside using the left hand.\n(D) The person holds the onion closely in her left hand after placing the tomatoes neatly into a bowl using her right hand.\n(E) The person lifts the onion with her left hand by gently wrapping her fingers around it after setting the tomatoes aside on the counter.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person lifts the onion with her left hand by gently wrapping her fingers around it after setting the tomatoes aside on the counter."
+    },
+    "correct_idx": [
+        2
+    ]
+}

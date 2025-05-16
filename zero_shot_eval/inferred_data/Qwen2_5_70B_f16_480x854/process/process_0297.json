@@ -1,0 +1,17 @@
+{
+    "question": "How does the person search the bag?",
+    "options": [
+        "The person uses both hands inside the bag to explore different items, feeling around without concentrating on a specific one.",
+        "The person uses their right hand to search the bag, moving their hand inside to feel for the desired item.",
+        "The person reaches into the bag with their left hand, feeling around to identify items without a clear focus.",
+        "The person uses the fingertips of their right hand to explore the top layer inside the bag, without delving into the deeper parts.",
+        "The person turns the bag over and shakes it gently, allowing the contents to fall out to locate items without using their hand inside."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person search the bag? Choose **only one** option from the following list.\nOptions:\n(A) The person uses both hands inside the bag to explore different items, feeling around without concentrating on a specific one.\n(B) The person uses their right hand to search the bag, moving their hand inside to feel for the desired item.\n(C) The person reaches into the bag with their left hand, feeling around to identify items without a clear focus.\n(D) The person uses the fingertips of their right hand to explore the top layer inside the bag, without delving into the deeper parts.\n(E) The person turns the bag over and shakes it gently, allowing the contents to fall out to locate items without using their hand inside.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person uses their right hand to search the bag, moving their hand inside to feel for the desired item."
+    },
+    "correct_idx": [
+        1
+    ]
+}

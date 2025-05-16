@@ -1,0 +1,17 @@
+{
+    "question": "How does the person move the detergent bottle?",
+    "options": [
+        "The person shifted the detergent bottle by getting it with her right hand and opened the detergent drawer, switched it to her left hand then opened the lid with her right hand.",
+        "The person lifted the detergent bottle using both hands and carefully placed it on the counter.",
+        "The person reached for the detergent bottle using her left hand and smoothly moved it across the table.",
+        "The person picked up the detergent bottle with her right hand and gently carried it under her arm.",
+        "The person grabbed the detergent bottle with her fingers and placed it to the side."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person move the detergent bottle? Choose **only one** option from the following list.\nOptions:\n(A) The person shifted the detergent bottle by getting it with her right hand and opened the detergent drawer, switched it to her left hand then opened the lid with her right hand.\n(B) The person lifted the detergent bottle using both hands and carefully placed it on the counter.\n(C) The person reached for the detergent bottle using her left hand and smoothly moved it across the table.\n(D) The person picked up the detergent bottle with her right hand and gently carried it under her arm.\n(E) The person grabbed the detergent bottle with her fingers and placed it to the side.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person shifted the detergent bottle by getting it with her right hand and opened the detergent drawer, switched it to her left hand then opened the lid with her right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

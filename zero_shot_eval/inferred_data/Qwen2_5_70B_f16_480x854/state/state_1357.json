@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a wire change?",
+    "options": [
+        "The wire became coiled as it was wrapped around a spool.",
+        "The wire became slack as it was pulled to the left.",
+        "The wire became tangled as it was pulled towards the center.",
+        "The wire was bent into a zig-zag shape instead of being pulled straight.",
+        "The wire became stretched as it was pulled to the right."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a wire change? Choose **only one** option from the following list.\nOptions:\n(A) The wire became coiled as it was wrapped around a spool.\n(B) The wire became slack as it was pulled to the left.\n(C) The wire became tangled as it was pulled towards the center.\n(D) The wire was bent into a zig-zag shape instead of being pulled straight.\n(E) The wire became stretched as it was pulled to the right.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The wire became slack as it was pulled to the left."
+    },
+    "correct_idx": [
+        4
+    ]
+}

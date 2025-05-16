@@ -1,0 +1,17 @@
+{
+    "question": "How does the person lower the potato?",
+    "options": [
+        "The person tilts her left hand slightly forward and lets the potato land gently onto the countertop.",
+        "The person uses her right hand to guide the potato carefully off the edge of the table so it can roll to the countertop.",
+        "The person holds the potato gently in both hands and places it smoothly down onto the countertop.",
+        "The person grips the potato closely in her left hand and lowers it softly by extending her arm slightly.",
+        "The person lowers the potato by holding it in her left hand and quickly moves her left hand down to the countertop."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person lower the potato? Choose **only one** option from the following list.\nOptions:\n(A) The person tilts her left hand slightly forward and lets the potato land gently onto the countertop.\n(B) The person uses her right hand to guide the potato carefully off the edge of the table so it can roll to the countertop.\n(C) The person holds the potato gently in both hands and places it smoothly down onto the countertop.\n(D) The person grips the potato closely in her left hand and lowers it softly by extending her arm slightly.\n(E) The person lowers the potato by holding it in her left hand and quickly moves her left hand down to the countertop.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person grips the potato closely in her left hand and lowers it softly by extending her arm slightly."
+    },
+    "correct_idx": [
+        4
+    ]
+}

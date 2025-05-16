@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pack sand?",
+    "options": [
+        "The person scoops the sand with both hands and places it into the container without shaping it.",
+        "The person packs the sand into the molder using his left hand.",
+        "The person uses a spade to shovel the sand and leaves it slightly in a pile.",
+        "The person fills the molder with sand using only his right hand while his left hand rests.",
+        "The person grabs the sand with his fist and compresses it slightly into the shape of a mound."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pack sand? Choose **only one** option from the following list.\nOptions:\n(A) The person scoops the sand with both hands and places it into the container without shaping it.\n(B) The person packs the sand into the molder using his left hand.\n(C) The person uses a spade to shovel the sand and leaves it slightly in a pile.\n(D) The person fills the molder with sand using only his right hand while his left hand rests.\n(E) The person grabs the sand with his fist and compresses it slightly into the shape of a mound.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person packs the sand into the molder using his left hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

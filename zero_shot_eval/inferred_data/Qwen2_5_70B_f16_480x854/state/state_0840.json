@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of soap bottle change?",
+    "options": [
+        "The soap was picked up and tilted around 45 degrees before being put back.",
+        "The soap was picked up and fully inverted before being put back.",
+        "The soap was picked up and tilted 180 degrees, but not put back.",
+        "The soap was picked up and tilted around 90 degrees and then put back.",
+        "The soap was picked up and tilted slightly before being placed on its side."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of soap bottle change? Choose **only one** option from the following list.\nOptions:\n(A) The soap was picked up and tilted around 45 degrees before being put back.\n(B) The soap was picked up and fully inverted before being put back.\n(C) The soap was picked up and tilted 180 degrees, but not put back.\n(D) The soap was picked up and tilted around 90 degrees and then put back.\n(E) The soap was picked up and tilted slightly before being placed on its side.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The soap was picked up and tilted around 90 degrees and then put back."
+    },
+    "correct_idx": [
+        3
+    ]
+}

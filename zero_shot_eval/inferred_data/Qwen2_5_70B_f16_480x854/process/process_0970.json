@@ -1,0 +1,17 @@
+{
+    "question": "How does the person change the plate?",
+    "options": [
+        "The person uses his right hand to turn the plate and then moves it to a new spot.",
+        "The person holds the plate in one hand, gives it a spin, and places it back down in the same place.",
+        "The person picks up the plate with his right hand, transfers it to the left hand, and then puts it back to the right hand again.",
+        "The person picks up the plate with his left hand, transfers it to the right hand, and then puts it back to the left hand again.",
+        "The person picks up the plate with his left hand, transfers it to the right hand, and then puts it back down on the floor gently."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person change the plate? Choose **only one** option from the following list.\nOptions:\n(A) The person uses his right hand to turn the plate and then moves it to a new spot.\n(B) The person holds the plate in one hand, gives it a spin, and places it back down in the same place.\n(C) The person picks up the plate with his right hand, transfers it to the left hand, and then puts it back to the right hand again.\n(D) The person picks up the plate with his left hand, transfers it to the right hand, and then puts it back to the left hand again.\n(E) The person picks up the plate with his left hand, transfers it to the right hand, and then puts it back down on the floor gently.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person picks up the plate with his left hand, transfers it to the right hand, and then puts it back to the left hand again."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the vegetables change?",
+    "options": [
+        "The vegetables were lifted from the boiling pot and placed back after a brief pause.",
+        "The vegetables were not stirred, allowing them to cook undisturbed in the boiling pot.",
+        "The vegetables were removed from the pot just as they began to soak with the hot water.",
+        "The vegetables were stirred in a bowl, avoiding contact with the boiling water.",
+        "The vegetables were stirred in the boiling pot, being soaked with the hot water."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the vegetables change? Choose **only one** option from the following list.\nOptions:\n(A) The vegetables were lifted from the boiling pot and placed back after a brief pause.\n(B) The vegetables were not stirred, allowing them to cook undisturbed in the boiling pot.\n(C) The vegetables were removed from the pot just as they began to soak with the hot water.\n(D) The vegetables were stirred in a bowl, avoiding contact with the boiling water.\n(E) The vegetables were stirred in the boiling pot, being soaked with the hot water.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The vegetables were stirred in the boiling pot, being soaked with the hot water."
+    },
+    "correct_idx": [
+        4
+    ]
+}

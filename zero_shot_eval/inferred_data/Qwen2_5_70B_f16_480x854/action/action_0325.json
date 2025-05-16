@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is adjusting sunglasses with her hands.",
+        "The person is dusting her glasses using her hands.",
+        "The person holds and wears glasses with both hands.",
+        "The person is placing her glasses into a case with her hands.",
+        "The person is folding a cloth to clean her glasses with her hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is adjusting sunglasses with her hands.\n(B) The person is dusting her glasses using her hands.\n(C) The person holds and wears glasses with both hands.\n(D) The person is placing her glasses into a case with her hands.\n(E) The person is folding a cloth to clean her glasses with her hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person holds and wears glasses with both hands."
+    },
+    "correct_idx": [
+        2
+    ]
+}

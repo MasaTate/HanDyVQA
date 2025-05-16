@@ -1,0 +1,17 @@
+{
+    "question": "How does the person collect a spanner?",
+    "options": [
+        "The person collects the spanner by extending their right hand toward the other person, gripping the tool firmly as it is handed over, and smoothly bringing it into their possession.",
+        "The person reaches out with their left hand to pick the spanner from the surface, holding it firmly before it is handed over.",
+        "The person quickly takes the spanner with both hands from the other person's grip, drawing it toward themselves quickly.",
+        "The person takes the spanner by wrapping their fingers around it from a short distance, pulling it toward them rather than waiting to receive it.",
+        "The person places their palm under the spanner and lifts it smoothly, without engaging with the other person."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person collect a spanner? Choose **only one** option from the following list.\nOptions:\n(A) The person collects the spanner by extending their right hand toward the other person, gripping the tool firmly as it is handed over, and smoothly bringing it into their possession.\n(B) The person reaches out with their left hand to pick the spanner from the surface, holding it firmly before it is handed over.\n(C) The person quickly takes the spanner with both hands from the other person's grip, drawing it toward themselves quickly.\n(D) The person takes the spanner by wrapping their fingers around it from a short distance, pulling it toward them rather than waiting to receive it.\n(E) The person places their palm under the spanner and lifts it smoothly, without engaging with the other person.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person collects the spanner by extending their right hand toward the other person, gripping the tool firmly as it is handed over, and smoothly bringing it into their possession."
+    },
+    "correct_idx": [
+        0
+    ]
+}

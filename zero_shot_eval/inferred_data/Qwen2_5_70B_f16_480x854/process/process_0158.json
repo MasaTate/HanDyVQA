@@ -1,0 +1,17 @@
+{
+    "question": "How does the person join the plank of wood?",
+    "options": [
+        "The person joins the plank of wood by fitting them together and pushing them firmly with both hands.",
+        "The person aligns the ends of the planks and presses them together with a tool.",
+        "The person places one plank over the other and rotates them slightly to connect.",
+        "The person holds the planks near each other and uses both hands to adjust them into position.",
+        "The person attempts to join the planks by sliding one beneath the other before aligning them."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person join the plank of wood? Choose **only one** option from the following list.\nOptions:\n(A) The person joins the plank of wood by fitting them together and pushing them firmly with both hands.\n(B) The person aligns the ends of the planks and presses them together with a tool.\n(C) The person places one plank over the other and rotates them slightly to connect.\n(D) The person holds the planks near each other and uses both hands to adjust them into position.\n(E) The person attempts to join the planks by sliding one beneath the other before aligning them.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person joins the plank of wood by fitting them together and pushing them firmly with both hands."
+    },
+    "correct_idx": [
+        0
+    ]
+}

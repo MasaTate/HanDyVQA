@@ -1,0 +1,17 @@
+{
+    "question": "How does the person search the drawer?",
+    "options": [
+        "The person explores the drawer by moving the saw and the tape aside with one hand while the other hand is on the edge.",
+        "The person searches the drawer by pulling and dragging the saw and the tape with both hands.",
+        "The person rummages through the drawer by moving the saw and the tape around using one hand.",
+        "The person investigates the drawer by lifting the saw and the tape with both hands, then letting them fall back.",
+        "The person examines the drawer by holding the saw and the tape above the drawer with both hands before setting them down."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person search the drawer? Choose **only one** option from the following list.\nOptions:\n(A) The person explores the drawer by moving the saw and the tape aside with one hand while the other hand is on the edge.\n(B) The person searches the drawer by pulling and dragging the saw and the tape with both hands.\n(C) The person rummages through the drawer by moving the saw and the tape around using one hand.\n(D) The person investigates the drawer by lifting the saw and the tape with both hands, then letting them fall back.\n(E) The person examines the drawer by holding the saw and the tape above the drawer with both hands before setting them down.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person rummages through the drawer by moving the saw and the tape around using one hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

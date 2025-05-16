@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a part of the driller change?",
+    "options": [
+        "The wood was detached from the drill, causing a change in attachment as it became loose.",
+        "The wood was connected to the drill, causing a change in attachment as it became secured.",
+        "The wood was replaced by a metal piece, causing a change in attachment as it became more rigid.",
+        "The wood was painted, causing a change in attachment as it became colored.",
+        "The wood was sanded down, causing a change in attachment as it became smoother and more polished."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a part of the driller change? Choose **only one** option from the following list.\nOptions:\n(A) The wood was detached from the drill, causing a change in attachment as it became loose.\n(B) The wood was connected to the drill, causing a change in attachment as it became secured.\n(C) The wood was replaced by a metal piece, causing a change in attachment as it became more rigid.\n(D) The wood was painted, causing a change in attachment as it became colored.\n(E) The wood was sanded down, causing a change in attachment as it became smoother and more polished.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The wood was connected to the drill, causing a change in attachment as it became secured."
+    },
+    "correct_idx": [
+        1
+    ]
+}

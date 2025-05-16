@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the rear tire change?",
+    "options": [
+        "The rear tire was turned and it stopped by friction.",
+        "The rear tire was turned and it stopped by hitting a hard surface.",
+        "The rear tire was turned and it stopped by skidding.",
+        "The rear tire was turned and it stopped as the brake was applied.",
+        "The rear tire was turned and it stopped due to an obstacle."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the rear tire change? Choose **only one** option from the following list.\nOptions:\n(A) The rear tire was turned and it stopped by friction.\n(B) The rear tire was turned and it stopped by hitting a hard surface.\n(C) The rear tire was turned and it stopped by skidding.\n(D) The rear tire was turned and it stopped as the brake was applied.\n(E) The rear tire was turned and it stopped due to an obstacle.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The rear tire was turned and it stopped by friction."
+    },
+    "correct_idx": [
+        0
+    ]
+}

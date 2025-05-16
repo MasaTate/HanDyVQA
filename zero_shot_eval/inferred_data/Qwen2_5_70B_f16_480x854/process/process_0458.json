@@ -1,0 +1,17 @@
+{
+    "question": "How does the person clean the table?",
+    "options": [
+        "The person grips the towel in his right hand and moves it in smooth, circular motions across the table, applying gentle pressure to clean the surface.",
+        "The person holds the towel with both hands and moves it with a back-and-forth rhythm across the table, using noticeable pressure to remove dirt.",
+        "The person places the towel onto the table with a light touch, expecting it to absorb the grime with minimal movement.",
+        "The person grips the towel between the thumb and forefinger of his right hand and dabs it intermittently on the table, avoiding continuous movement.",
+        "The person drapes the towel over his shoulder and tries to reach the table to wipe it with a side-swinging motion."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person clean the table? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the towel in his right hand and moves it in smooth, circular motions across the table, applying gentle pressure to clean the surface.\n(B) The person holds the towel with both hands and moves it with a back-and-forth rhythm across the table, using noticeable pressure to remove dirt.\n(C) The person places the towel onto the table with a light touch, expecting it to absorb the grime with minimal movement.\n(D) The person grips the towel between the thumb and forefinger of his right hand and dabs it intermittently on the table, avoiding continuous movement.\n(E) The person drapes the towel over his shoulder and tries to reach the table to wipe it with a side-swinging motion.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person grips the towel in his right hand and moves it in smooth, circular motions across the table, applying gentle pressure to clean the surface."
+    },
+    "correct_idx": [
+        0
+    ]
+}

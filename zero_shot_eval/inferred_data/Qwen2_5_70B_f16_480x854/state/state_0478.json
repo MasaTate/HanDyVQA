@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of macaroni change?",
+    "options": [
+        "The macaroni was moved directly onto a plate from the pot.",
+        "The macaroni was kept in the pot and covered with sauce.",
+        "The macaroni was transferred from the pot to a bowl.",
+        "The macaroni was put into the sink for rinsing.",
+        "The macaroni was placed back into the pot after being drained."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of macaroni change? Choose **only one** option from the following list.\nOptions:\n(A) The macaroni was moved directly onto a plate from the pot.\n(B) The macaroni was kept in the pot and covered with sauce.\n(C) The macaroni was transferred from the pot to a bowl.\n(D) The macaroni was put into the sink for rinsing.\n(E) The macaroni was placed back into the pot after being drained.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The macaroni was transferred from the pot to a bowl."
+    },
+    "correct_idx": [
+        2
+    ]
+}

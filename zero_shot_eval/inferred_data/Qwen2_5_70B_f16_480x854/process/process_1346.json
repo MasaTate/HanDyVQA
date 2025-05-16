@@ -1,0 +1,17 @@
+{
+    "question": "How does the person attach the piece of poster tape?",
+    "options": [
+        "The person lifts up the edge of the poster and attaches some tape to the back of the poster, then slowly moves and sticks the poster down to the wall.",
+        "The person presses down on the tape roll with their palm and rips off a piece before applying it to the poster and smoothly sticking it to the wall.",
+        "The person twists the roll of tape with their fingers and gently presses it onto the poster, aligning it with the spot on the wall.",
+        "The person peels the tape off with both hands, carefully positioning it on the back of the poster before attaching the poster to the wall.",
+        "The person grabs the tape with their fingers and ensures it makes contact with the poster before attaching it to the wall."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person attach the piece of poster tape? Choose **only one** option from the following list.\nOptions:\n(A) The person lifts up the edge of the poster and attaches some tape to the back of the poster, then slowly moves and sticks the poster down to the wall.\n(B) The person presses down on the tape roll with their palm and rips off a piece before applying it to the poster and smoothly sticking it to the wall.\n(C) The person twists the roll of tape with their fingers and gently presses it onto the poster, aligning it with the spot on the wall.\n(D) The person peels the tape off with both hands, carefully positioning it on the back of the poster before attaching the poster to the wall.\n(E) The person grabs the tape with their fingers and ensures it makes contact with the poster before attaching it to the wall.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person lifts up the edge of the poster and attaches some tape to the back of the poster, then slowly moves and sticks the poster down to the wall."
+    },
+    "correct_idx": [
+        0
+    ]
+}

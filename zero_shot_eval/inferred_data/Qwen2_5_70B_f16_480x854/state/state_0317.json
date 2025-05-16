@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a sandpaper change?",
+    "options": [
+        "The sandpaper was laid flat on the cabinet and scraped along its surface up and down.",
+        "The sandpaper was laid flat on the cabinet and scraped along its surface right and left.",
+        "The sandpaper was held on one edge and moved in a circular motion on the cabinet.",
+        "The sandpaper was laid flat on the cabinet and scraped along its surface diagonally from corner to corner.",
+        "The sandpaper was pressed slightly and moved horizontally without any vertical motion."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a sandpaper change? Choose **only one** option from the following list.\nOptions:\n(A) The sandpaper was laid flat on the cabinet and scraped along its surface up and down.\n(B) The sandpaper was laid flat on the cabinet and scraped along its surface right and left.\n(C) The sandpaper was held on one edge and moved in a circular motion on the cabinet.\n(D) The sandpaper was laid flat on the cabinet and scraped along its surface diagonally from corner to corner.\n(E) The sandpaper was pressed slightly and moved horizontally without any vertical motion.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The sandpaper was held on one edge and moved in a circular motion on the cabinet."
+    },
+    "correct_idx": [
+        1
+    ]
+}

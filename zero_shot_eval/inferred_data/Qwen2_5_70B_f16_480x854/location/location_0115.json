@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the container?",
+    "options": [
+        "The person put the white container next to the black container.",
+        "The person put the white container above the black container.",
+        "The person put the white container behind the black container.",
+        "The person put the white container in front of the black container.",
+        "The person put the white container under the black container."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the container? Choose **only one** option from the following list.\nOptions:\n(A) The person put the white container next to the black container.\n(B) The person put the white container above the black container.\n(C) The person put the white container behind the black container.\n(D) The person put the white container in front of the black container.\n(E) The person put the white container under the black container.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person put the white container next to the black container."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person add the card?",
+    "options": [
+        "The person added the card on his right hand.",
+        "The person added the card in his right pocket.",
+        "The person added the card on his left hand.",
+        "The person added the card on the table in front of him.",
+        "The person added the card to his back pocket."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person add the card? Choose **only one** option from the following list.\nOptions:\n(A) The person added the card on his right hand.\n(B) The person added the card in his right pocket.\n(C) The person added the card on his left hand.\n(D) The person added the card on the table in front of him.\n(E) The person added the card to his back pocket.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person added the card on his right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

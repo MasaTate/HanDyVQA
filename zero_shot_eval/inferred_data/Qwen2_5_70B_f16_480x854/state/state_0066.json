@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the garlic change?",
+    "options": [
+        "The garlic falling out of the tool was dropped onto a cutting board and the piece of garlic inside the tool was pressed with the knife.",
+        "The garlic pieces coming out of the tool landed on a plate and the remaining garlic inside the tool was sliced with the knife.",
+        "The garlic falling from the tool was dropped onto a dish and the garlic still inside the tool was mashed with the knife.",
+        "The garlic exiting the tool was placed on a spoon and the leftover garlic inside the tool was shifted with the knife.",
+        "The garlic coming out of the tool was dropped into the pot and the rest of the garlic inside the tool is stirred by the knife."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the garlic change? Choose **only one** option from the following list.\nOptions:\n(A) The garlic falling out of the tool was dropped onto a cutting board and the piece of garlic inside the tool was pressed with the knife.\n(B) The garlic pieces coming out of the tool landed on a plate and the remaining garlic inside the tool was sliced with the knife.\n(C) The garlic falling from the tool was dropped onto a dish and the garlic still inside the tool was mashed with the knife.\n(D) The garlic exiting the tool was placed on a spoon and the leftover garlic inside the tool was shifted with the knife.\n(E) The garlic coming out of the tool was dropped into the pot and the rest of the garlic inside the tool is stirred by the knife.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The garlic coming out of the tool was dropped into the pot and the rest of the garlic inside the tool is stirred by the knife."
+    },
+    "correct_idx": [
+        4
+    ]
+}

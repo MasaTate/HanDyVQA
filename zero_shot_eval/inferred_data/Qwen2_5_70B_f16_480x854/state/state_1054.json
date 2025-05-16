@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the bolt change?",
+    "options": [
+        "The bolt was initially loosened with strong force, then gently with weaker force.",
+        "The bolt was initially tightened with moderate force, then further tightened.",
+        "The bolt was initially loosened with weak force, then tightened with strong force.",
+        "The bolt was initially slightly loosened, then fully removed.",
+        "The bolt was initially over-tightened, then slightly loosened."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the bolt change? Choose **only one** option from the following list.\nOptions:\n(A) The bolt was initially loosened with strong force, then gently with weaker force.\n(B) The bolt was initially tightened with moderate force, then further tightened.\n(C) The bolt was initially loosened with weak force, then tightened with strong force.\n(D) The bolt was initially slightly loosened, then fully removed.\n(E) The bolt was initially over-tightened, then slightly loosened.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The bolt was initially slightly loosened, then fully removed."
+    },
+    "correct_idx": [
+        0
+    ]
+}

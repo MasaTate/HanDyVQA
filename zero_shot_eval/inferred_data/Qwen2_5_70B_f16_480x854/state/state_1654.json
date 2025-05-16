@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the cupcake change?",
+    "options": [
+        "The cupcake changed by being lifted toward the plate.",
+        "The cupcake changed by being passed from one hand to the other while remaining stationary.",
+        "The cupcake changed by being lifted toward the mouth.",
+        "The cupcake changed by being lifted slightly higher without moving toward the mouth.",
+        "The cupcake changed by being rotated in the hand without moving."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the cupcake change? Choose **only one** option from the following list.\nOptions:\n(A) The cupcake changed by being lifted toward the plate.\n(B) The cupcake changed by being passed from one hand to the other while remaining stationary.\n(C) The cupcake changed by being lifted toward the mouth.\n(D) The cupcake changed by being lifted slightly higher without moving toward the mouth.\n(E) The cupcake changed by being rotated in the hand without moving.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The cupcake changed by being lifted toward the mouth."
+    },
+    "correct_idx": [
+        2
+    ]
+}

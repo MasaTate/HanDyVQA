@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the deck of cards?",
+    "options": [
+        "The person placed the deck of cards in the corner of the table.",
+        "The person put the deck of cards on the side of the table closest to the wall.",
+        "The person putted the deck of cards in the middle of the table.",
+        "The person set the deck of cards at the far end of the table.",
+        "The person laid the deck of cards near the edge of the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the deck of cards? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the deck of cards in the corner of the table.\n(B) The person put the deck of cards on the side of the table closest to the wall.\n(C) The person putted the deck of cards in the middle of the table.\n(D) The person set the deck of cards at the far end of the table.\n(E) The person laid the deck of cards near the edge of the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person putted the deck of cards in the middle of the table."
+    },
+    "correct_idx": [
+        2
+    ]
+}

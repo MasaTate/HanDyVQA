@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pour the vegetables of the container?",
+    "options": [
+        "The person tilted the container slightly and gently guided the vegetables out.",
+        "The person flipped the vegetables of the container downward.",
+        "The person opened the lid of the container and carefully used a spoon to scoop out the vegetables.",
+        "The person turned the container sideways and slowly let the vegetables slide out.",
+        "The person set the container upright and gently pushed the vegetables out with their hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pour the vegetables of the container? Choose **only one** option from the following list.\nOptions:\n(A) The person tilted the container slightly and gently guided the vegetables out.\n(B) The person flipped the vegetables of the container downward.\n(C) The person opened the lid of the container and carefully used a spoon to scoop out the vegetables.\n(D) The person turned the container sideways and slowly let the vegetables slide out.\n(E) The person set the container upright and gently pushed the vegetables out with their hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person flipped the vegetables of the container downward."
+    },
+    "correct_idx": [
+        1
+    ]
+}

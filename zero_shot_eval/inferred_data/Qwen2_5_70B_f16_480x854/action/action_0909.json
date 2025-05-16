@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person carries a paint bucket in his left hand and uses the paint roller in his right hand to apply paint on the wall.",
+        "The person grips a paint palette in his left hand and moves the paintbrush in his right hand to mix colors.",
+        "The person balances a paint can in his left hand and uses a sponge in his right hand to apply paint on the canvas.",
+        "The person holds a paint tray in his left hand and raises the paintbrush in his right hand to paint.",
+        "The person supports a paint canister in his left hand and uses a spray gun in his right hand to spray paint."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person carries a paint bucket in his left hand and uses the paint roller in his right hand to apply paint on the wall.\n(B) The person grips a paint palette in his left hand and moves the paintbrush in his right hand to mix colors.\n(C) The person balances a paint can in his left hand and uses a sponge in his right hand to apply paint on the canvas.\n(D) The person holds a paint tray in his left hand and raises the paintbrush in his right hand to paint.\n(E) The person supports a paint canister in his left hand and uses a spray gun in his right hand to spray paint.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person holds a paint tray in his left hand and raises the paintbrush in his right hand to paint."
+    },
+    "correct_idx": [
+        3
+    ]
+}

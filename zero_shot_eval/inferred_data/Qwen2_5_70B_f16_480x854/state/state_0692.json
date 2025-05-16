@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a branch on the tree change?",
+    "options": [
+        "The branch on the tree was torn from the trunk by a strong wind, causing it to hang loosely.",
+        "The branch on the tree was sawed off, but it remained suspended in the air.",
+        "The branch on the tree was broken by a heavy snowfall, causing it to bend but not fall.",
+        "The branch on the tree was snapped by a passing vehicle, leaving it dangling from the tree.",
+        "The branch on the tree was cut with a machete, and it fell to the ground."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a branch on the tree change? Choose **only one** option from the following list.\nOptions:\n(A) The branch on the tree was torn from the trunk by a strong wind, causing it to hang loosely.\n(B) The branch on the tree was sawed off, but it remained suspended in the air.\n(C) The branch on the tree was broken by a heavy snowfall, causing it to bend but not fall.\n(D) The branch on the tree was snapped by a passing vehicle, leaving it dangling from the tree.\n(E) The branch on the tree was cut with a machete, and it fell to the ground.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The branch on the tree was cut with a machete, and it fell to the ground."
+    },
+    "correct_idx": [
+        4
+    ]
+}

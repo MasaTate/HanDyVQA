@@ -1,0 +1,17 @@
+{
+    "question": "How does the person paint the canvass with the paint brush?",
+    "options": [
+        "The person spreads paint across the canvass by gently moving his wrist while holding the paintbrush steadily in his left hand.",
+        "The person applies color to the canvass by quickly flicking the paintbrush with her fingers, using her right hand.",
+        "The person brushes the paint onto the canvass by smoothly moving his hand in circular motions while holding the paintbrush with both hands.",
+        "The person paints the canvass by slightly moving her hand downward using the paintbrush in the right hand.",
+        "The person dabs the paint onto the canvass by slightly lifting her arm and then bringing the paintbrush down gently."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person paint the canvass with the paint brush? Choose **only one** option from the following list.\nOptions:\n(A) The person spreads paint across the canvass by gently moving his wrist while holding the paintbrush steadily in his left hand.\n(B) The person applies color to the canvass by quickly flicking the paintbrush with her fingers, using her right hand.\n(C) The person brushes the paint onto the canvass by smoothly moving his hand in circular motions while holding the paintbrush with both hands.\n(D) The person paints the canvass by slightly moving her hand downward using the paintbrush in the right hand.\n(E) The person dabs the paint onto the canvass by slightly lifting her arm and then bringing the paintbrush down gently.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person paints the canvass by slightly moving her hand downward using the paintbrush in the right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

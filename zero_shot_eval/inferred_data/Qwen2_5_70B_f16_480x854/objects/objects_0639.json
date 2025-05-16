@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "stove burner. ",
+        "transparent plastic",
+        "sponge. ",
+        "sliced meat",
+        "stainless steel teapot. ",
+        "sieve. "
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) stove burner. \n(B) transparent plastic\n(C) sponge. \n(D) sliced meat\n(E) stainless steel teapot. \n(F) sieve. \n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(B) transparent plastic\n(D) sliced meat"
+    },
+    "correct_idx": [
+        1,
+        3
+    ]
+}

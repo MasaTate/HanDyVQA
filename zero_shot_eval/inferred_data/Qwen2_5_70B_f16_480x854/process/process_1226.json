@@ -1,0 +1,17 @@
+{
+    "question": "How does the person roll the wheel?",
+    "options": [
+        "The person rolls the wheel forward with both hands, applying gentle pressure to make it move.",
+        "The person tilts the wheel slightly and rolls it with his left hand in a clockwise direction.",
+        "The person rolls the wheel to the left or in counterclockwise rotation using his right hand.",
+        "The person balances the wheel and nudges it smoothly with his foot to set it in motion.",
+        "The person grabs the wheel closely with two hands and lifts it slightly, not rolling it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person roll the wheel? Choose **only one** option from the following list.\nOptions:\n(A) The person rolls the wheel forward with both hands, applying gentle pressure to make it move.\n(B) The person tilts the wheel slightly and rolls it with his left hand in a clockwise direction.\n(C) The person rolls the wheel to the left or in counterclockwise rotation using his right hand.\n(D) The person balances the wheel and nudges it smoothly with his foot to set it in motion.\n(E) The person grabs the wheel closely with two hands and lifts it slightly, not rolling it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person rolls the wheel to the left or in counterclockwise rotation using his right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

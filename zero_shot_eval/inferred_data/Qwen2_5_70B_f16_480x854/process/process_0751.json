@@ -1,0 +1,17 @@
+{
+    "question": "How does the person spray the wooden frame?",
+    "options": [
+        "The person carefully sprays the wooden frame by pressing the spray nozzle held in the right hand.",
+        "The person shakes the spray can gently before aiming it at the wooden frame while holding the can close in both hands.",
+        "The person presses the spray nozzle firmly, resulting in a steady burst of paint that covers the frame smoothly.",
+        "The person holds the spray can at a slight angle, directing the spray closely onto the wooden frame.",
+        "The person slightly taps the bottom of the spray can while pointing it toward the wooden frame, resulting in a gentle misting of paint."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person spray the wooden frame? Choose **only one** option from the following list.\nOptions:\n(A) The person carefully sprays the wooden frame by pressing the spray nozzle held in the right hand.\n(B) The person shakes the spray can gently before aiming it at the wooden frame while holding the can close in both hands.\n(C) The person presses the spray nozzle firmly, resulting in a steady burst of paint that covers the frame smoothly.\n(D) The person holds the spray can at a slight angle, directing the spray closely onto the wooden frame.\n(E) The person slightly taps the bottom of the spray can while pointing it toward the wooden frame, resulting in a gentle misting of paint.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person carefully sprays the wooden frame by pressing the spray nozzle held in the right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

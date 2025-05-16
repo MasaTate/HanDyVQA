@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person rests his left hand on the table while rubbing his right arm with his left hand.",
+        "The person rests both hands on the table and scratches his left arm with his right hand.",
+        "The person places both hands on the table and massages his right shoulder with his left hand.",
+        "The person leans forward with both elbows on the table and taps his left arm with his right hand.",
+        "The person grips the table with both hands while adjusting his left sleeve with his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person rests his left hand on the table while rubbing his right arm with his left hand.\n(B) The person rests both hands on the table and scratches his left arm with his right hand.\n(C) The person places both hands on the table and massages his right shoulder with his left hand.\n(D) The person leans forward with both elbows on the table and taps his left arm with his right hand.\n(E) The person grips the table with both hands while adjusting his left sleeve with his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person rests both hands on the table and scratches his left arm with his right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

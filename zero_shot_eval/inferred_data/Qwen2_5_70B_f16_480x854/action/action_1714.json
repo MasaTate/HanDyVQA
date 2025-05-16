@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person cleans the outside of the blender with her left hand.",
+        "The person is polishing the lid of the blender with her left hand.",
+        "The person is rinsing the lid of the blender with her left hand under the faucet.",
+        "The person wipes the lid of the blender with her left hand while pressing the lid using her right hand.",
+        "The person dusts the top of the blender with her left hand while using her right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person cleans the outside of the blender with her left hand.\n(B) The person is polishing the lid of the blender with her left hand.\n(C) The person is rinsing the lid of the blender with her left hand under the faucet.\n(D) The person wipes the lid of the blender with her left hand while pressing the lid using her right hand.\n(E) The person dusts the top of the blender with her left hand while using her right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person wipes the lid of the blender with her left hand while pressing the lid using her right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

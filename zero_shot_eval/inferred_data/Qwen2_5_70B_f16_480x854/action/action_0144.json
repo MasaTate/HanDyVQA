@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person tightens the bolt with the wrench in their left hand while holding the block steady with their right hand.",
+        "The person uses a screwdriver to pry the block apart while gripping it firmly with both hands.",
+        "The person drills a hole into the block with the drill in their right hand while stabilizing the block with their left hand.",
+        "The person chisels the block with the chisel in their left hand while holding a hammer in their right hand.",
+        "The person hammers the spanner into the block with the hammer in their right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person tightens the bolt with the wrench in their left hand while holding the block steady with their right hand.\n(B) The person uses a screwdriver to pry the block apart while gripping it firmly with both hands.\n(C) The person drills a hole into the block with the drill in their right hand while stabilizing the block with their left hand.\n(D) The person chisels the block with the chisel in their left hand while holding a hammer in their right hand.\n(E) The person hammers the spanner into the block with the hammer in their right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person hammers the spanner into the block with the hammer in their right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

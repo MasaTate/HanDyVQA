@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the food change?",
+    "options": [
+        "The food was heated in a pan while being mixed and turned around with a spatula.",
+        "The food was baked in an oven while being stirred occasionally with a wooden spoon.",
+        "The food was boiled in a pot while being whisked with a fork.",
+        "The food was grilled on a barbecue while being flipped over with tongs.",
+        "The food was saut\u00e9ed in a skillet while being pressed with a spatula."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the food change? Choose **only one** option from the following list.\nOptions:\n(A) The food was heated in a pan while being mixed and turned around with a spatula.\n(B) The food was baked in an oven while being stirred occasionally with a wooden spoon.\n(C) The food was boiled in a pot while being whisked with a fork.\n(D) The food was grilled on a barbecue while being flipped over with tongs.\n(E) The food was saut\u00e9ed in a skillet while being pressed with a spatula.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The food was heated in a pan while being mixed and turned around with a spatula."
+    },
+    "correct_idx": [
+        0
+    ]
+}

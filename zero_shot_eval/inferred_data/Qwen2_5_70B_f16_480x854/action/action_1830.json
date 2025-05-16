@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person folds the cloth on the table using a surface with his right hand.",
+        "The person is draping the cloth over a chair while holding a stick in his right hand.",
+        "The person is placing the cloth in a drawer while carrying a basket in his right hand.",
+        "The person hangs the cloth in a closet with a hanger in his right hand.",
+        "The person is pressing the cloth with an iron in his right hand while steadying the ironing board with his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person folds the cloth on the table using a surface with his right hand.\n(B) The person is draping the cloth over a chair while holding a stick in his right hand.\n(C) The person is placing the cloth in a drawer while carrying a basket in his right hand.\n(D) The person hangs the cloth in a closet with a hanger in his right hand.\n(E) The person is pressing the cloth with an iron in his right hand while steadying the ironing board with his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person hangs the cloth in a closet with a hanger in his right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

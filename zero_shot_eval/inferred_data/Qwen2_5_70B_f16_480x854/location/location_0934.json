@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the tube?",
+    "options": [
+        "On the right bottom corner of the drawer.",
+        "On the left top corner of the shelf.",
+        "On the center of the table near the edge.",
+        "The person puts the tube on the right hand.",
+        "On the floor beside the cabinet."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the tube? Choose **only one** option from the following list.\nOptions:\n(A) On the right bottom corner of the drawer.\n(B) On the left top corner of the shelf.\n(C) On the center of the table near the edge.\n(D) The person puts the tube on the right hand.\n(E) On the floor beside the cabinet.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person puts the tube on the right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

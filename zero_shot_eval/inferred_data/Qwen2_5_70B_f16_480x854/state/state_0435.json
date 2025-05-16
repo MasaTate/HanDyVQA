@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of bottle change?",
+    "options": [
+        "The bottle was steady, but a small stream of water fell onto the cloth.",
+        "The bottle was kept vertical, yet a bit of water splashed on the cloth.",
+        "The water was kept still on the cloth, but some water was dropped onto it.",
+        "The water was suspended above the cloth and was slowly released onto it.",
+        "The bottle was held securely, with slight water splatter on the cloth upon opening."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of bottle change? Choose **only one** option from the following list.\nOptions:\n(A) The bottle was steady, but a small stream of water fell onto the cloth.\n(B) The bottle was kept vertical, yet a bit of water splashed on the cloth.\n(C) The water was kept still on the cloth, but some water was dropped onto it.\n(D) The water was suspended above the cloth and was slowly released onto it.\n(E) The bottle was held securely, with slight water splatter on the cloth upon opening.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The bottle was held securely, with slight water splatter on the cloth upon opening."
+    },
+    "correct_idx": [
+        2
+    ]
+}

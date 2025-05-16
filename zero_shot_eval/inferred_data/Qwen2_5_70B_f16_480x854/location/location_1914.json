@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the clamp?",
+    "options": [
+        "The person places the clamp on the upper right of the metal.",
+        "The person places the clamp on the lower left of the metal.",
+        "The person places the clamp on the upper left of the metal.",
+        "The person places the clamp in the middle center of the metal.",
+        "The person places the clamp on the lower right of the metal."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the clamp? Choose **only one** option from the following list.\nOptions:\n(A) The person places the clamp on the upper right of the metal.\n(B) The person places the clamp on the lower left of the metal.\n(C) The person places the clamp on the upper left of the metal.\n(D) The person places the clamp in the middle center of the metal.\n(E) The person places the clamp on the lower right of the metal.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person places the clamp on the lower left of the metal."
+    },
+    "correct_idx": [
+        4
+    ]
+}

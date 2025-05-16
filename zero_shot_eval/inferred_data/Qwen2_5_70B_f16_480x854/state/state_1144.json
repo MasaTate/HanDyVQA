@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the craft wood change?",
+    "options": [
+        "The craft wood was lowered before its edges were chipped.",
+        "The craft wood was pressed down before its surface was stained.",
+        "The craft wood was lifted before its grain was damaged.",
+        "The craft wood was turned over before its surface was marked.",
+        "The craft wood was raised before its surface was scratched."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the craft wood change? Choose **only one** option from the following list.\nOptions:\n(A) The craft wood was lowered before its edges were chipped.\n(B) The craft wood was pressed down before its surface was stained.\n(C) The craft wood was lifted before its grain was damaged.\n(D) The craft wood was turned over before its surface was marked.\n(E) The craft wood was raised before its surface was scratched.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The craft wood was raised before its surface was scratched."
+    },
+    "correct_idx": [
+        4
+    ]
+}

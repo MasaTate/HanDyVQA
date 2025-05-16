@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person slightly moves the bead container towards her and then gently searches through the beads using her right hand while the left holds the container of the beads.",
+        "The person carefully pushes the bead container away from her and then sorts through the beads using her right hand while her left hand rests on the table.",
+        "The person tilts the bead container back and then pours the beads onto the table using her right hand while the left hand is occupied with arranging the container.",
+        "The person raises the bead container slightly and then shakes it to mix the beads using her right hand while the left hand holds onto the table.",
+        "The person slowly rotates the bead container in circles and then scoops the beads with her right hand while her left hand is holding a piece of paper."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person slightly moves the bead container towards her and then gently searches through the beads using her right hand while the left holds the container of the beads.\n(B) The person carefully pushes the bead container away from her and then sorts through the beads using her right hand while her left hand rests on the table.\n(C) The person tilts the bead container back and then pours the beads onto the table using her right hand while the left hand is occupied with arranging the container.\n(D) The person raises the bead container slightly and then shakes it to mix the beads using her right hand while the left hand holds onto the table.\n(E) The person slowly rotates the bead container in circles and then scoops the beads with her right hand while her left hand is holding a piece of paper.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person slightly moves the bead container towards her and then gently searches through the beads using her right hand while the left holds the container of the beads."
+    },
+    "correct_idx": [
+        0
+    ]
+}

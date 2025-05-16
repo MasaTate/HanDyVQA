@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the pot change?",
+    "options": [
+        "The pot was scrubbed in the sink, but the gasket inside it was left intact.",
+        "The pot was soaked in the sink, and the gasket inside it was repositioned.",
+        "The pot was cleaned mechanically in the sink, and the gasket inside it was sealed tighter.",
+        "The pot was rubbed in the sink and the gasket inside it was removed.",
+        "The pot was rinsed in the sink, but the gasket inside it was replaced with a new one."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the pot change? Choose **only one** option from the following list.\nOptions:\n(A) The pot was scrubbed in the sink, but the gasket inside it was left intact.\n(B) The pot was soaked in the sink, and the gasket inside it was repositioned.\n(C) The pot was cleaned mechanically in the sink, and the gasket inside it was sealed tighter.\n(D) The pot was rubbed in the sink and the gasket inside it was removed.\n(E) The pot was rinsed in the sink, but the gasket inside it was replaced with a new one.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The pot was rubbed in the sink and the gasket inside it was removed."
+    },
+    "correct_idx": [
+        3
+    ]
+}

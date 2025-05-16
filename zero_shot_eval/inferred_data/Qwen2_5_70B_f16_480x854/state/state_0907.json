@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of mortar change?",
+    "options": [
+        "The mortar was lifted and spread evenly onto the wall, where none of it fell down.",
+        "The mortar was lifted but thrown onto the ground instead of the wall.",
+        "The mortar was lifted and thrown onto the wall, where most of it stayed.",
+        "The mortar was lifted and dropped back into the container without reaching the wall.",
+        "The mortar was lifted and thrown onto the wall, most of which eventually fell down."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of mortar change? Choose **only one** option from the following list.\nOptions:\n(A) The mortar was lifted and spread evenly onto the wall, where none of it fell down.\n(B) The mortar was lifted but thrown onto the ground instead of the wall.\n(C) The mortar was lifted and thrown onto the wall, where most of it stayed.\n(D) The mortar was lifted and dropped back into the container without reaching the wall.\n(E) The mortar was lifted and thrown onto the wall, most of which eventually fell down.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The mortar was lifted and thrown onto the wall, most of which eventually fell down."
+    },
+    "correct_idx": [
+        4
+    ]
+}

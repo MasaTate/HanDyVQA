@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person holds a pen with his right hand while picking up the pen cap and covering it using his left hand.",
+        "The person grips the bottom of the pen with his right hand while twisting the cap with his left hand.",
+        "The person is uncapping the pen with his right hand while holding the body of the pen steady with his left hand.",
+        "The person balances the pen horizontally in his right hand while using his left hand to push down the cap at the top.",
+        "The person adjusts the cap of the pen with his left hand while clenching the pen firmly with his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person holds a pen with his right hand while picking up the pen cap and covering it using his left hand.\n(B) The person grips the bottom of the pen with his right hand while twisting the cap with his left hand.\n(C) The person is uncapping the pen with his right hand while holding the body of the pen steady with his left hand.\n(D) The person balances the pen horizontally in his right hand while using his left hand to push down the cap at the top.\n(E) The person adjusts the cap of the pen with his left hand while clenching the pen firmly with his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person adjusts the cap of the pen with his left hand while clenching the pen firmly with his right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

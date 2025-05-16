@@ -1,0 +1,17 @@
+{
+    "question": "How does the person sand the plank?",
+    "options": [
+        "The person grips the sandpaper in his left hand and moves it in circular motions over the plank to sand it.",
+        "The person holds the buffer with both hands, pressing it gently and moving it vertically along the plank to sand it.",
+        "The person uses a buffer with his right hand and slides the buffer from left to right to sand the plank.",
+        "The person guides the buffer across the plank with his dominant hand, moving it back and forth in a smooth motion.",
+        "The person balances the plank on a stable surface and sands it with a sanding block held carefully in his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person sand the plank? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the sandpaper in his left hand and moves it in circular motions over the plank to sand it.\n(B) The person holds the buffer with both hands, pressing it gently and moving it vertically along the plank to sand it.\n(C) The person uses a buffer with his right hand and slides the buffer from left to right to sand the plank.\n(D) The person guides the buffer across the plank with his dominant hand, moving it back and forth in a smooth motion.\n(E) The person balances the plank on a stable surface and sands it with a sanding block held carefully in his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person guides the buffer across the plank with his dominant hand, moving it back and forth in a smooth motion."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a bolt change?",
+    "options": [
+        "The bolt was loosened within the motorcycle.",
+        "The bolt was unscrewed from within the motorcycle.",
+        "The bolt was tightened within the motorcycle.",
+        "The bolt was angled within the motorcycle without tightening.",
+        "The bolt was adjusted but stayed in the same position within the motorcycle."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a bolt change? Choose **only one** option from the following list.\nOptions:\n(A) The bolt was loosened within the motorcycle.\n(B) The bolt was unscrewed from within the motorcycle.\n(C) The bolt was tightened within the motorcycle.\n(D) The bolt was angled within the motorcycle without tightening.\n(E) The bolt was adjusted but stayed in the same position within the motorcycle.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The bolt was tightened within the motorcycle."
+    },
+    "correct_idx": [
+        2
+    ]
+}

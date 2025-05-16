@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the cardboards?",
+    "options": [
+        "The person slightly adjusted the cardboard on the right side of the blueprint.",
+        "The person gently shifted the cardboard to the center of the blueprint.",
+        "The person repositioned the cardboard on the bottom left corner of the blueprint.",
+        "The person carefully placed the cardboard on the top right side of the blueprint.",
+        "The person slightly moved the cardboard on the left side of the bluperint."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the cardboards? Choose **only one** option from the following list.\nOptions:\n(A) The person slightly adjusted the cardboard on the right side of the blueprint.\n(B) The person gently shifted the cardboard to the center of the blueprint.\n(C) The person repositioned the cardboard on the bottom left corner of the blueprint.\n(D) The person carefully placed the cardboard on the top right side of the blueprint.\n(E) The person slightly moved the cardboard on the left side of the bluperint.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person gently shifted the cardboard to the center of the blueprint."
+    },
+    "correct_idx": [
+        4
+    ]
+}

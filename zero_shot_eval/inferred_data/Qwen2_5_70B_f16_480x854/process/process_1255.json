@@ -1,0 +1,17 @@
+{
+    "question": "How does the person flip the fried dough with her left hand?",
+    "options": [
+        "The person uses her left hand to lift the fried dough and turn it over to cook evenly on both sides.",
+        "The person fried the dough using her left hand by flipping it side to side in the pan.",
+        "The person slightly tilts the pan with her left hand, guiding the fried dough with a spatula in her right hand.",
+        "The person holds the fried dough with her left hand and gently moves it around to allow for quick cooling.",
+        "The person uses her left hand to lightly touch the fried dough in the pan rather than flipping it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person flip the fried dough with her left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person uses her left hand to lift the fried dough and turn it over to cook evenly on both sides.\n(B) The person fried the dough using her left hand by flipping it side to side in the pan.\n(C) The person slightly tilts the pan with her left hand, guiding the fried dough with a spatula in her right hand.\n(D) The person holds the fried dough with her left hand and gently moves it around to allow for quick cooling.\n(E) The person uses her left hand to lightly touch the fried dough in the pan rather than flipping it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person uses her left hand to lift the fried dough and turn it over to cook evenly on both sides."
+    },
+    "correct_idx": [
+        1
+    ]
+}

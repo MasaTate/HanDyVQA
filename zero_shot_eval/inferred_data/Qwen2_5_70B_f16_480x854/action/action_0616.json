@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is gripping a paint roller in their left hand, dipping it in a bucket filled with paint before applying it directly to the wall at a steady pace.",
+        "The person is holding a paint brush in their right hand, dipping it into a glass bowl filled with water and then into the paint before placing it on the canvas and starting to color it.",
+        "The person is holding a paint brush in their right hand, cleaning it with a cloth before applying the paint to a wooden table and preparing it for a new coat.",
+        "The person is using a spray can in their left hand, shaking it well before spraying paint onto a piece of cardboard laid on the floor.",
+        "The person is managing a color palette in their right hand, mixing different shades before using a knife to spread the paint onto a canvas."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is gripping a paint roller in their left hand, dipping it in a bucket filled with paint before applying it directly to the wall at a steady pace.\n(B) The person is holding a paint brush in their right hand, dipping it into a glass bowl filled with water and then into the paint before placing it on the canvas and starting to color it.\n(C) The person is holding a paint brush in their right hand, cleaning it with a cloth before applying the paint to a wooden table and preparing it for a new coat.\n(D) The person is using a spray can in their left hand, shaking it well before spraying paint onto a piece of cardboard laid on the floor.\n(E) The person is managing a color palette in their right hand, mixing different shades before using a knife to spread the paint onto a canvas.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person is holding a paint brush in their right hand, dipping it into a glass bowl filled with water and then into the paint before placing it on the canvas and starting to color it."
+    },
+    "correct_idx": [
+        1
+    ]
+}

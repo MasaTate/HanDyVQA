@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is using their right hand to lift the knife while using their left hand to slice it through a piece of bread.",
+        "The person is holding the knife in their left hand and using their right hand to rinse it under the faucet.",
+        "The person is placing a knife on the table with their right hand while moving a plate with their left hand.",
+        "The person is using their left hand to cut vegetables with the knife while keeping their right hand on the countertop.",
+        "The person is using the right hand to grab and hold the knife while using the left hand to wipe it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is using their right hand to lift the knife while using their left hand to slice it through a piece of bread.\n(B) The person is holding the knife in their left hand and using their right hand to rinse it under the faucet.\n(C) The person is placing a knife on the table with their right hand while moving a plate with their left hand.\n(D) The person is using their left hand to cut vegetables with the knife while keeping their right hand on the countertop.\n(E) The person is using the right hand to grab and hold the knife while using the left hand to wipe it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person is using the right hand to grab and hold the knife while using the left hand to wipe it."
+    },
+    "correct_idx": [
+        4
+    ]
+}

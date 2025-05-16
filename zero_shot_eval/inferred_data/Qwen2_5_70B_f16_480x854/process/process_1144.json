@@ -1,0 +1,17 @@
+{
+    "question": "How does the person transfer the spoon?",
+    "options": [
+        "The person is pulling the spoon and then transfers the spoon from his right hand to his left hand and then places it on the utensils hanger.",
+        "The person is gently pushing the spoon aside and then moves it from his left hand to his right hand and places it on the table.",
+        "The person is lifting the spoon with both hands and then carefully lowers it to the floor without any specific direction.",
+        "The person is twisting the spoon in his right hand and then brings it closer to place it into his pocket.",
+        "The person is sliding the spoon with his fingers and then leaves it slightly over the edge of the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person transfer the spoon? Choose **only one** option from the following list.\nOptions:\n(A) The person is pulling the spoon and then transfers the spoon from his right hand to his left hand and then places it on the utensils hanger.\n(B) The person is gently pushing the spoon aside and then moves it from his left hand to his right hand and places it on the table.\n(C) The person is lifting the spoon with both hands and then carefully lowers it to the floor without any specific direction.\n(D) The person is twisting the spoon in his right hand and then brings it closer to place it into his pocket.\n(E) The person is sliding the spoon with his fingers and then leaves it slightly over the edge of the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person is pulling the spoon and then transfers the spoon from his right hand to his left hand and then places it on the utensils hanger."
+    },
+    "correct_idx": [
+        0
+    ]
+}

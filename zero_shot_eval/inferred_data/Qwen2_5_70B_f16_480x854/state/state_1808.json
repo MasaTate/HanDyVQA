@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the rice change?",
+    "options": [
+        "The rice was boiled in water, altering its texture and appearance.",
+        "The rice was crushed with a rice ladle, altering its texture and appearance.",
+        "The rice was toasted in a pan, altering its texture and appearance.",
+        "The rice was mixed with vegetables, altering its texture and appearance.",
+        "The rice was soaked in water, altering its texture and appearance."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the rice change? Choose **only one** option from the following list.\nOptions:\n(A) The rice was boiled in water, altering its texture and appearance.\n(B) The rice was crushed with a rice ladle, altering its texture and appearance.\n(C) The rice was toasted in a pan, altering its texture and appearance.\n(D) The rice was mixed with vegetables, altering its texture and appearance.\n(E) The rice was soaked in water, altering its texture and appearance.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The rice was crushed with a rice ladle, altering its texture and appearance."
+    },
+    "correct_idx": [
+        1
+    ]
+}

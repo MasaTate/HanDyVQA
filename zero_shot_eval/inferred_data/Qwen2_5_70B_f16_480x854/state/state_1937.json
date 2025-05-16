@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the sponge change?",
+    "options": [
+        "The sponge soaked up water from the bowl, and its texture became saturated.",
+        "The sponge was wrung out tightly, and its shape became flat and compressed.",
+        "The sponge absorbed dirt from the counter, and its color changed to a darker shade.",
+        "The sponge scrubbed the spoon, and its surface was wiped.",
+        "The sponge was torn into pieces, and each fragment became small and irregular."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the sponge change? Choose **only one** option from the following list.\nOptions:\n(A) The sponge soaked up water from the bowl, and its texture became saturated.\n(B) The sponge was wrung out tightly, and its shape became flat and compressed.\n(C) The sponge absorbed dirt from the counter, and its color changed to a darker shade.\n(D) The sponge scrubbed the spoon, and its surface was wiped.\n(E) The sponge was torn into pieces, and each fragment became small and irregular.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The sponge scrubbed the spoon, and its surface was wiped."
+    },
+    "correct_idx": [
+        3
+    ]
+}

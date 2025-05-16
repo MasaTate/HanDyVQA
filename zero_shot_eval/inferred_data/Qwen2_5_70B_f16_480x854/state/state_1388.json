@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the painted wall change?",
+    "options": [
+        "The painted wall was brushed with a paintbrush.",
+        "The painted wall was sprayed with a spray gun.",
+        "The painted wall was rolled with a roller brush.",
+        "The painted wall was sponged with an applicator sponge.",
+        "The painted wall was dabbed with a fabric cloth."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the painted wall change? Choose **only one** option from the following list.\nOptions:\n(A) The painted wall was brushed with a paintbrush.\n(B) The painted wall was sprayed with a spray gun.\n(C) The painted wall was rolled with a roller brush.\n(D) The painted wall was sponged with an applicator sponge.\n(E) The painted wall was dabbed with a fabric cloth.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The painted wall was brushed with a paintbrush."
+    },
+    "correct_idx": [
+        0
+    ]
+}

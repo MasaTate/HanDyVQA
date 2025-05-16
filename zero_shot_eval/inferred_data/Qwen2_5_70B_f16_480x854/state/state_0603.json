@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the bar change?",
+    "options": [
+        "The bar was moved and placed on the bench.",
+        "The bar was moved but did not contact the bench.",
+        "The bar was hit against the wall instead of the bench.",
+        "The bar slipped and rolled off the bench.",
+        "The bar was moved and hit on the bench."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the bar change? Choose **only one** option from the following list.\nOptions:\n(A) The bar was moved and placed on the bench.\n(B) The bar was moved but did not contact the bench.\n(C) The bar was hit against the wall instead of the bench.\n(D) The bar slipped and rolled off the bench.\n(E) The bar was moved and hit on the bench.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The bar was moved but did not contact the bench."
+    },
+    "correct_idx": [
+        4
+    ]
+}

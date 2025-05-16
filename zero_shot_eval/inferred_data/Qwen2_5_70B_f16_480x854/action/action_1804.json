@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The first battery was pushed into place with the left hand while the second battery he was holding was removed from the red object using his right hand.",
+        "The first battery was pulled out by the right hand, then the second battery he was holding was inserted into the red object using his left hand.",
+        "The first battery was placed inside the device with his left hand while the second battery he was holding was taken out with his right hand.",
+        "The first battery was inserted into the red object with his left hand while the second battery he was holding was set aside on the table with his right hand.",
+        "The first battery was held in his right hand as he tightened a screw on the red object, and the second battery was replaced with his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The first battery was pushed into place with the left hand while the second battery he was holding was removed from the red object using his right hand.\n(B) The first battery was pulled out by the right hand, then the second battery he was holding was inserted into the red object using his left hand.\n(C) The first battery was placed inside the device with his left hand while the second battery he was holding was taken out with his right hand.\n(D) The first battery was inserted into the red object with his left hand while the second battery he was holding was set aside on the table with his right hand.\n(E) The first battery was held in his right hand as he tightened a screw on the red object, and the second battery was replaced with his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The first battery was inserted into the red object with his left hand while the second battery he was holding was set aside on the table with his right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

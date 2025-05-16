@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a bottle change?",
+    "options": [
+        "The bottle was picked up and then set back down without being opened.",
+        "The bottle was picked up and shaken, but it remained sealed.",
+        "The bottle was picked up and was being opened by the person, but it was not fully opened yet.",
+        "The bottle was picked up and the cap was turned slightly, but it was not loosened.",
+        "The bottle was picked up and the cap was twisted closed even more tightly."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a bottle change? Choose **only one** option from the following list.\nOptions:\n(A) The bottle was picked up and then set back down without being opened.\n(B) The bottle was picked up and shaken, but it remained sealed.\n(C) The bottle was picked up and was being opened by the person, but it was not fully opened yet.\n(D) The bottle was picked up and the cap was turned slightly, but it was not loosened.\n(E) The bottle was picked up and the cap was twisted closed even more tightly.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The bottle was picked up and was being opened by the person, but it was not fully opened yet."
+    },
+    "correct_idx": [
+        2
+    ]
+}

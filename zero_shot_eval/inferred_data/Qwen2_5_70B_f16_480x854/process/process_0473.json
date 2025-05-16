@@ -1,0 +1,17 @@
+{
+    "question": "How does the person fit the screw?",
+    "options": [
+        "The person holds the screw gently in his left hand and tries to twist it into place with his right hand while holding the screwdriver slightly.",
+        "The person fits the screw by securely holding it in his right hand and positions it in the desired spot while his left hand grips the screwdriver and aligns its tip with the screw head, applying steady pressure to drive the screw firmly into place.",
+        "The person places the screw on the surface and attempts to press it in with the screwdriver gently held in his right hand, not aligning the tip closely.",
+        "The person momentarily drops the screw while trying to pick it up with his right hand and uses both hands to reposition it before fitting properly.",
+        "The person grips the screw with his left hand but uses his right hand to push the screwdriver away, making fitting the screw smoothly difficult."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person fit the screw? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the screw gently in his left hand and tries to twist it into place with his right hand while holding the screwdriver slightly.\n(B) The person fits the screw by securely holding it in his right hand and positions it in the desired spot while his left hand grips the screwdriver and aligns its tip with the screw head, applying steady pressure to drive the screw firmly into place.\n(C) The person places the screw on the surface and attempts to press it in with the screwdriver gently held in his right hand, not aligning the tip closely.\n(D) The person momentarily drops the screw while trying to pick it up with his right hand and uses both hands to reposition it before fitting properly.\n(E) The person grips the screw with his left hand but uses his right hand to push the screwdriver away, making fitting the screw smoothly difficult.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person fits the screw by securely holding it in his right hand and positions it in the desired spot while his left hand grips the screwdriver and aligns its tip with the screw head, applying steady pressure to drive the screw firmly into place."
+    },
+    "correct_idx": [
+        1
+    ]
+}

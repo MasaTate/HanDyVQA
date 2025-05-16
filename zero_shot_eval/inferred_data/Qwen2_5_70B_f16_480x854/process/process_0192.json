@@ -1,0 +1,17 @@
+{
+    "question": "How does the person bring the oil filter?",
+    "options": [
+        "The person uses both hands to gently glide the oil filter across the surface.",
+        "The person brings the oil filter by carefully removing it from the car and lifting it with his left hand.",
+        "The person pulls the oil filter towards himself with a slight tug using his right hand.",
+        "The person places the oil filter on top of another object using his hand.",
+        "The person tilts the oil filter before smoothly placing it into a container with one hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person bring the oil filter? Choose **only one** option from the following list.\nOptions:\n(A) The person uses both hands to gently glide the oil filter across the surface.\n(B) The person brings the oil filter by carefully removing it from the car and lifting it with his left hand.\n(C) The person pulls the oil filter towards himself with a slight tug using his right hand.\n(D) The person places the oil filter on top of another object using his hand.\n(E) The person tilts the oil filter before smoothly placing it into a container with one hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person brings the oil filter by carefully removing it from the car and lifting it with his left hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

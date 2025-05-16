@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the pack of spaghetti?",
+    "options": [
+        "The person moves the pack of spaghetti to the left hand.",
+        "The person moves the pack of spaghetti to the middle of the table.",
+        "The person moves the pack of spaghetti to the back pocket of their apron.",
+        "The person moves the pack of spaghetti to the right hand.",
+        "The person moves the pack of spaghetti to the edge of the counter."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the pack of spaghetti? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the pack of spaghetti to the left hand.\n(B) The person moves the pack of spaghetti to the middle of the table.\n(C) The person moves the pack of spaghetti to the back pocket of their apron.\n(D) The person moves the pack of spaghetti to the right hand.\n(E) The person moves the pack of spaghetti to the edge of the counter.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person moves the pack of spaghetti to the right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

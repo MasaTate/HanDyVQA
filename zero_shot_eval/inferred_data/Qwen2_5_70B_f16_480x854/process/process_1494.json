@@ -1,0 +1,17 @@
+{
+    "question": "How does the person move the bolt?",
+    "options": [
+        "The person gently tossed the bolt from his right hand to his left hand, using a smooth motion of his arm.",
+        "The person carefully fumbled the bolt in his right hand before it slipped onto the floor.",
+        "The person slowly moved the bolt across the table with his right hand rather than passing it directly.",
+        "The person cautiously held the bolt between his palm and fingers in his left hand while extending his arm towards another person.",
+        "The person quickly passed the bolt from his left hand to his right hand by gripping it lightly, before transferring it back to his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person move the bolt? Choose **only one** option from the following list.\nOptions:\n(A) The person gently tossed the bolt from his right hand to his left hand, using a smooth motion of his arm.\n(B) The person carefully fumbled the bolt in his right hand before it slipped onto the floor.\n(C) The person slowly moved the bolt across the table with his right hand rather than passing it directly.\n(D) The person cautiously held the bolt between his palm and fingers in his left hand while extending his arm towards another person.\n(E) The person quickly passed the bolt from his left hand to his right hand by gripping it lightly, before transferring it back to his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person quickly passed the bolt from his left hand to his right hand by gripping it lightly, before transferring it back to his left hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

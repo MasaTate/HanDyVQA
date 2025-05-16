@@ -1,0 +1,17 @@
+{
+    "question": "How does the person brush the top of the wood?",
+    "options": [
+        "The person swept their hand smoothly across the surface of the wood plank.",
+        "The person gently moved their fingers side to side on the top of the wood.",
+        "The person rubbed the wood plank to its edge.",
+        "The person smoothly glided their palm downward along the wood surface.",
+        "The person applied slight pressure on the wood and then released their hand carefully."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person brush the top of the wood? Choose **only one** option from the following list.\nOptions:\n(A) The person swept their hand smoothly across the surface of the wood plank.\n(B) The person gently moved their fingers side to side on the top of the wood.\n(C) The person rubbed the wood plank to its edge.\n(D) The person smoothly glided their palm downward along the wood surface.\n(E) The person applied slight pressure on the wood and then released their hand carefully.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person gently moved their fingers side to side on the top of the wood."
+    },
+    "correct_idx": [
+        2
+    ]
+}

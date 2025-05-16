@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the bolt change?",
+    "options": [
+        "The bolt became loose as it was loosened with a T-type nut spanner.",
+        "The bolt tightened further as it was adjusted with a wrench.",
+        "The bolt broke apart as it was over-tightened with a ratchet.",
+        "The bolt rusted as it was exposed to moisture over time.",
+        "The bolt was replaced entirely as a new one was installed in its place."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the bolt change? Choose **only one** option from the following list.\nOptions:\n(A) The bolt became loose as it was loosened with a T-type nut spanner.\n(B) The bolt tightened further as it was adjusted with a wrench.\n(C) The bolt broke apart as it was over-tightened with a ratchet.\n(D) The bolt rusted as it was exposed to moisture over time.\n(E) The bolt was replaced entirely as a new one was installed in its place.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The bolt became loose as it was loosened with a T-type nut spanner."
+    },
+    "correct_idx": [
+        0
+    ]
+}

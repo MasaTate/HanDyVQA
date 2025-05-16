@@ -1,0 +1,17 @@
+{
+    "question": "How does the person mix the flour and liquid baking soda?",
+    "options": [
+        "The person rotated the bowl with her left hand while mixing it using a spatula with her right hand.",
+        "The person stirred the mixture gently with a whisk held in her right hand while grounding the bowl with her other hand.",
+        "The person held the bowl steady with her right hand and slowly added the liquid baking soda with minimal mixing.",
+        "The person shook the bowl subtly with her left hand while attempting to blend the ingredients using her fingers in her right hand.",
+        "The person lifted the bowl with both hands and tapped it lightly on the counter to begin mixing the contents."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person mix the flour and liquid baking soda? Choose **only one** option from the following list.\nOptions:\n(A) The person rotated the bowl with her left hand while mixing it using a spatula with her right hand.\n(B) The person stirred the mixture gently with a whisk held in her right hand while grounding the bowl with her other hand.\n(C) The person held the bowl steady with her right hand and slowly added the liquid baking soda with minimal mixing.\n(D) The person shook the bowl subtly with her left hand while attempting to blend the ingredients using her fingers in her right hand.\n(E) The person lifted the bowl with both hands and tapped it lightly on the counter to begin mixing the contents.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person rotated the bowl with her left hand while mixing it using a spatula with her right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

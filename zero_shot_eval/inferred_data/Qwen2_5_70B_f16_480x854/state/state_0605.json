@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the wood cut - off change?",
+    "options": [
+        "The cut wood was left in the hole saw and stored to dry out.",
+        "The cut wood was stacked neatly next to the hole saw for later use.",
+        "The cut wood was placed back into the hole saw for another cut.",
+        "The cut wood was burned in a fire immediately after being removed.",
+        "The cut wood was removed from the hole saw and thrown away."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the wood cut - off change? Choose **only one** option from the following list.\nOptions:\n(A) The cut wood was left in the hole saw and stored to dry out.\n(B) The cut wood was stacked neatly next to the hole saw for later use.\n(C) The cut wood was placed back into the hole saw for another cut.\n(D) The cut wood was burned in a fire immediately after being removed.\n(E) The cut wood was removed from the hole saw and thrown away.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The cut wood was removed from the hole saw and thrown away."
+    },
+    "correct_idx": [
+        4
+    ]
+}

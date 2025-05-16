@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the wooden piece jenga?",
+    "options": [
+        "The person put the wooden piece jenga beside the jenga stack.",
+        "The person put the wooden piece jenga underneath the jenga stack.",
+        "The person put the wooden piece jenga in front of the jenga stack.",
+        "The person put the wooden piece jenga behind the jenga stack.",
+        "The person put the wooden piece jenga on top of the jenga stack. "
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the wooden piece jenga? Choose **only one** option from the following list.\nOptions:\n(A) The person put the wooden piece jenga beside the jenga stack.\n(B) The person put the wooden piece jenga underneath the jenga stack.\n(C) The person put the wooden piece jenga in front of the jenga stack.\n(D) The person put the wooden piece jenga behind the jenga stack.\n(E) The person put the wooden piece jenga on top of the jenga stack. \n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person put the wooden piece jenga on top of the jenga stack."
+    },
+    "correct_idx": [
+        4
+    ]
+}

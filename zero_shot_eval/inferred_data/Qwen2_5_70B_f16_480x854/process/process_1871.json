@@ -1,0 +1,17 @@
+{
+    "question": "How does the person switch the knitting needle?",
+    "options": [
+        "The person tosses the knitting needle from her left hand and catches it smoothly with her right hand while looking away.",
+        "The person places the knitting needle on the table and then picks it up with her right hand with a gentle movement.",
+        "The person transfers the knitting needle from the left hand to the right hand to quickly scratch her side.",
+        "The person carefully slides the knitting needle along the table from her left hand to her right hand while slightly leaning forward.",
+        "The person rotates the knitting needle gently in her left hand before transferring it smoothly to her right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person switch the knitting needle? Choose **only one** option from the following list.\nOptions:\n(A) The person tosses the knitting needle from her left hand and catches it smoothly with her right hand while looking away.\n(B) The person places the knitting needle on the table and then picks it up with her right hand with a gentle movement.\n(C) The person transfers the knitting needle from the left hand to the right hand to quickly scratch her side.\n(D) The person carefully slides the knitting needle along the table from her left hand to her right hand while slightly leaning forward.\n(E) The person rotates the knitting needle gently in her left hand before transferring it smoothly to her right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person rotates the knitting needle gently in her left hand before transferring it smoothly to her right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

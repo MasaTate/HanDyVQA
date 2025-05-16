@@ -1,0 +1,17 @@
+{
+    "question": "How does the person screw the other nut?",
+    "options": [
+        "The person twists the nut using his left hand while stabilizing the base with his right hand.",
+        "The person places the nut on the bolt with both hands before starting to turn it.",
+        "The person grips the nut between his fingers in his right hand and uses his left hand to press it down.",
+        "The person holds the nut firmly with both hands and attempts to adjust it into place smoothly.",
+        "The person twists the nut by spinning it using his right hand and securing the rod with his left."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person screw the other nut? Choose **only one** option from the following list.\nOptions:\n(A) The person twists the nut using his left hand while stabilizing the base with his right hand.\n(B) The person places the nut on the bolt with both hands before starting to turn it.\n(C) The person grips the nut between his fingers in his right hand and uses his left hand to press it down.\n(D) The person holds the nut firmly with both hands and attempts to adjust it into place smoothly.\n(E) The person twists the nut by spinning it using his right hand and securing the rod with his left.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person twists the nut by spinning it using his right hand and securing the rod with his left."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person juggles a few items with both hands while standing in the kitchen.",
+        "The person holds the dough cutter handle with both hands, attempting to lift it from the table.",
+        "The person sets the dough cutter on the counter with their left hand while using a towel with their right hand.",
+        "The person shifts the dough cutter's position on the counter with their right hand while using their left hand to work on some dough.",
+        "The person spins the dough cutter handle with their right hand and then switches it to their left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person juggles a few items with both hands while standing in the kitchen.\n(B) The person holds the dough cutter handle with both hands, attempting to lift it from the table.\n(C) The person sets the dough cutter on the counter with their left hand while using a towel with their right hand.\n(D) The person shifts the dough cutter's position on the counter with their right hand while using their left hand to work on some dough.\n(E) The person spins the dough cutter handle with their right hand and then switches it to their left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person spins the dough cutter handle with their right hand and then switches it to their left hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

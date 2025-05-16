@@ -1,0 +1,17 @@
+{
+    "question": "How does the person lift the plate?",
+    "options": [
+        "The person uses both hands to grip the sides of the plate, lifting it smoothly with minimal support underneath.",
+        "The person carefully grips the center handle of the plate and lifts it up using the thumb and index finger of her right hand while supporting the bottom of the plate with her left hand.",
+        "The person picks up the plate with her left hand mainly, using her fingers to grasp the side while providing limited support.",
+        "The person lifts the plate by holding it with her thumb and finger on the outer edge, ensuring some parts dangle gently.",
+        "The person raises the plate by pressing upwards with the palms of both hands, carefully avoiding the handle."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person lift the plate? Choose **only one** option from the following list.\nOptions:\n(A) The person uses both hands to grip the sides of the plate, lifting it smoothly with minimal support underneath.\n(B) The person carefully grips the center handle of the plate and lifts it up using the thumb and index finger of her right hand while supporting the bottom of the plate with her left hand.\n(C) The person picks up the plate with her left hand mainly, using her fingers to grasp the side while providing limited support.\n(D) The person lifts the plate by holding it with her thumb and finger on the outer edge, ensuring some parts dangle gently.\n(E) The person raises the plate by pressing upwards with the palms of both hands, carefully avoiding the handle.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person picks up the plate with her left hand mainly, using her fingers to grasp the side while providing limited support."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the rope change?",
+    "options": [
+        "The rope was separated from the other ropes.",
+        "The rope was tangled with the other ropes.",
+        "The rope was tied into a knot.",
+        "The rope was coiled.",
+        "The rope was frayed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the rope change? Choose **only one** option from the following list.\nOptions:\n(A) The rope was separated from the other ropes.\n(B) The rope was tangled with the other ropes.\n(C) The rope was tied into a knot.\n(D) The rope was coiled.\n(E) The rope was frayed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The rope was tangled with the other ropes."
+    },
+    "correct_idx": [
+        0
+    ]
+}

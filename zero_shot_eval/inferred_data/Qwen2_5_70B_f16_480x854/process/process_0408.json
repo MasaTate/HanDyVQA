@@ -1,0 +1,17 @@
+{
+    "question": "How does the person hang the scarf on the mannequin?",
+    "options": [
+        "The person grabs the scarf with both hands and gently places it onto the mannequin, making sure it looks balanced.",
+        "The person holds the scarf with his right hand, drapes it forward over the mannequin\u2019s shoulders, and adjusts it to ensure it hangs evenly.",
+        "The person uses his left hand to move the scarf over the mannequin\u2019s head, giving it a slight adjustment to ensure it looks right.",
+        "The person holds the scarf in the air with one hand and smoothly places it, hoping it will stay correctly on the mannequin.",
+        "The person loosely rolls the scarf and gently positions it on the mannequin's shoulders, ensuring it drapes well."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person hang the scarf on the mannequin? Choose **only one** option from the following list.\nOptions:\n(A) The person grabs the scarf with both hands and gently places it onto the mannequin, making sure it looks balanced.\n(B) The person holds the scarf with his right hand, drapes it forward over the mannequin\u2019s shoulders, and adjusts it to ensure it hangs evenly.\n(C) The person uses his left hand to move the scarf over the mannequin\u2019s head, giving it a slight adjustment to ensure it looks right.\n(D) The person holds the scarf in the air with one hand and smoothly places it, hoping it will stay correctly on the mannequin.\n(E) The person loosely rolls the scarf and gently positions it on the mannequin's shoulders, ensuring it drapes well.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person holds the scarf with his right hand, drapes it forward over the mannequin\u2019s shoulders, and adjusts it to ensure it hangs evenly."
+    },
+    "correct_idx": [
+        1
+    ]
+}

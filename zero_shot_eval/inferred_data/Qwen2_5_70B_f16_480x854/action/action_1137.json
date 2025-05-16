@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person grabs the playing card, lifts it up, and shows it to someone while holding it in his right hand.",
+        "The person flips the playing card over, examines it closely with both hands, and then puts it back in the deck.",
+        "The person shuffles the playing card, holds it in his right hand, while dealing another one with his left hand.",
+        "The person touches the playing card, moves it to the left, and opens another card, then puts it on the table using his left hand.",
+        "The person takes the playing card and tosses it across the table with his right hand while reaching for another card with his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person grabs the playing card, lifts it up, and shows it to someone while holding it in his right hand.\n(B) The person flips the playing card over, examines it closely with both hands, and then puts it back in the deck.\n(C) The person shuffles the playing card, holds it in his right hand, while dealing another one with his left hand.\n(D) The person touches the playing card, moves it to the left, and opens another card, then puts it on the table using his left hand.\n(E) The person takes the playing card and tosses it across the table with his right hand while reaching for another card with his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person touches the playing card, moves it to the left, and opens another card, then puts it on the table using his left hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

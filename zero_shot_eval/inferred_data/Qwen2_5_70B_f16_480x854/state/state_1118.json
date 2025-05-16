@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the bolt change?",
+    "options": [
+        "The bolt was tightened further, securing the exhaust in place.",
+        "The bolt became loosened, allowing the exhaust to be adjusted.",
+        "The bolt was removed entirely, causing the exhaust to be fully detached.",
+        "The bolt was stripped, making adjustment of the exhaust impossible.",
+        "The bolt was coated with rust, preventing any exhaust adjustments."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the bolt change? Choose **only one** option from the following list.\nOptions:\n(A) The bolt was tightened further, securing the exhaust in place.\n(B) The bolt became loosened, allowing the exhaust to be adjusted.\n(C) The bolt was removed entirely, causing the exhaust to be fully detached.\n(D) The bolt was stripped, making adjustment of the exhaust impossible.\n(E) The bolt was coated with rust, preventing any exhaust adjustments.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The bolt was tightened further, securing the exhaust in place."
+    },
+    "correct_idx": [
+        1
+    ]
+}

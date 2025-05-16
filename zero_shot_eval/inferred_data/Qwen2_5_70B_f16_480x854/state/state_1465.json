@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a lid change?",
+    "options": [
+        "The lid was detached and placed on the counter table, altering its position.",
+        "The lid was twisted off and thrown into the recycling bin, changing its location.",
+        "The lid was removed and set aside in a drawer, transforming its storage space.",
+        "The lid was lifted off and balanced on top of a nearby bottle, shifting its balance.",
+        "The lid was pried off and discarded in the trash can, affecting its availability."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a lid change? Choose **only one** option from the following list.\nOptions:\n(A) The lid was detached and placed on the counter table, altering its position.\n(B) The lid was twisted off and thrown into the recycling bin, changing its location.\n(C) The lid was removed and set aside in a drawer, transforming its storage space.\n(D) The lid was lifted off and balanced on top of a nearby bottle, shifting its balance.\n(E) The lid was pried off and discarded in the trash can, affecting its availability.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The lid was detached and placed on the counter table, altering its position."
+    },
+    "correct_idx": [
+        0
+    ]
+}

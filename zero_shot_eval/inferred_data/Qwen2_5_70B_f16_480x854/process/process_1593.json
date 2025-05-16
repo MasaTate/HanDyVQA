@@ -1,0 +1,17 @@
+{
+    "question": "How does the person point the right hand?",
+    "options": [
+        "The person raises the right arm upward and holds it steady in the air.",
+        "The person extends the right arm and hand outward quickly in the right direction.",
+        "The person gently moves the right hand back and forth while keeping it near their body.",
+        "The person moves the right hand forward swiftly while slightly turning the wrist.",
+        "The person extends the right hand outward and moves it slowly in a circular motion."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person point the right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person raises the right arm upward and holds it steady in the air.\n(B) The person extends the right arm and hand outward quickly in the right direction.\n(C) The person gently moves the right hand back and forth while keeping it near their body.\n(D) The person moves the right hand forward swiftly while slightly turning the wrist.\n(E) The person extends the right hand outward and moves it slowly in a circular motion.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person moves the right hand forward swiftly while slightly turning the wrist."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person examines an image on the laptop; the person then sketches it onto a drawing pad using a pencil in the person's right hand, while the left hand is at rest on the person's left lap.",
+        "The person views a video on the tablet; the person then traces it onto a sketchbook using a charcoal stick in the person's right hand, while the left hand is resting on the person's right lap.",
+        "The person is browsing through photos on the laptop; the person then paints it onto a canvas using a brush in the person's right hand, while the left hand is steady on the person's lap.",
+        "The person checks a document on the computer; the person then draws it onto a piece of cardboard using a marker in the person's right hand, while the left hand is relaxed on the person's side.",
+        "The person is reading an article on the phone; the person then recreates it onto a bulletin board using a pen in the person's right hand, while the left hand is resting on the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person examines an image on the laptop; the person then sketches it onto a drawing pad using a pencil in the person's right hand, while the left hand is at rest on the person's left lap.\n(B) The person views a video on the tablet; the person then traces it onto a sketchbook using a charcoal stick in the person's right hand, while the left hand is resting on the person's right lap.\n(C) The person is browsing through photos on the laptop; the person then paints it onto a canvas using a brush in the person's right hand, while the left hand is steady on the person's lap.\n(D) The person checks a document on the computer; the person then draws it onto a piece of cardboard using a marker in the person's right hand, while the left hand is relaxed on the person's side.\n(E) The person is reading an article on the phone; the person then recreates it onto a bulletin board using a pen in the person's right hand, while the left hand is resting on the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person examines an image on the laptop; the person then sketches it onto a drawing pad using a pencil in the person's right hand, while the left hand is at rest on the person's left lap."
+    },
+    "correct_idx": [
+        0
+    ]
+}

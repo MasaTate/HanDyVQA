@@ -1,0 +1,21 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "stick",
+        "cellophane",
+        "paint brush",
+        "slipper",
+        "coconut shell",
+        "paint can",
+        "news paper"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) stick\n(B) cellophane\n(C) paint brush\n(D) slipper\n(E) coconut shell\n(F) paint can\n(G) news paper\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(E) Coconut shell\n(F) Paint can\n(G) News paper"
+    },
+    "correct_idx": [
+        0,
+        2,
+        4
+    ]
+}

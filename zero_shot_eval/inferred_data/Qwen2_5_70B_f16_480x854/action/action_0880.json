@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person organizes the arrangement of the set of tokens on the table with her right hand.",
+        "The person rearranges the position of the set of tokens on the table with the left hand.",
+        "The person stacks the set of tokens on the table with her left hand while balancing them with her right hand.",
+        "The person cleans the set of tokens on the surface of the table with her left hand while adjusting their placement with her right hand.",
+        "The person sorts the set of tokens on the table with her right hand while pushing them into a neat pile with her left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person organizes the arrangement of the set of tokens on the table with her right hand.\n(B) The person rearranges the position of the set of tokens on the table with the left hand.\n(C) The person stacks the set of tokens on the table with her left hand while balancing them with her right hand.\n(D) The person cleans the set of tokens on the surface of the table with her left hand while adjusting their placement with her right hand.\n(E) The person sorts the set of tokens on the table with her right hand while pushing them into a neat pile with her left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person organizes the arrangement of the set of tokens on the table with her right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

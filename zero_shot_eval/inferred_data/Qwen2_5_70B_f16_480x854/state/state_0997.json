@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a bowl change?",
+    "options": [
+        "The bowl was taken out of the rice cooker and rotated forward 180 degrees.",
+        "The bowl was lifted from the rice cooker and rotated backward 90 degrees.",
+        "The bowl was removed from the rice cooker and rotated backward 180 degrees.",
+        "The bowl was extracted from the rice cooker and turned backward 270 degrees.",
+        "The bowl was removed from the rice cooker and rotated forward 90 degrees."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a bowl change? Choose **only one** option from the following list.\nOptions:\n(A) The bowl was taken out of the rice cooker and rotated forward 180 degrees.\n(B) The bowl was lifted from the rice cooker and rotated backward 90 degrees.\n(C) The bowl was removed from the rice cooker and rotated backward 180 degrees.\n(D) The bowl was extracted from the rice cooker and turned backward 270 degrees.\n(E) The bowl was removed from the rice cooker and rotated forward 90 degrees.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The bowl was removed from the rice cooker and rotated backward 180 degrees."
+    },
+    "correct_idx": [
+        2
+    ]
+}

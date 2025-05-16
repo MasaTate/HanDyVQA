@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the paint brush change?",
+    "options": [
+        "The paint brush was soaked in a solution of paint thinner to fully clean it.",
+        "The paint brush was dipped into diluted water to slightly clean it.",
+        "The paint brush was placed in soapy water to clean it thoroughly.",
+        "The paint brush was covered with a layer of paint to get ready for a new color application.",
+        "The paint brush was set aside to dry after being rinsed under running water."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the paint brush change? Choose **only one** option from the following list.\nOptions:\n(A) The paint brush was soaked in a solution of paint thinner to fully clean it.\n(B) The paint brush was dipped into diluted water to slightly clean it.\n(C) The paint brush was placed in soapy water to clean it thoroughly.\n(D) The paint brush was covered with a layer of paint to get ready for a new color application.\n(E) The paint brush was set aside to dry after being rinsed under running water.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The paint brush was covered with a layer of paint to get ready for a new color application."
+    },
+    "correct_idx": [
+        1
+    ]
+}

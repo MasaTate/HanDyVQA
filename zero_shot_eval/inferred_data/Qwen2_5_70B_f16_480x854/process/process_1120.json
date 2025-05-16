@@ -1,0 +1,17 @@
+{
+    "question": "How does the person transfer the magnetic pan handle?",
+    "options": [
+        "The person transfers the magnetic pan handle from his right hand to his left hand, and to his right hand again, then places it to the side of the stove.",
+        "The person gently moves the magnetic pan handle from his right hand to his left hand and places it on the countertop.",
+        "The person slightly nudges the magnetic pan handle along the edge of the stove with his right hand before picking it up with his left.",
+        "The person carefully holds the magnetic pan handle with both hands and brings it above the stove before setting it aside.",
+        "The person hands the magnetic pan handle from his right hand to his left, allowing it to remain in mid-air briefly."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person transfer the magnetic pan handle? Choose **only one** option from the following list.\nOptions:\n(A) The person transfers the magnetic pan handle from his right hand to his left hand, and to his right hand again, then places it to the side of the stove.\n(B) The person gently moves the magnetic pan handle from his right hand to his left hand and places it on the countertop.\n(C) The person slightly nudges the magnetic pan handle along the edge of the stove with his right hand before picking it up with his left.\n(D) The person carefully holds the magnetic pan handle with both hands and brings it above the stove before setting it aside.\n(E) The person hands the magnetic pan handle from his right hand to his left, allowing it to remain in mid-air briefly.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person transfers the magnetic pan handle from his right hand to his left hand, and to his right hand again, then places it to the side of the stove."
+    },
+    "correct_idx": [
+        0
+    ]
+}

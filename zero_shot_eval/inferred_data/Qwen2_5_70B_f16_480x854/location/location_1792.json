@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move Mr. black from study room?",
+    "options": [
+        "The person moves Mr. black from the tabletop game two spaces from the edge of the board.",
+        "The person moves Mr. black from the tabletop game four spaces from the board.",
+        "The person moves Mr. black from the tabletop game three spaces towards the side of the board.",
+        "The person moves Mr. black from the tabletop game five spaces diagonally from the board.",
+        "The person moves Mr. black from the tabletop game one space back towards the center of the board."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move Mr. black from study room? Choose **only one** option from the following list.\nOptions:\n(A) The person moves Mr. black from the tabletop game two spaces from the edge of the board.\n(B) The person moves Mr. black from the tabletop game four spaces from the board.\n(C) The person moves Mr. black from the tabletop game three spaces towards the side of the board.\n(D) The person moves Mr. black from the tabletop game five spaces diagonally from the board.\n(E) The person moves Mr. black from the tabletop game one space back towards the center of the board.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person moves Mr. black from the tabletop game three spaces towards the side of the board."
+    },
+    "correct_idx": [
+        1
+    ]
+}

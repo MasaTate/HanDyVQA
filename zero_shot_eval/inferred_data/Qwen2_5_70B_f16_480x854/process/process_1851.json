@@ -1,0 +1,17 @@
+{
+    "question": "How does the person throw the piece of vegetable?",
+    "options": [
+        "The person transfers several pieces of vegetable from the countertop simultaneously using both hands.",
+        "The person slides the piece of vegetable across the table with the palm of their hand.",
+        "The person lifts the piece of vegetable into the air with a gentle upward motion using both hands.",
+        "The person releases the piece of vegetable directly into the pan by opening their hand while standing nearby.",
+        "The person moves the piece of vegetable in the pan by picking it up one by one using the right hand with two pieces from the countertop and the left hand with a piece from the floor."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person throw the piece of vegetable? Choose **only one** option from the following list.\nOptions:\n(A) The person transfers several pieces of vegetable from the countertop simultaneously using both hands.\n(B) The person slides the piece of vegetable across the table with the palm of their hand.\n(C) The person lifts the piece of vegetable into the air with a gentle upward motion using both hands.\n(D) The person releases the piece of vegetable directly into the pan by opening their hand while standing nearby.\n(E) The person moves the piece of vegetable in the pan by picking it up one by one using the right hand with two pieces from the countertop and the left hand with a piece from the floor.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person moves the piece of vegetable in the pan by picking it up one by one using the right hand with two pieces from the countertop and the left hand with a piece from the floor."
+    },
+    "correct_idx": [
+        4
+    ]
+}

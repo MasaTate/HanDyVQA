@@ -1,0 +1,17 @@
+{
+    "question": "How does the person insert the screw?",
+    "options": [
+        "The person inserts the screw by using his right hand to gently place it in the machine, aiming for the hole, and then rotating it in a clockwise direction.",
+        "The person uses his right hand to place the screw near the hole, throwing it from a distance.",
+        "The person grips the screw with his left hand and pushes it toward the machine, not aligning it with the hole.",
+        "The person holds the screw with both hands above the machine and lets it drop in without rotating it.",
+        "The person positions the screw on the edge of the hole with his right hand and taps it lightly in an attempt to push it in."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person insert the screw? Choose **only one** option from the following list.\nOptions:\n(A) The person inserts the screw by using his right hand to gently place it in the machine, aiming for the hole, and then rotating it in a clockwise direction.\n(B) The person uses his right hand to place the screw near the hole, throwing it from a distance.\n(C) The person grips the screw with his left hand and pushes it toward the machine, not aligning it with the hole.\n(D) The person holds the screw with both hands above the machine and lets it drop in without rotating it.\n(E) The person positions the screw on the edge of the hole with his right hand and taps it lightly in an attempt to push it in.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person inserts the screw by using his right hand to gently place it in the machine, aiming for the hole, and then rotating it in a clockwise direction."
+    },
+    "correct_idx": [
+        0
+    ]
+}

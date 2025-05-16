@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the second craft with the painting brush change?",
+    "options": [
+        "The second craft with the paintbrush was painted on top.",
+        "The second craft with the paintbrush was painted on the bottom.",
+        "The second craft with the paintbrush was painted on the sides.",
+        "The second craft with the paintbrush was decorated with a pattern.",
+        "The second craft with the paintbrush was coated on the edges."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the second craft with the painting brush change? Choose **only one** option from the following list.\nOptions:\n(A) The second craft with the paintbrush was painted on top.\n(B) The second craft with the paintbrush was painted on the bottom.\n(C) The second craft with the paintbrush was painted on the sides.\n(D) The second craft with the paintbrush was decorated with a pattern.\n(E) The second craft with the paintbrush was coated on the edges.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The second craft with the paintbrush was painted on the sides."
+    },
+    "correct_idx": [
+        0
+    ]
+}

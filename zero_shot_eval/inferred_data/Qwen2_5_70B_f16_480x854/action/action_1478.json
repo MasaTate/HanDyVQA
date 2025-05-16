@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person pushed the lawn mower, using the right hand to guide the handle and the left hand to adjust the throttle.",
+        "The person is driving the lawn mower, using the right hand to steer and the left hand to operate the gear stick.",
+        "The person mowed the lawn, using the right hand to grip the handle and the left hand to set the cutting height.",
+        "The person operated the lawn mower, using the right hand to pull the starter cord and the left hand to stabilize the machine.",
+        "The person maneuvered the lawn mower, using the right hand to change direction while the left hand held a bag for grass."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person pushed the lawn mower, using the right hand to guide the handle and the left hand to adjust the throttle.\n(B) The person is driving the lawn mower, using the right hand to steer and the left hand to operate the gear stick.\n(C) The person mowed the lawn, using the right hand to grip the handle and the left hand to set the cutting height.\n(D) The person operated the lawn mower, using the right hand to pull the starter cord and the left hand to stabilize the machine.\n(E) The person maneuvered the lawn mower, using the right hand to change direction while the left hand held a bag for grass.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person is driving the lawn mower, using the right hand to steer and the left hand to operate the gear stick."
+    },
+    "correct_idx": [
+        1
+    ]
+}

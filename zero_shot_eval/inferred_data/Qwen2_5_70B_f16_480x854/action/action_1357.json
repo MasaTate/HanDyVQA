@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person hands the shell to the woman with his left hand.",
+        "The person is passing the shell to the woman using both hands.",
+        "The person gives the shell to the woman with his right hand.",
+        "The person is placing the shell on the table in front of the woman with his right hand.",
+        "The person is tossing the shell to the woman with his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person hands the shell to the woman with his left hand.\n(B) The person is passing the shell to the woman using both hands.\n(C) The person gives the shell to the woman with his right hand.\n(D) The person is placing the shell on the table in front of the woman with his right hand.\n(E) The person is tossing the shell to the woman with his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person gives the shell to the woman with his right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

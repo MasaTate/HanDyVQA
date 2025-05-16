@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a sander machine change?",
+    "options": [
+        "The sander machine was slid up and down on the metal surface.",
+        "The sander machine was slid right and left on the metal surface.",
+        "The sander machine was moved in circular motions on the metal surface.",
+        "The sander machine was angled slightly while sliding on the metal surface.",
+        "The sander machine was slid diagonally across the metal surface."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a sander machine change? Choose **only one** option from the following list.\nOptions:\n(A) The sander machine was slid up and down on the metal surface.\n(B) The sander machine was slid right and left on the metal surface.\n(C) The sander machine was moved in circular motions on the metal surface.\n(D) The sander machine was angled slightly while sliding on the metal surface.\n(E) The sander machine was slid diagonally across the metal surface.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The sander machine was moved in circular motions on the metal surface."
+    },
+    "correct_idx": [
+        1
+    ]
+}

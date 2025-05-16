@@ -1,0 +1,17 @@
+{
+    "question": "How does the person turn the bench vice on the work bench?",
+    "options": [
+        "The person twists the bench vice gently in a clockwise direction, not paying attention to how tightly it is secured.",
+        "The person carefully turns the bench vice first in an anti-clockwise direction and then reverses it to a clockwise direction.",
+        "The person pushes down on the bench vice instead of turning it, leading it to rub against the workbench.",
+        "The person rotates the bench vice in a smooth clockwise motion, without alternating the direction as needed.",
+        "The person grips the handle of the bench vice and nudges it slightly, not managing to turn it properly."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person turn the bench vice on the work bench? Choose **only one** option from the following list.\nOptions:\n(A) The person twists the bench vice gently in a clockwise direction, not paying attention to how tightly it is secured.\n(B) The person carefully turns the bench vice first in an anti-clockwise direction and then reverses it to a clockwise direction.\n(C) The person pushes down on the bench vice instead of turning it, leading it to rub against the workbench.\n(D) The person rotates the bench vice in a smooth clockwise motion, without alternating the direction as needed.\n(E) The person grips the handle of the bench vice and nudges it slightly, not managing to turn it properly.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person carefully turns the bench vice first in an anti-clockwise direction and then reverses it to a clockwise direction."
+    },
+    "correct_idx": [
+        1
+    ]
+}

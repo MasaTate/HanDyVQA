@@ -1,0 +1,17 @@
+{
+    "question": "How does the person straighten the cotton yarn?",
+    "options": [
+        "The person straightens the cotton yarn by pinching it between the middle finger and thumb, smoothing it out by sliding upwards, then looping it around the middle finger and suspending it on the thumb of the right hand.",
+        "The person straightens the cotton yarn by catching it between the thumb and forefinger, then pulling it taut between both index fingers, followed by wrapping it gently over the palm of the left hand.",
+        "The person straightens the cotton yarn using the index finger and thumb to enclose it, sliding it down, then twisting the yarn with the little finger and hanging it on the index finger of the left hand.",
+        "The person straightens the cotton yarn using the index finger and thumb to pull it gently straight, then looping the yarn around the middle finger twice and resting it smoothly across the knuckles.",
+        "The person smooths the cotton yarn by clasping it between the index and middle fingers, sliding them slightly downwards, then compacting it closely with the thumb using the left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person straighten the cotton yarn? Choose **only one** option from the following list.\nOptions:\n(A) The person straightens the cotton yarn by pinching it between the middle finger and thumb, smoothing it out by sliding upwards, then looping it around the middle finger and suspending it on the thumb of the right hand.\n(B) The person straightens the cotton yarn by catching it between the thumb and forefinger, then pulling it taut between both index fingers, followed by wrapping it gently over the palm of the left hand.\n(C) The person straightens the cotton yarn using the index finger and thumb to enclose it, sliding it down, then twisting the yarn with the little finger and hanging it on the index finger of the left hand.\n(D) The person straightens the cotton yarn using the index finger and thumb to pull it gently straight, then looping the yarn around the middle finger twice and resting it smoothly across the knuckles.\n(E) The person smooths the cotton yarn by clasping it between the index and middle fingers, sliding them slightly downwards, then compacting it closely with the thumb using the left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person straightens the cotton yarn using the index finger and thumb to pull it gently straight, then looping the yarn around the middle finger twice and resting it smoothly across the knuckles."
+    },
+    "correct_idx": [
+        2
+    ]
+}

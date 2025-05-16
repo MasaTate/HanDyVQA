@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the bucket of water change?",
+    "options": [
+        "The bucket of water changed when a sponge was soaked in it.",
+        "The bucket of water changed as some ice cubes were added to it.",
+        "The bucket of water changed when sand was mixed into it.",
+        "The bucket of water changed as bubbles formed when soap was added.",
+        "The bucket of water changed as a cloth was soaked in it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the bucket of water change? Choose **only one** option from the following list.\nOptions:\n(A) The bucket of water changed when a sponge was soaked in it.\n(B) The bucket of water changed as some ice cubes were added to it.\n(C) The bucket of water changed when sand was mixed into it.\n(D) The bucket of water changed as bubbles formed when soap was added.\n(E) The bucket of water changed as a cloth was soaked in it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The bucket of water changed as a cloth was soaked in it."
+    },
+    "correct_idx": [
+        4
+    ]
+}

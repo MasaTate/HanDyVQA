@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put drill machine?",
+    "options": [
+        "The person put the drill machine beside his right arm and back.",
+        "The person put the drill machine against his left side and waist.",
+        "The person put the drill machine between his left arm and chest.",
+        "The person put the drill machine underneath his right arm and stomach.",
+        "The person put the drill machine in front of his left arm and shoulder."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put drill machine? Choose **only one** option from the following list.\nOptions:\n(A) The person put the drill machine beside his right arm and back.\n(B) The person put the drill machine against his left side and waist.\n(C) The person put the drill machine between his left arm and chest.\n(D) The person put the drill machine underneath his right arm and stomach.\n(E) The person put the drill machine in front of his left arm and shoulder.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person put the drill machine between his left arm and chest."
+    },
+    "correct_idx": [
+        2
+    ]
+}

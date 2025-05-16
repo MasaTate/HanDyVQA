@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the sandpaper change?",
+    "options": [
+        "The sandpaper was in contact with the wall and moved in a circular motion.",
+        "The sandpaper was in contact with the wall and moved only upwards.",
+        "The sandpaper was in contact with the wall but without any movement.",
+        "The sandpaper was in contact with the wall and moved back and forth.",
+        "The sandpaper was in contact with the wall and moved side to side."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the sandpaper change? Choose **only one** option from the following list.\nOptions:\n(A) The sandpaper was in contact with the wall and moved in a circular motion.\n(B) The sandpaper was in contact with the wall and moved only upwards.\n(C) The sandpaper was in contact with the wall but without any movement.\n(D) The sandpaper was in contact with the wall and moved back and forth.\n(E) The sandpaper was in contact with the wall and moved side to side.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The sandpaper was in contact with the wall and moved back and forth."
+    },
+    "correct_idx": [
+        3
+    ]
+}

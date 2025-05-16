@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of one of the sticks with the multi cutter change?",
+    "options": [
+        "The stick was slightly displaced from the fence and then cut with a clipper.",
+        "The stick was completely removed from the fence and then split into two pieces with a saw.",
+        "The stick was partially embedded in the ground and then smoothed with sandpaper.",
+        "The stick was wrapped around the fence and then broken in half manually.",
+        "The stick was partially lifted from the fence and then covered with paint."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of one of the sticks with the multi cutter change? Choose **only one** option from the following list.\nOptions:\n(A) The stick was slightly displaced from the fence and then cut with a clipper.\n(B) The stick was completely removed from the fence and then split into two pieces with a saw.\n(C) The stick was partially embedded in the ground and then smoothed with sandpaper.\n(D) The stick was wrapped around the fence and then broken in half manually.\n(E) The stick was partially lifted from the fence and then covered with paint.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The stick was slightly displaced from the fence and then cut with a clipper."
+    },
+    "correct_idx": [
+        0
+    ]
+}

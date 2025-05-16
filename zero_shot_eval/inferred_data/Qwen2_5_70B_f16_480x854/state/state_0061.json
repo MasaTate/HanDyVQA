@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of some buttons change?",
+    "options": [
+        "The buttons were removed from the box to the table next to the pink cloth.",
+        "The buttons were taken out of the box and placed on the table near the blue cloth.",
+        "The buttons were removed from the box but scattered on the floor instead of the table.",
+        "The buttons were taken out of the box and moved to a shelf rather than the table.",
+        "The buttons were removed from the box and transferred into another box next to the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of some buttons change? Choose **only one** option from the following list.\nOptions:\n(A) The buttons were removed from the box to the table next to the pink cloth.\n(B) The buttons were taken out of the box and placed on the table near the blue cloth.\n(C) The buttons were removed from the box but scattered on the floor instead of the table.\n(D) The buttons were taken out of the box and moved to a shelf rather than the table.\n(E) The buttons were removed from the box and transferred into another box next to the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The buttons were removed from the box to the table next to the pink cloth."
+    },
+    "correct_idx": [
+        0
+    ]
+}

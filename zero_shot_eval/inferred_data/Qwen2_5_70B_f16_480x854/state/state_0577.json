@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the foil change?",
+    "options": [
+        "The foil was crumpled up and tossed into the recycling bin.",
+        "The foil was taken and then thrown into the trash bin.",
+        "The foil was flattened and placed on the counter.",
+        "The foil was torn into small pieces and scattered on the floor.",
+        "The foil was wrapped around an object and placed in a drawer."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the foil change? Choose **only one** option from the following list.\nOptions:\n(A) The foil was crumpled up and tossed into the recycling bin.\n(B) The foil was taken and then thrown into the trash bin.\n(C) The foil was flattened and placed on the counter.\n(D) The foil was torn into small pieces and scattered on the floor.\n(E) The foil was wrapped around an object and placed in a drawer.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The foil was crumpled up and tossed into the recycling bin."
+    },
+    "correct_idx": [
+        1
+    ]
+}

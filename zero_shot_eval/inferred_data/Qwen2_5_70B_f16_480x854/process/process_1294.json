@@ -1,0 +1,17 @@
+{
+    "question": "How does the person twist a blade hub?",
+    "options": [
+        "The person twists the blade hub by using both hands to move it in a counterclockwise motion.",
+        "The person rotates the blade hub by sliding his fingers across its surface with minimal twisting motion.",
+        "The person pushes down on the blade hub with his palm, applying pressure rather than twisting.",
+        "The person grips the blade hub securely and moves it back and forth with minimal twisting.",
+        "The person twists the blade hub by moving his left hand in a clockwise motion."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person twist a blade hub? Choose **only one** option from the following list.\nOptions:\n(A) The person twists the blade hub by using both hands to move it in a counterclockwise motion.\n(B) The person rotates the blade hub by sliding his fingers across its surface with minimal twisting motion.\n(C) The person pushes down on the blade hub with his palm, applying pressure rather than twisting.\n(D) The person grips the blade hub securely and moves it back and forth with minimal twisting.\n(E) The person twists the blade hub by moving his left hand in a clockwise motion.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person twists the blade hub by moving his left hand in a clockwise motion."
+    },
+    "correct_idx": [
+        4
+    ]
+}

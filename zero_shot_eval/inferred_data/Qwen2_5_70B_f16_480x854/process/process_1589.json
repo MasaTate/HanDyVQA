@@ -1,0 +1,17 @@
+{
+    "question": "How does the person inspect the plate?",
+    "options": [
+        "The person throws the plate into the air and glances at it as it descends.",
+        "The person places the plate flat on the table and leans over to inspect a specific area more closely.",
+        "The person grips the edge of the plate with one hand and briefly holds it up to the light.",
+        "The person uses her fingertips to hold the plate, keeping it at a distance from her face.",
+        "The person holds the plate in both hands and places it near her, then carefully inspects the entire surface of the plate."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person inspect the plate? Choose **only one** option from the following list.\nOptions:\n(A) The person throws the plate into the air and glances at it as it descends.\n(B) The person places the plate flat on the table and leans over to inspect a specific area more closely.\n(C) The person grips the edge of the plate with one hand and briefly holds it up to the light.\n(D) The person uses her fingertips to hold the plate, keeping it at a distance from her face.\n(E) The person holds the plate in both hands and places it near her, then carefully inspects the entire surface of the plate.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person holds the plate in both hands and places it near her, then carefully inspects the entire surface of the plate."
+    },
+    "correct_idx": [
+        4
+    ]
+}

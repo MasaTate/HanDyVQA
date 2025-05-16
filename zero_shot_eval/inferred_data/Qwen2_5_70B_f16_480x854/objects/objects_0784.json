@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "mat",
+        "carpet",
+        "blanket",
+        "rug",
+        "lid",
+        "pants"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) mat\n(B) carpet\n(C) blanket\n(D) rug\n(E) lid\n(F) pants\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(E) lid  \n(F) pants  \n\nThe hands in the video are using a red cloth (which could be considered as a type of blanket or rug but not specifically listed here) and interacting with an engine component, likely a lid or cap on the engine. The person's pants are also visible as they work."
+    },
+    "correct_idx": [
+        3,
+        4
+    ]
+}

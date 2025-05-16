@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the cup change?",
+    "options": [
+        "The cup is empty, and a sponge was placed inside.",
+        "The cup has water, and a paintbrush was dipped inside.",
+        "The cup was filled with sand, and a stick was inserted.",
+        "The cup has juice, and a straw was placed inside.",
+        "The cup contained tea, and a spoon was placed inside."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the cup change? Choose **only one** option from the following list.\nOptions:\n(A) The cup is empty, and a sponge was placed inside.\n(B) The cup has water, and a paintbrush was dipped inside.\n(C) The cup was filled with sand, and a stick was inserted.\n(D) The cup has juice, and a straw was placed inside.\n(E) The cup contained tea, and a spoon was placed inside.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The cup has water, and a paintbrush was dipped inside."
+    },
+    "correct_idx": [
+        1
+    ]
+}

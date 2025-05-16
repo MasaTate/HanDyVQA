@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the screw change?",
+    "options": [
+        "The screw became aligned with the screwdriver as it was placed in it.",
+        "The screw was twisted into a different position as it was removed from the board.",
+        "The screw was bent out of shape while it was hammered into the wood.",
+        "The screw was coated with rust as it was left outside in the rain.",
+        "The screw became stripped while it was turned too forcefully with the wrench."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the screw change? Choose **only one** option from the following list.\nOptions:\n(A) The screw became aligned with the screwdriver as it was placed in it.\n(B) The screw was twisted into a different position as it was removed from the board.\n(C) The screw was bent out of shape while it was hammered into the wood.\n(D) The screw was coated with rust as it was left outside in the rain.\n(E) The screw became stripped while it was turned too forcefully with the wrench.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The screw became aligned with the screwdriver as it was placed in it."
+    },
+    "correct_idx": [
+        0
+    ]
+}

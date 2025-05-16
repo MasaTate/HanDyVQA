@@ -1,0 +1,17 @@
+{
+    "question": "How does the person turn the sanding pad?",
+    "options": [
+        "The person turns the sanding pad sideways using one hand.",
+        "The person rotates the sanding pad with a gentle motion, gripping it with their fingertips.",
+        "The person turns the sanding pad in a circular motion while holding it between their palm and thumb.",
+        "The person turns the sanding pad upside down with both hands.",
+        "The person tilts the sanding pad and lets it rotate on the table using their hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person turn the sanding pad? Choose **only one** option from the following list.\nOptions:\n(A) The person turns the sanding pad sideways using one hand.\n(B) The person rotates the sanding pad with a gentle motion, gripping it with their fingertips.\n(C) The person turns the sanding pad in a circular motion while holding it between their palm and thumb.\n(D) The person turns the sanding pad upside down with both hands.\n(E) The person tilts the sanding pad and lets it rotate on the table using their hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person turns the sanding pad upside down with both hands."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the thread?",
+    "options": [
+        "The person is inserts the thread into the sewing machine.",
+        "The person places the thread next to the ironing board.",
+        "The person hangs the thread on the doorknob.",
+        "The person puts the thread inside the toolbox.",
+        "The person threads the needle on the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the thread? Choose **only one** option from the following list.\nOptions:\n(A) The person is inserts the thread into the sewing machine.\n(B) The person places the thread next to the ironing board.\n(C) The person hangs the thread on the doorknob.\n(D) The person puts the thread inside the toolbox.\n(E) The person threads the needle on the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person is inserts the thread into the sewing machine."
+    },
+    "correct_idx": [
+        0
+    ]
+}

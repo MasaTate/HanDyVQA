@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move a wooden float on the water?",
+    "options": [
+        "The person moved the wooden float at slightly at the right side of the pale.",
+        "The person moved the wooden float at slightly in front of the pale.",
+        "The person moved the wooden float at slightly at the left side of the pale.",
+        "The person moved the wooden float at slightly behind the pale.",
+        "The person moved the wooden float at slightly in the center of the pale."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move a wooden float on the water? Choose **only one** option from the following list.\nOptions:\n(A) The person moved the wooden float at slightly at the right side of the pale.\n(B) The person moved the wooden float at slightly in front of the pale.\n(C) The person moved the wooden float at slightly at the left side of the pale.\n(D) The person moved the wooden float at slightly behind the pale.\n(E) The person moved the wooden float at slightly in the center of the pale.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person moved the wooden float at slightly in the center of the pale."
+    },
+    "correct_idx": [
+        2
+    ]
+}

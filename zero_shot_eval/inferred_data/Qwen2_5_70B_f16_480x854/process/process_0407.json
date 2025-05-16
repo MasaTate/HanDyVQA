@@ -1,0 +1,17 @@
+{
+    "question": "How does the person wash the lid?",
+    "options": [
+        "The person grips the lid with the right hand, applying soap on it, then rinses it under running water using the same hand.",
+        "The person holds the lid with the left hand for stability while scrubbing its surface with the right hand, using a sponge in a circular motion.",
+        "The person places the lid flat on the counter and cleans it with a cloth using both hands to move the cloth over the surface.",
+        "The person uses the left hand to hold the lid at an angle and lightly rinses it with water using the right hand, avoiding any scrubbing.",
+        "The person holds the lid by the edge with the right hand and cleans it with a brush using a back-and-forth motion, with only one hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person wash the lid? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the lid with the right hand, applying soap on it, then rinses it under running water using the same hand.\n(B) The person holds the lid with the left hand for stability while scrubbing its surface with the right hand, using a sponge in a circular motion.\n(C) The person places the lid flat on the counter and cleans it with a cloth using both hands to move the cloth over the surface.\n(D) The person uses the left hand to hold the lid at an angle and lightly rinses it with water using the right hand, avoiding any scrubbing.\n(E) The person holds the lid by the edge with the right hand and cleans it with a brush using a back-and-forth motion, with only one hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person holds the lid with the left hand for stability while scrubbing its surface with the right hand, using a sponge in a circular motion."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person draw a picture of a dog on a paper with the pencil?",
+    "options": [
+        "The person grips the pencil with firm control and applies quick, spontaneous strokes to form an expressive representation of a dog.",
+        "The person holds the pencil in a more upright position, applying pressure to create thick, bold lines while shaping the dog's outline.",
+        "The person holds the pencil at a sharp angle, almost horizontal, and draws the outline of the dog on the paper with smooth, controlled strokes.",
+        "The person adds touches to the drawing with the eraser rather than the pencil, refining the outlines and shadowing areas of the paper.",
+        "The person holds the pencil in a relaxed manner and moves it over the paper casually, creating a light and less defined outline of the dog."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person draw a picture of a dog on a paper with the pencil? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the pencil with firm control and applies quick, spontaneous strokes to form an expressive representation of a dog.\n(B) The person holds the pencil in a more upright position, applying pressure to create thick, bold lines while shaping the dog's outline.\n(C) The person holds the pencil at a sharp angle, almost horizontal, and draws the outline of the dog on the paper with smooth, controlled strokes.\n(D) The person adds touches to the drawing with the eraser rather than the pencil, refining the outlines and shadowing areas of the paper.\n(E) The person holds the pencil in a relaxed manner and moves it over the paper casually, creating a light and less defined outline of the dog.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person holds the pencil at a sharp angle, almost horizontal, and draws the outline of the dog on the paper with smooth, controlled strokes."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person picks up a matchbook and closes it with the right hand.",
+        "The person holds a matchbook and gently shakes it with the right hand.",
+        "The person grabs a matchbook and opens it with the right hand.",
+        "The person takes a matchbook and places it into a bag with the right hand.",
+        "The person handles a matchbook and tears it in half with the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person picks up a matchbook and closes it with the right hand.\n(B) The person holds a matchbook and gently shakes it with the right hand.\n(C) The person grabs a matchbook and opens it with the right hand.\n(D) The person takes a matchbook and places it into a bag with the right hand.\n(E) The person handles a matchbook and tears it in half with the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person grabs a matchbook and opens it with the right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

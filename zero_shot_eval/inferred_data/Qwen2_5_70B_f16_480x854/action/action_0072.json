@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person uses her right hand to put on a glove while holding another item in her left hand.",
+        "The person uses her right hand to remove a glove from her left hand, which is resting on a surface.",
+        "The person uses her right hand to tighten the laces on footwear while holding a glove with her left hand.",
+        "The person uses her right hand to adjust the glove to fit in her left hand.",
+        "The person uses her right hand to wave while her left hand is adjusting a part of her clothing."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person uses her right hand to put on a glove while holding another item in her left hand.\n(B) The person uses her right hand to remove a glove from her left hand, which is resting on a surface.\n(C) The person uses her right hand to tighten the laces on footwear while holding a glove with her left hand.\n(D) The person uses her right hand to adjust the glove to fit in her left hand.\n(E) The person uses her right hand to wave while her left hand is adjusting a part of her clothing.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person uses her right hand to adjust the glove to fit in her left hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

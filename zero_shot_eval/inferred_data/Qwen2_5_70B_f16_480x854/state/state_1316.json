@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the saw change?",
+    "options": [
+        "The saw transitioned from cutting plastic to being placed on top of the wall near the machine.",
+        "The saw transitioned from cutting metal to being set aside on the bench near the toolbox.",
+        "The saw transitioned from cutting wood to being hung on the wall beside the work table.",
+        "The saw transitioned from cutting through drywall to being stored in a drawer of the work cabinet.",
+        "The saw transitioned from cutting through pipe to being laid flat on the floor beside the tool cart."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the saw change? Choose **only one** option from the following list.\nOptions:\n(A) The saw transitioned from cutting plastic to being placed on top of the wall near the machine.\n(B) The saw transitioned from cutting metal to being set aside on the bench near the toolbox.\n(C) The saw transitioned from cutting wood to being hung on the wall beside the work table.\n(D) The saw transitioned from cutting through drywall to being stored in a drawer of the work cabinet.\n(E) The saw transitioned from cutting through pipe to being laid flat on the floor beside the tool cart.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The saw transitioned from cutting plastic to being placed on top of the wall near the machine."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the polythene bag?",
+    "options": [
+        "The person dropped the polythene bag in the recycling bin across from the sink.",
+        "The person dropped the polythene bag on the countertop beside the sink.",
+        "The person dropped the polythene bag in the trash bag on the floor by the sink.",
+        "The person dropped the polythene bag in the trashcan next to the sink.",
+        "The person dropped the polythene bag in the drawer beneath the sink."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the polythene bag? Choose **only one** option from the following list.\nOptions:\n(A) The person dropped the polythene bag in the recycling bin across from the sink.\n(B) The person dropped the polythene bag on the countertop beside the sink.\n(C) The person dropped the polythene bag in the trash bag on the floor by the sink.\n(D) The person dropped the polythene bag in the trashcan next to the sink.\n(E) The person dropped the polythene bag in the drawer beneath the sink.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person dropped the polythene bag in the trashcan next to the sink."
+    },
+    "correct_idx": [
+        3
+    ]
+}

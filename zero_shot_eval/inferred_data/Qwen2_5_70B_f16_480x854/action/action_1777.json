@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person slices the green chili on the countertop using a knife in her right hand while holding the chili with her left hand.",
+        "The person chops a green cucumber in her left hand using a tool that she holds in her right hand.",
+        "The person cuts the green chili in her left hand using a knife that she holds in her right hand.",
+        "The person is dicing the green chili on a cutting board using an implement in her right hand while gripping the chili with her left hand.",
+        "The person is mashing the green chili in her left hand with an utensil that she holds in her right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person slices the green chili on the countertop using a knife in her right hand while holding the chili with her left hand.\n(B) The person chops a green cucumber in her left hand using a tool that she holds in her right hand.\n(C) The person cuts the green chili in her left hand using a knife that she holds in her right hand.\n(D) The person is dicing the green chili on a cutting board using an implement in her right hand while gripping the chili with her left hand.\n(E) The person is mashing the green chili in her left hand with an utensil that she holds in her right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person cuts the green chili in her left hand using a knife that she holds in her right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

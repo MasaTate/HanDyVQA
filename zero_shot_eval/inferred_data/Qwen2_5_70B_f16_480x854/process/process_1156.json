@@ -1,0 +1,17 @@
+{
+    "question": "How does the person cover the glass container?",
+    "options": [
+        "The person covers the glass container by gently placing the lid down with both hands.",
+        "The person covers the glass container by lifting the lid and rotating it using his left hand.",
+        "The person sets the lid on top of the glass container, slightly adjusting it using their fingertips.",
+        "The person carefully places the lid toward the glass container, ensuring it lands correctly.",
+        "The person gently secures the lid onto the glass container using their elbow along with their hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person cover the glass container? Choose **only one** option from the following list.\nOptions:\n(A) The person covers the glass container by gently placing the lid down with both hands.\n(B) The person covers the glass container by lifting the lid and rotating it using his left hand.\n(C) The person sets the lid on top of the glass container, slightly adjusting it using their fingertips.\n(D) The person carefully places the lid toward the glass container, ensuring it lands correctly.\n(E) The person gently secures the lid onto the glass container using their elbow along with their hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person sets the lid on top of the glass container, slightly adjusting it using their fingertips."
+    },
+    "correct_idx": [
+        1
+    ]
+}

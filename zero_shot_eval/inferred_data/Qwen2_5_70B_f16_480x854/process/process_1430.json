@@ -1,0 +1,17 @@
+{
+    "question": "How does the person return the pen?",
+    "options": [
+        "The person casually tosses the pen into the air and catches it with his left hand.",
+        "The person places the pen down on the table with a smooth side motion of his right hand.",
+        "The person rolls the pen between his fingers and then lets it slide into a bag with his left hand.",
+        "The person turns around and places the pen over his shoulder without looking.",
+        "The person promptly returns the pen by moving his right hand in the back pocket after measuring."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person return the pen? Choose **only one** option from the following list.\nOptions:\n(A) The person casually tosses the pen into the air and catches it with his left hand.\n(B) The person places the pen down on the table with a smooth side motion of his right hand.\n(C) The person rolls the pen between his fingers and then lets it slide into a bag with his left hand.\n(D) The person turns around and places the pen over his shoulder without looking.\n(E) The person promptly returns the pen by moving his right hand in the back pocket after measuring.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person promptly returns the pen by moving his right hand in the back pocket after measuring."
+    },
+    "correct_idx": [
+        4
+    ]
+}

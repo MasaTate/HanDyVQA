@@ -1,0 +1,17 @@
+{
+    "question": "How does the person touch the power drill?",
+    "options": [
+        "The person uses the right hand to grip the drill firmly, slightly bend it backwards, and gently touch it with the left hand fingertips to verify and check the settings and connection of the power drill.",
+        "The person uses the left hand to hold the drill upright, softly taps it with the right hand to feel the balance, and doesn't adjust any settings.",
+        "The person picks up the drill with both hands, gently tilts it to hear if there are any loose parts, but skips checking the settings.",
+        "The person grasps the drill by its barrel with the right hand and places it securely on the table to confirm it's stable.",
+        "The person places the drill flat on the table, gently presses it with the palm of the left hand to see if it remains stable."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person touch the power drill? Choose **only one** option from the following list.\nOptions:\n(A) The person uses the right hand to grip the drill firmly, slightly bend it backwards, and gently touch it with the left hand fingertips to verify and check the settings and connection of the power drill.\n(B) The person uses the left hand to hold the drill upright, softly taps it with the right hand to feel the balance, and doesn't adjust any settings.\n(C) The person picks up the drill with both hands, gently tilts it to hear if there are any loose parts, but skips checking the settings.\n(D) The person grasps the drill by its barrel with the right hand and places it securely on the table to confirm it's stable.\n(E) The person places the drill flat on the table, gently presses it with the palm of the left hand to see if it remains stable.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person uses the right hand to grip the drill firmly, slightly bend it backwards, and gently touch it with the left hand fingertips to verify and check the settings and connection of the power drill."
+    },
+    "correct_idx": [
+        0
+    ]
+}

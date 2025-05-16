@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person hangs a picture frame on the wall using her right hand while stabilizing it with her left hand.",
+        "The person removes the poster from the wall using both hands.",
+        "The person adjusts a calendar on the wall using her left hand while holding a tool in her right hand.",
+        "The person places the poster on the wall using both hands.",
+        "The person folds a poster in half using both hands before placing it on the desk."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person hangs a picture frame on the wall using her right hand while stabilizing it with her left hand.\n(B) The person removes the poster from the wall using both hands.\n(C) The person adjusts a calendar on the wall using her left hand while holding a tool in her right hand.\n(D) The person places the poster on the wall using both hands.\n(E) The person folds a poster in half using both hands before placing it on the desk.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person places the poster on the wall using both hands."
+    },
+    "correct_idx": [
+        3
+    ]
+}

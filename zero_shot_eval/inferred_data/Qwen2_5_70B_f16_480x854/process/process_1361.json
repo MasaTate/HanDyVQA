@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pin the cloth  ?",
+    "options": [
+        "The person stretches the cloth and pins it by pressing down the needle using the right hand thumb.",
+        "The person folds the cloth gradually and secures it by pressing the needle with the left hand palm.",
+        "The person holds the cloth firmly with both hands and carefully presses the needle down using the right hand index finger.",
+        "The person slightly crumples the cloth and places the needle at the edge, gently pushing it down with the left hand middle finger.",
+        "The person stretches the cloth and uses the palm of the hand to subtly press the needle into place."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pin the cloth  ? Choose **only one** option from the following list.\nOptions:\n(A) The person stretches the cloth and pins it by pressing down the needle using the right hand thumb.\n(B) The person folds the cloth gradually and secures it by pressing the needle with the left hand palm.\n(C) The person holds the cloth firmly with both hands and carefully presses the needle down using the right hand index finger.\n(D) The person slightly crumples the cloth and places the needle at the edge, gently pushing it down with the left hand middle finger.\n(E) The person stretches the cloth and uses the palm of the hand to subtly press the needle into place.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person holds the cloth firmly with both hands and carefully presses the needle down using the right hand index finger."
+    },
+    "correct_idx": [
+        0
+    ]
+}

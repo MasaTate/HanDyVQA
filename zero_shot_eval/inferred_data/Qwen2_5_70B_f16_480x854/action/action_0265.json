@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person pours oil into the lawnmower using the left hand while the right hand secures the lid on the container.",
+        "The person pours gasoline in the chainsaw using the left hand while the right hand closes the lid on the container.",
+        "The person fills the chainsaw with fuel using the left hand while the right hand lifts the container off the ground.",
+        "The person empties gasoline from the chainsaw using the left hand while the right hand holds the chainsaw upright.",
+        "The person adds gas to the generator using the left hand while the right hand grabs the nozzle of the container."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person pours oil into the lawnmower using the left hand while the right hand secures the lid on the container.\n(B) The person pours gasoline in the chainsaw using the left hand while the right hand closes the lid on the container.\n(C) The person fills the chainsaw with fuel using the left hand while the right hand lifts the container off the ground.\n(D) The person empties gasoline from the chainsaw using the left hand while the right hand holds the chainsaw upright.\n(E) The person adds gas to the generator using the left hand while the right hand grabs the nozzle of the container.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person pours gasoline in the chainsaw using the left hand while the right hand closes the lid on the container."
+    },
+    "correct_idx": [
+        1
+    ]
+}

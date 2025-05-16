@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person carves a design into a piece of wood using a chisel in his right hand while stabilizing the wood with his left hand.",
+        "The person breaks away a part of the piece of wood with both hands.",
+        "The person snaps a twig off a tree branch with his right hand while holding the branch firmly with his left hand.",
+        "The person sands down a piece of wood on a workbench using sandpaper in his right hand while holding the wood steady with his left hand.",
+        "The person splits a log on the ground using an axe in his right hand while gripping the log with his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person carves a design into a piece of wood using a chisel in his right hand while stabilizing the wood with his left hand.\n(B) The person breaks away a part of the piece of wood with both hands.\n(C) The person snaps a twig off a tree branch with his right hand while holding the branch firmly with his left hand.\n(D) The person sands down a piece of wood on a workbench using sandpaper in his right hand while holding the wood steady with his left hand.\n(E) The person splits a log on the ground using an axe in his right hand while gripping the log with his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person breaks away a part of the piece of wood with both hands."
+    },
+    "correct_idx": [
+        1
+    ]
+}

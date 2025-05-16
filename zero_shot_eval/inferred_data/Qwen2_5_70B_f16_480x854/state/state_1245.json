@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the yarn change?",
+    "options": [
+        "The yarn was carefully arranged, each strand untangled and laid out neatly to avoid any knots.",
+        "The yarn was thrown into a messy pile, resulting in several strands becoming intertwined and knotted together.",
+        "The yarn was cut into multiple short lengths, with each piece left scattered across the table, lacking organization.",
+        "The yarn was wrapped tightly around a cardboard tube, compressing the strands and making unwinding difficult.",
+        "The yarn was soaked in water, causing it to become heavy and tangled as moisture was absorbed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the yarn change? Choose **only one** option from the following list.\nOptions:\n(A) The yarn was carefully arranged, each strand untangled and laid out neatly to avoid any knots.\n(B) The yarn was thrown into a messy pile, resulting in several strands becoming intertwined and knotted together.\n(C) The yarn was cut into multiple short lengths, with each piece left scattered across the table, lacking organization.\n(D) The yarn was wrapped tightly around a cardboard tube, compressing the strands and making unwinding difficult.\n(E) The yarn was soaked in water, causing it to become heavy and tangled as moisture was absorbed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The yarn was thrown into a messy pile, resulting in several strands becoming intertwined and knotted together."
+    },
+    "correct_idx": [
+        0
+    ]
+}

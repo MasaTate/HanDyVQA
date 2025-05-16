@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person mixes the cement mix in the bowl with the trowel in his right hand.",
+        "The person pours the cement mix into the wheelbarrow with the trowel in his right hand.",
+        "The person applies the cement mix to a wall with the trowel in his right hand while holding the mixing bowl with his left hand.",
+        "The person stirs the paint in the bucket with the trowel in his right hand while resting the bucket on the ground with his left hand.",
+        "The person scoops the cement mix from the bag into the bowl using the trowel in his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person mixes the cement mix in the bowl with the trowel in his right hand.\n(B) The person pours the cement mix into the wheelbarrow with the trowel in his right hand.\n(C) The person applies the cement mix to a wall with the trowel in his right hand while holding the mixing bowl with his left hand.\n(D) The person stirs the paint in the bucket with the trowel in his right hand while resting the bucket on the ground with his left hand.\n(E) The person scoops the cement mix from the bag into the bowl using the trowel in his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person mixes the cement mix in the bowl with the trowel in his right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

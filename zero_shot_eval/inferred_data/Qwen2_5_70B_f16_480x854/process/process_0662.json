@@ -1,0 +1,17 @@
+{
+    "question": "How does the person rinse the paint brush?",
+    "options": [
+        "The person loosely grips the paintbrush with her left hand, flicks off the excess paint onto a surface, and dips it into the jar of water, letting it sit briefly.",
+        "The person grips the paintbrush with both hands, shakes off the excess paint, and places it in the jar of water, swirling it only slightly.",
+        "The person holds the paintbrush awkwardly with her right hand, scrapes the bristles on the jar's edge, and leaves it resting in the water for a moment.",
+        "The person carefully holds the paintbrush by pinching the bristles, taps it lightly on a surface, and then dips it in the water, swirling it minimally.",
+        "The person firmly holds the paintbrush with her right hand, brushes off the excess paint onto a sheet of paper, and then dips it into a jar of water, swirling it gently to rinse out the remaining paint."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person rinse the paint brush? Choose **only one** option from the following list.\nOptions:\n(A) The person loosely grips the paintbrush with her left hand, flicks off the excess paint onto a surface, and dips it into the jar of water, letting it sit briefly.\n(B) The person grips the paintbrush with both hands, shakes off the excess paint, and places it in the jar of water, swirling it only slightly.\n(C) The person holds the paintbrush awkwardly with her right hand, scrapes the bristles on the jar's edge, and leaves it resting in the water for a moment.\n(D) The person carefully holds the paintbrush by pinching the bristles, taps it lightly on a surface, and then dips it in the water, swirling it minimally.\n(E) The person firmly holds the paintbrush with her right hand, brushes off the excess paint onto a sheet of paper, and then dips it into a jar of water, swirling it gently to rinse out the remaining paint.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person firmly holds the paintbrush with her right hand, brushes off the excess paint onto a sheet of paper, and then dips it into a jar of water, swirling it gently to rinse out the remaining paint."
+    },
+    "correct_idx": [
+        4
+    ]
+}

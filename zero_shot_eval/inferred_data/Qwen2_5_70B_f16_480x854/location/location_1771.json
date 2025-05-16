@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the cable?",
+    "options": [
+        "The person drops the cable onto the desk in the corner of the room.",
+        "The person drops the cable onto the shelf next to the window.",
+        "The person drops the cable into the drawer of the nearby cabinet.",
+        "The person drops the cable on the floor beside the workspace.",
+        "The person drops the cable on to the container at other working table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the cable? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the cable onto the desk in the corner of the room.\n(B) The person drops the cable onto the shelf next to the window.\n(C) The person drops the cable into the drawer of the nearby cabinet.\n(D) The person drops the cable on the floor beside the workspace.\n(E) The person drops the cable on to the container at other working table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person drops the cable on to the container at other working table."
+    },
+    "correct_idx": [
+        4
+    ]
+}

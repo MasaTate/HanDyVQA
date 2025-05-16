@@ -1,0 +1,17 @@
+{
+    "question": "How does the person flick the tube?",
+    "options": [
+        "The person flicks the tube by gripping it firmly with their right hand and using a swift, snapping motion similar to a traditional flick.",
+        "The person taps the tube gently on the table using the palm of their left hand while grasping it lightly with their right hand.",
+        "The person flicks the tube by holding it securely with their left hand, then swiftly flicking it multiple times in rapid succession using quick, snapping motions with the thumb and middle finger of their right hand.",
+        "The person twists the tube smoothly with their right hand, pinching it gently with their thumb and ring finger, performing a motion distinct from flicking.",
+        "The person swings their right hand to move the tube off the table with a noticeable motion, differing from the usual flicking technique."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person flick the tube? Choose **only one** option from the following list.\nOptions:\n(A) The person flicks the tube by gripping it firmly with their right hand and using a swift, snapping motion similar to a traditional flick.\n(B) The person taps the tube gently on the table using the palm of their left hand while grasping it lightly with their right hand.\n(C) The person flicks the tube by holding it securely with their left hand, then swiftly flicking it multiple times in rapid succession using quick, snapping motions with the thumb and middle finger of their right hand.\n(D) The person twists the tube smoothly with their right hand, pinching it gently with their thumb and ring finger, performing a motion distinct from flicking.\n(E) The person swings their right hand to move the tube off the table with a noticeable motion, differing from the usual flicking technique.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person flicks the tube by holding it securely with their left hand, then swiftly flicking it multiple times in rapid succession using quick, snapping motions with the thumb and middle finger of their right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

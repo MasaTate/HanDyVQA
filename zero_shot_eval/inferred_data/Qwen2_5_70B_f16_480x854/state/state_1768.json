@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the axle change?",
+    "options": [
+        "The axle's orientation was reversed as it was lifted and turned around.",
+        "The axle's tension was increased as it was pulled tightly.",
+        "The axle's alignment was shifted as it was tilted at an angle.",
+        "The axle's position was altered as it was held and placed down.",
+        "The axle's balance was disrupted as it was rolled across the surface."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the axle change? Choose **only one** option from the following list.\nOptions:\n(A) The axle's orientation was reversed as it was lifted and turned around.\n(B) The axle's tension was increased as it was pulled tightly.\n(C) The axle's alignment was shifted as it was tilted at an angle.\n(D) The axle's position was altered as it was held and placed down.\n(E) The axle's balance was disrupted as it was rolled across the surface.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The axle's position was altered as it was held and placed down."
+    },
+    "correct_idx": [
+        3
+    ]
+}

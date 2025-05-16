@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the jar of oat?",
+    "options": [
+        "The person put the jar of oats inside the bottom shelf of the kitchen cabinet.",
+        "The person slid the jar of oats onto the counter next to the kitchen cabinet.",
+        "The person put the jar of oats inside the top shelf of the kitchen cabinet.",
+        "The person placed the jar of oats inside the drawer below the kitchen cabinet.",
+        "The person put the jar of oats on top of the refrigerator adjacent to the kitchen cabinet."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the jar of oat? Choose **only one** option from the following list.\nOptions:\n(A) The person put the jar of oats inside the bottom shelf of the kitchen cabinet.\n(B) The person slid the jar of oats onto the counter next to the kitchen cabinet.\n(C) The person put the jar of oats inside the top shelf of the kitchen cabinet.\n(D) The person placed the jar of oats inside the drawer below the kitchen cabinet.\n(E) The person put the jar of oats on top of the refrigerator adjacent to the kitchen cabinet.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person put the jar of oats inside the top shelf of the kitchen cabinet."
+    },
+    "correct_idx": [
+        2
+    ]
+}

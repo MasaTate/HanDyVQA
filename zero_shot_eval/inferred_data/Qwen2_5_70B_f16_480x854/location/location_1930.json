@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the device?",
+    "options": [
+        "The person put the device at the upper left edge of the wood.",
+        "The person put the device in the center of the wooden surface.",
+        "The person put the device at the lower edge, slightly left, on the wood.",
+        "The person put the device at the lower right edge of the wood.",
+        "The person put the device near the top right edge of the wood."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the device? Choose **only one** option from the following list.\nOptions:\n(A) The person put the device at the upper left edge of the wood.\n(B) The person put the device in the center of the wooden surface.\n(C) The person put the device at the lower edge, slightly left, on the wood.\n(D) The person put the device at the lower right edge of the wood.\n(E) The person put the device near the top right edge of the wood.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person put the device at the lower edge, slightly left, on the wood."
+    },
+    "correct_idx": [
+        3
+    ]
+}

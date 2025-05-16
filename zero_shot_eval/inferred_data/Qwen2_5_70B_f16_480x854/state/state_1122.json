@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the clothes change?",
+    "options": [
+        "The clothes bunched up at one end of the clothesline during a sudden gust of wind.",
+        "The clothes became tangled with each other as they were pulled down from the clothesline.",
+        "The clothes stuck together when they were moved aside on the clothesline.",
+        "The clothes shifted positions and fell to the ground after the clothesline snapped.",
+        "The clothes became draped over the edge of the clothesline after being removed hastily."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the clothes change? Choose **only one** option from the following list.\nOptions:\n(A) The clothes bunched up at one end of the clothesline during a sudden gust of wind.\n(B) The clothes became tangled with each other as they were pulled down from the clothesline.\n(C) The clothes stuck together when they were moved aside on the clothesline.\n(D) The clothes shifted positions and fell to the ground after the clothesline snapped.\n(E) The clothes became draped over the edge of the clothesline after being removed hastily.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The clothes stuck together when they were moved aside on the clothesline."
+    },
+    "correct_idx": [
+        2
+    ]
+}

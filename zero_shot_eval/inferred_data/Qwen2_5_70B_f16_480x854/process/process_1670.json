@@ -1,0 +1,17 @@
+{
+    "question": "How does the person screw the washer nut?",
+    "options": [
+        "The person twists the washer nut using a spanner in his right hand, turning it clockwise.",
+        "The person twists the washer nut using his left hand to grip it gently.",
+        "The person pushes the washer nut onto the bolt with his palm without any tools.",
+        "The person turns the washer nut manually using his fingers while holding the bolt with his right hand.",
+        "The person uses a pair of pliers in his left hand to hold the washer nut while his right hand stabilizes the bolt."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person screw the washer nut? Choose **only one** option from the following list.\nOptions:\n(A) The person twists the washer nut using a spanner in his right hand, turning it clockwise.\n(B) The person twists the washer nut using his left hand to grip it gently.\n(C) The person pushes the washer nut onto the bolt with his palm without any tools.\n(D) The person turns the washer nut manually using his fingers while holding the bolt with his right hand.\n(E) The person uses a pair of pliers in his left hand to hold the washer nut while his right hand stabilizes the bolt.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person twists the washer nut using a spanner in his right hand, turning it clockwise."
+    },
+    "correct_idx": [
+        0
+    ]
+}

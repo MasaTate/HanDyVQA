@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the bolt?",
+    "options": [
+        "The person places the bolt on the top of the paper.",
+        "The person places the bolt inside the computer case.",
+        "The person places the bolt inside a round tape.",
+        "The person places the bolt on the top of the keyboard.",
+        "The person places the bolt on top of the hard disks."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the bolt? Choose **only one** option from the following list.\nOptions:\n(A) The person places the bolt on the top of the paper.\n(B) The person places the bolt inside the computer case.\n(C) The person places the bolt inside a round tape.\n(D) The person places the bolt on the top of the keyboard.\n(E) The person places the bolt on top of the hard disks.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person places the bolt inside a round tape."
+    },
+    "correct_idx": [
+        2
+    ]
+}

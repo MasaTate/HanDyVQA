@@ -1,0 +1,17 @@
+{
+    "question": "How does the person collect a screwdriver from man z?",
+    "options": [
+        "The person reached it with both hands from the man.",
+        "The person took it with his left hand from the man.",
+        "The person reached it quickly with his right hand from the man.",
+        "The person picked it up off the table after the man placed it there.",
+        "The person reached it with his right hand and used the screwdriver."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person collect a screwdriver from man z? Choose **only one** option from the following list.\nOptions:\n(A) The person reached it with both hands from the man.\n(B) The person took it with his left hand from the man.\n(C) The person reached it quickly with his right hand from the man.\n(D) The person picked it up off the table after the man placed it there.\n(E) The person reached it with his right hand and used the screwdriver.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person reached it quickly with his right hand from the man."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person lock the guitar case?",
+    "options": [
+        "The person lifts the case lid upwards and uses their right hand fingers to press the lock smoothly onto the guitar case.",
+        "The person tilts the case slightly and uses both hands to secure the lock onto the side of the guitar case.",
+        "The person swings the case lid down and uses their palm to press down on the lock until it fits into place.",
+        "The person lets the lid lower smoothly and carefully aligns the lock before securing it.",
+        "The person pulls the case lid downwards and uses their left hand fingers to lift the lock and gently clip the guitar case."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person lock the guitar case? Choose **only one** option from the following list.\nOptions:\n(A) The person lifts the case lid upwards and uses their right hand fingers to press the lock smoothly onto the guitar case.\n(B) The person tilts the case slightly and uses both hands to secure the lock onto the side of the guitar case.\n(C) The person swings the case lid down and uses their palm to press down on the lock until it fits into place.\n(D) The person lets the lid lower smoothly and carefully aligns the lock before securing it.\n(E) The person pulls the case lid downwards and uses their left hand fingers to lift the lock and gently clip the guitar case.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person lets the lid lower smoothly and carefully aligns the lock before securing it."
+    },
+    "correct_idx": [
+        4
+    ]
+}

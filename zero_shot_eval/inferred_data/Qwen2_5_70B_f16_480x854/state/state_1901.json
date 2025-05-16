@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the rice change?",
+    "options": [
+        "The rice was boiled in water, resulting in a softer texture and a change in its cooking state as it absorbed the liquid.",
+        "The rice was toasted in a pan, leading to a change in flavor and color as it took on a roasted aroma.",
+        "The rice was mixed with turmeric, causing a change in color and consistency as it became combined with the spice.",
+        "The rice was seasoned with salt and pepper, altering its taste profile while maintaining its original consistency.",
+        "The rice was chilled in the refrigerator, causing a change in temperature and firmness as it became cold and less sticky."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the rice change? Choose **only one** option from the following list.\nOptions:\n(A) The rice was boiled in water, resulting in a softer texture and a change in its cooking state as it absorbed the liquid.\n(B) The rice was toasted in a pan, leading to a change in flavor and color as it took on a roasted aroma.\n(C) The rice was mixed with turmeric, causing a change in color and consistency as it became combined with the spice.\n(D) The rice was seasoned with salt and pepper, altering its taste profile while maintaining its original consistency.\n(E) The rice was chilled in the refrigerator, causing a change in temperature and firmness as it became cold and less sticky.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The rice was mixed with turmeric, causing a change in color and consistency as it became combined with the spice."
+    },
+    "correct_idx": [
+        2
+    ]
+}

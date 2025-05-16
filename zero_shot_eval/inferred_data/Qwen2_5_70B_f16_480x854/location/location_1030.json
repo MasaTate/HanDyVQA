@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the mobile phone?",
+    "options": [
+        "The person moved the mobile phone from the backseat to the mobile case.",
+        "The person moved the mobile phone from the front seat to the center console.",
+        "The person moved the mobile phone from the backseat to the dashboard.",
+        "The person moved the mobile phone from the backseat to the glove compartment.",
+        "The person moved the mobile phone from the backseat to the passenger's lap."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the mobile phone? Choose **only one** option from the following list.\nOptions:\n(A) The person moved the mobile phone from the backseat to the mobile case.\n(B) The person moved the mobile phone from the front seat to the center console.\n(C) The person moved the mobile phone from the backseat to the dashboard.\n(D) The person moved the mobile phone from the backseat to the glove compartment.\n(E) The person moved the mobile phone from the backseat to the passenger's lap.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person moved the mobile phone from the backseat to the mobile case."
+    },
+    "correct_idx": [
+        0
+    ]
+}

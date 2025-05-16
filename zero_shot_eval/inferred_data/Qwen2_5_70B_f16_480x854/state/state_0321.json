@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the cards change?",
+    "options": [
+        "The bottom half of the cards is picked up, turned over, and placed onto the top half.",
+        "The top half of the cards is briefly shuffled and then put back onto the bottom half.",
+        "The entire stack of cards is lifted, split unevenly, and the larger half is placed atop the smaller.",
+        "The cards are divided, with the top portion put aside, and the bottom portion held in the hand.",
+        "The top half of the cards is picked up and put aside, then the bottom half is placed onto it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the cards change? Choose **only one** option from the following list.\nOptions:\n(A) The bottom half of the cards is picked up, turned over, and placed onto the top half.\n(B) The top half of the cards is briefly shuffled and then put back onto the bottom half.\n(C) The entire stack of cards is lifted, split unevenly, and the larger half is placed atop the smaller.\n(D) The cards are divided, with the top portion put aside, and the bottom portion held in the hand.\n(E) The top half of the cards is picked up and put aside, then the bottom half is placed onto it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The top half of the cards is picked up and put aside, then the bottom half is placed onto it."
+    },
+    "correct_idx": [
+        4
+    ]
+}

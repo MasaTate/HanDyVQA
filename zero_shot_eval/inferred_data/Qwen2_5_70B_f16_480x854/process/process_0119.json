@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pick a brick?",
+    "options": [
+        "The person grabs the brick with both hands, lifting it upwards without flipping it.",
+        "The person reaches for the brick with his left hand, pushing it over the surface rather than lifting.",
+        "The person picks up the brick with his right hand by flipping it and lifting it.",
+        "The person uses a hook grip with his fingers to lift the brick while leaning slightly forward.",
+        "The person slides the brick closer with his right hand instead of lifting it from the ground."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pick a brick? Choose **only one** option from the following list.\nOptions:\n(A) The person grabs the brick with both hands, lifting it upwards without flipping it.\n(B) The person reaches for the brick with his left hand, pushing it over the surface rather than lifting.\n(C) The person picks up the brick with his right hand by flipping it and lifting it.\n(D) The person uses a hook grip with his fingers to lift the brick while leaning slightly forward.\n(E) The person slides the brick closer with his right hand instead of lifting it from the ground.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person picks up the brick with his right hand by flipping it and lifting it."
+    },
+    "correct_idx": [
+        2
+    ]
+}

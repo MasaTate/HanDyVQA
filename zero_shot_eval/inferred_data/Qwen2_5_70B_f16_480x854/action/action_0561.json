@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person casts the dough in circular motions on the muslin cloth with her right hand.",
+        "The person rolls the dough back and forth on the countertop with her right hand while pressing down with her left hand.",
+        "The person shapes the dough into a ball on the cutting board using her right hand, while pushing the dough with her left.",
+        "The person kneads the dough on the kitchen table with her right hand while holding a rolling pin in her left hand.",
+        "The person flips the dough over on the wooden board with her right hand while using her left hand to sprinkle flour."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person casts the dough in circular motions on the muslin cloth with her right hand.\n(B) The person rolls the dough back and forth on the countertop with her right hand while pressing down with her left hand.\n(C) The person shapes the dough into a ball on the cutting board using her right hand, while pushing the dough with her left.\n(D) The person kneads the dough on the kitchen table with her right hand while holding a rolling pin in her left hand.\n(E) The person flips the dough over on the wooden board with her right hand while using her left hand to sprinkle flour.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person casts the dough in circular motions on the muslin cloth with her right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

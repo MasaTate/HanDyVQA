@@ -1,0 +1,17 @@
+{
+    "question": "How does the person drag a chair?",
+    "options": [
+        "The person pulled the chair firmly with both hands, gently guiding it across the floor towards the table.",
+        "The person dragged a chair by gripping it firmly with their right hand, applying gentle forward force to push the chair smoothly across the floor towards the table.",
+        "The person slid the chair sideways with one hand, adjusting their wrist slightly to move it towards the table.",
+        "The person lifted the chair off the ground gently with their left hand and carried it smoothly to the table.",
+        "The person nudged the chair slightly with their foot while guiding it towards the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person drag a chair? Choose **only one** option from the following list.\nOptions:\n(A) The person pulled the chair firmly with both hands, gently guiding it across the floor towards the table.\n(B) The person dragged a chair by gripping it firmly with their right hand, applying gentle forward force to push the chair smoothly across the floor towards the table.\n(C) The person slid the chair sideways with one hand, adjusting their wrist slightly to move it towards the table.\n(D) The person lifted the chair off the ground gently with their left hand and carried it smoothly to the table.\n(E) The person nudged the chair slightly with their foot while guiding it towards the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person dragged a chair by gripping it firmly with their right hand, applying gentle forward force to push the chair smoothly across the floor towards the table."
+    },
+    "correct_idx": [
+        1
+    ]
+}

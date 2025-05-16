@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of tape change?",
+    "options": [
+        "The tape was unwound and stretched, causing it to lose some of its adhesive properties.",
+        "The tape was torn into small pieces, resulting in a fragmented state unable to hold firmly.",
+        "The tape was rolled up tightly, forming a compact cylinder that was difficult to use.",
+        "The tape was repositioned and pressed, causing it to adhere more securely to the surface.",
+        "The tape was repositioned multiple times, which caused it to wrinkle and become less effective."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of tape change? Choose **only one** option from the following list.\nOptions:\n(A) The tape was unwound and stretched, causing it to lose some of its adhesive properties.\n(B) The tape was torn into small pieces, resulting in a fragmented state unable to hold firmly.\n(C) The tape was rolled up tightly, forming a compact cylinder that was difficult to use.\n(D) The tape was repositioned and pressed, causing it to adhere more securely to the surface.\n(E) The tape was repositioned multiple times, which caused it to wrinkle and become less effective.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The tape was repositioned and pressed, causing it to adhere more securely to the surface."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "bottle",
+        "knife",
+        "strainer",
+        "stove",
+        "sponge",
+        "container"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) bottle\n(B) knife\n(C) strainer\n(D) stove\n(E) sponge\n(F) container\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(A) The hands are holding a bottle, likely adding sauce or seasoning to the food in the container.\n(F) The hands are using a container, which appears to be filled with chopped vegetables or salad."
+    },
+    "correct_idx": [
+        0,
+        5
+    ]
+}

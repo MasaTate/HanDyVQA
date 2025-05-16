@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person scrubs his hands with a bar of soap in his left hand, turns the faucet off, and rinses his hands in the sink.",
+        "The person pours dish detergent into his right hand, adjusts the faucet, and rubs his hands together over the sink.",
+        "The person dries his hands with a towel in his right hand, turns off the water with his left hand, and wipes his hands dry.",
+        "The person applies liquid soap to his left hand and rubs it into both hands at the sink.",
+        "The person splashes water onto his hands while holding a sponge in his left hand and standing by the sink."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person scrubs his hands with a bar of soap in his left hand, turns the faucet off, and rinses his hands in the sink.\n(B) The person pours dish detergent into his right hand, adjusts the faucet, and rubs his hands together over the sink.\n(C) The person dries his hands with a towel in his right hand, turns off the water with his left hand, and wipes his hands dry.\n(D) The person applies liquid soap to his left hand and rubs it into both hands at the sink.\n(E) The person splashes water onto his hands while holding a sponge in his left hand and standing by the sink.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person applies liquid soap to his left hand and rubs it into both hands at the sink."
+    },
+    "correct_idx": [
+        3
+    ]
+}

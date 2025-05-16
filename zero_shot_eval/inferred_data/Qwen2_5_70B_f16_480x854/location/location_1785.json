@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the hose?",
+    "options": [
+        "The person completely pulls the hose away from the bucket.",
+        "The person shifts the hose next to the bucket.",
+        "The person positions the hose directly over the bucket.",
+        "The person drags the hose across the ground near the bucket.",
+        "The person slightly moves the hose around the bucket."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the hose? Choose **only one** option from the following list.\nOptions:\n(A) The person completely pulls the hose away from the bucket.\n(B) The person shifts the hose next to the bucket.\n(C) The person positions the hose directly over the bucket.\n(D) The person drags the hose across the ground near the bucket.\n(E) The person slightly moves the hose around the bucket.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person positions the hose directly over the bucket."
+    },
+    "correct_idx": [
+        4
+    ]
+}

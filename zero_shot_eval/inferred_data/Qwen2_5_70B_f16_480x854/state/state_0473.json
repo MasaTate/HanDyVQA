@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a foil sheet change?",
+    "options": [
+        "The foil sheet was bent and compressed into a ball.",
+        "The foil sheet was unrolled and spread out.",
+        "The foil sheet was folded repeatedly.",
+        "The foil sheet was torn into multiple pieces.",
+        "The foil sheet was rolled into a tight tube."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a foil sheet change? Choose **only one** option from the following list.\nOptions:\n(A) The foil sheet was bent and compressed into a ball.\n(B) The foil sheet was unrolled and spread out.\n(C) The foil sheet was folded repeatedly.\n(D) The foil sheet was torn into multiple pieces.\n(E) The foil sheet was rolled into a tight tube.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The foil sheet was unrolled and spread out."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the needle change?",
+    "options": [
+        "The needle was taken out of the fabric as a guide and inserted into the pin cushion.",
+        "The needle was removed from the fabric and placed into a box for safekeeping.",
+        "The needle was extracted from the fabric and inserted into a cushion for storage.",
+        "The needle was pulled out of the fabric and attached to a magnetic strip.",
+        "The needle was taken out of the fabric and placed inside a small pouch."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the needle change? Choose **only one** option from the following list.\nOptions:\n(A) The needle was taken out of the fabric as a guide and inserted into the pin cushion.\n(B) The needle was removed from the fabric and placed into a box for safekeeping.\n(C) The needle was extracted from the fabric and inserted into a cushion for storage.\n(D) The needle was pulled out of the fabric and attached to a magnetic strip.\n(E) The needle was taken out of the fabric and placed inside a small pouch.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The needle was extracted from the fabric and inserted into a cushion for storage."
+    },
+    "correct_idx": [
+        0
+    ]
+}

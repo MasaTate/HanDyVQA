@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person stirs the salad with a spoon in her right hand while holding a jar of dressing with both hands to pour it in.",
+        "The person tosses the salad with her hands while holding a bowl of croutons in her left hand to sprinkle on top.",
+        "The person serves the salad on a plate with a fork in her right hand while balancing a bottle of vinaigrette in her left hand.",
+        "The person mixes the salad with a chopstick in her right hand while grabbing the pack of smoked salmon to open with both hands.",
+        "The person arranges the salad on the table with her hands while holding a bottle of olive oil in her right hand to drizzle over it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person stirs the salad with a spoon in her right hand while holding a jar of dressing with both hands to pour it in.\n(B) The person tosses the salad with her hands while holding a bowl of croutons in her left hand to sprinkle on top.\n(C) The person serves the salad on a plate with a fork in her right hand while balancing a bottle of vinaigrette in her left hand.\n(D) The person mixes the salad with a chopstick in her right hand while grabbing the pack of smoked salmon to open with both hands.\n(E) The person arranges the salad on the table with her hands while holding a bottle of olive oil in her right hand to drizzle over it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person mixes the salad with a chopstick in her right hand while grabbing the pack of smoked salmon to open with both hands."
+    },
+    "correct_idx": [
+        3
+    ]
+}

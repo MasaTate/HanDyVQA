@@ -1,0 +1,21 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "ladle",
+        "tong",
+        "spoon",
+        "cup",
+        "sponge",
+        "chopping board",
+        "faucet"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) ladle\n(B) tong\n(C) spoon\n(D) cup\n(E) sponge\n(F) chopping board\n(G) faucet\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(E) Sponge  \n(F) Chopping board  \n\nThe hands in the video use a sponge to clean the chopping board under running water from the faucet. The sponge is rubbed over the surface of the chopping board to remove any residue or dirt. After cleaning, the chopping board is rinsed with water."
+    },
+    "correct_idx": [
+        1,
+        4,
+        5
+    ]
+}

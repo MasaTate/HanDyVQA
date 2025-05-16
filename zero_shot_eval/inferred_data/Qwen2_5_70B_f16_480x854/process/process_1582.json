@@ -1,0 +1,17 @@
+{
+    "question": "How does the person split the stack of cards?",
+    "options": [
+        "The person turns the stack of cards sideways with their left hand and gently lets the cards slide apart.",
+        "The person pushes their palm down on the stack with pressure, making the cards scatter around.",
+        "The person uses both hands to hold the sides of the stack, pressing them closely together.",
+        "The person grabs the bottom half of the stack with their right hand and lifts it, making the top half tilt gently.",
+        "The person uses their right hand to grip the stack of cards, then carefully pulls apart the top half, separating it from the bottom half."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person split the stack of cards? Choose **only one** option from the following list.\nOptions:\n(A) The person turns the stack of cards sideways with their left hand and gently lets the cards slide apart.\n(B) The person pushes their palm down on the stack with pressure, making the cards scatter around.\n(C) The person uses both hands to hold the sides of the stack, pressing them closely together.\n(D) The person grabs the bottom half of the stack with their right hand and lifts it, making the top half tilt gently.\n(E) The person uses their right hand to grip the stack of cards, then carefully pulls apart the top half, separating it from the bottom half.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person uses their right hand to grip the stack of cards, then carefully pulls apart the top half, separating it from the bottom half."
+    },
+    "correct_idx": [
+        4
+    ]
+}

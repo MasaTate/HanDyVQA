@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put a card?",
+    "options": [
+        "The person puts the card in the middle of the table.",
+        "The person places the card on the edge of the table.",
+        "The person puts the card underneath the table.",
+        "The person sets the card against the side of the table.",
+        "The person puts the card on the top of the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put a card? Choose **only one** option from the following list.\nOptions:\n(A) The person puts the card in the middle of the table.\n(B) The person places the card on the edge of the table.\n(C) The person puts the card underneath the table.\n(D) The person sets the card against the side of the table.\n(E) The person puts the card on the top of the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person puts the card in the middle of the table."
+    },
+    "correct_idx": [
+        4
+    ]
+}

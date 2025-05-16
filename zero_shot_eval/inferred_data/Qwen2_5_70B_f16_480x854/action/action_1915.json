@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is spreading a coating on the wall under construction with their hands.",
+        "The person is blending cement in a container with their hands.",
+        "The person is leveling plaster on the wall under construction with their hands.",
+        "The person is using a tool to apply a substance to the wall under construction with their hands.",
+        "The person is applying cement to the wall under construction with their hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is spreading a coating on the wall under construction with their hands.\n(B) The person is blending cement in a container with their hands.\n(C) The person is leveling plaster on the wall under construction with their hands.\n(D) The person is using a tool to apply a substance to the wall under construction with their hands.\n(E) The person is applying cement to the wall under construction with their hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person is using a tool to apply a substance to the wall under construction with their hands."
+    },
+    "correct_idx": [
+        4
+    ]
+}

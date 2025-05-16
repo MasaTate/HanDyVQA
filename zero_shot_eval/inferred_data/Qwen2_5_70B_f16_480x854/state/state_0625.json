@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of brick change?",
+    "options": [
+        "Two bricks were picked up but placed next to the bucket.",
+        "One brick was picked up and placed in the bucket while the other was left on the ground.",
+        "Two bricks were picked up and stacked on top of the bucket.",
+        "Two bricks were picked up and placed in the bucket.",
+        "Two bricks were picked up and dropped before reaching the bucket."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of brick change? Choose **only one** option from the following list.\nOptions:\n(A) Two bricks were picked up but placed next to the bucket.\n(B) One brick was picked up and placed in the bucket while the other was left on the ground.\n(C) Two bricks were picked up and stacked on top of the bucket.\n(D) Two bricks were picked up and placed in the bucket.\n(E) Two bricks were picked up and dropped before reaching the bucket.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) Two bricks were picked up and placed in the bucket."
+    },
+    "correct_idx": [
+        3
+    ]
+}

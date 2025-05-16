@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is holding the cellphone in the right hand while tapping the screen with the left hand.",
+        "The person is resting the cellphone on the table while using both hands to type on a laptop.",
+        "The person is grasping the cellphone with both hands while pressing the buttons on the side.",
+        "The person is using the left hand to hold the cellphone while swiping using the right hand.",
+        "The person is balancing the cellphone on the left palm while using the right hand to write on a notepad."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is holding the cellphone in the right hand while tapping the screen with the left hand.\n(B) The person is resting the cellphone on the table while using both hands to type on a laptop.\n(C) The person is grasping the cellphone with both hands while pressing the buttons on the side.\n(D) The person is using the left hand to hold the cellphone while swiping using the right hand.\n(E) The person is balancing the cellphone on the left palm while using the right hand to write on a notepad.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person is using the left hand to hold the cellphone while swiping using the right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

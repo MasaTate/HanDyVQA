@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a wall change?",
+    "options": [
+        "The wall was painted with a fresh coat of color to achieve a smooth finish.",
+        "The wall was removed completely to provide an open space for a new design.",
+        "The wall was measured, and reference points were marked to guide the next steps with accuracy.",
+        "The wall was reinforced with additional supports to improve its stability and durability.",
+        "The wall was covered with wallpaper, changing its appearance and texture significantly."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a wall change? Choose **only one** option from the following list.\nOptions:\n(A) The wall was painted with a fresh coat of color to achieve a smooth finish.\n(B) The wall was removed completely to provide an open space for a new design.\n(C) The wall was measured, and reference points were marked to guide the next steps with accuracy.\n(D) The wall was reinforced with additional supports to improve its stability and durability.\n(E) The wall was covered with wallpaper, changing its appearance and texture significantly.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The wall was measured, and reference points were marked to guide the next steps with accuracy."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the right hand?",
+    "options": [
+        "The person moves the right hand to the left hip.",
+        "The person moves the right hand to the right hip.",
+        "The person moves the right hand to the right shoulder.",
+        "The person moves the right hand to the center of the chest.",
+        "The person moves the right hand to the left shoulder."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the right hand to the left hip.\n(B) The person moves the right hand to the right hip.\n(C) The person moves the right hand to the right shoulder.\n(D) The person moves the right hand to the center of the chest.\n(E) The person moves the right hand to the left shoulder.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person moves the right hand to the right hip."
+    },
+    "correct_idx": [
+        1
+    ]
+}

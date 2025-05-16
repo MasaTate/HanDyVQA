@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the floor change?",
+    "options": [
+        "The floor was covered in a layer of dust and was vacuumed to remove it.",
+        "The floor became wet with spilled water and was dried with a mop.",
+        "The floor had sticky dirt and was wiped clean with a cloth.",
+        "The floor got scratched by heavy furniture and was polished to restore its shine.",
+        "The floor accumulated a layer of mud and was cleared away."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the floor change? Choose **only one** option from the following list.\nOptions:\n(A) The floor was covered in a layer of dust and was vacuumed to remove it.\n(B) The floor became wet with spilled water and was dried with a mop.\n(C) The floor had sticky dirt and was wiped clean with a cloth.\n(D) The floor got scratched by heavy furniture and was polished to restore its shine.\n(E) The floor accumulated a layer of mud and was cleared away.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The floor had sticky dirt and was wiped clean with a cloth."
+    },
+    "correct_idx": [
+        2
+    ]
+}

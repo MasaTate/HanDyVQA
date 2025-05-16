@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move his four right hand fingers?",
+    "options": [
+        "The person moved his four right-hand fingers to the shelf to hold the book steady.",
+        "The person moved his four right-hand fingers to the desk to grip the pen tightly.",
+        "The person moved his four right-hand fingers to the countertop to balance the jug.",
+        "The person moved his four right-hand fingers to the floor to push the chair back.",
+        "The person moved his four right-hand fingers to the table to support the thumb."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move his four right hand fingers? Choose **only one** option from the following list.\nOptions:\n(A) The person moved his four right-hand fingers to the shelf to hold the book steady.\n(B) The person moved his four right-hand fingers to the desk to grip the pen tightly.\n(C) The person moved his four right-hand fingers to the countertop to balance the jug.\n(D) The person moved his four right-hand fingers to the floor to push the chair back.\n(E) The person moved his four right-hand fingers to the table to support the thumb.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person moved his four right-hand fingers to the table to support the thumb."
+    },
+    "correct_idx": [
+        4
+    ]
+}

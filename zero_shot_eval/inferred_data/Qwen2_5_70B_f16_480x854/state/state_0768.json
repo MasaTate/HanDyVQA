@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a white bottle change?",
+    "options": [
+        "The white bottle was lifted off the sink and placed on the shelf nearby.",
+        "The white bottle was lifted off the sink and moved to the left side of the person.",
+        "The white bottle was lifted off the sink and shifted slightly away from the person.",
+        "The white bottle was lifted off the sink and moved close to the person.",
+        "The white bottle was lifted off the sink and set down on the counter next to the sink."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a white bottle change? Choose **only one** option from the following list.\nOptions:\n(A) The white bottle was lifted off the sink and placed on the shelf nearby.\n(B) The white bottle was lifted off the sink and moved to the left side of the person.\n(C) The white bottle was lifted off the sink and shifted slightly away from the person.\n(D) The white bottle was lifted off the sink and moved close to the person.\n(E) The white bottle was lifted off the sink and set down on the counter next to the sink.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The white bottle was lifted off the sink and set down on the counter next to the sink."
+    },
+    "correct_idx": [
+        3
+    ]
+}

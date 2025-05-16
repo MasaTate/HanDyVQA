@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of another bunch of grapes from the plant change?",
+    "options": [
+        "The bunch of grapes were cut from the vine and left on the ground.",
+        "The bunch of grapes were picked but then dropped before reaching the box.",
+        "The bunch of grapes were cut and placed on the table instead of the box.",
+        "The bunch of grapes were tugged but not fully detached from the vine.",
+        "The bunch of grapes were cut from the vine and then thrown to the box."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of another bunch of grapes from the plant change? Choose **only one** option from the following list.\nOptions:\n(A) The bunch of grapes were cut from the vine and left on the ground.\n(B) The bunch of grapes were picked but then dropped before reaching the box.\n(C) The bunch of grapes were cut and placed on the table instead of the box.\n(D) The bunch of grapes were tugged but not fully detached from the vine.\n(E) The bunch of grapes were cut from the vine and then thrown to the box.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The bunch of grapes were tugged but not fully detached from the vine."
+    },
+    "correct_idx": [
+        4
+    ]
+}

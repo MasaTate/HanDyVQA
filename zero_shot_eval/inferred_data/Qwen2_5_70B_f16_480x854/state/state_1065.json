@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the container of meat change?",
+    "options": [
+        "The container of meat was opened, allowing the air to enter and circulate around the contents.",
+        "The container of meat was sealed tightly, preventing any change in the position of the contents inside.",
+        "The container of meat was shifted, causing the contents to move or redistribute within it.",
+        "The container of meat was inverted, causing the contents to settle to one end of it.",
+        "The container of meat was partially crushed, altering the distribution of the contents inside."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the container of meat change? Choose **only one** option from the following list.\nOptions:\n(A) The container of meat was opened, allowing the air to enter and circulate around the contents.\n(B) The container of meat was sealed tightly, preventing any change in the position of the contents inside.\n(C) The container of meat was shifted, causing the contents to move or redistribute within it.\n(D) The container of meat was inverted, causing the contents to settle to one end of it.\n(E) The container of meat was partially crushed, altering the distribution of the contents inside.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The container of meat was shifted, causing the contents to move or redistribute within it."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person extends her left hand towards a cabinet.",
+        "The person is pulling a book from the shelf with her right hand.",
+        "The person is placing objects on the shelf using both hands.",
+        "The person is leaning against the shelf with her right hand while looking up.",
+        "The person stretches her right hand towards a shelf."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person extends her left hand towards a cabinet.\n(B) The person is pulling a book from the shelf with her right hand.\n(C) The person is placing objects on the shelf using both hands.\n(D) The person is leaning against the shelf with her right hand while looking up.\n(E) The person stretches her right hand towards a shelf.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person stretches her right hand towards a shelf."
+    },
+    "correct_idx": [
+        4
+    ]
+}

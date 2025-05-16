@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is holding a paper in both hands and scratches her right leg with her right hand before picking up the scissors.",
+        "The person rubs her right leg with her left hand while sitting comfortably.",
+        "The person massages her right leg with both hands while seated on the floor.",
+        "The person brushes her right leg with a cloth using her right hand while standing near a table.",
+        "The person scratches her right leg with a pen held in her right hand while seated on a chair."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is holding a paper in both hands and scratches her right leg with her right hand before picking up the scissors.\n(B) The person rubs her right leg with her left hand while sitting comfortably.\n(C) The person massages her right leg with both hands while seated on the floor.\n(D) The person brushes her right leg with a cloth using her right hand while standing near a table.\n(E) The person scratches her right leg with a pen held in her right hand while seated on a chair.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person is holding a paper in both hands and scratches her right leg with her right hand before picking up the scissors."
+    },
+    "correct_idx": [
+        0
+    ]
+}

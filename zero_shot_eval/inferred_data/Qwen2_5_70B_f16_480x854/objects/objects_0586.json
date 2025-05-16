@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "screwdriver",
+        "scissor. ",
+        "motorcycle. ",
+        "oil container. ",
+        "wrench",
+        "tissue"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) screwdriver\n(B) scissor. \n(C) motorcycle. \n(D) oil container. \n(E) wrench\n(F) tissue\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(F) tissue  \n(E) wrench  \n\nThe person in the video uses their hands to pick up a tissue and a wrench. The tissue is used for cleaning or wiping, while the wrench is likely used as a tool for mechanical work. There is no indication that the other listed items (screwdriver, scissor, motorcycle, oil container) are directly handled by the hands in the provided frames."
+    },
+    "correct_idx": [
+        0,
+        5
+    ]
+}

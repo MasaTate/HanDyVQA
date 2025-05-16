@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the hollow bar on the ground change?",
+    "options": [
+        "The hollow bar was pushed and turned on the ground.",
+        "The hollow bar was lifted and angled slightly.",
+        "The hollow bar was grabbed and slightly moved.",
+        "The hollow bar was rolled along the ground.",
+        "The hollow bar was dragged along the ground."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the hollow bar on the ground change? Choose **only one** option from the following list.\nOptions:\n(A) The hollow bar was pushed and turned on the ground.\n(B) The hollow bar was lifted and angled slightly.\n(C) The hollow bar was grabbed and slightly moved.\n(D) The hollow bar was rolled along the ground.\n(E) The hollow bar was dragged along the ground.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The hollow bar was grabbed and slightly moved."
+    },
+    "correct_idx": [
+        2
+    ]
+}

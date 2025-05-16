@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the lemon change?",
+    "options": [
+        "The lemon was cut at the stem, picked, and placed in a bucket.",
+        "The lemon was left attached to the tree after being slightly tilted.",
+        "The lemon was cut at the bottom instead of the stem and not harvested.",
+        "The lemon was removed from the tree but placed on the ground.",
+        "The lemon was cut at the stem but left hanging from the branch."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the lemon change? Choose **only one** option from the following list.\nOptions:\n(A) The lemon was cut at the stem, picked, and placed in a bucket.\n(B) The lemon was left attached to the tree after being slightly tilted.\n(C) The lemon was cut at the bottom instead of the stem and not harvested.\n(D) The lemon was removed from the tree but placed on the ground.\n(E) The lemon was cut at the stem but left hanging from the branch.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The lemon was cut at the stem, picked, and placed in a bucket."
+    },
+    "correct_idx": [
+        0
+    ]
+}

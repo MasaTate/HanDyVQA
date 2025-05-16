@@ -1,0 +1,17 @@
+{
+    "question": "How does the person slide a deck of the medicine refrigerator?",
+    "options": [
+        "The person carefully uses their hand to push the refrigerator door, creating an opening for the items inside.",
+        "The person pulls on the handle of the refrigerator door with one hand while also holding the deck of medicine.",
+        "The person taps on the side of the refrigerator, causing it to open noticeably.",
+        "The person gently uses the right hand to push and slide the medicine drawer into the refrigerator.",
+        "The person slightly lifts the refrigerator to access the deck inside."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person slide a deck of the medicine refrigerator? Choose **only one** option from the following list.\nOptions:\n(A) The person carefully uses their hand to push the refrigerator door, creating an opening for the items inside.\n(B) The person pulls on the handle of the refrigerator door with one hand while also holding the deck of medicine.\n(C) The person taps on the side of the refrigerator, causing it to open noticeably.\n(D) The person gently uses the right hand to push and slide the medicine drawer into the refrigerator.\n(E) The person slightly lifts the refrigerator to access the deck inside.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person gently uses the right hand to push and slide the medicine drawer into the refrigerator."
+    },
+    "correct_idx": [
+        3
+    ]
+}

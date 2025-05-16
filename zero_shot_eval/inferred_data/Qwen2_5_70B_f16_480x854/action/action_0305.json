@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person grabs the food from the pan; the person then tosses the food onto the plate using its right hand while its left hand supports the pan.",
+        "The person scoops the food from the pan; the person then spreads the food onto a cutting board using its right hand while its left hand grips the spatula.",
+        "The person stirs the food in the pan; the person then dumps the food into a bowl using its right hand while its left hand steadies the pan.",
+        "The person picks up the food from the pan; the person then slaps the food onto the mat using its right hand while its left hand holds the cellophane.",
+        "The person lifts the food from the pan; the person then slides the food onto a tray using its right hand while its left hand adjusts the heat on the stove."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person grabs the food from the pan; the person then tosses the food onto the plate using its right hand while its left hand supports the pan.\n(B) The person scoops the food from the pan; the person then spreads the food onto a cutting board using its right hand while its left hand grips the spatula.\n(C) The person stirs the food in the pan; the person then dumps the food into a bowl using its right hand while its left hand steadies the pan.\n(D) The person picks up the food from the pan; the person then slaps the food onto the mat using its right hand while its left hand holds the cellophane.\n(E) The person lifts the food from the pan; the person then slides the food onto a tray using its right hand while its left hand adjusts the heat on the stove.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person picks up the food from the pan; the person then slaps the food onto the mat using its right hand while its left hand holds the cellophane."
+    },
+    "correct_idx": [
+        3
+    ]
+}

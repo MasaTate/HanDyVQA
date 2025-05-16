@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the letter tile change?",
+    "options": [
+        "The letter tile was placed on the table and slid to the left, altering its position.",
+        "The letter tile was picked up and rotated slightly, modifying its orientation.",
+        "The letter tile was put on the table but remained in the same position without being moved.",
+        "The letter tile was placed on the table and picked up, changing its position.",
+        "The letter tile was picked up and dropped nearby, changing its location."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the letter tile change? Choose **only one** option from the following list.\nOptions:\n(A) The letter tile was placed on the table and slid to the left, altering its position.\n(B) The letter tile was picked up and rotated slightly, modifying its orientation.\n(C) The letter tile was put on the table but remained in the same position without being moved.\n(D) The letter tile was placed on the table and picked up, changing its position.\n(E) The letter tile was picked up and dropped nearby, changing its location.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The letter tile was placed on the table and picked up, changing its position."
+    },
+    "correct_idx": [
+        3
+    ]
+}

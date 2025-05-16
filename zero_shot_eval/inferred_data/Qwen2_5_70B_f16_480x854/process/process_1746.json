@@ -1,0 +1,17 @@
+{
+    "question": "How does the person paint an image?",
+    "options": [
+        "The person applies paint to the canvas quickly using broad strokes from a large brush.",
+        "The person pours paint onto the canvas by holding the container above it, allowing it to flow out freely.",
+        "The person spreads paint across the canvas roughly with their palm, creating an uneven texture.",
+        "The person applies paint to the canvas delicately using the right hand in upward strokes.",
+        "The person sprinkles paint onto the canvas with a brush, aiming for a scattered pattern."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person paint an image? Choose **only one** option from the following list.\nOptions:\n(A) The person applies paint to the canvas quickly using broad strokes from a large brush.\n(B) The person pours paint onto the canvas by holding the container above it, allowing it to flow out freely.\n(C) The person spreads paint across the canvas roughly with their palm, creating an uneven texture.\n(D) The person applies paint to the canvas delicately using the right hand in upward strokes.\n(E) The person sprinkles paint onto the canvas with a brush, aiming for a scattered pattern.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person applies paint to the canvas delicately using the right hand in upward strokes."
+    },
+    "correct_idx": [
+        3
+    ]
+}

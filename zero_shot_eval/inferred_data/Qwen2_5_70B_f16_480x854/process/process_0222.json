@@ -1,0 +1,17 @@
+{
+    "question": "How does the person paint the portrait painting on the book with the marker in her right hand?",
+    "options": [
+        "The person repeatedly taps the marker on the book, slightly moving her arm as she creates uneven and varied lines.",
+        "The person makes repeated strokes in one direction, moving her wrist smoothly as she carefully outlines and shades the portrait with controlled, consistent motions.",
+        "The person holds the marker at a slight angle, adjusting her hand as she loosely fills in the portrait without a clear outline.",
+        "The person applies firm pressure with the marker while moving it back and forth with vigor, leading to broad, visible marks on the page.",
+        "The person swiftly moves her hand over the book, gently using a circular motion that blends colors rather than outlining the portrait carefully."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person paint the portrait painting on the book with the marker in her right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person repeatedly taps the marker on the book, slightly moving her arm as she creates uneven and varied lines.\n(B) The person makes repeated strokes in one direction, moving her wrist smoothly as she carefully outlines and shades the portrait with controlled, consistent motions.\n(C) The person holds the marker at a slight angle, adjusting her hand as she loosely fills in the portrait without a clear outline.\n(D) The person applies firm pressure with the marker while moving it back and forth with vigor, leading to broad, visible marks on the page.\n(E) The person swiftly moves her hand over the book, gently using a circular motion that blends colors rather than outlining the portrait carefully.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person makes repeated strokes in one direction, moving her wrist smoothly as she carefully outlines and shades the portrait with controlled, consistent motions."
+    },
+    "correct_idx": [
+        1
+    ]
+}

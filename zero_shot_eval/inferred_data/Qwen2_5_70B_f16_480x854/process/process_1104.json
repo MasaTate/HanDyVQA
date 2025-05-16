@@ -1,0 +1,17 @@
+{
+    "question": "How does the person wipe t - shirt?",
+    "options": [
+        "The person wipes up the T-shirt with his right hand and folds the shirt to the right using one hand.",
+        "The person wipes up the T-shirt with his left hand and folds the shirt to the left using both hands.",
+        "The person uses his left hand to gently brush the T-shirt and folds the shirt to the right using both hands.",
+        "The person wipes the T-shirt from right to left using his right hand and folds the shirt toward the center using both hands.",
+        "The person wipes across the T-shirt with his left hand and gently stretches the shirt outward with both hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person wipe t - shirt? Choose **only one** option from the following list.\nOptions:\n(A) The person wipes up the T-shirt with his right hand and folds the shirt to the right using one hand.\n(B) The person wipes up the T-shirt with his left hand and folds the shirt to the left using both hands.\n(C) The person uses his left hand to gently brush the T-shirt and folds the shirt to the right using both hands.\n(D) The person wipes the T-shirt from right to left using his right hand and folds the shirt toward the center using both hands.\n(E) The person wipes across the T-shirt with his left hand and gently stretches the shirt outward with both hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person wipes the T-shirt from right to left using his right hand and folds the shirt toward the center using both hands."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person remove a polythene bag?",
+    "options": [
+        "The person yanks the polythene bag forcefully to pull it out.",
+        "The person gently eases the polythene bag out, keeping both hands to move it smoothly.",
+        "The person twists the polythene bag to loosen it before attempting to remove it.",
+        "The person carefully lifts the polythene bag upwards, ensuring it doesn't tear while removing it.",
+        "The person maintains a firm grip and gently shakes the polythene bag to dislodge it before pulling it out."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person remove a polythene bag? Choose **only one** option from the following list.\nOptions:\n(A) The person yanks the polythene bag forcefully to pull it out.\n(B) The person gently eases the polythene bag out, keeping both hands to move it smoothly.\n(C) The person twists the polythene bag to loosen it before attempting to remove it.\n(D) The person carefully lifts the polythene bag upwards, ensuring it doesn't tear while removing it.\n(E) The person maintains a firm grip and gently shakes the polythene bag to dislodge it before pulling it out.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person carefully lifts the polythene bag upwards, ensuring it doesn't tear while removing it."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the toothbrush change?",
+    "options": [
+        "The toothbrush was soaked, leading to a change in state as it became saturated.",
+        "The toothbrush was broken, resulting in a change in state as it became unusable.",
+        "The toothbrush was painted, causing a change in state as it became visually altered.",
+        "The toothbrush was covered, causing a change in state as it became enclosed.",
+        "The toothbrush was cleaned, leading to a change in state as it became free of debris."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the toothbrush change? Choose **only one** option from the following list.\nOptions:\n(A) The toothbrush was soaked, leading to a change in state as it became saturated.\n(B) The toothbrush was broken, resulting in a change in state as it became unusable.\n(C) The toothbrush was painted, causing a change in state as it became visually altered.\n(D) The toothbrush was covered, causing a change in state as it became enclosed.\n(E) The toothbrush was cleaned, leading to a change in state as it became free of debris.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The toothbrush was soaked, leading to a change in state as it became saturated."
+    },
+    "correct_idx": [
+        3
+    ]
+}

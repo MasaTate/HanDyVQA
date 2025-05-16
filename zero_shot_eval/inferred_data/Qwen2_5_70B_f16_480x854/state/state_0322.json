@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the pasta change?",
+    "options": [
+        "The tape of the pasta was completely removed.",
+        "The tape of the pasta was left untouched.",
+        "The tape of the pasta was adjusted and then removed.",
+        "The tape of the pasta was adjusted but not removed.",
+        "The tape of the pasta was repositioned and then tightened."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the pasta change? Choose **only one** option from the following list.\nOptions:\n(A) The tape of the pasta was completely removed.\n(B) The tape of the pasta was left untouched.\n(C) The tape of the pasta was adjusted and then removed.\n(D) The tape of the pasta was adjusted but not removed.\n(E) The tape of the pasta was repositioned and then tightened.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The tape of the pasta was adjusted but not removed."
+    },
+    "correct_idx": [
+        3
+    ]
+}

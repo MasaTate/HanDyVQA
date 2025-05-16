@@ -1,0 +1,17 @@
+{
+    "question": "How does the person clean the images on the paper with the eraser in her right hand?",
+    "options": [
+        "The person firmly erases the images on the paper while holding the eraser in her palm.",
+        "The person moves the eraser over the paper, avoiding direct contact with the images.",
+        "The person turns the eraser and moves it sideways across the paper, affecting the images rather than erasing them.",
+        "The person gently taps the eraser on the paper without rubbing to clean the images.",
+        "The person softly erases the images on the paper by wiping the eraser up and down with her right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person clean the images on the paper with the eraser in her right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person firmly erases the images on the paper while holding the eraser in her palm.\n(B) The person moves the eraser over the paper, avoiding direct contact with the images.\n(C) The person turns the eraser and moves it sideways across the paper, affecting the images rather than erasing them.\n(D) The person gently taps the eraser on the paper without rubbing to clean the images.\n(E) The person softly erases the images on the paper by wiping the eraser up and down with her right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person softly erases the images on the paper by wiping the eraser up and down with her right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

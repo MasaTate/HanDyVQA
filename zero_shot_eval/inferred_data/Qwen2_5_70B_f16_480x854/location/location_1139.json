@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the steering?",
+    "options": [
+        "The person pushed the steering to the back.",
+        "The person turned the steering to the left side.",
+        "The person moved the steering towards the right.",
+        "The person adjusted the steering at the rear.",
+        "The person pushed the steering in the front."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the steering? Choose **only one** option from the following list.\nOptions:\n(A) The person pushed the steering to the back.\n(B) The person turned the steering to the left side.\n(C) The person moved the steering towards the right.\n(D) The person adjusted the steering at the rear.\n(E) The person pushed the steering in the front.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person moved the steering towards the right."
+    },
+    "correct_idx": [
+        4
+    ]
+}

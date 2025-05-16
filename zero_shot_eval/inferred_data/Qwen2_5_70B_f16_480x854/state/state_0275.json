@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the clay inside the nylon change?",
+    "options": [
+        "The clay inside the nylon was flattened, with one part being squeezed out of the nylon and placed on the table, while the other stayed inside.",
+        "The clay inside the nylon was separated into two, with both pieces remaining inside but positioned at opposite ends.",
+        "The clay inside the nylon formed a lump, which was broken into two pieces, with one piece being placed on the table outside the nylon and the other remaining inside.",
+        "The clay remained whole inside the nylon, with a small fragment that broke off being placed on top of the nylon on the table.",
+        "The clay formed a ball inside the nylon, which was then broken into two parts, both remaining inside the nylon without removing any part."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the clay inside the nylon change? Choose **only one** option from the following list.\nOptions:\n(A) The clay inside the nylon was flattened, with one part being squeezed out of the nylon and placed on the table, while the other stayed inside.\n(B) The clay inside the nylon was separated into two, with both pieces remaining inside but positioned at opposite ends.\n(C) The clay inside the nylon formed a lump, which was broken into two pieces, with one piece being placed on the table outside the nylon and the other remaining inside.\n(D) The clay remained whole inside the nylon, with a small fragment that broke off being placed on top of the nylon on the table.\n(E) The clay formed a ball inside the nylon, which was then broken into two parts, both remaining inside the nylon without removing any part.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The clay inside the nylon formed a lump, which was broken into two pieces, with one piece being placed on the table outside the nylon and the other remaining inside."
+    },
+    "correct_idx": [
+        2
+    ]
+}

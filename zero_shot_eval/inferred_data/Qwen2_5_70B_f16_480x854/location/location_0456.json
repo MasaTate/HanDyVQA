@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the cement?",
+    "options": [
+        "The person placed cement along the edge of a construct.",
+        "The person placed cement in the middle of the site area.",
+        "The person placed cement at the center of the foundation.",
+        "The person placed cement across the back of the construct.",
+        "The person placed cement near the entrance of the construction zone."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the cement? Choose **only one** option from the following list.\nOptions:\n(A) The person placed cement along the edge of a construct.\n(B) The person placed cement in the middle of the site area.\n(C) The person placed cement at the center of the foundation.\n(D) The person placed cement across the back of the construct.\n(E) The person placed cement near the entrance of the construction zone.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person placed cement along the edge of a construct."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person push dirt?",
+    "options": [
+        "The person gently moves the dirt away from the plate using the palm of their left hand and their fingers.",
+        "The person picks up a small amount of dirt and lets it fall onto the ground near the plate.",
+        "The person carefully moves the dirt with the back of their hand, guiding it over the edge of the plate.",
+        "The person softly pushes the dirt on the edge of the plate using their right thumb and then pushes it out of the plate completely using their right fingertips.",
+        "The person lightly taps the dirt using the tips of their fingers, gradually moving it off the plate."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person push dirt? Choose **only one** option from the following list.\nOptions:\n(A) The person gently moves the dirt away from the plate using the palm of their left hand and their fingers.\n(B) The person picks up a small amount of dirt and lets it fall onto the ground near the plate.\n(C) The person carefully moves the dirt with the back of their hand, guiding it over the edge of the plate.\n(D) The person softly pushes the dirt on the edge of the plate using their right thumb and then pushes it out of the plate completely using their right fingertips.\n(E) The person lightly taps the dirt using the tips of their fingers, gradually moving it off the plate.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person softly pushes the dirt on the edge of the plate using their right thumb and then pushes it out of the plate completely using their right fingertips."
+    },
+    "correct_idx": [
+        3
+    ]
+}

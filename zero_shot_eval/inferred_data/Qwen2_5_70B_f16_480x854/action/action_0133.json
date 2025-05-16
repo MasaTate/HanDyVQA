@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person assembles a furniture piece using a hammer in their right hand while the left hand holds a wooden plank.",
+        "The person fixes the door frame using a nail gun in their right hand while the left hand supports the wall.",
+        "The person paints the wall with a paintbrush in their right hand while holding the paint bucket with their left hand.",
+        "The person installs a window using a screwdriver in their right hand while the left hand steadies the glass.",
+        "The person hangs a picture frame using a stapler in their right hand while the left hand adjusts the frame's position."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person assembles a furniture piece using a hammer in their right hand while the left hand holds a wooden plank.\n(B) The person fixes the door frame using a nail gun in their right hand while the left hand supports the wall.\n(C) The person paints the wall with a paintbrush in their right hand while holding the paint bucket with their left hand.\n(D) The person installs a window using a screwdriver in their right hand while the left hand steadies the glass.\n(E) The person hangs a picture frame using a stapler in their right hand while the left hand adjusts the frame's position.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person fixes the door frame using a nail gun in their right hand while the left hand supports the wall."
+    },
+    "correct_idx": [
+        1
+    ]
+}

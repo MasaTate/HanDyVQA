@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person return the phone?",
+    "options": [
+        "The person returns the phone to the front pocket on the right side using the right hand.",
+        "The person returns the phone to the back pocket on the right side using the right hand.",
+        "The person returns the phone to the front pocket on the left side using the left hand.",
+        "The person returns the phone to the side pocket on the left side using the right hand.",
+        "The person return the phone to the back pocket on the left side using the left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person return the phone? Choose **only one** option from the following list.\nOptions:\n(A) The person returns the phone to the front pocket on the right side using the right hand.\n(B) The person returns the phone to the back pocket on the right side using the right hand.\n(C) The person returns the phone to the front pocket on the left side using the left hand.\n(D) The person returns the phone to the side pocket on the left side using the right hand.\n(E) The person return the phone to the back pocket on the left side using the left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person returns the phone to the front pocket on the left side using the left hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

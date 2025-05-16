@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the nut change?",
+    "options": [
+        "The nut changes state when it is split into two pieces.",
+        "The nut changes state when it is heated and expands.",
+        "The nut changes state when it is polished to a shiny finish.",
+        "The nut changes state when it is coated with paint.",
+        "The nut changes state when it is removed from the bolt."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the nut change? Choose **only one** option from the following list.\nOptions:\n(A) The nut changes state when it is split into two pieces.\n(B) The nut changes state when it is heated and expands.\n(C) The nut changes state when it is polished to a shiny finish.\n(D) The nut changes state when it is coated with paint.\n(E) The nut changes state when it is removed from the bolt.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The nut changes state when it is removed from the bolt."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the nylon change?",
+    "options": [
+        "The nylon was stretched and tangled, then set aside in a corner to keep it out of sight.",
+        "The nylon was folded and stuffed, then left on the floor to clutter the space.",
+        "The nylon was twisted and rolled, then placed onto a nearby table to avoid further use.",
+        "The nylon was crumpled and discarded, then carefully placed in the trash to remove it from the area.",
+        "The nylon was piled and squished, then placed into a bag to hide it away."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the nylon change? Choose **only one** option from the following list.\nOptions:\n(A) The nylon was stretched and tangled, then set aside in a corner to keep it out of sight.\n(B) The nylon was folded and stuffed, then left on the floor to clutter the space.\n(C) The nylon was twisted and rolled, then placed onto a nearby table to avoid further use.\n(D) The nylon was crumpled and discarded, then carefully placed in the trash to remove it from the area.\n(E) The nylon was piled and squished, then placed into a bag to hide it away.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The nylon was crumpled and discarded, then carefully placed in the trash to remove it from the area."
+    },
+    "correct_idx": [
+        3
+    ]
+}

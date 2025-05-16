@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the skin change?",
+    "options": [
+        "The skin was burned, causing blisters to form on the surface.",
+        "The skin was scraped, resulting in an abrasion that revealed the layers beneath.",
+        "The skin was tattooed, altering its appearance with permanent ink designs.",
+        "The skin was peeled, and its surface became exposed.",
+        "The skin was stretched, leading to an expansion that made it appear smoother."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the skin change? Choose **only one** option from the following list.\nOptions:\n(A) The skin was burned, causing blisters to form on the surface.\n(B) The skin was scraped, resulting in an abrasion that revealed the layers beneath.\n(C) The skin was tattooed, altering its appearance with permanent ink designs.\n(D) The skin was peeled, and its surface became exposed.\n(E) The skin was stretched, leading to an expansion that made it appear smoother.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The skin was peeled, and its surface became exposed."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is finely grinding the cement flooring with a drill in his right hand while steadying the wall with his left hand.",
+        "The person carefully chips away at the cement wall using a chisel in his right hand while stabilizing the wall with his left hand.",
+        "The person is smoothing the cement wall with a sander in his right hand while holding a brush in his left hand.",
+        "The person accurately slices the cement wall with an angle grinder and then hits the wall with his left hand.",
+        "The person is breaking the cement wall with a hammer in his right hand while holding a small pan with his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is finely grinding the cement flooring with a drill in his right hand while steadying the wall with his left hand.\n(B) The person carefully chips away at the cement wall using a chisel in his right hand while stabilizing the wall with his left hand.\n(C) The person is smoothing the cement wall with a sander in his right hand while holding a brush in his left hand.\n(D) The person accurately slices the cement wall with an angle grinder and then hits the wall with his left hand.\n(E) The person is breaking the cement wall with a hammer in his right hand while holding a small pan with his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person is finely grinding the cement flooring with a drill in his right hand while steadying the wall with his left hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

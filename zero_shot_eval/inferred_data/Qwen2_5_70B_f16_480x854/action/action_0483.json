@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person places additional coal into the fire using her/his left hand.",
+        "The person stirs the pot on the stove with her/his right hand while managing the fire with her/his left hand.",
+        "The person repositions another piece of wood into the fire using her/his right hand.",
+        "The person pulls a log from the fire using her/his left hand while arranging the flames with her/his right hand.",
+        "The person ignites a match to start a fire using her/his right hand while holding a piece of paper with her/his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person places additional coal into the fire using her/his left hand.\n(B) The person stirs the pot on the stove with her/his right hand while managing the fire with her/his left hand.\n(C) The person repositions another piece of wood into the fire using her/his right hand.\n(D) The person pulls a log from the fire using her/his left hand while arranging the flames with her/his right hand.\n(E) The person ignites a match to start a fire using her/his right hand while holding a piece of paper with her/his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person repositions another piece of wood into the fire using her/his right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

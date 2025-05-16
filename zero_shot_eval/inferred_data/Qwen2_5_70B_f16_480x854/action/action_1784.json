@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person adjusts the cushion on the sofa using the right hand while holding a pillow with the left hand.",
+        "The person fluffs the cushion with both hands while sitting on the armchair.",
+        "The person vacuums the cushion on the sofa with both hands.",
+        "The person places the cushion on the bed using the left hand while supporting it with the right hand.",
+        "The person tosses the cushion across the room with the right hand while reaching for a blanket with the left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person adjusts the cushion on the sofa using the right hand while holding a pillow with the left hand.\n(B) The person fluffs the cushion with both hands while sitting on the armchair.\n(C) The person vacuums the cushion on the sofa with both hands.\n(D) The person places the cushion on the bed using the left hand while supporting it with the right hand.\n(E) The person tosses the cushion across the room with the right hand while reaching for a blanket with the left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person vacuums the cushion on the sofa with both hands."
+    },
+    "correct_idx": [
+        2
+    ]
+}

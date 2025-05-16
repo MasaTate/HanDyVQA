@@ -1,0 +1,17 @@
+{
+    "question": "How does the person raise his right hand?",
+    "options": [
+        "The person lifts his right hand to chest level, straightening his elbow and then closing his palm into a firm grip.",
+        "The person swings his right hand to the side, gently bending his elbow and leaving his palm open.",
+        "The person extends his right hand to the side, with his elbow slightly bent and his fingers relaxed.",
+        "The person brings his right hand straight up smoothly, keeping a flat hand and not bending his elbow.",
+        "The person raises his right hand by moving it back towards his shoulder, with his palm facing down and fingers gently curled."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person raise his right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person lifts his right hand to chest level, straightening his elbow and then closing his palm into a firm grip.\n(B) The person swings his right hand to the side, gently bending his elbow and leaving his palm open.\n(C) The person extends his right hand to the side, with his elbow slightly bent and his fingers relaxed.\n(D) The person brings his right hand straight up smoothly, keeping a flat hand and not bending his elbow.\n(E) The person raises his right hand by moving it back towards his shoulder, with his palm facing down and fingers gently curled.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person extends his right hand to the side, with his elbow slightly bent and his fingers relaxed."
+    },
+    "correct_idx": [
+        0
+    ]
+}

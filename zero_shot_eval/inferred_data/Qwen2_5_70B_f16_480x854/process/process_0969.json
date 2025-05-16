@@ -1,0 +1,17 @@
+{
+    "question": "How does the person push the ruler?",
+    "options": [
+        "The person moves the ruler to the right using a straight right hand motion with the palm.",
+        "The person guides the ruler along the table using a gentle motion with the index finger of the left hand.",
+        "The person tilts the ruler slightly downwards and gently nudges it forward with the knuckles.",
+        "The person holds the ruler in the middle and lifts it upwards rather than pushing.",
+        "The person pushes the ruler to the left with a straight left hand motion."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person push the ruler? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the ruler to the right using a straight right hand motion with the palm.\n(B) The person guides the ruler along the table using a gentle motion with the index finger of the left hand.\n(C) The person tilts the ruler slightly downwards and gently nudges it forward with the knuckles.\n(D) The person holds the ruler in the middle and lifts it upwards rather than pushing.\n(E) The person pushes the ruler to the left with a straight left hand motion.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person pushes the ruler to the left with a straight left hand motion."
+    },
+    "correct_idx": [
+        4
+    ]
+}

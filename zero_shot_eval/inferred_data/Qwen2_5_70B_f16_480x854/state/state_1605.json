@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the spanner change?",
+    "options": [
+        "The spanner was rotated around the bolts as they were tightened.",
+        "The spanner moved off the nut as it was pulled sideways with force.",
+        "The spanner made contact with the ground, causing it to bounce slightly.",
+        "The spanner came into contact with the yellow metal as it was placed on it.",
+        "The spanner acquired rust after being left in the rain for several hours."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the spanner change? Choose **only one** option from the following list.\nOptions:\n(A) The spanner was rotated around the bolts as they were tightened.\n(B) The spanner moved off the nut as it was pulled sideways with force.\n(C) The spanner made contact with the ground, causing it to bounce slightly.\n(D) The spanner came into contact with the yellow metal as it was placed on it.\n(E) The spanner acquired rust after being left in the rain for several hours.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The spanner came into contact with the yellow metal as it was placed on it."
+    },
+    "correct_idx": [
+        3
+    ]
+}

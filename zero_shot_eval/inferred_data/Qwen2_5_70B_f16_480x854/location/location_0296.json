@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop plants?",
+    "options": [
+        "The person dropped the plants on the tray on the floor.",
+        "The person dropped the plants on the table next to the floor.",
+        "The person dropped the plants in the box on the shelf.",
+        "The person dropped the plants on the rug beside the floor.",
+        "The person dropped the plants on the counter above the floor."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop plants? Choose **only one** option from the following list.\nOptions:\n(A) The person dropped the plants on the tray on the floor.\n(B) The person dropped the plants on the table next to the floor.\n(C) The person dropped the plants in the box on the shelf.\n(D) The person dropped the plants on the rug beside the floor.\n(E) The person dropped the plants on the counter above the floor.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person dropped the plants on the tray on the floor."
+    },
+    "correct_idx": [
+        0
+    ]
+}

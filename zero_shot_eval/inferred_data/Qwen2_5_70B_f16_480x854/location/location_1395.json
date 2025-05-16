@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the hat?",
+    "options": [
+        "The person put the hat on the left end and top of the hanger.",
+        "The person put the hat on the right end and bottom of the hanger.",
+        "The person put the hat on the right end and top of the hanger.",
+        "The person put the hat on the middle section and top of the hanger.",
+        "The person put the hat on a hook beside the hanger."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the hat? Choose **only one** option from the following list.\nOptions:\n(A) The person put the hat on the left end and top of the hanger.\n(B) The person put the hat on the right end and bottom of the hanger.\n(C) The person put the hat on the right end and top of the hanger.\n(D) The person put the hat on the middle section and top of the hanger.\n(E) The person put the hat on a hook beside the hanger.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person put the hat on the right end and top of the hanger."
+    },
+    "correct_idx": [
+        2
+    ]
+}

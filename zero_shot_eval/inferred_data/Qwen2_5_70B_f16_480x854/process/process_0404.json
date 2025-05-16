@@ -1,0 +1,17 @@
+{
+    "question": "How does the person grab a compass with her right hand?",
+    "options": [
+        "The person reaches for the compass with her right hand, holding the edge with her thumb and index finger, and gently pulls it out of the case.",
+        "The person slides her right hand beneath the compass, lifting it by the bottom edge with her palm and smoothly removes it from the case.",
+        "The person moves her right hand down to the compass, guiding it out of the case and holding it with her fist, securing it carefully.",
+        "The person extends her right hand, grasps the middle of the compass with her thumb and index finger, supports it with her middle finger, and lifts it from the case securely.",
+        "The person uses her right hand to approach the compass from the side, adjusting her grip before finally holding it with her fingertips."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person grab a compass with her right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person reaches for the compass with her right hand, holding the edge with her thumb and index finger, and gently pulls it out of the case.\n(B) The person slides her right hand beneath the compass, lifting it by the bottom edge with her palm and smoothly removes it from the case.\n(C) The person moves her right hand down to the compass, guiding it out of the case and holding it with her fist, securing it carefully.\n(D) The person extends her right hand, grasps the middle of the compass with her thumb and index finger, supports it with her middle finger, and lifts it from the case securely.\n(E) The person uses her right hand to approach the compass from the side, adjusting her grip before finally holding it with her fingertips.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person extends her right hand, grasps the middle of the compass with her thumb and index finger, supports it with her middle finger, and lifts it from the case securely."
+    },
+    "correct_idx": [
+        3
+    ]
+}

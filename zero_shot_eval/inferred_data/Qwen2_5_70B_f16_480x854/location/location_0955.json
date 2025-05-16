@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move a broom and a packer?",
+    "options": [
+        "The person moves a broom and a packer on the right corner.",
+        "The person moves a broom and a packer at the center of the room.",
+        "The person moves a broom and a packer near the back wall.",
+        "The person moves a broom and a packer on the left corner.",
+        "The person moves a broom and a packer next to the window."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move a broom and a packer? Choose **only one** option from the following list.\nOptions:\n(A) The person moves a broom and a packer on the right corner.\n(B) The person moves a broom and a packer at the center of the room.\n(C) The person moves a broom and a packer near the back wall.\n(D) The person moves a broom and a packer on the left corner.\n(E) The person moves a broom and a packer next to the window.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person moves a broom and a packer on the left corner."
+    },
+    "correct_idx": [
+        3
+    ]
+}

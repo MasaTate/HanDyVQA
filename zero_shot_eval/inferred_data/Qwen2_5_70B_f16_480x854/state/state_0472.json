@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of pen change?",
+    "options": [
+        "The pen was moved and had contact with the material and stayed near the metal.",
+        "The pen was moved and did not contact the material and moved away from the metal.",
+        "The pen was moved and had contact with the material and moved away from the metal.",
+        "The pen was moved and briefly contacted the material before moving away from the metal.",
+        "The pen was moved and had contact with the material but remained on the metal."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of pen change? Choose **only one** option from the following list.\nOptions:\n(A) The pen was moved and had contact with the material and stayed near the metal.\n(B) The pen was moved and did not contact the material and moved away from the metal.\n(C) The pen was moved and had contact with the material and moved away from the metal.\n(D) The pen was moved and briefly contacted the material before moving away from the metal.\n(E) The pen was moved and had contact with the material but remained on the metal.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The pen was moved and had contact with the material and moved away from the metal."
+    },
+    "correct_idx": [
+        2
+    ]
+}

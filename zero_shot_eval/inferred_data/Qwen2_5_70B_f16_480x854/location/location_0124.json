@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the stacked bowls?",
+    "options": [
+        "The person put the stacked bowls into another stacked bowls and put them all inside the kitchen cabinet.",
+        "The person put the stacked bowls next to another set of bowls and placed them all on the kitchen counter.",
+        "The person put the stacked bowls atop a nearby shelf and arranged them all on the dining table.",
+        "The person put the stacked bowls behind the sink and stored them all in the pantry.",
+        "The person put the stacked bowls inside a box and set them all in the refrigerator."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the stacked bowls? Choose **only one** option from the following list.\nOptions:\n(A) The person put the stacked bowls into another stacked bowls and put them all inside the kitchen cabinet.\n(B) The person put the stacked bowls next to another set of bowls and placed them all on the kitchen counter.\n(C) The person put the stacked bowls atop a nearby shelf and arranged them all on the dining table.\n(D) The person put the stacked bowls behind the sink and stored them all in the pantry.\n(E) The person put the stacked bowls inside a box and set them all in the refrigerator.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person put the stacked bowls into another stacked bowls and put them all inside the kitchen cabinet."
+    },
+    "correct_idx": [
+        0
+    ]
+}

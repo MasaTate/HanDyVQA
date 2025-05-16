@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the paint bucket?",
+    "options": [
+        "The person moved the paint bucket near his right leg.",
+        "The person moved the paint bucket behind his left leg.",
+        "The person moved the paint bucket near his left leg.",
+        "The person moved the paint bucket beside his right foot.",
+        "The person moved the paint bucket in front of his left leg."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the paint bucket? Choose **only one** option from the following list.\nOptions:\n(A) The person moved the paint bucket near his right leg.\n(B) The person moved the paint bucket behind his left leg.\n(C) The person moved the paint bucket near his left leg.\n(D) The person moved the paint bucket beside his right foot.\n(E) The person moved the paint bucket in front of his left leg.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person moved the paint bucket near his left leg."
+    },
+    "correct_idx": [
+        2
+    ]
+}

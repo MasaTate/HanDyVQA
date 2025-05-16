@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is lifting the plywood with their left hand.",
+        "The person is holding the plywood with their left hand against the wall.",
+        "The person is placing the plywood on the ground using their left hand.",
+        "The person is balancing the plywood while using their left hand.",
+        "The person is carrying the plywood with their left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is lifting the plywood with their left hand.\n(B) The person is holding the plywood with their left hand against the wall.\n(C) The person is placing the plywood on the ground using their left hand.\n(D) The person is balancing the plywood while using their left hand.\n(E) The person is carrying the plywood with their left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person is holding the plywood with their left hand against the wall."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person release the hose pipe?",
+    "options": [
+        "The person let go of the hose pipe with their right hand, gently keeping it steady with the left hand.",
+        "The person moved the hose pipe over their shoulder using both hands carefully.",
+        "The person nudged the hose pipe with their foot, allowing it to move aside.",
+        "The person used their hand to push the hose pipe aside smoothly.",
+        "The person used the left hand to release the hose pipe and transfer it to the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person release the hose pipe? Choose **only one** option from the following list.\nOptions:\n(A) The person let go of the hose pipe with their right hand, gently keeping it steady with the left hand.\n(B) The person moved the hose pipe over their shoulder using both hands carefully.\n(C) The person nudged the hose pipe with their foot, allowing it to move aside.\n(D) The person used their hand to push the hose pipe aside smoothly.\n(E) The person used the left hand to release the hose pipe and transfer it to the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person used the left hand to release the hose pipe and transfer it to the right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

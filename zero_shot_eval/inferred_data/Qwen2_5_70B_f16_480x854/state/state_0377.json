@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a yarn change?",
+    "options": [
+        "The yarn was twisted together with another strand to form a thicker thread.",
+        "The yarn was wrapped around a ball to maintain its organization and prevent tangling.",
+        "The yarn was loosened and allowed to unravel completely onto the floor.",
+        "The yarn was dyed with vibrant colors to give it a new appearance.",
+        "The yarn was pulled through the crochet hook to create a pattern."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a yarn change? Choose **only one** option from the following list.\nOptions:\n(A) The yarn was twisted together with another strand to form a thicker thread.\n(B) The yarn was wrapped around a ball to maintain its organization and prevent tangling.\n(C) The yarn was loosened and allowed to unravel completely onto the floor.\n(D) The yarn was dyed with vibrant colors to give it a new appearance.\n(E) The yarn was pulled through the crochet hook to create a pattern.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The yarn was pulled through the crochet hook to create a pattern."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person grab a utensils cabinet tray?",
+    "options": [
+        "The person pulls the cabinet tray with both hands from the side.",
+        "The person slides their hand underneath the cabinet tray and lifts it gently.",
+        "The person moves the cabinet tray forward using the palm of their left hand.",
+        "The person lifts the cabinet tray with the fingertips of their right hand while slightly leaning forward.",
+        "The person grabs the cabinet tray by pulling it slowly using his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person grab a utensils cabinet tray? Choose **only one** option from the following list.\nOptions:\n(A) The person pulls the cabinet tray with both hands from the side.\n(B) The person slides their hand underneath the cabinet tray and lifts it gently.\n(C) The person moves the cabinet tray forward using the palm of their left hand.\n(D) The person lifts the cabinet tray with the fingertips of their right hand while slightly leaning forward.\n(E) The person grabs the cabinet tray by pulling it slowly using his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person grabs the cabinet tray by pulling it slowly using his right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

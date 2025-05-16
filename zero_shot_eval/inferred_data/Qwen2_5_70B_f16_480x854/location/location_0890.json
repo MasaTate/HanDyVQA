@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the cardboard tube?",
+    "options": [
+        "The person moved the cardboard tube to the center of the table.",
+        "The person moved the cardboard tube to the edge of the counter.",
+        "The person moved the cardboard tube to the back of the shelf.",
+        "The person moved the cardboard tube to the side.",
+        "The person moved the cardboard tube to the front of the drawer."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the cardboard tube? Choose **only one** option from the following list.\nOptions:\n(A) The person moved the cardboard tube to the center of the table.\n(B) The person moved the cardboard tube to the edge of the counter.\n(C) The person moved the cardboard tube to the back of the shelf.\n(D) The person moved the cardboard tube to the side.\n(E) The person moved the cardboard tube to the front of the drawer.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person moved the cardboard tube to the side."
+    },
+    "correct_idx": [
+        3
+    ]
+}

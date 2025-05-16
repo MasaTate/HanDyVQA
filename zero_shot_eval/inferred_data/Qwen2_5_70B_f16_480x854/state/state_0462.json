@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of some cards change?",
+    "options": [
+        "The cards were flipped over and gathered into the person's hands.",
+        "The cards were shuffled together and placed neatly on the table.",
+        "The cards were spread out in a fan shape on the surface.",
+        "The cards were torn in half and arranged on the ground.",
+        "The cards were placed face down and stacked into a pile."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of some cards change? Choose **only one** option from the following list.\nOptions:\n(A) The cards were flipped over and gathered into the person's hands.\n(B) The cards were shuffled together and placed neatly on the table.\n(C) The cards were spread out in a fan shape on the surface.\n(D) The cards were torn in half and arranged on the ground.\n(E) The cards were placed face down and stacked into a pile.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The cards were flipped over and gathered into the person's hands."
+    },
+    "correct_idx": [
+        0
+    ]
+}

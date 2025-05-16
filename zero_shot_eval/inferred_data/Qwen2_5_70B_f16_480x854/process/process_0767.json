@@ -1,0 +1,17 @@
+{
+    "question": "How does the person raise her right hand?",
+    "options": [
+        "The person steadily lifts her right hand straight out to the side while reaching for the pot with some control.",
+        "The person moves her right hand back and forth before slowly pointing it towards the pot without grasping it.",
+        "The person gently stretches her right hand upwards above her head to get the pot and firmly holds it.",
+        "The person smoothly extends her right hand forward at shoulder height to grab the pot with a loose grip.",
+        "The person raises her right hand in a circular motion, gesturing lightly and reaching indirectly for the pot."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person raise her right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person steadily lifts her right hand straight out to the side while reaching for the pot with some control.\n(B) The person moves her right hand back and forth before slowly pointing it towards the pot without grasping it.\n(C) The person gently stretches her right hand upwards above her head to get the pot and firmly holds it.\n(D) The person smoothly extends her right hand forward at shoulder height to grab the pot with a loose grip.\n(E) The person raises her right hand in a circular motion, gesturing lightly and reaching indirectly for the pot.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person smoothly extends her right hand forward at shoulder height to grab the pot with a loose grip."
+    },
+    "correct_idx": [
+        2
+    ]
+}

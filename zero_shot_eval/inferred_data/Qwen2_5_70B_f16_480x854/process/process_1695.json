@@ -1,0 +1,17 @@
+{
+    "question": "How does the person tap the spatula in his right hand?",
+    "options": [
+        "The person taps the spatula on the countertop using his right hand.",
+        "The person glides the spatula along the side of the frying pan using his right hand.",
+        "The person pushes the spatula slightly into the ingredients in the frying pan with his right hand.",
+        "The person hits the spatula sideways on the side of the frying pan using his right hand, flips it over, and lets it go.",
+        "The person places the spatula down on the table using his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person tap the spatula in his right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person taps the spatula on the countertop using his right hand.\n(B) The person glides the spatula along the side of the frying pan using his right hand.\n(C) The person pushes the spatula slightly into the ingredients in the frying pan with his right hand.\n(D) The person hits the spatula sideways on the side of the frying pan using his right hand, flips it over, and lets it go.\n(E) The person places the spatula down on the table using his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person hits the spatula sideways on the side of the frying pan using his right hand, flips it over, and lets it go."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person join the chopsticks?",
+    "options": [
+        "The person holds one chopstick in each hand and tries to balance them at an angle but does not apply pressure to join them.",
+        "The person places one chopstick directly on top of the other, using their fingers to press down but not gripping them firmly together.",
+        "The person then uses their right hand to grip the center of both chopsticks, applying pressure to push and join them together.",
+        "The person intertwines the ends of the chopsticks, attempting to push them together with a twisting motion of their wrists.",
+        "The person picks up the chopsticks with their left hand and uses their right hand to tap them together, not gripping them with pressure."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person join the chopsticks? Choose **only one** option from the following list.\nOptions:\n(A) The person holds one chopstick in each hand and tries to balance them at an angle but does not apply pressure to join them.\n(B) The person places one chopstick directly on top of the other, using their fingers to press down but not gripping them firmly together.\n(C) The person then uses their right hand to grip the center of both chopsticks, applying pressure to push and join them together.\n(D) The person intertwines the ends of the chopsticks, attempting to push them together with a twisting motion of their wrists.\n(E) The person picks up the chopsticks with their left hand and uses their right hand to tap them together, not gripping them with pressure.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person then uses their right hand to grip the center of both chopsticks, applying pressure to push and join them together."
+    },
+    "correct_idx": [
+        2
+    ]
+}

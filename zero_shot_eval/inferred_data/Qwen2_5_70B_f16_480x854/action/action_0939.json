@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person grabs the pipe of the vacuum and uses it to suck some dirt.",
+        "The person holds the hose of the vacuum and uses it to blow dirt away.",
+        "The person is pushing the vacuum cleaner forward to clean the floor while holding the handle with both hands.",
+        "The person is assembling the vacuum cleaner by connecting the pipe while holding tools with his right hand.",
+        "The person is pulling the vacuum cord out of the socket and wrapping it around the body of the vacuum with his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person grabs the pipe of the vacuum and uses it to suck some dirt.\n(B) The person holds the hose of the vacuum and uses it to blow dirt away.\n(C) The person is pushing the vacuum cleaner forward to clean the floor while holding the handle with both hands.\n(D) The person is assembling the vacuum cleaner by connecting the pipe while holding tools with his right hand.\n(E) The person is pulling the vacuum cord out of the socket and wrapping it around the body of the vacuum with his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person holds the hose of the vacuum and uses it to blow dirt away."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person leave hand?",
+    "options": [
+        "The person placed their hand on the top of the wooden fence.",
+        "The person placed their hand on the side of the wooden fence.",
+        "The person placed their hand near the bottom of the wooden fence.",
+        "The person placed their hand on the side of the metal fence.",
+        "The person placed their hand on the side of a nearby tree."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person leave hand? Choose **only one** option from the following list.\nOptions:\n(A) The person placed their hand on the top of the wooden fence.\n(B) The person placed their hand on the side of the wooden fence.\n(C) The person placed their hand near the bottom of the wooden fence.\n(D) The person placed their hand on the side of the metal fence.\n(E) The person placed their hand on the side of a nearby tree.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person placed their hand on the side of the wooden fence."
+    },
+    "correct_idx": [
+        1
+    ]
+}

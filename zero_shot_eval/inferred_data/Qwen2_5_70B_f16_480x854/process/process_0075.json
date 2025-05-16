@@ -1,0 +1,17 @@
+{
+    "question": "How does the person dab the blunt?",
+    "options": [
+        "The person grips the blunt with both hands and softly presses the tip against the table surface.",
+        "The person picks up the blunt with one hand and gently glides it across the surface for a smooth motion.",
+        "The person holds the blunt in one hand and moves it back and forth in the air, avoiding contact with any surface.",
+        "The person holds the blunt between their fingers and lightly taps or presses the tip using their right-hand fingers.",
+        "The person places the blunt on the table and uses the palm of their hand to press it down with control."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person dab the blunt? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the blunt with both hands and softly presses the tip against the table surface.\n(B) The person picks up the blunt with one hand and gently glides it across the surface for a smooth motion.\n(C) The person holds the blunt in one hand and moves it back and forth in the air, avoiding contact with any surface.\n(D) The person holds the blunt between their fingers and lightly taps or presses the tip using their right-hand fingers.\n(E) The person places the blunt on the table and uses the palm of their hand to press it down with control.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person holds the blunt between their fingers and lightly taps or presses the tip using their right-hand fingers."
+    },
+    "correct_idx": [
+        3
+    ]
+}

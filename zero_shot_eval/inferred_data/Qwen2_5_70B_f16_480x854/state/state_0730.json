@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of wooden planks change?",
+    "options": [
+        "The wooden plank was lifted up from the stack but not moved to anywhere.",
+        "The wooden plank was lifted slightly upward but left resting atop the stack.",
+        "The wooden plank was raised above the stack and then placed back down.",
+        "The wooden plank was tilted upwards but retained its original position.",
+        "The wooden plank was lifted off the stack momentarily and then returned to its place."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of wooden planks change? Choose **only one** option from the following list.\nOptions:\n(A) The wooden plank was lifted up from the stack but not moved to anywhere.\n(B) The wooden plank was lifted slightly upward but left resting atop the stack.\n(C) The wooden plank was raised above the stack and then placed back down.\n(D) The wooden plank was tilted upwards but retained its original position.\n(E) The wooden plank was lifted off the stack momentarily and then returned to its place.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The wooden plank was lifted off the stack momentarily and then returned to its place."
+    },
+    "correct_idx": [
+        0
+    ]
+}

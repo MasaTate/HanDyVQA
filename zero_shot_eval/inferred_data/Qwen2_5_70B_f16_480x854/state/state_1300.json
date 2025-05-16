@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the nut change?",
+    "options": [
+        "The nut was dropped onto the ground and rolled away from the motorcycle until it was stationary.",
+        "The nut was held in the mechanic's hand and inspected closely for any signs of wear or damage.",
+        "The nut was removed from the motorcycle and stored inside a toolbox for future use.",
+        "The nut was placed back onto the rear wheel part of the motorcycle and twisted counterclockwise until it was securely fastened.",
+        "The nut was heated using a torch until it turned red and then cooled rapidly."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the nut change? Choose **only one** option from the following list.\nOptions:\n(A) The nut was dropped onto the ground and rolled away from the motorcycle until it was stationary.\n(B) The nut was held in the mechanic's hand and inspected closely for any signs of wear or damage.\n(C) The nut was removed from the motorcycle and stored inside a toolbox for future use.\n(D) The nut was placed back onto the rear wheel part of the motorcycle and twisted counterclockwise until it was securely fastened.\n(E) The nut was heated using a torch until it turned red and then cooled rapidly.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The nut was placed back onto the rear wheel part of the motorcycle and twisted counterclockwise until it was securely fastened."
+    },
+    "correct_idx": [
+        3
+    ]
+}

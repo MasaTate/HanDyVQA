@@ -1,0 +1,17 @@
+{
+    "question": "How does the person keep the fuel container?",
+    "options": [
+        "The person places the fuel container on the top of the wheelbarrow using his right hand.",
+        "The person holds the fuel container gently against his chest with both arms.",
+        "The person balances the fuel container upright on the ground using his left hand.",
+        "The person grips the fuel container slightly and carries it at his side.",
+        "The person sets the fuel container carefully on the ground and leans it against a nearby wall."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person keep the fuel container? Choose **only one** option from the following list.\nOptions:\n(A) The person places the fuel container on the top of the wheelbarrow using his right hand.\n(B) The person holds the fuel container gently against his chest with both arms.\n(C) The person balances the fuel container upright on the ground using his left hand.\n(D) The person grips the fuel container slightly and carries it at his side.\n(E) The person sets the fuel container carefully on the ground and leans it against a nearby wall.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person places the fuel container on the top of the wheelbarrow using his right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

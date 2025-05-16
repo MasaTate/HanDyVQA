@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the tape measure?",
+    "options": [
+        "The person places the tape measure from the table to his left hand.",
+        "The person places the tape measure from the wall to his right shoulder.",
+        "The person places the tape measure from the floor to his left pocket.",
+        "The person places the tape measure from the handrail to his right hand.",
+        "The person places the tape measure from the chair to his right palm."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the tape measure? Choose **only one** option from the following list.\nOptions:\n(A) The person places the tape measure from the table to his left hand.\n(B) The person places the tape measure from the wall to his right shoulder.\n(C) The person places the tape measure from the floor to his left pocket.\n(D) The person places the tape measure from the handrail to his right hand.\n(E) The person places the tape measure from the chair to his right palm.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person places the tape measure from the handrail to his right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

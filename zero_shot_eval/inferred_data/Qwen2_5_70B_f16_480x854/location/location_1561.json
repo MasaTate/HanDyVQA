@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the wipe?",
+    "options": [
+        "The person put the wipe on the bottom part of the brake cable.",
+        "The person put the wipe on the top part of the brake cable.",
+        "The person put the wipe on the side of the brake lever.",
+        "The person put the wipe on the bottom edge of the handlebar.",
+        "The person put the wipe on the front section of the gear shifter."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the wipe? Choose **only one** option from the following list.\nOptions:\n(A) The person put the wipe on the bottom part of the brake cable.\n(B) The person put the wipe on the top part of the brake cable.\n(C) The person put the wipe on the side of the brake lever.\n(D) The person put the wipe on the bottom edge of the handlebar.\n(E) The person put the wipe on the front section of the gear shifter.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person put the wipe on the bottom part of the brake cable."
+    },
+    "correct_idx": [
+        0
+    ]
+}

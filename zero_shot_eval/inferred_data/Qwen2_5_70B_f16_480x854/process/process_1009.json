@@ -1,0 +1,17 @@
+{
+    "question": "How does the person loosen the nuts?",
+    "options": [
+        "The person pulls the wrench using her left hand to adjust the nuts.",
+        "The person forcefully twists the nuts counterclockwise using a wrench with her right hand.",
+        "The person gently taps the nuts with her fingers to loosen them.",
+        "The person rotates the nuts clockwise with a screwdriver in her right hand.",
+        "The person moves the wrench back and forth while holding the nuts with her left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person loosen the nuts? Choose **only one** option from the following list.\nOptions:\n(A) The person pulls the wrench using her left hand to adjust the nuts.\n(B) The person forcefully twists the nuts counterclockwise using a wrench with her right hand.\n(C) The person gently taps the nuts with her fingers to loosen them.\n(D) The person rotates the nuts clockwise with a screwdriver in her right hand.\n(E) The person moves the wrench back and forth while holding the nuts with her left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person moves the wrench back and forth while holding the nuts with her left hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

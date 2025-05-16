@@ -1,0 +1,17 @@
+{
+    "question": "How does the person take the drill?",
+    "options": [
+        "The person reaches for the drill with his right hand, grasps it firmly, and lifts it, checking its functionality by briefly testing its power or rotation.",
+        "The person reaches for the drill with both hands and adjusts his grip as he lifts it, ensuring it is stable in his grasp.",
+        "The person uses his left hand to grab the drill near the handle, making an attempt to lift it securely.",
+        "The person bends down to pick up the drill with one hand, then stands up smoothly while holding it.",
+        "The person carefully moves the drill towards himself on the table, ensuring he has a firm hold on it before lifting."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person take the drill? Choose **only one** option from the following list.\nOptions:\n(A) The person reaches for the drill with his right hand, grasps it firmly, and lifts it, checking its functionality by briefly testing its power or rotation.\n(B) The person reaches for the drill with both hands and adjusts his grip as he lifts it, ensuring it is stable in his grasp.\n(C) The person uses his left hand to grab the drill near the handle, making an attempt to lift it securely.\n(D) The person bends down to pick up the drill with one hand, then stands up smoothly while holding it.\n(E) The person carefully moves the drill towards himself on the table, ensuring he has a firm hold on it before lifting.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person uses his left hand to grab the drill near the handle, making an attempt to lift it securely."
+    },
+    "correct_idx": [
+        0
+    ]
+}

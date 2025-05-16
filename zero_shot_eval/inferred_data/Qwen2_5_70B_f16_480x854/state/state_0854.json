@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the board change?",
+    "options": [
+        "The board was placed inside the box, with the box closed over it, enclosing the board.",
+        "The board was removed from the box and laid flat on the table, with the open air around it.",
+        "The board was cut into smaller pieces and then stacked neatly on the shelf, stored in that form.",
+        "The board was covered with a protective sheet, partially obscuring its surface while remaining outside the box.",
+        "The board was hung on the wall, removing its placement within any container."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the board change? Choose **only one** option from the following list.\nOptions:\n(A) The board was placed inside the box, with the box closed over it, enclosing the board.\n(B) The board was removed from the box and laid flat on the table, with the open air around it.\n(C) The board was cut into smaller pieces and then stacked neatly on the shelf, stored in that form.\n(D) The board was covered with a protective sheet, partially obscuring its surface while remaining outside the box.\n(E) The board was hung on the wall, removing its placement within any container.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The board was removed from the box and laid flat on the table, with the open air around it."
+    },
+    "correct_idx": [
+        0
+    ]
+}

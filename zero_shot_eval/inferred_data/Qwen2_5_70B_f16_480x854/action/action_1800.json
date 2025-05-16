@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person hammers the wood with his left hand while his right hand stabilizes the wood.",
+        "The person screws the wood with his left hand while his right hand holds the wood.",
+        "The person drills into the wood with his left hand while his right hand supports the wood.",
+        "The person sands the wood with his left hand while his right hand holds the sandpaper.",
+        "The person paints the wood with his left hand while his right hand steadies the paint can."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person hammers the wood with his left hand while his right hand stabilizes the wood.\n(B) The person screws the wood with his left hand while his right hand holds the wood.\n(C) The person drills into the wood with his left hand while his right hand supports the wood.\n(D) The person sands the wood with his left hand while his right hand holds the sandpaper.\n(E) The person paints the wood with his left hand while his right hand steadies the paint can.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person drills into the wood with his left hand while his right hand supports the wood."
+    },
+    "correct_idx": [
+        1
+    ]
+}

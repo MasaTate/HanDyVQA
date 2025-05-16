@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is holding the box with his right hand and moving the curtain aside with his left hand.",
+        "The person is carrying the box with both hands while gently pulling the curtain down with his right hand.",
+        "The person holds the box with his left hand and pushes the curtain with his right hand.",
+        "The person is balancing the box on his lap while lightly tugging at the curtain with his left hand.",
+        "The person is setting the box on the table with his left hand while gradually lifting the curtain with his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is holding the box with his right hand and moving the curtain aside with his left hand.\n(B) The person is carrying the box with both hands while gently pulling the curtain down with his right hand.\n(C) The person holds the box with his left hand and pushes the curtain with his right hand.\n(D) The person is balancing the box on his lap while lightly tugging at the curtain with his left hand.\n(E) The person is setting the box on the table with his left hand while gradually lifting the curtain with his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person holds the box with his left hand and pushes the curtain with his right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

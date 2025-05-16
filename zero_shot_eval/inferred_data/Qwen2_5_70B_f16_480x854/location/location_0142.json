@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the bicycle tire?",
+    "options": [
+        "The person moves the bicycle tire to its left turning it downward with the left hand, causing it to turn clockwise.",
+        "The person moves the bicycle tire to its right turning it upward with the left hand, causing it to turn clockwise.",
+        "The person moves the bicycle tire to the front pushing it forward with the right hand, causing it to turn clockwise.",
+        "The person moves the bicycle tire to the back pulling it backward with the right hand, causing it to turn counterclockwise.",
+        "The person moves the bicycle tire to the right turning it upward with the right hand, causing it to turn counterclockwise."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the bicycle tire? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the bicycle tire to its left turning it downward with the left hand, causing it to turn clockwise.\n(B) The person moves the bicycle tire to its right turning it upward with the left hand, causing it to turn clockwise.\n(C) The person moves the bicycle tire to the front pushing it forward with the right hand, causing it to turn clockwise.\n(D) The person moves the bicycle tire to the back pulling it backward with the right hand, causing it to turn counterclockwise.\n(E) The person moves the bicycle tire to the right turning it upward with the right hand, causing it to turn counterclockwise.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person moves the bicycle tire to its left turning it downward with the left hand, causing it to turn clockwise."
+    },
+    "correct_idx": [
+        4
+    ]
+}

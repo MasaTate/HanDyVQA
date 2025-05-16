@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the dough change?",
+    "options": [
+        "The dough was removed from the mixer and shaped into balls for baking.",
+        "The dough was transferred from the bowl to a rolling surface to be flattened.",
+        "The dough was collected from the slicing machine and placed on the working table.",
+        "The dough was taken from the proofing box and divided into equal portions.",
+        "The dough was rolled out into sheets and then cut into desired shapes."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the dough change? Choose **only one** option from the following list.\nOptions:\n(A) The dough was removed from the mixer and shaped into balls for baking.\n(B) The dough was transferred from the bowl to a rolling surface to be flattened.\n(C) The dough was collected from the slicing machine and placed on the working table.\n(D) The dough was taken from the proofing box and divided into equal portions.\n(E) The dough was rolled out into sheets and then cut into desired shapes.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The dough was collected from the slicing machine and placed on the working table."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the nail polish?",
+    "options": [
+        "The person drops the nail polish on the makeup vanity.",
+        "The person drops the nail polish on the nail polish rack.",
+        "The person drops the nail polish on the bathroom sink.",
+        "The person drops the nail polish on the coffee table.",
+        "The person drops the nail polish on the shelf beside the mirror."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the nail polish? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the nail polish on the makeup vanity.\n(B) The person drops the nail polish on the nail polish rack.\n(C) The person drops the nail polish on the bathroom sink.\n(D) The person drops the nail polish on the coffee table.\n(E) The person drops the nail polish on the shelf beside the mirror.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person drops the nail polish on the nail polish rack."
+    },
+    "correct_idx": [
+        1
+    ]
+}

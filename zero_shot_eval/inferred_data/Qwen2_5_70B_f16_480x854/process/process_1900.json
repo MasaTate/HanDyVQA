@@ -1,0 +1,17 @@
+{
+    "question": "How does the person play the piano?",
+    "options": [
+        "The person strikes the 'G' key repeatedly with the index finger of the right hand, then plays a few keys with the left hand alongside.",
+        "The person taps the 'G' key softly with the pinky finger of the left hand before playing several keys with the right hand.",
+        "The person presses down the 'G' key using the thumb of the left hand and quickly plays a range of notes with the right hand.",
+        "The person presses the 'G' key only six times using the middle finger of the right hand, then plays many keys with both hands simultaneously.",
+        "The person hits the 'G' key multiple times using both hands, with the left hand playing some chords while the right hand complements with upper keys."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person play the piano? Choose **only one** option from the following list.\nOptions:\n(A) The person strikes the 'G' key repeatedly with the index finger of the right hand, then plays a few keys with the left hand alongside.\n(B) The person taps the 'G' key softly with the pinky finger of the left hand before playing several keys with the right hand.\n(C) The person presses down the 'G' key using the thumb of the left hand and quickly plays a range of notes with the right hand.\n(D) The person presses the 'G' key only six times using the middle finger of the right hand, then plays many keys with both hands simultaneously.\n(E) The person hits the 'G' key multiple times using both hands, with the left hand playing some chords while the right hand complements with upper keys.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person strikes the 'G' key repeatedly with the index finger of the right hand, then plays a few keys with the left hand alongside."
+    },
+    "correct_idx": [
+        3
+    ]
+}

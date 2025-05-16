@@ -1,0 +1,21 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "knife",
+        "cream bread",
+        "butter",
+        "spoon",
+        "kettle",
+        "cooking oil bottle",
+        "bowl"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) knife\n(B) cream bread\n(C) butter\n(D) spoon\n(E) kettle\n(F) cooking oil bottle\n(G) bowl\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(A) The person uses a knife to cut open the butter wrapper.\n(C) The person handles a block of butter, unwrapping it with their hands."
+    },
+    "correct_idx": [
+        0,
+        2,
+        6
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person slices the bread into smaller pieces using her right hand while supporting the loaf with her left hand.",
+        "The person pulls the bread apart with both hands, using her left hand to hold the larger piece while her right hand pulls it.",
+        "The person spreads butter on the bread using her right hand while resting the loaf on the countertop with her left hand.",
+        "The person is toasting the bread using her right hand while stabilizing the toaster with her left hand.",
+        "The person tears the bread apart in half with her right hand while holding the other side with her left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person slices the bread into smaller pieces using her right hand while supporting the loaf with her left hand.\n(B) The person pulls the bread apart with both hands, using her left hand to hold the larger piece while her right hand pulls it.\n(C) The person spreads butter on the bread using her right hand while resting the loaf on the countertop with her left hand.\n(D) The person is toasting the bread using her right hand while stabilizing the toaster with her left hand.\n(E) The person tears the bread apart in half with her right hand while holding the other side with her left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person tears the bread apart in half with her right hand while holding the other side with her left hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

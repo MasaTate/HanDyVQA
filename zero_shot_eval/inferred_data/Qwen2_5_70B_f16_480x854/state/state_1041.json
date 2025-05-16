@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the spinach change?",
+    "options": [
+        "The spinach was sliced with slightly more pressure applied.",
+        "The spinach was cut with little rotation.",
+        "The spinach was chopped without rotation.",
+        "The spinach was torn apart by hand.",
+        "The spinach was shredded with more rotations."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the spinach change? Choose **only one** option from the following list.\nOptions:\n(A) The spinach was sliced with slightly more pressure applied.\n(B) The spinach was cut with little rotation.\n(C) The spinach was chopped without rotation.\n(D) The spinach was torn apart by hand.\n(E) The spinach was shredded with more rotations.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The spinach was torn apart by hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

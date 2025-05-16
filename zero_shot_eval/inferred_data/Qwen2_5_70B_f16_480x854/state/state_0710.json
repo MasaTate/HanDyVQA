@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of groin area change?",
+    "options": [
+        "The groin area was pinched by the waistband of the pants.",
+        "The groin area was compressed by the tight fit of the pants.",
+        "The groin area was scratched by the fabric of the pants.",
+        "The groin area was rubbed by the seams of the pants.",
+        "The groin area was chafed by the friction of the pants."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of groin area change? Choose **only one** option from the following list.\nOptions:\n(A) The groin area was pinched by the waistband of the pants.\n(B) The groin area was compressed by the tight fit of the pants.\n(C) The groin area was scratched by the fabric of the pants.\n(D) The groin area was rubbed by the seams of the pants.\n(E) The groin area was chafed by the friction of the pants.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The groin area was rubbed by the seams of the pants."
+    },
+    "correct_idx": [
+        2
+    ]
+}

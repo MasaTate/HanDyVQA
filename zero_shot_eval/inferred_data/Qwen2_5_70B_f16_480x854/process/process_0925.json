@@ -1,0 +1,17 @@
+{
+    "question": "How does the person cover the jar of condiment?",
+    "options": [
+        "The person lifts the cover carefully before placing it on the condiment jar with his right hand.",
+        "The person moves the cover in circles before setting it down on the condiment jar using both hands.",
+        "The person picks up the cover and lets it fall gently onto the condiment jar with his right hand.",
+        "The person moves the cover away from the jar before twisting it gently in place with his left hand.",
+        "The person slides the cover forward and then downward and then presses the cover down forcefully on the condiment jar with his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person cover the jar of condiment? Choose **only one** option from the following list.\nOptions:\n(A) The person lifts the cover carefully before placing it on the condiment jar with his right hand.\n(B) The person moves the cover in circles before setting it down on the condiment jar using both hands.\n(C) The person picks up the cover and lets it fall gently onto the condiment jar with his right hand.\n(D) The person moves the cover away from the jar before twisting it gently in place with his left hand.\n(E) The person slides the cover forward and then downward and then presses the cover down forcefully on the condiment jar with his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person slides the cover forward and then downward and then presses the cover down forcefully on the condiment jar with his left hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the pencil?",
+    "options": [
+        "The person moves the three black pencils backward to the right and a black pencil forward, causing it to push the white pencil away from it.",
+        "The person moves the three black pencils forward to the right and a black pencil to the side, causing it to slide the white pencil closer to them.",
+        "The person moves the three black pencils forward to the left and a black pencil backward, causing it to move the white pencil beside it.",
+        "The person moves the three black pencils backward to the left and a black pencil sideways, causing it to nudge the white pencil slightly forward.",
+        "The person moves the three black pencils to the side and a black pencil forward, causing it to lift the white pencil slightly off the surface."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the pencil? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the three black pencils backward to the right and a black pencil forward, causing it to push the white pencil away from it.\n(B) The person moves the three black pencils forward to the right and a black pencil to the side, causing it to slide the white pencil closer to them.\n(C) The person moves the three black pencils forward to the left and a black pencil backward, causing it to move the white pencil beside it.\n(D) The person moves the three black pencils backward to the left and a black pencil sideways, causing it to nudge the white pencil slightly forward.\n(E) The person moves the three black pencils to the side and a black pencil forward, causing it to lift the white pencil slightly off the surface.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person moves the three black pencils backward to the right and a black pencil forward, causing it to push the white pencil away from it."
+    },
+    "correct_idx": [
+        2
+    ]
+}

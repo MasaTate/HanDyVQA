@@ -1,0 +1,17 @@
+{
+    "question": "How does the person put the funnel?",
+    "options": [
+        "The person gently placed the funnel into the bucket without looking closely.",
+        "The person slowly set the funnel on the edge of the bucket rather than inside.",
+        "The person slowly put the funnel in the bucket with the right hand.",
+        "The person carefully dropped the funnel, and it lightly touched the rim of the bucket.",
+        "The person smoothly slid the funnel along the table, letting it settle into the bucket."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person put the funnel? Choose **only one** option from the following list.\nOptions:\n(A) The person gently placed the funnel into the bucket without looking closely.\n(B) The person slowly set the funnel on the edge of the bucket rather than inside.\n(C) The person slowly put the funnel in the bucket with the right hand.\n(D) The person carefully dropped the funnel, and it lightly touched the rim of the bucket.\n(E) The person smoothly slid the funnel along the table, letting it settle into the bucket.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person slowly put the funnel in the bucket with the right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

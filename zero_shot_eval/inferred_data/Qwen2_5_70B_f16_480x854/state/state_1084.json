@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of container change?",
+    "options": [
+        "The container had a tissue inside, then the tissue was removed while the container was lifted.",
+        "The container had a tissue inside, then the tissue was compressed while the container was lifted.",
+        "The container had a tissue inside, then the tissue was crumpled and left inside while the container was lifted.",
+        "The container had a tissue inside, then the tissue was partially removed while the container was placed down.",
+        "The container had a tissue inside, then the tissue was unfolded but remained inside while the container was lifted."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of container change? Choose **only one** option from the following list.\nOptions:\n(A) The container had a tissue inside, then the tissue was removed while the container was lifted.\n(B) The container had a tissue inside, then the tissue was compressed while the container was lifted.\n(C) The container had a tissue inside, then the tissue was crumpled and left inside while the container was lifted.\n(D) The container had a tissue inside, then the tissue was partially removed while the container was placed down.\n(E) The container had a tissue inside, then the tissue was unfolded but remained inside while the container was lifted.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The container had a tissue inside, then the tissue was compressed while the container was lifted."
+    },
+    "correct_idx": [
+        0
+    ]
+}

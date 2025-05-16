@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "faucet",
+        "dishwashing liquid",
+        "sponge",
+        "bracelet",
+        "inner pan of rice cooker",
+        "rolling pin"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) faucet\n(B) dishwashing liquid\n(C) sponge\n(D) bracelet\n(E) inner pan of rice cooker\n(F) rolling pin\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(A) The hands use the faucet to control the flow of water for washing dishes.\n(C) The hands use a sponge to scrub the dishes in the sink."
+    },
+    "correct_idx": [
+        2,
+        5
+    ]
+}

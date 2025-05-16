@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the right hand?",
+    "options": [
+        "The person slightly move up the right hand on the right side of the wood surface.",
+        "The person slightly moves down the right hand on the left side of the wood surface.",
+        "The person slightly moves up the left hand on the right side of the wood surface.",
+        "The person slightly moves forward the right hand on the right side of the metal surface.",
+        "The person slightly moves back the right hand on the left side of the wood surface."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person slightly move up the right hand on the right side of the wood surface.\n(B) The person slightly moves down the right hand on the left side of the wood surface.\n(C) The person slightly moves up the left hand on the right side of the wood surface.\n(D) The person slightly moves forward the right hand on the right side of the metal surface.\n(E) The person slightly moves back the right hand on the left side of the wood surface.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person slightly move up the right hand on the right side of the wood surface."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the piece of cloth on the clothes rail?",
+    "options": [
+        "The person moves clothes on the clothes rail to the left side.",
+        "The person moves clothes on the clothes rail to the right side.",
+        "The person moves clothes on the clothes rail to the front side.",
+        "The person moves clothes on the clothes rail to the back side.",
+        "The person moves clothes on the clothes rail to the center."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the piece of cloth on the clothes rail? Choose **only one** option from the following list.\nOptions:\n(A) The person moves clothes on the clothes rail to the left side.\n(B) The person moves clothes on the clothes rail to the right side.\n(C) The person moves clothes on the clothes rail to the front side.\n(D) The person moves clothes on the clothes rail to the back side.\n(E) The person moves clothes on the clothes rail to the center.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person moves clothes on the clothes rail to the left side."
+    },
+    "correct_idx": [
+        0
+    ]
+}

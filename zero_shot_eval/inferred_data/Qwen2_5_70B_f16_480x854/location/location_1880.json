@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop a hammer on the table?",
+    "options": [
+        "The person drops the hammer on the table away from other tools.",
+        "The person drops the hammer on the table in front of the toolbox.",
+        "The person drops the hammer on the table near the edge.",
+        "The person drops the hammer on the table next to other tools.",
+        "The person drops the hammer on the table behind some papers."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop a hammer on the table? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the hammer on the table away from other tools.\n(B) The person drops the hammer on the table in front of the toolbox.\n(C) The person drops the hammer on the table near the edge.\n(D) The person drops the hammer on the table next to other tools.\n(E) The person drops the hammer on the table behind some papers.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person drops the hammer on the table next to other tools."
+    },
+    "correct_idx": [
+        3
+    ]
+}

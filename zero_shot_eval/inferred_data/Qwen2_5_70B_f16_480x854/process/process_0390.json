@@ -1,0 +1,17 @@
+{
+    "question": "How does the person apply glue?",
+    "options": [
+        "The person squeezes the glue from the bottle onto the wood without using a tool, creating a glob that forms in the center.",
+        "The person applies the glue by dipping the brush into the container repeatedly, leading to a messy application on the surface.",
+        "The person pours the glue out in a circular motion, then uses their hand to rub it across the wood unevenly.",
+        "The person drags a piece of cloth through the glue and then wipes it roughly across the wood, leaving streaks.",
+        "The person first collects the glue from the putty knife, then spreads it in one direction across the wood in a smooth motion."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person apply glue? Choose **only one** option from the following list.\nOptions:\n(A) The person squeezes the glue from the bottle onto the wood without using a tool, creating a glob that forms in the center.\n(B) The person applies the glue by dipping the brush into the container repeatedly, leading to a messy application on the surface.\n(C) The person pours the glue out in a circular motion, then uses their hand to rub it across the wood unevenly.\n(D) The person drags a piece of cloth through the glue and then wipes it roughly across the wood, leaving streaks.\n(E) The person first collects the glue from the putty knife, then spreads it in one direction across the wood in a smooth motion.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person first collects the glue from the putty knife, then spreads it in one direction across the wood in a smooth motion."
+    },
+    "correct_idx": [
+        4
+    ]
+}

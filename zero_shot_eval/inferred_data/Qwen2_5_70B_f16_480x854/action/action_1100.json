@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person lifts the jar, twists off the lid with the right hand, and pours the contents into the large bowl using the left hand.",
+        "The person holds the jar, unscrews the cap with the left hand, and pours the mixture onto the counter using the right hand.",
+        "The person taps the jar, pulls off the lid with the right hand, and transfers the mixture into the measuring cup using the left hand.",
+        "The person shakes the jar, removes the cover with the left hand, and pours the mixture into the small bowl using the right hand.",
+        "The person tilts the jar, removes the cover with the right hand, and adds the mixture to the blender using the left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person lifts the jar, twists off the lid with the right hand, and pours the contents into the large bowl using the left hand.\n(B) The person holds the jar, unscrews the cap with the left hand, and pours the mixture onto the counter using the right hand.\n(C) The person taps the jar, pulls off the lid with the right hand, and transfers the mixture into the measuring cup using the left hand.\n(D) The person shakes the jar, removes the cover with the left hand, and pours the mixture into the small bowl using the right hand.\n(E) The person tilts the jar, removes the cover with the right hand, and adds the mixture to the blender using the left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person shakes the jar, removes the cover with the left hand, and pours the mixture into the small bowl using the right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

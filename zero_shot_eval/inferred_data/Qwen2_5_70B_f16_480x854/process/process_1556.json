@@ -1,0 +1,17 @@
+{
+    "question": "How does the person dip the paint brush in the bucket of paint with his right hand?",
+    "options": [
+        "The person gently holds the brush with his right hand and quickly dips it into the paint without an angle, so paint splatters nearby.",
+        "The person carefully pinches the brush and dips only the handle in the paint, leaving the bristles untouched.",
+        "The person uses both hands to lower the brush down into the bucket, allowing it to sink without guidance.",
+        "The person holds the brush in his palm and moves it in the paint, missing the bristles for dipping.",
+        "The person firmly grips the brush with his right hand, tilts it at an angle, and smoothly dips the bristles into the paint. Then, he lightly taps the brush on the bucket's edge to remove any excess paint."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person dip the paint brush in the bucket of paint with his right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person gently holds the brush with his right hand and quickly dips it into the paint without an angle, so paint splatters nearby.\n(B) The person carefully pinches the brush and dips only the handle in the paint, leaving the bristles untouched.\n(C) The person uses both hands to lower the brush down into the bucket, allowing it to sink without guidance.\n(D) The person holds the brush in his palm and moves it in the paint, missing the bristles for dipping.\n(E) The person firmly grips the brush with his right hand, tilts it at an angle, and smoothly dips the bristles into the paint. Then, he lightly taps the brush on the bucket's edge to remove any excess paint.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person firmly grips the brush with his right hand, tilts it at an angle, and smoothly dips the bristles into the paint. Then, he lightly taps the brush on the bucket's edge to remove any excess paint."
+    },
+    "correct_idx": [
+        4
+    ]
+}

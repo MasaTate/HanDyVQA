@@ -1,0 +1,21 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "spoon",
+        "water bottle",
+        "bowl",
+        "cup",
+        "bracelet",
+        "basin",
+        "plastic bag"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) spoon\n(B) water bottle\n(C) bowl\n(D) cup\n(E) bracelet\n(F) basin\n(G) plastic bag\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(A) The hands use a spoon to scoop water from a larger container.\n(C) The hands use a bowl to hold and transfer water."
+    },
+    "correct_idx": [
+        0,
+        2,
+        5
+    ]
+}

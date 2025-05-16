@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person set the control knob of the cooker?",
+    "options": [
+        "The person sets the control knob of the cooker beside the toaster.",
+        "The person sets the control knob of the cooker next to the refrigerator.",
+        "The person sets the control knob of the cooker on the kitchen counter.",
+        "The person sets the control knob of the cooker near the microwave.",
+        "The person sets the control knob of the cooker by the sink."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person set the control knob of the cooker? Choose **only one** option from the following list.\nOptions:\n(A) The person sets the control knob of the cooker beside the toaster.\n(B) The person sets the control knob of the cooker next to the refrigerator.\n(C) The person sets the control knob of the cooker on the kitchen counter.\n(D) The person sets the control knob of the cooker near the microwave.\n(E) The person sets the control knob of the cooker by the sink.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person sets the control knob of the cooker near the microwave."
+    },
+    "correct_idx": [
+        3
+    ]
+}

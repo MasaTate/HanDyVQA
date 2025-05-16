@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "bowls",
+        "onion",
+        "sprayer",
+        "sponge",
+        "knife",
+        "faucet"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) bowls\n(B) onion\n(C) sprayer\n(D) sponge\n(E) knife\n(F) faucet\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(E) The hands are using a knife to chop onions on a cutting board.\n(B) The hands are holding and chopping an onion."
+    },
+    "correct_idx": [
+        1,
+        4
+    ]
+}

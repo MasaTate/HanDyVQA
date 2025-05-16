@@ -1,0 +1,17 @@
+{
+    "question": "How does the person shake the meat?",
+    "options": [
+        "The person swirls the meat in the pan by holding the handle with both hands.",
+        "The person tilts the pan to one side to let the meat slide around by using his right hand on the edge.",
+        "The person lifts the pan with his right hand and shakes it back and forth slightly.",
+        "The person stirs the meat with a spatula held in his right hand rather than shaking the pan.",
+        "The person quickly shakes the meat in the pan by holding the handle with his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person shake the meat? Choose **only one** option from the following list.\nOptions:\n(A) The person swirls the meat in the pan by holding the handle with both hands.\n(B) The person tilts the pan to one side to let the meat slide around by using his right hand on the edge.\n(C) The person lifts the pan with his right hand and shakes it back and forth slightly.\n(D) The person stirs the meat with a spatula held in his right hand rather than shaking the pan.\n(E) The person quickly shakes the meat in the pan by holding the handle with his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person quickly shakes the meat in the pan by holding the handle with his left hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

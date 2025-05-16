@@ -1,0 +1,17 @@
+{
+    "question": "How does the person lift a plate?",
+    "options": [
+        "The person lifted a plate by using their right hand to open the cabinet door on the right side and carefully raising the top plate with a steady grip, while their left hand opened the left-side cabinet door to retrieve the bottom plate with equal precision.",
+        "The person held the plate with both hands and quickly removed it from the cabinet, closely checking for any items in the way.",
+        "The person reached across the kitchen and slightly adjusted their position while trying to extract the plate from the cabinet using one hand to maintain balance.",
+        "The person picked up the plate with their left hand while gently closing the cabinet door with their right elbow, allowing for a smooth lift.",
+        "The person opened the cabinet doors using both hands smoothly and carefully slid the plate from the stack, ensuring no other plate was disturbed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person lift a plate? Choose **only one** option from the following list.\nOptions:\n(A) The person lifted a plate by using their right hand to open the cabinet door on the right side and carefully raising the top plate with a steady grip, while their left hand opened the left-side cabinet door to retrieve the bottom plate with equal precision.\n(B) The person held the plate with both hands and quickly removed it from the cabinet, closely checking for any items in the way.\n(C) The person reached across the kitchen and slightly adjusted their position while trying to extract the plate from the cabinet using one hand to maintain balance.\n(D) The person picked up the plate with their left hand while gently closing the cabinet door with their right elbow, allowing for a smooth lift.\n(E) The person opened the cabinet doors using both hands smoothly and carefully slid the plate from the stack, ensuring no other plate was disturbed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person opened the cabinet doors using both hands smoothly and carefully slid the plate from the stack, ensuring no other plate was disturbed."
+    },
+    "correct_idx": [
+        0
+    ]
+}

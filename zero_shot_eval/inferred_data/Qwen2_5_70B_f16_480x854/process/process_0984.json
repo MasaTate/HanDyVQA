@@ -1,0 +1,17 @@
+{
+    "question": "How does the person tighten another ball joint?",
+    "options": [
+        "The person holds the ball joint with both hands and rotates it clockwise to secure it.",
+        "The person grips the ball joint gently with their right hand and turns it clockwise.",
+        "The person uses their left hand to grasp the ball joint firmly and rotate it clockwise to tighten.",
+        "The person pushes the ball joint into the socket while turning it clockwise to tighten.",
+        "The person sets the ball joint on the table and uses gentle pressure to force it into a tighter position."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person tighten another ball joint? Choose **only one** option from the following list.\nOptions:\n(A) The person holds the ball joint with both hands and rotates it clockwise to secure it.\n(B) The person grips the ball joint gently with their right hand and turns it clockwise.\n(C) The person uses their left hand to grasp the ball joint firmly and rotate it clockwise to tighten.\n(D) The person pushes the ball joint into the socket while turning it clockwise to tighten.\n(E) The person sets the ball joint on the table and uses gentle pressure to force it into a tighter position.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person uses their left hand to grasp the ball joint firmly and rotate it clockwise to tighten."
+    },
+    "correct_idx": [
+        2
+    ]
+}

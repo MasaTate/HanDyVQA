@@ -1,0 +1,17 @@
+{
+    "question": "How does the person sprinkle the vegetable?",
+    "options": [
+        "The person gathers a portion of the vegetable with both hands and carefully spreads it over the food.",
+        "The person uses a spoon to scoop up the vegetable and smoothly places it over the food.",
+        "The person lifts the vegetable gently in the air and allows it to fall softly onto the food.",
+        "The person raises the vegetable with one hand and shakes it slightly while directing it over the food.",
+        "The person sprinkles the vegetable by pinching it with his right fingers to take a small portion and gently releasing it over the food."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person sprinkle the vegetable? Choose **only one** option from the following list.\nOptions:\n(A) The person gathers a portion of the vegetable with both hands and carefully spreads it over the food.\n(B) The person uses a spoon to scoop up the vegetable and smoothly places it over the food.\n(C) The person lifts the vegetable gently in the air and allows it to fall softly onto the food.\n(D) The person raises the vegetable with one hand and shakes it slightly while directing it over the food.\n(E) The person sprinkles the vegetable by pinching it with his right fingers to take a small portion and gently releasing it over the food.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person sprinkles the vegetable by pinching it with his right fingers to take a small portion and gently releasing it over the food."
+    },
+    "correct_idx": [
+        4
+    ]
+}

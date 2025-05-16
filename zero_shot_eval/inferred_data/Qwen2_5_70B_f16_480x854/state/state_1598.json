@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the throwing wheel change?",
+    "options": [
+        "The throwing wheel began rotating counterclockwise as it was spun.",
+        "The throwing wheel began rotating clockwise as it was spun.",
+        "The throwing wheel was spun counterclockwise but then was abruptly stopped.",
+        "The throwing wheel began rotating counterclockwise but at a much slower speed.",
+        "The throwing wheel was spun counterclockwise and then was reversed in direction."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the throwing wheel change? Choose **only one** option from the following list.\nOptions:\n(A) The throwing wheel began rotating counterclockwise as it was spun.\n(B) The throwing wheel began rotating clockwise as it was spun.\n(C) The throwing wheel was spun counterclockwise but then was abruptly stopped.\n(D) The throwing wheel began rotating counterclockwise but at a much slower speed.\n(E) The throwing wheel was spun counterclockwise and then was reversed in direction.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The throwing wheel began rotating clockwise as it was spun."
+    },
+    "correct_idx": [
+        0
+    ]
+}

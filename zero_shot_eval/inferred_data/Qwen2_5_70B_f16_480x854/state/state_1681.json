@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the heddle change?",
+    "options": [
+        "The heddle was removed from the loom and set aside for maintenance.",
+        "The heddle was twisted and distorted as it was pulled incorrectly during weaving.",
+        "The heddle was painted a new color to enhance its appearance on the loom.",
+        "The heddle was shifted and repositioned as it was moved along the loom.",
+        "The heddle was broken into several pieces after a forceful pull during the weaving process."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the heddle change? Choose **only one** option from the following list.\nOptions:\n(A) The heddle was removed from the loom and set aside for maintenance.\n(B) The heddle was twisted and distorted as it was pulled incorrectly during weaving.\n(C) The heddle was painted a new color to enhance its appearance on the loom.\n(D) The heddle was shifted and repositioned as it was moved along the loom.\n(E) The heddle was broken into several pieces after a forceful pull during the weaving process.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The heddle was shifted and repositioned as it was moved along the loom."
+    },
+    "correct_idx": [
+        3
+    ]
+}

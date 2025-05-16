@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the saw?",
+    "options": [
+        "The person placed the saw on the center of the workbench and then picked it up later.",
+        "The person placed the saw on the opposite side of the wood and left it there.",
+        "The person placed the saw on the floor next to the wood and then returned to it.",
+        "The person placed the saw on the edge of the wood and then grabbed it again.",
+        "The person placed the saw on the top of the toolbox and then reached for it again."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the saw? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the saw on the center of the workbench and then picked it up later.\n(B) The person placed the saw on the opposite side of the wood and left it there.\n(C) The person placed the saw on the floor next to the wood and then returned to it.\n(D) The person placed the saw on the edge of the wood and then grabbed it again.\n(E) The person placed the saw on the top of the toolbox and then reached for it again.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person placed the saw on the edge of the wood and then grabbed it again."
+    },
+    "correct_idx": [
+        3
+    ]
+}

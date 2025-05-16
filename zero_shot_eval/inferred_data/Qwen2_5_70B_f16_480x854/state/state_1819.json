@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the two face up playing cards change?",
+    "options": [
+        "The two face-up playing cards, having changed position from the table to the hand, were picked up.",
+        "The two face-up playing cards, having been shuffled together, were mixed before being placed on the table.",
+        "The two face-up playing cards, having been turned over from face-up to face-down, were flipped on the table.",
+        "The two face-up playing cards, having been spread out and arranged in a fan shape, were laid down on the table.",
+        "The two face-up playing cards, having been stacked on top of each other, were piled up in a neat stack."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the two face up playing cards change? Choose **only one** option from the following list.\nOptions:\n(A) The two face-up playing cards, having changed position from the table to the hand, were picked up.\n(B) The two face-up playing cards, having been shuffled together, were mixed before being placed on the table.\n(C) The two face-up playing cards, having been turned over from face-up to face-down, were flipped on the table.\n(D) The two face-up playing cards, having been spread out and arranged in a fan shape, were laid down on the table.\n(E) The two face-up playing cards, having been stacked on top of each other, were piled up in a neat stack.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The two face-up playing cards, having changed position from the table to the hand, were picked up."
+    },
+    "correct_idx": [
+        0
+    ]
+}

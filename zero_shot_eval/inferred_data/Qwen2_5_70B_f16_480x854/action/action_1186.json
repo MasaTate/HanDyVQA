@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person squeezes the lemon using a juicer in his right hand while holding the lemon with his left hand.",
+        "The person peels the lemon using a vegetable peeler in his right hand while holding the lemon with his left hand.",
+        "The person slices the lemon on a cutting board with a knife in his right hand while holding the lemon with his left hand.",
+        "The person balances the lemon on the counter with his right hand while holding it in his left hand.",
+        "The person picks the lemon using the pruners in his right hand and holds the lemon with his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person squeezes the lemon using a juicer in his right hand while holding the lemon with his left hand.\n(B) The person peels the lemon using a vegetable peeler in his right hand while holding the lemon with his left hand.\n(C) The person slices the lemon on a cutting board with a knife in his right hand while holding the lemon with his left hand.\n(D) The person balances the lemon on the counter with his right hand while holding it in his left hand.\n(E) The person picks the lemon using the pruners in his right hand and holds the lemon with his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person picks the lemon using the pruners in his right hand and holds the lemon with his left hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

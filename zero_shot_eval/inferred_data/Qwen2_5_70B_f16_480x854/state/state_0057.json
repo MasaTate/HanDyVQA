@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the rack change?",
+    "options": [
+        "The top rack was extended partly while the bottom rack was adjusted outside the dishwasher.",
+        "The bottom rack was pulled out while the top rack was adjusted but remained inside.",
+        "The top rack was moved out partially while the bottom rack remained unchanged.",
+        "The top rack was shifted to the left inside while the bottom rack stayed in place.",
+        "The top rack was moved inside the dishwasher while the bottom rack remained unchanged."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the rack change? Choose **only one** option from the following list.\nOptions:\n(A) The top rack was extended partly while the bottom rack was adjusted outside the dishwasher.\n(B) The bottom rack was pulled out while the top rack was adjusted but remained inside.\n(C) The top rack was moved out partially while the bottom rack remained unchanged.\n(D) The top rack was shifted to the left inside while the bottom rack stayed in place.\n(E) The top rack was moved inside the dishwasher while the bottom rack remained unchanged.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The top rack was moved inside the dishwasher while the bottom rack remained unchanged."
+    },
+    "correct_idx": [
+        4
+    ]
+}

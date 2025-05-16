@@ -1,0 +1,17 @@
+{
+    "question": "How does the person gather the chunks of the mango?",
+    "options": [
+        "The person scoops the chunks of mango into the palm of her left hand.",
+        "The person gathers the chunks of mango by using her right hand to move them into a pile.",
+        "The person grabs the chunks of mango gently with her fingers in her right hand.",
+        "The person pinches the chunks of mango using her left hand with the help of her right hand while holding a knife.",
+        "The person lifts the chunks of mango individually with her thumb and index finger in her right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person gather the chunks of the mango? Choose **only one** option from the following list.\nOptions:\n(A) The person scoops the chunks of mango into the palm of her left hand.\n(B) The person gathers the chunks of mango by using her right hand to move them into a pile.\n(C) The person grabs the chunks of mango gently with her fingers in her right hand.\n(D) The person pinches the chunks of mango using her left hand with the help of her right hand while holding a knife.\n(E) The person lifts the chunks of mango individually with her thumb and index finger in her right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person gathers the chunks of mango by using her right hand to move them into a pile."
+    },
+    "correct_idx": [
+        3
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person unscrew the vise?",
+    "options": [
+        "The person unscrews the vise by gripping the handle firmly with their right hand and turning it clockwise with controlled, deliberate moves.",
+        "The person unscrews the vise by pushing the handle gently with their thumb and forefinger of their right hand and moving it counterclockwise using calm, steady motions.",
+        "The person loosens the vise by using both hands to rotate the handle left and right with consistent and measured movements.",
+        "The person unscrews the vise by gripping the handle with the index and middle fingers of their left hand and rotating it counterclockwise in steady, deliberate motions to loosen its grip.",
+        "The person rotates the vise handle counterclockwise using only their right hand, applying consistent pressure with their palm and fingers to achieve gradual loosening."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person unscrew the vise? Choose **only one** option from the following list.\nOptions:\n(A) The person unscrews the vise by gripping the handle firmly with their right hand and turning it clockwise with controlled, deliberate moves.\n(B) The person unscrews the vise by pushing the handle gently with their thumb and forefinger of their right hand and moving it counterclockwise using calm, steady motions.\n(C) The person loosens the vise by using both hands to rotate the handle left and right with consistent and measured movements.\n(D) The person unscrews the vise by gripping the handle with the index and middle fingers of their left hand and rotating it counterclockwise in steady, deliberate motions to loosen its grip.\n(E) The person rotates the vise handle counterclockwise using only their right hand, applying consistent pressure with their palm and fingers to achieve gradual loosening.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person unscrews the vise by gripping the handle with the index and middle fingers of their left hand and rotating it counterclockwise in steady, deliberate motions to loosen its grip."
+    },
+    "correct_idx": [
+        3
+    ]
+}

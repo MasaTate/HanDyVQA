@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a door frame with a nail gun change?",
+    "options": [
+        "The door frame was attached by a nail gun in several places from bottom to top.",
+        "The door frame was fastened by a nail gun only at the bottom.",
+        "The door frame was attached by a nail gun in several places from top to bottom.",
+        "The door frame was secured by a nail gun at the top and middle but not the bottom.",
+        "The door frame was attached by a nail gun in several places going from left to right."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a door frame with a nail gun change? Choose **only one** option from the following list.\nOptions:\n(A) The door frame was attached by a nail gun in several places from bottom to top.\n(B) The door frame was fastened by a nail gun only at the bottom.\n(C) The door frame was attached by a nail gun in several places from top to bottom.\n(D) The door frame was secured by a nail gun at the top and middle but not the bottom.\n(E) The door frame was attached by a nail gun in several places going from left to right.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The door frame was attached by a nail gun in several places from top to bottom."
+    },
+    "correct_idx": [
+        2
+    ]
+}

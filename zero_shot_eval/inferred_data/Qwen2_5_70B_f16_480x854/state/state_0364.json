@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the branch change?",
+    "options": [
+        "The branch was snapped off by the strong wind and was dropped to the ground.",
+        "The branch was cut by the chainsaw and was thrown to the ground.",
+        "The branch was trimmed with pruning shears and was placed in a compost bin.",
+        "The branch was torn off and was gathered with other branches.",
+        "The branch was sawed in half and was left on the ground."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the branch change? Choose **only one** option from the following list.\nOptions:\n(A) The branch was snapped off by the strong wind and was dropped to the ground.\n(B) The branch was cut by the chainsaw and was thrown to the ground.\n(C) The branch was trimmed with pruning shears and was placed in a compost bin.\n(D) The branch was torn off and was gathered with other branches.\n(E) The branch was sawed in half and was left on the ground.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The branch was cut by the chainsaw and was thrown to the ground."
+    },
+    "correct_idx": [
+        1
+    ]
+}

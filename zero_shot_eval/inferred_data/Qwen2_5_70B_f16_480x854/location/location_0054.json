@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the basket?",
+    "options": [
+        "The person moved the basket away from him.",
+        "The person moved the basket in front of him.",
+        "The person moved the basket to the right of him.",
+        "The person moved the basket closer to him.",
+        "The person moved the basket behind him."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the basket? Choose **only one** option from the following list.\nOptions:\n(A) The person moved the basket away from him.\n(B) The person moved the basket in front of him.\n(C) The person moved the basket to the right of him.\n(D) The person moved the basket closer to him.\n(E) The person moved the basket behind him.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person moved the basket closer to him."
+    },
+    "correct_idx": [
+        3
+    ]
+}

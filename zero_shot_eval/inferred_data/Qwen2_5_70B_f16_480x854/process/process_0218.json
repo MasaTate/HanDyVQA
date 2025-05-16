@@ -1,0 +1,17 @@
+{
+    "question": "How does the person make gesture?",
+    "options": [
+        "The person makes a thumbs-up gesture by raising the thumb of his right hand while keeping the other fingers gently curled into the palm.",
+        "The person waves his hand back and forth by extending his arm, moving his fingers in a smooth sweeping motion.",
+        "The person forms the 'ok' gesture by bringing the tips of the thumb and index finger of his left hand together, creating a circle. The other fingers remain extended and relaxed.",
+        "The person holds his hand flat and moves it side to side, indicating a 'stop' gesture with the palm facing outward.",
+        "The person lightly pinches the air between the thumb and pinky of his right hand, forming a narrow gap while the other fingers remain bent."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person make gesture? Choose **only one** option from the following list.\nOptions:\n(A) The person makes a thumbs-up gesture by raising the thumb of his right hand while keeping the other fingers gently curled into the palm.\n(B) The person waves his hand back and forth by extending his arm, moving his fingers in a smooth sweeping motion.\n(C) The person forms the 'ok' gesture by bringing the tips of the thumb and index finger of his left hand together, creating a circle. The other fingers remain extended and relaxed.\n(D) The person holds his hand flat and moves it side to side, indicating a 'stop' gesture with the palm facing outward.\n(E) The person lightly pinches the air between the thumb and pinky of his right hand, forming a narrow gap while the other fingers remain bent.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person forms the 'ok' gesture by bringing the tips of the thumb and index finger of his left hand together, creating a circle. The other fingers remain extended and relaxed."
+    },
+    "correct_idx": [
+        2
+    ]
+}

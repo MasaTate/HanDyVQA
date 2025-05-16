@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the plug of the electric sander change?",
+    "options": [
+        "The plug was connected to a longer extension cord for the electric sander.",
+        "The plug was plugged into the socket on the wall.",
+        "The plug was altered to fit a different voltage outlet for the electric sander.",
+        "The plug was equipped with a safety switch for the electric sander.",
+        "The plug was encased in a protective covering for the electric sander."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the plug of the electric sander change? Choose **only one** option from the following list.\nOptions:\n(A) The plug was connected to a longer extension cord for the electric sander.\n(B) The plug was plugged into the socket on the wall.\n(C) The plug was altered to fit a different voltage outlet for the electric sander.\n(D) The plug was equipped with a safety switch for the electric sander.\n(E) The plug was encased in a protective covering for the electric sander.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The plug was plugged into the socket on the wall."
+    },
+    "correct_idx": [
+        1
+    ]
+}

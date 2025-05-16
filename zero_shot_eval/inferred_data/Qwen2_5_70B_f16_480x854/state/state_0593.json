@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the cat change?",
+    "options": [
+        "The cat was moved off the table and positioned on the floor before relocating to another room.",
+        "The cat was positioned onto the windowsill and then was extended outwardly.",
+        "The cat was situated on a high shelf but was then quickly moved back to the ground.",
+        "The cat was shifted under the couch and was briefly paused before being moved back out.",
+        "The cat was moved to a higher position before being lowered into a stable sitting posture."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the cat change? Choose **only one** option from the following list.\nOptions:\n(A) The cat was moved off the table and positioned on the floor before relocating to another room.\n(B) The cat was positioned onto the windowsill and then was extended outwardly.\n(C) The cat was situated on a high shelf but was then quickly moved back to the ground.\n(D) The cat was shifted under the couch and was briefly paused before being moved back out.\n(E) The cat was moved to a higher position before being lowered into a stable sitting posture.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The cat was positioned onto the windowsill and then was extended outwardly."
+    },
+    "correct_idx": [
+        4
+    ]
+}

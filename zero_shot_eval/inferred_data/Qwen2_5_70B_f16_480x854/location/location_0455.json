@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the rag?",
+    "options": [
+        "The person drops the rag on the desk with tools.",
+        "The person tosses the rag behind the desk with tools.",
+        "The person throws the rag beside the chair next to the desk.",
+        "The person drops the rag on the floor to the left of the desk with tools.",
+        "The person places the rag on top of the desk cluttered with papers."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the rag? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the rag on the desk with tools.\n(B) The person tosses the rag behind the desk with tools.\n(C) The person throws the rag beside the chair next to the desk.\n(D) The person drops the rag on the floor to the left of the desk with tools.\n(E) The person places the rag on top of the desk cluttered with papers.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person drops the rag on the desk with tools."
+    },
+    "correct_idx": [
+        0
+    ]
+}

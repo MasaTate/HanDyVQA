@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place his right hand?",
+    "options": [
+        "The person places his right hand on the ground to push himself to the left side.",
+        "The person places hit right hand on the floor to push himself to the right side.",
+        "The person places his right hand on the table to push himself backward.",
+        "The person places his right hand on the rug to push himself forward.",
+        "The person places his right hand on the wall to push himself to the back."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place his right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person places his right hand on the ground to push himself to the left side.\n(B) The person places hit right hand on the floor to push himself to the right side.\n(C) The person places his right hand on the table to push himself backward.\n(D) The person places his right hand on the rug to push himself forward.\n(E) The person places his right hand on the wall to push himself to the back.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person places his right hand on the ground to push himself to the left side."
+    },
+    "correct_idx": [
+        1
+    ]
+}

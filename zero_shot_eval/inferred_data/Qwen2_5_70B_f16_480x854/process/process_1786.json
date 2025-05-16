@@ -1,0 +1,17 @@
+{
+    "question": "How does the person move a scrapper?",
+    "options": [
+        "The person lifts the scraper gently and then places it on the left side.",
+        "The person slides the scraper smoothly across the surface toward the center.",
+        "The person picks up the scraper using the right hand and transfers it to the right part of the wood.",
+        "The person tilts the scraper slightly downward and moves it backward.",
+        "The person grasps the scraper with both hands and turns it clockwise."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person move a scrapper? Choose **only one** option from the following list.\nOptions:\n(A) The person lifts the scraper gently and then places it on the left side.\n(B) The person slides the scraper smoothly across the surface toward the center.\n(C) The person picks up the scraper using the right hand and transfers it to the right part of the wood.\n(D) The person tilts the scraper slightly downward and moves it backward.\n(E) The person grasps the scraper with both hands and turns it clockwise.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person picks up the scraper using the right hand and transfers it to the right part of the wood."
+    },
+    "correct_idx": [
+        2
+    ]
+}

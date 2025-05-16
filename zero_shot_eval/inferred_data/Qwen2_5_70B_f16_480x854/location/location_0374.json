@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the jute twine?",
+    "options": [
+        "The person dropped the jute twine on the wooden shelf.",
+        "The person dropped the jute twine on the metal rack.",
+        "The person dropped the jute twine on the concrete floor.",
+        "The person dropped the jute twine on the graphite vanes.",
+        "The person dropped the jute twine on the fabric rolls."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the jute twine? Choose **only one** option from the following list.\nOptions:\n(A) The person dropped the jute twine on the wooden shelf.\n(B) The person dropped the jute twine on the metal rack.\n(C) The person dropped the jute twine on the concrete floor.\n(D) The person dropped the jute twine on the graphite vanes.\n(E) The person dropped the jute twine on the fabric rolls.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person dropped the jute twine on the concrete floor."
+    },
+    "correct_idx": [
+        3
+    ]
+}

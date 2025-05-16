@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person drags a dried plant with his left hand, passing it to his right hand.",
+        "The person lifts a dried plant with his right hand, placing it into a basket held in his left hand.",
+        "The person holds a dried plant with both hands, examining it closely before putting it aside.",
+        "The person moves a dried plant with his left hand while sorting through other items on the table with his right hand.",
+        "The person tosses a dried plant into the air with his right hand while holding a pot in his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person drags a dried plant with his left hand, passing it to his right hand.\n(B) The person lifts a dried plant with his right hand, placing it into a basket held in his left hand.\n(C) The person holds a dried plant with both hands, examining it closely before putting it aside.\n(D) The person moves a dried plant with his left hand while sorting through other items on the table with his right hand.\n(E) The person tosses a dried plant into the air with his right hand while holding a pot in his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person drags a dried plant with his left hand, passing it to his right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

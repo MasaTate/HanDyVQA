@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the dog's body change?",
+    "options": [
+        "The dog's body is being petted under the ears and on the head.",
+        "The dog's body is being scratched along the back and on the tail.",
+        "The dog's body is being washed with soap and water in the bathtub.",
+        "The dog's body is being wrapped in a warm towel after a bath.",
+        "The dog's body is being groomed with a brush to remove loose fur."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the dog's body change? Choose **only one** option from the following list.\nOptions:\n(A) The dog's body is being petted under the ears and on the head.\n(B) The dog's body is being scratched along the back and on the tail.\n(C) The dog's body is being washed with soap and water in the bathtub.\n(D) The dog's body is being wrapped in a warm towel after a bath.\n(E) The dog's body is being groomed with a brush to remove loose fur.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The dog's body is being petted under the ears and on the head."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the sculpture change?",
+    "options": [
+        "The sculpture was transformed as it was painted over with bright colors.",
+        "The sculpture was altered as the image was traced on it with a stick.",
+        "The sculpture was modified as it was polished to create a shiny surface.",
+        "The sculpture was reshaped as it was chiseled to refine its details.",
+        "The sculpture was embedded with various stones and gems for decoration."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the sculpture change? Choose **only one** option from the following list.\nOptions:\n(A) The sculpture was transformed as it was painted over with bright colors.\n(B) The sculpture was altered as the image was traced on it with a stick.\n(C) The sculpture was modified as it was polished to create a shiny surface.\n(D) The sculpture was reshaped as it was chiseled to refine its details.\n(E) The sculpture was embedded with various stones and gems for decoration.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The sculpture was altered as the image was traced on it with a stick."
+    },
+    "correct_idx": [
+        1
+    ]
+}

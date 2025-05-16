@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person put the oyster parts?",
+    "options": [
+        "The person put the oyster parts to his right hand.",
+        "The person put the oyster parts to his left hand.",
+        "The person put the oyster parts in front of him on the table.",
+        "The person put the oyster parts in his back pocket.",
+        "The person put the oyster parts on the chair beside him."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person put the oyster parts? Choose **only one** option from the following list.\nOptions:\n(A) The person put the oyster parts to his right hand.\n(B) The person put the oyster parts to his left hand.\n(C) The person put the oyster parts in front of him on the table.\n(D) The person put the oyster parts in his back pocket.\n(E) The person put the oyster parts on the chair beside him.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person put the oyster parts to his left hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

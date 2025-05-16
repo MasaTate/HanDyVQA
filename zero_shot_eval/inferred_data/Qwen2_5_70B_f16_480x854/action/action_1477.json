@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is using his left hand to put the tool back into the machine while his right hand rests on the counter.",
+        "The person is reaching into the machine with both hands to turn a dial, without removing any tool.",
+        "The person is lifting an object with both hands, leaving the machine as it is.",
+        "The person is using his right hand to remove the tool from the machine while his left hand remains at rest.",
+        "The person is using his right hand to clean the machine while his left hand holds a wrench."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is using his left hand to put the tool back into the machine while his right hand rests on the counter.\n(B) The person is reaching into the machine with both hands to turn a dial, without removing any tool.\n(C) The person is lifting an object with both hands, leaving the machine as it is.\n(D) The person is using his right hand to remove the tool from the machine while his left hand remains at rest.\n(E) The person is using his right hand to clean the machine while his left hand holds a wrench.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person is using his right hand to remove the tool from the machine while his left hand remains at rest."
+    },
+    "correct_idx": [
+        3
+    ]
+}

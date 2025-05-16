@@ -1,0 +1,17 @@
+{
+    "question": "How does the person smoothen the cement on the wall?",
+    "options": [
+        "The person smoothens the cement on the wall by gently pressing a flat wooden board with both hands on the surface.",
+        "The person smoothens the cement with an open palm, using a circular motion to flatten it on the wall.",
+        "The person smoothens the cement using a sponge, dabbing slightly across the surface to improve it.",
+        "The person smoothens the cement evenly using a long-handled brush, moving it gently in wide arcs along the wall.",
+        "The person smoothens the wall by wiping it using a cement trowel."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person smoothen the cement on the wall? Choose **only one** option from the following list.\nOptions:\n(A) The person smoothens the cement on the wall by gently pressing a flat wooden board with both hands on the surface.\n(B) The person smoothens the cement with an open palm, using a circular motion to flatten it on the wall.\n(C) The person smoothens the cement using a sponge, dabbing slightly across the surface to improve it.\n(D) The person smoothens the cement evenly using a long-handled brush, moving it gently in wide arcs along the wall.\n(E) The person smoothens the wall by wiping it using a cement trowel.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person smoothens the wall by wiping it using a cement trowel."
+    },
+    "correct_idx": [
+        4
+    ]
+}

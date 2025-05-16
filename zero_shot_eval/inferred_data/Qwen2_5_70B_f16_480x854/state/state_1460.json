@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the piece of paper change?",
+    "options": [
+        "The paper was changed after being folded into a triangle.",
+        "The paper was changed after being crumpled into a ball.",
+        "The paper was changed after being cut in half.",
+        "The paper was changed after being torn into small shreds.",
+        "The paper was changed after being drawn on with a marker."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the piece of paper change? Choose **only one** option from the following list.\nOptions:\n(A) The paper was changed after being folded into a triangle.\n(B) The paper was changed after being crumpled into a ball.\n(C) The paper was changed after being cut in half.\n(D) The paper was changed after being torn into small shreds.\n(E) The paper was changed after being drawn on with a marker.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The paper was changed after being crumpled into a ball."
+    },
+    "correct_idx": [
+        2
+    ]
+}

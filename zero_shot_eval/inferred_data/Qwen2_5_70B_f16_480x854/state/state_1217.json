@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the phone change?",
+    "options": [
+        "The phone was touched on its screen with a slight upward movement.",
+        "The phone was touched on its screen with little change in position.",
+        "The phone was touched on its screen causing it to shift slightly to the side.",
+        "The phone was touched on its screen causing a slight tilt backward.",
+        "The phone was touched on its screen, resulting in a small rotation."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the phone change? Choose **only one** option from the following list.\nOptions:\n(A) The phone was touched on its screen with a slight upward movement.\n(B) The phone was touched on its screen with little change in position.\n(C) The phone was touched on its screen causing it to shift slightly to the side.\n(D) The phone was touched on its screen causing a slight tilt backward.\n(E) The phone was touched on its screen, resulting in a small rotation.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The phone was touched on its screen with little change in position."
+    },
+    "correct_idx": [
+        1
+    ]
+}

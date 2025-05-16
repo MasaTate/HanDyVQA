@@ -1,0 +1,17 @@
+{
+    "question": "How does the person paint the wall?",
+    "options": [
+        "The person approaches the wall and slowly slides the paintbrush down to paint the wall.",
+        "The person moves the paintbrush upwards with a steady hand to coat the wall.",
+        "The person steps back and gently flicks the paintbrush towards the wall to achieve a textured effect.",
+        "The person holds the paintbrush above the wall and moves it in circles to create a subtle pattern.",
+        "The person taps the paintbrush on the edge of a bucket before lightly applying it to the wall."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person paint the wall? Choose **only one** option from the following list.\nOptions:\n(A) The person approaches the wall and slowly slides the paintbrush down to paint the wall.\n(B) The person moves the paintbrush upwards with a steady hand to coat the wall.\n(C) The person steps back and gently flicks the paintbrush towards the wall to achieve a textured effect.\n(D) The person holds the paintbrush above the wall and moves it in circles to create a subtle pattern.\n(E) The person taps the paintbrush on the edge of a bucket before lightly applying it to the wall.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person moves the paintbrush upwards with a steady hand to coat the wall."
+    },
+    "correct_idx": [
+        0
+    ]
+}

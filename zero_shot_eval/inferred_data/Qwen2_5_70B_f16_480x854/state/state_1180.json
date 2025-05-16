@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a nut change?",
+    "options": [
+        "The nut was tightened using the ratchet wrench.",
+        "The nut was removed using the ratchet wrench.",
+        "The nut was stripped using the ratchet wrench.",
+        "The nut was loosened using the ratchet wrench.",
+        "The nut was adjusted using the ratchet wrench."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a nut change? Choose **only one** option from the following list.\nOptions:\n(A) The nut was tightened using the ratchet wrench.\n(B) The nut was removed using the ratchet wrench.\n(C) The nut was stripped using the ratchet wrench.\n(D) The nut was loosened using the ratchet wrench.\n(E) The nut was adjusted using the ratchet wrench.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The nut was loosened using the ratchet wrench."
+    },
+    "correct_idx": [
+        3
+    ]
+}

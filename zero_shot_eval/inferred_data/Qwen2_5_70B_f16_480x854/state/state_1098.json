@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the ball change?",
+    "options": [
+        "The ball was tossed and rolled across the ground after being dropped by the dog.",
+        "The ball was punctured and deflated after being bitten by the dog.",
+        "The ball was retrieved and chewed on for several minutes by the dog.",
+        "The ball was bitten and shaken in the dog's mouth.",
+        "The ball was thrown and caught by the dog in mid-air."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the ball change? Choose **only one** option from the following list.\nOptions:\n(A) The ball was tossed and rolled across the ground after being dropped by the dog.\n(B) The ball was punctured and deflated after being bitten by the dog.\n(C) The ball was retrieved and chewed on for several minutes by the dog.\n(D) The ball was bitten and shaken in the dog's mouth.\n(E) The ball was thrown and caught by the dog in mid-air.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The ball was bitten and shaken in the dog's mouth."
+    },
+    "correct_idx": [
+        3
+    ]
+}

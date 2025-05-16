@@ -1,0 +1,17 @@
+{
+    "question": "How does the person insert the needle?",
+    "options": [
+        "The person grips the needle with a balanced hold, using both hands to direct it gently as he attempts to weave it through the yarn.",
+        "The person holds the needle with his right hand and uses his left hand to slightly raise the yarn, opening it up. With a steady motion, he inserts the needle through the yarn, guiding it smoothly while his right hand assists in positioning and pushing the needle through.",
+        "The person directs the needle into the yarn with his left hand while his right hand steadies the yarn, maintaining an opening to facilitate the process.",
+        "The person holds the needle with his left hand, using his right hand to position the yarn carefully, ensuring the needle remains straight.",
+        "The person sets the needle on the table and then helps the yarn align with it using one hand, attempting to guide it through in a methodical way."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person insert the needle? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the needle with a balanced hold, using both hands to direct it gently as he attempts to weave it through the yarn.\n(B) The person holds the needle with his right hand and uses his left hand to slightly raise the yarn, opening it up. With a steady motion, he inserts the needle through the yarn, guiding it smoothly while his right hand assists in positioning and pushing the needle through.\n(C) The person directs the needle into the yarn with his left hand while his right hand steadies the yarn, maintaining an opening to facilitate the process.\n(D) The person holds the needle with his left hand, using his right hand to position the yarn carefully, ensuring the needle remains straight.\n(E) The person sets the needle on the table and then helps the yarn align with it using one hand, attempting to guide it through in a methodical way.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person holds the needle with his right hand and uses his left hand to slightly raise the yarn, opening it up. With a steady motion, he inserts the needle through the yarn, guiding it smoothly while his right hand assists in positioning and pushing the needle through."
+    },
+    "correct_idx": [
+        1
+    ]
+}

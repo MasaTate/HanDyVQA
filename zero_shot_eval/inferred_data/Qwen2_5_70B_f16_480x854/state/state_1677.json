@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the plastic pipe change?",
+    "options": [
+        "The plastic pipe was bent into a U shape as the person prepared it for easier storage.",
+        "The plastic pipe was cut into shorter segments as the person arranged it for a new configuration.",
+        "The plastic pipe was coated with a layer of paint as the person altered it to enhance its appearance.",
+        "The plastic pipe was heated and reshaped as the person adjusted it to fit a specific angle.",
+        "The plastic pipe was changed as the person connected the pipes together."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the plastic pipe change? Choose **only one** option from the following list.\nOptions:\n(A) The plastic pipe was bent into a U shape as the person prepared it for easier storage.\n(B) The plastic pipe was cut into shorter segments as the person arranged it for a new configuration.\n(C) The plastic pipe was coated with a layer of paint as the person altered it to enhance its appearance.\n(D) The plastic pipe was heated and reshaped as the person adjusted it to fit a specific angle.\n(E) The plastic pipe was changed as the person connected the pipes together.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The plastic pipe was changed as the person connected the pipes together."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the bowl?",
+    "options": [
+        "The person placed the bowl on the bottom shelf of the pantry.",
+        "The person placed the bowl on the edge of the counter.",
+        "The person placed the bowl beside the fruit basket on the table.",
+        "The person placed the bowl on top of the bread rack.",
+        "The person placed the bowl on the island in the kitchen."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the bowl? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the bowl on the bottom shelf of the pantry.\n(B) The person placed the bowl on the edge of the counter.\n(C) The person placed the bowl beside the fruit basket on the table.\n(D) The person placed the bowl on top of the bread rack.\n(E) The person placed the bowl on the island in the kitchen.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person placed the bowl on top of the bread rack."
+    },
+    "correct_idx": [
+        3
+    ]
+}

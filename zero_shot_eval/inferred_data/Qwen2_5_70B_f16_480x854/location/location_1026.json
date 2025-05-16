@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the drill?",
+    "options": [
+        "The person dropped the drill at the left corner of the hydraulic working table.",
+        "The person dropped the drill at the right corner of the hydraulic working table.",
+        "The person dropped the drill at the center of the hydraulic working table.",
+        "The person dropped the drill at the right edge of the hydraulic working table.",
+        "The person dropped the drill at the left edge of the hydraulic working table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the drill? Choose **only one** option from the following list.\nOptions:\n(A) The person dropped the drill at the left corner of the hydraulic working table.\n(B) The person dropped the drill at the right corner of the hydraulic working table.\n(C) The person dropped the drill at the center of the hydraulic working table.\n(D) The person dropped the drill at the right edge of the hydraulic working table.\n(E) The person dropped the drill at the left edge of the hydraulic working table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person dropped the drill at the right edge of the hydraulic working table."
+    },
+    "correct_idx": [
+        1
+    ]
+}

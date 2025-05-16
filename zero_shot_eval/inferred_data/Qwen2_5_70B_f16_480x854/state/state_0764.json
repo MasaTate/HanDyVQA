@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the position of the frying pan on the cooker change?",
+    "options": [
+        "The frying pan was slid and rotated to the other side of the cooker.",
+        "The frying pan was lifted and relocated to a different burner on the cooker.",
+        "The frying pan was tilted and overturned on the same burner of the cooker.",
+        "The frying pan was pushed forward and subsequently pulled back on the cooker.",
+        "The frying pan was dropped and then lifted back up on the cooker."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the position of the frying pan on the cooker change? Choose **only one** option from the following list.\nOptions:\n(A) The frying pan was slid and rotated to the other side of the cooker.\n(B) The frying pan was lifted and relocated to a different burner on the cooker.\n(C) The frying pan was tilted and overturned on the same burner of the cooker.\n(D) The frying pan was pushed forward and subsequently pulled back on the cooker.\n(E) The frying pan was dropped and then lifted back up on the cooker.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The frying pan was slid and rotated to the other side of the cooker."
+    },
+    "correct_idx": [
+        0
+    ]
+}

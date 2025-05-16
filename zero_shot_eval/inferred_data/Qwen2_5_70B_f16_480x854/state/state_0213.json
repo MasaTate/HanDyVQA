@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the sieve change?",
+    "options": [
+        "The sieve was moved and held under flowing water.",
+        "The sieve was placed under a spray of water without moving it.",
+        "The sieve was held above water without moving it.",
+        "The sieve was moved to the side but not under flowing water.",
+        "The sieve was tilted and dipped into still water."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the sieve change? Choose **only one** option from the following list.\nOptions:\n(A) The sieve was moved and held under flowing water.\n(B) The sieve was placed under a spray of water without moving it.\n(C) The sieve was held above water without moving it.\n(D) The sieve was moved to the side but not under flowing water.\n(E) The sieve was tilted and dipped into still water.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The sieve was moved and held under flowing water."
+    },
+    "correct_idx": [
+        0
+    ]
+}

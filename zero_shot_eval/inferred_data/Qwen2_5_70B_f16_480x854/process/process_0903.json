@@ -1,0 +1,17 @@
+{
+    "question": "How does the person close the drawer?",
+    "options": [
+        "The person pulls the drawer closed by gripping the handle with the left hand.",
+        "The person pushes the drawer to close with the right hand.",
+        "The person slides the drawer shut using both hands pushing outward.",
+        "The person closes the drawer with a smooth motion of the right arm.",
+        "The person lifts the drawer slightly and sets it shut using both hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person close the drawer? Choose **only one** option from the following list.\nOptions:\n(A) The person pulls the drawer closed by gripping the handle with the left hand.\n(B) The person pushes the drawer to close with the right hand.\n(C) The person slides the drawer shut using both hands pushing outward.\n(D) The person closes the drawer with a smooth motion of the right arm.\n(E) The person lifts the drawer slightly and sets it shut using both hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person pushes the drawer to close with the right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

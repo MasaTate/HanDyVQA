@@ -1,0 +1,17 @@
+{
+    "question": "How does the person smooth the clay mold?",
+    "options": [
+        "The person gently applies pressure on the clay mold with both palms, moving smoothly across it.",
+        "The person smooths the clay mold by moving the right hand into the left using a crafting tool with the right hand.",
+        "The person carefully slides the clay mold with one hand while shaping it with the other.",
+        "The person gradually pinches the clay mold between the thumb and forefinger to form its shape.",
+        "The person lightly taps the clay mold with the back of the hand to refine the surface."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person smooth the clay mold? Choose **only one** option from the following list.\nOptions:\n(A) The person gently applies pressure on the clay mold with both palms, moving smoothly across it.\n(B) The person smooths the clay mold by moving the right hand into the left using a crafting tool with the right hand.\n(C) The person carefully slides the clay mold with one hand while shaping it with the other.\n(D) The person gradually pinches the clay mold between the thumb and forefinger to form its shape.\n(E) The person lightly taps the clay mold with the back of the hand to refine the surface.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person smooths the clay mold by moving the right hand into the left using a crafting tool with the right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

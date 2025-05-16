@@ -1,0 +1,17 @@
+{
+    "question": "How does the person sit the cardboard tube?",
+    "options": [
+        "The person grips the cardboard tube with both hands, tilts it slightly, and places it onto the floor, where it may roll.",
+        "The person places the cardboard tube horizontally by holding it with their right hand and gently guiding it across the desk.",
+        "The person steadies the cardboard tube with their right hand and softly tosses it, allowing it to land naturally.",
+        "The person holds the cardboard tube with both hands, raises it above their head, and lets it go, seeing where it lands.",
+        "The person holds the cardboard tube with their left hand, positions it vertically, and lowers it onto a flat surface. They adjust it slightly to balance, then release it to stand upright."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person sit the cardboard tube? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the cardboard tube with both hands, tilts it slightly, and places it onto the floor, where it may roll.\n(B) The person places the cardboard tube horizontally by holding it with their right hand and gently guiding it across the desk.\n(C) The person steadies the cardboard tube with their right hand and softly tosses it, allowing it to land naturally.\n(D) The person holds the cardboard tube with both hands, raises it above their head, and lets it go, seeing where it lands.\n(E) The person holds the cardboard tube with their left hand, positions it vertically, and lowers it onto a flat surface. They adjust it slightly to balance, then release it to stand upright.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person holds the cardboard tube with their left hand, positions it vertically, and lowers it onto a flat surface. They adjust it slightly to balance, then release it to stand upright."
+    },
+    "correct_idx": [
+        4
+    ]
+}

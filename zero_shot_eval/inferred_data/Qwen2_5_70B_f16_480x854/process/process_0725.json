@@ -1,0 +1,17 @@
+{
+    "question": "How does the person collect the chopsticks?",
+    "options": [
+        "The person calmly picks up the chopsticks with both hands, slightly bending forward.",
+        "The person gently collects the chopsticks by picking up and passing it from right fingertips to the left.",
+        "The person carefully gathers the chopsticks with the palm of the right hand.",
+        "The person tosses the chopsticks and captures them with the left hand.",
+        "The person steadies the chopsticks on their hand briefly before picking them up."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person collect the chopsticks? Choose **only one** option from the following list.\nOptions:\n(A) The person calmly picks up the chopsticks with both hands, slightly bending forward.\n(B) The person gently collects the chopsticks by picking up and passing it from right fingertips to the left.\n(C) The person carefully gathers the chopsticks with the palm of the right hand.\n(D) The person tosses the chopsticks and captures them with the left hand.\n(E) The person steadies the chopsticks on their hand briefly before picking them up.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person gently collects the chopsticks by picking up and passing it from right fingertips to the left."
+    },
+    "correct_idx": [
+        1
+    ]
+}

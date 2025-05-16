@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pull the drawer?",
+    "options": [
+        "The person grasps the drawer handle with both hands, pulling it outward with a quick but measured motion before letting it open.",
+        "The person places his palm on the side of the drawer, sliding it open smoothly without using the handle.",
+        "The person eases the drawer open with his fingers, allowing it to glide out without any abrupt movements.",
+        "The person pulls the drawer using his fingers, guiding it out carefully and keeping it steady.",
+        "The person grips the drawer handle with his left hand, pulling it outward with a firm but steady motion. After opening, he uses the same hand to push the drawer back into place, applying a gentle push until it closes."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pull the drawer? Choose **only one** option from the following list.\nOptions:\n(A) The person grasps the drawer handle with both hands, pulling it outward with a quick but measured motion before letting it open.\n(B) The person places his palm on the side of the drawer, sliding it open smoothly without using the handle.\n(C) The person eases the drawer open with his fingers, allowing it to glide out without any abrupt movements.\n(D) The person pulls the drawer using his fingers, guiding it out carefully and keeping it steady.\n(E) The person grips the drawer handle with his left hand, pulling it outward with a firm but steady motion. After opening, he uses the same hand to push the drawer back into place, applying a gentle push until it closes.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person grips the drawer handle with his left hand, pulling it outward with a firm but steady motion. After opening, he uses the same hand to push the drawer back into place, applying a gentle push until it closes."
+    },
+    "correct_idx": [
+        4
+    ]
+}

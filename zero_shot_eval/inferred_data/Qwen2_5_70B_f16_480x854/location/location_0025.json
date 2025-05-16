@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the screw gun?",
+    "options": [
+        "The person dropped the screw gun on the ground in front of his left foot.",
+        "The person dropped the screw gun on the workbench to his right.",
+        "The person dropped the screw gun on the shelf above his head.",
+        "The person dropped the screw gun on the floor behind him.",
+        "The person dropped the screw gun on the ground beside his right foot."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the screw gun? Choose **only one** option from the following list.\nOptions:\n(A) The person dropped the screw gun on the ground in front of his left foot.\n(B) The person dropped the screw gun on the workbench to his right.\n(C) The person dropped the screw gun on the shelf above his head.\n(D) The person dropped the screw gun on the floor behind him.\n(E) The person dropped the screw gun on the ground beside his right foot.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person dropped the screw gun on the ground beside his right foot."
+    },
+    "correct_idx": [
+        4
+    ]
+}

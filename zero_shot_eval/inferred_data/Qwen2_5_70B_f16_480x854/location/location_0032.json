@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the cover?",
+    "options": [
+        "The person placed the cover on a yellow bowl to his left.",
+        "The person placed the cover on a blue plate to his right.",
+        "The person placed the cover on a red pot in front of him.",
+        "The person placed the cover on a green dish beside him.",
+        "The person placed the cover on a white cup behind him."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the cover? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the cover on a yellow bowl to his left.\n(B) The person placed the cover on a blue plate to his right.\n(C) The person placed the cover on a red pot in front of him.\n(D) The person placed the cover on a green dish beside him.\n(E) The person placed the cover on a white cup behind him.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person placed the cover on a yellow bowl to his left."
+    },
+    "correct_idx": [
+        0
+    ]
+}

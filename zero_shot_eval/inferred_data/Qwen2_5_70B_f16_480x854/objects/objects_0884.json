@@ -1,0 +1,21 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "tote bag",
+        "card",
+        "paper",
+        "jacket",
+        "pants",
+        "gopro case",
+        "plant"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) tote bag\n(B) card\n(C) paper\n(D) jacket\n(E) pants\n(F) gopro case\n(G) plant\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(F) gopro case  \n(A) tote bag  \n\nThe hands in the video are interacting with a gopro case, which is placed inside a tote bag. The person appears to be organizing or retrieving items within the tote bag, specifically handling the gopro case."
+    },
+    "correct_idx": [
+        0,
+        2,
+        5
+    ]
+}

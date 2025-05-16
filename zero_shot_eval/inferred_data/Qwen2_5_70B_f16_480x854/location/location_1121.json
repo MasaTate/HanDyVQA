@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the power nail gun?",
+    "options": [
+        "The person drops the power nail gun on the left side of the table.",
+        "The person drops the power nail gun on the back side of the table.",
+        "The person drops the power nail gun on the front edge of the table.",
+        "The person drops the power nail gun on the center of the table.",
+        "The person drop the power nail gun on the right side of the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the power nail gun? Choose **only one** option from the following list.\nOptions:\n(A) The person drops the power nail gun on the left side of the table.\n(B) The person drops the power nail gun on the back side of the table.\n(C) The person drops the power nail gun on the front edge of the table.\n(D) The person drops the power nail gun on the center of the table.\n(E) The person drop the power nail gun on the right side of the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person drop the power nail gun on the right side of the table."
+    },
+    "correct_idx": [
+        4
+    ]
+}

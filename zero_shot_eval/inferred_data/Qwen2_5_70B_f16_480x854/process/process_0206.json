@@ -1,0 +1,17 @@
+{
+    "question": "How does the person lift the mirror close to the handle bar?",
+    "options": [
+        "The person grips the mirror at the top edge with both hands, lifting it gently while keeping it steady.",
+        "The person carefully pinches the mirror between their fingers at the bottom corner, lifting it with a smooth, sideways motion.",
+        "The person supports the mirror by the frame with their left hand, raising it slowly and keeping it stable.",
+        "The person lifts the bottom of the mirror with their palm while stabilizing it, ensuring better control.",
+        "The person grips the mirror near the handlebar with their right hand, curling their fingers around it. They lift it with a steady, upward motion of the wrist, keeping the mirror stable as it rises."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person lift the mirror close to the handle bar? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the mirror at the top edge with both hands, lifting it gently while keeping it steady.\n(B) The person carefully pinches the mirror between their fingers at the bottom corner, lifting it with a smooth, sideways motion.\n(C) The person supports the mirror by the frame with their left hand, raising it slowly and keeping it stable.\n(D) The person lifts the bottom of the mirror with their palm while stabilizing it, ensuring better control.\n(E) The person grips the mirror near the handlebar with their right hand, curling their fingers around it. They lift it with a steady, upward motion of the wrist, keeping the mirror stable as it rises.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person grips the mirror near the handlebar with their right hand, curling their fingers around it. They lift it with a steady, upward motion of the wrist, keeping the mirror stable as it rises."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a card change?",
+    "options": [
+        "The card was lifted up from the stack.",
+        "The card was flipped over from the stack.",
+        "The card was pushed down into the stack.",
+        "The card was removed from the stack and held in the air.",
+        "The card was shuffled back into the stack."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a card change? Choose **only one** option from the following list.\nOptions:\n(A) The card was lifted up from the stack.\n(B) The card was flipped over from the stack.\n(C) The card was pushed down into the stack.\n(D) The card was removed from the stack and held in the air.\n(E) The card was shuffled back into the stack.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The card was removed from the stack and held in the air."
+    },
+    "correct_idx": [
+        0
+    ]
+}

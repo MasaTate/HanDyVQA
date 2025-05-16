@@ -1,0 +1,17 @@
+{
+    "question": "How does the person paint the sliding door with the paint roller in his/her right hand?",
+    "options": [
+        "The person uses both hands to hold the paint roller and moves it across the sliding door with uneven motions, spreading paint on various areas.",
+        "The person paints the sliding door by holding the paint roller firmly in their right hand and with smooth, controlled strokes, they glide the roller up and down along the door's surface, evenly coating it with paint.",
+        "The person grips the paint roller lightly in their right hand, allowing it to move along the surface while making brief strokes on the door.",
+        "The person supports the paint roller with their left hand for added control but ends up spreading paint unevenly near the edges of the sliding door.",
+        "The person turns the paint roller in their right hand and moves it side to side, distributing paint unpredictably on the sliding door."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person paint the sliding door with the paint roller in his/her right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person uses both hands to hold the paint roller and moves it across the sliding door with uneven motions, spreading paint on various areas.\n(B) The person paints the sliding door by holding the paint roller firmly in their right hand and with smooth, controlled strokes, they glide the roller up and down along the door's surface, evenly coating it with paint.\n(C) The person grips the paint roller lightly in their right hand, allowing it to move along the surface while making brief strokes on the door.\n(D) The person supports the paint roller with their left hand for added control but ends up spreading paint unevenly near the edges of the sliding door.\n(E) The person turns the paint roller in their right hand and moves it side to side, distributing paint unpredictably on the sliding door.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person paints the sliding door by holding the paint roller firmly in their right hand and with smooth, controlled strokes, they glide the roller up and down along the door's surface, evenly coating it with paint."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person is trimming the tape with the scissors in his right hand while holding the roll of tape with his left hand.",
+        "The person's left hand holds the strap and cuts it with the cutter in his right hand.",
+        "The person is tearing the tape by hand while keeping it taut using both hands.",
+        "The person is measuring the tape with a measuring tape in his right hand while holding the cutter with his left hand.",
+        "The person is applying tape to a box with the adhesive side down, using his right hand to press it while holding the box in his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person is trimming the tape with the scissors in his right hand while holding the roll of tape with his left hand.\n(B) The person's left hand holds the strap and cuts it with the cutter in his right hand.\n(C) The person is tearing the tape by hand while keeping it taut using both hands.\n(D) The person is measuring the tape with a measuring tape in his right hand while holding the cutter with his left hand.\n(E) The person is applying tape to a box with the adhesive side down, using his right hand to press it while holding the box in his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person's left hand holds the strap and cuts it with the cutter in his right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

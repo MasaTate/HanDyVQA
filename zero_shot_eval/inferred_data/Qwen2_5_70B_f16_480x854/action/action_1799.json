@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person sprinkles salt on the nut with his right hand and then places it on the countertop.",
+        "The person is holding the nut with his left hand while peeling it with a knife in his right hand.",
+        "The person flips the nut over with his right hand and then sets it down on a plate.",
+        "The person dusts the nut with his right hand and then puts it on the white paper.",
+        "The person is rolling the nut in his right hand and then putting it into a bowl."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person sprinkles salt on the nut with his right hand and then places it on the countertop.\n(B) The person is holding the nut with his left hand while peeling it with a knife in his right hand.\n(C) The person flips the nut over with his right hand and then sets it down on a plate.\n(D) The person dusts the nut with his right hand and then puts it on the white paper.\n(E) The person is rolling the nut in his right hand and then putting it into a bowl.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person flips the nut over with his right hand and then sets it down on a plate."
+    },
+    "correct_idx": [
+        3
+    ]
+}

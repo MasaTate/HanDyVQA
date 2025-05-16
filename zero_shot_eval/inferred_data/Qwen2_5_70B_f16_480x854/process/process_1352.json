@@ -1,0 +1,17 @@
+{
+    "question": "How does the person scratch her left hand?",
+    "options": [
+        "The person scratches her left hand by using the palm of her right hand to rub it gently.",
+        "The person scratches her left hand by sliding her right fingers across the surface smoothly.",
+        "The person scratches her left hand by holding it with her right hand and moving it slightly.",
+        "The person scratches her left hand by moving the right hand fingers to the right.",
+        "The person scratches her left hand by tapping it gently with the fingertips of her right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person scratch her left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person scratches her left hand by using the palm of her right hand to rub it gently.\n(B) The person scratches her left hand by sliding her right fingers across the surface smoothly.\n(C) The person scratches her left hand by holding it with her right hand and moving it slightly.\n(D) The person scratches her left hand by moving the right hand fingers to the right.\n(E) The person scratches her left hand by tapping it gently with the fingertips of her right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person scratches her left hand by sliding her right fingers across the surface smoothly."
+    },
+    "correct_idx": [
+        3
+    ]
+}

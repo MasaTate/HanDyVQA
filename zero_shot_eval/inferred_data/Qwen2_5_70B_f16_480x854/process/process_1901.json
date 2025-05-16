@@ -1,0 +1,17 @@
+{
+    "question": "How does the person put the left hand?",
+    "options": [
+        "The person quickly places the left hand on the magazine and grips it snugly with the whole hand.",
+        "The person positions the left hand above the magazine and presses it down firmly with the palm.",
+        "The person suddenly lifts his left hand and puts it on the magazine and gently presses the middle finger.",
+        "The person carefully places the left hand beside the magazine and traces the surface with the fingernails.",
+        "The person raises the left hand over the magazine and moves it back and forth without making contact."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person put the left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person quickly places the left hand on the magazine and grips it snugly with the whole hand.\n(B) The person positions the left hand above the magazine and presses it down firmly with the palm.\n(C) The person suddenly lifts his left hand and puts it on the magazine and gently presses the middle finger.\n(D) The person carefully places the left hand beside the magazine and traces the surface with the fingernails.\n(E) The person raises the left hand over the magazine and moves it back and forth without making contact.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person suddenly lifts his left hand and puts it on the magazine and gently presses the middle finger."
+    },
+    "correct_idx": [
+        2
+    ]
+}

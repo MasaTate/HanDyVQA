@@ -1,0 +1,17 @@
+{
+    "question": "How does the person spread the flour?",
+    "options": [
+        "The person spreads the flour across the table carefully using both hands and moves some of it to the right.",
+        "The person uses the left hand to spread the flour on the table in a random manner while setting some in the center.",
+        "The person spreads the flour smoothly in a circular motion with the left hand and moves some to the far edge.",
+        "The person spreads the flour on the table using a steady back and forth motion with both hands but sets none aside.",
+        "The person spreads the flour on the table gently in different directions with the right hand and sets aside some of it to the left."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person spread the flour? Choose **only one** option from the following list.\nOptions:\n(A) The person spreads the flour across the table carefully using both hands and moves some of it to the right.\n(B) The person uses the left hand to spread the flour on the table in a random manner while setting some in the center.\n(C) The person spreads the flour smoothly in a circular motion with the left hand and moves some to the far edge.\n(D) The person spreads the flour on the table using a steady back and forth motion with both hands but sets none aside.\n(E) The person spreads the flour on the table gently in different directions with the right hand and sets aside some of it to the left.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person spreads the flour across the table carefully using both hands and moves some of it to the right."
+    },
+    "correct_idx": [
+        4
+    ]
+}

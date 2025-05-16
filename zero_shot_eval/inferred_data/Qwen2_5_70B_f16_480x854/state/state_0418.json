@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a yarn of wool change?",
+    "options": [
+        "The yarn of wool was moved and became tightly coiled.",
+        "The yarn of wool was picked up but stayed tangled.",
+        "The yarn of wool was dropped and ended up slightly frayed.",
+        "The yarn of wool was relocated and was loosely knotted.",
+        "The yarn of wool was moved but remained loose."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a yarn of wool change? Choose **only one** option from the following list.\nOptions:\n(A) The yarn of wool was moved and became tightly coiled.\n(B) The yarn of wool was picked up but stayed tangled.\n(C) The yarn of wool was dropped and ended up slightly frayed.\n(D) The yarn of wool was relocated and was loosely knotted.\n(E) The yarn of wool was moved but remained loose.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The yarn of wool was moved but remained loose."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the chopping board change?",
+    "options": [
+        "The chopping board was lifted off the counter as it was repositioned for cleaning.",
+        "The chopping board was turned over as it was used on the other side for chopping.",
+        "The chopping board was slightly cracked as it was subjected to too much pressure while cutting.",
+        "The chopping board was covered with a cloth as it was prepared for storage after use.",
+        "The chopping board was moved out of place as it shifted while setting aside the ingredients."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the chopping board change? Choose **only one** option from the following list.\nOptions:\n(A) The chopping board was lifted off the counter as it was repositioned for cleaning.\n(B) The chopping board was turned over as it was used on the other side for chopping.\n(C) The chopping board was slightly cracked as it was subjected to too much pressure while cutting.\n(D) The chopping board was covered with a cloth as it was prepared for storage after use.\n(E) The chopping board was moved out of place as it shifted while setting aside the ingredients.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The chopping board was moved out of place as it shifted while setting aside the ingredients."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the plastic bag?",
+    "options": [
+        "The person dropped the plastic bag on the top of countertop.",
+        "The person dropped the plastic bag on the kitchen floor.",
+        "The person dropped the plastic bag in the sink.",
+        "The person dropped the plastic bag beside the refrigerator.",
+        "The person dropped the plastic bag on the dining table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the plastic bag? Choose **only one** option from the following list.\nOptions:\n(A) The person dropped the plastic bag on the top of countertop.\n(B) The person dropped the plastic bag on the kitchen floor.\n(C) The person dropped the plastic bag in the sink.\n(D) The person dropped the plastic bag beside the refrigerator.\n(E) The person dropped the plastic bag on the dining table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person dropped the plastic bag on the top of countertop."
+    },
+    "correct_idx": [
+        0
+    ]
+}

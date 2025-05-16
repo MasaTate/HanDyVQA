@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a screw change?",
+    "options": [
+        "The screw was attached to the end of the hand drill and then moved towards the workbench.",
+        "The screw was attached to the end of the hand drill and then rotated away from the lawn mower.",
+        "The screw was attached to the end of the hand drill and then moved towards the lawn mower.",
+        "The screw was attached to the end of the hand drill and then pulled away from the lawn mower.",
+        "The screw was attached to the end of the hand drill and then moved away from the toolbox."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a screw change? Choose **only one** option from the following list.\nOptions:\n(A) The screw was attached to the end of the hand drill and then moved towards the workbench.\n(B) The screw was attached to the end of the hand drill and then rotated away from the lawn mower.\n(C) The screw was attached to the end of the hand drill and then moved towards the lawn mower.\n(D) The screw was attached to the end of the hand drill and then pulled away from the lawn mower.\n(E) The screw was attached to the end of the hand drill and then moved away from the toolbox.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The screw was attached to the end of the hand drill and then moved towards the lawn mower."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a bolt change?",
+    "options": [
+        "The bolt in the machine was removed from its socket for maintenance.",
+        "The bolt in the machine was turned to adjust its position.",
+        "The bolt in the machine was tightened to secure the components together.",
+        "The bolt in the machine was rusted, making it difficult to turn.",
+        "The bolt in the machine was replaced with a larger one for increased stability."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a bolt change? Choose **only one** option from the following list.\nOptions:\n(A) The bolt in the machine was removed from its socket for maintenance.\n(B) The bolt in the machine was turned to adjust its position.\n(C) The bolt in the machine was tightened to secure the components together.\n(D) The bolt in the machine was rusted, making it difficult to turn.\n(E) The bolt in the machine was replaced with a larger one for increased stability.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The bolt in the machine was tightened to secure the components together."
+    },
+    "correct_idx": [
+        1
+    ]
+}

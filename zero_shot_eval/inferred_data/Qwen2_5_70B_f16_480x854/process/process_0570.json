@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pour the engine oil?",
+    "options": [
+        "The person pours the engine oil by using their left hand to slightly shake the bottle, attempting to manage the flow with a gentle wrist movement.",
+        "The person tips the engine oil bottle upside down with both hands, trying to control the flow and keeping the oil under control.",
+        "The person holds the oil bottle with one hand while directing the flow into the engine using a steady wrist movement.",
+        "The person pours the engine oil by using their right hand to tilt the bottle carefully while their left hand holds the lid cap steady, controlling the pour with a gentle wrist movement to ensure the oil flows smoothly.",
+        "The person carefully holds the engine oil bottle with both hands while turning it sideways, ensuring a steady flow for a controlled pour."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pour the engine oil? Choose **only one** option from the following list.\nOptions:\n(A) The person pours the engine oil by using their left hand to slightly shake the bottle, attempting to manage the flow with a gentle wrist movement.\n(B) The person tips the engine oil bottle upside down with both hands, trying to control the flow and keeping the oil under control.\n(C) The person holds the oil bottle with one hand while directing the flow into the engine using a steady wrist movement.\n(D) The person pours the engine oil by using their right hand to tilt the bottle carefully while their left hand holds the lid cap steady, controlling the pour with a gentle wrist movement to ensure the oil flows smoothly.\n(E) The person carefully holds the engine oil bottle with both hands while turning it sideways, ensuring a steady flow for a controlled pour.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person pours the engine oil by using their right hand to tilt the bottle carefully while their left hand holds the lid cap steady, controlling the pour with a gentle wrist movement to ensure the oil flows smoothly."
+    },
+    "correct_idx": [
+        3
+    ]
+}

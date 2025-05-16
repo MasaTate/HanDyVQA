@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person types on the keyboard of a desktop computer using the left hand and then begins to knit the yarn with knitting needles in her right hand.",
+        "The person taps the touchscreen of a tablet with her left hand and then starts to sew the fabric on a sewing machine using her right hand.",
+        "The person presses the keyboard of the laptop using the right hand and then starts to crochet the wool with the crochet hook in her right hand.",
+        "The person scrolls through a smartphone with her right hand and then assembles a puzzle on the table using both hands.",
+        "The person plays a video game on a gaming console with her left hand and then paints a picture on a canvas with a paintbrush in her right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person types on the keyboard of a desktop computer using the left hand and then begins to knit the yarn with knitting needles in her right hand.\n(B) The person taps the touchscreen of a tablet with her left hand and then starts to sew the fabric on a sewing machine using her right hand.\n(C) The person presses the keyboard of the laptop using the right hand and then starts to crochet the wool with the crochet hook in her right hand.\n(D) The person scrolls through a smartphone with her right hand and then assembles a puzzle on the table using both hands.\n(E) The person plays a video game on a gaming console with her left hand and then paints a picture on a canvas with a paintbrush in her right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person presses the keyboard of the laptop using the right hand and then starts to crochet the wool with the crochet hook in her right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

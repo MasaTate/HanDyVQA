@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the napkin change?",
+    "options": [
+        "The napkin became crumpled and discolored as it was squeezed in a tight grip and dropped.",
+        "The napkin was torn into several strips as it was pulled apart during contact with a sticky substance.",
+        "The napkin became wet and wrinkled as it was soaked in water and wrung out.",
+        "The napkin was folded into intricate shapes as it was carefully arranged for a table setting.",
+        "The napkin was stained with food and grease as it was used to clean up a spill."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the napkin change? Choose **only one** option from the following list.\nOptions:\n(A) The napkin became crumpled and discolored as it was squeezed in a tight grip and dropped.\n(B) The napkin was torn into several strips as it was pulled apart during contact with a sticky substance.\n(C) The napkin became wet and wrinkled as it was soaked in water and wrung out.\n(D) The napkin was folded into intricate shapes as it was carefully arranged for a table setting.\n(E) The napkin was stained with food and grease as it was used to clean up a spill.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The napkin became wet and wrinkled as it was soaked in water and wrung out."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person remove some leaves?",
+    "options": [
+        "The person pulls up leaves and roots with their left hand.",
+        "The person uses both hands to gently lift the leaves from the stem.",
+        "The person lightly pinches the leaves between their fingers and carefully twists them off.",
+        "The person holds the leaves with their right hand while using a tool in their left hand near the soil.",
+        "The person softly presses down on the leaves with their palm, attempting to flatten them."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person remove some leaves? Choose **only one** option from the following list.\nOptions:\n(A) The person pulls up leaves and roots with their left hand.\n(B) The person uses both hands to gently lift the leaves from the stem.\n(C) The person lightly pinches the leaves between their fingers and carefully twists them off.\n(D) The person holds the leaves with their right hand while using a tool in their left hand near the soil.\n(E) The person softly presses down on the leaves with their palm, attempting to flatten them.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person lightly pinches the leaves between their fingers and carefully twists them off."
+    },
+    "correct_idx": [
+        0
+    ]
+}

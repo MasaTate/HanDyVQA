@@ -1,0 +1,17 @@
+{
+    "question": "How does the person touch an equipment?",
+    "options": [
+        "The person makes contact with the equipment using both hands in unison.",
+        "The person brushes against the equipment with the tips of his fingertips on his left hand.",
+        "The person presses his palm gently against the equipment using his dominant hand.",
+        "The person grabs the equipment with his right hand and drops it on the table.",
+        "The person grips the equipment slightly between his thumb and index finger on his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person touch an equipment? Choose **only one** option from the following list.\nOptions:\n(A) The person makes contact with the equipment using both hands in unison.\n(B) The person brushes against the equipment with the tips of his fingertips on his left hand.\n(C) The person presses his palm gently against the equipment using his dominant hand.\n(D) The person grabs the equipment with his right hand and drops it on the table.\n(E) The person grips the equipment slightly between his thumb and index finger on his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person grips the equipment slightly between his thumb and index finger on his right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

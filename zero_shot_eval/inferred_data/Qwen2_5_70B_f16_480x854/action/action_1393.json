@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person firmly holds the paper with his left hand while reading it.",
+        "The person tightly grips the paper with his right hand while looking away.",
+        "The person casually holds the paper with his left hand while writing notes.",
+        "The person is folding the paper with his left hand while talking on the phone.",
+        "The person is tossing the paper with his right hand while glancing at a screen."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person firmly holds the paper with his left hand while reading it.\n(B) The person tightly grips the paper with his right hand while looking away.\n(C) The person casually holds the paper with his left hand while writing notes.\n(D) The person is folding the paper with his left hand while talking on the phone.\n(E) The person is tossing the paper with his right hand while glancing at a screen.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person firmly holds the paper with his left hand while reading it."
+    },
+    "correct_idx": [
+        0
+    ]
+}

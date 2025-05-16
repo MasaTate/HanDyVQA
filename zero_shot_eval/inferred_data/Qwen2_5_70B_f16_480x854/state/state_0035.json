@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the food change?",
+    "options": [
+        "The food was vigorously stirred and became fully combined.",
+        "The food was gently stirred, then left to settle and separate slightly.",
+        "The food was gently stirred but was not entirely mixed.",
+        "The food was stirred in one direction, leading to some spillage.",
+        "The food was stirred with care, but an extra ingredient was added."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the food change? Choose **only one** option from the following list.\nOptions:\n(A) The food was vigorously stirred and became fully combined.\n(B) The food was gently stirred, then left to settle and separate slightly.\n(C) The food was gently stirred but was not entirely mixed.\n(D) The food was stirred in one direction, leading to some spillage.\n(E) The food was stirred with care, but an extra ingredient was added.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The food was vigorously stirred and became fully combined."
+    },
+    "correct_idx": [
+        2
+    ]
+}

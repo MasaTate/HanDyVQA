@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of stones change?",
+    "options": [
+        "One of the stones was rolled away from the original pile and placed on the ground.",
+        "One of the stones was taken out of the bucket and placed back with the rest of the stones.",
+        "One of the stones was picked up and set aside on a different surface.",
+        "One of the stones was thrown into the bucket that had been placed there.",
+        "One of the stones was broken into smaller pieces upon impact with the ground."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of stones change? Choose **only one** option from the following list.\nOptions:\n(A) One of the stones was rolled away from the original pile and placed on the ground.\n(B) One of the stones was taken out of the bucket and placed back with the rest of the stones.\n(C) One of the stones was picked up and set aside on a different surface.\n(D) One of the stones was thrown into the bucket that had been placed there.\n(E) One of the stones was broken into smaller pieces upon impact with the ground.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) One of the stones was taken out of the bucket and placed back with the rest of the stones."
+    },
+    "correct_idx": [
+        3
+    ]
+}

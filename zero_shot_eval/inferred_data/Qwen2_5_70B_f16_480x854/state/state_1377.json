@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the casing change?",
+    "options": [
+        "The casing was lying in the cabinet, taken and inserted in a metal stick, and then smashed upward and downward repeatedly.",
+        "The casing was lying on the counter, picked up and placed inside a wooden box, and then shaken side to side.",
+        "The casing was lying on a shelf, grabbed and inserted into a plastic container, and then rolled back and forth on the table.",
+        "The casing was left on the floor, lifted and dropped into a cardboard box, and then tossed around.",
+        "The casing was resting on a desk, removed and set inside a glass jar, and then spun around."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the casing change? Choose **only one** option from the following list.\nOptions:\n(A) The casing was lying in the cabinet, taken and inserted in a metal stick, and then smashed upward and downward repeatedly.\n(B) The casing was lying on the counter, picked up and placed inside a wooden box, and then shaken side to side.\n(C) The casing was lying on a shelf, grabbed and inserted into a plastic container, and then rolled back and forth on the table.\n(D) The casing was left on the floor, lifted and dropped into a cardboard box, and then tossed around.\n(E) The casing was resting on a desk, removed and set inside a glass jar, and then spun around.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The casing was lying in the cabinet, taken and inserted in a metal stick, and then smashed upward and downward repeatedly."
+    },
+    "correct_idx": [
+        0
+    ]
+}

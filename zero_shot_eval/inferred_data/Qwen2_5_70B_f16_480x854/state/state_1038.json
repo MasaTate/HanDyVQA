@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the meat in the fry pan change?",
+    "options": [
+        "The meat in the pan was slightly lifted, causing some pieces to fall out.",
+        "The meat in the pan was unevenly stirred, with some pieces sticking together.",
+        "The meat in the pan was pushed to one side without being stirred.",
+        "The meat in the pan was evenly stirred without falling off.",
+        "The meat in the pan was stirred vigorously, causing pieces to flip out."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the meat in the fry pan change? Choose **only one** option from the following list.\nOptions:\n(A) The meat in the pan was slightly lifted, causing some pieces to fall out.\n(B) The meat in the pan was unevenly stirred, with some pieces sticking together.\n(C) The meat in the pan was pushed to one side without being stirred.\n(D) The meat in the pan was evenly stirred without falling off.\n(E) The meat in the pan was stirred vigorously, causing pieces to flip out.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The meat in the pan was evenly stirred without falling off."
+    },
+    "correct_idx": [
+        3
+    ]
+}

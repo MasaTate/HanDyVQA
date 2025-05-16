@@ -1,0 +1,17 @@
+{
+    "question": "How does the person carry the wheel?",
+    "options": [
+        "The person lifted the wheel by holding it on both sides with their hands.",
+        "The person held the wheel with one hand while using a knee for balance.",
+        "The person moved the wheel by pushing it along the ground with a hand.",
+        "The person lifted the wheel by grabbing the rim with their right hand.",
+        "The person grasped the wheel underneath with both hands to support it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person carry the wheel? Choose **only one** option from the following list.\nOptions:\n(A) The person lifted the wheel by holding it on both sides with their hands.\n(B) The person held the wheel with one hand while using a knee for balance.\n(C) The person moved the wheel by pushing it along the ground with a hand.\n(D) The person lifted the wheel by grabbing the rim with their right hand.\n(E) The person grasped the wheel underneath with both hands to support it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person lifted the wheel by holding it on both sides with their hands."
+    },
+    "correct_idx": [
+        3
+    ]
+}

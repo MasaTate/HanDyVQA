@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person drop the blade on the speaker magnet?",
+    "options": [
+        "The person dropped the blade on the speaker magnet on her right.",
+        "The person dropped the blade on the speaker magnet on her left.",
+        "The person dropped the blade near the speaker magnet in front of her.",
+        "The person dropped the blade on the speaker magnet behind her.",
+        "The person dropped the blade beside the speaker magnet to the right."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person drop the blade on the speaker magnet? Choose **only one** option from the following list.\nOptions:\n(A) The person dropped the blade on the speaker magnet on her right.\n(B) The person dropped the blade on the speaker magnet on her left.\n(C) The person dropped the blade near the speaker magnet in front of her.\n(D) The person dropped the blade on the speaker magnet behind her.\n(E) The person dropped the blade beside the speaker magnet to the right.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person dropped the blade on the speaker magnet on her left."
+    },
+    "correct_idx": [
+        0
+    ]
+}

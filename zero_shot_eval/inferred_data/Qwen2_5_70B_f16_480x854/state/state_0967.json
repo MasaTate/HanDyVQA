@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the door cabinet change?",
+    "options": [
+        "The door cabinet was opened fully and left open.",
+        "The door cabinet was slightly opened and left ajar.",
+        "The door cabinet was first closed and then partially opened.",
+        "The door cabinet was opened but not fully opened, then suddenly closed.",
+        "The door cabinet was opened fully and closed halfway."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the door cabinet change? Choose **only one** option from the following list.\nOptions:\n(A) The door cabinet was opened fully and left open.\n(B) The door cabinet was slightly opened and left ajar.\n(C) The door cabinet was first closed and then partially opened.\n(D) The door cabinet was opened but not fully opened, then suddenly closed.\n(E) The door cabinet was opened fully and closed halfway.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The door cabinet was slightly opened and left ajar."
+    },
+    "correct_idx": [
+        3
+    ]
+}

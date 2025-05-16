@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the needle change?",
+    "options": [
+        "The needle was withdrawn from the left part of the sponge.",
+        "The needle was inserted into the right part of the sponge.",
+        "The needle was inserted into the central section of the sponge.",
+        "The needle was pushed into the upper edge of the sponge.",
+        "The needle was removed from the right part of the sponge."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the needle change? Choose **only one** option from the following list.\nOptions:\n(A) The needle was withdrawn from the left part of the sponge.\n(B) The needle was inserted into the right part of the sponge.\n(C) The needle was inserted into the central section of the sponge.\n(D) The needle was pushed into the upper edge of the sponge.\n(E) The needle was removed from the right part of the sponge.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The needle was inserted into the central section of the sponge."
+    },
+    "correct_idx": [
+        1
+    ]
+}

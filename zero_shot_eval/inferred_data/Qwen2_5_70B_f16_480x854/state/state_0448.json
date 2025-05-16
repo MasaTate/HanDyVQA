@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the pot change?",
+    "options": [
+        "The pot was filled with water but not rinsed, and tilted to the side over the sink.",
+        "The pot was shaken while being rinsed with water, and flipped and moved to the counter.",
+        "The pot was rinsed with water but not shaken, and slid across the counter to the stove.",
+        "The pot was rinsed without shaking, then lifted and placed back in the cabinet.",
+        "The pot was shaken with the lid on and placed in the drying rack."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the pot change? Choose **only one** option from the following list.\nOptions:\n(A) The pot was filled with water but not rinsed, and tilted to the side over the sink.\n(B) The pot was shaken while being rinsed with water, and flipped and moved to the counter.\n(C) The pot was rinsed with water but not shaken, and slid across the counter to the stove.\n(D) The pot was rinsed without shaking, then lifted and placed back in the cabinet.\n(E) The pot was shaken with the lid on and placed in the drying rack.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The pot was shaken while being rinsed with water, and flipped and moved to the counter."
+    },
+    "correct_idx": [
+        1
+    ]
+}

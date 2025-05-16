@@ -1,0 +1,17 @@
+{
+    "question": "How does the person hold the fan belt with his left hand?",
+    "options": [
+        "The person pinches the fan belt between his thumb and forefinger, using a light touch to maintain its position.",
+        "The person holds the fan belt with his left hand by gripping it firmly, applying pressure to prevent it from slipping while ensuring a steady hold.",
+        "The person holds the fan belt loosely with his left hand, allowing it to rest with a relaxed grip.",
+        "The person supports the fan belt on his left hand, using the palm while keeping his fingers slightly apart.",
+        "The person wraps the fan belt around his left wrist, securing it in place rather than gripping it directly."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person hold the fan belt with his left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person pinches the fan belt between his thumb and forefinger, using a light touch to maintain its position.\n(B) The person holds the fan belt with his left hand by gripping it firmly, applying pressure to prevent it from slipping while ensuring a steady hold.\n(C) The person holds the fan belt loosely with his left hand, allowing it to rest with a relaxed grip.\n(D) The person supports the fan belt on his left hand, using the palm while keeping his fingers slightly apart.\n(E) The person wraps the fan belt around his left wrist, securing it in place rather than gripping it directly.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person holds the fan belt with his left hand by gripping it firmly, applying pressure to prevent it from slipping while ensuring a steady hold."
+    },
+    "correct_idx": [
+        1
+    ]
+}

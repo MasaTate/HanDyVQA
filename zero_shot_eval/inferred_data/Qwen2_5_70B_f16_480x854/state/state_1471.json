@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of some twigs change?",
+    "options": [
+        "The twigs were softly lifted, but their position remained unchanged.",
+        "The twigs were roughly lifted, altering their position.",
+        "The twigs were roughly lifted and then returned to their original position.",
+        "The twigs were slightly moved but not lifted, resulting in a slight change in their position.",
+        "The twigs were carefully lifted, leaving their arrangement nearly identical."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of some twigs change? Choose **only one** option from the following list.\nOptions:\n(A) The twigs were softly lifted, but their position remained unchanged.\n(B) The twigs were roughly lifted, altering their position.\n(C) The twigs were roughly lifted and then returned to their original position.\n(D) The twigs were slightly moved but not lifted, resulting in a slight change in their position.\n(E) The twigs were carefully lifted, leaving their arrangement nearly identical.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The twigs were roughly lifted, altering their position."
+    },
+    "correct_idx": [
+        1
+    ]
+}

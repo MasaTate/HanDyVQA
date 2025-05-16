@@ -1,0 +1,17 @@
+{
+    "question": "How does the person transfer the screws?",
+    "options": [
+        "The person transfers the screws by extending his right hand toward the screws on the worktable, carefully grasping them one at a time, then lifts each screw with a quick yet controlled motion, then shifts his hand smoothly toward his left palm.",
+        "The person scoops the screws up with his right hand using all fingers, then carefully shifts them into his left hand while monitoring their movement.",
+        "The person uses his right thumb and forefinger to pick a few screws at once, then swings his hand gently from the table to above his left palm, allowing them to fall in.",
+        "The person slides the screws to the edge of the table with his right hand, gathers them up, and then transfers them by letting them slide smoothly into his left palm.",
+        "The person gathers the screws using his fingertips, keeping a firm grip before softly placing them into his left palm while maintaining control."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person transfer the screws? Choose **only one** option from the following list.\nOptions:\n(A) The person transfers the screws by extending his right hand toward the screws on the worktable, carefully grasping them one at a time, then lifts each screw with a quick yet controlled motion, then shifts his hand smoothly toward his left palm.\n(B) The person scoops the screws up with his right hand using all fingers, then carefully shifts them into his left hand while monitoring their movement.\n(C) The person uses his right thumb and forefinger to pick a few screws at once, then swings his hand gently from the table to above his left palm, allowing them to fall in.\n(D) The person slides the screws to the edge of the table with his right hand, gathers them up, and then transfers them by letting them slide smoothly into his left palm.\n(E) The person gathers the screws using his fingertips, keeping a firm grip before softly placing them into his left palm while maintaining control.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person transfers the screws by extending his right hand toward the screws on the worktable, carefully grasping them one at a time, then lifts each screw with a quick yet controlled motion, then shifts his hand smoothly toward his left palm."
+    },
+    "correct_idx": [
+        0
+    ]
+}

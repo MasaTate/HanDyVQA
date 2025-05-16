@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the water change?",
+    "options": [
+        "The water was spilled from the cup onto the table, spreading across the surface.",
+        "The water was poured from the basin into the sink, flowing steadily.",
+        "The water was frozen into ice cubes in the tray, changing to a solid state.",
+        "The water was evaporated into steam after being heated on the stove, transitioning to a gaseous state.",
+        "The water was stirred in the pot, forming ripples across the surface."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the water change? Choose **only one** option from the following list.\nOptions:\n(A) The water was spilled from the cup onto the table, spreading across the surface.\n(B) The water was poured from the basin into the sink, flowing steadily.\n(C) The water was frozen into ice cubes in the tray, changing to a solid state.\n(D) The water was evaporated into steam after being heated on the stove, transitioning to a gaseous state.\n(E) The water was stirred in the pot, forming ripples across the surface.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The water was poured from the basin into the sink, flowing steadily."
+    },
+    "correct_idx": [
+        1
+    ]
+}

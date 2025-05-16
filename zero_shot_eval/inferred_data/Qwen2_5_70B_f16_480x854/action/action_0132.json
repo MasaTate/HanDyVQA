@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person's right hand holds a screwdriver while the left hand adjusts something on the lawnmower.",
+        "The person's right hand holds a wrench while the left hand inspects under the lawnmower.",
+        "The person's right hand holds a hose while the left hand cleans something on the lawnmower.",
+        "The person's right hand holds a rake while the left hand moves the lawnmower forward.",
+        "The person's right hand holds a flashlight while the left hand fixes something under the lawnmower."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person's right hand holds a screwdriver while the left hand adjusts something on the lawnmower.\n(B) The person's right hand holds a wrench while the left hand inspects under the lawnmower.\n(C) The person's right hand holds a hose while the left hand cleans something on the lawnmower.\n(D) The person's right hand holds a rake while the left hand moves the lawnmower forward.\n(E) The person's right hand holds a flashlight while the left hand fixes something under the lawnmower.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person's right hand holds a flashlight while the left hand fixes something under the lawnmower."
+    },
+    "correct_idx": [
+        4
+    ]
+}

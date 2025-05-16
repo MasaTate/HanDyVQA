@@ -1,0 +1,17 @@
+{
+    "question": "How does the person brush the bicycle?",
+    "options": [
+        "The person scrubs the bicycle using a cloth that he holds in his right hand and moves it in circular motions around the frame.",
+        "The person wipes the bicycle with a sponge that he holds gently in his hands and swipes it mainly in an upward direction.",
+        "The person brushes the bicycle using the brush that he holds firmly with the fingertips of his right hand and moves it in left and right directions and then upwards and downwards. After that, he transfers the brush to his left hand and brushes the bicycle in the left and right directions too.",
+        "The person cleans the bicycle using a spray can held in his right hand and applies it while turning in a circle.",
+        "The person polishes the bicycle using a rag clutched in his left hand and moves it back and forth smoothly."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person brush the bicycle? Choose **only one** option from the following list.\nOptions:\n(A) The person scrubs the bicycle using a cloth that he holds in his right hand and moves it in circular motions around the frame.\n(B) The person wipes the bicycle with a sponge that he holds gently in his hands and swipes it mainly in an upward direction.\n(C) The person brushes the bicycle using the brush that he holds firmly with the fingertips of his right hand and moves it in left and right directions and then upwards and downwards. After that, he transfers the brush to his left hand and brushes the bicycle in the left and right directions too.\n(D) The person cleans the bicycle using a spray can held in his right hand and applies it while turning in a circle.\n(E) The person polishes the bicycle using a rag clutched in his left hand and moves it back and forth smoothly.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person brushes the bicycle using the brush that he holds firmly with the fingertips of his right hand and moves it in left and right directions and then upwards and downwards. After that, he transfers the brush to his left hand and brushes the bicycle in the left and right directions too."
+    },
+    "correct_idx": [
+        2
+    ]
+}

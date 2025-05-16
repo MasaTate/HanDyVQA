@@ -1,0 +1,17 @@
+{
+    "question": "How does the person receive a card?",
+    "options": [
+        "The person received the card quickly from the person in front and then held it with the right hand while keeping it slightly raised.",
+        "The person received the card with both hands, then handled it carefully before placing it on the table.",
+        "The person reached out with the right hand, missed initially, then used the left hand to grasp the card and put it smoothly into a pocket.",
+        "The person received the card from the person in front and then, the person received it using their left hand and put the card down slowly on the table.",
+        "The person was handed the card, which they received using their right hand with a gentle motion before placing it onto the table."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person receive a card? Choose **only one** option from the following list.\nOptions:\n(A) The person received the card quickly from the person in front and then held it with the right hand while keeping it slightly raised.\n(B) The person received the card with both hands, then handled it carefully before placing it on the table.\n(C) The person reached out with the right hand, missed initially, then used the left hand to grasp the card and put it smoothly into a pocket.\n(D) The person received the card from the person in front and then, the person received it using their left hand and put the card down slowly on the table.\n(E) The person was handed the card, which they received using their right hand with a gentle motion before placing it onto the table.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person was handed the card, which they received using their right hand with a gentle motion before placing it onto the table."
+    },
+    "correct_idx": [
+        3
+    ]
+}

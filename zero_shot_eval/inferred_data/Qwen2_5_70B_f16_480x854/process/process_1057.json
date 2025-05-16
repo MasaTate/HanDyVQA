@@ -1,0 +1,17 @@
+{
+    "question": "How does the person raise his left hand?",
+    "options": [
+        "The person lifts his left hand with a clenched fist, keeping his fingers closely together to maintain a firm grip.",
+        "The person raises his left hand with the back of his hand facing up, gently curling his fingers as he does so.",
+        "The person elevates his left hand while keeping it straight and slightly rigid, using his wrist to move it upwards.",
+        "The person slowly lifts his left hand by bending at the elbow, tucking his fingers smoothly against the palm.",
+        "The person raises the palm of his left hand and spreads his fingers to get a clearer view of his palm."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person raise his left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person lifts his left hand with a clenched fist, keeping his fingers closely together to maintain a firm grip.\n(B) The person raises his left hand with the back of his hand facing up, gently curling his fingers as he does so.\n(C) The person elevates his left hand while keeping it straight and slightly rigid, using his wrist to move it upwards.\n(D) The person slowly lifts his left hand by bending at the elbow, tucking his fingers smoothly against the palm.\n(E) The person raises the palm of his left hand and spreads his fingers to get a clearer view of his palm.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person slowly lifts his left hand by bending at the elbow, tucking his fingers smoothly against the palm."
+    },
+    "correct_idx": [
+        4
+    ]
+}

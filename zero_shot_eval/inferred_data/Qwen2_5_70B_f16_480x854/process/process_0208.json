@@ -1,0 +1,17 @@
+{
+    "question": "How does the person uncover the liquid container?",
+    "options": [
+        "The person uncovers the liquid container by twisting the cap with her right hand while steadying the bottle with her left hand.",
+        "The person holds the liquid container with the right hand while twisting it open with the left hand.",
+        "The person uses both hands to lift the liquid container and gently opens it with a twist.",
+        "The person tilts the liquid container and allows the cap to gently come off.",
+        "The person grasps the liquid container and smoothly removes the lid with a steady pull using the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person uncover the liquid container? Choose **only one** option from the following list.\nOptions:\n(A) The person uncovers the liquid container by twisting the cap with her right hand while steadying the bottle with her left hand.\n(B) The person holds the liquid container with the right hand while twisting it open with the left hand.\n(C) The person uses both hands to lift the liquid container and gently opens it with a twist.\n(D) The person tilts the liquid container and allows the cap to gently come off.\n(E) The person grasps the liquid container and smoothly removes the lid with a steady pull using the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person uncovers the liquid container by twisting the cap with her right hand while steadying the bottle with her left hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

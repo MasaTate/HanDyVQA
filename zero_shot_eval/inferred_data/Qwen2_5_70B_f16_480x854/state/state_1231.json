@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a crochet pin change?",
+    "options": [
+        "The crochet pin was rotated slightly, while another crochet hook was kept stationary nearby.",
+        "The crochet pin was placed in a new position with a nearby crochet hook remaining unmoved.",
+        "The crochet pin was fixed and another crochet hook was moved nearby.",
+        "The crochet pin was picked up, while the other crochet hook stayed untouched nearby.",
+        "The crochet pin was slightly bent as another crochet hook was held close to it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a crochet pin change? Choose **only one** option from the following list.\nOptions:\n(A) The crochet pin was rotated slightly, while another crochet hook was kept stationary nearby.\n(B) The crochet pin was placed in a new position with a nearby crochet hook remaining unmoved.\n(C) The crochet pin was fixed and another crochet hook was moved nearby.\n(D) The crochet pin was picked up, while the other crochet hook stayed untouched nearby.\n(E) The crochet pin was slightly bent as another crochet hook was held close to it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The crochet pin was picked up, while the other crochet hook stayed untouched nearby."
+    },
+    "correct_idx": [
+        2
+    ]
+}

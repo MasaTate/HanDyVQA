@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the cup of drink change?",
+    "options": [
+        "The cup was knocked over, resulting in a spill that altered the cup's position and the state of the drink inside.",
+        "The cup was filled completely, causing it to overflow and change the volume of the drink.",
+        "The cup was handed over, causing a change in possession as it was transferred.",
+        "The cup was placed in a microwave, altering the temperature of the drink as it was heated.",
+        "The cup was cleaned thoroughly, altering its state from dirty to clean and changing its appearance."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the cup of drink change? Choose **only one** option from the following list.\nOptions:\n(A) The cup was knocked over, resulting in a spill that altered the cup's position and the state of the drink inside.\n(B) The cup was filled completely, causing it to overflow and change the volume of the drink.\n(C) The cup was handed over, causing a change in possession as it was transferred.\n(D) The cup was placed in a microwave, altering the temperature of the drink as it was heated.\n(E) The cup was cleaned thoroughly, altering its state from dirty to clean and changing its appearance.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The cup was handed over, causing a change in possession as it was transferred."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a wire - roll inside the 3d printer change?",
+    "options": [
+        "The wire was pulled out but then the roll was rotated clockwise.",
+        "The roll was rotated counterclockwise without the wire being pulled out.",
+        "The wire was pushed into the roll and then the roll was rotated counterclockwise.",
+        "The wire was pulled out, but the roll remained stationary.",
+        "The wire was pulled out and then the roll was rotated counterclockwise."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a wire - roll inside the 3d printer change? Choose **only one** option from the following list.\nOptions:\n(A) The wire was pulled out but then the roll was rotated clockwise.\n(B) The roll was rotated counterclockwise without the wire being pulled out.\n(C) The wire was pushed into the roll and then the roll was rotated counterclockwise.\n(D) The wire was pulled out, but the roll remained stationary.\n(E) The wire was pulled out and then the roll was rotated counterclockwise.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The wire was pulled out and then the roll was rotated counterclockwise."
+    },
+    "correct_idx": [
+        4
+    ]
+}

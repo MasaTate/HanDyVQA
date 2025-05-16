@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person adjusts the brightness knob using their right hand while holding the device with their left hand.",
+        "The person presses the power button using their right hand while keeping the device steady with their left hand.",
+        "The person mutes the sound using the touchpad with their left hand while cradling the device in their right hand.",
+        "The person increases the volume by tapping the button using their right hand while balancing the device with their left hand.",
+        "The person adjusts the volume button using their right hand while setting the device in their left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person adjusts the brightness knob using their right hand while holding the device with their left hand.\n(B) The person presses the power button using their right hand while keeping the device steady with their left hand.\n(C) The person mutes the sound using the touchpad with their left hand while cradling the device in their right hand.\n(D) The person increases the volume by tapping the button using their right hand while balancing the device with their left hand.\n(E) The person adjusts the volume button using their right hand while setting the device in their left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person adjusts the volume button using their right hand while setting the device in their left hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

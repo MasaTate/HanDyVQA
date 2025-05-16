@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place his left hand?",
+    "options": [
+        "The person placed his left hand at the bottom handle of the grass cutter.",
+        "The person placed his left hand on the side of the grass cutter.",
+        "The person placed his left hand on the control panel of the grass cutter.",
+        "The person placed his left hand at the front edge of the grass cutter.",
+        "The person placed his left hand at the top handle of the grass cutter."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place his left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person placed his left hand at the bottom handle of the grass cutter.\n(B) The person placed his left hand on the side of the grass cutter.\n(C) The person placed his left hand on the control panel of the grass cutter.\n(D) The person placed his left hand at the front edge of the grass cutter.\n(E) The person placed his left hand at the top handle of the grass cutter.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person placed his left hand at the top handle of the grass cutter."
+    },
+    "correct_idx": [
+        4
+    ]
+}

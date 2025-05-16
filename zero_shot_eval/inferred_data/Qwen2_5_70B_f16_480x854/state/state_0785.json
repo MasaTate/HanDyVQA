@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a plant change?",
+    "options": [
+        "The plant was being cut at its base and removed from the ground.",
+        "The plant was being pruned, with its branches trimmed back.",
+        "The plant was being moved into a larger pot, with its roots disturbed.",
+        "The plant was being dug up and uprooted.",
+        "The plant was being prepared for winter, with its leaves removed and stored."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a plant change? Choose **only one** option from the following list.\nOptions:\n(A) The plant was being cut at its base and removed from the ground.\n(B) The plant was being pruned, with its branches trimmed back.\n(C) The plant was being moved into a larger pot, with its roots disturbed.\n(D) The plant was being dug up and uprooted.\n(E) The plant was being prepared for winter, with its leaves removed and stored.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The plant was being dug up and uprooted."
+    },
+    "correct_idx": [
+        3
+    ]
+}

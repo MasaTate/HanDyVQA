@@ -1,0 +1,17 @@
+{
+    "question": "How does the person whisk the ingredients in the stainless bowl?",
+    "options": [
+        "The person stirs the ingredients in the bowl using the left hand in a slow, back-and-forth motion.",
+        "The person mixes the ingredients in the bowl by smoothly rotating the whisk with both hands in a circular motion.",
+        "The person instantly whisks the ingredient in the bowl using the right hand in a counterclockwise movement.",
+        "The person shakes the bowl slightly with the right hand while attempting to mix the ingredients.",
+        "The person lifts the bowl with both hands and tilts it to pour the ingredients out rather than whisking."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person whisk the ingredients in the stainless bowl? Choose **only one** option from the following list.\nOptions:\n(A) The person stirs the ingredients in the bowl using the left hand in a slow, back-and-forth motion.\n(B) The person mixes the ingredients in the bowl by smoothly rotating the whisk with both hands in a circular motion.\n(C) The person instantly whisks the ingredient in the bowl using the right hand in a counterclockwise movement.\n(D) The person shakes the bowl slightly with the right hand while attempting to mix the ingredients.\n(E) The person lifts the bowl with both hands and tilts it to pour the ingredients out rather than whisking.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person instantly whisks the ingredient in the bowl using the right hand in a counterclockwise movement."
+    },
+    "correct_idx": [
+        2
+    ]
+}

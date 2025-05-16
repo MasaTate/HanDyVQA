@@ -1,0 +1,17 @@
+{
+    "question": "How does the person touch the wall paper on the ceiling with his left hand?",
+    "options": [
+        "The person extends his left arm upward, making contact with the wallpaper on the ceiling using the back of his fingers, then slides them sideways.",
+        "The person raises his left hand high above his head, making contact with the wallpaper on the ceiling using his palm and holding it there for a moment.",
+        "The person lifts his left arm and directs his index finger at the wallpaper on the ceiling, touching it lightly several times.",
+        "The person bends his left elbow and reaches upward with his hand, gripping the wallpaper softly between his thumb and forefinger.",
+        "The person stretches his left arm out to the side, gliding his hand gently along the edge of the wallpaper on the ceiling with limited contact."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person touch the wall paper on the ceiling with his left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person extends his left arm upward, making contact with the wallpaper on the ceiling using the back of his fingers, then slides them sideways.\n(B) The person raises his left hand high above his head, making contact with the wallpaper on the ceiling using his palm and holding it there for a moment.\n(C) The person lifts his left arm and directs his index finger at the wallpaper on the ceiling, touching it lightly several times.\n(D) The person bends his left elbow and reaches upward with his hand, gripping the wallpaper softly between his thumb and forefinger.\n(E) The person stretches his left arm out to the side, gliding his hand gently along the edge of the wallpaper on the ceiling with limited contact.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person raises his left hand high above his head, making contact with the wallpaper on the ceiling using his palm and holding it there for a moment."
+    },
+    "correct_idx": [
+        0
+    ]
+}

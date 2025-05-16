@@ -1,0 +1,17 @@
+{
+    "question": "How does the person mark a point?",
+    "options": [
+        "The person marks a point with a construction pencil by pressing the side of the pencil gently against the surface.",
+        "The person marks a point with a construction pencil by slightly moving down the tip of the pencil.",
+        "The person marks a point with a construction pencil by gliding the pencil smoothly across the surface.",
+        "The person marks a point with a construction pencil by tapping the tip of the pencil gently on the paper.",
+        "The person marks a point with a construction pencil by moving the pencil in a slight circular motion above the surface."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person mark a point? Choose **only one** option from the following list.\nOptions:\n(A) The person marks a point with a construction pencil by pressing the side of the pencil gently against the surface.\n(B) The person marks a point with a construction pencil by slightly moving down the tip of the pencil.\n(C) The person marks a point with a construction pencil by gliding the pencil smoothly across the surface.\n(D) The person marks a point with a construction pencil by tapping the tip of the pencil gently on the paper.\n(E) The person marks a point with a construction pencil by moving the pencil in a slight circular motion above the surface.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person marks a point with a construction pencil by slightly moving down the tip of the pencil."
+    },
+    "correct_idx": [
+        1
+    ]
+}

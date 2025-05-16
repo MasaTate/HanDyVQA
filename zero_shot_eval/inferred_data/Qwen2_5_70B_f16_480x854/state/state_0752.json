@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the pastry sheets change?",
+    "options": [
+        "The pastry sheet was rolled out to form a larger flat circle.",
+        "The pastry sheet was folded over onto itself several times.",
+        "The pastry sheet was cut into geometric shapes with a sharp knife.",
+        "The pastry sheet was crumpled into a ball and then flattened again.",
+        "The pastry sheet had its edges lifted slightly one by one."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the pastry sheets change? Choose **only one** option from the following list.\nOptions:\n(A) The pastry sheet was rolled out to form a larger flat circle.\n(B) The pastry sheet was folded over onto itself several times.\n(C) The pastry sheet was cut into geometric shapes with a sharp knife.\n(D) The pastry sheet was crumpled into a ball and then flattened again.\n(E) The pastry sheet had its edges lifted slightly one by one.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The pastry sheet had its edges lifted slightly one by one."
+    },
+    "correct_idx": [
+        4
+    ]
+}

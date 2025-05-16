@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person uses his left hand with a cloth to remove dirt from the stick in his right hand.",
+        "The person uses his right hand with a cloth to wipe the surface of a table while holding a stick in his left hand.",
+        "The person polishes a stick with a cloth in his right hand while resting the stick on the table with his left hand.",
+        "The person grips a stick with both hands while using a cloth to clean the floor beneath it.",
+        "The person holds a stick with both hands while attempting to paint it with a brush in his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person uses his left hand with a cloth to remove dirt from the stick in his right hand.\n(B) The person uses his right hand with a cloth to wipe the surface of a table while holding a stick in his left hand.\n(C) The person polishes a stick with a cloth in his right hand while resting the stick on the table with his left hand.\n(D) The person grips a stick with both hands while using a cloth to clean the floor beneath it.\n(E) The person holds a stick with both hands while attempting to paint it with a brush in his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person uses his left hand with a cloth to remove dirt from the stick in his right hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

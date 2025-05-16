@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the vacuum cleaner?",
+    "options": [
+        "The vacuum cleaner was moved closer to the box.",
+        "The vacuum cleaner was moved beside the chair.",
+        "The vacuum cleaner was moved into the closet.",
+        "The vacuum cleaner was moved near the window.",
+        "The vacuum cleaner was moved away from the box."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the vacuum cleaner? Choose **only one** option from the following list.\nOptions:\n(A) The vacuum cleaner was moved closer to the box.\n(B) The vacuum cleaner was moved beside the chair.\n(C) The vacuum cleaner was moved into the closet.\n(D) The vacuum cleaner was moved near the window.\n(E) The vacuum cleaner was moved away from the box.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The vacuum cleaner was moved closer to the box."
+    },
+    "correct_idx": [
+        4
+    ]
+}

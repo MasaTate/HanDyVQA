@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of piano keyboard change?",
+    "options": [
+        "The piano keyboard was pressed intermittently.",
+        "The piano keyboard was pressed continuously.",
+        "The piano keyboard was pressed once and then released.",
+        "The piano keyboard was tapped without pressing down fully.",
+        "The piano keyboard was pressed in a slow manner."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of piano keyboard change? Choose **only one** option from the following list.\nOptions:\n(A) The piano keyboard was pressed intermittently.\n(B) The piano keyboard was pressed continuously.\n(C) The piano keyboard was pressed once and then released.\n(D) The piano keyboard was tapped without pressing down fully.\n(E) The piano keyboard was pressed in a slow manner.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The piano keyboard was pressed intermittently."
+    },
+    "correct_idx": [
+        0
+    ]
+}

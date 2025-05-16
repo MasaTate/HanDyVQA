@@ -1,0 +1,17 @@
+{
+    "question": "How does the person move wheat?",
+    "options": [
+        "The person uses both hands to gather the wheat into a pile, gently pressing down with their palms.",
+        "The person takes a handful of wheat with their right hand, slightly lifting it before letting it fall smoothly onto the ground.",
+        "The person uses their left hand to swirl the wheat counterclockwise to spread it, while they use the right hand to scoop the wheat.",
+        "The person extends their arms outward gently, spreading the wheat across a wider area with some control.",
+        "The person holds the wheat in both hands and shakes it slightly to mix it up."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person move wheat? Choose **only one** option from the following list.\nOptions:\n(A) The person uses both hands to gather the wheat into a pile, gently pressing down with their palms.\n(B) The person takes a handful of wheat with their right hand, slightly lifting it before letting it fall smoothly onto the ground.\n(C) The person uses their left hand to swirl the wheat counterclockwise to spread it, while they use the right hand to scoop the wheat.\n(D) The person extends their arms outward gently, spreading the wheat across a wider area with some control.\n(E) The person holds the wheat in both hands and shakes it slightly to mix it up.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person uses their left hand to swirl the wheat counterclockwise to spread it, while they use the right hand to scoop the wheat."
+    },
+    "correct_idx": [
+        2
+    ]
+}

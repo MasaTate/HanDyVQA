@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the bowl change?",
+    "options": [
+        "The bowl was filled completely with the mixture after being taken out of the pot.",
+        "The bowl's surface was covered with the mixture after being placed in the pot.",
+        "The bowl was emptied and cleaned after the mixture was removed from it.",
+        "The bowl's interior was smeared with the mixture while being swirled around.",
+        "The bowl was left unused and remained empty while the mixture was poured elsewhere."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the bowl change? Choose **only one** option from the following list.\nOptions:\n(A) The bowl was filled completely with the mixture after being taken out of the pot.\n(B) The bowl's surface was covered with the mixture after being placed in the pot.\n(C) The bowl was emptied and cleaned after the mixture was removed from it.\n(D) The bowl's interior was smeared with the mixture while being swirled around.\n(E) The bowl was left unused and remained empty while the mixture was poured elsewhere.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The bowl's interior was smeared with the mixture while being swirled around."
+    },
+    "correct_idx": [
+        1
+    ]
+}

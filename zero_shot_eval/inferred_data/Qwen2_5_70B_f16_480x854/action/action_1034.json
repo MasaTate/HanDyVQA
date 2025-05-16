@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person shakes the bowl of flour using both hands.",
+        "The person stirs the bowl of flour using both hands.",
+        "The person pours another substance from the bowl into a measuring cup.",
+        "The person scoops from the bowl using both hands.",
+        "The person gently taps the bowl of flour using both hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person shakes the bowl of flour using both hands.\n(B) The person stirs the bowl of flour using both hands.\n(C) The person pours another substance from the bowl into a measuring cup.\n(D) The person scoops from the bowl using both hands.\n(E) The person gently taps the bowl of flour using both hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person shakes the bowl of flour using both hands."
+    },
+    "correct_idx": [
+        0
+    ]
+}

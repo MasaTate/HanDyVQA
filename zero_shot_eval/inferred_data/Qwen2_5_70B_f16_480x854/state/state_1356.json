@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a chip change?",
+    "options": [
+        "The chip was lifted up and tapped in a steady motion rather than shaken.",
+        "The chip was rotated slightly instead of being lifted.",
+        "The chip was lifted up and twisted rather than shaken.",
+        "The chip was lifted up and shaken in a fine fanning motion.",
+        "The chip was lifted higher and moved in a circular motion."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a chip change? Choose **only one** option from the following list.\nOptions:\n(A) The chip was lifted up and tapped in a steady motion rather than shaken.\n(B) The chip was rotated slightly instead of being lifted.\n(C) The chip was lifted up and twisted rather than shaken.\n(D) The chip was lifted up and shaken in a fine fanning motion.\n(E) The chip was lifted higher and moved in a circular motion.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The chip was lifted up and shaken in a fine fanning motion."
+    },
+    "correct_idx": [
+        3
+    ]
+}

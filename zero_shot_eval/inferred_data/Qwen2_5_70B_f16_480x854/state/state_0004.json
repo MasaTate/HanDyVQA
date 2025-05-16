@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the lid change?",
+    "options": [
+        "The surface of the lid was wiped.",
+        "The edge of the lid was bent slightly.",
+        "The underside of the lid was painted a different color.",
+        "The top of the lid was scratched with a knife.",
+        "The handle of the lid was detached from the surface."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the lid change? Choose **only one** option from the following list.\nOptions:\n(A) The surface of the lid was wiped.\n(B) The edge of the lid was bent slightly.\n(C) The underside of the lid was painted a different color.\n(D) The top of the lid was scratched with a knife.\n(E) The handle of the lid was detached from the surface.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The surface of the lid was wiped."
+    },
+    "correct_idx": [
+        0
+    ]
+}

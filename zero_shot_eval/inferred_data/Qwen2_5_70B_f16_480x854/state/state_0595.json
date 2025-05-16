@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of mashroom change?",
+    "options": [
+        "The water was returned from the new container to the original container.",
+        "The water was transferred from one container to another container.",
+        "The water was taken from the container and dripped onto the mushroom.",
+        "The water was expelled from the container onto the ground.",
+        "The water was moved to the container and then removed again."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of mashroom change? Choose **only one** option from the following list.\nOptions:\n(A) The water was returned from the new container to the original container.\n(B) The water was transferred from one container to another container.\n(C) The water was taken from the container and dripped onto the mushroom.\n(D) The water was expelled from the container onto the ground.\n(E) The water was moved to the container and then removed again.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The water was taken from the container and dripped onto the mushroom."
+    },
+    "correct_idx": [
+        1
+    ]
+}

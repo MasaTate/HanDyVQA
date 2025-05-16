@@ -1,0 +1,17 @@
+{
+    "question": "How does the person gather the spices on the table with the left hand?",
+    "options": [
+        "The person carefully sweeps the spices with the palm of the left hand, spreading them softly across the surface.",
+        "The person picks up a small amount of spices with the left hand and allows them to fall gently onto the table with measured control.",
+        "The person gently scoops and slides the spices with the left hand palm and fingers, pushing them carefully upwards on the table before covering them with a piece of dough.",
+        "The person pinches the spices between the thumb and index finger of the left hand and smoothly directs them into a container with a controlled motion.",
+        "The person gently uses the palm of the left hand to gather the spices, drawing them together on the table for easy handling."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person gather the spices on the table with the left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person carefully sweeps the spices with the palm of the left hand, spreading them softly across the surface.\n(B) The person picks up a small amount of spices with the left hand and allows them to fall gently onto the table with measured control.\n(C) The person gently scoops and slides the spices with the left hand palm and fingers, pushing them carefully upwards on the table before covering them with a piece of dough.\n(D) The person pinches the spices between the thumb and index finger of the left hand and smoothly directs them into a container with a controlled motion.\n(E) The person gently uses the palm of the left hand to gather the spices, drawing them together on the table for easy handling.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person gently scoops and slides the spices with the left hand palm and fingers, pushing them carefully upwards on the table before covering them with a piece of dough."
+    },
+    "correct_idx": [
+        2
+    ]
+}

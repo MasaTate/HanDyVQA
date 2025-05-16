@@ -1,0 +1,17 @@
+{
+    "question": "How does the person place his left hand?",
+    "options": [
+        "The person sets his left hand by carefully lowering it onto the boulder.",
+        "The person positions his left hand by moving it sideways along the surface of the boulder.",
+        "The person places his left hand by quickly moving it up on the boulder.",
+        "The person extends his left hand out to the side before reaching for the boulder.",
+        "The person lowers his left hand down from above without immediately touching the boulder."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person place his left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person sets his left hand by carefully lowering it onto the boulder.\n(B) The person positions his left hand by moving it sideways along the surface of the boulder.\n(C) The person places his left hand by quickly moving it up on the boulder.\n(D) The person extends his left hand out to the side before reaching for the boulder.\n(E) The person lowers his left hand down from above without immediately touching the boulder.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person sets his left hand by carefully lowering it onto the boulder."
+    },
+    "correct_idx": [
+        2
+    ]
+}

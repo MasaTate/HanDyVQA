@@ -1,0 +1,17 @@
+{
+    "question": "How does the person rub his right hand?",
+    "options": [
+        "The person scratches his right palm on the surface of the stainless table.",
+        "The person circles his right ring finger on the edge of the table.",
+        "The person glides the back of his right hand on the stainless table.",
+        "The person scratches his right middle finger on the stainless table after putting down the oil spray.",
+        "The person taps his right hand softly on the table to make a sound."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person rub his right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person scratches his right palm on the surface of the stainless table.\n(B) The person circles his right ring finger on the edge of the table.\n(C) The person glides the back of his right hand on the stainless table.\n(D) The person scratches his right middle finger on the stainless table after putting down the oil spray.\n(E) The person taps his right hand softly on the table to make a sound.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person scratches his right middle finger on the stainless table after putting down the oil spray."
+    },
+    "correct_idx": [
+        3
+    ]
+}

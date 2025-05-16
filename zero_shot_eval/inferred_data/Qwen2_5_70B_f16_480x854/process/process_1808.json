@@ -1,0 +1,17 @@
+{
+    "question": "How does the person roll the lint roller brush?",
+    "options": [
+        "The person rolls the lint roller across the blanket vertically up and down using the left hand.",
+        "The person rolls the lint roller in a circular motion on the blanket using the right hand and fingers.",
+        "The person rolls the lint roller with short strokes across the blanket using the right hand.",
+        "The person rolls the lint roller slowly across the blanket, controlling it with the palm and fingers of the left hand.",
+        "The person rolls the lint roller in the blanket horizontally back and forth using the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person roll the lint roller brush? Choose **only one** option from the following list.\nOptions:\n(A) The person rolls the lint roller across the blanket vertically up and down using the left hand.\n(B) The person rolls the lint roller in a circular motion on the blanket using the right hand and fingers.\n(C) The person rolls the lint roller with short strokes across the blanket using the right hand.\n(D) The person rolls the lint roller slowly across the blanket, controlling it with the palm and fingers of the left hand.\n(E) The person rolls the lint roller in the blanket horizontally back and forth using the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person rolls the lint roller in the blanket horizontally back and forth using the right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

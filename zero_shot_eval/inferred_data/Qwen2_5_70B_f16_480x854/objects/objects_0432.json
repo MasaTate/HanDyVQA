@@ -1,0 +1,19 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "flat metal",
+        "screwdriver",
+        "plastic bottle",
+        "hand saw",
+        "cloth",
+        "paint brush"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) flat metal\n(B) screwdriver\n(C) plastic bottle\n(D) hand saw\n(E) cloth\n(F) paint brush\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(F) Paint brush\n(A) Flat metal"
+    },
+    "correct_idx": [
+        0,
+        5
+    ]
+}

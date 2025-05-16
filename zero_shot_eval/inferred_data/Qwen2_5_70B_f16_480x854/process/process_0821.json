@@ -1,0 +1,17 @@
+{
+    "question": "How does the person cover the bottle?",
+    "options": [
+        "The person takes the bottle cap with his left hand and presses it onto the bottle without twisting.",
+        "The person picks up the bottle using both hands and gently sets the cap on top without turning it.",
+        "The person grabs the bottle cap with his right hand and twists the cap in a clockwise direction to cover the bottle.",
+        "The person holds the bottle underneath and carefully presses the cap down using his palm.",
+        "The person lightly tosses the cap towards the bottle and hopes it settles in place."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person cover the bottle? Choose **only one** option from the following list.\nOptions:\n(A) The person takes the bottle cap with his left hand and presses it onto the bottle without twisting.\n(B) The person picks up the bottle using both hands and gently sets the cap on top without turning it.\n(C) The person grabs the bottle cap with his right hand and twists the cap in a clockwise direction to cover the bottle.\n(D) The person holds the bottle underneath and carefully presses the cap down using his palm.\n(E) The person lightly tosses the cap towards the bottle and hopes it settles in place.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person grabs the bottle cap with his right hand and twists the cap in a clockwise direction to cover the bottle."
+    },
+    "correct_idx": [
+        2
+    ]
+}

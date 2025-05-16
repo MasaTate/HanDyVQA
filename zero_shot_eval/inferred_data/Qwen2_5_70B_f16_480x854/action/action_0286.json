@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person checks the drill bits using their gloved left hand. The person then checks the camera above using both hands.",
+        "The person adjusts the drill using their right hand. The person then examines the toolbox below using both hands.",
+        "The person inspects the drill bits using their left hand. The person then looks at the floor using their right hand.",
+        "The person organizes the drill bits using their left hand. The person then reviews the plans on the table with both hands.",
+        "The person cleans the drill with a cloth using their right hand. The person then checks the lights above with one hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person checks the drill bits using their gloved left hand. The person then checks the camera above using both hands.\n(B) The person adjusts the drill using their right hand. The person then examines the toolbox below using both hands.\n(C) The person inspects the drill bits using their left hand. The person then looks at the floor using their right hand.\n(D) The person organizes the drill bits using their left hand. The person then reviews the plans on the table with both hands.\n(E) The person cleans the drill with a cloth using their right hand. The person then checks the lights above with one hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The person checks the drill bits using their gloved left hand. The person then checks the camera above using both hands."
+    },
+    "correct_idx": [
+        0
+    ]
+}

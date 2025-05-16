@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person grips the wood with their left hand and uses a chisel with their right hand to carve detailed designs into the wood.",
+        "The person holds the wood with their right hand and uses a wood planer with their left hand to smooth the piece of wood.",
+        "The person holds the wood with their right hand and uses an electric sander with their left hand to create a smooth surface.",
+        "The person balances the wood on their lap with their left hand while using a saw with their right hand to cut it into smaller pieces.",
+        "The person supports the wood with their left hand and uses a brush with their right hand to apply a coat of paint to finish the wooden piece."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person grips the wood with their left hand and uses a chisel with their right hand to carve detailed designs into the wood.\n(B) The person holds the wood with their right hand and uses a wood planer with their left hand to smooth the piece of wood.\n(C) The person holds the wood with their right hand and uses an electric sander with their left hand to create a smooth surface.\n(D) The person balances the wood on their lap with their left hand while using a saw with their right hand to cut it into smaller pieces.\n(E) The person supports the wood with their left hand and uses a brush with their right hand to apply a coat of paint to finish the wooden piece.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person holds the wood with their right hand and uses an electric sander with their left hand to create a smooth surface."
+    },
+    "correct_idx": [
+        1
+    ]
+}

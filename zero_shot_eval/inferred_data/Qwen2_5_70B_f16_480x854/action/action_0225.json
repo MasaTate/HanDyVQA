@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person trims the branch piece with the knife in his right hand whilst holding the branch in his left hand.",
+        "The person prunes the branch piece with scissors in his right hand while supporting the branch with his left hand.",
+        "The person cuts the branch piece on the ground using a saw in his right hand while stabilizing the branch with his left hand.",
+        "The person shaves the bark off the branch piece with a chisel in his right hand while gripping the branch with his left hand.",
+        "The person slices the branch piece with a hedge trimmer in his right hand while balancing the branch with his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person trims the branch piece with the knife in his right hand whilst holding the branch in his left hand.\n(B) The person prunes the branch piece with scissors in his right hand while supporting the branch with his left hand.\n(C) The person cuts the branch piece on the ground using a saw in his right hand while stabilizing the branch with his left hand.\n(D) The person shaves the bark off the branch piece with a chisel in his right hand while gripping the branch with his left hand.\n(E) The person slices the branch piece with a hedge trimmer in his right hand while balancing the branch with his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person shaves the bark off the branch piece with a chisel in his right hand while gripping the branch with his left hand."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person remove a   metal?",
+    "options": [
+        "The person moves the metal aside using their right hand.",
+        "The person removes the metal by pulling it up with their left hand.",
+        "The person flicks the metal gently from the table with their fingers.",
+        "The person holds the metal firmly with both hands and moves it away.",
+        "The person slides the metal down the table with their palm."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person remove a   metal? Choose **only one** option from the following list.\nOptions:\n(A) The person moves the metal aside using their right hand.\n(B) The person removes the metal by pulling it up with their left hand.\n(C) The person flicks the metal gently from the table with their fingers.\n(D) The person holds the metal firmly with both hands and moves it away.\n(E) The person slides the metal down the table with their palm.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person removes the metal by pulling it up with their left hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person stretches the rope and ties it around a tree branch.",
+        "The person stretches the rope and lays it on the ground.",
+        "The person stretches the rope and tosses it over a fence.",
+        "The person stretches the rope and places it inside a bag.",
+        "The person stretches the rope and hangs it on a hook."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person stretches the rope and ties it around a tree branch.\n(B) The person stretches the rope and lays it on the ground.\n(C) The person stretches the rope and tosses it over a fence.\n(D) The person stretches the rope and places it inside a bag.\n(E) The person stretches the rope and hangs it on a hook.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person stretches the rope and lays it on the ground."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person dip the paintbrush in his right hand?",
+    "options": [
+        "The person dips the paintbrush into the paint container steadily with his right hand, then shakes it slightly to remove excess paint.",
+        "The person holds the paintbrush with his right hand and moves it around in the paint container for a few moments, then lifts it carefully.",
+        "The person places the paintbrush into the paint container smoothly with his right hand and lifts it up without any tapping.",
+        "The person dips the paintbrush in his right hand by lowering it gently into the paint container, then tapping it lightly against the roller to collect the paint.",
+        "The person uses the paintbrush in his right hand to gather the paint from the container rather than lowering it in."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person dip the paintbrush in his right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person dips the paintbrush into the paint container steadily with his right hand, then shakes it slightly to remove excess paint.\n(B) The person holds the paintbrush with his right hand and moves it around in the paint container for a few moments, then lifts it carefully.\n(C) The person places the paintbrush into the paint container smoothly with his right hand and lifts it up without any tapping.\n(D) The person dips the paintbrush in his right hand by lowering it gently into the paint container, then tapping it lightly against the roller to collect the paint.\n(E) The person uses the paintbrush in his right hand to gather the paint from the container rather than lowering it in.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person dips the paintbrush in his right hand by lowering it gently into the paint container, then tapping it lightly against the roller to collect the paint."
+    },
+    "correct_idx": [
+        3
+    ]
+}

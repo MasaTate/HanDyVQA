@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the bike with the brush change?",
+    "options": [
+        "The bike frame's surface was brushed to dull the shiny finish.",
+        "The bike frame was brushed, but the dirt remained because it was not scrubbed sufficiently.",
+        "The bike frame's surface was brushed to remove dirt.",
+        "The tires of the bike were brushed rather than the frame.",
+        "The handlebars of the bike were brushed to be cleaned, while the frame was left untouched."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the bike with the brush change? Choose **only one** option from the following list.\nOptions:\n(A) The bike frame's surface was brushed to dull the shiny finish.\n(B) The bike frame was brushed, but the dirt remained because it was not scrubbed sufficiently.\n(C) The bike frame's surface was brushed to remove dirt.\n(D) The tires of the bike were brushed rather than the frame.\n(E) The handlebars of the bike were brushed to be cleaned, while the frame was left untouched.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The bike frame's surface was brushed to remove dirt."
+    },
+    "correct_idx": [
+        2
+    ]
+}

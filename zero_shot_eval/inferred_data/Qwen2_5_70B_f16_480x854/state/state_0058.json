@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the knife change?",
+    "options": [
+        "The knife was moved over the sink but fell into the sink.",
+        "The knife was moved over the counter and landed near the cutting board.",
+        "The knife was moved over the sink and landed on the bowl.",
+        "The knife was slid across the table and ended up next to the plate.",
+        "The knife was moved away from the sink and rested on the kitchen towel."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the knife change? Choose **only one** option from the following list.\nOptions:\n(A) The knife was moved over the sink but fell into the sink.\n(B) The knife was moved over the counter and landed near the cutting board.\n(C) The knife was moved over the sink and landed on the bowl.\n(D) The knife was slid across the table and ended up next to the plate.\n(E) The knife was moved away from the sink and rested on the kitchen towel.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The knife was moved over the sink and landed on the bowl."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a black purse change?",
+    "options": [
+        "The black purse, repositioned as it was placed down and altered as it was closed.",
+        "The black purse, repositioned as it was picked up and altered as it was opened.",
+        "The black purse, repositioned as it was dropped and altered as it was zipped.",
+        "The black purse, repositioned as it was moved aside and altered as it was unfolded.",
+        "The black purse, repositioned as it was carried and altered as it was turned inside out."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a black purse change? Choose **only one** option from the following list.\nOptions:\n(A) The black purse, repositioned as it was placed down and altered as it was closed.\n(B) The black purse, repositioned as it was picked up and altered as it was opened.\n(C) The black purse, repositioned as it was dropped and altered as it was zipped.\n(D) The black purse, repositioned as it was moved aside and altered as it was unfolded.\n(E) The black purse, repositioned as it was carried and altered as it was turned inside out.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The black purse, repositioned as it was picked up and altered as it was opened."
+    },
+    "correct_idx": [
+        1
+    ]
+}

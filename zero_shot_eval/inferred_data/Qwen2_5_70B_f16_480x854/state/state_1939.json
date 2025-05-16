@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the paper change?",
+    "options": [
+        "The paper was crumpled, and its flat shape was lost as it became bunched together.",
+        "The paper was torn, resulting in multiple smaller sections instead of a single sheet.",
+        "The paper was soaked, causing it to become damp and lose its rigidity.",
+        "The paper was folded, altering its original flat state into an origami shape.",
+        "The paper was placed down, and its position became stable on the surface."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the paper change? Choose **only one** option from the following list.\nOptions:\n(A) The paper was crumpled, and its flat shape was lost as it became bunched together.\n(B) The paper was torn, resulting in multiple smaller sections instead of a single sheet.\n(C) The paper was soaked, causing it to become damp and lose its rigidity.\n(D) The paper was folded, altering its original flat state into an origami shape.\n(E) The paper was placed down, and its position became stable on the surface.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The paper was crumpled, and its flat shape was lost as it became bunched together."
+    },
+    "correct_idx": [
+        4
+    ]
+}

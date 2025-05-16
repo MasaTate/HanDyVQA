@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the pack of circuit?",
+    "options": [
+        "The person placed the pack of circuit on the left side of the cardboard with the left hand.",
+        "The person placed the pack of circuit on the right side of the cardboard with the right hand.",
+        "The person placed the pack of circuit on the center of the cardboard with both hands.",
+        "The person placed the pack of circuit on the right side of the table with the right hand.",
+        "The person placed the pack of circuit behind the cardboard with the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the pack of circuit? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the pack of circuit on the left side of the cardboard with the left hand.\n(B) The person placed the pack of circuit on the right side of the cardboard with the right hand.\n(C) The person placed the pack of circuit on the center of the cardboard with both hands.\n(D) The person placed the pack of circuit on the right side of the table with the right hand.\n(E) The person placed the pack of circuit behind the cardboard with the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person placed the pack of circuit on the right side of the cardboard with the right hand."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person cut the plant?",
+    "options": [
+        "The person cuts the plant by gripping the stem near the base and shearing it smoothly with scissors.",
+        "The person cuts the plant by holding the bottom part and pulling it with their left hand.",
+        "The person uses a small knife to slice through the base of the plant while holding it upright with their left hand.",
+        "The person saws through the plant with a serrated blade while supporting it gently against a table with their left hand.",
+        "The person uses a pruning shear to clip the plant at the base while steadying the top part with their fingers."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person cut the plant? Choose **only one** option from the following list.\nOptions:\n(A) The person cuts the plant by gripping the stem near the base and shearing it smoothly with scissors.\n(B) The person cuts the plant by holding the bottom part and pulling it with their left hand.\n(C) The person uses a small knife to slice through the base of the plant while holding it upright with their left hand.\n(D) The person saws through the plant with a serrated blade while supporting it gently against a table with their left hand.\n(E) The person uses a pruning shear to clip the plant at the base while steadying the top part with their fingers.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person uses a pruning shear to clip the plant at the base while steadying the top part with their fingers."
+    },
+    "correct_idx": [
+        1
+    ]
+}

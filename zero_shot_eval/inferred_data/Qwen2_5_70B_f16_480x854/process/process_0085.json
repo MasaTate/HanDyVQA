@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pass the pack?",
+    "options": [
+        "The person lightly flicks the pack across the table with her wrist.",
+        "The person gently throws the pack over her shoulder with her left hand.",
+        "The person passes the pack by carefully transferring it from her left hand to the right hand.",
+        "The person glides the pack smoothly along the table with her palm down.",
+        "The person lifts the pack with both hands and places it into a bag."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pass the pack? Choose **only one** option from the following list.\nOptions:\n(A) The person lightly flicks the pack across the table with her wrist.\n(B) The person gently throws the pack over her shoulder with her left hand.\n(C) The person passes the pack by carefully transferring it from her left hand to the right hand.\n(D) The person glides the pack smoothly along the table with her palm down.\n(E) The person lifts the pack with both hands and places it into a bag.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person passes the pack by carefully transferring it from her left hand to the right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

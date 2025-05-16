@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the nut?",
+    "options": [
+        "The person moved the nut from his left hand to the wooden plate.",
+        "The person moved the nut from his right hand to the aluminum tray.",
+        "The person moved the nut from his right hand to the glass bowl.",
+        "The person moved the nut from his left hand to the ceramic dish.",
+        "The person moved the nut from his right hand to the plastic container."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the nut? Choose **only one** option from the following list.\nOptions:\n(A) The person moved the nut from his left hand to the wooden plate.\n(B) The person moved the nut from his right hand to the aluminum tray.\n(C) The person moved the nut from his right hand to the glass bowl.\n(D) The person moved the nut from his left hand to the ceramic dish.\n(E) The person moved the nut from his right hand to the plastic container.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person moved the nut from his right hand to the aluminum tray."
+    },
+    "correct_idx": [
+        1
+    ]
+}

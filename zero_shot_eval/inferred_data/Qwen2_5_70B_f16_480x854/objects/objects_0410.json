@@ -1,0 +1,25 @@
+{
+    "question": "What object is used by the hands?",
+    "options": [
+        "spoon",
+        "pliers",
+        "scissors",
+        "tube",
+        "hammer",
+        "vacuum pump",
+        "metal bowl",
+        "tweezer",
+        "plastic container",
+        "and  screw",
+        "lubricating paste"
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What object is used by the hands? Choose **all** options that apply from the following list.<\nOptions:\n(A) spoon\n(B) pliers\n(C) scissors\n(D) tube\n(E) hammer\n(F) vacuum pump\n(G) metal bowl\n(H) tweezer\n(I) plastic container\n(J) and  screw\n(K) lubricating paste\n\n Answer format:\n(A) <Description of Option A>\n(C) <Description of Option C>",
+        "output": "(H) Tweezer  \n(J) and screw  \n\nThe hands in the video use a tweezer to manipulate small objects such as screws or similar components. The hands also handle a screw directly, indicating that both the tweezer and the screw itself are being used."
+    },
+    "correct_idx": [
+        3,
+        7,
+        9
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of some tools change?",
+    "options": [
+        "The tools were scattered across the workbench, then a hand picked one up for use.",
+        "The tools were hanging on the wall, then a hand unhooked them for access.",
+        "The tools were lying on the ground, then a hand lifted them to place them back in the box.",
+        "The tools were resting within the toolbox, then a hand reached in to grasp them.",
+        "The tools were organized on a shelf, then a hand rearranged them for better visibility."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of some tools change? Choose **only one** option from the following list.\nOptions:\n(A) The tools were scattered across the workbench, then a hand picked one up for use.\n(B) The tools were hanging on the wall, then a hand unhooked them for access.\n(C) The tools were lying on the ground, then a hand lifted them to place them back in the box.\n(D) The tools were resting within the toolbox, then a hand reached in to grasp them.\n(E) The tools were organized on a shelf, then a hand rearranged them for better visibility.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The tools were scattered across the workbench, then a hand picked one up for use."
+    },
+    "correct_idx": [
+        3
+    ]
+}

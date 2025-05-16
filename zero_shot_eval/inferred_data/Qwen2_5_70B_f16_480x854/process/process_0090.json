@@ -1,0 +1,17 @@
+{
+    "question": "How does the person pull the thread?",
+    "options": [
+        "The person uses both hands to grip the thread before carefully releasing the tension.",
+        "The person pulls the thread by gripping it between her right thumb and index finger and then drawing it upwards.",
+        "The person wraps the thread around her finger and lets it glide smoothly through.",
+        "The person moves the thread across the table using her palm in place of her fingers.",
+        "The person pinches the thread with two fingers while gently holding it in position."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person pull the thread? Choose **only one** option from the following list.\nOptions:\n(A) The person uses both hands to grip the thread before carefully releasing the tension.\n(B) The person pulls the thread by gripping it between her right thumb and index finger and then drawing it upwards.\n(C) The person wraps the thread around her finger and lets it glide smoothly through.\n(D) The person moves the thread across the table using her palm in place of her fingers.\n(E) The person pinches the thread with two fingers while gently holding it in position.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person pulls the thread by gripping it between her right thumb and index finger and then drawing it upwards."
+    },
+    "correct_idx": [
+        1
+    ]
+}

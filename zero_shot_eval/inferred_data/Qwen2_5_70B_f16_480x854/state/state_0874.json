@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the hay change?",
+    "options": [
+        "The hay was spread out on the ground using hands.",
+        "The hay was gathered and pushed into the net sack using hands.",
+        "The hay was shredded into smaller pieces using hands.",
+        "The hay was reassembled into a pile using hands.",
+        "The hay was tied into a bundle using hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the hay change? Choose **only one** option from the following list.\nOptions:\n(A) The hay was spread out on the ground using hands.\n(B) The hay was gathered and pushed into the net sack using hands.\n(C) The hay was shredded into smaller pieces using hands.\n(D) The hay was reassembled into a pile using hands.\n(E) The hay was tied into a bundle using hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The hay was gathered and pushed into the net sack using hands."
+    },
+    "correct_idx": [
+        1
+    ]
+}

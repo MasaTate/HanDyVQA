@@ -1,0 +1,17 @@
+{
+    "question": "How does the person mulch some plants?",
+    "options": [
+        "The person picks up a small amount of mulch with both hands and spreads it gently around the plants.",
+        "The person uses a shovel in his left hand to scoop some mulch and places it near the plants.",
+        "The person grabs a handful of mulch from a bag and spreads it around some plants with his right hand.",
+        "The person uses a rake in his right hand to carefully arrange the mulch around the plants.",
+        "The person gently pours mulch from a bag using his left hand while supporting the bag with his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person mulch some plants? Choose **only one** option from the following list.\nOptions:\n(A) The person picks up a small amount of mulch with both hands and spreads it gently around the plants.\n(B) The person uses a shovel in his left hand to scoop some mulch and places it near the plants.\n(C) The person grabs a handful of mulch from a bag and spreads it around some plants with his right hand.\n(D) The person uses a rake in his right hand to carefully arrange the mulch around the plants.\n(E) The person gently pours mulch from a bag using his left hand while supporting the bag with his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person grabs a handful of mulch from a bag and spreads it around some plants with his right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

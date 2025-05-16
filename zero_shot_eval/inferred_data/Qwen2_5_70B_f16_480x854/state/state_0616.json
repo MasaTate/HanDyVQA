@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the puzzel piece change?",
+    "options": [
+        "The puzzle piece was turned on its side and inserted into the puzzle border, causing misalignment.",
+        "The puzzle piece was placed on the side and inserted into the puzzle board, pushing the other pieces out of the board.",
+        "The puzzle piece was positioned on the corner and forced into the board, resulting in a gap.",
+        "The puzzle piece was flipped upside down and attempted to be inserted, but it didn't fit.",
+        "The puzzle piece was laid flat and inserted into the incorrect section of the board."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the puzzel piece change? Choose **only one** option from the following list.\nOptions:\n(A) The puzzle piece was turned on its side and inserted into the puzzle border, causing misalignment.\n(B) The puzzle piece was placed on the side and inserted into the puzzle board, pushing the other pieces out of the board.\n(C) The puzzle piece was positioned on the corner and forced into the board, resulting in a gap.\n(D) The puzzle piece was flipped upside down and attempted to be inserted, but it didn't fit.\n(E) The puzzle piece was laid flat and inserted into the incorrect section of the board.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The puzzle piece was placed on the side and inserted into the puzzle board, pushing the other pieces out of the board."
+    },
+    "correct_idx": [
+        1
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the plant container from the floor change?",
+    "options": [
+        "The plant container was moved and placed on a table.",
+        "The plant container was picked up and tilted on the soil.",
+        "The plant container was turned upside down on the floor.",
+        "The plant container was rolled to a different location across the floor.",
+        "The plant container was lifted and rotated in the air."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the plant container from the floor change? Choose **only one** option from the following list.\nOptions:\n(A) The plant container was moved and placed on a table.\n(B) The plant container was picked up and tilted on the soil.\n(C) The plant container was turned upside down on the floor.\n(D) The plant container was rolled to a different location across the floor.\n(E) The plant container was lifted and rotated in the air.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The plant container was picked up and tilted on the soil."
+    },
+    "correct_idx": [
+        1
+    ]
+}

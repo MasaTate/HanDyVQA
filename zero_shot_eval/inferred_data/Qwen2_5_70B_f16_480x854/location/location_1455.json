@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the pen?",
+    "options": [
+        "The person placed the pen to the right hand.",
+        "The person placed the pen in the center of the table.",
+        "The person placed the pen to the left hand.",
+        "The person placed the pen behind the ear.",
+        "The person placed the pen on the right side of the notebook."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the pen? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the pen to the right hand.\n(B) The person placed the pen in the center of the table.\n(C) The person placed the pen to the left hand.\n(D) The person placed the pen behind the ear.\n(E) The person placed the pen on the right side of the notebook.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person placed the pen to the left hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

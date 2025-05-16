@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a pasta in the sieve change?",
+    "options": [
+        "The pasta was left in the sieve, with water still dripping off.",
+        "The pasta was slightly moved in the sieve to allow more water to drip.",
+        "The pasta was picked out of the sieve, with little water dripping off.",
+        "The pasta was picked out of the sieve, dripping with water.",
+        "The pasta remained in the sieve, with water no longer dripping."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a pasta in the sieve change? Choose **only one** option from the following list.\nOptions:\n(A) The pasta was left in the sieve, with water still dripping off.\n(B) The pasta was slightly moved in the sieve to allow more water to drip.\n(C) The pasta was picked out of the sieve, with little water dripping off.\n(D) The pasta was picked out of the sieve, dripping with water.\n(E) The pasta remained in the sieve, with water no longer dripping.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The pasta was slightly moved in the sieve to allow more water to drip."
+    },
+    "correct_idx": [
+        3
+    ]
+}

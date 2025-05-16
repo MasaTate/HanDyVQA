@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of his left leg change?",
+    "options": [
+        "The left leg bent at the knee, altering its angle and raising the foot off the ground.",
+        "The left leg rotated outward, changing its alignment with the rest of the body.",
+        "The left leg extended fully, lifting the foot above the ground and straightening out.",
+        "The left leg shifted sideways, sliding across the floor and changing its orientation.",
+        "The left leg moved downward, making contact with the ground and shifting its position."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of his left leg change? Choose **only one** option from the following list.\nOptions:\n(A) The left leg bent at the knee, altering its angle and raising the foot off the ground.\n(B) The left leg rotated outward, changing its alignment with the rest of the body.\n(C) The left leg extended fully, lifting the foot above the ground and straightening out.\n(D) The left leg shifted sideways, sliding across the floor and changing its orientation.\n(E) The left leg moved downward, making contact with the ground and shifting its position.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The left leg moved downward, making contact with the ground and shifting its position."
+    },
+    "correct_idx": [
+        4
+    ]
+}

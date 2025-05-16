@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person pushes the ribbon with both hands while holding scissors and a paintbrush.",
+        "The person ties the ribbon, holding the glue gun in his right hand and grips the ribbon with his left hand.",
+        "The person lifts the ribbon and applies glue with the glue gun using his right hand while holding a paintbrush with his left hand.",
+        "The person holds the ribbon tight and paints it with a paintbrush in his right hand while carrying the glue gun in his left hand.",
+        "The person pulls the ribbon with both hands and touches the glue gun with the right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person pushes the ribbon with both hands while holding scissors and a paintbrush.\n(B) The person ties the ribbon, holding the glue gun in his right hand and grips the ribbon with his left hand.\n(C) The person lifts the ribbon and applies glue with the glue gun using his right hand while holding a paintbrush with his left hand.\n(D) The person holds the ribbon tight and paints it with a paintbrush in his right hand while carrying the glue gun in his left hand.\n(E) The person pulls the ribbon with both hands and touches the glue gun with the right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person pulls the ribbon with both hands and touches the glue gun with the right hand."
+    },
+    "correct_idx": [
+        4
+    ]
+}

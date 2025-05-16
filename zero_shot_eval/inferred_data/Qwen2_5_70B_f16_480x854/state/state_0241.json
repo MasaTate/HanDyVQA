@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the breadfruit change?",
+    "options": [
+        "The breadfruit was peeled and left whole on the countertop.",
+        "The breadfruit was still in its skin and about to be sliced in half.",
+        "The breadfruit was peeled and then placed in the refrigerator intact.",
+        "The breadfruit was only partially peeled, with some skin still remaining.",
+        "The breadfruit was peeled and about to be cut into smaller pieces."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the breadfruit change? Choose **only one** option from the following list.\nOptions:\n(A) The breadfruit was peeled and left whole on the countertop.\n(B) The breadfruit was still in its skin and about to be sliced in half.\n(C) The breadfruit was peeled and then placed in the refrigerator intact.\n(D) The breadfruit was only partially peeled, with some skin still remaining.\n(E) The breadfruit was peeled and about to be cut into smaller pieces.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The breadfruit was only partially peeled, with some skin still remaining."
+    },
+    "correct_idx": [
+        4
+    ]
+}

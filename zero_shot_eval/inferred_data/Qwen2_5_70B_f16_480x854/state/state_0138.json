@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the chopping board change?",
+    "options": [
+        "The chopping board was picked up, moved, tilted, but not wiped before being moved back to the original place.",
+        "The chopping board was picked up, moved slightly, wiped, but not tilted before being returned to the original place.",
+        "The chopping board was picked up, tilted, and wiped but not moved, remaining in its original place.",
+        "The chopping board was picked up, moved, tilted, and wiped before being moved back to the original place.",
+        "The chopping board was picked up, tilted, wiped, but was moved to a new position instead of the original place."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the chopping board change? Choose **only one** option from the following list.\nOptions:\n(A) The chopping board was picked up, moved, tilted, but not wiped before being moved back to the original place.\n(B) The chopping board was picked up, moved slightly, wiped, but not tilted before being returned to the original place.\n(C) The chopping board was picked up, tilted, and wiped but not moved, remaining in its original place.\n(D) The chopping board was picked up, moved, tilted, and wiped before being moved back to the original place.\n(E) The chopping board was picked up, tilted, wiped, but was moved to a new position instead of the original place.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The chopping board was picked up, moved, tilted, and wiped before being moved back to the original place."
+    },
+    "correct_idx": [
+        3
+    ]
+}

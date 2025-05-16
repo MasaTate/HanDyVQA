@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the net change?",
+    "options": [
+        "The corners of the net were gathered together to form a bundle on the ground.",
+        "The corners of the net were spread out one by one to be flat on the ground.",
+        "The net was spread out partially on the ground, leaving some parts folded.",
+        "Two corners of the net were spread while the others were left piled in the center.",
+        "The net was folded over itself, creating overlapping layers on the ground."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the net change? Choose **only one** option from the following list.\nOptions:\n(A) The corners of the net were gathered together to form a bundle on the ground.\n(B) The corners of the net were spread out one by one to be flat on the ground.\n(C) The net was spread out partially on the ground, leaving some parts folded.\n(D) Two corners of the net were spread while the others were left piled in the center.\n(E) The net was folded over itself, creating overlapping layers on the ground.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The net was spread out partially on the ground, leaving some parts folded."
+    },
+    "correct_idx": [
+        1
+    ]
+}

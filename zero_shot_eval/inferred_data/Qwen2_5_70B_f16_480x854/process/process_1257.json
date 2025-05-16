@@ -1,0 +1,17 @@
+{
+    "question": "How does the person shake the basket?",
+    "options": [
+        "The person shakes the basket by tilting it slightly with both hands allowing the contents to shift naturally.",
+        "The person shakes the basket by lifting the bottom part of the basket in a quick motion using the left hand.",
+        "The person shakes the basket by holding it closely with both hands and gently moving it from side to side.",
+        "The person shakes the basket by swinging it smoothly with one hand, supporting it underneath with the other hand.",
+        "The person shakes the basket by lifting it slightly above their head and lowering it smoothly with both hands."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person shake the basket? Choose **only one** option from the following list.\nOptions:\n(A) The person shakes the basket by tilting it slightly with both hands allowing the contents to shift naturally.\n(B) The person shakes the basket by lifting the bottom part of the basket in a quick motion using the left hand.\n(C) The person shakes the basket by holding it closely with both hands and gently moving it from side to side.\n(D) The person shakes the basket by swinging it smoothly with one hand, supporting it underneath with the other hand.\n(E) The person shakes the basket by lifting it slightly above their head and lowering it smoothly with both hands.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person shakes the basket by holding it closely with both hands and gently moving it from side to side."
+    },
+    "correct_idx": [
+        1
+    ]
+}

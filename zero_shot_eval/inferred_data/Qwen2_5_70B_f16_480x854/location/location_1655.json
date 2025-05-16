@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move the knife?",
+    "options": [
+        "The person moved the knife at the center of the countertop.",
+        "The person moved the knife to the left side of the countertop.",
+        "The person moved the knife to the back edge of the countertop.",
+        "The person moved the knife to the right corner of the countertop.",
+        "The person moved the knife to the front middle of the countertop."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move the knife? Choose **only one** option from the following list.\nOptions:\n(A) The person moved the knife at the center of the countertop.\n(B) The person moved the knife to the left side of the countertop.\n(C) The person moved the knife to the back edge of the countertop.\n(D) The person moved the knife to the right corner of the countertop.\n(E) The person moved the knife to the front middle of the countertop.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person moved the knife to the back edge of the countertop."
+    },
+    "correct_idx": [
+        0
+    ]
+}

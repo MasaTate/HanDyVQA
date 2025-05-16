@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person stains the carved wooden plank with the roller in his right hand while the left hand steadies the plank.",
+        "The person touches the carved wooden plank with the brush in his left hand while the right hand supports the plank.",
+        "The person paints the carved wooden plank with the brush in his right hand while the left hand holds the upper part of the wooden plank.",
+        "The person varnishes the carved wooden plank with a sponge in his right hand while the left hand lifts the plank.",
+        "The person draws designs on the carved wooden plank with a marker in his right hand while holding the plank with his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person stains the carved wooden plank with the roller in his right hand while the left hand steadies the plank.\n(B) The person touches the carved wooden plank with the brush in his left hand while the right hand supports the plank.\n(C) The person paints the carved wooden plank with the brush in his right hand while the left hand holds the upper part of the wooden plank.\n(D) The person varnishes the carved wooden plank with a sponge in his right hand while the left hand lifts the plank.\n(E) The person draws designs on the carved wooden plank with a marker in his right hand while holding the plank with his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person paints the carved wooden plank with the brush in his right hand while the left hand holds the upper part of the wooden plank."
+    },
+    "correct_idx": [
+        2
+    ]
+}

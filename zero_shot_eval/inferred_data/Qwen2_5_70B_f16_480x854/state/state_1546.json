@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the tool box in the drawer change?",
+    "options": [
+        "The toolbox was pushed back and left closed.",
+        "The toolbox was tipped over and its contents were spilled out.",
+        "The toolbox was pulled out and left open.",
+        "The toolbox was taken out completely and placed on the floor.",
+        "The toolbox was slid halfway out and left partially closed."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the tool box in the drawer change? Choose **only one** option from the following list.\nOptions:\n(A) The toolbox was pushed back and left closed.\n(B) The toolbox was tipped over and its contents were spilled out.\n(C) The toolbox was pulled out and left open.\n(D) The toolbox was taken out completely and placed on the floor.\n(E) The toolbox was slid halfway out and left partially closed.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The toolbox was pulled out and left open."
+    },
+    "correct_idx": [
+        2
+    ]
+}

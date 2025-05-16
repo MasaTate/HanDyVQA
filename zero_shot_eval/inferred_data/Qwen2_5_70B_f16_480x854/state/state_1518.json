@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of a guitar change?",
+    "options": [
+        "The guitar's body was refinished, enhancing its appearance and gloss.",
+        "The guitar's string tension was adjusted, altering its sound.",
+        "The guitar's neck was replaced, changing its feel and playability.",
+        "The guitar's pickups were upgraded, improving its tonal quality.",
+        "The guitar's bridge was adjusted, modifying its action and intonation."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of a guitar change? Choose **only one** option from the following list.\nOptions:\n(A) The guitar's body was refinished, enhancing its appearance and gloss.\n(B) The guitar's string tension was adjusted, altering its sound.\n(C) The guitar's neck was replaced, changing its feel and playability.\n(D) The guitar's pickups were upgraded, improving its tonal quality.\n(E) The guitar's bridge was adjusted, modifying its action and intonation.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The guitar's string tension was adjusted, altering its sound."
+    },
+    "correct_idx": [
+        1
+    ]
+}

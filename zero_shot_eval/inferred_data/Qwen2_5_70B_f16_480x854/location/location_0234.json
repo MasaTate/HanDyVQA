@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place his left hand?",
+    "options": [
+        "The person places his left hand under the stairs.",
+        "The person places his left hand on the stairs.",
+        "The person places his left hand beside the stairs.",
+        "The person places his left hand above the stairs.",
+        "The person places his left hand at the base of the stairs."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place his left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person places his left hand under the stairs.\n(B) The person places his left hand on the stairs.\n(C) The person places his left hand beside the stairs.\n(D) The person places his left hand above the stairs.\n(E) The person places his left hand at the base of the stairs.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person places his left hand on the stairs."
+    },
+    "correct_idx": [
+        0
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person clean her right hand?",
+    "options": [
+        "The person cleans her right hand by wiping it with a cloth after splashing water on it.",
+        "The person cleans her right hand using a brush dipped in soap, scrubbing gently.",
+        "The person cleans her right hand by compressing her right hand fingers using soap.",
+        "The person cleans her right hand by rinsing it under running water, using soap sparingly.",
+        "The person cleans her right hand by drying it gently after shaking off excess water."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person clean her right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person cleans her right hand by wiping it with a cloth after splashing water on it.\n(B) The person cleans her right hand using a brush dipped in soap, scrubbing gently.\n(C) The person cleans her right hand by compressing her right hand fingers using soap.\n(D) The person cleans her right hand by rinsing it under running water, using soap sparingly.\n(E) The person cleans her right hand by drying it gently after shaking off excess water.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person cleans her right hand by rinsing it under running water, using soap sparingly."
+    },
+    "correct_idx": [
+        2
+    ]
+}

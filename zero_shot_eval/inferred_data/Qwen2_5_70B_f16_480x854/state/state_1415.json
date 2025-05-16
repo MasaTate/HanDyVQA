@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the bucket change?",
+    "options": [
+        "The bucket was searched and rummaged, and some of its contents were taken.",
+        "The bucket was filled with water and splashed around.",
+        "The bucket was turned upside down, spilling its contents onto the ground.",
+        "The bucket was painted a different color and left to dry.",
+        "The bucket was taken outside, exposed to the elements, and began to rust."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the bucket change? Choose **only one** option from the following list.\nOptions:\n(A) The bucket was searched and rummaged, and some of its contents were taken.\n(B) The bucket was filled with water and splashed around.\n(C) The bucket was turned upside down, spilling its contents onto the ground.\n(D) The bucket was painted a different color and left to dry.\n(E) The bucket was taken outside, exposed to the elements, and began to rust.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(A) The bucket was searched and rummaged, and some of its contents were taken."
+    },
+    "correct_idx": [
+        0
+    ]
+}

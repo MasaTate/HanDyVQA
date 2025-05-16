@@ -1,0 +1,17 @@
+{
+    "question": "How does the person scoop more pancake batter from the bowl of smooth batter?",
+    "options": [
+        "The person uses their left hand to hold the ladle somewhat loosely, dipping it into the bowl and retrieving a smaller portion of batter with a less steady motion.",
+        "The person scoops more pancake batter from the bowl of smooth batter using their right hand to grip the ladle firmly, dipping it into the bowl of smooth batter and scooping out a generous portion with a steady, controlled motion.",
+        "The person grabs the ladle with their right hand and uses a quicker, less controlled motion to scoop a relatively small amount of batter from the bowl.",
+        "The person holds the ladle with both hands, lowering it into the bowl with more difficulty and spilling some batter while trying to scoop.",
+        "The person uses their right hand to handle the ladle delicately, dipping it into the bowl but scooping out only a small amount of batter."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person scoop more pancake batter from the bowl of smooth batter? Choose **only one** option from the following list.\nOptions:\n(A) The person uses their left hand to hold the ladle somewhat loosely, dipping it into the bowl and retrieving a smaller portion of batter with a less steady motion.\n(B) The person scoops more pancake batter from the bowl of smooth batter using their right hand to grip the ladle firmly, dipping it into the bowl of smooth batter and scooping out a generous portion with a steady, controlled motion.\n(C) The person grabs the ladle with their right hand and uses a quicker, less controlled motion to scoop a relatively small amount of batter from the bowl.\n(D) The person holds the ladle with both hands, lowering it into the bowl with more difficulty and spilling some batter while trying to scoop.\n(E) The person uses their right hand to handle the ladle delicately, dipping it into the bowl but scooping out only a small amount of batter.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person scoops more pancake batter from the bowl of smooth batter using their right hand to grip the ladle firmly, dipping it into the bowl of smooth batter and scooping out a generous portion with a steady, controlled motion."
+    },
+    "correct_idx": [
+        1
+    ]
+}

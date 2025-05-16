@@ -1,0 +1,17 @@
+{
+    "question": "How does the person wipe the surface of the wooden model?",
+    "options": [
+        "The person slowly cleans the surface of the wooden model with the palm of the left hand after applying some cleaning liquid.",
+        "The person drags the cloth gently across the surface of the wooden model with the knuckles of the right hand while holding it at an angle.",
+        "The person taps the surface of the wooden model with the back of the left hand before gently brushing it with a cloth held in the right hand.",
+        "The person quickly wipes the surface of the wooden model using the right hand fingertips after making a hole.",
+        "The person moves the wooden model slightly with the fingers of the right hand, casually wiping the surface in the process."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person wipe the surface of the wooden model? Choose **only one** option from the following list.\nOptions:\n(A) The person slowly cleans the surface of the wooden model with the palm of the left hand after applying some cleaning liquid.\n(B) The person drags the cloth gently across the surface of the wooden model with the knuckles of the right hand while holding it at an angle.\n(C) The person taps the surface of the wooden model with the back of the left hand before gently brushing it with a cloth held in the right hand.\n(D) The person quickly wipes the surface of the wooden model using the right hand fingertips after making a hole.\n(E) The person moves the wooden model slightly with the fingers of the right hand, casually wiping the surface in the process.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person quickly wipes the surface of the wooden model using the right hand fingertips after making a hole."
+    },
+    "correct_idx": [
+        3
+    ]
+}

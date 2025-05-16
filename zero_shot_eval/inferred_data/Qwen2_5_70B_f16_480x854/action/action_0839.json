@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person sprinkles orange dust onto the canvas on the table with her right hand.",
+        "The person spreads orange paint across the paper on the easel using a brush in her right hand.",
+        "The person dusts orange powder onto the artwork on the floor with her left hand while holding a container in her right hand.",
+        "The person is holding an orange chalk in her left hand while applying it to the artwork on the wall with her right hand.",
+        "The person pours orange pigment onto the artwork on the ground with her right hand while stabilizing the canvas with her left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person sprinkles orange dust onto the canvas on the table with her right hand.\n(B) The person spreads orange paint across the paper on the easel using a brush in her right hand.\n(C) The person dusts orange powder onto the artwork on the floor with her left hand while holding a container in her right hand.\n(D) The person is holding an orange chalk in her left hand while applying it to the artwork on the wall with her right hand.\n(E) The person pours orange pigment onto the artwork on the ground with her right hand while stabilizing the canvas with her left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person dusts orange powder onto the artwork on the floor with her left hand while holding a container in her right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

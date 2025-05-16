@@ -1,0 +1,17 @@
+{
+    "question": "How does the person carry a cloth on the motorbike?",
+    "options": [
+        "The person carefully removes the cloth from the motorbike using both hands, preventing it from flapping in the wind.",
+        "The person moves the cloth along the side of the motorbike with one hand while using the other hand to steady the bike.",
+        "The person gently lifts up the cloth from the motorbike using his left hand and supports it with his right hand.",
+        "The person lifts the cloth into the air with one hand and smoothly catches it with the same hand as it descends.",
+        "The person rolls the cloth up carefully in his left hand before smoothly sliding it off the motorbike with his right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person carry a cloth on the motorbike? Choose **only one** option from the following list.\nOptions:\n(A) The person carefully removes the cloth from the motorbike using both hands, preventing it from flapping in the wind.\n(B) The person moves the cloth along the side of the motorbike with one hand while using the other hand to steady the bike.\n(C) The person gently lifts up the cloth from the motorbike using his left hand and supports it with his right hand.\n(D) The person lifts the cloth into the air with one hand and smoothly catches it with the same hand as it descends.\n(E) The person rolls the cloth up carefully in his left hand before smoothly sliding it off the motorbike with his right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person gently lifts up the cloth from the motorbike using his left hand and supports it with his right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person move another wooden tile?",
+    "options": [
+        "The person nudges the wooden tile forward with his palm and then tilts it, sliding another wooden tile with his left hand.",
+        "The person holds the corner of the wooden tile and lifts it upwards before positioning another wooden tile underneath with his right hand.",
+        "The person flips the wooden tile to the side, slides another wooden tile, and then lifts the tile using his right hand.",
+        "The person slides the wooden tile across the surface with two fingers and gently places another wooden tile on top using his left hand.",
+        "The person picks up the wooden tile with both hands and smoothly positions another wooden tile beside it."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person move another wooden tile? Choose **only one** option from the following list.\nOptions:\n(A) The person nudges the wooden tile forward with his palm and then tilts it, sliding another wooden tile with his left hand.\n(B) The person holds the corner of the wooden tile and lifts it upwards before positioning another wooden tile underneath with his right hand.\n(C) The person flips the wooden tile to the side, slides another wooden tile, and then lifts the tile using his right hand.\n(D) The person slides the wooden tile across the surface with two fingers and gently places another wooden tile on top using his left hand.\n(E) The person picks up the wooden tile with both hands and smoothly positions another wooden tile beside it.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person holds the corner of the wooden tile and lifts it upwards before positioning another wooden tile underneath with his right hand."
+    },
+    "correct_idx": [
+        2
+    ]
+}

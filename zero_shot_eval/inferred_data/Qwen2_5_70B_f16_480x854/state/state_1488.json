@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the napkin change?",
+    "options": [
+        "The napkin was crumpled into a ball, altering its position and shape.",
+        "The napkin was unfolded and spread out on the table, altering its position and shape.",
+        "The napkin was torn into several pieces, altering its position and shape.",
+        "The napkin was picked up from the bucket, altering its position and shape.",
+        "The napkin was soaked in water, altering its position and shape."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the napkin change? Choose **only one** option from the following list.\nOptions:\n(A) The napkin was crumpled into a ball, altering its position and shape.\n(B) The napkin was unfolded and spread out on the table, altering its position and shape.\n(C) The napkin was torn into several pieces, altering its position and shape.\n(D) The napkin was picked up from the bucket, altering its position and shape.\n(E) The napkin was soaked in water, altering its position and shape.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The napkin was soaked in water, altering its position and shape."
+    },
+    "correct_idx": [
+        3
+    ]
+}

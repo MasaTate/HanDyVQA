@@ -1,0 +1,17 @@
+{
+    "question": "How does the person lower the left hand?",
+    "options": [
+        "The person gently moves the left hand sideways, guiding it near the sandwich edge.",
+        "The person rotates the left hand in a smooth circular motion as it approaches the sandwich.",
+        "The person slowly lowers the left hand to slice the sandwich up and downwards.",
+        "The person lowers the left hand at an angle, moving closely by the side of the sandwich.",
+        "The person gently lowers the left hand diagonally towards the corner of the sandwich without slicing."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person lower the left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person gently moves the left hand sideways, guiding it near the sandwich edge.\n(B) The person rotates the left hand in a smooth circular motion as it approaches the sandwich.\n(C) The person slowly lowers the left hand to slice the sandwich up and downwards.\n(D) The person lowers the left hand at an angle, moving closely by the side of the sandwich.\n(E) The person gently lowers the left hand diagonally towards the corner of the sandwich without slicing.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person gently lowers the left hand diagonally towards the corner of the sandwich without slicing."
+    },
+    "correct_idx": [
+        2
+    ]
+}

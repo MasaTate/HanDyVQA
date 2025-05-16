@@ -1,0 +1,17 @@
+{
+    "question": "How does the person open a door with his left hand?",
+    "options": [
+        "The person uses his left hand to push the door open with the palm against the door surface.",
+        "The person grips the door handle with his left hand and turns it to the right to pull the door open.",
+        "The person uses his left hand to slide the door open along the track, avoiding the knob.",
+        "The person lifts the door open by placing his left hand under the edge and moving it upwards.",
+        "The person uses his left hand to hold the door knob and pulls it towards him."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person open a door with his left hand? Choose **only one** option from the following list.\nOptions:\n(A) The person uses his left hand to push the door open with the palm against the door surface.\n(B) The person grips the door handle with his left hand and turns it to the right to pull the door open.\n(C) The person uses his left hand to slide the door open along the track, avoiding the knob.\n(D) The person lifts the door open by placing his left hand under the edge and moving it upwards.\n(E) The person uses his left hand to hold the door knob and pulls it towards him.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person uses his left hand to hold the door knob and pulls it towards him."
+    },
+    "correct_idx": [
+        4
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person grasps a bottle of vinegar with his right hand and tips it into a cap held by the left hand.",
+        "The person carries a jug of water with his right hand and uses his left hand to steady a cup beneath it.",
+        "The person lifts a container of paint with his right hand and uses a brush held in his left hand to mix it.",
+        "The person holds a bottle of oil using his right hand and pours it into the cap held by the left hand.",
+        "The person supports a can of soda with his right hand and opens it using a bottle opener held in his left hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person grasps a bottle of vinegar with his right hand and tips it into a cap held by the left hand.\n(B) The person carries a jug of water with his right hand and uses his left hand to steady a cup beneath it.\n(C) The person lifts a container of paint with his right hand and uses a brush held in his left hand to mix it.\n(D) The person holds a bottle of oil using his right hand and pours it into the cap held by the left hand.\n(E) The person supports a can of soda with his right hand and opens it using a bottle opener held in his left hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person holds a bottle of oil using his right hand and pours it into the cap held by the left hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

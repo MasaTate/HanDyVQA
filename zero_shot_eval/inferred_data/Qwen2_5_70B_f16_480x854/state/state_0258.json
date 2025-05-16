@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the another clip from the table change?",
+    "options": [
+        "The another clip from the table was picked and placed back without being attached to anything.",
+        "The another clip from the table was picked and turned over but not attached to the wood.",
+        "The another clip from the table was picked and was about to be attached on the wood.",
+        "The another clip from the table was picked and held without approaching the wood.",
+        "The another clip from the table was picked and moved closer to but not touching the wood."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the another clip from the table change? Choose **only one** option from the following list.\nOptions:\n(A) The another clip from the table was picked and placed back without being attached to anything.\n(B) The another clip from the table was picked and turned over but not attached to the wood.\n(C) The another clip from the table was picked and was about to be attached on the wood.\n(D) The another clip from the table was picked and held without approaching the wood.\n(E) The another clip from the table was picked and moved closer to but not touching the wood.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The another clip from the table was picked and was about to be attached on the wood."
+    },
+    "correct_idx": [
+        2
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "question": "How does the person add soap onto her hand?",
+    "options": [
+        "The person tilts the soap bottle slightly and allows the soap to flow smoothly onto her hand.",
+        "The person gently shakes the soap bottle to encourage the soap to dispense smoothly into her palm.",
+        "The person holds the soap bottle with both hands and presses gently, releasing the soap evenly into her hand.",
+        "The person unscrews the cap of the soap bottle and pours the soap directly into her palm.",
+        "The person adds the soap by pressing the cap of the soap bottle with her right hand, releasing soap into her palm."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person add soap onto her hand? Choose **only one** option from the following list.\nOptions:\n(A) The person tilts the soap bottle slightly and allows the soap to flow smoothly onto her hand.\n(B) The person gently shakes the soap bottle to encourage the soap to dispense smoothly into her palm.\n(C) The person holds the soap bottle with both hands and presses gently, releasing the soap evenly into her hand.\n(D) The person unscrews the cap of the soap bottle and pours the soap directly into her palm.\n(E) The person adds the soap by pressing the cap of the soap bottle with her right hand, releasing soap into her palm.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person adds the soap by pressing the cap of the soap bottle with her right hand, releasing soap into her palm."
+    },
+    "correct_idx": [
+        4
+    ]
+}

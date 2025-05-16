@@ -1,0 +1,17 @@
+{
+    "question": "How did the state of the   brush change?",
+    "options": [
+        "The brush was moved side to side in the container.",
+        "The brush was moved in a circular motion within the container.",
+        "The brush was moved up and down in the container.",
+        "The brush was held still in the container.",
+        "The brush was moved diagonally across in the container."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How did the state of the   brush change? Choose **only one** option from the following list.\nOptions:\n(A) The brush was moved side to side in the container.\n(B) The brush was moved in a circular motion within the container.\n(C) The brush was moved up and down in the container.\n(D) The brush was held still in the container.\n(E) The brush was moved diagonally across in the container.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The brush was moved up and down in the container."
+    },
+    "correct_idx": [
+        2
+    ]
+}

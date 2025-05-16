@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person grabs the plastic spatula and lifts the frying pan with her left hand and then flips the food using a fork in her right hand.",
+        "The person sets down the frying pan on the counter with her left hand and then seasons the food using a shaker in her right hand.",
+        "The person picks up the wooden spoon and closes the frying pan's lid with her left hand before tasting the food with her right hand.",
+        "The person picks up the metal clipper and opens the frying pan's lid with her left hand and then stirs the food using a laddle in her right hand.",
+        "The person holds the frying pan with her left hand and then serves the food onto a plate with a slotted spoon in her right hand."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person grabs the plastic spatula and lifts the frying pan with her left hand and then flips the food using a fork in her right hand.\n(B) The person sets down the frying pan on the counter with her left hand and then seasons the food using a shaker in her right hand.\n(C) The person picks up the wooden spoon and closes the frying pan's lid with her left hand before tasting the food with her right hand.\n(D) The person picks up the metal clipper and opens the frying pan's lid with her left hand and then stirs the food using a laddle in her right hand.\n(E) The person holds the frying pan with her left hand and then serves the food onto a plate with a slotted spoon in her right hand.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(D) The person picks up the metal clipper and opens the frying pan's lid with her left hand and then stirs the food using a laddle in her right hand."
+    },
+    "correct_idx": [
+        3
+    ]
+}

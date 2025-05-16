@@ -1,0 +1,17 @@
+{
+    "question": "How does the person scratch his right leg?",
+    "options": [
+        "The person scratches his right leg by extending his left hand and using his palm to softly rub against the leg.",
+        "The person scratches his right leg by extending his right hand, using his fingers to gently rub or move in a back-and-forth motion on the leg's surface.",
+        "The person scratches his right leg by bending down and using his foot to lightly touch the leg's surface.",
+        "The person scratches his right leg by holding a pen in his right hand and using it softly on the skin.",
+        "The person scratches his right leg by using both hands to rub at the same time in a gentle motion."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person scratch his right leg? Choose **only one** option from the following list.\nOptions:\n(A) The person scratches his right leg by extending his left hand and using his palm to softly rub against the leg.\n(B) The person scratches his right leg by extending his right hand, using his fingers to gently rub or move in a back-and-forth motion on the leg's surface.\n(C) The person scratches his right leg by bending down and using his foot to lightly touch the leg's surface.\n(D) The person scratches his right leg by holding a pen in his right hand and using it softly on the skin.\n(E) The person scratches his right leg by using both hands to rub at the same time in a gentle motion.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person scratches his right leg by extending his right hand, using his fingers to gently rub or move in a back-and-forth motion on the leg's surface."
+    },
+    "correct_idx": [
+        1
+    ]
+}

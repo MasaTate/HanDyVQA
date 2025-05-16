@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person move another tree branch?",
+    "options": [
+        "The person moved the branch away from them and closer to the fence.",
+        "The person shifted the branch to the left side of the fence.",
+        "The person moved the branch towards them and away from the fence.",
+        "The person adjusted the branch behind them and next to the fence.",
+        "The person placed the branch further down along the fence."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person move another tree branch? Choose **only one** option from the following list.\nOptions:\n(A) The person moved the branch away from them and closer to the fence.\n(B) The person shifted the branch to the left side of the fence.\n(C) The person moved the branch towards them and away from the fence.\n(D) The person adjusted the branch behind them and next to the fence.\n(E) The person placed the branch further down along the fence.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person moved the branch towards them and away from the fence."
+    },
+    "correct_idx": [
+        2
+    ]
+}

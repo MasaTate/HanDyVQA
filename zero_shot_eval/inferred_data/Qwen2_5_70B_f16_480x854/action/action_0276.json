@@ -1,0 +1,17 @@
+{
+    "question": "What is the person doing with his/her hands?",
+    "options": [
+        "The person pulls two bottles from the fridge using both hands; the right hand places one bottle on the counter while the left hand keeps hold of the other bottle.",
+        "The person grabs two bottles from the drawer using both hands; the right hand carries a bottle while the left hand puts the other bottle onto the tabletop.",
+        "The person lifts two bottles from the drawer using both hands; the right hand holds a bottle while the left hand turns the other bottle slightly.",
+        "The person passes two bottles to a friend with both hands; the right hand gives one bottle while the left hand holds onto the other bottle.",
+        "The person picks two bottles from the shelf using both hands; the right hand grips a bottle while the left hand holds the other bottle steadily."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: What is the person doing with his/her hands? Choose **only one** option from the following list.\nOptions:\n(A) The person pulls two bottles from the fridge using both hands; the right hand places one bottle on the counter while the left hand keeps hold of the other bottle.\n(B) The person grabs two bottles from the drawer using both hands; the right hand carries a bottle while the left hand puts the other bottle onto the tabletop.\n(C) The person lifts two bottles from the drawer using both hands; the right hand holds a bottle while the left hand turns the other bottle slightly.\n(D) The person passes two bottles to a friend with both hands; the right hand gives one bottle while the left hand holds onto the other bottle.\n(E) The person picks two bottles from the shelf using both hands; the right hand grips a bottle while the left hand holds the other bottle steadily.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person grabs two bottles from the drawer using both hands; the right hand carries a bottle while the left hand puts the other bottle onto the tabletop."
+    },
+    "correct_idx": [
+        1
+    ]
+}

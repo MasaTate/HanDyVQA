@@ -1,0 +1,17 @@
+{
+    "question": "How does the person kneel the right hand?",
+    "options": [
+        "The person raises their right hand above shoulder height while standing, releasing their grip on the scaffolding as they lean backward.",
+        "The person keeps their right hand on the mini scaffolding at chest level while bending, maintaining their grip on the scaffolding as they lower their body.",
+        "The person rests their right hand on their knee while sitting down, keeping a steady hand without bending their body.",
+        "The person moves their right hand in a gentle arc away from the scaffolding while gradually standing up.",
+        "The person holds their right hand straight ahead, letting go of the scaffolding as they move upright."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person kneel the right hand? Choose **only one** option from the following list.\nOptions:\n(A) The person raises their right hand above shoulder height while standing, releasing their grip on the scaffolding as they lean backward.\n(B) The person keeps their right hand on the mini scaffolding at chest level while bending, maintaining their grip on the scaffolding as they lower their body.\n(C) The person rests their right hand on their knee while sitting down, keeping a steady hand without bending their body.\n(D) The person moves their right hand in a gentle arc away from the scaffolding while gradually standing up.\n(E) The person holds their right hand straight ahead, letting go of the scaffolding as they move upright.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(B) The person keeps their right hand on the mini scaffolding at chest level while bending, maintaining their grip on the scaffolding as they lower their body."
+    },
+    "correct_idx": [
+        1
+    ]
+}

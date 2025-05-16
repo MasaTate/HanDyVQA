@@ -1,0 +1,17 @@
+{
+    "question": "Where does the person place the beef?",
+    "options": [
+        "The person placed the beef on the cutting board.",
+        "The person placed the beef on the plate.",
+        "The person placed the beef on the pan.",
+        "The person placed the beef in the refrigerator.",
+        "The person placed the beef on the countertop."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: Where does the person place the beef? Choose **only one** option from the following list.\nOptions:\n(A) The person placed the beef on the cutting board.\n(B) The person placed the beef on the plate.\n(C) The person placed the beef on the pan.\n(D) The person placed the beef in the refrigerator.\n(E) The person placed the beef on the countertop.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(C) The person placed the beef on the pan."
+    },
+    "correct_idx": [
+        2
+    ]
+}

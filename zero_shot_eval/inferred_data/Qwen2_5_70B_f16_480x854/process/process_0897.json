@@ -1,0 +1,17 @@
+{
+    "question": "How does the person examine the nails?",
+    "options": [
+        "The person reaches into the container and grabs a handful of nails with both hands, then lets them fall on the table without inspecting them closely.",
+        "The person carefully selects each nail using just the right hand while holding them up to the light to check for defects.",
+        "The person scoops a large number of nails out of the container using a scoop, then spreads them out on the floor for a better view.",
+        "The person uses a pair of pliers to pick a single nail from the container and examines it under a magnifying glass.",
+        "The person rummages inside the container and randomly picks up some nails using the left hand and carefully inspects the nails by slightly twisting it to the left and right."
+    ],
+    "inference": {
+        "prompt": "Carefully watch the first-person view video and pay attention to the cause and sequence of events, the detail and movement of objects, and the action and pose of persons.\nQuestion: How does the person examine the nails? Choose **only one** option from the following list.\nOptions:\n(A) The person reaches into the container and grabs a handful of nails with both hands, then lets them fall on the table without inspecting them closely.\n(B) The person carefully selects each nail using just the right hand while holding them up to the light to check for defects.\n(C) The person scoops a large number of nails out of the container using a scoop, then spreads them out on the floor for a better view.\n(D) The person uses a pair of pliers to pick a single nail from the container and examines it under a magnifying glass.\n(E) The person rummages inside the container and randomly picks up some nails using the left hand and carefully inspects the nails by slightly twisting it to the left and right.\n\n Answer format:\n(A) <Description of Option A>",
+        "output": "(E) The person rummages inside the container and randomly picks up some nails using the left hand and carefully inspects the nails by slightly twisting it to the left and right."
+    },
+    "correct_idx": [
+        4
+    ]
+}
